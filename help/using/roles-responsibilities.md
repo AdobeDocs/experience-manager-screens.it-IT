@@ -4,7 +4,7 @@ seo-title: Ruoli e responsabilità del progetto AEM Screens
 description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 seo-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 translation-type: tm+mt
-source-git-commit: f01b69b860a3862e2b46f11b2d9b95dede742d9c
+source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
 
 ---
 
@@ -161,7 +161,7 @@ La tabella seguente riassume il **Giorno due: Grafico** RACI di supporto post-la
 | *Secondo giorno:Supporto post-avvio* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
 | Supporto di livello 1 | I | I | RA |
-| Supporto di livello 1 | I | C | RA |
-| Supporto di livello 1 | I | RA | C |
+| Supporto di livello 2 | I | C | RA |
+| Supporto di livello 3 | I | RA | C |
 | Aggiornamento contenuti | RA | I | I |
-| Valutare il successo dell'UX e identificare le aree di miglioramento | RA | C | I
+| Valutare il successo dell'UX e identificare le aree di miglioramento | RA | C | I |
