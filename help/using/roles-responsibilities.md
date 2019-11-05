@@ -4,7 +4,7 @@ seo-title: Ruoli e responsabilità del progetto AEM Screens
 description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 seo-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 translation-type: tm+mt
-source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
+source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
 
 ---
 
@@ -44,7 +44,7 @@ L'integratore A/V è il fornitore/partner hardware. Si tratta della parte che si
 
 Un integratore AV è responsabile della realizzazione di scoperte con i clienti finali per definire i requisiti che determinano l'ambito del progetto per progettare, creare e gestire in modo efficace le installazioni intorno all'hardware di digital signage.
 
-### Considerazione del partner hardware {#selecting-hardware-partner}
+#### Considerazione del partner hardware {#selecting-hardware-partner}
 
 È fondamentale selezionare il partner hardware adatto. Devono essere prese in considerazione le seguenti domande:
 
@@ -147,12 +147,18 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 | Piano di aggiornamento dei contenuti | I | RA | C | C |
 | Piano di transizione pilota alla produzione | RA | RA | I | I |
 | Trasferimento delle conoscenze | RA | RA | I | I |
+
+| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+|---|---|---|---|---|
 | *Primo giorno: Implementazione del progetto (preparazione al dettaglio)* |
 | Ordinamento e archiviazione hardware | RA | I | I | I |
 | Programma di onboarding per la vendita al dettaglio | I | I | C | RA |
 | Verifica dell’accettazione da parte dell’utente | I | C | RA |  |
 | Configurazione di massa hardware | RA | I | C | I |
 | Contratto relativo al supporto post-avvio | RA | C | RA | C |
+
+| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+|---|---|---|---|---|
 | *Primo giorno:Primo giorno: Implementazione progetto (hardware)* |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Retail Design include operazioni di cablaggio | - | - | - | - |
