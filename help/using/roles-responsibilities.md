@@ -4,7 +4,7 @@ seo-title: Ruoli e responsabilità del progetto AEM Screens
 description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 seo-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 translation-type: tm+mt
-source-git-commit: fe5a340e817488dc4c3a92d607c990756ac259b6
+source-git-commit: fb13c72f0ab841e075ab3cf6918d872949739609
 
 ---
 
@@ -30,7 +30,7 @@ La sezione seguente fornisce una panoramica sull'audience di destinazione:
 
 Adobe include risorse dei servizi gestiti Adobe come CSE (Customer Success Engineer) e Adobe Support.
 
-### Implementatori AEM {#aem-implementors}
+### Implementatori di AEM {#aem-implementors}
 
 Gli implementatori AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
 
@@ -44,7 +44,21 @@ L'integratore A/V è il fornitore/partner hardware. Si tratta della parte che si
 
 Un integratore AV è responsabile della realizzazione di scoperte con i clienti finali per definire i requisiti che determinano l'ambito del progetto per progettare, creare e gestire in modo efficace le installazioni intorno all'hardware di digital signage.
 
-### Strategie aziendali {#business-strategist}
+### Considerazione del partner hardware {#selecting-hardware-partner}
+
+È fondamentale selezionare il partner hardware adatto. Devono essere prese in considerazione le seguenti domande:
+
+1. Quali sono i termini del contratto di assistenza?
+
+1. Cos'è la copertura globale?
+
+1. È un supporto di 24 ore?
+
+1. Come verranno gestiti i dispositivi?
+
+1. Quali sono i sistemi di monitoraggio e di allarme attivi?
+
+### Responsabili aziendali {#business-strategist}
 
 Gli Business Strategists rappresentano i decisori aziendali. Questo ruolo è fortemente coinvolto nelle fasi di scoperta e requisiti ed è il principale motore del progetto.
 
@@ -60,7 +74,7 @@ Creativi e gestione dei contenuti possono essere:
 * Agenzia creativa o
 * Brand Manager
 
-### Manager progetto {#project-managers}
+### Manager di progetto {#project-managers}
 
 Generalmente, i project manager gestiscono l'intera implementazione per la distribuzione di AEM Screens. Un project manager è la persona responsabile per l'intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
@@ -114,28 +128,31 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 | Requisiti hardware e per le visite al sito | RA | I | C | C |
 | Definizione del processo di supporto | C | I | RA | I |
 | Definizione dell'ambito di lavoro e del piano di progetto | RA | RA | C | C |
+
+| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+|---|---|---|---|---|
 | *Primo giorno: Implementazione del progetto (progettazione dell'applicazione)* |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento sul piano e sulla pianificazione del progetto | RA | RA | C | C |
 | Valutazione degli ambienti server correnti | I | RA | I | I |
-| Requisiti di progettazione UX | I | AR | C | AR |
+| Requisiti di progettazione UX | I | RA | C | RA |
 | Convalida dei requisiti tecnici | I | RA | RA | C |
-| Progettazione architettura | I | AR | I | I |
-| Convalida della struttura dati con la progettazione dell'interfaccia utente | I | AR | C | C |
+| Progettazione architettura | I | RA | I | I |
+| Convalida della struttura dati con la progettazione dell'interfaccia utente | I | RA | C | C |
 | Sviluppo applicazioni | RA | RA | RA | RA |
-| Impostazione progetto AEM Screens | I | AR | C | I |
-| Implementazione di Analytics | I | AR | C | - |
-| Test e implementazione | AR | C | AR | I |
-| Configurazione server | I | AR | I | I |
-| Piano di aggiornamento dei contenuti | I | AR | C | C |
-| Piano di transizione pilota alla produzione | AR | AR | I | I |
-| Trasferimento delle conoscenze | AR | AR | I | I |
+| Impostazione progetto AEM Screens | I | RA | C | I |
+| Implementazione di Analytics | I | RA | C | - |
+| Test e implementazione | RA | C | RA | I |
+| Configurazione server | I | RA | I | I |
+| Piano di aggiornamento dei contenuti | I | RA | C | C |
+| Piano di transizione pilota alla produzione | RA | RA | I | I |
+| Trasferimento delle conoscenze | RA | RA | I | I |
 | *Primo giorno: Implementazione del progetto (preparazione al dettaglio)* |
-| Ordinamento e archiviazione hardware | AR | I | I | I |
-| Programma di onboarding per la vendita al dettaglio | I | I | C | AR |
-| Verifica dell’accettazione da parte dell’utente | I | C | AR |  |
-| Configurazione di massa hardware | AR | I | C | I |
-| Contratto relativo al supporto post-avvio | AR | C | AR | C |
+| Ordinamento e archiviazione hardware | RA | I | I | I |
+| Programma di onboarding per la vendita al dettaglio | I | I | C | RA |
+| Verifica dell’accettazione da parte dell’utente | I | C | RA |  |
+| Configurazione di massa hardware | RA | I | C | I |
+| Contratto relativo al supporto post-avvio | RA | C | RA | C |
 | *Primo giorno:Primo giorno: Implementazione progetto (hardware)* |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Retail Design include operazioni di cablaggio | - | - | - | - |
