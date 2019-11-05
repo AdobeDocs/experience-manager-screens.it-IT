@@ -4,7 +4,7 @@ seo-title: Ruoli e responsabilità del progetto AEM Screens
 description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 seo-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 translation-type: tm+mt
-source-git-commit: 67bbe7228a896c89a9aac80f2a15c1d6fefb6bb6
+source-git-commit: 7b55a3e847c533fbfc1bec77d1521889c24b66a2
 
 ---
 
@@ -118,9 +118,10 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni dei ruoli e fornisce un esempio di attività e considerazioni comuni in un progetto AEM Screens.
 
+La tabella seguente riassume il **Giorno zero: Considerazioni** pre-vendita:
+
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
-| *Giorno zero: Considerazioni pre-vendita* |
 | Formazione team e selezione fornitore | I | I | RA | RA |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento degli obiettivi strategici | CI | I | RA | RA |
@@ -129,9 +130,10 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 | Definizione del processo di supporto | C | I | RA | I |
 | Definizione dell'ambito di lavoro e del piano di progetto | RA | RA | C | C |
 
+La tabella seguente riassume il **Giorno 1: Implementazione progetto (progettazione applicazione)**:
+
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
-| *Primo giorno: Implementazione del progetto (progettazione dell'applicazione)* |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento sul piano e sulla pianificazione del progetto | RA | RA | C | C |
 | Valutazione degli ambienti server correnti | I | RA | I | I |
@@ -148,18 +150,20 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 | Piano di transizione pilota alla produzione | RA | RA | I | I |
 | Trasferimento delle conoscenze | RA | RA | I | I |
 
+La tabella seguente riassume il **Giorno 1: Implementazione del progetto (preparazione al dettaglio)**:
+
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
-| *Primo giorno: Implementazione del progetto (preparazione al dettaglio)* |
 | Ordinamento e archiviazione hardware | RA | I | I | I |
 | Programma di onboarding per la vendita al dettaglio | I | I | C | RA |
 | Verifica dell’accettazione da parte dell’utente | I | C | RA |  |
 | Configurazione di massa hardware | RA | I | C | I |
 | Contratto relativo al supporto post-avvio | RA | C | RA | C |
 
+La tabella seguente riassume il **Giorno 1:Primo giorno: Implementazione progetto (hardware)**:
+
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
-| *Primo giorno:Primo giorno: Implementazione progetto (hardware)* |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Retail Design include operazioni di cablaggio | - | - | - | - |
 | Selezione hardware del lettore | RAC | - | - | - |
