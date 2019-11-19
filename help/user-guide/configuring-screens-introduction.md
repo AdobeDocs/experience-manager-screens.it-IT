@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
 
 ---
 
@@ -19,33 +19,6 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 # Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
 
 Questa pagina mostra come installare e configurare i lettori Screens sui dispositivi.
-
-## Installazione di AEM Screens Player {#installing-aem-screens-player}
-
-Il lettore AEM Screens è disponibile per Android, Chrome OS, iOS e Windows.
-
-Per scaricare **AEM Screens Player**, visita la pagina dei download [**di**](https://download.macromedia.com/screens/) AEM 6.5 Player.
-
->[!NOTE]
->
->Una volta scaricata la versione più recente di Player (*.exe*), segui i passaggi del lettore per completare l'installazione ad hoc:
->
->1. Tenete premuto sull’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Andate a **Configurazione** dal menu delle azioni a sinistra e immettete l'indirizzo della posizione dell'istanza AEM in **Server** , quindi fate clic su **Salva**.
->1. Fate clic sul collegamento **Registrazione** dal menu delle azioni a sinistra e seguite i passaggi per completare il processo di registrazione del dispositivo.
->
-
-
-
-### Additional Resources {#additional-resources}
-
-Per ulteriori informazioni, consultate i seguenti argomenti:
-
-* Per scaricare Android Player, visita **Google Play**. Per ulteriori informazioni sull'implementazione di Android Watchdog, vedere [Implementazione del lettore](implementing-android-player.md)Android.
-
-* Per implementare Chrome OS Player, fare riferimento a [Chrome Management Console](implementing-chrome-os-player.md) per ulteriori informazioni.
-
-* Per configurare il lettore Windows di AEM Screens, consultate [Implementazione di Windows Player](implementing-windows-player.md).
 
 ## Server Configuration {#server-configuration}
 
