@@ -4,7 +4,7 @@ seo-title: Verifica e garanzia qualità per AEM Screens
 description: La pagina descrive la Guida alle procedure ottimali per la verifica e la garanzia della qualità per AEM Screens.
 seo-description: La pagina descrive la Guida alle procedure ottimali per la verifica e la garanzia della qualità per AEM Screens.
 translation-type: tm+mt
-source-git-commit: 12b1cc4f2b359742966c2073d233b0113459e2de
+source-git-commit: 86f01fbe2ae7750ad961df0693e72a84d785344e
 
 ---
 
@@ -20,6 +20,9 @@ Nella fase, devono essere costruiti e testati tutti i sistemi di prova.
 
 È necessario creare un elenco di controllo che identifichi tutti i KPI definiti in precedenza e che misuri il risultato finale rispetto a tali indicatori.
 
+>[!NOTE]
+> Questa fase dovrebbe essere utilizzata anche come strumento per la creazione di una guida di installazione e utente che possa essere successivamente spedita con l'apparecchiatura e mantenuta sul posto per riferimento futuro.
+
 Vanno considerati i seguenti elementi:
 
 ## 1. Considerazioni meccaniche {#mechanical-considerations}
@@ -33,7 +36,7 @@ Si raccomanda quanto segue:
 * gestione dei cavi
 * rete dei dispositivi
 
-## 2. Considerazioni software {#software-considerations}
+## 2. Considerazioni sul software {#software-considerations}
 
 Sono consigliate le seguenti considerazioni software:
 
@@ -42,8 +45,6 @@ Sono consigliate le seguenti considerazioni software:
 * riproduzione
 * dipendenze del database (definite in precedenza)
 
->[!NOTE]
-> Questa fase dovrebbe essere utilizzata anche come strumento per la creazione di una guida di installazione e utente che possa essere successivamente spedita con l'apparecchiatura e mantenuta sul posto per riferimento futuro.
 
 ## 3. Considerazioni sulla gestione dei dispositivi {#device-management-considerations}
 
@@ -58,8 +59,10 @@ Questo modulo consente di:
 1. Gestire i download dei contenuti
 1. Riavvio dell'applicazione
 
+Per informazioni dettagliate su ***Device Control Center***, consulta [Risoluzione dei problemi relativi a Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) nella Guida **utente di** AEM Screens.
+
 >[!CAUTION]
-> È NECESSARIO NON UTILIZZARE Device Control Center PER:
+> Non utilizzare Device Control Center per:
 >
 > 1. Installare le nuove versioni dell'applicazione del lettore
 > 1. Monitoraggio delle risorse a livello di sistema
