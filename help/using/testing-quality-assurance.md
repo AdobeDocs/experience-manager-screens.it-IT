@@ -4,7 +4,7 @@ seo-title: Verifica e garanzia qualità per AEM Screens
 description: La pagina descrive la Guida alle procedure ottimali per la verifica e la garanzia della qualità per AEM Screens.
 seo-description: La pagina descrive la Guida alle procedure ottimali per la verifica e la garanzia della qualità per AEM Screens.
 translation-type: tm+mt
-source-git-commit: 2301922de9638ffb5586202d1631d0fa4754aecc
+source-git-commit: d5eb9fadffcc41ede9b1f9399c5edbeac3363954
 
 ---
 
@@ -54,7 +54,7 @@ AEM Screens include un modulo Device Control Center che consente la gestione dei
 Si riferisce a qualsiasi dispositivo hardware del *lettore* in cui è installata l’applicazione del lettore Screens e che è registrato in un’istanza di AEM.
 Questo modulo consente di:
 
-1. Monitorare i registri degli errori dell'applicazione
+1. Monitorare i registri di errore dell’applicazione del lettore
 1. Gestione delle schermate remote
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
@@ -66,8 +66,8 @@ Per informazioni dettagliate su ***Device Control Center***, consulta [Risoluzio
 >
 > 1. Installare le nuove versioni dell'applicazione del lettore
 > 1. Monitoraggio delle risorse a livello di sistema
-> 1. Configurare le configurazioni a livello di sistema
-> 1. Consente l'intervento del desktop remoto.
+> 1. Risoluzione degli errori a livello di sistema
+> 1. Consenti intervento desktop remoto
 
 
 
@@ -80,6 +80,6 @@ Alcuni esempi sono:
 
 * Gestione dispositivi Google Chrome
 * TeamViewer
-* AirWatch42
-* Ingranaggi
-* Soti
+* AirWatch
+* 42Gears
+* Middleware proprietario dell'integratore AV
