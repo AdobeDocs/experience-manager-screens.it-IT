@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -64,6 +64,10 @@ Inoltre, potete specificare il numero massimo di file di registro da conservare 
 >L'opzione **Aggiorna firmware** funziona solo sulla cordova, come i lettori Android.
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+
+>[!NOTE]
+>
+>Si consiglia di disabilitare l'interfaccia utente **** Amministratore nelle installazioni di produzione.
 
 Puoi cancellare la cache per i canali e le applicazioni dall'interfaccia utente dell'amministratore in AEM Screens Player.
 
