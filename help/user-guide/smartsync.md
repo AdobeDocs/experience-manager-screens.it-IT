@@ -10,12 +10,12 @@ content-type: reference
 discoiquuid: 822dfbc1-3584-4509-a35c-1d68e5f84509
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
 
-# Transizione da ContentSync a SmartSync{#transitioning-from-contentsync-to-smartsync}
+# Transizione da ContentSync a SmartSync {#transitioning-from-contentsync-to-smartsync}
 
 Questa sezione fornisce una panoramica della funzione SmartSync e di come riduce al minimo il carico/lo storage del server e il traffico di rete per ridurre i costi.
 
@@ -74,18 +74,17 @@ Per passare da ContentSync a SmartSync, effettuate le seguenti operazioni:
    >
    >È necessario cancellare tutta la cache del contenuto prima di utilizzare SmartSync per la prima volta.
 
-1. Passa a **Configurazione della console Web di Adobe Experience Manager **tramite l'istanza di AEM —&gt; icona del martello —&gt; **Operazioni** —&gt; Console **** Web.
+1. Passa alla configurazione **della console Web di** Adobe Experience Manager tramite l’istanza di AEM —&gt; icona a forma di martello —&gt; **Operazioni** —&gt; Console **** Web.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
 1. **Viene aperta la configurazione della console Web di Adobe Experience Manager **s. Cercare *offline contentservices*.
 
-   Per eseguire la ricerca nella proprietà **Screens Offline Content Service **, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
+   Per cercare la proprietà **Screens Offline Content Service** , premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
 
    ![screen_shot_2019-02-19at22643pm](assets/screen_shot_2019-02-19at22643pm.png)
 
-1. Fate clic su **Salva** per abilitare la proprietà **Screens Offline Content Services* ***e quindi utilizzate SmartSync per AEM Screens.
+1. Fate clic su **Salva** per abilitare la proprietà **Screens Offline Content Services** e quindi utilizzate SmartSync per AEM Screens.
 1. Dopo aver attivato SmartSync, devi accedere al progetto e fare clic su **Aggiorna contenuto** offline *(dalla barra delle azioni),* come mostrato nella figura seguente.
 
    ![screen_shot_2019-02-25at102605am](assets/screen_shot_2019-02-25at102605am.png)
-
