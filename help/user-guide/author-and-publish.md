@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
 
 ---
 
@@ -321,6 +321,22 @@ Per distribuire gli aggiornamenti di contenuto dall’istanza di creazione al di
    >Per impostazione predefinita, tutte le caselle sono selezionate e sarà necessario deselezionare manualmente le caselle per pubblicare tutti i moduli nel progetto.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
+
+   **Informazioni sulla finestra di dialogo Includi elementi figlio**
+
+   Il passaggio sopra riportato mostra come pubblicare l’intero contenuto. Se si desidera utilizzare le altre tre alternative disponibili, sarà necessario verificare quella particolare opzione.
+Ad esempio, la seguente immagine consente di gestire e aggiornare solo le pagine modificate del progetto:
+   ![image](assets/author-publish-manage.png)
+
+   Seguite le spiegazioni riportate di seguito per comprendere le opzioni disponibili:
+
+   1. **Include solo elementi figlio**immediati:
+Questa opzione consente di gestire gli aggiornamenti solo per i nodi secondari della struttura del progetto.
+   1. **Solo pagine**modificate:
+Questa opzione consente di gestire gli aggiornamenti solo per le pagine modificate del progetto in cui si trovano le modifiche nella struttura del progetto.
+   1. **Includi solo pagine**già aggiornate:
+Questa opzione consente di gestire gli aggiornamenti solo per le pagine pubblicate in precedenza.
+
 
 1. Fate clic su **Pubblica** dalla procedura guidata **Gestisci pubblicazione.**
 
