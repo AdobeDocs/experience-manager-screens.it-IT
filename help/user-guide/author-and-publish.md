@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 428e1dbaa1a252d2aa9bcbb02264a0076b95291b
+source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
 
 ---
 
@@ -334,7 +334,7 @@ Ad esempio, la seguente immagine consente di gestire e aggiornare solo le pagine
 Questa opzione consente di gestire gli aggiornamenti solo per i nodi secondari della struttura del progetto.
    1. **Solo pagine**modificate:
 Questa opzione consente di gestire gli aggiornamenti solo per le pagine modificate del progetto in cui si trovano le modifiche nella struttura del progetto.
-   1. **Includi solo pagine**già aggiornate:
+   1. **Solo pagine**già pubblicate:
 Questa opzione consente di gestire gli aggiornamenti solo per le pagine pubblicate in precedenza.
 
 
