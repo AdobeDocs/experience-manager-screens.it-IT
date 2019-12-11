@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
 + Nozioni di base sulla rete di digital signage {#digital-signage-network}
    + [Parte 1: Ruoli e responsabilità del progetto](project-roles-responsibilities.md)
    + [Parte 2: Considerazioni relative all'ambito dei progetti](project-considerations.md)
-   + [Parte 3:Test, POC, Pilots &amp; Rollout](testing-pocs-pilots-rollouts.md)
+   + [Parte 3: Test, POC, Pilots &amp; Rollout](testing-pocs-pilots-rollouts.md)
    + [Parte 4: Gestione e distribuzione dei progetti](project-management-and-deployment.md)
    + [Parte 5: Considerazioni sul supporto](support-considerations.md)
 + Configurazione e amministrazione {#administering}
@@ -75,6 +75,8 @@ source-git-commit: 56534686a10f5d0780dc7ffc7272c7c611c32845
       + [Attivazione temperatura centro viaggio](local-temperature-activation.md)
       + [Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)
       + [Attivazione mirata inventario vendita al dettaglio](retail-inventory-activation.md)
+      + [Transizione MultiZone a SingleZone](multizone-to-singlezone.md)
+      + [Acquisizione da MarQuee](marquee-takeover.md)
       + [Applicazione delle transizioni](applying-transitions.md)
 + Risorse per sviluppatori e API {#developing}
    + [API REST](rest-api.md)
