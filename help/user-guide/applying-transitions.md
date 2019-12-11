@@ -6,19 +6,19 @@ seo-description: Segui questa pagina per apprendere come applicare le transizion
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
 
 ---
 
 
 # Applicazione delle transizioni {#applying-transitions}
 
-Questa sezione descrive come un componente **Transizione** consente di aggiungere una transizione al progetto Screens.
+Questa sezione descrive come applicare il componente **Transizione** tra risorse diverse (immagini e video) in un canale.
 
 
 >[!CAUTION]
 >
->Per informazioni dettagliate sulle proprietà del componente Transizione, vedere [Transizioni](adding-components-to-a-channel.md#transition)
+>Per informazioni dettagliate sulle proprietà del componente Transizione, vedere [Transizioni](adding-components-to-a-channel.md#transition).
 
 ## Aggiunta di un componente di transizione alle risorse di un canale {#adding-transition}
 
@@ -43,15 +43,13 @@ Per aggiungere un componente di transizione al progetto AEM Screens, procedi com
 1. Trascinate e rilasciate il componente **Transizione** nell’editor.
    >[!CAUTION]
    >
-   >Prima di aggiungere la transizione alle risorse del canale, accertatevi di:
-Non si aggiunge la transizione prima della prima risorsa nel canale sequenziale. Il primo elemento nel canale deve essere una risorsa e non una transizione.
+   >Prima di aggiungere la transizione alle risorse del canale, accertatevi di non aggiungere la transizione prima della prima risorsa del canale sequenziale. Il primo elemento nel canale deve essere una risorsa e non una transizione.
 
    ![image3](assets/transitions3.png)
 
    > [!NOTE]
    >
-   >Per impostazione predefinita, il componente di transizione è impostato su Tipo come **Normale** con **Durata** impostata su *600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione maggiore della risorsa a cui viene applicata.
-
+   >Per impostazione predefinita, le proprietà del componente di transizione, ad esempio **Tipo** , sono impostate su **Normale** e la **Durata** è impostata su *600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione maggiore della risorsa a cui viene applicata.
 
 ## Aggiunta di un componente Transizione ai video in un canale {#adding-transition-videos}
 
