@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
 
 ---
 
@@ -34,7 +34,7 @@ Prima di iniziare questo caso di utilizzo, accertatevi di comprendere come:
 
 Autori contenuto
 
-## Flusso di base: Impostazione del progetto {#basic-flow-setting-up-the-project}
+## Flusso di base:Impostazione del progetto {#basic-flow-setting-up-the-project}
 
 Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
@@ -50,7 +50,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
    1. Selezionate la cartella **Canali** e fate clic su **Crea** per aprire la procedura guidata per creare un canale.
 
-   1. Selezionare **Sequence Channel **dalla procedura guidata e creare il canale denominato **MainAdChannel**.
+   1. Selezionate Canale **** sequenza dalla procedura guidata e create il canale denominato **MainAdChannel**.
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Aggiunta di contenuto al canale della sequenza**
@@ -63,7 +63,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
    1. Selezionate la cartella **Canali** .
    1. Fate clic su **Crea** per aprire la procedura guidata per creare un canale.
-   1. Selezionare **Sequence Channel **dalla procedura guidata e creare il canale denominato **EmergencyChannel**.
+   1. Selezionate Canale **** sequenza dalla procedura guidata e create il canale denominato **EmergencyChannel**.
    >[!NOTE]
    >
    >Normalmente, il canale di emergenza viene aggiunto al progetto di produzione preesistente.
@@ -96,9 +96,9 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
 1. Assegnare i display alla pianificazione e impostare le priorità
 
-   1. Selezionate la pianificazione** (StoreSchedule)** e fate clic su **Dashboard** nella barra delle azioni.
+   1. Selezionate la pianificazione **(StoreSchedule)** e fate clic su **Dashboard** dalla barra delle azioni.
 
-   1. Fare clic su **+ Assegna canale** dal pannello **ASSIGNED CHANNELS **.
+   1. Fate clic su **+ Assegna canale** dal pannello CANALI **** ASSEGNATI.
 
    1. Dalla finestra di dialogo Assegnazione **** canale:
 
@@ -113,7 +113,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Fare clic su **+ Assegna canale** dal pannello **ASSIGNED CHANNELS **.
+1. Fate clic su **+ Assegna canale** dal pannello CANALI **** ASSEGNATI.
 
 1. Dalla finestra di dialogo Assegnazione **** canale:
 
@@ -131,7 +131,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
 1. **Assegnazione di Schedule a ogni display**
 
-   1. Passare a ciascun display, ad esempio **EmergencyChannel** —&gt; **Locations** —&gt; **Store **—&gt;**StoreFront**.
+   1. Andate a ciascun display, ad esempio **EmergencyChannel** —&gt; **Locations** —&gt; **Store** —&gt;**StoreFront**.
 
    1. Click **Dashboard** from the action to open the display dashboard.
    1. **Fate clic**... dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** , fate clic su **+Assegna pianificazione**.
