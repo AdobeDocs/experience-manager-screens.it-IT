@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
 
 ---
 
@@ -48,7 +48,7 @@ Potete impostare un semplice esempio in cui ospitare un autore e due istanze di 
 
 * Autore —&gt; localhost:4502
 * Publish 1 (pub1) —&gt; localhost:4503
-* Publish (pub2) —&gt; localhost:4504
+* Publish 2 (pub2) —&gt; localhost:4504
 
 ## Impostazione degli agenti di replica in Author {#setting-replication-agents}
 
@@ -85,6 +85,10 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
 1. Fate clic su **Modifica** per aprire la finestra di dialogo Impostazioni **** agente e immettere i dettagli.
+
+   >[!NOTE]
+   >
+   >L'utente deve selezionare **Abilitato** per abilitare l'agente di replica. È necessario selezionare questa opzione su Predefiniti, Schermi e agenti di replica inversi.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
