@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -77,7 +77,7 @@ Puoi anche visualizzare le proprietà del tuo canale della Live Copy.
 
 ### Stato della Live Copy {#live-copy-status}
 
-La modalità** Live Copy Status**, come illustrato nella figura riportata di seguito, consente di visualizzare lo stato di relazione di tutte le risorse del canale.
+La modalità **Stato della Live Copy**, come mostrato nella figura sotto, consente di visualizzare lo stato di relazione di tutte le risorse presenti nel canale.
 
 1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
 
@@ -125,7 +125,7 @@ Segui i passaggi riportati di seguito per accertarti che le modifiche vengano ap
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Fai clic su **Sincronizza** per confermare le modifiche. Click **Save &amp; Close** to navigate back to the AEM dashboard..
+1. Fai clic su **Sincronizza** per confermare le modifiche. Click **Save &amp; Close** to navigate back to the AEM dashboard.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
