@@ -11,7 +11,7 @@ topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -86,9 +86,9 @@ Fare clic su **Proprietà** per visualizzare la finestra di dialogo Proprietà *
 
 ### Visualizza schermata del lettore {#view-player-screenshot}
 
-È possibile visualizzare la schermata del lettore dal dispositivo dal pannello **PLAYER SCREENSHOT **.
+È possibile visualizzare lo screenshot del lettore dal dispositivo dal pannello **PLAYER SCREENSHOT** .
 
-Fare clic (**...**) nell'angolo superiore destro del pannello Screenshot del lettore e selezionare **Refresh Screenshot **per visualizzare l'istantanea del lettore in esecuzione.
+Fate clic su (**...**) nell’angolo in alto a destra del pannello Screenshot del lettore e selezionate **Aggiorna schermata** per visualizzare lo snapshot del lettore in esecuzione.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -136,7 +136,7 @@ Attualmente alcune di queste funzioni sono disponibili solo se il filtro *Apache
 Seguite i passaggi riportati di seguito per attivare il filtro Apache Sling Referrer Consenti vuoto
 
 1. Passa alla configurazione **della console Web di** Adobe Experience Manager, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Selezionare l'opzione **allow.empty **.
+1. Selezionare l'opzione **allow.empty** .
 1. Fai clic su **Salva**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
