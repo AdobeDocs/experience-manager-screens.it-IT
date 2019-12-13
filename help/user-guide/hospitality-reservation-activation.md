@@ -11,7 +11,7 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -24,7 +24,7 @@ Il seguente caso di utilizzo illustra l’utilizzo dell’attivazione della pren
 
 Per questo caso d'uso, Google Sheet è popolato con percentuale di prenotazione su due ristoranti **Ristorante1** e **Ristorante2**. Una formula viene applicata in base ai valori di Restaurant1 e Restaurant2 e in base alla formula, il valore 1 o 2 viene assegnato alla colonna **AdTarget** .
 
-Se il valore di **Restaurant1** &gt; **Restaurant2**, **AdTaget** è assegnato al valore** 1 **altrimenti **AdTarget** è assegnato al valore **2**. Il valore 1 genera l'opzione *Bistecca food* e il valore 2 mostra l'opzione *Thai food* sullo schermo.
+Se il valore di **Restaurant1** &gt; **Restaurant2**, **AdTaget** viene assegnato al valore **1** , altrimenti **AdTarget** viene assegnato il valore seguente: **** AdTarget2. Il valore 1 genera l'opzione *Bistecca food* e il valore 2 mostra l'opzione *Thai food* sullo schermo.
 
 ## Premesse {#preconditions}
 
@@ -44,18 +44,18 @@ Segui i passaggi indicati di seguito per implementare il caso d’uso per l’at
 
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
-   1. Andate ai segmenti del pubblico (fate riferimento al ***Passaggio 2: Impostazione della segmentazione*** dell'audience nella pagina ** [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Andate ai segmenti del pubblico (fate riferimento al ***Passaggio 2: Impostazione della segmentazione*** dell'audience nella pagina **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
    1. Selezionare i **fogli A1 1** e fare clic su **Modifica**.
 
    1. Selezionate la proprietà di confronto e fate clic sull'icona di configurazione per modificare le proprietà.
    1. Selezionate **googlesheets/value/1/2** dall’elenco a discesa in Nome **proprietà**
 
-   1. Selezionare l' **operatore** come **uguale **dal menu a discesa
+   1. Selezionate **Operatore** come **uguale** dal menu a discesa
 
    1. Immettere il **valore** come **1**
 
-   1. Analogamente, selezionare i Fogli** A1 2 **e fare clic su **Modifica**.
+   1. Analogamente, selezionare i **fogli A1 2** e fare clic su **Modifica**.
 
    1. Selezionate la proprietà di confronto e fate clic sull'icona di configurazione per modificare le proprietà.
    1. Selezionate **googlesheets/value/1/2** dall’elenco a discesa in Nome **proprietà**
