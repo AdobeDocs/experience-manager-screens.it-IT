@@ -6,7 +6,7 @@ seo-description: Segui questa pagina per ottenere le risposte alle domande frequ
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ Il lettore ChromeOS può essere installato come il plugin Chrome Browser in moda
 1. Decomprimete il file e salvatelo su disco.
 1. Aprite il browser Chrome e fate clic sul menu a 3 punti e selezionate **Altri strumenti** —&gt; **Estensioni** dall'angolo in alto a destra oppure passate direttamente a ***chrome://extensions***.
 1. Attivate la modalità **** Sviluppatore dall'angolo in alto a destra.
-1. Fare clic su **Load Unimballato **dall'angolo superiore sinistro e caricare il lettore Chrome decompresso.
+1. Fare clic su **Carica non imballato** dall'angolo in alto a sinistra e caricare Chrome Player decompresso.
 1. Se disponibile nell'elenco delle estensioni, controllate il plug-in **AEM Screens Chrome Player** .
 1. Aprite una nuova scheda e fate clic sull'icona **App** dall'angolo in alto a sinistra oppure passate direttamente a ***chrome://apps***.
 1. Fate clic su **AEM Screens** Plugin per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **esc** per uscire dalla modalità a schermo intero.
