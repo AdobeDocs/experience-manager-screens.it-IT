@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -56,7 +56,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
    1. Fai clic su **Crea** per creare un nuovo progetto Screens (vedi la figura qui sotto).
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
-   1. Enter the title as *Test_Project *and click **Create**.
+   1. Enter the title as *Test_Project*  and click **Create**.
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Una volta creato il progetto, tornerete alla console Progetto schermate. Ora puoi selezionare il progetto. In un progetto, ci sono cinque tipi di cartelle: **Applicazioni**, **Canali**, **Dispositivi**, **Posizioni** e **Pianificazioni**, come mostrato nella figura seguente.
@@ -77,8 +77,8 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Fai clic su** Crea** dalla barra delle azioni (vedi la figura sotto). Si apre una procedura guidata.
-   1. Choose the **Sequence Channel **and click **Next**.
+   1. Click **Create** from the action bar (see the figure below). Si apre una procedura guidata.
+   1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
    ![chlimage_1-6](assets/chlimage_1-6.png)
@@ -95,9 +95,9 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    Per aggiungere contenuti al canale (*TestChannel*) del progetto, effettuate le seguenti operazioni:
 
-   1. Navigate to the *Test_Project* you created and select the **Channels **folder.
+   1. Navigate to the *Test_Project* you created and select the **Channels** folder.
 
-   1. Click **Edit** from the action bar (see the figure below). Viene aperto l'editor per* TestChannel*.
+   1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
 
    1. Fai clic sull’icona che apre o chiude il pannello laterale sinistro della barra delle azioni per aprire le risorse e i componenti.
    1. Trascina i componenti da aggiungere al canale.
@@ -115,7 +115,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    Per creare una nuova posizione per il progetto, effettuate le seguenti operazioni:
 
-   1. Andate al *Test_Project* creato e selezionate la cartella **Locations **o.
+   1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
    1. Fate clic su **Crea** accanto all'icona più nella barra delle azioni (vedere la figura sotto). Si apre una procedura guidata.
    1. Select **Location** from the wizard and click **Next**.
@@ -135,8 +135,8 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Andate alla posizione in cui desiderate creare la visualizzazione (*Test_* Project —&gt; **Locations** —&gt; *TestLocation)* come illustrato nella figura precedente e selezionate *TestLocation*.
 
-   1. Fare clic su** Crea **dalla barra di azione.
-   1. Select **Display **from the **Create** wizard and click **Next**.
+   1. Fai clic su **Crea** nella barra delle azioni.
+   1. Select **Display** from the **Create** wizard and click **Next**.
 
    1. Immettete **Nome** e **Titolo** per la posizione di visualizzazione (immettete il titolo come *TestDisplay*).
 
@@ -161,7 +161,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Andate alla cartella **Pianificazioni** da Test_Project &gt; **Pianificazioni**.
 
-   1. Fare clic su** Crea **dalla barra di azione. Si apre una procedura guidata.
+   1. Fai clic su **Crea** nella barra delle azioni. Si apre una procedura guidata.
    1. Selezionare **Pianificazione** dalla pagina **Creazione** guidata.
 
    1. Immettete **Nome** e **Titolo** come *MorningSchedule* nella pagina delle proprietà.
@@ -187,13 +187,13 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. Selezionare il** Channel Path** (*Test_Project* —&gt; *Channels* —&gt; *TestChannel* ) nel **canale**.
+   1. Selezionate il percorso **del** canale (*Test_Project* —&gt; *Channels* —&gt; *TestChannel* ) nel **canale**.
 
    1. Select the **Priority** for this channel as *1*.
 
-   1. Choose the **Supported Events** as **Initial Load **and **Idle Screen**.
+   1. Choose the **Supported Events** as **Initial Load** and **Idle Screen**.
 
-   1. Immettere **Schedule **e selezionare le date in **attivo da** e **attivo fino**.
+   1. Immettere **Schedule** e selezionare le date in **attivo da** e **attivo fino**.
 
    1. Fai clic su **Salva**.
    Il canale viene creato e aggiunto al pannello.
@@ -241,7 +241,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
-   Enter **Title** and click **Register **and** **the device will be registered.
+   Enter **Title** and click **Register** and the device will be registered.
 
    Fate clic su **Fine** per completare il passaggio di registrazione del dispositivo.
 
