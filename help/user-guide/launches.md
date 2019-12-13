@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -104,7 +104,7 @@ Per implementare future funzionalità di pubblicazione nel progetto AEM Screens,
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la** Data lancio**, come illustrato nella figura seguente. Fai clic su **Crea**. 
+1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la Data **del** lancio, come illustrato nella figura seguente. Fai clic su **Crea**. 
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Selezionate l'opzione **Struttura contenuto **dalla barra a sinistra per aprire il lancio creato.
+   >Selezionate l’opzione Struttura **** contenuto dalla barra a sinistra per aprire il lancio creato.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
