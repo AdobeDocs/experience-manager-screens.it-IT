@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
@@ -40,7 +40,7 @@ Questa pagina mostra come assegnare i canali alle visualizzazioni.
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
-1. Passare alla visualizzazione desiderata, ad esempio **DemoProject*** *—&gt; **Locations** —&gt; **SanJose** —&gt; **StoreDisplay**.
+1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —&gt; **Locations** —&gt; **SanJose** —&gt; **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -48,11 +48,11 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
    Oppure,
 
-   Tap/click **Dashboard **and** **click** +Assign Channel **from the** ASSIGNED CHANNNELS **panel to open the **Channel Assignment** dialog box.
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
    ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
 
-   È possibile configurare le seguenti proprietà dalla finestra di dialogo **Assegnazione canale **s:
+   Puoi configurare le seguenti proprietà nella finestra di dialogo **Assegnazione canale**:
 
    **Ruolo canale**:
 
