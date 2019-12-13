@@ -6,19 +6,19 @@ seo-description: Segui questa pagina per apprendere come applicare le transizion
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4078050ada4c53c2a9de00928d2198279aaa1e34
+source-git-commit: f6ee043e41e46690e057758266f9adc5323001d2
 
 ---
 
 
 # Applicazione delle transizioni {#applying-transitions}
 
-Questa sezione descrive come applicare il componente **Transizione** tra risorse diverse (immagini e video) in un canale.
+Questa sezione descrive come applicare il componente **Transizione** tra risorse diverse (immagini e video) e sequenze incorporate in un canale.
 
 
 >[!CAUTION]
 >
->Per informazioni dettagliate sulle proprietà del componente Transizione, vedere [Transizioni](adding-components-to-a-channel.md#transition).
+>Per informazioni dettagliate sulle proprietà del componente **Transizione** , vedere [Transizioni](adding-components-to-a-channel.md#transition).
 
 ## Aggiunta di un componente di transizione alle risorse di un canale {#adding-transition}
 
@@ -51,8 +51,12 @@ Per aggiungere un componente di transizione al progetto AEM Screens, procedi com
    >
    >Per impostazione predefinita, le proprietà del componente di transizione, ad esempio **Tipo** , sono impostate su **Normale** e la **Durata** è impostata su *600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione maggiore della risorsa a cui viene applicata.
 
+1. Inoltre, se aggiungete un componente Sequenza **** incorporata (che include un canale di sequenza) a questo editor canale, potete aggiungere un componente di transizione alla fine, in modo che il contenuto venga riprodotto in ordine, come illustrato nella figura seguente:
+
+   ![image3](assets/transitions5.png)
+
 ## Aggiunta di un componente Transizione ai video in un canale {#adding-transition-videos}
 
-Quando applicate un componente di transizione tra i video, impostate sempre **Tipo** su **Dissolvenza** e Durata **** sequenza su **1600 ms**.
+Quando applicate un componente di transizione tra i video, si consiglia di impostare **Tipo** su **Dissolvenza** e Durata **** sequenza su **1600 ms**.
 
 ![image3](assets/transitions4.png)
