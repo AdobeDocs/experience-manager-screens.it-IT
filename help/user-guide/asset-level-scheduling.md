@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: da25cdc7-c814-493e-8d8e-b6191fee2831
 noindex: true
 translation-type: tm+mt
-source-git-commit: 99f6817a0d126cfb1811887a3415f1b87079d6e7
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -22,7 +22,7 @@ In questa sezione viene descritta la pianificazione a livello di risorsa per le 
 
 Gli argomenti seguenti sono trattati in questa sezione:
 
-* PanoramicaW
+* Panoramica
 * Utilizzo della pianificazione a livello di risorsa
 * Gestione della ricorrenza nelle risorse
 * Pianificazione di più risorse
