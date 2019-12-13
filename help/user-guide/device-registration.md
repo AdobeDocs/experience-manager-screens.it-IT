@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 ---
 
@@ -71,11 +71,11 @@ Il processo di registrazione del dispositivo viene eseguito su due computer sepa
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
 1. Se il codice **di** registrazione è lo stesso su entrambi i computer, tocca o fai clic sul pulsante **Convalida** in AEM, come illustrato nel passaggio (6).
-1. Impostate il nome desiderato per il dispositivo e fate clic su** Register*.
+1. Impostate il nome desiderato per il dispositivo e fate clic su **Registra**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Toccate/fate clic** Fine** per completare il processo di registrazione.
+1. Tap/click **Finish** to complete the registration process.
 
    ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
