@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
 
 ---
 
@@ -228,7 +228,7 @@ La risorsa immagine ha tre schede, ovvero **Immagine**, **Accessibilità** e **S
 | **Accessibilità** |
 | ***Testo alternativo*** | Testo alternativo all'immagine. |
 | **Sequenza** |
-| ***Durata*** | Seleziona l'intera durata dell'immagine. Se si imposta la durata su -1, l’immagine incorporata verrà riprodotta per intero in un particolare canale. |
+| ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 ms*. Per modificare la durata di riproduzione dell’immagine, aggiornate il campo **Durata** . |
 
 ### Transizione {#transition}
 
