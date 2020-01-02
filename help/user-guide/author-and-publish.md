@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -34,7 +34,7 @@ Prima di iniziare a usare i server di creazione e pubblicazione, è necessario d
 
 >[!NOTE]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.4 Screens Feature Pack 2. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l'accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+>Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.4 Screens Feature Pack 2. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
 ## Configurazione delle istanze Author e Publish {#configuring-author-and-publish-instances}
 
@@ -46,9 +46,9 @@ Nella sezione seguente viene illustrato come impostare gli agenti di replica sul
 
 Potete impostare un semplice esempio in cui ospitare un autore e due istanze di pubblicazione:
 
-* Autore —&gt; localhost:4502
-* Publish 1 (pub1) —&gt; localhost:4503
-* Publish 2 (pub2) —&gt; localhost:4504
+* Autore —> localhost:4502
+* Publish 1 (pub1) —> localhost:4503
+* Publish 2 (pub2) —> localhost:4504
 
 ## Impostazione degli agenti di replica in Author {#setting-replication-agents}
 
@@ -56,7 +56,7 @@ Per creare agenti di replica, è necessario apprendere come creare un agente di 
 
 Per gli schermi sono necessari 3 agenti di replica:
 
-1. **Agente replica predefinito ***(specificato come ***agente** replica standard)
+1. **Agente replica predefinito ***(specificato come***agente **replica standard)
 1. **Agente replica schermi**
 1. **Agente replica inversa**
 
@@ -64,7 +64,7 @@ Per gli schermi sono necessari 3 agenti di replica:
 
 Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
 
-1. Passa all’istanza di AEM —&gt; icona a forma di martello —&gt; **Operazioni** —&gt; **Configurazione**.
+1. Passa all’istanza di AEM —> icona a forma di martello —> **Operazioni** —> **Configurazione**.
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
@@ -72,15 +72,15 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Selezionate **Agenti sull'autore** dalla cartella **Replica** e fate clic su **Nuovo** per creare un nuovo agente di replica standard.
+1. Selezionate **Agenti sull&#39;autore** dalla cartella **Replica** e fate clic su **Nuovo** per creare un nuovo agente di replica standard.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Immettete il **Titolo** e il **Nome** per creare l'agente di replica e fate clic su **Crea**.
+1. Immettete il **Titolo** e il **Nome** per creare l&#39;agente di replica e fate clic su **Crea**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Fare clic con il pulsante destro del mouse sull'agente di replica e scegliere **Apri** per modificare le impostazioni.
+1. Fare clic con il pulsante destro del mouse sull&#39;agente di replica e scegliere **Apri** per modificare le impostazioni.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
@@ -88,7 +88,7 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
 
    >[!NOTE]
    >
-   >L'utente deve selezionare **Abilitato** per abilitare l'agente di replica. È necessario selezionare questa opzione su Predefiniti, Schermi e agenti di replica inversi.
+   >L&#39;utente deve selezionare **Abilitato** per abilitare l&#39;agente di replica. È necessario selezionare questa opzione su Predefiniti, Schermi e agenti di replica inversi.
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
@@ -103,13 +103,13 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
 
 #### Creazione di agenti di replica standard {#creating-standard-replication-agents}
 
-1. Creare un agente di replica standard per pub1 (l'agente predefinito fornito deve già essere configurato) (ad esempio, *https://&lt;nomehost&gt;:4503/bin/receive?sling:authRequestLogin=1*)
-1. Creare un agente di replica standard per pub2. È possibile copiare l'agente rep per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+1. Creare un agente di replica standard per pub1 (l&#39;agente predefinito fornito deve già essere configurato) (ad esempio, *https://&lt;nomehost>:4503/bin/receive?sling:authRequestLogin=1*)
+1. Creare un agente di replica standard per pub2. È possibile copiare l&#39;agente rep per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creazione di agenti di replica dello schermo {#creating-screens-replication-agents}
 
-1. Creare un agente di replica AEM Screens per pub1. È disponibile un agente di replica Schermi denominato "Out-of-the-box" che punta alla porta 4503. Deve essere attivato.
-1. Creare un agente di replica AEM Screens per pub2. Copiate l'agente di replica Screens per pub1 e modificate la porta in 4504 per pub2.
+1. Creare un agente di replica AEM Screens per pub1. È disponibile un agente di replica Schermi denominato &quot;Out-of-the-box&quot; che punta alla porta 4503. Deve essere attivato.
+1. Creare un agente di replica AEM Screens per pub2. Copiate l&#39;agente di replica Screens per pub1 e modificate la porta in 4504 per pub2.
 
 #### Creazione di agenti di replica inversa schermo {#creating-screens-reverse-replication-agents}
 
@@ -118,9 +118,9 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
 
 ## Impostazione della topologia di pubblicazione {#setting-up-publish-topology}
 
-### Passaggio 1: Configurare L'Individuazione Basata Su Apache Sling Oak {#step-configure-apache-sling-oak-based-discovery}
+### Passaggio 1: Configurare L&#39;Individuazione Basata Su Apache Sling Oak {#step-configure-apache-sling-oak-based-discovery}
 
-Impostazione dell'individuazione basata su Apache Sling Oak per tutte le istanze Publish nella topologia
+Impostazione dell&#39;individuazione basata su Apache Sling Oak per tutte le istanze Publish nella topologia
 
 Per ogni istanza di pubblicazione:
 
@@ -143,34 +143,37 @@ L’utente del cluster e la password di tutte le istanze pubblicate nella topolo
 
 Per ogni istanza di pubblicazione:
 
-1. Nella console OSGi andate a **MAIN** —&gt; **Supporto** Crypto (*https://&lt;host&gt;:&lt;porta&gt;/sistema/console/crittografia*).
+1. Nella console OSGi andate a **MAIN** —> **Supporto** Crypto (*https://&lt;host>:&lt;porta>/sistema/console/crittografia*).
 1. Digitate la password di testo normale desiderata (uguale per tutte le istanze) in Testo **normale**
 1. Fate clic su **Proteggi**.
 1. Copiare il valore Testo **** protetto in un blocco note o un editor di testo. Questo valore verrà utilizzato nella configurazione OSGi per ActiveMQ.
 
 Poiché per impostazione predefinita ogni istanza di pubblicazione dispone di chiavi di crittografia univoche, è necessario eseguire questo passaggio su ogni istanza di pub e salvare la chiave univoca per la configurazione successiva.
 
-*Esempio*,
+>Nota:
+>La password deve iniziare e terminare con parentesi graffe.
 
-Pub1 - `{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`Pub2 - `{8d3d113c834cc4f52c2daee0da3cb0a21122a31f0138bfe4b70c9ead79415f41}`
+*Esempio:*
+
+`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Passaggio 4: Attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
 Per ogni istanza di pubblicazione:
 
-1. Andate al gestore di configurazione OSGi *https://&lt;host&gt;:&lt;porta&gt;/sistema/console/configMgr*
+1. Andate al gestore di configurazione OSGi *https://&lt;host>:&lt;porta>/sistema/console/configMgr*
 1. Seleziona configurazione provider **JMS** Apache ActiveMQ Artemis
 1. Aggiornate quanto segue:
 
-* ***Password*** cluster: (utilizzate il valore crittografato del passaggio precedente per ciascuna istanza)
-* ***Argomenti***: {name: 'command', address: 'com.adobe.cq.screens.command', maxConsumers: 50}
+* ***Password ***cluster: (utilizzate il valore crittografato del passaggio precedente per ciascuna istanza)
+* ***Argomenti ***: {name: &#39;command&#39;, address: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
 
 #### Verifica cluster ActiveMQ Artemis {#verify-activemq-artemis-cluster}
 
 Seguite i passaggi indicati di seguito per ogni istanza di pubblicazione:
 
-1. Andate alla console OSGi -&gt; Principale &gt; ActiveMQ Artemis `[https://localhost:4505/system/console/mq`.
-1. Verifica e verifica per visualizzare le porte di altre istanze in Informazioni cluster &gt; Topologia &gt; nodi=2, membri=2.
+1. Andate alla console OSGi -> Principale > ActiveMQ Artemis `[https://localhost:4505/system/console/mq`.
+1. Verifica e verifica per visualizzare le porte di altre istanze in Informazioni cluster > Topologia > nodi=2, membri=2.
 1. Invia un messaggio di prova (nella parte superiore della schermata in Informazioni sul broker)
 1. Immettete le seguenti modifiche nei campi:
 
@@ -182,7 +185,7 @@ Seguite i passaggi indicati di seguito per ogni istanza di pubblicazione:
 >
 >Passando alla console OSGI, potrebbero essere necessari alcuni secondi dopo il salvataggio della configurazione nel passaggio precedente. Per ulteriori informazioni, è inoltre possibile controllare error.log.
 
-Ad esempio, l'immagine seguente viene visualizzata sulla configurazione corretta di ActiveMQ Artemis Server.
+Ad esempio, l&#39;immagine seguente viene visualizzata sulla configurazione corretta di ActiveMQ Artemis Server.
 
 Se non trovi la configurazione seguente da */system/console/mq*, vai a */system/console/mq* e fai clic su **Riavvia** per riavviare il broker.
 
@@ -192,7 +195,7 @@ Se non trovi la configurazione seguente da */system/console/mq*, vai a */system/
 
 Seguite i passaggi per ogni istanza di pubblicazione:
 
-1. Andate alla console **** OSGi &gt; Gestione **configurazione**
+1. Andate alla console **** OSGi > Gestione **configurazione**
 1. Seleziona filtro **Apache Sling Referrer**
 1. Aggiorna configurazione e **seleziona Consenti valori vuoti**
 
@@ -213,11 +216,11 @@ Una volta impostata la piattaforma di pubblicazione, è necessario configurare l
 
 >[!NOTE]
 >
->Potete aprire un lettore AEM Screens utilizzando l'app AEM Screens che avete scaricato o il browser Web.
+>Potete aprire un lettore AEM Screens utilizzando l&#39;app AEM Screens che avete scaricato o il browser Web.
 
-#### Passaggio 2: Registrazione di un dispositivo sull'autore {#step-registering-a-device-on-author}
+#### Passaggio 2: Registrazione di un dispositivo sull&#39;autore {#step-registering-a-device-on-author}
 
-1. Accedete a `https://localhost:4502/screens.html/content/screens/we-retail` o selezionate il progetto e andate a Dispositivi &gt; Gestione dispositivi.
+1. Accedete a `https://localhost:4502/screens.html/content/screens/we-retail` o selezionate il progetto e andate a Dispositivi > Gestione dispositivi.
 1. Selezionate **Registra dispositivo**.
 1. Fate clic su Registrazione **** dispositivo per visualizzare il dispositivo.
 1. Select the device you want to register and click **Register Device**.
@@ -237,7 +240,7 @@ Controllare il lettore e visualizzare il contenuto aggiunto nel canale.
 
 **Verifica del dispositivo**
 
-Prima di eseguire le operazioni seguenti, verificare l'ID dispositivo. Per verificare, cercate l'ID dispositivo in CRXDELite, con il percorso */home/users/screens/{project}/devices*.
+Prima di eseguire le operazioni seguenti, verificare l&#39;ID dispositivo. Per verificare, cercate l&#39;ID dispositivo in CRXDELite, con il percorso */home/users/screens/{project}/devices*.
 
 Per replicare l’utente del dispositivo, effettuate le seguenti operazioni:
 
@@ -251,15 +254,15 @@ Per replicare l’utente del dispositivo, effettuate le seguenti operazioni:
 
 Puoi anche attivare il dispositivo dalla console di gestione dispositivo. Effettuate le seguenti operazioni:
 
-1. Andate al progetto Screens —&gt; **Devices (Dispositivi)**.
-1. Fare clic su **Device Manager **dalla barra di azione.
+1. Andate al progetto Screens —> **Devices (Dispositivi)**.
+1. Click **Device Manager** from the action bar.
 1. Selezionate il dispositivo e fate clic su **Attiva** dalla barra delle azioni, come illustrato nella figura seguente.
 
 ![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->In alternativa, dopo aver attivato il dispositivo è anche possibile modificare o aggiornare l'URL del server facendo clic su **Edit server URL **dalla barra delle azioni, come illustrato nella figura seguente, e le modifiche verranno propagate al lettore AEM Screens.
+>In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server facendo clic su **Modifica URL** server dalla barra delle azioni, come illustrato nella figura seguente, e le modifiche verranno propagate al lettore AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -267,7 +270,7 @@ Puoi anche attivare il dispositivo dalla console di gestione dispositivo. Effett
 
 Di seguito sono riepilogati gli elenchi Publishing Check:
 
-* *Utente* del dispositivo Screens: viene memorizzato come utente AEM e può essere attivato da **Strumenti** &gt; **Protezione** &gt; **Utenti**. L'utente avrà il prefisso "screens" con una lunga stringa serializzata.
+* *Utente* del dispositivo Screens: viene memorizzato come utente AEM e può essere attivato da **Strumenti** > **Protezione** > **Utenti**. L&#39;utente avrà il prefisso &quot;screens&quot; con una lunga stringa serializzata.
 
 * *Progetto* - Progetto AEM Screens.
 * *Posizione* - Posizione di connessione del dispositivo.
@@ -281,9 +284,9 @@ Dopo aver verificato l’elenco di controllo, è necessario verificare le seguen
 * Aggiornate il contenuto di alcuni canali su Author e pubblicatelo e verificate che il canale aggiornato venga ora visualizzato sul lettore AEM Screens.
 * Collegare il lettore Screens a un’altra istanza di pubblicazione e verificare il comportamento descritto sopra.
 
-#### Passaggio 5: Puntare il dispositivo per pubblicare l'istanza nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Passaggio 5: Puntare il dispositivo per pubblicare l&#39;istanza nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visualizzare l'interfaccia utente di amministrazione dal lettore Screens, premere a lungo sull'angolo in alto a sinistra per aprire il menu Admin, sul lettore AEM Screens abilitato per il tocco o utilizzando un mouse.
+1. Visualizzare l&#39;interfaccia utente di amministrazione dal lettore Screens, premere a lungo sull&#39;angolo in alto a sinistra per aprire il menu Admin, sul lettore AEM Screens abilitato per il tocco o utilizzando un mouse.
 1. Fate clic sull’opzione **Configurazione** dal pannello laterale.
 1. Modificate l’istanza di creazione per pubblicare l’istanza in **Server**.
 
@@ -293,7 +296,7 @@ In alternativa, puoi anche aggiornare/modificare l’URL del server dalla consol
 
 1. Andate al progetto AEM Screens e selezionate la cartella **Dispositivi** .
 1. Click **Device Manager** from the action bar.
-1. Selezionate il dispositivo e fate clic su **Edit server URL **dalla barra delle azioni, come illustrato nella figura riportata di seguito, per estendere le modifiche al lettore AEM Screens.
+1. Selezionate il dispositivo e fate clic su **Modifica URL** server dalla barra delle azioni, come illustrato nella figura riportata di seguito, per estendere le modifiche al lettore AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
