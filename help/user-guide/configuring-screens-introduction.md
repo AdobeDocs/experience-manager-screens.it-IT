@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 323e2df2419cc65de7bfe88648ffd1dbd3a91aec
+source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
 
 ---
 
@@ -34,7 +34,7 @@ I seguenti punti chiave aiutano a configurare e il server AEM da usare per AEM S
 
 #### Consenti richieste referente vuote {#allow-empty-referrer-requests}
 
-1. Passa alla configurazione **della console Web di** Adobe Experience Manager tramite l’istanza di AEM —&gt; icona a forma di martello —&gt; **Operazioni** —&gt; Console **** Web.
+1. Passa alla configurazione **della console Web di** Adobe Experience Manager tramite l’istanza di AEM —> icona a forma di martello —> **Operazioni** —> Console **** Web.
 
    ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
 
@@ -44,20 +44,20 @@ I seguenti punti chiave aiutano a configurare e il server AEM da usare per AEM S
 
    ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
 
-1. Selezionare l'opzione **Consenti valori nulli **come illustrato nella figura seguente.
+1. Selezionare l&#39;opzione **Consenti valori nulli** , come illustrato nella figura riportata di seguito.
 
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
-1. Fate clic su **Salva** per attivare l'opzione Consenti valori nulli per il filtro Apache Sling Referrer.
+1. Fate clic su **Salva** per attivare l&#39;opzione Consenti valori nulli per il filtro Apache Sling Referrer.
 
 #### Abilita interfaccia utente touch per AEM Screens {#enable-touch-ui-for-aem-screens}
 
 AEM Screens richiede l’interfaccia utente TOUCH e non funziona con l’interfaccia classica di Adobe Experience Manager (AEM).
 
-1. Passa a *&lt;istanzaAutore&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
+1. Passa a *&lt;istanzaAutore>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Verificate che la modalità **interfaccia utente di authoring** predefinita sia impostata su **TOUCH**, come illustrato nella figura seguente
 
-In alternativa, potete eseguire la stessa impostazione anche utilizzando *&lt;yourAuthorInstance&gt;*-&gt;*strumenti (icona a forma di martello)* -&gt; **Operazioni** -&gt; Console **** Web e cercare il servizio **** WCM per la modalità dell’interfaccia utente di authoring.
+In alternativa, potete eseguire la stessa impostazione anche utilizzando *&lt;yourAuthorInstance>*->*strumenti (icona a forma di martello)* -> **Operazioni** -> Console **** Web e cercare il servizio **** WCM per la modalità dell’interfaccia utente di authoring.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -75,15 +75,15 @@ Questo è richiesto per la riproduzione dei canali online da parte di AEM Screen
 
 #### Restrizioni per la password {#password-restrictions}
 
-Con le ultime modifiche apportate a ***DeviceServiceImpl***, non è necessario rimuovere le restrizioni relative alla password.
+Con le ultime modifiche apportate a ***DeviceServiceImpl ***, non è necessario rimuovere le restrizioni relative alla password.
 
-Puoi configurare ***DeviceServiceImpl*** dal collegamento seguente per abilitare la limitazione della password durante la creazione della password per gli utenti del dispositivo dello schermo:
+Puoi configurare ***DeviceServiceImpl ***dal collegamento seguente per abilitare la limitazione della password durante la creazione della password per gli utenti del dispositivo dello schermo:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
-Segui i passaggi indicati di seguito per configurare ***DeviceServiceImpl***:
+Segui i passaggi indicati di seguito per configurare ***DeviceServiceImpl ***:
 
-1. Passa alla configurazione **della console Web di** Adobe Experience Manager tramite l’istanza di AEM —&gt; icona a forma di martello —&gt; **Operazioni** —&gt; Console **** Web.
+1. Passa alla configurazione **della console Web di** Adobe Experience Manager tramite l’istanza di AEM —> icona a forma di martello —> **Operazioni** —> Console **** Web.
 
 1. **Viene aperta la configurazione della console Web di Adobe Experience Manager **s. Cercare il servizio di assistenza. Per effettuare una ricerca nella proprietà, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
 
@@ -95,7 +95,7 @@ Per informazioni su come configurare il dispatcher per un progetto AEM Screens, 
 
 #### Codifica Java {#java-encoding}
 
-Impostare la codifica ****** Java su Unicode. Ad esempio, *Dfile.encoding=Cp1252* non funzionerà.
+Impostare la codifica ******Java su Unicode. Ad esempio,*Dfile.encoding=Cp1252 *non funzionerà.
 
 >[!NOTE]
 >
