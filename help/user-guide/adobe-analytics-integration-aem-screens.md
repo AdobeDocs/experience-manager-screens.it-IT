@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 3621082c7880e61f659d3bca956159d22d7df6de
 
 ---
 
@@ -22,8 +22,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 >
 >Questa funzionalità di AEM Screens è disponibile solo se sono stati installati AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4.
 
->Per accedere a uno di questi Feature Pack, contattate il supporto Adobe e richiedete l'accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
->
+>[!NOTE]
+>Per accedere a uno di questi Feature Pack, contattate il supporto Adobe e richiedete l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+
 Questa sezione illustra i seguenti argomenti:
 
 * **Panoramica**
@@ -32,7 +33,7 @@ Questa sezione illustra i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-***AEM Screens*** sfrutta Adobe Analytics e consente di ottenere risultati unici sul mercato: analisi cross-channel che aiutano a correlare i contenuti visualizzati nella posizione ad altre origini dati.
+***AEM Screens ***sfrutta Adobe Analytics e consente di ottenere risultati unici sul mercato: analisi cross-channel che aiutano a correlare i contenuti visualizzati nella posizione ad altre origini dati.
 
 AEM Screens offre un’integrazione completa con Adobe Analytics e fornisce una prova della riproduzione.
 
@@ -43,12 +44,12 @@ Questa sezione descrive le seguenti funzionalità relative alla connessione di u
 * Assicurarsi che tutti gli eventi del lettore siano catturati e con marca temporale
 * Assicurarsi che tutti gli eventi del lettore siano memorizzati localmente se la riproduzione non è collegata a una rete
 * Consente di creare cicli di feedback per monitorare gli eventi di riproduzione nel tempo
-* Consente al sistema di modificare contenuto e layout in base ai criteri di successo definiti dall'autore del contenuto
+* Consente al sistema di modificare contenuto e layout in base ai criteri di successo definiti dall&#39;autore del contenuto
 
-L'integrazione di Adobe Analytics con AEM Screens applica quindi i seguenti *obiettivi*:
+L&#39;integrazione di Adobe Analytics con AEM Screens applica quindi i seguenti *obiettivi*:
 
 * Ottimizzazione del ROI dalle implementazioni di digital signage
-* Integrare Analytics come base per l'abilitazione futura della raccolta e dell'analisi delle informazioni di utilizzo
+* Integrare Analytics come base per l&#39;abilitazione futura della raccolta e dell&#39;analisi delle informazioni di utilizzo
 
 ## Dettagli architettonici {#architectural-details}
 
@@ -69,14 +70,16 @@ Andate alla configurazione **della console Web di** Adobe Experience Manager per
 ## Analisi delle schermate: Flusso abilitazione {#screens-analytics-enablement-flow}
 
 >[!CAUTION]
-Prima di configurare le proprietà, contatta Adobe Relationship Manager per creare un ticket per ottenere una chiave **API** Analytics e un progetto **** Analytics da utilizzare con AEM Screens.
+>
+>Prima di configurare le proprietà, contatta Adobe Relationship Manager per creare un ticket per ottenere una chiave **API** Analytics e un progetto **** Analytics da utilizzare con AEM Screens.
 
 ![]()
 
 ### Configurazione delle proprietà {#configuring-the-properties}
 
 >[!CAUTION]
-Prima di configurare le proprietà, contatta Adobe Relationship Manager per creare un ticket per ottenere una chiave **API** Analytics e un progetto **** Analytics da utilizzare con AEM Screens.
+>
+>Prima di configurare le proprietà, contatta Adobe Relationship Manager per creare un ticket per ottenere una chiave **API** Analytics e un progetto **** Analytics da utilizzare con AEM Screens.
 
 La tabella seguente evidenzia le proprietà con la relativa descrizione per la configurazione di Adobe Analytics per AEM Screens:
 
@@ -88,19 +91,20 @@ La tabella seguente evidenzia le proprietà con la relativa descrizione per la c
   </tr>
   <tr>
    <td><strong>URL analisi</strong></td>
-   <td>URL per pubblicare i dati di analisi dal lettore<br /> </td>
+   <td>URL per pubblicare i dati di analisi dal lettore. <br>
+   Per lo sviluppo/lo stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Per la produzione</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Chiave API di Analytics</strong></td>
-   <td>Chiave API per l'autenticazione al server Adobe Analytics (fornita da Gestione account)</td>
+   <td>Chiave API per l'autenticazione al server Adobe Analytics (fornita da Gestione account).</td>
   </tr>
   <tr>
    <td><strong>Progetto di Analytics</strong></td>
-   <td>Progetto AEM Screens configurato nell’analisi per la ricezione di dati (fornito dal manager account)</td>
+   <td>Progetto AEM Screens configurato nell'analisi per la ricezione di dati (fornito da Gestione account).</td>
   </tr>
   <tr>
    <td><strong>di authoring</strong></td>
-   <td><p>Fase o ambiente di produzione.</p> <p><em>Per lo sviluppo/lo stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Per la produzione</em> - https://cc-api-data.adobe.io/ingest/</p> </td>
+   <td><p>Fase o ambiente di produzione (scegliere Fase o Produzione).</p></td>
   </tr>
   <tr>
    <td><strong>Frequenza di invio di Analytics</strong></td>
@@ -110,14 +114,16 @@ La tabella seguente evidenzia le proprietà con la relativa descrizione per la c
 </table>
 
 >[!NOTE]
-Per impostazione predefinita, la **Analytics Send Frequency **è di 15 minuti.
+>
+>Per impostazione predefinita, la frequenza **di invio di** Analytics è di 15 minuti.
 
 #### Utilizzo di Adobe Analytics Service in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Questo scenario richiama l'API di Analytics tramite le chiamate REST da un servizio di analisi nel firmware e nei componenti core degli schermi strumenti per creare e inviare in modo esplicito eventi specifici per un particolare caso d'uso, consentendo al contempo l'estensibilità in cui qualsiasi messaggio personalizzato può essere inviato ad Analytics da un canale sviluppato personalizzato.
+Questo scenario richiama l&#39;API di Analytics tramite le chiamate REST da un servizio di analisi nel firmware e nei componenti core degli schermi strumenti per creare e inviare in modo esplicito eventi specifici per un particolare caso d&#39;uso, consentendo al contempo l&#39;estensibilità in cui qualsiasi messaggio personalizzato può essere inviato ad Analytics da un canale sviluppato personalizzato.
 
 Gli eventi di Analytics vengono memorizzati offline in indicxedDB e successivamente troncati e inviati al cloud.
 
 >[!NOTE]
-Per ulteriori informazioni su ***Sequencing*** e ***Standard Data Model for Events***, consultate **[Configurazione di Adobe Analytics per AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
+>
+>Per ulteriori informazioni su ***Sequencing ***e***Standard Data Model for Events***, consultate **[Configurazione di Adobe Analytics per AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
 
