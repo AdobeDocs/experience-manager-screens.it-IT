@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
+source-git-commit: d7097a5e0156951ac041fb54241faa8c2878f7ae
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [Termini chiave](screens-glossary.md)
 + Nozioni di base sulla rete di digital signage {#digital-signage-network}
    + [Parte 1: Ruoli e responsabilità del progetto](project-roles-responsibilities.md)
-   + [Parte 2: Considerazioni relative all'ambito dei progetti](project-considerations.md)
+   + [Parte 2: Considerazioni relative all&#39;ambito dei progetti](project-considerations.md)
    + [Parte 3: Test, POC, Pilots &amp; Rollout](testing-pocs-pilots-rollouts.md)
    + [Parte 4: Gestione e distribuzione dei progetti](project-management-and-deployment.md)
    + [Parte 5: Considerazioni sul supporto](support-considerations.md)
@@ -76,6 +76,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
       + [Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)
       + [Attivazione mirata inventario vendita al dettaglio](retail-inventory-activation.md)
       + [Applicazione delle transizioni](applying-transitions.md)
+      + [Transizioni da zona a zona singola](multizone-to-singlezone.md)
+      + [Canale TakeOver per uso singolo](single-use-takeover-channel.md)
 + Risorse per sviluppatori e API {#developing}
    + [API REST](rest-api.md)
    + [Sviluppo di un componente personalizzato per AEM Screens](developing-custom-component-tutorial-develop.md)
@@ -90,8 +92,8 @@ source-git-commit: 5712673a6846e4a8a4905d35503ed0c378dfe22b
    + [Risoluzione dei problemi del Centro di controllo del dispositivo](monitoring-screens.md)
    + [Configurazione della riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
-   + [Note sulla versione per Feature Pack 201809](screens-release-notes.md)
-   + [Note sulla versione per Feature Pack 201812](release-notes-fp-201812.md)
-   + [Note sulla versione per Feature Pack 201905](screens-release-notes-fp-201905.md)
-   + [Note sulla versione per Feature Pack 201907](release-notes-fp-201907.md)
    + [Note sulla versione per Feature Pack 201909](release-notes-fp-201909.md)
+   + [Note sulla versione per Feature Pack 201907](release-notes-fp-201907.md)
+   + [Note sulla versione per Feature Pack 201905](screens-release-notes-fp-201905.md)
+   + [Note sulla versione per Feature Pack 201812](release-notes-fp-201812.md)
+   + [Note sulla versione per Feature Pack 201809](screens-release-notes.md)
