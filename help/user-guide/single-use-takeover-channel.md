@@ -5,7 +5,7 @@ description: Seguite questo esempio per creare un canale TakeOver per un singolo
 seo-description: Seguite questo esempio per creare un canale TakeOver per un singolo utilizzo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7678f8b4e940963daa346383d70379fab8cc1765
+source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
 
 ---
 
@@ -76,7 +76,7 @@ Per impostare un progetto, effettuate le seguenti operazioni:
    >[!NOTE]
    >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a Assegnazione **[](channel-assignment.md)**canale.
 
-1. Compilate i campi (Percorso **** canale, **Priorità** ed Eventi **** supportati) dalla finestra di dialogo Assegnazione **** canale e fate clic su **Salva**. Ora hai assegnato il **MainAdChannel** al tuo display.
+1. Compilate i campi (Percorso **** canale, **Priorità** ed Eventi **** supportati) dalla finestra di dialogo Assegnazione **** canale e fate clic su **Salva**. Ora hai assegnato **MainAdChannel** al tuo display.
 
    ![risorsa](assets/single-takeover7.png)
 
@@ -91,6 +91,13 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 Il testo nella **Pianificazione** di cui al presente esempio è *il 31 dicembre dopo le 23:58 e anche il 1 gennaio prima delle 00.01*.
 
       ![risorsa](assets/single-takeover8.png)
+
+      Passate alla visualizzazione da **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Main Lobby Display** (Visualizzazione **Sala d&#39;attesa) e fate clic su** Dashboardnella barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
+
+      >[!NOTE]
+      >È obbligatorio impostare la priorità del canale di acquisizione come massima.
+
+      ![risorsa](assets/single-takeover9.png)
 
       >[!NOTE]
       >Potete fare riferimento alla pianificazione per diversi casi di utilizzo. Per ulteriori informazioni, fare riferimento a Caso d’uso permanente.
