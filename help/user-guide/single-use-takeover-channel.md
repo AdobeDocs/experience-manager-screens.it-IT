@@ -5,7 +5,7 @@ description: Seguite questo esempio per creare un canale TakeOver per un singolo
 seo-description: Seguite questo esempio per creare un canale TakeOver per un singolo utilizzo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c4a05f816ce259490600732356572e0774f2ea2f
+source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
 
 ---
 
@@ -86,18 +86,20 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 
    * **Percorso** canale: Selezionare il percorso del canale TakeOver
    * **Priorità**: Impostare la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
+      >[!NOTE]
+      >Priorità può essere qualsiasi valore superiore al valore di priorità del canale di riproduzione normale.
    * **Eventi** supportati: Selezionate **Schermo** inattivo e **Timer**.
    * **Pianificazione**: Immettere il testo per la pianificazione che si desidera che il canale esegua la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 12:00 del 31 dicembre fino alle 12:01.
 Il testo nella **Pianificazione** di cui al presente esempio è *il 31 dicembre dopo le 23:58 e anche il 1 gennaio prima delle 00.01*.
 
       ![risorsa](assets/single-takeover8.png)
 
-      Passate alla visualizzazione da **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Main Lobby Display** (Visualizzazione **Sala d&#39;attesa) e fate clic su** Dashboardnella barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
+      Andate alla visualizzazione da **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **MainLobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
 
       >[!NOTE]
       >È obbligatorio impostare la priorità del canale di acquisizione come massima.
 
       ![risorsa](assets/single-takeover9.png)
 
-      >[!NOTE]
-      >Potete fare riferimento alla pianificazione per diversi casi di utilizzo. Per ulteriori informazioni, fare riferimento a Caso d’uso permanente.
+>[!NOTE]
+>È consigliabile eliminare il canale One Use TakeOver una volta riprodotto.
