@@ -6,7 +6,7 @@ seo-description: 'Seguite questa pagina per informazioni su On-Demand Content Up
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 221243c537e708aac44145c8d5d5a181ea80a293
+source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
 
 ---
 
@@ -24,7 +24,7 @@ Potete pubblicare e annullare la pubblicazione del contenuto da AEM Screens. La 
 Per distribuire gli aggiornamenti di contenuto dall’istanza di creazione al dispositivo per un progetto AEM Screens, effettuate le seguenti operazioni:
 
 1. Passa al progetto AEM Screens.
-1. Fate clic su **Gestisci pubblicazione** dalla barra delle azioni per pubblicare il progetto nell'istanza di pubblicazione.
+1. Fate clic su **Gestisci pubblicazione** dalla barra delle azioni per pubblicare il progetto nell&#39;istanza di pubblicazione.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
@@ -32,7 +32,7 @@ Per distribuire gli aggiornamenti di contenuto dall’istanza di creazione al di
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Selezionate la casella per selezionare l'intero progetto dalla procedura guidata **Gestisci pubblicazione** .
+1. Selezionate la casella per selezionare l&#39;intero progetto dalla procedura guidata **Gestisci pubblicazione** .
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
@@ -69,26 +69,25 @@ Questa opzione consente di gestire gli aggiornamenti solo per le pagine pubblica
    >Attendete alcuni secondi/minuti in modo che il contenuto raggiunga l’istanza di pubblicazione.
    >
    >
-   >La procedura **Gestisci pubblicazione** con aggiornamento del contenuto offline è in due fasi e i passaggi devono essere in ordine corretto.
-   >
-   >
-   >
-   >    1. Il flusso di lavoro non funzionerà se **Aggiorna contenuto** offline viene attivato prima della pubblicazione tramite **Gestisci pubblicazione**.
-      >
-      >    
-   1. Il flusso di lavoro non funzionerà se il progetto non contiene modifiche e se non sono presenti modifiche per **Aggiorna contenuto** offline.
+   >    1. Il flusso di lavoro non funzionerà se il progetto non contiene modifiche e se non sono presenti modifiche per **Aggiorna contenuto** offline.
    >    1. Il flusso di lavoro non funziona se l’autore non completa il processo di replica (i contenuti vengono ancora caricati nell’istanza di pubblicazione) dopo aver fatto clic sul pulsante **Pubblica** nel flusso di lavoro di gestione della pubblicazione.
 
 
-1. Una volta completato il flusso di lavoro di gestione della pubblicazione, è necessario attivare l'aggiornamento del contenuto offline in fase di creazione, che creerà l'aggiornamento offline nell'istanza di creazione.
+   > [!CAUTION]
+   > Se in qualità di autore o creatore di contenuti, desiderate visualizzare le modifiche nei dispositivi collegati all’istanza di creazione, fate clic su **Aggiorna contenuto** offline dal dashboard di canale o selezionate il progetto. In questo caso, il contenuto aggiornato offline viene eseguito solo nell&#39;istanza di creazione.
 
-   Andate al progetto e fate clic su **Aggiorna contenuto** offline nella barra delle azioni. Questa azione inoltra lo stesso comando per pubblicare l’istanza, in modo che le zip offline vengano create anche nell’istanza di pubblicazione.
+1. Andate al progetto e fate clic su **Aggiorna contenuto** offline nella barra delle azioni. Questa azione inoltra lo stesso comando per pubblicare l’istanza, in modo che le zip offline vengano create anche nell’istanza di pubblicazione.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
+
+   >[!NOTE]
+   >
+   >Dopo aver completato il flusso di lavoro di gestione della pubblicazione e se esiste un lettore che punta all’istanza di creazione, è necessario attivare l’aggiornamento del contenuto offline in corso di creazione, che creerà l’aggiornamento offline nell’istanza di creazione.
+
    >[!CAUTION]
    >
-   >È prima necessario pubblicare e quindi attivare l'aggiornamento del contenuto offline, come riepilogato nei passaggi precedenti.
+   >È necessario attivare l’aggiornamento del contenuto offline nell’istanza di creazione, se al server di creazione è registrato un lettore. L&#39;aggiornamento del contenuto offline non è richiesto per il lettore registrato nell&#39;istanza di pubblicazione.
 
 ### Gestione della pubblicazione per un canale {#managing-publication-for-a-channel}
 
@@ -99,7 +98,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’istanza di creazione al d
 >Seguite questa sezione solo se vi sono modifiche in un canale. Se un canale non contiene modifiche dopo il contenuto offline del precedente aggiornamento, il flusso di lavoro di gestione della pubblicazione per un singolo canale non funzionerà.
 
 1. Andate al progetto Screens e selezionate il canale.
-1. Fate clic su **Gestisci pubblicazione** dalla barra delle azioni per pubblicare l'istanza del canale da pubblicare.
+1. Fate clic su **Gestisci pubblicazione** dalla barra delle azioni per pubblicare l&#39;istanza del canale da pubblicare.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
@@ -115,7 +114,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’istanza di creazione al d
    >
    >Attendete alcuni secondi/minuti in modo che il contenuto raggiunga l’istanza di pubblicazione.
 
-1. Una volta completato il flusso di lavoro di gestione della pubblicazione, è necessario attivare l'aggiornamento del contenuto offline in fase di creazione, che creerà l'aggiornamento offline nell'istanza di creazione.
+1. Una volta completato il flusso di lavoro di gestione della pubblicazione, è necessario attivare l&#39;aggiornamento del contenuto offline in fase di creazione, che creerà l&#39;aggiornamento offline nell&#39;istanza di creazione.
 
    Andate al dashboard del canale e fate clic su **Aggiorna contenuto** offline. Questa azione inoltra lo stesso comando per pubblicare l’istanza, in modo che le zip offline vengano create anche nell’istanza di pubblicazione.
 
@@ -123,7 +122,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’istanza di creazione al d
 
    >[!CAUTION]
    >
-   >È prima necessario pubblicare e quindi attivare l'aggiornamento del contenuto offline, come riepilogato nei passaggi precedenti.
+   >È prima necessario pubblicare e quindi attivare l&#39;aggiornamento del contenuto offline, come riepilogato nei passaggi precedenti.
 
 ### Assegnazione canale e dispositivo: {#channel-and-device-re-assignment}
 
