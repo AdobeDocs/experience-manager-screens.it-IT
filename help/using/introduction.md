@@ -3,8 +3,8 @@ title: Introduzione a [!UICONTROL AEM Screens]
 seo-title: Guida alle best practice per i progetti [!UICONTROL AEM Screens]
 description: Questa pagina è una sezione introduttiva a AEM Screens
 seo-description: Questa pagina fornisce un’introduzione a AEM Screens
-translation-type: ht
-source-git-commit: 55999ae9ead7ab8986f4dcb69b0bbaa46933c9ec
+translation-type: tm+mt
+source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
 
 ---
 
@@ -32,7 +32,7 @@ La creazione e la gestione di una rete di digital signage con AEM Screens è sem
 
 >[!NOTE]
 >
->Per informazioni dettagliate sulle diverse funzioni di sviluppo e gestione di un progetto AEM Screens, consulta la **[Guida utente di AEM Screens](https://helpx.adobe.com/it/experience-manager/6-5/screens/user-guide.html)**.
+>Per informazioni dettagliate sulle diverse funzioni di sviluppo e gestione di un progetto AEM Screens, consulta la **[Guida utente di AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
 
 ## AEM Sites e AEM Screens {#aem-sites-screens}
 
@@ -42,7 +42,7 @@ La creazione e la gestione di una rete di digital signage con AEM Screens è sem
 
 AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per distribuire i contenuti ai dispositivi di digital signage negli spazi pubblici. Anche se è importante mantenere quanta più coerenza possibile tra i canali Web e quelli interni, è necessario tenere presente alcune differenze.
 
-* **Tempo di permanenza**: in genere, le pagine Web sono progettate per fornire un’ampia gamma di informazioni che possono essere utilizzate per un periodo di tempo relativamente più lungo. Al contrario, le esperienze digitali interne dovrebbero anticipare le esigenze dell'osservatore e fornire indicazioni chiare e concise utili a coinvolgere l’utente. Ciò genera esperienze più mirate, curate e contestuali.
+* **Tempo di permanenza**: in genere, le pagine Web sono progettate per fornire un’ampia gamma di informazioni che possono essere utilizzate per un periodo di tempo relativamente più lungo. Al contrario, le esperienze digitali interne dovrebbero anticipare le esigenze dell&#39;osservatore e fornire indicazioni chiare e concise utili a coinvolgere l’utente. Ciò genera esperienze più mirate, curate e contestuali.
 
 * **Distanza di visualizzazione**: le distanze di visualizzazione sono generalmente più lunghe o più lontane rispetto alla distanza di visualizzazione tipica di una pagina web. Di conseguenza, le dimensioni del testo dovrebbero essere maggiori e la spaziatura tra testo, immagini e altri contenuti complementari dovrebbe essere verificata in base alle dimensioni dello schermo e alla posizione prevista nello spazio fisico.
 
@@ -54,7 +54,7 @@ AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per dis
 
 AEM Screens fornisce un’infrastruttura per distribuire contenuti ai dispositivi fisici. I contenuti vengono assegnati ai canali in Screens, che possono avere contenuti multimediali o applicazioni touch screen. In questo framework, un’applicazione AEM Sites può essere distribuita come contenuto tramite un canale.
 
-Prima di essere rilasciata in un canale in Screens, deve essere formattata per le dimensioni del dispositivo di visualizzazione a cui è destinata.
+Prima di essere rilasciata in un canale su schermi, è necessario formattare AEM Sites per utilizzarlo nelle dimensioni del dispositivo di visualizzazione a cui è destinato.
 
 > [!NOTE]
 >
