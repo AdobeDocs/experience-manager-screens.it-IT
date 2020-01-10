@@ -2,10 +2,10 @@
 title: Canale di acquisizione perpetua
 seo-title: Canale di acquisizione perpetua
 description: Seguite questo esempio per creare un canale di acquisizione perpetuo.
-seo-description: Seguite questo esempio per creare un canale di acquisizione perpetuo.
+seo-description: Seguite questo caso d’uso per impostare un progetto che crea un canale TakeOver perpetuo che viene riprodotto per un giorno e un’ora specifici in modo continuo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: ab7b6637619cc0074cc0198202d69b1245b1b1f5
 
 ---
 
@@ -40,61 +40,67 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 
 1. Crea un progetto AEM Screens denominato **PerpetualTakeOver**, come illustrato di seguito.
 
-   ![risorsa](assets/single-takeover1.png)
+   ![risorsa](assets/p_usecase1.png)
 
 1. Create un **MainAdChannel** nella cartella **Channels** .
 
-   ![risorsa](assets/single-takeover2.png)
+   ![risorsa](assets/p_usecase2.png)
 
 1. Selezionate **MainAdChannel** e fate clic su **Modifica** nella barra delle azioni. Trascinate alcune risorse (immagini, video, sequenze incorporate) sul canale.
 
-   ![risorsa](assets/single-takeover2.png)
+   ![risorsa](assets/p_usecase3.png)
 
 
    >[!NOTE]
    >In questo esempio, **MainAdChannel** mostra un canale di sequenza che riproduce continuamente il contenuto.
 
-   ![risorsa](assets/single-takeover3.png)
-
-1. Create un canale **TakeOver** che occupi il contenuto in **MainAdChannel** e che verrà riprodotto solo per un giorno e un&#39;ora specifici.
+1. Create un canale **TakeOver** che occupi il contenuto in **MainAdChannel** e che verrà riprodotto ogni mercoledì dalle 2:00 alle 4:00.
 
 1. Selezionate **TakeOver** e fate clic su **Modifica** nella barra delle azioni. Trascinate alcune risorse sul canale. L’esempio seguente mostra un’immagine a zona singola aggiunta al canale.
 
-   ![risorsa](assets/single-takeover4.png)
+   ![risorsa](assets/p_usecase4.png)
 
-1. Configurate una posizione e una visualizzazione per i canali. Ad esempio, per questo progetto è impostata la seguente posizione **Sala d&#39;attesa** e visualizzazione **MainLobbyDisplay** .
+1. Configurate una posizione e una visualizzazione per i canali. Ad esempio, la seguente posizione **MainLobby** e visualizzazione **MainLobbyDisplay** è impostata per questo progetto.
 
-   ![risorsa](assets/single-takeover5.png)
+   ![risorsa](assets/p_usecase5.png)
 
 **Assegnazione di canali a una visualizzazione**
 
-1. Selezionate la visualizzazione **MainLobbyDisplay** dalla cartella **Locations** . Fate clic su **Assegna canale** dalla barra delle azioni.
-
-   ![risorsa](assets/single-takeover6.png)
+1. Selezionate la visualizzazione **MainLobbyDisplay** dalla cartella **Locations** . Fate clic su **Assegna canale** dalla barra delle azioni per aprire la finestra di dialogo Assegnazione **** canale.
 
    >[!NOTE]
    >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a Assegnazione **[](channel-assignment.md)**canale.
 
-1. Compilate i campi (Percorso **** canale, **Priorità** ed Eventi **** supportati) dalla finestra di dialogo Assegnazione **** canale e fate clic su **Salva**. Ora hai assegnato **MainAdChannel** al tuo display.
+1. Compilare i campi (Percorso **** canale, **Priorità** ed Eventi **** supportati) dalla finestra di dialogo Assegnazione **** canale e fare clic su **Salva** **** per assegnare il canale principaleal display.
 
-   ![risorsa](assets/single-takeover7.png)
+   * **Percorso** canale: Selezionare il percorso del canale **MainAdChannel**
+   * **Priorità**: Imposta la priorità del canale su 1.
+   * **Eventi** supportati: Selezionate la schermata **iniziale Carica** e **Inattivo**.
+   ![risorsa](assets/p_usecase6.png)
 
-1. Selezionate la visualizzazione **TakeOver** dalla cartella **Locations** . Fate clic su **Assegna canale** dalla barra delle azioni per assegnare il canale di acquisizione a uso singolo.
+1. Selezionate la visualizzazione **TakeOver** dalla cartella **Locations** . Fate clic su **Assegna canale** dalla barra delle azioni per assegnare il canale di acquisizione.
 
 1. Per assegnare il canale **TakeOver** al display in un momento programmato e compilare i campi seguenti dalla finestra di dialogo Assegnazione **** canale, quindi fare clic su **Salva**:
 
-   * **Percorso** canale: Selezionare il percorso del canale TakeOver
+   * **Percorso** canale: Selezionare il percorso del canale **TakeOver**
    * **Priorità**: Impostare la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
    * **Eventi** supportati: Selezionate **Schermo** inattivo e **Timer**.
-   * **Pianificazione**: Immettere il testo per la pianificazione che si desidera che il canale esegua la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 12:00 del 31 dicembre fino alle 12:01.
-Il testo nella **Pianificazione** di cui al presente esempio è *il 31 dicembre dopo le 23:58 e anche il 1 gennaio prima delle 00.01*.
+   * **Pianificazione**: Immettere il testo per la pianificazione che si desidera che il canale esegua la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto ogni mercoledì dalle 14:00 alle 16:00.
+Il testo nel **Programma** di cui all&#39;esempio è riportato *il mercoledì dopo le 14:00 e prima delle 16:00*.
 
-      ![risorsa](assets/single-takeover8.png)
+      ![risorsa](assets/p_usecase7.png)
 
-      Passate alla visualizzazione da **SingleUseTakeOver** —> **Locations** —> **Lobby** —> **Main Lobby Display** (Visualizzazione **Sala d&#39;attesa) e fate clic su** Dashboardnella barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
+      Andate alla visualizzazione da **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
 
       >[!NOTE]
       >È obbligatorio impostare la priorità del canale di acquisizione come massima.
 
-      ![risorsa](assets/single-takeover9.png)
+      ![asset](assets/p_usecase8.png)Ora, il canale **TakeOver** acquisirà il **MainAdChannel** alle 14:00 per due ore fino alle 16:00 ogni mercoledì e riprodurrà i contenuti dal 09 gennaio 2020 al 31 gennaio 2020.
 
+### Espressioni di esempio {#example-expressions}
+
+Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
+
+| **Espressione** | **Interpretazione** |
+|---|---|
+| dopo le 12:15 e prima delle 12:45 | il canale riproduce dopo le 12:15 ogni giorno per 30 minuti |
