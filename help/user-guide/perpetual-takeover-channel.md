@@ -5,7 +5,7 @@ description: Seguite questo esempio per creare un canale di acquisizione perpetu
 seo-description: Seguite questo caso d’uso per impostare un progetto che crea un canale TakeOver perpetuo che viene riprodotto per un giorno e un’ora specifici in modo continuo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ba7086ec041f6cfe41d8847b97e97948526cc205
+source-git-commit: 5e80a23674528467dd6eca7054e0730471646baf
 
 ---
 
@@ -86,8 +86,8 @@ Per impostare un progetto, effettuate le seguenti operazioni:
    * **Priorità**: Impostare la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
    * **Eventi** supportati: Selezionate **Schermo** inattivo e **Timer**.
    * **Pianificazione**: Immettere il testo per la pianificazione che si desidera che il canale esegua la visualizzazione. Il testo nel **Programma** di cui all&#39;esempio è riportato *il mercoledì dopo le 14:00 e prima delle 16:00*.
-      [!NOTE]
-      > Per ulteriori informazioni sulle espressioni che è possibile aggiungere alla **programmazione**, fare riferimento alla sezione Espressioni [di](#example-expressions) esempio di seguito
+      >[!NOTE]
+      >Per ulteriori informazioni sulle espressioni che è possibile aggiungere alla **programmazione**, fare riferimento alla sezione Espressioni [di](#example-expressions) esempio di seguito
    * **attiva da**: Data e ora di inizio.
    * **attivo fino** a: Data e ora di fine.
    Ad esempio, il testo in **Pianificazione** e **attivo da** data e ora **** attiva qui consente la riproduzione del contenuto ogni mercoledì dalle 2:00 alle 16:00.
@@ -115,4 +115,5 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | il canale inizia a giocare dopo le 12:45 del 1° gennaio, continua a giocare per tutta la giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | il canale avvia il lettore dopo le 12:45 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 12:45 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
 
-È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (cioè 14:00) invece della notazione AM/pm (cioè 2:00 pm)
+>[!NOTE]
+>È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione AM/pm (ovvero, 2:00 pm).
