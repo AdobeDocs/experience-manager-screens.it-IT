@@ -5,7 +5,7 @@ description: Seguite questo esempio per creare un canale di acquisizione perpetu
 seo-description: Seguite questo caso d’uso per impostare un progetto che crea un canale TakeOver perpetuo che viene riprodotto per un giorno e un’ora specifici in modo continuo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5c89be38d0a8dade2f829bcce6fb3154789d3579
+source-git-commit: 9bf6799e41b0cabba3ce3e68770e14005ff62fce
 
 ---
 
@@ -106,4 +106,11 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
+| prima delle 8:00 | il canale gioca prima delle 8:00 di ogni giorno |
+| dopo le 14:00 | il canale gioca dopo le 2:00 pm ogni giorno |
 | dopo le 12:15 e prima delle 12:45 | il canale riproduce dopo le 12:15 ogni giorno per 30 minuti |
+| prima delle 12:15 anche dopo le 12:45 | il canale gioca prima delle 12:15 pm ogni giorno e poi anche dopo 12:45 pm |
+| il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | il canale inizia a giocare dopo le 12:45 del 1° gennaio, continua a giocare per tutta la giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
+| il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | il canale avvia il lettore dopo le 12:45 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 12:45 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
+
+È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (cioè 14:00) invece della notazione AM/pm (cioè 2:00 pm)
