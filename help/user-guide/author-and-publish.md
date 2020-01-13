@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
 
 ---
 
@@ -134,7 +134,7 @@ La configurazione deve essere identica per ogni istanza di pubblicazione e il ci
 
 #### Passaggio 2: Verifica topologia di pubblicazione {#step-verify-publish-topology}
 
-Per una qualsiasi delle istanze Pubblica, andate a `https://<host>:<port>/system/console/topology`. Dovreste visualizzare ogni istanza di pubblicazione rappresentata nella topologia.
+Per qualsiasi istanza di pubblicazione, passate a `https://:/system/console/topology`. Ogni istanza di pubblicazione deve essere rappresentata nella topologia sotto i connettori **topologia** in uscita.
 
 #### Passaggio 3: Configurazione cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
@@ -150,12 +150,9 @@ Per ogni istanza di pubblicazione:
 
 Poiché per impostazione predefinita ogni istanza di pubblicazione dispone di chiavi di crittografia univoche, è necessario eseguire questo passaggio su ogni istanza di pub e salvare la chiave univoca per la configurazione successiva.
 
->Nota:
+>[!NOTE]
 >La password deve iniziare e terminare con parentesi graffe.
-
-*Esempio:*
-
-`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>Ad esempio:{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a6 10e}
 
 #### Passaggio 4: Attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
