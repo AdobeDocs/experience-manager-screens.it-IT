@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b8ab512b7e883fff1265b73403429351e5c6d3b5
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -126,7 +126,9 @@ Per ogni istanza di pubblicazione:
 
 1. Accedi a `https://<host>:<port>/system/console/configMgr`
 1. Selezionate **Apache Sling Oak-Based Discovery Service** Configuration.
-1. Aggiorna URL connettore topologia: aggiungete URL di tutte le istanze di pubblicazione partizionate, `https://localhost:4502/libs/sling/topology/connector`
+1. Aggiorna URL connettore topologia: aggiungete URL di tutte le istanze di pubblicazione partizionate, ossia:
+   * `https://localhost:4503/libs/sling/topology/connector`
+   * `https://localhost:4504/libs/sling/topology/connector`
 1. Connettore topologia Whitelist: adattare a IP o subnet che coprono le istanze di pubblicazione di parte
 1. Abilita loop locali con **arresto automatico**
 
@@ -237,7 +239,7 @@ Controllare il lettore e visualizzare il contenuto aggiunto nel canale.
 
 **Verifica del dispositivo**
 
-Prima di eseguire le operazioni seguenti, verificare l&#39;ID dispositivo. Per verificare, cercate l&#39;ID dispositivo in CRXDELite, con il percorso */home/users/screens/{project}/devices*.
+Prima di eseguire le operazioni seguenti, verificare l&#39;ID dispositivo. Per verificare, cercare l&#39;ID dispositivo in CRXDELite, con il percorso */home/users/screens/we-retail/devices*.
 
 Per replicare l’utente del dispositivo, effettuate le seguenti operazioni:
 
@@ -275,11 +277,15 @@ Di seguito sono riepilogati gli elenchi Publishing Check:
 * *Pianificazione* : se si utilizza una pianificazione, assicurarsi che sia pubblicata
 * *Posizione, programmi e cartella* canale, se le risorse corrispondenti si trovano all’interno di una cartella.
 
-Dopo aver verificato l’elenco di controllo, è necessario verificare le seguenti modifiche/comportamenti nel canale:
+Per verificare il comportamento di creazione e pubblicazione, effettuate le seguenti operazioni:
 
-* Dopo aver pubblicato la configurazione del dispositivo, aprite la configurazione del lettore Screens e indicatela nell’istanza Pubblica. È inoltre possibile attivare il dispositivo dalla console di gestione del dispositivo.
-* Aggiornate il contenuto di alcuni canali su Author e pubblicatelo e verificate che il canale aggiornato venga ora visualizzato sul lettore AEM Screens.
-* Collegare il lettore Screens a un’altra istanza di pubblicazione e verificare il comportamento descritto sopra.
+1. Aggiornare il contenuto di alcuni canali nell&#39;istanza di creazione
+1. Esegui **Gestisci pubblicazione** per pubblicare nuove modifiche a tutte le istanze di pubblicazione
+1. Premere **Activate** per attivare il dispositivo da **Device Manager**
+1. **Modificare l’URL** dall’URL dell’istanza di creazione a uno degli URL delle istanze di pubblicazione
+1. Verifica della visualizzazione del contenuto del canale aggiornato sul lettore AEM Screens
+1. Ripetete questi passaggi utilizzando un&#39;altra istanza di pubblicazione
+
 
 #### Passaggio 5: Puntare il dispositivo per pubblicare l&#39;istanza nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
@@ -296,5 +302,7 @@ In alternativa, puoi anche aggiornare/modificare l’URL del server dalla consol
 1. Selezionate il dispositivo e fate clic su **Modifica URL** server dalla barra delle azioni, come illustrato nella figura riportata di seguito, per estendere le modifiche al lettore AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
+
+La funzione **Gestisci pubblicazione** consente di distribuire gli aggiornamenti di contenuto dall’autore alla pubblicazione sul dispositivo. Puoi pubblicare/annullare la pubblicazione del contenuto per l’intero progetto AEM Screens o solo per un canale, un percorso, un dispositivo, un’applicazione o una pianificazione. Per ulteriori informazioni su questa funzione, consultate Aggiornamento [contenuto](on-demand-content.md)on-demand.
 
 
