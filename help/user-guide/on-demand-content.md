@@ -6,7 +6,7 @@ seo-description: 'Seguite questa pagina per informazioni su On-Demand Content Up
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
 
 ---
 
@@ -114,9 +114,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’istanza di creazione al d
    >
    >Attendete alcuni secondi/minuti in modo che il contenuto raggiunga l’istanza di pubblicazione.
 
-1. Una volta completato il flusso di lavoro di gestione della pubblicazione, è necessario attivare l&#39;aggiornamento del contenuto offline in fase di creazione, che creerà l&#39;aggiornamento offline nell&#39;istanza di creazione.
-
-   Andate al dashboard del canale e fate clic su **Aggiorna contenuto** offline. Questa azione inoltra lo stesso comando per pubblicare l’istanza, in modo che le zip offline vengano create anche nell’istanza di pubblicazione.
+1. Attivate **Aggiorna contenuto** offline nel dashboard canali per inviare solo il contenuto offline all’istanza di creazione ma non all’istanza di pubblicazione. I passaggi da 1 a 4 prevedono l’invio di contenuto offline per pubblicare l’istanza.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
