@@ -5,7 +5,7 @@ description: Seguite questo esempio per creare un canale di acquisizione perpetu
 seo-description: Seguite questo caso d’uso per impostare un progetto che crea un canale TakeOver perpetuo che viene riprodotto per un giorno e un’ora specifici in modo continuo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 5550cefe34770633bb2db86f5878d1ea7fd41d61
+source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
 
 ---
 
@@ -90,17 +90,18 @@ Per impostare un progetto, effettuate le seguenti operazioni:
       >Per ulteriori informazioni sulle espressioni che è possibile aggiungere alla **programmazione**, fare riferimento alla sezione Espressioni [di](#example-expressions) esempio di seguito.
    * **attiva da**: Data e ora di inizio.
    * **attivo fino** a: Data e ora di fine.
-   Ad esempio, il testo in **Pianificazione** e **attivo da** data e ora **** attiva qui consente la riproduzione del contenuto ogni mercoledì dalle 2:00 alle 16:00.
+
+      Ad esempio, il testo in **Pianificazione** e **attivo da** data e ora **** attiva qui consente la riproduzione del contenuto ogni mercoledì dalle 2:00 alle 16:00.
 
 
-   ![risorsa](assets/p_usecase7.png)
+      ![risorsa](assets/p_usecase7.png)
 
-   Andate alla visualizzazione da **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
+      Andate alla visualizzazione da **TakeOver** —> **Locations** —> **MainLobby** —> **MainLobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni per visualizzare i canali assegnati con le relative priorità, come mostrato di seguito.
 
-   >[!NOTE]
-   >È obbligatorio impostare la priorità del canale di acquisizione come massima.
+      >[!NOTE]
+      >È obbligatorio impostare la priorità del canale di acquisizione come massima.
 
-   ![asset](assets/p_usecase8.png)Ora, il canale **TakeOver** acquisirà il **MainAdChannel** alle 14:00 per due ore fino alle 16:00 ogni mercoledì e riprodurrà i contenuti dal 09 gennaio 2020 al 31 gennaio 2020.
+      ![asset](assets/p_usecase8.png)Ora, il canale **TakeOver** acquisirà il **MainAdChannel** alle 14:00 per due ore fino alle 16:00 ogni mercoledì e riprodurrà i contenuti dal 09 gennaio 2020 al 31 gennaio 2020.
 
 ## Espressioni di esempio {#example-expressions}
 
