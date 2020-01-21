@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9ee952340d8d966bbad6e6587686448b6413dcca
+source-git-commit: d076b0f2362b5feccc78d3984306d3036a6d916b
 
 ---
 
@@ -28,9 +28,42 @@ Questa pagina mostra come installare e configurare i lettori Screens sui disposi
 >
 >Il lettore AEM Screens non utilizza il token CSRF (Cross-Site Request Forgery). Per poter configurare e utilizzare AEM Server per AEM Screens, ignorate il filtro di riferimento consentendo riferimenti vuoti.
 
+## Quadro di controllo dello stato {#health-check-framework}
+
+Il framework Health Check consente all&#39;utente di verificare se sono state configurate due configurazioni necessarie prima di eseguire un progetto AEM Screens.
+
+Consente all&#39;utente di verificare i due seguenti controlli di configurazione per eseguire un progetto AEM Screens, vale a dire per verificare lo stato dei due filtri seguenti:
+
+1. **Consenti referente vuoto**
+2. **https**
+
+Per verificare se queste due configurazioni vitali sono abilitate per AEM Screens, effettuate le seguenti operazioni:
+
+1. Passa a [Adobe Experience Manager Web ConsoleSling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
+
+   ![assets](assets/health-check1.png)
+
+
+2. Fare clic su **Esegui controlli** di integrità selezionati per eseguire la convalida per due proprietà elencate sopra.
+
+   Se entrambi i filtri sono attivati, il servizio **integrità configurazione** Screens mostra il **risultato** come **OK** con entrambe le configurazioni abilitate.
+
+   ![assets](assets/health-check2.png)
+
+   Se uno o entrambi i filtri sono disattivati, viene visualizzato un avviso per l&#39;utente, come illustrato nella figura riportata di seguito.
+
+   Il seguente avviso mostra se entrambi i filtri sono disattivati:
+   ![assets](assets/health-check3.png)
+
+>[!NOTE]
+>
+>* Per abilitare il filtro **di riferimento** Apache Sling, fare riferimento a [Consenti richieste](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)di referente vuote.
+>* Per abilitare il servizio **HTTP** , fare riferimento al servizio [HTTP](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)Apache Felix Jetty.
+
+
 ### Prerequisiti {#prerequisites}
 
-I seguenti punti chiave aiutano a configurare e il server AEM da usare per AEM Screens:
+I seguenti punti chiave sono utili per configurare e il server AEM da usare per AEM Screens.
 
 #### Consenti richieste referente vuote {#allow-empty-referrer-requests}
 
@@ -49,6 +82,22 @@ I seguenti punti chiave aiutano a configurare e il server AEM da usare per AEM S
    ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
 
 1. Fate clic su **Salva** per attivare l&#39;opzione Consenti valori nulli per il filtro Apache Sling Referrer.
+
+#### Servizio HTTP Apache Felix Jetty {#allow-apache-felix-service}
+
+1. Passa alla configurazione **della console Web di** Adobe Experience Manager tramite l’istanza di AEM —> icona a forma di martello —> **Operazioni** —> Console **** Web.
+
+   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+
+1. **Viene aperta la configurazione** della console Web di Adobe Experience Manager. Cercate il servizio HTTP Apache Felix Jetty.
+
+   Per effettuare una ricerca in questa proprietà, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
+
+1. Selezionate l’opzione **ABILITA HTTP** , come illustrato nella figura riportata di seguito.
+
+   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+
+1. Fate clic su **Salva** per abilitare il servizio *http* .
 
 #### Abilita interfaccia utente touch per AEM Screens {#enable-touch-ui-for-aem-screens}
 
@@ -102,4 +151,11 @@ Impostare la codifica ******Java su Unicode. Ad esempio,*Dfile.encoding=Cp1252 *
 >**Consiglio:**
 >
 >Si consiglia di utilizzare HTTPS per AEM Screens Server in fase di produzione.
+
+
+
+
+
+
+
 
