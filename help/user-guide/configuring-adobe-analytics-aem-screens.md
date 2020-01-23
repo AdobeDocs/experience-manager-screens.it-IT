@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9b68f76512fc090103f29c8c29c761b0f047416f
 
 ---
 
@@ -20,10 +20,9 @@ source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se sono stati installati AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4.
+>Questa funzionalità di AEM Screens è disponibile solo se sono stati installati AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4.\
+>Per accedere a uno di questi Feature Pack, contattate il supporto Adobe e richiedete l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
->Per accedere a uno di questi Feature Pack, contattate il supporto Adobe e richiedete l'accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
->
 Questa sezione illustra i seguenti argomenti:
 
 * **Sequenza in Adobe Analytics con AEM Screens**
@@ -31,7 +30,7 @@ Questa sezione illustra i seguenti argomenti:
 
 ## Sequenza in Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Il processo ***di*** sequenziamento inizia con il servizio di memorizzazione dei dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia eventi Adobe Analytics con payroll, ovvero l'acquisizione di test dei dati a Windows I/O e gli eventi di permanenza vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell'archivio oggetti. In base alla pianificazione, l'amministratore imposta, taglia i dati dall'archivio oggetti e li trasferisce ulteriormente nell'archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
+Il processo ***di ***sequenziamento inizia con il servizio di memorizzazione dei dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia eventi Adobe Analytics con payroll, ovvero l&#39;acquisizione di test dei dati a Windows I/O e gli eventi di permanenza vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
 
 ### Diagramma di sequenza {#sequencing-diagram}
 
