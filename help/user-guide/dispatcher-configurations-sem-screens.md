@@ -9,7 +9,7 @@ contentOwner: jsyal
 discoiquuid: 046ec5ae-600d-422f-aa59-c39f16cf71de
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
@@ -20,11 +20,15 @@ Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Expe
 
 La pagina seguente contiene le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
 
+>[!NOTE]
+>Se è disponibile un dispatcher, è possibile impedire le connessioni al servlet di registrazione filtrando le regole del dispatcher.
+>In assenza di dispatcher, disattivate il servlet di registrazione nell’elenco dei componenti OSGi.
+
 ## Prerequisiti {#pre-requisites}
 
 Prima di configurare il dispatcher per un progetto AEM Screens, è necessario disporre di conoscenze preliminari sul dispatcher.
 
-Per ulteriori informazioni, consultate **[Configurazione del dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html)** .
+Per ulteriori informazioni, consultate [Configurazione del dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) .
 
 ## Configurazione di Dispatcher {#configuring-dispatcher}
 
@@ -42,7 +46,7 @@ Aggiungi quanto segue alla `/clientheaders` sezione
 
 ### Passaggio 2: Configurazione dei filtri per le schermate {#step-configuring-screens-filters}
 
-Per configurare i filtri Schermi, aggiungi quanto segue a ***/filtro***.
+Per configurare i filtri Schermi, aggiungi quanto segue a ***/filtro ***.
 
 ```
 ## AEM Screens Filters
@@ -64,4 +68,4 @@ Per configurare i filtri Schermi, aggiungi quanto segue a ***/filtro***.
 
 ### Passaggio 3: Disattivazione della cache del dispatcher {#step-disabling-dispatcher-cache}
 
-Disattiva il caching del dispatcher per il percorso ***/content/screens***.
+Disattiva il caching del dispatcher per il percorso ***/content/screens ***.
