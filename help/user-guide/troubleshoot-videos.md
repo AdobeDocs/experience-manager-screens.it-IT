@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
 
 ---
 
@@ -38,7 +38,7 @@ Se non è presente una rappresentazione, accertatevi che nel sistema operativo i
 >
 >Se non è presente una rappresentazione, accertatevi che nel sistema operativo in cui è in esecuzione AEM sia installato ffmpeg.
 >
->Fate clic [qui](https://evermeet.cx/ffmpeg/) per installare ffmpeg.
+>Fate clic [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
 
 ## Risorse video {#video-assets}
 
@@ -56,7 +56,7 @@ Controllare che ffmpeg sia installato e che i profili video siano impostati.
 
 1. Caricate un video di prova e fate clic su **OK** per iniziare la transcodifica.
 
-   Se la transcodifica non riesce, espandete l'output ffmpeg per comprendere eventuali errori nell'output della console di ffmpeg.
+   Se la transcodifica non riesce, espandete l&#39;output ffmpeg per comprendere eventuali errori nell&#39;output della console di ffmpeg.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -78,7 +78,7 @@ Se il componente video non è configurato correttamente, controllate l’elenco 
 
 1. Selezionate il video e aprite la finestra di dialogo **Modifica** . Open the **Profiles** tab.
 
-   Selezionare profili diversi (dovrebbe essere presente almeno il profilo "H.264 di alta qualità").
+   Selezionare profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
 
    ![chlimage_1-7](assets/chlimage_1-7.png)
 
@@ -90,7 +90,7 @@ Se il video non viene eseguito su Safari, non verrà eseguito nei lettori OSX e 
 
 Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effettuate le seguenti operazioni:
 
-1. Andate all'amministratore *del modello di* workflow, ovvero `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Andate all&#39;amministratore *del modello di* workflow, ovvero `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
 1. Selezionate il modello **Schermate Aggiorna risorsa** .
 1. fate clic su **Avvia flusso di lavoro** nella barra delle azioni per aprire la finestra di dialogo **Esegui flusso di lavoro** .
 
@@ -99,7 +99,7 @@ Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effe
 
 >[!NOTE]
 >
->Consentite un po' di tempo per creare le rappresentazioni, ma dopo alcuni secondi/minuti (a seconda della dimensione del video), ricaricate il lettore Web su Safari.
+>Consentite un po&#39; di tempo per creare le rappresentazioni, ma dopo alcuni secondi/minuti (a seconda della dimensione del video), ricaricate il lettore Web su Safari.
 
 #### Risoluzione dei problemi relativi al contrassegno dei criteri di riproduzione automatica {#troubleshooting-autoplay-policy-flag}
 
@@ -107,8 +107,8 @@ Se il lettore AEM Screens rileva il video ma non lo visualizza, è necessario ri
 
 Seguite i passaggi indicati di seguito per risolvere il problema relativo al flag di analisi automatica di Google:
 
-1. Andate a ***chrome://flags/#autoplay-policy***
-1. Cambia il criterio **di** esecuzione automatica da **Predefinito** a **nessun gesto dell'utente**
+1. Andate a ***chrome://flags/#autoplay-policy ***
+1. Cambia il criterio **di** esecuzione automatica da **Predefinito** a **nessun gesto dell&#39;utente**
 
 1. Riavviate il browser Web e aggiornate il lettore
 
@@ -132,7 +132,7 @@ La strategia assoluta:
 
 * calcola un orario di ancoraggio (mezzanotte del giorno corrente)
 * calcola la durata della sequenza (somma della durata di tutto l’elemento)
-* in qualsiasi momento, calcola quale elemento deve essere attualmente riprodotto e l'elemento successivo risolvendo la sequenza _residue_time = (current_time - anchor_time) % sequence_durata.
+* in qualsiasi momento, calcola quale elemento deve essere attualmente riprodotto e l&#39;elemento successivo risolvendo la sequenza _residue_time = (current_time - anchor_time) % sequence_durata.
 
 Per impostare una strategia assoluta, effettuate le seguenti operazioni:
 
@@ -149,9 +149,9 @@ Per impostare una strategia assoluta, effettuate le seguenti operazioni:
 **Allineamento degli orologi su OS X** Seguire i passaggi seguenti per allineare gli orologi su OSX:
 
 1. Aprire le preferenze **Data e ora** in ciascuna casella OSX
-1. Controlla** Imposta automaticamente data e ora**
+1. Controlla automaticamente data e ora **impostata**
 1. Incolla il valore 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com nel menu a discesa o esegui semplicemente *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Avvio dei 2+ giocatori
 
-Potrebbe essere necessario un po' di tempo prima che i giocatori inizino una nuova sequenza allineata.
+Potrebbe essere necessario un po&#39; di tempo prima che i giocatori inizino una nuova sequenza allineata.
 
