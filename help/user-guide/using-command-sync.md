@@ -4,20 +4,22 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: 1753009451e4bed75eb8241bcca887f7abe2f77b
+source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
 
 ---
 
 
 # Sincronizzazione comandi {#command-sync}
 
-Nella pagina seguente viene descritto come utilizzare la sincronizzazione dei comandi. La sincronizzazione dei colori consente la riproduzione sincronizzata tra diversi lettori. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
+Nella pagina seguente viene descritto come utilizzare la sincronizzazione dei comandi. La sincronizzazione dei comandi consente la riproduzione sincronizzata tra diversi lettori. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
 
 ## Panoramica {#overview}
 
-Le soluzioni di digital signage devono supportare le pareti video e la riproduzione sincronizzata per supportare scenari come i conteggi di Capodanno o grandi video suddivisi in sezioni per la riproduzione su schermi diversi, ed è qui che entra in gioco la sincronizzazione dei contenuti.
+Le soluzioni di digital signage devono supportare le pareti video e la riproduzione sincronizzata per supportare scenari come i conteggi di Capodanno o grandi video suddivisi in sezioni per la riproduzione su schermi diversi, ed è qui che entra in gioco la sincronizzazione dei comandi.
 
-Per utilizzare Command Sync, un giocatore agisce come *master* e invia comando e tutti gli altri giocatori agiscono come *clienti* e giocano quando ricevono il comando. Il *master* invia un comando a tutti i client registrati quando sta per avviare la riproduzione di un elemento. Il payload di questo può essere l&#39;indice dell&#39;elemento da riprodurre e/o il codice HTML esterno dell&#39;elemento da riprodurre.
+Per utilizzare Command Sync, un giocatore agisce come *master* e invia il comando e tutti gli altri giocatori agiscono come *client* e giocano quando ricevono il comando.
+
+Il *master* invia un comando a tutti i client registrati quando sta per avviare la riproduzione di un elemento. Il payload di questo può essere l&#39;indice dell&#39;elemento da riprodurre e/o il codice HTML esterno dell&#39;elemento da riprodurre.
 
 ## Implementazione della sincronizzazione dei comandi {#using-command-sync}
 
@@ -63,7 +65,7 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 ### Impostazione di una pagina master {#setting-up-master}
 
 1. Andate alla dashboard di visualizzazione da **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni.
-I due dispositivi (chrome e web player) sono visibili nel pannello **DISPOSITIVI** , come mostrato nella figura seguente.
+Verranno visualizzati i due dispositivi (chrome e Windows player) nel pannello **DISPOSITIVI** , come mostrato nella figura seguente.
 
    ![image1](assets/command-sync7.png)
 
