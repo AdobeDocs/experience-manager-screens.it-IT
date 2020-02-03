@@ -4,7 +4,7 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: dbc20693481e6f6f379eb93bbf40ed9961589d00
+source-git-commit: d1c2715f516f9089c346241280d8693118b49873
 
 ---
 
@@ -31,7 +31,7 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
 1. L’esempio seguente mostra un progetto dimostrativo denominato **CommandSyncDemo** e un canale di sequenza **ChannelLobby**.
 
-   ![image1](assets/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1.png)
 
    >[!NOTE]
    >
@@ -39,17 +39,17 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
    Il canale contiene il contenuto seguente, come mostrato nella figura seguente.
 
-   ![image1](assets/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2.png)
 
 1. Create una visualizzazione nella cartella **Locations (Posizioni)** , come illustrato nella figura riportata di seguito.
-   ![image1](assets/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3.png)
 
 1. Assegna il canale, **ChannelLobby** al tuo **LobbyDisplay**.
-   ![image1](assets/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4.png)
 
    >[!NOTE]
    >
-   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di schermi](/help/user-guide/managing-displays.md)
+   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di schermi](/help/user-guide/managing-displays.md).
 
 1. Andate alla cartella **Devices** e fate clic su **Device Manager** dalla barra delle azioni per registrare i dispositivi.
 
@@ -59,8 +59,23 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
    >
    >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di schermi](/help/user-guide/managing-displays.md)
 
-1. A scopo dimostrativo, questo esempio mostra un dispositivo chrome e un lettore Web come due dispositivi separati. Entrambi i dispositivi puntano allo stesso display.
+1. A scopo dimostrativo, questo esempio mostra un dispositivo chrome e un lettore Windows come due dispositivi separati. Entrambi i dispositivi puntano allo stesso display.
    ![image1](assets/command-sync6.png)
+
+### Aggiornamento delle impostazioni del canale
+
+1. Andate a **ChannelLobby** e fate clic su **Modifica** dalla barra delle azioni per aggiornare le impostazioni del canale.
+
+1. Selezionare l&#39;intero canale come mostrato nella figura seguente.
+   ![image1](assets/command-sync/command-sync7.png)
+
+1. Fate clic sull’icona chiave inglese per aprire la finestra di dialogo **Pagina** .
+   ![image1](assets/command-sync/command-sync8.png)
+
+1. Immettete la parola chiave *sincronizzata* nel campo **Strategia** .
+
+   ![image1](assets/command-sync/command-sync9.png)
+
 
 ### Impostazione di una pagina master {#setting-up-master}
 
