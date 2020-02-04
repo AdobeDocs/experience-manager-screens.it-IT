@@ -4,7 +4,7 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: d1c2715f516f9089c346241280d8693118b49873
+source-git-commit: f7827b604ca738c3927772fb26b4df68b7e793a0
 
 ---
 
@@ -81,28 +81,33 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
 1. Andate alla dashboard di visualizzazione da **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni.
 Verranno visualizzati i due dispositivi (chrome e Windows player) nel pannello **DISPOSITIVI** , come mostrato nella figura seguente.
-
-   ![image1](assets/command-sync7.png)
+   ![image1](assets/command-sync/command-sync10.png)
 
 1. Dal pannello **DISPOSITIVI** , selezionate il dispositivo da impostare come principale. L&#39;esempio seguente illustra come impostare il dispositivo Chrome come principale. Fate clic su **Imposta come dispositivo** principale.
 
-   ![image1](assets/command-sync8.png)
+   ![image1](assets/command-sync/command-sync11.png)
 
 1. Immettete l&#39;indirizzo IP in **Set as master device (Imposta come dispositivo** principale) e fate clic su **Save (Salva)**.
 
-   ![image1](assets/command-sync9.png)
+   ![image1](assets/command-sync/command-sync12.png)
+
+>[!NOTE]
+> Potete impostare più dispositivi come principali.
 
 ### Sincronizzazione con Master {#sync-up-master}
 
-1. Dopo aver impostato il dispositivo Chrome come master, è possibile sincronizzare l&#39;altro dispositivo da sincronizzare con il master.
-Selezionate l&#39;altro dispositivo dal pannello **DISPOSITIVI** e fate clic su **Sincronizza con dispositivo** principale, come illustrato nella figura seguente.
+1. Dopo aver impostato il dispositivo Chrome come master, è possibile sincronizzare l&#39;altro dispositivo (in questo caso, il lettore Windows) per sincronizzare con il master.
+Selezionate l&#39;altro dispositivo (in questo caso, il lettore Windows) dal pannello **DISPOSITIVI** e fate clic su **Sincronizza con dispositivo** master, come mostrato nella figura seguente.
+
+   ![image1](assets/command-sync/command-sync13.png)
 
 1. Selezionate il dispositivo dall’elenco e fate clic su **Salva**.
 
+1. Una volta che il dispositivo (lettore Windows) è sincronizzato con il master (lettore Chrome), il dispositivo verrà sincronizzato nel pannello **DEVICES** .
 
-1. Passate al [Web Player](http://localhost:4502/screens/player.html).
+   ![image1](assets/command-sync/command-sync14.png)
 
+### Rimozione o desincronizzazione con il master {#desync-up-master}
 
-
-
+Dopo aver sincronizzato uno o più dispositivi con uno schema, potete desincronizzare o rimuovere l&#39;assegnazione da tale dispositivo. Per rimuovere la sincronizzazione dal dispositivo master, selezionare il dispositivo e fare clic su **Desync** dal pannello **DEVICES** .
 
