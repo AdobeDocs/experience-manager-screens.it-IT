@@ -4,7 +4,7 @@ seo-title: Note sulla versione per Feature Pack 201912
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201912, rilasciato il 20 gennaio 2020.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201912, rilasciato il 20 gennaio 2020.
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: eb3fb0111aa3e9bdb7a265028809949fffab2e40
 
 ---
 
@@ -23,8 +23,8 @@ La data di rilascio per AEM Screens Feature Pack 201912 è il 21 gennaio 2020.
 
 ### Novità {#what-s-new}
 
-* **Sincronizzazione dei comandi per la riproduzione delle risorse**
-
+* **La sincronizzazione dei comandi per la riproduzione**dei comandi consente la riproduzione sincronizzata tra diversi lettori. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
+Per ulteriori informazioni sulla sincronizzazione dei comandi e su come impostare il master e i client, consultare [Utilizzo della sincronizzazione](using-command-sync.md)dei comandi.
 
 * **Framework di controllo dello stato per mostrare lo stato di https e consentire un referente vuoto** Il framework di verifica dello stato consente all&#39;utente di verificare se sono state configurate due configurazioni necessarie (Consenti richieste referente vuote e servizio HTTP Apache Felix Jetty) prima di eseguire un progetto AEM Screens.
 
