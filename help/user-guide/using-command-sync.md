@@ -4,7 +4,7 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: 69a3bc339cc5fa7e457800e010709ee01db33b03
+source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
 
 ---
 
@@ -31,7 +31,7 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
 1. L’esempio seguente mostra un progetto dimostrativo denominato **CommandSyncDemo** e un canale di sequenza **ChannelLobby**.
 
-   ![image1](assets/command-sync/command-sync1.png)
+   ![image1](assets/command-sync/command-sync1-1.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
    Il canale contiene il contenuto seguente, come mostrato nella figura seguente.
 
-   ![image1](assets/command-sync/command-sync2.png)
+   ![image1](assets/command-sync/command-sync2-1.png)
 
 1. Create una visualizzazione nella cartella **Locations (Posizioni)** , come illustrato nella figura riportata di seguito.
-   ![image1](assets/command-sync/command-sync3.png)
+   ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Assegna il canale, **ChannelLobby** al tuo **LobbyDisplay**.
-   ![image1](assets/command-sync/command-sync4.png)
+   ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -67,29 +67,29 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 1. Andate a **ChannelLobby** e fate clic su **Modifica** dalla barra delle azioni per aggiornare le impostazioni del canale.
 
 1. Selezionare l&#39;intero canale come mostrato nella figura seguente.
-   ![image1](assets/command-sync/command-sync7.png)
+   ![image1](assets/command-sync/command-sync7-1.png)
 
 1. Fate clic sull’icona chiave inglese per aprire la finestra di dialogo **Pagina** .
-   ![image1](assets/command-sync/command-sync8.png)
+   ![image1](assets/command-sync/command-sync8-1.png)
 
 1. Immettete la parola chiave *sincronizzata* nel campo **Strategia** .
 
-   ![image1](assets/command-sync/command-sync9.png)
+   ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Impostazione di una pagina master {#setting-up-master}
 
 1. Andate alla dashboard di visualizzazione da **CommandSyncDemo** —> **Locations** —> **Lobby** —> **LobbyDisplay** e fate clic su **Dashboard** dalla barra delle azioni.
 Verranno visualizzati i due dispositivi (chrome e Windows player) nel pannello **DISPOSITIVI** , come mostrato nella figura seguente.
-   ![image1](assets/command-sync/command-sync10.png)
+   ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Dal pannello **DISPOSITIVI** , selezionate il dispositivo da impostare come principale. L&#39;esempio seguente illustra come impostare il dispositivo Chrome come principale. Fate clic su **Imposta come dispositivo** principale.
 
-   ![image1](assets/command-sync/command-sync11.png)
+   ![image1](assets/command-sync/command-sync11-1.png)
 
 1. Immettete l&#39;indirizzo IP in **Set as master device (Imposta come dispositivo** principale) e fate clic su **Save (Salva)**.
 
-   ![image1](assets/command-sync/command-sync12.png)
+   ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
 > Potete impostare più dispositivi come principali.
@@ -99,13 +99,13 @@ Verranno visualizzati i due dispositivi (chrome e Windows player) nel pannello *
 1. Dopo aver impostato il dispositivo Chrome come master, è possibile sincronizzare l&#39;altro dispositivo (in questo caso, il lettore Windows) per sincronizzare con il master.
 Selezionate l&#39;altro dispositivo (in questo caso, il lettore Windows) dal pannello **DISPOSITIVI** e fate clic su **Sincronizza con dispositivo** master, come mostrato nella figura seguente.
 
-   ![image1](assets/command-sync/command-sync13.png)
+   ![image1](assets/command-sync/command-sync13-1.png)
 
 1. Selezionate il dispositivo dall’elenco e fate clic su **Salva**.
 
 1. Una volta che il dispositivo (lettore Windows) è sincronizzato con il master (lettore Chrome), il dispositivo verrà sincronizzato nel pannello **DEVICES** .
 
-   ![image1](assets/command-sync/command-sync14.png)
+   ![image1](assets/command-sync/command-sync14-1.png)
 
 ### Rimozione o desincronizzazione con il master {#desync-up-master}
 
