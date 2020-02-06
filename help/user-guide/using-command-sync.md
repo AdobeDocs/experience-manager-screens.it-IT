@@ -4,7 +4,7 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: bd29a09608066bd5030254812e6ddd7d757879cf
+source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
 
 ---
 
@@ -103,11 +103,24 @@ Selezionate l&#39;altro dispositivo (in questo caso, il lettore Windows) dal pan
 
 1. Selezionate il dispositivo dall’elenco e fate clic su **Salva**.
 
+   >[NOTA:]
+   > La finestra di dialogo **Sincronizza con dispositivo** principale visualizzerà l’elenco dei dispositivi principali. Potete selezionare la preferenza desiderata.
+
 1. Una volta che il dispositivo (lettore Windows) è sincronizzato con il master (lettore Chrome), il dispositivo verrà sincronizzato nel pannello **DEVICES** .
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
-### Rimozione o desincronizzazione con il master {#desync-up-master}
+### Dissincronizzazione con il master {#desync-up-master}
 
-Dopo aver sincronizzato uno o più dispositivi con uno schema, potete desincronizzare o rimuovere l&#39;assegnazione da tale dispositivo. Per rimuovere la sincronizzazione dal dispositivo master, selezionare il dispositivo e fare clic su **Desync** dal pannello **DEVICES** .
+Dopo aver sincronizzato uno o più dispositivi con uno schema, potete desincronizzare l’assegnazione da tale dispositivo. Per rimuovere la sincronizzazione dalla periferica master, procedere come segue:
 
+1. Andate al pannello **DISPOSITIVI** e selezionate il dispositivo.
+
+1. Fate clic su **Disync device(i)** per sincronizzare il client dal dispositivo master.
+
+   ![image1](assets/command-sync/command-sync15-1.png)
+
+1. Fate clic su **Conferma** per desincronizzare il dispositivo selezionato dal master.
+
+   >[NOTA:]
+   > Se selezionate il dispositivo master e utilizzate l&#39;opzione desync, tutti i dispositivi connessi al master verranno desincronizzati in un unico passaggio.
