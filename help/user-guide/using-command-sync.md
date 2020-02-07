@@ -4,7 +4,7 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: 4735e1bcea3b635a55ef5d57e6e10a5948d8fc29
+source-git-commit: c46f246f9c5b8ab09f1100c798d0a1a240388c18
 
 ---
 
@@ -116,7 +116,7 @@ Dopo aver sincronizzato uno o più dispositivi con uno schema, potete desincroni
 
 1. Andate al pannello **DISPOSITIVI** e selezionate il dispositivo.
 
-1. Fate clic su **Disync device(i)** per sincronizzare il client dal dispositivo master.
+1. Fate clic su **Disconnetti dispositivi** per desincronizzare il client dal dispositivo principale.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
@@ -124,3 +124,4 @@ Dopo aver sincronizzato uno o più dispositivi con uno schema, potete desincroni
 
    >[NOTA:]
    > Se selezionate il dispositivo master e utilizzate l&#39;opzione desync, tutti i dispositivi connessi al master verranno desincronizzati in un unico passaggio.
+
