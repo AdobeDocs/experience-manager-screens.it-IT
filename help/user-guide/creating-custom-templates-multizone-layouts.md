@@ -5,16 +5,55 @@ description: Seguite questa pagina per informazioni sulla creazione di modelli p
 seo-description: Seguite questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a4d48ba04bb8ab863f4f07b932892676b70e1e23
+source-git-commit: 87a86d60de9ea09dae93d08a1e0b42271c39249f
 
 ---
 
 
 # Creazione di modelli personalizzati in layout MultiZone {#creating-custom-templates-multizone}
 
-L&#39;esempio seguente mostra come creare un modello personalizzato in un layout multiZone.
+In questa pagina viene illustrato come creare un modello personalizzato in un layout con più aree.
 
-Ad esempio, la sezione seguente illustra la creazione di un modello personalizzato in un layout a più livelli con le seguenti configurazioni:
+## Convenzione di denominazione {#name-terms}
+
+Prima di comprendere come creare modelli personalizzati per più aree da utilizzare in un progetto AEM Screens, è necessario conoscere la versione dei modelli da creare.
+
+| **Nome layout** | **Descrizione** |
+|---|---|
+| Left20-LandscapeHD3Zone | Si riferisce a un layout orizzontale a 3 zone che consente di creare 3 zone con la zona 1 come 20% dello schermo orizzontale e verticale da sinistra, la zona 2 come 80% dello schermo orizzontale e il 20% dello schermo verticale giustificato, la zona 3 come 100% dello schermo orizzontale e l&#39;80% dello schermo verticale con proporzioni pari a 16:9 |
+| Upper20-PortraitHD2Zone | Si riferisce a un modello verticale a 2 zone che copre il 20% dello schermo dalla parte superiore, con proporzioni pari a 16:9 |
+| Right20-LandscapeSD3Zone | Si riferisce a un modello a 3 zone che copre il 20% dello schermo da destra, con proporzioni pari a 4:3 |
+
+##  Esempi di utilizzo {#example-use-cases}
+
+## Creazione di un layout Left20-LandscapeHD3Zone {#landscape-layout-one}
+
+Per creare un modello personalizzato con la configurazione seguente, effettuate le seguenti operazioni:
+
+* **Left20** fa riferimento alla zona superiore sinistra che copre il 20% delle dimensioni orizzontali e verticali dello schermo.
+* **Orizzontale** si riferisce all&#39;orientamento dello schermo
+* **HD** indica le proporzioni 16:9
+* **3Zone** si riferisce a tre zone del display
+
+## Rappresentazione visiva del layout MultiZone {#multi-layout-visual-one}
+
+Il layout Left20-LandscapeHD3Zone consente di creare nel progetto il seguente layout a più zone:
+
+![image](/help/user-guide/assets/custom-multizone/custom-multizone1.png)
+
+
+
+
+
+
+## Creazione di un layout Upper20-PortraitHD2Zone {#landscape-layout-two}
+
+Per creare un modello personalizzato con la configurazione seguente, effettuate le seguenti operazioni:
+
+
+
+
+
 
 ![image](assets/custom-template1.png)
 
