@@ -4,7 +4,7 @@ seo-title: Replica degli attivatori di dati sul server di pubblicazione
 description: Replicare gli attivatori di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori di dati sul server di pubblicazione.
 translation-type: tm+mt
-source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
+source-git-commit: 8e5ad12efe53a9a9f4dcdde62be07fb9341dbb84
 
 ---
 
@@ -41,7 +41,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
    >[!Note]
    >Se il test ha esito negativo, è necessario correggere la configurazione dell&#39;agente di replica tra l&#39;istanza di creazione e di pubblicazione. Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi alla connessione](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) di prova.
 
-1. Selezionate **Aggiungi** nella struttura ad albero della schermata **Agente** di distribuzione e selezionate il percorso di configurazione del progetto, ad esempio `/conf/screens/settings/cloudsettings/configuration)`.
+1. Selezionate **Aggiungi** nella struttura ad albero della schermata **Agente** di distribuzione e selezionate il percorso di configurazione del progetto, ad esempio `/conf/screens/settings/cloudsettings/configuration`.
 
 1. Fate clic su **Invia**
 
@@ -51,7 +51,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 1. Espandete la cartella del progetto, ad esempio `/conf/screens/`.
 
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Seleziona tutte le audience e i segmenti dall&#39;interfaccia utente.
 
@@ -114,3 +114,6 @@ Effettuate le seguenti operazioni:
 
    1. Fate clic su **Salva** ed eseguite di nuovo la connessione di prova dalla schermata Agente **di** distribuzione dall’istanza di AEM.
 
+   1. L&#39;utente dovrà visitare nuovamente la pagina Agente **di** distribuzione dall&#39;istanza di AEM per aggiornare/sostituire l&#39;URL predefinito dal `localhost:4503` proprio URL di pubblicazione.
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
