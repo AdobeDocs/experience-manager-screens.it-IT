@@ -4,7 +4,7 @@ seo-title: Replica degli attivatori di dati sul server di pubblicazione
 description: Replicare gli attivatori di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori di dati sul server di pubblicazione.
 translation-type: tm+mt
-source-git-commit: a8ded0c15e0e3cbaf0999da796789991b20d24cb
+source-git-commit: 47e0204ea734a1348385ddd3c7108038c88d1933
 
 ---
 
@@ -23,40 +23,59 @@ In pratica, si tratta di pubblicare manualmente:
 
 ## Passaggi per la replica degli attivatori dati su Publish Server {#replicating-data-triggers-publish}
 
-Per replicare le attivazioni di dati sul server di pubblicazione, effettuate le seguenti operazioni:
+Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati sul server di pubblicazione.
 
-### Replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
+### Passaggio 1:Replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
 
-1. Passa a **Strumenti** > **Distribuzione** > **Distribuzione** > **Pubblica agente** http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish
-1. Fate clic sul pulsante Verifica connessione per verificare che l’autore possa comunicare correttamente con l’istanza di pubblicazione
-1. Se il test ha esito negativo, è necessario correggere la configurazione dell&#39;agente di replica tra l&#39;autore e la pubblicazione
-1. Assicurarsi che l&#39;URL dell&#39;endpoint indichi anche l&#39;URL del server di pubblicazione nell&#39;agente di distribuzione
-1. Modifica > Punti finali importazione
-1. Fare clic sulla scheda Distribuisci
-1. Pulsante di scelta Aggiungi albero
-1. Nel browser Percorsi, seleziona il percorso di configurazione del progetto (es. /conf/screens/settings/cloud settings/configuration)
-1. Fate clic su Invia
+1. Accedete a **Strumenti** > **Distribuzione** > **Distribuzione** > **Pubblica agente** e fate clic sull’agente di pubblicazione per configurare le impostazioni.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
+
+   >[!Note]
+   >In alternativa, è possibile utilizzare il [collegamento](http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish) per navigare direttamente sullo schermo per configurare e verificare la connessione.
+
+1. Fate clic su **Test connessione** dalla barra delle azioni per convalidare la comunicazione dell’autore con l’istanza di pubblicazione, come illustrato nella figura riportata di seguito.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
+
+   >[!Note]
+   >Se il test ha esito negativo, è necessario correggere la configurazione dell&#39;agente di replica tra l&#39;istanza di creazione e di pubblicazione. Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi alla connessione](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) di prova.
+
+1. Fate clic su **Modifica** nella schermata qui sopra e accertatevi che l’URL dell’endpoint nel campo Endpoint **** importazione indichi anche l’URL del server di pubblicazione nell’agente di distribuzione.
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+
+1. Selezionate **Aggiungi** nella struttura ad albero della schermata **Agente** di distribuzione e selezionate il percorso di configurazione del progetto, ovvero `/conf/screens/settings/cloudsettings/configuration)`.
+
+1. Fate clic su **Invia**
 
 ### Replica del pubblico {#replicating-audiences}
 
-1. Passa a Strumenti > Personalizzazione > Pubblicohttp://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html
-1. Approfondisci la cartella del progetto (ad es. /conf/screens/)
-1. Seleziona tutte le audience/i segmenti nell&#39;interfaccia utente
-1. Fai clic su Gestisci pubblicazione
-1. Fai clic su Avanti
-1. Fai clic su Pubblica
+1. Passa a **Strumenti** > **Personalizzazione** > **Pubblico** o usa il [collegamento](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html) per navigare direttamente.
+
+1. Approfondisci la cartella del tuo progetto, ovvero `/conf/screens/`.
+
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers5.png)
+
+1. Seleziona tutte le audience e i segmenti dall&#39;interfaccia utente.
+
+1. Fai clic su **Gestisci pubblicazione** dalla barra delle azioni.
+
+1. Fate clic su **Avanti** e **Pubblica**.
 
 ### Replica delle attività {#replicating-activities}
 
-1. Passa a Strumenti > Personalizzazione > Attivitàhttp://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html
-1. Approfondisci la cartella del progetto (ad es. /content/campaign/screens/...)
-1. Seleziona tutte le attività nell’interfaccia utente
-1. Fai clic su Gestisci pubblicazione
-1. Fai clic su Avanti
-1. Fai clic su Pubblica
+1. Passa a **Strumenti** > **Personalizzazione** > **Attività** oppure usa il [collegamento](http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html) per spostarsi direttamente.
 
-> [!Note]
->La replica di configurazioni e audience ContextHub viene eseguita durante la configurazione del progetto, mentre le attività di replica e saranno richieste ogni volta che il targeting viene modificato all&#39;interno di un canale.
+1. Approfondisci la cartella del tuo progetto, ovvero `/content/campaigns/screens/…`.
+
+1. Seleziona tutte le attività dall&#39;interfaccia utente.
+
+1. Fai clic su **Gestisci pubblicazione** dalla barra delle azioni.
+
+1. Fate clic su **Avanti** e **Pubblica**.
+
+   > [!Note]
+   >La replica di configurazioni e audience ContextHub viene eseguita durante la configurazione del progetto, mentre le attività di replica e saranno richieste ogni volta che il targeting viene modificato all&#39;interno di un canale.
 
 #### Risultato {#result}
 
@@ -65,3 +84,30 @@ Se la replica ha esito positivo, è necessario visualizzare la struttura seguent
 `/conf/screens/settings/cloudsettings/configuration/…`
 `/conf/screens/settings/wcm/segments/…`
 `/content/campaigns/screens/…`
+
+## Risoluzione dei problemi di connessione di prova {#troubleshoot-test}
+
+Se la connessione di prova non riesce durante la replica delle configurazioni ContextHub, seguite la sezione seguente per risolvere il problema:
+
+1. Andate al campo **Importer Endpoints** e accertatevi che l&#39;URL dell&#39;endpoint indichi l&#39;URL del server di pubblicazione nell&#39;agente di distribuzione.
+
+1. Se non utilizzate le credenziali predefinite, dovete configurare l&#39;agente di distribuzione con una password amministratore diversa.
+Effettuate le seguenti operazioni:
+
+   1. Passa a Strumenti > **Operazioni** > Console Web** `http://localhost:4502/system/console/configMgr`per aprire la schermata **Console Web** Adobe Experience Manager.
+
+   1. Cerca credenziali di trasporto distribuzione **Apache Sling - Credenziali utente basate su DistributionTransportSecretProvider**
+
+      ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
+
+   1. Create una configurazione compilando **Nome**, Nome **** utente e **password**, ad esempio *slingTransportSecretProvider*. .
+   1. Fai clic su **Salva**
+
+   1. Cerca il nome dell&#39;agente di distribuzione tramite `Cmd +F`.
+
+   1. Fare clic per aprire la configurazione osgi agente di distribuzione.
+
+   1. Cercate Transport Secret Provider nella configurazione osgi e aggiornatelo con `"(name=slingTransportSecretProvider)"`.
+
+   1. Fate clic su **Salva** ed eseguite la connessione di prova.
+
