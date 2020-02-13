@@ -4,7 +4,7 @@ seo-title: Replica degli attivatori di dati sul server di pubblicazione
 description: Replicare gli attivatori di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori di dati sul server di pubblicazione.
 translation-type: tm+mt
-source-git-commit: ae6ec7dd240b1d6f6adb46359e702eefc167b7b8
+source-git-commit: f369bf41b8f4c7a2bf574998834ef75eb2f21877
 
 ---
 
@@ -89,9 +89,9 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
 1. Passa a Strumenti > **Distribuzione** > **Distribuzione** > **Pubblica agente**.
 
 1. Fate clic su **Modifica** nella barra delle azioni e accertatevi che l’URL dell’endpoint nel campo Endpoint **** importazione indichi anche l’URL del server di pubblicazione nell’agente di distribuzione.
-   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers3.png)
+   ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
-1. Se non utilizzate le credenziali di amministrazione predefinite, dovete configurare l&#39;agente di distribuzione con una password di amministrazione diversa.
+1. Se non utilizzate le credenziali di amministrazione predefinite, dovete configurare l&#39;agente di distribuzione con un nome utente e una password diversi.
 Effettuate le seguenti operazioni:
 
    1. Passa a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata **Console Web di** Adobe Experience Manager.
