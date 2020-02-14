@@ -4,7 +4,7 @@ seo-title: Replica degli attivatori di dati sul server di pubblicazione
 description: Replicare gli attivatori di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori di dati sul server di pubblicazione.
 translation-type: tm+mt
-source-git-commit: 4e86ed7c3050209b3baa67087fc149afae8340b6
+source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
 
 ---
 
@@ -43,7 +43,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 1. Selezionate **Aggiungi** nella struttura ad albero della schermata **Agente** di distribuzione e selezionate il percorso di configurazione del progetto, ad esempio `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Fate clic su **Invia**
+1. Fate clic su **Invia**.
 
 ### Replica del pubblico {#replicating-audiences}
 
@@ -71,8 +71,9 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 1. Fate clic su **Avanti** e **Pubblica**.
 
-> [!Note]
-> **Importante **:>La replica di configurazioni e audience ContextHub viene eseguita durante la configurazione del progetto, mentre le attività di replica e saranno richieste ogni volta che il targeting viene modificato all&#39;interno di un canale.
+>[!IMPORTANT]
+>
+>La replica di configurazioni e audience ContextHub viene eseguita durante la configurazione del progetto, mentre le attività di replica e saranno richieste ogni volta che il targeting viene modificato all&#39;interno di un canale.
 
 #### Risultato {#result}
 
@@ -92,10 +93,10 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Se non utilizzate le credenziali di amministrazione predefinite, dovete configurare l&#39;agente di distribuzione con un nome utente e una password diversi.
-Effettuate le seguenti operazioni:
+
+   Effettuate le seguenti operazioni:
 
    1. Passa a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata **Console Web di** Adobe Experience Manager.
-
    1. Cerca credenziali di trasporto distribuzione **Apache Sling - Credenziali utente basate su DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -105,11 +106,9 @@ Effettuate le seguenti operazioni:
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Fai clic su **Salva**
-
    1. Utilizzare `Cmd +F` per cercare **Apache Sling Distribution Agent - Forward Agent Factory** per aprire le configurazioni e cercare **Transport Secret Provider**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Aggiorna il `(name=default)` con `(name=slingTransportSecretProvider)`.
-
    1. Fate clic su **Salva** ed eseguite di nuovo la connessione di prova dalla schermata Agente **di** distribuzione dall’istanza di AEM.
