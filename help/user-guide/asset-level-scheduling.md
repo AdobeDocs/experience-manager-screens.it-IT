@@ -4,7 +4,7 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
+source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
 
 ---
 
@@ -38,7 +38,7 @@ Gli argomenti seguenti sono trattati in questa sezione:
 
 Con questa funzione, potete specificare non solo la data e l&#39;ora di inizio e fine, ma anche un pattern di ricorrenza.
 
-## Riproduzione Di Singoli Eventi {#single-event-playback}
+## Finestra Attivazione {#single-event-playback}
 
 Attivazione a livello di risorsa viene eseguita configurando la scheda **Attivazione** durante l&#39;accesso alle proprietà di una risorsa.
 
