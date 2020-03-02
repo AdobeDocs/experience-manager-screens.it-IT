@@ -4,7 +4,7 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
+source-git-commit: 6c6c15349f350ee50f36f1a0661e7f16c0b42665
 
 ---
 
@@ -46,7 +46,7 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
 
 1. Selezionate un canale e fate clic su **Modifica** dalla barra delle azioni per aggiungere o modificare il contenuto del canale.
 
-   ![screen_shot_2018-04-23at111422am](assets/screen_shot_2018-04-23at111422am.png)
+   ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
    >[!NOTE]
    >
@@ -58,13 +58,13 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
 
 1. Fai clic su **Modifica** per aprire l’editor dei canali e selezionare una risorsa a cui applicare la pianificazione.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Selezionate la risorsa e fate clic in alto a sinistra **Configura** (icona chiave inglese) per aprire le proprietà dell’immagine.
 
    Click the **Activation** tab.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Puoi specificare la data dal selettore data utilizzando i campi **Attivo da** e **Attivo fino** a.
 
