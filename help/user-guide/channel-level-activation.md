@@ -11,35 +11,35 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
 
-# Attivazione A Livello Di Canale - Riproduzione A Singolo Evento {#channel-level-activation-single-event-playback}
+# Attivazione a livello di canale {#channel-level-activation-single-event-playback}
 
-L'utilizzo dell'attivazione a livello di canale illustra i seguenti argomenti:
+L&#39;utilizzo dell&#39;attivazione a livello di canale illustra i seguenti argomenti:
 
 * Panoramica
-* Utilizzo dell'attivazione a livello di canale come riproduzione di un singolo evento
+* Utilizzo dell&#39;attivazione a livello di canale come riproduzione di un singolo evento
 
 ## Panoramica {#overview}
 
 ***Attivazione*** a livello di canale consente ai canali di passare a una determinata pianificazione. Il singolo canale evento sostituisce il canale principale dopo una programmazione impostata e viene riprodotto per un particolare momento, fino a quando il canale principale non riproduce il contenuto.
 
-L'esempio seguente fornisce una soluzione concentrandosi sui seguenti termini chiave:
+L&#39;esempio seguente fornisce una soluzione concentrandosi sui seguenti termini chiave:
 
 * un canale ***di sequenza*** principale per la sequenza globale
 * un canale ***evento*** singolo che viene eseguito una sola volta alla volta
-* una pianificazione ***impostata e una priorità*** per l'evento di riproduzione singola che si verifica all'interno del canale della sequenza principale
+* una pianificazione ***impostata e una priorità*** per l&#39;evento di riproduzione singola che si verifica all&#39;interno del canale della sequenza principale
 
-## Utilizzo dell'attivazione a livello di canale {#using-channel-level-activation}
+## Utilizzo dell&#39;attivazione a livello di canale {#using-channel-level-activation}
 
 La sezione seguente illustra la creazione di un singolo evento riprodotto all’interno di un canale per un progetto AEM Screens.
 
 ### Prerequisiti {#prerequisites}
 
-Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre dei seguenti prerequisiti per iniziare a implementare l'attivazione a livello di canale:
+Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre dei seguenti prerequisiti per iniziare a implementare l&#39;attivazione a livello di canale:
 
 * Crea un progetto AEM Screens, in questo esempio, Attivazione a livello di **canale**
 
@@ -49,7 +49,7 @@ Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre 
 
 * Aggiunta di risorse rilevanti a entrambi i canali
 
-L'immagine seguente mostra il progetto Attivazione **a livello di** canale con canali **MainAdChannel** e **TargetingSinglePlay** nella cartella **Channels** .
+L&#39;immagine seguente mostra il progetto Attivazione **a livello di** canale con canali **MainAdChannel** e **TargetingSinglePlay** nella cartella **Channels** .
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -87,7 +87,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 1. **Crea visualizzazione in posizione**
 
-   1. Andate a Attivazione **a livello di** canale &gt; **Posizioni** &gt; **Regione**.
+   1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione**.
    1. Selezionate **Regione** e fate clic su **+ Crea** dalla barra delle azioni.
    1. Selezionate **Visualizza** dalla procedura guidata e create una visualizzazione con titolo **Visualizzazione area.**
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -96,10 +96,10 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
    Per **MainAdChannel:**
 
-   1. Andate a Attivazione **a livello di** canale &gt; **Posizioni** &gt; **Regione** &gt; Visualizzazione **a livello di canale e fate clic su** Assegna canale **** dalla barra delle azioni.
+   1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione** > Visualizzazione **a livello di canale e fate clic su** Assegna canale **** dalla barra delle azioni.
    1. **Viene visualizzata la finestra di dialogo Assegnazione** canale.
    1. Select **Reference Channel**.. by path.
-   1. Selezionate il percorso **del** canale come Attivazione **a livello di** canale &gt; ***Canali*** &gt; ***MainAdChannel***.
+   1. Selezionate il percorso **del** canale come Attivazione **a livello di** canale > ***Canali*** > ***MainAdChannel***.
    1. Il ruolo **** canale viene popolato come canale **principale**.
    1. Selezionate la **priorità** come **1**.
    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
@@ -108,14 +108,14 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
    >[!NOTE]
    >
-   >Potete anche assegnare il canale dal pannello di visualizzazione accedendo a Attivazione **a livello di** canale &gt; **Posizioni** &gt; **Regione** &gt; **Visualizzazione** area e facendo clic su **Dashboard** dalla barra delle azioni. Fate clic su **+ Assegna canale** dal pannello CANALI E PIANIFICAZIONI **ASSEGNATI** .
+   >Potete anche assegnare il canale dal pannello di visualizzazione accedendo a Attivazione **a livello di** canale > **Posizioni** > **Regione** > **Visualizzazione** area e facendo clic su **Dashboard** dalla barra delle azioni. Fate clic su **+ Assegna canale** dal pannello CANALI E PIANIFICAZIONI **ASSEGNATI** .
 
    Analogamente, assegna canale **TargetingSinglePlay** per display**:
 
-   1. Andate a Attivazione **a livello di** canale —&gt; **Posizioni** —&gt; **Regione** —&gt; **Visualizzazione** a livello di canale e fate clic su **Assegna canale** dalla barra delle azioni.
+   1. Andate a Attivazione **a livello di** canale —> **Posizioni** —> **Regione** —> **Visualizzazione** a livello di canale e fate clic su **Assegna canale** dalla barra delle azioni.
    1. **Viene visualizzata la finestra di dialogo Assegnazione** canale.
    1. Select **Reference Channel**.. by path.
-   1. Selezionate Percorso **** canale come Attivazione **a livello di** canale* —&gt; ***Canali*** —&gt; ***TargetingSinglePlay***.
+   1. Selezionate Percorso **** canale come Attivazione **a livello di** canale* —> ***Canali*** —> ***TargetingSinglePlay***.
    1. Il ruolo **** del canale viene popolato come **mirato per singola** riproduzione.
    1. Impostate la **priorità** su **2**.
    1. Selezionate gli eventi **** supportati come Carico **** iniziale, Schermo **inattivo e** Timer ****, *come mostrato nella figura seguente.
@@ -127,7 +127,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
-   Per scegliere lo stesso giorno, è necessario selezionare il giorno successivo e modificare manualmente la data nello stesso giorno, ma per un'ora successiva. Questo impedisce all'utente di selezionare una data precedente. Fare riferimento all'esempio seguente:
+   Per scegliere lo stesso giorno, è necessario selezionare il giorno successivo e modificare manualmente la data nello stesso giorno, ma per un&#39;ora successiva. Questo impedisce all&#39;utente di selezionare una data precedente. Fare riferimento all&#39;esempio seguente:
 
    ![new1](assets/new1.gif)
 
