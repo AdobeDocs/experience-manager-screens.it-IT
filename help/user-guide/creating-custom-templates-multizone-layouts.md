@@ -5,28 +5,40 @@ description: Seguite questa pagina per informazioni sulla creazione di modelli p
 seo-description: Seguite questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 23208ed9e4e293cfcec65305918f35573c20cc02
+source-git-commit: 9e3f26e10a5168511b2bf138f8ce36b94778b339
 
 ---
 
 
-# Creazione di modelli personalizzati in layout MultiZone {#creating-custom-templates-multizone}
+# Creazione di modelli personalizzati per layout multi-zona {#creating-custom-templates-multizone}
 
-In questa pagina viene illustrato come creare un modello personalizzato in un layout con più aree.
+In questa pagina viene illustrato come creare un modello personalizzato per un layout con più aree.
 
-## Convenzione di denominazione {#name-terms}
+## Considerazioni importanti {#considerations}
 
-Prima di comprendere come creare modelli personalizzati per più aree da utilizzare in un progetto AEM Screens, è consigliabile conoscere la versione dei modelli da creare.
+Prima di creare un modello personalizzato in un layout con più aree è importante tenere presenti due considerazioni importanti:
 
-| **Nome layout** | **Descrizione** |
-|---|---|
-| Left20-LandscapeHD3Zone | Si riferisce a un layout orizzontale a 3 zone che consente di creare 3 zone con la zona 1 come 20% dello schermo orizzontale e verticale da sinistra, la zona 2 come 80% dello schermo orizzontale e il 20% dello schermo verticale giustificato, la zona 3 come 100% dello schermo orizzontale e l&#39;80% dello schermo verticale con proporzioni pari a 16:9 |
-| Upper20-PortraitHD2Zone | Si riferisce a un modello verticale a 2 zone che copre il 20% dello schermo dalla parte superiore, con proporzioni pari a 16:9 |
-| Right20-LandscapeSD3Zone | Si riferisce a un modello a 3 zone che copre il 20% dello schermo da destra, con proporzioni pari a 4:3 |
+1. **Dimensioni o percentuali** fisse in pixel:
 
-##  Esempi di utilizzo {#example-use-cases}
+   È necessario decidere se utilizzare la dimensione in pixel fissa per aree diverse per il layout personalizzato o se creare un layout personalizzato utilizzando le percentuali.
 
-## Layout Left20-LandscapeHD3Zone {#custom-template-one}
+   > [!NOTE]
+   > Il vantaggio derivante dall’utilizzo della percentuale per impostare le aree per il layout personalizzato consente di riutilizzare il modello in diverse dimensioni di schermo.
+
+1. **Convenzione** di denominazione:
+
+   Prima di comprendere come creare modelli personalizzati per più aree da utilizzare in un progetto AEM Screens, è consigliabile conoscere la versione dei modelli da creare.
+
+   | **Nome layout** | **Descrizione** |
+   |---|---|
+   | Left20-LandscapeHD3Zone | Si riferisce a un layout orizzontale a 3 zone che consente di creare 3 zone con la zona 1 come 20% dello schermo orizzontale e verticale da sinistra, la zona 2 come 80% dello schermo orizzontale e il 20% dello schermo verticale giustificato, la zona 3 come 100% dello schermo orizzontale e l&#39;80% dello schermo verticale con proporzioni pari a 16:9 |
+   | Upper20-PortraitHD2Zone | Si riferisce a un modello verticale a 2 zone che copre il 20% dello schermo dalla parte superiore, con proporzioni pari a 16:9 |
+   | Right20-LandscapeSD3Zone | Si riferisce a un modello a 3 zone che copre il 20% dello schermo da destra, con proporzioni pari a 4:3 |
+
+   > [!IMPORTANT]
+   > Le aree definite all&#39;interno del layout personalizzato potrebbero non corrispondere alle proporzioni complessive dell&#39;intero layout. La convenzione di denominazione seguita in questo documento specifica le proporzioni dell&#39;intero layout personalizzato.
+
+## Esempio di utilizzo Case Left20-LandscapeLayout HD3Zone {#custom-template-one}
 
 Seguite la sezione seguente per creare un modello personalizzato *Left20-LandscapeHD3Zone* con la seguente configurazione:
 
@@ -131,13 +143,17 @@ Segui i passaggi indicati di seguito per utilizzare il modello personalizzato ri
 
 1. Fate clic su **Crea** nella barra delle azioni e selezionate il modello **Left20-LandscapeHD3Zone** dalla **procedura guidata Crea** .
 
-1. Dopo aver creato un canale con il modello personalizzato, potete aggiungere risorse al canale dall’editor.
+   ![image](/help/user-guide/assets/custom-multizone/custom-template9.png)
+
+1. Dopo aver creato un canale con il modello personalizzato, potete aggiungere risorse al canale dall’editor. La seguente anteprima mostra le immagini in un modello personalizzato.
+
+   ![image](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
 ## Inserimento di un’immagine come livello di sfondo {#inserting-image}
 
 Potete inserire nel layout un’immagine come livello di sfondo:
 
-Potete regolare la regola CSS in modo da usare l&#39;elemento denominato &quot;data-uri&quot; e allineare direttamente l&#39;immagine (con codifica Base64) nel file CSS.
+Potete regolare la regola CSS in modo da usare ciò che viene chiamato &quot;data-uri&quot; e direttamente in linea l&#39;immagine (con codifica Base64) nel file CSS creato in (passaggio 13), *static.css*.
 
 Tale operazione è effettuata come segue:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
@@ -150,7 +166,7 @@ In alternativa, puoi seguire i passaggi seguenti:
 
 ## Aggiornamento colore di sfondo {#updating-color}
 
-Per modificare il colore di sfondo, aggiungete il seguente codice al file xml:
+Per modificare il colore di sfondo, aggiungete il codice seguente al file xml (passaggio 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
 
