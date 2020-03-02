@@ -4,14 +4,14 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
+source-git-commit: 47e48625dcd414d359d816e3082e62abe4018d17
 
 ---
 
 
 # Attivazione a livello di risorsa {#asset-level-scheduling}
 
-Questa sezione descrive l’attivazione del livello delle risorse per le risorse utilizzate nei canali.
+Questa pagina descrive l’attivazione del livello delle risorse per le risorse utilizzate nei canali.
 
 Gli argomenti seguenti sono trattati in questa sezione:
 
@@ -58,9 +58,9 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
 
 1. Fai clic su **Modifica** per aprire l’editor dei canali e selezionare una risorsa a cui applicare la pianificazione.
 
-   ![screen_shot_2018-04-24at90434pm](/help/user-guide/assets/asset-activation/asset-level1.png)
+   ![image](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Selezionate la risorsa e fate clic sull’icona **Configura** in alto a sinistra per aprire le proprietà dell’immagine.
+1. Selezionate la risorsa e fate clic in alto a sinistra **Configura** (icona chiave inglese) per aprire le proprietà dell’immagine.
 
    Click the **Activation** tab.
 
@@ -80,7 +80,7 @@ Supponete di voler visualizzare un’immagine solo il venerdì dall’1:00 alle 
 
 ### Frazionamento {#day-parting}
 
-1. Selezionate la risorsa e fate clic sull&#39;icona **Configura** per aprire la finestra di dialogo delle proprietà.
+1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
@@ -108,7 +108,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### Scomposizione Settimana {#week-parting}
 
-1. Selezionate la risorsa e fate clic sull&#39;icona **Configura** per aprire la finestra di dialogo delle proprietà.
+1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
@@ -135,7 +135,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### Mese {#month-parting}
 
-1. Selezionate la risorsa e fate clic sull&#39;icona **Configura** per aprire la finestra di dialogo delle proprietà.
+1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
+
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    > [!NOTE]
