@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
 
 ---
 
@@ -56,13 +56,13 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
       + [Sovrapposizione testo](text-overlay.md)
       + [Aggiornamento offline in blocco](bulk-offline-update.md)
       + [Servizio di notifica AEM Screens](screens-notifications-service.md)
-      + [Utilizzo dei Frammenti esperienza](experience-fragments-in-screens.md)
-      + [Pianificazione a livello di risorsa](asset-level-scheduling.md)
+      + [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md)
+      + [Attivazione a livello di risorsa](asset-level-scheduling.md)
+      + [Attivazione a livello di canale](channel-level-activation.md)
       + [Creazione e gestione di una Live Copy](managing-livecopy.md)
       + [Creazione di un flusso di lavoro di spaziatura video](creating-a-video-padding-workflow.md)
       + [Aggiunta di componenti a un canale](adding-components-to-a-channel.md)
       + [Sequenze incorporate](embedded-sequences.md)
-      + [Attivazione A Livello Di Canale - Riproduzione A Singolo Evento](channel-level-activation.md)
       + [Layout con più aree](multi-zone-layout-aem-screens.md)
       + [Rappresentazioni video](generating-renditions.md)
       + [Uso della Sequenza dinamica incorporata](dynamic-embedded-sequences.md)
@@ -89,7 +89,7 @@ source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
    + [Creazione di componenti](creating-components.md)
    + [Incorporazione di un’applicazione REACT tramite AEM SPA Editor e integrazione con AEM Screens Analytics](embedding-react-app.md)
    + [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)
-   + [Creazione di layout MultiZone per modelli personalizzati](creating-custom-templates-multizone-layouts.md)
+   + [Creazione di modelli personalizzati per layout multi-zona](creating-custom-templates-multizone-layouts.md)
 + Risoluzione dei problemi e domande frequenti {#troubleshooting}
    + [Domande frequenti su AEM Screens](aem-screens-faqs.md)
    + [Risoluzione dei problemi del Centro di controllo del dispositivo](monitoring-screens.md)
