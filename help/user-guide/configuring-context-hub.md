@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ed79a3c9e2b99ef1de6e293fe2e86adfa8dde85c
+source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
 
 ---
 
@@ -70,14 +70,14 @@ Segui i passaggi indicati di seguito per configurare un archivio dati, ad esempi
 
    1. Passa a **globale** > **predefinito** > Configurazione **** ContextHub.
 
-   1. Fate clic su** Crea > Contenitore di configurazione **e immettete il titolo come** ContextHubDemo**.
+   1. Fate clic su **Crea** > Contenitore **di** configurazione e immettete il titolo come **ContextHubDemo**.
 
    1. **** Andate **a** ContextHubDemo **> Configurazione** ContentHub Store... per aprire la **procedura guidata** Configura.
 
    1. Inserite il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **comecontexthub.Generic-jsonp**
 
    1. Fai clic su **Avanti**
-   1. Immettete la configurazione json specifica**.** Ad esempio, è possibile utilizzare il seguente json a scopo dimostrativo.
+   1. Immettete la configurazione json specifica. Ad esempio, potete utilizzare il seguente json a scopo dimostrativo.
    1. Fai clic su **Salva**.
 
    ```
