@@ -4,7 +4,7 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: 94e6e61462e72b17d9aa09aa020dbfdc5524be44
+source-git-commit: e58d2ffa1886199f1602de933dc0d8e5fb293cdd
 
 ---
 
@@ -95,11 +95,16 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| prima delle 8:00 | il canale gioca prima delle 8:00 di ogni giorno |
-| dopo le 14:00 | il canale gioca dopo le 2:00 pm ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | il canale riproduce dopo le 12:15 ogni giorno per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | il canale gioca prima delle 12:15 pm ogni giorno e poi anche dopo 12:45 pm |
+| prima delle 8:00 | la risorsa nel canale viene riprodotta prima delle 8:00 di ogni giorno |
+| dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
+| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
+| prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta prima delle 12:15 di ogni giorno e poi anche dopo le 12:45 di sera |
 | Lun,Tue,Wed o Luna-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
+| il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | la risorsa nel canale inizia a giocare dopo le 14:00 del 1° gennaio, continua a giocare per l&#39;intera giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
+| il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
+
+>[!NOTE]
+>È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 ### Scomposizione Settimana {#week-parting}
 
@@ -118,10 +123,14 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| prima delle 8:00 | il canale gioca prima delle 8:00 di ogni giorno |
-| dopo le 14:00 | il canale gioca dopo le 2:00 pm ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | il canale riproduce dopo le 12:15 ogni giorno per 30 minuti |
+| Lun,Tue,Wed o Luna-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
+| prima delle 8:00 | la risorsa nel canale viene riprodotta prima delle 8:00 di ogni giorno |
+| dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
+| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
 | prima delle 12:15 anche dopo le 12:45 | il canale gioca prima delle 12:15 pm ogni giorno e poi anche dopo 12:45 pm |
+
+>[!NOTE]
+>È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 
 ### Mese {#month-parting}
@@ -141,12 +150,12 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | **Espressione** | **Interpretazione** |
 |---|---|
 | di febbraio,maggio,agosto,novembre | la risorsa viene riprodotta nel canale in febbraio, maggio, agosto, novembre |
-| dopo le 14:00 | il canale gioca dopo le 2:00 pm ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | il canale riproduce dopo le 12:15 ogni giorno per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | il canale gioca prima delle 12:15 pm ogni giorno e poi anche dopo 12:45 pm |
 
 > [!NOTE]
 > Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.
+
+>[!NOTE]
+> È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 ## Attivazione di più risorse {#multi-asset-scheduling}
 
@@ -187,18 +196,3 @@ Per selezionare più risorse e pianificarne la visualizzazione in un progetto AE
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
 
-## Espressioni di esempio {#example-expressions}
-
-Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
-
-| **Espressione** | **Interpretazione** |
-|---|---|
-| prima delle 8:00 | il canale gioca prima delle 8:00 di ogni giorno |
-| dopo le 14:00 | il canale gioca dopo le 2:00 pm ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | il canale riproduce dopo le 12:15 ogni giorno per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | il canale gioca prima delle 12:15 pm ogni giorno e poi anche dopo 12:45 pm |
-| il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | il canale inizia a giocare dopo le 14:00 del 1° gennaio, continua a giocare per tutta la giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
-| il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | il canale avvia il lettore dopo le 2:00 pm il 1 gennaio, continua a giocare fino alle 3:00 il 2 gennaio, poi inizia di nuovo il 2 gennaio alle 2:00 pm e continua a giocare fino alle 3:00 il 3 gennaio |
-
->[!NOTE]
->È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
