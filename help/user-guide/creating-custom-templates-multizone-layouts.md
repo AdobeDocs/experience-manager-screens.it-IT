@@ -20,7 +20,7 @@ Prima di creare un modello personalizzato in un layout con più aree è importan
 
 1. **Dimensioni o percentuali** fisse in pixel:
 
-   È necessario decidere se utilizzare la dimensione in pixel fissa per aree diverse per il layout personalizzato o se creare un layout personalizzato utilizzando le percentuali.
+   È necessario decidere se utilizzare la dimensione in pixel fissa per aree diverse per il layout personalizzato o se si desidera creare un layout personalizzato utilizzando le percentuali.
 
    > [!NOTE]
    > Il vantaggio derivante dall’utilizzo della percentuale per impostare le aree per il layout personalizzato consente di riutilizzare il modello in diverse dimensioni di schermo.
@@ -44,7 +44,7 @@ Seguite la sezione seguente per creare un modello personalizzato *Left20-Landsca
 
 * **Left20** fa riferimento alla zona superiore sinistra che copre il 20% delle dimensioni orizzontali e verticali dello schermo.
 * **Orizzontale** si riferisce all&#39;orientamento dello schermo
-* **HD** indica le proporzioni 16:9
+* **HD** si riferisce al rapporto di formato 16:9
 * **3Zone** si riferisce a tre zone del display
 
 ## Rappresentazione visiva del layout MultiZone {#multi-layout-visual-one}
