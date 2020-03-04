@@ -19,9 +19,9 @@ Gli argomenti seguenti sono trattati in questa sezione:
 * Finestra Attivazione
 * Riproduzione Di Singoli Eventi
 * Gestione della ricorrenza nelle risorse
-   * Frazionamento
+   * Frazionamento del giorno
    * Scomposizione Settimana
-   * Mese
+   * Mese di suddivisione
 * Attivazione di più risorse
 
 >[!CAUTION]
@@ -78,7 +78,7 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
 
 Supponete di voler visualizzare un’immagine solo il venerdì dall’1:00 alle 10:00. Potete utilizzare la scheda **Attivazione** per impostare l&#39;intervallo periodico desiderato per la risorsa.
 
-### Frazionamento {#day-parting}
+### Frazionamento del giorno {#day-parting}
 
 1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
@@ -99,7 +99,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
 | dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
 | prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta prima delle 12:15 di ogni giorno e poi anche dopo le 12:45 di sera |
-| Lun,Tue,Wed o Luna-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
+| Lun,Tue,Wed o Luna-Wed | la risorsa viene riprodotta nella risorsa nel canale da lunedì a mercoledì |
 | il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | la risorsa nel canale inizia a giocare dopo le 14:00 del 1° gennaio, continua a giocare per l&#39;intera giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
 
@@ -123,7 +123,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| Lun,Tue,Wed o Luna-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
+| Lun,Tue,Wed o Luna-Wed | la risorsa viene riprodotta nella risorsa nel canale da lunedì a mercoledì |
 | prima delle 8:00 | la risorsa nel canale viene riprodotta prima delle 8:00 di ogni giorno |
 | dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
 | dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
@@ -133,7 +133,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 
-### Mese {#month-parting}
+### Mese di suddivisione {#month-parting}
 
 1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
