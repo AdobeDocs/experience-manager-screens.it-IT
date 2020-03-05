@@ -4,7 +4,7 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: 74b0a98e3123f703db7f353685aed69d6012709d
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -22,6 +22,7 @@ Gli argomenti seguenti sono trattati in questa sezione:
    * Frazionamento del giorno
    * Scomposizione Settimana
    * Mese di suddivisione
+   * Combinazione di partizioni
 * Attivazione di più risorse
 
 >[!CAUTION]
@@ -151,7 +152,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 > [!NOTE]
 > Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.
 
-### Combinazioni di partizioni {#combined-parting}
+### Combinazione di partizioni {#combined-parting}
 
 1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
@@ -162,7 +163,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per combinazioni di partizioni {#example-four}
+#### Espressioni di esempio per la combinazione di partizioni {#example-four}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
