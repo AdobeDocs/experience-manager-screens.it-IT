@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: bd672ce177b8b2c19dbe37f23d9589c51ba1fba2
+source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
 
 ---
 
@@ -29,6 +29,7 @@ Gli argomenti seguenti sono trattati in questa sezione:
    * Frazionamento del giorno
    * Scomposizione Settimana
    * Mese di suddivisione
+   * Combinazione di partizioni
 * Utilizzo dell&#39;attivazione a livello di canale come riproduzione di un singolo evento
 
 ## Panoramica {#overview}
@@ -237,4 +238,28 @@ Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le no
 
 >[!NOTE]
 È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+
+### Combinazione di partizioni {#combined-parting}
+
+1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
+
+1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
+
+   >[!NOTE]
+Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+
+1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+
+#### Espressioni di esempio per la combinazione di partizioni {#example-four}
+
+Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
+
+| **Espressione** | **Interpretazione** |
+|---|---|
+| dopo le 6:00 e prima delle 18:00 il lun,Wed di gen-mar | la risorsa viene riprodotta nel canale tra le 6 del mattino e le 6 del pomeriggio del lunedì e del mercoledì da gennaio a fine marzo |
+| il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | la risorsa nel canale inizia a giocare dopo le 14:00 del 1° gennaio, continua a giocare per l&#39;intera giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
+| il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
+
+>[!NOTE]
+Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
