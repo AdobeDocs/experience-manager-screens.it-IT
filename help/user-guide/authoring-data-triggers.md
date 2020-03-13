@@ -12,20 +12,13 @@ source-git-commit: 24fda825220c6c2863fd76098a2f06209d9e0190
 
 In questa sezione viene illustrato come abilitare il targeting nei canali.
 
->>[!IImportante]La versione minima che supporta le attivazioni di dati in un canale AEM Screens è AEM 6.4.3 Feature Pack 3.
->
-
 ## Prerequisiti {#prereqs}
 
-Prima di seguire i passaggi indicati di seguito per abilitare il targeting nei canali, è necessario conoscere i termini [chiave in Configurazione in AEM Screens](configuring-context-hub.md) necessari per comprendere ContextHub e Targeting in AEM Screens.
+Prima di seguire i passaggi indicati di seguito per abilitare il targeting nei canali, è necessario apprendere i seguenti argomenti:
 
->[!Iimportante]
-> Prima di attivare il targeting in un canale AEM Screens, è consigliabile comprendere e configurare le configurazioni ContextHub.
-
-Per ulteriori informazioni, effettuate le seguenti operazioni:
-
-1. **[Configurazione dell&#39;archivio dati](configuring-context-hub.md)**
-1. **[Impostazione della segmentazione dell&#39;audience](configuring-context-hub.md)**
+1. Termini chiave nella configurazione in AEM Screens
+1. Imposta archivio dati
+1. Impostazione della segmentazione dell&#39;audience
 
 Una volta completati i passaggi precedenti, potete abilitare il targeting nei vostri canali.
 
@@ -37,7 +30,7 @@ Una volta completati i passaggi precedenti, potete abilitare il targeting nei vo
 
 Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
-1. Passa a uno dei canali AEM Screens. I passaggi seguenti dimostrano come abilitare il targeting utilizzando **DataDrivenRetail** *(canale di sequenza)* creato in un canale AEM Screens.
+1. Passa a uno dei canali AEM Screens. I passaggi seguenti dimostrano come abilitare il targeting utilizzando **DataDrivenRetail** creato in un canale AEM Screens.
 
 1. Selezionate il canale **DataDrivenRetail** e fate clic su **Proprietà** dalla barra delle azioni.
 
