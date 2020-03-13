@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
+source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
    + [Nuovo Importazione progetto da file](project-importer.md)
    + [Replica degli attivatori di dati sui server di pubblicazione](replicating-data-triggers.md)
    + Considerazioni specifiche per il cliente {#installing-client}
-      + [Lettore Chrome OS](implementing-chrome-os-player.md)
+      + [Lettore del sistema operativo Chrome](implementing-chrome-os-player.md)
       + [Utilizzo di Chrome Player come estensione per la risoluzione dei problemi](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
@@ -68,11 +68,12 @@ source-git-commit: 1dbbe62875cdc1a0c1c7d5fe45221d7ebd12207f
       + [Uso della Sequenza dinamica incorporata](dynamic-embedded-sequences.md)
       + [Durata della riproduzione di massa delle immagini a livello di canale](channel-level-image-playback.md)
       + [Sincronizzazione comandi](using-command-sync.md)
+      + [Authoring con attivatori dati](authoring-data-triggers.md)
    + Gestione degli aggiornamenti dei contenuti {#content-updates}
       + [Aggiornamento dei contenuti on-demand](on-demand-content.md)
       + [Aggiornamento del contenuto come servizio](content-update-as-a-service.md)
       + [Aggiornamento dei contenuti tramite gli avvii](launches.md)
-   + Esempi di casi di utilizzo {#use-case-examples}
+   + Esempi di casi d’uso {#use-case-examples}
       + [Canali di emergenza](emergency-channel.md)
       + [Attivazione temperatura centro viaggio](local-temperature-activation.md)
       + [Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)
