@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 826d1599-02d1-4d24-b15d-26c1ffee36a2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 1f90169ea2dab8bd63874d50708c6eb6ba61b370
 
 ---
 
@@ -30,13 +30,13 @@ La data di rilascio per AEM Screens Feature Pack 201907 è il 31 luglio 2019.
 
 ### Novità {#what-s-new}
 
-* **Modifica delle risorse di un canale AEM Screens tramite l'azionatore dati**
+* **Modifica delle risorse di un canale AEM Screens tramite l&#39;azionatore di dati**
 
-Il lettore passa a un canale che mostra le informazioni di emergenza quando riceve un evento attivato dal sistema di emergenza. Il canale funziona esclusivamente fino alla fine della situazione di emergenza.
+Il lettore passa a un canale che mostra le informazioni di emergenza al ricevimento di un evento attivato dal sistema di emergenza. Il canale funziona esclusivamente fino alla fine della situazione di emergenza.
 
 Per l’implementazione, fare riferimento a Caso di utilizzo del canale [di](emergency-channel.md) emergenza.
 
-* **Targeting Abilitato per componenti asincroni (*come video, sequenza*incorporata)**
+* **Targeting abilitato per i componenti asincroni
 
 È ora possibile abilitare il targeting per le risorse utilizzate nel progetto AEM Screens.
 
