@@ -3,7 +3,7 @@ title: Authoring con attivatori dati
 seo-title: Authoring con attivatori dati
 description: Segui questa pagina per apprendere come creare con i trigger dei dati.
 translation-type: tm+mt
-source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
+source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 9490eb2aa089268884d0f39a32eb8c53de110ed7
 In questa sezione viene illustrato come abilitare il targeting nei canali.
 
 >[!IMPORTANT]
-> La versione minima che supporta le attivazioni di dati in un canale AEM Screens è AEM 6.4.3 Feature Pack 3.
+> La versione minima che supporta le attivazioni di dati in un canale AEM Screens è AEM 6.5.3 Feature Pack 3.
 
 ## Prerequisiti {#prereqs}
 
@@ -56,7 +56,7 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Naviga e seleziona **DataDrivenRetail** da **DataDrivenAssets** > **Canali** , quindi fai clic su **Modifica** nella barra delle azioni.
+1. Naviga e seleziona **DataDrivenRetail** da **DataDrivenAssets** > **Canali** , quindi fai clic su **Modifica** nella barra delle azioni. Trascina e rilascia le risorse nell’editor canale.
 
    >[!NOTE]
    >
@@ -64,9 +64,9 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-   >[!NOTE]
-   >
-   >Una volta configurate le configurazioni ContextHub per il canale, accertatevi di seguire i passaggi precedenti da 1 a 4, anche per gli altri tre canali di sequenza, se desiderate seguire tutti i casi di utilizzo indicati di seguito.
+1. Fate clic su **Targeting**.
+
+1. Selezionate **Marchio** e **Attività** dal menu a discesa e fate clic su **Avvia targeting**.
 
 ### Ulteriori informazioni: Esempi di utilizzo {#learn-more-example-use-cases}
 
