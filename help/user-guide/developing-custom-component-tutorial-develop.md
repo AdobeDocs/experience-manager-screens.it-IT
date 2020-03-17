@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 20c5be209d0ab1e5371e21b377d83bc05c0ec256
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -442,7 +442,7 @@ Il componente Hello World è destinato all’uso su un canale sequenza. Per test
 
 ## Modello per gestori personalizzati {#custom-handlers}
 
-La sezione seguente evidenzia il modello per il gestore personalizzato e i requisiti minimi in pom.xml per quel progetto specifico.
+La sezione seguente mostra il modello per il gestore personalizzato e i requisiti minimi in pom.xml per quel progetto specifico.
 
 ```java
    package …;
