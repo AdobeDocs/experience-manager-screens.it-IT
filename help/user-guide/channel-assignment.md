@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 Questa sezione illustra i seguenti argomenti:
 
 * **Assegnazione di un canale**
-* **Informazioni sulle proprietà dell'assegnazione del canale, finestra di dialogo**
+* **Informazioni sulle proprietà dell&#39;assegnazione del canale, finestra di dialogo**
 * **Dayparting**
 
 Una volta definita una visualizzazione, è necessario assegnarle un canale.
@@ -32,7 +32,7 @@ Questa pagina mostra come assegnare i canali alle visualizzazioni.
 
 * [Configurazione e distribuzione di Screens](configuring-screens-introduction.md)
 * [Creare e gestire il progetto Screens](creating-a-screens-project.md)
-* [Creare e gestire canali](managing-channels.md)
+* [Creazione e gestione di canali](managing-channels.md)
 * [Creare e gestire le posizioni](managing-locations.md)
 * [Creare e gestire le visualizzazioni](managing-displays.md)
 
@@ -40,7 +40,7 @@ Questa pagina mostra come assegnare i canali alle visualizzazioni.
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
-1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —&gt; **Locations** —&gt; **SanJose** —&gt; **StoreDisplay**.
+1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
    ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
 
@@ -75,24 +75,24 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
    * **Caricamento iniziale**: carica il canale quando il lettore viene avviato. Può essere assegnato a più canali in combinazione con la pianificazione
    * **Schermata di inattività**: il canale viene caricato quando la schermata è inattiva. Può essere assegnato a più canali in combinazione con la pianificazione
    * **Timer:** deve essere impostato quando viene fornita una pianificazione
-   * **Interazione utente**: il lettore passa al canale specificato, se c'è un'interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
+   * **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
    **Pianificazione**:
 
-   la pianificazione consente di inserire una descrizione testuale circa quando il canale deve essere visualizzato. Inoltre, permette di definire una data iniziale (**attivo da**) e una data finale (**attivo fino al**) per il canale da visualizzare. La sintassi per l'espressione di pianificazione si basa sulle sintassi dei testo e cron di later.js:
+   la pianificazione consente di inserire una descrizione testuale circa quando il canale deve essere visualizzato. Inoltre, permette di definire una data iniziale (**attivo da**) e una data finale (**attivo fino al**) per il canale da visualizzare. La sintassi per l&#39;espressione di pianificazione si basa sulle sintassi dei testo e cron di later.js:
 
    * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text) 
    * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron) 
    **Mostra descrizione luogo di interesse**:
 
-   Mostra descrizione luogo di interesse definisce se la descrizione del luogo di interesse ("*Tocca un punto qualsiasi per iniziare*") deve essere visualizzato o meno mentre il canale è in esecuzione.
+   Mostra descrizione luogo di interesse definisce se la descrizione del luogo di interesse (&quot;*Tocca un punto qualsiasi per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
 
 1. Fai clic su **Salva** per assegnare il canale creato a una visualizzazione.
 
 ### Dayparting {#dayparting}
 
-Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all'ora desiderata. AEM Screens consente di pianificare i canali in termini di dayparting entro un giorno, una settimana o un mese, a seconda delle esigenze.
+DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata. AEM Screens consente di pianificare i canali in termini di dayparting entro un giorno, una settimana o un mese, a seconda delle esigenze.
 
 Gli esempi che seguono spiegano il dayparting dei canali in tre diversi scenari:
 
@@ -100,7 +100,7 @@ Gli esempi che seguono spiegano il dayparting dei canali in tre diversi scenari:
 
 Questo esempio indica come un ristorante usa il dayparting per mostrare il suo menù per colazione, pranzo e cena.
 
-Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenuto del canale venga riprodotto secondo l'ora specificata del giorno:
+Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenuto del canale venga riprodotto secondo l&#39;ora specificata del giorno:
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
@@ -110,7 +110,7 @@ Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenut
 
 #### Riproduzione di contenuto in un particolare giorno della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il dayparting in un casinò in cui l'evento live ha luogo ogni fine settimana dalle 20:00 alle 22:00 e le offerte speciali sono disponibili per il menù serale dalle 22:00 fino all'1:00.
+Questo esempio mostra il dayparting in un casinò in cui l&#39;evento live ha luogo ogni fine settimana dalle 20:00 alle 22:00 e le offerte speciali sono disponibili per il menù serale dalle 22:00 fino all&#39;1:00.
 
 <table>
  <tbody>
@@ -139,7 +139,7 @@ Questo esempio mostra il dayparting in un casinò in cui l'evento live ha luogo 
 
 Questo esempio mostra il dayparting per un negozio che espone la propria collezione estate da giugno ad agosto e la collezione autunnale da settembre a fine ottobre.
 
-Qui puoi creare il dayparting secondo i mesi, in modo che il contenuto del canale venga riprodotto secondo i mesi dell'anno specificati.
+Qui puoi creare il dayparting secondo i mesi, in modo che il contenuto del canale venga riprodotto secondo i mesi dell&#39;anno specificati.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
@@ -148,7 +148,7 @@ Qui puoi creare il dayparting secondo i mesi, in modo che il contenuto del canal
 
 >[!NOTE]
 >
->Inoltre, puoi definire la ***Priorità**per ciascuno dei canali.* Ad esempio, se due canali sono impostati per lo stesso giorno e la stessa ora o per lo stesso mese, il canale con priorità più alta viene riprodotto per primo. Il valore minimo per la priorità può essere impostato su 0.
+>Inoltre, puoi definire la ***Priorità*** per ciascuno dei canali. Ad esempio, se due canali sono impostati per lo stesso giorno e la stessa ora o per lo stesso mese, il canale con priorità più alta viene riprodotto per primo. Il valore minimo per la priorità può essere impostato su 0.
 
 #### Riproduzione di contenuto per i canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
 
