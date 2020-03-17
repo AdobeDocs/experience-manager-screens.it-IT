@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 66c741bb73bd5deb2bb5b06dd46f2e407d9c4b7e
+source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
 
 ---
 
@@ -24,11 +24,11 @@ Questa sezione descrive la configurazione di AEM Screens Windows 10 Player. Forn
 
 Per implementare Windows Player per AEM Screens, installate Windows Player per AEM Screens.
 
-Visita la pagina dei download [**di**](https://download.macromedia.com/screens/) AEM 6.4 Player.
+Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.4 Player.
 
 ### Ad-Hoc, metodo {#ad-hoc-method}
 
-Il metodo Ad-Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita la pagina dei download [**di**](https://download.macromedia.com/screens/) AEM 6.4 Player.
+Il metodo Ad-Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.4 Player.
 
 Una volta scaricata l’applicazione, seguite i passaggi del lettore per completare l’installazione ad hoc:
 
@@ -70,10 +70,10 @@ La tabella seguente riassume gli attributi del criterio con un JSON di esempio p
 | risoluzione | La risoluzione del dispositivo. |
 | RestartSchedule | Pianificazione del riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente amministratore per configurare il dispositivo sul sito. Impostato su false una volta configurato completamente e in produzione. |
-| enableOSD | Abilitare l'interfaccia utente dello switcher di canale per consentire agli utenti di cambiare canale sul dispositivo. Considerate l'impostazione su false una volta che è completamente configurato e in produzione. |
-| enableActivityUI | Consente di visualizzare l'avanzamento delle attività quali download e sincronizzazione. Abilitate per la risoluzione dei problemi e disattivate una volta configurato completamente e in produzione. |
+| enableOSD | Abilitare l&#39;interfaccia utente dello switcher di canale per consentire agli utenti di cambiare canale sul dispositivo. Considerate l&#39;impostazione su false una volta che è completamente configurato e in produzione. |
+| enableActivityUI | Consente di visualizzare l&#39;avanzamento delle attività quali il download e la sincronizzazione. Abilitate per la risoluzione dei problemi e disattivate una volta configurato completamente e in produzione. |
 
-#### Esempio di file JSON dei criteri {#example-policy-json-file}
+#### Esempio di file JSON per i criteri {#example-policy-json-file}
 
 ```
 {
@@ -102,16 +102,16 @@ Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
 1. Abilita il lancio della shell.
 
-   Fare riferimento alla sezione ***Configurare Shell Launcher*** nella pagina **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** del supporto di Microsoft Windows per ulteriori informazioni.
+   Fare riferimento alla sezione ***Configurare Shell Launcher*** nella pagina **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**del supporto di Microsoft Windows per ulteriori informazioni.
 
 1. Create un utente non amministrativo (se non ne avete già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
 1. Installa il lettore Windows per l’utente Kiosk dalla pagina dei download [di](https://download.macromedia.com/screens/) AEM Screens Player.
 1. Fare riferimento a [Utilizzare Shell Launcher per creare un chiosco](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) Windows 10 per modificare lo script PowerShell per ulteriori informazioni.
 
-   Modificare lo script PowerShell per sostituire il nome utente con quello creato. Verificare che il percorso dell'applicazione eseguibile sia corretto. Questo imposterà la shell personalizzata come applicazione Windows Player per l'utente kiosk e imposta il valore predefinito come explorer.exe per gli altri utenti.
+   Modificare lo script PowerShell per sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;applicazione eseguibile sia corretto. Questo imposterà la shell personalizzata come applicazione Windows Player per l&#39;utente kiosk e imposta il valore predefinito come explorer.exe per gli altri utenti.
 
 1. Eseguire lo script PowerShell come amministratore.
-1. Riavviate e accedete come l'utente Kiosk e l'applicazione del lettore dovrebbero iniziare immediatamente.
+1. Riavviate e accedete come l&#39;utente Kiosk e l&#39;applicazione del lettore dovrebbero iniziare immediatamente.
 
 ### Risoluzione dei problemi {#troubleshooting}
 
@@ -119,17 +119,17 @@ Se si ottiene una schermata nera quando si accede come utente Kiosk, significa c
 
 Il percorso di installazione predefinito per Windows Player è:
 
-***C:\Users\&amp;lt;your user&gt;\AppData\Local\Programs\@aem-screensscreens-player-Electron\AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-Electron\AEM Screens Player.exe***
 
 Lo script di esempio nei collegamenti attiverà e disattiverà la shell personalizzata. Potrebbe quindi essere necessario dividere lo script in due e attivare/disattivare le righe applicabili seguenti:
 
 >[!NOTE]
 >
->In alcuni ambienti di Windows, gli script PowerShell possono essere limitati dai criteri (in particolare dagli script non firmati). Per eseguire lo script potrebbe essere necessario disattivare temporaneamente e riattivare questa limitazione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
+>In alcuni ambienti di Windows, gli script PowerShell possono essere limitati dai criteri (in particolare dagli script non firmati). Per eseguire lo script potrebbe essere necessario disattivare temporaneamente e riabilitare questa limitazione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
 >
->*set-execute policy illimitato* per rimuovere temporaneamente le restrizioni
+>*set-execute policy illimitato* - per rimuovere temporaneamente le restrizioni
 >
->*set-execute policy limitato* : per riabilitare la restrizione dopo l'esecuzione dello script
+>*set-execute policy limitato* : per riabilitare la restrizione dopo l&#39;esecuzione dello script
 
 ```
 # Remove the new custom shells.
