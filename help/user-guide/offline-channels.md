@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
 
 ---
 
@@ -34,7 +34,7 @@ Il flusso di lavoro per il processo è il seguente:
 
 ## Aggiorna gestori {#update-handlers}
 
-ContentSync ****** utilizza gestori di aggiornamento per analizzare e raccogliere tutte le pagine e le risorse necessarie per un progetto specifico. AEM Screens utilizza i seguenti handler di aggiornamento:
+ContentSync ****** utilizza i gestori di aggiornamenti per analizzare e raccogliere tutte le pagine e le risorse necessarie per un progetto specifico. AEM Screens utilizza i seguenti handler di aggiornamento:
 
 ### Opzioni comuni {#common-options}
 
@@ -83,7 +83,7 @@ Per verificare la configurazione di ContentSync, effettuate le seguenti operazio
 1. Fai clic su Scarica
 1. Estrarre il file zip
 1. Avviare un server locale nella cartella estratta
-1. Aprite la pagina iniziale e verificate il vostro stato dell'app
+1. Aprite la pagina iniziale e verificate il vostro stato dell&#39;app
 
 ## Abilitazione della configurazione offline per un canale {#enabling-offline-config-for-a-channel}
 
@@ -93,7 +93,7 @@ Per attivare la configurazione offline per un canale, effettuate le seguenti ope
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. **Andate al dashboard del canale e fate clic**... nel pannello **INFORMAZIONI** CANALE per modificare le proprietà.
+1. Andate al dashboard del canale e fate clic **...** nel pannello **INFORMAZIONI** CANALE per modificare le proprietà.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
@@ -101,7 +101,7 @@ Per attivare la configurazione offline per un canale, effettuate le seguenti ope
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Prima che il contenuto venga distribuito correttamente sul dispositivo, fate clic su **Aggiorna contenuto** offline.
+   Prima che il contenuto sia correttamente distribuito sul dispositivo, fate clic su **Aggiorna contenuto** offline.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
@@ -113,3 +113,5 @@ Per attivare la configurazione offline per un canale, effettuate le seguenti ope
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
+>[!NOTE]
+> Per ulteriori informazioni sul modello per i gestori di risorse offline personalizzati e sui requisiti minimi `pom.xml` per quel progetto specifico, consulta [Modello per i gestori](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personalizzati in **Sviluppo di un componente personalizzato per AEM Screens**.
