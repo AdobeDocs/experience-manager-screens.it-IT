@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: f8d4b612d9c10d3f9f43ff4792ca48a1bf9407d0
+source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
 
 ---
 
@@ -442,59 +442,76 @@ Il componente Hello World è destinato all’uso su un canale sequenza. Per test
 
 ## Modello per gestori personalizzati {#custom-handlers}
 
-La sezione seguente mostra il modello per il gestore personalizzato e i requisiti minimi in pom.xml per quel progetto specifico.
+Se il componente personalizzato utilizza risorse esterne come risorse (immagini, video, font, icone, ecc.), rappresentazioni di risorse specifiche o librerie lato client (css, js, ecc.), queste non vengono aggiunte automaticamente alla configurazione offline in quanto eseguiamo il bundle della marcatura HTML per impostazione predefinita.
+
+Per consentire di personalizzare e ottimizzare le risorse esatte scaricate nel lettore, offriamo un meccanismo di estensione per i componenti personalizzati per esporre le loro dipendenze alla logica di caching offline in Screens.
+
+La sezione seguente mostra il modello per i gestori di risorse offline personalizzati e i requisiti minimi in `pom.xml` per quel progetto specifico.
 
 ```java
-   package …;
+package …;
 
-   import javax.annotation.Nonnull;
+import javax.annotation.Nonnull;
 
-   import org.apache.felix.scr.annotations.Component;
-   import org.apache.felix.scr.annotations.Reference;
-   import org.apache.felix.scr.annotations.Service;
-   import org.apache.sling.api.resource.Resource;
-   import org.apache.sling.api.resource.ResourceUtil;
-   import org.apache.sling.api.resource.ValueMap;
+import org.apache.felix.scr.annotations.Component;
+import org.apache.felix.scr.annotations.Reference;
+import org.apache.felix.scr.annotations.Service;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceUtil;
+import org.apache.sling.api.resource.ValueMap;
 
-   import com.adobe.cq.screens.visitor.OfflineResourceHandler;
+import com.adobe.cq.screens.visitor.OfflineResourceHandler;
 
-   @Service(value = OfflineResourceHandler.class)
-   @Component(immediate = true)
-   public class MyCustomHandler extends AbstractResourceHandler 
-   {
+@Service(value = OfflineResourceHandler.class)
+@Component(immediate = true)
+public class MyCustomHandler extends AbstractResourceHandler {
 
-    @Reference
-    private …; // OSGi services injection
+ @Reference
+ private …; // OSGi services injection
 
-    /**
-     * The resource types that are handled by the handler.
-     * @return the handled resource types
-     */
-    @Nonnull
-    @Override
-    public String[] getSupportedResourceTypes() {
-        return new String[] { … };
+ /**
+  * The resource types that are handled by the handler.
+  * @return the handled resource types
+  */
+ @Nonnull
+ @Override
+ public String[] getSupportedResourceTypes() {
+     return new String[] { … };
+ }
+
+ /**
+  * Accept the provided resource, visit and traverse it as needed.
+  * @param resource The resource to accept
+  */
+ @Override
+ public void accept(@Nonnull Resource resource) {
+     ValueMap properties = ResourceUtil.getValueMap(resource);
+     
+     /* You can directly add explicit paths for offline caching using the `visit`
+        method of the visitor. */
+     
+     // retrieve a custom property from the component
+     String myCustomRenditionUrl = properties.get("myCustomRenditionUrl", String.class);
+     // adding that exact asset/rendition/path to the offline manifest
+     this.visitor.visit(myCustomRenditionUrl);
+     
+     
+     /* You can delegate handling for dependent resources so they are also added to
+        the offline cache using the `accept` method of the visitor. */
+     
+     // retrieve a referenced dependent resource
+     String referencedResourcePath = properties.get("myOtherResource", String.class);
+     ResourceResolver resolver = resource.getResourceResolver();
+     Resource referencedResource = resolver.getResource(referencedResourcePath);
+     // let the handler for that resource handle it
+     if (referencedResource != null) {
+         this.visitor.accept(referencedResource);
+     }
    }
-
-    /**
-     * Accept the provided resource, visit and traverse it as needed.
-     * @param resource The resource to accept
-     */
-    @Override
-    public void accept(@Nonnull Resource resource) 
-      {
-        ValueMap properties = ResourceUtil.getValueMap(resource);
-        String assetPath = properties.get("myCustomPath", String.class); // retrieve a custom property path
-        String referencedResource = properties.get("myOtherResource", String.class); // a dependent resource that also needs parsing
-        …
-        this.visitor.visit(…); // visit the asset/rendition/path to be added to the manifest
-        this.visitor.accept(referencedResource); // accept/parse the dependent resource as well
-        …
-      }
-   }
+}
 ```
 
-Il codice seguente fornisce i requisiti minimi in pom.xml per quel progetto specifico:
+Il seguente codice fornisce i requisiti minimi `pom.xml` per il progetto specifico:
 
 ```css
    <dependencies>
