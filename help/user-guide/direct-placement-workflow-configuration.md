@@ -4,7 +4,7 @@ seo-title: Configurazione flusso di lavoro di posizionamento diretto
 description: Questa pagina evidenzia la configurazione del flusso di lavoro di posizionamento diretto.
 seo-description: Questa pagina evidenzia la configurazione del flusso di lavoro di posizionamento diretto.
 translation-type: tm+mt
-source-git-commit: 0f64047955a3b1b2eb523ed222168b87994a7a99
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -29,3 +29,13 @@ In alternativa, in qualità di autore del contenuto potete fare clic manualmente
 
 ## Configurazione del flusso di lavoro di posizionamento diretto {#configuring-workflow}
 
+>[!IMPORTANT]
+> Prima di avviare la configurazione, è necessario installare il [Demo Package](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Dopo aver installato il pacchetto, dovreste essere in grado di visualizzarlo e accedervi dall’istanza di AEM —> Strumenti (icona) —> **Workflow** —> **Workflow Models**.
+
+Per configurare il flusso di lavoro per il posizionamento diretto, effettuate le seguenti operazioni:
+
+1. Passa a AEM Screens dall’istanza di AEM e crea un progetto Screens dal titolo **Asset Workflow**(Flusso di lavoro risorse).
+
+1. Crea un canale denominato **Workflow-Assets** nella cartella **Channels (Canali** ).
+
+1. 
