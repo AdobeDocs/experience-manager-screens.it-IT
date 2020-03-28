@@ -3,8 +3,8 @@ title: Informazioni su questa guida
 seo-title: Descrizione della guida
 description: Questa pagina descrive le finalità della Guida alle best practice
 seo-description: Questa pagina descrive le finalità della Guida alle best practice
-translation-type: ht
-source-git-commit: 61cf90bd834d2afa1e09a2f8371984c9635fac23
+translation-type: tm+mt
+source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
 
 ---
 
