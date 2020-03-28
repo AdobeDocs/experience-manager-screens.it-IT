@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 69dd2238562c00ab83e63e268515e24dee55f5ee
+source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
 
 ---
 
@@ -48,17 +48,34 @@ Prima di iniziare a configurare le configurazioni Context Hub per un progetto AE
 >
 >Per ulteriori informazioni, consulta [Ottenere la chiave](https://developers.google.com/maps/documentation/javascript/get-api-key) API nella documentazione di Google.
 
+
 ## Passaggio 1: Impostazione di un archivio dati {#step-setting-up-a-data-store}
 
 È possibile impostare l&#39;archivio dati come evento I/O locale o come evento del database locale.
 
-### Evento I/O locale {#local-io-event}
+L’esempio seguente illustra le attivazioni dei dati a livello di risorsa per visualizzare un evento del database locale che imposta un archivio dati, ad esempio un foglio Excel, che consente di utilizzare le configurazioni ContextHub e il percorso dei segmenti per il canale AEM Screens.
 
-Attenetevi alla procedura seguente per configurare un archivio dati, ad esempio un evento ASCII che consente di utilizzare le configurazioni ContextHub e il percorso dei segmenti per il canale AEM Screens.
+Una volta impostato correttamente il foglio di Google, ad esempio come illustrato di seguito:
 
-### Evento database locale {#local-db-event}
+![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-Segui i passaggi indicati di seguito per configurare un archivio dati, ad esempio un foglio Excel, che consente di utilizzare le configurazioni ContextHub e il percorso dei segmenti per il canale AEM Screens.
+La seguente convalida è ciò che verrà visualizzato quando si verifica la connessione immettendo l&#39;ID e la chiave API del foglio di Google nel formato seguente:
+
+`https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
+
+![image](/help/user-guide/assets/context-hub/context-hub2.png)
+
+
+>[!NOTE]
+>**Utilizzo dei valori di Google Sheet in AEM **>Google Sheets esporrà i suoi valori in ContextHub Store e sarà disponibile in`<store-name>/values/<i>/<j>`, dove`<i>`e`<j>`sono gli indici di riga e colonna nel foglio di calcolo (a partire da 0).
+>
+> * /values/0/0 punti a A1
+> * /values/5/0 punti a A5
+> * /values/0/5 punti a E1
+
+
+L&#39;esempio specifico riportato di seguito mostra il foglio in excel come archivio di dati che attiverà la modifica delle risorse se il valore è superiore a 100 o inferiore a 50.
+
 
 1. **Passaggio a ContextHub**
 
@@ -72,7 +89,7 @@ Segui i passaggi indicati di seguito per configurare un archivio dati, ad esempi
 
    1. Fate clic su **Crea** > Contenitore **di** configurazione e immettete il titolo come **ContextHubDemo**.
 
-   1. **** Andate **a** ContextHubDemo **> Configurazione** ContentHub Store... per aprire la **procedura guidata** Configura.
+   1. **Andate** a **ContextHubDemo** > Configurazione **ContentHub Store...** per aprire la **procedura guidata** Configura.
 
    1. Inserite il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **comecontexthub.Generic-jsonp**
 
@@ -85,14 +102,14 @@ Segui i passaggi indicati di seguito per configurare un archivio dati, ad esempi
      "service": {
        "host": "sheets.googleapis.com",
        "port": 80,
-       "path": "/v4/spreadsheets/<your sheet it>/values/Sheet1",
+       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
        "jsonp": false,
        "secure": true,
        "params": {
-         "key": "<your API key>"
+         "key": "<your Google API key>"
        }
      },
-     "pollInterval": 3000
+     "pollInterval": 10000
    }
    ```
 
@@ -104,12 +121,12 @@ Segui i passaggi indicati di seguito per configurare un archivio dati, ad esempi
    >Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
 
    >[!CAUTION]
-   Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella precedente (ad esempio nella cartella del progetto), il targeting non funzionerà.
-   Se desiderate configurare le configurazioni dell&#39;archivio Google Sheets al di fuori della cartella legacy globale, dovete impostare **Store Name** come **segmentazione** e **Store Type** come **aem.segmentation**. Inoltre, devi saltare il processo di definizione del json come definito sopra.
+   Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella globale (ad esempio nella cartella del progetto), il targeting non funzionerà.
+   Se desiderate configurare le configurazioni dell&#39;archivio Google Sheets al di fuori della cartella globale, dovete impostare Nome **** store come **segmentazione** e Tipo **** store come **aem.segmentation**. Inoltre, devi saltare il processo di definizione del json come definito in precedenza.
 
 1. **Creazione di un marchio nelle attività**
 
-   1. Passa dall’istanza AEM a **Personalizzazione** > **Attività**
+   1. Passa dall’istanza di AEM a **Personalizzazione** > **Attività**
 
    1. Fai clic su **Crea** > **Crea marchio**
 
@@ -141,7 +158,7 @@ Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi d
 
 1. **Creazione di segmenti nel pubblico**
 
-   1. Passa dall’istanza AEM a **Personalizzazione** > **Audience** > **We.Retail**.
+   1. Passa dall’istanza di AEM a **Personalizzazione** > **Audience** > **Schermate**.
 
    1. Fate clic su **Crea** > **Crea segmento hub contesto.** Viene visualizzata la finestra di dialogo **Nuovo segmento** ContextHub.
 
@@ -149,7 +166,7 @@ Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi d
 
 1. **Modifica dei segmenti**
 
-   1. Selezionate i **fogli di segmento A1 1** (creati nel passaggio (5)), quindi fate clic su **Modifica** nella barra delle azioni.
+   1. Selezionate i **fogli di segmento A1 1** e fate clic su **Modifica** nella barra delle azioni.
 
    1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
    1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
@@ -172,12 +189,13 @@ Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi d
    1. Selezionate **Operatore** come **Uguale** dal menu a discesa.
 
    1. Immettere il **valore** come **2**.
-   >[!NOTE]
-   Le regole applicate nei passaggi precedenti sono solo un esempio di come impostare i segmenti per l&#39;implementazione dei seguenti casi di utilizzo.
+
+
+
 
 ## Passaggio 3: Abilitazione del targeting nei canali {#step-enabling-targeting-in-channels}
 
-Attenetevi alla procedura seguente per abilitare il targeting nei canali.
+Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
 1. Passa a uno dei canali AEM Screens. I passaggi seguenti dimostrano come abilitare il targeting utilizzando **DataDrivenRetail** creato in un canale AEM Screens.
 
@@ -205,7 +223,7 @@ Attenetevi alla procedura seguente per abilitare il targeting nei canali.
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
    >[!NOTE]
-   Una volta configurate le configurazioni ContextHub per il canale, accertatevi di seguire i passaggi precedenti da 1 a 4, anche per gli altri tre canali di sequenza se desiderate seguire tutti i casi di utilizzo indicati di seguito.
+   Una volta configurate le configurazioni ContextHub per il canale, accertatevi di seguire i passaggi precedenti da 1 a 4, anche per gli altri tre canali di sequenza, se desiderate seguire tutti i casi di utilizzo indicati di seguito.
 
 ## Ulteriori informazioni: Esempi di utilizzo {#learn-more-example-use-cases}
 
