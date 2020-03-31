@@ -76,4 +76,4 @@ Per imparare a usare Adobe Experience Manager 6.5, fai riferimento alle seguenti
 
 * **Guida alle best practice per i progetti AEM Screens**
 
-   Segui la Guida [alle best practice per i progetti](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html) AEM Screens, progettata per identificare le insidie comuni durante l’implementazione di un progetto AEM Screens. Il materiale si concentra principalmente su Ruoli e Responsabilità del progetto, Grafico RACI per i diversi ruoli Configurazioni della piattaforma AEM e Supporto e Monitoraggio.
+   Segui la Guida **[alle best practice per i progetti](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)**AEM Screens, progettata per identificare le insidie comuni durante l’implementazione di un progetto AEM Screens. Il materiale si concentra principalmente su Ruoli e Responsabilità del progetto, Grafico RACI per i diversi ruoli Configurazioni della piattaforma AEM e Supporto e Monitoraggio.
