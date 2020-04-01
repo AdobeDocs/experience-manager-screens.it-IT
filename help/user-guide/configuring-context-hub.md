@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 19baf90409eab4c72fb38e992c272338b0098d89
+source-git-commit: 65a94a5301e4f15979d198f90a2ffc75c8e34a8a
 
 ---
 
@@ -59,70 +59,71 @@ Una volta impostato correttamente il foglio di Google, ad esempio come illustrat
 
 ![image](/help/user-guide/assets/context-hub/context-hub1.png)
 
-La seguente convalida è ciò che verrà visualizzato quando si verifica la connessione immettendo l&#39;ID e la chiave API del foglio di Google nel formato seguente:
+La seguente convalida è ciò che verrà visualizzato quando si verifica la connessione immettendo i due valori, ID *foglio di* Google e chiave ** API nel formato seguente:
 
 `https://sheets.googleapis.com/v4/spreadsheets/<your sheet id>/values/Sheet1?key=<your API key>`
 
 ![image](/help/user-guide/assets/context-hub/context-hub2.png)
 
-
 >[!NOTE]
->**Utilizzo dei valori di Google Sheet in AEM **>Google Sheets esporrà i suoi valori in ContextHub Store e sarà disponibile in`<store-name>/values/<i>/<j>`, dove`<i>`e`<j>`sono gli indici di riga e colonna nel foglio di calcolo (a partire da 0).
->
-> * /values/0/0 punti a A1
-> * /values/5/0 punti a A5
-> * /values/0/5 punti a E1
+> L’esempio specifico riportato di seguito mostra i fogli di Google come un archivio dati che attiverà la modifica delle risorse se il valore è superiore a 100 o inferiore a 50.
 
-
-L&#39;esempio specifico riportato di seguito mostra il foglio in excel come archivio di dati che attiverà la modifica delle risorse se il valore è superiore a 100 o inferiore a 50.
-
+## Passaggio 2: Connessione dei fogli Google all’istanza AEM {#step-connecting-aem-instance}
 
 1. **Passaggio a ContextHub**
 
    Andate all’istanza di AEM e fate clic sull’icona degli strumenti dalla barra laterale sinistra. Fate clic su **Siti** > **ContextHub**, come illustrato nella figura riportata di seguito.
 
-   ![screen_shot_2019-04-22at53222pm](assets/screen_shot_2019-04-22at53222pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub3.png)
 
 1. **Creazione di una nuova configurazione ContextHub Store**
 
-   1. Passa a **globale** > **predefinito** > Configurazione **** ContextHub.
+   1. Andate al contenitore di configurazione denominato come **schermate**.
 
-   1. Fate clic su **Crea** > Contenitore **di** configurazione e immettete il titolo come **ContextHubDemo**.
+   1. Fate clic su **Crea** > **Crea contenitore** di configurazione e immettete il titolo come **ContextHubDemo**.
 
-   1. **Andate** a **ContextHubDemo** > Configurazione **ContentHub Store...** per aprire la **procedura guidata** Configura.
+      ![image](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. Inserite il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **comecontexthub.Generic-jsonp**
+   1. **Andate** a **ContextHubDemo** > **Crea** configurazione **** ContentHub e fate clic su **Salva**.
 
-   1. Fai clic su **Avanti**
-   1. Immettete la configurazione json specifica. Ad esempio, potete utilizzare il seguente json a scopo dimostrativo.
-   1. Fai clic su **Salva**.
+      >[!NOTE]
+      > Dopo aver fatto clic su **Salva** , verrete visualizzati nella schermata Configurazione **** ContextHub.
 
-   ```
-   {
-     "service": {
-       "host": "sheets.googleapis.com",
-       "port": 80,
-       "path": "/v4/spreadsheets/<your google sheet id>/values/Sheet1",
-       "jsonp": false,
-       "secure": true,
-       "params": {
-         "key": "<your Google API key>"
+   1. Dalla schermata Configurazione **** ContextHub, fate clic su **Crea** > Configurazione **ContentHub Store.**
+
+      ![image](/help/user-guide/assets/context-hub/context-hub5.png)
+
+   1. Immettete il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **** ****come contexthub.Generic-jsonp e fate clic su Next.
+      ![image](/help/user-guide/assets/context-hub/context-hub6.png)
+
+   1. Immettete la configurazione json specifica. Ad esempio, potete utilizzare il seguente json a scopo dimostrativo e fare clic su **Salva** . Verrà visualizzata la configurazione dello store denominata **Google Sheets** nella configurazione ContextHub.
+
+      >[!IMPORTANT]
+      >Sostituite il codice con *&lt;ID foglio>* e *&lt;Chiave API>* che avete recuperato durante la configurazione dei fogli di Google.
+
+      ```
+       {
+        "service": {
+        "host": "sheets.googleapis.com",
+        "port": 80,
+        "path": "/v4/spreadsheets/<your google sheets id>/values/Sheet1",
+        "jsonp": false,
+        "secure": true,
+        "params": {
+        "key": "<your Google API key>"
        }
-     },
-     "pollInterval": 10000
-   }
-   ```
+      },
+      "pollInterval": 10000
+      }
+      ```
 
-   >[!NOTE]
-   >
-   >Nel codice di esempio sopra, **pollInterval** definisce la frequenza con cui i valori vengono aggiornati (in ms).
-   >
-   >
-   >Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
+      >[!NOTE]
+      Nel codice di esempio sopra, **pollInterval** definisce la frequenza con cui i valori vengono aggiornati (in ms).
+Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
 
-   >[!CAUTION]
-   Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella globale (ad esempio nella cartella del progetto), il targeting non funzionerà.
-   Se desiderate configurare le configurazioni dell&#39;archivio Google Sheets al di fuori della cartella globale, dovete impostare Nome **** store come **segmentazione** e Tipo **** store come **aem.segmentation**. Inoltre, devi saltare il processo di definizione del json come definito in precedenza.
+      >[!CAUTION]
+      Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella globale (ad esempio nella cartella del progetto), il targeting non funzionerà.
+   >Se desiderate configurare le configurazioni dell&#39;archivio Google Sheets al di fuori della cartella globale, dovete impostare Nome **** store come **segmentazione** e Tipo **** store come **aem.segmentation**. Inoltre, devi saltare il processo di definizione del json come definito sopra.
 
 1. **Creazione di un marchio nelle attività**
 
