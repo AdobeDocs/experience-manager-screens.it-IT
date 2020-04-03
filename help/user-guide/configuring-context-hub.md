@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1c251320ec5c514c559f6e506028b0ad6f9bf68b
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -134,40 +134,10 @@ Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai re
       >[!NOTE]
 È necessario saltare il processo di definizione del json e lasciarlo vuoto.
 
-## Passaggio 3: Impostazione del marchio e dell&#39;area {#setting-brand-area}
 
-1. **Creazione di un marchio nelle attività**
+## Passaggio 3: Impostazione dell&#39;audience {#setting-up-audience}
 
-   1. Passa dall’istanza di AEM a **Personalizzazione** > **Attività**
-
-   1. Fai clic su **Crea** > **Crea marchio**
-
-   1. Select **Brand** from the **Create Page** wizard and click **Next**
-
-   1. Enter the **Title** as **ScreensBrand** and click **Create**. Il marchio viene ora creato come illustrato di seguito.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
-
-
-      >[!CAUTION]
-      Problema noto:
-Per aggiungere un&#39;area, rimuovete lo schema dall&#39;URL, ad esempio
-      `https://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/contexthubdemo/master`
-
-1. **Creazione di un’area nel marchio**
-
-   Per creare un&#39;area del marchio, effettuate le seguenti operazioni:
-
-   1. Fare clic su **Crea** e quindi su **Crea area**
-
-   1. Select **Area** from the **Create Page** wizard and click Next
-
-   1. Enter the **Title** as **GoogleSheets** and click **Create**.
-L&#39;area verrà creata nell&#39;attività.
-
-## Passaggio 4: Impostazione della segmentazione dell&#39;audience {#step-setting-up-audience-segmentation}
-
-Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi descritti di seguito per configurare i segmenti di pubblico.
+In sospeso: per aggiungere proprietà
 
 1. **Creazione di segmenti nel pubblico**
 
@@ -175,17 +145,38 @@ Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi d
 
    1. Fate clic su **Crea** > **Crea segmento hub contesto.** Viene visualizzata la finestra di dialogo **Nuovo segmento** ContextHub.
 
-   1. Enter the **Title** as **SheetA1 1** and click **Create**. Analogamente, create un altro segmento denominato **SheetA2 2**.
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Analogamente, create un altro segmento denominato **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
+
+
+## Passaggio 4: Impostazione della segmentazione dell&#39;audience {#step-setting-up-audience-segmentation}
+
+In attesa di aggiungere la modifica
+
+Dopo aver configurato un archivio dati e definito l&#39;attività (marchio e area), segui i passaggi descritti di seguito per configurare i segmenti di pubblico:
+
+1. **Creazione di segmenti nel pubblico**
+
+   1. Passa dall’istanza di AEM a **Personalizzazione** > **Audience** > **Schermate**.
+
+   1. Fate clic su **Crea** > **Crea segmento hub contesto.** Viene visualizzata la finestra di dialogo **Nuovo segmento** ContextHub.
+
+   1. Enter the **Title** as **TargetValue1** and click **Create**. Analogamente, create un altro segmento denominato **TargetValue2**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+
 
 1. **Modifica dei segmenti**
 
-   1. Selezionate i **fogli di segmento A1 1** e fate clic su **Modifica** nella barra delle azioni.
+   1. Selezionate il segmento **TargetValue1** e fate clic su **Modifica** dalla barra delle azioni.
 
    1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
    1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
    1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
 
-   1. Selezionate **Operatore** come **Uguale** dal menu a discesa.
+   1. Selezionate **Operatore** come **uguale** dal menu a discesa.
 
    1. Immettere il **valore** come **1**.
    >[!NOTE]
@@ -193,7 +184,7 @@ Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi d
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Allo stesso modo, modificate i valori delle proprietà in **Fogli A1 2**.
+   Allo stesso modo, modificate i valori delle proprietà in **TargetValue2**.
 
    1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
    1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
@@ -205,6 +196,56 @@ Dopo aver configurato un archivio dati e definito il marchio, segui i passaggi d
 
 
 
+## Passaggio 5: Impostazione del marchio e dell&#39;area {#setting-brand-area}
+
+Segui i passaggi indicati di seguito per creare un marchio nelle tue attività e nella tua area sotto il marchio:
+
+1. **Creazione di un marchio nelle attività**
+
+   1. Passa dall’istanza di AEM a **Personalizzazione** > **Attività**.
+
+   1. Fate clic su **Crea** > **Crea marchio**.
+
+   1. Select **Brand** from the **Create Page** wizard and click **Next**.
+
+   1. Enter the **Title** as **ScreensBrand** and click **Create**. Il marchio viene ora creato come illustrato di seguito.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub8.png)
+
+
+      >[!CAUTION]
+      Problema noto:
+Per aggiungere un&#39;area, rimuovete lo schema dall&#39;URL, ad esempio
+      `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
+
+1. **Creazione di un’area nel marchio**
+
+   Per creare un&#39;area del marchio, effettuate le seguenti operazioni:
+
+   1. Fate clic su **Crea** , quindi su **Crea area**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub9.png)
+
+   1. Select **Area** from the **Create Page** wizard and click **Next**.
+
+   1. Enter the **Title** as **ScreensValue** and click **Create**.
+Verrà creata un&#39;area nel marchio.
+
+## Passaggio 6: Impostazione dell&#39;attività {#step-setting-up-activity}
+
+Per creare un&#39;area del marchio, effettuate le seguenti operazioni:
+
+1. Andate a **ScreensValue** (creato nel passaggio precedente) e fate clic su **Crea** > **Crea attività**.
+
+1. Viene visualizzata la procedura guidata **Configura attività** . Immettete il **Titolo** come **targetvalueCheck** e il **Nome** come **targetValue**. Selezionate il motore **di** targeting come **ContextHub (AEM)** dall&#39;elenco a discesa e fate clic su **Avanti**.
+
+1. Fate clic su **Aggiungi esperienza** dalla procedura guidata **Configura attività**.
+
+1. Dal **pubblico**, selezionate **TargetValue1** e fate clic su **Add Experience** (Aggiungi esperienza), quindi immettete il **Titolo** come **valorecheck** **** **** valoreNomecome valorepredefinito,
+
+1. Allo stesso modo, dal **pubblico**, selezionate **TargetValue2** e fate clic su **Aggiungi esperienza** , quindi immettete il **Titolo** come **valorecheck** Nomecome valorevalore, quindi fate clic su Aggiungi esperienza **e immettete il Titolocome** **** valorecontrolloNomecome valorevalorevalorevalorevalorevalorepredefinitovalorevalore
+
+1. Click **Next** and then **Save**.
 
 ## Abilitazione del targeting nei canali {#step-enabling-targeting-in-channels}
 
