@@ -4,7 +4,7 @@ product: experience manager
 audience: end-user
 user-guide-title: Adobe Experience Manager Screens Help
 translation-type: tm+mt
-source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
+source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 
 ---
 
@@ -91,6 +91,7 @@ source-git-commit: 69cb8b8791c76917ce67ad33f40074027f73f9d5
    + [Incorporazione di un’applicazione REACT tramite AEM SPA Editor e integrazione con AEM Screens Analytics](embedding-react-app.md)
    + [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)
    + [Creazione di modelli personalizzati per layout multi-zona](creating-custom-templates-multizone-layouts.md)
+   + [Applicazione del marchio personalizzato e dello stile per le sovrapposizioni di testo](custom-branding-text-overlays.md)
 + Risoluzione dei problemi e domande frequenti {#troubleshooting}
    + [Domande frequenti su AEM Screens](aem-screens-faqs.md)
    + [Risoluzione dei problemi del Centro di controllo del dispositivo](monitoring-screens.md)
