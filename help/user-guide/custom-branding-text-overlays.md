@@ -5,14 +5,14 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f91faa23c7c5c4f0f705c77251554b64efaf2611
+source-git-commit: 835e801909d8d126042acd713fc68075ff598712
 
 ---
 
 
 # Personalizzazione e stile per le sovrapposizioni di testo {#creating-custom-branding-styling}
 
-Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
+Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo applicate alle risorse in un canale Screens.
 
 ## Creazione di stili e marchi personalizzati per le sovrapposizioni di testo {#steps-custom-branding}
 
@@ -27,15 +27,15 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
    ![image](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor canale, consultate Sovrapposizione [testo](/help/user-guide/text-overlay.md).
+   >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor canale, consultate Sovrapposizione [](/help/user-guide/text-overlay.md)testo.
 
 1. Passa a CRXDE Lite dall’istanza di AEM —> Strumenti —> **CRXDE Lite**.
 
-1. È necessario creare una progettazione personalizzata, ad esempio in `/apps/settings/wcm/designs/<your-project>/`questo caso
+1. È necessario creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`, ad esempio, in questo caso, passare a `/apps/settings/wcm/designs/customstyle/`
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Andate al file static.css e impostate le seguenti regole css. Anche mostrato nella figura seguente.
+1. Andate al file *static.css* e impostate le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
 
    ```shell
     //global styles
@@ -53,7 +53,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 1. Copiate il percorso del progetto, in questo caso il percorso sarà `/apps/settings/wcm/designs/customstyle`.
 
-1. Andate al canale denominato con titolo **DemoBrand** (creato nel passaggio 1)) e fate clic su **Proprietà** dalla barra delle azioni dopo aver selezionato il canale.
+1. Andate al canale denominato **DemoBrand** (creato al punto 1)) e fate clic su **Proprietà** dalla barra delle azioni dopo aver selezionato il canale.
 
 1. Passare alla scheda **Avanzate** e selezionare il campo **Progettazione** .
    ![image](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -70,31 +70,31 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 ## Visualizzazione del risultato {#viewing-the-result}
 
-Una volta completati i passaggi precedenti, puoi aggiornare il file *statis.css* da **CRXDE Lite** e visualizzare di conseguenza l’aggiornamento al layout di testo aggiunto alla risorsa.
+Una volta completati i passaggi precedenti, potete aggiornare il file *statis.css* da **CRXDE Lite** e visualizzare di conseguenza l’aggiornamento alla sovrapposizione di testo già aggiunta alla risorsa.
 
-Per visualizzare la progettazione aggiornata al layout di testo, effettuate le seguenti operazioni:
+Per visualizzare la struttura aggiornata alla sovrapposizione di testo, effettuate le seguenti operazioni:
 
-1. Andate al progetto AEM Screens intitolato come stile **** personalizzato e un canale denominato **DemoBrand** , quindi fate clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
+1. Passa al progetto AEM Screens denominato **custom style** —> **Channels** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Poiché la progettazione è stata aggiunta al campo **Progettazione** , come indicato sopra, fate clic su **Anteprima** per visualizzare lo stile corrente sull&#39;immagine con sovrapposizione di testo.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Andate al file static.css in CRXDE Lite, ad esempio, aggiungete il font.
+1. Individuate il file *static.css* in CRXDE Lite e aggiungete il font, ad esempio, `font-family: "Lucida Console", Courier, monospace;` a questo file, come illustrato di seguito.
    ![image](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Dopo aver salvato le modifiche e ricaricato l’anteprima, viene visualizzato un aggiornamento del font della sovrapposizione di testo, come illustrato nella figura riportata di seguito.
+1. Dopo aver salvato le modifiche e ricaricato l&#39;anteprima, viene visualizzato un aggiornamento al font della sovrapposizione di testo, come illustrato nella figura riportata di seguito.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Inoltre, potete rimuovere gli ultimi due blocchi di codice dal file static.css per rimuovere lo stile &quot;box&quot; intorno alla sovrapposizione di testo.
+1. Inoltre, potete rimuovere gli ultimi due blocchi di codice dal file *static.css* per rimuovere lo stile &quot;in box&quot; intorno alla sovrapposizione di testo.
    ![image](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. La modifica aggiornata verrà visualizzata nell’anteprima in cui la sovrapposizione di testo viene aggiunta all’immagine, come illustrato di seguito.
+1. Nell’anteprima verrà visualizzata la modifica aggiornata in cui la sovrapposizione di testo viene aggiunta all’immagine.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Di conseguenza, seguendo i passaggi descritti nelle sezioni precedenti, potete aggiornare il marchio e lo stile personalizzato per le sovrapposizioni di testo aggiunte alle risorse.
+Con riferimento all’esercitazione, ora potete aggiornare il vostro marchio e lo stile personalizzato per le sovrapposizioni di testo aggiunte alle risorse.
 
 
 
