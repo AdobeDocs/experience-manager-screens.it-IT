@@ -5,7 +5,7 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 835e801909d8d126042acd713fc68075ff598712
+source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
 
 ---
 
@@ -18,7 +18,7 @@ Seguite questa pagina per apprendere come applicare il marchio e lo stile person
 
 Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo, effettuate le seguenti operazioni:
 
-1. Create un progetto AEM Screens intitolato come stile **** personalizzato e un canale denominato **DemoBrand**, come illustrato nella figura riportata di seguito.
+1. Crea un progetto AEM Screens. Questo esempio mostra la funzionalità creando un progetto denominato **customstyle** e un canale denominato **DemoBrand** , come illustrato nella figura riportata di seguito.
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -38,16 +38,26 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 1. Andate al file *static.css* e impostate le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
 
    ```shell
-    //global styles
-    .cq-Screens-textOverlay
-    { … }
-    //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay { … }
-    // light text variant
-    .cq-Screens-textOverlay-color--light
-    { … }
-     // dark text variant
-    .cq-Screens-textOverlay-color--dark { … }
+     //global styles
+     cq-Screens-textOverlay {
+     padding: 1em;
+     font-size: 3rem;
+     line-height: 1em;
+      }
+     //authoring overrides
+    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+     display: none;
+     padding: 0;
+     font-size: 1rem;
+     }
+      // light text variant
+     .cq-Screens-textOverlay-color--light {
+      background-color: rgba(0, 0, 0, .6);
+      }
+      // dark text variant
+      .cq-Screens-textOverlay-color--dark {
+       background-color: rgba(255, 255, 255, .6);
+     }
    ```
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
@@ -67,6 +77,13 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 1. Fate clic su **Salva e chiudi** per aggiornare il percorso di progettazione.
 
+### Aggiornamento degli ACL {#updating-acls}
+
+È necessario aggiornare gli ACL per queste progettazioni in modo che possano essere scaricati dal lettore.
+
+1. Andate a useradmin e scegliete il percorso `screens-<project>-devices group` e assegnategli l&#39;autorizzazione di lettura per il percorso di progettazione personalizzato.
+
+1. Specifica le autorizzazioni di lettura e modifica del `screens-<project>-administrators` gruppo per questo percorso.
 
 ## Visualizzazione del risultato {#viewing-the-result}
 
