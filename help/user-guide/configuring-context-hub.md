@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
 
 ---
 
@@ -135,9 +135,7 @@ Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai re
 È necessario saltare il processo di definizione del json e lasciarlo vuoto.
 
 
-## Passaggio 3: Impostazione dell&#39;audience {#setting-up-audience}
-
-In sospeso: per aggiungere proprietà
+## Passaggio 3: Impostazione di segmenti in Audience {#setting-up-audience}
 
 1. **Creazione di segmenti nel pubblico**
 
@@ -145,58 +143,20 @@ In sospeso: per aggiungere proprietà
 
    1. Fate clic su **Crea** > **Crea segmento hub contesto.** Viene visualizzata la finestra di dialogo **Nuovo segmento** ContextHub.
 
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Analogamente, create un altro segmento denominato **TargetValue2**.
+   1. Enter the **Title** as **Higherthan50** and click **Create**. Analogamente, create un altro segmento denominato **Lowerthan50**.
 
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
+      ![image](/help/user-guide/assets/context-hub/context-hub11.png)
 
+   1. Seleziona il segmento **Higherthan50** e fai clic su **Proprietà** dalla barra delle azioni.
+      ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
+   1. Selezionate la scheda **Personalizzazione** dalle proprietà **** segmento. Impostate il percorso **** ContextHub su `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` e **Segments Path** su `/conf/screens/settings/wcm/segments` e fate clic su **Save (Salva**), come illustrato nella figura riportata di seguito.
 
-## Passaggio 4: Impostazione della segmentazione dell&#39;audience {#step-setting-up-audience-segmentation}
+      ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
-In attesa di aggiungere la modifica
+   1. Analogamente, imposta anche il percorso **** ContextHub e il percorso **** dei segmenti per il segmento **inferiore a 50** .
 
-Dopo aver configurato un archivio dati e definito l&#39;attività (marchio e area), segui i passaggi descritti di seguito per configurare i segmenti di pubblico:
-
-1. **Creazione di segmenti nel pubblico**
-
-   1. Passa dall’istanza di AEM a **Personalizzazione** > **Audience** > **Schermate**.
-
-   1. Fate clic su **Crea** > **Crea segmento hub contesto.** Viene visualizzata la finestra di dialogo **Nuovo segmento** ContextHub.
-
-   1. Enter the **Title** as **TargetValue1** and click **Create**. Analogamente, create un altro segmento denominato **TargetValue2**.
-
-      ![image](/help/user-guide/assets/context-hub/context-hub10.png)
-
-
-1. **Modifica dei segmenti**
-
-   1. Selezionate il segmento **TargetValue1** e fate clic su **Modifica** dalla barra delle azioni.
-
-   1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
-   1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
-   1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
-
-   1. Selezionate **Operatore** come **uguale** dal menu a discesa.
-
-   1. Immettere il **valore** come **1**.
-   >[!NOTE]
-   AEM convalida i dati provenienti da Google Sheet visualizzando il segmento come verde.
-
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
-
-   Allo stesso modo, modificate i valori delle proprietà in **TargetValue2**.
-
-   1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
-   1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
-   1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
-
-   1. Selezionate **Operatore** come **Uguale** dal menu a discesa.
-
-   1. Immettere il **valore** come **2**.
-
-
-
-## Passaggio 5: Impostazione del marchio e dell&#39;area {#setting-brand-area}
+## Passaggio 4: Impostazione del marchio e dell&#39;area {#setting-brand-area}
 
 Segui i passaggi indicati di seguito per creare un marchio nelle tue attività e nella tua area sotto il marchio:
 
@@ -231,21 +191,64 @@ Per aggiungere un&#39;area, rimuovete lo schema dall&#39;URL, ad esempio
    1. Enter the **Title** as **ScreensValue** and click **Create**.
 Verrà creata un&#39;area nel marchio.
 
-## Passaggio 6: Impostazione dell&#39;attività {#step-setting-up-activity}
+## Passaggio 5: Creazione di segmenti in un&#39;attività {#step-setting-up-audience-segmentation}
 
-Per creare un&#39;area del marchio, effettuate le seguenti operazioni:
+Dopo aver configurato un archivio dati e definito l&#39;attività (marchio e area), segui i passaggi descritti di seguito per creare segmenti nell&#39;attività.
 
-1. Andate a **ScreensValue** (creato nel passaggio precedente) e fate clic su **Crea** > **Crea attività**.
+1. **Creazione di segmenti nelle attività**
 
-1. Viene visualizzata la procedura guidata **Configura attività** . Immettete il **Titolo** come **targetvalueCheck** e il **Nome** come **targetValue**. Selezionate il motore **di** targeting come **ContextHub (AEM)** dall&#39;elenco a discesa e fate clic su **Avanti**.
+   1. Passa dall’istanza di AEM a **Personalizzazione** > **Attività** > **ScreensBrand** >**ScreensValue**.
 
-1. Fate clic su **Aggiungi esperienza** dalla procedura guidata **Configura attività**.
+   1. Fate clic su **Crea** > **Crea attività.** Viene visualizzata la procedura guidata **Configura attività** .
 
-1. Dal **pubblico**, selezionate **TargetValue1** e fate clic su **Add Experience** (Aggiungi esperienza), quindi immettete il **Titolo** come **valorecheck** **** **** valoreNomecome valorepredefinito,
+   1. Immettere il **Titolo** come **ValoreCheck50** e **Nome** come **valorecheck50**. Selezionate il motore **di** targeting come **ContextHub (AEM)** dall&#39;elenco a discesa e fate clic su **Avanti**.
 
-1. Allo stesso modo, dal **pubblico**, selezionate **TargetValue2** e fate clic su **Aggiungi esperienza** , quindi immettete il **Titolo** come **valorecheck** Nomecome valorevalore, quindi fate clic su Aggiungi esperienza **e immettete il Titolocome** **** valorecontrolloNomecome valorevalorevalorevalorevalorevalorepredefinitovalorevalore
+      ![image](/help/user-guide/assets/context-hub/context-hub14.png)
 
-1. Click **Next** and then **Save**.
+   1. Fate clic su **Aggiungi esperienza** dalla procedura guidata **Configura attività**.
+
+   1. In **Audiences**, selezionate **Higherthan50** e fate clic su **Add Experience** (Aggiungi esperienza **), quindi immettete il** Titolo **come** maggiore di 50 **** **** Namecome più alto di 50. Click **Ok**.
+
+   1. In **Audiences**, selezionate il **valore inferiore a 50** e fate clic su **Add Experience** (Aggiungi esperienza), quindi immettete il **titolo** come **inferiore a 50** **** **** Nomebassocome basso50. Click **Ok**.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub15.png)
+
+   1. Click **Next** and then **Save**. **L&#39;attività ValueCheck50** ora è stata creata e configurata.
+
+      ![image](/help/user-guide/assets/context-hub/context-hub16.png)
+
+## Passaggio 5: Modifica dei segmenti {#editing-audience-segmentation}
+
+1. **Modifica dei segmenti**
+
+   1. 
+      1. Passa dall’istanza di AEM a **Personalizzazione** > **Attività** > **ScreensBrand** >**ScreensValue** >**ValueCheck50**.
+   1. Selezionare il segmento **ValueCheck50**, quindi fare clic su **Modifica** dalla barra delle azioni.
+
+   1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
+   1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
+   1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
+
+   1. Selezionate **Operatore** come **uguale** dal menu a discesa.
+
+   1. Immettere il **valore** come **1**.
+   >[!NOTE]
+   AEM convalida i dati provenienti da Google Sheet visualizzando il segmento come verde.
+
+   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+
+   Allo stesso modo, modificate i valori delle proprietà in **TargetValue2**.
+
+   1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
+   1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
+   1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
+
+   1. Selezionate **Operatore** come **Uguale** dal menu a discesa.
+
+   1. Immettere il **valore** come **2**.
+
+
+
 
 ## Abilitazione del targeting nei canali {#step-enabling-targeting-in-channels}
 
