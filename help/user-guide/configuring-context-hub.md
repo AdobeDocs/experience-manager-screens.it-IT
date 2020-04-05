@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7481e63a96d07b4e6ff33bf9d6f15e5e6c7bead6
+source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
 
 ---
 
@@ -217,36 +217,39 @@ Dopo aver configurato un archivio dati e definito l&#39;attività (marchio e are
 
       ![image](/help/user-guide/assets/context-hub/context-hub16.png)
 
-## Passaggio 5: Modifica dei segmenti {#editing-audience-segmentation}
+## Passaggio 5: Modifica dei segmenti in Audiences{#editing-audience-segmentation}
 
 1. **Modifica dei segmenti**
 
-   1. 
-      1. Passa dall’istanza di AEM a **Personalizzazione** > **Attività** > **ScreensBrand** >**ScreensValue** >**ValueCheck50**.
-   1. Selezionare il segmento **ValueCheck50**, quindi fare clic su **Modifica** dalla barra delle azioni.
+   1. Passa dall’istanza di AEM a **Personalizzazione** > **Audience** > **Schermate**.
+
+   1. Selezionate il segmento **Superiore a 50** e fate clic su **Modifica** nella barra delle azioni.
 
    1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
+
    1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
+
    1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
 
-   1. Selezionate **Operatore** come **uguale** dal menu a discesa.
+   1. Selezionate **Operatore** come **maggiore di** dal menu a discesa.
 
-   1. Immettere il **valore** come **1**.
+   1. Immettere il **valore** come **50**.
    >[!NOTE]
    AEM convalida i dati provenienti da Google Sheet visualizzando il segmento come verde.
 
    ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
 
-   Allo stesso modo, modificate i valori delle proprietà in **TargetValue2**.
+   Analogamente, modificate i valori delle proprietà su **Lowerthan50**.
 
    1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
+
    1. Fare clic sull&#39;icona chiave inglese per aprire la finestra di dialogo **Confronto di una proprietà con un valore** .
+
    1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
 
-   1. Selezionate **Operatore** come **Uguale** dal menu a discesa.
+   1. Selezionate **Operatore** come **minore di** dal menu a discesa.
 
-   1. Immettere il **valore** come **2**.
-
+   1. Immettere il **valore** come **50**.
 
 
 
