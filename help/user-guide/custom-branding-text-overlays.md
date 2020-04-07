@@ -5,7 +5,7 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: fdbe57b2cd927c112e9faa4888e3565626712c7a
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -35,7 +35,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
    ![image](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Andate al file *static.css* e impostate le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
+1. Create un file *static.css* e impostate le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
 
    ```shell
      //global styles
@@ -76,6 +76,19 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
    ![image](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
 1. Fate clic su **Salva e chiudi** per aggiornare il percorso di progettazione.
+
+>[!IMPORTANT]
+> È possibile sovrapporre i modelli esistenti di Screens per inserire i propri design per impostazione predefinita o creare un modello personalizzato. Per ulteriori informazioni, fare riferimento ai passaggi descritti di seguito.
+
+1. Per sovrapporre i modelli Screens esistenti per inserire i propri design per impostazione predefinita:
+
+   1. Sovrapposizione `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
+   1. Modificate la proprietà *cq:designPath* in `/apps/screens/core/templates/sequencechannel/jcr:content` modo da puntare alla nuova progettazione.
+
+1. Per creare un modello personalizzato:
+   1. Copia `/libs/screens/core/templates/sequencechannel` in `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Modificate la proprietà *cq:designPath* in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` modo da puntare alla nuova progettazione.
+
 
 ### Aggiornamento degli ACL {#updating-acls}
 
