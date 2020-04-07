@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
+source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
 
 ---
 
@@ -150,7 +150,7 @@ Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai re
    1. Seleziona il segmento **Higherthan50** e fai clic su **Proprietà** dalla barra delle azioni.
       ![image](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Selezionate la scheda **Personalizzazione** dalle proprietà **** segmento. Impostate il percorso **** ContextHub su `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub` e **Segments Path** su `/conf/screens/settings/wcm/segments` e fate clic su **Save (Salva**), come illustrato nella figura riportata di seguito.
+   1. Selezionate la scheda **Personalizzazione** dalle proprietà **** segmento. Impostate il percorso **** ContextHub su `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Segments Path** su `/conf/screens/settings/wcm/segments` e fate clic su **Save (Salva**), come illustrato nella figura riportata di seguito.
 
       ![image](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -239,11 +239,11 @@ I **googlesheets/value/1/0** si riferiscono alla riga 2 e alla colonna come comp
    1. Selezionate **Operatore** come **maggiore di** dal menu a discesa.
 
    1. Immettere il **valore** come **70**.
-   >[!NOTE]
-   AEM convalida i dati provenienti da Google Sheet visualizzando il segmento come verde.
 
-   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
+      >[!NOTE]
+      AEM convalida i dati provenienti da Google Sheet visualizzando il segmento come verde.
 
+      ![image](/help/user-guide/assets/context-hub/context-hub18.png)
    Analogamente, modificate i valori delle proprietà su **Lowerthan50**.
 
    1. Trascinate e rilasciate il **confronto: Proprietà - Componente valore** per l’editor.
@@ -262,11 +262,11 @@ I **googlesheets/value/1/0** si riferiscono alla riga 2 e alla colonna come comp
 
 Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
-1. Passa a uno dei canali AEM Screens. I passaggi seguenti dimostrano come abilitare il targeting utilizzando **DataDrivenRetail** creato in un canale AEM Screens.
+1. Passa a uno dei canali AEM Screens. I passaggi seguenti dimostrano come abilitare il targeting utilizzando **DataDrivenChannel** creato in un canale AEM Screens.
 
-1. Selezionate il canale **DataDrivenRetail** e fate clic su **Proprietà** dalla barra delle azioni.
+1. Selezionate il canale **TargetChannel** e fate clic su **Proprietà** dalla barra delle azioni.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub19.png)
 
 1. Selezionate la scheda **Personalizzazione** per impostare le configurazioni ContextHub.
 
@@ -275,20 +275,18 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
    1. Selezionate Percorso **** Segmenti come **conf** > **We.Retail** > **impostazioni** > **wcm** **** ****> Segmentie fate clic su Seleziona.
 
    1. Fate clic su **Salva e chiudi**.
-   >[!NOTE]
-   Usa ContextHub e il percorso Segments, dove hai salvato inizialmente le configurazioni e i segmenti dell&#39;hub di contesto.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+      >[!NOTE]
+      Usa ContextHub e il percorso Segments, dove hai salvato inizialmente le configurazioni e i segmenti dell&#39;hub di contesto.
 
-1. Naviga e seleziona **DataDrivenRetail** da **DataDrivenAssets** > **Canali** , quindi fai clic su **Modifica** nella barra delle azioni.
+      ![image](/help/user-guide/assets/context-hub/context-hub20.png)
 
-   >[!NOTE]
-   Se avete impostato tutto correttamente, l&#39;opzione **Targeting** viene visualizzata nel menu a discesa dall&#39;editor, come illustrato nella figura riportata di seguito.
+   1. Spostatevi e selezionate il canale **TargetChannel** , quindi fate clic su **Modifica** nella barra delle azioni.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+      >[!NOTE]
+      Se avete impostato tutto correttamente, l&#39;opzione **Targeting** viene visualizzata nel menu a discesa dall&#39;editor, come illustrato nella figura riportata di seguito.
 
-   >[!NOTE]
-   Una volta configurate le configurazioni ContextHub per il canale, accertatevi di seguire i passaggi precedenti da 1 a 4, anche per gli altri tre canali di sequenza, se desiderate seguire tutti i casi di utilizzo indicati di seguito.
+      ![image](/help/user-guide/assets/context-hub/context-hub21.png)
 
 ## Ulteriori informazioni: Esempi di utilizzo {#learn-more-example-use-cases}
 
