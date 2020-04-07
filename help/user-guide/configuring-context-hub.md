@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 593107de8775ffa1f87173c4e9e7be5c3ccb0b90
+source-git-commit: cc8ce7bec28373f4051cb9cf87a216b57c09ddd1
 
 ---
 
@@ -231,13 +231,18 @@ Dopo aver configurato un archivio dati e definito l&#39;attività (marchio e are
 
    1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
 
+      >[!NOTE]
+I **googlesheets/value/1/0** si riferiscono alla riga 2 e alla colonna come compilati nei google sheet nella figura seguente:
+
+      ![image](/help/user-guide/assets/context-hub/context-hub17.png)
+
    1. Selezionate **Operatore** come **maggiore di** dal menu a discesa.
 
-   1. Immettere il **valore** come **50**.
+   1. Immettere il **valore** come **70**.
    >[!NOTE]
    AEM convalida i dati provenienti da Google Sheet visualizzando il segmento come verde.
 
-   ![screen_shot_2019-04-23at20142pm](assets/screen_shot_2019-04-23at20142pm.png)
+   ![image](/help/user-guide/assets/context-hub/context-hub18.png)
 
    Analogamente, modificate i valori delle proprietà su **Lowerthan50**.
 
