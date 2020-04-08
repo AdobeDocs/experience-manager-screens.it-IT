@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 64e4d6ae-3fd3-41ec-84e1-cc2cac7b2519
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 8356d5eb9449fd31d293c030620588e47fa6513e
 
 ---
 
@@ -23,9 +23,9 @@ In qualità di amministratore AEM, è necessario assicurarsi che i membri del te
 
 ## Impostazione delle autorizzazioni {#setting-up-permissions}
 
-La procedura seguente riassume la procedura per l'impostazione di ACL per un progetto:
+La procedura seguente riassume la procedura per l&#39;impostazione di ACL per un progetto:
 
-1. Accedi ad AEM e passa a **Strumenti** &gt; **Protezione**.
+1. Accedi ad AEM e passa a **Strumenti** > **Protezione**.
 
    ![screen_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -59,17 +59,17 @@ La procedura seguente riassume la procedura per l'impostazione di ACL per un pro
 
    ![screen_shot_2018-02-18at41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 
-### Autorizzazioni {#permissions}
+### Autorizzazioni  {#permissions}
 
 La tabella seguente riassume il percorso con le autorizzazioni a livello di progetto:
 
 | **Percorso** | **Autorizzazione** | **Descrizione** |
 |---|---|---|
-| `/apps/<project>` | LEGGI | Consente l'accesso ai file di progetto (se applicabile) |
+| `/apps/<project>` | LEGGI | Consente l&#39;accesso ai file di progetto (se applicabile) |
 | `/content/dam/<project>` | ALL | Consente di archiviare le risorse dei progetti, come immagini o video, in DAM |
-| `/content/screens/<project>` | ALL | Rimuove l'accesso a tutti gli altri progetti in /content/screens |
-| `/content/screens/svc` | LEGGI | Fornisce l'accesso al servizio di registrazione |
-| `/libs/screens` | LEGGI | Fornisce l'accesso a DCC |
+| `/content/screens/<project>` | ALL | Rimuove l&#39;accesso a tutti gli altri progetti in /content/screens |
+| `/content/screens/svc` | LEGGI | Fornisce l&#39;accesso al servizio di registrazione |
+| `/libs/screens` | LEGGI | Fornisce l&#39;accesso a DCC |
 | `/var/contentsync/content/screens/` | ALL | Consente di aggiornare il contenuto offline per il progetto |
 
 >[!NOTE]
@@ -84,7 +84,7 @@ Ad esempio, potete creare i seguenti gruppi specifici per il progetto:
 
 * Amministratori progetto Screens
 * Operatori progetto Screens (registratori e gestione di posizioni e dispositivi)
-* Utenti progetto Screens (lavorare con canali, programmi e assegnazioni canale)
+* Utenti del progetto Screens (lavorare con canali, programmi e assegnazioni di canali)
 
 La tabella seguente riepiloga i gruppi con descrizione e autorizzazioni per un progetto AEM Screens:
 
@@ -93,7 +93,7 @@ La tabella seguente riepiloga i gruppi con descrizione e autorizzazioni per un p
   <tr>
    <td><strong>Nome gruppo</strong></td>
    <td><strong>Descrizione</strong></td>
-   <td><strong>Autorizzazioni</strong></td>
+   <td><strong>Autorizzazioni </strong></td>
   </tr>
   <tr>
    <td>Amministratori<br /> schermo <em>schermate-amministratori</em></td>
@@ -120,7 +120,7 @@ La tabella seguente riepiloga i gruppi con descrizione e autorizzazioni per un p
     </ul> </td>
   </tr>
   <tr>
-   <td>Operatori<br /> <em>schermi-operatori</em></td>
+   <td>Operatori<br /> schermo - <em>schermate-operatori</em></td>
    <td>Creazione e aggiornamento della struttura della posizione e dei lettori di registro in AEM Screens</td>
    <td>
     <ul>
@@ -131,7 +131,7 @@ La tabella seguente riepiloga i gruppi con descrizione e autorizzazioni per un p
     </ul> </td>
   </tr>
   <tr>
-   <td>Schermi Lettori<br /> <em>schermate-we-retail-devices</em></td>
+   <td>Screens Player<br /> <em>schermate-&lt;progetto&gt;-dispositivi</em></td>
    <td>Gruppi tutti i lettori e tutti i lettori/dispositivi sono automaticamente membri dei collaboratori.</td>
    <td><p> Membro dei collaboratori</p> </td>
   </tr>
