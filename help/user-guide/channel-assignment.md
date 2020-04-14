@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
+source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
 
 ---
 
@@ -52,9 +52,9 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
    ![image](/help/user-guide/assets/channel-assign1.png)
 
-   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
+   È possibile comprendere e configurare le proprietà dalla finestra di dialogo Assegnazione **** canale dalla sezione seguente.
 
-### Informazioni sulle proprietà del canale {#channel-properties}
+### Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
 
 #### Riferimento a canale {#ref-channel}
 
@@ -84,14 +84,17 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 
 #### Metodo di Interruzione {#interruption-method-channel}
 
+>[IMPORTANTE]
+> Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
 Per impostare il metodo di interruzione dalla finestra di dialogo Assegnazione **** canale, sono disponibili le seguenti opzioni:
 
-* **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, viene interrotta la riproduzione e si aggiorna o si riproduce immediatamente il nuovo contenuto
-* **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, attendiamo il termine della riproduzione dell&#39;elemento corrente nella sequenza e solo dopo l&#39;aggiornamento o la riproduzione del nuovo contenuto
+* **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, potete interrompere la riproduzione e aggiornare o riprodurre immediatamente il nuovo contenuto
+* **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
    >[!NOTE]
    >Questa è l&#39;opzione predefinita selezionata.
-* **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, attendiamo che l&#39;intera sequenza raggiunga la sua fine, e subito prima di tornare al primo elemento aggiorniamo o riproduciamo il nuovo contenuto
+* **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, potete aspettare che l&#39;intera sequenza raggiunga la fine, e subito prima della sequenza desiderata, tornate al primo elemento, aggiornate o riproducete il nuovo contenuto
 
 #### Pianificazione {#schedule-channel}
 
