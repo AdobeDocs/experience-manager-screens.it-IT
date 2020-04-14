@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: bde770227dfbe72e96254d27ba14e7469eed1b5c
 
 ---
 
@@ -50,43 +50,57 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![screen_shot_2018-08-23at25938pm](assets/screen_shot_2018-08-23at25938pm.png)
+   ![image](/help/user-guide/assets/channel-assign1.png)
 
-   Puoi configurare le seguenti proprietà nella finestra di dialogo **Assegnazione canale**:
+   You can configure the following properties from the **Channel Assignment** dialog box in the section below.
 
-   **Ruolo canale**:
+### Informazioni sulle proprietà del canale {#channel-properties}
 
-   Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da diverse azioni ed è indipendente dal canale effettivo che svolge il ruolo.
+#### Riferimento a canale {#ref-channel}
 
-   **Riferimento a canale**:
+il riferimento a canale consente di fornire un riferimento al canale desiderato, per nome o in base al percorso del canale.
 
-   il riferimento a canale consente di fornire un riferimento al canale desiderato, per nome o in base al percorso del canale.
+* **In base al percorso**: fornisci un riferimento esplicito usando il percorso assoluto del canale.
 
-   * **In base al percorso**: fornisci un riferimento esplicito usando il percorso assoluto del canale.
-   * **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
-   **Priorità:**
+* **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-   La priorità viene usata per ordinare le assegnazioni nel caso in cui più utenti corrispondano ai criteri di riproduzione. Quella con il valore più alto avrà sempre la precedenza su quella con i valori più bassi. Ad esempio, se ci sono due canali A e B, A ha una priorità di 1 e B ha una priorità di 2, viene quindi visualizzato il canale B, che ha una priorità maggiore di A.
+#### Ruolo canale {#role-channel}
 
-   La priorità per un canale è impostata come numero (1 corrisponde alla priorità minima) nella finestra di dialogo **Assegnazione canale**, come detto sopra. Inoltre, i canali assegnati vengono ordinati in base a una priorità decrescente.
+Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da diverse azioni ed è indipendente dal canale effettivo che svolge il ruolo.
 
-   **Eventi supportati**:
+#### Priorità {#priority-channel}
 
-   * **Caricamento iniziale**: carica il canale quando il lettore viene avviato. Può essere assegnato a più canali in combinazione con la pianificazione
-   * **Schermata di inattività**: il canale viene caricato quando la schermata è inattiva. Può essere assegnato a più canali in combinazione con la pianificazione
-   * **Timer:** deve essere impostato quando viene fornita una pianificazione
-   * **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
-   **Pianificazione**:
+La priorità viene usata per ordinare le assegnazioni nel caso in cui più utenti corrispondano ai criteri di riproduzione. Quella con il valore più alto avrà sempre la precedenza su quella con i valori più bassi. Ad esempio, se ci sono due canali A e B, A ha una priorità di 1 e B ha una priorità di 2, viene quindi visualizzato il canale B, che ha una priorità maggiore di A.
 
-   la pianificazione consente di inserire una descrizione testuale circa quando il canale deve essere visualizzato. Inoltre, permette di definire una data iniziale (**attivo da**) e una data finale (**attivo fino al**) per il canale da visualizzare. La sintassi per l&#39;espressione di pianificazione si basa sulle sintassi dei testo e cron di later.js:
+>[!NOTE]
+>La priorità per un canale è impostata come numero (1 corrisponde alla priorità minima) nella finestra di dialogo **Assegnazione canale**, come detto sopra. Inoltre, i canali assegnati vengono ordinati in base a una priorità decrescente.
 
-   * [https://bunkat.github.io/later/parsers.html#text](https://bunkat.github.io/later/parsers.html#text) 
-   * [https://bunkat.github.io/later/parsers.html#cron](https://bunkat.github.io/later/parsers.html#cron) 
-   **Mostra descrizione luogo di interesse**:
+#### Eventi supportati {#supported-events-channel}
 
-   Mostra descrizione luogo di interesse definisce se la descrizione del luogo di interesse (&quot;*Tocca un punto qualsiasi per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
+* **Caricamento iniziale**: carica il canale quando il lettore viene avviato. Può essere assegnato a più canali in combinazione con la pianificazione
+* **Schermata di inattività**: il canale viene caricato quando la schermata è inattiva. Può essere assegnato a più canali in combinazione con la pianificazione
+* **Timer:** deve essere impostato quando viene fornita una pianificazione
+* **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
 
-1. Fai clic su **Salva** per assegnare il canale creato a una visualizzazione.
+#### Metodo di Interruzione {#interruption-method-channel}
+
+In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
+Per impostare il metodo di interruzione dalla finestra di dialogo Assegnazione **** canale, sono disponibili le seguenti opzioni:
+
+* **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, viene interrotta la riproduzione e si aggiorna o si riproduce immediatamente il nuovo contenuto
+* **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, attendiamo il termine della riproduzione dell&#39;elemento corrente nella sequenza e solo dopo l&#39;aggiornamento o la riproduzione del nuovo contenuto
+   >[!NOTE]
+   >Questa è l&#39;opzione predefinita selezionata.
+* **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, attendiamo che l&#39;intera sequenza raggiunga la sua fine, e subito prima di tornare al primo elemento aggiorniamo o riproduciamo il nuovo contenuto
+
+#### Pianificazione {#schedule-channel}
+
+la pianificazione consente di inserire una descrizione testuale circa quando il canale deve essere visualizzato. Inoltre, permette di definire una data iniziale (**attivo da**) e una data finale (**attivo fino al**) per il canale da visualizzare.
+
+**Mostra descrizione luogo di interesse**:
+
+Mostra descrizione luogo di interesse definisce se la descrizione del luogo di interesse (&quot;*Tocca un punto qualsiasi per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
+
 
 ### Dayparting {#dayparting}
 
@@ -158,4 +172,10 @@ Questo esempio mostra il dayparting per un negozio che espone la propria collezi
 |---|---|---|---|
 | A | Inverno | 1 | 01 dicembre 2017 - 31 dicembre 2017 |
 | B | Natale | 2 | 24 dicembre 2017 - 31 dicembre 2017 |
+
+>[!IMPORTANT]
+> Per ulteriori informazioni sulla suddivisione del giorno, consultare le sezioni seguenti:
+>* [Gestione della ricorrenza nelle risorse](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
+>* [Gestione della ricorrenza per le risorse in un canale](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
+
 
