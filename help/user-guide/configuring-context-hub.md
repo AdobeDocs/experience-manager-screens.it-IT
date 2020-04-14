@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f373ca17738f3018acf6b4cffaf523bb731e7c26
+source-git-commit: 358c22018bf933e5b5418f202eb70b1a39a49783
 
 ---
 
@@ -270,9 +270,7 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
 1. Selezionate la scheda **Personalizzazione** per impostare le configurazioni ContextHub.
 
-   1. Selezionate **ContextHub Path** come **libs** > **settings** > **cloud settings** > **default** **** ****>ContextHub Configurations, quindi fate clic suSelect.
-
-   1. Selezionate Percorso **** Segmenti come **conf** > **We.Retail** > **impostazioni** > **wcm** **** ****> Segmentie fate clic su Seleziona.
+   1. Impostate il percorso **** ContextHub su `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Segments Path** su `/conf/screens/settings/wcm/segments` e fate clic su **Save**(Salva).
 
    1. Fate clic su **Salva e chiudi**.
 
