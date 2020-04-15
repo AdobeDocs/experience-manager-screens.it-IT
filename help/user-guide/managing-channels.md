@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
 
 ---
 
@@ -42,7 +42,7 @@ Una volta creato il progetto per Screens, segui i passaggi descritti di seguito 
 
 ### Tipi di canale {#channel-types}
 
-Le seguenti opzioni di modello sono disponibili durante l'uso della procedura guidata:
+Le seguenti opzioni di modello sono disponibili durante l&#39;uso della procedura guidata:
 
 | **Opzione modello**  | **Descrizione** |
 |---|---|
@@ -60,7 +60,7 @@ Le seguenti opzioni di modello sono disponibili durante l'uso della procedura gu
 >
 >I canali Dividi schermo suddividono la visualizzazione in più zone in modo da poter riprodurre più esperienze contemporaneamente, affiancate. Le esperienze possono essere risorse statiche/testo o sequenze incorporate.
 
-The following example shows the creation of a Sequence Channel (C *hannelOne*) for a Screens project (*DemoProject*).
+The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
 
 ![demochannel](assets/demochannel.gif)
 
@@ -68,9 +68,8 @@ The following example shows the creation of a Sequence Channel (C *hannelOne*) f
 >
 >Puoi creare zone diverse utilizzando le opzioni modello, come gli schermi divisi 2x2, 1x2 o da 2 a 3 citati sopra.
 
-***Importante***:
-
-Dopo aver creato e aggiunto contenuto al canale, il passaggio successivo consiste nel creare una posizione seguita dalla creazione di una visualizzazione. Inoltre, è necessario assegnare quel canale a una visualizzazione. Per ulteriori informazioni, vedi le risorse riportate di seguito alla fine della sezione.
+>[!IMPORTANT]
+> Dopo aver creato e aggiunto contenuto al canale, il passaggio successivo consiste nel creare una posizione seguita dalla creazione di una visualizzazione. Inoltre, è necessario assegnare quel canale a una visualizzazione. Per ulteriori informazioni, vedi le risorse riportate di seguito alla fine della sezione.
 
 ## Utilizzo dei canali {#working-with-channels}
 
@@ -78,7 +77,7 @@ Puoi modificare, visualizzare le proprietà e il dashboard, copiare, visualizzar
 
 >[!NOTE]
 >
->Fai clic sull'icona a sinistra per selezionare un elemento. Ad esempio, fate clic sull'icona del canale ed esegui le seguenti operazioni, come mostrato nella figura seguente.
+>Selezionare il canale, come mostrato nella figura seguente.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -86,19 +85,21 @@ Puoi modificare, visualizzare le proprietà e il dashboard, copiare, visualizzar
 
 Per aggiungere o modificare il contenuto di un canale, segui i passaggi riportati di seguito:
 
-1. Fate clic sul canale da modificare (come illustrato nella figura precedente).
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. Si apre l'editor che consente di aggiungere risorse/componenti al canale che desideri pubblicare.
+1. Selezionate il canale da modificare (come illustrato nella figura precedente).
+1. Click **Edit** from the top left corner of the action bar to edit the channel properties. Si apre l&#39;editor che consente di aggiungere risorse/componenti al canale che desideri pubblicare.
 
 >[!NOTE]
 >
->Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** .
+>Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)**.
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Caricamento di video sul canale** Seguite la procedura riportata di seguito per caricare i video sul canale:
+**Caricamento di video sul canale**
+
+Segui i passaggi descritti di seguito per caricare i video sul tuo canale:
 
 1. Seleziona il canale in cui desideri caricare il video.
-1. Fai clic su **Modifica** nella barra delle azioni per aprire l'editor.
+1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
 1. Seleziona **Video** sotto Risorse, poi trascina e rilascia i video richiesti.
 
 >[!NOTE]
@@ -118,8 +119,8 @@ Per visualizzare o modificare le proprietà di un canale, segui i passaggi ripor
 
 Per visualizzare il dashboard di un canale, segui i passaggi riportati di seguito:
 
-1. Fate clic sul canale da modificare.
-1. Click **Dashboard** from the action bar to view the dashobard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. Selezionate il canale da modificare.
+1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -127,7 +128,7 @@ Per visualizzare il dashboard di un canale, segui i passaggi riportati di seguit
 
 Il pannello Informazioni canale descrive le proprietà Canale e l’anteprima sul canale. Inoltre, il pannello offre informazioni che notificano se il canale è offline o online.
 
-Fai clic su (**...**) nella barra delle azioni **Informazioni canale** per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto offline) per il canale.
+Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -139,17 +140,17 @@ Fai clic su (**...**) nella barra delle azioni **Informazioni canale** per visua
 
 Quando crei un canale, puoi definirlo un canale online o offline.
 
-An ***Online Channel***, will show the updated content in the real time environment whereas an ***Offline Channel***, shows the cached content.
+Un ***Canale online*** mostra il contenuto aggiornato in ambiente in tempo reale, mentre in ***Canale offline*** mostra il contenuto della cache.
 
 Segui i passaggi riportati di seguito per rendere online il canale:
 
-1. Accedi al canale da **TestProject** --&gt; **Canali** --&gt; **TestChannel**.
+1. Accedi al canale da **TestProject** --> **Canali** --> **TestChannel**.
 
    Seleziona il canale.
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. Il pannello **CHANNEL INFORMATION **fornisce informazioni sulla disponibilità del canale online o offline.
+   Click **Dashboard** from the action bar to view the status of the player. Il pannello **Informazioni canale** fornisce informazioni che notificano se il canale è online o offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -169,7 +170,7 @@ Segui i passaggi riportati di seguito per rendere online il canale:
 
 >[!NOTE]
 >
->Se desiderate configurare nuovamente il canale come offline, deselezionate l'opzione Modalità Sviluppatore dalla scheda **Proprietà** (come mostrato al punto 3)), quindi dal pannello **INFORMAZIONI** CANALE fate clic su **Aggiorna contenuto** offline, come mostrato nella figura seguente.
+>Se desiderate configurare nuovamente il canale come offline, deselezionate l&#39;opzione Modalità Sviluppatore dalla scheda **Proprietà** (come mostrato al punto 3)), quindi dal pannello **INFORMAZIONI** CANALE fate clic su **Aggiorna contenuto** offline, come mostrato nella figura seguente.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -215,7 +216,7 @@ La tabella seguente riassume gli eventi associati agli aggiornamenti automatici 
 
 ### Visualizzazioni assegnate {#assigned-displays}
 
-Il pannello visualizzazioni assegnate mostra la visualizzazione associata al canale. Fornisce un'istantanea della visualizzazione assegnata insieme alla risoluzione.
+Il pannello visualizzazioni assegnate mostra la visualizzazione associata al canale. Fornisce un&#39;istantanea della visualizzazione assegnata insieme alla risoluzione.
 
 Le visualizzazioni collegate sono elencate nel pannello **Visualizzazioni assegnate**, come illustrato di seguito:
 
@@ -241,7 +242,7 @@ Dopo aver creato un canale, e aver aggiunto o modificato il contenuto, il passo 
 
 Per i passaggi successivi, consulta le risorse seguenti:
 
-* [Creare e gestire canali](managing-channels.md)
+* [Creazione e gestione di canali](managing-channels.md)
 * [Creare e gestire le posizioni](managing-locations.md)
 * [Creare e gestire le visualizzazioni](managing-displays.md)
 
