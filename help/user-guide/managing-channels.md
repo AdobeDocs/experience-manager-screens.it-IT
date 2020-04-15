@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 67368b950e508eaf88d78c60d9b0e3228b30c11c
+source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
 
 ---
 
@@ -131,6 +131,28 @@ Il pannello Informazioni canale descrive le proprietà Canale e l’anteprima su
 Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+
+#### Visualizzazione del manifesto {#view-manifest}
+
+Puoi visualizzare il manifesto dal dashboard del canale.
+
+>[IMPORTANTE]
+> Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+
+Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti operazioni:
+1. **Impostate il canale su Offline**
+   1. Seleziona il canale e seleziona **Proprietà** dalla barra delle azioni
+   1. Passate alla scheda **Canale** e accertatevi di deselezionare l&#39;opzione Modalità **Sviluppatore (forza che il canale sia online)**
+   1. Click **Save &amp; Close**
+1. **Aggiorna contenuto offline**
+   1. Selezionate il canale e selezionate **Dashboard** dalla barra delle azioni
+   1. Andate al pannello **INFORMAZIONI** CANALE e fate clic su *...*
+   1. Fate clic su **Aggiorna contenuto offline**
+
+A questo punto dovreste essere in grado di visualizzare l’opzione **Visualizza manifesto** dal pannello **INFORMAZIONI** CANALE nel Pannello Canale.
+
+![image1](assets/channel-one.png)
+
 
 ### Canali online e offline {#online-and-offline-channels}
 
