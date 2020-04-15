@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7d0925076ecf2038c666b0d53669e5d84c66eedf
+source-git-commit: 1537ef1b86b19a6a474290b0302032e4fe343d1d
 
 ---
 
@@ -88,12 +88,13 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 > Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
-Per impostare il metodo di interruzione dalla finestra di dialogo Assegnazione **** canale, sono disponibili le seguenti opzioni:
+
+Selezionate una delle seguenti opzioni disponibili per impostare il metodo di interruzione dalla finestra di dialogo Assegnazione **** canale:
 
 * **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, potete interrompere la riproduzione e aggiornare o riprodurre immediatamente il nuovo contenuto
 * **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
    >[!NOTE]
-   >Questa è l&#39;opzione predefinita selezionata.
+   >Per impostazione predefinita, questa opzione è selezionata.
 * **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, potete aspettare che l&#39;intera sequenza raggiunga la fine, e subito prima della sequenza desiderata, tornate al primo elemento, aggiornate o riproducete il nuovo contenuto
 
 #### Pianificazione {#schedule-channel}
