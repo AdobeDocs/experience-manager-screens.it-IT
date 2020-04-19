@@ -4,7 +4,7 @@ seo-title: Note sulla versione per Feature Pack 2004
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 15 aprile 2020.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 15 aprile 2020.
 translation-type: tm+mt
-source-git-commit: d6635c0d6bb4e3126fda6b39e933272f0693b576
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -25,12 +25,15 @@ La data di rilascio per AEM Screens Feature Pack 2004 è il 15 aprile 2020.
 
 * **Opzioni strategia di interruzione della riproduzione**
 
-   In qualità di autore, ora potete specificare quando un canale viene interrotto o meno in modo che l’autore del contenuto possa scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della pianificazione.
+   In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
 
+   Per informazioni sulle opzioni disponibili nella finestra di dialogo Assegnazione **[](/help/user-guide/channel-assignment.md#interruption-method-channel)**canale per implementare questa funzione nel progetto AEM Screens, consulta la sezione Metodo **di**interruzione.
 
-* **Lanci**
+* **Lanci schermo**
 
    Il flusso di esperienza dell’utente autore del contenuto è stato migliorato e ha ridotto il numero di clic per utilizzare la pubblicazione futura.
+
+   Per ulteriori informazioni, consultate Aggiornamento **[dei contenuti tramite Launch](launches.md)**Screens.
 
 * **Dashboard per canale**
 
@@ -39,11 +42,15 @@ La data di rilascio per AEM Screens Feature Pack 2004 è il 15 aprile 2020.
 
 * **Visualizza manifesto**
 
-   Puoi visualizzare il manifesto dal dashboard del canale.
+   Ora puoi visualizzare il file manifesto dal dashboard del canale.
+
+   Fare riferimento a **[Visualizzazione del manifesto](/help/user-guide/managing-channels.md#view-manifest)**.
 
 * **Sovrapposizione testo**
 
-   Quando si aggiunge test alla funzione di sovrapposizione di testo, la dimensione del font ora è molto più precisa e aggiornata.
+   Quando si aggiunge test alla funzione di sovrapposizione testo, la dimensione del font è precisa e migliorata.
+
+   Fate riferimento a Sovrapposizione **[di](text-overlay.md)**testo per creare un&#39;esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta a un&#39;immagine.
 
 * **Miglioramenti nella sincronizzazione dei comandi**
 
