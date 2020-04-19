@@ -1,6 +1,6 @@
 ---
-title: Lanci
-seo-title: Lanci
+title: Aggiornamento dei contenuti tramite il lancio dello schermo
+seo-title: Aggiornamento dei contenuti tramite il lancio dello schermo
 description: Gli autori dei contenuti possono creare versioni future dei canali, noti come Launch, e l'ulteriore impostazione della data di inizio per il lancio consente al contenuto di essere live nei dispositivi o lettori.
 seo-description: Gli autori dei contenuti possono creare versioni future dei canali, noti come Launch, e l'ulteriore impostazione della data di inizio per il lancio consente al contenuto di essere live nei dispositivi o lettori.
 uuid: fb13117c-b99b-48bd-adb6-040dbd13af16
@@ -11,28 +11,28 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7250f7a2150debc12b7cc7acc4193f6d4bd5aa7b
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
 
-# Lanci {#launches}
+# Aggiornamento dei contenuti tramite il lancio dello schermo {#launches}
 
-Gli autori dei contenuti possono creare una versione futura dei canali, nota come **Launch** (Lancio), e impostare ulteriormente la data di inizio per il lancio per consentire al contenuto di essere live nei dispositivi o lettori.
+Gli autori dei contenuti possono creare una versione futura dei canali, nota come lancio **** delle schermate, e l&#39;ulteriore impostazione della data di inizio per questo lancio consente al contenuto di essere live nei dispositivi o lettori.
 
-Con l’aiuto dei lanci, gli autori possono visualizzare l’anteprima di ogni canale nel lancio e devono essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve la notifica e può approvare o rifiutare la richiesta. Quando viene raggiunta la data di inizio, il contenuto viene riprodotto nei dispositivi.
+Con l’aiuto di una pubblicazione futura, gli autori possono visualizzare l’anteprima di ogni canale nel lancio e devono essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve la notifica e può approvare o rifiutare la richiesta. Quando viene raggiunta la data di inizio, il contenuto viene riprodotto nei dispositivi.
 
 Ad esempio, se l’autore desidera creare versioni future di c1, c2 (canali), viene creato un lancio e viene impostata una data dal vivo (ad esempio, 10 novembre 8:00 AM). Eventuali ulteriori aggiornamenti nel contenuto vengono inviati per la revisione. Una volta approvato e in data dal vivo (10 novembre, 8:00 AM), questo lancio riproduce il contenuto sui dispositivi o lettori.
 
 ## Requisiti {#requirements}
 
-Prima di avviare l&#39;implementazione dei lanci in un progetto AEM Screens, verifica di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
+Prima di avviare l’implementazione della pubblicazione futura in un progetto AEM Screens, verifica di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
 
 Nella sezione seguente viene illustrato il periodo di tolleranza e come configurarlo come out-of-the-box. Potete anche scaricare una configurazione di prova di esempio per comprenderne l’utilizzo.
 
 ### Periodo di tolleranza {#understanding-grace-period}
 
-La seguente configurazione consente all&#39;amministratore di configurare il periodo ***di ***tolleranza, richiesto negli avvii.
+La seguente configurazione consente all’amministratore di configurare il periodo ***di*** tolleranza, richiesto per la pubblicazione futura.
 
 **Periodo** di tolleranza, include:
 
@@ -40,7 +40,7 @@ La seguente configurazione consente all&#39;amministratore di configurare il per
 * pubblicazione delle risorse per pubblicare le istanze
 * tempo impiegato dai dispositivi per scaricare il contenuto dall’istanza di pubblicazione e le eventuali differenze di ora del server e del lettore
 
-Ad esempio, supponiamo che il server sia in PST e che i dispositivi siano in EST, la differenza di tempo massima è di 3 ore in questo caso e che la promozione richieda 1 minuto e che la pubblicazione dall&#39;autore richieda 10 minuti e che il lettore possa scaricare le risorse in genere tra 10-15 minuti. Quindi periodo di tolleranza = differenza di tempo (3 ore) + tempo per promuovere il lancio (1 min) + tempo per pubblicare il lancio (10 min) + tempo per scaricare al lettore (10-15 min) + buffer (per essere sicuro, diciamo 30 min) = 3 ore 56 min = 14160 secondi. Per cui, quando programmeremo un lancio live, la promozione inizierà presto con questo offset. Nell&#39;equazione di cui sopra, la maggior parte degli elementi non richiede molto tempo, possiamo utilizzare una stima decente per questo offset una volta che conosciamo la differenza di tempo max b/w il server e qualsiasi giocatore.
+Ad esempio, supponiamo che il server sia in PST e che i dispositivi siano in EST, la differenza di tempo massima è di 3 ore in questo caso e che la promozione richieda 1 minuto e che la pubblicazione dall&#39;autore richieda 10 minuti e che il lettore possa scaricare le risorse in genere tra 10-15 minuti. Quindi periodo di tolleranza = differenza di tempo (3 ore) + tempo per promuovere il lancio (1 min) + tempo per pubblicare il lancio (10 min) + tempo per scaricare al lettore (10-15 min) + buffer (per essere sicuro, ad esempio 30 min) = 3 ore 56 min = 14160 secondi. Per cui, quando programmeremo un lancio live, la promozione inizierà presto con questo offset. Nell&#39;equazione di cui sopra, la maggior parte degli elementi non richiede molto tempo, possiamo utilizzare una stima decente per questo offset una volta che conosciamo la differenza di tempo max b/w il server e qualsiasi giocatore.
 
 ### Configurazione del periodo di tolleranza out-of-the-box {#configuring-out-of-the-box-grace-period}
 
@@ -48,7 +48,7 @@ In dotazione, il periodo di tolleranza per un lancio è impostato su 24 ore, il 
 
 ### Download delle configurazioni {#downloading-configurations}
 
-Scaricate le seguenti configurazioni di prova:
+Scaricate le seguenti configurazioni di test:
 
 [Ottieni file](assets/launches_event_handlerconfig-10.zip)
 
@@ -60,7 +60,7 @@ Scaricate le seguenti configurazioni di prova:
 
 Se desiderate modificare la configurazione precedente, seguite le istruzioni riportate di seguito:
 
-* create il file ***sling:OsgiConfig/ nt:file in /apps/system/config ***con nome**com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config **e contenuto
+* create il file ***sling:OsgiConfig/ nt:file in /apps/system/config*** con nome **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** e contenuto
 
    *launches.eventhandler.updatelastmodified=B&quot;false&quot;launches.eventhandler.launch.Promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
 
@@ -68,14 +68,14 @@ Se desiderate modificare la configurazione precedente, seguite le istruzioni rip
 
 Questo significa che quando imposti una data di inizio per qualsiasi lancio per le risorse sotto */content/screens*, la promozione inizierà con questo offset. Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il periodo di tolleranza è di 600 secondi, il processo di promozione inizierà il 24 novembre, 8:50 AM.
 
-## Utilizzo dei lanci {#using-launches}
+## Utilizzo del lancio dello schermo {#using-launches}
 
 Segui la sezione seguente per implementare i lanci nel progetto AEM Screens. Questa sezione illustra i seguenti argomenti:
 
-1. **Creazione di un lancio**
-1. **Modifica di un lancio per impostare data e ambito live**
+1. **Creazione di un lancio dello schermo**
+1. **Modifica di un lancio di schermate per impostare data e ambito live**
 
-### Creazione di un lancio {#creating-a-launch}
+### Creazione di una pubblicazione futura {#creating-a-launch}
 
 Per implementare future funzionalità di pubblicazione nel progetto AEM Screens, procedi come segue:
 
@@ -103,14 +103,14 @@ Per implementare future funzionalità di pubblicazione nel progetto AEM Screens,
 
    ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
 
-1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la Data **del** lancio, come illustrato nella figura seguente. Fai clic su **Crea**. 
+1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la Data **del** lancio, come illustrato nella figura riportata di seguito. Fai clic su **Crea**.
 
    >[!NOTE]
    >
    >*Abilitando o selezionando* l’opzione **Eredita dati** live della pagina di origine, i canali possono essere creati come Live Copy nel lancio. Se vengono apportate modifiche al canale originale, tali modifiche vengono applicate automaticamente ai canali di avvio.
    >
    >
-   >*Disattivando o deselezionando* Eredita dati **dal vivo della pagina di origine** I canali possono essere copiati senza alcuna relazione dal vivo all&#39;avvio. Pertanto, se vengono apportate modifiche al canale originale, tali modifiche non vengono applicate ai canali di lancio.
+   >*Disattivando o deselezionando* Eredita dati **dal vivo della pagina** di origine, i canali possono essere copiati senza alcuna relazione dal vivo all’avvio. Pertanto, se vengono apportate modifiche al canale originale, tali modifiche non vengono applicate ai canali di lancio.
 
    ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
 
@@ -136,11 +136,11 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Selezionate l’opzione Struttura **** contenuto dalla barra a sinistra per aprire il lancio creato.
+   >Selezionate l’opzione Albero **** contenuto dalla barra a sinistra per aprire il lancio creato.
 
    ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
 
-1. Andate a **Lanci** e selezionate il lancio (**EstatePromozioni**) creato. Fate clic su **Modifica proprietà**.
+1. Andate a **Lanci** e selezionate il lancio (**EstatePromozioni**) che avete creato. Fate clic su **Modifica proprietà**.
 
    ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
 
@@ -151,7 +151,7 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
    * Seleziona pagine **approvate** Promote da **ambito**
    >[!NOTE]
    >
-   >Informazioni sulle voci Lanci in **Promozione** automatica:
+   >Informazioni sulle voci Lanci nella sezione **Promozione** automatica:
 
    >    * **Data** lancio, si riferisce alla data in cui il contenuto viene riprodotto nel lettore Screens, ovvero alla data/ora in base al fuso orario del lettore.
    >    * **Production Ready** consente di promuovere i canali e di utilizzare il lancio.
@@ -160,7 +160,7 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
    Sono disponibili le tre opzioni seguenti per impostare l&#39;ambito:
    1. **Promuovi lancio** completo: Tutti i canali del lancio vengono promossi alla data impostata.
-   1. **Promuovi pagine** modificate: Verranno promosse solo le risorse di lancio modificate. È consigliabile utilizzare questa opzione quando la revisione del lancio non è obbligatoria. Consente di promuovere le modifiche nei canali di lancio.
+   1. **Promuovi pagine** modificate: Verranno promosse solo le risorse di lancio modificate. Si consiglia di utilizzare questa opzione quando la revisione del lancio non è obbligatoria. Consente di promuovere le modifiche nei canali di lancio.
    1. **Promuovi pagine** approvate: Solo le pagine approvate vengono promosse alla data di disponibilità impostata.
    ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
