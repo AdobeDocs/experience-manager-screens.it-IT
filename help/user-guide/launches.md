@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 7e3610aef5950bf92423147a39053dea64ab71da
+source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
 
 ---
 
@@ -177,43 +177,43 @@ Dopo aver creato il lancio, è necessario modificare le proprietà del lancio pe
 
 Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
-1. Andate al canale (**FutureLaunch**) e selezionate il canale, come mostrato nella figura seguente. Aprite la barra **Riferimenti** dalla barra laterale sinistra.
+1. Andate al canale **FutureLaunch**, *(ovvero il lancio in sospeso)* e selezionate il canale, come mostrato nella figura seguente.
 
-   >[!NOTE]
-   >
-   >Selezionate l’opzione Albero **** contenuto dalla barra a sinistra per aprire il lancio creato.
+   ![image](/help/user-guide/assets/launches-images/launches-17.png)
 
-   ![screen_shot_2019-06-25at25852pm](assets/screen_shot_2019-06-25at25852pm.png)
+1. Fate clic sul **dashboard** dalla barra delle azioni e visualizzate il pannello AVVII **** IN SOSPESO dal dashboard del canale.
 
-1. Andate a **Lanci** e selezionate il lancio (**EstatePromozioni**) che avete creato. Fate clic su **Modifica proprietà**.
+   ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-   ![screen_shot_2019-06-25at30008pm](assets/screen_shot_2019-06-25at30008pm.png)
+1. Selezionate il lancio e fate clic sulle azioni desiderate nel pannello **LANCI** IN ATTESA.
 
-1. Viene visualizzata la finestra di dialogo di avvio **SummerPromotions** . Compilare i campi seguenti:
+   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+
+1. Ad esempio, fai clic su Proprietà **** lancio per modificare le proprietà per il lancio **SummerPromotions**.
+
+   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+
+1. Potete modificare il Titolo **** lancio e compilare i campi seguenti:
 
    * Seleziona la data di **avvio**
    * Verifica **produzione pronta**
    * Seleziona pagine **approvate** Promote da **ambito**
-   >[!NOTE]
-   >
-   >Informazioni sulle voci Lanci nella sezione **Promozione** automatica:
+   **Informazioni sulle voci Lanci in Promozione automatica:**
 
-   >    * **Data** lancio, si riferisce alla data in cui il contenuto viene riprodotto nel lettore Screens, ovvero alla data/ora in base al fuso orario del lettore.
-   >    * **Production Ready** consente di promuovere i canali e di utilizzare il lancio.
-   >    * **Ambito**, si riferisce ai canali che possono essere promossi durante un lancio.
-
-
+   * **Data** lancio, si riferisce alla data in cui il contenuto viene riprodotto nel lettore Screens, ovvero alla data/ora in base al fuso orario del lettore.
+   * **Production Ready** consente di promuovere i canali e di utilizzare il lancio.
+   * **Ambito**, si riferisce ai canali che possono essere promossi durante un lancio.
    Sono disponibili le tre opzioni seguenti per impostare l&#39;ambito:
-   1. **Promuovi lancio** completo: Tutti i canali del lancio vengono promossi alla data impostata.
-   1. **Promuovi pagine** modificate: Verranno promosse solo le risorse di lancio modificate. Si consiglia di utilizzare questa opzione quando la revisione del lancio non è obbligatoria. Consente di promuovere le modifiche nei canali di lancio.
-   1. **Promuovi pagine** approvate: Solo le pagine approvate vengono promosse alla data di disponibilità impostata.
-   ![screen_shot_2019-06-26at113805am](assets/screen_shot_2019-06-26at113805am.png)
 
-   >[!CAUTION]
-   >
-   >La promozione di avvio rispetta il fuso orario del lettore/dispositivo anziché quello del server.
+   * **Promuovi lancio** completo: Tutti i canali del lancio vengono promossi alla data impostata.
+   * **Promuovi pagine** modificate: Verranno promosse solo le risorse di lancio modificate. Si consiglia di utilizzare questa opzione quando la revisione del lancio non è obbligatoria. Consente di promuovere le modifiche nei canali di lancio.
+   * **Promuovi pagine** approvate: Solo le pagine approvate vengono promosse alla data di disponibilità impostata.
+
+      >[!CAUTION]
+      >
+      >La promozione di avvio rispetta il fuso orario del lettore/dispositivo anziché quello del server.
+
+
 
 1. Fai clic su **Salva e chiudi** per tornare al canale **FutureLaunch** .
-
-   ![screen_shot_2019-06-26at114332 am](assets/screen_shot_2019-06-26at114332am.png)
 
