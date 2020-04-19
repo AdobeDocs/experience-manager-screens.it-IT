@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Adobe Experience Manager Screens Help
+user-guide-title: Guida di Adobe Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
+source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
 + [Introduzione alle schermate](aem-screens-introduction.md)
 + Panoramica e guida di Kickstart {#overview}
    + [Guida di Kickstart](kickstart-for-aem-screens.md)
-   + [Guida alle best practice per gli schermi](https://docs.adobe.com/content/help/en/experience-manager-screens/using/about-guide.html)
+   + [Guida alle best practice per gli schermi](https://docs.adobe.com/content/help/it-IT/experience-manager-screens/using/about-guide.html)
    + [Termini chiave](screens-glossary.md)
 + Nozioni di base sulla rete di digital signage {#digital-signage-network}
    + [Parte 1: Ruoli e responsabilità del progetto](project-roles-responsibilities.md)
@@ -72,7 +72,7 @@ source-git-commit: f5062a0610f7258240c3ed698e0c4c276b0823a2
    + Gestione degli aggiornamenti dei contenuti {#content-updates}
       + [Aggiornamento dei contenuti on-demand](on-demand-content.md)
       + [Aggiornamento del contenuto come servizio](content-update-as-a-service.md)
-      + [Aggiornamento dei contenuti tramite gli avvii](launches.md)
+      + [Aggiornamento dei contenuti tramite il lancio dello schermo](launches.md)
    + Esempi di casi d’uso {#use-case-examples}
       + [Canali di emergenza](emergency-channel.md)
       + [Attivazione temperatura centro viaggio](local-temperature-activation.md)
