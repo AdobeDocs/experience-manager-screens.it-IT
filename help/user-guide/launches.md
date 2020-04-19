@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6c833984748c89cc271e70450c7f51abda2fa7c7
+source-git-commit: 74f6b7c3ab5f725b5cc278f5ae3e80e1271b6860
 
 ---
 
@@ -77,9 +77,9 @@ Segui la sezione seguente per implementare i lanci nel progetto AEM Screens. Que
 
 ### Creazione di una pubblicazione futura {#creating-a-launch}
 
-Per implementare future funzionalità di pubblicazione nel progetto AEM Screens, procedi come segue:
+Per implementare la funzionalità di avvio nel progetto AEM Screens, procedi come segue:
 
-1. Andate al canale nel progetto AEM Screens, ad esempio **LaunchesDemo** —> **Channels** —> **FutureLaunch**, come mostrato di seguito.
+1. Passa a un canale di sequenza nel progetto AEM Screens, ad esempio **LaunchesDemo** —> **Channels** —> **FutureLaunch**, come mostrato di seguito.
 
    >[!CAUTION]
    >
@@ -87,21 +87,22 @@ Per implementare future funzionalità di pubblicazione nel progetto AEM Screens,
 
    ![screen_shot_2019-06-25at15052pm](assets/screen_shot_2019-06-25at15052pm.png)
 
-1. Selezionate il canale **FutureLaunch** e fate clic su **Crea**. Selezionate **Avvia** dal menu a discesa.
+1. Seleziona il canale **FutureLaunch** e fai clic su **Crea lancio** nella barra delle azioni.
 
-   ![screen_shot_2019-06-25at15459pm](assets/screen_shot_2019-06-25at15459pm.png)
+1. Viene aperta la procedura guidata **Crea lancio** . È possibile selezionare il canale già visibile nella procedura guidata oppure fare clic su **+ Aggiungi pagine** per selezionare il canale Screens per il quale si desidera creare il lancio.
 
-1. Viene aperta la procedura guidata **Crea lancio** . Fate clic su **+ Aggiungi pagine** per selezionare i canali AEM Screens per i quali desiderate creare il lancio.
+   >[!NOTE]
+   >L&#39;esempio seguente mostra come creare un lancio per il canale esistente nella procedura guidata.
 
-   ![screen_shot_2019-06-11at93710am](assets/screen_shot_2019-06-11at93710am.png)
 
-1. Individuate il canale e fate clic su **Seleziona**.
+   ![screen_shot_2019-06-11at93710am](/help/user-guide/assets/launches-images/launches-a.png)
 
-   ![screen_shot_2019-06-25at20030pm](assets/screen_shot_2019-06-25at20030pm.png)
+1. Selezionate il canale e fate clic su **Avanti** dalla barra delle azioni.
 
-1. Dopo aver selezionato la pagina, fai clic su **Avanti** per spostarti ulteriormente nella procedura guidata **Crea lancio** .
+   >[!NOTE]
+   >**Per impostazione predefinita, l’opzione Includi sottopagine** è selezionata.
 
-   ![screen_shot_2019-06-25at20128pm](assets/screen_shot_2019-06-25at20128pm.png)
+   ![Immagine](/help/user-guide/assets/launches-images/launches-b.png)
 
 1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la Data **del** lancio, come illustrato nella figura riportata di seguito. Fai clic su **Crea**.
 
@@ -112,7 +113,7 @@ Per implementare future funzionalità di pubblicazione nel progetto AEM Screens,
    >
    >*Disattivando o deselezionando* Eredita dati **dal vivo della pagina** di origine, i canali possono essere copiati senza alcuna relazione dal vivo all’avvio. Pertanto, se vengono apportate modifiche al canale originale, tali modifiche non vengono applicate ai canali di lancio.
 
-   ![screen_shot_2019-06-25at20215pm](assets/screen_shot_2019-06-25at20215pm.png)
+   ![Immagine](/help/user-guide/assets/launches-images/launches-c.png)
 
    >[!NOTE]
    >
@@ -122,9 +123,7 @@ Per implementare future funzionalità di pubblicazione nel progetto AEM Screens,
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Facendo clic su **Fine** puoi tornare al progetto **LaunchesDemo** .
-
-   ![screen_shot_2019-06-25at20434pm](assets/screen_shot_2019-06-25at20434pm.png)
+   Facendo clic su **Fine** puoi tornare al canale **FutureLaunch** .
 
 ### Modifica delle proprietà del lancio per impostare la data e l&#39;ambito di attività {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
