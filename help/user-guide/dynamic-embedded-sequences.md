@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: 119d5bdf854674ae86682ed82fee390f63972c0a
+source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 
 ---
 
@@ -70,7 +70,7 @@ Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre 
 
 * Crea un canale come **globale** nella cartella **Canali**
 
-* Aggiungete contenuto al canale **globale** (*controllate **Resources.zip**per le risorse* rilevanti)
+* Aggiungete contenuti al canale **globale** (*controllate **Resources.zip**per le risorse* rilevanti)
 
 L&#39;immagine seguente mostra il progetto **Demo** con il canale **globale** nella cartella **Canali** .
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -205,7 +205,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Andate a **Demo** —> **Pianificazioni** —> **AdSchedule** e fate clic su **Dashboard** dalla barra delle azioni.
    1. Fate clic su **+ Assegna canale** dal pannello CANALI **** ASSEGNATI per aprire la finestra di dialogo Assegnazione **** canale.
    1. Select **Reference Channel**.. by path.
-   1. Selezionate Percorso **** canale come **Demo** —> ***Canali*** —> ***Globale***.
+   1. Selezionate Percorso **** canale come **demo** —> ***Canali*** —> ***Globale***.
    1. Enter the **Channel Role** as **GlobalAdSegment**.
    1. Selezionate gli eventi **** supportati come caricamento **** iniziale, **schermata** inattiva e interazione **** utente.
    1. Fai clic su **Salva**.
@@ -216,7 +216,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Immettete il Nome **** canale come **regione***.
    1. Enter the **Channel Role** as **RegionAdSegment**.
    1. Fai clic su **Salva**.
-   **Assegna canale per ruolo per lo store:
+   **Assegna canale per ruolo per store:**
 
    1. Fate clic su **+ Assegna canale** dal pannello CANALI **** ASSEGNATI per aprire la finestra di dialogo Assegnazione **** canale.
    1. Selezionate Canale **di** riferimento. per nome.
@@ -268,7 +268,7 @@ Il seguente output conferma il contenuto del canale nel lettore AEM Screens, a s
 
 **Scenario 1**:
 
-Se assegnate il percorso di visualizzazione come **Demo** —> **Locations** —> **Region A** —>** Store 1** —> **Store1Display**, sul lettore AEM Screens verrà visualizzato il contenuto seguente.
+Se assegnate il percorso di visualizzazione come **Demo** —> **Locations** —> **Region A** —> **Store 1** —> **Store1Display**, sul lettore AEM Screens verrà visualizzato il contenuto seguente.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
@@ -311,7 +311,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Passa ad **Adobe Experience Manager**.
    1. Click **Tools** --> **Security** --> **Groups**.
    1. Fate clic su **Crea gruppo** e immettete **Global-Author** in **ID**.
-   1. Fate clic su **Salva e chiudi**.
+   1. Click **Save &amp; Close**.
    Allo stesso modo, create altri due gruppi, ad esempio **Regione-autore** e **Store-autore**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
@@ -323,7 +323,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Fate clic su **Crea utente** e immettete **Global-User** in **ID**.
    1. Immettere **la password** e confermare la password per l&#39;utente.
    1. Fate clic sulla scheda **Gruppi** e immettete il nome del gruppo in **Seleziona gruppo**, ad esempio, immettete **Global-Author** per aggiungere **Global-User** a tale gruppo specifico.
-   1. Fate clic su **Salva e chiudi**.
+   1. Click **Save &amp; Close**.
    Allo stesso modo, create altri due utenti come **Region-User** e **Store-User** e aggiungeteli rispettivamente a **Region-Author** e **Store-Author** .
 
    >[!NOTE]
@@ -338,7 +338,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Click **Tools** --> **Security** --> **Groups**.
    1. Selezionate **Collaboratori** dall’elenco e selezionate la scheda **Membri** .
    1. Selezionate il **gruppo** come **Global-Author**, **** Region-Author e **Store-Author** per i collaboratori.
-   1. Fate clic su **Salva e chiudi**.
+   1. Click **Save &amp; Close**.
 
 1. **Accesso alle autorizzazioni per ogni gruppo**
 
@@ -354,7 +354,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Navigate to the **Permissions** tab
    1. Andate a ***/content/screens/demo*** e verificate tutte le autorizzazioni
    1. Andate a ***/content/screens/demo/locations*** e verificate tutte le autorizzazioni
-   1. Andate a ***/content/screens/demo/locations***/***region-a*** e controllate tutte le autorizzazioni. Allo stesso modo, verificate le autorizzazioni per **regione-b**.
+   1. Andate a ***/content/screens/demo/locations/region-a*** e controllate tutte le autorizzazioni. Allo stesso modo, verificate le autorizzazioni per **regione-b**.
    Fare riferimento alla figura seguente per comprendere i passaggi:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -367,7 +367,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Navigate to the **Permissions** tab.
    1. Passate a ***/content/screens/demo*** e verificate solo le autorizzazioni di **lettura** .
    1. Accedete a ***/content/screens/demo/locations*** e verificate solo le autorizzazioni di **lettura** .
-   1. Andate a ***/content/screens/demo/channel ***e deselezionate le autorizzazioni per il canale **globale**.***
+   1. Andate a ***/content/screens/demo/channel*** e deselezionate le autorizzazioni per il canale **globale** .
    1. Andate a ***/content/screens/demo/locations***/***region-a*** e controllate tutte le autorizzazioni. Allo stesso modo, verificate le autorizzazioni per **regione-b**.
    Fare riferimento alla figura seguente per comprendere i passaggi:
 
