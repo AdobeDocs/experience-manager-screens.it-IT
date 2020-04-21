@@ -3,7 +3,7 @@ title: Authoring con attivatori dati
 seo-title: Authoring con attivatori dati
 description: Segui questa pagina per apprendere come creare con i trigger dei dati.
 translation-type: tm+mt
-source-git-commit: a7d3ec582dde83ed6efb08a6c3c6a75cc0820970
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -43,13 +43,13 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Selezionate la scheda **Personalizzazione** per impostare le configurazioni ContextHub.
+1. Selezionate la scheda **Personalizzazione** per impostare le configurazioni ContextHub e selezionate il percorso ContextHub e Segments.
 
    1. Selezionate **ContextHub Path** come **libs** > **settings** > **cloud settings** > **default** **** ****>ContextHub Configurations, quindi fate clic suSelect.
 
    1. Selezionate Percorso **** Segmenti come **conf** > **We.Retail** > **impostazioni** > **wcm** **** ****> Segmentie fate clic su Seleziona.
 
-   1. Fate clic su **Salva e chiudi**.
+   1. Click **Save &amp; Close**.
    >[!NOTE]
    >
    >Usa ContextHub e il percorso Segments, dove hai salvato inizialmente le configurazioni e i segmenti dell&#39;hub di contesto.
