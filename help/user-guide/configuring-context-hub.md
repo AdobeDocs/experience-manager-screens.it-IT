@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a36ecd81d250f449e3fa870309674bf2dc771d0
+source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 
 ---
 
@@ -94,11 +94,12 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
 
    1. Immettete il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **** **** come contexthub.Generic-jsonp e fate clic su Next.
 
+      >[!CAUTION]
+      >Se utilizzate Adobe Experience Manager (AEM) 6.4, immettete il titolo **di** configurazione come **foglio di calcolo** e il tipo **di** store come **contexthub.Generic-jsonp**.
+
       ![image](/help/user-guide/assets/context-hub/context-hub6.png)
 
-      >[!NOTE]
-      >
-      >In AEM 6.4, immettete il Titolo **** configurazione come **foglio di calcolo** e il Tipo **** store come **contexthub.Generic-jsonp**.
+
 
    1. Immettete la configurazione json specifica. Ad esempio, potete utilizzare il seguente json a scopo dimostrativo e fare clic su **Salva** . Verrà visualizzata la configurazione dello store denominata **Google Sheets** nella configurazione ContextHub.
 
