@@ -11,62 +11,66 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9cc4b31ecd66530a85a7a526e306faf1ec371b2e
+source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
 
 ---
 
 
 # Aggiornamento dei contenuti tramite il lancio dello schermo {#launches}
 
-Gli autori dei contenuti possono creare una versione futura dei canali, nota come lancio **** delle schermate, e l&#39;ulteriore impostazione della data di inizio per questo lancio consente al contenuto di essere live nei dispositivi o lettori.
+Gli autori dei contenuti possono creare versioni future dei canali, noti come lancio **** delle schermate, e impostare ulteriormente la data di inizio del lancio. Questo consente al contenuto di essere live nei dispositivi o lettori alla data di trasmissione specificata.
 
-Con l’aiuto di una pubblicazione futura, gli autori possono visualizzare l’anteprima di ogni canale nel lancio e devono essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve la notifica e può approvare o rifiutare la richiesta. Quando viene raggiunta la data di inizio, il contenuto viene riprodotto nei dispositivi.
+Con l&#39;aiuto di **Screens Launches**, gli autori possono visualizzare in anteprima ogni canale del lancio e devono essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve la notifica e può approvare o rifiutare la richiesta. Quando viene raggiunta la data di inizio, il contenuto viene riprodotto nei dispositivi.
 
 Ad esempio, se l’autore desidera creare versioni future di c1, c2 (canali), viene creato un lancio e viene impostata una data dal vivo (ad esempio, 10 novembre 8:00 AM). Eventuali ulteriori aggiornamenti nel contenuto vengono inviati per la revisione. Una volta approvato e in data dal vivo (10 novembre, 8:00 AM), questo lancio riproduce il contenuto sui dispositivi o lettori.
 
 ## Requisiti {#requirements}
 
-Prima di avviare l’implementazione della pubblicazione futura in un progetto AEM Screens, verifica di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
+Prima di iniziare a sfruttare i lanci di schermate in un progetto AEM Screens, verifica di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
 
-Nella sezione seguente viene illustrato il periodo di tolleranza e come configurarlo come out-of-the-box. Potete anche scaricare una configurazione di prova di esempio per comprenderne l’utilizzo.
+L&#39;esecuzione di un&#39;esperienza sulla data live impostata sul lettore comporta:
+
+* promozione del lancio (in genere richiede alcuni secondi)
+
+* la pubblicazione delle risorse per pubblicare le istanze (in genere richiede alcuni minuti, a seconda delle dimensioni dei canali o delle risorse da pubblicare)
+
+* tempo impiegato dall&#39;aggiornamento del contenuto offline per il completamento (in genere richiede alcuni minuti)
+
+* tempo impiegato dai lettori per scaricare il contenuto dall’istanza di pubblicazione (in genere sono necessari minuti a seconda della larghezza di banda e della dimensione delle risorse da scaricare)
+
+* eventuali differenze di tempo tra il server e il lettore
 
 ### Periodo di tolleranza {#understanding-grace-period}
 
-La seguente configurazione consente all’amministratore di configurare il periodo ***di*** tolleranza, richiesto per la pubblicazione futura.
+Affinché il lettore possa iniziare a riprodurre il contenuto nella data di inizio impostata, è necessario avviare le attività di cui sopra prima della data di inizio.
 
-**Periodo** di tolleranza, include:
-
-* promozione del lancio
-* pubblicazione delle risorse per pubblicare le istanze
-* tempo impiegato dai dispositivi per scaricare il contenuto dall’istanza di pubblicazione e le eventuali differenze di ora del server e del lettore
+Se la data in diretta è il 24 *novembre, le 9:00 AM* e il periodo di tolleranza è di *24 ore*, la sequenza di azioni di cui sopra inizierà a (data in diretta - periodo di tolleranza), vale a dire il 23 novembre, ore 9:00 del server. Questo offre 24 ore di tempo per completare tutte le azioni di cui sopra e il contenuto raggiungerà i giocatori. I giocatori comprenderanno che si tratta di un contenuto del lancio, quindi il contenuto non verrà riprodotto immediatamente, ma i giocatori memorizzeranno il contenuto come versione futura e inizieranno a giocare esattamente alla data dal vivo impostata sul fuso orario del giocatore.
 
 Ad esempio, supponiamo che il server sia in PST e che i dispositivi siano in EST, la differenza di tempo massima è di 3 ore in questo caso e che la promozione richieda 1 minuto e che la pubblicazione dall&#39;autore richieda 10 minuti e che il lettore possa scaricare le risorse in genere tra 10-15 minuti. Quindi periodo di tolleranza = differenza di tempo (3 ore) + tempo per promuovere il lancio (1 min) + tempo per pubblicare il lancio (10 min) + tempo per scaricare al lettore (10-15 min) + buffer (per essere sicuro, ad esempio 30 min) = 3 ore 56 min = 14160 secondi. Per cui, quando programmeremo un lancio live, la promozione inizierà presto con questo offset. Nell&#39;equazione di cui sopra, la maggior parte degli elementi non richiede molto tempo, possiamo utilizzare una stima decente per questo offset una volta che conosciamo la differenza di tempo max b/w il server e qualsiasi giocatore.
 
-### Configurazione del periodo di tolleranza out-of-the-box {#configuring-out-of-the-box-grace-period}
-
-In dotazione, il periodo di tolleranza per un lancio è impostato su 24 ore, il che significa che quando si imposta la data dal vivo per qualsiasi avvio per le risorse in */content/screens*, la promozione inizierà con questo offset. Ad esempio, se liveDate è impostato su nov 24, 9:00 AM e il periodo di tolleranza è di 24 ore, il processo di promozione inizierà a novembre 23, 09:00 AM.
-
-### Download delle configurazioni {#downloading-configurations}
-
-Scaricate le seguenti configurazioni di test:
-
-[Ottieni file](assets/launches_event_handlerconfig-10.zip)
-
 >[!NOTE]
->
->La configurazione di cui sopra ha 600 secondi come periodo di tolleranza in questa configurazione di test.
+>In dotazione, il periodo di tolleranza per gli avvii degli schermi è impostato su 24 ore, il che significa che quando si imposta la data dal vivo per qualsiasi avvio per le risorse in */content/screens*, la promozione inizierà con questo offset.
 
-#### Aggiornamento delle configurazioni {#updating-the-configurations}
+### Aggiornamento del periodo di tolleranza out-of-the-box {#updating-out-of-the-box-grace-period}
 
-Se desiderate modificare la configurazione precedente, seguite le istruzioni riportate di seguito:
+In questa sezione viene illustrato come aggiornare un periodo di tolleranza predefinito a 10 minuti:
 
-* create il file ***sling:OsgiConfig/ nt:file in /apps/system/config*** con nome **com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config** e contenuto
+1. Passare a CRXDE Lite e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+2. Fare clic con il pulsante destro del mouse e copiare il file.
+3. Passate a fare clic con il pulsante destro del mouse `/apps/system/config` e incollare.
+4. Fare doppio clic su `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` per aprire il file nell&#39;editor in CRXDE Lite. Deve mostrare il periodo di tolleranza per il percorso */contenuto/schermate/* come 86400. Modificate tale valore in **600**.
 
-   *launches.eventhandler.updatelastmodified=B&quot;false&quot;launches.eventhandler.launch.Promotion.graceperiod=[&quot;/content/screens(/.*):600&quot;]launches.eventhandler.threadpool.maxsize=I&quot;5&quot;launches.eventhandler.threadpool.priority=&quot;MIN&quot;*
+Ora il contenuto del file di testo deve essere simile al seguente:
 
-* `launches.eventhandler.launch.promotion.graceperiod=["/content/screens(/.&#42;):600"`, consente di impostare un periodo di tolleranza di 600 secondi nel percorso */contenuto/schermi*.
+```java
+launches.eventhandler.launch.promotion.graceperiod=[ \
+   "/content/screens(/.*):600", \
+   ]
+```
 
-Questo significa che quando imposti una data di inizio per qualsiasi lancio per le risorse sotto */content/screens*, la promozione inizierà con questo offset. Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il periodo di tolleranza è di 600 secondi, il processo di promozione inizierà il 24 novembre, 8:50 AM.
+Poiché il periodo di tolleranza è stato impostato su 10 minuti nell’esempio precedente, quando si imposta la data di inizio per qualsiasi avvio per le risorse in */content/screens*, la promozione inizierà con questo offset.
+
+Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il periodo di tolleranza è di 600 secondi, il processo di promozione inizierà il 24 novembre alle 08:50.
 
 ## Utilizzo del lancio dello schermo {#using-launches}
 
