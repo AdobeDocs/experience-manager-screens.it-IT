@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 14a45b58862477ec6be082ab1c059f991b086755
+source-git-commit: 654b4eb6ac5cab74df3044fd82d367bf26588364
 
 ---
 
@@ -74,10 +74,7 @@ Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il perio
 
 ## Utilizzo del lancio dello schermo {#using-launches}
 
-Segui la sezione seguente per implementare i lanci nel progetto AEM Screens. Questa sezione illustra i seguenti argomenti:
-
-1. **Creazione di un lancio dello schermo**
-1. **Modifica di un lancio di schermate per impostare data e ambito live**
+Segui la sezione seguente per implementare i lanci nel progetto AEM Screens.
 
 ### Creazione di un lancio dello schermo {#creating-a-launch}
 
@@ -97,60 +94,19 @@ Per implementare la funzionalità di avvio nel progetto AEM Screens, procedi com
 
 1. Viene aperta la procedura guidata **Crea lancio** . Potete selezionare il canale già visibile nella procedura guidata oppure fare clic su **+ Aggiungi canali** per aggiungere il canale per il quale desiderate creare il lancio.
 
-
-#### Utilizzo del canale esistente {#existing-channel-launch}
-
-1. Selezionate il canale già esistente nella procedura guidata **Crea lancio** e fate clic su **Avanti**.
+1. Fate clic su **Avanti** dalla procedura guidata **Crea lancio** . Per impostazione predefinita, l’opzione **Includi pagine** secondarie è selezionata.
 
    ![image](/help/user-guide/assets/launches-images/launches-b.png)
 
-1. Selezionate il canale e fate clic su **Avanti** dalla barra delle azioni.
-
    >[!NOTE]
-   >**Per impostazione predefinita, l’opzione Includi sottopagine** è selezionata.
-
-   ![Immagine](/help/user-guide/assets/launches-images/launches-b.png)
-
-1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la Data **del** lancio, come illustrato nella figura riportata di seguito. Fai clic su **Crea**.
-
-   >[!NOTE]
-   >
-   >*Abilitando o selezionando* l’opzione **Eredita dati** live della pagina di origine, i canali possono essere creati come Live Copy nel lancio. Se vengono apportate modifiche al canale originale, tali modifiche vengono applicate automaticamente ai canali di avvio.
-   >
-   >
-   >*Disattivando o deselezionando* Eredita dati **dal vivo della pagina** di origine, i canali possono essere copiati senza alcuna relazione dal vivo all’avvio. Pertanto, se vengono apportate modifiche al canale originale, tali modifiche non vengono applicate ai canali di lancio.
-
-   ![Immagine](/help/user-guide/assets/launches-images/launches-c.png)
-
-   >[!NOTE]
-   >
-   >In questo passaggio potete impostare la data del lancio live o impostarla in seguito mentre modificate le proprietà del lancio una volta che è già stato creato.
-
-1. Il lancio verrà creato. Potete fare clic su **Apri** per visualizzare le pagine nell’editor oppure su **Fine** per tornare al progetto.
-
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
-
-   Facendo clic su **Fine** puoi tornare al canale **FutureLaunch** .
-
-   ![Immagine](/help/user-guide/assets/launches-images/launches-16.png)
-
-
-#### Utilizzo dell’opzione Aggiungi canali {#add-channel-launch}
-
-1. Fate clic su **+ Aggiungi canali** per aggiungere il canale per il quale desiderate creare il lancio.
+   >Potete utilizzare l&#39;opzione **+ Aggiungi canali** per aggiungere il canale per il quale desiderate creare il lancio.
 
    ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
-   >[!NOTE]
-   >Se tentate di selezionare più canali o una cartella per l’aggiunta del lancio, l’opzione **Seleziona** verrà disattivata.
+   >1. Andate al canale per il quale desiderate creare il lancio e fate clic su **Seleziona**. Se tentate di selezionare più canali o una cartella per l’aggiunta del lancio, l’opzione **Seleziona** verrà disattivata.
+   >
+   >![image](/help/user-guide/assets/launches-images/launches-14.png)
 
-1. Andate al canale per il quale desiderate creare il lancio e fate clic su **Seleziona**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
-
-1. Ora puoi selezionare il canale aggiunto per creare un lancio e fare clic su **Avanti**.
-
-   ![image](/help/user-guide/assets/launches-images/launches-15.png)
 
 1. Inserisci il Titolo **del** lancio come **EstatePromozioni** e non è necessario impostare la Data **del** lancio, come illustrato nella figura riportata di seguito. Fai clic su **Crea**.
 
@@ -174,6 +130,7 @@ Per implementare la funzionalità di avvio nel progetto AEM Screens, procedi com
    Facendo clic su **Fine** puoi tornare al canale **FutureLaunch** .
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-16.png)
+
 
 ### Modifica delle proprietà del lancio per impostare la data e l&#39;ambito di attività {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
@@ -189,35 +146,23 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
    ![image](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Selezionate il lancio e fate clic sulle azioni desiderate nel pannello **LANCI** IN ATTESA.
+1. Selezionate il lancio e fate clic su **Avvia proprietà** dal pannello **LANCI** IN ATTESA.
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-1. Ad esempio, fai clic su Proprietà **** lancio per modificare le proprietà per il lancio **SummerPromotions**.
+#### Modifica del lancio dello schermo per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
 
-   ![image](/help/user-guide/assets/launches-images/launches-20.png)
+Dopo aver creato il lancio, puoi aggiungere o rimuovere canali al lancio esistente utilizzando l’azione **Modifica lancio** .
 
-1. Potete modificare il Titolo **** lancio e compilare i campi seguenti:
+Al termine, fai clic su **Salva e chiudi** per tornare al canale **FutureLaunch** .
 
-   * Seleziona la data di **avvio**
-   * Verifica **produzione pronta**
-   * Seleziona pagine **approvate** Promote da **ambito**
-   **Informazioni sulle voci Lanci in Promozione automatica:**
+#### Promozione manuale del lancio dello schermo{#promote-the-screens-launch-manually}
 
-   * **Data** lancio, si riferisce alla data in cui il contenuto viene riprodotto nel lettore Screens, ovvero alla data/ora in base al fuso orario del lettore.
-   * **Production Ready** consente di promuovere i canali e di utilizzare il lancio.
-   * **Ambito**, si riferisce ai canali che possono essere promossi durante un lancio.
-   Sono disponibili le tre opzioni seguenti per impostare l&#39;ambito:
+Puoi promuovere manualmente il lancio tramite l’azione **Promuovi lancio** .
 
-   * **Promuovi lancio** completo: Tutti i canali del lancio vengono promossi alla data impostata.
-   * **Promuovi pagine** modificate: Verranno promosse solo le risorse di lancio modificate. Si consiglia di utilizzare questa opzione quando la revisione del lancio non è obbligatoria. Consente di promuovere le modifiche nei canali di lancio.
-   * **Promuovi pagine** approvate: Solo le pagine approvate vengono promosse alla data di disponibilità impostata.
+Puoi scegliere le risorse da promuovere nell&#39;ambito di questa promozione manuale in **Launch Promotion Wizard**.
 
-      >[!CAUTION]
-      >
-      >La promozione di avvio rispetta il fuso orario del lettore/dispositivo anziché quello del server.
+#### Eliminazione del lancio dello schermo {#deleting-the-screens-launch}
 
-
-
-1. Fai clic su **Salva e chiudi** per tornare al canale **FutureLaunch** .
+Potete eliminare il lancio utilizzando l&#39;azione **Elimina lancio** .
 
