@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 0f30c01ee936d48a215e0a42eb983daea7fbe731
+source-git-commit: 076aeecd353ebf89893fd01ab28192b9145c844a
 
 ---
 
@@ -78,7 +78,7 @@ Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il perio
 
 ## Utilizzo del lancio dello schermo {#using-launches}
 
-Segui la sezione seguente per implementare Screens Launch nel progetto AEM Screens.
+Questa sezione illustra come implementare il lancio delle schermate nel progetto AEM Screens.
 
 ### Creazione di un lancio dello schermo {#creating-a-launch}
 
@@ -104,8 +104,6 @@ Per implementare la funzionalità Screens Launch nel progetto AEM Screens, proce
 
    >[!NOTE]
    >Potete utilizzare l&#39;opzione **+ Aggiungi canali** per aggiungere un altro canale per il quale desiderate creare il lancio.
-
-   ![image](/help/user-guide/assets/launches-images/launches-13.png)
 
    Per utilizzare l&#39;opzione **Aggiungi canali** , andate al canale per il quale desiderate creare il lancio e fate clic su **Seleziona**.
 
@@ -173,13 +171,13 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
    ![image](/help/user-guide/assets/launches-images/launches-19.png)
 
-#### Modifica del lancio dello schermo per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modifica del lancio dello schermo per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Dopo aver creato il lancio, puoi aggiungere o rimuovere canali al lancio esistente utilizzando l’azione **Modifica lancio** .
+Dopo aver creato il lancio, potete aggiungere o rimuovere canali al lancio esistente utilizzando l’opzione **Modifica lancio** .
 
 Al termine, fai clic su **Salva** per tornare al canale **FutureLaunch** .
 
-#### Promozione manuale del lancio dello schermo{#promote-the-screens-launch-manually}
+### Promozione manuale del lancio dello schermo{#promote-the-screens-launch-manually}
 
 Potete promuovere il lancio manualmente utilizzando l&#39;opzione **Promuovi lancio** dal pannello AVVII **IN ATTESA** .
 
@@ -196,11 +194,10 @@ Puoi scegliere le risorse da promuovere nell&#39;ambito di questa promozione man
 1. Fate clic su **Avanti** nella procedura guidata **Promuovi lancio** .
 1. Fate clic su **Promuovi** per promuovere il lancio.
 
+### Eliminazione del lancio dello schermo {#deleting-the-screens-launch}
 
-#### Eliminazione del lancio dello schermo {#deleting-the-screens-launch}
-
-Potete eliminare il lancio utilizzando l&#39;azione **Elimina lancio** .
+Potete eliminare il lancio utilizzando l&#39;opzione **Elimina lancio** dal pannello **AVVII** IN ATTESA.
 
 >[ATTENZIONE]
->Questa azione eliminerà anche tutti i lanci nidificati discendenti.
+>Questa azione eliminerà anche tutti i discendenti (avvii nidificati).
 
