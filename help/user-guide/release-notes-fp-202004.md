@@ -4,7 +4,7 @@ seo-title: Note sulla versione per Feature Pack 2004
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 20 aprile 2020.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 20 aprile 2020.
 translation-type: tm+mt
-source-git-commit: 8784ba269e510c3933c2573df43950fde79bf899
+source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
 
 ---
 
@@ -45,7 +45,7 @@ La data di rilascio per AEM Screens Feature Pack 2004 è il 20 aprile 2020.
 
 * **Dashboard per canale**
 
-   Istruzioni di aggiornamento per la lettura nel dashboard del canale e nella finestra di dialogo offline... &quot;Aggiorna contenuto offline&quot; sostituisce la parola &quot;Aggiorna cache&quot;
+   Riflette gli aggiornamenti alle istruzioni presenti nel dashboard del canale nel pannello **INFORMAZIONI** CANALE.
 
 
 * **Visualizza manifesto**
@@ -64,6 +64,8 @@ La data di rilascio per AEM Screens Feature Pack 2004 è il 20 aprile 2020.
 
    Con questa release del pacchetto di funzioni, vengono riportati i miglioramenti nel ritardo della sincronizzazione dei comandi tra le modifiche delle risorse.
 
+   Per ulteriori informazioni, consulta **[Sincronizzazione](using-command-sync.md)**comandi.
+
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
 I seguenti lettori di AEM Screens sono rilasciati per AEM Screens Screens: AEM Screens Feature Pack 8 e AEM 6.5 Feature Pack 4:
@@ -72,6 +74,6 @@ I seguenti lettori di AEM Screens sono rilasciati per AEM Screens Screens: AEM S
 * Windows
 * Android
 
-#### Download di AEM Screens Player {#aem-screens-player-downloads}
+#### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare la versione più recente del lettore AEM Screens e ottenere ulteriori informazioni sulle correzioni dei bug, consulta Download [****](https://download.macromedia.com/screens/)di AEM Screens Player.
+Per scaricare la versione più recente del lettore AEM Screens e ottenere ulteriori informazioni sulle correzioni dei bug, consulta Download **[](https://download.macromedia.com/screens/)**di AEM Screens Player.
