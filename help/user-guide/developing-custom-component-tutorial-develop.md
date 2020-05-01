@@ -10,7 +10,7 @@ topic-tags: developing
 discoiquuid: 24eb937f-ab51-4883-8236-8ebe6243f6e3
 targetaudience: target-audience new
 translation-type: tm+mt
-source-git-commit: 81fbba033cbf1d87e1e99d91244f4bf0b712d339
+source-git-commit: a60de02a19004dd4d971612496f65285ded55716
 
 ---
 
@@ -29,7 +29,7 @@ Questa esercitazione è destinata agli sviluppatori che hanno familiarità con A
 
 Per completare questa esercitazione, è necessario effettuare le seguenti operazioni:
 
-1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) o [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Feature Pack per schermi più recenti
+1. [AEM 6.5](https://helpx.adobe.com/it/experience-manager/6-4/release-notes.html) o [AEM 6.3](https://helpx.adobe.com/it/experience-manager/6-3/release-notes.html) + Feature Pack per schermi più recenti
 
 1. [Lettore AEM Screens](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Ambiente di sviluppo locale
@@ -367,7 +367,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    Gli stili di cui sopra visualizzeranno il messaggio centrato al centro dello schermo, ma solo in modalità di produzione.
 
-Una terza categoria di clientlibrary: può `cq.screens.components.edit` essere utilizzato per aggiungere al componente stili specifici di Modifica.
+Una terza categoria di clientlibrary: `cq.screens.components.edit` può essere utilizzato per aggiungere al componente stili specifici di Modifica.
 
 | Categoria Clientlib | Utilizzo |
 |---|---|
