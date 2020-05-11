@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: e33175a8c4282d89ed77fc430b1a48eb8470585f
+source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '797'
 ht-degree: 8%
 
 ---
@@ -79,7 +79,7 @@ Potete usare singole risorse, ad esempio un’immagine o un video, in tutte e tr
 
 ### Utilizzo del contenuto sequenziale in una o più aree {#using-sequenced-content-in-one-or-more-zones}
 
-Per visualizzare la sequenza di immagini o contenuti e un&#39;immagine statica nelle aree desiderate, attenetevi alla seguente procedura per ulteriori dettagli.
+Se desiderate che nelle aree venga visualizzata una sequenza di immagini o contenuti e un&#39;immagine statica in tre aree diverse, seguite i passaggi indicati di seguito per ulteriori dettagli.
 
 1. **Creazione di una cartella canale**
 
@@ -126,7 +126,10 @@ Per visualizzare la sequenza di immagini o contenuti e un&#39;immagine statica n
 
 Una volta implementati i layout con più aree utilizzando i passaggi precedenti, viene visualizzato il seguente output, come illustrato nella figura riportata di seguito.
 
-Il seguente output in Screens Player visualizza il contenuto in tre aree diverse. Nelle zone a sinistra e a destra (entrambe utilizzano la sequenza incorporata come componente) viene visualizzata una sequenza di immagini e nella zona sottostante viene visualizzata un’immagine statica.
+Fai clic su **Anteprima** dall’editor canale per visualizzare il seguente output in cui viene visualizzato il contenuto in due aree diverse. Le aree sinistra e destra (entrambe utilizzano la sequenza incorporata come componente).
+
+>[!NOTE]
+>Se state tentando di visualizzare il contenuto nel lettore Screens, accertatevi di fare clic su **Aggiorna contenuto** offline nel dashboard del canale.
 
 ![new2-1](/help/user-guide/assets/multi-zone/screens-multi1.gif)
 
