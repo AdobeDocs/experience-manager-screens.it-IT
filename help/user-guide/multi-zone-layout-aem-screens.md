@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: bf4b499bc42a2c5f7f05a257bf7c8ed6c7b58b89
+source-git-commit: afe069d0cd297d0e2280ffb6093e0b0d129c675d
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '789'
 ht-degree: 8%
 
 ---
@@ -69,17 +69,14 @@ Potete usare singole risorse, ad esempio un’immagine o un video, in tutte e tr
 
    1. Passare a **Aree** —> **Canali**—>**Zonamultipla**.
    1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
-   ![screen_shot_2018-12-07at14917pm](assets/screen_shot_2018-12-07at14917pm.png)
 
 1. **Aggiunta di immagini al canale**
 
-   Per riprodurre una singola immagine o un video in tutte e tre le aree, trascinate e rilasciate l’immagine nell’editor canale, come mostrato di seguito.
-
-   ![new1-1](assets/new1-1.gif)
+   Per riprodurre una singola immagine o un video in tutte e tre le aree, è sufficiente trascinare l’immagine nell’editor canale.
 
 ### Utilizzo del contenuto sequenziale in una o più aree {#using-sequenced-content-in-one-or-more-zones}
 
-Se desiderate che nelle aree venga visualizzata una sequenza di immagini o contenuti e un&#39;immagine statica in tre aree diverse, seguite i passaggi indicati di seguito per ulteriori dettagli.
+Per visualizzare la sequenza di immagini o contenuti e un&#39;immagine statica nelle aree desiderate, attenetevi alla seguente procedura per ulteriori dettagli.
 
 1. **Creazione di una cartella canale**
 
