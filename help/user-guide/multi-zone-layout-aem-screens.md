@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
+source-git-commit: 2e590d7a73dea9a0445962c2f65cdfa7fef3994d
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1189'
 ht-degree: 6%
 
 ---
@@ -91,7 +91,9 @@ Per visualizzare la sequenza di immagini e un video nelle aree desiderate, effet
    1. Selezionate Canale **** sequenza dalla procedura guidata **Crea** per creare un canale denominato **Zona1**.
    1. Select **Zone1** and click **Edit** from the action bar to open the editor.
    1. Trascinate alcune immagini su questo canale.
-   Analogamente, create un altro canale di sequenza denominato **Zone2** nella cartella **EmbeddedChannels** .
+   1. Analogamente, create un altro canale di sequenza denominato **Zone2** nella cartella **EmbeddedChannels** .
+   1. Trascinate e rilasciate un video su questo canale.
+   La figura seguente mostra i canali **Zone1** e **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
 
@@ -99,7 +101,7 @@ Per visualizzare la sequenza di immagini e un video nelle aree desiderate, effet
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Aggiungete un video all&#39;editor del canale della sequenza **Zone2** come illustrato nella figura seguente:
+   Il video aggiunto all&#39;editor del canale della sequenza **Zone2** è riportato di seguito:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -107,7 +109,7 @@ Per visualizzare la sequenza di immagini e un video nelle aree desiderate, effet
 
    1. Passare a **Aree** —> **Canali** —> **Zona** multipla.
    1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
-   1. Trascinate e rilasciate il componente Sequenza **** incorporata in due delle zone.
+   1. Trascinate e rilasciate il componente Sequenza **** incorporata in entrambe le aree.
    1. Selezionare la sequenza incorporata in una delle zone.
    1. Fate clic sull&#39;icona **Configura** (chiave inglese) per passare a una delle sequenze incorporate nell&#39;editor.
    1. Selezionate il percorso del canale come **Aree** —> **Canali** —> **IncorporatiCanali** —> **Zona1**, come illustrato nella figura seguente.
@@ -157,7 +159,7 @@ Per visualizzare il contenuto, dovete assegnare i canali al display. Seguite i p
 
 ### Registrazione del dispositivo {#registering-device}
 
-Dopo aver configurato una posizione e un display, segui i passaggi indicati di seguito per registrare il dispositivo e assegnare la visualizzazione al dispositivo.
+Una volta impostata una posizione e uno schermo, seguite i passaggi indicati di seguito per registrare il dispositivo e assegnare lo schermo al dispositivo.
 
 1. **Registrazione del dispositivo**
 
