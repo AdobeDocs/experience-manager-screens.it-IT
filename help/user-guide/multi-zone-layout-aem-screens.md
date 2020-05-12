@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: ae05d169dce9d02562159524f9bf43e88a29e43f
+source-git-commit: 9e267326da9c8163d85402425e6b46886e4d19f9
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1176'
 ht-degree: 6%
 
 ---
@@ -35,18 +35,18 @@ La pagina seguente descrive l’utilizzo del layout a più zone e illustra i seg
 
 In base ai requisiti del progetto, talvolta è necessario disporre di più aree in un canale e modificarle come un’unica unità. Ad esempio, una sequenza del prodotto con il relativo feed social media in esecuzione in tre aree distinte su un singolo canale.
 
-## Creazione di un layout con più aree {#creating-multi-zone-layout}
-
-Durante la creazione di un canale, potete usare diversi modelli per creare aree nel vostro canale. Potete aggiungere una singola immagine, un video o un canale incorporato che consenta la visualizzazione di più risorse in una sequenza.
 
 ### Prerequisiti {#prerequisites}
 
-Prima di iniziare ad implementare questa funzionalità, assicuratevi di disporre di un progetto pronto come prerequisito per iniziare a implementare il layout multizona. Ad esempio,
+Prima di iniziare ad implementare questa funzionalità, accertatevi di avere le conoscenze concettuali su:
 
-* Creare un progetto AEM Screens denominato **AEM Screens**
-* Create una visualizzazione in **Posizioni** denominate **MultiZoneDisplay**.
+* [Creazione di un progetto AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
+* [Creazione di una visualizzazione](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
+* [Assegnazione di un canale a uno schermo](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/channel-assignment.html)
 
-Create un canale denominato **MultiZone** nel progetto **Zone** . Effettuate le seguenti operazioni:
+## Creazione di un layout con più aree {#creating-multi-zone-layout}
+
+Durante la creazione di un canale, potete usare diversi modelli per creare aree nel vostro canale. Potete aggiungere una singola immagine, un video o un canale incorporato che consenta la visualizzazione di più risorse in una sequenza.
 
 **Creazione del canale**
 
@@ -65,20 +65,18 @@ Potete usare singole risorse, ad esempio un’immagine o un video, in tutte e tr
 
 1. **Aggiunta di contenuti al canale**
 
-   1. Passare a **Aree** —> **Canali**—>**Zonamultipla**.
+   1. Passare a **Aree** —> **Canali**—> **Zona** multipla.
    1. Select the **MultiZone** channel and click **Edit** from the action bar to open the editor.
 
 1. **Aggiunta di immagini al canale**
 
    Per riprodurre una singola immagine o un video in due aree, è sufficiente trascinare un’immagine in ciascuna area dell’editor canale, come illustrato nella figura seguente:
 
-   MultiZone-img3
-
    ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Utilizzo del contenuto sequenziale in una o più aree {#using-sequenced-content-in-one-or-more-zones}
 
-Per visualizzare la sequenza di immagini o contenuti e un&#39;immagine statica in due aree diverse nelle zone, attenetevi alla procedura seguente per ulteriori dettagli.
+Per visualizzare la sequenza di immagini e un video nelle aree desiderate, effettuate le operazioni seguenti per ulteriori dettagli.
 
 1. **Creazione di una cartella canale**
 
@@ -101,7 +99,7 @@ Per visualizzare la sequenza di immagini o contenuti e un&#39;immagine statica i
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img4.png)
 
-   Il video aggiunto all&#39;editor del canale della sequenza **Zone2** è riportato di seguito:
+   Aggiungete un video all&#39;editor del canale della sequenza **Zone2** come illustrato nella figura seguente:
 
    ![screen_shot_2018-12-19at125930pm](/help/user-guide/assets/multi-zone/multizone-img5.png)
 
@@ -110,18 +108,14 @@ Per visualizzare la sequenza di immagini o contenuti e un&#39;immagine statica i
    1. Passare a **Aree** —> **Canali** —> **Zona** multipla.
    1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
    1. Trascinate e rilasciate il componente Sequenza **** incorporata in due delle zone.
-
-1. **Aggiungere contenuto a tutte e tre le aree**
-
-   1. Passare a **Aree** —> **Canali** —> **Zona** multipla.
    1. Selezionare la sequenza incorporata in una delle zone.
    1. Fate clic sull&#39;icona **Configura** (chiave inglese) per passare a una delle sequenze incorporate nell&#39;editor.
    1. Selezionate il percorso del canale come **Aree** —> **Canali** —> **IncorporatiCanali** —> **Zona1**, come illustrato nella figura seguente.
-   Allo stesso modo, aggiungete la **Zona2** a un altro componente della sequenza incorporata nell’editor.
+   1. Allo stesso modo, aggiungete la **Zona2** a un altro componente della sequenza incorporata nell’editor.
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
 
-### Creazione di posizione e visualizzazione {#creating-location}
+### Creazione di una posizione e di una visualizzazione {#creating-location}
 
 È necessario creare una posizione e una visualizzazione per visualizzare il contenuto nel lettore Screens. Per creare una posizione e una visualizzazione, effettuate le operazioni seguenti.
 
@@ -152,12 +146,14 @@ Per visualizzare il contenuto, dovete assegnare i canali al display. Seguite i p
    1. Fai clic su **Salva**.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. In modo analogo, è necessario assegnare gli altri due canali incorporati (**Zone1** e **Zone2**) a questa visualizzazione utilizzando il passaggio (2).
+   1. Allo stesso modo, è necessario assegnare gli altri due canali incorporati (**Zone1** e **Zone2**) a questo display.
    1. Dopo aver assegnato tutti e tre i canali al display **Sala d&#39;attesa** , dovreste essere in grado di visualizzare i canali assegnati dal pannello di visualizzazione.
 
       ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
-   >[!Iimportante]
-   > Dopo aver assegnato il canale principale (in questo caso, **MultiZone**) al display, è obbligatorio assegnare gli altri due canali incorporati **Zone1** e **Zone2** anche allo stesso display.
+
+
+      >[!Iimportante]
+      > Dopo aver assegnato il canale principale (in questo caso, **MultiZone**) al display, è obbligatorio assegnare gli altri due canali incorporati **Zone1** e **Zone2** anche allo stesso display.
 
 ### Registrazione del dispositivo {#registering-device}
 
@@ -171,19 +167,20 @@ Dopo aver configurato una posizione e un display, segui i passaggi indicati di s
       >[!NOTE]
       > Il titolo del dispositivo deve corrispondere al token dispositivo (campo **Token** ) visualizzato nella scheda Registrazione **** dispositivo.
    1. Se il titolo corrisponde al token dispositivo, selezionate il dispositivo e fate clic su **Registra dispositivo** dalla barra delle azioni.
-   1. Se il codice di registrazione corrisponde al codice riportato nella scheda di registrazione del lettore Screens, fare clic su **Convalida** nella barra delle azioni.
+   1. Se il codice di registrazione corrisponde al codice riportato nella scheda Registrazione **** dispositivo del lettore Screens, fare clic su **Convalida** nella barra delle azioni.
       ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Selezionate **Assegna visualizzazione** e selezionate il percorso della configurazione del dispositivo.
+   >[!NOTE]
+   >Se state tentando di visualizzare il contenuto nel lettore Screens, accertatevi di fare clic su **Aggiorna contenuto** offline nel dashboard del canale.
 
 #### Visualizzazione del risultato {#viewing-the-result}
 
-Una volta implementati i layout con più aree utilizzando i passaggi precedenti, viene visualizzato il seguente output, come illustrato nella figura riportata di seguito.
+Una volta implementati i layout con più aree utilizzando i passaggi precedenti, viene visualizzato il seguente output.
 
 Controllare il lettore Screens per visualizzare l&#39;output che mostra il contenuto in due aree diverse. Le aree sinistra e destra (entrambe utilizzano la sequenza incorporata come componente).
 
->[!NOTE]
->Se state tentando di visualizzare il contenuto nel lettore Screens, accertatevi di fare clic su **Aggiorna contenuto** offline nel dashboard del canale.
+La zona sinistra è un canale di sequenza e la zona destra include un video.
 
 ![new2-1](/help/user-guide/assets/multi-zone/Multi-gif.gif)
 
