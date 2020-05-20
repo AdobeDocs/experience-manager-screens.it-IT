@@ -4,7 +4,10 @@ product: experience manager
 audience: end-user
 user-guide-title: Guida di Adobe Experience Manager Screens
 translation-type: tm+mt
-source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
+source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 13%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 968c84b3f30c6ac4ba244b5ec0a3b9bf8e666609
    + [Collegamento del lettore dello schermo](working-with-screens-player.md)
    + [Registrazione dispositivo](device-registration.md)
    + [Impostazione degli ACL](setting-up-acls.md)
+   + [Elenco di controllo per la sicurezza di AEM Screens](security-checklist.md)
    + [Transizione da ContentSync a SmartSync](smartsync.md)
    + [Nuovo Importazione progetto da file](project-importer.md)
    + [Replica degli attivatori di dati sui server di pubblicazione](replicating-data-triggers.md)
