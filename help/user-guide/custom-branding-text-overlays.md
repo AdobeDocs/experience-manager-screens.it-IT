@@ -5,7 +5,10 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: a475e373b0717b69610cb78907542f1da9ad8992
+source-git-commit: 04639198c5220e01af5945b8032c5fd86dc27499
+workflow-type: tm+mt
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -59,6 +62,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
        background-color: rgba(255, 255, 255, .6);
      }
    ```
+
    ![image](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
 1. Copiate il percorso del progetto, in questo caso il percorso sarà `/apps/settings/wcm/designs/customstyle`.
