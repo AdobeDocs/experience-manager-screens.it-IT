@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 052cf1ccde6f18ec72307b14ffbac63be61127b0
+source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ In base ai requisiti del progetto, talvolta è necessario disporre di più aree 
 
 ### Prerequisiti {#prerequisites}
 
-Prima di iniziare ad implementare questa funzionalità, accertatevi di avere le conoscenze concettuali su:
+Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre delle conoscenze concettuali su:
 
 * [Creazione di un progetto AEM Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project.html)
 * [Creazione di una visualizzazione](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays.html)
@@ -61,7 +61,7 @@ Durante la creazione di un canale, potete usare diversi modelli per creare aree 
 
 ### Utilizzo di risorse singole in una o più aree {#using-single-assets-in-one-or-more-zones}
 
-Potete usare singole risorse, ad esempio un’immagine o un video, in tutte e tre le aree. Seguite i passaggi indicati di seguito per l&#39;implementazione:
+Potete usare singole risorse, ad esempio un’immagine o un video, in tutte le singole aree. Seguite i passaggi indicati di seguito per l&#39;implementazione:
 
 1. **Aggiunta di contenuti al canale**
 
@@ -76,7 +76,7 @@ Potete usare singole risorse, ad esempio un’immagine o un video, in tutte e tr
 
 ### Utilizzo del contenuto sequenziale in una o più aree {#using-sequenced-content-in-one-or-more-zones}
 
-Per visualizzare la sequenza di immagini e un video nelle aree desiderate, effettuate le operazioni seguenti per ulteriori dettagli.
+Per visualizzare la sequenza di immagini e video nelle diverse aree, effettuate le operazioni seguenti per ulteriori dettagli.
 
 1. **Creazione di una cartella canale**
 
@@ -135,7 +135,7 @@ Per visualizzare la sequenza di immagini e un video nelle aree desiderate, effet
    1. Select **Display** from the **Create** wizard and click **Next**.
    1. Enter the **Title** as **Lobby** and click **Create**.
 
-### Assegnazione del canale al display {#channel-channel}
+### Assegnazione di canali al display {#channel-channel}
 
 Per visualizzare il contenuto, dovete assegnare i canali al display. Seguite i passaggi indicati di seguito per assegnare il canale al display.
 
@@ -174,7 +174,7 @@ Una volta impostata una posizione e uno schermo, seguite i passaggi indicati di 
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Selezionate **Assegna visualizzazione** e selezionate il percorso della configurazione del dispositivo.
    >[!NOTE]
-   >Se state tentando di visualizzare il contenuto nel lettore Screens, accertatevi di fare clic su **Aggiorna contenuto** offline nel dashboard del canale.
+   >Se state tentando di visualizzare il contenuto nel lettore Screens, accertatevi di fare clic su **Aggiorna contenuto** offline nel dashboard del canale per ciascuno dei canali assegnati al display.
 
 ### Visualizzazione del risultato {#viewing-the-result}
 
