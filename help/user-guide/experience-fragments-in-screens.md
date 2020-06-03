@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 87961076fd756c8bd018ded08d493e4024992738
+source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -71,11 +71,9 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
 
 1. **Passare a una pagina Siti in We.Retail**
 
-   1. Andate a Siti e selezionate **We.Retail In-Store** -> **United States** ->**English** , quindi selezionate la pagina **Equipment** per utilizzare questo frammento di esperienza per il canale Screens.
+   1. Andate a Siti e selezionate **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** e selezionate questa pagina per utilizzare questo frammento di esperienza per il canale Screens.
 
    1. Fai clic su **Modifica** nella barra delle azioni per aprire la pagina da utilizzare come frammento esperienza per il canale Screens.
-
-      ![screen_shot_2018-06-06at105309am](assets/screen_shot_2018-06-06at105309am.png)
 
 1. **Riutilizzo del contenuto**
 
