@@ -4,7 +4,10 @@ seo-title: Ruoli e responsabilità del progetto AEM Screens
 description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 seo-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
 translation-type: tm+mt
-source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 11%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 50d36d89b8dcc746a043e5e72ffc0148d99854ad
 
 In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
 
-In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto sono destinati a uno scopo importante nel progetto.
+In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto sono entrambi utili per il progetto.
 
 Il diagramma seguente mostra i ruoli a cui ci riferiremo in tutta la guida.
 
@@ -69,7 +72,7 @@ Sono quelli che definiscono i requisiti e configurano le metriche KPI. La strate
 
 Il team Creative e Content Management collabora a stretto contatto con il team Strategia e trasforma i requisiti in esperienze cliente. Essi guidano la progettazione UX complessiva e curano i contenuti che integrano il marchio.
 
-Creativi e gestione dei contenuti possono essere:
+Creativi e gestione dei contenuti possono essere i seguenti:
 
 * Agenzia creativa o
 * Brand Manager
@@ -85,7 +88,7 @@ Generalmente, i project manager gestiscono l&#39;intera implementazione per la d
 
 ## Fasi del progetto {#project-stages}
 
-Per supportare un&#39;implementazione di Digital Signage di successo, è consuetudine suddividere il progetto in 3 fasi.  Tali fasi sono comunemente denominate **Giorni**. Non si tratta di giornate letterali, ma di designazioni per ogni fase importante del progetto.
+Per supportare un&#39;implementazione di Digital Signage di successo, è consuetudine segmentare il progetto in 3 fasi.  Tali fasi sono comunemente denominate **Giorni**. Non si tratta di giornate letterali, ma di designazioni per ogni fase importante del progetto.
 
 1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e scoperta necessarie per definire completamente l&#39;ambito del progetto.
 
@@ -112,7 +115,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 * **Responsabile**: I delegati lavorano ed è l&#39;ultima parte a rivedere l&#39;attività prima che sia completata.
 
-* **Consultato**: Controlla l&#39;attività o il risultato finale da fornire.
+* **Consultato**: Controlla l&#39;attività o il risultato finale per fornire input.
 
 * **Informato**: Mantenuto informato dei progressi compiuti nell&#39;attività, ma non è coinvolto nei dettagli del risultato finale.
 
@@ -141,7 +144,7 @@ La tabella seguente riassume il **Giorno 1: Implementazione progetto (progettazi
 | Convalida dei requisiti tecnici | I | RA | RA | C |
 | Progettazione architettura | I | RA | I | I |
 | Convalida della struttura dati con la progettazione dell&#39;interfaccia utente | I | RA | C | C |
-| Sviluppo applicazioni | RA | RA | RA | RA |
+| Sviluppo di applicazioni | RA | RA | RA | RA |
 | Impostazione progetto AEM Screens | I | RA | C | I |
 | Implementazione di Analytics | I | RA | C | - |
 | Test e implementazione | RA | C | RA | I |
@@ -167,7 +170,7 @@ La tabella seguente riassume il **Giorno 1: Primo giorno: Implementazione proget
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Retail Design include operazioni di cablaggio | - | - | - | - |
 | Selezione hardware del lettore | RAC | - | - | - |
-| Gestione periferiche master | RA | I | - | - |
+| Gestione dispositivo del master | RA | I | - | - |
 | Ordinamento e archiviazione e configurazione dei dispositivi | RA | CI | I | - |
 | Definizione del processo di supporto | RA | I | RA | C |
 
@@ -183,7 +186,7 @@ La tabella seguente riassume il **Giorno 1: Primo giorno: Implementazione proget
 
 La tabella seguente riassume il **Giorno due: Grafico** RACI di supporto post-lancio:
 
-| **Fase** | **Authoring** | **Sviluppatore** | **Tecnico** |
+| **Fase** | **Autore** | **Developer (Sviluppatore)** | **Tecnico** |
 |---|---|---|---|
 | *Secondo giorno: Supporto post-avvio* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
