@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 112aa2a89578243bad49e61839d781e0f29893b4
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ Questa pagina illustra i seguenti argomenti:
 
 * **Panoramica**
 * **Utilizzo dei frammenti esperienza in AEM Screens**
-* **Propagazione delle modifiche dalla pagina master**
+* **Propagazione delle modifiche alla pagina**
 
 ## Panoramica {#overview}
 
@@ -79,6 +79,7 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
 
    1. Selezionare il frammento da includere nel canale.
    1. Fate clic sull&#39;ultima icona da destra per aprire la finestra di dialogo **Converti in frammento** esperienza.
+
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Creazione di un frammento esperienza**
@@ -91,12 +92,14 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
    1. Enter the **Fragment Title** as **ScreensFragment**.
 
    1. Fate clic sul segno di spunta per completare la creazione di un nuovo frammento esperienza.
+
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
 1. **Creazione di Live Copy di frammenti esperienza**
 
    1. Andate alla home page di AEM.
    1. Selezionate Frammenti **** esperienza ed evidenziate il frammento **Screens** e fate clic su **Variazione come Live Copy**, come illustrato nella figura seguente:
+
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
    c. Seleziona il** ScreensFragment** dalla procedura guidata **Crea Live Copy** e fai clic su **Avanti**.
@@ -118,6 +121,7 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
    1. Passare a **ScreensFragment** (creato nei passaggi precedenti) e fare clic su **Properties (Proprietà** ) dalla barra delle azioni.
 
    1. Selezionate la scheda Configurazione **** offline, come illustrato nella figura riportata di seguito.
+
    Potete aggiungere le librerie **lato** client (Java e css) e i file **** statici al frammento esperienza.
 
    L&#39;esempio seguente mostra l&#39;aggiunta di librerie lato client e dei font come parte di file statici al frammento esperienza.  ![frammento](assets/fragment.gif)
@@ -129,6 +133,7 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
 
    1. Fate clic sull’icona dei componenti dalla scheda laterale.
    1. Trascina e rilascia il frammento **** esperienza sul canale.
+
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
    e. Selezionate il componente Frammento **** esperienza e fate clic sull’icona in alto a sinistra (chiave inglese) per aprire la finestra di dialogo Frammento **** esperienza.
@@ -163,7 +168,7 @@ Dopo aver completato i passaggi precedenti, puoi convalidare il frammento esperi
 Il contenuto verrà visualizzato dalla pagina **Siti** (Live Copy del frammento esperienza) del canale, come illustrato nella figura seguente:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Propagazione delle modifiche dalla pagina master {#propagating-changes-from-the-master-page}
+## Propagazione delle modifiche alla pagina {#propagating-changes-from-the-master-page}
 
 ***Live Copy*** si riferisce alla copia (dell&#39;origine), gestita mediante azioni di sincronizzazione come definito dalle configurazioni di rollout.
 
