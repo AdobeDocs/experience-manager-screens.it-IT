@@ -11,7 +11,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 2%
 
 ---
 
@@ -56,8 +59,8 @@ Per creare agenti di replica, è necessario apprendere come creare un agente di 
 
 Per gli schermi sono necessari 3 agenti di replica:
 
-1. **Agente replica predefinito ***(specificato come***agente **replica standard)
-1. **Agente replica schermi**
+1. **Agente replica predefinito ***(specificato come***agente** replica standard)
+1. **Agente replica schermate**
 1. **Agente replica inversa**
 
 ### Passaggio 1: Creazione di un agente di replica predefinito {#step-creating-a-default-replication-agent}
@@ -92,7 +95,7 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
 
    ![screen_shot_2019-02-25at30134pm](assets/screen_shot_2019-02-25at30134pm.png)
 
-1. Passate alla scheda **Trasporto** e immettete **URI**, **Utente** e **Password**.
+1. Passate alla scheda **Trasporto** e immettete l’ **URI**, l’ **utente** e la **password**.
 
    ![screen_shot_2019-03-04at34955pm](assets/screen_shot_2019-03-04at34955pm.png)
 
@@ -101,17 +104,17 @@ Per creare un agente di replica predefinito, effettuate le operazioni seguenti:
    >È inoltre possibile copiare e rinominare un agente di replica predefinito esistente.
 
 
-#### Creazione di agenti di replica standard {#creating-standard-replication-agents}
+#### Creazione di agenti di replica standard  {#creating-standard-replication-agents}
 
 1. Creare un agente di replica standard per pub1 (l&#39;agente predefinito fornito deve già essere configurato) (ad esempio, *https://&lt;nomehost>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Creare un agente di replica standard per pub2. È possibile copiare l&#39;agente rep per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Creare un agente di replica standard per pub2. È possibile copiare l&#39;agente rep per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;nomehost>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creazione di agenti di replica dello schermo {#creating-screens-replication-agents}
 
 1. Creare un agente di replica AEM Screens per pub1. È disponibile un agente di replica Schermi denominato &quot;Out-of-the-box&quot; che punta alla porta 4503. Deve essere attivato.
 1. Creare un agente di replica AEM Screens per pub2. Copiate l&#39;agente di replica Screens per pub1 e modificate la porta in 4504 per pub2.
 
-#### Creazione di agenti di replica inversa schermo {#creating-screens-reverse-replication-agents}
+#### Creazione di agenti di replica inversa schermate {#creating-screens-reverse-replication-agents}
 
 1. Creare un agente di replica inversa standard per pub1.
 1. Creare un agente di replica inversa standard per pub2. È possibile copiare agente rep inverso per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto.
@@ -129,7 +132,7 @@ Per ogni istanza di pubblicazione:
 1. Aggiorna URL connettore topologia: aggiungete URL di tutte le istanze di pubblicazione partizionate, ossia:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Connettore topologia Whitelist: adattare a IP o subnet che coprono le istanze di pubblicazione di parte
+1. Elenco dei connettori topologia consentiti: adattare a IP o subnet che coprono le istanze di pubblicazione di parte
 1. Abilita loop locali con **arresto automatico**
 
 La configurazione deve essere identica per ogni istanza di pubblicazione e il ciclo locale di arresto automatico impedisce un ciclo infinito.
@@ -141,14 +144,14 @@ Per qualsiasi istanza di pubblicazione, passate a `https://:/system/console/topo
 #### Passaggio 3: Configurazione cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
 Questo passaggio consente di creare una password crittografata per il cluster ActiveMQ Artemis.
-L’utente del cluster e la password di tutte le istanze pubblicate nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza ha una propria chiave di crittografia, è necessario utilizzare Crypto Support per creare una stringa di password crittografata. La password crittografata verrà quindi utilizzata nella configurazione OSGi per ActiveMQ.
+L’utente del cluster e la password di tutte le istanze pubblicate nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza dispone di una propria chiave di crittografia, è necessario utilizzare Crypto Support per creare una stringa di password crittografata. La password crittografata verrà quindi utilizzata nella configurazione OSGi per ActiveMQ.
 
 Per ogni istanza di pubblicazione:
 
-1. Nella console OSGi andate a **MAIN** —> **Supporto** Crypto (*https://&lt;host>:&lt;porta>/sistema/console/crittografia*).
+1. Nella console OSGi, andate a **MAIN** —> **Supporto** Crypto (*https://&lt;host>:&lt;porta>/sistema/console/crittografia*).
 1. Digitate la password di testo normale desiderata (uguale per tutte le istanze) in Testo **normale**
 1. Fate clic su **Proteggi**.
-1. Copiare il valore Testo **** protetto in un blocco note o un editor di testo. Questo valore verrà utilizzato nella configurazione OSGi per ActiveMQ.
+1. Copiare il valore Testo **** protetto in un blocco note o in un editor di testo. Questo valore verrà utilizzato nella configurazione OSGi per ActiveMQ.
 
 Poiché per impostazione predefinita ogni istanza di pubblicazione dispone di chiavi di crittografia univoche, è necessario eseguire questo passaggio su ogni istanza di pub e salvare la chiave univoca per la configurazione successiva.
 
@@ -164,8 +167,8 @@ Per ogni istanza di pubblicazione:
 1. Seleziona configurazione provider **JMS** Apache ActiveMQ Artemis
 1. Aggiornate quanto segue:
 
-* ***Password ***cluster: (utilizzate il valore crittografato del passaggio precedente per ciascuna istanza)
-* ***Argomenti ***: {name: &#39;command&#39;, address: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
+* ***Password*** cluster: (utilizzate il valore crittografato del passaggio precedente per ciascuna istanza)
+* ***Argomenti***: {name: &#39;command&#39;, address: &#39;com.adobe.cq.screens.command&#39;, maxConsumers: 50}
 
 #### Verifica cluster ActiveMQ Artemis {#verify-activemq-artemis-cluster}
 
@@ -219,7 +222,7 @@ Una volta impostata la piattaforma di pubblicazione, è necessario configurare l
 
 #### Passaggio 2: Registrazione di un dispositivo sull&#39;autore {#step-registering-a-device-on-author}
 
-1. Accedete a `https://localhost:4502/screens.html/content/screens/we-retail` o selezionate il progetto e andate a Dispositivi > Gestione dispositivi.
+1. Accedete a `https://localhost:4502/screens.html/content/screens/we-retail` o selezionate il progetto e selezionate Devices (Dispositivi) > Device Manager (Gestione dispositivi).
 1. Selezionate **Registra dispositivo**.
 1. Fate clic su Registrazione **** dispositivo per visualizzare il dispositivo.
 1. Select the device you want to register and click **Register Device**.
@@ -239,7 +242,7 @@ Controllare il lettore e visualizzare il contenuto aggiunto nel canale.
 
 **Verifica del dispositivo**
 
-Prima di eseguire le operazioni seguenti, verificare l&#39;ID dispositivo. Per verificare, cercare l&#39;ID dispositivo in CRXDELite, con il percorso */home/users/screens/we-retail/devices*.
+Prima di eseguire le operazioni seguenti, assicurarsi di verificare l&#39;ID dispositivo. Per verificare, cercare l&#39;ID dispositivo in CRXDELite, con il percorso */home/users/screens/we-retail/devices*.
 
 Per replicare l’utente del dispositivo, effettuate le seguenti operazioni:
 
@@ -255,7 +258,7 @@ Puoi anche attivare il dispositivo dalla console di gestione dispositivo. Effett
 
 1. Andate al progetto Screens —> **Devices (Dispositivi)**.
 1. Click **Device Manager** from the action bar.
-1. Selezionate il dispositivo e fate clic su **Attiva** dalla barra delle azioni, come illustrato nella figura seguente.
+1. Selezionate il dispositivo e fate clic su **Attiva** dalla barra delle azioni, come illustrato nella figura riportata di seguito.
 
 ![screen_shot_2019-02-21at11036am](assets/screen_shot_2019-02-21at111036am.png)
 
@@ -287,7 +290,7 @@ Per verificare il comportamento di creazione e pubblicazione, effettuate le segu
 1. Ripetete questi passaggi utilizzando un&#39;altra istanza di pubblicazione
 
 
-#### Passaggio 5: Puntare il dispositivo per pubblicare l&#39;istanza nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
+#### Passaggio 5: Puntare l&#39;istanza del dispositivo per la pubblicazione nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Visualizzare l&#39;interfaccia utente di amministrazione dal lettore Screens, premere a lungo sull&#39;angolo in alto a sinistra per aprire il menu Admin, sul lettore AEM Screens abilitato per il tocco o utilizzando un mouse.
 1. Fate clic sull’opzione **Configurazione** dal pannello laterale.
