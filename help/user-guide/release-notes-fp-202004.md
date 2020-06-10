@@ -4,10 +4,10 @@ seo-title: Note sulla versione per Feature Pack 2004
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 20 aprile 2020.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 20 aprile 2020.
 translation-type: tm+mt
-source-git-commit: 7f9373c57e60081789d76069b0062ce1a0c30b9c
+source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '392'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,7 @@ ht-degree: 2%
 
 AEM Screens ha rilasciato AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4.
 
-Puoi scaricare l’ultimo pacchetto di funzioni per AEM Screens 6.4.8 o AEM Screens 6.5.4 da [Adobe Experience Manager Cloud Management](https://www.adobeaemcloud.com/content/packageshare/tools/login.html?resource=%2Fcontent%2Fmarketplace%2FmarketplaceProxy.html%3FpackagePath%3D%2Fcontent%2Fcompanies%2Fprivate%2Fsanjeev-adobe%2Fpackages%2FAEM%2520Screens%25206.5%2520FP4%2Fcq-6.5.0-featurepack-screens&amp;$$login$$=%24%24login%24%24) utilizzando il tuo Adobe ID.
-
->[!NOTE]
->Fare riferimento a [Come utilizzare i pacchetti](https://docs.adobe.com/help/en/experience-manager-65/administering/contentmanagement/package-manager.html) per apprendere come i pacchetti consentono l&#39;importazione e l&#39;esportazione di contenuto del repository e come è possibile accedere e/o gestire i pacchetti da Package Manager o Package Share.
-
+Puoi scaricare l’ultimo pacchetto di funzioni per AEM Screens 6.4.8 o AEM Screens 6.5.4 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) software utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il pacchetto di funzioni più recente.
 
 ## Data di rilascio {#release-date}
 
