@@ -4,7 +4,7 @@ seo-title: Note sulla versione per Feature Pack 2004
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 20 aprile 2020.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2004, rilasciato il 20 aprile 2020.
 translation-type: tm+mt
-source-git-commit: b74b776cd82be4d4461d2664ddc090ee2e65ec8f
+source-git-commit: d22a8ad78a8276b736a4d7455792996234d23ca3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 AEM Screens ha rilasciato AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4.
 
-Puoi scaricare l’ultimo pacchetto di funzioni per AEM Screens 6.4.8 o AEM Screens 6.5.4 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html) software utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il pacchetto di funzioni più recente.
+Puoi scaricare l’ultimo pacchetto di funzioni per AEM Screens 6.4.8 o AEM Screens 6.5.4 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il pacchetto di funzioni più recente.
 
 ## Data di rilascio {#release-date}
 
