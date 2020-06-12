@@ -2,7 +2,7 @@
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
 translation-type: tm+mt
-source-git-commit: 3527dd38898399e692e114edb492825b18b28f86
+source-git-commit: 31a6b202cae200e43e87db1df4e60f6f9d75c1bf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Per quei casi d&#39;uso in cui ci sono più interazioni con sensori o altri atti
 
 La tabella seguente fornisce una panoramica sui dati chiave di connettività di rete:
 
-![](/help/assets/direct-access-1.png)
+![](/help/assets/download-times-direct.png)
 
 >[!NOTE]
 >Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
