@@ -1,8 +1,8 @@
 ---
 title: Configurazione di Author e Publish in AEM Screens
 seo-title: Configurazione di Author e Publish in AEM Screens
-description: L'architettura di AEM Screens assomiglia a una tradizionale architettura di AEM Sites. Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per apprendere come configurare l’authoring e la pubblicazione per AEM Screens.
-seo-description: L'architettura di AEM Screens assomiglia a una tradizionale architettura di AEM Sites. Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per apprendere come configurare l’authoring e la pubblicazione per AEM Screens.
+description: L'architettura AEM Screens è simile a un'architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Seguite questa pagina per apprendere come configurare l’authoring e la pubblicazione per i AEM Screens.
+seo-description: L'architettura AEM Screens è simile a un'architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Seguite questa pagina per apprendere come configurare l’authoring e la pubblicazione per i AEM Screens.
 uuid: 0a6e87e7-0018-42ef-b484-9a3da61c636a
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: f2397d11-a18b-4779-b77b-5f99b797f40c
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 0e426a61ef3230bbf75b88ae7235d4495a49759f
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
@@ -32,12 +32,12 @@ Questa pagina evidenzia i seguenti argomenti:
 Prima di iniziare a usare i server di creazione e pubblicazione, è necessario disporre di conoscenze precedenti su:
 
 * **Topologia AEM**
-* **Creazione e gestione di un progetto AEM Screens**
+* **Creazione e gestione del progetto AEM Screens**
 * **Processo di registrazione del dispositivo**
 
 >[!NOTE]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.4 Screens Feature Pack 2. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+>Questa funzionalità AEM Screens è disponibile solo se è stato installato AEM 6.4 Screens Feature Pack 2. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
 ## Configurazione delle istanze Author e Publish {#configuring-author-and-publish-instances}
 
@@ -132,7 +132,7 @@ Per ogni istanza di pubblicazione:
 1. Aggiorna URL connettore topologia: aggiungete URL di tutte le istanze di pubblicazione partizionate, ossia:
    * `https://localhost:4503/libs/sling/topology/connector`
    * `https://localhost:4504/libs/sling/topology/connector`
-1. Elenco dei connettori topologia consentiti: adattare a IP o subnet che coprono le istanze di pubblicazione di parte
+1. **Elenco** whitelist connettore topologia: adattare a IP o subnet che coprono le istanze di pubblicazione di parte
 1. Abilita loop locali con **arresto automatico**
 
 La configurazione deve essere identica per ogni istanza di pubblicazione e il ciclo locale di arresto automatico impedisce un ciclo infinito.
@@ -209,16 +209,16 @@ Una volta impostata la piattaforma di pubblicazione, è necessario configurare l
 >
 >**Prerequisiti**
 >
->Per iniziare con questo esempio, crea un nuovo progetto AEM Screens seguito da una posizione, una visualizzazione e un canale nel progetto. Aggiungete contenuti al canale e assegnate il canale a uno schermo.
+>Per iniziare con questo esempio, crea un nuovo progetto AEM Screens seguito dalla creazione di una posizione, una visualizzazione e un canale nel progetto. Aggiungete contenuti al canale e assegnate il canale a uno schermo.
 
-#### Passaggio 1: Avvio di AEM Screens Player (dispositivo) {#step-starting-an-aem-screens-player-device}
+#### Passaggio 1: Avvio di un lettore AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
 
 1. Avvia una finestra separata del browser.
 1. Go to Screens player using the *web browser*, that is,`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. Una volta aperto il dispositivo, vedrai che lo stato del dispositivo è non registrato.
 
 >[!NOTE]
 >
->Potete aprire un lettore AEM Screens utilizzando l&#39;app AEM Screens che avete scaricato o il browser Web.
+>Potete aprire un lettore AEM Screens utilizzando l&#39;app AEM Screens scaricata o il browser Web.
 
 #### Passaggio 2: Registrazione di un dispositivo sull&#39;autore {#step-registering-a-device-on-author}
 
@@ -254,7 +254,7 @@ Per replicare l’utente del dispositivo, effettuate le seguenti operazioni:
 >
 >Non attivate il servizio di creazione, pubblicazione, schermate, in quanto è un utente del sistema, utilizzato dal processo di authoring.
 
-Puoi anche attivare il dispositivo dalla console di gestione dispositivo. Effettuate le seguenti operazioni:
+Puoi anche attivare il dispositivo dalla console di gestione dispositivo. Effettua le seguenti operazioni:
 
 1. Andate al progetto Screens —> **Devices (Dispositivi)**.
 1. Click **Device Manager** from the action bar.
@@ -264,7 +264,7 @@ Puoi anche attivare il dispositivo dalla console di gestione dispositivo. Effett
 
 >[!NOTE]
 >
->In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server facendo clic su **Modifica URL** server dalla barra delle azioni, come illustrato nella figura seguente, e le modifiche verranno propagate al lettore AEM Screens.
+>In alternativa, dopo aver attivato il dispositivo è anche possibile modificare o aggiornare l’URL del server facendo clic su **Modifica URL** server dalla barra delle azioni, come mostrato nella figura seguente, e le modifiche verranno propagate al lettore AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -274,7 +274,7 @@ Di seguito sono riepilogati gli elenchi Publishing Check:
 
 * *Utente* del dispositivo Screens: viene memorizzato come utente AEM e può essere attivato da **Strumenti** > **Protezione** > **Utenti**. L&#39;utente avrà il prefisso &quot;screens&quot; con una lunga stringa serializzata.
 
-* *Progetto* - Progetto AEM Screens.
+* *Progetto* - Il progetto AEM Screens.
 * *Posizione* - Posizione di connessione del dispositivo.
 * *Canali* : uno o più canali visualizzati nella posizione
 * *Pianificazione* : se si utilizza una pianificazione, assicurarsi che sia pubblicata
@@ -286,7 +286,7 @@ Per verificare il comportamento di creazione e pubblicazione, effettuate le segu
 1. Esegui **Gestisci pubblicazione** per pubblicare nuove modifiche a tutte le istanze di pubblicazione
 1. Premere **Activate** per attivare il dispositivo da **Device Manager**
 1. **Modificare l’URL** dall’URL dell’istanza di creazione a uno degli URL delle istanze di pubblicazione
-1. Verifica della visualizzazione del contenuto del canale aggiornato sul lettore AEM Screens
+1. Verificare che il contenuto aggiornato del canale venga visualizzato sul lettore AEM Screens
 1. Ripetete questi passaggi utilizzando un&#39;altra istanza di pubblicazione
 
 
@@ -302,10 +302,10 @@ In alternativa, puoi anche aggiornare/modificare l’URL del server dalla consol
 
 1. Andate al progetto AEM Screens e selezionate la cartella **Dispositivi** .
 1. Click **Device Manager** from the action bar.
-1. Selezionate il dispositivo e fate clic su **Modifica URL** server dalla barra delle azioni, come illustrato nella figura riportata di seguito, per estendere le modifiche al lettore AEM Screens.
+1. Selezionate il dispositivo e fate clic su **Modifica URL** server dalla barra delle azioni, come illustrato nella figura riportata di seguito, e le modifiche verranno propagate al lettore AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
-La funzione **Gestisci pubblicazione** consente di distribuire gli aggiornamenti di contenuto dall’autore alla pubblicazione sul dispositivo. Puoi pubblicare/annullare la pubblicazione del contenuto per l’intero progetto AEM Screens o solo per un canale, un percorso, un dispositivo, un’applicazione o una pianificazione. Per ulteriori informazioni su questa funzione, consultate Aggiornamento [contenuto](on-demand-content.md)on-demand.
+La funzione **Gestisci pubblicazione** consente di distribuire gli aggiornamenti di contenuto dall’autore alla pubblicazione sul dispositivo. Potete pubblicare/annullare la pubblicazione del contenuto per l’intero progetto di AEM Screens o solo per un canale, una posizione, un dispositivo, un’applicazione o una pianificazione. Per ulteriori informazioni su questa funzione, consultate Aggiornamento [contenuto](on-demand-content.md)on-demand.
 
 
