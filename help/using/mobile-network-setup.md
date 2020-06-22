@@ -1,48 +1,64 @@
 ---
-title: Configurazione della rete mobile
-description: La pagina descrive Mobile Network Setup
+title: Rete mobile diretta
+description: La pagina descrive l’impostazione della rete mobile diretta
 translation-type: tm+mt
-source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
 
 
-# Impostazioni di rete mobile {#mobile-network-setup}
+# Rete mobile diretta {#mobile-network-setup}
 
 I giocatori di AEM Screens possono anche essere collegati tramite reti mobili o cellulari che eseguono almeno una rete 3G.
 
-All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e archiviato correttamente all&#39;interno del sistema operativo sottostante. La larghezza di banda specificata influisce solo sui tempi di download iniziali e non influisce sulle prestazioni dei display.
+All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. La larghezza di banda specificata influisce solo sui tempi di download iniziali e non influisce sulle prestazioni dei display.
 
 Connessione dei lettori AEM Screens con Cellulare 3/4/5G ai provider di dati di Mobile Service. Il vantaggio di questa configurazione è che il router per dispositivi mobili può essere collocato in una posizione ottimizzata per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il meno possibile costruzione di cemento o metallo circostante.
 
 Questa configurazione consente agli utenti dello schermo AEM una grande flessibilità, in quanto non è necessaria alcuna connessione fissa per connettere AEM Screens.
 
-![](/help/using/assets/mobile-network-1.png)
+![](/help/using/assets/direct-mobile-1.png)
 
->[!NOTE]
->**Suggerimenti per la risoluzione dei problemi **>Se i AEM Screens non si connettono correttamente e non mostrano il contenuto previsto:
->
->1. Se sono presenti restrizioni, controllate il firewall Internet Router `TCP/IP Port 80/443`.
->1. Verificate che tutte le porte necessarie siano consentite e riprovate.
+## Collegamento del lettore AEM Screens alla rete mobile diretta {#connecting-aem-screens-players}
+
+Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in questa configurazione:
+
+1. Accertatevi che ciascuno dei lettori dello schermo AEM sia collegato alla rete Routers.
+
+1. Verificate la connessione Internet chiamando un URL nel browser del sistema.
+
+   >[!NOTE]
+   >Nel caso in cui venga visualizzato un messaggio di errore, controllare le impostazioni di rete. Esistono sostanzialmente due opzioni per una connessione di rete adeguata:
+   >* DHCP
+   >* Configurazione IP manuale
+
+
+1. Assicurarsi che l&#39;impostazione della scheda di rete corrisponda all&#39;impostazione del router.
+1. Verificare che il router sia collegato correttamente alla rete Internet Wide Area Network (Internet Link). In genere può essere identificato anche utilizzando un LED di segnale su router standard.
+1. Se tutte le impostazioni precedenti sono configurate correttamente e continua a essere visualizzato un messaggio di errore, verifica se sono presenti restrizioni di porta sui componenti di rete attivi come Switch o router aggiuntivi.
+1. Se la chiamata URL ha avuto esito positivo, potete continuare a installare gli AEM Screens e registrarli di conseguenza. AEM Screens iniziali.
+
+   >[!NOTE]
+   >**Suggerimenti per la risoluzione dei problemi**
+   >Se i AEM Screens non si connettono correttamente e non mostrano il contenuto previsto:
+   >
+   >1. Se sono presenti restrizioni, controllate il firewall Internet Router `TCP/IP Port 80/443`.
+   >1. Accertatevi che tutte le porte necessarie siano consentite.
 
 
 
 ## Requisiti per la configurazione della rete mobile {#requirements-direct}
 
-La configurazione della rete come descritto in 5.5 può essere separata in tre blocchi. Il WAN/Outer World/Internet Connection Block (qui mobile Data Connection), la LAN/Local Area Network interna e le sottosezioni opzionali della LAN separate da Active Network Components.
-Per ottenere le migliori prestazioni è necessario garantire che entrambe le sezioni siano conformi agli standard minimi raccomandati.
-Cosa significa &quot;buone prestazioni&quot; nell&#39;ambiente AEM Screens?
-I AEM Screens offrono un grande vantaggio agli utenti del digital signage. È in corso il download e il salvataggio locale di tutti i file multimediali necessari, ad esempio immagini e video. A causa di questo concetto, il traffico di rete principale si verifica nel caso in cui su uno schermo specifico sia presente nuovo contenuto da visualizzare.
-Per il normale funzionamento, ad esempio, avendo definito una playlist che non viene modificata molto spesso durante il giorno, questo offre un funzionamento indipendente dalla rete, una volta salvati tutti i file sul lettore.
-Per quei casi d&#39;uso in cui ci sono più interazioni con Sensori o altri Attivatori e i contenuti sono molto dinamici, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo, al fine di garantire la migliore esperienza cliente.
-Le tabelle che seguono offrono una buona panoramica dei dati chiave di connettività di rete per le prestazioni che si possono prevedere e i potenziali tempi di attesa.
-Tutte le informazioni devono essere viste come il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ognuna di queste richieste comporta l&#39;aggiunta e l&#39;estensione del tempo di download.
+La configurazione della rete può essere logicamente separata in due blocchi:
 
+* Connessione Internet mobile
 
-### WAN / Connessione Internet {#wan-connection}
+* Rete locale
+
+### Connessione Internet mobile {#mobile-internet-connection}
 
 Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete già descritta, devono fornire una larghezza di banda sufficiente per utilizzare AEM Screens in modo ordinato e ordinato. In dettaglio, &quot;sufficiente&quot; dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
 Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in genere in modo lineare, aggiungendo alla rete più utenti/computer.
@@ -57,8 +73,19 @@ Attenzione: Per il caricamento iniziale dei file multimediali, ad esempio, mentr
 Come regola di pollice, una rete 4G con una copertura &quot;buona&quot; e dati illimitati dovrebbe corrispondere alle installazioni più comuni in questa configurazione di rete
 
 
-### Connessione LAN {#lan-connection}
+### Rete locale {#lan-connection}
 
-Le prestazioni della LAN, oltre alla raggiungibilità della rete già descritta, garantiscono una larghezza di banda sufficiente per il funzionamento dei AEM Screens in modo ordinato e ordinato. In questi giorni la rete LAN corrisponde almeno a una rete da 100 MBit/sec, in modo che ci dovrebbe essere larghezza di banda sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Se si utilizza un altro componente di rete attivo, è necessario che tutti questi componenti soddisfino i requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbit/s e alla larghezza di banda fornita dalla specifica Internet Access/Router.
-Nel caso in cui sia prevista una soluzione WiFI per il collegamento dello schermo a Internet Link, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbit. Tutti gli standard più recenti, come 802.11h-n, sono di qualità migliore. Se è richiesto un Ripetitore Wifi consigliamo vivamente Mesh Wifi tecnologie punto di accesso come Google Nest Mesh Wifi o simili.
-Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
+Le prestazioni della LAN hanno, oltre alla raggiungibilità di rete già descritta, di fornire banda sufficiente per il funzionamento dei AEM Screens in modo ordinato e ordinato. In questi giorni la rete LAN corrisponde almeno a una rete da 100 MBit/sec, in modo che ci dovrebbe essere Bandwith sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Se si utilizza un altro componente di rete attivo, è obbligatorio che tutti gli altri componenti corrispondano ai requisiti della banda di rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbit/s e al Banda fornito dalla specifica Internet Access/Router.
+
+## Download di file multimediali e risorse {#download}
+
+I AEM Screens offrono un grande vantaggio agli utenti del digital signage. È in corso il download e il salvataggio locale di tutti i file multimediali necessari, ad esempio immagini e video. A causa di questo concetto, il traffico di rete principale si verifica nel caso in cui su uno schermo specifico sia presente nuovo contenuto da visualizzare.
+Per il normale funzionamento, ad esempio, avendo definito una playlist che non viene modificata molto spesso durante il giorno, questo offre un funzionamento indipendente dalla rete, una volta salvati tutti i file sul lettore.
+Per quei casi d&#39;uso in cui ci sono più interazioni con Sensori o altri Attivatori e i contenuti sono molto dinamici, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo, al fine di garantire la migliore esperienza cliente.
+Le tabelle che seguono offrono una buona panoramica dei dati chiave di connettività di rete per le prestazioni che si possono prevedere e i potenziali tempi di attesa.
+Tutte le informazioni devono essere viste come il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ognuna di queste richieste comporta l&#39;aggiunta e l&#39;estensione del tempo di download.
+
+![](/help/using/assets/download-times-mobile.png)
+
+
+
