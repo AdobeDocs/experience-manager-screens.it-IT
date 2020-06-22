@@ -2,9 +2,9 @@
 title: Configurazione della rete mobile
 description: La pagina descrive Mobile Network Setup
 translation-type: tm+mt
-source-git-commit: 88ba9ab26c4ecc3f829f53244117041a9a1fd2b3
+source-git-commit: e24fa2fbec09cbe863a3615e722ae61b57da5012
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,13 @@ ht-degree: 0%
 
 # Impostazioni di rete mobile {#mobile-network-setup}
 
-I lettori di AEM Screens Adobe possono anche essere connessi utilizzando Mobile/Cellular Networks con almeno una rete 3G.
-All&#39;interno dei AEM Screens, il contenuto necessario viene fisicamente scaricato nel controller/computer del lettore e archiviato correttamente all&#39;interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali e non influenza affatto le prestazioni dei sistemi di visualizzazione.
-Connessione dei lettori AEM Screens con Cellulare 3/4/5G ai provider di dati di Mobile Service. Il vantaggio di questa configurazione è che il router per dispositivi mobili può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il meno possibile costruzione di cemento o metallo circostante.
-Questa configurazione consente agli utenti dello schermo AEM una grande flessibilità, in quanto non è necessaria una linea fissa per connettere AEM Screens.
+I giocatori di AEM Screens possono anche essere collegati tramite reti mobili o cellulari che eseguono almeno una rete 3G.
 
+All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e archiviato correttamente all&#39;interno del sistema operativo sottostante. La larghezza di banda specificata influisce solo sui tempi di download iniziali e non influisce sulle prestazioni dei display.
+
+Connessione dei lettori AEM Screens con Cellulare 3/4/5G ai provider di dati di Mobile Service. Il vantaggio di questa configurazione è che il router per dispositivi mobili può essere collocato in una posizione ottimizzata per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il meno possibile costruzione di cemento o metallo circostante.
+
+Questa configurazione consente agli utenti dello schermo AEM una grande flessibilità, in quanto non è necessaria alcuna connessione fissa per connettere AEM Screens.
 
 ![](/help/using/assets/mobile-network-1.png)
 
@@ -25,7 +27,6 @@ Questa configurazione consente agli utenti dello schermo AEM una grande flessibi
 >
 >1. Se sono presenti restrizioni, controllate il firewall Internet Router `TCP/IP Port 80/443`.
 >1. Verificate che tutte le porte necessarie siano consentite e riprovate.
-
 
 
 
@@ -44,7 +45,7 @@ Tutte le informazioni devono essere viste come il consumo di ogni dispositivo ne
 ### WAN / Connessione Internet {#wan-connection}
 
 Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete già descritta, devono fornire una larghezza di banda sufficiente per utilizzare AEM Screens in modo ordinato e ordinato. In dettaglio, &quot;sufficiente&quot; dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
-Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare, aggiungendo alla rete più utenti/computer.
+Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in genere in modo lineare, aggiungendo alla rete più utenti/computer.
 Oltre alla specifica connessione teorica di rete, è necessario garantire che la copertura del router mobile sia almeno &quot;buona&quot; (fare riferimento al manuale del router mobile). Inoltre, il piano mensile sottostante deve coprire una capacità dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN collegata.
 Le reti dati forniscono una larghezza di banda standard con circa fino a:
 ・ 3 Go 42 Mbit/sec ・ 4 Go 150 Mbit/sec ・ 5Go 1000 Mbit/sec-10000 Mbit/secMentre si considera quale rete dati debba essere utilizzata, si consiglia di rispondere alle seguenti domande:
