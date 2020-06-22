@@ -2,7 +2,7 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 6a0460fd6c62fd6408d3c7665b626818929351d9
+source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -45,3 +45,5 @@ Per il normale funzionamento, ad esempio, avendo definito una playlist che non v
 Le tabelle che seguono offrono una buona panoramica dei dati chiave di connettività di rete per le prestazioni che si possono prevedere e i potenziali tempi di attesa.
 
 Tutte le informazioni devono essere viste come il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ognuna di queste richieste comporta l&#39;aggiunta e l&#39;estensione del tempo di download.
+
+![](/help/using/assets/enclosed-network-download.png)
