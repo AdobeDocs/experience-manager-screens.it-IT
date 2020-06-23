@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 0b1106b3cf7f83857f83e43f773a0d19556cfec5
+source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -12,29 +12,38 @@ ht-degree: 0%
 
 # Reti aziendali collegate {#enclosed-corporate-networks}
 
-La configurazione della rete aziendale chiusa è applicabile alle aziende più piccole, grandi e piccole. Può essere teoricamente più complesso, ma l’impostazione logica è sempre come illustrato di seguito in un esempio semplificato.
-
-## Requisiti per l&#39;impostazione di reti aziendali chiuse {#requirements-enclosed-networks}
-
-La configurazione della rete aziendale chiusa può essere logicamente separata in due blocchi. La rete WAN (Wide Area Network) e la rete LAN (Local Area Network) interna.
+La configurazione della rete aziendale chiusa è applicabile alle aziende più piccole, grandi e piccole. Può essere teoricamente più complesso, ma la configurazione logica è illustrata nella figura seguente.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+## Requisiti per l&#39;impostazione di reti aziendali chiuse {#requirements-enclosed-networks}
+
+La configurazione della rete aziendale chiusa può essere logicamente separata in due blocchi:
+
+* Wide Area Network (WAN)
+* LAN (Local Area Network).
+
 ### Ampia rete di reti {#wan-connection}
 
-Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete già descritta, devono fornire una larghezza di banda sufficiente per utilizzare AEM Screens in modo ordinato e ordinato.
-In dettaglio, &quot;sufficiente&quot; dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
-Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda è generalmente in diminuzione lineare, mentre l&#39;aggiunta di più consumatori/computer alla rete.
+Le prestazioni della connessione Internet oltre alla raggiungibilità della rete, è di fornire una larghezza di banda sufficiente per operare AEM Screens in modo ordinato e ordinato.
+*Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri utenti della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
+
+>[!NOTE]
+>Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda, in genere, diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della LAN, oltre alla raggiungibilità della rete già descritta, garantiscono una larghezza di banda sufficiente per il funzionamento dei AEM Screens in modo ordinato e ordinato. In questi giorni la rete LAN all&#39;interno delle organizzazioni aziendali corrisponde almeno a una rete da 1000 MBit/sec, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Se si utilizza un altro componente di rete attivo, è necessario che tutti questi componenti soddisfino i requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 1000 Mbit/s e alla larghezza di banda fornita dalla specifica Internet Access/Router.
+Le prestazioni della rete LAN (Local Area Network), oltre alla raggiungibilità della rete, consentono di disporre di una larghezza di banda sufficiente a garantire un funzionamento ottimale dei AEM Screens.
+
+In questi giorni la rete LAN all&#39;interno delle organizzazioni aziendali corrisponde almeno a una rete da 1000 MBit/sec, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Durante l&#39;utilizzo di altri componenti di rete attivi, è obbligatorio che tutti questi componenti corrispondano ai requisiti di larghezza di banda della rete.
+
+Ad esempio, i componenti di rete devono corrispondere almeno allo standard 1000 Mbps e alla larghezza di banda fornita dalla specifica Internet Access/Router.
 
 ### Altre reti aziendali specifiche {#other-networks}
 
 Solitamente le reti aziendali dispongono di un carico di dispositivi collegati, potrebbero essere separati in varie sottorete reti e potrebbero disporre di connessioni Internet ridondanti o multiplex per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
 Lo schema di cui sopra è semplificato e si adatta nella maggior parte dei casi all&#39;ambiente disponibile per il client.
-Nel caso in cui sia prevista una soluzione WiFI per il collegamento dello schermo a Internet Link, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbit. Tutti gli standard più recenti, come 802.11h-n, sono di qualità migliore. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
+Nel caso in cui sia prevista una soluzione WiFI per collegare lo schermo al collegamento internet, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard più recenti, come 802.11h-n, sono di qualità migliore. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
 Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
