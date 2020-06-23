@@ -2,9 +2,9 @@
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,7 @@ Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in q
 1. Verificare che l&#39;impostazione della scheda di rete corrisponda all&#39;impostazione del router e verificare che la quantità massima di indirizzi IP disponibili nella rete non sia raggiunta.
 
 1. Verificare che il router sia collegato correttamente alla rete Internet Wide Area Network (Internet Link). In genere può essere identificato anche utilizzando un LED di segnale su router standard.
-1. Se la chiamata URL ha avuto esito positivo, potete continuare a installare gli AEM Screens e registrarli di conseguenza
-1. AEM Screens iniziali.
+1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarli di conseguenza. AEM Screens iniziali.
 
    >[!NOTE]
    >**Suggerimenti per la risoluzione dei problemi**
@@ -62,7 +61,9 @@ L&#39;impostazione della rete di accesso diretto può essere logicamente separat
 
 ### Ampia rete di reti {#wan-connection}
 
-Le prestazioni della connessione Internet oltre alla raggiungibilità della rete, è di fornire una larghezza di banda sufficiente per operare AEM Screens in modo ordinato e ordinato. In dettaglio, &quot;sufficiente&quot; dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
+Le prestazioni della connessione Internet oltre alla raggiungibilità della rete, è di fornire una larghezza di banda sufficiente per operare AEM Screens in modo ordinato e ordinato.
+
+*Sufficiente* dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
 
 >[!NOTE]
 >Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in genere in modo lineare quando si aggiungono più consumatori/computer alla rete.
@@ -83,9 +84,10 @@ I AEM Screens offrono un grande vantaggio agli utenti del digital signage. Conse
 Per il normale funzionamento, ad esempio, avendo definito una playlist che non cambia molto spesso durante il giorno, questo offre un funzionamento indipendente dalla rete, una volta che tutti i file sono stati salvati sul lettore.
 Per quei casi d&#39;uso in cui ci sono più interazioni con sensori o altri attivatori e il contenuto è molto dinamico, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo per garantire la migliore esperienza cliente.
 
-La tabella seguente fornisce una panoramica sui dati chiave di connettività di rete:
+La tabella seguente fornisce una panoramica sui dati chiave della connettività di rete.
+
+>[!NOTE]
+>Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/assets/download-times-direct.png)
 
->[!NOTE]
->Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ognuna di queste richieste comporta l&#39;aggiunta e l&#39;estensione del tempo di download.
