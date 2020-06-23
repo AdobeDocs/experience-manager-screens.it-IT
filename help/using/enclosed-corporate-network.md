@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 1000 
 
 Solitamente le reti aziendali dispongono di un carico di dispositivi collegati, potrebbero essere separati in varie sottorete reti e potrebbero disporre di connessioni Internet ridondanti o multiplex per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
 Lo schema di cui sopra è semplificato e si adatta nella maggior parte dei casi all&#39;ambiente disponibile per il client.
-Nel caso in cui sia prevista una soluzione WiFI per collegare lo schermo al collegamento internet, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard più recenti, come 802.11h-n, sono di qualità migliore. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
+Nel caso in cui sia prevista una soluzione WiFI per il collegamento dello schermo a Internet Link, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard più recenti, come 802.11h-n, sono di qualità migliore. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
 Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
@@ -53,6 +53,7 @@ Per il normale funzionamento, ad esempio, avendo definito una playlist che non v
 
 Le tabelle che seguono offrono una buona panoramica dei dati chiave di connettività di rete per le prestazioni che si possono prevedere e i potenziali tempi di attesa.
 
-Tutte le informazioni devono essere viste come il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ognuna di queste richieste comporta l&#39;aggiunta e l&#39;estensione del tempo di download.
+>[!NOTE]
+>Tutte le informazioni devono essere viste come il consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/using/assets/enclosed-network-download.png)
