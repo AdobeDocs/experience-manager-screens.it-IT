@@ -4,15 +4,15 @@ seo-title: Introduzione alle impostazioni di rete standard
 description: La pagina descrive le impostazioni di rete standard
 seo-description: La pagina descrive le impostazioni di rete standard
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: ae7da9c48188c3f7567d05d0e9a5a6b72383d539
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 
-# Introduzione alle impostazioni di rete standard {#intro-standard-networks}
+# Gestione del traffico di rete {#managing-network-traffic}
 
 Una configurazione di rete può avere diverse strutture. Questa sezione fornisce una panoramica delle strutture di rete implementate in un ambiente. Esistono diverse impostazioni che a volte vengono implementate da zero.
 
@@ -27,7 +27,7 @@ Un server proxy è un computer dedicato o un sistema software in esecuzione su u
 
 Un vantaggio di un server proxy è rappresentato dal fatto che la sua cache può essere utilizzata da tutti gli utenti. Se uno o più siti Internet sono frequentemente richiesti, è probabile che si trovino nella cache del proxy, il che migliorerà il tempo di risposta dell&#39;utente. Un proxy può anche registrare le sue interazioni, il che può essere utile per la risoluzione dei problemi.
 
-## Informazioni sulle impostazioni di rete {#network-setups}
+## Informazioni sulle impostazioni di rete standard {#network-setups}
 
 Per implementare una configurazione di rete, è necessario fare riferimento ai seguenti scenari con i punti di forza e i dettagli di distribuzione.
 
