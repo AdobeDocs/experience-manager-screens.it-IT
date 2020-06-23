@@ -2,9 +2,9 @@
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 77cf87cbce39a00528b2690d9689861b91e61fc5
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rete Internet diretta (via cavo/wireless) {#direct-internet-access}
 
-L&#39;impostazione Accesso diretto a Internet contiene un punto di accesso per l&#39;accesso a Internet al fine di raggiungere i AEM cloud services a cui i AEM Screens devono connettersi.
+La rete Internet diretta contiene un punto di accesso per l&#39;accesso a Internet al fine di raggiungere i AEM cloud services a cui i AEM Screens devono connettersi.
 
 Le porte standard per la comunicazione AEM Screens sono:
 * `http (TCP Port 80)`
@@ -38,10 +38,10 @@ Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in q
    >* Configurazione IP manuale
 
 
-1. Verificare che l&#39;impostazione della scheda di rete corrisponda all&#39;impostazione del router e verificare che la quantità massima di indirizzi IP disponibili nella rete non sia raggiunta.
+1. Assicurarsi che l&#39;impostazione della scheda di rete corrisponda all&#39;impostazione del router e verificare che la quantità massima di indirizzi IP disponibili nella rete non sia raggiunta.
 
-1. Verificare che il router sia collegato correttamente alla rete Internet Wide Area Network (Internet Link). In genere può essere identificato anche utilizzando un LED di segnale su router standard.
-1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarli di conseguenza. AEM Screens iniziali.
+1. Verificare che il router sia connesso correttamente alla rete Internet Wide Area Network (Internet Link). Questo può essere identificato anche utilizzando un LED di segnale su router standard.
+1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarvi. AEM Screens iniziali.
 
    >[!NOTE]
    >**Suggerimenti per la risoluzione dei problemi**
@@ -53,7 +53,7 @@ Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in q
 
 ## Requisiti per la configurazione della rete di accesso diretto {#requirements-direct}
 
-L&#39;impostazione della rete di accesso diretto può essere logicamente separata in due blocchi:
+La rete Internet diretta può essere logicamente separata in due blocchi:
 
 * Ampia rete di reti
 
@@ -61,28 +61,30 @@ L&#39;impostazione della rete di accesso diretto può essere logicamente separat
 
 ### Ampia rete di reti {#wan-connection}
 
-Le prestazioni della connessione Internet oltre alla raggiungibilità della rete, è di fornire una larghezza di banda sufficiente per operare AEM Screens in modo ordinato e ordinato.
+Oltre alla raggiungibilità della rete, le prestazioni della connessione Internet consentono di fornire una larghezza di banda sufficiente per il funzionamento dei AEM Screens.
 
-*Sufficiente* dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
+*Sufficiente* dipende dalla quantità di schermi AEM connessi e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassiere, computer o reti WIFI guest.
 
 >[!NOTE]
->Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in genere in modo lineare quando si aggiungono più consumatori/computer alla rete.
+>Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, forniscono una larghezza di banda sufficiente per operare AEM Screens in modo ordinato e ordinato.
+Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, forniscono una larghezza di banda sufficiente per il funzionamento dei AEM Screens.
 
-In genere la rete LAN corrisponde ad almeno una rete da 100 MBit/sec, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
-Nel caso in cui sia prevista una soluzione WIFI per collegare AEM Screens a internet Link, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come 802.11h-n sono di qualità migliore.
+La rete LAN solitamente corrisponde ad almeno una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
+Nel caso in cui sia prevista una soluzione WIFI per collegare AEM Screens a Internet Link, si consiglia di utilizzare standard WIFI moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità.
 
 >[!NOTE]
 >Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili. Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
 
-I AEM Screens offrono un grande vantaggio agli utenti del digital signage. Consente di scaricare e salvare localmente tutti i file multimediali necessari, come immagini e video. A causa di questo concetto, il traffico di rete principale si verifica in presenza di nuovo contenuto da visualizzare su uno schermo specifico.
-Per il normale funzionamento, ad esempio, avendo definito una playlist che non cambia molto spesso durante il giorno, questo offre un funzionamento indipendente dalla rete, una volta che tutti i file sono stati salvati sul lettore.
-Per quei casi d&#39;uso in cui ci sono più interazioni con sensori o altri attivatori e il contenuto è molto dinamico, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo per garantire la migliore esperienza cliente.
+I AEM Screens offrono un grande vantaggio agli utenti del digital signage. Consente di scaricare e salvare localmente tutti i file multimediali necessari, come immagini e video. Il traffico di rete principale si verifica in presenza di nuovo contenuto da visualizzare su un display specifico.
+
+Per le normali operazioni, ad esempio, con una playlist definita che si aggiorna frequentemente durante il giorno, questo offre un funzionamento indipendente dalla rete, una volta che tutti i file sono stati salvati sul lettore.
+
+Per quei casi d&#39;uso in cui ci sono più interazioni con sensori o altri attivatori e il contenuto è molto dinamico, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo per garantire la migliore esperienza del cliente.
 
 La tabella seguente fornisce una panoramica sui dati chiave della connettività di rete.
 
