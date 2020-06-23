@@ -2,9 +2,9 @@
 title: Rete mobile diretta
 description: La pagina descrive l’impostazione della rete mobile diretta
 translation-type: tm+mt
-source-git-commit: 6d6637d5222e861fa9a83f555baf0699f56f150a
+source-git-commit: 70dddffd46ebf1bd83b25515be548bc442e45fea
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in q
 
 
 1. Assicurarsi che l&#39;impostazione della scheda di rete corrisponda all&#39;impostazione del router.
-1. Verificare che il router sia collegato correttamente alla rete Internet Wide Area Network (Internet Link). In genere può essere identificato anche utilizzando un LED di segnale su router standard.
+
+1. Verificare che il router sia collegato correttamente alla rete Internet Wide Area Network (Internet Link). Questo può essere identificato anche utilizzando un LED di segnale su router standard.
 
 1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarli di conseguenza. AEM Screens iniziali.
 
