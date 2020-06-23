@@ -1,14 +1,14 @@
 ---
 user-guide-title: Guida alle best practice per i progetti AEM Screens
 solution-title: AEM Screens
-getting-started-title: Guida alle best practice per AEM Screens
+getting-started-title: Guida alle best practice per i AEM Screens
 product: experience manager
 audience: end-user
 translation-type: tm+mt
-source-git-commit: bf40f06a782ba0ac665697900570d5c905dd4ddc
+source-git-commit: 6690af1a6d453fc9ca8a76bc0d5220450f222fc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 95%
+source-wordcount: '130'
+ht-degree: 76%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 95%
 + Informazioni sulla distribuzione {#deployment-brief}
    + [Configurazioni della piattaforma AEM](aem-platform-configurations.md)
    + [Tassonomia e implementazione dei progetti](project-taxonomy-implementation.md)
+   + Gestione del traffico di rete {#manage-network-traffic}
+      + [Rete Internet diretta (via cavo/wireless)](/help/using/direct-internet-network.md)
+      + [Rete mobile diretta](/help/using/mobile-network.md)
+      + [Rete mobile con Mobile Data Router e Componenti di rete attivi](/help/using/mobile-network-router.md)
+      + [Rete aziendale chiusa (cablata/wireless)](/help/using/enclosed-corporate-network.md)
    + [Configurazioni dispositivo](device-configurations.md)
    + [Test e garanzia della qualità](testing-quality-assurance.md)
    + [Strategia di coinvolgimento del fornitore](vendor-engagement.md)
