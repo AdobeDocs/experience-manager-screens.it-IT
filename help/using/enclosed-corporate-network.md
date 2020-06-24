@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,10 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 1000 
 
 ### Altre reti aziendali specifiche {#other-networks}
 
-Solitamente le reti aziendali dispongono di un carico di dispositivi collegati, potrebbero essere separati in varie sottorete reti e potrebbero disporre di connessioni Internet ridondanti o multiplex per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
-Lo schema di cui sopra è semplificato e si adatta nella maggior parte dei casi all&#39;ambiente disponibile per il client.
-Nel caso in cui sia prevista una soluzione WiFI per il collegamento dello schermo a Internet Link, si consiglia di utilizzare come minimo standard WIFI moderni come IEEE 802.11g. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard più recenti, come 802.11h-n, sono di qualità migliore. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
+Solitamente le reti aziendali dispongono di un carico di dispositivi collegati, potrebbero essere separati in varie sottoreti e potrebbero disporre di connessioni Internet ridondanti o multiplex per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
+Questo schema è semplificato e si adatta nella maggior parte dei casi all&#39;ambiente disponibile per il client.
+
+Nel caso in cui sia prevista una soluzione WIFI per collegare lo schermo a Internet Link, si consiglia di utilizzare standard WIFI moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
 Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
