@@ -2,9 +2,9 @@
 title: Rete mobile diretta
 description: La pagina descrive l’impostazione della rete mobile diretta
 translation-type: tm+mt
-source-git-commit: 0be82fcc46166ec0613bd658a0caeab83bd72551
+source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,19 @@ ht-degree: 0%
 
 I giocatori di AEM Screens possono anche essere collegati tramite reti mobili o cellulari che eseguono almeno una rete 3G.
 
-All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. La larghezza di banda specificata influisce solo sui tempi di download iniziali e non influisce sulle prestazioni dei display.
+All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. Di conseguenza, la larghezza di banda specificata influisce solo sui tempi di download iniziali e non sulle prestazioni dei display.
 
-Connessione dei lettori AEM Screens con Cellulare 3/4/5G ai provider di dati di Mobile Service. Il vantaggio di questa configurazione è che il router per dispositivi mobili può essere collocato in una posizione ottimizzata per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il meno possibile costruzione di cemento o metallo circostante.
+Connessione dei lettori AEM Screens con Cellulare 3/4/5G al provider di dati Mobile Service. Il vantaggio di questa configurazione è che Mobile Router può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il più possibile la costruzione di calcestruzzo o metallo circostante.
 
-Questa configurazione consente agli utenti dello schermo AEM una grande flessibilità, in quanto non è necessaria alcuna connessione fissa per connettere AEM Screens.
+Questa configurazione consente agli utenti di AEM Screen una grande flessibilità, in quanto non è necessaria alcuna connessione fissa per connettersi ai AEM Screens.
+
+Il diagramma seguente mostra l&#39;impostazione della rete mobile diretta ed è composto da un segmento di connessione di rete singolo, la connessione di ciascun lettore alla rete dati mobile/cellulare.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
 ## Collegamento del lettore AEM Screens alla rete mobile diretta {#connecting-aem-screens-players}
 
-Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in questa configurazione:
+Per collegare i lettori AEM Screens in questa configurazione, effettuate le seguenti operazioni:
 
 1. Accertatevi che ciascuno dei lettori dello schermo AEM sia collegato alla rete Routers.
 
@@ -40,7 +42,7 @@ Segui i passaggi indicati di seguito per collegare i lettori di schermo AEM in q
 
 1. Verificare che il router sia collegato correttamente alla rete Internet Wide Area Network (Internet Link). Questo può essere identificato anche utilizzando un LED di segnale su router standard.
 
-1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarli di conseguenza. AEM Screens iniziali.
+1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarvi. AEM Screens iniziali.
 
    >[!NOTE]
    >**Suggerimenti per la risoluzione dei problemi**
@@ -61,11 +63,12 @@ La configurazione della rete può essere logicamente separata in due blocchi:
 
 ### Connessione Internet mobile {#mobile-internet-connection}
 
-Le prestazioni della connessione Internet oltre alla raggiungibilità della rete forniscono una larghezza di banda sufficiente per utilizzare AEM Screens in modo ordinato e ordinato.
+Le prestazioni della connessione Internet oltre alla raggiungibilità della rete forniscono una larghezza di banda sufficiente per il corretto funzionamento dei AEM Screens.
 
 *Sufficiente* dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
-Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda è generalmente in diminuzione lineare, mentre l&#39;aggiunta di più consumatori/computer alla rete.
-Oltre alla specifica connessione teorica di rete, è necessario garantire che la copertura del router mobile sia almeno &quot;buona&quot; (fare riferimento al manuale del router mobile). Inoltre, il piano mensile sottostante deve coprire una capacità dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN collegata.
+
+>[!NOTE]
+>Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare aggiungendo alla rete più utenti o computer.
 
 Le reti dati forniscono una larghezza di banda standard con:
 
@@ -95,15 +98,18 @@ Mentre considera quale rete dati utilizzare, si consiglia di rispondere alle seg
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della LAN, oltre alla raggiungibilità della rete già descritta, garantiscono una larghezza di banda sufficiente per il funzionamento dei AEM Screens in modo ordinato e ordinato. In questi giorni la rete LAN corrisponde almeno a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Se si utilizza un altro componente di rete attivo, è necessario che tutti questi componenti soddisfino i requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica Internet Access/Router.
+Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, consentono di disporre di una larghezza di banda sufficiente a garantire un funzionamento fluido dei AEM Screens. La rete LAN è in genere almeno uguale a una rete a 100 Mbps, per cui dovrebbe esserci una larghezza di banda sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
+
+Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti questi corrispondano ai requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica Internet Access/Router.
 
 ## Download di file multimediali e risorse {#download}
 
-I AEM Screens offrono un grande vantaggio agli utenti del digital signage. Consente di scaricare e salvare localmente tutti i file multimediali necessari, ad esempio immagini e video. A causa di questo concetto, il traffico di rete principale si verifica nel caso in cui su uno schermo specifico siano presenti nuovi contenuti da visualizzare.
-Per il normale funzionamento, ad esempio, una playlist definita che non viene modificata molto spesso durante il giorno, offre un funzionamento indipendente dalla rete, una volta che tutti i file sono stati salvati sul lettore.
+I AEM Screens offrono un grande vantaggio agli utenti del digital signage. Consente di scaricare e salvare localmente tutti i file multimediali necessari, come immagini e video. A causa di ciò, si verifica un traffico di rete rilevante nel caso in cui su uno schermo specifico sia presente nuovo contenuto da visualizzare.
+Per il normale funzionamento, ad esempio, una playlist definita che non viene aggiornata frequentemente durante il giorno, offre un funzionamento indipendente dalla rete, una volta che tutti i file sono stati salvati sul lettore.
 Per quei casi d&#39;uso in cui ci sono più interazioni con Sensori o altri Attivatori e i contenuti sono molto dinamici, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo, al fine di garantire la migliore esperienza cliente.
 
-La tabella seguente fornisce una panoramica dei dati chiave per la connettività di rete relativi alle prestazioni che possono essere previste e ai potenziali tempi di attesa.
+La tabella seguente fornisce una panoramica dei dati chiave della connettività di rete responsabili delle prestazioni che possono essere previste e dei potenziali tempi di attesa.
+
 >[!NOTE]
 >Tutte le informazioni si riferiscono al consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
