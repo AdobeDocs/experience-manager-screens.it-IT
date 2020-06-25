@@ -2,7 +2,7 @@
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
 translation-type: tm+mt
-source-git-commit: 6afb71bd969ccfde91c2172ceb2d2f76645c7df1
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Le porte possono variare a causa della configurazione della configurazione AEM. 
 
 ![](/help/assets/direct-access-2.png)
 
-La configurazione include anche un accesso a Internet da parte di un provider di servizi Internet (ISP) e una linea Internet. La maggior parte dei provider Internet fornisce un router Internet che copre il modem Internet, lo switch di rete, il punto di accesso WIFI, il firewall e altre funzionalità di rete (a seconda del produttore e del modello).
+La configurazione include anche un accesso a Internet da parte di un provider di servizi Internet (ISP) e una linea Internet. La maggior parte degli ISP fornisce un router Internet che copre il modem Internet, lo switch di rete, il punto di accesso Wi-Fi, il firewall e altre funzionalità di rete (a seconda del produttore e del modello).
 
 ## Collegamento del lettore AEM Screens a Direct Internet Access {#connecting-aem-screens-players}
 
@@ -64,7 +64,7 @@ La rete Internet diretta è logicamente separata in due blocchi:
 
 Oltre alla raggiungibilità della rete, le prestazioni della connessione Internet consentono di fornire una larghezza di banda sufficiente per il funzionamento dei AEM Screens.
 
-*Sufficiente* dipende dal numero di schermi AEM connessi e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassiere, computer o reti Wi-Fi guest.
+*Sufficiente* dipende dal numero di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
 
 >[!NOTE]
 >Tutti i dispositivi sopra menzionati dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
@@ -74,10 +74,10 @@ Oltre alla raggiungibilità della rete, le prestazioni della connessione Interne
 Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, forniscono una larghezza di banda sufficiente per il funzionamento dei AEM Screens.
 
 La rete LAN solitamente corrisponde ad almeno una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
-Nel caso in cui sia prevista una soluzione WIFI per collegare AEM Screens a Internet Link, si consiglia di utilizzare standard WIFI moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens a Internet Link, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità.
 
 >[!NOTE]
->Se è richiesto un Ripetitore WIFI, è fortemente consigliato un punto di accesso Mesh WIFI come Google Nest Mesh WIFI o simili. Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
+>Se è necessario un ripetitore Wi-Fi, si consiglia vivamente un punto di accesso Mesh Wi-Fi come Google Nest Mesh Wi-Fi o simile. Altre tecnologie ripetute Wi-Fi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
 
