@@ -2,7 +2,7 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Reti aziendali chiuse (cablate/wireless) {#enclosed-corporate-networks}
+# Rete aziendale chiusa (cablata/wireless) {#enclosed-corporate-networks}
 
 La configurazione della rete aziendale è applicabile alle aziende più piccole, grandi e piccole. Può essere teoricamente più complesso, e l’impostazione logica è illustrata nella figura seguente.
 
