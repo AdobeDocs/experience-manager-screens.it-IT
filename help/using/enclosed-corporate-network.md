@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: eaeea4933be708beca0628438e6cef6142a0490f
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Segui i passaggi indicati di seguito per garantire la corretta connessione dei l
    >1. Accertatevi che tutte le porte necessarie siano consentite.
 
 
-## Requisiti per l&#39;impostazione di reti aziendali chiuse {#requirements-enclosed-networks}
+## Impostazione di reti aziendali chiuse {#requirements-enclosed-networks}
 
 La configurazione della rete aziendale chiusa può essere logicamente separata in due blocchi:
 
