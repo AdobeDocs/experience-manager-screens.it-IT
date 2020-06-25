@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 8e62b3fc4ce324e02aaec6fca9df79b1aaf94d72
+source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,33 @@ La configurazione della rete aziendale chiusa è applicabile alle aziende più p
 
 ![](/help/using/assets/enclosed-network-1.png)
 
+
+## Collegamento del lettore AEM Screens a Direct Internet Access {#connecting-aem-screens-players}
+
+Segui i passaggi indicati di seguito per garantire la corretta connessione dei lettori dello schermo AEM in questa configurazione:
+
+1. Accertatevi che ciascuno dei lettori dello schermo AEM sia collegato alla rete Routers.
+1. Verificate la connessione Internet chiamando un URL nel browser del sistema.
+
+   >[!NOTE]
+   >Nel caso in cui si riceva un errore, controllare le impostazioni di rete. Esistono sostanzialmente due opzioni per una connessione di rete adeguata:
+   >* DHCP
+   >* Configurazione IP manuale
+
+
+1. Assicurarsi che l&#39;impostazione della scheda di rete corrisponda alle impostazioni del router e verificare che la quantità massima di indirizzi IP disponibili nella rete non sia raggiunta.
+
+1. Verificare che il router sia connesso correttamente alla rete Internet Wide Area Network (Internet Link). Questo può essere identificato anche utilizzando un LED di segnale su router standard.
+1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarvi. AEM Screens iniziali.
+
+   >[!NOTE]
+   >**Suggerimenti per la risoluzione dei problemi**
+   >Se i AEM Screens non si connettono correttamente e il contenuto previsto non viene visualizzato:
+   >
+   >1. Se sono presenti restrizioni, controllate il firewall Internet Router `TCP/IP Port 80/443`.
+   >1. Accertatevi che tutte le porte necessarie siano consentite.
+
+
 ## Requisiti per l&#39;impostazione di reti aziendali chiuse {#requirements-enclosed-networks}
 
 La configurazione della rete aziendale chiusa può essere logicamente separata in due blocchi:
@@ -26,7 +53,7 @@ La configurazione della rete aziendale chiusa può essere logicamente separata i
 ### Ampia rete di reti {#wan-connection}
 
 Le prestazioni della connessione Internet oltre alla raggiungibilità della rete, è di fornire una larghezza di banda sufficiente per operare AEM Screens in modo ordinato e ordinato.
-*Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri utenti della rete, come smartphone, tablet, cassieri, computer o reti WiFi per gli ospiti.
+*Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri utenti della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
 
 >[!NOTE]
 >Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda, in genere, diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
@@ -44,8 +71,8 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 1000 
 Solitamente le reti aziendali dispongono di un carico di dispositivi collegati, potrebbero essere separati in varie sottoreti e potrebbero disporre di connessioni Internet ridondanti o multiplex per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
 Questo schema è semplificato e si adatta nella maggior parte dei casi all&#39;ambiente disponibile per il client.
 
-Nel caso in cui sia prevista una soluzione WIFI per collegare lo schermo a Internet Link, si consiglia di utilizzare standard WIFI moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità. Se è richiesto un Ripetitore WIFI, consigliamo vivamente le tecnologie Mesh WIFI Access-point come Google Nest Mesh WIFI o simili.
-Altre tecnologie ripetute WiFi finiscono con una massiccia perdita di larghezza di banda nella rete.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare lo schermo a Internet Link, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità. Se è necessario un ripetitore Wi-Fi, consigliamo vivamente le tecnologie Mesh Wi-Fi Access-Point come Google Nest Mesh Wi-Fi o simili.
+Altre tecnologie ripetute Wi-Fi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
 
