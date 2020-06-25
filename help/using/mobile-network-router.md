@@ -2,9 +2,9 @@
 title: Rete mobile con Mobile Data Router e Componenti di rete attivi
 description: La pagina descrive Mobile Network con Mobile Data Router e Active Network Components
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ La configurazione contiene l&#39;accesso a Internet di uno qualsiasi dei control
 
 
 
-## Requisiti per la configurazione di Mobile Network con Mobile Data Router e componenti di rete attivi {#requirements-direct}
+## Configurazione di Mobile Network con Mobile Data Router e componenti di rete attivi {#requirements-direct}
 
 La configurazione della rete può essere logicamente separata in due blocchi:
 
