@@ -2,9 +2,9 @@
 title: Rete mobile diretta
 description: La pagina descrive l’impostazione della rete mobile diretta
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Segui i passaggi indicati di seguito per garantire la corretta connessione dei l
 
 1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarvi. AEM Screens iniziali.
 
-## Requisiti per la configurazione della rete mobile {#requirements-direct}
+## Impostazione di una rete mobile diretta {#requirements-direct}
 
 La configurazione della rete può essere logicamente separata in due blocchi:
 
