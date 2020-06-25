@@ -2,9 +2,9 @@
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
 translation-type: tm+mt
-source-git-commit: ed683a86b7e8c6ec06309577bd0a8690a9cc4684
+source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ La rete Internet diretta contiene un punto di accesso per l&#39;accesso a Intern
 
 Le porte standard per la comunicazione AEM Screens sono:
 * `http (TCP Port 80)`
+
    <br>Oppure,</br>
 
 * `ssl-secured https (TCP Port 443)`
@@ -52,7 +53,7 @@ Segui i passaggi indicati di seguito per garantire la corretta connessione dei l
    >1. Accertatevi che tutte le porte necessarie siano consentite.
 
 
-## Requisiti per la configurazione della rete di accesso diretto {#requirements-direct}
+## Configurazione della rete di accesso diretto {#requirements-direct}
 
 La rete Internet diretta è logicamente separata in due blocchi:
 
