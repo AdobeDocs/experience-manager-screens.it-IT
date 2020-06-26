@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 768c40545907ab473d61a56367940cfbbf8f2dc9
+source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rete aziendale chiusa (cablata/wireless) {#enclosed-corporate-networks}
 
-La configurazione della rete aziendale è applicabile alle aziende più piccole, grandi e piccole. Può essere teoricamente più complesso, e l’impostazione logica è illustrata nella figura seguente.
+La configurazione della rete aziendale è applicabile alle aziende più piccole, grandi e piccole. Può essere teoricamente più complesso, e la configurazione logica è mostrata nella figura seguente.
 
 ![](/help/using/assets/enclosed-network-1.png)
 
@@ -52,7 +52,7 @@ La configurazione della rete aziendale chiusa può essere logicamente separata i
 
 ### Ampia rete di reti {#wan-connection}
 
-Le prestazioni della connessione Internet oltre alla raggiungibilità della rete, è di fornire una larghezza di banda sufficiente per il funzionamento dei AEM Screens in modo ordinato e ordinato.
+Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire la corretta esecuzione degli aggiornamenti dei contenuti AEM Screens.
 *Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM connessi e dall’utilizzo di altri utenti della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
@@ -60,11 +60,11 @@ Le prestazioni della connessione Internet oltre alla raggiungibilità della rete
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della rete LAN (Local Area Network), oltre alla raggiungibilità della rete, consentono di disporre di una larghezza di banda sufficiente a garantire un funzionamento fluido dei AEM Screens.
+Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire l&#39;esecuzione corretta degli aggiornamenti dei contenuti AEM Screens.
 
 La rete LAN all&#39;interno delle organizzazioni aziendali è generalmente di almeno 1000 MBit/sec di rete, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. L&#39;utilizzo di altri componenti di rete attivi richiede che tutti questi componenti soddisfino i requisiti di larghezza di banda della rete.
 
-Ad esempio, i componenti di rete devono corrispondere almeno allo standard 1000 Mbps e alla larghezza di banda fornita dalla specifica di accesso a Internet/router.
+Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica di accesso a Internet/router.
 
 ### Altre reti aziendali specifiche {#other-networks}
 
