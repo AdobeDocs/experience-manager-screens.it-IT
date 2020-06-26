@@ -2,9 +2,9 @@
 title: Rete mobile con Mobile Data Router e Componenti di rete attivi
 description: La pagina descrive Mobile Network con Mobile Data Router e Active Network Components
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 È inoltre possibile collegare i lettori di AEM Screens Adobe utilizzando reti mobili o cellulari con almeno una rete 3G.
 
-All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali e non influenza affatto le prestazioni dei sistemi di visualizzazione.
+All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali, nonché sugli aggiornamenti dei contenuti, e non influisce sulle prestazioni della riproduzione regolare dei display.
 
-Il vantaggio di questa configurazione è che Mobile Router può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il meno possibile costruzione di cemento o metallo circostante.
-Questa configurazione consente agli utenti di AEM Screen la flessibilità, in quanto non è necessaria una linea fissa per connettersi ai AEM Screens.
+Il vantaggio di questa configurazione è che Mobile Router può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il minor numero possibile di costruzione di cemento o metallo circostante.
+Questa configurazione consente agli utenti di AEM Screen la flessibilità, in quanto non è necessaria una linea fissa per connettersi ai AEM Screens. Questo è particolarmente interessante per le impostazioni effimere o mobili.
 
 Il diagramma seguente mostra la configurazione Mobile Network con Mobile Data Router e Active Network Components e contiene l&#39;accesso a Internet di uno dei controller di AEM Screens tramite l&#39;accesso diretto a Internet tramite un proprio Data Link 3/4/5G.
 
@@ -27,7 +27,7 @@ Il diagramma seguente mostra la configurazione Mobile Network con Mobile Data Ro
 
 Segui i passaggi indicati di seguito per garantire la corretta connessione dei lettori dello schermo AEM in questa configurazione:
 
-La configurazione contiene l&#39;accesso a Internet di uno qualsiasi dei controller AEM Screens tramite accesso diretto a Internet tramite un proprio collegamento dati 3/4/5G.
+La configurazione alloca un Accesso Internet per ogni Controller AEM Screens tramite accesso Internet diretto utilizzando un Collegamento dati dedicato di 3/4/5G.
 
 1. Assicurati che Mobile Data Router sia correttamente collegato alla rete dati cellulare come indicato nel sistema operativo e che ciascuno dei lettori dello schermo AEM sia collegato alla rete Routers.
 1. Verificate la connessione Internet chiamando un URL nel browser del sistema.
@@ -60,9 +60,9 @@ La configurazione della rete può essere logicamente separata in due blocchi:
 
 ### Connessione Internet mobile {#mobile-internet-connection}
 
-Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete già descritta, consentono di disporre di una larghezza di banda sufficiente per utilizzare AEM Screens in modo ordinato e ordinato.
+Le prestazioni della connessione Internet, oltre alla raggiungibilità di rete già descritta, devono fornire una larghezza di banda sufficiente per eseguire in modo fluido i download dei contenuti AEM Screens.
 
-*Sufficiente* dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
+*Sufficiente* dipende dalla quantità di schermi AEM connessi dispositivi e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
 Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda è generalmente in diminuzione lineare, mentre l&#39;aggiunta di più consumatori/computer alla rete.
 Oltre alla specifica connessione teorica di rete, occorre garantire che la copertura del router mobile sia almeno &quot;buona&quot;. Inoltre, il piano mensile sottostante deve coprire una capacità dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN collegata.
 
@@ -90,7 +90,7 @@ Mentre considera quale rete dati utilizzare, si consiglia di rispondere alle seg
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della LAN, oltre alla raggiungibilità della rete già descritta, garantiscono una larghezza di banda sufficiente per il funzionamento dei AEM Screens in modo ordinato e ordinato. In questi giorni la rete LAN corrisponde almeno a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Quando si utilizza un altro componente di rete attivo, è obbligatorio che tutti questi componenti corrispondano ai requisiti di larghezza di banda della rete.
+Le prestazioni della LAN, oltre alla raggiungibilità di rete già descritta, devono fornire una larghezza di banda sufficiente per consentire il corretto funzionamento dei download dei contenuti AEM Screens. In questi giorni la rete LAN corrisponde almeno a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Quando si utilizza un altro componente di rete attivo, è obbligatorio che tutti questi componenti corrispondano ai requisiti di larghezza di banda della rete.
 
 Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica Internet Access/Router.
 
