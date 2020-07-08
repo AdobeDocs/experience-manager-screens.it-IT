@@ -4,7 +4,10 @@ seo-title: Replica degli attivatori di dati sul server di pubblicazione
 description: Replicare gli attivatori di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori di dati sul server di pubblicazione.
 translation-type: tm+mt
-source-git-commit: c9d618c4d38e8b1f74125c89cc9d25a1dcde54bb
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +24,11 @@ In pratica, si tratta di pubblicare manualmente:
 1. Audiences di personalizzazione
 1. Attività di personalizzazione
 
-## Passaggi per la replica degli attivatori dati su Publish Server {#replicating-data-triggers-publish}
+## Passaggi per la replica degli attivatori di dati su Publish Server {#replicating-data-triggers-publish}
 
 Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati sul server di pubblicazione.
 
-### Passaggio 1:Replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
+### Passaggio 1: Replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
 
 1. Accedete a **Strumenti** > **Distribuzione** > **Distribuzione** > **Pubblica agente** e fate clic sull’agente di pubblicazione per configurare le impostazioni.
 
@@ -49,7 +52,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 1. Andate all&#39;istanza di AEM > **Personalizzazione** > **Audience** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
 
-1. Espandete la cartella del progetto, ad esempio `/conf/screens/`.
+1. Espandete la vostra cartella di progetto, ad esempio `/conf/screens/`.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
@@ -59,7 +62,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 1. Fate clic su **Avanti** e **Pubblica**.
 
-### Replica delle attività {#replicating-activities}
+### Replica delle attività  {#replicating-activities}
 
 1. Andate all&#39;istanza di AEM > **Personalizzazione** > **Attività** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
 
@@ -73,7 +76,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 >[!IMPORTANT]
 >
->La replica di configurazioni e audience ContextHub viene eseguita durante la configurazione del progetto, mentre le attività di replica e saranno richieste ogni volta che il targeting viene modificato all&#39;interno di un canale.
+>La replica delle configurazioni e dei tipi di pubblico ContextHub viene eseguita durante la configurazione del progetto, mentre le attività di replica e saranno richieste ogni volta che il targeting viene modificato all&#39;interno di un canale.
 
 #### Risultato {#result}
 
@@ -94,9 +97,9 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
 
 1. Se non utilizzate le credenziali di amministrazione predefinite, dovete configurare l&#39;agente di distribuzione con un nome utente e una password diversi.
 
-   Effettuate le seguenti operazioni:
+   Effettua le seguenti operazioni:
 
-   1. Passa a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata **Console Web di** Adobe Experience Manager.
+   1. Passate a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata Console Web del **Adobe Experience Manager**.
    1. Cerca credenziali di trasporto distribuzione **Apache Sling - Credenziali utente basate su DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
