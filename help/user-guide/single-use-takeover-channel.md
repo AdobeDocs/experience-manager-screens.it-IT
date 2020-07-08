@@ -5,7 +5,10 @@ description: Seguite questo esempio per creare un canale TakeOver per un singolo
 seo-description: Seguite questo esempio per creare un canale TakeOver per un singolo utilizzo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: d64eb2ca3efc4d15be119c9b8efd9ff2b8f8daf4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ Ad esempio, esiste un canale TakeOver singolo che viene riprodotto il venerdì d
 
 Prima di iniziare questo caso di utilizzo, accertatevi di comprendere come:
 
-* **[Creare e gestire canali](managing-channels.md)**
+* **[Creazione e gestione di canali](managing-channels.md)**
 * **[Creare e gestire le posizioni](managing-locations.md)**
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
@@ -43,7 +46,7 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 
    ![risorsa](assets/single-takeover1.png)
 
-1. Create un **MainAdChannel** nella cartella **Channels** .
+1. Create un **MainAdChannel** nella cartella **Channels (Canali** ).
 
    ![risorsa](assets/single-takeover2.png)
 
@@ -57,13 +60,13 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 
    ![risorsa](assets/single-takeover3.png)
 
-1. Create un canale **TakeOver** che occupi il contenuto in **MainAdChannel** e che verrà riprodotto solo per un giorno e un&#39;ora specifici.
+1. Create un canale **TakeOver** che sovrascriva il contenuto in **MainAdChannel** e che verrà riprodotto solo per un giorno e un&#39;ora specifici.
 
-1. Selezionate **TakeOver** e fate clic su **Modifica** nella barra delle azioni. Trascinate alcune risorse sul canale. L’esempio seguente mostra un’immagine a zona singola aggiunta al canale.
+1. Selezionate **TakeOver** e fate clic su **Modifica** nella barra delle azioni. Trascinate alcune risorse sul canale. L&#39;esempio seguente mostra un&#39;immagine a zona singola aggiunta a questo canale.
 
    ![risorsa](assets/single-takeover4.png)
 
-1. Configurate una posizione e una visualizzazione per i canali. Ad esempio, per questo progetto è impostata la seguente posizione **Sala d&#39;attesa** e visualizzazione **MainLobbyDisplay** .
+1. Configurate una posizione e una visualizzazione per i canali. Ad esempio, per questo progetto è impostata la seguente posizione: **Sala d&#39;attesa** e visualizzazione **MainLobbyDisplay** .
 
    ![risorsa](assets/single-takeover5.png)
 
@@ -76,7 +79,7 @@ Per impostare un progetto, effettuate le seguenti operazioni:
    >[!NOTE]
    >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a Assegnazione **[](channel-assignment.md)**canale.
 
-1. Compilate i campi (Percorso **** canale, **Priorità** ed Eventi **** supportati) dalla finestra di dialogo Assegnazione **** canale e fate clic su **Salva**. Ora hai assegnato **MainAdChannel** al tuo display.
+1. Compilate i campi (Percorso **** canale, **Priorità** ed Eventi **** supportati) dalla finestra di dialogo Assegnazione **** canale e fate clic su **Salva**. Ora hai assegnato il **MainAdChannel** al tuo display.
 
    ![risorsa](assets/single-takeover7.png)
 
@@ -85,7 +88,8 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 1. Per assegnare il canale **TakeOver** al display in un momento programmato e compilare i campi seguenti dalla finestra di dialogo Assegnazione **** canale, quindi fare clic su **Salva**:
 
    * **Percorso** canale: Selezionare il percorso del canale TakeOver
-   * **Priorità**: Impostare la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
+   * **Priorità**: Impostate la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
+
       >[!NOTE]
       >Priorità può essere qualsiasi valore superiore al valore di priorità del canale di riproduzione normale.
    * **Eventi** supportati: Selezionate **Schermo** inattivo e **Timer**.
@@ -102,4 +106,5 @@ Il testo nella **Pianificazione** di cui al presente esempio è *il 31 dicembre 
       ![risorsa](assets/single-takeover9.png)
 
 >[!NOTE]
+>
 >È consigliabile eliminare il canale One Use TakeOver una volta riprodotto.
