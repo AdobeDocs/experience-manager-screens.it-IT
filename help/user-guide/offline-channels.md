@@ -1,8 +1,8 @@
 ---
 title: Canali offline
 seo-title: Canali offline
-description: 'Il lettore AEM Screens supporta i canali offline sfruttando la tecnologia ContentSync. Segui questa pagina per saperne di più sui gestori di aggiornamenti e sull''abilitazione della configurazione offline per un canale.  '
-seo-description: 'Il lettore AEM Screens supporta i canali offline sfruttando la tecnologia ContentSync. Segui questa pagina per saperne di più sui gestori di aggiornamenti e sull''abilitazione della configurazione offline per un canale.  '
+description: 'Il lettore AEM Screens fornisce supporto offline per i canali sfruttando la tecnologia ContentSync. Segui questa pagina per saperne di più sui gestori di aggiornamenti e sull''abilitazione della configurazione offline per un canale.  '
+seo-description: 'Il lettore AEM Screens fornisce supporto offline per i canali sfruttando la tecnologia ContentSync. Segui questa pagina per saperne di più sui gestori di aggiornamenti e sull''abilitazione della configurazione offline per un canale.  '
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -11,7 +11,10 @@ topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9da83030c5ad90f446befc7a488fac6c9435ea76
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '481'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +37,7 @@ Il flusso di lavoro per il processo è il seguente:
 
 ## Aggiorna gestori {#update-handlers}
 
-ContentSync ****** utilizza i gestori di aggiornamenti per analizzare e raccogliere tutte le pagine e le risorse necessarie per un progetto specifico. AEM Screens utilizza i seguenti handler di aggiornamento:
+ContentSync ****** utilizza i gestori di aggiornamenti per analizzare e raccogliere tutte le pagine e le risorse necessarie per un progetto specifico. AEM Screens utilizza i seguenti gestori di aggiornamento:
 
 ### Opzioni comuni {#common-options}
 
@@ -97,7 +100,7 @@ Per attivare la configurazione offline per un canale, effettuate le seguenti ope
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Andate alle proprietà del canale e accertatevi che la casella di controllo sia disabilitata nella scheda **Canale** . Fate clic su **Salva e chiudi**.
+1. Andate alle proprietà del canale e accertatevi che la casella di controllo sia disabilitata nella scheda **Canale** . Fai clic su **Salva e chiudi**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
@@ -114,4 +117,5 @@ Per attivare la configurazione offline per un canale, effettuate le seguenti ope
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
-> Per ulteriori informazioni sul modello per i gestori di risorse offline personalizzati e sui requisiti minimi `pom.xml` per quel progetto specifico, consulta [Modello per i gestori](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personalizzati in **Sviluppo di un componente personalizzato per AEM Screens**.
+>
+>Per ulteriori informazioni sul modello per i gestori di risorse offline personalizzati e sui requisiti minimi `pom.xml` per quel progetto specifico, consulta [Modello per gestori](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) personalizzati in **Sviluppo di un componente personalizzato per AEM Screens**.
