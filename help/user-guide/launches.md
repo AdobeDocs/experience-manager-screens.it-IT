@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b26af144f01b48ffaffb77d0218b5549a5b7d2f5
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Una volta approvato e in data dal vivo (10 novembre, 8:00 AM), questo lancio rip
 
 ## Requisiti {#requirements}
 
-Prima di iniziare a sfruttare il lancio *di* Screens in un progetto AEM Screens, verifica di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
+Prima di iniziare a sfruttare il lancio *di* Screens in un progetto AEM Screens, accertati di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
 
 L&#39;esecuzione di un&#39;esperienza sulla data live impostata sul lettore comporta:
 
@@ -53,6 +56,7 @@ Ad esempio, supponiamo che il server sia in PST e che i dispositivi siano in EST
 Quindi, ogni volta che pianifichiamo un lancio live, la promozione inizierà presto con questo offset. Nell&#39;equazione di cui sopra, la maggior parte degli elementi non richiede molto tempo, possiamo utilizzare una stima decente per questo offset una volta che conosciamo la differenza di tempo massima tra il server e qualsiasi giocatore.
 
 >[!NOTE]
+>
 >Il periodo di tolleranza previsto per il lancio dello schermo è impostato su 24 ore, il che significa che quando si imposta la data dal vivo per qualsiasi avvio per le risorse in */content/screens*, la promozione inizierà con questo offset.
 
 ### Aggiornamento del periodo di tolleranza out-of-the-box {#updating-out-of-the-box-grace-period}
@@ -78,13 +82,13 @@ Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il perio
 
 ## Utilizzo del lancio dello schermo {#using-launches}
 
-Questa sezione illustra come implementare il lancio delle schermate nel progetto AEM Screens.
+In questa sezione viene illustrato come implementare il lancio delle schermate nel progetto AEM Screens.
 
 ### Creazione di un lancio dello schermo {#creating-a-launch}
 
-Per implementare la funzionalità Screens Launch nel progetto AEM Screens, procedi come segue:
+Per implementare la funzionalità Screens Launch (Lancio dello schermo) nel progetto AEM Screens, effettuate le seguenti operazioni:
 
-1. Crea un canale di sequenza nel progetto AEM Screens, ad esempio **LaunchesDemo** —> **Channels** —> **FutureLaunch**, come mostrato di seguito.
+1. Create un canale di sequenza nel progetto AEM Screens, ad esempio **LaunchesDemo** —> **Channels** —> **FutureLaunch**, come mostrato di seguito.
 
    >[!CAUTION]
    >
@@ -100,7 +104,7 @@ Per implementare la funzionalità Screens Launch nel progetto AEM Screens, proce
 
 1. Fate clic su **Avanti** dalla procedura guidata **Crea lancio** . Per impostazione predefinita, l’opzione **Includi pagine** secondarie è selezionata.
 
-   ![image](/help/user-guide/assets/launches-images/launches-d.png)
+   ![immagine](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >Potete utilizzare l&#39;opzione **+ Aggiungi canali** per aggiungere un altro canale per il quale desiderate creare il lancio.
@@ -109,7 +113,7 @@ Per implementare la funzionalità Screens Launch nel progetto AEM Screens, proce
 
    Se tentate di selezionare più canali o una cartella per l’aggiunta del lancio, l’opzione **Seleziona** verrà disattivata.
 
-   ![image](/help/user-guide/assets/launches-images/launches-14.png)
+   ![immagine](/help/user-guide/assets/launches-images/launches-14.png)
 
    Dopo aver selezionato i canali, fai clic su **Avanti**.
 
@@ -161,17 +165,17 @@ Per modificare le proprietà del lancio, effettuate le seguenti operazioni:
 
 1. Andate al canale **FutureLaunch**, *(ovvero il lancio in sospeso)* e selezionate il canale, come mostrato nella figura seguente.
 
-   ![image](/help/user-guide/assets/launches-images/launches-17.png)
+   ![immagine](/help/user-guide/assets/launches-images/launches-17.png)
 
 1. Fate clic sul **dashboard** dalla barra delle azioni e visualizzate il pannello AVVII **** IN SOSPESO dal dashboard del canale.
 
-   ![image](/help/user-guide/assets/launches-images/launches-18.png)
+   ![immagine](/help/user-guide/assets/launches-images/launches-18.png)
 
 1. Selezionate il lancio e fate clic su **Avvia proprietà** dal pannello **LANCI** IN ATTESA.
 
-   ![image](/help/user-guide/assets/launches-images/launches-19.png)
+   ![immagine](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Modifica del lancio dello schermo per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modifica del lancio dello schermo per aggiungere o rimuovere canali  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Dopo aver creato il lancio, potete aggiungere o rimuovere canali al lancio esistente utilizzando l’opzione **Modifica lancio** .
 
@@ -183,7 +187,7 @@ Potete promuovere il lancio manualmente utilizzando l&#39;opzione **Promuovi lan
 
 Puoi scegliere le risorse da promuovere nell&#39;ambito di questa promozione manuale in **Launch Promotion Wizard**.
 
-![image](/help/user-guide/assets/launches-images/launches-e.png)
+![immagine](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. Potete attivare o disattivare l’opzione per eliminare il lancio dopo la produzione.
 1. Puoi impostare l’ **ambito** del lancio, con le seguenti opzioni:
