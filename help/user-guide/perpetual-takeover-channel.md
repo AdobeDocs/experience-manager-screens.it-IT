@@ -5,7 +5,10 @@ description: Seguite questo esempio per creare un canale di acquisizione perpetu
 seo-description: Seguite questo caso d’uso per impostare un progetto che crea un canale TakeOver perpetuo che viene riprodotto per un giorno e un’ora specifici in modo continuo.
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 75453128ce6c66e6fef9c5433a5e4389ef9f1c88
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +26,7 @@ Ad esempio, esiste un canale Perpetual TakeOver che viene riprodotto ogni venerd
 
 Prima di iniziare questo caso di utilizzo, accertatevi di comprendere come:
 
-* **[Creare e gestire canali](managing-channels.md)**
+* **[Creazione e gestione di canali](managing-channels.md)**
 * **[Creare e gestire le posizioni](managing-locations.md)**
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
@@ -38,11 +41,11 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 
 **Impostazione dei canali e della visualizzazione**
 
-1. Crea un progetto AEM Screens denominato **PerpetualTakeOver**, come illustrato di seguito.
+1. Create un progetto AEM Screens denominato **PerpetualTakeOver**, come illustrato di seguito.
 
    ![risorsa](assets/p_usecase1.png)
 
-1. Create un **MainAdChannel** nella cartella **Channels** .
+1. Create un **MainAdChannel** nella cartella **Channels (Canali** ).
 
    ![risorsa](assets/p_usecase2.png)
 
@@ -56,7 +59,7 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 
 1. Create un canale **TakeOver** che occupi il contenuto in **MainAdChannel** e che verrà riprodotto ogni mercoledì dalle 2:00 alle 4:00.
 
-1. Selezionate **TakeOver** e fate clic su **Modifica** nella barra delle azioni. Trascinate alcune risorse sul canale. L’esempio seguente mostra un’immagine a zona singola aggiunta al canale.
+1. Selezionate **TakeOver** e fate clic su **Modifica** nella barra delle azioni. Trascinate alcune risorse sul canale. L&#39;esempio seguente mostra un&#39;immagine a zona singola aggiunta a questo canale.
 
    ![risorsa](assets/p_usecase4.png)
 
@@ -76,6 +79,7 @@ Per impostare un progetto, effettuate le seguenti operazioni:
    * **Percorso** canale: Selezionare il percorso del canale **MainAdChannel**
    * **Priorità**: Imposta la priorità del canale su 1.
    * **Eventi** supportati: Selezionate la schermata **iniziale Carica** e **Inattivo**.
+
    ![risorsa](assets/p_usecase6.png)
 
 1. Selezionate la visualizzazione **TakeOver** dalla cartella **Locations** . Fate clic su **Assegna canale** dalla barra delle azioni per assegnare il canale di acquisizione.
@@ -83,15 +87,16 @@ Per impostare un progetto, effettuate le seguenti operazioni:
 1. Per assegnare il canale **TakeOver** al display in un momento programmato e compilare i campi seguenti dalla finestra di dialogo Assegnazione **** canale, quindi fare clic su **Salva**:
 
    * **Percorso** canale: Selezionare il percorso del canale **TakeOver**
-   * **Priorità**: Impostare la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
+   * **Priorità**: Impostate la priorità di questo canale maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
    * **Eventi** supportati: Selezionate **Schermo** inattivo e **Timer**.
    * **Pianificazione**: Immettere il testo per la pianificazione che si desidera che il canale esegua la visualizzazione. Il testo nel **Programma** di cui all&#39;esempio è riportato *il mercoledì dopo le 14:00 e prima delle 16:00*.
+
       >[!NOTE]
       >Per ulteriori informazioni sulle espressioni che è possibile aggiungere alla **programmazione**, fare riferimento alla sezione Espressioni [di](#example-expressions) esempio di seguito.
    * **attiva da**: Data e ora di inizio.
    * **attivo fino** a: Data e ora di fine.
 
-      Ad esempio, il testo in **Pianificazione** e **attivo da** data e ora **** attiva qui consente la riproduzione del contenuto ogni mercoledì dalle 2:00 alle 16:00.
+      Ad esempio, il testo in **Pianificazione** e **attivo da** data e ora **** attiva qui consente la riproduzione del contenuto ogni mercoledì dalle 14:00 alle 16:00.
 
 
       ![risorsa](assets/p_usecase7.png)
@@ -117,4 +122,5 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | il canale avvia il lettore dopo le 2:00 pm il 1 gennaio, continua a giocare fino alle 3:00 il 2 gennaio, poi inizia di nuovo il 2 gennaio alle 2:00 pm e continua a giocare fino alle 3:00 il 3 gennaio |
 
 >[!NOTE]
+>
 >È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
