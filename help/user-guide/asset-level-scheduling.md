@@ -4,7 +4,10 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: af244dc18aa4eb526978ab9ced60e8b818f6201e
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1452'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +30,7 @@ Gli argomenti seguenti sono trattati in questa sezione:
 
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.3 Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
+>Questa funzionalità AEM Screens è disponibile solo se è stato installato AEM 6.3 Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
 >
 >Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
@@ -59,19 +62,19 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
 
 1. Fai clic su **Modifica** per aprire l’editor dei canali e selezionare una risorsa a cui applicare la pianificazione.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level2.png)
+   ![immagine](/help/user-guide/assets/asset-activation/asset-level2.png)
 
 1. Selezionate la risorsa e fate clic in alto a sinistra **Configura** (icona chiave inglese) per aprire le proprietà dell’immagine.
 
    Click the **Activation** tab.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![immagine](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Puoi specificare la data dal selettore data utilizzando i campi **Attivo da** e **Attivo fino** a.
 
    Se selezionate **Attivo da** e **Attivo fino** alla data e all’ora, la risorsa verrà visualizzata e loop solo tra la data/ora di inizio e la data/ora di fine rispettivamente.
 
-   ![image](/help/user-guide/assets/asset-activation/asset-level3.png)
+   ![immagine](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 ## Gestione della ricorrenza nelle risorse {#handling-recurrence-in-assets}
 
@@ -103,6 +106,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 
 >[!NOTE]
+>
 >È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 ### Scomposizione Settimana {#week-parting}
@@ -126,6 +130,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | Mon-Thu | la risorsa viene riprodotta nel canale dal lunedì al giovedì |
 
 >[!NOTE]
+>
 >È inoltre possibile utilizzare la notazione _completa_ (cioè, Lunedì,Mercoledì,Venerdì) invece della notazione a mano _corta_ (ovvero, Lun,Wed,Vri).
 
 
@@ -187,14 +192,14 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### Prerequisiti {#prerequisites}
 
-Per utilizzare l’attivazione a livello di risorse multiple per le risorse, create un progetto AEM Screens con un canale di sequenza. Ad esempio, il seguente caso d’uso illustra l’implementazione della funzione:
+Per utilizzare l’attivazione a livello di risorse multiple per le risorse, create un progetto di AEM Screens con un canale di sequenza. Ad esempio, il seguente caso d’uso illustra l’implementazione della funzione:
 
 * Creare un progetto AEM Screens denominato **MultiAssetDemo**
 * Create un canale denominato **MultiAssetChannel** e aggiungete contenuto al canale, come mostrato nella figura seguente
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Per selezionare più risorse e pianificarne la visualizzazione in un progetto AEM Screens, procedi come segue:
+Per selezionare più risorse e pianificarne la visualizzazione in un progetto AEM Screens, effettuate le seguenti operazioni:
 
 1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
 
