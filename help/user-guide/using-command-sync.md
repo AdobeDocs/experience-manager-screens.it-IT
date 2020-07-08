@@ -4,7 +4,7 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -17,6 +17,7 @@ ht-degree: 2%
 Nella pagina seguente viene descritto come utilizzare la sincronizzazione dei comandi. La sincronizzazione dei comandi consente la riproduzione sincronizzata tra diversi lettori. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
 
 >[!IMPORTANT]
+>
 >Questa funzione non supporta le sequenze incorporate, le sequenze incorporate dinamiche, i canali di applicazione o le transizioni.
 
 ## Panoramica {#overview}
@@ -32,6 +33,7 @@ Il *master* invia un comando a tutti i client registrati quando sta per avviare 
 La sezione seguente descrive come utilizzare la sincronizzazione dei comandi in un progetto AEM Screens.
 
 >[!NOTE]
+>
 >Per la riproduzione sincronizzata, è necessario che tutti i dispositivi hardware abbiano le stesse specifiche hardware e preferibilmente lo stesso sistema operativo. Non è consigliabile sincronizzare tra diversi hardware e sistemi operativi.
 
 ### Impostazione del progetto {#setting-up}
@@ -101,7 +103,8 @@ Verranno visualizzati i due dispositivi (chrome e Windows player) nel pannello *
    ![image1](assets/command-sync/command-sync12-1.png)
 
 >[!NOTE]
-> Potete impostare più dispositivi come principali.
+>
+>Potete impostare più dispositivi come principali.
 
 ### Sincronizzazione con Master {#sync-up-master}
 
@@ -124,6 +127,7 @@ Selezionate l&#39;altro dispositivo (in questo caso, il lettore Windows) dal pan
 Dopo aver sincronizzato uno o più dispositivi con uno schema, potete desincronizzare l’assegnazione da tale dispositivo.
 
 >[!NOTE]
+>
 >Se desincronizzate un dispositivo master, verrà scollegato anche tutti i dispositivi client associati a tale dispositivo master.
 
 Per rimuovere la sincronizzazione dalla periferica master, procedere come segue:
