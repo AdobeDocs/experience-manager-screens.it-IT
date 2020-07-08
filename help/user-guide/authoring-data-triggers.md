@@ -3,7 +3,10 @@ title: Authoring con attivatori dati
 seo-title: Authoring con attivatori dati
 description: Segui questa pagina per apprendere come creare con i trigger dei dati.
 translation-type: tm+mt
-source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 1%
 
 ---
 
@@ -13,14 +16,16 @@ source-git-commit: d2d27b4f8b8a8c23b7a86cc835673f4bf0784995
 In questa sezione viene illustrato come abilitare il targeting nei canali.
 
 >[!IMPORTANT]
-> La versione minima che supporta le attivazioni di dati in un canale AEM Screens è AEM 6.5.3 Feature Pack 3.
+>
+>La versione minima che supporta le attivazioni di dati in un canale AEM Screens è AEM 6.5.3 Feature Pack 3.
 
 ## Prerequisiti {#prereqs}
 
-Prima di seguire i passaggi indicati di seguito per abilitare il targeting nei canali, è necessario conoscere i termini [chiave in Configurazione in AEM Screens](configuring-context-hub.md) necessari per comprendere ContextHub e Targeting in AEM Screens.
+Prima di seguire i passaggi indicati di seguito per abilitare il targeting nei canali, è necessario conoscere i termini [chiave in Configurazione in AEM Screens](configuring-context-hub.md) richiesti per comprendere ContextHub e Targeting nei AEM Screens.
 
 >[!IMPORTANT]
-> Prima di attivare il targeting in un canale AEM Screens, è consigliabile comprendere e configurare le configurazioni ContextHub.
+>
+>È consigliabile comprendere e configurare le configurazioni ContextHub prima di abilitare il targeting in un canale AEM Screens.
 
 Per ulteriori informazioni, effettuate le seguenti operazioni:
 
@@ -33,7 +38,7 @@ Una volta completati i passaggi precedenti, potete abilitare il targeting nei vo
 
 >[!VIDEO](https://video.tv.adobe.com/v/31921)
 
-## Attivazione del targeting in un canale AEM Screens {#enabling-targeting}
+## Abilitazione del targeting in un canale AEM Screens {#enabling-targeting}
 
 Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
@@ -49,7 +54,7 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
    1. Selezionate Percorso **** Segmenti come **conf** > **We.Retail** > **impostazioni** > **wcm** **** ****> Segmentie fate clic su Seleziona.
 
-   1. Click **Save &amp; Close**.
+   1. Fai clic su **Salva e chiudi**.
    >[!NOTE]
    >
    >Usa ContextHub e il percorso Segments, dove hai salvato inizialmente le configurazioni e i segmenti dell&#39;hub di contesto.
@@ -70,7 +75,7 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
 
 ### Ulteriori informazioni: Esempi di utilizzo {#learn-more-example-use-cases}
 
-Dopo aver configurato ContextHub per il progetto AEM Screens, puoi seguire i diversi casi d’uso per comprendere in che modo le risorse attivate dai dati svolgono un ruolo fondamentale nei diversi settori:
+Dopo aver configurato ContextHub per il progetto AEM Screens, puoi seguire i diversi casi d’uso per comprendere in che modo le risorse attivate dai dati svolgono un ruolo fondamentale in diversi settori:
 
 1. **[Attivazione mirata inventario vendita al dettaglio](retail-inventory-activation.md)**
 1. **[Attivazione temperatura centro viaggio](local-temperature-activation.md)**
