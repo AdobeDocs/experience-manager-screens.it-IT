@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
 docset: aem65
 translation-type: tm+mt
-source-git-commit: fb95f79ea21d8b1234e13a9ef0d5aec74669c5a4
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 57%
 
 ---
 
@@ -50,7 +53,7 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
    Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS** panel to open the **Channel Assignment** dialog box.
 
-   ![image](/help/user-guide/assets/channel-assign1.png)
+   ![immagine](/help/user-guide/assets/channel-assign1.png)
 
    È possibile comprendere e configurare le proprietà dalla finestra di dialogo Assegnazione **** canale dalla sezione seguente.
 
@@ -82,7 +85,7 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 * **Timer:** deve essere impostato quando viene fornita una pianificazione
 * **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
 
-#### Metodo di Interruzione {#interruption-method-channel}
+#### Metodo di interruzione {#interruption-method-channel}
 
 >[IMPORTANTE]
 > Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
@@ -181,7 +184,9 @@ Questo esempio mostra il dayparting per un negozio che espone la propria collezi
 | B | Natale | 2 | 24 dicembre 2017 - 31 dicembre 2017 |
 
 >[!IMPORTANT]
+>
 > Per ulteriori informazioni sulla suddivisione del giorno, consultare le sezioni seguenti:
+>
 >* [Gestione della ricorrenza nelle risorse](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestione della ricorrenza per le risorse in un canale](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
 
