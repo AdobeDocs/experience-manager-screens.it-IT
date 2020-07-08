@@ -4,7 +4,10 @@ seo-title: Descrizione della guida
 description: Questa pagina descrive le finalità della Guida alle best practice
 seo-description: Questa pagina descrive le finalità della Guida alle best practice
 translation-type: tm+mt
-source-git-commit: 2c73039b61f713d9cc862a1bef9b3dcda5b0c351
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,9 @@ Tuttavia, è opportuno sottolineare che anche molti altri ruoli trarranno benefi
 AEM Screens è una nuova estensione di Adobe Experience Manager (AEM) e poiché gli strumenti sono nuovi e le loro potenziali applicazioni variano, è fondamentale identificare importanti considerazioni e fattori di rischio comuni coinvolti nello sviluppo e nella distribuzione di AEM Screens.
 
 Questa guida fornisce informazioni approfondite e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione del digital signage. Inoltre, aiuta a scoprire come creare un impatto positivo sulle attività aziendali utilizzando alcune delle best practice durante l’implementazione di un progetto di digital signage in AEM Screens.
+
 >[!IMPORTANT]
+>
 > La presente Guida è stata progettata per identificare i problemi comuni durante l’implementazione di un progetto AEM Screens e il materiale è incentrato principalmente sui seguenti argomenti:
 >
 > * **[Ruoli e responsabilità del progetto](roles-responsibilities.md)**
@@ -36,6 +41,7 @@ Questa guida fornisce informazioni approfondite e consigli pratici per immaginar
 
 
 >[!NOTE]
+>
 > Termini utilizzati in questa guida (nel contesto di AEM Screens):
 >
 > * **UX:** esperienze di digital signage fornite ai clienti finali.
