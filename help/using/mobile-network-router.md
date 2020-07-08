@@ -2,7 +2,7 @@
 title: Rete mobile con Mobile Data Router e Componenti di rete attivi
 description: La pagina descrive Mobile Network con Mobile Data Router e Active Network Components
 translation-type: tm+mt
-source-git-commit: ec8af4e49694937a79ccbd78d51569f1031ca251
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali, nonché sugli aggiornamenti dei contenuti, e non influisce sulle prestazioni della riproduzione regolare dei display.
 
-Il vantaggio di questa configurazione è che Mobile Router può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il minor numero possibile di costruzione di cemento o metallo circostante.
+Il vantaggio di questa configurazione è che Mobile Router può essere collocato in una posizione ottimizzata per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il minor numero possibile di costruzione di cemento o metallo circostante.
 Questa configurazione consente agli utenti di AEM Screen la flessibilità, in quanto non è necessaria una linea fissa per connettersi ai AEM Screens. Questo è particolarmente interessante per le impostazioni effimere o mobili.
 
 Il diagramma seguente mostra la configurazione Mobile Network con Mobile Data Router e Active Network Components e contiene l&#39;accesso a Internet di uno dei controller di AEM Screens tramite l&#39;accesso diretto a Internet tramite un proprio Data Link 3/4/5G.
@@ -81,10 +81,12 @@ Mentre considera quale rete dati utilizzare, si consiglia di rispondere alle seg
 * Quante modifiche ai contenuti sono previste e quali sono tali dimensioni medie dei file?
 
 >[!NOTE]
+>
 >Il pacchetto dati necessario deve essere almeno:
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
+>
 >Per il caricamento iniziale dei file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una maggiore quantità di dati e un maggiore tempo di scaricamento, che si riflette nelle ipotesi sopra riportate. Una rete 4G con una *buona* copertura e dati illimitati deve corrispondere alle installazioni più comuni di questa configurazione di rete.
 
 
@@ -104,6 +106,7 @@ Per quei casi d&#39;uso in cui ci sono più interazioni con Sensori o altri Atti
 Le tabelle che seguono offrono una buona panoramica dei dati chiave di connettività di rete per le prestazioni che si possono prevedere e i potenziali tempi di attesa.
 
 >[!NOTE]
+>
 >Tutte le informazioni si riferiscono al consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/using/assets/mobile-router-download.png)
