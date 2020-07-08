@@ -2,7 +2,7 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: 143036005bcaecf17e6b57f4e71a5e8a1b0cfe52
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -56,6 +56,7 @@ Le prestazioni della connessione Internet, oltre alla raggiungibilità della ret
 *Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM connessi e dall’utilizzo di altri utenti della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
+>
 >Tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
 
 ### Rete locale {#lan-connection}
@@ -85,6 +86,7 @@ Per gli scenari in cui ci sono più interazioni con sensori o attivatori e conte
 La tabella seguente fornisce una panoramica sui dati chiave della connettività di rete.
 
 >[!NOTE]
+>
 >Le informazioni consentono di visualizzare l&#39;uso di ciascun dispositivo nella rete che richiede e scarica un&#39;origine Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/using/assets/enclosed-network-download.png)
