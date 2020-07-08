@@ -5,7 +5,10 @@ description: 'Questa funzionalità consente di definire la durata di riproduzion
 seo-description: 'Questa funzionalità consente di definire la durata di riproduzione delle immagini a livello di progetto. '
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: ae1f7cab650f811ae03f0a2f3dfa49ec855997ee
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ Questa funzione consente di definire la durata di riproduzione delle immagini a 
 
 ### Prerequisiti {#prerequisites}
 
-Prima di utilizzare questa funzione, accertatevi di configurare un progetto come prerequisito per iniziare ad implementare questa funzionalità. Esempio,
+Prima di utilizzare questa funzione, accertatevi di configurare un progetto come prerequisito per iniziare ad implementare questa funzionalità. Ad esempio,
 
 1. Creare un progetto AEM Screens (in questo esempio, **ProjectLevelPlayback**)
 
@@ -40,6 +43,7 @@ La sezione seguente spiega come modificare la durata di riproduzione del contenu
 
 
 >[!NOTE]
+>
 >Per aggiornare la durata di riproduzione di un’immagine o a livello di canale, fare riferimento a Durata [riproduzione immagine a livello di](channel-level-image-playback.md)canale.
 
 Per informazioni su come aggiornare la durata di riproduzione delle immagini a livello di progetto, effettuate le seguenti operazioni:
