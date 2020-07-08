@@ -1,10 +1,10 @@
 ---
-title: Ruoli e responsabilità del progetto AEM Screens
-seo-title: Ruoli e responsabilità del progetto AEM Screens
-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
-seo-description: La pagina descrive i ruoli e le responsabilità del progetto di AEM Screens
+title: AEM Screens Ruoli e responsabilità del progetto
+seo-title: AEM Screens Ruoli e responsabilità del progetto
+description: La pagina descrive AEM Screens Ruoli e responsabilità del progetto
+seo-description: La pagina descrive AEM Screens Ruoli e responsabilità del progetto
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -16,14 +16,15 @@ ht-degree: 11%
 
 In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
 
-In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto sono entrambi utili per il progetto.
+In un progetto AEM Screens tipico, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante nel progetto.
 
 Il diagramma seguente mostra i ruoli a cui ci riferiremo in tutta la guida.
 
 ![](/help/assets/project-roles-revised.png)
 
 >[!NOTE]
-> Molti di questi ruoli potrebbero essere interni o esternalizzati, a seconda della configurazione di ciascun progetto.
+>
+> Molti di questi ruoli potrebbero essere interni o esternalizzati, a seconda di come viene configurato ogni progetto.
 
 ## Definizione dei ruoli {#roles}
 
@@ -31,7 +32,7 @@ La sezione seguente fornisce una panoramica sull&#39;audience di destinazione:
 
 ### Adobe {#adobe-audience}
 
-Adobe include risorse dei servizi gestiti Adobe come CSE (Customer Success Engineer) e Adobe Support.
+Adobe include  risorse di Adobe Managed Services come CSE (Customer Success Engineer) e Adobe Support.
 
 ### Implementatori di AEM {#aem-implementors}
 
@@ -79,11 +80,11 @@ Creativi e gestione dei contenuti possono essere i seguenti:
 
 ### Manager di progetto {#project-managers}
 
-Generalmente, i project manager gestiscono l&#39;intera implementazione per la distribuzione di AEM Screens. Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
+Generalmente, i project manager gestiscono l&#39;intera distribuzione per la distribuzione dei AEM Screens. Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
 >[!NOTE]
 >
-> Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita Ruoli e responsabilità del **[progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita Ruoli e responsabilità del **[progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Fasi del progetto {#project-stages}
@@ -98,7 +99,7 @@ Per supportare un&#39;implementazione di Digital Signage di successo, è consuet
 
 >[!NOTE]
 >
-> Mentre questa guida pone l’accento soprattutto sul *Primo giorno* e sul *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
+>Mentre questa guida pone l’accento soprattutto sul *Primo giorno* e sul *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
 Seguite un altro video su **[Gestione e distribuzione](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**dei progetti per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
 
 ## Grafico RACI {#raci-chart}
@@ -107,7 +108,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 >[!NOTE]
 >
-> Questo grafico non deve essere seguito esattamente ma deve fornire un esempio di attività e considerazioni comuni in un progetto AEM Screens.
+>Questo grafico non deve essere seguito esattamente ma deve fornire un esempio di attività e considerazioni comuni in un progetto AEM Screens.
 
 ### Definizioni RACI {#raci-definitions}
 
@@ -145,8 +146,8 @@ La tabella seguente riassume il **Giorno 1: Implementazione progetto (progettazi
 | Progettazione architettura | I | RA | I | I |
 | Convalida della struttura dati con la progettazione dell&#39;interfaccia utente | I | RA | C | C |
 | Sviluppo di applicazioni | RA | RA | RA | RA |
-| Impostazione progetto AEM Screens | I | RA | C | I |
-| Implementazione di Analytics | I | RA | C | - |
+| AEM Screens Project Set | I | RA | C | I |
+| Implementazione  Analytics | I | RA | C | - |
 | Test e implementazione | RA | C | RA | I |
 | Configurazione server | I | RA | I | I |
 | Piano di aggiornamento dei contenuti | I | RA | C | C |
@@ -176,17 +177,17 @@ La tabella seguente riassume il **Giorno 1: Primo giorno: Implementazione proget
 
 >[!NOTE]
 >
-> I ruoli cambiano durante il secondo giorno (supporto post avvio).
+>I ruoli cambiano durante il secondo giorno (supporto post avvio).
 
 * **Autore**: Gestione dei contenuti + Strategia
 
-* **Sviluppatore**: In genere un membro del team di implementazione di AEM Screens o un passaggio a un team di sviluppo interno
+* **Sviluppatore**: In genere un membro del team di implementazione AEM Screens o un passaggio al team di sviluppo interno
 
 * **Tecnico**: Contratto dall&#39;integratore AV o fa parte della stessa azienda.
 
 La tabella seguente riassume il **Giorno due: Grafico** RACI di supporto post-lancio:
 
-| **Fase** | **Autore** | **Developer (Sviluppatore)** | **Tecnico** |
+| **Fase** | **Authoring** | **Developer (Sviluppatore)** | **Tecnico** |
 |---|---|---|---|
 | *Secondo giorno: Supporto post-avvio* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
