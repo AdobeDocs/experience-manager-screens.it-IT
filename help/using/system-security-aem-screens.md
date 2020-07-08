@@ -1,10 +1,10 @@
 ---
-title: Elenco di controllo della sicurezza per AEM Screens
-seo-title: Elenco di controllo della sicurezza per AEM Screens
-description: La pagina descrive l'elenco di controllo di sicurezza per AEM Screens
-seo-description: La pagina descrive l'elenco di controllo di sicurezza per AEM Screens
+title: Elenco di controllo protezione per AEM Screens
+seo-title: Elenco di controllo protezione per AEM Screens
+description: La pagina descrive l'elenco di controllo di protezione per i AEM Screens
+seo-description: La pagina descrive l'elenco di controllo di protezione per i AEM Screens
 translation-type: tm+mt
-source-git-commit: dd1198dbfb502287ae72c3ccef297606aef069a2
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 1%
@@ -12,20 +12,21 @@ ht-degree: 1%
 ---
 
 
-# Considerazioni sulla sicurezza del sistema per AEM Screens {#security-checklist}
+# Considerazioni sulla sicurezza del sistema per i AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
+>
 >Si tratta di una risorsa Git interna.
 
-In questa pagina vengono evidenziate le considerazioni sulla sicurezza del sistema per AEM Screens.
+In questa pagina vengono evidenziate le considerazioni sulla sicurezza del sistema per i AEM Screens.
 
 
-## White paper per la sicurezza di AEM Screens {#white-paper}
+## Libro bianco sulla sicurezza AEM Screens {#white-paper}
 
 Questa sezione descrive il Libro bianco. (allegato del Libro bianco in sospeso)
 
 
-## Domande frequenti per la sicurezza di AEM Screens {#faqs-screens}
+## Domande frequenti per la protezione dei AEM Screens {#faqs-screens}
 
 Le seguenti domande frequenti si basano su un&#39;architettura del lettore autenticata e registrata che utilizza HTTPS come protocollo di comunicazione tra il lettore e AEM Server.
 
@@ -77,7 +78,9 @@ Un giocatore fisicamente compromesso può teoricamente essere manipolato per rip
 Si consiglia quindi di mettere i dispositivi fuori portata, preferibilmente in un contenitore sicuro, con cablaggio anche fissato. Disattivate anche le porte remote IR.
 
 Se il sistema operativo del dispositivo non viene aggiornato regolarmente, il sistema operativo potrebbe essere lasciato esposto a fori di sicurezza e consentire attacchi remoti attraverso la rete.
+
 >[!NOTE]
+>
 >Si consiglia di utilizzare i dispositivi con funzionalità di aggiornamento e controllo remoto affidabili (desktop remoto, soluzione MDM, ecc.). Si consiglia inoltre di utilizzare una rete privata, non esposta ad esempio al WIFI pubblico.
 
 
