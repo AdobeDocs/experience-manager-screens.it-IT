@@ -4,7 +4,10 @@ seo-title: Guida alle best practice per i progetti [!UICONTROL AEM Screens]
 description: Questa pagina è una sezione introduttiva a AEM Screens
 seo-description: Questa pagina fornisce un’introduzione a AEM Screens
 translation-type: tm+mt
-source-git-commit: 8a80ea5c79bfd9890211bd7e0d958ab0d4c2d4b6
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -32,13 +35,13 @@ La creazione e la gestione di una rete di digital signage con AEM Screens è sem
 
 >[!NOTE]
 >
->Per informazioni dettagliate sulle diverse funzioni di sviluppo e gestione di un progetto AEM Screens, consulta la **[Guida utente di AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)**.
+>Per informazioni dettagliate sulle diverse funzioni di sviluppo e gestione di un progetto AEM Screens, consulta la **[Guida utente di AEM Screens](https://helpx.adobe.com/it/experience-manager/6-5/screens/user-guide.html)**.
 
 ## AEM Sites e AEM Screens {#aem-sites-screens}
 
-> [!NOTE]
+>[!NOTE]
 >
-> Se il team di implementazione ha esperienza nell’utilizzo delle applicazioni AEM Sites, è importante comprendere la differenza tra AEM Sites e AEM Screens.
+>Se il team di implementazione ha esperienza nell’utilizzo delle applicazioni AEM Sites, è importante comprendere la differenza tra AEM Sites e AEM Screens.
 
 AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per distribuire i contenuti ai dispositivi di digital signage negli spazi pubblici. Anche se è importante mantenere quanta più coerenza possibile tra i canali Web e quelli interni, è necessario tenere presente alcune differenze.
 
@@ -52,10 +55,10 @@ AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per dis
 
 * **Esperienze interattive**: un’applicazione chiosco touch può essere creata e distribuita in un canale Screens tramite AEM e l’editor SPA. È consigliabile applicare proprietà di progettazione omnicanale coerenti, un timer di inattività per ripristinare l’esperienza e un chiaro invito all’azione per le attività che l’applicazione può eseguire. La pagina di destinazione deve essere costituita da elementi digitali chiave progettati per trasmettere valore, richiamare l’attenzione dell’utente e richiedere all’utente di interagire.
 
-AEM Screens fornisce un’infrastruttura per distribuire contenuti ai dispositivi fisici. I contenuti vengono assegnati ai canali in Screens, che possono avere contenuti multimediali o applicazioni touch screen. In questo framework, un’applicazione AEM Sites può essere distribuita come contenuto tramite un canale.
+AEM Screens fornisce un’infrastruttura per distribuire contenuti ai dispositivi fisici. I contenuti vengono assegnati ai canali in Screens, che possono avere contenuti multimediali o applicazioni touch screen. In questo framework, un&#39;applicazione AEM Sites potrebbe essere distribuita come contenuto tramite un canale.
 
-Prima di essere rilasciata in un canale su schermi, è necessario formattare AEM Sites per utilizzarlo nelle dimensioni del dispositivo di visualizzazione a cui è destinato.
+Prima di essere introdotti in un canale in Screens, è necessario formattare un AEM Sites per l&#39;utilizzo nelle dimensioni del dispositivo di visualizzazione a cui è destinato.
 
-> [!NOTE]
+>[!NOTE]
 >
-> Molti componenti di AEM Sites non sono compatibili con AEM Screens. AEM Screens viene fornito con molti dei propri componenti che consentono di creare esperienze digitali senza dover essere personalizzati. Se i requisiti del progetto lo consentono, utilizza la funzionalità integrata di AEM Screens laddove possibile.
+>Molti componenti di AEM Sites non sono compatibili con AEM Screens. AEM Screens viene fornito con molti dei propri componenti che consentono di creare esperienze digitali senza dover essere personalizzati. Se i requisiti del progetto lo consentono, utilizza la funzionalità integrata di AEM Screens laddove possibile.
