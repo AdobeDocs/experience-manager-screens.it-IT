@@ -2,7 +2,7 @@
 title: Rete mobile diretta
 description: La pagina descrive l’impostazione della rete mobile diretta
 translation-type: tm+mt
-source-git-commit: d12de8de2b7bb29d85ebb0e046f2d1fd5051e928
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -69,9 +69,11 @@ Come follow-up il pacchetto dati necessario deve essere almeno:
 
 
 >[!IMPORTANT]
+>
 >Per il caricamento iniziale di file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una quantità maggiore di dati e un tempo di download maggiore, che si riflette nelle ipotesi sopra riportate.Una rete 4G con una *buona* copertura e dati *illimitati* dovrebbe corrispondere alle installazioni più comuni di questa configurazione di rete.
 
 >[!NOTE]
+>
 >Un piano 3G minimo con una buona copertura di rete dovrebbe portare a prestazioni di download accettabili per un lettore AEM Screens. Se esiste solo una copertura equa disponibile in una posizione specifica, è necessario considerare la possibilità di passare dall&#39;impostazione della rete alla rete [mobile con Mobile Data Router e Active Network Components](/help/using/mobile-network-router.md).
 
 
@@ -92,6 +94,7 @@ Per gli scenari in cui ci sono più interazioni con sensori o attivatori e conte
 La tabella seguente fornisce una panoramica sui dati chiave della connettività di rete.
 
 >[!NOTE]
+>
 >Tutte le informazioni si riferiscono al consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/using/assets/download-times-mobile.png)
