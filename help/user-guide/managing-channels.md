@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f3460fe4095907ad65e411fcb6433bfb1c2c2d3c
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1400'
+ht-degree: 45%
 
 ---
 
@@ -69,6 +72,7 @@ The following example shows the creation of a Sequence Channel (*ChannelOne*) fo
 >Puoi creare zone diverse utilizzando le opzioni modello, come gli schermi divisi 2x2, 1x2 o da 2 a 3 citati sopra.
 
 >[!IMPORTANT]
+>
 > Dopo aver creato e aggiunto contenuto al canale, il passaggio successivo consiste nel creare una posizione seguita dalla creazione di una visualizzazione. Inoltre, è necessario assegnare quel canale a una visualizzazione. Per ulteriori informazioni, vedi le risorse riportate di seguito alla fine della sezione.
 
 ## Utilizzo dei canali {#working-with-channels}
@@ -143,7 +147,7 @@ Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti ope
 1. **Impostate il canale su Offline**
    1. Seleziona il canale e seleziona **Proprietà** dalla barra delle azioni
    1. Passate alla scheda **Canale** e accertatevi di deselezionare l&#39;opzione Modalità **Sviluppatore (forza che il canale sia online)**
-   1. Click **Save &amp; Close**
+   1. Fai clic su **Salva e chiudi**
 1. **Aggiorna contenuto offline**
    1. Selezionate il canale e selezionate **Dashboard** dalla barra delle azioni
    1. Andate al pannello **INFORMAZIONI** CANALE e fate clic su *...*
@@ -250,6 +254,7 @@ Le visualizzazioni collegate sono elencate nel pannello **Visualizzazioni assegn
 >
 >* [Creare e gestire le posizioni](managing-locations.md)
 >* [Creare e gestire le visualizzazioni](managing-displays.md)
+
 >
 
 
