@@ -6,7 +6,10 @@ seo-description: Segui questa pagina per apprendere come applicare le transizion
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 389a44e3f6175e0a43a6e99edd3048f2b8455d0b
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
@@ -22,12 +25,13 @@ Questa sezione descrive come applicare il componente **Transizione** tra risorse
 
 ## Aggiunta di un componente di transizione alle risorse di un canale {#adding-transition}
 
-Per aggiungere un componente di transizione al progetto AEM Screens, procedi come segue:
+Per aggiungere un componente di transizione al progetto AEM Screens, effettuate le seguenti operazioni:
 
 >[!NOTE]
 >
 >**Prerequisiti**
-> Crea un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, configurate una posizione e una visualizzazione per visualizzare l&#39;output.
+>
+> Create un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, configurate una posizione e una visualizzazione per visualizzare l&#39;output.
 
 1. Andate al Channel **TestTransition** e fate clic su **Edit** dalla barra delle azioni.
 
@@ -49,9 +53,9 @@ Per aggiungere un componente di transizione al progetto AEM Screens, procedi com
 
    > [!NOTE]
    >
-   >Per impostazione predefinita, le proprietà del componente di transizione, ad esempio **Tipo** , sono impostate su **Dissolvenza** e **Durata** su *1600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione maggiore della risorsa a cui viene applicata.
+   >Per impostazione predefinita, le proprietà del componente di transizione, ad esempio **Tipo** , sono impostate su **Dissolvenza** e **Durata** è impostata su *1600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione maggiore della risorsa a cui viene applicata.
 
-1. Inoltre, se aggiungete un componente Sequenza **** incorporata (che include un canale di sequenza) a questo editor canale, potete aggiungere un componente di transizione alla fine, in modo che il contenuto venga riprodotto in ordine, come illustrato nella figura seguente:
+1. Inoltre, se aggiungete un componente Sequenza **** incorporata (che include un canale di sequenza) a questo editor di canali, potete aggiungere un componente di transizione alla fine, in modo che il contenuto venga riprodotto in ordine, come illustrato nella figura seguente:
 
    ![image3](assets/transitions5.png)
 
