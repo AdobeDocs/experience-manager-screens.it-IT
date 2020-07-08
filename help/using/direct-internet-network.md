@@ -2,9 +2,9 @@
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
 translation-type: tm+mt
-source-git-commit: da1fb07fef33bca771693f8bd4cc7bce256d808e
+source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ Oltre alla raggiungibilità della rete, le prestazioni della connessione Interne
 *Sufficiente* dipende dal numero di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
 
 >[!NOTE]
+>
 >Tutti i dispositivi sopra menzionati dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
 
 ### Rete locale {#lan-connection}
@@ -78,6 +79,7 @@ La rete LAN solitamente corrisponde ad almeno una rete a 100 Mbps, in modo che l
 Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens a Internet Link, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` minimo. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità.
 
 >[!NOTE]
+>
 >Se è necessario un ripetitore Wi-Fi, si consiglia vivamente un punto di accesso Mesh Wi-Fi come Google Nest Mesh Wi-Fi o simile. Altre tecnologie ripetute Wi-Fi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
@@ -91,6 +93,7 @@ Per gli scenari in cui ci sono più interazioni con sensori o attivatori e conte
 La tabella seguente fornisce una panoramica sui dati chiave della connettività di rete.
 
 >[!NOTE]
+>
 >Le informazioni consentono di visualizzare l&#39;uso di ciascun dispositivo nella rete che richiede e scarica un&#39;origine Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/assets/download-times-direct.png)
