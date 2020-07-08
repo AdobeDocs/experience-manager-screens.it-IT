@@ -11,7 +11,10 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 1222b1fcfedcc68c360c69867d3db4044ce8e7d8
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 41%
 
 ---
 
@@ -56,6 +59,7 @@ Segui i passaggi sottostanti per aggiungere una sequenza incorporata al canale:
 By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
 
 >[!IMPORTANT]
+>
 >È necessario assegnare il canale (utilizzato in sequenza incorporata) allo stesso display.
 >
 >Seguite i passaggi indicati di seguito dopo aver aggiunto una sequenza incorporata al canale dai passaggi precedenti:
@@ -63,14 +67,17 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 >1. Passate alla visualizzazione e selezionatela dalla cartella **Posizioni** .
 >1. Fate clic su **Dashboard** dalla barra delle azioni per passare alla dashboard di visualizzazione.
 >1. Selezionate **+ Assegna canali** dai **CANALI ASSEGNATI e PANNELLI** PIANIFICATI per aprire la finestra di dialogo **Assegnazione** canale.
+
    >
    >
 1. Selezionate il percorso del canale che avete (utilizzato nella sequenza incorporata) in Percorso **** canale.
 >1. Assicurarsi che la **Priorità** sia inferiore al canale principale.
+
    >
    >
 1. Non è possibile selezionare eventi **** supportati.
 >1. Al termine, fate clic su **Salva** .
+
 >
 
 
