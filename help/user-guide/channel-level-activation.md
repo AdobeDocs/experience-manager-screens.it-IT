@@ -11,7 +11,10 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: d6006c553b53dc7dfb52a03cfeb1a50e8e8de792
+source-git-commit: f25176be89424059b8c51296969f069687328536
+workflow-type: tm+mt
+source-wordcount: '1809'
+ht-degree: 0%
 
 ---
 
@@ -70,13 +73,14 @@ L&#39;immagine seguente mostra il progetto Attivazione **a livello di** canale c
    >
    >
 * [Gestione di un canale](managing-channels.md)
+
 >
 
 
 
 ### Implementazione {#implementation}
 
-L’implementazione dell’attivazione a livello di canale in un progetto AEM Screens implica tre attività principali:
+L&#39;implementazione dell&#39;attivazione a livello di canale in un progetto AEM Screens comporta tre attività principali:
 
 1. **Impostazione della tassonomia del progetto, inclusi canali, posizioni e display**
 1. **Assegnazione di canali da visualizzare**
@@ -86,7 +90,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 1. **Creare una posizione**
 
-   Andate alla cartella **Locations** (Posizioni) nel progetto AEM Screens e create una posizione come **Regione**.
+   Andate alla cartella **Locations (Posizioni** ) nel progetto AEM Screens e create una posizione come **Region (Regione)**.
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -99,6 +103,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione**.
    1. Selezionate **Regione** e fate clic su **+ Crea** dalla barra delle azioni.
    1. Selezionate **Visualizza** dalla procedura guidata e create una visualizzazione con titolo **Visualizzazione area.**
+
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
 1. **Assegna canali da visualizzare**
@@ -113,6 +118,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Selezionate la **priorità** come **1**.
    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
    1. Fai clic su **Salva**.
+
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
@@ -130,6 +136,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Selezionate gli eventi **** supportati come Carico **** iniziale, Schermo **inattivo e** Timer ****, *come mostrato nella figura seguente.
    1. Scegli la data in **attivo dal** 27 novembre 2018 11:59 pm e in **attivo fino** al 28 novembre 2018 12:05 am.
    1. Fai clic su **Salva**.
+
    >[!CAUTION]
    È necessario impostare la priorità per il canale **TargetingSinglePlay** più alto del canale **MainAdSegment** .
 
@@ -142,7 +149,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
-Una volta impostata la visualizzazione dei canali, avvia il lettore AEM Screens per visualizzare il contenuto.
+Una volta che avete impostato i canali e la visualizzazione completa, avviate il lettore AEM Screens per visualizzare il contenuto.
 
 Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 11:59 (come impostato nella pianificazione), il canale **TargetingSinglePlay** visualizzerà il contenuto fino alle 12:05 e il canale **MainAdChannel** riprenderà a riprodurlo.
 
