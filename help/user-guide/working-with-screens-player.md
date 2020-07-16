@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 translation-type: tm+mt
-source-git-commit: 8d904ae752181844f62f95cfcd1f5657957b1780
+source-git-commit: 5aea3e032cc5279de7f3abab679825aa2794a89e
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 43%
 
 ---
@@ -72,7 +72,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 * Abilita o disabilita **Admin Menu**, **Channel Switcher** e **Activity UI** per il lettore Screens.
 
-   Se l&#39;interfaccia utente **** Attività è abilitata dal menu **Configurazione** , il lettore AEM Screens visualizza i messaggi *sincronizzati* nell&#39;angolo superiore destro del lettore, come illustrato nella figura riportata di seguito.
+   Se l&#39;interfaccia utente **** Attività è abilitata dal menu **Configurazione** , il lettore AEM Screens visualizza le notifiche *dell&#39;attività del* lettore nell&#39;angolo superiore destro del lettore, come illustrato nella figura riportata di seguito.
 
    ![immagine](/help/user-guide/assets/activity_ui.png)
 
