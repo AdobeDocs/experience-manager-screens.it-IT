@@ -1,8 +1,8 @@
 ---
 title: Implementazione di Windows 10 Player
 seo-title: Implementazione di Windows 10 Player
-description: Segui questa pagina per saperne di più sulla configurazione del lettore Windows 10 di AEM Screens.
-seo-description: Segui questa pagina per saperne di più sulla configurazione del lettore Windows 10 di AEM Screens.
+description: Seguire questa pagina per informazioni sulla configurazione del lettore AEM Screens Windows 10.
+seo-description: Seguire questa pagina per informazioni sulla configurazione del lettore AEM Screens Windows 10.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,24 +11,27 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 9e7c4ec77265c1b6927a19e0d9d39770b64db0fb
+source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
 
 # Implementazione di Windows 10 Player {#implementing-windows-player}
 
-Questa sezione descrive la configurazione di AEM Screens Windows 10 Player. Fornisce informazioni sul file di configurazione e sulle opzioni disponibili e consigli sulle impostazioni da utilizzare per lo sviluppo e il test.
+In questa sezione viene descritta la configurazione del lettore AEM Screens Windows 10. Fornisce informazioni sul file di configurazione e sulle opzioni disponibili e consigli sulle impostazioni da utilizzare per lo sviluppo e il test.
 
 ## Installazione di Windows Player {#installing-windows-player}
 
-Per implementare Windows Player per AEM Screens, installate Windows Player per AEM Screens.
+Per implementare Windows Player per AEM Screens, installare Windows Player per AEM Screens.
 
-Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.4 Player.
+Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.5 Player.
 
 ### Ad-Hoc, metodo {#ad-hoc-method}
 
-Il metodo Ad-Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.4 Player.
+Il metodo Ad-Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.5 Player.
 
 Una volta scaricata l’applicazione, seguite i passaggi del lettore per completare l’installazione ad hoc:
 
@@ -66,7 +69,7 @@ La tabella seguente riassume gli attributi del criterio con un JSON di esempio p
 
 | **Nome criterio** | **Scopo** |
 |---|---|
-| server | URL del server Adobe Experience Manager (AEM). |
+| server | URL del server del Adobe Experience Manager  (AEM). |
 | risoluzione | La risoluzione del dispositivo. |
 | RestartSchedule | Pianificazione del riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente amministratore per configurare il dispositivo sul sito. Impostato su false una volta configurato completamente e in produzione. |
@@ -105,7 +108,7 @@ Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
    Fare riferimento alla sezione ***Configurare Shell Launcher*** nella pagina **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)**del supporto di Microsoft Windows per ulteriori informazioni.
 
 1. Create un utente non amministrativo (se non ne avete già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
-1. Installa il lettore Windows per l’utente Kiosk dalla pagina dei download [di](https://download.macromedia.com/screens/) AEM Screens Player.
+1. Installate il lettore Windows per quell&#39;utente Kiosk dalla pagina dei download [di](https://download.macromedia.com/screens/) AEM Screens Player.
 1. Fare riferimento a [Utilizzare Shell Launcher per creare un chiosco](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) Windows 10 per modificare lo script PowerShell per ulteriori informazioni.
 
    Modificare lo script PowerShell per sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;applicazione eseguibile sia corretto. Questo imposterà la shell personalizzata come applicazione Windows Player per l&#39;utente kiosk e imposta il valore predefinito come explorer.exe per gli altri utenti.
