@@ -2,9 +2,9 @@
 title: Rete mobile diretta
 description: La pagina descrive l’impostazione della rete mobile diretta
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 23bb59c719c675baa84c579f624adccc80377661
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Rete mobile diretta {#mobile-network-setup}
 
-I giocatori di AEM Screens possono anche essere collegati utilizzando reti mobili o cellulari in esecuzione almeno su una rete 3G.
+I giocatori di AEM Screens possono anche essere collegati tramite reti mobili o cellulari che eseguono almeno una rete 3G.
 
-All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. Di conseguenza, la larghezza di banda specificata influisce solo sui tempi di download iniziali e non sulle prestazioni dei display.
+All&#39;interno dei AEM Screens, il contenuto richiesto viene scaricato fisicamente nel controller del lettore o nel computer e memorizzato correttamente all&#39;interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali, nonché sugli aggiornamenti dei contenuti, e non influenza le prestazioni della riproduzione regolare dei display.
 
-Il vantaggio di collegare i lettori AEM Screens con una connessione Cellulare 3/4/5G al provider di dati Mobile Service è che il router mobile può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il più possibile la costruzione di calcestruzzo o metallo circostante.
+Il vantaggio di collegare i lettori AEM Screens Cellular 3/4/5G al provider di dati Mobile Service è che il router mobile può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è solitamente in posizione elevata e aperta con il minor numero possibile di costruzione di cemento o metallo circostante.
 
-Questa configurazione consente agli utenti di AEM Screen una grande flessibilità, in quanto non è necessaria alcuna connessione fissa per connettersi ai AEM Screens.
+Questa configurazione consente agli utenti di AEM Screen una grande flessibilità, in quanto non è necessaria alcuna connessione fissa per connettersi ai AEM Screens. Questo è particolarmente interessante per le impostazioni effimere o mobili.
 
 Il diagramma seguente mostra l&#39;impostazione della rete mobile diretta ed è costituito da un segmento di connessione di rete singolo e dalla connessione di ciascun lettore alla rete di dati mobile o cellulare.
 
@@ -28,7 +28,7 @@ Il diagramma seguente mostra l&#39;impostazione della rete mobile diretta ed è 
 
 Segui i passaggi indicati di seguito per garantire la corretta connessione dei lettori dello schermo AEM in questa configurazione:
 
-1. Accertatevi che ciascuno dei lettori dello schermo AEM sia collegato alla rete Routers.
+1. Accertatevi che ciascuno dei lettori dello schermo AEM sia collegato alla rete del router.
 
 1. Verificate la connessione Internet chiamando un URL nel browser del sistema.
 
@@ -62,7 +62,7 @@ Nella tabella seguente sono evidenziate le reti di dati con larghezza di banda s
 Mentre considera quale rete dati utilizzare, si consiglia di rispondere alle seguenti domande:
 
 La velocità di rete disponibile dipende dal piano specifico Mobile Data Provider e con la copertura disponibile raggiunta nella posizione del controller AEM Screens.
-Dopo questa configurazione, è anche necessario tenere presente che oltre alla larghezza di banda disponibile, alcuni piani Mobile Data Provider limitano la quantità di dati disponibili che si trovano attraverso la connessione entro un periodo di tempo specifico. Occorre garantire che la capacità in quantità di dati e larghezza di banda sia sufficiente.
+Dopo questa configurazione, è anche necessario tenere presente che oltre alla larghezza di banda disponibile, alcuni piani Mobile Data Provider limitano la quantità di dati disponibili che si trovano attraverso la connessione entro un periodo di tempo specifico. È necessario garantire che la capacità in quantità di dati e larghezza di banda sia sufficiente.
 Come follow-up il pacchetto dati necessario deve essere almeno:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
@@ -70,7 +70,7 @@ Come follow-up il pacchetto dati necessario deve essere almeno:
 
 >[!IMPORTANT]
 >
->Per il caricamento iniziale di file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una quantità maggiore di dati e un tempo di download maggiore, che si riflette nelle ipotesi sopra riportate.Una rete 4G con una *buona* copertura e dati *illimitati* dovrebbe corrispondere alle installazioni più comuni di questa configurazione di rete.
+>Per il caricamento iniziale dei file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una maggiore quantità di dati e un maggiore tempo di scaricamento, che si rifletta nelle ipotesi di cui sopra. Una rete 4G con una *buona* copertura e dati *illimitati* dovrebbe corrispondere alle installazioni più comuni di questa configurazione di rete.
 
 >[!NOTE]
 >
@@ -79,9 +79,9 @@ Come follow-up il pacchetto dati necessario deve essere almeno:
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, consentono di disporre di una larghezza di banda sufficiente a garantire un funzionamento fluido dei AEM Screens. La rete LAN solitamente corrisponde a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
+I problemi di prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, consistono nel fornire una larghezza di banda sufficiente per operare AEM Screens senza problemi. La raccomandazione per le velocità di rete LAN è di avviare le reti a 100 Mbps almeno, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
 
-Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti questi corrispondano ai requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica di accesso a Internet o Router.
+Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti questi corrispondano ai requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica di accesso a Internet o Router. In caso contrario, la larghezza di banda totale sarà limitata dal collegamento più debole nella catena di rete.
 
 ## Download di file multimediali e risorse {#download}
 
