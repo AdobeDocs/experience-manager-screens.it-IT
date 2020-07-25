@@ -2,9 +2,10 @@
 cloud: experience-cloud
 product: experience manager
 audience: end-user
-user-guide-title: Guida di Adobe Experience Manager Screens
+user-guide-title: ' Adobe Experience Manager Screens Aiuto'
+user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 28966ccd0febf28494cb218407fec942a79c1cf4
+source-git-commit: 5f3fc27ae60de86ae40ba71a67cdc6ff43dea4fb
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 13%
@@ -27,12 +28,12 @@ ht-degree: 13%
    + [Parte 5: Considerazioni sul supporto](support-considerations.md)
 + Configurazione e amministrazione {#administering}
    + [Configurazioni server Screens](configuring-screens-introduction.md)
-   + [Impostazione delle configurazioni del dispatcher](dispatcher-configurations-aem-screens.md)
+   + [Configurazione di Dispatcher Configurations](dispatcher-configurations-aem-screens.md)
    + [Installazione di Screens Player](installing-screens-player.md)
    + [Collegamento del lettore dello schermo](working-with-screens-player.md)
    + [Registrazione dispositivo](device-registration.md)
    + [Impostazione degli ACL](setting-up-acls.md)
-   + [Elenco di controllo per la sicurezza di AEM Screens](security-checklist.md)
+   + [Elenco di controllo sicurezza AEM Screens](security-checklist.md)
    + [Transizione da ContentSync a SmartSync](smartsync.md)
    + [Nuovo Importazione progetto da file](project-importer.md)
    + [Replica degli attivatori di dati sui server di pubblicazione](replicating-data-triggers.md)
@@ -44,9 +45,9 @@ ht-degree: 13%
    + Author Publish {#author-publish}
       + [Panoramica sull’architettura di Author-Publish](author-publish-architecture-overview.md)
       + [Configurazione di Author e Publish](author-and-publish.md)
-   + Integrazione di Analytics con AEM Screens {#analytics-integration}
-      + [Integrazione di Adobe Analytics](adobe-analytics-integration-aem-screens.md)
-      + [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
+   +  Integrazione Analytics con AEM Screens {#analytics-integration}
+      + [Integrazione di Adobe  Analytics](adobe-analytics-integration-aem-screens.md)
+      + [Configurazione di Adobe  Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
 + Esempi di authoring e casi di utilizzo {#authoring}
    + Impostazione di un progetto Screens {#setting-up-projects}
       + [Creazione e gestione di progetti](creating-a-screens-project.md)
@@ -59,7 +60,7 @@ ht-degree: 13%
    + Utilizzo delle funzioni di base del prodotto {#product-features}
       + [Sovrapposizione testo](text-overlay.md)
       + [Aggiornamento offline in blocco](bulk-offline-update.md)
-      + [Servizio di notifica AEM Screens](screens-notifications-service.md)
+      + [Servizio notifiche AEM Screens](screens-notifications-service.md)
       + [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md)
       + [Attivazione a livello di risorsa](asset-level-scheduling.md)
       + [Attivazione a livello di canale](channel-level-activation.md)
@@ -92,12 +93,12 @@ ht-degree: 13%
    + [Canali offline](offline-channels.md)
    + [Estensione di un componente AEM Screens](extending-component-tutorial-develop.md)
    + [Creazione di componenti](creating-components.md)
-   + [Incorporazione di un’applicazione REACT tramite AEM SPA Editor e integrazione con AEM Screens Analytics](embedding-react-app.md)
+   + [Incorporazione di un’applicazione REACT tramite AEM SPA Editor e integrazione con AEM Screens  Analytics](embedding-react-app.md)
    + [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)
    + [Creazione di modelli personalizzati per layout multi-zona](creating-custom-templates-multizone-layouts.md)
    + [Applicazione del marchio personalizzato e dello stile per le sovrapposizioni di testo](custom-branding-text-overlays.md)
 + Risoluzione dei problemi e domande frequenti {#troubleshooting}
-   + [Domande frequenti su AEM Screens](aem-screens-faqs.md)
+   + [Domande frequenti sui AEM Screens](aem-screens-faqs.md)
    + [Risoluzione dei problemi del Centro di controllo del dispositivo](monitoring-screens.md)
    + [Configurazione della riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
