@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Questa pagina descrive l’attivazione a livello di canale per le risorse utiliz
 Gli argomenti seguenti sono trattati in questa sezione:
 
 * Panoramica
-* Finestra Attivazione
+* Finestra di attivazione
 * Utilizzo dell&#39;attivazione a livello di canale come riproduzione di un singolo evento
 * Gestione della ricorrenza per le risorse in un canale
    * Frazionamento del giorno
@@ -45,7 +45,7 @@ L&#39;esempio seguente fornisce una soluzione concentrandosi sui seguenti termin
 * un canale ***evento*** singolo che viene eseguito una sola volta alla volta
 * una pianificazione ***impostata e una priorità*** per l&#39;evento di riproduzione singola che si verifica all&#39;interno del canale della sequenza principale
 
-## Finestra Attivazione {#using-channel-level-activation}
+## Finestra di attivazione {#using-channel-level-activation}
 
 La sezione seguente illustra la creazione di un singolo evento riprodotto all’interno di un canale per un progetto AEM Screens.
 
@@ -154,7 +154,7 @@ Una volta che avete impostato i canali e la visualizzazione completa, avviate il
 Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 11:59 (come impostato nella pianificazione), il canale **TargetingSinglePlay** visualizzerà il contenuto fino alle 12:05 e il canale **MainAdChannel** riprenderà a riprodurlo.
 
 >[!NOTE]
-Per informazioni su AEM Screen Player, consulta le risorse seguenti:
+Per ulteriori informazioni su AEM riproduttore dello schermo, fare riferimento alle seguenti risorse:
 * [Download di AEM Screens Player](https://download.macromedia.com/screens/)
 * [Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
