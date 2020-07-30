@@ -4,7 +4,7 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Questa pagina descrive l’attivazione del livello delle risorse per le risorse 
 Gli argomenti seguenti sono trattati in questa sezione:
 
 * Panoramica
-* Finestra Attivazione
+* Finestra di attivazione
 * Riproduzione Di Singoli Eventi
 * Gestione della ricorrenza nelle risorse
    * Frazionamento del giorno
@@ -30,7 +30,7 @@ Gli argomenti seguenti sono trattati in questa sezione:
 
 >[!CAUTION]
 >
->Questa funzionalità AEM Screens è disponibile solo se è stato installato AEM 6.3 Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
+>Questa funzionalità AEM Screens è disponibile solo se è stato installato AEM Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
 >
 >Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
@@ -42,7 +42,7 @@ Gli argomenti seguenti sono trattati in questa sezione:
 
 Con questa funzione, potete specificare non solo la data e l&#39;ora di inizio e fine, ma anche un pattern di ricorrenza.
 
-## Finestra Attivazione {#single-event-playback}
+## Finestra di attivazione {#single-event-playback}
 
 Attivazione a livello di risorsa viene eseguita configurando la scheda **Attivazione** durante l&#39;accesso alle proprietà di una risorsa.
 
@@ -88,8 +88,8 @@ Supponete di voler visualizzare un’immagine solo il venerdì dall’1:00 alle 
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
-   > [!NOTE]
-   > Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >[!NOTE]
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -115,8 +115,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
-   > [!NOTE]
-   > Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >[!NOTE]
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -140,8 +140,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
-   > [!NOTE]
-   > Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >[!NOTE]
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -154,8 +154,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | di febbraio,maggio,agosto,novembre | la risorsa viene riprodotta nel canale in febbraio, maggio, agosto e novembre |
 | di febbraio-luglio | la risorsa viene riprodotta nel canale da febbraio fino alla fine di luglio |
 
-> [!NOTE]
-> Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.
+>[!NOTE]
+>Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.
 
 ### Combinazione di partizioni {#combined-parting}
 
@@ -163,8 +163,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
-   > [!NOTE]
-   > Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >[!NOTE]
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -178,15 +178,15 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | il 1° gennaio dopo le 14:00 anche il 2° giorno di gennaio anche il 3 gennaio prima delle 3:00 | la risorsa nel canale inizia a giocare dopo le 14:00 del 1° gennaio, continua a giocare per l&#39;intera giornata il 2 gennaio fino alle 3:00 del 3 gennaio |
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
 
-> [!NOTE]
-> Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+>[!NOTE]
+>Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 
 ## Attivazione di più risorse {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->La funzione Attivazione **risorse** multiple è disponibile solo se è stato installato AEM 6.3 Feature Pack 5 o AEM 6.4 Feature Pack 3.
+>La funzione Attivazione **** per più risorse è disponibile solo se è stato installato AEM Feature Pack 5 6.3 o AEM Feature Pack 3 6.4.
 
 ***Attivazione*** per più risorse consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate.
 
