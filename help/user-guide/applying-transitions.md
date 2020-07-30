@@ -6,7 +6,7 @@ seo-description: Segui questa pagina per apprendere come applicare le transizion
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Per aggiungere un componente di transizione al progetto AEM Screens, effettuate 
 
    ![image3](assets/transitions3.png)
 
-   > [!NOTE]
+   >[!NOTE]
    >
    >Per impostazione predefinita, le proprietà del componente di transizione, ad esempio **Tipo** , sono impostate su **Dissolvenza** e **Durata** è impostata su *1600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione maggiore della risorsa a cui viene applicata.
 
