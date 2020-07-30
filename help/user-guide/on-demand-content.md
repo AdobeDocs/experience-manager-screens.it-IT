@@ -6,7 +6,10 @@ seo-description: 'Seguite questa pagina per informazioni su On-Demand Content Up
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 161eef6e7e45393f345240b9c36a104a18106f12
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 0%
 
 ---
 
@@ -17,13 +20,13 @@ Questa sezione descrive il contenuto on-demand per la gestione delle pubblicazio
 
 ## Gestione della pubblicazione: Distribuzione di aggiornamenti di contenuto da Autore a Pubblica sul dispositivo {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Potete pubblicare e annullare la pubblicazione del contenuto da AEM Screens. La funzione Gestisci pubblicazione consente di distribuire gli aggiornamenti di contenuto dall’autore alla pubblicazione sul dispositivo. Puoi pubblicare/annullare la pubblicazione del contenuto per l’intero progetto AEM Screens o solo per un canale, un percorso, un dispositivo, un’applicazione o una pianificazione.
+Potete pubblicare e annullare la pubblicazione del contenuto dai AEM Screens. La funzione Gestisci pubblicazione consente di distribuire gli aggiornamenti di contenuto dall’autore alla pubblicazione sul dispositivo. Potete pubblicare/annullare la pubblicazione del contenuto per l’intero progetto di AEM Screens o solo per un canale, una posizione, un dispositivo, un’applicazione o una pianificazione.
 
 ### Gestione della pubblicazione per un progetto AEM Screens {#managing-publication-for-an-aem-screens-project}
 
 Per distribuire gli aggiornamenti di contenuto dall’istanza di creazione al dispositivo per un progetto AEM Screens, effettuate le seguenti operazioni:
 
-1. Passa al progetto AEM Screens.
+1. Andate al progetto AEM Screens.
 1. Fate clic su **Gestisci pubblicazione** dalla barra delle azioni per pubblicare il progetto nell&#39;istanza di pubblicazione.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
@@ -48,7 +51,7 @@ Per distribuire gli aggiornamenti di contenuto dall’istanza di creazione al di
 
    Il passaggio sopra riportato mostra come pubblicare l’intero contenuto. Se si desidera utilizzare le altre tre alternative disponibili, sarà necessario verificare quella particolare opzione.
 Ad esempio, la seguente immagine consente di gestire e aggiornare solo le pagine modificate del progetto:
-   ![image](assets/author-publish-manage.png)
+   ![immagine](assets/author-publish-manage.png)
 
    Seguite le spiegazioni riportate di seguito per comprendere le opzioni disponibili:
 
@@ -73,8 +76,8 @@ Questa opzione consente di gestire gli aggiornamenti solo per le pagine pubblica
    >    1. Il flusso di lavoro non funziona se l’autore non completa il processo di replica (i contenuti vengono ancora caricati nell’istanza di pubblicazione) dopo aver fatto clic sul pulsante **Pubblica** nel flusso di lavoro di gestione della pubblicazione.
 
 
-   > [!CAUTION]
-   > Se in qualità di autore o creatore di contenuti, desiderate visualizzare le modifiche nei dispositivi collegati all’istanza di creazione, fate clic su **Aggiorna contenuto** offline dal dashboard di canale o selezionate il progetto. In questo caso, il contenuto aggiornato offline viene eseguito solo nell&#39;istanza di creazione.
+   >[!CAUTION]
+   >Se in qualità di autore o creatore di contenuti, desiderate visualizzare le modifiche nei dispositivi collegati all’istanza di creazione, fate clic su **Aggiorna contenuto** offline dal dashboard di canale o selezionate il progetto. In questo caso, il contenuto aggiornato offline viene eseguito solo nell&#39;istanza di creazione.
 
 1. Andate al progetto e fate clic su **Aggiorna contenuto** offline nella barra delle azioni. Questa azione inoltra lo stesso comando per pubblicare l’istanza, in modo che le zip offline vengano create anche nell’istanza di pubblicazione.
 
@@ -87,11 +90,11 @@ Questa opzione consente di gestire gli aggiornamenti solo per le pagine pubblica
 
    >[!CAUTION]
    >
-   >È necessario attivare l’aggiornamento del contenuto offline nell’istanza di creazione, se al server di creazione è registrato un lettore. L&#39;aggiornamento del contenuto offline non è richiesto per il lettore registrato nell&#39;istanza di pubblicazione.
+   >È necessario attivare l&#39;aggiornamento del contenuto offline nell&#39;istanza di creazione, se si dispone di un lettore registrato nel server di creazione. L&#39;aggiornamento del contenuto offline non è richiesto per il lettore registrato nell&#39;istanza di pubblicazione.
 
 ### Gestione della pubblicazione per un canale {#managing-publication-for-a-channel}
 
-Per distribuire gli aggiornamenti dei contenuti dall’istanza di creazione al dispositivo per un canale in un progetto AEM Screens, procedi come segue:
+Per distribuire gli aggiornamenti di contenuto dall’istanza di creazione alla pubblicazione sul dispositivo per un canale in un progetto AEM Screens, effettuate le seguenti operazioni:
 
 >[!NOTE]
 >
@@ -114,7 +117,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’istanza di creazione al d
    >
    >Attendete alcuni secondi/minuti in modo che il contenuto raggiunga l’istanza di pubblicazione.
 
-1. Attivate **Aggiorna contenuto** offline nel dashboard canali per inviare solo il contenuto offline all’istanza di creazione ma non all’istanza di pubblicazione. I passaggi da 1 a 4 prevedono l’invio di contenuto offline per pubblicare l’istanza.
+1. Attivate **Aggiorna contenuto** offline nel dashboard canale per inviare solo il contenuto offline all’istanza di creazione ma non all’istanza di pubblicazione. I passaggi da 1 a 4 prevedono l’invio di contenuto offline per pubblicare l’istanza.
 
    ![screen_shot_2019-02-07at21608pm](assets/screen_shot_2019-02-07at21608pm.png)
 
