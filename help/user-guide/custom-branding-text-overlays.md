@@ -5,7 +5,7 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
    >[!NOTE]
    >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor canale, consultate Sovrapposizione [](/help/user-guide/text-overlay.md)testo.
 
-1. Passa a CRXDE Lite dall’istanza di AEM —> Strumenti —> **CRXDE Lite**.
+1. Andate al CRXDE Lite dall&#39;istanza AEM —> Strumenti —> **CRXDE Lite**.
 
 1. È necessario creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`, ad esempio, in questo caso, passare a `/apps/settings/wcm/designs/customstyle/`
 
@@ -41,26 +41,26 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 1. Create un file *static.css* e impostate le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
 
    ```shell
-     //global styles
-     cq-Screens-textOverlay {
-     padding: 1em;
-     font-size: 3rem;
-     line-height: 1em;
-      }
-     //authoring overrides
-    .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
-     display: none;
-     padding: 0;
-     font-size: 1rem;
+    //global styles
+    cq-Screens-textOverlay {
+    padding: 1em;
+    font-size: 3rem;
+    line-height: 1em;
      }
-      // light text variant
-     .cq-Screens-textOverlay-color--light {
-      background-color: rgba(0, 0, 0, .6);
-      }
-      // dark text variant
-      .cq-Screens-textOverlay-color--dark {
-       background-color: rgba(255, 255, 255, .6);
+    //authoring overrides
+   .aem-AuthorLayer-Edit .cq-Screens-textOverlay {
+    display: none;
+    padding: 0;
+    font-size: 1rem;
+    }
+     // light text variant
+    .cq-Screens-textOverlay-color--light {
+     background-color: rgba(0, 0, 0, .6);
      }
+     // dark text variant
+     .cq-Screens-textOverlay-color--dark {
+      background-color: rgba(255, 255, 255, .6);
+    }
    ```
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand4.png)
@@ -83,7 +83,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 >[!IMPORTANT]
 >
-> È possibile sovrapporre i modelli esistenti di Screens per inserire i propri design per impostazione predefinita o creare un modello personalizzato. Per ulteriori informazioni, fare riferimento ai passaggi descritti di seguito.
+>È possibile sovrapporre i modelli esistenti di Screens per inserire i propri design per impostazione predefinita o creare un modello personalizzato. Per ulteriori informazioni, fare riferimento ai passaggi descritti di seguito.
 
 1. Per sovrapporre i modelli Screens esistenti per inserire i propri design per impostazione predefinita:
 
