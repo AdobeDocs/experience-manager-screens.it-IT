@@ -1,47 +1,31 @@
 ---
 title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
-description: Segui questa pagina per maggiori informazioni sull'assegnazione dei canali e il dayparting.
-seo-description: Segui questa pagina per maggiori informazioni sull'assegnazione dei canali e il dayparting.
-uuid: fe429485-dcc9-4507-864c-b04393cedeee
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: 212adcd1-835b-453d-9d3e-775366abf181
-docset: aem65
+description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 57%
+source-wordcount: '1335'
+ht-degree: 41%
 
 ---
 
 
 # Assegnazione dei canali {#channel-assignment}
 
-Questa sezione illustra i seguenti argomenti:
+Una volta definito uno schermo, è necessario assegnare un canale a uno schermo.
 
-* **Assegnazione di un canale**
-* **Informazioni sulle proprietà dell&#39;assegnazione del canale, finestra di dialogo**
-* **Dayparting**
+Questa pagina mostra l’assegnazione di un canale al display.
 
-Una volta definita una visualizzazione, è necessario assegnarle un canale.
+>[!NOTE]
+>Potete assegnare più canali a uno schermo.
 
-Questa pagina mostra come assegnare i canali alle visualizzazioni.
-
-**Prerequisiti**:
-
-* [Configurazione e distribuzione di Screens](configuring-screens-introduction.md)
-* [Creare e gestire il progetto Screens](creating-a-screens-project.md)
-* [Creazione e gestione di canali](managing-channels.md)
-* [Creare e gestire le posizioni](managing-locations.md)
-* [Creare e gestire le visualizzazioni](managing-displays.md)
-
-## Assegnazione di un canale {#assign-a-channel}
+## Assigning a Channel {#assign-a-channel}
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
+
+>[!Iimportante]
+>La seguente finestra di dialogo per l’assegnazione dei canali è diversa per Adobe Experience 6.5.5 Screens Feature Pack e versioni successive. Per ulteriori informazioni, consulta Assegnazione [](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) canale.
 
 1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
@@ -55,7 +39,29 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
    ![immagine](/help/user-guide/assets/channel-assign1.png)
 
-   È possibile comprendere e configurare le proprietà dalla finestra di dialogo Assegnazione **** canale dalla sezione seguente.
+   È possibile configurare le proprietà dalla finestra di dialogo Assegnazione **** canale dalla sezione seguente. Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
+
+## Assegnazione di un canale per la versione di AEM 6.5.5 Screens Feature Pack {#assign-a-channel-new-release}
+
+Segui la procedura seguente per assegnare un canale a una visualizzazione:
+
+1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
+
+
+1. Tap/click **Assign Channel** from the action bar
+
+   Oppure,
+
+   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+
+1. Dall’opzione Impostazione, potete scegliere il canale per percorso o per nome, immettere il ruolo del canale, la priorità, gli eventi supportati.
+
+   >[!NOTE]
+   >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
+
+1. Dall&#39;opzione **Pianificazioni** , selezionate il **Fuso orario** di riferimento, la finestra **** Attivazione e la Pianificazione **** ricorrenza.
+
+1. Dopo aver configurato le preferenze, fate clic su **Salva** .
 
 ### Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
 
@@ -88,7 +94,7 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 #### Metodo di interruzione {#interruption-method-channel}
 
 >[IMPORTANTE]
-> Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+> Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
 
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
 
@@ -111,18 +117,17 @@ la pianificazione consente di inserire una descrizione testuale circa quando il 
 
 Mostra descrizione luogo di interesse definisce se la descrizione del luogo di interesse (&quot;*Tocca un punto qualsiasi per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
 
+### Separazione giornaliera {#dayparting}
 
-### Dayparting {#dayparting}
+Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
-Schedules when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di suddivisione del giorno entro un giorno, una settimana o un mese, in base alle esigenze.
 
-DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata. AEM Screens consente di pianificare i canali in termini di dayparting entro un giorno, una settimana o un mese, a seconda delle esigenze.
-
-Gli esempi che seguono spiegano il dayparting dei canali in tre diversi scenari:
+Gli esempi seguenti spiegano la suddivisione giornaliera nei canali in tre scenari diversi:
 
 #### Riproduzione di contenuto su un singolo giorno suddiviso in più fasce orarie {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Questo esempio indica come un ristorante usa il dayparting per mostrare il suo menù per colazione, pranzo e cena.
+Questo esempio mostra come un Ristorante utilizza la sfilatura giornaliera per mostrare la sua colazione, pranzo e cena menu.
 
 Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenuto del canale venga riprodotto secondo l&#39;ora specificata del giorno:
 
@@ -161,9 +166,9 @@ Questo esempio mostra il dayparting in un casinò in cui l&#39;evento live ha lu
 
 #### Riproduzione di contenuto per un mese/mesi particolare/i {#playing-content-for-a-particular-month-months}
 
-Questo esempio mostra il dayparting per un negozio che espone la propria collezione estate da giugno ad agosto e la collezione autunnale da settembre a fine ottobre.
+Questo esempio mostra la suddivisione giornaliera per uno store che visualizza la raccolta estiva tra i mesi di giugno e agosto e la raccolta autunnale da settembre a fine ottobre.
 
-Qui puoi creare il dayparting secondo i mesi, in modo che il contenuto del canale venga riprodotto secondo i mesi dell&#39;anno specificati.
+Qui si crea la suddivisione del giorno in base ai mesi, in modo che il contenuto del canale venga riprodotto in base ai mesi specificati dell&#39;anno.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
@@ -176,12 +181,13 @@ Qui puoi creare il dayparting secondo i mesi, in modo che il contenuto del canal
 
 #### Riproduzione di contenuto per i canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
 
-Questo esempio mostra il dayparting per un negozio che espone la propria collezione inverno con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
+Gli esempi seguenti mostrano la suddivisione giornaliera per un negozio che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
 | A | Inverno | 1 | 01 dicembre 2017 - 31 dicembre 2017 |
 | B | Natale | 2 | 24 dicembre 2017 - 31 dicembre 2017 |
+
 
 >[!IMPORTANT]
 >
