@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: a246671ddf7fee333d01c09ca61daee91df737e4
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1197'
 ht-degree: 6%
 
 ---
@@ -72,7 +72,7 @@ Potete usare singole risorse, ad esempio un’immagine o un video, in tutte le s
 
    Per riprodurre una singola immagine o un video in due aree, è sufficiente trascinare un’immagine in ciascuna area dell’editor canale, come illustrato nella figura seguente:
 
-   ![image](/help/user-guide/assets/multi-zone/multizone-img3.png)
+   ![immagine](/help/user-guide/assets/multi-zone/multizone-img3.png)
 
 ### Utilizzo del contenuto sequenziale in una o più aree {#using-sequenced-content-in-one-or-more-zones}
 
@@ -83,6 +83,7 @@ Per visualizzare la sequenza di immagini e video nelle diverse aree, effettuate 
    1. Passate alle **aree** —> **MultiZone** —> **Canali** e fate clic su **Crea** dalla barra delle azioni.
    1. Select **Channels Folder** from the **Create** wizard and click **Next**.
    1. Enter the title as **EmbeddedChannels** and click **Create**.
+
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Aggiunta di altri due canali alla cartella Canale**
@@ -93,6 +94,7 @@ Per visualizzare la sequenza di immagini e video nelle diverse aree, effettuate 
    1. Trascinate alcune immagini su questo canale.
    1. Analogamente, create un altro canale di sequenza denominato **Zone2** nella cartella **EmbeddedChannels** .
    1. Trascinate e rilasciate un video su questo canale.
+
    La figura seguente mostra i canali **Zone1** e **Zone2**:
 
    ![screen_shot_2018-12-19at125930pm](assets/screen_shot_2018-12-19at125930pm.png)
@@ -115,7 +117,7 @@ Per visualizzare la sequenza di immagini e video nelle diverse aree, effettuate 
    1. Selezionate il percorso del canale come **Aree** —> **Canali** —> **IncorporatiCanali** —> **Zona1**, come illustrato nella figura seguente.
    1. Allo stesso modo, aggiungete la **Zona2** a un altro componente della sequenza incorporata nell’editor.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-3.png)
+      ![immagine](/help/user-guide/assets/multi-zone/multizone-3.png)
 
 ### Creazione di una posizione e di una visualizzazione {#creating-location}
 
@@ -147,14 +149,15 @@ Per visualizzare il contenuto, dovete assegnare i canali al display. Seguite i p
    1. Impostate gli eventi **** supportati come caricamento **** iniziale, schermo **** inattivo e **timer**.
    1. Fai clic su **Salva**.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img9.png)
+      ![immagine](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Allo stesso modo, è necessario assegnare gli altri due canali incorporati (**Zone1** e **Zone2**) a questo display.
    1. Dopo aver assegnato tutti e tre i canali al display **Sala d&#39;attesa** , dovreste essere in grado di visualizzare i canali assegnati dal pannello di visualizzazione.
 
-      ![image](/help/user-guide/assets/multi-zone/multizone-img8.png)
+      ![immagine](/help/user-guide/assets/multi-zone/multizone-img8.png)
 
 
-      >[!Iimportante]
+      >[!IMPORTANT]
+      >
       > Dopo aver assegnato il canale principale (in questo caso, **MultiZone**) al display, è obbligatorio assegnare gli altri due canali incorporati **Zone1** e **Zone2** anche allo stesso display.
 
 ### Registrazione del dispositivo {#registering-device}
@@ -166,13 +169,15 @@ Una volta impostata una posizione e uno schermo, seguite i passaggi indicati di 
    1. Andate alla cartella **Aree** —> **Dispositivi** .
    1. Select the **Devices** folder and click **Device Manager** from the action bar.
    1. Fate clic su Registrazione **** dispositivo e selezionate il dispositivo in sospeso dall&#39;elenco.
+
       >[!NOTE]
       > Il titolo del dispositivo deve corrispondere al token dispositivo (campo **Token** ) visualizzato nella scheda Registrazione **** dispositivo.
    1. Se il titolo corrisponde al token dispositivo, selezionate il dispositivo e fate clic su **Registra dispositivo** dalla barra delle azioni.
    1. Se il codice di registrazione corrisponde al codice riportato nella scheda Registrazione **** dispositivo del lettore Screens, fare clic su **Convalida** nella barra delle azioni.
-      ![image](/help/user-guide/assets/multi-zone/multizone-img6.png)
+      ![immagine](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Enter the **Title** as **Chrome-Device1** and click **Register**.
    1. Selezionate **Assegna visualizzazione** e selezionate il percorso della configurazione del dispositivo.
+
    >[!NOTE]
    >Se state tentando di visualizzare il contenuto nel lettore Screens, accertatevi di fare clic su **Aggiorna contenuto** offline nel dashboard del canale per ciascuno dei canali assegnati al display.
 
