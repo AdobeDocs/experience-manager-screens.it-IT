@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Una volta approvato e in data dal vivo (10 novembre, 8:00 AM), questo lancio rip
 
 ## Requisiti {#requirements}
 
-Prima di iniziare a sfruttare il lancio *di* Screens in un progetto AEM Screens, accertati di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
+Prima di iniziare a utilizzare *Screens Launch* in un progetto AEM Screens , assicurati di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
 
 L&#39;esecuzione di un&#39;esperienza sulla data live impostata sul lettore comporta:
 
@@ -63,10 +63,10 @@ Quindi, ogni volta che pianifichiamo un lancio live, la promozione inizierà pre
 
 In questa sezione viene illustrato come aggiornare un periodo di tolleranza predefinito a 10 minuti.
 
-1. Passare a CRXDE Lite e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Passate al CRXDE Lite e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Fare clic con il pulsante destro del mouse e copiare il file.
 3. Passate a fare clic con il pulsante destro del mouse `/apps/system/config` e incollare.
-4. Fare doppio clic su `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` per aprire il file nell&#39;editor in CRXDE Lite. Deve mostrare il periodo di tolleranza per il percorso */contenuto/schermate/* come **86400**. Modificate tale valore in **600**.
+4. Fate doppio clic su `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` per aprire il file nell&#39;editor in CRXDE Lite. Deve mostrare il periodo di tolleranza per il percorso */contenuto/schermate/* come **86400**. Modificate tale valore in **600**.
 
 Ora il contenuto del file di testo deve essere simile al seguente:
 
@@ -82,17 +82,17 @@ Ad esempio, se la data di inizio è impostata su 24 novembre, 9:00 AM e il perio
 
 ## Utilizzo del lancio dello schermo {#using-launches}
 
-In questa sezione viene illustrato come implementare il lancio delle schermate nel progetto AEM Screens.
+In questa sezione viene illustrato come implementare il lancio delle schermate nel progetto AEM Screens .
 
 ### Creazione di un lancio dello schermo {#creating-a-launch}
 
-Per implementare la funzionalità Screens Launch (Lancio dello schermo) nel progetto AEM Screens, effettuate le seguenti operazioni:
+Per implementare la funzionalità Screens Launch nel progetto AEM Screens , effettuate le seguenti operazioni:
 
-1. Create un canale di sequenza nel progetto AEM Screens, ad esempio **LaunchesDemo** —> **Channels** —> **FutureLaunch**, come mostrato di seguito.
+1. Create un canale di sequenza nel progetto AEM Screens , ad esempio **LaunchesDemo** —> **Channels** —> **FutureLaunch**, come mostrato di seguito.
 
    >[!CAUTION]
    >
-   >È necessario creare un lancio da un canale preesistente nel progetto AEM Screens.
+   >È necessario creare un lancio da un canale preesistente nel progetto AEM Screens .
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-11.png)
 
@@ -202,6 +202,7 @@ Puoi scegliere le risorse da promuovere nell&#39;ambito di questa promozione man
 
 Potete eliminare il lancio utilizzando l&#39;opzione **Elimina lancio** dal pannello **AVVII** IN ATTESA.
 
->[ATTENZIONE]
+>[!CAUTION]
+>
 >Questa azione eliminerà anche tutti i discendenti (avvii nidificati).
 
