@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1399'
 ht-degree: 45%
 
 ---
@@ -94,7 +94,7 @@ Per aggiungere o modificare il contenuto di un canale, segui i passaggi riportat
 
 >[!NOTE]
 >
->Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)**.
+>Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** .
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -140,8 +140,9 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 
 Puoi visualizzare il manifesto dal dashboard del canale.
 
->[IMPORTANTE]
-> Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
+>[!IMPORTANT]
+>
+>Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
 
 Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti operazioni:
 1. **Impostate il canale su Offline**
@@ -153,7 +154,7 @@ Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti ope
    1. Andate al pannello **INFORMAZIONI** CANALE e fate clic su *...*
    1. Fate clic su **Aggiorna contenuto offline**
 
-A questo punto dovreste essere in grado di visualizzare l’opzione **Visualizza manifesto** dal pannello **INFORMAZIONI** CANALE nel Pannello Canale.
+A questo punto dovreste essere in grado di visualizzare l’opzione **Visualizza manifesto** dal pannello **INFORMAZIONI** CANALE nel pannello Canale.
 
 ![image1](assets/channel-one.png)
 
