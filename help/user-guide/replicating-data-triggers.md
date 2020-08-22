@@ -4,9 +4,9 @@ seo-title: Replica degli attivatori di dati sul server di pubblicazione
 description: Replicare gli attivatori di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori di dati sul server di pubblicazione.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Replica degli attivatori di dati sui server di pubblicazione {#replicating-data-triggers}
 
-Quando utilizzate ContextHub e AEM Targeting Engine per personalizzare il contenuto in base agli attivatori di dati in una configurazione di creazione/pubblicazione, tutte le configurazioni relative a ContextHub e Personalizzazione non vengono replicate automaticamente con i canali al momento della pubblicazione.
+Quando si utilizzano ContextHub e AEM Targeting Engine per personalizzare il contenuto in base agli attivatori di dati in una configurazione di creazione/pubblicazione, tutte le configurazioni relative a ContextHub e Personalizzazione non vengono replicate automaticamente con i canali al momento della pubblicazione.
 
 Seguite questa pagina per apprendere i passaggi manuali necessari per pubblicare queste configurazioni separatamente.
 
@@ -34,14 +34,16 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >In alternativa, è possibile utilizzare il `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` pannello per passare direttamente alla schermata per configurare e verificare la connessione.
 
 1. Fate clic su **Test connessione** dalla barra delle azioni per convalidare la comunicazione dell’autore con l’istanza di pubblicazione, come illustrato nella figura riportata di seguito.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
-   >[!Note]
+   >[!NOTE]
+   >
    >Se il test ha esito negativo, è necessario correggere la configurazione dell&#39;agente di replica tra l&#39;istanza di creazione e di pubblicazione. Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi alla connessione](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) di prova.
 
 1. Selezionate **Aggiungi** nella struttura ad albero della schermata **Agente** di distribuzione e selezionate il percorso di configurazione del progetto, ad esempio `/conf/screens/settings/cloudsettings/configuration`.
@@ -50,7 +52,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 ### Replica del pubblico {#replicating-audiences}
 
-1. Andate all&#39;istanza di AEM > **Personalizzazione** > **Audience** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
+1. Andate alla vostra istanza AEM > **Personalizzazione** > **Audiences** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
 
 1. Espandete la vostra cartella di progetto, ad esempio `/conf/screens/`.
 
@@ -64,7 +66,7 @@ Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati su
 
 ### Replica delle attività  {#replicating-activities}
 
-1. Andate all&#39;istanza di AEM > **Personalizzazione** > **Attività** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
+1. Andate alla vostra istanza AEM > **Personalizzazione** > **Attività** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
 
 1. Approfondisci la cartella del tuo progetto, ovvero `/content/campaigns/screens/…`.
 
@@ -99,7 +101,7 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
 
    Effettua le seguenti operazioni:
 
-   1. Passate a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata Console Web del **Adobe Experience Manager**.
+   1. Accedete a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata **Console Web di** Adobe Experience Manager.
    1. Cerca credenziali di trasporto distribuzione **Apache Sling - Credenziali utente basate su DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
@@ -114,4 +116,4 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Aggiorna il `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. Fate clic su **Salva** ed eseguite di nuovo la connessione di prova dalla schermata Agente **di** distribuzione dall’istanza di AEM.
+   1. Fate clic su **Salva** ed eseguite di nuovo la connessione di prova dalla schermata Agente **di** distribuzione dall&#39;istanza AEM.
