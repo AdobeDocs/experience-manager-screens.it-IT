@@ -3,9 +3,9 @@ title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: c46cd26f5067468aadf80a822fffce1d5f0b5d9a
+source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1333'
 ht-degree: 41%
 
 ---
@@ -24,7 +24,8 @@ Questa pagina mostra l’assegnazione di un canale al display.
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
->[!Iimportante]
+>[!IMPORTANT]
+>
 >La seguente finestra di dialogo per l’assegnazione dei canali è diversa per Adobe Experience 6.5.5 Screens Feature Pack e versioni successive. Per ulteriori informazioni, consulta Assegnazione [](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) canale.
 
 1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
@@ -93,7 +94,8 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 
 #### Metodo di interruzione {#interruption-method-channel}
 
->[IMPORTANTE]
+>[!IMPORTANT]
+>
 > Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
 
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
