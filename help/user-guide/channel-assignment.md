@@ -3,17 +3,20 @@ title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 41%
+source-wordcount: '1218'
+ht-degree: 43%
 
 ---
 
 
 # Assegnazione dei canali {#channel-assignment}
 
-Una volta definito uno schermo, è necessario assegnare un canale a uno schermo.
+>[!IMPORTANT]
+>In questa sezione vengono evidenziati l&#39;assegnazione del canale e la programmazione dei canali per i Feature Pack precedenti alla versione AEM 6.5.5 Screens.
+
+Una volta configurato uno schermo, è necessario assegnare un canale a uno schermo per visualizzare il contenuto.
 
 Questa pagina mostra l’assegnazione di un canale al display.
 
@@ -23,10 +26,6 @@ Questa pagina mostra l’assegnazione di un canale al display.
 ## Assigning a Channel {#assign-a-channel}
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
-
->[!IMPORTANT]
->
->La seguente finestra di dialogo per l’assegnazione dei canali è diversa per Adobe Experience 6.5.5 Screens Feature Pack e versioni successive. Per ulteriori informazioni, consulta Assegnazione [](/help/user-guide/channel-assignment.md#assign-a-channel-new-release) canale.
 
 1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
@@ -42,31 +41,10 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
    È possibile configurare le proprietà dalla finestra di dialogo Assegnazione **** canale dalla sezione seguente. Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
 
-## Assegnazione di un canale per la versione di AEM 6.5.5 Screens Feature Pack {#assign-a-channel-new-release}
 
-Segui la procedura seguente per assegnare un canale a una visualizzazione:
+## Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
 
-1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
-
-
-1. Tap/click **Assign Channel** from the action bar
-
-   Oppure,
-
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
-
-1. Dall’opzione Impostazione, potete scegliere il canale per percorso o per nome, immettere il ruolo del canale, la priorità, gli eventi supportati.
-
-   >[!NOTE]
-   >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
-
-1. Dall&#39;opzione **Pianificazioni** , selezionate il **Fuso orario** di riferimento, la finestra **** Attivazione e la Pianificazione **** ricorrenza.
-
-1. Dopo aver configurato le preferenze, fate clic su **Salva** .
-
-### Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
-
-#### Riferimento a canale {#ref-channel}
+### Riferimento a canale {#ref-channel}
 
 il riferimento a canale consente di fornire un riferimento al canale desiderato, per nome o in base al percorso del canale.
 
@@ -74,25 +52,25 @@ il riferimento a canale consente di fornire un riferimento al canale desiderato,
 
 * **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### Ruolo canale {#role-channel}
+### Ruolo canale {#role-channel}
 
 Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da diverse azioni ed è indipendente dal canale effettivo che svolge il ruolo.
 
-#### Priorità {#priority-channel}
+### Priorità {#priority-channel}
 
 La priorità viene usata per ordinare le assegnazioni nel caso in cui più utenti corrispondano ai criteri di riproduzione. Quella con il valore più alto avrà sempre la precedenza su quella con i valori più bassi. Ad esempio, se ci sono due canali A e B, A ha una priorità di 1 e B ha una priorità di 2, viene quindi visualizzato il canale B, che ha una priorità maggiore di A.
 
 >[!NOTE]
 >La priorità per un canale è impostata come numero (1 corrisponde alla priorità minima) nella finestra di dialogo **Assegnazione canale**, come detto sopra. Inoltre, i canali assegnati vengono ordinati in base a una priorità decrescente.
 
-#### Eventi supportati {#supported-events-channel}
+### Eventi supportati {#supported-events-channel}
 
 * **Caricamento iniziale**: carica il canale quando il lettore viene avviato. Può essere assegnato a più canali in combinazione con la pianificazione
 * **Schermata di inattività**: il canale viene caricato quando la schermata è inattiva. Può essere assegnato a più canali in combinazione con la pianificazione
 * **Timer:** deve essere impostato quando viene fornita una pianificazione
 * **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
 
-#### Metodo di interruzione {#interruption-method-channel}
+### Metodo di interruzione {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -111,7 +89,7 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
    >[!NOTE]
    >Utilizzando la seconda o la terza opzione è possibile che i tempi di programmazione definiti per l&#39;assegnazione vengano leggermente posticipati, in quanto il lettore aspetterà la fine dell&#39;elemento o della sequenza (dopo il tempo specificato) prima di effettuare l&#39;aggiornamento. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
 
-#### Pianificazione {#schedule-channel}
+### Pianificazione {#schedule-channel}
 
 la pianificazione consente di inserire una descrizione testuale circa quando il canale deve essere visualizzato. Inoltre, permette di definire una data iniziale (**attivo da**) e una data finale (**attivo fino al**) per il canale da visualizzare.
 
@@ -191,7 +169,7 @@ Gli esempi seguenti mostrano la suddivisione giornaliera per un negozio che visu
 | B | Natale | 2 | 24 dicembre 2017 - 31 dicembre 2017 |
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
 > Per ulteriori informazioni sulla suddivisione del giorno, consultare le sezioni seguenti:
 >
