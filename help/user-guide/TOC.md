@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: ' di Adobe Experience Manager Screens'
 user-guide-description: Learn to use AEM Screens to publish interactive digital experiences involving different types of screens.
 translation-type: tm+mt
-source-git-commit: 3fa254a48e780a5c20ba925644420cc36f409122
+source-git-commit: 0f8712e8afb806fbf4136880f44b629a5a52b5ec
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 13%
@@ -57,7 +57,7 @@ ht-degree: 13%
       + [Creazione e gestione delle pianificazioni](managing-schedules.md)
       + [Gestione dei dispositivi](managing-devices.md)
       + Assegnazione dei canali{#assigning-channels} 
-         + [Assegnazione canale: AEM 6.5.5 Schermi FP e successivi](channel-assignment.md)
+         + [Assegnazione canale: AEM 6.5.5 Schermi FP e successivi](channel-assignment-latest-fp.md)
          + [Assegnazione canale: FP precedente](channel-assignment.md)
    + Utilizzo delle funzioni di base del prodotto {#product-features}
       + [Sovrapposizione testo](text-overlay.md)
