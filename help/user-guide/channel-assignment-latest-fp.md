@@ -3,10 +3,10 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
+source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 26%
+source-wordcount: '1548'
+ht-degree: 24%
 
 ---
 
@@ -73,18 +73,18 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Dall’opzione **Impostazioni** , potete scegliere il canale per percorso o per nome, immettere il ruolo del canale, la priorità, gli eventi supportati e i metodi di interruzione. Inoltre, è possibile attivare l&#39;opzione relativa alla descrizione comando di attrazione da questa finestra di dialogo.
+1. Dall’opzione **Impostazioni** , potete scegliere il canale per percorso o per nome, immettere il ruolo **del** canale, la **priorità**, gli eventi **** supportati e i metodi **di** interruzione. È inoltre possibile abilitare la **descrizione** attrazione da questa finestra di dialogo.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
+   >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
 1. Dall&#39;opzione **Pianificazioni** , selezionate il **Fuso orario** di riferimento, la finestra **** Attivazione e la Pianificazione ****ricorrenza.
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
-   >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
+   >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
 1. Dopo aver configurato le preferenze, fate clic su **Salva** .
 
@@ -96,7 +96,9 @@ Per informazioni su come registrare un dispositivo su un lettore AEM Screens , f
 
 Verrà visualizzato il seguente output a scelta del lettore:
 
-### Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
+![new1](assets/channel-assignment/channel-assign-output.gif)
+
+### Informazioni sulle proprietà del canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
 
 Le seguenti proprietà sono impostate dall’opzione **Impostazioni** nella finestra di dialogo Assegnazione **** canale.
 
@@ -185,18 +187,27 @@ Gli esempi seguenti spiegano DayParting nei canali in tre scenari diversi:
 
 Questo esempio mostra come un Ristorante utilizza DayParting per mostrare la sua colazione, pranzo e cena menu ogni giorno.
 
-Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenuto del canale venga riprodotto secondo l&#39;ora specificata del giorno. In questo caso di utilizzo, verranno impostate le seguenti proprietà della Pianificazione ricorrenza per riprodurre il contenuto.
+In questo caso, ogni giorno verrà suddiviso in diversi orari, in modo che il contenuto dei canali venga riprodotto in base all&#39;ora specificata del giorno. Impostate le seguenti proprietà della pianificazione ricorrenza in modo che il contenuto venga riprodotto in base a questo caso di utilizzo.
 
 | **Nome** | **Ripeti** | **Avvia** | **Fine** |
 |---|---|---|---|
 | Colazione | Giornaliero | 6:00 AM | 11:00 |
-| Colazione | Giornaliero | 11:02 | 3:00 PM |
-| Colazione | Giornaliero | 3:01 PM | 8:00 PM |
+| Pranzo | Giornaliero | 11:02 | 3:00 PM |
+| Cena | Giornaliero | 3:01 PM | 8:00 PM |
 
 #### Riproduzione di contenuto in un particolare giorno della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il DayParting raggiunto in un casinò dove l&#39;evento live si verifica ogni weekend dalle 8:00 pm alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 pm fino alle 1:00 am.
+Questo esempio mostra la DayParting implementata in un casinò dove l&#39;evento live si verifica ogni weekend dalle 8:00 pm alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 pm fino alle 1:00 am.
 
+| **Nome** | **Ripeti** | **Avvia** | **Fine** |
+|---|---|---|---|
+| Fine settimana | Settimanale | 8:00 PM | 10:00 PM |
+| Speciale | Giornaliero | 10:00 PM | 1:00 |
+
+**Fine settimana**
+
+
+**Speciale**
 
 #### Riproduzione di contenuto per un mese/mesi particolare/i {#playing-content-for-a-particular-month-months}
 
@@ -213,6 +224,11 @@ Qui si crea DayParting in base ai mesi, in modo che il contenuto del canale veng
 
 In questo esempio viene illustrato DayParting per uno store che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
 
+## Timeline View {#timeline-view}
+
+Dopo aver assegnato un canale a un display e aver impostato un programma di ricorrenza, potete visualizzare la timeline dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
+
+Per passare alla visualizzazione timeline, effettuate le seguenti operazioni:
 
 
 
