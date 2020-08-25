@@ -3,10 +3,10 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
+source-git-commit: c022e583a52d68e20d7916a8f02341905bb957b6
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 29%
+source-wordcount: '1495'
+ht-degree: 26%
 
 ---
 
@@ -80,41 +80,55 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
    >[!NOTE]
    >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
 
-1. Dall&#39;opzione **Pianificazioni** , selezionate il **Fuso orario** di riferimento, la finestra **** Attivazione e la Pianificazione **** ricorrenza.
+1. Dall&#39;opzione **Pianificazioni** , selezionate il **Fuso orario** di riferimento, la finestra **** Attivazione e la Pianificazione ****ricorrenza.
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+   >[!NOTE]
+   >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
 
 1. Dopo aver configurato le preferenze, fate clic su **Salva** .
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
+Questo esempio mostra l&#39;output su un lettore Chrome. Dopo aver assegnato il canale al display, è necessario registrare il dispositivo su un lettore.
+
+Per informazioni su come registrare un dispositivo su un lettore AEM Screens , fare riferimento a Registrazione [](device-registration.md) dispositivo.
+
+Verrà visualizzato il seguente output a scelta del lettore:
+
 ### Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
 
-### Riferimento a canale {#ref-channel}
+Le seguenti proprietà sono impostate dall’opzione **Impostazioni** nella finestra di dialogo Assegnazione **** canale.
 
-il riferimento a canale consente di fornire un riferimento al canale desiderato, per nome o in base al percorso del canale.
+![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+#### Seleziona un canale {#select-channel}
+
+La selezione di un canale consente di fornire un riferimento al canale desiderato, sia per nome del canale che per percorso del canale.
 
 * **In base al percorso**: fornisci un riferimento esplicito usando il percorso assoluto del canale.
 
 * **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-### Ruolo canale {#role-channel}
+#### Ruolo canale {#role-channel}
 
 Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da diverse azioni ed è indipendente dal canale effettivo che svolge il ruolo.
 
-### Priorità {#priority-channel}
+#### Priorità {#priority-channel}
 
 La priorità viene usata per ordinare le assegnazioni nel caso in cui più utenti corrispondano ai criteri di riproduzione. Quella con il valore più alto avrà sempre la precedenza su quella con i valori più bassi. Ad esempio, se ci sono due canali A e B, A ha una priorità di 1 e B ha una priorità di 2, viene quindi visualizzato il canale B, che ha una priorità maggiore di A.
 
 >[!NOTE]
 >La priorità per un canale è impostata come numero (1 corrisponde alla priorità minima) nella finestra di dialogo **Assegnazione canale**, come detto sopra. Inoltre, i canali assegnati vengono ordinati in base a una priorità decrescente.
 
-### Eventi supportati {#supported-events-channel}
+#### Eventi supportati {#supported-events-channel}
 
 * **Caricamento iniziale**: carica il canale quando il lettore viene avviato. Può essere assegnato a più canali in combinazione con la pianificazione
 * **Schermata di inattività**: il canale viene caricato quando la schermata è inattiva. Può essere assegnato a più canali in combinazione con la pianificazione
 * **Timer:** deve essere impostato quando viene fornita una pianificazione
 * **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
 
-### Metodo di interruzione {#interruption-method-channel}
+#### Metodo di interruzione {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -132,3 +146,73 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
 
    >[!NOTE]
    >Utilizzando la seconda o la terza opzione è possibile che i tempi di programmazione definiti per l&#39;assegnazione vengano leggermente posticipati, in quanto il lettore aspetterà la fine dell&#39;elemento o della sequenza (dopo il tempo specificato) prima di effettuare l&#39;aggiornamento. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
+
+
+Le seguenti proprietà sono impostate dall&#39;opzione **Pianificazione** nella finestra di dialogo Assegnazione **** canale.
+
+#### Fuso orario di riferimento {#reference-timezone}
+
+Il Fuso orario di riferimento consente di selezionare il fuso orario per la visualizzazione del contenuto.
+
+#### Finestra di attivazione {#activation-window}
+
+La finestra Attivazione consente di selezionare una data **di** inizio e una data **di** fine per visualizzare il contenuto.
+
+#### Pianificazione ricorrenza {#recurrence-schedule}
+
+La pianificazione ricorrenza consente di impostare una pianificazione periodica per il contenuto. Fai clic su **+ Aggiungi programma** per aggiungere una pianificazione della ricorrenza al canale.
+
+>[!NOTE]
+>Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+
+Potete impostare le seguenti opzioni:
+
+* **Nome**: Titolo della pianificazione della ricorrenza.
+* **Ripeti**: Scegliete se la pianificazione viene eseguita **Quotidianamente**, **Settimanalmente**, **Mensilmente** o **Annualmente**.
+* **Inizio**: Ora di inizio per la pianificazione.
+* **Fine**: L&#39;ora di fine del programma. Puoi impostare il campo in base a:
+* **Ora**: La pianificazione termina a un&#39;ora specificata.
+* **Durata**: La pianificazione viene eseguita per una particolare durata in ore o minuti.
+
+### DayParting {#dayparting}
+
+DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese, a seconda dei requisiti.
+
+Gli esempi seguenti spiegano DayParting nei canali in tre scenari diversi:
+
+#### Riproduzione di contenuto su un singolo giorno suddiviso in più fasce orarie {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
+
+Questo esempio mostra come un Ristorante utilizza DayParting per mostrare la sua colazione, pranzo e cena menu ogni giorno.
+
+Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenuto del canale venga riprodotto secondo l&#39;ora specificata del giorno. In questo caso di utilizzo, verranno impostate le seguenti proprietà della Pianificazione ricorrenza per riprodurre il contenuto.
+
+| **Nome** | **Ripeti** | **Avvia** | **Fine** |
+|---|---|---|---|
+| Colazione | Giornaliero | 6:00 AM | 11:00 |
+| Colazione | Giornaliero | 11:02 | 3:00 PM |
+| Colazione | Giornaliero | 3:01 PM | 8:00 PM |
+
+#### Riproduzione di contenuto in un particolare giorno della settimana {#playing-content-on-a-particular-day-of-the-week}
+
+Questo esempio mostra il DayParting raggiunto in un casinò dove l&#39;evento live si verifica ogni weekend dalle 8:00 pm alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 pm fino alle 1:00 am.
+
+
+#### Riproduzione di contenuto per un mese/mesi particolare/i {#playing-content-for-a-particular-month-months}
+
+Questo esempio mostra DayParting per uno store che visualizza la raccolta estiva dai mesi di giugno ad agosto e la raccolta autunnale da settembre fino alla fine di ottobre.
+
+Qui si crea DayParting in base ai mesi, in modo che il contenuto del canale venga riprodotto in base ai mesi specificati dell&#39;anno.
+
+
+>[!NOTE]
+>
+>Inoltre, puoi definire la ***Priorità*** per ciascuno dei canali. Ad esempio, se due canali sono impostati per lo stesso giorno e la stessa ora o per lo stesso mese, il canale con priorità più alta viene riprodotto per primo. Il valore minimo per la priorità può essere impostato su 0.
+
+#### Riproduzione di contenuto per i canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
+
+In questo esempio viene illustrato DayParting per uno store che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
+
+
+
+
