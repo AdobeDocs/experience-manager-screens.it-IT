@@ -3,10 +3,10 @@ title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
+source-git-commit: 39da8293fb64321fdb28acaa67be579483ba4f0d
 workflow-type: tm+mt
 source-wordcount: '1215'
-ht-degree: 44%
+ht-degree: 41%
 
 ---
 
@@ -97,9 +97,9 @@ la pianificazione consente di inserire una descrizione testuale circa quando il 
 
 Mostra descrizione luogo di interesse definisce se la descrizione del luogo di interesse (&quot;*Tocca un punto qualsiasi per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
 
-### Separazione giornaliera {#dayparting}
+### DayParting {#dayparting}
 
-Schedules when combined with **Day-parting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di suddivisione del giorno entro un giorno, una settimana o un mese, in base alle esigenze.
 
@@ -119,7 +119,7 @@ Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenut
 
 #### Riproduzione di contenuto in un particolare giorno della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il dayparting in un casinò in cui l&#39;evento live ha luogo ogni fine settimana dalle 20:00 alle 22:00 e le offerte speciali sono disponibili per il menù serale dalle 22:00 fino all&#39;1:00.
+Questo esempio mostra il giornoParting raggiunto in un casinò in cui l&#39;evento live si verifica ogni weekend dalle 8:00 pm alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 pm fino alle 1:00 am.
 
 <table>
  <tbody>
@@ -146,7 +146,7 @@ Questo esempio mostra il dayparting in un casinò in cui l&#39;evento live ha lu
 
 #### Riproduzione di contenuto per un mese/mesi particolare/i {#playing-content-for-a-particular-month-months}
 
-Questo esempio mostra la suddivisione giornaliera per uno store che visualizza la raccolta estiva tra i mesi di giugno e agosto e la raccolta autunnale da settembre a fine ottobre.
+Questo esempio mostra DayParting per uno store che visualizza la raccolta estiva dai mesi di giugno ad agosto e la raccolta autunnale da settembre fino alla fine di ottobre.
 
 Qui si crea la suddivisione del giorno in base ai mesi, in modo che il contenuto del canale venga riprodotto in base ai mesi specificati dell&#39;anno.
 
@@ -161,7 +161,7 @@ Qui si crea la suddivisione del giorno in base ai mesi, in modo che il contenuto
 
 #### Riproduzione di contenuto per i canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
 
-Gli esempi seguenti mostrano la suddivisione giornaliera per un negozio che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
+In questo esempio viene illustrato DayParting per uno store che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
@@ -171,7 +171,7 @@ Gli esempi seguenti mostrano la suddivisione giornaliera per un negozio che visu
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla suddivisione del giorno, consultare le sezioni seguenti:
+> Per ulteriori informazioni su DayParting, fare riferimento alle sezioni seguenti:
 >
 >* [Gestione della ricorrenza nelle risorse](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestione della ricorrenza per le risorse in un canale](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
