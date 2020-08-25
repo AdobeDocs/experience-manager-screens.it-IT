@@ -3,10 +3,10 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: 1c6a7342288a5d78dbea91d29ff8e5d6c8fec486
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 35%
+source-wordcount: '895'
+ht-degree: 29%
 
 ---
 
@@ -23,20 +23,59 @@ Questa pagina mostra l’assegnazione di un canale al display.
 >[!NOTE]
 >Potete assegnare più canali a uno schermo.
 
+
 ## Assigning a Channel {#assign-a-channel-new-release}
 
-Segui la procedura seguente per assegnare un canale a una visualizzazione:
+Seguite le sezioni riportate di seguito per creare un progetto AEM Screens  e assegnare un canale a uno schermo.
 
-1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
+### Creazione di un progetto e di canali AEM Screens  {#creating-project}
 
+Per impostare un progetto e un canale, effettuate le seguenti operazioni:
 
-1. Tap/click **Assign Channel** from the action bar
+1. Create un progetto AEM Screens  denominato **DemoScreens**.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
+
+   >[!NOTE]
+   >Per informazioni su come creare un progetto AEM Screens , consultate [Creazione e gestione di progetti](creating-a-screens-project.md) .
+
+1. Create un canale di sequenza denominato **Cafeteria** nella cartella **Canali** .
+
+1. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni per aggiungere dei contenuti al canale.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
+
+   Ad esempio, il canale **Cafeteria** ora mostra le immagini seguenti:
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
+
+1. Create una posizione denominata **SanJose** e una visualizzazione come **Sala d’attesa**.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
+
+### Assegnazione di un canale a uno schermo {#assigning-channel-to-display}
+
+Una volta completata la configurazione del progetto, dovete assegnare il canale a uno schermo per visualizzare il contenuto.
+
+1. Passare alla visualizzazione desiderata, ad esempio **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oppure,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNNELS &amp; SCHEDULES** panel to open the **Channel Assignment** dialog box.
+   Toccate/fate clic su **Dashboard** e fate clic su **+Assegna canale** dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
 
-1. Dall’opzione Impostazione, potete scegliere il canale per percorso o per nome, immettere il ruolo del canale, la priorità, gli eventi supportati.
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
+
+1. The **Channel Assignment** dialog box opens.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+
+1. Dall’opzione **Impostazioni** , potete scegliere il canale per percorso o per nome, immettere il ruolo del canale, la priorità, gli eventi supportati e i metodi di interruzione. Inoltre, è possibile attivare l&#39;opzione relativa alla descrizione comando di attrazione da questa finestra di dialogo.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
@@ -45,7 +84,9 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
 1. Dopo aver configurato le preferenze, fate clic su **Salva** .
 
-## Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
+### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
+
+### Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
 
 ### Riferimento a canale {#ref-channel}
 
