@@ -3,10 +3,10 @@ title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: 963262bb4b7b26aa1e9fbf1be2362c7029818789
+source-git-commit: ae823357be22c45150b0687252cbd58b8022508b
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 43%
+source-wordcount: '1215'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
 1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
-   ![screen_shot_2018-08-23at25359pm](assets/screen_shot_2018-08-23at25359pm.png)
+   ![immagine](assets/screen_shot_2018-08-23at25359pm.png)
 
 1. Tap/click **Assign Channel** in the action bar
 
