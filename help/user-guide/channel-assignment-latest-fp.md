@@ -3,9 +3,9 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: 0300af2ef44756dddbb27f3da15c52bc877b93ea
+source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1551'
 ht-degree: 24%
 
 ---
@@ -187,7 +187,7 @@ Gli esempi seguenti spiegano DayParting nei canali in tre scenari diversi:
 
 Questo esempio mostra come un Ristorante utilizza DayParting per mostrare la sua colazione, pranzo e cena menu ogni giorno.
 
-In questo caso, ogni giorno verrà suddiviso in diversi orari, in modo che il contenuto dei canali venga riprodotto in base all&#39;ora specificata del giorno. Impostate le seguenti proprietà della pianificazione ricorrenza in modo che il contenuto venga riprodotto in base a questo caso di utilizzo.
+In questo caso, ogni giorno verrà suddiviso in diversi orari, in modo che il contenuto dei canali venga riprodotto in base all&#39;ora specificata del giorno. Impostate le seguenti proprietà della Pianificazione ricorrenza per il canale per riprodurre il contenuto come da questo caso d’uso.
 
 | **Nome** | **Ripeti** | **Avvia** | **Fine** |
 |---|---|---|---|
