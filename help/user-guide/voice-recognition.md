@@ -2,9 +2,9 @@
 title: Riconoscimento vocale in  AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in  AEM Screens.
 translation-type: tm+mt
-source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
+source-git-commit: a1322709f4c9b682233364f72553b40585b46031
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 3%
 
 ---
@@ -12,8 +12,10 @@ ht-degree: 3%
 
 # Riconoscimento vocale in  AEM Screens {#voice-recognition}
 
->[IMPORTANTE]
+>[!IMPORTANT]
+>
 >**Informazioni importanti sulla privacy**
+>
 >Quando si utilizza la funzione di riconoscimento vocale, seguire tutte le linee guida legali ed etiche applicabili alla propria area geografica (incluso, tra l&#39;altro, l&#39;invio di un avviso visibile agli utenti finali che il lettore utilizza il riconoscimento vocale).  Adobe Inc., non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens  utilizzano l&#39;API vocale Web standard integrata nel motore di navigazione. Dietro le quinte, una forma d&#39;onda del vostro discorso viene inviata ai server di Google per la conversione da discorso a testo e questo testo viene associato dal lettore rispetto alle parole chiave configurate.
 >
 >Per ulteriori informazioni, consultate [il white paper sulla privacy di Google sull&#39;API](https://www.google.com/chrome/privacy/whitepaper.html#speech) vocale Web.
