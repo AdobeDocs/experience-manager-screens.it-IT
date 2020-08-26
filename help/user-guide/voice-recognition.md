@@ -2,10 +2,10 @@
 title: Riconoscimento vocale in  AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in  AEM Screens.
 translation-type: tm+mt
-source-git-commit: cbf50b5c530b51d2926d9fdacef25dabcd28d605
+source-git-commit: b7d7d4ec200d3eb7cd7bac4253c8664e5bd4de81
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 1%
+source-wordcount: '847'
+ht-degree: 3%
 
 ---
 
@@ -81,7 +81,7 @@ Per aggiungere tag al canale, effettuate le operazioni seguenti:
 
 1. Passate alla scheda **Nozioni di base** e selezionate un tag già esistente dal campo **Tag** oppure createne uno nuovo.
 
-   Potete creare un nuovo tag digitando un nuovo nome per il tag , come illustrato nella figura seguente:
+   Potete creare un nuovo tag digitando un nuovo nome per assegnare un tag e un `return` tasto di scelta rapida, come illustrato nella figura seguente:
 
    ![immagine](assets/voice-recognition/vr-6.png)
 
@@ -122,9 +122,11 @@ Per creare i tag, effettuate le seguenti operazioni:
 
 1. Impostate le seguenti proprietà su ciascun canale, mentre assegnate il canale.
 
-   * Principale
-   * HotDrinks
-   * ColdDrinks
+   | **Nome canale** | **Priorità** | **Eventi supportati** |
+   |---|---|---|
+   | Principale | 2 | Carico iniziale, Schermo inattivo, Timer |
+   | HotDrinks | 1 | Interazione utente |
+   | ColdDrinks | 1 | Interazione utente |
 
    >[!NOTE]
    >
