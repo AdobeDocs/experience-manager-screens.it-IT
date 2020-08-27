@@ -1,53 +1,57 @@
 ---
 title: Guida di Kickstart
 seo-title: Guida di Kickstart
-description: Segui questa pagina per creare un progetto dimostrativo AEM Screens. Consente di creare un’esperienza di digital signage a partire dall’installazione e dalla configurazione di un nuovo progetto per visualizzare i contenuti nel lettore AEM Screens.
-seo-description: Segui questa pagina per creare un progetto dimostrativo AEM Screens. Consente di creare un’esperienza di digital signage a partire dall’installazione e dalla configurazione di un nuovo progetto per visualizzare i contenuti nel lettore AEM Screens.
-uuid: 587b6611-07a3-44b4-b888-9edf2ef4e12c
-contentOwner: Jyotika syal
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 5ce1e0b9-1926-49dc-b4dd-44b649a3e710
-docset: aem65
+description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 8ffa53c6ffb24ff80adfdce33a69a9d80e03bb75
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 14%
 
 ---
 
 
 # Guida di Kickstart {#kickstart-guide}
 
-Questa sezione è un esempio pratico per AEM Screens e illustra come eseguire azioni di base. Questa sezione descrive come impostare un'esperienza di digital signage di base con contenuti e risorse e pubblicare contenuti su un lettore Screens. Per una conoscenza approfondita di tutti i componenti per lo sviluppo di Screens, consultate le risorse alla fine della pagina.
+Questa sezione è un esempio pratico per  AEM Screens e mostra come eseguire azioni di base. Questa sezione descrive come impostare un&#39;esperienza di digital signage di base con contenuti e risorse e pubblicare contenuti su un lettore Screens.
 
-## Creazione di un'esperienza di digital signage in 5 minuti {#creating-a-digital-signage-experience-in-minutes}
+## Creazione di un&#39;esperienza di digital signage in 5 minuti {#creating-a-digital-signage-experience-in-minutes}
 
 La procedura seguente consente di creare un progetto di esempio per Screens e pubblicare contenuti per il lettore Screens.
 
-1. Per scaricare **AEM Screens Player**, fai clic [qui](https://download.macromedia.com/screens/).
+Per scaricare **AEM Screens Player**, fai clic [qui](https://download.macromedia.com/screens/).
 
-   AEM Screens è disponibile anche in **Google Play**.
 
-   Per l'implementazione di Chrome OS Player, consulta [Chrome Management Console](implementing-chrome-os-player.md) per ulteriori informazioni.
+Per l&#39;implementazione di Chrome OS Player, consulta [Chrome Management Console](implementing-chrome-os-player.md) per ulteriori informazioni.
 
-   Per ulteriori informazioni, vedere [Installazione e configurazione delle schermate](configuring-screens-introduction.md) .
+Per installare e configurare i lettori Screens sui dispositivi, vedere [Installazione e configurazione delle schermate](configuring-screens-introduction.md) per ulteriori dettagli.
 
-   >[!NOTE]
-   >
-   >**Impostazioni OSGI**
-   >
-   >
-   >È necessario abilitare il referente vuoto per consentire al dispositivo di inviare dati al server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può inviare una schermata indietro. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Apache Sling Referrer Consenti nullo è abilitato nel configurazione OSGI. Il dashboard potrebbe visualizzare un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzioni.
-   >
-   >
-   >Per attivare il filtro ***Apache Sling Referrer Filter Allow Empty***, effettuate le seguenti operazioni:
-   >
-   >
-   >
-   >    1. Passa alla configurazione **della console Web di** Adobe Experience Manager, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-   >    1. Selezionare l'opzione **allow.empty** .
-   >    1. Fai clic su **Salva**.
+>[!NOTE]
+>**Impostazioni OSGI**
+>È necessario abilitare il referente vuoto per consentire al dispositivo di inviare dati al server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può inviare una schermata indietro. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Apache Sling Referrer Consenti nullo è abilitato nel configurazione OSGI. Il dashboard potrebbe visualizzare un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzioni.
+>
+>
+>Per attivare il filtro ***Apache Sling Referrer Filter Allow Empty***, effettuate le seguenti operazioni:
 
+
+## Consenti richieste referente vuote {#allow-empty-referrer-requests}
+
+1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
+
+   ![immagine](assets/config/empty-ref1.png)
+
+1. **Viene visualizzata la configurazione** della console Web di Adobe Experience Manager. Cerca referrer di fionda.
+
+   Per cercare la proprietà sling referrer, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
+
+1. Selezionare l&#39;opzione **Consenti valori nulli** , come illustrato nella figura riportata di seguito.
+
+   ![immagine](assets/config/empty-ref2.png)
+
+1. Fate clic su **Salva** per attivare l&#39;opzione Consenti valori nulli per il filtro Apache Sling Referrer.
+
+
+## Esercitazione {#tutorial}
 
 1. **Creazione di un nuovo progetto**
 
@@ -57,13 +61,14 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
    1. Select **Screens** from the **Create Screens Project** wizard and click **Next**.
 
    1. Enter the title as *Test_Project*  and click **Create**.
+
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
    Una volta creato il progetto, tornerete alla console Progetto schermate. Ora puoi selezionare il progetto. In un progetto, ci sono cinque tipi di cartelle: **Applicazioni**, **Canali**, **Dispositivi**, **Posizioni** e **Pianificazioni**, come mostrato nella figura seguente.
 
    >[!NOTE]
    >
-   >Le pianificazioni sono disponibili solo se hai installato AEM 6.3 Sites Feature Pack 1. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l'accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+   >Le pianificazioni sono disponibili solo se avete installato AEM 6.3 Sites Feature Pack 1. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
    ![chlimage_1-5](assets/chlimage_1-5.png)
 
@@ -81,6 +86,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
    1. Choose the **Sequence Channel** and click **Next**.
 
    1. Enter the **Name** and **Title** as *TestChannel* and click **Create**.
+
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
    Il *TestChannel* viene creato e aggiunto alla cartella dei canali, come illustrato nella figura riportata di seguito.
@@ -101,6 +107,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Fai clic sull’icona che apre o chiude il pannello laterale sinistro della barra delle azioni per aprire le risorse e i componenti.
    1. Trascina i componenti da aggiungere al canale.
+
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    In questo esempio, l’editor mostra un’immagine aggiunta al canale.
@@ -117,10 +124,11 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Navigate to the *Test_Project* you created and select the **Locations** folder.
 
-   1. Fate clic su **Crea** accanto all'icona più nella barra delle azioni (vedere la figura sotto). Si apre una procedura guidata.
+   1. Fate clic su **Crea** accanto all&#39;icona più nella barra delle azioni (vedere la figura sotto). Si apre una procedura guidata.
    1. Select **Location** from the wizard and click **Next**.
 
    1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
+
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
    Il *TestLocation* viene creato e aggiunto alla cartella **Locations** .
@@ -131,9 +139,9 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    Dopo aver creato un percorso, è necessario creare una nuova visualizzazione per il percorso.
 
-   ***I display*** rappresentano l'esperienza digitale che viene eseguita su uno o più schermi.
+   ***I display*** rappresentano l&#39;esperienza digitale che viene eseguita su uno o più schermi.
 
-   1. Andate alla posizione in cui desiderate creare la visualizzazione (*Test_* Project —&gt; **Locations** —&gt; *TestLocation)* come illustrato nella figura precedente e selezionate *TestLocation*.
+   1. Andate alla posizione in cui desiderate creare la visualizzazione (*Test_* Project —> **Locations** —> *TestLocation)* come illustrato nella figura precedente e selezionate *TestLocation*.
 
    1. Fai clic su **Crea** nella barra delle azioni.
    1. Select **Display** from the **Create** wizard and click **Next**.
@@ -146,7 +154,8 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
       1. Choose the **Number of Devices Horizontally** as 1.
       1. Choose the **Number of Devices Vertically** as 1.
-   1. Fai clic su **Crea**. 
+   1. Fai clic su **Crea**.
+
    Nella posizione in cui si trova, viene aggiunto un nuovo display (*TestDisplay*) **, come illustrato nella figura riportata di seguito.
 
    ![chlimage_1-12](assets/chlimage_1-12.png)
@@ -157,9 +166,9 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    >[!NOTE]
    >
-   >Questa funzionalità Screens è disponibile solo se è stato installato AEM 6.3 Sites Feature Pack 1. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l'accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+   >Questa funzionalità Screens è disponibile solo se è stato installato AEM 6.3 Sites Feature Pack 1. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
-   1. Andate alla cartella **Pianificazioni** da Test_Project &gt; **Pianificazioni**.
+   1. Andate alla cartella **Pianificazioni** da Test_Project > **Pianificazioni**.
 
    1. Fai clic su **Crea** nella barra delle azioni. Si apre una procedura guidata.
    1. Selezionare **Pianificazione** dalla pagina **Creazione** guidata.
@@ -167,6 +176,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
    1. Immettete **Nome** e **Titolo** come *MorningSchedule* nella pagina delle proprietà.
 
    1. Fate clic su **Crea** e la pianificazione verrà aggiunta alla cartella **Pianificazioni** , come illustrato nella figura seguente.
+
    ![chlimage_1-13](assets/chlimage_1-13.png)
 
    Inoltre, seleziona la pianificazione (*MorningSchedule*) e fai clic su **Dashboard** nella barra delle azioni per visualizzare il dashboard delle pianificazioni. È possibile visualizzare/modificare le proprietà della pianificazione, assegnare canali e visualizzare gli schermi assegnati tramite il dashboard.
@@ -177,7 +187,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
 1. **Assegnazione di un canale**
 
-   1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+   1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
    1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
 
@@ -187,7 +197,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Enter the **Channel Role** as *LiveStream*.
 
-   1. Selezionate il percorso **del** canale (*Test_Project* —&gt; *Channels* —&gt; *TestChannel* ) nel **canale**.
+   1. Selezionate il percorso **del** canale (*Test_Project* —> *Channels* —> *TestChannel* ) nel **canale**.
 
    1. Select the **Priority** for this channel as *1*.
 
@@ -196,6 +206,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
    1. Immettere **Schedule** e selezionare le date in **attivo da** e **attivo fino**.
 
    1. Fai clic su **Salva**.
+
    Il canale viene creato e aggiunto al pannello.
 
    ![chlimage_1-15](assets/chlimage_1-15.png)
@@ -204,31 +215,33 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
 1. **Aggiunta di una pianificazione a un canale**
 
-   1. Navigate to the display from *Test_Project* --&gt; **Locations** --&gt; *TestLocation* --&gt; *TestDisplay*.
+   1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
    1. Click **Dashboard** and select **+Assign Schedule** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure above. **Viene visualizzata la finestra di dialogo Assegnazione** pianificazione.
 
-   1. Scegliete il percorso in cui avete creato la pianificazione (qui, *Test_Project* —&gt; **Pianificazioni** —&gt; *MorningSchedule*).
+   1. Scegliete il percorso in cui avete creato la pianificazione (qui, *Test_Project* —> **Pianificazioni** —> *MorningSchedule*).
 
    1. Fai clic su **Salva** per aggiungere la pianificazione al canale.
+
    ![chlimage_1-16](assets/chlimage_1-16.png)
 
 1. **Registrazione di un dispositivo**
 
-   È necessario registrare il dispositivo mediante il dashboard di AEM.
+   È necessario registrare il dispositivo utilizzando il dashboard di AEM.
 
    >[!NOTE]
    >
-   >Potete aprire il lettore Screens utilizzando l'app AEM Screens che avete scaricato o il browser Web.
+   >È possibile aprire il lettore Screens utilizzando l&#39;app AEM Screens  scaricata o utilizzando il browser Web.
 
    Per visualizzare il dispositivo in sospeso:
 
    1. Avvia una finestra separata del browser.
    1. Go to Screens player using the *web browser* `https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` or launch the AEM Screens app. Una volta aperto il dispositivo, vedrai che lo stato del dispositivo è non registrato.
-   1. From the AEM dashboard, navigate to *Test_Project* --&gt; **Devices**
+   1. From the AEM dashboard, navigate to *Test_Project* --> **Devices**
 
    1. Click **Device Manager** from the action bar.
    1. Fai clic su Registrazione **** dispositivo per visualizzare i dispositivi in sospeso, come illustrato nella figura riportata di seguito.
+
    ![chlimage_1-17](assets/chlimage_1-17.png)
 
    Select the device you want to register and click **Register Device**.
@@ -267,6 +280,7 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
    1. Click **Assign**.
    1. Click **Finish** to complete the process, and now the device is assigned.
+
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
    Si apre il dashboard di visualizzazione e vengono visualizzate tutte le informazioni relative ai canali e alle pianificazioni assegnati insieme ai dettagli di configurazione del dispositivo.
@@ -275,8 +289,8 @@ La procedura seguente consente di creare un progetto di esempio per Screens e pu
 
 ### Viewing the content in Screens Player {#viewing-the-content-in-screens-player}
 
-Dopo aver aggiunto le configurazioni di cui sopra, il lettore deve mostrare automaticamente il canale predefinito per la visualizzazione sul dispositivo, ad esempio un'immagine (in questo caso, un canale di sequenza e il contenuto è visibile in Screens Player per il browser Web).
+Dopo aver aggiunto le configurazioni di cui sopra, il lettore deve mostrare automaticamente il canale predefinito per la visualizzazione sul dispositivo, ad esempio un&#39;immagine (in questo caso, un canale di sequenza e il contenuto è visibile in Screens Player per il browser Web).
 
 ![chlimage_1-23](assets/chlimage_1-23.png)
 
-Per informazioni dettagliate sul lettore AEM Screens, consultate Lettore [di](working-with-screens-player.md) AEM Screens.
+Per informazioni dettagliate su  lettore AEM Screens, vedere [AEM Screens Player](working-with-screens-player.md) .
