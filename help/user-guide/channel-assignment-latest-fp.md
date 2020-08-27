@@ -3,9 +3,9 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
+source-git-commit: f5d80f3765993277c552b64685d12244658915bb
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1488'
 ht-degree: 23%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 Una volta configurato uno schermo, è necessario assegnare un canale a uno schermo per visualizzare il contenuto.
 
-Questa pagina mostra l’assegnazione di un canale al display.
+Questa pagina mostra l’assegnazione di un canale al display, le proprietà del canale e DayParting.
 
 >[!NOTE]
 >Potete assegnare più canali a uno schermo.
@@ -65,7 +65,7 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 
    Oppure,
 
-   Toccate/fate clic su **Dashboard** e fate clic su **+Assegna canale** dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
+   Toccate/fate clic su **Dashboard** nella barra delle azioni e fate clic su **+Assegna canale** dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -73,7 +73,7 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Dall’opzione **Impostazioni** , potete scegliere il canale per percorso o per nome, immettere il ruolo **del** canale, la **priorità**, gli eventi **** supportati e i metodi **di** interruzione. È inoltre possibile abilitare la **descrizione** attrazione da questa finestra di dialogo.
+1. Dall’opzione **Impostazioni** , potete scegliere il canale **per percorso** o **per nome**, immettere il ruolo **del** canale, la **priorità**********, gli eventi supportati, i metodi di Interruzione, gli eventi supportati, i metodi di Interruzione. Inoltre, è possibile abilitare la descrizione comando di attrazione da questa finestra di dialogo.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -98,13 +98,31 @@ Verrà visualizzato il seguente output a scelta del lettore:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-### Informazioni sulle proprietà del canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
+## Timeline View {#timeline-view}
+
+Dopo aver assegnato un canale a un display e aver impostato un programma di ricorrenza, potete visualizzare la timeline dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
+
+Per passare alla visualizzazione timeline, effettuate le seguenti operazioni:
+
+1. Passare alla visualizzazione desiderata, ad esempio **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Oppure,
+
+   Toccate/fate clic su **Dashboard** e fate clic su **Timeline** dal pannello CANALI e PIANIFICAZIONI **ASSEGNATI** .
+
+1. Immagini in sospeso (da risolvere)
+
+## Informazioni sulle proprietà del canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
 
 Le seguenti proprietà sono impostate dall’opzione **Impostazioni** nella finestra di dialogo Assegnazione **** canale.
 
 ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-#### Seleziona un canale {#select-channel}
+### Seleziona un canale {#select-channel}
 
 La selezione di un canale consente di fornire un riferimento al canale desiderato, sia per nome del canale che per percorso del canale.
 
@@ -112,25 +130,25 @@ La selezione di un canale consente di fornire un riferimento al canale desiderat
 
 * **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
 
-#### Ruolo canale {#role-channel}
+### Ruolo canale {#role-channel}
 
 Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da diverse azioni ed è indipendente dal canale effettivo che svolge il ruolo.
 
-#### Priorità {#priority-channel}
+### Priorità {#priority-channel}
 
 La priorità viene usata per ordinare le assegnazioni nel caso in cui più utenti corrispondano ai criteri di riproduzione. Quella con il valore più alto avrà sempre la precedenza su quella con i valori più bassi. Ad esempio, se ci sono due canali A e B, A ha una priorità di 1 e B ha una priorità di 2, viene quindi visualizzato il canale B, che ha una priorità maggiore di A.
 
 >[!NOTE]
 >La priorità per un canale è impostata come numero (1 corrisponde alla priorità minima) nella finestra di dialogo **Assegnazione canale**, come detto sopra. Inoltre, i canali assegnati vengono ordinati in base a una priorità decrescente.
 
-#### Eventi supportati {#supported-events-channel}
+### Eventi supportati {#supported-events-channel}
 
 * **Caricamento iniziale**: carica il canale quando il lettore viene avviato. Può essere assegnato a più canali in combinazione con la pianificazione
 * **Schermata di inattività**: il canale viene caricato quando la schermata è inattiva. Può essere assegnato a più canali in combinazione con la pianificazione
 * **Timer:** deve essere impostato quando viene fornita una pianificazione
 * **Interazione utente**: il lettore passa al canale specificato, se c&#39;è un&#39;interazione utente sullo schermo (un tocco) in un canale inattivo; il canale viene caricato quando lo schermo viene toccato.
 
-#### Metodo di interruzione {#interruption-method-channel}
+### Metodo di interruzione {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
@@ -152,16 +170,15 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
 
 Le seguenti proprietà sono impostate dall&#39;opzione **Pianificazione** nella finestra di dialogo Assegnazione **** canale.
 
-
-#### Fuso orario di riferimento {#reference-timezone}
+### Fuso orario di riferimento {#reference-timezone}
 
 Il Fuso orario di riferimento consente di selezionare il fuso orario per la visualizzazione del contenuto.
 
-#### Finestra di attivazione {#activation-window}
+### Finestra di attivazione {#activation-window}
 
 La finestra Attivazione consente di selezionare una data **di** inizio e una data **di** fine per visualizzare il contenuto.
 
-#### Pianificazione ricorrenza {#recurrence-schedule}
+### Pianificazione ricorrenza {#recurrence-schedule}
 
 La pianificazione ricorrenza consente di impostare una pianificazione periodica per il contenuto. Fai clic su **+ Aggiungi programma** per aggiungere una pianificazione della ricorrenza al canale.
 
@@ -211,23 +228,4 @@ Questo esempio mostra la DayParting implementata in un casinò dove l&#39;evento
 >[!NOTE]
 >
 >Inoltre, puoi definire la ***Priorità*** per ciascuno dei canali. Ad esempio, se due canali sono impostati per lo stesso giorno e la stessa ora o per lo stesso mese, il canale con priorità più alta viene riprodotto per primo. Il valore minimo per la priorità può essere impostato su 0.
-
-## Timeline View {#timeline-view}
-
-Dopo aver assegnato un canale a un display e aver impostato un programma di ricorrenza, potete visualizzare la timeline dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
-
-Per passare alla visualizzazione timeline, effettuate le seguenti operazioni:
-
-1. Passare alla visualizzazione desiderata, ad esempio **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
-
-1. Tap/click **Assign Channel** from the action bar.
-
-   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
-   Oppure,
-
-   Toccate/fate clic su **Dashboard** e fate clic su **Timeline** dal pannello CANALI e PIANIFICAZIONI **ASSEGNATI** .
-
-1. Immagini in sospeso (da risolvere)
-
 
