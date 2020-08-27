@@ -2,10 +2,10 @@
 title: Note sulla versione per Feature Pack 2008
 description: La pagina descrive le Note sulla versione per Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
+source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -30,9 +30,23 @@ La data di rilascio per  AEM Screens Feature Pack 202008 è il 31 agosto 2020.
 
 * **Visualizzazione timeline nel dashboard di pianificazione**
 
+   Visualizzazione timeline consente di visualizzare le pianificazioni assegnate al canale dal pannello di visualizzazione.
+
+   Per ulteriori dettagli, consultate Visualizzazione [](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) timeline.
+
 * **Pianificazione ricorrenza**
 
+   La programmazione ricorrenza consente di impostare una pianificazione periodica per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
+
+   Per ulteriori dettagli, consulta [Pianificazione](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) ricorrenza.
+
 * **Funzionalità di riconoscimento vocale per  AEM Screens**
+
+   La funzione di riconoscimento vocale consente di modificare i contenuti in un canale  AEM Screens, basato sull&#39;interazione vocale.
+
+   Un autore del contenuto può configurare una visualizzazione in modo che sia attivata per la voce. Lo scopo di questa funzione è consentire ai clienti di utilizzare il linguaggio vocale come metodo per interagire con i loro schermi.
+
+   Per ulteriori dettagli, consultate [Riconoscimento](voice-recognition.md) vocale.
 
 * **Aggiornamento delle preferenze dispositivo in modalità di creazione/pubblicazione**
 
@@ -40,7 +54,7 @@ La data di rilascio per  AEM Screens Feature Pack 202008 è il 31 agosto 2020.
 
 I seguenti  AEM Screens Players sono rilasciati per  AEM Screens rilasciato AEM 6.5 Feature Pack 5:
 
-* ChromeOS
+* Sistema operativo Chrome
 * Windows
 * Android
 
