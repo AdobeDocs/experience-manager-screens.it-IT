@@ -3,9 +3,9 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: f5d80f3765993277c552b64685d12244658915bb
+source-git-commit: c326c9e83b8c7edcda535b0c775c62c50dd3a29f
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1491'
 ht-degree: 23%
 
 ---
@@ -170,6 +170,8 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
 
 Le seguenti proprietà sono impostate dall&#39;opzione **Pianificazione** nella finestra di dialogo Assegnazione **** canale.
 
+![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 ### Fuso orario di riferimento {#reference-timezone}
 
 Il Fuso orario di riferimento consente di selezionare il fuso orario per la visualizzazione del contenuto.
@@ -182,9 +184,6 @@ La finestra Attivazione consente di selezionare una data **di** inizio e una dat
 
 La pianificazione ricorrenza consente di impostare una pianificazione periodica per il contenuto. Fai clic su **+ Aggiungi programma** per aggiungere una pianificazione della ricorrenza al canale.
 
-![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
-
-
 >[!NOTE]
 >Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
 >Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
@@ -194,9 +193,9 @@ Potete impostare le seguenti opzioni:
 * **Nome**: Titolo della pianificazione della ricorrenza.
 * **Ripeti**: Scegliete se la pianificazione viene eseguita **Quotidianamente**, **Settimanalmente**, **Mensilmente** o **Annualmente**.
 * **Inizio**: Ora di inizio per la pianificazione.
-* **Fine**: L&#39;ora di fine del programma. Puoi impostare il campo in base a:
-* **Ora**: La pianificazione termina a un&#39;ora specificata.
-* **Durata**: La pianificazione viene eseguita per una particolare durata in ore o minuti.
+* **Fine**: L&#39;ora di fine del programma. Potete impostare l&#39;impostazione per ora o durata.
+   * **Ora**: La pianificazione termina a un&#39;ora specificata.
+   * **Durata**: La pianificazione viene eseguita per una particolare durata in ore o minuti.
 
 ### DayParting {#dayparting}
 
