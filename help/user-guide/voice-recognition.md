@@ -2,9 +2,9 @@
 title: Riconoscimento vocale in  AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in  AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7f9f72f31d866f142bc9bf11d021583905ee82ea
+source-git-commit: b0f35750fffa6a61d2bc9950457974cca52651da
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,6 @@ Per creare i tag, effettuate le seguenti operazioni:
    ![immagine](assets/voice-recognition/vr-tag3.png)
 
 1. Inserite il nome del progetto, ad esempio **VoiceDemo** e fate clic su **Crea**.
-   ![immagine](assets/voice-recognition/vr-tag2.png)
 
 1. Selezionate il progetto **VoiceDemo** e fate clic su **Crea tag** nella barra delle azioni.
    ![immagine](assets/voice-recognition/vr-tag4.png)
