@@ -3,10 +3,10 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
 translation-type: tm+mt
-source-git-commit: b29b67374f29148ef661de356f479e9aa5e40cfd
+source-git-commit: 2c469a8c74f496fbd9da796a5f471636e71ffc8c
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 24%
+source-wordcount: '1480'
+ht-degree: 23%
 
 ---
 
@@ -80,8 +80,8 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
    >[!NOTE]
    >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
-1. Dall&#39;opzione **Pianificazioni** , selezionate il **Fuso orario** di riferimento, la finestra **** Attivazione e la Pianificazione ****ricorrenza.
-   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
+1. Dall&#39;opzione **Pianificazione** , selezionate il fuso orario di **riferimento**, la finestra **** Attivazione e la pianificazione ****ricorrenza.
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
@@ -152,6 +152,7 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
 
 Le seguenti proprietà sono impostate dall&#39;opzione **Pianificazione** nella finestra di dialogo Assegnazione **** canale.
 
+
 #### Fuso orario di riferimento {#reference-timezone}
 
 Il Fuso orario di riferimento consente di selezionare il fuso orario per la visualizzazione del contenuto.
@@ -163,6 +164,9 @@ La finestra Attivazione consente di selezionare una data **di** inizio e una dat
 #### Pianificazione ricorrenza {#recurrence-schedule}
 
 La pianificazione ricorrenza consente di impostare una pianificazione periodica per il contenuto. Fai clic su **+ Aggiungi programma** per aggiungere una pianificazione della ricorrenza al canale.
+
+![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
+
 
 >[!NOTE]
 >Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
@@ -204,25 +208,9 @@ Questo esempio mostra la DayParting implementata in un casinò dove l&#39;evento
 | Fine settimana | Settimanale | 8:00 PM | 10:00 PM |
 | Speciale | Giornaliero | 10:00 PM | 1:00 |
 
-**Fine settimana**
-
-
-**Speciale**
-
-#### Riproduzione di contenuto per un mese/mesi particolare/i {#playing-content-for-a-particular-month-months}
-
-Questo esempio mostra DayParting per uno store che visualizza la raccolta estiva dai mesi di giugno ad agosto e la raccolta autunnale da settembre fino alla fine di ottobre.
-
-Qui si crea DayParting in base ai mesi, in modo che il contenuto del canale venga riprodotto in base ai mesi specificati dell&#39;anno.
-
-
 >[!NOTE]
 >
 >Inoltre, puoi definire la ***Priorità*** per ciascuno dei canali. Ad esempio, se due canali sono impostati per lo stesso giorno e la stessa ora o per lo stesso mese, il canale con priorità più alta viene riprodotto per primo. Il valore minimo per la priorità può essere impostato su 0.
-
-#### Riproduzione di contenuto per i canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
-
-In questo esempio viene illustrato DayParting per uno store che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
 
 ## Timeline View {#timeline-view}
 
@@ -230,5 +218,16 @@ Dopo aver assegnato un canale a un display e aver impostato un programma di rico
 
 Per passare alla visualizzazione timeline, effettuate le seguenti operazioni:
 
+1. Passare alla visualizzazione desiderata, ad esempio **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
+
+1. Tap/click **Assign Channel** from the action bar.
+
+   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
+
+   Oppure,
+
+   Toccate/fate clic su **Dashboard** e fate clic su **Timeline** dal pannello CANALI e PIANIFICAZIONI **ASSEGNATI** .
+
+1. Immagini in sospeso (da risolvere)
 
 
