@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,21 @@ Questa sezione descrive la configurazione  lettore AEM Screens Windows 10. Forni
 Per implementare Windows Player per  AEM Screens, installare Windows Player per  AEM Screens.
 
 Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### Impostazione dell&#39;ambiente per  AEM Screens 6.5.5 Feature Pack e versioni successive {#fp-environment-setup}
+
+È necessario configurare un ambiente per Windows Player se si utilizza  AEM Screens 6.5.5 Feature Pack.
+
+Effettua le seguenti operazioni:
+
+1. Passa ad **Adobe Experience Manager Web ConsoleConfiguration** tramite `http://localhost:4502/system/console/configMgr`.
+
+1. Cercare *gestore* autenticazione token di Granite di Adobe.
+
+1. Impostate l’attributo **SameSite per i cookie** di token di login da **Lax** a **None**.
+   ![immagine](/help/user-guide/assets/granite-updates.png)
+
+1. Fai clic su **Salva**.
 
 ### Ad-Hoc, metodo {#ad-hoc-method}
 
@@ -115,21 +130,6 @@ Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
 1. Eseguire lo script PowerShell come amministratore.
 1. Riavviate e accedete come l&#39;utente Kiosk e l&#39;applicazione del lettore dovrebbero iniziare immediatamente.
-
-### Impostazione dell&#39;ambiente per  AEM Screens 6.5.5 Feature Pack e versioni successive {#fp-environment-setup}
-
-È necessario configurare un ambiente per Windows Player se si utilizza  AEM Screens 6.5.5 Feature Pack.
-
-Effettua le seguenti operazioni:
-
-1. Accedi ad **Adobe Experience Manager Web ConsoleConfiguration** tramite `http://localhost:4502/system/console/configMgr`.
-
-1. Cercare *gestore* autenticazione token di Granite di Adobe.
-
-1. Impostate l’attributo **SameSite per i cookie** di token di login da **Lax** a **None**.
-   ![immagine](/help/user-guide/assets/granite-updates.png)
-
-1. Fai clic su **Salva**.
 
 ### Risoluzione dei problemi {#troubleshooting}
 
