@@ -2,10 +2,10 @@
 title: Riconoscimento vocale in  AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in  AEM Screens.
 translation-type: tm+mt
-source-git-commit: 3422a62af9b9c0930ce433c0a9cd29f4089592d3
+source-git-commit: 1063f1ab19344ceacfba6b53ad5cf32901c3843d
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '1215'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,13 @@ La sezione seguente descrive come attivare e usare la funzione di riconoscimento
 
 ### Impostazione del progetto {#setting-up}
 
+Potete impostare il progetto utilizzando i due modelli seguenti:
+
+* [Canale per sequenza](#sequence-channel)
+* [Canale a schermo diviso](#split-channel)
+
+#### Utilizzo del canale della sequenza come modello {#sequence-channel}
+
 Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporre di un progetto e di un canale con il contenuto impostato per il progetto.
 
 1. L&#39;esempio seguente mostra un progetto demo denominato **VoiceDemo** e tre canali di sequenza **Main**, **ColdDrinks** e **HotDrinks**, come illustrato nella figura riportata di seguito.
@@ -66,6 +73,34 @@ Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporr
    **HotDrinks**:
 
    ![immagine](assets/voice-recognition/vr-2.png)
+
+#### Utilizzo del canale per schermi divisi come modello {#split-channel}
+
+Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporre di un progetto e di un canale con il contenuto impostato per il progetto.
+
+1. L&#39;esempio seguente mostra un progetto demo denominato **VoiceDemo** e tre canali di sequenza **Main**, **ColdDrinks**, e **HotDrinks**, **SplitChannel** come mostrato nella figura seguente.
+
+
+
+   >[!NOTE]
+   >
+   >Per informazioni su come creare un canale o aggiungere contenuti a un canale, consulta [Creazione e gestione di canali](/help/user-guide/managing-channels.md)
+
+1. Andate a ciascun canale e aggiungete contenuto. Ad esempio, accedete a **VoiceDemo** —> **Canali** —> **Principale** e selezionate il canale. Fate clic su **Modifica** nella barra delle azioni per aprire l&#39;editor e aggiungere contenuti (immagini/video) in base alle vostre esigenze. Allo stesso modo, aggiungete contenuto sia a **ColdDrinks** che al canale **HotDrinks** .
+
+   I canali ora contengono risorse (immagini), come mostrato nelle figure seguenti.
+
+   **Principale**:
+
+
+
+   **ColdDrinks**:
+
+
+   **HotDrinks**:
+
+1. Andate a **SplitChannel** e aggiungete contenuto. Trascinate e rilasciate due sequenze incorporate e aggiungete un percorso sia al canale **ColdDrinks** che al canale **HotDrinks** , come illustrato nella figura riportata di seguito.
+
 
 ### Impostazione dei tag per i canali {#setting-tags}
 
@@ -94,6 +129,8 @@ Per aggiungere tag al canale, effettuate le operazioni seguenti:
 1. Al termine, fate clic su **Salva e chiudi** .
 
 Allo stesso modo, aggiungete il tag **hot** al canale **HotDrinks** .
+
+Se utilizzate un canale per schermate divise come modello, accertatevi di aggiungere sia i tag (**caldo** e **freddo**) alle proprietà Canale.
 
 #### Creazione di tag {#creating-tags}
 
@@ -145,14 +182,16 @@ Ora potete usare questi tag nel progetto AEM Screens .
    >[!IMPORTANT]
    >È obbligatorio attivare la funzione di riconoscimento vocale dal display.
 
-#### Visualizzazione del contenuto in Chrome Player {#viewing-content}
+### Visualizzazione del contenuto in Chrome Player {#viewing-content}
 
-Una volta completati i passaggi precedenti, è possibile registrare il dispositivo chrome e visualizzare l&#39;output.
+Una volta completati i passaggi precedenti, è possibile registrare il dispositivo chrome per visualizzare l&#39;output.
 
 >[!NOTE]
 >Per informazioni su come registrare un dispositivo su un lettore AEM Screens , fare riferimento a Registrazione [](device-registration.md) dispositivo.
 
 Questo esempio mostra l&#39;output su un lettore Chrome.
+
+#### Per canale sequenziale {#sequential-output}
 
 Il canale **Principale** sta riproducendo il contenuto, ma quando si utilizzano parole con parole chiave **calde** come *vorrei avere una bevanda* calda, il canale inizia a riprodurre il contenuto del canale **HotDrinks** .
 
@@ -161,10 +200,12 @@ Allo stesso modo, se si utilizza la parola con una parola chiave **fredda** come
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
+#### Per il canale per schermi diversi {#split-screen-output}
 
 
+Il canale **Principale** sta riproducendo il contenuto, ma quando si utilizzano parole con parole chiave **calde** come *vorrei avere una bevanda* calda, il canale inizia a riprodurre il contenuto del canale **HotDrinks** .
 
-
+Allo stesso modo, se si utilizza la parola con una parola chiave **fredda** come *vorrei avere qualcosa di freddo*, il canale inizia a riprodurre il contenuto del canale **ColdDrinks** .
 
 
 
