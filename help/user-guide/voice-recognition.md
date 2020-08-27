@@ -2,9 +2,9 @@
 title: Riconoscimento vocale in  AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in  AEM Screens.
 translation-type: tm+mt
-source-git-commit: 99e775cf2aca779c3223e96d05f1e0c9784a9821
+source-git-commit: eb85269cfeccd837fdf1f752618013fefeddbfd7
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1554'
 ht-degree: 3%
 
 ---
@@ -96,11 +96,10 @@ Per aggiungere tag al canale, effettuate le operazioni seguenti:
 
    ![immagine](assets/voice-recognition/vr-tag1.png)
 
+1. Allo stesso modo, aggiungete il tag **hot** al canale **HotDrinks** .
+
 1. Al termine, fate clic su **Salva e chiudi** .
 
-Allo stesso modo, aggiungete il tag **hot** al canale **HotDrinks** .
-
-Se utilizzate un canale per schermate divise come modello, accertatevi di aggiungere sia i tag (**caldo** e **freddo**) alle proprietà Canale.
 
 ### Creazione di tag {#creating-tags}
 
@@ -276,7 +275,7 @@ Una volta completati i passaggi precedenti, è possibile registrare il dispositi
 
 Questo esempio mostra l&#39;output su un lettore Chrome.
 
-Il canale **Principale** sta riproducendo il suo contenuto, ma quando si utilizzano parole con parole chiave **calde** e **fredde** insieme, come *vorrei vedere il menu per bevande* calde e fredde, il canale inizia a riprodurre il contenuto del canale **SplitScreens** .
+Il canale **Principale** sta riproducendo il suo contenuto, ma quando si utilizzano parole con parole chiave **calde** e **fredde** insieme, come *vorrei vedere il menu per bevande* calde e fredde, il canale inizia a riprodurre il contenuto del canale **SplitScreen** .
 
 
 
