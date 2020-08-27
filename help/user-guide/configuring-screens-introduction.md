@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: bca6dc0f6a022a4a9005053320e5047b9321270d
+source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
@@ -72,25 +72,24 @@ I seguenti punti chiave aiutano a configurare e AEM server per essere pronto per
 
 1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![immagine](assets/config/empty-ref1.png)
 
 1. **Viene visualizzata la configurazione** della console Web di Adobe Experience Manager. Cerca referrer di fionda.
 
    Per cercare la proprietà sling referrer, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
 
-   ![screen_shot_2019-07-31at91728am](assets/screen_shot_2019-07-31at91728am.png)
-
 1. Selezionare l&#39;opzione **Consenti valori nulli** , come illustrato nella figura riportata di seguito.
 
-   ![screen_shot_2019-07-31at91807am](assets/screen_shot_2019-07-31at91807am.png)
+   ![immagine](assets/config/empty-ref2.png)
 
 1. Fate clic su **Salva** per attivare l&#39;opzione Consenti valori nulli per il filtro Apache Sling Referrer.
+
 
 #### Servizio HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
 1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
 
-   ![screen_shot_2019-07-31at91253am](assets/screen_shot_2019-07-31at91253am.png)
+   ![immagine](assets/config/empty-ref1.png)
 
 1. **Viene visualizzata la configurazione** della console Web di Adobe Experience Manager. Cercate il servizio HTTP Apache Felix Jetty.
 
@@ -98,7 +97,7 @@ I seguenti punti chiave aiutano a configurare e AEM server per essere pronto per
 
 1. Selezionate l’opzione **ABILITA HTTP** , come illustrato nella figura riportata di seguito.
 
-   ![screen_shot_2019-07-31at91807am](assets/http-image.png)
+   ![immagine](assets/config/config-1.png)
 
 1. Fate clic su **Salva** per abilitare il servizio *http* .
 
