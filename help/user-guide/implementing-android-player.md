@@ -11,10 +11,10 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: db3429d93833ec22ba60732c45da274830692b39
+source-git-commit: 319a80a7fe3d68cbc16108eb302def390b445838
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '740'
+ht-degree: 1%
 
 ---
 
@@ -27,18 +27,34 @@ Inoltre, **Watchdog** è una soluzione per recuperare il lettore da arresti anom
 
 ## Installazione di Android Player {#installing-android-player}
 
-Per implementare Android Player per AEM Screens, installate Android Player per AEM Screens.
+Per implementare Android Player per  AEM Screens, installate Android Player per  AEM Screens.
 
-Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.5 Player.
+Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+
+### Impostazione dell&#39;ambiente per  AEM Screens 6.5.5 Feature Pack e versioni successive {#fp-environment-setup}
+
+È necessario configurare un ambiente per il lettore Android se si utilizza  AEM Screens 6.5.5 Feature Pack.
+
+Effettua le seguenti operazioni:
+
+1. Passa ad **Adobe Experience Manager Web ConsoleConfiguration** tramite `http://localhost:4502/system/console/configMgr`.
+
+1. Cercare *gestore* autenticazione token di Granite di Adobe.
+
+1. Impostate l’attributo **SameSite per i cookie** di token di login da **Lax** a **None**.
+   ![immagine](/help/user-guide/assets/granite-updates.png)
+
+1. Fai clic su **Salva**.
+
 
 ### Metodo Ad Hoc {#ad-hoc-method}
 
-Il metodo Ad-Hoc consente di installare la versione più recente di Android Player (*.exe*). Visita la pagina dei download [**di **](https://download.macromedia.com/screens/)AEM 6.5 Player.
+Il metodo Ad-Hoc consente di installare la versione più recente di Android Player (*.exe*). Visita [**AEM pagina dei download**](https://download.macromedia.com/screens/) di 6.5 Player.
 
 Una volta scaricata l’applicazione, seguite i passaggi del lettore per completare l’installazione ad hoc:
 
 1. Tenete premuto sull’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Andate a **Configurazione** dal menu delle azioni a sinistra e immettete il percorso (indirizzo) dell’istanza AEM a cui desiderate connettervi e fate clic su **Salva**.
+1. Andate a **Configurazione** dal menu delle azioni a sinistra e immettete il percorso (indirizzo) dell&#39;istanza AEM a cui desiderate connettervi e fate clic su **Salva**.
 
 1. Andate al collegamento **Device** **Registration** (Registrazione dispositivo) dal menu delle azioni a sinistra per verificare lo stato del processo di registrazione del dispositivo.
 
