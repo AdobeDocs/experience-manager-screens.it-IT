@@ -2,9 +2,9 @@
 title: Note sulla versione per Feature Pack 2008
 description: La pagina descrive le Note sulla versione per Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: a1c49a0fcee96dede79e4cad6a2444473baa57a5
+source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 La data di rilascio per  AEM Screens Feature Pack 202008 è il 31 agosto 2020.
 
-### Novità {#what-s-new}
+### Novità {#what-is-new}
 
 * **Visualizzazione timeline nel dashboard di pianificazione**
 
@@ -48,18 +48,16 @@ La data di rilascio per  AEM Screens Feature Pack 202008 è il 31 agosto 2020.
 
    Per ulteriori dettagli, consultate [Riconoscimento](voice-recognition.md) vocale.
 
-* **Aggiornamento delle preferenze dispositivo in modalità di creazione/pubblicazione**
-
 ### Rilasciati  lettori AEM Screens {#released-aem-screens-players}
 
-I seguenti  AEM Screens Players sono rilasciati per  AEM Screens rilasciato AEM 6.5 Feature Pack 5:
+I seguenti  AEM Screens Players sono rilasciati per  AEM Screens rilasciato AEM 6.5 Feature Pack 5.
+
+>[!IMPORTANT]
+>Se AEM Service Pack 6.5.5 è installato, potrebbero verificarsi problemi di replica nei lettori Screens. Installate [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) per risolvere il problema.
 
 * Sistema operativo Chrome
 * Windows
 * Android
-
->[!IMPORTANT]
->Se AEM Service Pack 6.5.5 è installato, potrebbero verificarsi problemi di replica nei lettori Screens. Installate [cq-ui-wcm-commons-content-1.1.154](/help/user-guide/assets/cq-ui-wcm-commons-content-1.1.154.zip) per risolvere il problema.
 
 #### Download di  AEM Screens Player  {#aem-screens-player-downloads}
 
