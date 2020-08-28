@@ -2,9 +2,9 @@
 title: Riconoscimento vocale in  AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in  AEM Screens.
 translation-type: tm+mt
-source-git-commit: 8a44e92408ff02b3d0b9e0a0e55de73c54a1afcd
+source-git-commit: 4e64227cf63fc801c2f6fdfbc44b23df0a4d0bb0
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1559'
 ht-degree: 3%
 
 ---
@@ -16,15 +16,14 @@ ht-degree: 3%
 >
 >**Informazioni importanti sulla privacy**
 >
->Quando si utilizza la funzione di riconoscimento vocale, seguire tutte le linee guida legali ed etiche applicabili alla propria area geografica (incluso, tra l&#39;altro, l&#39;invio di un avviso visibile agli utenti finali che il lettore utilizza il riconoscimento vocale).  Adobe Inc., non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens  utilizzano l&#39;API vocale Web standard integrata nel motore di navigazione. Dietro le quinte, una forma d&#39;onda del vostro discorso viene inviata ai server di Google per la conversione da discorso a testo e questo testo viene associato dal lettore rispetto alle parole chiave configurate.
+>Quando si utilizza la funzione di riconoscimento vocale, seguire tutte le linee guida legali ed etiche applicabili alla propria regione (incluso, tra l&#39;altro, l&#39;invio di un avviso visibile agli utenti finali che il lettore utilizza il riconoscimento vocale).  Adobe Inc., non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens  utilizzano l&#39;API vocale Web standard integrata nel motore di navigazione. Dietro le quinte questa API invia una forma d&#39;onda del discorso ai server Google per la conversione da discorso a testo e questo testo viene associato dal lettore alle parole chiave configurate.
 >
 >Per ulteriori informazioni, consultate [il white paper sulla privacy di Google sull&#39;API](https://www.google.com/chrome/privacy/whitepaper.html#speech) vocale Web.
 
 
+La funzione di riconoscimento vocale consente la modifica del contenuto in un canale  AEM Screens guidato dall&#39;interazione vocale.
 
-La funzione di riconoscimento vocale consente di modificare i contenuti in un canale  AEM Screens, basato sull&#39;interazione vocale.
-
-Un autore del contenuto può configurare una visualizzazione in modo che sia attivata per la voce. Lo scopo di questa funzione è consentire ai clienti di utilizzare il linguaggio vocale come metodo per interagire con i loro schermi. Alcuni casi di utilizzo simili includono la ricerca di raccomandazioni sui prodotti nei negozi, l&#39;ordinazione di voci di menu presso ristoranti e ristoranti. Questa funzione aumenta l&#39;accessibilità per gli utenti e può migliorare notevolmente l&#39;esperienza dei clienti.
+Un autore del contenuto può configurare una visualizzazione in modo che sia attivata per la voce. Lo scopo di questa funzione è consentire ai clienti di utilizzare la voce come metodo per interagire con i loro schermi. Alcuni casi di utilizzo simili includono la ricerca di raccomandazioni sui prodotti nei negozi, l&#39;ordinazione di voci di menu presso ristoranti e ristoranti. Questa funzione aumenta l&#39;accessibilità per gli utenti e può migliorare notevolmente l&#39;esperienza dei clienti.
 
 >[!NOTE]
 >L&#39;hardware del lettore deve supportare l&#39;ingresso vocale, ad esempio un microfono.
@@ -32,18 +31,13 @@ Un autore del contenuto può configurare una visualizzazione in modo che sia att
 ## Implementazione del riconoscimento vocale {#implementing}
 
 >[!IMPORTANT]
-> La funzione di riconoscimento vocale è disponibile solo sui lettori Chrome OS e Electron.
+> La funzione di riconoscimento vocale è disponibile solo sui lettori Chrome OS e Windows.
 
 Per implementare il riconoscimento vocale nel progetto AEM Screens , è necessario abilitare il riconoscimento vocale per il display e associare ogni canale a un tag univoco per attivare una transizione di canale.
 
 La sezione seguente descrive come attivare e usare la funzione di riconoscimento vocale in un progetto AEM Screens .
 
-Potete impostare il progetto utilizzando i due modelli seguenti:
-
-* [Canale per sequenza](#sequence-channel)
-* [Canale a schermo diviso](#split-channel)
-
-## Utilizzo del canale della sequenza come modello {#sequence-channel}
+## Caso d’uso 1: Visualizzazione del contenuto nello switch canale a schermo intero {#sequence-channel}
 
 Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporre di un progetto e di un canale con il contenuto impostato per il progetto.
 
@@ -171,7 +165,7 @@ Allo stesso modo, se si utilizza la parola con una parola chiave **fredda** come
 ![newimage](assets/voice-recognition/voice-video.gif)
 
 
-## Utilizzo del canale per schermi divisi come modello {#split-channel}
+## Caso d’uso 2: Visualizzazione del contenuto nello switch canale schermo diviso {#split-channel}
 
 Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporre di un progetto e di un canale con il contenuto impostato per il progetto.
 
