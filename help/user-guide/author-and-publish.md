@@ -4,10 +4,10 @@ seo-title: Configurazione di Author e Publish in  AEM Screens
 description: ' architettura AEM Screens assomiglia a una tradizionale architettura AEM Sites . Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Seguite questa pagina per apprendere come configurare l’authoring e la pubblicazione per  AEM Screens.'
 seo-description: ' architettura AEM Screens assomiglia a una tradizionale architettura AEM Sites . Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Seguite questa pagina per apprendere come configurare l’authoring e la pubblicazione per  AEM Screens.'
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '1893'
-ht-degree: 3%
+source-wordcount: '1922'
+ht-degree: 2%
 
 ---
 
@@ -31,6 +31,9 @@ Prima di iniziare a usare i server di creazione e pubblicazione, è necessario d
 >[!NOTE]
 >
 >Questa funzionalità  AEM Screens è disponibile solo se è stato installato AEM 6.4 Screens Feature Pack 2. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+
+>[!Iimportante]
+>Se si desidera utilizzare più istanze di pubblicazione con dispatcher, è necessario aggiornare il file dispatcher.any nel dispatcher. Per ulteriori informazioni, consulta [Abilitazione delle sessioni](dispatcher-configurations-aem-screens.md#enable-sticky-session) permanenti.
 
 ## Configurazione delle istanze Author e Publish {#configuring-author-and-publish-instances}
 
