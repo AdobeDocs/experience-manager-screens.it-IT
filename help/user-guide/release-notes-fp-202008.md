@@ -2,10 +2,10 @@
 title: Note sulla versione per Feature Pack 2008
 description: La pagina descrive le Note sulla versione per Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 8c8b6ec0171d021370e7476b3aff5cdd212ebb32
+source-git-commit: 7e3830eed45fd74a334c97dfd49b1913c455c5b8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 3%
+source-wordcount: '328'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Data di rilascio {#release-date}
 
-La data di rilascio per  AEM Screens Feature Pack 202008 è il 31 agosto 2020.
+La data di rilascio per  AEM Screens Feature Pack 202008 è il 3 settembre 2020.
 
 ### Novità {#what-is-new}
 
@@ -47,6 +47,14 @@ La data di rilascio per  AEM Screens Feature Pack 202008 è il 31 agosto 2020.
    Un autore del contenuto può configurare una visualizzazione in modo che sia attivata per la voce. Lo scopo di questa funzione è consentire ai clienti di utilizzare il linguaggio vocale come metodo per interagire con i loro schermi.
 
    Per ulteriori dettagli, consultate [Riconoscimento](voice-recognition.md) vocale.
+
+### Problemi noti e correzioni {#known-issues}
+
+Se si utilizza  AEM Screens 6.5.5 Feature Pack, è necessario configurare un ambiente per Windows o per il lettore Android.
+
+* Per ulteriori informazioni, consultate [Implementazione di Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
+
+* Per ulteriori informazioni, consultate [Implementazione di Android Player](implementing-android-player.md#fp-environment-setup) .
 
 ### Rilasciati  lettori AEM Screens {#released-aem-screens-players}
 
