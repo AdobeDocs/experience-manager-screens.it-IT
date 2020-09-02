@@ -4,10 +4,10 @@ seo-title: Configurazioni del dispatcher per  AEM Screens
 description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
 seo-description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
 translation-type: tm+mt
-source-git-commit: 8e8413221d0f79f8e46e15d0f00a710296883739
+source-git-commit: 37025002d02603ab8a5c571086524be858389557
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 10%
+source-wordcount: '251'
+ht-degree: 9%
 
 ---
 
@@ -33,6 +33,21 @@ Per ulteriori informazioni, consultate [Configurazione del dispatcher](https://d
 ## Configurazione di Dispatcher {#configuring-dispatcher}
 
 Per configurare il dispatcher per un progetto AEM Screens , procedi come indicato di seguito.
+
+### Abilitazione delle sessioni permanenti {#enable-sticky-session}
+
+Se si desidera utilizzare più istanze di pubblicazione con dispatcher, è necessario aggiornare il file dispatcher.any nel dispatcher.
+
+```xml
+/stickyConnections {
+  /paths
+  {
+    "/content/screens"
+    "/home/users/screens"
+    "/libs/granite/csrf/token.json"
+  }
+}
+```
 
 ### Passaggio 1: Configurazione delle intestazioni client {#step-configuring-client-headers}
 
@@ -76,7 +91,7 @@ I lettori dello schermo utilizzano una sessione autenticata, pertanto il dispatc
 Per abilitare la cache per le risorse in modo che le risorse vengano servite dalla cache del dispatcher, dovete:
 
 * Aggiungi `/allowAuthorization 1` nella `/cache` sezione
-* Aggiungi le regole riportate di seguito alla sezione `/rule`di `/cache`
+* Aggiungi le regole seguenti alla `/rules` sezione di `/cache`
 
 ```xml
 /0000
