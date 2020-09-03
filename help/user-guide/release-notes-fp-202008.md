@@ -2,9 +2,9 @@
 title: Note sulla versione per Feature Pack 2008
 description: La pagina descrive le Note sulla versione per Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: 37025002d02603ab8a5c571086524be858389557
+source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,9 @@ La data di rilascio per  AEM Screens Feature Pack 202008 è il 3 settembre 2020.
 
 ### Problemi noti e correzioni {#known-issues}
 
-Se si utilizza  AEM Screens 6.5.5 Feature Pack, è necessario configurare un ambiente per Windows o per il lettore Android.
+Se si utilizza  AEM Screens 6.5.5 Service Pack, è necessario configurare un ambiente per Windows o per il lettore Android.
+
+Impostate l’attributo **SameSite per i cookie** del token di login da **Lax** a **None** da **Adobe Experience Manager Web ConsoleConfiguration** su tutte AEM istanze di creazione e pubblicazione.
 
 * Per ulteriori informazioni, consultate [Implementazione di Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
 
