@@ -2,10 +2,10 @@
 title: Note sulla versione per Feature Pack 2008
 description: La pagina descrive le Note sulla versione per Feature Pack 2008.
 translation-type: tm+mt
-source-git-commit: a179b6be273b0b0ca166bae755399f8254091ee6
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
  AEM Screens ha rilasciato AEM 6.5 Feature Pack 5.
 
-È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.5 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software utilizzando l&#39;Adobe ID . Passate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere l&#39;ultimo pacchetto di funzioni.
+È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.5 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/it/aemcloud.html) software utilizzando l&#39;Adobe ID . Passate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere l&#39;ultimo pacchetto di funzioni.
 
 ## Data di rilascio {#release-date}
 
