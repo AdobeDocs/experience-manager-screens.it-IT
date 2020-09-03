@@ -3,10 +3,10 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull'assegnazione dei canali e la suddivisione dei giorni.
 translation-type: tm+mt
-source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 23%
+source-wordcount: '1471'
+ht-degree: 22%
 
 ---
 
@@ -193,7 +193,7 @@ Potete impostare le seguenti opzioni:
 
 ### DayParting {#dayparting}
 
-DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese, a seconda dei requisiti.
+DayParting fa riferimento alla suddivisione di un giorno in orari fissi e alla specifica del contenuto riprodotto al momento desiderato.  AEM Screens consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese, a seconda dei requisiti.
 
 Gli esempi seguenti spiegano DayParting nei canali in tre scenari diversi:
 
