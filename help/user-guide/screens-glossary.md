@@ -4,10 +4,10 @@ seo-title: Glossario
 description: Seguite questa pagina per comprendere i termini chiave associati a  AEM Screens.
 seo-description: Seguite questa pagina per comprendere i termini chiave associati a  AEM Screens.
 translation-type: tm+mt
-source-git-commit: 7ce10b467559b33c5d3ca61b315e50cb1ceade9d
+source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 12%
+source-wordcount: '469'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 12%
 **Canale** applicazione Un canale applicazione mostra un&#39;applicazione creata da uno sviluppatore che visualizza il contenuto interattivo.
 
 **Ciclo di attrazione** Un ciclo di attrazione è definito come *stato iniziale* o *inattivo* quando il display ha due o più stati in cui può esistere. Il suo ruolo è quello di *attirare* i clienti sul display e incoraggiarli a interagire, solitamente toccando lo schermo ma anche interagendo con un prodotto.
+
+**DayParting** DayParting fa riferimento alla suddivisione di un giorno in slot per l&#39;ora e specifica quale contenuto viene riprodotto al momento desiderato.  AEM Screens consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese, a seconda dei requisiti.
 
 **Dispositivo** Un dispositivo è in grado di eseguire il software del lettore per produrre un output visivo. È in grado di controllare la visualizzazione di una parte ritagliata, ridimensionata e convertita di contenuti o esperienze comuni. La configurazione dello schermo è associata a uno schermo, ma può essere sostituita in caso di guasto tecnico.
 
@@ -30,7 +32,7 @@ ht-degree: 12%
 
 **Software** Player Il lettore è l&#39;applicazione software in esecuzione su un dispositivo che consente di mostrare un canale su un display.
 
-**Schermo** Uno schermo è un monitor fisico o qualsiasi altro sistema in grado di produrre un output visivo che mostra il contenuto proveniente dal suo dispositivo.
+**Schermo** Uno schermo è un monitor fisico o qualsiasi altro sistema in grado di produrre output visivo che mostra il contenuto proveniente dal suo dispositivo.
 
 **Canale** sequenza Un canale sequenza è una pagina che può essere creata contenente componenti che verranno visualizzati uno alla volta in una presentazione.
 
