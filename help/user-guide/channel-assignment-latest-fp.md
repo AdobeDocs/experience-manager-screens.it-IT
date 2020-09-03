@@ -1,12 +1,12 @@
 ---
 title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
-description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
+description: Segui questa pagina per saperne di più sull'assegnazione dei canali e la suddivisione dei giorni.
 translation-type: tm+mt
-source-git-commit: 4ce9bd954a30282d94e30a6868d269b4df0a0f5e
+source-git-commit: 87dac70f6cf349d8c67f153b813d605f4da378d1
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 22%
+source-wordcount: '1472'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 
 Una volta configurato uno schermo, è necessario assegnare un canale a uno schermo per visualizzare il contenuto.
 
-Questa pagina mostra l’assegnazione di un canale al display, le proprietà del canale e la suddivisione del giorno.
+Questa pagina mostra l’assegnazione di un canale al display, le proprietà del canale e DayParting.
 
 >[!NOTE]
 >Potete assegnare più canali a uno schermo.
@@ -108,13 +108,11 @@ Per passare alla visualizzazione timeline, effettuate le seguenti operazioni:
 
 1. Tap/click **Assign Channel** from the action bar.
 
-   ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
-
    Oppure,
 
    Toccate/fate clic su **Dashboard** e fate clic su **Timeline** dal pannello CANALI e PIANIFICAZIONI **ASSEGNATI** .
 
-1. Immagini in sospeso (da risolvere)
+   ![immagine](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Informazioni sulle proprietà del canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
 
@@ -182,7 +180,7 @@ La pianificazione ricorrenza consente di impostare una pianificazione periodica 
 
 >[!NOTE]
 >Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
->Recurrence Schedules introduces *day-parting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 
 Potete impostare le seguenti opzioni:
 
@@ -193,15 +191,15 @@ Potete impostare le seguenti opzioni:
    * **Ora**: La pianificazione termina a un&#39;ora specificata.
    * **Durata**: La pianificazione viene eseguita per una particolare durata in ore o minuti.
 
-### Separazione giornaliera {#dayparting}
+### DayParting {#dayparting}
 
-La suddivisione per giorno si riferisce alla suddivisione di un giorno in orari fissi e alla specifica del contenuto riprodotto al momento desiderato.  AEM Screens consente di pianificare i canali in termini di suddivisione del giorno entro un giorno, una settimana o un mese, in base alle esigenze.
+DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese, a seconda dei requisiti.
 
-Gli esempi seguenti spiegano la suddivisione giornaliera nei canali in tre scenari diversi:
+Gli esempi seguenti spiegano DayParting nei canali in tre scenari diversi:
 
 #### Riproduzione di contenuto su un singolo giorno suddiviso in più fasce orarie {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Questo esempio mostra come un ristorante utilizza la funzione day-parting per presentare ogni giorno la sua colazione, pranzo e cena.
+Questo esempio mostra come un ristorante utilizza DayParting per mostrare la sua colazione, pranzo e cena menu ogni giorno.
 
 In questo caso, ogni giorno verrà suddiviso in diversi orari, in modo che il contenuto dei canali venga riprodotto in base all&#39;ora specificata del giorno. Impostate le seguenti proprietà della Pianificazione ricorrenza per il canale per riprodurre il contenuto come da questo caso d’uso.
 
@@ -213,7 +211,7 @@ In questo caso, ogni giorno verrà suddiviso in diversi orari, in modo che il co
 
 #### Riproduzione di contenuto in un particolare giorno della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra la suddivisione del giorno implementata in un casinò dove l&#39;evento live si verifica ogni fine settimana dalle 8:00 alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 fino alle 1:00.
+Questo esempio mostra la DayParting implementata in un casinò dove l&#39;evento live si verifica ogni weekend dalle 8:00 pm alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 pm fino alle 1:00 am.
 
 | **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
 |---|---|---|---|
