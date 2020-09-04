@@ -1,22 +1,22 @@
 ---
-title: Domande frequenti su AEM Screens
-seo-title: Domande frequenti su AEM Screens
-description: Segui questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens.
-seo-description: Segui questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens.
+title: ' Domande frequenti su AEM Screens'
+seo-title: ' Domande frequenti su AEM Screens'
+description: Seguite questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens .
+seo-description: Seguite questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens .
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: c615481f606a369fb9d4bafde74cbf00458f05fa
+source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1294'
 ht-degree: 2%
 
 ---
 
 
-# Domande frequenti su AEM Screens {#aem-screens-faqs}
+#  Domande frequenti su AEM Screens {#aem-screens-faqs}
 
-La sezione seguente contiene le risposte alle domande frequenti più frequenti relative a un progetto AEM Screens.
+La sezione seguente contiene le risposte alle domande frequenti più frequenti relative a un progetto AEM Screens .
 
 ## Gestione del canale {#channel-management}
 
@@ -51,21 +51,21 @@ E così via, finché non raggiungete la cartella delle posizioni e vi fermate al
 
 Attualmente la registrazione è possibile solo nell’istanza di creazione. Anche se il servizio di registrazione non è autenticato, creerà solo un dispositivo in sospeso in AEM e non registrerà il dispositivo né assegnerà alcun display.
 
-Per registrare un dispositivo (ovvero creare un utente per il dispositivo in AEM), dovete comunque autenticare AEM e al momento seguire manualmente la procedura guidata di registrazione per completare la registrazione. In teoria, un utente malintenzionato può creare diversi dispositivi in sospeso, ma non può registrarne alcuno senza un accesso AEM.
+Per registrare un dispositivo (ovvero creare un utente per il dispositivo in AEM), dovete comunque effettuare l&#39;autenticazione per AEM e al momento seguire manualmente la procedura guidata di registrazione per completare la registrazione. In teoria, un utente malintenzionato può creare diversi dispositivi in sospeso, ma non può registrarne alcuno senza un login AEM.
 
-### 2. Esiste un modo per trasformare le richieste HTTP GET in HTTP POST con una qualche forma di autenticazione? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### 2. Esiste un modo per trasformare le richieste HTTP in POST HTTP con una qualche forma di autenticazione? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
-La richiesta di registrazione è una richiesta POST.
+La richiesta di registrazione è una richiesta di POST.
 
-Si consiglia di ottenere l’ID dispositivo dalla sessione anziché passarlo come parametro. In questo modo si puliscono i registri del server, la cache del browser e così via. Attualmente non si tratta di un problema di sicurezza. Tenete presente che GET semanticamente viene utilizzato quando non vi è alcuna modifica dello stato sul server e POST viene utilizzato quando si verifica una modifica dello stato.
+Si consiglia di ottenere l’ID dispositivo dalla sessione anziché passarlo come parametro. In questo modo si puliscono i registri del server, la cache del browser e così via. Attualmente non si tratta di un problema di sicurezza. Tenere presente che la GET semanticamente viene utilizzata quando non si verificano modifiche dello stato sul server e che viene utilizzato POST in caso di modifiche dello stato.
 
 ### 3. Esiste un modo per rifiutare una richiesta di registrazione del dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Non potete rifiutare le richieste di registrazione. Al contrario, le richieste di registrazione dovrebbero scadere dopo un timeout configurato nella console [Web di](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl)Adobe Experience Manager. Per impostazione predefinita, questo valore è impostato su un giorno e viene memorizzato in una cache della memoria.
+Non potete rifiutare le richieste di registrazione. Al contrario, le richieste di registrazione dovrebbero scadere dopo un timeout configurato in [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Per impostazione predefinita, questo valore è impostato su un giorno e viene memorizzato in una cache della memoria.
 
 ## Monitoraggio dei dispositivi e rapporti sullo stato {#device-monitoring-and-health-reports}
 
-### 1. Come si risolve il problema se il lettore AEM Screens mostra uno schermo vuoto? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
+### 1. Come si risolve il problema se il lettore AEM Screens  mostra lo schermo vuoto? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
 Per risolvere il problema dello schermo vuoto, verificare le seguenti possibilità:
 
@@ -73,29 +73,29 @@ Per risolvere il problema dello schermo vuoto, verificare le seguenti possibilit
 * Il canale non ha contenuto
 * Nessuna delle risorse è pianificata per essere visualizzata al momento.
 
-### 2. Cosa posso fare se il lettore AEM Screens non riesce a registrarsi e il suo stato viene visualizzato come Errore? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
+### 2. Cosa posso fare se  lettore AEM Screens non riesce a registrarsi e il suo stato viene visualizzato come Errore? {#what-do-i-do-if-aem-screens-player-cannot-register-and-its-state-is-displayed-as-failure}
 
-È necessario abilitare il filtro Apache Sling Referrer Filter Allow Empty. Questo è richiesto per il funzionamento ottimale del protocollo di controllo tra AEM Screens Player e il server AEM Screens.
+È necessario abilitare il filtro Apache Sling Referrer Filter Allow Empty. Questo è richiesto per il funzionamento ottimale del protocollo di controllo tra  AEM Screens Player e  server AEM Screens.
 
 1. Passa alla configurazione della console Web di **Adobe Experience Manager**
 1. Selezionare l&#39;opzione **allow.empty** .
 1. Fai clic su **Salva**.
 
-### 3. Come risolvere il problema se durante la registrazione di un lettore di AEM Screens, il dispositivo mostra FAILURE e i registri di console visualizzano l&#39;errore ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
+### 3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens , il dispositivo mostra FAILURE e i registri della console visualizzano l&#39;errore ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
 
-Questo problema può verificarsi se il lettore non è in grado di trovare il DNS del server AEM Screens. È possibile provare a utilizzare l&#39;indirizzo IP per la connessione. Per ottenere l’IP del server, utilizzate: *arp &lt;server_dns_name>*.
+Questo problema può verificarsi se il lettore non è in grado di trovare il DNS  AEM Screens Server. È possibile provare a utilizzare l&#39;indirizzo IP per la connessione. Per ottenere l’IP del server, utilizzate: *arp &lt;server_dns_name>*.
 
 ### 4. AMS consiglia di implementare un Android Watchdog su tutti i dispositivi? Il plugin Watchdog (Cordova) è incluso come parte del APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
 Un cane da guardia Android multipiattaforma che utilizza API Android pure è già una parte dell&#39;apk. Non è necessario alcun software aggiuntivo, ma a seconda del dispositivo utilizzato, potrebbe essere necessario ridimensionare l&#39;apk per ottenere privilegi di sistema per un ciclo di alimentazione completo (Powermanager api). Se non viene rassegnato utilizzando i tasti del produttore, si chiude e si riavvia l&#39;applicazione ma non il ciclo di alimentazione.
 
-Per ulteriori informazioni su come implementare Android Player, consultate [**Implementazione di Android Player **](implementing-android-player.md).
+Per ulteriori informazioni su come implementare Android Player, consultate [**Implementazione di Android Player**](implementing-android-player.md).
 
-### 5. Quali strumenti di monitoraggio remoto e di allarme (software) di terze parti sono consigliati da Adobe/AMS per il monitoraggio di ciascun dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
+### 5. Quali strumenti di monitoraggio remoto di terze parti (software)  Adobe/AMS consiglia di monitorare ciascun dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
-A seconda delle esigenze in termini di monitoraggio e avvisi, un nuovo servizio di notifica delle schermate AEM segnala se un dispositivo non ha eseguito il ping tra un po&#39;. Gli strumenti di terze parti dipenderanno dal sistema operativo in uso, dalle sue funzionalità e dalle esigenze specifiche del cliente.
+A seconda delle esigenze di monitoraggio e avvisi, una nuova funzione  servizio di notifica AEM Screens notifica all&#39;utente se un dispositivo non ha eseguito il ping nel tempo. Gli strumenti di terze parti dipenderanno dal sistema operativo in uso, dalle sue funzionalità e dalle esigenze specifiche del cliente.
 
-Per ulteriori informazioni sulle aree in cui è possibile monitorare l&#39;attività dei dispositivi, consultate il servizio [**di notifica **](screens-notifications-service.md)AEM Screens.
+Per ulteriori informazioni su dove è possibile monitorare l&#39;attività del dispositivo, fare riferimento a [**AEM Screens Notifications Service**](screens-notifications-service.md).
 
 ## Lettore AEM Screens {#aem-screens-player}
 
@@ -108,13 +108,13 @@ Il lettore ChromeOS può essere installato come il plugin Chrome Browser in moda
 1. Aprite il browser Chrome e selezionate **Estensioni** dal menu oppure passate direttamente a ***chrome://extensions***.
 1. Attivate la modalità **** Sviluppatore dall&#39;angolo in alto a destra.
 1. Fare clic su **Carica non imballato** dall&#39;angolo in alto a sinistra e caricare Chrome Player decompresso.
-1. Se disponibile nell&#39;elenco delle estensioni, controllate il plug-in **AEM Screens Chrome Player** .
+1. Controllare **plugin AEM Screens Chrome Player** se è disponibile nell&#39;elenco delle estensioni.
 1. Aprite una nuova scheda e fate clic sull&#39;icona **App** dall&#39;angolo in alto a sinistra oppure passate direttamente a ***chrome://apps***.
 1. Fate clic su **AEM Screens** Plugin per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **esc** per uscire dalla modalità a schermo intero.
 
 ### 2. Come risolvere il problema se il lettore Screens non è in grado di eseguire l&#39;autenticazione tramite l&#39;istanza di pubblicazione con un gestore di errori personalizzato? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Quando viene avviato il lettore AEM Screens, invia una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per l’autenticazione rispetto all’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo all’indirizzo ***/content/screens/svc.ping.json***.
+Quando  lettore AEM Screens viene avviato, effettua una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per l’autenticazione rispetto all’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo all’indirizzo ***/content/screens/svc.ping.json***.
 
 ### 3. Come impostare lo schermo del dispositivo su un lettore Android? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -124,6 +124,10 @@ Seguite i passaggi indicati di seguito per attivare Stay Awake su qualsiasi lett
 1. Toccate 7 volte il numero di build per abilitare le opzioni **per** sviluppatori in **Impostazioni**
 1. Vai a Opzioni **sviluppatore**
 1. Abilita **veglia**
+
+### 4. Come attivare la modalità finestra per il lettore Windows?
+
+Nessuna modalità finestra nel lettore Windows. È sempre la modalità a schermo intero.
 
 ## Suggerimenti generali per la risoluzione dei problemi {#general-troubleshooting-tips}
 
@@ -139,7 +143,7 @@ Per disattivare Livefyre per evitare errori di registro:
 
 1. ***Disattiva polling Livefyre:***
 
-   * In CRXDE Lite, passa a `/etc/importers/polling/livefyre-poller/jcr:content`
+   * In CRXDE Lite , andate a `/etc/importers/polling/livefyre-poller/jcr:content`
    * Aggiungere una nuova proprietà *abilitata* tipo *booleano*
    * Imposta proprietà **** enabled su **false**
 
