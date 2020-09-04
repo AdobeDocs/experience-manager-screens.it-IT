@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 1%
@@ -34,7 +34,8 @@ Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 
 ### Impostazione dell&#39;ambiente per  AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
-È necessario configurare un ambiente per Windows Player se si utilizza  AEM Screens 6.5.5 Service Pack.
+>[!NOTE]
+>È necessario configurare un ambiente per Windows Player se si utilizza  AEM Screens 6.5.5 Service Pack.
 
 Impostate l’attributo **SameSite per i cookie** del token di login da **Lax** a **None** da **Adobe Experience Manager Web ConsoleConfiguration** su tutte AEM istanze di creazione e pubblicazione.
 
