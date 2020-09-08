@@ -3,9 +3,9 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: 78ddd2b45f39d69b66f740910327eef475bcdcac
+source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ Questa sezione rappresenta un punto di partenza per  AEM Screens e illustra come
 >[!NOTE]
 >Prima di iniziare a lavorare sui dettagli del progetto, accertatevi di aver installato il Feature Pack più recente. È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.5 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software utilizzando l&#39;Adobe ID .
 
-## Creazione di un&#39;esperienza di digital signage in 5 minuti {#creating-a-digital-signage-experience-in-minutes}
+## Prerequisiti {#prerequisites}
 
 Seguite i passaggi riportati di seguito per creare un progetto di esempio per  AEM Screens e pubblicare ulteriormente il contenuto per il lettore Screens.
 
@@ -48,7 +48,7 @@ Seguite i passaggi riportati di seguito per creare un progetto di esempio per  A
 1. Fate clic su **Salva** per attivare l&#39;opzione Consenti valori nulli per il filtro Apache Sling Referrer.
 
 
-## Esercitazione {#tutorial}
+## Creazione di un&#39;esperienza di digital signage in 5 minuti {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creating an AEM Screens Project {#creating-project}
 
@@ -134,11 +134,19 @@ Dopo aver creato un percorso, è necessario creare una nuova visualizzazione per
 
 1. Fai clic su **Crea** nella barra delle azioni.
 
+   ![immagine](assets/kickstart/demo-disp1.png)
+
 1. Select **Display** from the **Create** wizard and click **Next**.
+
+   ![immagine](assets/kickstart/demo-disp2.png)
 
 1. Enter the **Title** as **LobbyDisplay** and click **Create**.
 
+   ![immagine](assets/kickstart/demo-disp3.png)
+
 Una nuova visualizzazione con titolo **TestDisplay** ora viene aggiunta alla posizione **TestLocation**, come illustrato nella figura seguente.
+
+![immagine](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
