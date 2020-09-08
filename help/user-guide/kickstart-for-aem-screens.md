@@ -3,9 +3,9 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
+source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1316'
 ht-degree: 5%
 
 ---
@@ -205,22 +205,51 @@ Una volta che il lettore ChromeOS è attivato, seguire i passaggi indicati di se
 
 1. Tap/click the **Device Manager** from the action bar.
 
+   ![immagine](assets/kickstart/demo-register1.png)
+
 1. Toccate/fate clic su Registrazione **** dispositivo in alto a destra.
 
 1. Seleziona il dispositivo richiesto e tocca o fai clic su **Registra dispositivo**.
 
+   ![immagine](assets/kickstart/demo-register2.png)
+
 1. Attendi che il dispositivo invii il suo codice di registrazione e contemporaneamente, controlla il Codice **di** registrazione dal tuo dispositivo Chrome.
+   ![immagine](assets/kickstart/demo-register3.png)
 
 1. Se il codice **di** registrazione è lo stesso su entrambi i computer, toccate o fate clic su **Convalida** in AEM.
 
-1. Impostate il nome desiderato per il dispositivo e fate clic su **Registra**.
+1. Impostate il nome desiderato come **ChromeDevice forDemo** per il dispositivo, quindi fate clic su **Register (Registra)**.
+
+   ![immagine](assets/kickstart/demo-register4.png)
+
+1. Fare clic su **Assegna visualizzazione** dalla finestra di dialogo Registrazione **dispositivo completata** .
+
+   ![immagine](assets/kickstart/demo-register5.png)
+
+1. Selezionare il percorso del display come **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay** e fare clic su **Assign**.
+
+   ![immagine](assets/kickstart/demo-device6.png)
+
+1. Una volta che il dispositivo è stato assegnato correttamente, verrà visualizzata la seguente conferma.
+
+   ![immagine](assets/kickstart/demo-register8.png)
 
 1. Tap/click **Finish** to complete the registration process.
 
+1. Dovrebbe essere possibile visualizzare il dispositivo registrato dal dashboard di visualizzazione.
+
+   ![immagine](assets/kickstart/demo-register9.png)
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
-Questo esempio mostra l&#39;output su un lettore Chrome. Dopo aver assegnato il canale al display, è necessario registrare il dispositivo su un lettore.
+Tutte le risorse del canale ora vengono riprodotte sul dispositivo Chrome.
+
+Congratulazioni! Ora stai riproducendo contenuti  canale AEM Screens!
+
+![immagine](assets/kickstart/demo-video-screens.gif)
+
+
+
 
 
 
