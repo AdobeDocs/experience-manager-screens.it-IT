@@ -3,10 +3,10 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: f2fef18cc73825b3f062a79c560097e8fd00ac9f
+source-git-commit: 78aab8e8ad8ad9e3a3caf20fef044f507b5298a0
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 7%
+source-wordcount: '985'
+ht-degree: 6%
 
 ---
 
@@ -50,7 +50,7 @@ Seguite i passaggi riportati di seguito per creare un progetto di esempio per  A
 
 ## Esercitazione {#tutorial}
 
-### Creating a new AEM Screens Project {#creating-project}
+### Creating an AEM Screens Project {#creating-project}
 
 Il primo passaggio consiste nella creazione di un nuovo progetto AEM Screens .
 
@@ -64,7 +64,7 @@ Il primo passaggio consiste nella creazione di un nuovo progetto AEM Screens .
    >Dopo aver creato il progetto, tornerai alla home page del progetto Screens. Ora puoi selezionare il progetto. In un progetto, esistono cinque diverse cartelle denominate **Applicazioni**, **Canali**, **Dispositivi**, **Posizioni** e **Pianificazioni**.
 
 
-### Creazione di un nuovo canale {#creating-channel}
+### Creazione di un canale {#creating-channel}
 
 Una volta installato il progetto, è necessario creare un nuovo canale in cui gestire il contenuto.
 
@@ -91,73 +91,62 @@ Una volta installato il canale, è necessario aggiungere al canale il contenuto 
 
 Per aggiungere contenuti al canale (*TestChannel*) del progetto, effettuate le seguenti operazioni:
 
-1. Navigate to the *Test_Project* you created and select the **Channels** folder.
+1. Navigate to the *DemoProject* you created and select the **Channels** folder.
 
 1. Click **Edit** from the action bar (see the figure below). The editor for the *TestChannel* opens.
+
+   ![immagine](assets/kickstart/demo-6.png)
 
 1. Fai clic sull’icona che apre o chiude il pannello laterale sinistro della barra delle azioni per aprire le risorse e i componenti.
 
 1. Trascina i componenti da aggiungere al canale.
 
-   ![chlimage_1-8](assets/chlimage_1-8.png)
+   ![immagine](assets/kickstart/demo-7.png)
 
-In questo esempio, l’editor mostra un’immagine aggiunta al canale.
+### Creazione di una posizione{#creating-location} 
 
-![chlimage_1-9](assets/chlimage_1-9.png)
+Una volta installato il canale, è necessario creare una posizione.
 
-### Crea una nuova posizione {#creating-location}
-
-Una volta installato il canale, è necessario creare la posizione.
-
-***Le posizioni*** consentono di compartimentare le diverse esperienze di digital signage e contengono le configurazioni dei display in base a dove si trovano i vari schermi.
+>[!NOTE]
+>***Le posizioni*** consentono di compartimentare le diverse esperienze di digital signage e contengono le configurazioni dei display in base a dove si trovano i vari schermi.
 
 Per creare una nuova posizione per il progetto, effettuate le seguenti operazioni:
 
-1. Navigate to the *Test_Project* you created and select the **Locations** folder.
+1. Navigate to the *DemoProject* you created and select the **Locations** folder.
 
-1. Fate clic su **Crea** accanto all&#39;icona più nella barra delle azioni (vedere la figura sotto). Si apre una procedura guidata.
+1. Click **+ Create** from the action bar.
+
 1. Select **Location** from the wizard and click **Next**.
 
-1. Enter the **Name** and **Title** for your location (enter the title as *TestLocation*) and click **Create**.
-
-   ![chlimage_1-10](assets/chlimage_1-10.png)
+1. Enter the **Name** for your location (enter the title as *TestLocation*) and click **Create**.
 
 Il *TestLocation* viene creato e aggiunto alla cartella **Locations** .
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
-### Creazione di una nuova visualizzazione per TestLocation {#creating-display}
+### Creazione di un display per la posizione {#creating-display}
 
 Dopo aver creato un percorso, è necessario creare una nuova visualizzazione per il percorso.
 
-***I display*** rappresentano l&#39;esperienza digitale che viene eseguita su uno o più schermi.
+>[!NOTE]
+>***I display*** rappresentano l&#39;esperienza digitale che viene eseguita su uno o più schermi.
 
-1. Andate alla posizione in cui desiderate creare la visualizzazione (*Test_* Project —> **Locations** —> *TestLocation)* come illustrato nella figura precedente e selezionate *TestLocation*.
+1. Andate a **TestLocation** e selezionatelo.
 
 1. Fai clic su **Crea** nella barra delle azioni.
+
 1. Select **Display** from the **Create** wizard and click **Next**.
 
-1. Immettete **Nome** e **Titolo** per la posizione di visualizzazione (immettete il titolo come *TestDisplay*).
+1. Inserite il **Titolo** (*LobbyDisplay*).
 
-1. Under the **Display** tab, choose the details of the Layout.
-
-   1. Choose the **Resolution** as **Full HD**.
-
-   1. Choose the **Number of Devices Horizontally** as 1.
-
-   1. Choose the **Number of Devices Vertically** as 1.
-
-   1. Fai clic su **Crea**.
+1. Fai clic su **Crea**.
 
 Nella posizione in cui si trova, viene aggiunto un nuovo display (*TestDisplay*) **, come illustrato nella figura riportata di seguito.
 
-![chlimage_1-12](assets/chlimage_1-12.png)
-
-### Assegnazione di un canale {#assigning-channel}
+### Assigning a Channel {#assigning-channel}
 
 1. Navigate to the display from *Test_Project* --> **Locations** --> *TestLocation* --> *TestDisplay*.
 
-1. Select *TestDisplay* and tap/click **Assign Channel **from the action bar, *Or*,
+1. Select *TestDisplay* and tap/click **Assign Channel** from the action bar, *Or*,
 
 1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS &amp; SCHEDULES** panel, as shown in the figure below. **Viene visualizzata la finestra di dialogo Assegnazione** canale.
 
@@ -177,7 +166,7 @@ Nella posizione in cui si trova, viene aggiunto un nuovo display (*TestDisplay*)
 
 Il canale viene creato e aggiunto al pannello.
 
-![chlimage_1-15](assets/chlimage_1-15.png)
+
 
 ### Registrazione di un dispositivo {#registering-device}
 
@@ -192,6 +181,6 @@ Il canale viene creato e aggiunto al pannello.
 
 Una volta aggiunte le configurazioni di cui sopra, il lettore deve mostrare automaticamente il canale predefinito per il display sul dispositivo.
 
-![chlimage_1-23](assets/chlimage_1-23.png)
+
 
 Per informazioni dettagliate su  lettore AEM Screens, vedere [AEM Screens Player](working-with-screens-player.md) .
