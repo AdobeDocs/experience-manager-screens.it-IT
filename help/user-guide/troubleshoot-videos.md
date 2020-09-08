@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 8a2ed4e0a27175d43abfadda63232c3577d5387b
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,8 @@ Se il componente video non è configurato correttamente, controllate l’elenco 
 
 1. Selezionate il video e aprite la finestra di dialogo **Modifica** . Open the **Profiles** tab.
 
-   >[!NOTA
+   >[!NOTE]
    >Selezionare profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
-
 
 ### Controllo del video nel lettore Web {#checking-the-video-in-the-web-player}
 
