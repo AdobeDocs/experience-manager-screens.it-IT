@@ -3,9 +3,9 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: 6f95322e35861ef4b552c89320847d97f9644a4b
+source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1317'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,9 @@ Per creare un nuovo canale per il progetto, effettuate le seguenti operazioni:
 
    ![immagine](assets/kickstart/demo-4.png)
 
-Il *TestChannel* viene creato e aggiunto alla cartella dei canali, come illustrato nella figura riportata di seguito.
+   Il *TestChannel* viene creato e aggiunto alla cartella dei canali, come illustrato nella figura riportata di seguito.
 
-![immagine](assets/kickstart/demo-5.png)
+   ![immagine](assets/kickstart/demo-5.png)
 
 ### Adding Content to a Channel {#adding-content}
 
@@ -144,9 +144,9 @@ Dopo aver creato un percorso, è necessario creare una nuova visualizzazione per
 
    ![immagine](assets/kickstart/demo-disp3.png)
 
-Una nuova visualizzazione con titolo **TestDisplay** ora viene aggiunta alla posizione **TestLocation**, come illustrato nella figura seguente.
+   Una nuova visualizzazione con titolo **TestDisplay** ora viene aggiunta alla posizione **TestLocation**, come illustrato nella figura seguente.
 
-![immagine](assets/kickstart/demo-disp4.png)
+   ![immagine](assets/kickstart/demo-disp4.png)
 
 ### Assigning a Channel {#assigning-channel}
 
@@ -182,7 +182,7 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 
 1. Dopo aver configurato le preferenze, fate clic su **Salva** .
 
-### Registrazione di un dispositivo e assegnazione di un dispositivo a uno schermo{#registering-device}
+### Registrazione di un dispositivo e assegnazione di un dispositivo a uno schermo {#registering-device}
 
 È necessario registrare il dispositivo utilizzando il dashboard di AEM.
 
@@ -244,7 +244,7 @@ Una volta che il lettore ChromeOS è attivato, seguire i passaggi indicati di se
 
 Tutte le risorse del canale ora vengono riprodotte sul dispositivo Chrome.
 
-Congratulazioni! Ora stai riproducendo contenuti  canale AEM Screens!
+Congratulazioni! State ora riproducendo il contenuto in un canale AEM Screens !
 
 ![immagine](assets/kickstart/demo-video-screens.gif)
 
