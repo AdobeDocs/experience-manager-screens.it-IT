@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 65ecc6f1-ba0e-443f-85a1-ac19f9a52c2c
 translation-type: tm+mt
-source-git-commit: 6abe309a8beb264f1505b6f39d786acc035bad05
+source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Le sezioni seguenti descrivono come eseguire il debug e risolvere i problemi rel
 
 ## Rappresentazioni DAM {#dam-renditions}
 
-Una volta caricato il video sul canale, AEM dovrebbe iniziare a creare alcune rappresentazioni per esso. Puoi visualizzare i video sotto Risorse.
+Una volta caricato il video sul canale, AEM iniziare a creare alcune rappresentazioni per esso. I video possono essere visualizzati in Risorse.
 
 Per visualizzare il video:
 
@@ -32,11 +35,11 @@ Per visualizzare il video:
 
 Devono essere presenti diverse rappresentazioni (MP4 o M4V).
 
-Se non è presente una rappresentazione, accertatevi che nel sistema operativo in cui è in esecuzione AEM sia installato ffmpeg.
+Se non è presente una rappresentazione, accertatevi che ffmpeg sia installato nel sistema operativo in cui AEM in esecuzione.
 
 >[!CAUTION]
 >
->Se non è presente una rappresentazione, accertatevi che nel sistema operativo in cui è in esecuzione AEM sia installato ffmpeg.
+>Se non è presente una rappresentazione, accertatevi che ffmpeg sia installato nel sistema operativo in cui AEM in esecuzione.
 >
 >Fate clic [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
 
@@ -78,9 +81,9 @@ Se il componente video non è configurato correttamente, controllate l’elenco 
 
 1. Selezionate il video e aprite la finestra di dialogo **Modifica** . Open the **Profiles** tab.
 
-   Selezionare profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
+   >[!NOTA
+   >Selezionare profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
 
-   ![chlimage_1-7](assets/chlimage_1-7.png)
 
 ### Controllo del video nel lettore Web {#checking-the-video-in-the-web-player}
 
@@ -103,11 +106,11 @@ Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effe
 
 #### Risoluzione dei problemi relativi al contrassegno dei criteri di riproduzione automatica {#troubleshooting-autoplay-policy-flag}
 
-Se il lettore AEM Screens rileva il video ma non lo visualizza, è necessario risolvere il problema del flag Autoplay Policy.
+Se  lettore AEM Screens rileva il video ma non lo visualizza, è necessario risolvere il problema relativo al flag Autoplay Policy.
 
 Seguite i passaggi indicati di seguito per risolvere il problema relativo al flag di analisi automatica di Google:
 
-1. Andate a ***chrome://flags/#autoplay-policy ***
+1. Andate a ***chrome://flags/#autoplay-policy***
 1. Cambia il criterio **di** esecuzione automatica da **Predefinito** a **nessun gesto dell&#39;utente**
 
 1. Riavviate il browser Web e aggiornate il lettore
@@ -136,17 +139,16 @@ La strategia assoluta:
 
 Per impostare una strategia assoluta, effettuate le seguenti operazioni:
 
-1. Passate all’autore del canale e selezionate il componente della sequenza come illustrato nella figura riportata di seguito.
+1. Andate all’autore del canale e selezionate il componente della sequenza come mostrato nella figura seguente.
 1. Aprite la relativa finestra di dialogo di configurazione.
 1. Modificate la **strategia** e aggiungete valori assoluti.
 
-![chlimage_1-8](assets/chlimage_1-8.png)
+   ![chlimage_1-8](assets/chlimage_1-8.png)
 
->[!NOTE]
->
->Il sistema operativo dei giocatori deve avere lo stesso orologio.
+   >[!NOTE]
+   >Il sistema operativo dei giocatori deve avere lo stesso orologio.
 
-**Allineamento degli orologi su OS X** Seguire i passaggi seguenti per allineare gli orologi su OSX:
+**Allineamento degli orologi su OS X** Seguire i passaggi indicati di seguito per allineare gli orologi su OSX:
 
 1. Aprire le preferenze **Data e ora** in ciascuna casella OSX
 1. Controlla automaticamente data e ora **impostata**
