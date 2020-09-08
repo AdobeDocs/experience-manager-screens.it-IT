@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b06ebef5d22daed81e8705c0928501505fd3d297
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 59%
 
 ---
 
@@ -27,7 +30,7 @@ Questa pagina illustra la creazione e la gestione di visualizzazioni per le sche
 
 * [Configurazione e distribuzione di Screens](configuring-screens-introduction.md)
 * [Creare e gestire il progetto Screens](creating-a-screens-project.md)
-* [Creare e gestire canali](managing-channels.md)
+* [Creazione e gestione di canali](managing-channels.md)
 * [Creare e gestire le posizioni](managing-locations.md)
 
 ## Creazione di una nuova visualizzazione {#creating-a-new-display}
@@ -46,7 +49,7 @@ Per creare una nuova visualizzazione nella posizione, effettua le seguenti opera
 
 1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). Inoltre, potete scegliere il numero di dispositivi in orizzontale e verticale.
 
-1. Fai clic su **Crea**. 
+1. Fai clic su **Crea**.
 
 The display (*StoreDisplay*) is created and added to the location (*SanJose*).
 
@@ -110,33 +113,28 @@ La dashboard di visualizzazione fornisce diversi pannelli per la gestione di dis
 
 Il pannello **INFORMAZIONI SULLA VISUALIZZAZIONE** fornisce le proprietà di visualizzazione.
 
-Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
+Fai clic su **...** nell’angolo in alto a destra del pannello **INFORMAZIONI SULLA VISUALIZZAZIONE** per visualizzare le proprietà e vedere la visualizzazione in anteprima.
 
-![chlimage_1-10](assets/chlimage_1-10.png)
 
 #### Visualizzazione delle proprietà {#viewing-properties}
 
 Fai clic su **Proprietà** per visualizzare o modificare le proprietà della visualizzazione.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout **property under **Display** tab. Il valore predefinito è impostato su *300 secondi*.
+Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. Il valore predefinito è impostato su *300 secondi*.
 
 Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
-![chlimage_1-1](assets/chlimage_1-1.gif)
 
 ### Pannello Canali Assegnati {#assigned-channels-panel}
 
 Il pannello **CANALI ASSEGNATI** visualizza i canali assegnati a questo dispositivo.
 
-![chlimage_1-11](assets/chlimage_1-11.png)
 
 ### Pannello Dispositivi {#devices-panel}
 
 Il pannello **DISPOSITIVI** fornisce informazioni sulle configurazioni dispositivo.
 
-Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
-
-![chlimage_1-12](assets/chlimage_1-12.png)
+Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
 
 Inoltre, fare clic sulla configurazione del dispositivo per visualizzare le proprietà, assegnare un dispositivo o eliminarlo completamente.
 
