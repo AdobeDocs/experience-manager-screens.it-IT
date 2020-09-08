@@ -3,9 +3,9 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
+source-git-commit: c1a8317b835e000478591e4caa94b92f32a123d2
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1259'
 ht-degree: 5%
 
 ---
@@ -168,7 +168,8 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 
 1. Dall’opzione **Impostazioni** , scegliete il canale **per percorso** e gli eventi **** supportati come caricamento **** iniziale e **schermata** inattiva.
 
-   >[NOTA]
+   >[!NOTE]
+   >
    >Il ruolo **del** canale, la **priorità** e i metodi **di** interruzione sono tutti popolati per impostazione predefinita. Consulta la sezione Proprietà [](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
    ![immagine](assets/kickstart/demo-assign3.png)
