@@ -3,10 +3,10 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: 988872003c1d01c90ccdb38fa77c99019b9a6966
+source-git-commit: 63e828543a8543cc8ced678221369fe1e0431f60
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 6%
+source-wordcount: '1260'
+ht-degree: 5%
 
 ---
 
@@ -152,29 +152,70 @@ Una nuova visualizzazione con titolo **TestDisplay** ora viene aggiunta alla pos
 
 Una volta completata la configurazione del progetto, dovete assegnare il canale a uno schermo per visualizzare il contenuto.
 
-1. Navigate to the required display, for example, **DemoScreens** --> **Locations** --> **TestLocation** --> **LobbyDisplay**.
+1. Passare alla visualizzazione desiderata da **DemoScreens** —> **Locations** —> **TestLocation** —> **LobbyDisplay**.
 
 1. Tap/click **Assign Channel** from the action bar.
+
+   ![immagine](assets/kickstart/demo-assign1.png)
 
    Oppure,
 
    Toccate/fate clic su **Dashboard** nella barra delle azioni e fate clic su **+Assegna canale** dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
 
+   ![immagine](assets/kickstart/demo-assign2.png)
+
 1. The **Channel Assignment** dialog box opens.
 
-1. Dall’opzione **Impostazioni** , potete scegliere il canale **per percorso** o **per nome**, immettere il ruolo **del** canale, la **priorità**********, gli eventi supportati, i metodi di Interruzione, gli eventi supportati, i metodi di Interruzione. Inoltre, è possibile abilitare la descrizione comando di attrazione da questa finestra di dialogo.
+1. Dall’opzione **Impostazioni** , scegliete il canale **per percorso** e gli eventi **** supportati come caricamento **** iniziale e **schermata** inattiva.
 
+   >[NOTA]
+   >Il ruolo **del** canale, la **priorità** e i metodi **di** interruzione sono tutti popolati per impostazione predefinita. Consulta la sezione Proprietà [](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
+
+   ![immagine](assets/kickstart/demo-assign3.png)
+
+   Inoltre, puoi selezionare la finestra **** Attivazione e la programmazione **** ricorrenza.
 
    >[!NOTE]
-   >Fare riferimento alla sezione Proprietà [](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
-
-1. Dall&#39;opzione **Pianificazione** , selezionate la finestra **** Attivazione e la pianificazione **** ricorrenza.
+   >La programmazione ** ricorrenza consente di impostare una pianificazione periodica per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
+   >Per ulteriori dettagli, consulta [Pianificazione](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) ricorrenza.
 
 1. Dopo aver configurato le preferenze, fate clic su **Salva** .
 
-### Registrazione di un dispositivo {#registering-device}
+### Registrazione di un dispositivo e assegnazione di un dispositivo a uno schermo{#registering-device}
 
 È necessario registrare il dispositivo utilizzando il dashboard di AEM.
+
+>[!IMPORTANT]
+>Il lettore ChromeOS può essere installato come il plugin Chrome Browser in modalità sviluppatore senza richiedere un dispositivo effettivamente chrome player. Per l’installazione, effettuate le seguenti operazioni:
+>
+>1. Clicca [qui](https://download.macromedia.com/screens/) per scaricare la versione più recente di Chrome Player.
+>1. Decomprimete il file e salvatelo su disco.
+>1. Aprite il browser Chrome e selezionate **Estensioni** dal menu oppure passate direttamente a ***chrome://extensions***.
+>1. Attivate la modalità **** Sviluppatore dall&#39;angolo in alto a destra.
+>1. Fare clic su **Carica non imballato** dall&#39;angolo in alto a sinistra e caricare Chrome Player decompresso.
+>1. Controllare **plugin AEM Screens Chrome Player** se è disponibile nell&#39;elenco delle estensioni.
+>1. Aprite una nuova scheda e fate clic sull&#39;icona **App** dall&#39;angolo in alto a sinistra oppure passate direttamente a ***chrome://apps***.
+>1. Fate clic su **AEM Screens** Plugin per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **esc** per uscire dalla modalità a schermo intero.
+
+
+Una volta che il lettore ChromeOS è attivato, seguire i passaggi indicati di seguito per registrare un dispositivo Chrome.
+
+1. Andate alla cartella **Devices** del progetto dall&#39;istanza AEM.
+
+1. Tap/click the **Device Manager** from the action bar.
+
+1. Toccate/fate clic su Registrazione **** dispositivo in alto a destra.
+
+1. Seleziona il dispositivo richiesto e tocca o fai clic su **Registra dispositivo**.
+
+1. Attendi che il dispositivo invii il suo codice di registrazione e contemporaneamente, controlla il Codice **di** registrazione dal tuo dispositivo Chrome.
+
+1. Se il codice **di** registrazione è lo stesso su entrambi i computer, toccate o fate clic su **Convalida** in AEM.
+
+1. Impostate il nome desiderato per il dispositivo e fate clic su **Registra**.
+
+1. Tap/click **Finish** to complete the registration process.
+
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
