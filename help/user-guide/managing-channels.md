@@ -11,10 +11,10 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 45%
+source-wordcount: '1343'
+ht-degree: 43%
 
 ---
 
@@ -32,16 +32,25 @@ In questa pagina viene mostrata la creazione e la gestione dei canali per Screen
 
 ## Creazione di un nuovo canale {#creating-a-new-channel}
 
-Una volta creato il progetto per Screens, segui i passaggi descritti di seguito per creare un nuovo Canale per un progetto Screens:
+Dopo aver creato il progetto per  AEM Screens, segui i passaggi riportati di seguito per creare un nuovo canale per il progetto:
 
-1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. Alternatively, you can ﻿go directly to: `https://localhost:4502/screens.html/content/screens`.
-1. Accedi al progetto Screens e fai clic su **Canali**.
-1. Click **Create** next to the plus icon in the action bar. Si aprirà una procedura guidata (*Per ulteriori informazioni vedi Tipi di Canali*).
+1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi accedere direttamente a: `https://localhost:4502/screens.html/content/screens`.
 
-1. Select the template from the wizard and click **Next**.
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Andate al progetto Screens e selezionate la cartella **Channels (Canali** ).
 
-1. Fai clic su **Crea** e il canale verrà creato e aggiunto alla cartella dei canali.
+1. Fai clic su **Crea** nella barra delle azioni.
+
+   ![demochannel](assets/create-channel1.png)
+
+1. Selezionate il modello Canale **** sequenza dalla procedura guidata **Crea** e fate clic su **Avanti**.
+
+   ![demochannel](assets/create-channel2.png)
+
+1. Enter the Title as **ScreensChannel** and click **Create**.
+
+   ![demochannel](assets/create-project4.png)
+
+1. Nella cartella **Channels (Canali) viene ora aggiunto un canale di sequenza** .
 
 ### Tipi di canale {#channel-types}
 
@@ -62,14 +71,6 @@ Le seguenti opzioni di modello sono disponibili durante l&#39;uso della procedur
 >[!NOTE]
 >
 >I canali Dividi schermo suddividono la visualizzazione in più zone in modo da poter riprodurre più esperienze contemporaneamente, affiancate. Le esperienze possono essere risorse statiche/testo o sequenze incorporate.
-
-The following example shows the creation of a Sequence Channel (*ChannelOne*) for a Screens project (*DemoProject*).
-
-![demochannel](assets/demochannel.gif)
-
->[!NOTE]
->
->Puoi creare zone diverse utilizzando le opzioni modello, come gli schermi divisi 2x2, 1x2 o da 2 a 3 citati sopra.
 
 >[!IMPORTANT]
 >
