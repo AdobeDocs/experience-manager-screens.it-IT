@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2708464222321fd138c986f19d8572c71f1dae75
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +28,7 @@ In questa sezione viene illustrato un esempio di esempio che mette in evidenza l
 
 Prima di iniziare questo caso di utilizzo, accertatevi di comprendere come:
 
-* **[Creare e gestire canali](managing-channels.md)**
+* **[Creazione e gestione di canali](managing-channels.md)**
 * **[Creare e gestire le posizioni](managing-locations.md)**
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
@@ -34,15 +37,14 @@ Prima di iniziare questo caso di utilizzo, accertatevi di comprendere come:
 
 Autori contenuto
 
-## Flusso di base:Impostazione del progetto {#basic-flow-setting-up-the-project}
+## Flusso di base: Impostazione del progetto {#basic-flow-setting-up-the-project}
 
 Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
-1. Crea un progetto AEM Screens denominato **EmergencyChannel**, come illustrato di seguito.
+1. Create un progetto AEM Screens  denominato **EmergencyChannel**, come illustrato di seguito.
 
    >[!NOTE]
-   >
-   >Per ulteriori informazioni sulla creazione e la gestione di progetti in AEM Screens, consultate Creazione di un progetto.
+   >Per ulteriori informazioni sulla creazione e la gestione di progetti in  AEM Screens, vedere Creazione di un progetto.
 
    ![screen_shot_2019-02-21at35809pm](assets/screen_shot_2019-02-21at35809pm.png)
 
@@ -51,12 +53,14 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
    1. Selezionate la cartella **Canali** e fate clic su **Crea** per aprire la procedura guidata per creare un canale.
 
    1. Selezionate Canale **** sequenza dalla procedura guidata e create il canale denominato **MainAdChannel**.
+
    ![screen_shot_2019-02-21at35932pm](assets/screen_shot_2019-02-21at35932pm.png)
 
 1. **Aggiunta di contenuto al canale della sequenza**
 
    1. Selezionate il canale (**MainAdChannel**).
-   1. Fai clic su **Modifica** nella barra delle azioni per aprire l'editor. Trascinate alcune risorse sul canale.
+   1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor. Trascinate alcune risorse sul canale.
+
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Creazione di un canale di emergenza**
@@ -64,6 +68,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
    1. Selezionate la cartella **Canali** .
    1. Fate clic su **Crea** per aprire la procedura guidata per creare un canale.
    1. Selezionate Canale **** sequenza dalla procedura guidata e create il canale denominato **EmergencyChannel**.
+
    >[!NOTE]
    >
    >Normalmente, il canale di emergenza viene aggiunto al progetto di produzione preesistente.
@@ -73,13 +78,15 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 1. **Aggiunta di contenuto al canale di emergenza**
 
    1. Selezionate il canale (canale di **emergenza)**.
-   1. Fai clic su **Modifica** nella barra delle azioni per aprire l'editor. Trascina sul canale la risorsa da eseguire durante un’emergenza.
+   1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor. Trascina sul canale la risorsa da eseguire durante un’emergenza.
+
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
 1. **Creazione di una posizione** 
 
    1. Andate alla cartella **Locations (Posizioni)** .
    1. Fate clic su **Crea** dalla barra delle azioni e create un percorso denominato **Store** dalla procedura guidata.
+
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Creazione di display nella posizione**
@@ -92,6 +99,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
    1. Andate alla cartella **Pianificazioni** .
    1. Fai clic su **Crea** nella barra delle azioni. Seguite la procedura guidata per creare una pianificazione denominata **StoreSchedule**.
+
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Assegnare i display alla pianificazione e impostare le priorità
@@ -102,10 +110,11 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
    1. Dalla finestra di dialogo Assegnazione **** canale:
 
-      1. Selezionare il percorso del canale **MainAdChannel**
+      1. Select the path to the **MainAdChannel**
       1. Imposta **priorità** su 2
       1. Set the Supported Events as **Initial Load** and **Idle Screen**.
       1. Fai clic su **Salva**
+
       Allo stesso modo, dovrete seguire di nuovo gli stessi passaggi per assegnare il canale **EmergencyChannel** e impostarne la **priorità**.
    >[!NOTE]
    >
@@ -117,34 +126,36 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
 1. Dalla finestra di dialogo Assegnazione **** canale:
 
-   1. Seleziona il percorso per **EmergencyChannel**
+   1. Select the path to the **EmergencyChannel**
    1. Imposta **priorità** su 1
 
    1. Impostate gli eventi supportati come caricamento **** iniziale, **inattività dello schermo** e interazione **utente**
 
    1. Fai clic su **Salva**
+
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
-   Potete visualizzare i canali assegnati dal dashboard **StoreSchedule** .
+   È possibile visualizzare i canali assegnati dal dashboard **StoreSchedule** .
 
    ![screen_shot_2019-02-25at93658pm](assets/screen_shot_2019-02-25at93658pm.png)
 
 1. **Assegnazione di Schedule a ogni display**
 
-   1. Andate a ciascun display, ad esempio **EmergencyChannel** —&gt; **Locations** —&gt; **Store** —&gt;**StoreFront**.
+   1. Andate a ciascun display, ad esempio **EmergencyChannel** —> **Locations** —> **Store** —>**StoreFront**.
 
    1. Click **Dashboard** from the action to open the display dashboard.
-   1. **Fate clic**... dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** , fate clic su **+Assegna pianificazione**.
+   1. Fate clic **...** dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** , fate clic su **+Assegna pianificazione**.
 
-   1. Selezionare il percorso della programmazione (ad esempio, qui, **EmergencyChannel** —&gt; **Schedules** —&gt;**StoreSchedule**).
+   1. Selezionare il percorso della programmazione (ad esempio, qui, **EmergencyChannel** —> **Schedules** —>**StoreSchedule**).
 
    1. Fai clic su **Salva**.
+
    È possibile visualizzare la pianificazione assegnata alla visualizzazione dal dashboard **StoreSchedule** .
    ![screen_shot_2019-03-04at122003 pm](assets/screen_shot_2019-03-04at122003pm.png)
 
 1. **Registrazione dispositivo**
 
-   Completate il processo di registrazione del dispositivo e dopo la registrazione visualizzerete il seguente output sul lettore AEM Screens.
+   Completare il processo di registrazione del dispositivo e dopo aver effettuato la registrazione sarà visualizzato il seguente output sul lettore AEM Screens .
 
    ![new30](assets/new30.gif)
 
@@ -152,7 +163,7 @@ Per impostare un canale di emergenza, effettuate le seguenti operazioni:
 
 In caso di emergenza, effettuare le seguenti operazioni:
 
-1. Andate a **EmergencyChannel** —&gt; **Schedules** —&gt; **StoreSchedule** e selezionate **Dashboard** dalla barra delle azioni.
+1. Andate a **EmergencyChannel** —> **Schedules** —> **StoreSchedule** e selezionate **Dashboard** dalla barra delle azioni.
 
    ![screen_shot_2019-02-25at10112 pm](assets/screen_shot_2019-02-25at101112pm.png)
 
@@ -164,7 +175,7 @@ In caso di emergenza, effettuare le seguenti operazioni:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Non appena la priorità del canale viene aggiornata, tutto il lettore AEM Screens visualizzerà il contenuto **EmergencyChannel** , come mostrato di seguito.
+1. Non appena la priorità del canale viene aggiornata, tutto il lettore AEM Screens  visualizzerà il contenuto **EmergencyChannel** , come mostrato di seguito.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
