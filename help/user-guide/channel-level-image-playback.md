@@ -1,6 +1,6 @@
 ---
-title: Durata della riproduzione di massa delle immagini a livello di canale
-seo-title: Durata della riproduzione di massa delle immagini a livello di canale
+title: Durata della riproduzione di massa immagini a livello di canale
+seo-title: Durata della riproduzione di massa immagini a livello di canale
 description: Questa pagina descrive come modificare la durata di riproduzione di un componente immagine specifico.
 seo-description: Questa pagina descrive come modificare la durata di riproduzione di un componente immagine specifico.
 uuid: 4ebb00a9-b04d-4dfe-9fee-2348a2e2c142
@@ -11,40 +11,43 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 translation-type: tm+mt
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
 
-# Durata della riproduzione di massa delle immagini a livello di canale{#channel-level-bulk-image-playback-duration}
+# Durata della riproduzione di massa immagini a livello di canale {#channel-level-bulk-image-playback-duration}
 
 ## Panoramica {#overview}
 
-Dopo aver creato un canale di sequenza e aggiunto le immagini, per impostazione predefinita tutte le immagini assumeranno la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare il valore predefinito e avere una durata di riproduzione diversa, a tal fine è possibile modificare la durata di riproduzione del componente immagine specifico.
+Dopo aver creato un canale di sequenza e aggiunto le immagini, per impostazione predefinita tutte le immagini assumeranno la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa, a tal fine è possibile modificare la durata di riproduzione del componente immagine specifico.
 
 ### Prerequisiti {#prerequisites}
 
 Prima di iniziare ad implementare questa funzionalità, accertatevi di aver configurato un progetto come prerequisito per iniziare ad implementare questa funzionalità. Esempio,
 
-1. Creare un progetto AEM Screens (in questo esempio, **ChannelLevelPlayback**)
+1. Create un esempio di progetto AEM Screens , **ChannelLevelPlayback**.
 
-1. Creare un canale di sequenza come **PlaybackChannel** nella cartella **Channels**
+1. Crea un canale di sequenza come **PlaybackChannel** nella cartella **Channels (Canali** ).
 
-1. Aggiunta di contenuti a **PlaybackChannel**
+1. Aggiungere contenuto a **PlaybackChannel**.
 
-## Modifica dell'assegnazione durata riproduzione immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
+## Modifica dell&#39;assegnazione durata riproduzione immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
 
-La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un canale AEM Screens.
+La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un canale AEM Screens .
 
 ### Aggiornamento della durata di riproduzione per le immagini di un canale {#updating-the-playback-duration-for-images-in-a-channel}
 
-Per informazioni su come aggiornare l’assegnazione durata riproduzione immagine a livello di canale, effettuate le seguenti operazioni:
+Per informazioni su come aggiornare l’assegnazione durata di riproduzione delle immagini a livello di canale, effettuate le seguenti operazioni:
 
 1. Passare al canale della sequenza **PlaybackChannel**.
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Fai clic su **Modifica** nella barra delle azioni per aprire l'editor.
+1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -59,7 +62,6 @@ Per informazioni su come aggiornare l’assegnazione durata riproduzione immagin
 1. **Viene visualizzata la finestra di dialogo Pagina** .
 
    >[!NOTE]
-   >
    >Per impostazione predefinita, le immagini in un canale sono impostate su una durata di riproduzione di 8 secondi.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
