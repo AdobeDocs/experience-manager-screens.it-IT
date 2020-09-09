@@ -1,8 +1,8 @@
 ---
 title: Registrazione dispositivo
 seo-title: Registrazione dispositivo
-description: Questa pagina descrive il processo di registrazione del dispositivo in un progetto AEM Screens.
-seo-description: Questa pagina descrive il processo di registrazione del dispositivo in un progetto AEM Screens.
+description: Questa pagina descrive il processo di registrazione del dispositivo in un progetto AEM Screens .
+seo-description: Questa pagina descrive il processo di registrazione del dispositivo in un progetto AEM Screens .
 uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -11,14 +11,17 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
 
 # Registrazione dispositivo {#device-registration}
 
-La pagina seguente descrive il processo di registrazione del dispositivo in un progetto AEM Screens.
+La pagina seguente descrive il processo di registrazione del dispositivo in un progetto AEM Screens .
 
 ## Registrazione di un dispositivo {#registering-a-device}
 
@@ -29,18 +32,19 @@ Il processo di registrazione del dispositivo viene eseguito su due computer sepa
 
 >[!NOTE]
 >
->Dopo aver scaricato l’ultimo Windows Player (*.exe*), dalla pagina dei download [di](https://download.macromedia.com/screens/) AEM 6.4 Player, segui i passaggi del lettore per completare l’installazione ad hoc:
+>Una volta scaricata la versione più recente di Windows Player (*.exe*), dalla pagina dei download [di](https://download.macromedia.com/screens/) 6.4 Player, seguire i passaggi del lettore per completare l&#39;installazione ad hoc:
 >
 >1. Tenete premuto sull’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Andate a **Configurazione** dal menu delle azioni a sinistra e immettete l'indirizzo della posizione dell'istanza AEM in **Server** , quindi fate clic su **Salva**.
->1. Fai clic sul collegamento **Registrazione** dal menu delle azioni a sinistra e dai passaggi sottostanti per completare il processo di registrazione del dispositivo.
+>1. Andate a **Configurazione** dal menu delle azioni a sinistra e immettete l&#39;indirizzo della posizione dell&#39;istanza AEM in **Server** , quindi fate clic su **Salva**.
+>1. Fate clic sul collegamento **Registrazione** dal menu delle azioni a sinistra e seguite i passaggi per completare il processo di registrazione del dispositivo.
+
 >
 
 
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
-1. Sul dispositivo, avvia AEM Screens Player. Viene visualizzata l’interfaccia utente di registrazione.
+1. Sul dispositivo, avviate  AEM Screens Player. Viene visualizzata l’interfaccia utente di registrazione.
 
    ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
@@ -48,7 +52,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer sepa
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di un nuovo progetto per schermi nel dashboard di AEM, consulta [Creazione e gestione di schermi Progetto](creating-a-screens-project.md).
+   >Per ulteriori informazioni sulla creazione di un nuovo progetto per schermi nel dashboard di AEM, consulta Progetto [](creating-a-screens-project.md)Creazione e gestione di schermi.
 
 1. Toccate/fate clic sul pulsante **Gestione** dispositivi nella barra delle azioni.
 
@@ -70,7 +74,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer sepa
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se il codice **di** registrazione è lo stesso su entrambi i computer, tocca o fai clic sul pulsante **Convalida** in AEM, come illustrato nel passaggio (6).
+1. Se il codice **di** registrazione è lo stesso su entrambi i computer, toccate o fate clic sul pulsante **Convalida** in AEM, come illustrato nel passaggio (6).
 1. Impostate il nome desiderato per il dispositivo e fate clic su **Registra**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -83,9 +87,9 @@ Il processo di registrazione del dispositivo viene eseguito su due computer sepa
    >
    >La funzione **Registra nuovo** consente di registrare un nuovo dispositivo.
    >
-   >L'opzione **Assegna visualizzazione** consente di aggiungere direttamente il dispositivo a uno schermo.
+   >L&#39;opzione **Assegna visualizzazione** consente di aggiungere direttamente il dispositivo a uno schermo.
 
-   Se si fa clic su **Fine**, sarà necessario assegnare il dispositivo a un display.
+   Se si fa clic su **Fine**, sarà necessario assegnare il dispositivo a uno schermo.
 
    ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
 
@@ -95,7 +99,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer sepa
 
 ### Assegnazione del dispositivo a uno schermo {#assigning-device-to-a-display}
 
-Se il dispositivo non è stato assegnato a un display, segui i passaggi seguenti per assegnare il dispositivo a uno schermo nel progetto AEM Screens:
+Se il dispositivo non è stato assegnato a uno schermo, attenetevi alla procedura seguente per assegnare il dispositivo a uno schermo nel progetto AEM Screens :
 
 1. Selezionate il dispositivo e fate clic su **Assegna dispositivo** dalla barra delle azioni.
 
@@ -109,7 +113,7 @@ Se il dispositivo non è stato assegnato a un display, segui i passaggi seguenti
 
    ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Fare clic su **Fine** una volta che il dispositivo è stato assegnato correttamente, come illustrato nella figura seguente.
+1. Fare clic su **Fine** una volta che il dispositivo è stato assegnato correttamente, come illustrato nella figura riportata di seguito.
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
@@ -119,9 +123,9 @@ Se il dispositivo non è stato assegnato a un display, segui i passaggi seguenti
 
 ## Limitazioni per la registrazione del dispositivo {#limitations-on-device-registration}
 
-Limitazioni della password utente a livello di sistema potrebbero causare errori nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata in modo casuale per creare l'utente del dispositivo.
+Limitazioni della password utente a livello di sistema potrebbero causare un errore nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata in modo casuale per creare l&#39;utente del dispositivo.
 
-Se la password è limitata dalla configurazione *AuthorizableActionProvider* , la creazione dell'utente del dispositivo potrebbe non riuscire.
+Se la password è limitata dalla configurazione *AuthorizableActionProvider* , la creazione dell&#39;utente del dispositivo potrebbe non riuscire.
 
 >[!NOTE]
 >
@@ -135,6 +139,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Additional Resources {#additional-resources}
+### Risorse aggiuntive {#additional-resources}
 
-Per informazioni su AEM Screens Player, consulta [AEM Screens Player](working-with-screens-player.md).
+Per informazioni su  AEM Screens Player, vedere [AEM Screens Player](working-with-screens-player.md).
