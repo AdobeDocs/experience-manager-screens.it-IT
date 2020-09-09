@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Gli argomenti seguenti sono trattati in questa sezione:
 * Finestra di attivazione
 * Utilizzo dell&#39;attivazione a livello di canale come riproduzione di un singolo evento
 * Gestione della ricorrenza per le risorse in un canale
-   * Frazionamento del giorno
-   * Scomposizione Settimana
-   * Mese di suddivisione
+   * DayParting
+   * WeekParting
+   * MeseParting
    * Combinazione di partizioni
 * Utilizzo dell&#39;attivazione a livello di canale come riproduzione di un singolo evento
 
@@ -47,13 +47,13 @@ L&#39;esempio seguente fornisce una soluzione concentrandosi sui seguenti termin
 
 ## Finestra di attivazione {#using-channel-level-activation}
 
-La sezione seguente illustra la creazione di un singolo evento riprodotto all’interno di un canale per un progetto AEM Screens.
+La sezione seguente illustra la creazione di un singolo evento riprodotto all’interno di un canale per un progetto AEM Screens .
 
 ### Prerequisiti {#prerequisites}
 
 Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre dei seguenti prerequisiti per iniziare a implementare l&#39;attivazione a livello di canale:
 
-* Crea un progetto AEM Screens, in questo esempio, Attivazione a livello di **canale**
+* Crea un progetto AEM Screens , in questo esempio, Attivazione a livello di **canale**
 
 * Crea un canale come **MainAdChannel** nella cartella **Channels (Canali** )
 
@@ -80,7 +80,7 @@ L&#39;immagine seguente mostra il progetto Attivazione **a livello di** canale c
 
 ### Implementazione {#implementation}
 
-L&#39;implementazione dell&#39;attivazione a livello di canale in un progetto AEM Screens comporta tre attività principali:
+L&#39;implementazione dell&#39;attivazione a livello di canale in un progetto AEM Screens  prevede tre attività principali:
 
 1. **Impostazione della tassonomia del progetto, inclusi canali, posizioni e display**
 1. **Assegnazione di canali da visualizzare**
@@ -90,7 +90,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 1. **Creare una posizione**
 
-   Andate alla cartella **Locations (Posizioni** ) nel progetto AEM Screens e create una posizione come **Region (Regione)**.
+   Andate alla cartella **Locations** (Posizioni **) nel progetto AEM Screens  e create una posizione come** Region (Regione).
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
@@ -110,12 +110,12 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
    Per **MainAdChannel:**
 
-   1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione** > **Visualizzazione** a livello di canale e fate clic su **Assegna canale** dalla barra delle azioni.
+   1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione** > Visualizzazione **a livello di canale e fate clic su** Assegna canale **** dalla barra delle azioni.
    1. **Viene visualizzata la finestra di dialogo Assegnazione** canale.
    1. Select **Reference Channel**.. by path.
    1. Selezionate il percorso **del** canale come Attivazione **a livello di** canale > ***Canali*** > ***MainAdChannel***.
    1. Il ruolo **** canale viene popolato come canale **principale**.
-   1. Selezionate la **priorità** come **1**.
+   1. Selezionare la **priorità** come **1**.
    1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
    1. Fai clic su **Salva**.
 
@@ -149,18 +149,16 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
-Una volta che avete impostato i canali e la visualizzazione completa, avviate il lettore AEM Screens per visualizzare il contenuto.
+Una volta impostata la visualizzazione dei canali e dei canali, avviate il lettore AEM Screens  per visualizzare il contenuto.
 
 Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 11:59 (come impostato nella pianificazione), il canale **TargetingSinglePlay** visualizzerà il contenuto fino alle 12:05 e il canale **MainAdChannel** riprenderà a riprodurlo.
 
 >[!NOTE]
 Per ulteriori informazioni su AEM riproduttore dello schermo, fare riferimento alle seguenti risorse:
-* [Download di AEM Screens Player](https://download.macromedia.com/screens/)
-* [Utilizzo di AEM Screens Player](working-with-screens-player.md)
+[download](https://download.macromedia.com/screens/)di AEM Screens Player[Utilizzo  AEM Screens Player](working-with-screens-player.md)
 
 
-
-## Gestione della ricorrenza per le risorse in un canale{#handling-recurrence-in-assets}
+## Gestione della ricorrenza per le risorse in un canale {#handling-recurrence-in-assets}
 
 Potete pianificare le risorse in un canale in modo che si ripetano a determinati intervalli su base giornaliera, settimanale o mensile, in base alle vostre esigenze.
 
@@ -194,7 +192,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >[!NOTE]
 È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
-### Scomposizione Settimana {#week-parting}
+### WeekParting {#week-parting}
 
 1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
 
@@ -205,7 +203,7 @@ Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere 
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per la suddivisione settimanale {#example-two}
+#### Espressioni di esempio per WeekParting {#example-two}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
@@ -221,7 +219,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
 
-### Mese di suddivisione {#month-parting}
+### MeseParting {#month-parting}
 
 1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
 
@@ -232,7 +230,7 @@ Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere 
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per la suddivisione del mese {#example-three}
+#### Espressioni di esempio per MonthParting {#example-three}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
