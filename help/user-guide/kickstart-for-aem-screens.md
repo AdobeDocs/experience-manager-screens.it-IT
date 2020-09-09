@@ -3,9 +3,9 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare una dimostrazione  progetto AEM Screens. Consente di creare un'esperienza di digital signage a partire dall'installazione e dalla configurazione di un nuovo progetto per la visualizzazione dei contenuti  lettore AEM Screens.
 translation-type: tm+mt
-source-git-commit: 12d84eba2b9001600f783cd4f994af43d2c16739
+source-git-commit: d49ceecab42762425d779d50a31291091088ee19
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 5%
 
 ---
@@ -187,7 +187,7 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 È necessario registrare il dispositivo utilizzando il dashboard di AEM.
 
 >[!IMPORTANT]
->Il lettore ChromeOS può essere installato come il plugin Chrome Browser in modalità sviluppatore senza richiedere un dispositivo effettivamente chrome player. Per l’installazione, effettuate le seguenti operazioni:
+>Il lettore Chrome OS può essere installato come il plugin Chrome Browser in modalità sviluppatore senza richiedere un dispositivo effettivamente chrome player. Per l’installazione, effettuate le seguenti operazioni:
 >
 >1. Clicca [qui](https://download.macromedia.com/screens/) per scaricare la versione più recente di Chrome Player.
 >1. Decomprimete il file e salvatelo su disco.
@@ -199,7 +199,7 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
 >1. Fate clic su **AEM Screens** Plugin per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **esc** per uscire dalla modalità a schermo intero.
 
 
-Una volta che il lettore ChromeOS è attivato, seguire i passaggi indicati di seguito per registrare un dispositivo Chrome.
+Una volta che il lettore Chrome OS è attivato, seguire i passaggi seguenti per registrare un dispositivo Chrome.
 
 1. Andate alla cartella **Devices** del progetto dall&#39;istanza AEM.
 
@@ -242,7 +242,7 @@ Una volta che il lettore ChromeOS è attivato, seguire i passaggi indicati di se
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
-Tutte le risorse del canale ora vengono riprodotte sul dispositivo Chrome.
+Tutte le risorse del canale ora vengono riprodotte sul lettore Chrome OS.
 
 Congratulazioni! State ora riproducendo il contenuto in un canale AEM Screens !
 
