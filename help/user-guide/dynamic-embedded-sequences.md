@@ -1,8 +1,8 @@
 ---
 title: Uso della Sequenza dinamica incorporata
 seo-title: Uso della Sequenza dinamica incorporata
-description: Segui questa pagina per scoprire come implementare le sequenze incorporate dinamiche nel tuo progetto AEM Screens.
-seo-description: Segui questa pagina per scoprire come implementare le sequenze incorporate dinamiche nel tuo progetto AEM Screens.
+description: Segui questa pagina per apprendere come implementare le sequenze incorporate dinamiche nel progetto AEM Screens .
+seo-description: Segui questa pagina per apprendere come implementare le sequenze incorporate dinamiche nel progetto AEM Screens .
 uuid: 1f442489-2eeb-4dd8-b892-911fcccb3377
 contentOwner: jsyal
 content-type: reference
@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 translation-type: tm+mt
-source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: b39c76fc7af4fb46596d4a995fe011d00b212d7c
 L&#39;utilizzo di sequenze incorporate dinamiche illustra i seguenti argomenti:
 
 * **Panoramica**
-* **Utilizzo dell’esperienza integrata dinamica in AEM Screens**
+* **Utilizzo dell&#39;esperienza integrata dinamica in  AEM Screens**
 * **Visualizzazione dei risultati**
 * **Limitazione degli utenti e modifica degli ACL**
 
@@ -46,7 +49,7 @@ Referencing a *Channel By Role*, allows you to create local version of a channel
 >
 >***Le sequenze*** incorporate dinamiche consentono di visualizzare contenuto specifico per la posizione, mentre le sequenze ****** incorporate visualizzano solo una presentazione generale del contenuto. Inoltre, durante l&#39;impostazione di sequenze incorporate dinamiche, è necessario configurare il canale utilizzando il ruolo e il nome del canale. Fare riferimento ai passaggi indicati di seguito per l&#39;implementazione pratica.
 >
->Per ulteriori informazioni sull&#39;implementazione delle sequenze incorporate, consultate Sequenze [incorporate](embedded-sequences.md) in AEM Screens.
+>Per ulteriori informazioni sull&#39;implementazione di sequenze incorporate, consultate Sequenze [incorporate](embedded-sequences.md) in  AEM Screens.
 
 L&#39;esempio seguente fornisce una soluzione concentrandosi sui seguenti termini chiave:
 
@@ -56,21 +59,21 @@ L&#39;esempio seguente fornisce una soluzione concentrandosi sui seguenti termin
 
 >[!NOTE]
 >
->To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)**under Authoring section in AEM Screens documentation.
+>To learn more about channel assignment, see **[Channel Assignment](channel-assignment.md)** under Authoring section in AEM Screens documentation.
 
 ## Uso della Sequenza dinamica incorporata {#using-dynamic-embedded-sequence-2}
 
-Nella sezione seguente viene illustrata la creazione di una sequenza incorporata dinamica in un canale AEM Screens.
+Nella sezione seguente viene illustrata la creazione di una sequenza incorporata dinamica in un canale AEM Screens .
 
 ### Prerequisiti {#prerequisites}
 
 Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre dei seguenti prerequisiti per iniziare a implementare le sequenze incorporate dinamiche:
 
-* Creare un progetto AEM Screens (in questo esempio, **Demo**)
+* Creare un progetto AEM Screens  (in questo esempio, **Demo**)
 
 * Crea un canale come **globale** nella cartella **Canali**
 
-* Aggiungete contenuti al canale **globale** (*controllate **Resources.zip**per le risorse* rilevanti)
+* Aggiungete contenuto al canale **globale** (*controllate **Resources.zip**per le risorse* rilevanti)
 
 L&#39;immagine seguente mostra il progetto **Demo** con il canale **globale** nella cartella **Canali** .
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -87,11 +90,12 @@ Potete scaricare le risorse seguenti (immagini e aggiungerle alle risorse) e uti
 >
 >* **[Creazione e gestione di progetti](creating-a-screens-project.md)**
 >* **[Gestione di un canale](managing-channels.md)**
+
 >
 
 
 
-L’implementazione di sequenze incorporate dinamiche in un progetto AEM Screens implica tre attività principali:
+L’implementazione di sequenze incorporate dinamiche in un progetto AEM Screens  comporta tre attività principali:
 
 1. **Impostazione della tassonomia del progetto, inclusi canali, posizioni e display**
 1. **Creare una pianificazione**
@@ -105,7 +109,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 1. **Create due cartelle di posizioni.**
 
-   Andate alla cartella **Locations (Posizioni** ) nel progetto AEM Screens e create due cartelle di posizioni come **Regione A** e **Regione B**.
+   Andate alla cartella **Locations** (Posizioni **) nel progetto AEM Screens  e create due cartelle di posizioni come** Regione A **e** Regione B.
 
    >[!NOTE]
    >
@@ -116,7 +120,6 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
    >[!NOTE]
-   >
    >Per informazioni su come creare un percorso, consultate **[Creazione e gestione di posizioni](managing-locations.md)**.
 
 1. **Create due posizioni e un canale sotto ogni cartella di posizione.**
@@ -124,7 +127,8 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Passare a **Demo** —> **Locations** —> **Region A**.
    1. Selezionate **Regione A** e fate clic su **+ Crea** dalla barra delle azioni.
    1. Selezionate **Posizione** dalla procedura guidata con **Titolo** come **Store 1**. Analogamente, create un&#39;altra posizione dalla procedura guidata denominata **Store 2** con **Titolo** come **Store 2**. Potete lasciare vuoto il campo **Nome** durante la creazione di **Store 1** e **Store 2**.
-   1. Ripetere il passaggio (b) e ora selezionare Canale **** sequenza dalla procedura guidata. Immettere il **Titolo** come **Regione A** e il **Nome** come **region **per questo canale.
+   1. Ripetere il passaggio (b) e ora selezionare Canale **** sequenza dalla procedura guidata. Immettere il **Titolo** come **Regione A** e **Nome** come **regione** per il canale.
+
    >[!CAUTION]
    >
    >Durante la creazione della **Regione A** del canale, immettere il **Titolo** come **Regione A** e il **Nome** come **regione**.
@@ -145,10 +149,10 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Selezionate **Store 1** e fate clic su **+ Crea** dalla barra delle azioni.
    1. Selezionate **Visualizza** dalla procedura guidata e create **Store1Display.**
    1. Ripetere il passaggio b) e selezionare Canale **** sequenza dalla procedura guidata. Immettete il **Titolo** come **Store1 Channel** e il **Nome** come **store**.
+
    >[!CAUTION]
    >
    >È importante quando si crea un canale di sequenza, il **Titolo** del canale può essere come requisito, ma il **Nome** deve essere lo stesso in tutti i canali locali.
-   >
    >In questo esempio, i canali sotto **Regione A** e **Regione B** condividono lo stesso **Nome** della **regione** e i canali sotto **Store 1************** **** ****, Store 2, Store 2, Store 3, Store 3, e Store 4 condividono lo stesso Nomecome Store.
 
    ![screen_shot_2018-09-19at120206pm](assets/screen_shot_2018-09-19at120206pm.png)
@@ -156,7 +160,6 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    Allo stesso modo, create una visualizzazione come **Store2Display** e un canale **Store2Channel** sotto **Store 2** (con nome come **store**).
 
    >[!NOTE]
-   >
    >Accertatevi di utilizzare lo stesso nome per i canali creati in **Store 1** e **Store 2** come **store**.
 
    ![screen_shot_2018-09-19at120329pm](assets/screen_shot_2018-09-19at120329pm.png)
@@ -176,7 +179,6 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    Andate alla **Demo** -> **Locations** -> **Region A** -> **Region A** e fate clic su **Edit** (Modifica) dalla barra delle azioni. Trascinate e rilasciate le risorse che desiderate aggiungere al canale.
 
    >[!NOTE]
-   >
    >Potete usare il file ***Resources.zip*** dalla sezione **Risorse** , qui sopra, per usare le immagini come risorse per il contenuto del canale.
 
    ![screen_shot_2018-09-12at12438pm](assets/screen_shot_2018-09-12at12438pm.png)
@@ -194,7 +196,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 1. **Creare una pianificazione**
 
-   Andate a selezionare la cartella **Pianificazioni** nel progetto AEM Screens e fate clic su **Crea** dalla barra delle azioni per creare una nuova pianificazione.
+   Andate e selezionate la cartella **Pianificazioni** nel progetto AEM Screens  e fate clic su **Crea** dalla barra delle azioni per creare una nuova pianificazione.
 
    L&#39;immagine seguente mostra la **AdSchedule** creata nel progetto **Demo** .
 
@@ -209,13 +211,15 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Enter the **Channel Role** as **GlobalAdSegment**.
    1. Selezionate gli eventi **** supportati come caricamento **** iniziale, **schermata** inattiva e interazione **** utente.
    1. Fai clic su **Salva**.
+
    **Assegna canale per ruolo per regione:**
 
    1. Fate clic su **+ Assegna canale** dal pannello CANALI **** ASSEGNATI per aprire la finestra di dialogo Assegnazione **** canale.
    1. Selezionate Canale **di** riferimento. per nome.
-   1. Immettete il Nome **** canale come **regione***.
+   1. Immettete Nome **** canale come **regione***.
    1. Enter the **Channel Role** as **RegionAdSegment**.
    1. Fai clic su **Salva**.
+
    **Assegna canale per ruolo per store:**
 
    1. Fate clic su **+ Assegna canale** dal pannello CANALI **** ASSEGNATI per aprire la finestra di dialogo Assegnazione **** canale.
@@ -223,6 +227,7 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
    1. Immettete il Nome **** canale come **store**.
    1. Enter the **Channel Role** as **StoreAdSegment**.
    1. Fai clic su **Salva**.
+
    L&#39;immagine seguente mostra i canali assegnati per percorso e per ruolo.
 
    ![screen_shot_2018-09-12at21429pm](assets/screen_shot_2018-09-12at21429pm.png)
@@ -253,28 +258,28 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
-Una volta impostata la visualizzazione dei canali, avvia il lettore AEM Screens per visualizzare il contenuto.
+Una volta impostata la visualizzazione dei canali e dei canali, avviate il lettore AEM Screens  per visualizzare il contenuto.
 
 >[!NOTE]
 >
->Per informazioni su AEM Screen Player, consulta le risorse seguenti:
+>Per ulteriori informazioni su AEM riproduttore dello schermo, fare riferimento alle seguenti risorse:
 >
 >* [Download del lettore AEM Screens](https://download.macromedia.com/screens/)
->* [Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>* [Utilizzo di  AEM Screens Player](working-with-screens-player.md)
 
 
 
-Il seguente output conferma il contenuto del canale nel lettore AEM Screens, a seconda del percorso di visualizzazione.
+Il seguente output conferma il contenuto del canale in  lettore AEM Screens, a seconda del percorso di visualizzazione.
 
 **Scenario 1**:
 
-Se assegnate il percorso di visualizzazione come **Demo** —> **Locations** —> **Region A** —> **Store 1** —> **Store1Display**, sul lettore AEM Screens verrà visualizzato il contenuto seguente.
+Se si assegna il percorso di visualizzazione come **Demo** —> **Locations** —> **Region A** —> **Store 1** —> **Store1Display**, sul lettore AEM Screens  verrà visualizzato il contenuto seguente.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-Se assegnate il percorso di visualizzazione come **Demo** —> **Locations** —> **Region B** —> **Store 3** —> **Store3Display**, sul lettore AEM Screens verrà visualizzato il contenuto seguente.
+Se si assegna il percorso di visualizzazione come **Demo** —> **Locations** —> **Region B** —> **Store 3** —> **Store3Display**, sul lettore AEM Screens  verrà visualizzato il contenuto seguente.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -308,43 +313,45 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
 
 1. **Crea gruppi**
 
-   1. Passa ad **Adobe Experience Manager**.
+   1. Andate su **Adobe Experience Manager**.
    1. Click **Tools** --> **Security** --> **Groups**.
    1. Fate clic su **Crea gruppo** e immettete **Global-Author** in **ID**.
-   1. Click **Save &amp; Close**.
+   1. Fai clic su **Salva e chiudi**.
+
    Allo stesso modo, create altri due gruppi, ad esempio **Regione-autore** e **Store-autore**.
 
    ![screen_shot_2018-09-17at34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
 1. **Creazione di utenti e aggiunta di utenti ai gruppi**
 
-   1. Passa ad **Adobe Experience Manager**.
+   1. Andate su **Adobe Experience Manager**.
    1. Click **Tools** --> **Security** --> **Users**.
    1. Fate clic su **Crea utente** e immettete **Global-User** in **ID**.
    1. Immettere **la password** e confermare la password per l&#39;utente.
    1. Fate clic sulla scheda **Gruppi** e immettete il nome del gruppo in **Seleziona gruppo**, ad esempio, immettete **Global-Author** per aggiungere **Global-User** a tale gruppo specifico.
-   1. Click **Save &amp; Close**.
+   1. Fai clic su **Salva e chiudi**.
+
    Allo stesso modo, create altri due utenti come **Region-User** e **Store-User** e aggiungeteli rispettivamente a **Region-Author** e **Store-Author** .
 
    >[!NOTE]
-   >
    >È consigliabile aggiungere utenti in un gruppo e quindi assegnare le autorizzazioni a ciascun gruppo specifico di utenti.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
 1. **Aggiungi tutti i gruppi ai collaboratori**
 
-   1. Passa ad **Adobe Experience Manager**.
+   1. Andate su **Adobe Experience Manager**.
    1. Click **Tools** --> **Security** --> **Groups**.
    1. Selezionate **Collaboratori** dall’elenco e selezionate la scheda **Membri** .
    1. Selezionate il **gruppo** come **Global-Author**, **** Region-Author e **Store-Author** per i collaboratori.
-   1. Click **Save &amp; Close**.
+   1. Fai clic su **Salva e chiudi**.
 
 1. **Accesso alle autorizzazioni per ogni gruppo**
 
    1. Passate all’ *amministratore* utente e utilizzate questa interfaccia per modificare le autorizzazioni per diversi gruppi.
    1. Cercate **Global-Author** e fate clic sulla scheda **Autorizzazioni** , come illustrato nella figura seguente.
    1. Allo stesso modo, potete accedere alle autorizzazioni per **Region-Author** e **Store-Author**.
+
    ![screen_shot_2018-09-18at73523am](assets/screen_shot_2018-09-18at73523am.png)
 
 1. **Modifica delle autorizzazioni per ogni gruppo**
@@ -355,6 +362,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Andate a ***/content/screens/demo*** e verificate tutte le autorizzazioni
    1. Andate a ***/content/screens/demo/locations*** e verificate tutte le autorizzazioni
    1. Andate a ***/content/screens/demo/locations/region-a*** e controllate tutte le autorizzazioni. Allo stesso modo, verificate le autorizzazioni per **regione-b**.
+
    Fare riferimento alla figura seguente per comprendere i passaggi:
    ![screen_shot_2018-09-18at115752am](assets/screen_shot_2018-09-18at115752am.png)
 
@@ -369,6 +377,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Accedete a ***/content/screens/demo/locations*** e verificate solo le autorizzazioni di **lettura** .
    1. Andate a ***/content/screens/demo/channel*** e deselezionate le autorizzazioni per il canale **globale** .
    1. Andate a ***/content/screens/demo/locations***/***region-a*** e controllate tutte le autorizzazioni. Allo stesso modo, verificate le autorizzazioni per **regione-b**.
+
    Fare riferimento alla figura seguente per comprendere i passaggi:
 
    ![screen_shot_2018-09-18at125158pm](assets/screen_shot_2018-09-18at125158pm.png)
@@ -385,6 +394,7 @@ Per creare gruppi, utenti e modificare gli ACL in base alle autorizzazioni, effe
    1. Andate a ***/content/screens/demo/channel*** e deselezionate le autorizzazioni per il canale **globale** .
    1. Accedete a ***/content/screens/demo/locations/region-a*** e verificate solo le autorizzazioni di **lettura** . Allo stesso modo, controllate solo le autorizzazioni di **lettura** per **regione-b**.
    1. Andate a ***/content/screens/demo/locations***/***region-a /store-1*** e controllate tutte le autorizzazioni. Allo stesso modo, controllate le autorizzazioni per **store-2,** store-3 e **store-4**.
+
    Fare riferimento alla figura seguente per comprendere i passaggi:
 
    ![screen_shot_2018-09-18at12415pm](assets/screen_shot_2018-09-18at12415pm.png)
