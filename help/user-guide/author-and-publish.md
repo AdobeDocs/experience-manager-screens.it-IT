@@ -4,9 +4,9 @@ seo-title: Configurazione di Author e Publish in  AEM Screens
 description: ' architettura AEM Screens assomiglia a una tradizionale architettura AEM Sites . Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Seguite questa pagina per apprendere come configurare l’authoring e la pubblicazione per  AEM Screens.'
 seo-description: ' architettura AEM Screens assomiglia a una tradizionale architettura AEM Sites . Il contenuto viene creato su un’istanza di creazione AEM e quindi replicato in avanti in più istanze di pubblicazione. Seguite questa pagina per apprendere come configurare l’authoring e la pubblicazione per  AEM Screens.'
 translation-type: tm+mt
-source-git-commit: 80697595b7fc3d12c9f148a3998335d1d7cefb14
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1910'
 ht-degree: 2%
 
 ---
@@ -145,7 +145,7 @@ L’utente del cluster e la password di tutte le istanze pubblicate nella topolo
 
 Per ogni istanza di pubblicazione:
 
-1. Nella console OSGi, andate a **MAIN** —> **Supporto** Crypto (*https://&lt;host>:&lt;porta>/sistema/console/crittografia*).
+1. Nella console OSGi andate a **MAIN** —> **Supporto** Crypto (`https://&lt;host&gt;:&lt;port&gt;/system/console/crypto`).
 1. Digitate la password di testo normale desiderata (uguale per tutte le istanze) in Testo **normale**
 1. Fate clic su **Protect**.
 1. Copiare il valore Testo **** protetto in un blocco note o in un editor di testo. Questo valore verrà utilizzato nella configurazione OSGi per ActiveMQ.
@@ -161,7 +161,7 @@ Poiché per impostazione predefinita ogni istanza di pubblicazione dispone di ch
 
 Per ogni istanza di pubblicazione:
 
-1. Andate al gestore di configurazione OSGi *https://&lt;host>:&lt;porta>/sistema/console/configMgr*
+1. Passare al gestore di configurazione OSGi `https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr`
 1. Seleziona configurazione provider **JMS** Apache ActiveMQ Artemis
 1. Aggiornate quanto segue:
 
@@ -172,7 +172,7 @@ Per ogni istanza di pubblicazione:
 
 Seguite i passaggi indicati di seguito per ogni istanza di pubblicazione:
 
-1. Andate alla console OSGi -> Principale > ActiveMQ Artemis `[https://localhost:4505/system/console/mq`.
+1. Andate alla console OSGi -> Principale > ActiveMQ Artemis `https://localhost:4505/system/console/mq`.
 1. Verifica e verifica per visualizzare le porte di altre istanze in Informazioni cluster > Topologia > nodi=2, membri=2.
 1. Invia un messaggio di prova (nella parte superiore della schermata in Informazioni sul broker)
 1. Immettete le seguenti modifiche nei campi:
@@ -183,7 +183,7 @@ Seguite i passaggi indicati di seguito per ogni istanza di pubblicazione:
 
 >[!NOTE]
 >
->Passando alla console OSGI, potrebbero essere necessari alcuni secondi dopo il salvataggio della configurazione nel passaggio precedente. Per ulteriori informazioni, è inoltre possibile controllare error.log.
+>Passando alla console OSGi, potrebbero essere necessari alcuni secondi dopo il salvataggio della configurazione nel passaggio precedente. Per ulteriori informazioni, è inoltre possibile controllare error.log.
 
 Ad esempio, l&#39;immagine seguente viene visualizzata sulla configurazione corretta di ActiveMQ Artemis Server.
 
@@ -201,7 +201,7 @@ Seguite i passaggi per ogni istanza di pubblicazione:
 
 ### Configurazione dell’istanza Author e Publish {#configuring-author-and-publish-instance}
 
-Una volta impostata la piattaforma di pubblicazione, è necessario configurare le istanze di creazione e pubblicazione per visualizzare i risultati pratici dell’implementazione:
+Una volta impostata la topologia di pubblicazione, è necessario configurare le istanze di creazione e pubblicazione per visualizzare i risultati pratici dell’implementazione:
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ Una volta impostata la piattaforma di pubblicazione, è necessario configurare l
 1. Selezionate **Registra dispositivo**.
 1. Fate clic su Registrazione **** dispositivo per visualizzare il dispositivo.
 1. Select the device you want to register and click **Register Device**.
-1. Verificate il codice di registrazione e fate clic su **Convalida**.
+1. Verifica il codice di registrazione e fai clic su **Convalida**.
 1. Inserite un titolo per il dispositivo e fate clic su **Registra**.
 
 #### Passaggio 3: Assegnazione del dispositivo da visualizzare {#step-assigning-the-device-to-display}
@@ -240,7 +240,7 @@ Controllare il lettore e visualizzare il contenuto aggiunto nel canale.
 
 **Verifica del dispositivo**
 
-Prima di eseguire le operazioni seguenti, assicurarsi di verificare l&#39;ID dispositivo. Per verificare, cercare l&#39;ID dispositivo in CRXDELite, con il percorso */home/users/screens/we-retail/devices*.
+Prima di eseguire le operazioni seguenti, assicurarsi di verificare l&#39;ID dispositivo. Per verificare, cercate l&#39;ID dispositivo nel CRXDE Lite , con il percorso */home/users/screens/we-retail/devices*.
 
 Per replicare l’utente del dispositivo, effettuate le seguenti operazioni:
 
