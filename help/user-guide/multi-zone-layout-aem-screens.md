@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 4c073172-d93c-4b73-87ab-0b08789193a3
 noindex: true
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 6%
@@ -48,7 +48,7 @@ Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre 
 
 Durante la creazione di un canale, potete usare diversi modelli per creare aree nel vostro canale. Potete aggiungere una singola immagine, un video o un canale incorporato che consenta la visualizzazione di più risorse in una sequenza.
 
-**Creazione del canale**
+**Creazione di un canale**
 
 1. Seleziona il collegamento all’Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
 1. Andate alla cartella **Canali** e fate clic su **Crea** dalla barra delle azioni.
