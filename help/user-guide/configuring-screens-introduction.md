@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 translation-type: tm+mt
-source-git-commit: acc0278631a4be2c90de7cc43d3b40a358ffa93e
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ I seguenti punti chiave aiutano a configurare e AEM server per essere pronto per
 1. Passa a *&lt;istanzaAutore>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
 1. Verificate che la modalità **interfaccia utente di authoring** predefinita sia impostata su **TOUCH**, come illustrato nella figura seguente
 
-In alternativa, potete eseguire la stessa impostazione anche utilizzando *&lt;yourAuthorInstance>*->*strumenti (icona a forma di martello)* -> **Operazioni** -> Console **** Web e cercare il servizio **** WCM per la modalità dell’interfaccia utente di authoring.
+In alternativa, è possibile eseguire la stessa impostazione utilizzando gli strumenti AuthorInstance *->* (icona a forma di martello) -> **Operazioni** -> Console **** Web e cercare il servizio **** WCM per la modalità dell’interfaccia utente di authoring.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ In alternativa, potete eseguire la stessa impostazione anche utilizzando *&lt;yo
 
 #### AEM in modalità di esecuzione NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-L&#39;esecuzione AEM in produzione utilizza la modalità di esecuzione **NOSAMPLECONTENT** . *Rimuovete l’intestazione X-Frame-Options=SAMEORIGIN* (nella sezione dell’intestazione della risposta aggiuntiva)
+L&#39;esecuzione AEM in produzione utilizza la modalità di esecuzione **NOSAMPLECONTENT** . Rimuovere l’intestazione *X-Frame-Options=SAMEORIGIN* (nella sezione dell’intestazione della risposta aggiuntiva) da
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -136,7 +136,7 @@ Segui i passaggi indicati di seguito per configurare ***DeviceServiceImpl***:
 
 1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
 
-1. **Viene aperta la configurazione della console Web di Adobe Experience Manager **6. Cercare il servizio di assistenza. Per effettuare una ricerca nella proprietà, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
+1. **Viene aperta la configurazione della console Web di Adobe Experience Manager **6. Cerca *dispositivo*. Per effettuare una ricerca nella proprietà, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
