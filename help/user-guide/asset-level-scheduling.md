@@ -4,9 +4,9 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1445'
 ht-degree: 2%
 
 ---
@@ -22,15 +22,15 @@ Gli argomenti seguenti sono trattati in questa sezione:
 * Finestra di attivazione
 * Riproduzione Di Singoli Eventi
 * Gestione della ricorrenza nelle risorse
-   * Frazionamento del giorno
-   * Scomposizione Settimana
-   * Mese di suddivisione
+   * DayParting
+   * WeekParting
+   * MeseParting
    * Combinazione di partizioni
 * Attivazione di più risorse
 
 >[!CAUTION]
 >
->Questa funzionalità AEM Screens è disponibile solo se è stato installato AEM Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
+>Questa funzionalità  AEM Screens è disponibile solo se è stato installato AEM Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
 >
 >Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
@@ -109,7 +109,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >
 >È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
 
-### Scomposizione Settimana {#week-parting}
+### WeekParting {#week-parting}
 
 1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
@@ -120,7 +120,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per la suddivisione settimanale {#example-two}
+#### Espressioni di esempio per WeekParting {#example-two}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
@@ -134,7 +134,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >È inoltre possibile utilizzare la notazione _completa_ (cioè, Lunedì,Mercoledì,Venerdì) invece della notazione a mano _corta_ (ovvero, Lun,Wed,Vri).
 
 
-### Mese di suddivisione {#month-parting}
+### MeseParting {#month-parting}
 
 1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
@@ -145,7 +145,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per la suddivisione del mese {#example-three}
+#### Espressioni di esempio per MonthParting {#example-three}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
@@ -192,14 +192,14 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### Prerequisiti {#prerequisites}
 
-Per utilizzare l’attivazione a livello di risorse multiple per le risorse, create un progetto di AEM Screens con un canale di sequenza. Ad esempio, il seguente caso d’uso illustra l’implementazione della funzione:
+Per utilizzare l’attivazione a livello di risorse multiple per le risorse, create un progetto AEM Screens  con un canale di sequenza. Ad esempio, il seguente caso d’uso illustra l’implementazione della funzione:
 
-* Creare un progetto AEM Screens denominato **MultiAssetDemo**
+* Creare un progetto AEM Screens  denominato **MultiAssetDemo**
 * Create un canale denominato **MultiAssetChannel** e aggiungete contenuto al canale, come mostrato nella figura seguente
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
-Per selezionare più risorse e pianificarne la visualizzazione in un progetto AEM Screens, effettuate le seguenti operazioni:
+Per selezionare più risorse e pianificarne la visualizzazione in un progetto AEM Screens , effettuate le seguenti operazioni:
 
 1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
 
