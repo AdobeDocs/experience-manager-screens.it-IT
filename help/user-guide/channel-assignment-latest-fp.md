@@ -3,7 +3,7 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull'assegnazione dei canali e la suddivisione dei giorni.
 translation-type: tm+mt
-source-git-commit: 421174dba8a5a7c39bffcaa2dddb54939eeba3bc
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 22%
@@ -149,7 +149,6 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 ### Metodo di interruzione {#interruption-method-channel}
 
 >[!IMPORTANT]
->
 > Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
 
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
