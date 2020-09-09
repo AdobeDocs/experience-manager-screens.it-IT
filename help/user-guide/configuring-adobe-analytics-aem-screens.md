@@ -1,8 +1,8 @@
 ---
-title: Configurazione di Adobe  Analytics con AEM Screens
-seo-title: Configurazione di Adobe  Analytics con AEM Screens
-description: 'Seguite questa sezione per saperne di più sulla sequenza e l''invio di eventi personalizzati tramite offline Adobe  Analytics '
-seo-description: 'Seguite questa sezione per saperne di più sulla sequenza e l''invio di eventi personalizzati tramite offline Adobe  Analytics '
+title: Configurazione  Adobe Analytics con  AEM Screens
+seo-title: Configurazione  Adobe Analytics con  AEM Screens
+description: 'Seguite questa sezione per ulteriori informazioni sulla sequenza e l''invio di eventi personalizzati tramite Offline  Adobe Analytics '
+seo-description: 'Seguite questa sezione per ulteriori informazioni sulla sequenza e l''invio di eventi personalizzati tramite Offline  Adobe Analytics '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 11%
@@ -19,32 +19,32 @@ ht-degree: 11%
 ---
 
 
-# Configurazione di Adobe  Analytics con AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# Configurazione  Adobe Analytics con  AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->Questa funzionalità AEM Screens è disponibile solo se sono stati installati AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4.
+>Questa funzionalità  AEM Screens è disponibile solo se sono stati installati AEM Feature Pack 2 e AEM Feature Pack 4 6.3.3.
 >
->Per accedere a uno di questi Feature Pack, contattate il supporto Adobe e richiedete l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+>Per accedere a uno di questi Feature Pack, è necessario contattare  Adobe di assistenza e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
 Questa sezione illustra i seguenti argomenti:
 
-* **Sequenza in Adobe  Analytics con AEM Screens**
-* **Invio di eventi personalizzati tramite Adobe  Analytics offline**
+* **Sequenza in  Adobe Analytics con  AEM Screens**
+* **Invio di eventi personalizzati tramite offline  Adobe Analytics**
 
-## Sequenza in Adobe  Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sequenza in  Adobe Analytics con  AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Il processo ***di*** sequenziamento inizia con il servizio di archiviazione dati che attiva il servizio Adobe  Analytics. Il contenuto del canale invia eventi Adobe  Analytics con payroll, vale a dire l&#39;acquisizione di test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
+Il processo ***di*** sequenziamento inizia con il servizio di archiviazione dati che attiva  servizio Adobe Analytics. Il contenuto del canale invia  eventi Adobe Analytics con payroll, ovvero l&#39;acquisizione di test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
 
 ### Diagramma di sequenza {#sequencing-diagram}
 
-Nel seguente diagramma di sequenza viene illustrata l&#39;integrazione di Adobe  Analytics con AEM Screens:
+Nel seguente diagramma di sequenza viene illustrata la  integrazione Adobe Analytics con  AEM Screens:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Invio di eventi personalizzati tramite Adobe  Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
+## Invio di eventi personalizzati tramite offline  Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
-La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tutti i campi inviati ad Adobe  Analytics:
+La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tutti i campi inviati a  Adobe Analytics:
 
 <table>
  <tbody>
@@ -199,7 +199,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>richiesto per AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Supporto di Adobe  Analytics per Nome pagina personalizzato</td> 
+   <td> supporto Adobe Analytics per il nome pagina personalizzato</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -208,7 +208,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>facoltativo</td> 
    <td>string</td> 
    <td> </td> 
-   <td>L'URL della proprietà Web o dello schema mobile deve includere l'URL completo</td> 
+   <td>URL della proprietà Web o dello schema mobile: deve includere un URL completo</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -244,7 +244,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Nome app (AEM Screens)</td> 
+   <td>Nome app ( AEM Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
