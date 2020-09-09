@@ -11,9 +11,9 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '834'
 ht-degree: 41%
 
 ---
@@ -39,9 +39,7 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 È possibile aggiungere una sequenza incorporata al canale. Una sequenza incorporata è un altro canale che include risorse come immagini o video. L&#39;aggiunta di una sequenza incorporata consente all&#39;utente di aggiungere la sequenza a un canale in base al ***Percorso del canale***.
 
 >[!NOTE]
->
->***Percorso*** canale definisce un riferimento esplicito al canale.
->
+>***Channel Path*** defines an explicit reference to the channel.
 >Per ulteriori informazioni sul *Percorso del canale*, consulta [Assegnazione canale](channel-assignment.md) in Screens di authoring.
 
 Segui i passaggi sottostanti per aggiungere una sequenza incorporata al canale:
@@ -101,7 +99,7 @@ Segui i passaggi sottostanti per aggiungere una sequenza incorporata al canale:
 1. Seleziona il canale in cui incorporare una sequenza dinamica. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
 
 1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. Fai clic sull&#39;icona dei componenti nella barra laterale sinistra per aggiungere la sequenza incorporata dinamica. Trascinare e **rilasciare nell&#39;editor la sequenza dinamica** **Embedded Sequenza **incorporata.
+1. Fai clic sull&#39;icona dei componenti nella barra laterale sinistra per aggiungere la sequenza incorporata dinamica. Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
 
 1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
 
