@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 081db31efda17ac12cdc88f79ed2f4e1fbfc7edf
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 45%
@@ -107,7 +107,6 @@ Segui i passaggi descritti di seguito per caricare i video sul tuo canale:
 1. Seleziona **Video** sotto Risorse, poi trascina e rilascia i video richiesti.
 
 >[!NOTE]
->
 >If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
 
 ### Visualizzazione delle proprietà {#viewing-properties}
@@ -145,6 +144,7 @@ Puoi visualizzare il manifesto dal dashboard del canale.
 >Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
 
 Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti operazioni:
+
 1. **Impostate il canale su Offline**
    1. Seleziona il canale e seleziona **Proprietà** dalla barra delle azioni
    1. Passate alla scheda **Canale** e accertatevi di deselezionare l&#39;opzione Modalità **Sviluppatore (forza che il canale sia online)**
