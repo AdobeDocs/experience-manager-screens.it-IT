@@ -1,8 +1,8 @@
 ---
 title: Utilizzo di Frammenti esperienza
 seo-title: Utilizzo di Frammenti esperienza
-description: 'Segui questa pagina per saperne di più sull’utilizzo dei frammenti esperienza in AEM Screens. '
-seo-description: 'Segui questa pagina per saperne di più sull’utilizzo dei frammenti esperienza in AEM Screens. '
+description: 'Segui questa pagina per saperne di più sull’utilizzo di frammenti esperienza in  AEM Screens. '
+seo-description: 'Segui questa pagina per saperne di più sull’utilizzo di frammenti esperienza in  AEM Screens. '
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 59eb6f298aa646d14445ddd6082006742fb02d62
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 8%
@@ -35,10 +35,9 @@ Un ***Frammento esperienza*** è un gruppo di uno o più componenti, che include
 ## Utilizzo dei frammenti esperienza in AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->
->Nell&#39;esempio seguente viene utilizzato **We.Retail** come progetto dimostrativo da cui il frammento esperienza viene sfruttato da una pagina **Siti** a un progetto AEM Screens.
+>Nell&#39;esempio seguente viene utilizzato **We.Retail** come progetto dimostrativo da cui il frammento esperienza viene sfruttato da una pagina **Siti** a un progetto AEM Screens .
 
-Ad esempio, il seguente flusso di lavoro illustra l&#39;utilizzo di frammenti esperienza di We.Retail in Sites. Potete scegliere una pagina Web e sfruttare tale contenuto nel canale AEM Screens in uno dei vostri progetti.
+Ad esempio, il seguente flusso di lavoro illustra l&#39;utilizzo di frammenti esperienza di We.Retail in Sites. Potete scegliere una pagina Web e sfruttare tale contenuto nel canale AEM Screens  in uno dei vostri progetti.
 
 ### Prerequisiti {#pre-requisites}
 
@@ -50,7 +49,7 @@ Ad esempio, il seguente flusso di lavoro illustra l&#39;utilizzo di frammenti es
 1. Inserisci come titolo **DemoProject**.
 1. Fai clic su **Salva**.
 
-Un **DemoProject** verrà aggiunto alle schermate AEM.
+All&#39;AEM Screens  verrà aggiunto un **DemoProject** .
 
 ***Creazione di un canale***
 
@@ -71,7 +70,7 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
 
 1. **Passare a una pagina Siti in We.Retail**
 
-   1. Andate a Siti e selezionate **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** e selezionate questa pagina per utilizzare questo frammento di esperienza per il canale Screens.
+   1. Andate a Siti e selezionate **We.Retail In-Store** -> **Channels** ->**Idle Channel - Night** , quindi selezionate questa pagina per utilizzare questo frammento di esperienza per il canale Screens.
 
    1. Fai clic su **Modifica** nella barra delle azioni per aprire la pagina da utilizzare come frammento esperienza per il canale Screens.
 
@@ -97,12 +96,12 @@ Seguite i passaggi riportati di seguito per sfruttare il contenuto da **We.Retai
 
 1. **Creazione di Live Copy di frammenti esperienza**
 
-   1. Andate alla home page di AEM.
+   1. Passate alla pagina iniziale AEM.
    1. Selezionate Frammenti **** esperienza ed evidenziate il frammento **Screens** e fate clic su **Variazione come Live Copy**, come illustrato nella figura seguente:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Seleziona il** ScreensFragment** dalla procedura guidata **Crea Live Copy** e fai clic su **Avanti**.
+   c. Selezionare **ScreensFragment** dalla procedura guidata **Crea Live Copy** e fare clic su **Avanti**.
 
    d. Immettete il **titolo** e il **nome** come **schermate**.
 
