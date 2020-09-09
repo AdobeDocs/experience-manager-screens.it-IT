@@ -11,14 +11,17 @@ topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
 translation-type: tm+mt
-source-git-commit: cec2a2f8b056bf713e56a9fab08d88e29263820b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 60%
 
 ---
 
 
 # Aggiunta di componenti a un canale{#adding-components-to-a-channel}
 
-I componenti sono gli elementi fondamentali dell'esperienza di AEM (Adobe Experience Manager). Puoi utilizzare una serie di componenti e aggiungerla al canale in un progetto di AEM Screens.
+I componenti sono gli elementi fondamentali dell&#39;esperienza di AEM (Adobe Experience Manager). Puoi utilizzare una serie di componenti e aggiungerla al canale in un progetto di AEM Screens.
 
 ## Componenti in AEM Screens {#components-in-aem-screens}
 
@@ -30,10 +33,10 @@ Ogni volta che crei un progetto AEM Screens, viene visualizzato un elenco dei co
 
 Per visualizzare i componenti standard al progetto Screens, segui i seguenti passaggi:
 
-1. Seleziona il canale. Ad esempio,**We.Retail in Store** --&gt; **Canali** --&gt; **Canale inattivo**.
+1. Seleziona il canale. Ad esempio,**We.Retail in Store** --> **Canali** --> **Canale inattivo**.
 
-1. Fai clic su **Modifica** nella barra delle azioni per aprire l'editor AEM.
-1. Fai clic sull'icona **+** nella barra laterale per aprire i componenti.
+1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor AEM.
+1. Fai clic sull&#39;icona **+** nella barra laterale per aprire i componenti.
 1. Vengono visualizzati tutti i componenti che sono inclusi per impostazione predefinita in un progetto AEM Screens, come mostrato nella figura qui sotto.
 
 ![screen_shot_2017-12-18at21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -42,14 +45,14 @@ Per visualizzare i componenti standard al progetto Screens, segui i seguenti pas
 
 AEM offre una serie di altri componenti. È sempre possibile aggiungere altri componenti (non inclusi per impostazione predefinita) al progetto, purché compatibili con AEM Screens.
 
-L'esempio seguente mostra l'aggiunta di un componente Livefyre a un progetto AEM Screens:
+L&#39;esempio seguente mostra l&#39;aggiunta di un componente Livefyre a un progetto AEM Screens:
 
-1. Seleziona il canale a cui desideri aggiungere un nuovo componente. Ad esempio,**We.Retail in Store** --&gt; **Canali** --&gt; **Canale inattivo**.
+1. Seleziona il canale a cui desideri aggiungere un nuovo componente. Ad esempio,**We.Retail in Store** --> **Canali** --> **Canale inattivo**.
 
-1. Fai clic su **Modifica** nella barra delle azioni per aprire l'editor.
+1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
 1. Select **Design** mode.
-1. Seleziona l'intero editor di progettazione a destra e fai clic sul simbolo delle impostazioni per aprire la finestra di dialogo **Progettazione ParSys**.
-1. Puoi selezionare i componenti che desideri importare nel tuo progetto AEM Screens. L’esempio seguente illustra l’aggiunta del componente **Livefyre** a un progetto AEM Screens.
+1. Seleziona l&#39;intero editor di progettazione a destra e fai clic sul simbolo delle impostazioni per aprire la finestra di dialogo **Progettazione ParSys**.
+1. Puoi selezionare i componenti che desideri importare nel tuo progetto AEM Screens. The following example shows the addition of **Livefyre** component to an AEM Screens project.
 
 ![adding_components](assets/adding_components.gif)
 
@@ -59,30 +62,30 @@ L'esempio seguente mostra l'aggiunta di un componente Livefyre a un progetto AEM
 
 ## Nozioni fondamentali sui componenti AEM Screens {#understanding-aem-screen-components}
 
-Nella sezione seguente sono illustrati i componenti AEM Screens utilizzabili nel progetto.
+Nella sezione seguente sono illustrati i componenti AEM Screens  che è possibile utilizzare nel progetto.
 
 >[!NOTE]
 >
->Per visualizzare le proprietà di qualsiasi componente, seleziona il componente e fai clic sull'icona a martello per aprire/visualizzare le proprietà.
+>Per visualizzare le proprietà di qualsiasi componente, seleziona il componente e fai clic sull&#39;icona a martello per aprire/visualizzare le proprietà.
 
 ### Applicazione {#application}
 
-Il componente **Applicazione** consente di aggiungere un'applicazione al tuo canale.
+Il componente **Applicazione** consente di aggiungere un&#39;applicazione al tuo canale.
 
 Il componente Applicazione ha le seguenti proprietà:
 
 | **Proprietà** | **Descrizione** |
 |---|---|
-| ***Percorso dell'applicazione*** | Seleziona il percorso assoluto in cui si trova l'applicazione. |
-| ***Durata (ms)*** | Seleziona la durata dell'applicazione. Per impostazione predefinita, la durata è impostata su -1, ossia l’elemento viene eseguito per sempre (applicazione a pagina singola). Con il valore durata impostato a &gt;0, si mostra l'elemento per la durata specificata e quindi si passa a quello successiva. |
+| ***Percorso dell&#39;applicazione*** | Seleziona il percorso assoluto in cui si trova l&#39;applicazione. |
+| ***Durata (ms)*** | Seleziona la durata dell&#39;applicazione. Per impostazione predefinita, la durata è impostata su -1, ossia l’elemento viene eseguito per sempre (applicazione a pagina singola). Con il valore durata impostato a >0, si mostra l&#39;elemento per la durata specificata e quindi si passa a quello successiva. |
 
-L'esempio seguente mostra come incorporare il componente applicazione insieme all'anteprima delle sue proprietà:
+L’esempio seguente mostra come incorporare un componente applicazione con l’anteprima delle relative proprietà:
 
 ![adding_components_application](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
->Fai riferimento all'esempio precedente per visualizzare le proprietà di ogni componente qui sotto.
+>Fai riferimento all&#39;esempio precedente per visualizzare le proprietà di ogni componente qui sotto.
 
 ### Canale {#channel}
 
@@ -109,7 +112,7 @@ Il componente Canale ha le seguenti proprietà:
 
 ### Pagina incorporata {#embedded-page}
 
-Una **Pagina incorporata** consente di aggiungere una pagina incorporata al progetto. Ad esempio, è possibile che si tratti di un'applicazione web o un catalogo di prodotti.
+Una **Pagina incorporata** consente di aggiungere una pagina incorporata al progetto. Ad esempio, è possibile che si tratti di un&#39;applicazione web o un catalogo di prodotti.
 
 La pagina incorporata ha le seguenti proprietà:
 
@@ -120,7 +123,7 @@ La pagina incorporata ha le seguenti proprietà:
    <td><strong>Descrizione</strong></td>
   </tr>
   <tr>
-   <td><strong><em>Percorso pagina<br /> </em></strong></td>
+   <td><strong><em>Pagina Percorso<br /> </em></strong></td>
    <td>Questo percorso assoluto in cui si trova il canale.<br /> </td>
   </tr>
   <tr>
@@ -136,7 +139,7 @@ La pagina incorporata ha le seguenti proprietà:
 >
 >Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
 
-Una sequenza incorporata consente di aggiungere un canale per sequenza incorporato all'interno di un canale esistente (con altre risorse).
+Una sequenza incorporata consente di aggiungere un canale per sequenza incorporato all&#39;interno di un canale esistente (con altre risorse).
 
 La Sequenza incorporata ha le seguenti proprietà di pagina:
 
@@ -192,9 +195,9 @@ La sequenza dinamica incorporata ha le seguenti proprietà:
 
 ### Frammento esperienza {#experience-fragment}
 
-Un frammento esperienza consente di aggiungere al canale AEM Screens un frammento esperienza (gruppo di uno o più componenti tra cui contenuto e layout a cui è possibile fare riferimento all’interno delle pagine). Trascina il componente nell’editor AEM e seleziona il frammento esperienza.
+Un frammento esperienza consente di aggiungere un frammento esperienza (gruppo di uno o più componenti, inclusi contenuti e layout a cui è possibile fare riferimento all&#39;interno delle pagine) al canale AEM Screens . Trascinate e rilasciate il componente per AEM editor e selezionate il frammento esperienza.
 
-Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo in un progetto AEM Screens, consultate [Utilizzo dei frammenti](experience-fragments-in-screens.md)esperienza.
+Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo in un progetto AEM Screens , consultare [Utilizzo dei frammenti](experience-fragments-in-screens.md)esperienza.
 
 ![exp](assets/exp.gif)
 
@@ -202,10 +205,10 @@ Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo i
 |---|---|
 | **Frammento esperienza** |
 | ***Frammento esperienza*** | Selezionare il frammento esperienza. |
-| ***Durata*** | Selezionate l'intera durata del frammento esperienza che viene riprodotto nel canale. |
+| ***Durata*** | Selezionate l&#39;intera durata del frammento esperienza che viene riprodotto nel canale. |
 | **Configurazione offline** |
 | ***Librerie lato client*** | File JavaScript e CSS. |
-| ***File statici*** | File statici che puoi aggiungere come configurazioni offline al frammento esperienza. |
+| ***File statici*** | File statici che è possibile aggiungere come configurazioni offline al frammento esperienza. |
 
 >[!NOTE]
 >
@@ -213,7 +216,7 @@ Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo i
 
 ### Immagine {#image}
 
-Un'immagine consente di aggiungere un'immagine al tuo canale.
+Un&#39;immagine consente di aggiungere un&#39;immagine al tuo canale.
 
 La risorsa immagine ha tre schede, ovvero **Immagine**, **Accessibilità** e **Sequenza**:
 
@@ -221,12 +224,12 @@ La risorsa immagine ha tre schede, ovvero **Immagine**, **Accessibilità** e **S
 |---|---|
 | **Immagine** |
 | ***Risorsa immagine*** | Seleziona la risorsa immagine. |
-| ***Titolo*** | Titolo dell'immagine. |
-| ***Collega a*** | Aggiungi un collegamento all'immagine. |
-| ***Descrizione*** | Breve descrizione dell'immagine. |
-| ***Dimensione*** | Dimensioni dell'immagine. |
+| ***Titolo*** | Titolo dell&#39;immagine. |
+| ***Collega a*** | Aggiungi un collegamento all&#39;immagine. |
+| ***Descrizione*** | Breve descrizione dell&#39;immagine. |
+| ***Dimensione*** | Dimensioni dell&#39;immagine. |
 | **Accessibilità** |
-| ***Testo alternativo*** | Testo alternativo all'immagine. |
+| ***Testo alternativo*** | Testo alternativo all&#39;immagine. |
 | **Sequenza** |
 | ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 ms*. Per modificare la durata di riproduzione dell’immagine, aggiornate il campo **Durata** . |
 
