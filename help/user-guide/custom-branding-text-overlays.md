@@ -5,9 +5,9 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Seguite questa pagina per apprendere come applicare il marchio e lo stile person
 
 Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo, effettuate le seguenti operazioni:
 
-1. Creare un progetto AEM Screens. Questo esempio mostra la funzionalità creando un progetto denominato **customstyle** e un canale denominato **DemoBrand** , come illustrato nella figura riportata di seguito.
+1. Creare un progetto AEM Screens . Questo esempio mostra la funzionalità creando un progetto denominato **customstyle** e un canale denominato **DemoBrand** , come illustrato nella figura riportata di seguito.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
@@ -32,7 +32,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
    >[!NOTE]
    >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor canale, consultate Sovrapposizione [](/help/user-guide/text-overlay.md)testo.
 
-1. Andate al CRXDE Lite dall&#39;istanza AEM —> Strumenti —> **CRXDE Lite**.
+1. Andate al CRXDE Lite dall&#39;istanza AEM —> strumenti —> **CRXDE Lite**.
 
 1. È necessario creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`, ad esempio, in questo caso, passare a `/apps/settings/wcm/designs/customstyle/`
 
@@ -99,7 +99,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 È necessario aggiornare gli ACL per queste progettazioni in modo che possano essere scaricati dal lettore.
 
-1. Andate a useradmin e scegliete il percorso `screens-<project>-devices group` e assegnategli l&#39;autorizzazione di lettura per il percorso di progettazione personalizzato.
+1. Passate all&#39;amministratore utente e scegliete il percorso di progettazione personalizzato `screens-<project>-devices group` e assegnategli l&#39;autorizzazione di lettura.
 
 1. Specifica le autorizzazioni di lettura e modifica del `screens-<project>-administrators` gruppo per questo percorso.
 
@@ -109,7 +109,7 @@ Una volta completati i passaggi precedenti, potete aggiornare il file *statis.cs
 
 Per visualizzare la struttura aggiornata alla sovrapposizione di testo, effettuate le seguenti operazioni:
 
-1. Andate al progetto AEM Screens denominato **custom style** —> **Channels** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
+1. Andate al progetto AEM Screens  denominato **custom style** —> **Channels** —> **DemoBrand**. Select the channel and click **Edit** from the action bar to open the editor.
 
 1. Poiché la progettazione è stata aggiunta al campo **Progettazione** , come indicato sopra, fate clic su **Anteprima** per visualizzare lo stile corrente sull&#39;immagine con sovrapposizione di testo.
 
