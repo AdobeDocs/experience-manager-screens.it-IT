@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 42%
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ Per creare un nuovo progetto Screens, procedi come segue:
 
 Il progetto viene creato e vieni riportato al pannello Progetto Screens. Ora puoi selezionare il progetto.
 
-In un progetto, vi sono quattro tipi di cartelle, come illustrato nella figura seguente:
+In un progetto, ci sono cinque tipi di cartelle, come mostrato nella figura seguente:
 
 * **Pianificazioni**
 * **Posizioni**
