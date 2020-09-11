@@ -1,21 +1,24 @@
 ---
-title: Transizione alla piattaforma
-seo-title: Passaggio alla piattaforma per AEM Screens
+title: Transizione verso la piattaforma
+seo-title: Transizione alla piattaforma per  AEM Screens
 description: La pagina descrive Transizione alla piattaforma
 seo-description: La pagina descrive Transizione alla piattaforma
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 3%
 
 ---
 
 
-# Transizione alla piattaforma {#transition-platform}
+# Transizione verso la piattaforma {#transition-platform}
 
 >[!NOTE]
 >
->L'azionista tipico di questa attività è AEM Implementor.
+>Un soggetto tipico per questa attività è un AEM Implementatore.
 
-Poiché il nostro progetto è passato da una visione strategica a una realtà con una struttura wireframe, ora dovremmo iniziare a preparare le attività necessarie per creare effettivamente un progetto Screens in AEM che possiamo implementare.
+Mentre il nostro progetto è passato da una visione strategica a una realtà inquadrata, ora dovremmo iniziare a prepararci per i compiti necessari per creare effettivamente un progetto Screens in AEM che possiamo distribuire.
 
 Ciò includerà la mappatura di configurazioni specifiche della piattaforma a requisiti definiti in modo approssimativo nella fase di prototipazione.
 
@@ -24,13 +27,13 @@ Alcuni esempi includono come e quando utilizzare:
 * **Frammenti** esperienza per la creazione di raggruppamenti di contenuti
 * **Frammenti** di contenuto per la creazione di varianti di testo
 * **Context Hub** per la creazione di archivi di dati esterni, SPA per esperienze interattive
-* **Servizi** OSGI per avvisi di rete
-* **Collegamento** risorse per l'origine di Creative Cloud
-* **Cartelle** di rete per l'allocazione delle risorse
+* **Servizi** OSGi per avvisi di rete
+* **Collegamento** risorse per l&#39;origine Creative Cloud
+* **Cartelle** di rete per l&#39;allocazione delle risorse
 * **Sovrapposizione** testo per dati in tempo reale
 * **Pianificazioni** per i raggruppamenti di canali/visualizzazioni
-* **Flussi** di lavoro per modifiche automatizzate dei contenuti.
+* **Flussi** di lavoro per le modifiche automatizzate dei contenuti.
 
 In questa fase, è importante esaminare tutte le attività e le attività necessarie che richiederanno attenzione e documentarle correttamente in modo che le attività assegnate possano essere correttamente monitorate nella fase di distribuzione.
 
-In questa fase, dovremmo anche esaminare tutte le attività predefinite come possibili candidati all'automazione.
+In questa fase, dovremmo anche esaminare tutte le attività predefinite come possibili candidati all&#39;automazione.
