@@ -1,10 +1,10 @@
 ---
-title: AEM Screens Ruoli e responsabilità del progetto
-seo-title: AEM Screens Ruoli e responsabilità del progetto
-description: La pagina descrive AEM Screens Ruoli e responsabilità del progetto
-seo-description: La pagina descrive AEM Screens Ruoli e responsabilità del progetto
+title: Ruoli e responsabilità  progetto AEM Screens
+seo-title: Ruoli e responsabilità  progetto AEM Screens
+description: La pagina descrive  ruoli e responsabilità del progetto AEM Screens
+seo-description: La pagina descrive  ruoli e responsabilità del progetto AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
 
-In un progetto AEM Screens tipico, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante nel progetto.
+In un tipico progetto AEM Screens , i ruoli vengono ulteriormente affinati in quanto ciascuno di essi svolge un ruolo importante nel progetto.
 
 Il diagramma seguente mostra i ruoli a cui ci riferiremo in tutta la guida.
 
@@ -32,15 +32,15 @@ La sezione seguente fornisce una panoramica sull&#39;audience di destinazione:
 
 ### Adobe {#adobe-audience}
 
-Adobe include  risorse di Adobe Managed Services come CSE (Customer Success Engineer) e Adobe Support.
+ Adobe include le risorse dei servizi gestiti Adobe come CSE (Customer Success Engineer) e  Supporto Adobe.
 
 ### Implementatori di AEM {#aem-implementors}
 
-Gli implementatori AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
+AEM Implementatori sono responsabili dell&#39;esecuzione di attività di sviluppo e integrazione per sviluppare l&#39;esperienza utente, modelli personalizzati e integrazioni back-end per AEM.
 
 Anche le funzioni personalizzate necessarie per risolvere i parametri UX (User Experience) del cliente finale vengono acquisite e distribuite attraverso questo processo.
 
-Gli implementatori di AEM implementano in genere funzionalità personalizzate in più fasi nel tempo e nelle posizioni. Ad esempio, possono innanzitutto stabilire il supporto per la riproduzione di video loop di base o di contenuti grafici statici. La fase successiva potrebbe includere la possibilità di supportare la riproduzione di contenuti localizzati attraverso modelli dinamici e tag di metadati, con fasi aggiuntive che includono il supporto di elementi interattivi tramite schermi touch, sensori, attivatori dinamici e così via.
+AEM Implementatori implementeranno in genere funzionalità personalizzate in più fasi nel tempo per le posizioni. Ad esempio, possono innanzitutto stabilire il supporto per la riproduzione di video loop di base o di contenuti grafici statici. La fase successiva potrebbe includere la possibilità di supportare la riproduzione di contenuti localizzati attraverso modelli dinamici e tag di metadati, con fasi aggiuntive che includono il supporto di elementi interattivi tramite schermi touch, sensori, attivatori dinamici e così via.
 
 ### Integratori AV {#av-integrators}
 
@@ -80,7 +80,7 @@ Creativi e gestione dei contenuti possono essere i seguenti:
 
 ### Manager di progetto {#project-managers}
 
-Generalmente, i project manager gestiscono l&#39;intera distribuzione per la distribuzione dei AEM Screens. Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
+Generalmente, i project manager gestiscono l&#39;intera distribuzione per la distribuzione AEM Screens . Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Per supportare un&#39;implementazione di Digital Signage di successo, è consuet
 >[!NOTE]
 >
 >Mentre questa guida pone l’accento soprattutto sul *Primo giorno* e sul *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
-Seguite un altro video su **[Gestione e distribuzione](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)**dei progetti per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
+Seguite un altro video su **[Gestione e distribuzione](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** dei progetti per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
 
 ## Grafico RACI {#raci-chart}
 
@@ -108,7 +108,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 >[!NOTE]
 >
->Questo grafico non deve essere seguito esattamente ma deve fornire un esempio di attività e considerazioni comuni in un progetto AEM Screens.
+>Questo grafico non deve essere seguito esattamente ma deve fornire un esempio di attività e considerazioni comuni in un progetto AEM Screens .
 
 ### Definizioni RACI {#raci-definitions}
 
@@ -120,7 +120,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 * **Informato**: Mantenuto informato dei progressi compiuti nell&#39;attività, ma non è coinvolto nei dettagli del risultato finale.
 
-Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni dei ruoli e fornisce un esempio di attività e considerazioni comuni in un progetto AEM Screens.
+Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni dei ruoli e fornisce un esempio di attività e considerazioni comuni in un progetto AEM Screens .
 
 La tabella seguente riassume il **Giorno zero: Considerazioni** pre-vendita:
 
@@ -146,12 +146,12 @@ La tabella seguente riassume il **Giorno 1: Implementazione progetto (progettazi
 | Progettazione architettura | I | RA | I | I |
 | Convalida della struttura dati con la progettazione dell&#39;interfaccia utente | I | RA | C | C |
 | Sviluppo di applicazioni | RA | RA | RA | RA |
-| AEM Screens Project Set | I | RA | C | I |
-| Implementazione  Analytics | I | RA | C | - |
+|  configurazione progetto AEM Screens | I | RA | C | I |
+| Implementazione di Analytics | I | RA | C | - |
 | Test e implementazione | RA | C | RA | I |
 | Configurazione server | I | RA | I | I |
 | Piano di aggiornamento dei contenuti | I | RA | C | C |
-| Piano di transizione pilota alla produzione | RA | RA | I | I |
+| Piano per la transizione pilota alla produzione | RA | RA | I | I |
 | Trasferimento delle conoscenze | RA | RA | I | I |
 
 La tabella seguente riassume il **Giorno 1: Implementazione del progetto (preparazione al dettaglio)**:
@@ -181,7 +181,7 @@ La tabella seguente riassume il **Giorno 1: Primo giorno: Implementazione proget
 
 * **Autore**: Gestione dei contenuti + Strategia
 
-* **Sviluppatore**: In genere un membro del team di implementazione AEM Screens o un passaggio al team di sviluppo interno
+* **Sviluppatore**: In genere un membro del team di implementazione di AEM Screens  o un passaggio a un team di sviluppo interno
 
 * **Tecnico**: Contratto dall&#39;integratore AV o fa parte della stessa azienda.
 
