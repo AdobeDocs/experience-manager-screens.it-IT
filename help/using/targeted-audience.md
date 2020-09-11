@@ -1,10 +1,10 @@
 ---
-title: Target Audience
-seo-title: Pubblico Target per AEM Screens
-description: La pagina descrive gli utenti target per la Guida alle best practice per i AEM Screens
-seo-description: La pagina descrive gli utenti target per la Guida alle best practice per i AEM Screens
+title: Destinatari Target
+seo-title: Destinatari Target per  AEM Screens
+description: La pagina descrive gli utenti target per  Guida alle best practice di AEM Screens
+seo-description: La pagina descrive gli utenti target per  Guida alle best practice di AEM Screens
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 5%
@@ -12,19 +12,18 @@ ht-degree: 5%
 ---
 
 
-# Target Audience {#target-audience}
+# Destinatari Target {#target-audience}
 
 In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
 
-In un progetto AEM Screens tipico, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante nel progetto.
+In un tipico progetto AEM Screens , i ruoli vengono ulteriormente affinati in quanto ciascuno di essi svolge un ruolo importante nel progetto.
 
 Il diagramma seguente mostra i ruoli a cui ci riferiremo in tutta la guida.
 
 ![](/help/assets/roles-used.png)
 
 >[!NOTE]
->
->Molti di questi ruoli potrebbero essere interni o esternalizzati, a seconda della configurazione di ciascun progetto.
+>Molti di questi ruoli potrebbero essere interni o esternalizzati, a seconda di come viene configurato ogni progetto.
 
 ## Definizione dei ruoli {#roles}
 
@@ -32,15 +31,15 @@ La sezione seguente fornisce una panoramica sull&#39;audience di destinazione:
 
 ### Adobe {#adobe-audience}
 
-Adobe include  risorse di Adobe Managed Services come CSE (Customer Success Engineer) e Adobe Support.
+ Adobe include le risorse dei servizi gestiti Adobe come CSE (Customer Success Engineer) e  Supporto Adobe.
 
 ### Implementatori di AEM {#aem-implementors}
 
-Gli implementatori AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
+AEM Implementatori sono responsabili dell&#39;esecuzione di attività di sviluppo e integrazione per sviluppare l&#39;esperienza utente, modelli personalizzati e integrazioni back-end per AEM.
 
 Anche le funzioni personalizzate necessarie per risolvere i parametri UX (User Experience) del cliente finale vengono acquisite e distribuite attraverso questo processo.
 
-Gli implementatori di AEM implementano in genere funzionalità personalizzate in più fasi nel tempo e nelle posizioni. Ad esempio, possono innanzitutto stabilire il supporto per la riproduzione di video loop di base o di contenuti grafici statici. La fase successiva potrebbe includere la possibilità di supportare la riproduzione di contenuti localizzati attraverso modelli dinamici e tag di metadati, con fasi aggiuntive che includono il supporto di elementi interattivi tramite schermi touch, sensori, attivatori dinamici e così via.
+AEM Implementatori implementeranno in genere funzionalità personalizzate in più fasi nel tempo per le posizioni. Ad esempio, possono innanzitutto stabilire il supporto per la riproduzione di video loop di base o di contenuti grafici statici. La fase successiva potrebbe includere la possibilità di supportare la riproduzione di contenuti localizzati attraverso modelli dinamici e tag di metadati, con fasi aggiuntive che includono il supporto di elementi interattivi tramite schermi touch, sensori, attivatori dinamici e così via.
 
 ### Integratori AV {#av-integrators}
 
@@ -66,8 +65,7 @@ Creativi e gestione dei contenuti possono essere uno dei seguenti:
 
 ### Manager di progetto {#project-managers}
 
-Generalmente, i project manager gestiscono l&#39;intera distribuzione per la distribuzione dei AEM Screens. Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
+Generalmente, i project manager gestiscono l&#39;intera distribuzione per la distribuzione AEM Screens . Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
 >[!NOTE]
->
 >Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita Ruoli e responsabilità del **[progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
