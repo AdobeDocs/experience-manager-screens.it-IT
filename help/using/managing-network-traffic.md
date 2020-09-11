@@ -2,7 +2,7 @@
 title: Gestione del traffico di rete
 description: La pagina descrive le impostazioni di rete standard e come gestire il traffico di rete.
 translation-type: tm+mt
-source-git-commit: 173ce977549ed64e3750bb751a8fe1b27e277aa2
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -17,10 +17,8 @@ Una configurazione di rete può avere diverse strutture. Questa sezione descrive
 Questa guida presenta un&#39;introduzione ai server proxy, seguiti dalle diverse strutture di rete configurate all&#39;interno di diverse organizzazioni.
 
 >[!NOTE]
->
->**Requisiti di rete AEM Screens**
->
->I AEM Screens comunicano direttamente con AEM come Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono assolutamente obbligatori per l&#39;accesso a Internet commerciale e come cliente devi capire quali porte di comunicazione devono essere aperte in questi firewall e altri componenti di rete relativi alla sicurezza IT.
+>**di rete AEM Screens**
+>Il  AEM Screens comunica direttamente con il AEM come Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono assolutamente obbligatori per l&#39;accesso a Internet commerciale e come cliente devi capire quali porte di comunicazione devono essere aperte in questi firewall e altri componenti di rete relativi alla sicurezza IT.
 
 ## Panoramica sui server proxy {#proxy-servers}
 
@@ -28,7 +26,7 @@ Una connessione Internet si basa sull&#39;utilizzo di un server proxy. Un server
 
 Un vantaggio di un server proxy è rappresentato dal fatto che la cache può essere utilizzata da tutti gli utenti. Se uno o più siti Internet sono frequentemente richiesti, è probabile che si trovino nella cache del proxy e questo migliora ulteriormente il tempo di risposta dell&#39;utente. Un proxy può anche registrare le proprie interazioni, che possono essere utilizzate per la risoluzione dei problemi.
 
-Quando un server proxy riceve una richiesta per una risorsa Internet (ad esempio una pagina Web o durante la connessione a un server di pubblicazione AEM), esegue la scansione della cache locale degli URL precedentemente denominati URL. Se la pagina viene trovata, viene restituita all’utente senza inoltrare la richiesta a Internet. Se la pagina non è presente nella cache, il server proxy (funge da client) per conto dell’utente e richiede la pagina dal server in Internet. Quando il contenuto viene restituito, il server proxy lo collega alla richiesta originale e lo inoltra all&#39;utente.
+Quando un server proxy riceve una richiesta per una risorsa Internet (ad esempio una pagina Web o durante la connessione a un AEM Publisher), analizza la cache locale degli URL precedentemente denominati URL. Se la pagina viene trovata, viene restituita all’utente senza inoltrare la richiesta a Internet. Se la pagina non è presente nella cache, il server proxy (funge da client) per conto dell’utente e richiede la pagina dal server in Internet. Quando il contenuto viene restituito, il server proxy lo collega alla richiesta originale e lo inoltra all&#39;utente.
 
 ## Informazioni sulle impostazioni di rete standard {#network-setups}
 
