@@ -4,7 +4,10 @@ seo-title: 'Tassonomia del progetto '
 description: Questa pagina descrive la tassonomia del progetto
 seo-description: La pagina descrive la tassonomia del progetto
 translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 12%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 
 >[!NOTE]
 >
->L'azionista tipico di questa attività è AEM Implementor.
+>Un soggetto tipico per questa attività è un AEM Implementatore.
 
-Prima di creare un progetto AEM Screens, è importante comprendere e mettere in strategia tutti i componenti definiti nella fase di wireframe UX del progetto.
+Prima di creare un progetto AEM Screens , è importante comprendere e strategizzare tutti i componenti definiti nella fase di wireframe UX del progetto.
 
-Prima di implementare la soluzione di digital signage AEM Screens, tieni in considerazione i seguenti elementi:
+Prima di implementare la soluzione di digital signage  AEM Screens, è necessario considerare i seguenti elementi:
 
 * **Posizioni**
 * **MediaZones**
@@ -29,21 +32,21 @@ Per ulteriori informazioni su questi termini, consultare il [Glossario](https://
 
 >[!NOTE]
 >
->È consigliabile prendere in considerazione l'utilizzo di:
+>È consigliabile prendere in considerazione l&#39;utilizzo di:
 >
 >* database delle risorse hardware per la compilazione automatica di un progetto Screens
->* file di configurazione del testo per puntare automaticamente ogni lettore a un'istanza specifica di AEM
+>* file di configurazione del testo per puntare automaticamente ogni lettore a un&#39;istanza specifica di un AEM
 
 
-## Implementazione di un progetto AEM Screens {#creating-a-project}
+## Implementazione di un progetto AEM Screens  {#creating-a-project}
 
-L'autore di AEM Screens è responsabile della creazione e gestione di un'esperienza utente utilizzando i componenti disponibili in AEM Screens. L'autore crea e rivede il contenuto e fornisce un'interfaccia utente grafica facile da usare configurando, implementando e integrando i segmenti disponibili di AEM Screens.
+Un autore  AEM Screens è responsabile della creazione e gestione di un’esperienza utente utilizzando i componenti disponibili in  AEM Screens. L’autore crea e rivede il contenuto e fornisce un’interfaccia utente grafica facile da usare configurando, implementando e integrando i segmenti disponibili di  AEM Screens.
 
 >[!NOTE]
 >
 >Un autore crea i canali dalle sequenze specificate e conosce il pubblico a cui si rivolge la campagna e l’interesse desiderato. Di conseguenza, un autore di AEM Screens orchestra e crea l’esperienza utente tramite la creazione di diversi canali e l’assegnazione di sequenze nell’esperienza per canali sincronizzata.
 
-Un autore inizia in genere un progetto AEM Screens con:
+Un autore inizia in genere un progetto AEM Screens :
 
 * [creazione di un progetto AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
 * [creazione di canali](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
@@ -55,5 +58,4 @@ Un autore inizia in genere un progetto AEM Screens con:
 * [visualizzazione del contenuto in un lettore AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->
->Inoltre, potete importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens. Per ulteriori informazioni, consulta [New Project Importer from File (Importazione progetti da file](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) ).
+>Inoltre, potete importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens . Per ulteriori informazioni, consulta [New Project Importer from File (Importazione progetti da file](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) ).
