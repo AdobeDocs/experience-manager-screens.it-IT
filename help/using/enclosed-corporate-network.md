@@ -2,7 +2,7 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -17,11 +17,11 @@ La configurazione della rete aziendale è applicabile alle aziende più piccole,
 ![](/help/using/assets/enclosed-network-1.png)
 
 
-## Collegamento del lettore AEM Screens a Direct Internet Access {#connecting-aem-screens-players}
+## Connessione  AEM Screens Player a Direct Internet Access {#connecting-aem-screens-players}
 
-Segui i passaggi indicati di seguito per garantire la corretta connessione dei lettori dello schermo AEM in questa configurazione:
+Seguire i passaggi indicati di seguito per garantire la corretta connessione dei lettori AEM dello schermo in questa configurazione:
 
-1. Accertatevi che ciascuno dei lettori dello schermo AEM sia collegato alla rete Routers.
+1. Assicurarsi che ciascuno dei lettori AEM dello schermo sia collegato alla rete Routers.
 1. Verificate la connessione Internet chiamando un URL nel browser del sistema.
 
    >[!NOTE]
@@ -33,11 +33,11 @@ Segui i passaggi indicati di seguito per garantire la corretta connessione dei l
 1. Assicurarsi che l&#39;impostazione della scheda di rete corrisponda alle impostazioni del router e verificare che la quantità massima di indirizzi IP disponibili nella rete non sia raggiunta.
 
 1. Verificare che il router sia connesso correttamente alla rete Internet Wide Area Network (Internet Link). Questo può essere identificato anche utilizzando un LED di segnale su router standard.
-1. Se la chiamata URL ha esito positivo, potete continuare a installare gli AEM Screens e registrarvi. AEM Screens iniziali.
+1. Se la chiamata URL ha esito positivo, potete continuare a installare l’AEM Screens  e registrarvi. Avviate  AEM Screens.
 
    >[!NOTE]
    >**Suggerimenti per la risoluzione dei problemi**
-   >Se i AEM Screens non si connettono correttamente e il contenuto previsto non viene visualizzato:
+   >Se  AEM Screens non si collega correttamente e il contenuto previsto non viene visualizzato:
    >
    >1. Se sono presenti restrizioni, controllate il firewall Internet Router `TCP/IP Port 80/443`.
    >1. Accertatevi che tutte le porte necessarie siano consentite.
@@ -52,8 +52,8 @@ La configurazione della rete aziendale chiusa può essere logicamente separata i
 
 ### Ampia rete di reti {#wan-connection}
 
-Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire la corretta esecuzione degli aggiornamenti dei contenuti AEM Screens.
-*Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM connessi e dall’utilizzo di altri utenti della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
+Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per funzionare  gli aggiornamenti dei contenuti AEM Screens senza problemi.
+*Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Le prestazioni della connessione Internet, oltre alla raggiungibilità della ret
 
 ### Rete locale {#lan-connection}
 
-Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire l&#39;esecuzione corretta degli aggiornamenti dei contenuti AEM Screens.
+Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per operare  gli aggiornamenti dei contenuti AEM Screens senza problemi.
 
 La rete LAN all&#39;interno delle organizzazioni aziendali è generalmente di almeno 1000 MBit/sec di rete, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. L&#39;utilizzo di altri componenti di rete attivi richiede che tutti questi componenti soddisfino i requisiti di larghezza di banda della rete.
 
@@ -77,7 +77,7 @@ Altre tecnologie ripetute Wi-Fi finiscono con una massiccia perdita di larghezza
 
 ## Download di file multimediali e risorse {#download}
 
-I AEM Screens offrono un grande vantaggio agli utenti del digital signage. Consente di scaricare e salvare localmente tutti i file multimediali necessari, come immagini e video. Il traffico di rete principale si verifica in presenza di nuovo contenuto da visualizzare su un display specifico.
+ AEM Screens offre un grande vantaggio agli utenti del digital signage. Consente di scaricare e salvare localmente tutti i file multimediali necessari, come immagini e video. Il traffico di rete principale si verifica in presenza di nuovo contenuto da visualizzare su un display specifico.
 
 Per le normali operazioni, ad esempio, una playlist definita che si aggiorna frequentemente durante il giorno, offre un funzionamento indipendente dalla rete, una volta salvati tutti i file sul lettore.
 
@@ -86,7 +86,6 @@ Per gli scenari in cui ci sono più interazioni con sensori o attivatori e conte
 La tabella seguente fornisce una panoramica sui dati chiave della connettività di rete.
 
 >[!NOTE]
->
 >Le informazioni consentono di visualizzare l&#39;uso di ciascun dispositivo nella rete che richiede e scarica un&#39;origine Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/using/assets/enclosed-network-download.png)
