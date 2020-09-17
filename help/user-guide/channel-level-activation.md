@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: dec7f93381bf37564353b76dd3c5f84ba169dd42
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Supponete di voler visualizzare il contenuto di un canale solo il venerdì dall&
 1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -199,7 +199,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -226,7 +226,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -251,7 +251,7 @@ Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le no
 1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
 1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
