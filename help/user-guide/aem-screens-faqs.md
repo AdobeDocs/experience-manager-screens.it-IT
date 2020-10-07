@@ -6,7 +6,7 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
+source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 2%
@@ -129,7 +129,7 @@ Seguite i passaggi indicati di seguito per attivare Stay Awake su qualsiasi lett
 
 Nessuna modalità finestra nel lettore Windows. È sempre la modalità a schermo intero.
 
-### 5. Come risolvere i problemi relativi all&#39;invio continuo di richieste di login da parte di un lettore Screens?{#requests-login}
+### 5. Come risolvere il problema se un lettore AEM Screens  invia continuamente le richieste di login?{#requests-login}
 
 Per risolvere eventuali problemi relativi a un lettore AEM Screens  che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
