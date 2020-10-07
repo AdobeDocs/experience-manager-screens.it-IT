@@ -6,9 +6,9 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 4d937ff4cbf05c61c8e38a0d09bb789c12a7a226
+source-git-commit: fc923553c3813e6fd659df641f2e4363f0907827
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1483'
 ht-degree: 2%
 
 ---
@@ -125,9 +125,23 @@ Seguite i passaggi indicati di seguito per attivare Stay Awake su qualsiasi lett
 1. Vai a Opzioni **sviluppatore**
 1. Abilita **veglia**
 
-### 4. Come attivare la modalità finestra per il lettore Windows?
+### 4. Come attivare la modalità finestra per il lettore Windows?{#enable-player}
 
 Nessuna modalità finestra nel lettore Windows. È sempre la modalità a schermo intero.
+
+### 5. Come risolvere i problemi relativi all&#39;invio continuo di richieste di login da parte di un lettore Screens?{#requests-login}
+
+Per risolvere eventuali problemi relativi a un lettore AEM Screens  che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
+
+1. Quando  lettore AEM Screens viene avviato, effettua una richiesta a `/content/screens/svc.json`, quando il lettore riceve un codice di stato 404 nella risposta, il lettore avvia una richiesta di autenticazione da autenticare utilizzando `/libs/granite/core/content/login.validate/j_security_check` l’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo su `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+
+1. Verifica se la configurazione del dispatcher consente queste richieste nella `/filters` sezione. Per ulteriori informazioni, consulta [Configurazione dei filtri](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) per le schermate.
+
+1. Verificare che le regole di riscrittura dispatcher stiano riscritgendo uno dei percorsi delle schermate in un percorso diverso.
+
+1. Verificate di disporre di `/etc/map` regole sull’istanza di *creazione* o *pubblicazione* e i percorsi delle schermate corrispondano `sling:match` e vengono reindirizzati internamente a un percorso diverso. La risoluzione dell’URL esatto in /`system/console/jcrresolver` aiuta a identificare se l’istanza di *pubblicazione* sta riscrivendo gli URL in qualsiasi altro percorso.
+
+1. Verificate di disporre di configurazioni Apache Sling Resource Resolver Factory che causano riscritture interne.
 
 ## Suggerimenti generali per la risoluzione dei problemi {#general-troubleshooting-tips}
 
