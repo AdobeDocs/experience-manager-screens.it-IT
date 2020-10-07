@@ -6,9 +6,9 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: b4f9acb68aca05ed3f6b040910742c245923dace
+source-git-commit: 7f897f969e7ca9c9c478b885cf716303bbbe5049
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -133,15 +133,16 @@ Nessuna modalità finestra nel lettore Windows. È sempre la modalità a schermo
 
 Per risolvere eventuali problemi relativi a un lettore AEM Screens  che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Quando  lettore AEM Screens viene avviato, effettua una richiesta a `/content/screens/svc.json`, quando il lettore riceve un codice di stato 404 nella risposta, il lettore avvia una richiesta di autenticazione da autenticare utilizzando `/libs/granite/core/content/login.validate/j_security_check` l’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo su `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+1. Quando  lettore AEM Screens viene avviato, effettua una richiesta a `/content/screens/svc.json`, quando il lettore riceve un codice di stato 404 nella risposta, il lettore avvia una richiesta di autenticazione da autenticare `/libs/granite/core/content/login.validate/j_security_check` rispetto all’istanza di *pubblicazione* . Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo su `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
-1. Verifica se la configurazione del dispatcher consente queste richieste nella `/filters` sezione. Per ulteriori informazioni, consulta [Configurazione dei filtri](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) per le schermate.
+1. Verifica se la configurazione del dispatcher consente queste richieste nella `/filters` sezione.
+Per ulteriori informazioni, consulta [Configurazione dei filtri](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) per le schermate.
 
 1. Verificare che le regole di riscrittura dispatcher stiano riscritgendo uno dei percorsi delle schermate in un percorso diverso.
 
-1. Verificate di disporre di `/etc/map` regole sull’istanza di *creazione* o *pubblicazione* e i percorsi delle schermate corrispondano `sling:match` e vengono reindirizzati internamente a un percorso diverso. La risoluzione dell’URL esatto in /`system/console/jcrresolver` aiuta a identificare se l’istanza di *pubblicazione* sta riscrivendo gli URL in qualsiasi altro percorso.
+1. Verificate di disporre di `/etc/map` regole sull’istanza di *creazione* o *pubblicazione* e i percorsi delle schermate corrispondano `sling:match` e vengono reindirizzati internamente a un percorso diverso. La risoluzione dell’URL esatto in `/system/console/jcrresolver` aiuta a identificare se l’istanza di *pubblicazione* sta riscrivendo gli URL in qualsiasi altro percorso.
 
-1. Verificate di disporre di configurazioni Apache Sling Resource Resolver Factory che causano riscritture interne.
+1. Verificare se la configurazione di Apache Sling Resource Resolver Factory sta causando riscritture interne.
 
 ## Suggerimenti generali per la risoluzione dei problemi {#general-troubleshooting-tips}
 
