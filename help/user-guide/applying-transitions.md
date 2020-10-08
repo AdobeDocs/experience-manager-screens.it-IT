@@ -6,7 +6,7 @@ seo-description: Segui questa pagina per apprendere come applicare le transizion
 uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 8492bdd071ae029a68ec4a4983c79ce326cac38b
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -25,13 +25,13 @@ Questa sezione descrive come applicare il componente **Transizione** tra risorse
 
 ## Aggiunta di un componente di transizione alle risorse di un canale {#adding-transition}
 
-Per aggiungere un componente di transizione al progetto AEM Screens, effettuate le seguenti operazioni:
+Per aggiungere un componente di transizione al progetto AEM Screens  effettuate le seguenti operazioni:
 
 >[!NOTE]
 >
 >**Prerequisiti**
 >
-> Create un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, configurate una posizione e una visualizzazione per visualizzare l&#39;output.
+>Create un progetto  AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, configurate una posizione e uno schermo per visualizzare l&#39;output.
 
 1. Andate al Channel **TestTransition** e fate clic su **Edit** dalla barra delle azioni.
 
