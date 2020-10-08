@@ -3,7 +3,7 @@ title: Assegnazione canale - Ultimo FP
 seo-title: Assegnazione canale - Ultimo FP
 description: Segui questa pagina per saperne di più sull'assegnazione dei canali e la suddivisione dei giorni.
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 22%
@@ -14,6 +14,7 @@ ht-degree: 22%
 # Assegnazione dei canali {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >In questa sezione vengono evidenziati l’assegnazione dei canali e la programmazione dei canali per AEM Feature Pack 6.5.5 Screens e versioni successive.
 
 Una volta configurato uno schermo, è necessario assegnare un canale a uno schermo per visualizzare il contenuto.
@@ -21,6 +22,7 @@ Una volta configurato uno schermo, è necessario assegnare un canale a uno scher
 Questa pagina mostra l’assegnazione di un canale al display, le proprietà del canale e DayParting.
 
 >[!NOTE]
+>
 >Potete assegnare più canali a uno schermo.
 
 
@@ -78,12 +80,14 @@ Una volta completata la configurazione del progetto, dovete assegnare il canale 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
+   >
    >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
 1. Dall&#39;opzione **Pianificazione** , selezionate la finestra **** Attivazione e la pianificazione ****ricorrenza.
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
+   >
    >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
 1. Dopo aver configurato le preferenze, fate clic su **Salva** .
@@ -137,6 +141,7 @@ Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato 
 La priorità viene usata per ordinare le assegnazioni nel caso in cui più utenti corrispondano ai criteri di riproduzione. Quella con il valore più alto avrà sempre la precedenza su quella con i valori più bassi. Ad esempio, se ci sono due canali A e B, A ha una priorità di 1 e B ha una priorità di 2, viene quindi visualizzato il canale B, che ha una priorità maggiore di A.
 
 >[!NOTE]
+>
 >La priorità per un canale è impostata come numero (1 corrisponde alla priorità minima) nella finestra di dialogo **Assegnazione canale**, come detto sopra. Inoltre, i canali assegnati vengono ordinati in base a una priorità decrescente.
 
 ### Eventi supportati {#supported-events-channel}
@@ -157,13 +162,14 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
 
 * **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, potete interrompere la riproduzione e aggiornare o riprodurre immediatamente il nuovo contenuto
 * **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
+
    >[!NOTE]
    >Per impostazione predefinita, questa opzione è selezionata.
+
 * **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, potete aspettare che l&#39;intera sequenza raggiunga la fine, e subito prima della sequenza desiderata, tornate al primo elemento, aggiornate o riproducete il nuovo contenuto
 
    >[!NOTE]
    >Utilizzando la seconda o la terza opzione è possibile che i tempi di programmazione definiti per l&#39;assegnazione vengano leggermente posticipati, in quanto il lettore aspetterà la fine dell&#39;elemento o della sequenza (dopo il tempo specificato) prima di effettuare l&#39;aggiornamento. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
-
 
 Le seguenti proprietà sono impostate dall&#39;opzione **Pianificazione** nella finestra di dialogo Assegnazione **** canale.
 
@@ -220,4 +226,3 @@ Questo esempio mostra la DayParting implementata in un casinò dove l&#39;evento
 >[!NOTE]
 >
 >Inoltre, puoi definire la ***Priorità*** per ciascuno dei canali. Ad esempio, se due canali sono impostati per lo stesso giorno e la stessa ora o per lo stesso mese, il canale con priorità più alta viene riprodotto per primo. Il valore minimo per la priorità può essere impostato su 0.
-
