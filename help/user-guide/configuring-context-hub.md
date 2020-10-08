@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 9a26b5cd-b957-4df7-9b5b-f57e32b4196a
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 1%
@@ -68,6 +68,7 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
 ![immagine](/help/user-guide/assets/context-hub/context-hub2.png)
 
 >[!NOTE]
+>
 >L’esempio specifico riportato di seguito mostra i fogli di Google come un archivio dati che attiverà la modifica delle risorse se il valore è superiore a 100 o inferiore a 50.
 
 ## Passaggio 2: Impostazione delle configurazioni dello store {#step-setting-store-configurations}
@@ -96,19 +97,21 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
       ![immagine](/help/user-guide/assets/context-hub/context-hub5.png)
 
       >[!CAUTION]
+      >
       >Come parte del Feature Pack 4 AEM 6.5 o del Feature Pack 8 AEM 6.4, i clienti devono effettuare l’aggiornamento `/conf/screens/settings/cloudsettings` a `sling:Folder`.
-      > 
+      >
       >Effettua le seguenti operazioni:
       >
       >1. Passate al CRXDE Lite e quindi a `/conf/screens/settings/cloudsettings`.
       >1. Controlla se `cloudsettings jcr:primaryType` è in `sling:Folder`. Se il `jcr:primaryType` file non è in `sling:folder`, procedere con i passaggi successivi.
-      > 1. Fai clic con il pulsante destro del mouse `/conf/screens/settings` e crea un nuovo nodo con *nome* come **cloud settings1** e *Tipo* come **sling:Folder** e salva le modifiche.
+      >1. Fai clic con il pulsante destro del mouse `/conf/screens/settings` e crea un nuovo nodo con *nome* come **cloud settings1** e *Tipo* come **sling:Folder** e salva le modifiche.
       >1. Sposta tutti i nodi sotto `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
       >1. Elimina `cloudsettings` e salva.
       >1. Rinomina `cloudsettings1` in `cloudsettings` e salva.
       >1. A questo punto è necessario osservare che /conf/screens/settings/cloud settings ha `jcr:primaryType` lo stesso valore `sling:Folder`.
-Prima o dopo l’aggiornamento, effettuate le seguenti operazioni in fase di creazione e pubblicazione.
 
+      >
+      >Prima o dopo l’aggiornamento, effettuate le seguenti operazioni in fase di creazione e pubblicazione.
 
    1. Immettete il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **** **** come contexthub.Generic-jsonp e fate clic su Next.
 
@@ -116,8 +119,6 @@ Prima o dopo l’aggiornamento, effettuate le seguenti operazioni in fase di cre
       >Se utilizzate Adobe Experience Manager (AEM) 6.4, immettete il Titolo **** configurazione come **foglio di calcolo** e il Tipo **** store come **contexthub.Generic-jsonp**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub6.png)
-
-
 
    1. Immettete la configurazione json specifica. Ad esempio, potete utilizzare il seguente json a scopo dimostrativo e fare clic su **Salva** . Verrà visualizzata la configurazione dello store denominata **Google Sheets** nella configurazione ContextHub.
 
@@ -142,10 +143,11 @@ Prima o dopo l’aggiornamento, effettuate le seguenti operazioni in fase di cre
 
       >[!NOTE]
       Nel codice di esempio sopra, **pollInterval** definisce la frequenza con cui i valori vengono aggiornati (in ms).
-Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
+      Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
 
       >[!CAUTION]
       Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella globale (ad esempio nella cartella del progetto), il targeting non funzionerà.
+
 
 1. **Impostazione della segmentazione dello store**
 
