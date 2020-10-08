@@ -4,7 +4,7 @@ seo-title: Ruoli e responsabilità  progetto AEM Screens
 description: La pagina descrive  ruoli e responsabilità del progetto AEM Screens
 seo-description: La pagina descrive  ruoli e responsabilità del progetto AEM Screens
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 11%
@@ -92,15 +92,14 @@ Generalmente, i project manager gestiscono l&#39;intera distribuzione per la dis
 Per supportare un&#39;implementazione di Digital Signage di successo, è consuetudine segmentare il progetto in 3 fasi.  Tali fasi sono comunemente denominate **Giorni**. Non si tratta di giornate letterali, ma di designazioni per ogni fase importante del progetto.
 
 1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e scoperta necessarie per definire completamente l&#39;ambito del progetto.
-
 1. La seconda fase, *Primo* giorno, si riferisce a tutte le attività incluse nello sforzo di implementazione.
-
 1. La terza e ultima fase *Giorno due* fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione complessiva.
 
 >[!NOTE]
 >
 >Mentre questa guida pone l’accento soprattutto sul *Primo giorno* e sul *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
-Seguite un altro video su **[Gestione e distribuzione](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** dei progetti per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
+>
+>Seguite un altro video su **[Gestione e distribuzione](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** dei progetti per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
 
 ## Grafico RACI {#raci-chart}
 
