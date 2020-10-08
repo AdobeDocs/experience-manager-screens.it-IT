@@ -4,7 +4,7 @@ seo-title: Supporto post-avvio per  AEM Screens
 description: La pagina descrive la Guida alle procedure ottimali per  AEM Screens per il supporto post-lancio
 seo-description: La pagina descrive la Guida alle procedure ottimali per  AEM Screens per il supporto post-lancio
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 7%
@@ -29,10 +29,12 @@ Inoltre, per prepararsi al successo a lungo termine, è fondamentale stabilire u
 
 >[!NOTE]
 >
-> È necessario definire i parametri operativi in anticipo inclusi nei budget operativi, nonché allineare le responsabilità con l&#39;implementazione AEM e con l&#39;integratore AV.
-L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata? Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali. 
-L’applicazione è altamente visibile alla dirigenza esecutiva del cliente finale? Siti con elevata visibilità possono meritare trattamenti diversi.
-L&#39;applicazione è fondamentale per le operazioni aziendali, come le schede di menu nelle catene di fast food? In questi casi, il cliente finale può richiedere risoluzioni sul posto con tempi di risposta molto brevi, nonché la ridondanza nell&#39;hardware di riproduzione.
+>È necessario definire i parametri operativi in anticipo inclusi nei budget operativi, nonché allineare le responsabilità con l&#39;implementazione AEM e con l&#39;integratore AV.
+>
+>* L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata? Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
+>* L’applicazione è altamente visibile alla dirigenza esecutiva del cliente finale? Siti con elevata visibilità possono meritare trattamenti diversi.
+>* L&#39;applicazione è fondamentale per le operazioni aziendali, come le schede di menu nelle catene di fast food? In questi casi, il cliente finale può richiedere risoluzioni sul posto con tempi di risposta molto brevi, nonché la ridondanza nell&#39;hardware di riproduzione.
+
 
 ## Considerazioni e query post-avvio {#considerations-queries}
 
