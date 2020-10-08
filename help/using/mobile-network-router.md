@@ -2,7 +2,7 @@
 title: Rete mobile con Mobile Data Router e Componenti di rete attivi
 description: La pagina descrive Mobile Network con Mobile Data Router e Active Network Components
 translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -80,7 +80,8 @@ Mentre considera quale rete dati utilizzare, si consiglia di rispondere alle seg
 >[!NOTE]
 >
 >Il pacchetto dati necessario deve essere almeno:
-`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
+>
+>`Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
 >[!IMPORTANT]
 >
@@ -107,6 +108,3 @@ Le tabelle che seguono offrono una buona panoramica dei dati chiave di connettiv
 >Tutte le informazioni si riferiscono al consumo di ogni dispositivo nella rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il tempo di download.
 
 ![](/help/using/assets/mobile-router-download.png)
-
-
-
