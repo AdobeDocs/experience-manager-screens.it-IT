@@ -6,7 +6,7 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 273b537728077a309ca3bfa928ae5fc729957305
+source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 2%
@@ -136,7 +136,8 @@ Per risolvere eventuali problemi relativi a un lettore AEM Screens  che invia co
 1. Quando  lettore AEM Screens inizia, lo richiede a `/content/screens/svc.json`. Quando il lettore riceve un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` l’istanza di *pubblicazione* . Se nell’istanza di *pubblicazione* è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo su `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
 1. Verificate se la configurazione del dispatcher consente queste richieste nel `/filters`.
-Per ulteriori informazioni, consulta [Configurazione dei filtri](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) per le schermate.
+
+   Per ulteriori informazioni, consulta [Configurazione dei filtri](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) per le schermate.
 
 1. Verificare che le regole di riscrittura dispatcher stiano riscritgendo uno dei percorsi delle schermate in un percorso diverso.
 
