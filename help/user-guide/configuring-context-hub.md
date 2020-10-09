@@ -90,6 +90,7 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
    1. **Andate** a **ContextHubDemo** > **Crea** configurazione **** ContentHub e fate clic su **Salva**.
 
       >[!NOTE]
+      >
       > Dopo aver fatto clic su **Salva** , verrete visualizzati nella schermata Configurazione **** ContextHub.
 
    1. Dalla schermata Configurazione **** ContextHub, fate clic su **Crea** > Configurazione **ContentHub Store.**
@@ -109,13 +110,13 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
       >1. Elimina `cloudsettings` e salva.
       >1. Rinomina `cloudsettings1` in `cloudsettings` e salva.
       >1. A questo punto è necessario osservare che /conf/screens/settings/cloud settings ha `jcr:primaryType` lo stesso valore `sling:Folder`.
-
       >
       >Prima o dopo l’aggiornamento, effettuate le seguenti operazioni in fase di creazione e pubblicazione.
 
    1. Immettete il **Titolo** come **Google Sheets**, **Store Name** as **googlesheets**, e **Store Type** **** **** come contexthub.Generic-jsonp e fate clic su Next.
 
       >[!CAUTION]
+      >
       >Se utilizzate Adobe Experience Manager (AEM) 6.4, immettete il Titolo **** configurazione come **foglio di calcolo** e il Tipo **** store come **contexthub.Generic-jsonp**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub6.png)
@@ -123,6 +124,7 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
    1. Immettete la configurazione json specifica. Ad esempio, potete utilizzare il seguente json a scopo dimostrativo e fare clic su **Salva** . Verrà visualizzata la configurazione dello store denominata **Google Sheets** nella configurazione ContextHub.
 
       >[!IMPORTANT]
+      >
       >Sostituite il codice con *&lt;ID foglio>* e *&lt;Chiave API>* che avete recuperato durante la configurazione dei fogli di Google.
 
       ```
@@ -142,11 +144,13 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
       ```
 
       >[!NOTE]
-      Nel codice di esempio sopra, **pollInterval** definisce la frequenza con cui i valori vengono aggiornati (in ms).
-      Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
+      >
+      >Nel codice di esempio sopra, **pollInterval** definisce la frequenza con cui i valori vengono aggiornati (in ms).
+      >Sostituisci il codice con il tuo *&lt;ID foglio>* e *&lt;Chiave API>* che hai recuperato durante la configurazione dei fogli di Google.
 
       >[!CAUTION]
-      Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella globale (ad esempio nella cartella del progetto), il targeting non funzionerà.
+      >
+      >Se create le configurazioni del vostro archivio Google Sheets al di fuori della cartella globale (ad esempio nella cartella del progetto), il targeting non funzionerà.
 
 
 1. **Impostazione della segmentazione dello store**
@@ -158,7 +162,8 @@ La seguente convalida è ciò che verrà visualizzato quando si verifica la conn
    1. Click **Next** and then **Save**.
 
       >[!NOTE]
-È necessario saltare il processo di definizione del json e lasciarlo vuoto.
+      >
+      >È necessario saltare il processo di definizione del json e lasciarlo vuoto.
 
 
 ## Passaggio 3: Impostazione dei segmenti nel pubblico {#setting-up-audience}
@@ -200,7 +205,9 @@ Segui i passaggi indicati di seguito per creare un marchio nelle tue attività e
 
 
       >[!CAUTION]
-      Problema noto:
+      >
+      >Problema noto:
+
 Per aggiungere un&#39;area, rimuovete lo schema dall&#39;URL, ad esempio
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -258,7 +265,8 @@ Dopo aver configurato un archivio dati e definito l&#39;attività (marchio e are
    1. Selezionate **googlesheets/value/1/0** dall’elenco a discesa in Nome **** proprietà.
 
       >[!NOTE]
-I **googlesheets/value/1/0** si riferiscono alla riga 2 e alla colonna come compilati nei google sheet nella figura seguente:
+      >
+      >I **googlesheets/value/1/0** si riferiscono alla riga 2 e alla colonna come compilati nei google sheet nella figura seguente:
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub17.png)
 
@@ -267,7 +275,8 @@ I **googlesheets/value/1/0** si riferiscono alla riga 2 e alla colonna come comp
    1. Immettere il **valore** come **70**.
 
       >[!NOTE]
-      Il AEM convalida i dati provenienti da Google Sheet mostrando il segmento come verde.
+      >
+      >Il AEM convalida i dati provenienti da Google Sheet mostrando il segmento come verde.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub18.png)
    Analogamente, modificate i valori delle proprietà su **Lowerthan50**.
@@ -301,14 +310,16 @@ Seguite i passaggi indicati di seguito per abilitare il targeting nei canali.
    1. Fai clic su **Salva e chiudi**.
 
       >[!NOTE]
-      Usa ContextHub e il percorso Segments, dove hai salvato inizialmente le configurazioni e i segmenti dell&#39;hub di contesto.
+      >
+      >Usa ContextHub e il percorso Segments, dove hai salvato inizialmente le configurazioni e i segmenti dell&#39;hub di contesto.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub20.png)
 
    1. Spostatevi e selezionate il canale **TargetChannel** , quindi fate clic su **Modifica** nella barra delle azioni.
 
       >[!NOTE]
-      Se avete impostato tutto correttamente, l&#39;opzione **Targeting** viene visualizzata nel menu a discesa dall&#39;editor, come illustrato nella figura riportata di seguito.
+      >
+      >Se avete impostato tutto correttamente, l&#39;opzione **Targeting** viene visualizzata nel menu a discesa dall&#39;editor, come illustrato nella figura riportata di seguito.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub21.png)
 
