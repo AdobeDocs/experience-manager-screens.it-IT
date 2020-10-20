@@ -1,6 +1,6 @@
 ---
 user-guide-title: Guida alle best practice per i progetti AEM Screens
-breadcrumb-title: ' AEM Screens Guide'
+breadcrumb-title: Guida di AEM Screens
 solution-title: AEM Screens
 getting-started-title: Guida alle best practice per  AEM Screens
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: caa87381999cb2a2b4976435c9aa8a1a882511ac
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
