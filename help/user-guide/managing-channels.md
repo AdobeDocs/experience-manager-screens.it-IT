@@ -3,27 +3,20 @@ title: Creazione e gestione dei canali
 seo-title: Gestione dei canali
 description: Segui le informazioni contenute in questa pagina per creare e gestire canali. Sono anche contenute spiegazioni sul dashboard per canale e sulla modifica del contenuto per un canale.
 seo-description: Segui le informazioni contenute in questa pagina per creare e gestire canali. Sono anche contenute spiegazioni sul dashboard per canale e sulla modifica del contenuto per un canale.
-uuid: cdf09ced-9089-4249-ba51-471d6fa0e507
-contentOwner: Jyotika syal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-topic-tags: authoring
-discoiquuid: a8006686-8ee5-4971-ab79-0c7b01f108f2
-docset: aem65
 translation-type: tm+mt
-source-git-commit: f2b5b2cb35a43990ed74b259d8da3837118a65ae
+source-git-commit: 6c2c7e4f757666160b79018d1195a79b99a4202d
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 43%
+source-wordcount: '1326'
+ht-degree: 42%
 
 ---
 
 
 # Creazione e gestione dei canali {#creating-and-managing-channels}
 
-Un canale visualizza una sequenza di contenuti e visualizza immagini e video, ma può anche visualizzare un sito Web o un’applicazione a pagina singola.
+Un canale visualizza una sequenza di contenuti (immagini e video) e visualizza anche un sito Web o un’applicazione a pagina singola.
 
-In questa pagina viene mostrata la creazione e la gestione dei canali per Screens.
+Questa pagina mostra la creazione e la gestione di canali per  AEM Screens.
 
 **Prerequisiti**:
 
@@ -34,7 +27,7 @@ In questa pagina viene mostrata la creazione e la gestione dei canali per Screen
 
 Dopo aver creato il progetto per  AEM Screens, segui i passaggi riportati di seguito per creare un nuovo canale per il progetto:
 
-1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi accedere direttamente a: `https://localhost:4502/screens.html/content/screens`.
+1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, potete navigare direttamente su `https://localhost:4502/screens.html/content/screens`.
 
 1. Andate al progetto Screens e selezionate la cartella **Channels (Canali** ).
 
@@ -80,9 +73,6 @@ Le seguenti opzioni di modello sono disponibili durante l&#39;uso della procedur
 
 Puoi modificare, visualizzare le proprietà e il dashboard, copiare, visualizzare in anteprima e eliminare un canale.
 
->[!NOTE]
->
->Selezionare il canale, come mostrato nella figura seguente.
 
 ![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
@@ -94,7 +84,6 @@ Per aggiungere o modificare il contenuto di un canale, segui i passaggi riportat
 1. Click **Edit** from the top left corner of the action bar to edit the channel properties. Si apre l&#39;editor che consente di aggiungere risorse/componenti al canale che desideri pubblicare.
 
 >[!NOTE]
->
 >Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** .
 
 ![demochannel1](assets/demochannel1.gif)
@@ -141,7 +130,6 @@ Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view prope
 Puoi visualizzare il manifesto dal dashboard del canale.
 
 >[!IMPORTANT]
->
 >Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
 
 Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti operazioni:
@@ -155,7 +143,7 @@ Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti ope
    1. Andate al pannello **INFORMAZIONI** CANALE e fate clic su *...*
    1. Fate clic su **Aggiorna contenuto offline**
 
-A questo punto dovreste essere in grado di visualizzare l’opzione **Visualizza manifesto** dal pannello **INFORMAZIONI** CANALE nel pannello Canale.
+L’opzione **Visualizza manifesto** è disponibile nel pannello **INFORMAZIONI** CANALE del Pannello Canale.
 
 ![image1](assets/channel-one.png)
 
@@ -163,8 +151,7 @@ A questo punto dovreste essere in grado di visualizzare l’opzione **Visualizza
 ### Canali online e offline {#online-and-offline-channels}
 
 >[!NOTE]
->
->Per impostazione predefinita, quando create un canale, il canale è Offline.
+>Per impostazione predefinita, quando create un canale, è Offline.
 
 Quando crei un canale, puoi definirlo un canale online o offline.
 
@@ -197,7 +184,6 @@ Segui i passaggi riportati di seguito per rendere online il canale:
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->
 >Se desiderate configurare nuovamente il canale come offline, deselezionate l&#39;opzione Modalità Sviluppatore dalla scheda **Proprietà** (come mostrato al punto 3)), quindi dal pannello **INFORMAZIONI** CANALE fate clic su **Aggiorna contenuto** offline, come mostrato nella figura seguente.
 
 ![dashboard2](assets/dashboard2.gif)
@@ -251,7 +237,6 @@ Le visualizzazioni collegate sono elencate nel pannello **Visualizzazioni assegn
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
->
 >Per informazioni sulla creazione di una visualizzazione in una posizione, fare riferimento a:
 >
 >* [Creare e gestire le posizioni](managing-locations.md)
