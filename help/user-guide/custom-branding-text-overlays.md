@@ -5,9 +5,9 @@ description: Seguite questa pagina per apprendere come applicare il marchio e lo
 seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Personalizzazione e stile per le sovrapposizioni di testo {#creating-custom-branding-styling}
 
-Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo applicate alle risorse in un canale Screens.
+Seguite questa pagina per apprendere come applicare un marchio e uno stile personalizzati per le sovrapposizioni di testo applicate alle risorse in un canale AEM Screens .
 
 ## Creazione di stili e marchi personalizzati per le sovrapposizioni di testo {#steps-custom-branding}
 
@@ -81,9 +81,8 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 1. Fate clic su **Salva e chiudi** per aggiornare il percorso di progettazione.
 
->[!IMPORTANT]
->
->È possibile sovrapporre i modelli esistenti di Screens per inserire i propri design per impostazione predefinita o creare un modello personalizzato. Per ulteriori informazioni, fare riferimento ai passaggi descritti di seguito.
+   >[!IMPORTANT]
+   >È possibile sovrapporre i modelli esistenti di Screens per inserire i propri design per impostazione predefinita o creare un modello personalizzato. Per ulteriori informazioni, fare riferimento ai passaggi descritti di seguito.
 
 1. Per sovrapporre i modelli Screens esistenti per inserire i propri design per impostazione predefinita:
 
@@ -129,7 +128,7 @@ Per visualizzare la struttura aggiornata alla sovrapposizione di testo, effettua
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
-Con riferimento all’esercitazione, ora potete aggiornare il vostro marchio e lo stile personalizzato per le sovrapposizioni di testo aggiunte alle risorse.
+   Ora è possibile aggiornare il marchio e lo stile personalizzato per le sovrapposizioni di testo aggiunte alle risorse.
 
 
 
