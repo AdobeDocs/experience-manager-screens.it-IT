@@ -12,10 +12,10 @@ tutorials-title: Esercitazioni
 tutorials-url: https://docs.adobe.com/content/help/it-IT/experience-manager-screens/using/about-guide.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.it-IT
 translation-type: tm+mt
-source-git-commit: 6a65a187622ff95dce0a81b0a17d97893daf6625
+source-git-commit: 5be539930b26902d696c14b06c8c3700fdc8ccf8
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 7%
+source-wordcount: '82'
+ht-degree: 13%
 
 ---
 
@@ -23,13 +23,3 @@ ht-degree: 7%
 # Metadati per uso interno
 
 Il file metadata.md include metadati a livello di repo che passano ai file TOC.md della guida utente nella repo. Se desiderate modificare il contenuto metadata.md per qualsiasi guida utente, effettuate questa operazione in qualsiasi file TOC.md.
-
-| metadata | cosa |
-|--- |--- |
-| solution-title | Utilizzato nell&#39;intestazione dell&#39;articolo come collegamento |
-| solution-hub-url | Apre la pagina centrale helpx |
-| solution-icon | Visualizza l&#39;icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
-| getting-started | Link alla pagina di guida introduttiva |
-| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o esercitazioni KT |
-| mini-livelli | Determina il numero di livelli di intestazione visualizzati nella barra a destra. il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repo principale per uso interno |
