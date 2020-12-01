@@ -32,6 +32,6 @@ I principali risultati finali in questa fase comprendono:
 
 >[!NOTE]
 >
->Identificare al più presto i dati necessari per l&#39;applicazione e da dove proverranno. Anche se l&#39;esplorazione verrà approfondita durante l&#39;implementazione, dedicare il tempo necessario durante il *Giorno Zero* per scoprire quali dati intende utilizzare il cliente, dove tali dati sono memorizzati al momento e come è possibile accedervi dall&#39;applicazione in fase di creazione. Notificare al team di sviluppo le eventuali sfide future contribuirà a migliorare l&#39;implementazione.
+>Identificare al più presto i dati necessari per l&#39;applicazione e da dove proverranno. Durante l&#39;implementazione, durante il *Giorno Zero* verrà eseguita un&#39;esplorazione più approfondita, ma dedicare il tempo necessario per individuare i dati che il cliente intende utilizzare, dove sono memorizzati i dati e come è possibile accedervi dall&#39;applicazione in fase di creazione. Notificare al team di sviluppo le eventuali sfide future contribuirà a migliorare l&#39;implementazione.
 
-Per ulteriori informazioni, consulta l’esercitazione video [Considerazioni come i progetti sono Ambiti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) .
+Per ulteriori informazioni, consulta l’esercitazione video su [Considerazioni relative all’ambito dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html).
