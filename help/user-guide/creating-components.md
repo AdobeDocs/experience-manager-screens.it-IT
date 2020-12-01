@@ -26,9 +26,9 @@ AEM componenti sono utilizzati per conservare, formattare ed eseguire il renderi
 >
 >Per informazioni dettagliate sulla creazione di componenti AEM, vedere Sviluppo AEM componenti.
 
-## Authoring dei canali {#authoring-channels}
+## Canali di authoring {#authoring-channels}
 
-Il canale è l&#39;oggetto centrale del contenuto distribuito a una serie di schermi. Di conseguenza, un autore di contenuti apriva solitamente un canale nell’editor per aggiungere o modificare contenuti. Poiché il canale è un ***cq:Page*** , seguirà lo stesso pattern UX tradizionale per aggiungere e modificare componenti sul canale.
+Il canale è l&#39;oggetto centrale del contenuto distribuito a una serie di schermi. Di conseguenza, un autore di contenuti apriva solitamente un canale nell’editor per aggiungere o modificare contenuti. Poiché il canale è un ***cq:Page***, seguirà lo stesso pattern UX tradizionale per aggiungere e modificare componenti sul canale.
 
 Tuttavia, poiché i componenti all’interno di un canale vengono generalmente sottoposti a rendering a schermo intero, l’esperienza di authoring risulterà compromessa quando si tenta di modificare singoli componenti o comporre nuovi ordini. Pertanto, il canale si basa sui selettori per rappresentare diverse viste dei componenti. L’ambiente di authoring sfrutta il selettore di modifica per attivare il rendering del canale personalizzato.
 
@@ -55,5 +55,5 @@ I componenti incorporati sfruttano le seguenti categorie di librerie client:
 
 >[!NOTE]
 >
->Per sviluppare componenti personalizzati, utilizzate il modello[di componente di esempio ***](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)AEM Screens***.
+>Per sviluppare componenti personalizzati, utilizzate il modello di componente di esempio di AEM Screens ***[](https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template)**.
 
