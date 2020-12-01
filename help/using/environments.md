@@ -1,6 +1,6 @@
 ---
-title: Ambienti per [!UICONTROL AEM Screens]
-seo-title: Ambienti per [!UICONTROL AEM Screens]
+title: Ambienti per [!UICONTROL  AEM Screens]
+seo-title: Ambienti per [!UICONTROL  AEM Screens]
 description: Questa pagina descrive gli ambienti per un progetto AEM Screens .
 seo-description: In questa pagina vengono evidenziati gli ambienti per un progetto AEM Screens .
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Ambienti {#environments}
 
-Determinare in anticipo quali ambienti AEM il client dispone e si prevede di utilizzare, sia per *lo sviluppo* che per la *distribuzione*.
+Determinare in anticipo quali ambienti AEM il client dispone e si prevede di utilizzare, sia per *development* che per *deployment*.
 
 >[!NOTE]
 >
