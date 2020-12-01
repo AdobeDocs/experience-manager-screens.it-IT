@@ -27,12 +27,12 @@ Questo processo può essere applicato a:
 
 Questo aiuterà a spostare il progetto dalla fase di prototipazione alla fase di implementazione effettiva.
 
-Dalla visualizzazione **a livello di**risorsa, è necessario creare wireframe che definiscano varie opzioni di layout e raggruppamenti di contenuti. Questo consente di definire l’aspetto di più contenuti assemblati come gruppo.
+Da una **visualizzazione a livello di risorsa**, è necessario creare wireframe che definiscano varie opzioni di layout del contenuto e raggruppamenti di contenuti. Questo consente di definire l’aspetto di più contenuti assemblati come gruppo.
 In genere, in questa attività utilizzeremmo grafica, immagini e video pronti per la produzione.
 
-Da una vista **Livello** canale, dovremmo creare wireframe che mostrino come i canali di contenuto siano collegati tra loro nell&#39;esperienza complessiva, comprese le strategie di riproduzione per i canali incorporati. È inoltre possibile esaminare le transizioni dei canali che possono verificarsi quando vengono attivati i dati.
+Da una **visualizzazione a livello di canale**, è necessario creare wireframe che mostrino come i canali di contenuto siano collegati insieme nell&#39;esperienza complessiva, comprese le strategie di riproduzione per i canali incorporati. È inoltre possibile esaminare le transizioni dei canali che possono verificarsi quando vengono attivati i dati.
 
-A livello **di** progetto, è possibile iniziare a modellare il modo in cui più schermi o esperienze possono lavorare insieme in uno spazio fisico per fornire un percorso utente completo per più punti di contatto.
+Su un **livello di progetto**, è possibile iniziare a modellare il modo in cui schermi o esperienze possono lavorare insieme in uno spazio fisico per fornire un percorso utente completo per più punti di contatto.
 
 Questo deve essere allineato con la mappa UX Journey creata in precedenza.
 
