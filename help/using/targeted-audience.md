@@ -12,7 +12,7 @@ ht-degree: 5%
 ---
 
 
-# Destinatari Target {#target-audience}
+# Destinatari di destinazione {#target-audience}
 
 In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
 
@@ -68,4 +68,4 @@ Creativi e gestione dei contenuti possono essere uno dei seguenti:
 Generalmente, i project manager gestiscono l&#39;intera distribuzione per la distribuzione AEM Screens . Un project manager è la persona responsabile per l&#39;intera implementazione del progetto designato ed esegue responsabilità importanti come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
 >[!NOTE]
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita Ruoli e responsabilità del **[progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visitare **[Ruoli e responsabilità del progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
