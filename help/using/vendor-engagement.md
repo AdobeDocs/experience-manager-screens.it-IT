@@ -23,6 +23,6 @@ In questa attività, è importante identificare tutti i fornitori chiave necessa
 
 * Definite le capacità e le attività di ciascun fornitore in relazione alla categoria di prodotti che supporta.
 
-* Conferma i *tempi* di consegna per tutti i prodotti consegnabili e crea un piano di distribuzione che consenta a tutti i lead time di lavorare all&#39;indietro a partire dalla data o dalle date di installazione desiderate delle prime installazioni richieste.
+* Confermate la consegna *lead time* per tutti i prodotti consegnabili e create un piano di distribuzione che consenta a tutti i lead time di lavorare all&#39;indietro a partire dalla data o dalle date di installazione desiderate delle prime installazioni richieste.
 
-Completando tutti i passaggi precedenti, ora dovremmo disporre di un piano di implementazione completo per il *giorno 1* pronto per essere eseguito.
+Completando tutti i passaggi precedenti, ora è necessario disporre di un piano di distribuzione completo *Day 1* pronto per essere eseguito.
