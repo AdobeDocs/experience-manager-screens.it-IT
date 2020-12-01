@@ -12,13 +12,13 @@ ht-degree: 0%
 ---
 
 
-# Dynamic Creative Optimizations {#dynamic-creative}
+# Ottimizzazioni creative dinamiche {#dynamic-creative}
 
 >[!NOTE]
 >
 >Un soggetto tipico per questa attività è un AEM Implementatore.
 
-**Dynamic Creative Optimization** o DCO è utilizzato per creare esperienze di digital signage che riflettono le circostanze uniche di una determinata posizione in un dato momento e per qualsiasi utente.
+**Dynamic Creative** Optimization o DCO, viene utilizzato per creare esperienze di digital signage che riflettono le circostanze uniche di una determinata posizione in un dato momento e per qualsiasi utente.
 
 Questo viene anche definito conversione del contenuto lato client.
 
