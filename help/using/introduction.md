@@ -14,7 +14,7 @@ ht-degree: 83%
 
 # Introduzione a AEM Screens {#introduction}
 
-**AEM (Adobe Experience Manager) Screens** è una soluzione di digital signage che consente di creare, pubblicare e riprodurre esperienze digitali dinamiche e interattive che coinvolgono diversi tipi di schermi per eventi in concerto con una strategia di marketing digitale omnicanale completa.
+**AEM (Adobe Experience Manager)** Screensis una soluzione di digital signage che consente di creare, pubblicare e riprodurre esperienze digitali dinamiche e interattive che coinvolgono diversi tipi di schermi in-venue in concerto con una strategia di marketing digitale omnicanale completa.
 
 AEM Screens consente di creare:
 
