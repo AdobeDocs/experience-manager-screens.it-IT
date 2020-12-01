@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Configurazione e risoluzione dei problemi della riproduzione video {#video-playback-configuration-and-troubleshooting}
+# Configurazione e risoluzione dei problemi di riproduzione video {#video-playback-configuration-and-troubleshooting}
 
 Quando carichi un video in DAM e lo aggiungi al tuo canale, potrebbero verificarsi problemi che potrebbero non essere riprodotti nel lettore Screens.
 
@@ -30,8 +30,8 @@ Una volta caricato il video sul canale, AEM iniziare a creare alcune rappresenta
 
 Per visualizzare il video:
 
-1. Andate al video, ad esempio `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Fate clic sul video, espandete il menu in alto a sinistra e fate clic su **Rappresentazioni**.
+1. Individuate il video, ad esempio `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
+1. Fate clic sul video ed espandete il menu in alto a sinistra e fate clic su **Rappresentazioni**.
 
 Devono essere presenti diverse rappresentazioni (MP4 o M4V).
 
@@ -41,7 +41,7 @@ Se non è presente una rappresentazione, accertatevi che ffmpeg sia installato n
 >
 >Se non è presente una rappresentazione, accertatevi che ffmpeg sia installato nel sistema operativo in cui AEM in esecuzione.
 >
->Fate clic [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
+>Fate clic su [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
 
 ## Risorse video {#video-assets}
 
@@ -53,11 +53,11 @@ Controllare che ffmpeg sia installato e che i profili video siano impostati.
 
 ### Verifica del profilo video {#checking-video-profile}
 
-1. Individuate il profilo **** video `http://localhost:4502/etc/dam/video.html` e fate clic su **Carica video** di prova.
+1. Andate al **Profilo video**, ovvero `http://localhost:4502/etc/dam/video.html` e fate clic su **Carica video di prova**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Caricate un video di prova e fate clic su **OK** per iniziare la transcodifica.
+1. Caricate un video di prova e fate clic su **Ok** per iniziare la transcodifica.
 
    Se la transcodifica non riesce, espandete l&#39;output ffmpeg per comprendere eventuali errori nell&#39;output della console di ffmpeg.
 
@@ -71,15 +71,15 @@ Controllare che ffmpeg sia installato e che i profili video siano impostati.
    >
    >Assicuratevi di disporre del tempo sufficiente per la transcodifica del video (il video deve mostrare il tag nuovo invece dell’elaborazione) prima di aggiungerlo a qualsiasi canale.
 
-### Controllo del profilo con un componente video {#checking-profile-with-a-video-component}
+### Verifica del profilo con un componente video {#checking-profile-with-a-video-component}
 
 Se il componente video non è configurato correttamente, controllate l’elenco dei profili dalla progettazione della pagina.
 
-1. Passate al canale e selezionate la modalità **Progettazione** .
+1. Andate al canale e selezionate la modalità **Progettazione**.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Selezionate il video e aprite la finestra di dialogo **Modifica** . Open the **Profiles** tab.
+1. Selezionate il video e aprite la finestra di dialogo **Modifica**. Aprite la scheda **Profili**.
 
    >[!NOTE]
    >Selezionare profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
@@ -92,12 +92,12 @@ Se il video non viene eseguito su Safari, non verrà eseguito nei lettori OSX e 
 
 Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effettuate le seguenti operazioni:
 
-1. Andate all&#39;amministratore *del modello di* workflow, ovvero `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Selezionate il modello **Schermate Aggiorna risorsa** .
-1. fate clic su **Avvia flusso di lavoro** nella barra delle azioni per aprire la finestra di dialogo **Esegui flusso di lavoro** .
+1. Passare alla *amministrazione del modello di workflow*, che è `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
+1. Selezionare il modello **Screens Update Asset**.
+1. fare clic su **Avvia flusso di lavoro** dalla barra delle azioni per aprire la finestra di dialogo **Esegui flusso di lavoro**.
 
 1. Selezionate la risorsa video nel **payload**.
-1. Fate clic su **Esegui**.
+1. Fare clic su **Esegui**.
 
 >[!NOTE]
 >
@@ -109,16 +109,16 @@ Se  lettore AEM Screens rileva il video ma non lo visualizza, è necessario riso
 
 Seguite i passaggi indicati di seguito per risolvere il problema relativo al flag di analisi automatica di Google:
 
-1. Andate a ***chrome://flags/#autoplay-policy***
-1. Cambia il criterio **di** esecuzione automatica da **Predefinito** a **nessun gesto dell&#39;utente**
+1. Passa a ***chrome://flags/#autoplay-policy***
+1. Cambia **Criterio di esecuzione automatica** da **Default** a **nessun gesto utente è richiesto**
 
 1. Riavviate il browser Web e aggiornate il lettore
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle procedure ottimali per le esperienze utente ottimali con i nuovi criteri di riproduzione automatica in Chrome, consultare la documentazione per le modifiche *ai criteri di* esecuzione automatica, vale a dire, `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Per ulteriori informazioni sulle best practice per esperienze utente ottimali con i nuovi criteri di riproduzione automatica in Chrome, consultare la documentazione relativa alle *Modifiche ai criteri di riproduzione automatica*, ovvero `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
-### Sincronizzazione dei video tra più lettori {#syncing-video-across-multiple-players}
+### Sincronizzazione di video tra più lettori {#syncing-video-across-multiple-players}
 
 Per riprodurre i video in modo sincrono su più dispositivi, occorre utilizzare la strategia assoluta per la sequenza di cui fa parte il video.
 
@@ -140,18 +140,18 @@ Per impostare una strategia assoluta, effettuate le seguenti operazioni:
 
 1. Andate all’autore del canale e selezionate il componente della sequenza come mostrato nella figura seguente.
 1. Aprite la relativa finestra di dialogo di configurazione.
-1. Modificate la **strategia** e aggiungete valori assoluti.
+1. Modificate la **Strategia** e aggiungete assoluta.
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
    >[!NOTE]
    >Il sistema operativo dei giocatori deve avere lo stesso orologio.
 
-**Allineamento degli orologi su OS X** Seguire i passaggi indicati di seguito per allineare gli orologi su OSX:
+**Allineamento degli orologi sul sistema operativo** XFseguire i passaggi seguenti per allineare gli orologi su OSX:
 
-1. Aprire le preferenze **Data e ora** in ciascuna casella OSX
-1. Controlla automaticamente data e ora **impostata**
-1. Incolla il valore 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com nel menu a discesa o esegui semplicemente *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Aprire le preferenze di **Data e ora** in ogni casella OSX
+1. Controllare **Impostare automaticamente data e ora**
+1. Incolla il valore 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com nel menu a discesa oppure esegui semplicemente *sudo ntpdate -u -v 0.pool.ntp.org*
 1. Avvio dei 2+ giocatori
 
 Potrebbe essere necessario un po&#39; di tempo prima che i giocatori inizino una nuova sequenza allineata.
