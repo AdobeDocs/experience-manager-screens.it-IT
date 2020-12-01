@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Una mappa del percorso dell&#39;esperienza utente è progettata per fornire visibilità su come e perché gli utenti sperimenteranno il contenuto digitale distribuito dalla rete.
 
-## Creazione della mappa del percorso UX {#building-map}
+## Creazione della mappa percorso UX {#building-map}
 
 La comprensione di come i consumatori interagiranno con una rete di digital signage in uno spazio fisico è fondamentale per il successo e il valore di questa rete. Consente inoltre di comprendere in che modo le esperienze digitali verranno utilizzate nel contesto di tutti gli altri canali che un cliente potrebbe incontrare.
 
