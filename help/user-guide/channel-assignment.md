@@ -23,23 +23,23 @@ Questa pagina mostra l’assegnazione di un canale al display.
 >[!NOTE]
 >Potete assegnare più canali a uno schermo.
 
-## Assigning a Channel {#assign-a-channel}
+## Assegnazione di un canale {#assign-a-channel}
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
-1. Passare alla visualizzazione richiesta, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
+1. Passare alla visualizzazione desiderata, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
 
    ![immagine](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Tap/click **Assign Channel** in the action bar
+1. Toccate/fate clic su **Assegna canale** nella barra delle azioni
 
    Oppure,
 
-   Tap/click **Dashboard** and click **+Assign Channel** from the **ASSIGNED CHANNELS** panel to open the **Channel Assignment** dialog box.
+   Toccate/fate clic su **Dashboard** e fate clic su **+Assegna canale** dal pannello **CANALI ASSIGNED** per aprire la finestra di dialogo **Assegnazione canale**.
 
    ![immagine](/help/user-guide/assets/channel-assign1.png)
 
-   È possibile configurare le proprietà dalla finestra di dialogo Assegnazione **** canale dalla sezione seguente. Per ulteriori informazioni sulle proprietà del canale, consulta la sezione Proprietà [](#channel-properties) canale.
+   È possibile configurare le proprietà dalla finestra di dialogo **Assegnazione canale** nella sezione seguente. Fare riferimento alla sezione [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà del canale.
 
 
 ## Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
@@ -50,7 +50,7 @@ il riferimento a canale consente di fornire un riferimento al canale desiderato,
 
 * **In base al percorso**: fornisci un riferimento esplicito usando il percorso assoluto del canale.
 
-* **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. Ad esempio, un canale con il nome *offre tutte le offerte del giorno*, dove il contenuto effettivo sarebbe diverso in due città, ma l&#39;utente ha comunque lo stesso ruolo di canale su tutti i display.
 
 ### Ruolo canale {#role-channel}
 
@@ -78,7 +78,7 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
 
-Selezionate una delle seguenti opzioni disponibili per impostare il metodo di interruzione dalla finestra di dialogo Assegnazione **** canale:
+Selezionare una delle seguenti opzioni disponibili per impostare il metodo di interruzione dalla finestra di dialogo **Assegnazione canale**:
 
 * **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, potete interrompere la riproduzione e aggiornare o riprodurre immediatamente il nuovo contenuto
 * **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
@@ -99,7 +99,7 @@ Mostra descrizione luogo di interesse definisce se la descrizione del luogo di i
 
 ### DayParting {#dayparting}
 
-Schedules when combined with **DayParting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+Pianifica se combinato con **DayParting**, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare la configurazione per tutti i display contemporaneamente.
 
 DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di suddivisione del giorno entro un giorno, una settimana o un mese, in base alle esigenze.
 
@@ -139,7 +139,7 @@ Questo esempio mostra il giornoParting raggiunto in un casinò in cui l&#39;even
    <td>SpecialsDinner</td>
    <td>Fine settimana</td>
    <td> </td>
-   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 22:00 prima dell'1:00</td>
+   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 22:00 prima delle 1:00</td>
   </tr>
  </tbody>
 </table>
