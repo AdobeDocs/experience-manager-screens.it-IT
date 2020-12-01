@@ -1,6 +1,6 @@
 ---
-title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
-seo-title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
+title: Nozioni di base del digital signage per [!UICONTROL  AEM Screens]
+seo-title: Nozioni di base del digital signage per [!UICONTROL  AEM Screens]
 description: La guida descrive le basi di un progetto di digital signage
 seo-description: La guida descrive le basi di un progetto di digital signage
 translation-type: tm+mt
@@ -18,9 +18,9 @@ Prima di iniziare  procedure ottimali per l&#39;implementazione di AEM Screens, 
 
 Questa sezione contiene raccomandazioni sugli elementi chiave principali che sono critici prima dell&#39;implementazione di un progetto AEM Screens .
 
-## Elementi chiave del digital signage {#key-elements}
+## Elementi chiave nel digital signage {#key-elements}
 
-Gli elementi ** chiave di un progetto di digital signage sono:
+Gli *elementi chiave* in un progetto di digital signage sono:
 
 ![](/help/assets/Elements-Revised.png)
 
