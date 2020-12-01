@@ -18,7 +18,7 @@ ht-degree: 38%
 ---
 
 
-# Creating and Managing Projects {#creating-and-managing-projects}
+# Creazione e gestione di progetti {#creating-and-managing-projects}
 
 AEM Screens è disponibile selezionando il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens.
 
@@ -33,11 +33,11 @@ In alternativa, puoi accedere direttamente a: `http://localhost:4502/screens.htm
 
 Per creare un nuovo progetto Screens, procedi come segue:
 
-1. Selezionate **Schermate** dall’istanza AEM.
+1. Selezionare **Screens** dall&#39;istanza AEM.
 
-1. Fate clic su **Crea progetto**.
+1. Fare clic su **Crea progetto schermi**.
 
-1. Enter the title as **TestScreens** and click **Save**.
+1. Immettete il titolo come **TestScreens** e fate clic su **Save**.
 
 Il progetto viene creato e vieni riportato al pannello Progetto Screens. Ora puoi selezionare il progetto.
 
@@ -53,14 +53,14 @@ In un progetto, ci sono cinque tipi di cartelle, come mostrato nella figura segu
 
 >[!NOTE]
 >
->By default, the initial structure will contain the **Schedules**, **Locations**, **Applications**, **Channels**, and **Devices** master pages, but this can be manually adjusted if needed. Puoi rimuovere le opzioni, se quelle disponibili non sono rilevanti per il progetto.
+>Per impostazione predefinita, la struttura iniziale conterrà le pagine master **Pianificazioni**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi**, ma se necessario può essere regolata manualmente. Puoi rimuovere le opzioni, se quelle disponibili non sono rilevanti per il progetto.
 
 
 ## Visualizzazione delle proprietà {#viewing-properties}
 
-Dopo aver creato il progetto Screens, seleziona il progetto e fai clic su **Proprietà** dalla barra delle azioni per modificare le proprietà del progetto.
+Dopo aver creato il progetto Screens, selezionate il progetto e fate clic su **Properties** dalla barra delle azioni per modificare le proprietà del progetto.
 
-The following options allow you to edit/change properties of your **TestScreens**.
+Le seguenti opzioni consentono di modificare/modificare le proprietà di **TestScreens**.
 
 ![immagine](assets/create-project2.png)
 
@@ -71,16 +71,16 @@ Potete anche creare una cartella personalizzata nelle pagine master **Pianificaz
 
 Per creare una cartella personalizzata:
 
-1. Select your project and click on **Create** next to plus icon in the action bar.
+1. Selezionate il progetto e fate clic sull&#39;icona **Crea** accanto all&#39;icona più nella barra delle azioni.
 1. Si apre la procedura guidata **Crea** da cui puoi selezionare l&#39;opzione appropriata.
 1. Fai clic su **Avanti**.
 1. Immetti le proprietà e fai clic su **Crea**.
 
-Nei passaggi seguenti viene illustrata la creazione di una cartella di applicazioni nella pagina master **Applicazioni** in **TestScreens**.
+I passaggi seguenti mostrano la creazione di una cartella delle applicazioni nella pagina master **Applicazioni** in **TestScreens**.
 
 ![player2-1](assets/create-project3.gif)
 
 ### Passaggi successivi {#the-next-steps}
 
-Once you have created your own project, see [Channel Management](managing-channels.md) to create and manage content in your channel.
+Dopo aver creato il progetto, consulta [Gestione dei canali](managing-channels.md) per creare e gestire il contenuto del canale.
 
