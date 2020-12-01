@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Analisi con  AEM Screens {#analytics-screens}
+# Analytics con  AEM Screens {#analytics-screens}
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Ci sono due ragioni fondamentali per cui potremmo voler acquisire questi dati.
 
-Il primo riguarda i cicli di **feedback e l&#39;apprendimento** automatico, mentre il secondo riguarda la **creazione di grafici, dashboard e rapporti** destinati al consumo umano.
+Il primo prevede **cicli di feedback e apprendimento delle macchine**, mentre il secondo prevede la **creazione di grafici, dashboard e report** destinati al consumo umano.
 
 Nel caso di utilizzo del ciclo di feedback, non ci occupiamo di rapporti visivi o dashboard, ma vogliamo definire regole che AEM eseguire per la modifica del contenuto. Utilizzando ed elaborando tutti i dati evento del lettore Screens da un determinato periodo di tempo, possiamo definire una regola che valuta l&#39;efficacia di image1 rispetto a image2. Combinando i dati di vendita con i dati di riproduzione, AEM determinare che image1 ha un impatto maggiore sulle vendite e istruisce automaticamente tutti i giocatori a utilizzare image1.
 
