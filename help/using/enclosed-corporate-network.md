@@ -39,7 +39,7 @@ Seguire i passaggi indicati di seguito per garantire la corretta connessione dei
    >**Suggerimenti per la risoluzione dei problemi**
    >Se  AEM Screens non si collega correttamente e il contenuto previsto non viene visualizzato:
    >
-   >1. Se sono presenti restrizioni, controllate il firewall Internet Router `TCP/IP Port 80/443`.
+   >1. Se sono presenti restrizioni relative a `TCP/IP Port 80/443`, controllate il firewall di Internet Router.
    >1. Accertatevi che tutte le porte necessarie siano consentite.
 
 
@@ -50,10 +50,10 @@ La configurazione della rete aziendale chiusa può essere logicamente separata i
 * Wide Area Network (WAN)
 * LAN (Local Area Network).
 
-### Ampia rete di reti {#wan-connection}
+### Rete {#wan-connection}
 
 Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per funzionare  gli aggiornamenti dei contenuti AEM Screens senza problemi.
-*Una larghezza di banda* sufficiente dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
+*Una larghezza di* banda sufficiente dipende dalla quantità di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ La rete LAN all&#39;interno delle organizzazioni aziendali è generalmente di al
 
 Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalla specifica di accesso a Internet/router.
 
-### Altre reti aziendali specifiche {#other-networks}
+### Altre specifiche di rete aziendale {#other-networks}
 
 Le reti aziendali dispongono di una serie di dispositivi collegati, sono separati in varie sottorete reti e dispongono di connessioni Internet ridondanti o multiplex per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
 Questo schema è semplificato e si adatta alla maggior parte dei casi agli ambienti disponibili per il client.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare le schermate a Internet Link, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` minimo. Questo Standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità. Se è necessario un ripetitore Wi-Fi, consigliamo vivamente le tecnologie Mesh Wi-Fi punto di accesso come Google Nest Mesh Wi-Fi o simili.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare le schermate a Internet Link, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo Standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, consigliamo vivamente le tecnologie Mesh Wi-Fi punto di accesso come Google Nest Mesh Wi-Fi o simili.
 Altre tecnologie ripetute Wi-Fi finiscono con una massiccia perdita di larghezza di banda nella rete.
 
 ## Download di file multimediali e risorse {#download}
