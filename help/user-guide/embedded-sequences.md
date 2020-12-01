@@ -21,7 +21,7 @@ ht-degree: 41%
 
 # Sequenze incorporate {#embedded-sequences}
 
-Using ***Embedded Sequences***, for channels, allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
+L&#39;utilizzo di ***Sequenze incorporate*** per i canali consente all&#39;utente di aggiungere componenti nel canale principale e di riutilizzare il contenuto da un canale diverso e di incorporarlo nel canale principale.
 
 ## Aggiunta di sequenze incorporate {#adding-embedded-sequences}
 
@@ -39,22 +39,22 @@ Using ***Embedded Sequences***, for channels, allows the user to add components 
 È possibile aggiungere una sequenza incorporata al canale. Una sequenza incorporata è un altro canale che include risorse come immagini o video. L&#39;aggiunta di una sequenza incorporata consente all&#39;utente di aggiungere la sequenza a un canale in base al ***Percorso del canale***.
 
 >[!NOTE]
->***Channel Path*** defines an explicit reference to the channel.
+>***Percorso canale*** definisce un riferimento esplicito al canale.
 >Per ulteriori informazioni sul *Percorso del canale*, consulta [Assegnazione canale](channel-assignment.md) in Screens di authoring.
 
 Segui i passaggi sottostanti per aggiungere una sequenza incorporata al canale:
 
-1. Seleziona il canale in cui incorporare una pagina. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
+1. Seleziona il canale in cui incorporare una pagina. Ad esempio, **We.Retail In-Store** —> **Channels** —> **Idle Channel**.
 
-1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. Fai clic sull&#39;icona dei componenti nella barra laterale sinistra per aggiungere la pagina incorporata. Drag and drop the **Embedded Sequence** to the editor.
-1. Double-click the **Embedded Sequence** component to add the channel to your original sequence channel.
-1. Select the **Channel Path** of the channel.
-1. Select the **Duration (ms)** for your embedded channel in the **Sequence** tab. By default, the duration is set to **-1**, that means embedded channel is fully run. Se l&#39;utente specifica una durata, la sottosequenza verrà interrotta all&#39;ora specificata.
+1. Fare clic su **Modifica** nella barra delle azioni per aprire il canale in modalità editor.
+1. Fai clic sull&#39;icona dei componenti nella barra laterale sinistra per aggiungere la pagina incorporata. Trascinare nell&#39;editor **Sequenza incorporata**.
+1. Fate doppio clic sul componente **Sequenza incorporata** per aggiungere il canale al canale della sequenza originale.
+1. Selezionare il **Percorso canale** del canale.
+1. Selezionare la **Durata (ms)** per il canale incorporato nella scheda **Sequenza**. Per impostazione predefinita, la durata è impostata su **-1**, il che significa che il canale incorporato è completamente in esecuzione. Se l&#39;utente specifica una durata, la sottosequenza verrà interrotta all&#39;ora specificata.
 
-1. Impostate la strategia **di riproduzione** controllata su **normale**.
+1. Impostare la **Strategia di riproduzione controllata** su **normal**.
 
-By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+Per impostazione predefinita, è impostata su **normal**. Impostando il valore su **normal** (Riproduci tutti gli elementi) la sequenza padre verrà eseguita completamente su ogni ciclo della sequenza padre. L&#39;altro valore possibile è **Riproduci un elemento singolo** (Riproduci un elemento singolo) e visualizzi solo un elemento della sequenza successiva su ogni esecuzione (ad esempio, il primo elemento sul primo loop, il secondo elemento sul secondo ciclo e così via).
 
 >[!IMPORTANT]
 >
@@ -62,19 +62,19 @@ By default, it is set to **normal**. Setting the value to **normal** (Play all i
 >
 >Seguite i passaggi indicati di seguito dopo aver aggiunto una sequenza incorporata al canale dai passaggi precedenti:
 >
->1. Passate alla visualizzazione e selezionatela dalla cartella **Posizioni** .
->1. Fate clic su **Dashboard** dalla barra delle azioni per passare alla dashboard di visualizzazione.
->1. Selezionate **+ Assegna canali** dai **CANALI ASSEGNATI e PANNELLI** PIANIFICATI per aprire la finestra di dialogo **Assegnazione** canale.
+>1. Individuare la visualizzazione e selezionarla dalla cartella **Locations**.
+>1. Fate clic su **Dashboard** dalla barra delle azioni per passare al dashboard di visualizzazione.
+>1. Selezionare **+ Assegna canali** da **CANALI ASSEGNATI &amp; PANNELLI PIANIFICATI** per aprire la finestra di dialogo **Assegnazione canale**.
 
    >
    >
-1. Selezionate il percorso del canale che avete (utilizzato nella sequenza incorporata) in Percorso **** canale.
+1. Selezionare il percorso del canale che si trova (utilizzato nella sequenza incorporata) in **Percorso canale**.
 >1. Assicurarsi che la **Priorità** sia inferiore al canale principale.
 
    >
    >
-1. Non è possibile selezionare eventi **** supportati.
->1. Al termine, fate clic su **Salva** .
+1. Non è necessario selezionare **Eventi supportati**.
+>1. Fare clic su **Save** una volta completata.
 
 >
 
@@ -96,17 +96,17 @@ L&#39;esempio seguente mostra l&#39;aggiunta di una sequenza incorporata (**Cana
 
 Segui i passaggi sottostanti per aggiungere una sequenza incorporata al canale:
 
-1. Seleziona il canale in cui incorporare una sequenza dinamica. For example, **We.Retail In-Store** --> **Channels** --> **Idle Channel**.
+1. Seleziona il canale in cui incorporare una sequenza dinamica. Ad esempio, **We.Retail In-Store** —> **Channels** —> **Idle Channel**.
 
-1. Click **Edit** from the action bar to open the channel in the editor mode.
-1. Fai clic sull&#39;icona dei componenti nella barra laterale sinistra per aggiungere la sequenza incorporata dinamica. Drag and drop the **Dynamic** **Embedded Sequence**  to the editor.
+1. Fare clic su **Modifica** nella barra delle azioni per aprire il canale in modalità editor.
+1. Fai clic sull&#39;icona dei componenti nella barra laterale sinistra per aggiungere la sequenza incorporata dinamica. Trascinare nell&#39;editor **Dynamic** **Embedded Sequence**.
 
-1. Double-click the **Dynamic** **Embedded Sequence** component to add the page to your sequence channel.
+1. Fare doppio clic sul componente **Dynamic** **Sequenza incorporata** per aggiungere la pagina al canale della sequenza.
 
-1. Enter the **Channel Assignment Role**.
-1. Impostate la strategia **di riproduzione** controllata su **normale**. By default, it is set to **normal**. Setting the value to **normal** (Play all items) means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is **Play a single item** (Play a single item) and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)
+1. Inserire il ruolo di assegnazione del canale **Ruolo**.
+1. Impostare la **Strategia di riproduzione controllata** su **normal**. Per impostazione predefinita, è impostata su **normal**. Impostando il valore su **normal** (Riproduci tutti gli elementi) la sequenza padre verrà eseguita completamente su ogni ciclo della sequenza padre. L&#39;altro valore possibile è **Riproduci un elemento singolo** (Riproduci un elemento singolo) e visualizzi solo un elemento della sequenza successiva su ogni esecuzione (ad esempio, il primo elemento sul primo loop, il secondo elemento sul secondo ciclo e così via).
 
-1. Select the **Duration (ms)** in **Sequence** tab for your embedded channel in the sequence.
+1. Selezionare la **Durata (ms)** nella scheda **Sequenza** per il canale incorporato nella sequenza.
 
 ![last](assets/latest.gif)
 
