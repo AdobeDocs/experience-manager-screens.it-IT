@@ -19,7 +19,7 @@ ht-degree: 3%
 ---
 
 
-# Durata della riproduzione di massa immagini a livello di canale {#channel-level-bulk-image-playback-duration}
+# Durata della riproduzione in blocco dell&#39;immagine a livello di canale {#channel-level-bulk-image-playback-duration}
 
 ## Panoramica {#overview}
 
@@ -31,15 +31,15 @@ Prima di iniziare ad implementare questa funzionalità, accertatevi di aver conf
 
 1. Create un esempio di progetto AEM Screens , **ChannelLevelPlayback**.
 
-1. Crea un canale di sequenza come **PlaybackChannel** nella cartella **Channels (Canali** ).
+1. Create un canale di sequenza come **PlaybackChannel** nella cartella **Channels**.
 
 1. Aggiungere contenuto a **PlaybackChannel**.
 
-## Modifica dell&#39;assegnazione durata riproduzione immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
+## Modifica dell&#39;assegnazione della durata di riproduzione dell&#39;immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
 
 La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un canale AEM Screens .
 
-### Aggiornamento della durata di riproduzione per le immagini di un canale {#updating-the-playback-duration-for-images-in-a-channel}
+### Aggiornamento della durata di riproduzione per le immagini in un canale {#updating-the-playback-duration-for-images-in-a-channel}
 
 Per informazioni su come aggiornare l’assegnazione durata di riproduzione delle immagini a livello di canale, effettuate le seguenti operazioni:
 
@@ -59,14 +59,14 @@ Per informazioni su come aggiornare l’assegnazione durata di riproduzione dell
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Viene visualizzata la finestra di dialogo Pagina** .
+1. **Viene visualizzata la finestra di dialogo** Pagefinestra di dialogo.
 
    >[!NOTE]
    >Per impostazione predefinita, le immagini in un canale sono impostate su una durata di riproduzione di 8 secondi.
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modificate la **durata** da 8000 (ms) a 3000 (ms), ossia 3 secondi. Fate clic sul segno di spunta in alto a destra della finestra di dialogo **Pagina** per salvare le modifiche.
+   Modificate la **Durata** da 8000 (ms) a 3000 (ms), ossia 3 secondi. Fare clic sul segno di spunta in alto a destra della finestra di dialogo **Pagina** per salvare le modifiche.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
