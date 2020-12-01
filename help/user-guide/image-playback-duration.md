@@ -6,6 +6,9 @@ seo-description: Seguite questa pagina per informazioni sulla durata di riproduz
 contentOwner: jsyal
 translation-type: tm+mt
 source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 4%
 
 ---
 
@@ -14,25 +17,25 @@ source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
 
 ## Panoramica {#overview}
 
-Dopo aver creato un canale di sequenza e aggiunto le immagini, per impostazione predefinita tutte le immagini assumeranno la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare il valore predefinito e avere una durata di riproduzione diversa, a tal fine è possibile modificare la durata di riproduzione del componente immagine specifico.
+Dopo aver creato un canale di sequenza e aggiunto le immagini, per impostazione predefinita tutte le immagini assumeranno la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa, a tal fine è possibile modificare la durata di riproduzione del componente immagine specifico.
 
 ### Prerequisiti {#prerequisites}
 
 Prima di iniziare ad implementare questa funzionalità, accertatevi di aver configurato un progetto come prerequisito per iniziare ad implementare questa funzionalità. Esempio,
 
-1. Creare un progetto AEM Screens (in questo esempio, **ChannelLevelPlayback**)
+1. Creare un progetto AEM Screens  (in questo esempio, **ChannelLevelPlayback**)
 
 1. Creare un canale di sequenza come **PlaybackChannel** nella cartella **Channels**
 
-1. Aggiunta di contenuti a **PlaybackChannel**
+1. Aggiungere contenuto a **PlaybackChannel**
 
-## Modifica dell&#39;assegnazione durata riproduzione immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
+## Modifica dell&#39;assegnazione della durata di riproduzione dell&#39;immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
 
-La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un canale AEM Screens.
+La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un canale AEM Screens .
 
-### Aggiornamento della durata di riproduzione per le immagini di un canale {#updating-the-playback-duration-for-images-in-a-channel}
+### Aggiornamento della durata di riproduzione per le immagini in un canale {#updating-the-playback-duration-for-images-in-a-channel}
 
-Per informazioni su come aggiornare l’assegnazione durata riproduzione immagine a livello di canale, effettuate le seguenti operazioni:
+Per informazioni su come aggiornare l’assegnazione durata di riproduzione delle immagini a livello di canale, effettuate le seguenti operazioni:
 
 1. Passare al canale della sequenza **PlaybackChannel**.
 
@@ -50,7 +53,7 @@ Per informazioni su come aggiornare l’assegnazione durata riproduzione immagin
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Viene visualizzata la finestra di dialogo Pagina** .
+1. **Viene visualizzata la finestra di dialogo** Pagefinestra di dialogo.
 
    >[!NOTE]
    >
@@ -58,7 +61,7 @@ Per informazioni su come aggiornare l’assegnazione durata riproduzione immagin
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modificate la **durata** da 8000 (ms) a 3000 (ms), ossia 3 secondi. Fate clic sul segno di spunta in alto a destra della finestra di dialogo **Pagina** per salvare le modifiche.
+   Modificate la **Durata** da 8000 (ms) a 3000 (ms), ossia 3 secondi. Fare clic sul segno di spunta in alto a destra della finestra di dialogo **Pagina** per salvare le modifiche.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
