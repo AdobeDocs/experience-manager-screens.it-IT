@@ -84,22 +84,22 @@ Generalmente, i project manager gestiscono l&#39;intera distribuzione per la dis
 
 >[!NOTE]
 >
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita Ruoli e responsabilità del **[progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visitare **[Ruoli e responsabilità del progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
 
 
 ## Fasi del progetto {#project-stages}
 
 Per supportare un&#39;implementazione di Digital Signage di successo, è consuetudine segmentare il progetto in 3 fasi.  Tali fasi sono comunemente denominate **Giorni**. Non si tratta di giornate letterali, ma di designazioni per ogni fase importante del progetto.
 
-1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e scoperta necessarie per definire completamente l&#39;ambito del progetto.
-1. La seconda fase, *Primo* giorno, si riferisce a tutte le attività incluse nello sforzo di implementazione.
-1. La terza e ultima fase *Giorno due* fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione complessiva.
+1. La prima fase è denominata *Giorno Zero*. Questa fase include tutte le attività di pre-vendita e scoperta necessarie per definire completamente l&#39;ambito del progetto.
+1. La seconda fase, *Day One*, si riferisce a tutte le attività incluse nello sforzo di distribuzione.
+1. La terza e ultima fase *Day Two* fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
 >[!NOTE]
 >
 >Mentre questa guida pone l’accento soprattutto sul *Primo giorno* e sul *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
 >
->Seguite un altro video su **[Gestione e distribuzione](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** dei progetti per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
+>Seguite un altro video su **[Gestione e distribuzione dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** per informazioni sulla preproduzione, l&#39;avvio e l&#39;avanzamento dei progetti.
 
 ## Grafico RACI {#raci-chart}
 
@@ -121,7 +121,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni dei ruoli e fornisce un esempio di attività e considerazioni comuni in un progetto AEM Screens .
 
-La tabella seguente riassume il **Giorno zero: Considerazioni** pre-vendita:
+La tabella seguente riassume il **Giorno zero: Considerazioni pre-vendita**:
 
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
@@ -133,7 +133,7 @@ La tabella seguente riassume il **Giorno zero: Considerazioni** pre-vendita:
 | Definizione del processo di supporto | C | I | RA | I |
 | Definizione dell&#39;ambito di lavoro e del piano di progetto | RA | RA | C | C |
 
-La tabella seguente riassume il **Giorno 1: Implementazione progetto (progettazione applicazione)**:
+La tabella seguente riassume il **Giorno Uno: Implementazione progetto (progettazione applicazione)**:
 
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
@@ -153,7 +153,7 @@ La tabella seguente riassume il **Giorno 1: Implementazione progetto (progettazi
 | Piano per la transizione pilota alla produzione | RA | RA | I | I |
 | Trasferimento delle conoscenze | RA | RA | I | I |
 
-La tabella seguente riassume il **Giorno 1: Implementazione del progetto (preparazione al dettaglio)**:
+La tabella seguente riassume il **Giorno Uno: Implementazione del progetto (preparazione al dettaglio)**:
 
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
@@ -163,7 +163,7 @@ La tabella seguente riassume il **Giorno 1: Implementazione del progetto (prepar
 | Configurazione di massa hardware | RA | I | C | I |
 | Contratto relativo al supporto post-avvio | RA | C | RA | C |
 
-La tabella seguente riassume il **Giorno 1: Primo giorno: Implementazione progetto (hardware)**:
+La tabella seguente riassume il **Giorno Uno: Primo giorno: Implementazione progetto (hardware)**:
 
 | **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
@@ -184,7 +184,7 @@ La tabella seguente riassume il **Giorno 1: Primo giorno: Implementazione proget
 
 * **Tecnico**: Contratto dall&#39;integratore AV o fa parte della stessa azienda.
 
-La tabella seguente riassume il **Giorno due: Grafico** RACI di supporto post-lancio:
+La tabella seguente riassume il **Giorno due: Grafico RACI supporto post-avvio**:
 
 | **Fase** | **Authoring** | **Developer (Sviluppatore)** | **Tecnico** |
 |---|---|---|---|
