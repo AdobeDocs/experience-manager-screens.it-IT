@@ -27,7 +27,7 @@ Questa sezione descrive la configurazione  lettore AEM Screens Windows 10. Forni
 
 Per implementare Windows Player per  AEM Screens, installare Windows Player per  AEM Screens.
 
-Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/) .
+Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >Nessuna modalità finestra nel lettore Windows. È sempre la modalità a schermo intero.
@@ -37,34 +37,36 @@ Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >È necessario configurare un ambiente per Windows Player se si utilizza  AEM Screens 6.5.5 Service Pack.
 
-Impostate l’attributo **SameSite per i cookie** del token di login da **Lax** a **None** da **Adobe Experience Manager Web ConsoleConfiguration** su tutte AEM istanze di creazione e pubblicazione.
+Impostare l&#39;attributo **SameSite per i cookie di token di login** da **Lax** a **None** dalla **console Web di Adobe Experience Manager
+Configurazione** su tutte AEM istanze di creazione e pubblicazione.
 
 Effettua le seguenti operazioni:
 
-1. Passa ad **Adobe Experience Manager Web ConsoleConfiguration** tramite `http://localhost:4502/system/console/configMgr`.
+1. Passa a **Adobe Experience Manager Web Console
+Configurazione** utilizzando `http://localhost:4502/system/console/configMgr`.
 
-1. Cercare *gestore* autenticazione token di Granite di Adobe.
+1. Cercare *gestore autenticazione token granito Adobe*.
 
-1. Impostate l’attributo **SameSite per i cookie** di token di login da **Lax** a **None**.
+1. Impostate l&#39;attributo **SameSite per i cookie del token di login** da **Lax** a **None**.
    ![immagine](/help/user-guide/assets/granite-updates.png)
 
 1. Fai clic su **Salva**.
 
-### Ad-Hoc, metodo {#ad-hoc-method}
+### Metodo ad hoc {#ad-hoc-method}
 
-Il metodo Ad-Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita [**AEM pagina dei download**](https://download.macromedia.com/screens/) di 6.5 Player.
+Il metodo Ad-Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 Una volta scaricata l’applicazione, seguite i passaggi del lettore per completare l’installazione ad hoc:
 
 1. Tenete premuto sull’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Andate a **Configurazione** dal menu delle azioni a sinistra e immettete il percorso (indirizzo) dell&#39;istanza AEM a cui desiderate connettervi e fate clic su **Salva**.
-1. Andate al collegamento **Device** **Registration** (Registrazione dispositivo) dal menu delle azioni a sinistra per verificare lo stato del processo di registrazione del dispositivo.
+1. Andate a **Configuration** dal menu delle azioni a sinistra e immettete la posizione (indirizzo) dell&#39;istanza AEM a cui desiderate connettervi e fate clic su **Save**.
+1. Andate al collegamento **Dispositivo** **Registrazione** dal menu delle azioni a sinistra per verificare lo stato del processo di registrazione del dispositivo.
 
 >[!NOTE]
 >
->Se lo **stato** è **REGISTRATO**, il campo ID **** dispositivo verrà popolato.
+>Se **State** è **REGISTERED**, il campo **Device id** verrà popolato.
 >
->Se lo **stato** è **NON REGISTRATO**, potete utilizzare il **token** per registrare il dispositivo.
+>Se **State** è **UNREGISTERED**, è possibile utilizzare il **Token** per registrare il dispositivo.
 
 ### Configurazione server di massa: Registrazione di più lettori Windows 10 con una configurazione {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
 
@@ -81,10 +83,10 @@ Una volta installato il lettore Windows, è possibile registrare più lettori co
 Per configurare Windows 10 Player, effettuate le seguenti operazioni:
 
 1. Installare Windows Player.
-1. Trovate il file di configurazione in ***%appdata%\com.adobe.aem.screens.player\config.json***.
+1. Individuate il file di configurazione in ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aggiornate il JSON di configurazione utilizzando le informazioni riportate di seguito, quindi copiate la stessa cartella in tutti i sistemi in cui risiede il lettore.
 
-### Attributi dei criteri {#policy-attributes}
+### Attributi del criterio {#policy-attributes}
 
 La tabella seguente riassume gli attributi del criterio con un JSON di esempio per riferimento:
 
@@ -97,7 +99,7 @@ La tabella seguente riassume gli attributi del criterio con un JSON di esempio p
 | enableOSD | Abilitare l&#39;interfaccia utente dello switcher di canale per consentire agli utenti di cambiare canale sul dispositivo. Considerate l&#39;impostazione su false una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Consente di visualizzare l&#39;avanzamento delle attività quali il download e la sincronizzazione. Abilitate per la risoluzione dei problemi e disattivate una volta configurato completamente e in produzione. |
 
-#### Esempio di file JSON per i criteri {#example-policy-json-file}
+#### Esempio di file JSON dei criteri {#example-policy-json-file}
 
 ```
 {
@@ -126,11 +128,11 @@ Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
 1. Abilita il lancio della shell.
 
-   Fare riferimento alla sezione ***Configurare Shell Launcher*** nella pagina **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** del supporto di Microsoft Windows per ulteriori informazioni.
+   Fare riferimento alla sezione ***Configura il lanciatore shell*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** della pagina &lt;a2/>Supporto tecnico Microsoft Windows per ulteriori informazioni.
 
 1. Create un utente non amministrativo (se non ne avete già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
-1. Installate il lettore Windows per l&#39;utente Kiosk dalla [pagina Download](https://download.macromedia.com/screens/) di AEM Screens Player.
-1. Fare riferimento a [Utilizzare Shell Launcher per creare un chiosco](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) Windows 10 per modificare lo script PowerShell per ulteriori informazioni.
+1. Installare il lettore Windows per l&#39;utente Kiosk dalla pagina [ Download di AEM Screens Player](https://download.macromedia.com/screens/).
+1. Fare riferimento a [Utilizzare Shell Launcher per creare un chiosco Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) per modificare lo script PowerShell per ulteriori informazioni.
 
    Modificare lo script PowerShell per sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;applicazione eseguibile sia corretto. Questo imposterà la shell personalizzata come applicazione Windows Player per l&#39;utente kiosk e imposta il valore predefinito come explorer.exe per gli altri utenti.
 
@@ -143,7 +145,7 @@ Se si ottiene una schermata nera quando si accede come utente Kiosk, significa c
 
 Il percorso di installazione predefinito per Windows Player è:
 
-***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-electron\ AEM Screens Player.exe***
+***C:\Users\&amp;lt;your user>\AppData\Local\Programs\@aem-screensscreens-player-Electron\ AEM Screens Player.exe***
 
 Lo script di esempio nei collegamenti attiverà e disattiverà la shell personalizzata. Potrebbe quindi essere necessario dividere lo script in due e attivare/disattivare le righe applicabili seguenti:
 
@@ -151,7 +153,7 @@ Lo script di esempio nei collegamenti attiverà e disattiverà la shell personal
 >
 >In alcuni ambienti di Windows, gli script PowerShell possono essere limitati dai criteri (in particolare dagli script non firmati). Per eseguire lo script potrebbe essere necessario disattivare temporaneamente e riabilitare questa limitazione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
 >
->*set-execute policy illimitato* - per rimuovere temporaneamente le restrizioni
+>*set-execute policy illimitato*  - per rimuovere temporaneamente le restrizioni
 >
 >*set-execute policy limitato* : per riabilitare la restrizione dopo l&#39;esecuzione dello script
 
