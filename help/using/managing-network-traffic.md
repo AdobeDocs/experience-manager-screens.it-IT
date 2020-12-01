@@ -17,7 +17,7 @@ Una configurazione di rete può avere diverse strutture. Questa sezione descrive
 Questa guida presenta un&#39;introduzione ai server proxy, seguiti dalle diverse strutture di rete configurate all&#39;interno di diverse organizzazioni.
 
 >[!NOTE]
->**di rete AEM Screens**
+>**requisiti di rete AEM Screens**
 >Il  AEM Screens comunica direttamente con il AEM come Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono assolutamente obbligatori per l&#39;accesso a Internet commerciale e come cliente devi capire quali porte di comunicazione devono essere aperte in questi firewall e altri componenti di rete relativi alla sicurezza IT.
 
 ## Panoramica sui server proxy {#proxy-servers}
@@ -43,7 +43,7 @@ La tabella seguente illustra i diversi tipi di configurazione di rete con vantag
 
 | Configurazione della rete | Vantaggi | Svantaggi |
 |--- |--- |--- |
-| **Rete Internet diretta (via cavo/wireless)** | Facile e semplice da<br>installareSetUpBuona scelta per<br>installazioni di medie dimensioni o di grandi dimensioniLa rete dedicata può essere<br>incapsulataPochi punti di<br>erroreRelativamente<br>poco costosaBuona scalabilità | Piano dati Internet obbligatorio |
-| **Rete mobile diretta** | Facile da<br>configurareBuona scelta per<br>installazioni di medie e grandi dimensioniBuona<br>scalabilitàSchermi incapsulati | Connessione Internet obbligatoria |
-| **Rete mobile con Mobile Data Router e Componenti di rete attivi** | Facile da<br>configurareBuona scelta per<br>installazioni di medie e grandi dimensioniLa rete dedicata può essere<br>incapsulataPochi punti di<br>erroreRelativamente<br>poco costosaBuona scalabilità | Piano dati Internet obbligatorio |
-| **Rete aziendale chiusa (cablata/wireless)** | Elevata flessibilità e<br>scalabilitàAltamente sicura grazie alle diverse linee di<br>difesaReti<br>IncapsulateFacile da monitorare e<br>mantenereAffidabile | Complicato e<br>costosoConsigliato per gli specialisti di rete o integratori di sistemi |
+| **Rete Internet diretta (via cavo/wireless)** | Facile e semplice da configurare per le installazioni di medie dimensioni o di grandi dimensioni<br>È possibile incorporare la rete dedicata<br>Pochi punti di errore<br>Relativamente poco costosi<br>Buona scalabilità<br> | Piano dati Internet obbligatorio |
+| **Rete mobile diretta** | Facile da configurare<br>Buona scelta per installazioni di medie o grandi dimensioni<br>Buona scalabilità<br>Schermi incapsulati | Connessione Internet obbligatoria |
+| **Rete mobile con Mobile Data Router e Componenti di rete attivi** | Facile da configurare<br>Buona scelta per installazioni di medie dimensioni o di grandi dimensioni<br>La rete dedicata può essere incapsulata<br>Pochi punti di errore<br>Relativamente poco costosi<br>Buona scalabilità | Piano dati Internet obbligatorio |
+| **Rete aziendale chiusa (cablata/wireless)** | Elevata flessibilità e scalabilità<br>Altamente sicura a causa delle diverse linee di difesa<br>Reti incapsulate<br>Facile da monitorare e mantenere<br>Affidabile | Complicato e costoso<br>Consigliato per gli specialisti di rete o integratori di sistema |
