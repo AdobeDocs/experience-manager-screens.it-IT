@@ -37,13 +37,13 @@ Gli argomenti seguenti sono trattati in questa sezione:
 
 ## Panoramica {#overview}
 
-***Attivazione*** a livello di canale consente ai canali di passare dopo una determinata pianificazione. Il singolo canale evento sostituisce il canale principale dopo una programmazione impostata e viene riprodotto per un particolare momento, fino a quando il canale principale non riproduce il contenuto.
+***Channel Level*** Activationconsente ai canali di passare dopo una determinata pianificazione. Il singolo canale evento sostituisce il canale principale dopo una programmazione impostata e viene riprodotto per un particolare momento, fino a quando il canale principale non riproduce il contenuto.
 
 L&#39;esempio seguente fornisce una soluzione concentrandosi sui seguenti termini chiave:
 
-* un canale ***di sequenza*** principale per la sequenza globale
-* un canale ***evento*** singolo che viene eseguito una sola volta alla volta
-* una pianificazione ***impostata e una priorità*** per l&#39;evento di riproduzione singola che si verifica all&#39;interno del canale della sequenza principale
+* a ***canale di sequenza principale*** per la sequenza globale
+* un ***canale evento singolo*** che viene eseguito una sola volta alla volta
+* a ***impostare la pianificazione e la priorità*** per l&#39;evento di riproduzione singola che si verifica all&#39;interno del canale della sequenza principale
 
 ## Finestra di attivazione {#using-channel-level-activation}
 
@@ -53,15 +53,15 @@ La sezione seguente illustra la creazione di un singolo evento riprodotto all’
 
 Prima di iniziare ad implementare questa funzionalità, accertatevi di disporre dei seguenti prerequisiti per iniziare a implementare l&#39;attivazione a livello di canale:
 
-* Crea un progetto AEM Screens , in questo esempio, Attivazione a livello di **canale**
+* Creare un progetto AEM Screens , in questo esempio, **Attivazione a livello di canale**
 
-* Crea un canale come **MainAdChannel** nella cartella **Channels (Canali** )
+* Creare un canale come **MainAdChannel** nella cartella **Channels**
 
-* Crea un altro canale come **TargetingSinglePlay** nella cartella **Channels (Canali** )
+* Crea un altro canale come **TargetingSinglePlay** nella cartella **Channels**
 
 * Aggiunta di risorse rilevanti a entrambi i canali
 
-L&#39;immagine seguente mostra il progetto Attivazione **a livello di** canale con canali **MainAdChannel** e **TargetingSinglePlay** nella cartella **Channels** .
+L&#39;immagine seguente mostra il progetto **Attivazione a livello di canale** con i canali **MainAdChannel** e **TargetingSinglePlay** nella cartella **Channels**.
 
 ![screen_shot_2018-11-27at104500am](assets/screen_shot_2018-11-27at104500am.png)
 
@@ -90,19 +90,19 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 1. **Creare una posizione**
 
-   Andate alla cartella **Locations** (Posizioni **) nel progetto AEM Screens  e create una posizione come** Region (Regione).
+   Andate alla cartella **Locations** nel progetto AEM Screens  e create una posizione come **Region**.
 
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
    >
-   >Per informazioni su come creare un percorso, consultate **[Creazione e gestione di posizioni](managing-locations.md)**.
+   >Per informazioni su come creare una posizione, fare riferimento a **[Creazione e gestione di posizioni](managing-locations.md)**.
 
 1. **Crea visualizzazione in posizione**
 
-   1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione**.
-   1. Selezionate **Regione** e fate clic su **+ Crea** dalla barra delle azioni.
-   1. Selezionate **Visualizza** dalla procedura guidata e create una visualizzazione con titolo **Visualizzazione area.**
+   1. Passare a **Attivazione a livello di canale** > **Posizioni** > **Regione**.
+   1. Selezionare **Regione** e fare clic su **+ Crea** dalla barra delle azioni.
+   1. Selezionare **Display** dalla procedura guidata e creare una visualizzazione con titolo **Visualizzazione regione.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -110,35 +110,35 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
    Per **MainAdChannel:**
 
-   1. Andate a Attivazione **a livello di** canale > **Posizioni** > **Regione** > Visualizzazione **a livello di canale e fate clic su** Assegna canale **** dalla barra delle azioni.
-   1. **Viene visualizzata la finestra di dialogo Assegnazione** canale.
-   1. Select **Reference Channel**.. by path.
-   1. Selezionate il percorso **del** canale come Attivazione **a livello di** canale > ***Canali*** > ***MainAdChannel***.
-   1. Il ruolo **** canale viene popolato come canale **principale**.
-   1. Selezionare la **priorità** come **1**.
-   1. Select the **Supported Events** as **Initial Load** and **Idle Screen**.
+   1. Andate a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **Visualizzazione regione** e fate clic su **Assegna canale** dalla barra delle azioni.
+   1. **Viene visualizzata la finestra** di dialogo Assegnazione canale.
+   1. Selezionare **Canale di riferimento**. per percorso.
+   1. Selezionare il percorso **Canale** come **Attivazione livello canale** —> ***Canali*** —> ***MainAdChannel***.
+   1. Il **Ruolo canale** è popolato come **canale principale**.
+   1. Selezionare **Priority** come **1**.
+   1. Selezionare **Eventi supportati** come **Carico iniziale** e **Schermo inattivo**.
    1. Fai clic su **Salva**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >Potete anche assegnare il canale dal pannello di visualizzazione accedendo a Attivazione **a livello di** canale > **Posizioni** > **Regione** > **Visualizzazione** area e facendo clic su **Dashboard** dalla barra delle azioni. Fate clic su **+ Assegna canale** dal pannello CANALI E PIANIFICAZIONI **ASSEGNATI** .
+   >È inoltre possibile assegnare il canale dal dashboard di visualizzazione andando a **Attivazione a livello di canale** —> **Posizioni** —> **Regione** —> **Visualizzazione a livello di canale** e facendo clic su **Dashboard** dalla barra di azione. Fare clic su **+ Assegna canale** dal pannello **CANALI ASSEGNATI &amp; PROGRAMMI**.
 
-   Analogamente, assegna canale **TargetingSinglePlay** per display**:
+   Allo stesso modo, assegna il canale **TargetingSinglePlay** per la visualizzazione**:
 
-   1. Andate a Attivazione **a livello di** canale —> **Posizioni** —> **Regione** —> **Visualizzazione** a livello di canale e fate clic su **Assegna canale** dalla barra delle azioni.
-   1. **Viene visualizzata la finestra di dialogo Assegnazione** canale.
-   1. Select **Reference Channel**.. by path.
-   1. Selezionate il percorso **del** canale come attivazione **a livello di** canale* —> ***Canali*** —> ***TargetingSinglePlay***.
-   1. Il ruolo **** del canale viene popolato come **mirato per singola** riproduzione.
-   1. Impostate la **priorità** su **2**.
-   1. Selezionate gli eventi **** supportati come Carico **** iniziale, Schermo **inattivo e** Timer ****, *come mostrato nella figura seguente.
-   1. Scegli la data in **attivo dal** 27 novembre 2018 11:59 pm e in **attivo fino** al 28 novembre 2018 12:05 am.
+   1. Andate a **Attivazione a livello di canale** —> **Posizioni** —> **Regione** —> **Visualizzazione regione** e fate clic su **Assegna canale** dalla barra delle azioni.
+   1. **Viene visualizzata la finestra** di dialogo Assegnazione canale.
+   1. Selezionare **Canale di riferimento**. per percorso.
+   1. Selezionare il percorso **Canale** come **Attivazione a livello di canale*** —> ***Canali*** —> ***TargetingSinglePlay***.
+   1. Il **Ruolo canale** viene popolato come **target singleplay**.
+   1. Impostare la **Priorità** come **2**.
+   1. Selezionare **Eventi supportati** come **Carico iniziale**, **Schermo inattivo** e **Timer**, *come illustrato nella figura seguente.
+   1. Scegliere la data in **attivo da** come 27 novembre 2018 11:59 pm e in **attivo fino a** come 28 novembre 2018 12:05 am.
    1. Fai clic su **Salva**.
 
    >[!CAUTION]
-   È necessario impostare la priorità per il canale **TargetingSinglePlay** più alto del canale **MainAdSegment** .
+   È necessario impostare la priorità per il canale **TargetingSinglePlay** superiore al canale **MainAdSegment**.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
@@ -151,11 +151,12 @@ Per implementare la funzionalità, effettuate le operazioni seguenti:
 
 Una volta impostata la visualizzazione dei canali e dei canali, avviate il lettore AEM Screens  per visualizzare il contenuto.
 
-Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 11:59 (come impostato nella pianificazione), il canale **TargetingSinglePlay** visualizzerà il contenuto fino alle 12:05 e il canale **MainAdChannel** riprenderà a riprodurlo.
+Il lettore visualizza il contenuto di **MainAdChannel** e esattamente alle 11:59 (come impostato nella programmazione), il canale **TargetingSinglePlay** visualizzerà il contenuto fino alle 12:05 e il canale **MainAdChannel** riprenderà a riprodurre nuovamente il contenuto.
 
 >[!NOTE]
 Per ulteriori informazioni su AEM riproduttore dello schermo, fare riferimento alle seguenti risorse:
-[download](https://download.macromedia.com/screens/)di AEM Screens Player[Utilizzo  AEM Screens Player](working-with-screens-player.md)
+[ download di AEM Screens Player](https://download.macromedia.com/screens/)
+[Utilizzo di  AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per le risorse in un canale {#handling-recurrence-in-assets}
@@ -164,16 +165,16 @@ Potete pianificare le risorse in un canale in modo che si ripetano a determinati
 
 Supponete di voler visualizzare il contenuto di un canale solo il venerdì dall&#39;1:00 fino alle 10:00. Potete utilizzare la scheda **Attivazione** per impostare l&#39;intervallo periodico desiderato per la risorsa.
 
-### Frazionamento del giorno {#day-parting}
+### Partizione giorno {#day-parting}
 
-1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
+1. Selezionate il canale e fate clic su **Dashboard** dalla barra delle azioni per aprire il dashboard del canale.
 
-1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
+1. Dopo aver immesso la data/ora di inizio e l&#39;ora di fine/data dalla finestra di dialogo **Assegnazione canale**, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per la suddivisione del giorno {#example-one}
 
@@ -190,18 +191,18 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]
-È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+È inoltre possibile utilizzare la notazione _militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero, 2:00 pm).
 
 ### WeekParting {#week-parting}
 
-1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
+1. Selezionate il canale e fate clic su **Dashboard** dalla barra delle azioni per aprire il dashboard del canale.
 
-1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
+1. Dopo aver immesso la data/ora di inizio e l&#39;ora di fine/data dalla finestra di dialogo **Assegnazione canale**, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per WeekParting {#example-two}
 
@@ -216,21 +217,21 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | prima delle 12:15 anche dopo le 12:45 | il canale gioca prima delle 12:15 pm ogni giorno e poi anche dopo 12:45 pm |
 
 >[!NOTE]
-È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+È inoltre possibile utilizzare la notazione _militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero, 2:00 pm).
 
 
 ### MeseParting {#month-parting}
 
-1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
+1. Selezionate il canale e fate clic su **Dashboard** dalla barra delle azioni per aprire il dashboard del canale.
 
-1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
+1. Dopo aver immesso la data/ora di inizio e l&#39;ora di fine/data dalla finestra di dialogo **Assegnazione canale**, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per MonthParting {#example-three}
+#### Espressioni di esempio per MeseParting {#example-three}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
@@ -242,18 +243,18 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.
 
 >[!NOTE]
-È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+È inoltre possibile utilizzare la notazione _militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero, 2:00 pm).
 
 ### Combinazione di partizioni {#combined-parting}
 
-1. Selezionate il canale e fate clic sul **dashboard** dalla barra delle azioni per aprire il dashboard del canale.
+1. Selezionate il canale e fate clic su **Dashboard** dalla barra delle azioni per aprire il dashboard del canale.
 
-1. Dopo aver immesso la data/l&#39;ora di inizio e di fine/data dalla finestra di dialogo Assegnazione **** canale, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
+1. Dopo aver immesso la data/ora di inizio e l&#39;ora di fine/data dalla finestra di dialogo **Assegnazione canale**, è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare il programma di ricorrenza.
 
    >[!NOTE]
-   Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per la combinazione di partizioni {#example-four}
 
@@ -266,5 +267,5 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]
-Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _tempo militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero, 2:00 pm).
 
