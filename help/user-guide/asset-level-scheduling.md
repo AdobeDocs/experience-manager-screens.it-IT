@@ -44,11 +44,11 @@ Con questa funzione, potete specificare non solo la data e l&#39;ora di inizio e
 
 ## Finestra di attivazione {#single-event-playback}
 
-Attivazione a livello di risorsa viene eseguita configurando la scheda **Attivazione** durante l&#39;accesso alle proprietà di una risorsa.
+L&#39;attivazione a livello di risorsa viene eseguita configurando la scheda **Attivazione** durante l&#39;accesso alle proprietà di una risorsa.
 
 Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti operazioni:
 
-1. Selezionate un canale e fate clic su **Modifica** dalla barra delle azioni per aggiungere o modificare il contenuto del canale.
+1. Selezionate un canale e fate clic su **Modifica** nella barra delle azioni per aggiungere o modificare il contenuto del canale.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -56,23 +56,23 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
    >
    >Per informazioni dettagliate su come
    >
-   >* Create un progetto, consultate [Creazione di un nuovo progetto](creating-a-screens-project.md).
+   >* Create un progetto. Consultate [Creazione di un nuovo progetto](creating-a-screens-project.md).
    >* Create e aggiungete contenuto a un canale, consultate [Gestione dei canali](managing-channels.md).
 
 
-1. Fai clic su **Modifica** per aprire l’editor dei canali e selezionare una risorsa a cui applicare la pianificazione.
+1. Fate clic su **Modifica** per aprire l&#39;editor di canali e selezionate una risorsa a cui applicare la pianificazione.
 
    ![immagine](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Selezionate la risorsa e fate clic in alto a sinistra **Configura** (icona chiave inglese) per aprire le proprietà dell’immagine.
+1. Selezionate la risorsa e fate clic su in alto a sinistra **Configura** (icona chiave inglese) per aprire le proprietà dell&#39;immagine.
 
-   Click the **Activation** tab.
+   Fare clic sulla scheda **Attivazione**.
 
    ![immagine](/help/user-guide/assets/asset-activation/asset-level3.png)
 
-1. Puoi specificare la data dal selettore data utilizzando i campi **Attivo da** e **Attivo fino** a.
+1. È possibile specificare la data dal selettore data utilizzando i campi **Attivo da** e **Attivo fino a**.
 
-   Se selezionate **Attivo da** e **Attivo fino** alla data e all’ora, la risorsa verrà visualizzata e loop solo tra la data/ora di inizio e la data/ora di fine rispettivamente.
+   Se selezionate la data e l&#39;ora **Attivo da** e **Attivo fino a**, la risorsa verrà visualizzata e loop solo tra la data/ora di inizio e la data/ora di fine rispettivamente.
 
    ![immagine](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -82,16 +82,16 @@ Per eseguire la pianificazione a livello di risorsa, effettuate le seguenti oper
 
 Supponete di voler visualizzare un’immagine solo il venerdì dall’1:00 alle 10:00. Potete utilizzare la scheda **Attivazione** per impostare l&#39;intervallo periodico desiderato per la risorsa.
 
-### Frazionamento del giorno {#day-parting}
+### Partizione giorno {#day-parting}
 
 1. Selezionate la risorsa e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
-   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per la suddivisione del giorno {#example-one}
 
@@ -107,7 +107,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+>È inoltre possibile utilizzare la notazione _militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero, 2:00 pm).
 
 ### WeekParting {#week-parting}
 
@@ -116,9 +116,9 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
-   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per WeekParting {#example-two}
 
@@ -131,7 +131,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare la notazione _completa_ (cioè, Lunedì,Mercoledì,Venerdì) invece della notazione a mano _corta_ (ovvero, Lun,Wed,Vri).
+>È inoltre possibile utilizzare la notazione _full_ (cioè, Lunedì,Mercoledì,Venerdì) invece della notazione _short-hand_ (ovvero, Lun,Wed,Vri).
 
 
 ### MeseParting {#month-parting}
@@ -141,11 +141,11 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
-   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
-#### Espressioni di esempio per MonthParting {#example-three}
+#### Espressioni di esempio per MeseParting {#example-three}
 
 Nella tabella seguente sono riepilogate alcune espressioni di esempio che è possibile aggiungere alla pianificazione durante l&#39;assegnazione di un canale a una visualizzazione.
 
@@ -164,9 +164,9 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 1. Dopo aver immesso la data/ora di inizio e l’ora di fine/data, potete utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
-   >Potete saltare o includere i campi **Attivo da** e **Attivo fino** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
+   >Potete saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Pianificazioni, in base alle vostre esigenze.
 
-1. Immettere l&#39;espressione nella **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immettete l&#39;espressione in **Schedule** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per la combinazione di partizioni {#example-four}
 
@@ -179,16 +179,16 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | il 1-2 giorno di gennaio dopo le 2:00 pm anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 3:00 del 2 gennaio, poi riparte il 2 gennaio alle 2:00 del pomeriggio e continua a giocare fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]
->Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _militare dell&#39;ora_ (ovvero, 14:00) invece della notazione *AM/pm* (ovvero, 2:00 pm).
+>Quando definite i giorni della settimana e dei mesi, potete utilizzare sia le note a mano breve che quelle a nome intero, ad esempio, Luna/Lunedì e Gen/Gennaio.  Inoltre, è possibile utilizzare la notazione _tempo militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero, 2:00 pm).
 
 
 ## Attivazione di più risorse {#multi-asset-scheduling}
 
 >[!CAUTION]
 >
->La funzione Attivazione **** per più risorse è disponibile solo se è stato installato AEM Feature Pack 5 6.3 o AEM Feature Pack 3 6.4.
+>La funzione **Attivazione risorse multiple** è disponibile solo se è stato installato AEM Feature Pack 5 6.3 o AEM Feature Pack 3 6.4.
 
-***Attivazione*** per più risorse consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate.
+***L’*** attivazione di più risorse consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate.
 
 ### Prerequisiti {#prerequisites}
 
@@ -201,15 +201,15 @@ Per utilizzare l’attivazione a livello di risorse multiple per le risorse, cre
 
 Per selezionare più risorse e pianificarne la visualizzazione in un progetto AEM Screens , effettuate le seguenti operazioni:
 
-1. Select **MultiAssetChannel** and click **Edit** from the action bar to open the editor.
+1. Selezionare **MultiAssetChannel** e fare clic su **Edit** dalla barra delle azioni per aprire l&#39;editor.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Selezionate più risorse dall’editor e fate clic su **Modifica attivazione** (icona in alto a sinistra).
+1. Selezionate più risorse dall&#39;editor e fate clic su **Modifica attivazione** (icona in alto a sinistra).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Selezionare la data e l&#39;ora in **Attivo da** e **Attivo fino** alla finestra di dialogo Attivazione **** componente. Fate clic sull&#39;icona del segno di spunta al termine della selezione delle pianificazioni.
+1. Selezionare la data e l&#39;ora in **Attivo da** e **Attivo fino a** dalla finestra di dialogo **Attivazione componente**. Fate clic sull&#39;icona del segno di spunta al termine della selezione delle pianificazioni.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
