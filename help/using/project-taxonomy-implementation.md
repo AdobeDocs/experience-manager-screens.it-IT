@@ -28,7 +28,7 @@ Prima di implementare la soluzione di digital signage  AEM Screens, è necessari
 * **Pianificazione**
 * **Anteprima del contenuto**
 
-Per ulteriori informazioni su questi termini, consultare il [Glossario](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
+Per ulteriori informazioni su questi termini, fare riferimento a [Glossario](https://helpx.adobe.com/experience-manager/6-5/screens/using/screens-glossary.html).
 
 >[!NOTE]
 >
@@ -48,14 +48,14 @@ Un autore  AEM Screens è responsabile della creazione e gestione di un’esperi
 
 Un autore inizia in genere un progetto AEM Screens :
 
-* [creazione di un progetto AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
+* [creazione di un progetto AEM Screens ](https://helpx.adobe.com/experience-manager/6-5/screens/using/creating-a-screens-project.html)
 * [creazione di canali](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-channels.html)
 * [aggiunta di componenti e risorse al canale](https://helpx.adobe.com/experience-manager/6-5/screens/using/adding-components-to-a-channel.html)
 * [creazione di pianificazioni](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-schedules.html)
 * [creazione di posizioni](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-locations.html)
 * [creazione di display](https://helpx.adobe.com/experience-manager/6-5/screens/using/managing-displays.html)
 * [assegnazione di canali agli schermi](https://helpx.adobe.com/experience-manager/6-5/screens/using/channel-assignment.html)
-* [visualizzazione del contenuto in un lettore AEM Screens](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
+* [visualizzazione del contenuto in un lettore AEM Screens ](https://helpx.adobe.com/experience-manager/6-5/screens/using/working-with-screens-player.html)
 
 >[!NOTE]
->Inoltre, potete importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens . Per ulteriori informazioni, consulta [New Project Importer from File (Importazione progetti da file](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) ).
+>Inoltre, potete importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens . Segui [Nuovo Importazione progetti da File](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-importer.html) per ulteriori dettagli.
