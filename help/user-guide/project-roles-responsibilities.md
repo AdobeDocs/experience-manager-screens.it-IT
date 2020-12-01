@@ -47,7 +47,7 @@ AEM Implementatori implementeranno in genere funzionalità personalizzate in pi�
 
 #### Integratori AV {#av-integrators}
 
-Un integratore **** AV è responsabile della realizzazione di ricerche presso i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per la progettazione, la creazione e la gestione efficace delle installazioni in base all&#39;hardware di digital signage.
+Un **AV Integrator** è responsabile di condurre ricerche presso i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per progettare, creare e gestire in modo efficace le installazioni intorno all&#39;hardware di digital signage.
 
 ## Parte 1: Esercitazione video su ruoli e responsabilità del progetto {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -63,4 +63,4 @@ Seguite l&#39;esercitazione riportata di seguito per comprendere esattamente in 
 
 Dopo aver compreso i ruoli e le responsabilità del progetto nell&#39;implementazione di un progetto di digital signage, segui l&#39;esercitazione successiva che approfondisce argomenti quali il test e le considerazioni pre-vendita, in quanto il progetto è ambito nello sviluppo  opportunità di AEM Screens.
 
-Passa alla **[parte 2: Per ulteriori dettagli, le considerazioni relative ai progetti sono Ambiti](project-considerations.md)** .
+Passare a **[Parte 2: Per ulteriori dettagli, le considerazioni relative ai progetti sono Ambiti](project-considerations.md)**.
