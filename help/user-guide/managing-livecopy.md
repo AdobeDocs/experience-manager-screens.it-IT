@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 translation-type: tm+mt
 source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 209a9a833957d9a8bb7c7ec70ff421514f5b974c
 
 Questa pagina descrive come creare e gestire Live Copy dei canali.
 
-A ***Live Copy*** is a copy of specific site content for which a live relationship with the original source is maintained. Questa relazione diretta consente alla Live Copy di ereditare il contenuto e le proprietà della pagina dalla sorgente.
+Una ***Live Copy*** è una copia di contenuto specifico del sito per il quale viene mantenuta una relazione live con l&#39;origine originale. Questa relazione diretta consente alla Live Copy di ereditare il contenuto e le proprietà della pagina dalla sorgente.
 
 Questa pagina descrive come creare la Live Copy di un canale, visualizzare le proprietà, controllare lo stato e propagare le modifiche apportate a un canale alla sua Live Copy.
 
@@ -28,10 +31,10 @@ Questa pagina descrive come creare la Live Copy di un canale, visualizzare le pr
 
 Segui i passaggi riportati di seguito per creare una Live Copy di un canale nella cartella del progetto.
 
-1. Seleziona il collegamento all’Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. Alternatively, you can ﻿go directly to: `http://localhost:4502/screens.html/content/screens`.
+1. Seleziona il collegamento all’Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. In alternativa, puoi accedere direttamente a: `http://localhost:4502/screens.html/content/screens`.
 
 1. Accedi al progetto Screens e fai clic su **Canali**.
-1. Click **Create** and select **Live Copy** to create a live copy of the channel.
+1. Fare clic su **Crea** e selezionare **Live Copy** per creare una Live Copy del canale.
 
 1. Seleziona la destinazione e fai clic su **Avanti**.
 1. Seleziona la posizione della Live Copy.
@@ -41,7 +44,7 @@ Segui i passaggi riportati di seguito per creare una Live Copy di un canale nell
 
 In alternativa, consulta i passaggi descritti di seguito per la rappresentazione visiva per creare una nuova Live Copy di un canale.
 
-The following example shows the creation of a live copy (***IdleLiveCopy***) for ***Idle Channel*** with destination folder as ***Channels***.
+I seguenti esempi mostrano la creazione di una copia live (***IdleLiveCopy***) per il ***Canale inattivo*** con la cartella di destinazione come ***Canali***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,7 +54,7 @@ La Live Copy è una copia di un canale già esistente.
 
 Per visualizzare il contenuto della Live Copy, vedi i passaggi riportati di seguito:
 
-1. Accedi al progetto Screens fai clic sulla posizione dove hai creato la Live Copy originariamente, come mostrato nella sezione precedente. (Here, the location was chosen as **Channels** folder)
+1. Accedi al progetto Screens fai clic sulla posizione dove hai creato la Live Copy originariamente, come mostrato nella sezione precedente. (Qui, il percorso è stato scelto come cartella **Canali**)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -75,11 +78,11 @@ Puoi anche visualizzare le proprietà del tuo canale della Live Copy.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
-### Stato della Live Copy {#live-copy-status}
+### Stato della Live Copy    {#live-copy-status}
 
 La modalità **Stato della Live Copy**, come mostrato nella figura sotto, consente di visualizzare lo stato di relazione di tutte le risorse presenti nel canale.
 
-1. Click **Edit** to choose the **Live Copy Status** and view the association of your channel content to the original channel (from which the live copy is generated).
+1. Fare clic su **Modifica** per scegliere il **Stato Live Copy** e visualizzare l&#39;associazione del contenuto del canale al canale originale (dal quale viene generata la Live Copy).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -125,7 +128,7 @@ Segui i passaggi riportati di seguito per accertarti che le modifiche vengano ap
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Fai clic su **Sincronizza** per confermare le modifiche. Click **Save &amp; Close** to navigate back to the AEM dashboard.
+1. Fai clic su **Sincronizza** per confermare le modifiche. Fare clic su **Salva e chiudi** per tornare al dashboard AEM.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
