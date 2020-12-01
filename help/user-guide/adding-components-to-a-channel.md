@@ -27,7 +27,7 @@ I componenti sono gli elementi fondamentali dell&#39;esperienza di AEM (Adobe Ex
 
 AEM Screens fornisce i vari componenti di AEM che possono essere utilizzati in un progetto Screens.
 
-### Visualizzare i componenti AEM Screens {#viewing-aem-screens-components}
+### Visualizzare i componenti AEM Screens  {#viewing-aem-screens-components}
 
 Ogni volta che crei un progetto AEM Screens, viene visualizzato un elenco dei componenti standard che possono essere aggiunti al progetto.
 
@@ -50,9 +50,9 @@ L&#39;esempio seguente mostra l&#39;aggiunta di un componente Livefyre a un prog
 1. Seleziona il canale a cui desideri aggiungere un nuovo componente. Ad esempio,**We.Retail in Store** --> **Canali** --> **Canale inattivo**.
 
 1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
-1. Select **Design** mode.
+1. Selezionare la modalità **Progettazione**.
 1. Seleziona l&#39;intero editor di progettazione a destra e fai clic sul simbolo delle impostazioni per aprire la finestra di dialogo **Progettazione ParSys**.
-1. Puoi selezionare i componenti che desideri importare nel tuo progetto AEM Screens. The following example shows the addition of **Livefyre** component to an AEM Screens project.
+1. Puoi selezionare i componenti che desideri importare nel tuo progetto AEM Screens. L&#39;esempio seguente mostra l&#39;aggiunta del componente **Livefyre** a un progetto AEM Screens .
 
 ![adding_components](assets/adding_components.gif)
 
@@ -60,7 +60,7 @@ L&#39;esempio seguente mostra l&#39;aggiunta di un componente Livefyre a un prog
 >
 >Allo stesso modo, puoi aggiungere un numero qualunque di altri nuovi componenti compatibili con il progetto AEM Screens.
 
-## Nozioni fondamentali sui componenti AEM Screens {#understanding-aem-screen-components}
+## Nozioni fondamentali sui componenti AEM Screens  {#understanding-aem-screen-components}
 
 Nella sezione seguente sono illustrati i componenti AEM Screens  che è possibile utilizzare nel progetto.
 
@@ -68,7 +68,7 @@ Nella sezione seguente sono illustrati i componenti AEM Screens  che è possibil
 >
 >Per visualizzare le proprietà di qualsiasi componente, seleziona il componente e fai clic sull&#39;icona a martello per aprire/visualizzare le proprietà.
 
-### Applicazione {#application}
+### Applicazione  {#application}
 
 Il componente **Applicazione** consente di aggiungere un&#39;applicazione al tuo canale.
 
@@ -87,7 +87,7 @@ L’esempio seguente mostra come incorporare un componente applicazione con l’
 >
 >Fai riferimento all&#39;esempio precedente per visualizzare le proprietà di ogni componente qui sotto.
 
-### Canale {#channel}
+### Canale  {#channel}
 
 Il componente **Canale** consente di aggiungere un intero canale al progetto.
 
@@ -137,7 +137,7 @@ La pagina incorporata ha le seguenti proprietà:
 
 >[!NOTE]
 >
->Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+>Per informazioni dettagliate sulle sequenze incorporate, consultare [Sequenze incorporate](embedded-sequences.md) nella sezione Creazione di schermate.
 
 Una sequenza incorporata consente di aggiungere un canale per sequenza incorporato all&#39;interno di un canale esistente (con altre risorse).
 
@@ -159,7 +159,7 @@ La Sequenza incorporata ha le seguenti proprietà di pagina:
   </tr>
   <tr>
    <td><strong><em>Strategia</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td>Impostarla su <strong>originale</strong> o <strong>singolo</strong>. Se si imposta il valore su <strong>originale</strong>, la successiva verrà eseguita completamente su ogni ciclo della sequenza padre. L'altro valore possibile è <strong>single</strong> che mostrerebbe solo un elemento della sequenza successiva su ogni esecuzione (ad esempio, il primo elemento sul primo loop, il secondo elemento sul secondo ciclo e così via).</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +168,7 @@ La Sequenza incorporata ha le seguenti proprietà di pagina:
 
 Una sequenza incorporata dinamica consente di aggiungere una sequenza simile a quella indicata più sopra, ad eccezione del ruolo di canale.
 
-Refer to [Embedded Sequences](embedded-sequences.md) under Authoring Screens section, to learn in detail about embedded sequences.
+Per informazioni dettagliate sulle sequenze incorporate, consultare [Sequenze incorporate](embedded-sequences.md) nella sezione Creazione di schermate.
 
 La sequenza dinamica incorporata ha le seguenti proprietà:
 
@@ -188,7 +188,7 @@ La sequenza dinamica incorporata ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Strategia</em></strong></td>
-   <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td>
+   <td>Impostarla su <strong>originale</strong> o <strong>singolo</strong>. Se si imposta il valore su <strong>originale</strong>, la successiva verrà eseguita completamente su ogni ciclo della sequenza padre. L'altro valore possibile è <strong>single</strong> che mostrerebbe solo un elemento della sequenza successiva su ogni esecuzione (ad esempio, il primo elemento sul primo loop, il secondo elemento sul secondo ciclo e così via).</td>
   </tr>
  </tbody>
 </table>
@@ -197,7 +197,7 @@ La sequenza dinamica incorporata ha le seguenti proprietà:
 
 Un frammento esperienza consente di aggiungere un frammento esperienza (gruppo di uno o più componenti, inclusi contenuti e layout a cui è possibile fare riferimento all&#39;interno delle pagine) al canale AEM Screens . Trascinate e rilasciate il componente per AEM editor e selezionate il frammento esperienza.
 
-Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo in un progetto AEM Screens , consultare [Utilizzo dei frammenti](experience-fragments-in-screens.md)esperienza.
+Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo in un progetto AEM Screens , consultare [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
@@ -212,7 +212,7 @@ Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo i
 
 >[!NOTE]
 >
->Le librerie **lato** client e i file **** statici aggiunti da questo componente si aggiungeranno alle librerie **lato** client già configurate e ai file statici aggiunti dalle **proprietà** del frammento esperienza.
+>Le **librerie lato client** e i **file statici** aggiunti da questo componente saranno in aggiunta alle **librerie lato client** già configurate e ai file statici aggiunti dal frammento esperienza **Properties**.
 
 ### Immagine {#image}
 
@@ -231,7 +231,7 @@ La risorsa immagine ha tre schede, ovvero **Immagine**, **Accessibilità** e **S
 | **Accessibilità** |
 | ***Testo alternativo*** | Testo alternativo all&#39;immagine. |
 | **Sequenza** |
-| ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 ms*. Per modificare la durata di riproduzione dell’immagine, aggiornate il campo **Durata** . |
+| ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 ms*. Per modificare la durata di riproduzione dell&#39;immagine, aggiornare il campo **Durata**. |
 
 ### Transizione {#transition}
 
@@ -241,7 +241,7 @@ L’immagine seguente mostra il componente di transizione (aggiunto mediante tra
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Selezionate l’icona della transizione e fate clic sull’icona **Configura** (icona chiave inglese) per aprire la finestra di dialogo **Transizione** . Questa finestra di dialogo include tre schede:
+Selezionate l&#39;icona della transizione e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo **Transizione**. Questa finestra di dialogo include tre schede:
 
 * **Transizione**
 * **Sequenza**
@@ -249,7 +249,7 @@ Selezionate l’icona della transizione e fate clic sull’icona **Configura** (
 
 >[!NOTE]
 >
->Per impostazione predefinita, la sequenza è impostata su 600 ms. È possibile aggiornare la sequenza di transizione ad altri valori utilizzando la scheda **Sequenza** .
+>Per impostazione predefinita, la sequenza è impostata su 600 ms. È possibile aggiornare la sequenza di transizione ad altro valore utilizzando la scheda **Sequence**.
 
 ![transizione](assets/transition.gif)
 
@@ -267,7 +267,7 @@ Il componente Transizione ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Tipo</em></strong></td>
-   <td><p>Il tipo di transizione tra l'elemento prima e dopo. Il <strong>tipo</strong> di transizione include le seguenti opzioni:</p>
+   <td><p>Il tipo di transizione tra l'elemento prima e dopo. La transizione <strong>Type</strong> include le seguenti opzioni:</p>
     <ul>
      <li><strong>Normale</strong></li>
      <li><strong>Dissolvenza</strong></li>
