@@ -6,9 +6,9 @@ user-guide-title: Guida di Adobe Experience Manager Screens
 breadcrumb-title: Guida di AEM Screens
 user-guide-description: Scopri come utilizzare una soluzione Digital Signage per pubblicare esperienze e interazioni digitali dinamiche e interattive.
 translation-type: tm+mt
-source-git-commit: 20c6e15dbee0f2e50b42155d84fac7d6f372170e
+source-git-commit: 2d46d9f4d76739826fae0e75c1387d7a80bce69c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '431'
 ht-degree: 19%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 19%
       + [Utilizzo di Chrome Player come estensione per la risoluzione dei problemi](using-chrome-player-as-an-extension.md)
       + [Android Player](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
+      + [Tizen Player](tizen-player.md)
    + Pubblicazione autore {#author-publish}
       + [Panoramica sull’architettura di Author-Publish](author-publish-architecture-overview.md)
       + [Configurazione di Author e Publish](author-and-publish.md)
@@ -78,6 +79,7 @@ ht-degree: 19%
       + [Sincronizzazione comandi](using-command-sync.md)
       + [Authoring con attivatori dati](authoring-data-triggers.md)
       + [Riconoscimento vocale](voice-recognition.md)
+      + [Rapporto assegnazione contenuti](content-assignment-report.md)
    + Gestione degli aggiornamenti di contenuto {#content-updates}
       + [Aggiornamento dei contenuti on-demand](on-demand-content.md)
       + [Aggiornamento del contenuto come servizio](content-update-as-a-service.md)
@@ -106,6 +108,7 @@ ht-degree: 19%
    + [Risoluzione dei problemi del Centro di controllo del dispositivo](monitoring-screens.md)
    + [Configurazione della riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
+   + [Note sulla versione per Feature Pack 2011](release-notes-fp-202011.md)
    + [Note sulla versione per Feature Pack 2008](release-notes-fp-202008.md)
    + [Note sulla versione per Feature Pack 2004](release-notes-fp-202004.md)
    + [Note sulla versione per Feature Pack 2001](release-notes-fp-202001.md)
