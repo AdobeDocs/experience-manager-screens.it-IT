@@ -9,6 +9,9 @@ contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 95%
 
 ---
 
@@ -30,18 +33,18 @@ Gli eventi basati su dati sono suddivisi in quattro diverse categorie:
 * Dati in uscita - Attuabili
 * Dati in uscita - Presentazione
 
-#### Dati in ingresso - Operativi {#data-in-operational}
+#### Dati in ingresso - Operativi  {#data-in-operational}
 
 Questa categoria può essere ulteriormente suddivisa in Interruzione canale e Segnaposto.
 
-#### Dati in ingresso - Presentazione {#data-in-presentation}
+#### Dati in ingresso - Presentazione  {#data-in-presentation}
 
 I dati sono in esecuzione nel canale temporaneo e dopo un’attivazione, cambiano una risorsa all’interno di un canale.
 
-#### Dati in uscita - Attuabili {#data-out-actionable}
+#### Dati in uscita - Attuabili  {#data-out-actionable}
 
 Quando viene inviato un comando allo schermo LCD per accendere e spegnere lo schermo. Esempio, luminosità o volume dello schermo.
 
-#### Dati in uscita - Presentazione {#data-out-presentational}
+#### Dati in uscita - Presentazione  {#data-out-presentational}
 
 Grafico che raccoglie le informazioni nel ciclo di feedback. Utilizza l’analisi per valutare e osservare gli eventi.
