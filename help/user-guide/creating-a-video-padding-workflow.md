@@ -33,7 +33,7 @@ Questa sezione illustra i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-Il seguente caso d’uso prevede l’inserimento di un video (ad esempio: 1280 x 720) in un canale in cui il display è 1920 x 1080 e il video è collocato a 0x0 (in alto a sinistra). Il video non deve essere allungato o modificato in alcun modo e non utilizza la **copertina** nel componente video.
+Il seguente caso d’uso prevede l’inserimento di un video (ad esempio: 1280 x 720) in un canale in cui il display è 1920 x 1080 e il video è collocato a 0x0 (in alto a sinistra). Il video non deve essere dilatato o modificato in alcun modo e non deve essere utilizzato **Cover** nel componente video.
 
 Il video verrà visualizzato come un oggetto da pixel 1 a pixel 1280 attraverso e da pixel 1 a pixel 720 verso il basso e il resto del canale sarà il colore predefinito.
 
@@ -41,7 +41,7 @@ Il video verrà visualizzato come un oggetto da pixel 1 a pixel 1280 attraverso 
 
 Prima di creare un flusso di lavoro per i video, completate i seguenti prerequisiti:
 
-1. Caricare un video nella cartella **Risorse** nell’istanza AEM
+1. Caricare un video nella cartella **Risorse** nell&#39;istanza AEM
 1. Create un progetto AEM Screens  (ad esempio, **TestVideoRendition**) e un canale denominato (**VideoRendering**), come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -59,39 +59,39 @@ Per creare e utilizzare il flusso di lavoro, effettuate le operazioni seguenti:
 
 Per creare un flusso di lavoro per il video, effettuate le seguenti operazioni:
 
-1. Passate all’istanza AEM e fate clic sugli strumenti dalla barra laterale. Selezionare **Flusso** di lavoro > **Modelli** per creare un nuovo modello.
+1. Passate all’istanza AEM e fate clic sugli strumenti dalla barra laterale. Selezionare **Workflow** —> **Models** per creare un nuovo modello.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Fare clic su **Modelli** —> **Crea** —> **Crea modello**. Immettete il **Titolo** (come **VideoRendition**) e il **Nome** nel modello **** Aggiungi flusso di lavoro. Fate clic su **Fine** per aggiungere il modello di workflow.
+1. Fare clic su **Modelli** —> **Crea** —> **Crea modello**. Immettete i valori **Titolo** (come **VideoRendition**) e **Nome** in **Aggiungi modello flusso di lavoro**. Fare clic su **Fine** per aggiungere il modello di workflow.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Dopo aver creato il modello di workflow, selezionate il modello (**VideoRendition**), quindi fate clic su **Modifica** nella barra delle azioni.
+1. Dopo aver creato il modello di workflow, selezionare il modello (**VideoRendition**), quindi fare clic su **Edit** dalla barra delle azioni.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Trascina il componente **Riga** di comando nel flusso di lavoro.
+1. Trascinare il componente **Riga di comando** nel flusso di lavoro.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Selezionare il componente **Riga** di comando e aprire la finestra di dialogo delle proprietà.
+1. Selezionare il componente **Riga di comando** e aprire la finestra di dialogo delle proprietà.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Selezionare la scheda **Argomenti** per immettere i campi nella finestra di dialogo Riga di **comando - Proprietà** passaggio.
+1. Selezionare la scheda **Argomenti** per immettere i campi nella finestra di dialogo **Riga di comando - Proprietà passaggio**.
 
-   Immettete il formato in Tipi **** mime (come ***video/mp4***) e il comando come (***/usr/local/Cellar/ffmpeg -i ${nomefile} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd p.mp4***) per avviare il flusso di lavoro nel campo **Comandi** .
+   Immettete il formato in **Tipi mime** (come ***video/mp4***) e il comando come (***/usr/local/Cellar/ffmpeg -i ${nomefile} -vf &quot;pad=1920:height=1080:x=0:y=0:color=nero cr&quot; q5dam.video.fullhd-hp.mp4**) per avviare il flusso di lavoro nel campo **Commands**.
 
-   Fare riferimento ai dettagli su **Mime Types** and **Commands** nella nota seguente.
+   Fare riferimento ai dettagli su **Tipi mime** e **Comandi** nella nota seguente.
 
    ![screen_shot_2018-10-18at105300am](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Selezionate il flusso di lavoro (**VideoRenditions**) e fate clic su **Avvia flusso di lavoro** dalla barra delle azioni per aprire la finestra di dialogo **Esegui flusso di lavoro** .
+1. Selezionare il flusso di lavoro (**VideoRenditions**) e fare clic su **Avvia flusso di lavoro** dalla barra delle azioni per aprire la finestra di dialogo **Esegui flusso di lavoro**.
 
    ![screen_shot_2018-10-18at105335am](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Selezionate il percorso della risorsa nel **payload** (come ***/content/dam/huseinpeyda-crossways01_512kb 2.mp4***), immettete il **titolo** come ***RunVideo*** e fate clic su **Run**(Esegui).
+1. Selezionate il percorso della risorsa in **Payload** (come ***/content/dam/huseinpeyda-crossways01_512kb 2.mp4***) e immettete il **titolo** come ***RunVideo***, quindi fate clic su **Esegui**.
 
    ![screen_shot_2018-10-18at112043am](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Per usare il flusso di lavoro nel progetto AEM Screens , effettuate le seguenti 
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Click **Edit** from the action bar. Trascinate e rilasciate il video inizialmente caricato nelle **risorse**.
+1. Fare clic su **Modifica** dalla barra delle azioni. Trascinate e rilasciate il video inizialmente caricato su **Risorse**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Dopo aver caricato il video, fate clic su **Anteprima** per visualizzare l’output.
+1. Dopo aver caricato il video, fate clic su **Anteprima** per visualizzare l&#39;output.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
@@ -116,7 +116,7 @@ Per usare il flusso di lavoro nel progetto AEM Screens , effettuate le seguenti 
 Puoi convalidare l’output tramite:
 
 * Controllare l&#39;anteprima del video nel canale
-* Andate a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, come illustrato nella figura seguente:
+* Andate alla directory ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
 
