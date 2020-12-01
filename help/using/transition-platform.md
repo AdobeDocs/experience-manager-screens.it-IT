@@ -24,15 +24,15 @@ Ciò includerà la mappatura di configurazioni specifiche della piattaforma a re
 
 Alcuni esempi includono come e quando utilizzare:
 
-* **Frammenti** esperienza per la creazione di raggruppamenti di contenuti
+* **Frammenti esperienza** per la creazione di raggruppamenti di contenuti
 * **Frammenti** di contenuto per la creazione di varianti di testo
-* **Context Hub** per la creazione di archivi di dati esterni, SPA per esperienze interattive
-* **Servizi** OSGi per avvisi di rete
-* **Collegamento** risorse per l&#39;origine Creative Cloud
-* **Cartelle** di rete per l&#39;allocazione delle risorse
-* **Sovrapposizione** testo per dati in tempo reale
+* **Context** Hubper la creazione di archivi di dati esterni, SPA per esperienze interattive
+* **Servizi OSGi** per avvisi di rete
+* **Origine** collegamento risorse per Creative Cloud
+* **Cartelle di rete** per l’allocazione delle risorse
+* **Sovrapposizione testo** per dati in tempo reale
 * **Pianificazioni** per i raggruppamenti di canali/visualizzazioni
-* **Flussi** di lavoro per le modifiche automatizzate dei contenuti.
+* **Flussi di** lavoro per modifiche automatizzate dei contenuti.
 
 In questa fase, è importante esaminare tutte le attività e le attività necessarie che richiederanno attenzione e documentarle correttamente in modo che le attività assegnate possano essere correttamente monitorate nella fase di distribuzione.
 
