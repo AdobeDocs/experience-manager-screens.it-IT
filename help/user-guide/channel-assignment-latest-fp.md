@@ -26,7 +26,7 @@ Questa pagina mostra l’assegnazione di un canale al display, le proprietà del
 >Potete assegnare più canali a uno schermo.
 
 
-## Assigning a Channel {#assign-a-channel-new-release}
+## Assegnazione di un canale {#assign-a-channel-new-release}
 
 Seguite le sezioni riportate di seguito per creare un progetto AEM Screens  e assegnare un canale a uno schermo.
 
@@ -39,88 +39,88 @@ Per impostare un progetto e un canale, effettuate le seguenti operazioni:
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp1.png)
 
    >[!NOTE]
-   >Per informazioni su come creare un progetto AEM Screens , consultate [Creazione e gestione di progetti](creating-a-screens-project.md) .
+   >Per informazioni su come creare un progetto AEM Screens , fare riferimento a [Creazione e gestione di progetti](creating-a-screens-project.md).
 
-1. Create un canale di sequenza denominato **Cafeteria** nella cartella **Canali** .
+1. Create un canale di sequenza denominato **Cafeteria** nella cartella **Channels**.
 
-1. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni per aggiungere dei contenuti al canale.
+1. Selezionate il canale e fate clic su **Modifica** dalla barra delle azioni per aggiungere contenuto al canale.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
-   Ad esempio, il canale **Cafeteria** ora mostra le immagini seguenti:
+   Ad esempio, il canale **Cafeteria** ora visualizza le immagini seguenti:
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp3.png)
 
-1. Create una posizione denominata **SanJose** e una visualizzazione come **Sala d’attesa**.
+1. Create una posizione con titolo **SanJose** e uno schermo con nome **Lobby**.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Assegnazione di un canale a uno schermo {#assigning-channel-to-display}
+### Assegnazione del canale a un display {#assigning-channel-to-display}
 
 Una volta completata la configurazione del progetto, dovete assegnare il canale a uno schermo per visualizzare il contenuto.
 
 1. Passare alla visualizzazione desiderata, ad esempio **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Toccate/fate clic su **Assegna canale** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oppure,
 
-   Toccate/fate clic su **Dashboard** nella barra delle azioni e fate clic su **+Assegna canale** dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
+   Toccate/fate clic su **Dashboard** nella barra delle azioni e fate clic su **+Assegna canale** nel pannello **CANALI ASSEGNATI &amp; PROGRAMMI**.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
-1. The **Channel Assignment** dialog box opens.
+1. Viene visualizzata la finestra di dialogo **Assegnazione canale**.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
-1. Dall’opzione **Impostazioni** , potete scegliere il canale **per percorso** o **per nome**, immettere il ruolo **del** canale, la **priorità**********, gli eventi supportati, i metodi di Interruzione, gli eventi supportati, i metodi di Interruzione. Inoltre, è possibile abilitare la descrizione comando di attrazione da questa finestra di dialogo.
+1. Dall&#39;opzione **Impostazioni**, è possibile scegliere il canale **per percorso** o **per nome**, inserire il **Channel Role**, **Priority**, **Eventi supportati** e **Metodi di interruzione**. Inoltre, è possibile abilitare la descrizione comando di attrazione da questa finestra di dialogo.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
    >[!NOTE]
    >
-   >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
+   >Fare riferimento alla sezione [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
-1. Dall&#39;opzione **Pianificazione** , selezionate la finestra **** Attivazione e la pianificazione ****ricorrenza.
+1. Dall&#39;opzione **Pianificazione**, selezionare la **Finestra di attivazione** e **Programma di ricorrenza**.
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Fare riferimento alla sezione Proprietà [](#channel-properties) canale per ulteriori informazioni sulle proprietà di assegnazione dei canali.
+   >Fare riferimento alla sezione [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
-1. Dopo aver configurato le preferenze, fate clic su **Salva** .
+1. Fare clic su **Salva** dopo aver configurato le preferenze.
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
 Questo esempio mostra l&#39;output su un lettore Chrome. Dopo aver assegnato il canale al display, è necessario registrare il dispositivo su un lettore.
 
-Per informazioni su come registrare un dispositivo su un lettore AEM Screens , fare riferimento a Registrazione [](device-registration.md) dispositivo.
+Per informazioni su come registrare un dispositivo su un lettore AEM Screens , fare riferimento a [Registrazione dispositivo](device-registration.md).
 
 Verrà visualizzato il seguente output a scelta del lettore:
 
 ![new1](assets/channel-assignment/channel-assign-output.gif)
 
-## Timeline View {#timeline-view}
+## Visualizzazione timeline {#timeline-view}
 
-Dopo aver assegnato un canale a un display e aver impostato un programma di ricorrenza, potete visualizzare la timeline dal pannello CANALI **ASSEGNATI e PIANIFICAZIONI** .
+Dopo aver assegnato un canale a un display e aver impostato un programma di ricorrenza, potete visualizzare la timeline dal pannello **ASSIGNED CHANNELS &amp; SCHEDULES**.
 
 Per passare alla visualizzazione timeline, effettuate le seguenti operazioni:
 
 1. Passare alla visualizzazione desiderata, ad esempio **DemoScreens** —> **Locations** —> **SanJose** —> **Lobby**.
 
-1. Tap/click **Assign Channel** from the action bar.
+1. Toccate/fate clic su **Assegna canale** dalla barra delle azioni.
 
    Oppure,
 
-   Toccate/fate clic su **Dashboard** e fate clic su **Timeline** dal pannello CANALI e PIANIFICAZIONI **ASSEGNATI** .
+   Toccate/fate clic su **Dashboard** e fate clic su **Timeline** nel pannello **CANALI ASSEGNATI e PROGRAMMI**.
 
    ![immagine](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
 ## Informazioni sulle proprietà del canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
 
-Le seguenti proprietà sono impostate dall’opzione **Impostazioni** nella finestra di dialogo Assegnazione **** canale.
+Le seguenti proprietà sono impostate dall&#39;opzione **Impostazioni** nella finestra di dialogo **Assegnazione canale**.
 
 ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp7.png)
 
@@ -130,7 +130,7 @@ La selezione di un canale consente di fornire un riferimento al canale desiderat
 
 * **In base al percorso**: fornisci un riferimento esplicito usando il percorso assoluto del canale.
 
-* **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. For example, a channel with name *deals of the day*, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.
+* **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. Ad esempio, un canale con il nome *offre tutte le offerte del giorno*, dove il contenuto effettivo sarebbe diverso in due città, ma l&#39;utente ha comunque lo stesso ruolo di canale su tutti i display.
 
 ### Ruolo canale {#role-channel}
 
@@ -158,7 +158,7 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 
 In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
 
-Selezionate una delle seguenti opzioni disponibili per impostare il metodo di interruzione dalla finestra di dialogo Assegnazione **** canale:
+Selezionare una delle seguenti opzioni disponibili per impostare il metodo di interruzione dalla finestra di dialogo **Assegnazione canale**:
 
 * **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, potete interrompere la riproduzione e aggiornare o riprodurre immediatamente il nuovo contenuto
 * **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
@@ -171,26 +171,26 @@ Selezionate una delle seguenti opzioni disponibili per impostare il metodo di in
    >[!NOTE]
    >Utilizzando la seconda o la terza opzione è possibile che i tempi di programmazione definiti per l&#39;assegnazione vengano leggermente posticipati, in quanto il lettore aspetterà la fine dell&#39;elemento o della sequenza (dopo il tempo specificato) prima di effettuare l&#39;aggiornamento. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
 
-Le seguenti proprietà sono impostate dall&#39;opzione **Pianificazione** nella finestra di dialogo Assegnazione **** canale.
+Le seguenti proprietà sono impostate dall&#39;opzione **Schedule** nella finestra di dialogo **Channel Assignment**.
 
 ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
 ### Finestra di attivazione {#activation-window}
 
-La finestra Attivazione consente di selezionare una data **di** inizio e una data **di** fine per visualizzare il contenuto.
+La finestra Attivazione consente di selezionare una **data di inizio** e una **data di fine** per visualizzare il contenuto.
 
 ### Pianificazione ricorrenza {#recurrence-schedule}
 
-La pianificazione ricorrenza consente di impostare una pianificazione periodica per il contenuto. Fai clic su **+ Aggiungi programma** per aggiungere una pianificazione della ricorrenza al canale.
+La pianificazione ricorrenza consente di impostare una pianificazione periodica per il contenuto. Fare clic su **+ Aggiungi pianificazione** per aggiungere una pianificazione della ricorrenza al canale.
 
 >[!NOTE]
 >Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
->Recurrence Schedules introduces *DayParting*, that allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
+>Nei programmi di ricorrenza viene introdotto *DayParting*, che consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare la configurazione per tutti i display contemporaneamente.
 
 Potete impostare le seguenti opzioni:
 
 * **Nome**: Titolo della pianificazione della ricorrenza.
-* **Ripeti**: Scegliete se la pianificazione viene eseguita **Quotidianamente**, **Settimanalmente**, **Mensilmente** o **Annualmente**.
+* **Ripeti**: Scegliete se la pianificazione viene eseguita  **Quotidianamente**,  **Settimanalmente**,  **Mensilmente** o  **Annualmente**.
 * **Inizio**: Ora di inizio per la pianificazione.
 * **Fine**: L&#39;ora di fine del programma. Potete impostare l&#39;impostazione per ora o durata.
    * **Ora**: La pianificazione termina a un&#39;ora specificata.
