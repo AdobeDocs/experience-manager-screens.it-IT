@@ -34,7 +34,7 @@ Questa sezione illustra i seguenti argomenti:
 
 ## Sequenza in  Adobe Analytics con  AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Il processo ***di*** sequenziamento inizia con il servizio di archiviazione dati che attiva  servizio Adobe Analytics. Il contenuto del canale invia  eventi Adobe Analytics con payroll, ovvero l&#39;acquisizione di test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
+Il ***processo di sequenziamento*** inizia con il servizio di memorizzazione dei dati che attiva  servizio Adobe Analytics. Il contenuto del canale invia  eventi Adobe Analytics con payroll, ovvero l&#39;acquisizione di test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
 
 ### Diagramma di sequenza {#sequencing-diagram}
 
@@ -109,7 +109,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Categoria principale (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Raggruppamento di tipi di evento - <strong>Viene inviato il lettore</strong></td> 
+   <td>Categoria principale (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Raggruppamento di tipi di evento - <strong>Noi inviamo Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -124,7 +124,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td> </td> 
    <td>Tipo di evento/azione</td> 
    <td>event.type</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>Tipo evento (rendering, clic, avvicinamento delle dita, zoom) - Azione utente principale</td> 
@@ -241,7 +241,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td><strong><em>Prodotto di origine</em></strong></td> 
    <td>Nome</td> 
    <td>source.name</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>Nome app ( AEM Screens)</td> 
@@ -250,7 +250,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td> </td> 
    <td>Versione</td> 
    <td>source.version</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>Versione firmware</td> 
@@ -259,7 +259,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td> </td> 
    <td>Platform</td> 
    <td>source.platform</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -286,7 +286,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td><strong><em>Contenuto</em></strong></td> 
    <td>Azione</td> 
    <td>content.action</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>URL della risorsa, inclusa la rappresentazione effettivamente riprodotta</td> 
@@ -304,7 +304,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td><strong><em>Transazione</em></strong></td> 
    <td>Numero transazione</td> 
    <td>trn.number</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td>UUID</td> 
    <td>ID univoco che preferibilmente aderisce a UUID v4</td> 
@@ -313,7 +313,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td> </td> 
    <td>Descrizione prodotto</td> 
    <td>trn.product</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>URL della risorsa (esclusa la rappresentazione)</td> 
@@ -322,7 +322,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td> </td> 
    <td>Quantità</td> 
    <td>trn.quantity</td> 
-   <td>required</td> 
+   <td>mandatory</td> 
    <td>string</td> 
    <td> </td> 
    <td>Durata della riproduzione</td> 
