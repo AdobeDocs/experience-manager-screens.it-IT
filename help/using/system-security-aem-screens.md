@@ -20,16 +20,16 @@ ht-degree: 1%
 In questa pagina vengono evidenziate le considerazioni sulla sicurezza del sistema per  AEM Screens.
 
 
-## Libro bianco per  AEM Screens Security {#white-paper}
+## White paper per  AEM Screens Security {#white-paper}
 
 Questa sezione descrive il Libro bianco. (allegato del Libro bianco in sospeso)
 
 
-## Domande frequenti per  AEM Screens Security {#faqs-screens}
+## Domande frequenti su  AEM Screens Security {#faqs-screens}
 
 Le seguenti domande frequenti si basano su un&#39;architettura del lettore autenticata e registrata che utilizza HTTPS come protocollo di comunicazione tra il lettore e AEM Server.
 
-### FAQ 1 {#faq1}
+### Domande frequenti 1 {#faq1}
 
 Il traffico del lettore può essere reinstradato a un server dannoso e istruito a scaricare e riprodurre contenuti multimediali dannosi?
 
@@ -57,7 +57,7 @@ Ogni risorsa viene firmata (SHA) dal server e quindi convalidata dal lettore per
 Se l&#39;hash non corrisponde, si tenta di riconvalidare 3 volte. Dopo 3 tentativi, il comando di download viene considerato non valido.
 
 
-### FAQ 4 {#faq4}
+### Domande frequenti 4 {#faq4}
 
 AEM server è sicuro?
 
