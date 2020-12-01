@@ -24,57 +24,57 @@ In pratica, si tratta di pubblicare manualmente:
 1. Audiences di personalizzazione
 1. Attività di personalizzazione
 
-## Passaggi per la replica degli attivatori di dati su Publish Server {#replicating-data-triggers-publish}
+## Passaggi per la replica degli attivatori dati su Publish Server {#replicating-data-triggers-publish}
 
 Seguite i passaggi riportati di seguito per replicare le attivazioni dei dati sul server di pubblicazione.
 
 ### Passaggio 1: Replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
 
-1. Accedete a **Strumenti** > **Distribuzione** > **Distribuzione** > **Pubblica agente** e fate clic sull’agente di pubblicazione per configurare le impostazioni.
+1. Andate su **Strumenti** > **Distribuzione** > **Distribuzione** > **Pubblica agente** e fate clic sull&#39;agente di pubblicazione per configurare le impostazioni.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
    >[!NOTE]
    >
-   >In alternativa, è possibile utilizzare il `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` pannello per passare direttamente alla schermata per configurare e verificare la connessione.
+   >In alternativa, è possibile utilizzare `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` per navigare direttamente sullo schermo per configurare e verificare la connessione.
 
-1. Fate clic su **Test connessione** dalla barra delle azioni per convalidare la comunicazione dell’autore con l’istanza di pubblicazione, come illustrato nella figura riportata di seguito.
+1. Fate clic su **Test Connection** nella barra delle azioni per convalidare la comunicazione dell&#39;autore con l&#39;istanza di pubblicazione, come illustrato nella figura riportata di seguito.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
    >[!NOTE]
    >
-   >Se il test ha esito negativo, è necessario correggere la configurazione dell&#39;agente di replica tra l&#39;istanza di creazione e di pubblicazione. Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi alla connessione](/help/user-guide/replicating-data-triggers.md#troubleshoot-test) di prova.
+   >Se il test ha esito negativo, è necessario correggere la configurazione dell&#39;agente di replica tra l&#39;istanza di creazione e di pubblicazione. Per ulteriori informazioni, fare riferimento a [Risoluzione dei problemi relativi alla connessione di prova](/help/user-guide/replicating-data-triggers.md#troubleshoot-test).
 
-1. Selezionate **Aggiungi** nella struttura ad albero della schermata **Agente** di distribuzione e selezionate il percorso di configurazione del progetto, ad esempio `/conf/screens/settings/cloudsettings/configuration`.
+1. Selezionare **Aggiungi** dalla struttura ad albero **Agente di distribuzione** e selezionare il percorso di configurazione del progetto, ad esempio `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Fate clic su **Invia**.
+1. Fare clic su **Invia**.
 
 ### Replica del pubblico {#replicating-audiences}
 
-1. Andate alla vostra istanza AEM > **Personalizzazione** > **Audiences** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
+1. Andate all&#39;istanza AEM > **Personalizzazione** > **Audiences** oppure utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
 
-1. Espandete la vostra cartella di progetto, ad esempio `/conf/screens/`.
+1. Espandete la cartella del progetto, ad esempio `/conf/screens/`.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers10.png)
 
 1. Seleziona tutte le audience e i segmenti dall&#39;interfaccia utente.
 
-1. Fai clic su **Gestisci pubblicazione** dalla barra delle azioni.
+1. Fate clic su **Gestisci pubblicazione** nella barra delle azioni.
 
-1. Fate clic su **Avanti** e **Pubblica**.
+1. Fare clic su **Next** e **Publish**.
 
-### Replica delle attività  {#replicating-activities}
+### Replica delle attività {#replicating-activities}
 
-1. Andate alla vostra istanza AEM > **Personalizzazione** > **Attività** o utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
+1. Andate all&#39;istanza AEM > **Personalizzazione** > **Attività** oppure utilizzate `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
 
-1. Approfondisci la cartella del tuo progetto, ovvero `/content/campaigns/screens/…`.
+1. Espandete la cartella del progetto, ovvero `/content/campaigns/screens/…`.
 
 1. Seleziona tutte le attività dall&#39;interfaccia utente.
 
-1. Fai clic su **Gestisci pubblicazione** dalla barra delle azioni.
+1. Fate clic su **Gestisci pubblicazione** nella barra delle azioni.
 
-1. Fate clic su **Avanti** e **Pubblica**.
+1. Fare clic su **Next** e **Publish**.
 
 >[!IMPORTANT]
 >
@@ -92,28 +92,28 @@ Se la replica ha esito positivo, è necessario visualizzare la struttura seguent
 
 Se la connessione di prova non riesce durante la replica delle configurazioni ContextHub, seguite la sezione seguente per risolvere il problema:
 
-1. Passa a Strumenti > **Distribuzione** > **Distribuzione** > **Pubblica agente**.
+1. Selezionare Strumenti > **Distribuzione** > **Distribuzione** > **Pubblica agente**.
 
-1. Fate clic su **Modifica** nella barra delle azioni e accertatevi che l’URL dell’endpoint nel campo Endpoint **** importazione indichi anche l’URL del server di pubblicazione nell’agente di distribuzione.
+1. Fate clic su **Edit** dalla barra delle azioni e verificate che l&#39;URL dell&#39;endpoint nel campo **Importer Endpoints** indichi anche l&#39;URL del server di pubblicazione nell&#39;agente di distribuzione.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Se non utilizzate le credenziali di amministrazione predefinite, dovete configurare l&#39;agente di distribuzione con un nome utente e una password diversi.
 
    Effettua le seguenti operazioni:
 
-   1. Accedete a Strumenti > **Operazioni** > Console **** Web `http://localhost:4502/system/console/configMgr`per aprire la schermata **Console Web di** Adobe Experience Manager.
-   1. Cerca credenziali di trasporto distribuzione **Apache Sling - Credenziali utente basate su DistributionTransportSecretProvider**
+   1. Passare a Strumenti > **Operazioni** > **Console Web** `http://localhost:4502/system/console/configMgr`per aprire la **schermata Console Web Adobe Experience Manager**.
+   1. Cerca **Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider**
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 
-   1. Create una configurazione compilando **Nome**, Nome **** utente e **password**, ad esempio *slingTransportSecretProvider*.
+   1. Create una configurazione compilando **Name**, **User name** e **password**, ad esempio *slingTransportSecretProvider*.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
    1. Fai clic su **Salva**
-   1. Utilizzare `Cmd +F` per cercare **Apache Sling Distribution Agent - Forward Agent Factory** per aprire le configurazioni e cercare **Transport Secret Provider**.
+   1. Utilizzare `Cmd +F` per cercare **agente di distribuzione Apache Sling - Forward Agent Factory** per aprire le configurazioni e cercare **Fornitore di segreti di trasporto**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
-   1. Aggiorna il `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. Fate clic su **Salva** ed eseguite di nuovo la connessione di prova dalla schermata Agente **di** distribuzione dall&#39;istanza AEM.
+   1. Aggiornare `(name=default)` con `(name=slingTransportSecretProvider)`.
+   1. Fare clic su **Salva** ed eseguire di nuovo la connessione di prova dalla schermata **Agente di distribuzione** dall&#39;istanza AEM.
