@@ -37,21 +37,21 @@ Questa pagina illustra la creazione e la gestione di visualizzazioni per le sche
 
 >[!NOTE]
 >
->È necessario creare una posizione prima di creare una visualizzazione. To see how to create a location, see [Create and Manage Locations](managing-locations.md) for more information.
+>È necessario creare una posizione prima di creare una visualizzazione. Per informazioni su come creare una posizione, vedere [Creare e gestire le posizioni](managing-locations.md).
 
 Per creare una nuova visualizzazione nella posizione, effettua le seguenti operazioni:
 
-1. Navigate to the appropriate location, for example `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. Si apre una procedura guidata.
-1. Select **Display** from the **Create** wizard and click **Next**.
+1. Andate alla posizione appropriata, ad esempio `http://localhost:4502/screens.html/content/screens/TestProject`.
+1. Selezionate la cartella del percorso e toccate o fate clic su **Crea** accanto all&#39;icona più nella barra delle azioni. Si apre una procedura guidata.
+1. Selezionare **Display** dalla procedura guidata **Crea** e fare clic su **Next**.
 
-1. Enter **Name** and **Title** for your display location.
+1. Immettere **Nome** e **Titolo** per la posizione di visualizzazione.
 
-1. Under the **Display** tab, choose the details of the Layout. Choose the desired **Resolution** (example as, as **Full HD**). Inoltre, potete scegliere il numero di dispositivi in orizzontale e verticale.
+1. Nella scheda **Visualizza**, scegliere i dettagli del layout. Scegliere la **Risoluzione** desiderata (ad esempio, come **Full HD**). Inoltre, potete scegliere il numero di dispositivi in orizzontale e verticale.
 
 1. Fai clic su **Crea**.
 
-The display (*StoreDisplay*) is created and added to the location (*SanJose*).
+Il display (*StoreDisplay*) viene creato e aggiunto alla posizione (*SanJose*).
 
 ![display](assets/display.gif)
 
@@ -63,7 +63,7 @@ Quando la visualizzazione è in posizione, il passaggio successivo è la creazio
 >
 >Dopo aver creato una visualizzazione per la posizione, è necessario assegnarle un canale affinché la visualizzazione sfrutti i contenuti.
 >
->See [Assign Channels](channel-assignment.md) section to learn how to assign a channel to the display.
+>Per informazioni su come assegnare un canale al display, vedere la sezione [Assegna canali](channel-assignment.md).
 
 ## Creazione di una nuova configurazione dispositivo {#creating-a-new-device-config}
 
@@ -71,15 +71,15 @@ Una configurazione dispositivo funge da segnaposto per un dispositivo di segnale
 
 Effettua le seguenti operazioni per creare una nuova configurazione dispositivo:
 
-1. Andate alla visualizzazione appropriata, ad esempio `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Select your display folder and tap/click **View Dashboard** in the action bar.
-1. Tap/click the **+ Add Device Config** on the top right of the **Devices** panel.
+1. Passare alla visualizzazione appropriata, ad esempio `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
+1. Selezionate la cartella di visualizzazione e toccate o fate clic su **Visualizza dashboard** nella barra delle azioni.
+1. Toccate/fate clic su **+ Aggiungi configurazione dispositivo** in alto a destra nel pannello **Dispositivi**.
 
-1. Select the **Device Config** as the required template as and tap/click **Next**.
+1. Selezionare il **Device Config** come modello richiesto e toccare/fare clic su **Next**.
 
-1. Enter the properties as required and tap/click **Create**.
+1. Immettete le proprietà come richiesto e toccate o fate clic su **Crea**.
 
-The device config is created and added to the current display (in the following demonstration, the new device config is *DeviceConfig*).
+La configurazione del dispositivo viene creata e aggiunta alla visualizzazione corrente (nella dimostrazione seguente, la nuova configurazione del dispositivo è *DeviceConfig*).
 
 ![deviceconfig](assets/deviceconfig.gif)
 
@@ -89,9 +89,9 @@ Una volta impostata la configurazione dispositivo per la visualizzazione nella p
 >
 >Una volta impostata la configurazione dispositivo per la visualizzazione nella posizione, il passaggio successivo prevede l’assegnazione di un canale alla visualizzazione.
 >
->As shown in the figure below, if the device config is displayed as unassigned in the **DEVICES** pannel, if no channel is assigned to that particular device config.
+>Come mostrato nella figura seguente, se la configurazione del dispositivo è visualizzata come non assegnata nel pannello **DEVICES**, se non è assegnato alcun canale a quella particolare configurazione del dispositivo.
 >
->È necessario avere familiarità con le procedure di creazione e gestione di canali. Per ulteriori informazioni, consulta [Creazione e gestione di canali](managing-channels.md) .
+>È necessario avere familiarità con le procedure di creazione e gestione di canali. Per ulteriori informazioni, vedere [Creare e gestire canali](managing-channels.md).
 
 ![chlimage_1-9](assets/chlimage_1-9.png)
 
@@ -120,9 +120,9 @@ Fai clic su **...** nell’angolo in alto a destra del pannello **INFORMAZIONI S
 
 Fai clic su **Proprietà** per visualizzare o modificare le proprietà della visualizzazione.
 
-Additionally, you can adjust the event timer value for your interactive channel in **Idle timeout** property under **Display** tab. Il valore predefinito è impostato su *300 secondi*.
+Inoltre, è possibile regolare il valore del timer evento per il canale interattivo nella proprietà **Idle timeout** nella scheda **Display**. Il valore predefinito è impostato su *300 secondi*.
 
-Use **CRXDE Lite**, to access the **idleTimeout** property, that is, `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Utilizzare **CRXDE Lite** per accedere alla proprietà **idleTimeout**, ovvero `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Pannello Canali Assegnati {#assigned-channels-panel}
@@ -134,7 +134,7 @@ Il pannello **CANALI ASSEGNATI** visualizza i canali assegnati a questo disposit
 
 Il pannello **DISPOSITIVI** fornisce informazioni sulle configurazioni dispositivo.
 
-Click on the (**...**) in the top right corner in the **DEVICES** panel to add device configs and update devices.
+Fare clic su (**...**) nell&#39;angolo superiore destro del pannello **DISPOSITIVI** per aggiungere configurazioni del dispositivo e aggiornare i dispositivi.
 
 Inoltre, fare clic sulla configurazione del dispositivo per visualizzare le proprietà, assegnare un dispositivo o eliminarlo completamente.
 
@@ -144,4 +144,4 @@ Inoltre, fare clic sulla configurazione del dispositivo per visualizzare le prop
 
 Dopo aver completato la creazione di una visualizzazione per la posizione, è necessario assegnare un canale alla visualizzazione.
 
-See [Assign Channels](channel-assignment.md) for more details.
+Per ulteriori informazioni, vedere [Assegna canali](channel-assignment.md).
