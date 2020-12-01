@@ -31,7 +31,7 @@ Inoltre, per prepararsi al successo a lungo termine, è fondamentale stabilire u
 >
 >È necessario definire i parametri operativi in anticipo inclusi nei budget operativi, nonché allineare le responsabilità con l&#39;implementazione AEM e con l&#39;integratore AV.
 >
->* L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata? Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
+>* L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata?  Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
 >* L’applicazione è altamente visibile alla dirigenza esecutiva del cliente finale? Siti con elevata visibilità possono meritare trattamenti diversi.
 >* L&#39;applicazione è fondamentale per le operazioni aziendali, come le schede di menu nelle catene di fast food? In questi casi, il cliente finale può richiedere risoluzioni sul posto con tempi di risposta molto brevi, nonché la ridondanza nell&#39;hardware di riproduzione.
 
@@ -40,7 +40,7 @@ Inoltre, per prepararsi al successo a lungo termine, è fondamentale stabilire u
 
 Di seguito sono riportati alcuni aspetti e domande utili per definire il supporto post-avvio:
 
-1. L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata? Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
+1. L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata?  Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
  
    >[!NOTE]
    >
