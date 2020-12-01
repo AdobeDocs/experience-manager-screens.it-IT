@@ -10,13 +10,13 @@ ht-degree: 2%
 ---
 
 
-# Linee guida sulla selezione hardware per il dispositivo di riproduzione {#hardware-selection}
+# Linee guida sulla selezione hardware per il dispositivo lettore {#hardware-selection}
 
-La sezione seguente illustra le linee guida per la selezione dell&#39;hardware per un lettore AEM Screens.
+La sezione seguente illustra le linee guida per la selezione dell&#39;hardware per un lettore AEM Screens .
 
 ## Considerazioni importanti {#important-considerations}
 
-* Produrre sempre componenti ***commerciali*** o ***industriali*** sia per il lettore PC che per il pannello di visualizzazione o per il proiettore.
+* Produrre sempre i componenti ***Commercial*** o ***Industrial*** Grade sia per il lettore PC che per il pannello di visualizzazione o il proiettore.
 
 * Interagisci sempre con i fornitori che operano nel mercato del digital signage.
 * Considerare sempre fattori ambientali come la temperatura ambiente e l&#39;umidità relativa.
@@ -25,7 +25,7 @@ La sezione seguente illustra le linee guida per la selezione dell&#39;hardware p
 
 ## Configurazioni hardware {#hardware-configurations}
 
-Nella tabella seguente sono riepilogate le configurazioni hardware con i casi di utilizzo tipici per un progetto AEM Screens:
+Nella tabella seguente sono riepilogate le configurazioni hardware con casi di utilizzo tipici per un progetto AEM Screens :
 
 <table>
  <tbody>
@@ -47,7 +47,7 @@ Nella tabella seguente sono riepilogate le configurazioni hardware con i casi di
    <td><p>・ ChromeOS 32 GB</p> <p>・ Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920x1080</td>
-   <td>DVI,<br /> Ethernet / Wireless,<br /> 2 x USB</td>
+   <td>DVI,<br /> Ethernet / Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Ciclo a schermo intero standard<br /> </li>
@@ -61,7 +61,7 @@ Nella tabella seguente sono riepilogate le configurazioni hardware con i casi di
    <td>128 GBB</td>
    <td>OnBoard</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Contenuto dinamico sorgente singola</li>
@@ -76,7 +76,7 @@ Nella tabella seguente sono riepilogate le configurazioni hardware con i casi di
    <td>256 GB</td>
    <td>GPU grafica dedicata</td>
    <td>3840x2160 (4K)</td>
-   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4 x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4x USB</td>
    <td>
     <ul>
      <li>4 o più aree contenuto, riproduzione video simultanea</li>
