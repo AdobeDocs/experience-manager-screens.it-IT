@@ -5,6 +5,9 @@ description: La pagina descrive le specifiche del dispositivo
 seo-description: La pagina descrive le specifiche del dispositivo
 translation-type: tm+mt
 source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -15,15 +18,15 @@ source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
 >
 >Tipico azionista di questa attività è un integratore A/V.
 
-In base alle informazioni raccolte durante il *giorno zero*, conferma le seguenti informazioni prima di iniziare lo sviluppo:
+In base alle informazioni raccolte durante il *Giorno Zero*, confermare le seguenti informazioni prima di iniziare lo sviluppo:
 
-* Quali sono l'orientamento, le dimensioni e la risoluzione degli schermi utilizzati?
+* Quali sono l&#39;orientamento, le dimensioni e la risoluzione degli schermi utilizzati?
 
 * Quante schermate vengono installate per posizione e in quale configurazione?
 
 * Quale software e sistema operativo deve essere installato sui dispositivi di visualizzazione?
 
-* Sarà necessaria una connessione Internet sui lettori per sincronizzare le schermate con i server AEM?
+* Sarà necessaria una connessione Internet sui lettori per sincronizzare gli schermi con AEM server?
 
 * Quando verrà aggiornato il contenuto dei lettori?
 
@@ -38,4 +41,4 @@ In base alle informazioni raccolte durante il *giorno zero*, conferma le seguent
 
 >[!NOTE]
 >
->È inoltre importante convalidare le specifiche dell'hardware selezionato per garantire che possa supportare l'applicazione in fase di sviluppo. Ad esempio, se l'applicazione è destinata a eseguire cinque video HD contemporaneamente, l'hardware lo supporterà?
+>È inoltre importante convalidare le specifiche dell&#39;hardware selezionato per garantire che possa supportare l&#39;applicazione in fase di sviluppo. Ad esempio, se l&#39;applicazione è destinata a eseguire cinque video HD contemporaneamente, l&#39;hardware lo supporterà?
