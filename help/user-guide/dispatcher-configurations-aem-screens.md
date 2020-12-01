@@ -28,7 +28,7 @@ La pagina seguente illustra le linee guida per la configurazione del dispatcher 
 
 Prima di configurare il dispatcher per un progetto AEM Screens , è necessario disporre di conoscenze preliminari sul dispatcher.
 
-Per ulteriori informazioni, consultate [Configurazione del dispatcher](https://docs.adobe.com/content/help/it-IT/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) .
+Per ulteriori informazioni, vedere [Configurazione del dispatcher](https://docs.adobe.com/content/help/it-IT/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
 
 ## Configurazione di Dispatcher {#configuring-dispatcher}
 
@@ -36,7 +36,7 @@ Per configurare il dispatcher per un progetto AEM Screens , procedi come indicat
 
 ### Abilitazione delle sessioni permanenti {#enable-sticky-session}
 
-Se desiderate utilizzare più di un’istanza di pubblicazione con il dispatcher, dovete aggiornare il `dispatcher.any` file.
+Se si desidera utilizzare più di un&#39;istanza di pubblicazione con il dispatcher, sarà necessario aggiornare il file `dispatcher.any`.
 
 ```xml
 /stickyConnections {
@@ -51,7 +51,7 @@ Se desiderate utilizzare più di un’istanza di pubblicazione con il dispatcher
 
 ### Passaggio 1: Configurazione delle intestazioni client {#step-configuring-client-headers}
 
-Aggiungi quanto segue alla `/clientheaders`sezione:
+Aggiungere quanto segue alla sezione `/clientheaders`:
 
 **X-Richiesto-Con**
 
@@ -59,9 +59,9 @@ Aggiungi quanto segue alla `/clientheaders`sezione:
 
 **X-REQUEST-COMMAND**
 
-### Passaggio 2: Configurazione dei filtri per le schermate {#step-configuring-screens-filters}
+### Passaggio 2: Configurazione dei filtri per schermate {#step-configuring-screens-filters}
 
-Per configurare i filtri Schermi, aggiungi quanto segue a ***/filtro***.
+Per configurare i filtri Screens, aggiungi quanto segue a ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -84,14 +84,14 @@ Per configurare i filtri Schermi, aggiungi quanto segue a ***/filtro***.
 
 ### Passaggio 3: Disattivazione della cache del dispatcher {#step-disabling-dispatcher-cache}
 
-Disattiva il caching del dispatcher per il percorso ***/content/screens***.
+Disabilitare il caching del dispatcher per ***/content/screens path***.
 
 I lettori dello schermo utilizzano una sessione autenticata, pertanto il dispatcher non memorizza nella cache nessuna delle richieste dei lettori dello schermo per `channels/assets`.
 
 Per abilitare la cache per le risorse in modo che le risorse vengano servite dalla cache del dispatcher, dovete:
 
-* Aggiungi `/allowAuthorization 1` nella `/cache` sezione
-* Aggiungi le regole seguenti alla `/rules` sezione di `/cache`
+* Aggiungi `/allowAuthorization 1` nella sezione `/cache`
+* Aggiungere le regole seguenti alla sezione `/rules` di `/cache`
 
 ```xml
 /0000
