@@ -44,7 +44,7 @@ La configurazione assegna un accesso a Internet per ogni  controller AEM Screens
 
    >[!NOTE]
    >**Suggerimenti per la risoluzione dei problemi**
-   >Se  AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato, controllate il firewall Internet Router in caso siano presenti restrizioni `TCP/IP Port 80/443`.
+   >Se  AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato, controllate il firewall Internet Router in caso siano presenti restrizioni relative a `TCP/IP Port 80/443`.
 
 
 ## Configurazione di Mobile Network con Mobile Data Router e componenti di rete attivi {#requirements-direct}
@@ -59,7 +59,7 @@ La configurazione della rete può essere logicamente separata in due blocchi:
 
 Le prestazioni della connessione Internet, oltre alla raggiungibilità di rete già descritta, devono fornire una larghezza di banda sufficiente per eseguire  download dei contenuti AEM Screens senza problemi.
 
-*Sufficiente* dipende dalla quantità di dispositivi AEM schermo collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come Smartphone, Tablet, Cashier, Computer o reti Wi-Fi Guest.
+*Il* numero sufficiente dipende dalla quantità di dispositivi AEM schermo collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi per gli ospiti.
 Tenere presente che tutti i dispositivi dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda è generalmente in diminuzione lineare, mentre l&#39;aggiunta di più consumatori/computer alla rete.
 Oltre alla specifica connessione teorica di rete, occorre garantire che la copertura del router mobile sia almeno &quot;buona&quot;. Inoltre, il piano mensile sottostante deve coprire una capacità dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN collegata.
 
@@ -85,7 +85,7 @@ Mentre considera quale rete dati utilizzare, si consiglia di rispondere alle seg
 
 >[!IMPORTANT]
 >
->Per il caricamento iniziale dei file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una maggiore quantità di dati e un maggiore tempo di scaricamento, che si riflette nelle ipotesi sopra riportate. Una rete 4G con una *buona* copertura e dati illimitati deve corrispondere alle installazioni più comuni di questa configurazione di rete.
+>Per il caricamento iniziale dei file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una maggiore quantità di dati e un maggiore tempo di scaricamento, che si riflette nelle ipotesi sopra riportate. Una rete 4G con una copertura *buona* e dati illimitati deve corrispondere alle installazioni più comuni in questa configurazione di rete.
 
 
 ### Rete locale {#lan-connection}
