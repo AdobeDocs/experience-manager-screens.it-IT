@@ -13,17 +13,17 @@ docset: aem65
 translation-type: tm+mt
 source-git-commit: 83ce95e5dc530c5792ec9a00dcb758a424202a7a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 1%
 
 ---
 
 
-# Configuring and Deploying AEM Screens {#configuring-and-deploying-aem-screens}
+# Configurazione e distribuzione  AEM Screens {#configuring-and-deploying-aem-screens}
 
 Questa pagina mostra come installare e configurare i lettori Screens sui dispositivi.
 
-## Server Configuration {#server-configuration}
+## Configurazione server {#server-configuration}
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Questa pagina mostra come installare e configurare i lettori Screens sui disposi
 >
 > lettore AEM Screens non utilizza il token CSRF (Cross-Site Request Forgery). Pertanto, per configurare e AEM server da utilizzare per  AEM Screens, ignorate il filtro di riferimento consentendo riferimenti vuoti.
 
-## Quadro di controllo dello stato {#health-check-framework}
+## Framework di controllo integrità {#health-check-framework}
 
 Il framework Health Check consente all&#39;utente di verificare se sono state configurate due configurazioni necessarie prima di eseguire un progetto AEM Screens .
 
@@ -42,14 +42,14 @@ Consente all&#39;utente di verificare i due seguenti controlli di configurazione
 
 Per verificare se queste due configurazioni vitali sono abilitate per  AEM Screens, effettuate le seguenti operazioni:
 
-1. Passa a Controllo [stato sling console Web](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=)Adobe Experience Manager.
+1. Passa a [Adobe Experience Manager Web Console Sling Health Check](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
 
    ![assets](assets/health-check1.png)
 
 
-2. Fare clic su **Esegui controlli** di integrità selezionati per eseguire la convalida per due proprietà elencate sopra.
+2. Fare clic su **Esegui controlli di integrità selezionati** per eseguire la convalida per due proprietà elencate sopra.
 
-   Se entrambi i filtri sono attivati, il servizio **integrità configurazione** Screens mostra il **risultato** come **OK** con entrambe le configurazioni abilitate.
+   Se entrambi i filtri sono attivati, il **Servizio integrità configurazione schermo** mostra **Risultato** come **OK** con entrambe le configurazioni abilitate.
 
    ![assets](assets/health-check2.png)
 
@@ -60,8 +60,8 @@ Per verificare se queste due configurazioni vitali sono abilitate per  AEM Scree
 
 >[!NOTE]
 >
->* Per abilitare il filtro **di riferimento** Apache Sling, fare riferimento a [Consenti richieste](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests)di referente vuote.
->* Per abilitare il servizio **HTTP** , fare riferimento al servizio [HTTP](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service)Apache Felix Jetty.
+>* Per abilitare il **filtro di riferimento Apache Sling**, fare riferimento a [Consenti richieste di referente vuote](/help/user-guide/configuring-screens-introduction.md#allow-empty-referrer-requests).
+>* Per abilitare il servizio **HTTP**, fare riferimento a [Apache Felix Jetty Based HTTP Service](/help/user-guide/configuring-screens-introduction.md#allow-apache-felix-service).
 
 
 ### Prerequisiti {#prerequisites}
@@ -70,45 +70,45 @@ I seguenti punti chiave aiutano a configurare e AEM server per essere pronto per
 
 #### Consenti richieste referente vuote {#allow-empty-referrer-requests}
 
-1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
+1. Andate a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona del martello —> **Operazioni** —> **Console Web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
-1. **Viene visualizzata la configurazione** della console Web di Adobe Experience Manager. Cerca referrer di fionda.
+1. **Viene aperta la** configurazione della console Web di Adobe Experience Manager. Cerca referrer di fionda.
 
-   Per cercare la proprietà sling referrer, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
+   Per eseguire la ricerca nella proprietà sling referrer, premere **Comando+F** per **Mac** e **Control+F** per **Windows**.
 
-1. Selezionare l&#39;opzione **Consenti valori nulli** , come illustrato nella figura riportata di seguito.
+1. Selezionare l&#39;opzione **Consenti valori vuoti**, come illustrato nella figura riportata di seguito.
 
    ![immagine](assets/config/empty-ref2.png)
 
-1. Fate clic su **Salva** per attivare l&#39;opzione Consenti valori nulli per il filtro Apache Sling Referrer.
+1. Fate clic su **Salva** per abilitare l&#39;opzione Consenti valori nulli per il filtro di riferimento Apache Sling.
 
 
 #### Servizio HTTP Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
+1. Andate a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona del martello —> **Operazioni** —> **Console Web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
-1. **Viene visualizzata la configurazione** della console Web di Adobe Experience Manager. Cercate il servizio HTTP Apache Felix Jetty.
+1. **Viene aperta la** configurazione della console Web di Adobe Experience Manager. Cercate il servizio HTTP Apache Felix Jetty.
 
-   Per effettuare una ricerca in questa proprietà, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
+   Per effettuare una ricerca in questa proprietà, premere **Comando+F** per **Mac** e **Control+F** per **Windows**.
 
-1. Selezionate l’opzione **ABILITA HTTP** , come illustrato nella figura riportata di seguito.
+1. Selezionare l&#39;opzione **ENABLE HTTP**, come illustrato nella figura riportata di seguito.
 
    ![immagine](assets/config/config-1.png)
 
-1. Fate clic su **Salva** per abilitare il servizio *http* .
+1. Fare clic su **Salva** per abilitare il servizio *http*.
 
 #### Abilita interfaccia utente touch per  AEM Screens {#enable-touch-ui-for-aem-screens}
 
  AEM Screens richiede l’interfaccia utente TOUCH e non funziona con l’interfaccia classica di Adobe Experience Manager (AEM).
 
 1. Passa a *&lt;istanzaAutore>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*
-1. Verificate che la modalità **interfaccia utente di authoring** predefinita sia impostata su **TOUCH**, come illustrato nella figura seguente
+1. Assicurarsi che la **modalità interfaccia utente di authoring predefinita** sia impostata su **TOUCH**, come illustrato nella figura seguente
 
-In alternativa, è possibile eseguire la stessa impostazione utilizzando gli strumenti AuthorInstance *->* (icona a forma di martello) -> **Operazioni** -> Console **** Web e cercare il servizio **** WCM per la modalità dell’interfaccia utente di authoring.
+In alternativa, puoi eseguire la stessa impostazione anche utilizzando gli strumenti *->* (icona a forma di martello) -> **Operazioni** -> **Console Web** e cercare **Servizio modalità interfaccia utente di authoring WCM**.
 
 ![screen_shot_2018-12-04at22425pm](assets/screen_shot_2018-12-04at22425pm.png)
 
@@ -118,7 +118,7 @@ In alternativa, è possibile eseguire la stessa impostazione utilizzando gli str
 
 #### AEM in modalità di esecuzione NOSAMPLECONTENT {#aem-in-nosamplecontent-runmode}
 
-L&#39;esecuzione AEM in produzione utilizza la modalità di esecuzione **NOSAMPLECONTENT** . Rimuovere l’intestazione *X-Frame-Options=SAMEORIGIN* (nella sezione dell’intestazione della risposta aggiuntiva) da
+L&#39;esecuzione AEM in produzione utilizza la modalità di esecuzione **NOSAMPLECONTENT**. Rimuovere l&#39;intestazione *X-Frame-Options=SAMEORIGIN* (nella sezione dell&#39;intestazione della risposta aggiuntiva) da
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
@@ -128,25 +128,25 @@ Questo è necessario per  AEM Screens Player per riprodurre i canali online.
 
 Con le ultime modifiche apportate a ***DeviceServiceImpl***, non è necessario rimuovere le restrizioni relative alla password.
 
-Puoi configurare ***DeviceServiceImpl*** dal collegamento seguente per abilitare la limitazione della password durante la creazione della password per gli utenti del dispositivo dello schermo:
+È possibile configurare ***DeviceServiceImpl*** dal collegamento seguente per abilitare la limitazione della password durante la creazione della password per gli utenti del dispositivo dello schermo:
 
 `https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService`
 
 Segui i passaggi indicati di seguito per configurare ***DeviceServiceImpl***:
 
-1. Passa a Configurazione **console Web** Adobe Experience Manager tramite AEM&#39;istanza —> icona a forma di martello —> **Operazioni** —> Console **** Web.
+1. Andate a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona del martello —> **Operazioni** —> **Console Web**.
 
-1. **Viene visualizzata la configurazione** della console Web di Adobe Experience Manager. Cerca *dispositivo*. Per eseguire la ricerca nella proprietà, premere **Comando+F** per macOS e **Ctrl+F** per Microsoft Windows.
+1. **Viene aperta la** configurazione della console Web di Adobe Experience Manager. Cercare *device service*. Per eseguire la ricerca nella proprietà, premere **Comando+F** per macOS e **Control+F** per Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
-#### Dispatcher Configuration {#dispatcher-configuration}
+#### Configurazione del dispatcher {#dispatcher-configuration}
 
-Per informazioni su come configurare il dispatcher per un progetto AEM Screens , vedere [Configurazione del dispatcher per un progetto](dispatcher-configurations-aem-screens.md)AEM Screens .
+Per informazioni su come configurare il dispatcher per un progetto AEM Screens , consultare [Configuring Dispatcher for a  AEM Screens project](dispatcher-configurations-aem-screens.md).
 
 #### Codifica Java {#java-encoding}
 
-Impostare la codifica ****** Java su Unicode. Ad esempio, *Dfile.encoding=Cp1252* non funzionerà.
+Impostare la ***codifica Java*** su Unicode. Ad esempio, *Dfile.encoding=Cp1252* non funzionerà.
 
 >[!NOTE]
 >**Consiglio:**
