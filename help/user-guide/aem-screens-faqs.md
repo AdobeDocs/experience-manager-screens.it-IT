@@ -6,10 +6,10 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 124b766f2bbf5988a104250acb6dde7f4d7189bf
+source-git-commit: 63e3b9d7ad1519b575726dca492e5b5bd64c222d
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 2%
+source-wordcount: '1542'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Un ***Canale online*** mostra il contenuto aggiornato in ambiente in tempo reale
 
 ### 2. Come si crea un canale online? {#how-do-i-make-a-channel-online}
 
-Seleziona il canale e vai alle proprietà del canale dalla barra delle azioni. Per rendere il canale online, selezionate la modalità **Sviluppatore (forzate il canale ad essere online)** nella scheda **Canale** .
+Seleziona il canale e vai alle proprietà del canale dalla barra delle azioni. Selezionare la modalità **Sviluppatore (forzare il canale per essere online)** nella scheda **Canale** per rendere il canale online.
 
 ### 3. Qual è l&#39;utilizzo del campo Ruolo canale? {#what-is-the-use-of-the-channel-role-field}
 
@@ -34,9 +34,9 @@ Il ruolo canale è l&#39;astrazione del canale effettivo che viene eseguito in m
 
 ### 4. Come si realizza la risoluzione effettiva dei canali? {#how-does-actual-channel-resolution-happen}
 
-Per i riferimenti ** statici, la risoluzione segue semplicemente il percorso specificato.
+Per *riferimenti statici*, la risoluzione segue semplicemente il percorso specificato.
 
-Per i riferimenti ** dinamici, la risoluzione si verifica quando il canale viene assegnato al display (non alla pianificazione). Il percorso di visualizzazione diventa il contesto del canale e la risoluzione si realizza come segue (priorità massima a priorità più bassa):
+Per *riferimenti dinamici*, la risoluzione si verifica quando il canale viene assegnato al display (non alla pianificazione). Il percorso di visualizzazione diventa il contesto del canale e la risoluzione si realizza come segue (priorità massima a priorità più bassa):
 
 1. La visualizzazione ha un nodo figlio che corrisponde al nome del canale di riferimento
 1. La visualizzazione ha un nodo di pari livello che corrisponde al nome del canale di riferimento
@@ -63,7 +63,7 @@ Si consiglia di ottenere l’ID dispositivo dalla sessione anziché passarlo com
 
 Non potete rifiutare le richieste di registrazione. Al contrario, le richieste di registrazione dovrebbero scadere dopo un timeout configurato in [Adobe Experience Manager Web Console](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Per impostazione predefinita, questo valore è impostato su un giorno e viene memorizzato in una cache della memoria.
 
-## Monitoraggio dei dispositivi e rapporti sullo stato {#device-monitoring-and-health-reports}
+## Report di monitoraggio e integrità dei dispositivi {#device-monitoring-and-health-reports}
 
 ### 1. Come si risolve il problema se il lettore AEM Screens  mostra lo schermo vuoto? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
@@ -77,8 +77,8 @@ Per risolvere il problema dello schermo vuoto, verificare le seguenti possibilit
 
 È necessario abilitare il filtro Apache Sling Referrer Filter Allow Empty. Questo è richiesto per il funzionamento ottimale del protocollo di controllo tra  AEM Screens Player e  server AEM Screens.
 
-1. Passa alla configurazione della console Web di **Adobe Experience Manager**
-1. Selezionare l&#39;opzione **allow.empty** .
+1. Passa a **Configurazione console Web Adobe Experience Manager**
+1. Selezionare l&#39;opzione **allow.empty**.
 1. Fai clic su **Salva**.
 
 ### 3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens , il dispositivo mostra FAILURE e i registri della console visualizzano l&#39;errore ENAME_NOT_FOUND? {#how-to-troubleshoot-if-while-registering-an-aem-screens-player-device-shows-failure-and-the-console-logs-display-ename-not-found-error}
@@ -89,7 +89,7 @@ Questo problema può verificarsi se il lettore non è in grado di trovare il DNS
 
 Un cane da guardia Android multipiattaforma che utilizza API Android pure è già una parte dell&#39;apk. Non è necessario alcun software aggiuntivo, ma a seconda del dispositivo utilizzato, potrebbe essere necessario ridimensionare l&#39;apk per ottenere privilegi di sistema per un ciclo di alimentazione completo (Powermanager api). Se non viene rassegnato utilizzando i tasti del produttore, si chiude e si riavvia l&#39;applicazione ma non il ciclo di alimentazione.
 
-Per ulteriori informazioni su come implementare Android Player, consultate [**Implementazione di Android Player**](implementing-android-player.md).
+Per ulteriori informazioni su come implementare Android Player, fare riferimento a [**Implementazione di Android Player**](implementing-android-player.md).
 
 ### 5. Quali strumenti di monitoraggio remoto di terze parti (software)  Adobe/AMS consiglia di monitorare ciascun dispositivo?  {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
@@ -103,45 +103,45 @@ Per ulteriori informazioni su dove è possibile monitorare l&#39;attività del d
 
 Il lettore ChromeOS può essere installato come il plugin Chrome Browser in modalità sviluppatore senza richiedere un dispositivo effettivamente chrome player. Per l’installazione, effettuate le seguenti operazioni:
 
-1. Clicca [qui](https://download.macromedia.com/screens/) per scaricare la versione più recente di Chrome Player.
+1. Fare clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 1. Decomprimete il file e salvatelo su disco.
-1. Aprite il browser Chrome e selezionate **Estensioni** dal menu oppure passate direttamente a ***chrome://extensions***.
-1. Attivate la modalità **** Sviluppatore dall&#39;angolo in alto a destra.
-1. Fare clic su **Carica non imballato** dall&#39;angolo in alto a sinistra e caricare Chrome Player decompresso.
-1. Controllare **plugin AEM Screens Chrome Player** se è disponibile nell&#39;elenco delle estensioni.
-1. Aprite una nuova scheda e fate clic sull&#39;icona **App** dall&#39;angolo in alto a sinistra oppure passate direttamente a ***chrome://apps***.
-1. Fate clic su **AEM Screens** Plugin per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **esc** per uscire dalla modalità a schermo intero.
+1. Aprite il browser Chrome e selezionate **Estensioni** dal menu oppure andate direttamente a ***chrome://extensions***.
+1. Accendere la **Modalità Sviluppatore** dall&#39;angolo in alto a destra.
+1. Fare clic su **Carica non imballato** dall&#39;angolo in alto a sinistra e caricare il lettore Chrome decompresso.
+1. Controllare il plug-in **AEM Screens Chrome Player** se disponibile nell&#39;elenco delle estensioni.
+1. Aprite una nuova scheda e fate clic sull&#39;icona **App** dall&#39;angolo in alto a sinistra oppure andate direttamente a ***chrome://apps***.
+1. Fare clic su **AEM Screens** Plugin per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **esc** per uscire dalla modalità a schermo intero.
 
 ### 2. Come risolvere il problema se il lettore Screens non è in grado di eseguire l&#39;autenticazione tramite l&#39;istanza di pubblicazione con un gestore di errori personalizzato? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
-Quando  lettore AEM Screens viene avviato, effettua una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per l’autenticazione rispetto all’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo all’indirizzo ***/content/screens/svc.ping.json***.
+All&#39;avvio  lettore AEM Screens, viene richiesto di ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per l’autenticazione rispetto all’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo su ***/content/screens/svc.ping.json***.
 
 ### 3. Come impostare lo schermo del dispositivo su un lettore Android? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Seguite i passaggi indicati di seguito per attivare Stay Awake su qualsiasi lettore Android:
 
-1. Passa alle impostazioni del lettore Android —> **Informazioni**
-1. Toccate 7 volte il numero di build per abilitare le opzioni **per** sviluppatori in **Impostazioni**
-1. Vai a Opzioni **sviluppatore**
-1. Abilita **veglia**
+1. Passa alle impostazioni del lettore Android —> **Informazioni su**
+1. Toccate 7 volte sul numero di build per abilitare **Opzioni sviluppatore** in **Impostazioni**
+1. Passa a **Opzioni sviluppatore**
+1. Abilita **Resta sveglia**
 
 ### 4. Come attivare la modalità finestra per il lettore Windows?{#enable-player}
 
 Nessuna modalità finestra nel lettore Windows. È sempre la modalità a schermo intero.
 
-### 5. Come risolvere il problema se un lettore AEM Screens  invia continuamente le richieste di login?{#requests-login}
+### 5. Come risolvere i problemi relativi all&#39;invio continuo di richieste di login da parte di un lettore AEM Screens ?{#requests-login}
 
-Per risolvere eventuali problemi relativi a un lettore AEM Screens  che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
+Seguite i passaggi riportati di seguito per risolvere eventuali problemi relativi a un lettore AEM Screens  che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. Quando  lettore AEM Screens inizia, lo richiede a `/content/screens/svc.json`. Quando il lettore riceve un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` l’istanza di *pubblicazione* . Se nell’istanza di *pubblicazione* è presente un gestore errori personalizzato, accertatevi di restituire il codice di stato 404 per l’utente anonimo su `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+1. All&#39;avvio  lettore AEM Screens, viene richiesto `/content/screens/svc.json`. Quando il lettore riceve un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` rispetto all&#39;istanza *publish*. Se nell&#39;istanza *publish* è presente un gestore errori personalizzato, assicurarsi di restituire il codice di stato 404 per l&#39;utente anonimo su `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
-1. Verificate se la configurazione del dispatcher consente queste richieste nel `/filters`.
+1. Verificate se la configurazione del dispatcher consente queste richieste in `/filters`.
 
-   Per ulteriori informazioni, consulta [Configurazione dei filtri](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters) per le schermate.
+   Per ulteriori informazioni, vedere [Configurazione dei filtri per le schermate](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html#step-configuring-screens-filters).
 
 1. Verificare che le regole di riscrittura dispatcher stiano riscritgendo uno dei percorsi delle schermate in un percorso diverso.
 
-1. Verificate di disporre di `/etc/map` regole sull’istanza di *creazione* o *pubblicazione* e i percorsi delle schermate corrispondano `sling:match` e vengono reindirizzati internamente a un percorso diverso. La risoluzione dell’URL esatto in `/system/console/jcrresolver` aiuta a identificare se l’istanza di *pubblicazione* sta riscrivendo questi URL in qualsiasi altro percorso.
+1. Verificate di disporre di `/etc/map` regole sull&#39;istanza *author* o *publish* e i percorsi delle schermate siano associati a `sling:match` e reindirizzati internamente a un percorso diverso. La risoluzione dell&#39;URL esatto in `/system/console/jcrresolver` aiuta a identificare se l&#39;istanza *publish* sta riscrivendo questi URL in qualsiasi altro percorso.
 
 1. Verificare se la configurazione di Apache Sling Resource Resolver Factory sta causando riscritture interne.
 
@@ -155,11 +155,19 @@ Per disattivare Livefyre per evitare errori di registro:
 
    * Accedi a `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
    * Cercate il bundle AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
-   * Fare clic su **Interrompi**
+   * Fare clic su **Stop**
 
 1. ***Disattiva polling Livefyre:***
 
-   * In CRXDE Lite , andate a `/etc/importers/polling/livefyre-poller/jcr:content`
-   * Aggiungere una nuova proprietà *abilitata* tipo *booleano*
-   * Imposta proprietà **** enabled su **false**
+   * In CRXDE Lite , passare a `/etc/importers/polling/livefyre-poller/jcr:content`
+   * Aggiungere una nuova proprietà *enabled* type *Boolean*
+   * Impostare la proprietà **enabled** su **false**
+
+### 2. Come aggiungere informazioni sull&#39;indice Oak? {#add-oak-index-info}
+
+ AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.
+Se sono presenti *GUARDIE DI TRASFERIMENTO DELLE Query* in `error.log`, creare un indice personalizzato per la query. Per ulteriori informazioni, consultare [Configurazione degli indici](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes).
+
+È inoltre possibile fare riferimento a una risorsa aggiuntiva in [Documentazione quercia](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+
 
