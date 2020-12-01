@@ -53,7 +53,7 @@ Sono consigliate le seguenti considerazioni software:
 
  AEM Screens include un modulo Device Control Center che consente la gestione dei punti finali dell&#39;applicazione del lettore Screens.
 
-Si riferisce a qualsiasi dispositivo hardware del *lettore* in cui è installata l&#39;applicazione del lettore Screens e che è registrato in un&#39;istanza di AEM.
+Si riferisce a qualsiasi dispositivo hardware *player* con l&#39;applicazione del lettore Screens installata e registrata in un&#39;istanza di AEM.
 Questo modulo consente di:
 
 1. Monitorare i registri di errore dell’applicazione del lettore
@@ -61,7 +61,7 @@ Questo modulo consente di:
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Device Control Center***, consultare [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) (Risoluzione dei problemi relativi al Centro di controllo dispositivi) nella **Guida** utente di AEM Screens.
+Per informazioni dettagliate su ***Device Control Center***, fare riferimento a [Troubleshooting Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **AEM Screens User Guide**.
 
 >[!CAUTION]
 >
@@ -77,12 +77,12 @@ Per informazioni dettagliate su ***Device Control Center***, consultare [Trouble
 >
 >  Adobe consiglia di utilizzare piattaforme dedicate di gestione dei dispositivi di terze parti per tutte le distribuzioni.
 
-La piattaforma specifica scelta dipende da una serie di fattori, tra cui il sistema ***operativo*** di destinazione, i requisiti ***del*** progetto e il ***numero di punti*** finali.
+La piattaforma specifica scelta dipende da una serie di fattori, tra cui il ***sistema operativo di destinazione***, i ***requisiti di progetto*** e il numero di punti finali ***.***
 
 Alcuni esempi sono:
 
 * Gestione dispositivi Google Chrome
 * TeamViewer
 * AirWatch
-* 42Gears
+* 42 ingranaggi
 * Middleware proprietario dell&#39;integratore AV
