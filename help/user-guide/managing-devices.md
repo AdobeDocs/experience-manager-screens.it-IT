@@ -38,19 +38,19 @@ Segui i passaggi descritti di seguito per assegnare un dispositivo a una visuali
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Select your **Devices** folder and tap/click **Device Manager** in the action bar. Vengono mostrati i dispositivi assegnati e non assegnati.
+1. Seleziona la cartella **Devices** e tocca o fai clic su **Device Manager** nella barra delle azioni. Vengono mostrati i dispositivi assegnati e non assegnati.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Select an unassigned device from the list, and tap/click the **Assign Device** in the action bar.
+1. Selezionate un dispositivo non assegnato dall&#39;elenco, quindi toccate o fate clic su **Assegna dispositivo** nella barra delle azioni.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Select the display you want to assign the device to from the list, and tap/click the **Assign**.
+1. Selezionare dall&#39;elenco la visualizzazione a cui si desidera assegnare il dispositivo, quindi toccare o fare clic su **Assign**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tap/click the **Finish** to complete the assignment process.
+1. Toccare/fare clic su **Fine** per completare il processo di assegnazione.
 
 
    Il dashboard di visualizzazione mostra il dispositivo assegnato nel pannello **DISPOSITIVI**.
@@ -64,7 +64,7 @@ Segui i passaggi descritti di seguito per assegnare un dispositivo a una visuali
 >[!NOTE]
 >
 >Ogni volta che il primo dispositivo viene aggiunto a un nuovo progetto Screens, viene creato un gruppo utente.
->For instance, if the project node name is *we-retail*, then the user group name is *screens-we-retail-devices*.
+>Ad esempio, se il nome del nodo del progetto è *we-retail*, il nome del gruppo di utenti è *screens-we-retail-devices*.
 >Questo gruppo viene aggiunto come membro del gruppo **Collaboratori**, come illustrato di seguito:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
