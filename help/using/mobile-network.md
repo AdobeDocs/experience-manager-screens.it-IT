@@ -37,7 +37,7 @@ Seguire i passaggi indicati di seguito per garantire la corretta connessione dei
 
 1. Se la chiamata URL ha esito positivo, potete continuare a installare l’AEM Screens  e registrarvi. Avviate  AEM Screens.
 
-## Impostazione di una rete mobile diretta {#requirements-direct}
+## Configurazione di Direct Mobile Network {#requirements-direct}
 
 La configurazione della rete può essere logicamente separata in due blocchi:
 
@@ -69,10 +69,10 @@ Come follow-up il pacchetto dati necessario deve essere almeno:
 
 
 >[!IMPORTANT]
->Per il caricamento iniziale dei file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una maggiore quantità di dati e un maggiore tempo di scaricamento, che si rifletta nelle ipotesi di cui sopra. Una rete 4G con una *buona* copertura e dati *illimitati* dovrebbe corrispondere alle installazioni più comuni di questa configurazione di rete.
+>Per il caricamento iniziale dei file multimediali, ad esempio, mentre si integrano nuovi lettori, è necessario prevedere una maggiore quantità di dati e un maggiore tempo di scaricamento, che si rifletta nelle ipotesi di cui sopra. Una rete 4G con una copertura *buona* e dati *illimitati* deve corrispondere alle installazioni più comuni in questa configurazione di rete.
 
 >[!NOTE]
->Un piano 3G minimo con una buona copertura di rete dovrebbe portare a prestazioni di download accettabili per un lettore AEM Screens . Se esiste solo una copertura equa disponibile in una posizione specifica, è necessario considerare la possibilità di passare dall&#39;impostazione della rete alla rete [mobile con Mobile Data Router e Active Network Components](/help/using/mobile-network-router.md).
+>Un piano 3G minimo con una buona copertura di rete dovrebbe portare a prestazioni di download accettabili per un lettore AEM Screens . Se in una posizione specifica è disponibile solo una copertura equa, è necessario considerare la configurazione della rete su [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md).
 
 
 ### Rete locale {#lan-connection}
