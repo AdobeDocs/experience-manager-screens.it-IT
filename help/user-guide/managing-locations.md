@@ -11,6 +11,9 @@ topic-tags: authoring
 discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 51%
 
 ---
 
@@ -32,26 +35,26 @@ Questa pagina mostra le posizioni di creazione e gestione per Screens.
 Una volta creato il progetto per Screens, segui i passaggi descritti di seguito per creare una nuova Posizione per un progetto Screens:
 
 1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi accedere direttamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Navigate to Screens project and click **Locations**.
-1. Click **Create** next to the plus icon in the action bar. Si apre una procedura guidata.
-1. Select the template **Location** from the wizard and click **Next**.
+1. Andate al progetto Screens e fate clic su **Posizioni**.
+1. Fare clic su **Crea** accanto all&#39;icona più nella barra delle azioni. Si apre una procedura guidata.
+1. Selezionare il modello **Location** dalla procedura guidata e fare clic su **Next**.
 
-1. Enter the properties for **Title and Tags**, **More Titles and Description**, **On/Off Time**, and **Vanity URL**.
+1. Immettete le proprietà per **Titolo e tag**, **Altri titoli e descrizioni**, **Ora di attivazione/disattivazione** e **URL personalizzato**.
 
-1. Click **Create** and the location is created and added to your locations folder.
+1. Fare clic su **Crea** e il percorso viene creato e aggiunto alla cartella dei percorsi.
 
-Per informazioni sulla creazione di una nuova posizione per un progetto AEM Screens, consultate i passaggi riportati di seguito. For demonstration purposes, the new location (SanJose) is created under *DemoProject*.
+Per informazioni sulla creazione di una nuova posizione per un progetto AEM Screens , consulta i passaggi riportati di seguito. A scopo dimostrativo, la nuova posizione (SanJose) viene creata in *DemoProject*.
 
 ![player2](assets/player2.gif)
 
 Dopo aver creato una posizione, è necessario creare una nuova visualizzazione per la posizione.
 
-### Modifica delle proprietà di un percorso {#editing-properties-for-a-location}
+### Modifica delle proprietà per un percorso {#editing-properties-for-a-location}
 
 Per modificare/accedere alle proprietà di una posizione:
 
 1. Selezionare la posizione.
-1. Click **Properties** from the action bar.
+1. Fare clic su **Proprietà** dalla barra delle azioni.
 
 ![player3](assets/player3.gif)
 
@@ -59,4 +62,4 @@ Per modificare/accedere alle proprietà di una posizione:
 
 Dopo aver creato una posizione, è necessario creare una nuova visualizzazione per la posizione.
 
-See [Creating and Managing Displays](managing-displays.md) for more details.
+Per ulteriori informazioni, vedere [Creazione e gestione di display](managing-displays.md).
