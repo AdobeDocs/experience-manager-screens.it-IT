@@ -27,11 +27,11 @@ Il seguente caso di utilizzo illustra l’utilizzo dell’attivazione della temp
 
 Per questo caso d&#39;uso, se il tuo Google Sheets ha un Valore inferiore a 50, verrà visualizzata un&#39;immagine con bevande calde e se il valore è maggiore o uguale a 50, verrà visualizzata l&#39;immagine con bevande fredde. In caso di un altro valore o nessun valore, il lettore visualizzerà un&#39;immagine predefinita.
 
-## Premesse {#preconditions}
+## Precondizioni {#preconditions}
 
-Prima di iniziare ad implementare l&#39;attivazione della temperatura locale del centro viaggi, è necessario apprendere come impostare ***Data Store***, Segmentazione ****** pubblico e ***Abilitare il targeting per canali*** in un progetto AEM Screens .
+Prima di iniziare ad implementare l&#39;attivazione della temperatura locale del centro viaggi, è necessario apprendere come impostare ***Data Store***, ***Segmentation del pubblico*** e ***Enable Targeting for Channels*** in un progetto AEM Screens .
 
-Per informazioni dettagliate, consultate [Configurazione di ContextHub in  AEM Screens](configuring-context-hub.md) .
+Per informazioni dettagliate, fare riferimento a [Configurazione di ContextHub in  AEM Screens](configuring-context-hub.md).
 
 ## Flusso di base {#basic-flow}
 
@@ -40,53 +40,53 @@ Seguire i passaggi indicati di seguito per implementare il caso d’uso di attiv
 1. **Compilazione dei fogli di Google**
 
    1. Passare al foglio di Google ContextHubDemo.
-   1. Aggiungete una colonna con **Titolo1** con il valore corrispondente per la temperatura.
+   1. Aggiungere una colonna con **Intestazione1** con il valore corrispondente per la temperatura.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
-   1. Andate ai segmenti del pubblico (fate riferimento al ***Passaggio 2: Impostazione della segmentazione*** dell&#39;audience in **[Configurazione di ContextHub  pagina AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Andate ai segmenti del pubblico (fate riferimento a ***Passaggio 2: Impostazione della segmentazione dell&#39;audience*** in **[Configurazione di ContextHub  pagina AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
-   1. Selezionare i **fogli A1 1** e fare clic su **Modifica**.
+   1. Selezionare il **Fogli A1 1** e fare clic su **Modifica**.
 
    1. Selezionate la proprietà di confronto e fate clic sull&#39;icona di configurazione per modificare le proprietà.
-   1. Selezionare **googlesheets/value/1/0** dall&#39;elenco a discesa in Nome **proprietà**
+   1. Selezionare **googlesheets/value/1/0** dall&#39;elenco a discesa in **Nome proprietà**
 
-   1. Selezionate **Operatore** come **maggiore o uguale** dal menu a discesa
+   1. Selezionare **Operatore** come **maggiore di o uguale** dal menu a discesa
 
-   1. Immettere il **valore** come **50**
+   1. Immettere il **Valore** come **50**
 
-   1. Analogamente, selezionare i **fogli A1 2** e fare clic su **Modifica**.
+   1. Analogamente, selezionare le **Fogli A1 2** e fare clic su **Modifica**.
 
-   1. Selezionate la proprietà **Confronto - Valore** e fate clic sull&#39;icona di configurazione per modificare le proprietà.
-   1. Selezionare **googlesheets/value/1/0** dall&#39;elenco a discesa in Nome **proprietà**
+   1. Selezionare la **proprietà di confronto - Valore** e fare clic sull&#39;icona di configurazione per modificare le proprietà.
+   1. Selezionare **googlesheets/value/1/0** dall&#39;elenco a discesa in **Nome proprietà**
 
-   1. Selezionate **Operatore** come **minore di** dal menu a discesa
+   1. Selezionare **Operatore** come **minore di** dal menu a discesa
 
-   1. Immettere il **valore** come **50**
+   1. Immettere il **Valore** come **50**
 
-1. Spostatevi e selezionate il canale (), quindi fate clic su **Modifica** nella barra delle azioni. Nell&#39;esempio seguente, **DataDrivenWeather**, viene utilizzato un canale sequenziale per mostrare la funzionalità.
+1. Navigare e selezionare il canale () e fare clic su **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenWeather**, viene utilizzato un canale sequenziale per mostrare la funzionalità.
 
    >[!NOTE]
    >
-   >Il canale deve già avere un&#39;immagine predefinita e il pubblico deve essere preconfigurato come descritto in [Configurazione di ContextHub in  AEM Screens](configuring-context-hub.md).
+   >Il canale deve già avere un&#39;immagine predefinita e il pubblico deve essere preconfigurato come descritto in [Configuring ContextHub in  AEM Screens](configuring-context-hub.md).
 
    ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
    >[!CAUTION]
    >
-   >Avreste dovuto configurare le vostre **configurazioniContextHub** **configurando** il canale **Proprietà** —> scheda **Personalizzazione** .
+   >È necessario impostare la scheda **ContextHub** **Configurations** utilizzando il canale **Properties** —> **Personalization**.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Selezionate **Targeting** dall&#39;editor, selezionate **Marchio** e **Attività** dal menu a discesa, quindi fate clic su **Avvia targeting**.
+1. Selezionare **Targeting** dall&#39;editor e selezionare **Brand** e **Activity** dal menu a discesa, quindi fare clic su **Avvia targeting**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Verifica dell’anteprima**
 
-   1. Fate clic su **Anteprima.** Inoltre, aprite il foglio di Google e aggiornate il relativo valore.
+   1. Fare clic su **Anteprima.** Inoltre, aprite il foglio di Google e aggiornate il relativo valore.
    1. Modificate il valore impostando un valore inferiore a 50, dovreste essere in grado di visualizzare l&#39;immagine delle bevande estive. Se il valore in Google Sheet è 50 o maggiore di quanto dovrebbe essere in grado di visualizzare l&#39;immagine di una bevanda calda.
 
    ![result3](assets/result3.gif)
