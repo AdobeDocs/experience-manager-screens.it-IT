@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f1bb40a6916820b256630c7efef36798ac5fa5a
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
  AEM Screens ha rilasciato AEM 6.5 Feature Pack 6.
 
-È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6 dal portale [di distribuzione](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) software utilizzando l&#39;Adobe ID . Passate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere l&#39;ultimo pacchetto di funzioni.
+È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando l&#39;Adobe ID . Andate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere il pacchetto di funzioni più recente.
 
 ## Data di rilascio {#release-date}
 
@@ -27,16 +27,16 @@ La data di rilascio per  AEM Screens Feature Pack 2011 è il 30 novembre 2020.
 
 ### Novità {#what-is-new}
 
-* **Rapporto Assegnazione contenuto**
+* **Rapporto assegnazione contenuti**
 
-   La funzione Rapporto assegnazione contenuto consente a un amministratore  AEM Screens o a un autore di esportare un rapporto *assegnazione* contenuto che potrebbe essere in formato foglio di calcolo.
-Refer to **Content Assignment Report** for more details.
+   La funzione Rapporto assegnazione contenuto consente a un amministratore  AEM Screens o a un autore di esportare un report *Assegnazione contenuto* che potrebbe essere in formato foglio di calcolo.
+Per ulteriori informazioni, fare riferimento a **Rapporto sull&#39;assegnazione dei contenuti**.
 
 
 * **Tizen Player**
 
    È stato introdotto un nuovo lettore denominato Tizen player con l&#39;ultimo pacchetto di funzioni per  versione AEM Screens 6.5.6.
-Refer to **Implementing Tizen Player** for more details.
+Per ulteriori informazioni, fare riferimento a **Implementazione di Tizen Player**.
 
 * **Funzionalità di ricerca da Device Manager**
 
@@ -58,6 +58,6 @@ Vengono rilasciati i seguenti  AEM Screens Players per  AEM Screens
 * Windows
 * Android
 
-#### Download di  AEM Screens Player  {#aem-screens-player-downloads}
+#### Download di  AEM Screens Player {#aem-screens-player-downloads}
 
-Per scaricare la versione più recente  lettore AEM Screens e ottenere ulteriori informazioni sulle correzioni dei bug, consultare **[Download](https://download.macromedia.com/screens/index.html)** di AEM Screens Player.
+Per scaricare la versione più recente  lettore AEM Screens e ulteriori informazioni sulle correzioni dei bug, fare riferimento a **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
