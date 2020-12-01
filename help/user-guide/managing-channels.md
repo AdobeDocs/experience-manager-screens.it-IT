@@ -27,23 +27,23 @@ Questa pagina mostra la creazione e la gestione di canali per  AEM Screens.
 
 Dopo aver creato il progetto per  AEM Screens, segui i passaggi riportati di seguito per creare un nuovo canale per il progetto:
 
-1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, potete navigare direttamente su `https://localhost:4502/screens.html/content/screens`.
+1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, è possibile passare direttamente a `https://localhost:4502/screens.html/content/screens`.
 
-1. Andate al progetto Screens e selezionate la cartella **Channels (Canali** ).
+1. Andate al progetto Screens e selezionate la cartella **Channels**.
 
 1. Fai clic su **Crea** nella barra delle azioni.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Selezionate il modello Canale **** sequenza dalla procedura guidata **Crea** e fate clic su **Avanti**.
+1. Selezionare il modello **Canale sequenza** dalla procedura guidata **Crea** e fare clic su **Avanti**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Enter the Title as **ScreensChannel** and click **Create**.
+1. Immettete il titolo come **ScreensChannel** e fate clic su **Create**.
 
    ![demochannel](assets/create-project4.png)
 
-1. Nella cartella **Channels (Canali) viene ora aggiunto un canale di sequenza** .
+1. Un canale della sequenza viene ora aggiunto alla cartella **Channels**.
 
 ### Tipi di canale {#channel-types}
 
@@ -81,10 +81,10 @@ Puoi modificare, visualizzare le proprietà e il dashboard, copiare, visualizzar
 Per aggiungere o modificare il contenuto di un canale, segui i passaggi riportati di seguito:
 
 1. Selezionate il canale da modificare (come illustrato nella figura precedente).
-1. Click **Edit** from the top left corner of the action bar to edit the channel properties. Si apre l&#39;editor che consente di aggiungere risorse/componenti al canale che desideri pubblicare.
+1. Fare clic su **Modifica** nell&#39;angolo superiore sinistro della barra delle azioni per modificare le proprietà del canale. Si apre l&#39;editor che consente di aggiungere risorse/componenti al canale che desideri pubblicare.
 
 >[!NOTE]
->Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** .
+>Puoi aggiungere componenti al tuo canale. Per ulteriori informazioni, fare riferimento a **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)**.
 
 ![demochannel1](assets/demochannel1.gif)
 
@@ -97,14 +97,14 @@ Segui i passaggi descritti di seguito per caricare i video sul tuo canale:
 1. Seleziona **Video** sotto Risorse, poi trascina e rilascia i video richiesti.
 
 >[!NOTE]
->If you encounter issues uploading videos in your channel, see [Troubleshooting Videos](troubleshoot-videos.md).
+>In caso di problemi durante il caricamento di video nel canale, consultare [Risoluzione dei problemi relativi ai video](troubleshoot-videos.md).
 
 ### Visualizzazione delle proprietà {#viewing-properties}
 
 Per visualizzare o modificare le proprietà di un canale, segui i passaggi riportati di seguito:
 
 1. Fate clic sul canale da modificare.
-1. Click **Properties** from the action bar to view/edit the channel properties. Le seguenti schede consentono di modificare le opzioni.
+1. Fare clic su **Proprietà** nella barra delle azioni per visualizzare/modificare le proprietà del canale. Le seguenti schede consentono di modificare le opzioni.
 
 ![proprietà](assets/properties.gif)
 
@@ -113,7 +113,7 @@ Per visualizzare o modificare le proprietà di un canale, segui i passaggi ripor
 Per visualizzare il dashboard di un canale, segui i passaggi riportati di seguito:
 
 1. Selezionate il canale da modificare.
-1. Click **Dashboard** from the action bar to view the dashboard. The **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS**, and **PENDING LAUNCHES** panel opens, as shown in the figure below:
+1. Fate clic su **Dashboard** dalla barra delle azioni per visualizzare il dashboard. Viene visualizzato il pannello **CHANNEL INFORMATION**,**ASSIGNED DISPLAYS** e **SPESE IN ATTESA**, come illustrato nella figura seguente:
 
 ![dashboard](assets/dashboard.gif)
 
@@ -121,7 +121,7 @@ Per visualizzare il dashboard di un canale, segui i passaggi riportati di seguit
 
 Il pannello Informazioni canale descrive le proprietà Canale e l’anteprima sul canale. Inoltre, il pannello offre informazioni che notificano se il canale è offline o online.
 
-Click on the (**...**) from the **CHANNEL INFORMATION** action bar to view properties, edit the content, or to update cache (offline content) for the channel.
+Fare clic su (**...**) dalla **CHANNEL INFORMATION** barra delle azioni per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto offline) per il canale.
 
 ![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -136,14 +136,14 @@ Per attivare questa opzione dal dashboard dei canali, effettuate le seguenti ope
 
 1. **Impostate il canale su Offline**
    1. Seleziona il canale e seleziona **Proprietà** dalla barra delle azioni
-   1. Passate alla scheda **Canale** e accertatevi di deselezionare l&#39;opzione Modalità **Sviluppatore (forza che il canale sia online)**
+   1. Passare alla scheda **Canale** e assicurarsi di deselezionare l&#39;opzione **Modalità Sviluppatore (forzare il canale online)**
    1. Fai clic su **Salva e chiudi**
 1. **Aggiorna contenuto offline**
-   1. Selezionate il canale e selezionate **Dashboard** dalla barra delle azioni
-   1. Andate al pannello **INFORMAZIONI** CANALE e fate clic su *...*
-   1. Fate clic su **Aggiorna contenuto offline**
+   1. Seleziona il canale e seleziona **Dashboard** dalla barra delle azioni
+   1. Passare al pannello **INFORMAZIONI CANALE** e fare clic su *...*
+   1. Fare clic su **Aggiorna contenuto offline**
 
-L’opzione **Visualizza manifesto** è disponibile nel pannello **INFORMAZIONI** CANALE del Pannello Canale.
+È necessario visualizzare l&#39;opzione **Visualizza manifesto** nel pannello **INFORMAZIONI CANALE** nel pannello Canale.
 
 ![image1](assets/channel-one.png)
 
@@ -165,7 +165,7 @@ Segui i passaggi riportati di seguito per rendere online il canale:
 
    ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Click **Dashboard** from the action bar to view the status of the player. Il pannello **Informazioni canale** fornisce informazioni che notificano se il canale è online o offline.
+   Fate clic su **Dashboard** nella barra delle azioni per visualizzare lo stato del lettore. Il pannello **Informazioni canale** fornisce informazioni che notificano se il canale è online o offline.
 
    ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
@@ -173,18 +173,18 @@ Segui i passaggi riportati di seguito per rendere online il canale:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Controllare la **modalità** Sviluppatore **(obbligare il canale ad essere online)** per rendere il canale online.
+1. Controllare la modalità **Sviluppatore** **(forzare il canale per essere online)** per rendere il canale online.
 
    Fai clic su **Salva e chiudi** per salvare la tua opzione.
 
    ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Navigate back to the channel dashboard and now the **CHANNEL INFORMATION** panel shows the online status of the player.
+   Tornare al dashboard del canale e ora il pannello **CHANNEL INFORMATION** mostra lo stato online del lettore.
 
    ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Se desiderate configurare nuovamente il canale come offline, deselezionate l&#39;opzione Modalità Sviluppatore dalla scheda **Proprietà** (come mostrato al punto 3)), quindi dal pannello **INFORMAZIONI** CANALE fate clic su **Aggiorna contenuto** offline, come mostrato nella figura seguente.
+>Se desiderate configurare nuovamente il canale come offline, deselezionate l&#39;opzione Modalità Sviluppatore dalla scheda **Proprietà** (come illustrato nel passaggio (3)), quindi dal pannello **INFORMAZIONI CANALI** fate clic su **Aggiorna contenuto offline**, come illustrato nella figura seguente.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -202,7 +202,7 @@ La tabella seguente riassume gli eventi associati agli aggiornamenti automatici 
   <tr>
    <td>Modifica nel canale online</td>
    <td>Contenuto aggiornato automaticamente</td>
-   <td><p>Contenuto aggiornato su "Dispositivo: Configurazione push"</p> <p>Oppure,</p> <p>Contenuto aggiornato sul <strong><i>dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Contenuto aggiornato su "Dispositivo: Configurazione push"</p> <p>Oppure,</p> <p>Contenuto aggiornato su <strong><i>Dispositivo: Restart</i></strong></p> </td>
   </tr>
   <tr>
    <td>Modifica nel canale offline ma il canale "Push Content" NON viene attivato (nessuna ricreazione del pacchetto offline)</td>
@@ -212,7 +212,7 @@ La tabella seguente riassume gli eventi associati agli aggiornamenti automatici 
   <tr>
    <td>Viene attivata la modifica nel canale offline e nel canale "Push Content" (nuovo pacchetto offline)</td>
    <td>Contenuto aggiornato automaticamente</td>
-   <td><p>Contenuto aggiornato sul <strong><i>dispositivo: Configurazione push</i></strong></p> <p>Oppure,</p> <p>Contenuto aggiornato sul <strong><i>dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Contenuto aggiornato su <strong><i>Dispositivo: Configurazione push</i></strong></p> <p>Oppure,</p> <p>Contenuto aggiornato su <strong><i>Dispositivo: Restart</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Modifica nella configurazione</p>
@@ -223,7 +223,7 @@ La tabella seguente riassume gli eventi associati agli aggiornamenti automatici 
      <li>Assegnazione canale (ruolo, evento, pianificazione)</li>
     </ul> </td>
    <td>Configurazione aggiornata automaticamente</td>
-   <td><p>Configurazione aggiornata sul <strong><i>dispositivo: Configurazione push</i></strong></p> <p>Oppure,</p> <p>Configurazione aggiornata sul <strong><i>dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Configurazione aggiornata su <strong><i>Dispositivo: Configurazione push</i></strong></p> <p>Oppure,</p> <p>Configurazione aggiornata su <strong><i>Dispositivo: Restart</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
