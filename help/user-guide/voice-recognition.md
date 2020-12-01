@@ -18,7 +18,7 @@ ht-degree: 3%
 >
 >Quando si utilizza la funzione di riconoscimento vocale, seguire tutte le linee guida legali ed etiche applicabili alla propria regione (incluso, tra l&#39;altro, l&#39;invio di un avviso visibile agli utenti finali che il lettore utilizza il riconoscimento vocale).  Adobe Inc., non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens  utilizzano l&#39;API vocale Web standard integrata nel motore di navigazione. Dietro le quinte questa API invia una forma d&#39;onda del discorso ai server Google per la conversione da discorso a testo e questo testo viene associato dal lettore alle parole chiave configurate.
 >
->Per ulteriori informazioni, consultate [il white paper sulla privacy di Google sull&#39;API](https://www.google.com/chrome/privacy/whitepaper.html#speech) vocale Web.
+>Per ulteriori informazioni, fare riferimento al [white paper sulla privacy di Google sull&#39;API vocale Web](https://www.google.com/chrome/privacy/whitepaper.html#speech).
 
 
 La funzione di riconoscimento vocale consente la modifica del contenuto in un canale  AEM Screens guidato dall&#39;interazione vocale.
@@ -37,25 +37,25 @@ Per implementare il riconoscimento vocale nel progetto AEM Screens , è necessar
 
 La sezione seguente descrive come attivare e usare la funzione di riconoscimento vocale in un progetto AEM Screens .
 
-## Visualizzazione del contenuto a schermo intero o dello switch per canale diviso {#sequence-channel}
+## Visualizzazione del contenuto a schermo intero o dello switch canale diviso {#sequence-channel}
 
 Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporre di un progetto e di un canale con il contenuto impostato per il progetto.
 
-1. L&#39;esempio seguente mostra un progetto demo denominato **VoiceDemo** e tre canali di sequenza **Main**, **ColdDrinks** e **HotDrinks**, come illustrato nella figura riportata di seguito.
+1. L&#39;esempio seguente mostra un progetto dimostrativo denominato **VoiceDemo** e tre canali di sequenza **Main**, **ColdDrinks** e **HotDrinks**, come illustrato nella figura seguente.
 
    ![immagine](assets/voice-recognition/vr-1.png)
 
    >[!NOTE]
    >
-   >Per informazioni su come creare un canale o aggiungere contenuti a un canale, consulta [Creazione e gestione di canali](/help/user-guide/managing-channels.md)
+   >Per informazioni su come creare un canale o aggiungere contenuti a un canale, fare riferimento a [Creazione e gestione di canali](/help/user-guide/managing-channels.md)
 
    Oppure,
 
-   È possibile creare tre canali di sequenza **Principale**, **ColdDrinks** e **HotDrinks**, e un ulteriore canale di 1 x2 Split Screens **SplitScreen** canale come mostrato nella figura seguente.
+   È possibile creare tre canali di sequenza **Main**, **ColdDrinks**, **HotDrinks** e un canale di 1x2 Split Screens aggiuntivo **SplitScreen** come illustrato nella figura seguente.
 
    ![immagine](assets/voice-recognition/vr-emb-1.png)
 
-1. Andate a ciascun canale e aggiungete contenuto. Ad esempio, accedete a **VoiceDemo** —> **Canali** —> **Principale** e selezionate il canale. Fate clic su **Modifica** nella barra delle azioni per aprire l&#39;editor e aggiungere contenuti (immagini/video) in base alle vostre esigenze. Allo stesso modo, aggiungete contenuto sia a **ColdDrinks** che al canale **HotDrinks** .
+1. Andate a ciascun canale e aggiungete contenuto. Ad esempio, andate a **VoiceDemo** —> **Channels** —> **Main** e selezionate il canale. Fate clic su **Modifica** nella barra delle azioni per aprire l&#39;editor e aggiungere contenuti (immagini/video) in base alle vostre esigenze. Allo stesso modo, aggiungete contenuto sia al canale **ColdDrinks** che al canale **HotDrinks**.
 
    I canali ora contengono risorse (immagini), come mostrato nelle figure seguenti.
 
@@ -71,7 +71,7 @@ Prima di utilizzare la funzione di riconoscimento vocale, accertatevi di disporr
 
    ![immagine](assets/voice-recognition/vr-2.png)
 
-   Se hai aggiunto il canale Dividi schermate al progetto, vai a **DividiSchermo** e trascina e rilascia due sequenze incorporate e aggiungi percorsi sia al canale **ColdDrinks** che a quello **HotDrinks** come mostrato nella figura seguente.
+   Se hai aggiunto il canale Dividi schermate al progetto, vai al canale **DividiSchermo** e trascina e rilascia due sequenze incorporate e aggiungi i percorsi al canale **ColdDrinks** e **HotDrinks** come mostrato nella figura seguente.
    ![immagine](assets/voice-recognition/vr-emb-6.png)
 
 
@@ -81,31 +81,31 @@ Una volta aggiunto il contenuto ai canali, è necessario navigare fino a ciascun
 
 Per aggiungere tag al canale, effettuate le operazioni seguenti:
 
-1. Andate a ciascun canale e aggiungete contenuto. Ad esempio, accedete a **VoiceDemo** —> **Canali** —> **Principale** e selezionate il canale.
+1. Andate a ciascun canale e aggiungete contenuto. Ad esempio, andate a **VoiceDemo** —> **Channels** —> **Main** e selezionate il canale.
 
-1. Click **Properties** from the action bar.
+1. Fare clic su **Proprietà** dalla barra delle azioni.
 
    ![immagine](assets/voice-recognition/vr-5.png)
 
-1. Passate alla scheda **Nozioni di base** e selezionate un tag già esistente dal campo **Tag** oppure createne uno nuovo.
+1. Passare alla scheda **Nozioni di base** e selezionare un tag già esistente dal campo **Tag** oppure crearne uno nuovo.
 
-   Potete creare un nuovo tag digitando un nuovo nome per assegnare un tag e un `return` tasto di scelta rapida, come illustrato nella figura seguente:
+   Potete creare un nuovo tag digitando un nuovo nome per il tag e premendo il tasto `return`, come illustrato nella figura seguente:
 
    ![immagine](assets/voice-recognition/vr-6.png)
 
    Oppure,
 
-   Potete anche creare tag dall’istanza AEM prima per il progetto e selezionarli. Dopo aver seguito i passaggi descritti in [Creazione di tag](#creating-tags), potete selezionare il tag dalla posizione e aggiungerlo al canale, come illustrato nella figura seguente:
+   Potete anche creare tag dall’istanza AEM prima per il progetto e selezionarli. Dopo aver seguito i passaggi descritti in [Creazione di tag](#creating-tags), è possibile selezionare il tag dalla posizione e aggiungerlo al canale, come illustrato nella figura seguente:
 
    ![immagine](assets/voice-recognition/vr-tag1.png)
 
-1. Allo stesso modo, aggiungete il tag **hot** al canale **HotDrinks** .
+1. Allo stesso modo, aggiungere il tag denominato **hot** al canale **HotDrinks**.
 
-1. Se si utilizza un canale per schermi divisi, aggiungere sia i tag (**caldo** che **freddo**) alle proprietà del canale **SplitScreen** , come illustrato nella figura seguente.
+1. Se si utilizza un canale di schermate divise, aggiungere sia i tag (**hot** che **cold**) alle proprietà del canale **SplitScreen**, come illustrato nella figura seguente.
 
    ![immagine](assets/voice-recognition/vr-emb-7.png)
 
-1. Al termine, fate clic su **Salva e chiudi** .
+1. Fare clic su **Salva e chiudi** al termine.
 
 
 ### Creazione di tag {#creating-tags}
@@ -114,7 +114,7 @@ Per creare i tag, effettuate le seguenti operazioni:
 
 1. Passate all&#39;istanza AEM.
 
-1. Fate clic sull’icona degli strumenti —> **Assegnazione tag**.
+1. Fare clic sull&#39;icona degli strumenti —> **Assegnazione tag**.
    ![immagine](assets/voice-recognition/vr-7.png)
 
 1. Fare clic su **Crea** —> **Crea spazio nomi**.
@@ -122,7 +122,7 @@ Per creare i tag, effettuate le seguenti operazioni:
 
 1. Inserite il nome del progetto, ad esempio **VoiceDemo** e fate clic su **Crea**.
 
-1. Selezionate il progetto **VoiceDemo** e fate clic su **Crea tag** nella barra delle azioni.
+1. Selezionare il progetto **VoiceDemo** e fare clic su **Crea tag** dalla barra delle azioni.
    ![immagine](assets/voice-recognition/vr-tag4.png)
 
 1. Immettete il nome del tag e fate clic su **Invia**.
@@ -130,14 +130,14 @@ Per creare i tag, effettuate le seguenti operazioni:
 
 Ora potete usare questi tag nel progetto AEM Screens .
 
-### Assegnazione del canale a uno schermo e abilitazione del riconoscimento vocale {#channel-assignment}
+### Assegnazione del canale a un display e abilitazione del riconoscimento vocale {#channel-assignment}
 
-1. Create una visualizzazione nella cartella **Locations (Posizioni)** , come illustrato nella figura riportata di seguito.
+1. Create una visualizzazione nella cartella **Locations**, come illustrato nella figura riportata di seguito.
 
    ![immagine](assets/voice-recognition/vr-loc.png)
 
    >[!NOTE]
-   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di schermi](/help/user-guide/managing-displays.md).
+   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di display](/help/user-guide/managing-displays.md).
 
 1. Assegnare i canali **Main**, **ColdDrinks** e **HotDrinks** al **LobbyDisplay**. Inoltre, se utilizzate il canale **SplitScreen** per il progetto, accertatevi di assegnarlo anche allo schermo.
 
@@ -151,15 +151,15 @@ Ora potete usare questi tag nel progetto AEM Screens .
    | Principale | 2 | Carico iniziale, Schermo inattivo, Timer |
    | HotDrinks | 1 | Interazione utente |
    | ColdDrinks | 1 | Interazione utente |
-   | SplitScreen | 1 | Interazione utente |
+   | SplitScreen | 3 | Interazione utente |
 
    >[!NOTE]
    >
-   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di schermi](/help/user-guide/managing-displays.md).
+   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di display](/help/user-guide/managing-displays.md).
 
-1. Dopo aver assegnato i canali a uno schermo, andate alla **LobbyDisplay** e selezionate lo schermo. Selezionate **Proprietà** dalla barra delle azioni.
+1. Dopo aver assegnato i canali a uno schermo, andate alla **LobbyDisplay** e selezionate lo schermo. Selezionare **Properties** dalla barra delle azioni.
 
-1. Passate alla scheda **Visualizza** e abilitate l&#39;opzione **Attiva** voce in **Contenuto**.
+1. Passare alla scheda **Display** e attivare l&#39;opzione **Voice enabled** in **Content**.
 
    ![immagine](assets/voice-recognition/vr-disp.png)
 
@@ -171,17 +171,17 @@ Ora potete usare questi tag nel progetto AEM Screens .
 Una volta completati i passaggi precedenti, è possibile registrare il dispositivo chrome per visualizzare l&#39;output.
 
 >[!NOTE]
->Per informazioni su come registrare un dispositivo su un lettore AEM Screens , fare riferimento a Registrazione [](device-registration.md) dispositivo.
+>Per informazioni su come registrare un dispositivo su un lettore AEM Screens , fare riferimento a [Registrazione dispositivo](device-registration.md).
 
 **Output desiderato per il canale della sequenza**
 
-Il canale **Principale** sta riproducendo il contenuto, ma quando si utilizzano parole con parole chiave **calde** come *vorrei avere una bevanda* calda, il canale inizia a riprodurre il contenuto del canale **HotDrinks** .
+Il canale **Main** sta riproducendo il contenuto, ma quando si utilizzano parole con la parola chiave **hot** come *vorrei avere una bevanda calda*, il canale inizia a riprodurre il contenuto del canale **HotDrinks**.
 
-Allo stesso modo, se si utilizza la parola con una parola chiave **fredda** come *vorrei avere qualcosa di freddo*, il canale inizia a riprodurre il contenuto del canale **ColdDrinks** .
+Allo stesso modo, se si utilizza la parola con la parola chiave **cold** come *Vorrei avere qualcosa di freddo*, il canale inizia a riprodurre il contenuto del canale **ColdDrinks**.
 
 **Output desiderato per il canale di schermi divisi**
 
-Il canale **Principale** sta riproducendo il suo contenuto, ma quando si utilizzano parole con parole chiave **calde** e **fredde** insieme, come *vorrei vedere il menu per bevande* calde e fredde, il canale inizia a riprodurre il contenuto del canale **SplitScreen** . Se *tornate al menu* principale, tornerà al canale principale.
+Il canale **Principale** sta riproducendo il contenuto, ma quando si utilizzano parole con parole chiave **hot** e **cold** insieme come *vorrei vedere il menu per bevande calde e fredde*, il canale inizia a riprodurre il contenuto del canale **SplitScreen**. Se si dice *di nuovo al menu principale*, torna al canale principale.
 
 
 
