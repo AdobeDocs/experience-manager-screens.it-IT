@@ -1,10 +1,13 @@
 ---
-title: Dipendenze UX per schermi [!UICONTROL AEM]
-seo-title: Dipendenze UX per schermi [!UICONTROL AEM]
-description: La guida descrive le dipendenze UX per gli schermi [!UICONTROL AEM]
-seo-description: La guida descrive le dipendenze UX per gli schermi [!UICONTROL AEM]
+title: Dipendenze UX per [!UICONTROL  AEM Screens]
+seo-title: Dipendenze UX per [!UICONTROL  AEM Screens]
+description: La guida descrive le dipendenze UX per [!UICONTROL  AEM Screens]
+seo-description: La guida descrive le dipendenze UX per [!UICONTROL  AEM Screens]
 translation-type: tm+mt
 source-git-commit: f73d7d10f88be953d7800c3fafe084960800a61b
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +36,7 @@ Durante la definizione della strategia per i contenuti hardware, è necessario t
 
 1. Con quale frequenza saranno attivati e disattivati i computer e la connessione?
 
-1. La progettazione del dispositivo supporta l'accessibilità?
+1. La progettazione del dispositivo supporta l&#39;accessibilità?
 
 1. Sono necessari più dispositivi per uno schermo (ad esempio, più zone, schede di grandi dimensioni aggiuntive)?
 
