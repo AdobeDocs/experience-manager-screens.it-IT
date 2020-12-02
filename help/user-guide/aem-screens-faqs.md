@@ -6,9 +6,9 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: a2bfbfcbeaffd663378297a6eb155f38b64c8402
+source-git-commit: 359c15d16c83e5d3cecee0bbe2ef7e68a815e660
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1706'
 ht-degree: 1%
 
 ---
@@ -21,17 +21,17 @@ La sezione seguente contiene le risposte alle domande frequenti più frequenti r
 ## Problema dello schermo vuoto {#blank-screen}
 
 >[!NOTE]
->I controlli obbligatori elencati che devono essere provati dal supporto principale o dal supporto lato cliente prima di sollevare un problema:
+>I controlli obbligatori elencati che devono essere provati dal supporto principale o dal supporto lato cliente prima di sollevare un problema.
 
 ### 1. Quali dovrebbero essere i passaggi per la risoluzione dei problemi di primo soccorso per qualsiasi cliente che si trova di fronte a uno schermo nero o a contenuti non riprodotti? {#troubleshooting-blank-screen}
 
 * Controllare se l&#39;anteprima del canale funziona.
 * Verificare se l&#39;anteprima del display funziona
-* Provare a registrare il lettore come un&#39;estensione del browser sul computer portatile sullo stesso display e verificare se funziona.
+* Provare a registrare il lettore come estensione del browser sul sistema allo stesso display e verificare se funziona.
 * Con il lettore in esecuzione sul sistema, andate a `http://localhost:24502`. Verificate che tutto il contenuto sia stato scaricato correttamente.
 * Verificate che le risorse vengano create le rappresentazioni appropriate e che venga riprodotta la rappresentazione corretta.
 * Controlla eventuali contenuti pianificati e se gli orari sono corretti. Verificare che l&#39;ora impostata nel lettore sia corretta.
-* Controllare i registri della console del lettore e verificare la presenza di eventuali errori? Fare clic con il pulsante destro del mouse ed esaminare i registri della console. Se si utilizza il lettore Windows, premere `CTRL + ALT +I` per visualizzare la console dev per visualizzare i registri.
+*  i registri della console del lettore Inspect e verificate la presenza di eventuali errori. Fare clic con il pulsante destro del mouse ed esaminare i registri della console. Se si utilizza il lettore Windows, premere `CTRL + ALT +I` per visualizzare la console dev per visualizzare i registri.
 
 ## Gestione del canale {#channel-management}
 
