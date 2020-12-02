@@ -2,10 +2,10 @@
 title: Note sulla versione per Feature Pack 2011
 description: La pagina descrive le Note sulla versione per Feature Pack 2011.
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ La data di rilascio per  AEM Screens Feature Pack 2011 è il 30 novembre 2020.
 
 * **Rapporto assegnazione contenuti**
 
-   La funzione Rapporto assegnazione contenuto consente a un amministratore  AEM Screens o a un autore di esportare un report *Assegnazione contenuto* che potrebbe essere in formato foglio di calcolo.
+   La funzione Rapporto assegnazione contenuto consente a un amministratore  AEM Screens o a un autore di esportare un report *Assegnazione contenuto* in un formato foglio di calcolo.
 Per ulteriori informazioni, fare riferimento a [Rapporto sull&#39;assegnazione dei contenuti](/help/user-guide/content-assignment-report.md).
 
 
