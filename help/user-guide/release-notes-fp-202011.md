@@ -2,10 +2,10 @@
 title: Note sulla versione per Feature Pack 2011
 description: La pagina descrive le Note sulla versione per Feature Pack 2011.
 translation-type: tm+mt
-source-git-commit: 53aa385b7f767a88ad19b834ecf971f6c9aa0f84
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
  AEM Screens ha rilasciato AEM 6.5 Feature Pack 6.
 
-È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando l&#39;Adobe ID . Andate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere il pacchetto di funzioni più recente.
+È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando l&#39;Adobe ID . Andate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere l&#39;ultimo pacchetto di funzioni intitolato **AEM 6.5 Screens FP6**.
 
 ## Data di rilascio {#release-date}
 
@@ -41,10 +41,11 @@ Per ulteriori informazioni, fare riferimento a [Implementazione di Tizen Player]
 * **Funzionalità di ricerca da Device Manager**
 
    È ora disponibile una nuova funzionalità di ricerca dall&#39;interfaccia utente di Device Manager con l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6.
+Per ulteriori informazioni, fare riferimento alla sezione [Ricerca di un dispositivo da Device Manager](/help/user-guide/device-registration.md#search-device).
 
 * **Intervallo di ping predefinito**
 
-   L&#39;intervallo di ping predefinito è ora impostato su 30 secondi per questa versione.
+   L&#39;intervallo di ping predefinito è ora impostato su 30 secondi in questa versione.
 
 ### Rilasciati  lettori AEM Screens {#released-aem-screens-players}
 
