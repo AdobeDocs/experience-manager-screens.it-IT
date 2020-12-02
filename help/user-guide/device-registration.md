@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '785'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,7 @@ Se il dispositivo non è stato assegnato a uno schermo, attenetevi alla procedur
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
-### Ricerca di un dispositivo da Gestione dispositivi {#search-device}
+### Ricerca di un dispositivo da Gestione periferiche {#search-device}
 
 Dopo aver registrato i dispositivi sul lettore, puoi visualizzare tutti i dispositivi dall&#39;interfaccia utente di Gestione dispositivi.
 
@@ -129,20 +129,33 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzare tutti i dispos
 
 1. Selezionate la cartella **Devices** e fate clic su **Device Manager** dalla barra delle azioni.
 
+   ![immagine](/help/user-guide/assets/device-manager/device-manager-1.png)
+
 1. Viene visualizzato l’elenco dei dispositivi registrati.
 
-1. Se si dispone di un lungo elenco di dispositivi registrati, è ora possibile eseguire la ricerca utilizzando l&#39;icona di ricerca dalla barra delle azioni oppure fare clic semplicemente su `/` (barra) per richiamare la funzionalità di ricerca.
+1. Se si dispone di un lungo elenco di dispositivi registrati, è ora possibile effettuare ricerche utilizzando l&#39;icona di ricerca dalla barra delle azioni
+
+   ![immagine](/help/user-guide/assets/device-manager/device-manager-2.png)
+
+   Oppure,
+
+   Fare clic su `/` (barra) per richiamare la funzionalità di ricerca.
+
+   ![immagine](/help/user-guide/assets/device-manager/device-manager-3.png)
+
 
 #### Limiti della funzionalità di ricerca {#limitations}
 
-* L&#39;utente potrà cercare qualsiasi parola nell&#39;ID dispositivo o nel nome del dispositivo. Accertatevi di memorizzare i nomi dei dispositivi in più parole, ad esempio &quot;Boston Store Lobby&quot; anziché &quot;BostonStoreLobby&quot;.
+* L&#39;utente sarà in grado di cercare qualsiasi parola esistente in *ID dispositivo* o *Nome dispositivo*.
 
-* Nel primo caso, permette di cercare qualsiasi parola &quot;boston&quot;, &quot;negozio&quot;, &quot;lobby&quot;, ma nel secondo caso la ricerca &quot;boston&quot; non mostrerà i risultati.
+   >[!NOTE]
+   >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *Boston Store Lobby* anziché in un&#39;unica *BostonStoreLobby*.
 
-* Caratteri jolly, `*` è supportato per la ricerca. Se si desidera trovare tutti i dispositivi con nome a partire da **boston**, è possibile utilizzare **boston***.
+* Se si creano nomi di dispositivi come *Boston Store Lobby*, è possibile cercare qualsiasi parola *boston*, *store* o *lobby* ma se il nome del dispositivo è indicato come *BostonStoreLobby* ricerca *boston* non mostrerà i risultati.
 
-1. Se il nome del dispositivo è **BostonStoreLobby** e la ricerca di **boston** non restituirà il risultato, ma **boston*** restituirà il risultato.
+* Caratteri jolly, `*` è supportato per la ricerca. Se si desidera trovare tutti i dispositivi con nomi che iniziano con *boston*, è possibile utilizzare *boston**.
 
+1. Se il nome del dispositivo è *BostonStoreLobby* e la ricerca di *boston* non restituirà il risultato, invece di utilizzare *boston** nei criteri di ricerca restituirà il risultato.
 
 ## Limitazioni per la registrazione del dispositivo {#limitations-on-device-registration}
 
