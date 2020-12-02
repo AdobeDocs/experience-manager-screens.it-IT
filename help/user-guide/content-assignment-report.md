@@ -2,10 +2,10 @@
 title: Rapporto assegnazione contenuti
 description: Questa pagina descrive il download e l'utilizzo del rapporto Assegnazione contenuto.
 translation-type: tm+mt
-source-git-commit: b93baeeb26e48b906ee1ddfc034112f8b73615af
+source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,34 +20,21 @@ Il rapporto Assegnazione contenuto consente a un autore  AEM Screens o a un ammi
 
 Il rapporto Assegnazione contenuto non solo consente di visualizzare un&#39;anteprima di tutti i canali, le risorse, i display e i dispositivi nel progetto AEM Screens  selezionato, ma fornisce anche una struttura di alto livello del progetto.
 
-### Utilizzo del report Assegnazione contenuto {#downloading-content-assignment-report-fp}
 
-#### Impostazione del progetto {#setting-up-project}
+### Prerequisiti {#pre-reqs}
 
-Per scaricare il rapporto Assegnazione contenuto da un progetto AEM Screens , effettuate le seguenti operazioni:
+Prima di scaricare il rapporto Assegnazione contenuto, accertatevi di aver impostato un progetto AEM Screens  con canali, posizioni e dispositivi.
+Per ulteriori informazioni, consulta le risorse seguenti:
 
-1. Create un AEM Screens  denominato **DemoScreens**.
+1. [Creazione e gestione di progetti](/help/user-guide/creating-a-screens-project.md)
+1. [Creazione e gestione dei canali](/help/user-guide/managing-channels.md)
+1. [Creazione e gestione delle posizioni](/help/user-guide/managing-locations.md)
+1. [Creazione e gestione delle visualizzazioni](/help/user-guide/managing-displays.md)
+1. [Creazione di dispositivi](/help/user-guide/managing-devices.md)
+1. [Assegnazione dei canali](/help/user-guide/channel-assignment-latest-fp.md) 
 
-   ![immagine](/help/user-guide/assets/content-assignment-report/car-1.png)
 
-1. Create due canali di sequenza in **DemoScreens** come **ChannelOne** e **ChannelTwo**.
-
-   ![immagine](/help/user-guide/assets/content-assignment-report/car-2.png)
-
-1. Selezionare **ChannelOne** e fare clic su **Edit** dalla barra delle azioni. Aggiungete alcune risorse (immagini/video) a questo canale. Allo stesso modo, aggiungete le risorse a **ChannelTwo**.
-
-1. Andate alla cartella Locations da **DemoScreens** —> **Locations** e create tre diverse posizioni denominate come **SanJose**, **Dublino** e **SanFrancisco**.
-
-   ![immagine](/help/user-guide/assets/content-assignment-report/car-3.png)
-
-1. Andate a ciascuna posizione e create una visualizzazione per ciascuna posizione, ad esempio **SanJoseMain** in **SanJose**, **DublinMain** nella posizione **Dublin** e **SanFranciscoMain** in **Dublin Posizione di SanFrancisco**.
-
-1. Assegnare un dispositivo a ciascun display.
-
-   >[!NOTE]
-   >Per informazioni sull&#39;assegnazione di un canale a uno schermo, fare riferimento a [Assegnazione canale](/help/user-guide/channel-assignment.md).
-
-#### Download del report Assegnazione contenuto {#downloading-content-assignment-report}
+## Download del report Assegnazione contenuto {#downloading-content-assignment-report-fp}
 
 Una volta configurato il progetto AEM Screens  e assegnato gli schermi a ciascuna delle posizioni come mostrato nei passaggi precedenti, potete scaricare il rapporto Assegnazione contenuto.
 
@@ -64,8 +51,4 @@ Seguite le istruzioni riportate di seguito per scaricare il rapporto Assegnazion
 
    >[!NOTE]
    >Il foglio di calcolo scaricato è costituito da quattro colonne, ad esempio **Canali**, **Risorse**, **Display** e **Dispositivi**, che possono essere utilizzate per approfondire l&#39;analisi di queste quattro entità relative al progetto AEM Screens .
-
-
-
-
 
