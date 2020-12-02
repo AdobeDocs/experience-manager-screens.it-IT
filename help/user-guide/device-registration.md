@@ -11,7 +11,7 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e334501e768dd00caec1962df6062a81bb49eb5c
+source-git-commit: 6731c984122083ff340eda690452729c0b846fb5
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzare tutti i dispos
 
 * Caratteri jolly, `*` è supportato per la ricerca. Se si desidera trovare tutti i dispositivi con nomi che iniziano con *boston*, è possibile utilizzare *boston**.
 
-1. Se il nome del dispositivo è *BostonStoreLobby* e la ricerca di *boston* non restituirà il risultato, invece di utilizzare *boston** nei criteri di ricerca restituirà il risultato.
+* Se il nome del dispositivo è *BostonStoreLobby* e la ricerca di *boston* non restituirà il risultato, invece di utilizzare *boston** nei criteri di ricerca restituirà il risultato.
 
 ## Limitazioni per la registrazione del dispositivo {#limitations-on-device-registration}
 
