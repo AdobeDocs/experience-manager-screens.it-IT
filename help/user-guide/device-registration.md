@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,29 @@ Se il dispositivo non è stato assegnato a uno schermo, attenetevi alla procedur
    Inoltre, è possibile visualizzare il dashboard di visualizzazione facendo clic su **Fine**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+
+### Ricerca di un dispositivo da Gestione dispositivi {#search-device}
+
+Dopo aver registrato i dispositivi sul lettore, puoi visualizzare tutti i dispositivi dall&#39;interfaccia utente di Gestione dispositivi.
+
+1. Andate all&#39;interfaccia utente di Gestione dispositivi dal progetto AEM Screens , ad esempio **DemoScreens** —> **Devices**.
+
+1. Selezionate la cartella **Devices** e fate clic su **Device Manager** dalla barra delle azioni.
+
+1. Viene visualizzato l’elenco dei dispositivi registrati.
+
+1. Se si dispone di un lungo elenco di dispositivi registrati, è ora possibile eseguire la ricerca utilizzando l&#39;icona di ricerca dalla barra delle azioni oppure fare clic semplicemente su `/` (barra) per richiamare la funzionalità di ricerca.
+
+#### Limiti della funzionalità di ricerca {#limitations}
+
+* L&#39;utente potrà cercare qualsiasi parola nell&#39;ID dispositivo o nel nome del dispositivo. Accertatevi di memorizzare i nomi dei dispositivi in più parole, ad esempio &quot;Boston Store Lobby&quot; anziché &quot;BostonStoreLobby&quot;.
+
+* Nel primo caso, permette di cercare qualsiasi parola &quot;boston&quot;, &quot;negozio&quot;, &quot;lobby&quot;, ma nel secondo caso la ricerca &quot;boston&quot; non mostrerà i risultati.
+
+* Caratteri jolly, `*` è supportato per la ricerca. Se si desidera trovare tutti i dispositivi con nome a partire da **boston**, è possibile utilizzare **boston***.
+
+1. Se il nome del dispositivo è **BostonStoreLobby** e la ricerca di **boston** non restituirà il risultato, ma **boston*** restituirà il risultato.
+
 
 ## Limitazioni per la registrazione del dispositivo {#limitations-on-device-registration}
 
