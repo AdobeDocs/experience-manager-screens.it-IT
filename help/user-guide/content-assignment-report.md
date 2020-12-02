@@ -2,10 +2,10 @@
 title: Rapporto assegnazione contenuti
 description: Questa pagina descrive il download e l'utilizzo del rapporto Assegnazione contenuto.
 translation-type: tm+mt
-source-git-commit: 13c25bda83004380dad8d8970d6be25ee83e51ac
+source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '332'
+ht-degree: 6%
 
 ---
 
@@ -45,10 +45,14 @@ Seguite le istruzioni riportate di seguito per scaricare il rapporto Assegnazion
 
 1. Andate al progetto AEM Screens  e selezionate il progetto **DemoScreens**.
 
-1. Fare clic su **Rapporto assegnazione contenuto** dalla barra delle azioni. È necessario scaricare un foglio Excel nel computer locale.
+1. Fare clic su **Rapporto assegnazione contenuto** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
    >Il foglio di calcolo scaricato è costituito da quattro colonne, ad esempio **Canali**, **Risorse**, **Display** e **Dispositivi**, che possono essere utilizzate per approfondire l&#39;analisi di queste quattro entità relative al progetto AEM Screens .
+
+1. Nel computer locale viene scaricato un foglio in excel con il nome del progetto AEM Screens  con lo stesso prefisso. Ad esempio, se il nome del progetto è **DemoScreens**, il nome file scaricato sarà **demoscreens-content-Assignment-report.xlxs**.
+
+   ![immagine](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
