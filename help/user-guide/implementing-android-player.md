@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
+source-git-commit: 2b72d9a83735beb327f519a66e8b3c0e8bf04409
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Seguite i passaggi indicati di seguito per firmare il disco Android utilizzando 
 1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalign.apk
 1. Installare ***aemscreensalign.apk*** utilizzando l&#39;installazione adb nel dispositivo
 
-## Implementazione Android Watchdog {#android-watchdog-implementation}
+## Informazioni sui servizi Android Watchdog {#android-watchdog-services}
 
 Il servizio di controllo Android è implementato come plug-in cordova utilizzando *AlarmManager*.
 
@@ -129,7 +129,7 @@ Fare riferimento a un [esempio di criteri JSON](#example-json) e a una tabella c
 1. Quando l&#39;applicazione del lettore viene avviata, leggerà questo file di configurazione e indicherà il server AEM applicabile, dove può essere registrato e successivamente controllato.
 
    >[!NOTE]
-   >Questo file è di *sola lettura* la prima volta che l&#39;applicazione viene avviata e non può essere utilizzato per le configurazioni successive. Se il lettore viene avviato prima che il file di configurazione venga eliminato, disinstallate e reinstallate l&#39;applicazione sul dispositivo.
+   >Questo file è di *sola lettura* al primo avvio dell&#39;applicazione e non può essere utilizzato per le configurazioni successive. Se il lettore viene avviato prima che il file di configurazione venga eliminato, disinstallate e reinstallate l&#39;applicazione sul dispositivo.
 
 ### Attributi del criterio {#policy-attributes}
 
