@@ -11,9 +11,9 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 translation-type: tm+mt
-source-git-commit: b439cfab068dcbbfab602ad8d31aaa2781bde805
+source-git-commit: e2096260d06cc2db17d690ecbc39e8dc4f1b5aa7
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '1132'
 ht-degree: 1%
 
 ---
@@ -109,3 +109,65 @@ Il diagramma seguente mostra l’implementazione del servizio di controllo:
 >In Android, l&#39; *AlarmManager* viene utilizzato per registrare gli *pendingIntents* che possono essere eseguiti anche se l&#39;app si è bloccata e la relativa consegna dell&#39;allarme non è esatta dall&#39;API 19 (Kitkat). Mantenere una certa spaziatura tra l&#39;intervallo del timer e l&#39;allarme *AlarmManager* *pendingIntent*.
 
 **3. Arresto anomalo dell&#39;applicazione** In caso di arresto anomalo, l&#39;intento in sospeso per il riavvio registrato con AlarmManager non viene più reimpostato ed esegue quindi un riavvio o riavvio dell&#39;app (a seconda delle autorizzazioni disponibili al momento dell&#39;inizializzazione del plug-in cordova).
+
+## Provisioning di massa di Android Player {#bulk-provision-android-player}
+
+Quando si distribuisce il lettore Android in massa, è necessario fornire al lettore un&#39;istanza AEM e configurare altre proprietà senza immettere manualmente quelle nell&#39;interfaccia utente di amministrazione.
+
+>[!NOTE]
+>Questa funzione è disponibile dal lettore Android 42.0.372.
+
+Seguite i passaggi indicati di seguito per consentire il provisioning in blocco nel lettore Android:
+
+1. Create un file JSON di configurazione con il nome `player-config.default.json`.
+Fare riferimento a un [esempio di criteri JSON](#example-json) e a una tabella che descrive l&#39;uso dei vari [attributi del criterio](#policy-attributes).
+
+1. Utilizzate un file Explorer MDM, ADB o Android Studio per rilasciare il file JSON del criterio nella cartella *sdcard* sul dispositivo Android.
+
+1. Una volta distribuito il file, utilizzate il MDM per installare l&#39;applicazione del lettore.
+
+1. Quando l&#39;applicazione del lettore viene avviata, leggerà questo file di configurazione e indicherà il server AEM applicabile, dove può essere registrato e successivamente controllato.
+
+   >[!NOTE]
+   >Questo file è di *sola lettura* la prima volta che l&#39;applicazione viene avviata e non può essere utilizzato per le configurazioni successive. Se il lettore viene avviato prima che il file di configurazione venga eliminato, disinstallate e reinstallate l&#39;applicazione sul dispositivo.
+
+### Attributi del criterio {#policy-attributes}
+
+La tabella seguente riassume gli attributi del criterio con un JSON di esempio per riferimento:
+
+| **Nome criterio** | **Scopo** |
+|---|---|
+| *server* | URL del server Adobe Experience Manager. |
+| *risoluzione* | La risoluzione del dispositivo. |
+| *RestartSchedule* | La pianificazione del riavvio si applica a tutte le piattaforme. |
+| *enableAdminUI* | Abilita l’interfaccia utente amministratore per configurare il dispositivo sul sito. Impostare su *false* una volta che è completamente configurato e in produzione. |
+| *enableOSD* | Abilitare l&#39;interfaccia utente dello switcher di canale per consentire agli utenti di cambiare canale sul dispositivo. Considerare l&#39;impostazione su *false* una volta che è completamente configurato e in produzione. |
+| *enableActivityUI* | Consente di visualizzare l&#39;avanzamento delle attività quali il download e la sincronizzazione. Abilitate per la risoluzione dei problemi e disattivate una volta configurato completamente e in produzione. |
+| *enableNativeVideo* | Abilitate l’utilizzo dell’accelerazione hardware nativa per la riproduzione video (solo Android). |
+
+### Criteri JSON di esempio {#example-json}
+
+```java
+{
+  "server": "https://author-screensdemo.adobecqms.net",
+"device": "",
+"user": "",
+"password": "",
+"resolution": "auto",
+"rebootSchedule": "at 4:00 am",
+"maxNumberOfLogFilesToKeep": 10,
+"logLevel": 3,
+"enableAdminUI": true,
+"enableOSD": true,
+"enableActivityUI": false,
+"enableNativeVideo": false,
+"enableAutoScreenshot": false,
+"cloudMode": false,
+"cloudUrl": "https://screens.adobeioruntime.net",
+"cloudToken": "",
+"enableDeveloperMode": true
+}
+```
+
+>[!NOTE]
+>Tutti i dispositivi Android dispongono di una cartella *sdcard* indipendentemente dal fatto che sia inserita o meno una *sdcard* effettiva. Il file distribuito deve trovarsi allo stesso livello della cartella Download. Alcuni MDM, come Samsung Knox, possono fare riferimento a questa cartella *sdcard* come *Archiviazione interna*.
