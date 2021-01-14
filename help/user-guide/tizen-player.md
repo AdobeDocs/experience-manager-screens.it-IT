@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
 translation-type: tm+mt
-source-git-commit: 1ec3e3541755550f719dbe53e83326d9796de14f
+source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -77,29 +77,40 @@ Per eseguire il provisioning in massa dell’applicazione, eseguite i passaggi i
 
 ### Iscrizione del dispositivo Tizen a Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
 
-Seguite i passaggi riportati di seguito per iscrivere il dispositivo Tizen al servizio di gestione remota Samsung (RMS) e configurare in remoto il programma di avvio URL:
+Seguite i passaggi riportati di seguito per iscrivere il dispositivo Tizen al servizio di gestione remota Samsung (RMS) e configurare in remoto il modulo di avvio URL:
 
 >[!NOTE]
 >Verificare le impostazioni di rete e il monitor.
 
-1. Premere Menu sul telecomando e andare System, quindi premere Invio su Play Via.
+1. Passare a **Menu** -> **Network** -> **Server Network Settings** e premere **Invio**.
 
    >[!NOTE]
-   >Verificare che la schermata sia configurata per la riproduzione tramite l&#39;utilità di avvio URL
-1. Passare a **Menu** -> **Network** -> **Server Network Settings** e premere **Invio**.
+   >Verificate che la schermata sia impostata su Riproduci tramite URL Launcher.
 
 1. Accedete a Indirizzo server e digitate nell’accesso all’URL MagicInfo, quindi premete Fine.
 
-1. Passa alla scheda Dispositivo dopo aver effettuato l&#39;accesso a MIS
-1. Cercate il dispositivo che avete appena configurato guardando l&#39;indirizzo IP e/o il suo indirizzo Mac.
-1. Una volta trovato il dispositivo, fare clic sulla casella di controllo e selezionare Approva
-1. Verificate che la schermata sia configurata per la riproduzione tramite l&#39;utilità di avvio URL
-1. Premere Menu sul telecomando e andare il sistema, quindi premere Invio su Play Via
-1. Passare a Menu -> Rete -> Impostazioni rete server e premere Invio
-1. Vai a Indirizzo server e digita nell’accesso all’URL MagicInfo e premi Fine
 1. Imposta TLS da utilizzare o non utilizzare a seconda dei casi
-1. Vai alla porta e seleziona il numero della porta dal server.
-1. Premi Salva una volta che le opzioni sono pronte.
+   1. Vai alla porta e seleziona il numero della porta dal server.
+   1. Premi Salva una volta che le opzioni sono pronte.
+
+1. Passa alla scheda Dispositivo dopo aver effettuato l&#39;accesso a MIS
+   1. Cercate il dispositivo che avete appena configurato guardando l&#39;indirizzo IP e/o il suo indirizzo Mac.
+   1. Una volta trovato il dispositivo, fare clic sulla casella di controllo e selezionare Approva.
+
+1. Dopo aver fatto clic sul pulsante Approvato, verrà visualizzato il seguente Pop Up
+   1. Compilate le informazioni richieste
+   1. selezionare un gruppo di dispositivi
+   1. Fare clic su Pulsante Ok per completare il processo di approvazione.
+
+1. Dopo l&#39;approvazione, il dispositivo deve essere visualizzato come segue nell&#39;elenco dei dispositivi.
+   1. Fare clic sul pulsante Informazioni situato nella casella del dispositivo &quot;i&quot;
+
+1. La finestra a comparsa Informazioni dispositivo verrà visualizzata come segue e fare clic sul pulsante Modifica.
+
+1. Le opzioni Modifica dispositivo vengono visualizzate come segue e selezionate la scheda Configurazione.
+
+1. Individuate la sezione URL Launcher e immettete l&#39;URL che ospita il wgt e `SSSP config file` per installare un&#39;applicazione SSSP.
+
 
 
 
