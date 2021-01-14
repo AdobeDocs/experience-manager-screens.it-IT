@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
 translation-type: tm+mt
-source-git-commit: dc2fedaa5726e1013e1b51f429ba19e4a709de28
+source-git-commit: c1e7187ad3841cde08377d6daf700885d17706ba
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -107,9 +107,13 @@ Seguite i passaggi riportati di seguito per iscrivere il dispositivo Tizen al se
 
 1. La finestra a comparsa Informazioni dispositivo verrà visualizzata come segue e fare clic sul pulsante Modifica.
 
-1. Le opzioni Modifica dispositivo vengono visualizzate come segue e selezionate la scheda Configurazione.
+1. Modificate le opzioni del dispositivo e selezionate la scheda **Configurazione**.
 
-1. Individuate la sezione URL Launcher e immettete l&#39;URL che ospita il wgt e `SSSP config file` per installare un&#39;applicazione SSSP.
+1. Andate alla sezione **URL Launcher** e immettete l&#39;URL che ospita il wgt e `SSSP config file` per installare un&#39;applicazione `SSSP`, come illustrato nella figura seguente.
+
+   ![immagine](/help/user-guide/assets/tizen/rms-9.png)
+
+1. Fare clic su **Salva** per rendere attive le modifiche sullo schermo.
 
 
 
