@@ -2,9 +2,9 @@
 title: Tizen Player
 description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
 translation-type: tm+mt
-source-git-commit: 46b7cf83d827d4b7ac1d4b37269085f312882de1
+source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ Per eseguire il provisioning in massa dell’applicazione, eseguite i passaggi i
 
 1. Distribuite questo nuovo file `wgt` utilizzando RMS o URL Launcher e quando il lettore viene avviato, il file deve essere indirizzato automaticamente al server, in modo che non sia necessario immetterlo manualmente per ogni dispositivo.
 
-### Iscrizione del dispositivo Tizen a Samsung Remote Management Service(RMS) {#enroll-tizen-device-rms}
+### Iscrizione del dispositivo Tizen al servizio di gestione remota Samsung (RMS) {#enroll-tizen-device-rms}
 
 Seguite i passaggi riportati di seguito per iscrivere il dispositivo Tizen al servizio di gestione remota Samsung (RMS) e configurare in remoto il modulo di avvio URL:
 
@@ -102,10 +102,6 @@ Seguite i passaggi riportati di seguito per iscrivere il dispositivo Tizen al se
 >Verificare le impostazioni di rete e il monitor.
 
 1. Passare a **Menu** -> **Network** -> **Server Network Settings** e premere **Invio**.
-
-   >[!NOTE]
-   >Verificate che la schermata sia impostata su Riproduci tramite URL Launcher.
-   >![immagine](/help/user-guide/assets/tizen/rms-2.png)
 
 1. Andate all&#39;indirizzo Server e digitate nell&#39;accesso all&#39;URL MagicInfo, quindi premete **Done**.
 
