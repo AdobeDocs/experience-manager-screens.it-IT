@@ -2,7 +2,7 @@
 title: Tizen Player
 description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
 translation-type: tm+mt
-source-git-commit: aaaba2ed94fc950fec9264fef441bebf761576be
+source-git-commit: 2ace2f926900304377afcd6187462545a60784d3
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Seguire i passaggi indicati di seguito sul dispositivo Samsung per completare l&
 
 Seguite i passaggi riportati di seguito per esentare questi client incompatibili quando utilizzate *SameSite=None*:
 
-1. Aggiornamento ad Adobe Experience Manager (AEM) Service Pack 6.5.8.
+1. Aggiornamento ad Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
 1. Dopo AEM riavvio, andate a `/system/console/configMgr` e cercate **Gestore autenticazione token di granito di Adobe**. Impostare il valore per il valore **SameSite** su **None**.
 
