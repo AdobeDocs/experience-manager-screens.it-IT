@@ -4,10 +4,10 @@ seo-title: Configurazioni del dispatcher per  AEM Screens
 description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
 seo-description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
 translation-type: tm+mt
-source-git-commit: 4a1fb81fa343983093590c36ccb6a4fd110cdad2
+source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,22 +32,26 @@ Per ulteriori informazioni, vedere [Configurazione del dispatcher](https://docs.
 
 ## Configurazione di Dispatcher {#configuring-dispatcher}
 
+ lettori/dispositivi AEM Screens utilizzano la sessione autenticata per accedere alle risorse anche nelle istanze di pubblicazione. Pertanto, se disponete di più istanze di pubblicazione, le richieste devono sempre passare alla stessa istanza di pubblicazione in modo che la sessione autenticata sia valida per tutte le richieste provenienti dai lettori/dispositivi AEM Screens .
+
 Per configurare il dispatcher per un progetto AEM Screens , procedi come indicato di seguito.
 
 ### Abilitazione delle sessioni permanenti {#enable-sticky-session}
 
-Se si desidera utilizzare più di un&#39;istanza di pubblicazione con il dispatcher, sarà necessario aggiornare il file `dispatcher.any`.
+Per utilizzare più istanze di pubblicazione fronte a un singolo dispatcher, è necessario aggiornare il file `dispatcher.any` per abilitare la persistenza
 
 ```xml
 /stickyConnections {
   /paths
   {
-    "/content/screens"
-    "/home/users/screens"
-    "/libs/granite/csrf/token.json"
+    "/"
   }
-}
+ }
 ```
+
+Se un’istanza di pubblicazione è preceduta da un dispatcher, l’attivazione della persistenza all’interno del dispatcher potrebbe non essere di aiuto in quanto il sistema di bilanciamento del carico potrebbe inviare ogni richiesta al dispatcher. In questo caso, è necessario abilitare la persistenza al livello di bilanciamento del carico.
+
+Ad esempio, se utilizzate AWS ALB, fate riferimento a [Gruppi di destinazione per Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) per abilitare la persistenza a livello ALB. Abilita l&#39;adesivo per 1 giorno.
 
 ### Passaggio 1: Configurazione delle intestazioni client {#step-configuring-client-headers}
 
