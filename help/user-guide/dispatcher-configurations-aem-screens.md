@@ -4,10 +4,10 @@ seo-title: Configurazioni del dispatcher per  AEM Screens
 description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
 seo-description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
 translation-type: tm+mt
-source-git-commit: 230e513ff24647e934ed850ecade60b19f4ab331
+source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,9 @@ Per utilizzare più istanze di pubblicazione fronte a un singolo dispatcher, è 
  }
 ```
 
-Se un’istanza di pubblicazione è preceduta da un dispatcher, l’attivazione della persistenza all’interno del dispatcher potrebbe non essere di aiuto in quanto il sistema di bilanciamento del carico potrebbe inviare ogni richiesta al dispatcher. In questo caso, è necessario abilitare la persistenza al livello di bilanciamento del carico.
+Se un’istanza di pubblicazione è preceduta da un dispatcher, l’attivazione della persistenza all’interno del dispatcher potrebbe non essere di aiuto in quanto il sistema di bilanciamento del carico potrebbe inviare ogni richiesta al dispatcher. In questo caso, fare clic sul campo **Enable** in **Stickiness** per attivarlo al livello di bilanciamento del carico, come illustrato nella figura seguente:
+
+![immagine](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
 Ad esempio, se utilizzate AWS ALB, fate riferimento a [Gruppi di destinazione per Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) per abilitare la persistenza a livello ALB. Abilita l&#39;adesivo per 1 giorno.
 
