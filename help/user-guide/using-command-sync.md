@@ -4,9 +4,9 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 seo-description: Seguite questa pagina per informazioni su come utilizzare la sincronizzazione dei comandi.
 translation-type: tm+mt
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,10 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Create una visualizzazione nella cartella **Locations**, come illustrato nella figura riportata di seguito.
+1. Create una posizione **Lobby** e, successivamente, una visualizzazione denominata **LobbyDisplay** nella cartella **Locations**, come illustrato nella figura riportata di seguito.
    ![image1](assets/command-sync/command-sync3-1.png)
 
-1. Assegnare il canale, **ChannelLobby** al **LobbyDisplay**.
+1. Assegnare il canale, **ChannelLobby** al **LobbyDisplay**. È ora possibile visualizzare il canale assegnato al display dal pannello di visualizzazione.
    ![image1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
@@ -68,7 +68,7 @@ Prima di usare la funzione di sincronizzazione dei comandi, accertatevi di dispo
 
    >[!NOTE]
    >
-   >Per informazioni su come assegnare un canale a uno schermo, fare riferimento a [Creazione e gestione di display](/help/user-guide/managing-displays.md)
+   >Per informazioni su come registrare un dispositivo, fare riferimento a [Registrazione dispositivo](/help/user-guide/device-registration.md)
 
 1. A scopo dimostrativo, questo esempio mostra un dispositivo chrome e un lettore Windows come due dispositivi separati. Entrambi i dispositivi puntano allo stesso display.
    ![image1](assets/command-sync6.png)
