@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 2ab8496cebb81864a8354ad5dcb8d72bc1e44c13
+source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,25 @@ Una volta scaricata l’applicazione, seguite i passaggi del lettore per complet
 
 Una volta installato il lettore Windows, è possibile registrare più lettori con una configurazione.
 
+## Installazione tramite CLI (PowerShell) {#install-powershell}
+
+1. Create una posizione personalizzata **dedicata** per Screens Player, ad esempio:
+   `C:\Users\User\screens-player`)
+1. Installare la versione
+   `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
+1. Apri
+   `Start-Process C:\Users\User\screens-player\AEMScreensPlayer.exe`
+
+**Esempio**
+
+```shell
+C:\Users\User\Downloads> mkdir screens-player
+
+C:\Users\User\Downloads> .\aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\Downloads\screens-player
+
+C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AEMScreensPlayer.exe
+```
+
 >[!NOTE]
 >
 >**Registrazione di massa di Windows Player**
@@ -128,7 +147,7 @@ Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
 1. Abilita il lancio della shell.
 
-   Fare riferimento alla sezione ***Configura il lanciatore shell*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** della pagina &lt;a2/>Supporto tecnico Microsoft Windows per ulteriori informazioni.
+   Fare riferimento alla sezione ***Configura il lanciatore shell*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** della pagina Supporto tecnico Microsoft Windows per ulteriori informazioni.
 
 1. Create un utente non amministrativo (se non ne avete già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
 1. Installare il lettore Windows per l&#39;utente Kiosk dalla pagina [ Download di AEM Screens Player](https://download.macromedia.com/screens/).
