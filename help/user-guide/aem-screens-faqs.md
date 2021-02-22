@@ -6,7 +6,7 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 7869e462417b93dab568e1a8e6b5c608832ba5bd
+source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 1%
@@ -33,7 +33,7 @@ La sezione seguente contiene le risposte alle domande frequenti più frequenti r
 * Controlla eventuali contenuti pianificati e se gli orari sono corretti. Verificare che l&#39;ora impostata nel lettore sia corretta.
 *  i registri della console del lettore Inspect e verificate la presenza di eventuali errori. Fare clic con il pulsante destro del mouse ed esaminare i registri della console. Se si utilizza il lettore Windows, premere `CTRL + ALT +I` per visualizzare la console dev per visualizzare i registri.
 
-### 2. Come risolvere il problema dello schermo vuoto in  AEM Screens creando un canale o una pianificazione predefinita?
+### 2. Come risolvere il problema dello schermo grigio in  AEM Screens tramite la creazione di un canale o di una pianificazione predefiniti?
 
 Per evitare schermate vuote o grigie nel campo, creare un canale o una pianificazione globale predefinita, assegnato a ogni display con la priorità minima 1. Nel caso in cui si verifichino dei problemi con gli aggiornamenti di contenuto (a causa di rete, lettore, server o replica), poiché i lettori hanno già questo contenuto nella cache del disco, che dovrebbe essere riprodotto correttamente ed evitare gli schermi grigi.
 
