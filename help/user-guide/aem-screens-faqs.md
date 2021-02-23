@@ -6,9 +6,9 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
+source-git-commit: 7f9eacb456b26d9b7efb595397fff2f64335be8c
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -166,9 +166,9 @@ Seguite i passaggi riportati di seguito per risolvere eventuali problemi relativ
 
 1. Verificare se la configurazione di Apache Sling Resource Resolver Factory sta causando riscritture interne.
 
-### Come ottenere i dettagli della visualizzazione e del dispositivo dall&#39;API del lettore?
+### 6. Come ottenere i dettagli della visualizzazione e del dispositivo dall&#39;API del lettore?
 
-Esistono due modi per ottenere i dettagli tramite:
+È possibile ottenere i dettagli del display e del dispositivo tramite:
 
 * **un&#39;API JS interna**
 * **uno store** ContextHub: Tre store ContextHub sono definiti in  `/libs/screens/clientlibs/contexthub` per esporre canali, dispositivi e informazioni di visualizzazione.
