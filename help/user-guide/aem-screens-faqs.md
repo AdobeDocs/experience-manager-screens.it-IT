@@ -6,9 +6,9 @@ seo-description: Seguite questa pagina per ottenere le risposte alle domande fre
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
 translation-type: tm+mt
-source-git-commit: 3c78dd2f2f5cff421917eb5d657d8fd6fb2e3229
+source-git-commit: 70e94631a808c81fae79de396d3ead8094c903e1
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1898'
 ht-degree: 1%
 
 ---
@@ -165,6 +165,24 @@ Seguite i passaggi riportati di seguito per risolvere eventuali problemi relativ
 1. Verificate di disporre di `/etc/map` regole sull&#39;istanza *author* o *publish* e i percorsi delle schermate siano associati a `sling:match` e reindirizzati internamente a un percorso diverso. La risoluzione dell&#39;URL esatto in `/system/console/jcrresolver` aiuta a identificare se l&#39;istanza *publish* sta riscrivendo questi URL in qualsiasi altro percorso.
 
 1. Verificare se la configurazione di Apache Sling Resource Resolver Factory sta causando riscritture interne.
+
+### Come ottenere i dettagli della visualizzazione e del dispositivo dall&#39;API del lettore?
+
+Esistono due modi per ottenere i dettagli tramite:
+
+* **un&#39;API JS interna**
+* **uno store** ContextHub: Tre store ContextHub sono definiti in  `/libs/screens/clientlibs/contexthub` per esporre canali, dispositivi e informazioni di visualizzazione.
+
+   Per utilizzare i seguenti valori per l&#39;archivio ContentHub, effettuate le seguenti operazioni:
+
+   * Modificate le proprietà del canale e impostate il percorso ContextHub nella scheda di personalizzazione sul valore (come indicato sopra)
+   * Nel canale JS, puoi usare:
+
+      ```shell
+         ContextHub.getStore('screens-device');
+         ContextHub.getStore('screens-display');
+         ContextHub.getStore('screens-channels');
+      ```
 
 ## Suggerimenti generali per la risoluzione dei problemi {#general-troubleshooting-tips}
 
