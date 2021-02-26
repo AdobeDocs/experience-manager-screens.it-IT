@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
+source-git-commit: 529bcaf7ded850b8f7fec95d2f85e84c5d79a66a
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '997'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Una volta scaricata l’applicazione, seguite i passaggi del lettore per complet
 >Se **State** è **REGISTERED**, il campo **Device id** verrà popolato.
 >
 >Se **State** è **UNREGISTERED**, è possibile utilizzare il **Token** per registrare il dispositivo.
+
+## Modifica delle opzioni predefinite in Windows Installer {#changing-default-options}
+
+Seguite questa sezione per apprendere come modificare le opzioni predefinite di Windows Installer e l&#39;elenco delle personalizzazioni disponibili.
 
 ## Installazione tramite CLI (PowerShell) {#install-powershell}
 
@@ -133,7 +137,7 @@ Quando si distribuisce il lettore Windows, è importante abilitare una modalità
 
 >[!CAUTION]
 >
-> Adobe consiglia una soluzione di gestione dispositivi per abilitare Kiosk per Windows. Se non disponete di una soluzione di gestione dispositivo per attivare la modalità Kiosk, seguite i passaggi indicati di seguito. Questo metodo utilizza la funzionalità Shell Launcher disponibile in Windows 10 Enterprise ed Edu. Qualsiasi altro metodo consigliato da Microsoft per le app non UWP può essere applicato anche per abilitare il chiosco, specialmente su altre edizioni di Windows.
+> Adobe consiglia una soluzione di gestione dispositivi per abilitare Kiosk per Windows. Se non disponete di una soluzione di gestione dispositivo per abilitare la modalità Kiosk, eseguite i passaggi indicati di seguito. Questo metodo utilizza la funzionalità Shell Launcher disponibile in Windows 10 Enterprise ed Edu. Qualsiasi altro metodo consigliato da Microsoft per le app non UWP può essere applicato anche per abilitare il chiosco, specialmente su altre edizioni di Windows.
 
 Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
