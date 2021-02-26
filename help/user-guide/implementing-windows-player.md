@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 translation-type: tm+mt
-source-git-commit: d25c45d6362a5f8ffac84e07dacb30c0b7c64493
+source-git-commit: 8f64009e121a0ff9936006abc8fc63479b502a48
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
@@ -67,10 +67,6 @@ Una volta scaricata l’applicazione, seguite i passaggi del lettore per complet
 >Se **State** è **REGISTERED**, il campo **Device id** verrà popolato.
 >
 >Se **State** è **UNREGISTERED**, è possibile utilizzare il **Token** per registrare il dispositivo.
-
-### Configurazione server di massa: Registrazione di più lettori Windows 10 con una configurazione {#bulk-server-configuration-registering-multiple-windows-players-with-one-configuration}
-
-Una volta installato il lettore Windows, è possibile registrare più lettori con una configurazione.
 
 ## Installazione tramite CLI (PowerShell) {#install-powershell}
 
@@ -137,7 +133,7 @@ Quando si distribuisce il lettore Windows, è importante abilitare una modalità
 
 >[!CAUTION]
 >
-> Adobe consiglia una soluzione di gestione dispositivi per abilitare Kiosk per Windows. Se non disponete di una soluzione di gestione dispositivo per abilitare la modalità Kiosk, eseguite i passaggi indicati di seguito. Questo metodo utilizza la funzionalità Shell Launcher disponibile in Windows 10 Enterprise ed Edu. Qualsiasi altro metodo consigliato da Microsoft per le app non UWP può essere applicato anche per abilitare il chiosco, specialmente su altre edizioni di Windows.
+> Adobe consiglia una soluzione di gestione dispositivi per abilitare Kiosk per Windows. Se non disponete di una soluzione di gestione dispositivo per attivare la modalità Kiosk, seguite i passaggi indicati di seguito. Questo metodo utilizza la funzionalità Shell Launcher disponibile in Windows 10 Enterprise ed Edu. Qualsiasi altro metodo consigliato da Microsoft per le app non UWP può essere applicato anche per abilitare il chiosco, specialmente su altre edizioni di Windows.
 
 Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
@@ -147,7 +143,7 @@ Per attivare la modalità Kiosk, effettuate le seguenti operazioni:
 
 1. Abilita il lancio della shell.
 
-   Fare riferimento alla sezione ***Configura il lanciatore shell*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** della pagina Supporto tecnico Microsoft Windows per ulteriori informazioni.
+   Fare riferimento alla sezione ***Configura il lanciatore shell*** in **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** della pagina del supporto di Microsoft Windows per ulteriori informazioni.
 
 1. Create un utente non amministrativo (se non ne avete già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
 1. Installare il lettore Windows per l&#39;utente Kiosk dalla pagina [ Download di AEM Screens Player](https://download.macromedia.com/screens/).
