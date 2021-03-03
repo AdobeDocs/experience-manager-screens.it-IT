@@ -3,9 +3,9 @@ title: Registrazione automatica dei giocatori
 seo-title: Registrazione automatica dei giocatori
 description: Segui questa pagina per scoprire la registrazione automatica dei giocatori con AMS/On-Prem Screens.
 translation-type: tm+mt
-source-git-commit: 56432654d0895b892223677c8a03f10181864271
+source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ La registrazione collettiva di migliaia di giocatori manualmente può diventare 
 Segui i passaggi seguenti per implementare la registrazione automatica dei giocatori:
 
 1. Accedi all’istanza AEM e seleziona il progetto AEM screens e fai clic su **Proprietà** nella barra delle azioni.
-1. Seleziona la scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo** , come illustrato di seguito.
-
-   ![immagine](/help/user-guide/assets/auto-registration/auto-register1.png)
+1. Seleziona la scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo** .
 
 1. Specifica un codice di registrazione automatica nel campo **Codice di registrazione bulk** e una visualizzazione predefinita facoltativa in **Assegnazione visualizzazione predefinita** per assegnare al lettore che viene registrato automaticamente.
    >[!NOTE]
    >Immetti un codice a tua scelta e seleziona una visualizzazione predefinita, se necessario.
+
+   ![immagine](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Effettua il provisioning dei tuoi lettori con l’URL del server e il codice di registrazione appropriati utilizzando un file MDM o JSON di configurazione.
 
    >[!NOTE]
@@ -42,7 +42,7 @@ Segui la sezione seguente per prendere in considerazione alcune delle best pract
 
 * Per garantire che il codice di registrazione non sia compromesso, configura il codice in AEM subito prima di avviare la registrazione in blocco e, al termine, cancella quel campo e salva in AEM.
 
-* Puoi configurare che il percorso `/bin/screens/`registrazione sia accessibile solo da intervalli IP noti, se possibile.
+* Puoi configurare il percorso `/bin/screens/registration` in modo che sia accessibile solo da intervalli IP noti, se possibile.
 
 * Prendi in considerazione l’utilizzo di un MDM per il provisioning del lettore con la configurazione.
 
