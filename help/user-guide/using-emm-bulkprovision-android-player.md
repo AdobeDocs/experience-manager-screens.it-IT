@@ -3,9 +3,9 @@ title: Utilizzo di MDM o EMM per il provisioning in serie di Android Player
 seo-title: Provisioning in blocco di Android Player utilizzando EMM o MDM
 description: Segui questa pagina per informazioni sul provisioning in serie di Android Player utilizzando EMM o MDM
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Provisioning in blocco di Android Player utilizzando Enterprise Mobility Management {#bulk-provisioning}
 
-Quando si distribuisce il lettore Android in blocco, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM Appconfig per consentire il provisioning remoto. Segui i passaggi seguenti per eseguire il provisioning in serie dei tuoi giocatori.
+Quando si distribuisce il lettore Android in blocco, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM Appconfig per consentire il provisioning remoto.
 
 ## Implementazione del provisioning in blocco di Android Player utilizzando Enterprise Mobility Management {#implementation}
 
