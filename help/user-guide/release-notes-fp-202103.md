@@ -2,9 +2,9 @@
 title: Note sulla versione per Feature Pack 202103
 description: Nella pagina sono elencate le note sulla versione per Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: c3a068eca75142ee3e089a63559249a8b64784e2
+source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 11%
 
 ---
@@ -51,6 +51,7 @@ I seguenti lettori AEM Screens sono rilasciati per AEM 6.5 Feature Pack 7:
 * Windows
 * Android
 * Tizen
+* Linux
 
 #### Download di lettori AEM Screens {#aem-screens-player-downloads}
 
