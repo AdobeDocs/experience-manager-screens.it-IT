@@ -2,9 +2,9 @@
 title: Note sulla versione per Feature Pack 202103
 description: Nella pagina sono elencate le note sulla versione per Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 34f93df3fa212eaae713b0c8686d95beeb0c7b67
+source-git-commit: 8b4e82d4467c2e16d81a7d2e94a219b601ef726c
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -44,14 +44,17 @@ La data di rilascio per AEM Screens Feature Pack 202103 è il 8 marzo 2021.
 
 * Le cache offline non sono state create se l&#39;oggetto Assignment aveva *OfflineConfig*.
 
-* Sono stati aggiornati i problemi relativi al Tizen Player perché il criterio di riferimento &quot;rigorosamente&quot;-origin-when-cross-origin non è supportato.
+* Aggiornamenti al lettore Tizen che si è verificato un errore perché il criterio di riferimento rigorosamente-origin-when-cross-origin non è supportato.
 
-* La modifica del campo &quot;Ripeti&quot; della pianificazione del canale assegnato causava l’interruzione dell’interfaccia utente.
+* Registra l&#39;errore sottostante quando il download di SmartSync non riesce.
+
+* La modifica del campo della pianificazione del canale assegnato *Ripeti* causava l&#39;interruzione dell&#39;interfaccia utente.
 
 * Errore durante l&#39;aggiornamento del contenuto offline con eccezioni di query.
 
-* La migrazione di SmartSync ha interrotto il lettore, se la cache non è stata invalidata
+* Ora è corretto il ritardo tra le transizioni durante l’interazione nell’esperienza interattiva.
 
+* La richiesta di aggiornamento della configurazione non riuscita causava la visualizzazione vuota della schermata.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
