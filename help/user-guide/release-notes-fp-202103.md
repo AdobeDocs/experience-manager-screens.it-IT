@@ -2,10 +2,10 @@
 title: Note sulla versione per Feature Pack 202103
 description: Nella pagina sono elencate le note sulla versione per Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 5f8938bfd092197391aefcd2d730d47fa06c214d
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 11%
+source-wordcount: '379'
+ht-degree: 9%
 
 ---
 
@@ -30,6 +30,10 @@ La data di rilascio per AEM Screens Feature Pack 202103 è il 8 marzo 2021.
 * **Registrazione e assegnazione in blocco di AEM Screens**
 
    La registrazione collettiva di migliaia di giocatori manualmente è molto ingombrante e aggiunge tempo e costi. Per semplificare questo processo, la funzione di registrazione in blocco ti consente di specificare una chiave pre-condivisa in AEM che può essere fornita in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
+
+* **Provisioning in blocco di Android Player tramite Enterprise Mobility Management**
+
+   Quando si distribuisce il lettore Android in blocco, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM Appconfig per consentire il provisioning remoto.
 
 * **Blocca pagina in un canale AEM Screens**
 
