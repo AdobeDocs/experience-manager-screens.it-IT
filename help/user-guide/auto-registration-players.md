@@ -3,9 +3,9 @@ title: Registrazione automatica dei giocatori
 seo-title: Registrazione automatica dei giocatori
 description: Segui questa pagina per scoprire la registrazione automatica dei giocatori con AMS/On-Prem Screens.
 translation-type: tm+mt
-source-git-commit: f94eac66b6372e9f3e4cfc28693c4ba61d1b9ab1
+source-git-commit: 56432654d0895b892223677c8a03f10181864271
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,22 @@ La registrazione collettiva di migliaia di giocatori manualmente può diventare 
 
 Segui i passaggi seguenti per implementare la registrazione automatica dei giocatori:
 
-1. Accedi alla tua istanza AEM e seleziona il tuo progetto AEM screens, fai clic su proprietà e sulla scheda Avanzate .
-1. Dovresti visualizzare una sezione di registrazione in serie in cui puoi specificare un codice di registrazione in serie e una visualizzazione predefinita opzionale da assegnare al lettore registrato in massa
-1. Immetti un codice a tua scelta e seleziona una visualizzazione predefinita se necessario
-1. Effettua il provisioning dei tuoi lettori con l’URL del server e il codice di registrazione appropriati utilizzando un file MDM o JSON di configurazione. Per informazioni dettagliate, fai riferimento alla pagina di implementazione per il lettore specifico del tuo sistema operativo. Puoi anche utilizzare l’interfaccia utente amministratore per inserire il codice di registrazione.
+1. Accedi all’istanza AEM e seleziona il progetto AEM screens e fai clic su **Proprietà** nella barra delle azioni.
+1. Seleziona la scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo** , come illustrato di seguito.
+
+   ![immagine](/help/user-guide/assets/auto-registration/auto-register1.png)
+
+1. Specifica un codice di registrazione automatica nel campo **Codice di registrazione bulk** e una visualizzazione predefinita facoltativa in **Assegnazione visualizzazione predefinita** per assegnare al lettore che viene registrato automaticamente.
+   >[!NOTE]
+   >Immetti un codice a tua scelta e seleziona una visualizzazione predefinita, se necessario.
+1. Effettua il provisioning dei tuoi lettori con l’URL del server e il codice di registrazione appropriati utilizzando un file MDM o JSON di configurazione.
+
+   >[!NOTE]
+   >Per ulteriori informazioni, consulta la pagina di implementazione per il lettore specifico del sistema operativo in uso. Puoi anche utilizzare l’interfaccia utente amministratore per inserire il codice di registrazione.
+
 1. Se l’attributo `registrationKey` corrisponde a quello configurato in AEM, il lettore si registra automaticamente e, se è configurata una visualizzazione predefinita, il contenuto viene scaricato e riprodotto.
+
+   ![immagine](/help/user-guide/assets/auto-registration/auto-register2.png)
 
 ## Tecniche consigliate per la sicurezza {#security-best-practices}
 
