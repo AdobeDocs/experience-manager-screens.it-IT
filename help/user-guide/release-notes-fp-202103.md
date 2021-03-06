@@ -2,9 +2,9 @@
 title: Note sulla versione per Feature Pack 202103
 description: Nella pagina sono elencate le note sulla versione per Feature Pack 202103.
 translation-type: tm+mt
-source-git-commit: 76d03e1b0232c5d6eca0a3088453982c5c142f1f
+source-git-commit: 3701c6f72ceadb5b61cd608503a95af11d631c49
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ La data di rilascio per AEM Screens Feature Pack 202103 è il 5 marzo 2021.
 
 * **Registrazione automatica AEM Screens dei giocatori**
 
-   La registrazione collettiva di migliaia di giocatori manualmente è molto ingombrante e aggiunge tempo e costi. Per semplificare questo processo, la funzione di Registrazione in blocco ti consente di specificare una chiave pre-condivisa in AEM che può essere fornita in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
+   La registrazione collettiva di migliaia di giocatori manualmente è molto ingombrante e aggiunge tempo e costi. Per semplificare questo processo, la funzione di Registrazione automatica dei lettori consente di specificare una chiave pre-condivisa in AEM che può essere fornita in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
 
    Per ulteriori informazioni, fare riferimento a [Registrazione automatica dei giocatori](/help/user-guide/auto-registration-players.md) .
 
