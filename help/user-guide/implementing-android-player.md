@@ -14,7 +14,7 @@ feature: Amministrazione di schermi, lettore Android
 role: Administrator
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 4dd6d40603f4a54ede67c35b07373ac6c6649d3f
+source-git-commit: 6978d9d13f2b7f723812561554fdb0a606ddb4fc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 1%
@@ -186,8 +186,8 @@ Segui i passaggi seguenti per consentire il provisioning in massa in Android Pla
 1. Assicurati che il tuo dispositivo Android supporti i servizi Google Play.
 1. Registrati i tuoi dispositivi Android Player con la tua soluzione EMM preferita che supporta AppConfig.
 1. Accedi alla tua console EMM e estrae l&#39;applicazione AEM Screens Player da Google Play.
-1. Seleziona la configurazione gestita (o l&#39;opzione correlata).
-1. Ora dovresti visualizzare un elenco delle opzioni del lettore che possono essere configurate (come il codice di registrazione del server e in serie).
+1. Seleziona la configurazione gestita o l&#39;opzione correlata.
+1. Ora dovresti visualizzare un elenco delle opzioni del lettore che possono essere configurate, ad esempio il codice di registrazione di massa e il server.
 1. Configura questi parametri, salva e distribuisci il criterio sui dispositivi.
 
    >[!NOTE]
