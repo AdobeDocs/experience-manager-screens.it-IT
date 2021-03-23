@@ -2,10 +2,13 @@
 title: Registrazione automatica dei giocatori
 seo-title: Registrazione automatica dei giocatori
 description: Segui questa pagina per scoprire la registrazione automatica dei giocatori con AMS/On-Prem Screens.
+feature: Amministrazione di schermi, lettori
+role: Administrator
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 793507b266b99051544b377e4a7effb92dc6feb6
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -19,7 +22,7 @@ La registrazione collettiva di migliaia di giocatori manualmente può diventare 
 
 Segui i passaggi seguenti per implementare la registrazione automatica dei giocatori:
 
-1. Accedi all’istanza AEM e seleziona il progetto AEM screens e fai clic su **Proprietà** nella barra delle azioni.
+1. Accedi all&#39;istanza AEM e seleziona il progetto schermate AEM e fai clic su **Proprietà** nella barra delle azioni.
 1. Seleziona la scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo** .
 
 1. Specifica un codice di registrazione automatica nel campo **Codice di registrazione bulk** e una visualizzazione predefinita facoltativa in **Assegnazione visualizzazione predefinita** per assegnare al lettore che viene registrato automaticamente.
@@ -40,7 +43,7 @@ Segui i passaggi seguenti per implementare la registrazione automatica dei gioca
 
 Segui la sezione seguente per prendere in considerazione alcune delle best practice per la sicurezza:
 
-* Per garantire che il codice di registrazione non sia compromesso, configura il codice in AEM subito prima di avviare la registrazione in blocco e, al termine, cancella quel campo e salva in AEM.
+* Per garantire che il codice di registrazione non sia compromesso, configura il codice in AEM immediatamente prima di avviare la registrazione collettiva e, al termine, cancella quel campo e salva in AEM.
 
 * Puoi configurare il percorso `/bin/screens/registration` in modo che sia accessibile solo da intervalli IP noti, se possibile.
 
