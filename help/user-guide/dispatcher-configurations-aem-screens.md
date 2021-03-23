@@ -1,44 +1,47 @@
 ---
-title: Configurazioni del dispatcher per  AEM Screens
-seo-title: Configurazioni del dispatcher per  AEM Screens
-description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
-seo-description: In questa pagina sono illustrate le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
+title: Configurazioni del Dispatcher per AEM Screens
+seo-title: Configurazioni del Dispatcher per AEM Screens
+description: Questa pagina illustra le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
+seo-description: Questa pagina illustra le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
+feature: Amministrazione di schermi
+role: Sviluppatore, Business Practices
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 43aca405707625fe5a132beaed82dbb9a4513129
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 6%
 
 ---
 
 
-# Configurazioni del dispatcher per  AEM Screens{#dispatcher-configurations-for-aem-screens}
+# Configurazioni del Dispatcher per AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager.
 
-La pagina seguente illustra le linee guida per la configurazione del dispatcher per un progetto AEM Screens .
+La pagina seguente fornisce le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
 
 >[!NOTE]
 >
->Se è disponibile un dispatcher, è possibile impedire le connessioni al servlet di registrazione filtrando le regole del dispatcher.
+>Se un dispatcher è disponibile, è possibile impedire le connessioni al servlet di registrazione filtrando nelle regole del dispatcher.
 >
->Se non è presente alcun dispatcher, disattivate il servlet di registrazione nell’elenco dei componenti OSGi.
+>Se non è presente alcun dispatcher, disattiva il servlet di registrazione nell’elenco dei componenti OSGi.
 
 ## Prerequisiti {#pre-requisites}
 
-Prima di configurare il dispatcher per un progetto AEM Screens , è necessario disporre di conoscenze preliminari sul dispatcher.
+Prima di configurare il dispatcher per un progetto AEM Screens, è necessario disporre di conoscenze precedenti su Dispatcher.
 
-Per ulteriori informazioni, vedere [Configurazione del dispatcher](https://docs.adobe.com/content/help/it-IT/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html).
+Per ulteriori informazioni, consulta [Configurazione di Dispatcher](https://docs.adobe.com/content/help/it-IT/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) .
 
 ## Configurazione di Dispatcher {#configuring-dispatcher}
 
- lettori/dispositivi AEM Screens utilizzano la sessione autenticata per accedere alle risorse anche nelle istanze di pubblicazione. Pertanto, se disponete di più istanze di pubblicazione, le richieste devono sempre passare alla stessa istanza di pubblicazione in modo che la sessione autenticata sia valida per tutte le richieste provenienti dai lettori/dispositivi AEM Screens .
+I lettori/dispositivi AEM Screens utilizzano una sessione autenticata per accedere alle risorse anche nelle istanze di pubblicazione. Quindi, quando disponi di più istanze di pubblicazione, le richieste devono sempre andare alla stessa istanza di pubblicazione in modo che la sessione autenticata sia valida per tutte le richieste provenienti dai lettori/dispositivi AEM Screens.
 
-Per configurare il dispatcher per un progetto AEM Screens , procedi come indicato di seguito.
+Segui i passaggi riportati di seguito per configurare il dispatcher per un progetto AEM Screens.
 
-### Abilitazione delle sessioni permanenti {#enable-sticky-session}
+### Abilitazione di sessioni permanenti {#enable-sticky-session}
 
-Per utilizzare più istanze di pubblicazione fronte a un singolo dispatcher, è necessario aggiornare il file `dispatcher.any` per abilitare la persistenza
+Se desideri utilizzare più istanze di pubblicazione fronte a un singolo dispatcher, devi aggiornare il file `dispatcher.any` per abilitare la persistenza
 
 ```xml
 /stickyConnections {
@@ -49,23 +52,23 @@ Per utilizzare più istanze di pubblicazione fronte a un singolo dispatcher, è 
  }
 ```
 
-Se un’istanza di pubblicazione è preceduta da un dispatcher, l’attivazione della persistenza all’interno del dispatcher potrebbe non essere di aiuto in quanto il sistema di bilanciamento del carico potrebbe inviare ogni richiesta al dispatcher. In questo caso, fare clic sul campo **Enable** in **Stickiness** per attivarlo al livello di bilanciamento del carico, come illustrato nella figura seguente:
+Se disponi di un’istanza di pubblicazione fronte a un dispatcher, l’abilitazione della persistenza al dispatcher non sarà di aiuto in quanto il load balancer può inviare ogni richiesta al dispatcher. In questo caso, fai clic su **Abilita** nel campo **Atteggiamento** per attivarlo a livello di load balancer, come illustrato nella figura seguente:
 
 ![immagine](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Ad esempio, se utilizzate AWS ALB, fate riferimento a [Gruppi di destinazione per Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) per abilitare la persistenza a livello ALB. Abilita l&#39;adesivo per 1 giorno.
+Ad esempio, se utilizzi AWS ALB, fai riferimento a [Gruppi di destinazione per i bilanciatori di carico dell&#39;applicazione](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) per abilitare la persistenza a livello ALB. Abilita l&#39;adesività per 1 giorno.
 
 ### Passaggio 1: Configurazione delle intestazioni client {#step-configuring-client-headers}
 
-Aggiungere quanto segue alla sezione `/clientheaders`:
+Aggiungi quanto segue alla sezione `/clientheaders`:
 
-**X-Richiesto-Con**
+**X-Requested-With**
 
 **X-SET-HEARTBEAT**
 
 **X-REQUEST-COMMAND**
 
-### Passaggio 2: Configurazione dei filtri per schermate {#step-configuring-screens-filters}
+### Passaggio 2: Configurazione dei filtri Screens {#step-configuring-screens-filters}
 
 Per configurare i filtri Screens, aggiungi quanto segue a ***/filter***.
 
@@ -88,16 +91,16 @@ Per configurare i filtri Screens, aggiungi quanto segue a ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Passaggio 3: Disattivazione della cache del dispatcher {#step-disabling-dispatcher-cache}
+### Passaggio 3: Disabilitazione della cache del dispatcher {#step-disabling-dispatcher-cache}
 
-Disabilitare il caching del dispatcher per ***/content/screens path***.
+Disattiva la memorizzazione in cache del dispatcher per ***/content/screens path***.
 
-I lettori dello schermo utilizzano una sessione autenticata, pertanto il dispatcher non memorizza nella cache nessuna delle richieste dei lettori dello schermo per `channels/assets`.
+I lettori Screens utilizzano una sessione autenticata, pertanto il dispatcher non memorizza nella cache alcuna delle richieste dei lettori dello schermo per `channels/assets`.
 
-Per abilitare la cache per le risorse in modo che le risorse vengano servite dalla cache del dispatcher, dovete:
+Per abilitare la cache per le risorse in modo che le risorse vengano servite dalla cache del dispatcher, devi:
 
 * Aggiungi `/allowAuthorization 1` nella sezione `/cache`
-* Aggiungere le regole seguenti alla sezione `/rules` di `/cache`
+* Aggiungi le regole seguenti alla sezione `/rules` di `/cache`
 
 ```xml
 /0000
