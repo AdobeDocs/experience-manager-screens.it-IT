@@ -10,10 +10,13 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
+feature: Creazione di esperienze in Screens
+role: Amministratore, sviluppatore
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1469'
 ht-degree: 60%
 
 ---
@@ -50,11 +53,11 @@ L&#39;esempio seguente mostra l&#39;aggiunta di un componente Livefyre a un prog
 1. Seleziona il canale a cui desideri aggiungere un nuovo componente. Ad esempio,**We.Retail in Store** --> **Canali** --> **Canale inattivo**.
 
 1. Fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
-1. Selezionare la modalità **Progettazione**.
+1. Seleziona la modalità **Progettazione** .
 1. Seleziona l&#39;intero editor di progettazione a destra e fai clic sul simbolo delle impostazioni per aprire la finestra di dialogo **Progettazione ParSys**.
-1. Puoi selezionare i componenti che desideri importare nel tuo progetto AEM Screens. L&#39;esempio seguente mostra l&#39;aggiunta del componente **Livefyre** a un progetto AEM Screens .
+1. Puoi selezionare i componenti che desideri importare nel tuo progetto AEM Screens. L’esempio seguente mostra l’aggiunta del componente **Livefyre** a un progetto AEM Screens.
 
-![adding_components](assets/adding_components.gif)
+![add_components](assets/adding_components.gif)
 
 >[!NOTE]
 >
@@ -62,7 +65,7 @@ L&#39;esempio seguente mostra l&#39;aggiunta di un componente Livefyre a un prog
 
 ## Nozioni fondamentali sui componenti AEM Screens  {#understanding-aem-screen-components}
 
-Nella sezione seguente sono illustrati i componenti AEM Screens  che è possibile utilizzare nel progetto.
+La sezione seguente spiega i componenti AEM Screens che puoi utilizzare nel tuo progetto.
 
 >[!NOTE]
 >
@@ -77,11 +80,11 @@ Il componente Applicazione ha le seguenti proprietà:
 | **Proprietà** | **Descrizione** |
 |---|---|
 | ***Percorso dell&#39;applicazione*** | Seleziona il percorso assoluto in cui si trova l&#39;applicazione. |
-| ***Durata (ms)*** | Seleziona la durata dell&#39;applicazione. Per impostazione predefinita, la durata è impostata su -1, ossia l’elemento viene eseguito per sempre (applicazione a pagina singola). Con il valore durata impostato a >0, si mostra l&#39;elemento per la durata specificata e quindi si passa a quello successiva. |
+| ***Durata (ms)*** | Seleziona la durata dell&#39;applicazione. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre (ovvero, applicazione a pagina singola). Con il valore durata impostato a >0, si mostra l&#39;elemento per la durata specificata e quindi si passa a quello successiva. |
 
-L’esempio seguente mostra come incorporare un componente applicazione con l’anteprima delle relative proprietà:
+L’esempio seguente mostra come incorporare un componente applicativo insieme all’anteprima delle relative proprietà:
 
-![adding_components_application](assets/adding_componentsapplication.gif)
+![add_components_sapplication](assets/adding_componentsapplication.gif)
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ Il componente Canale ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Durata (ms)</em></strong></td>
-   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la lunghezza in un particolare canale.</td>
+   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la sua lunghezza in un particolare canale.</td>
   </tr>
  </tbody>
 </table>
@@ -128,7 +131,7 @@ La pagina incorporata ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Durata (ms)</em></strong></td>
-   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la lunghezza in un particolare canale.</td>
+   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la sua lunghezza in un particolare canale.</td>
   </tr>
  </tbody>
 </table>
@@ -137,7 +140,7 @@ La pagina incorporata ha le seguenti proprietà:
 
 >[!NOTE]
 >
->Per informazioni dettagliate sulle sequenze incorporate, consultare [Sequenze incorporate](embedded-sequences.md) nella sezione Creazione di schermate.
+>Per informazioni dettagliate sulle sequenze incorporate, consulta [Sequenze incorporate](embedded-sequences.md) nella sezione Creazione di schermi .
 
 Una sequenza incorporata consente di aggiungere un canale per sequenza incorporato all&#39;interno di un canale esistente (con altre risorse).
 
@@ -155,11 +158,11 @@ La Sequenza incorporata ha le seguenti proprietà di pagina:
   </tr>
   <tr>
    <td><strong><em>Durata (ms)</em></strong></td>
-   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la lunghezza in un particolare canale.</td>
+   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la sua lunghezza in un particolare canale.</td>
   </tr>
   <tr>
    <td><strong><em>Strategia</em></strong></td>
-   <td>Impostarla su <strong>originale</strong> o <strong>singolo</strong>. Se si imposta il valore su <strong>originale</strong>, la successiva verrà eseguita completamente su ogni ciclo della sequenza padre. L'altro valore possibile è <strong>single</strong> che mostrerebbe solo un elemento della sequenza successiva su ogni esecuzione (ad esempio, il primo elemento sul primo loop, il secondo elemento sul secondo ciclo e così via).</td>
+   <td>Impostalo su <strong>originale</strong> o <strong>singolo</strong>. Impostare il valore su <strong>originale</strong> significa che la sottosequenza verrà eseguita completamente su ogni ciclo della sequenza padre. L'altro valore possibile è <strong>singolo</strong> che mostrerebbe solo un elemento della sottosequenza su ogni esecuzione (ad esempio, il primo elemento sul primo ciclo, il secondo elemento sul secondo ciclo e così via).</td>
   </tr>
  </tbody>
 </table>
@@ -168,7 +171,7 @@ La Sequenza incorporata ha le seguenti proprietà di pagina:
 
 Una sequenza incorporata dinamica consente di aggiungere una sequenza simile a quella indicata più sopra, ad eccezione del ruolo di canale.
 
-Per informazioni dettagliate sulle sequenze incorporate, consultare [Sequenze incorporate](embedded-sequences.md) nella sezione Creazione di schermate.
+Per informazioni dettagliate sulle sequenze incorporate, consulta [Sequenze incorporate](embedded-sequences.md) nella sezione Creazione di schermi .
 
 La sequenza dinamica incorporata ha le seguenti proprietà:
 
@@ -184,35 +187,35 @@ La sequenza dinamica incorporata ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Durata (ms)</em></strong></td>
-   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la lunghezza in un particolare canale.</td>
+   <td>Seleziona l’intera durata del canale. Impostando la durata su -1, il canale incorporato viene eseguito per tutta la sua lunghezza in un particolare canale.</td>
   </tr>
   <tr>
    <td><strong><em>Strategia</em></strong></td>
-   <td>Impostarla su <strong>originale</strong> o <strong>singolo</strong>. Se si imposta il valore su <strong>originale</strong>, la successiva verrà eseguita completamente su ogni ciclo della sequenza padre. L'altro valore possibile è <strong>single</strong> che mostrerebbe solo un elemento della sequenza successiva su ogni esecuzione (ad esempio, il primo elemento sul primo loop, il secondo elemento sul secondo ciclo e così via).</td>
+   <td>Impostalo su <strong>originale</strong> o <strong>singolo</strong>. Impostare il valore su <strong>originale</strong> significa che la sottosequenza verrà eseguita completamente su ogni ciclo della sequenza padre. L'altro valore possibile è <strong>singolo</strong> che mostrerebbe solo un elemento della sottosequenza su ogni esecuzione (ad esempio, il primo elemento sul primo ciclo, il secondo elemento sul secondo ciclo e così via).</td>
   </tr>
  </tbody>
 </table>
 
 ### Frammento esperienza {#experience-fragment}
 
-Un frammento esperienza consente di aggiungere un frammento esperienza (gruppo di uno o più componenti, inclusi contenuti e layout a cui è possibile fare riferimento all&#39;interno delle pagine) al canale AEM Screens . Trascinate e rilasciate il componente per AEM editor e selezionate il frammento esperienza.
+Un frammento esperienza consente di aggiungere al canale AEM Screens un frammento di esperienza (gruppo di uno o più componenti, tra cui contenuto e layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina il componente nell’editor AEM e seleziona il frammento di esperienza.
 
-Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo in un progetto AEM Screens , consultare [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md).
+Per ulteriori informazioni su come creare un frammento esperienza e sfruttarlo in un progetto AEM Screens, consulta [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md).
 
 ![exp](assets/exp.gif)
 
 | **Proprietà** | **Descrizione** |
 |---|---|
 | **Frammento esperienza** |
-| ***Frammento esperienza*** | Selezionare il frammento esperienza. |
-| ***Durata*** | Selezionate l&#39;intera durata del frammento esperienza che viene riprodotto nel canale. |
+| ***Frammento esperienza*** | Seleziona il frammento di esperienza. |
+| ***Durata*** | Seleziona l’intera durata del frammento di esperienza che viene riprodotto nel canale. |
 | **Configurazione offline** |
 | ***Librerie lato client*** | File JavaScript e CSS. |
-| ***File statici*** | File statici che è possibile aggiungere come configurazioni offline al frammento esperienza. |
+| ***File statici*** | File statici che puoi aggiungere come configurazioni offline al frammento esperienza. |
 
 >[!NOTE]
 >
->Le **librerie lato client** e i **file statici** aggiunti da questo componente saranno in aggiunta alle **librerie lato client** già configurate e ai file statici aggiunti dal frammento esperienza **Properties**.
+>Le **Librerie lato client** e i **File statici** che aggiungi da questo componente saranno in aggiunta alle **Librerie lato client** già configurate e ai file statici aggiunti dal frammento di esperienza **Proprietà**.
 
 ### Immagine {#image}
 
@@ -231,17 +234,17 @@ La risorsa immagine ha tre schede, ovvero **Immagine**, **Accessibilità** e **S
 | **Accessibilità** |
 | ***Testo alternativo*** | Testo alternativo all&#39;immagine. |
 | **Sequenza** |
-| ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 ms*. Per modificare la durata di riproduzione dell&#39;immagine, aggiornare il campo **Durata**. |
+| ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 ms*. Per modificare la durata di riproduzione dell&#39;immagine, aggiorna il campo **Duration** . |
 
 ### Transizione {#transition}
 
 Il componente Transizione consente di aggiungere una transizione al tuo progetto Screens.
 
-L’immagine seguente mostra il componente di transizione (aggiunto mediante trascinamento) nell’editor.
+L’immagine seguente mostra il componente di transizione (aggiunto tramite trascinamento) all’editor.
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Selezionate l&#39;icona della transizione e fate clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo **Transizione**. Questa finestra di dialogo include tre schede:
+Seleziona l&#39;icona della transizione e fai clic su **Configura** (icona chiave) per aprire la finestra di dialogo **Transizione**. Questa finestra di dialogo include tre schede:
 
 * **Transizione**
 * **Sequenza**
@@ -249,7 +252,7 @@ Selezionate l&#39;icona della transizione e fate clic su **Configura** (icona ch
 
 >[!NOTE]
 >
->Per impostazione predefinita, la sequenza è impostata su 600 ms. È possibile aggiornare la sequenza di transizione ad altro valore utilizzando la scheda **Sequence**.
+>Per impostazione predefinita, la sequenza è impostata su 600 ms. È possibile aggiornare la sequenza di transizione a un altro valore utilizzando la scheda **Sequenza** .
 
 ![transizione](assets/transition.gif)
 
@@ -267,7 +270,7 @@ Il componente Transizione ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Tipo</em></strong></td>
-   <td><p>Il tipo di transizione tra l'elemento prima e dopo. La transizione <strong>Type</strong> include le seguenti opzioni:</p>
+   <td><p>Il tipo di transizione tra l'elemento prima e dopo. La transizione <strong>Tipo</strong> include le seguenti opzioni:</p>
     <ul>
      <li><strong>Normale</strong></li>
      <li><strong>Dissolvenza</strong></li>
@@ -283,7 +286,7 @@ Il componente Transizione ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Durata</em></strong></td>
-   <td>Seleziona l'intera durata della transizione. Per impostazione predefinita, è impostata su 600 ms.</td>
+   <td>Seleziona l'intera durata della transizione. Per impostazione predefinita, è impostato su 600 ms.</td>
   </tr>
   <tr>
    <td><strong>Attivazione</strong></td>
@@ -299,7 +302,7 @@ Il componente Transizione ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Pianificazione</em></strong></td>
-   <td>Aggiungere una pianificazione predefinita.</td>
+   <td>Aggiungi una pianificazione predefinita.</td>
   </tr>
  </tbody>
 </table>
@@ -322,7 +325,7 @@ Il componente Video ha le seguenti proprietà:
   </tr>
   <tr>
    <td><em><strong>Durata</strong></em></td>
-   <td>Seleziona la durata del video. Per impostazione predefinita, la durata è impostata su -1, ossia l’elemento viene eseguito per sempre. Con il valore durata impostato a &gt;0, si mostra l'elemento per la durata specificata e quindi si passa a quello successiva.<br /> </td>
+   <td>Seleziona la durata del video. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre. Con il valore durata impostato a &gt;0, si mostra l'elemento per la durata specificata e quindi si passa a quello successiva.<br /> </td>
   </tr>
   <tr>
    <td><em><strong>Rendering</strong></em></td>
