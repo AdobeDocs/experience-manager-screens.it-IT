@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer (Sviluppatore)
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: aa1338fad19893e56ead4bb466e4f32a90116b65
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 3%
@@ -41,7 +41,7 @@ La data di rilascio per AEM Screens Feature Pack 202103 è il 5 marzo 2021.
 
    Quando si distribuisce il lettore Android in serie, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
-   Per ulteriori informazioni, consulta [Provisioning in blocco di Android Player utilizzando Enterprise Mobility Management](/help/user-guide/using-emm-bulkprovision-android-player.md) .
+   Per ulteriori informazioni, consulta [Provisioning in blocco di Android Player utilizzando Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) .
 
 
 ### Correzioni di bug {#bug-fixes}
