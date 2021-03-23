@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
+feature: Creazione di esperienze in Screens
+role: Amministratore, sviluppatore
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 3d3bd3575152ce14032e00127490054d68f45655
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 38%
 
 ---
@@ -22,26 +25,26 @@ ht-degree: 38%
 
 AEM Screens è disponibile selezionando il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens.
 
-In alternativa, puoi accedere direttamente a: `http://localhost:4502/screens.html/content/screens`
+In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`
 
 
 >[!NOTE]
 >**Suggerimento di navigazione:**
->Puoi anche utilizzare i tasti cursore per navigare attraverso le diverse cartelle in AEM. Inoltre, una volta selezionata una particolare entità, toccate la barra spaziatrice per modificare o visualizzare le proprietà di tale cartella.
+>Puoi anche utilizzare i tasti cursore per navigare attraverso le diverse cartelle in AEM. Inoltre, una volta selezionata una particolare entità, premi la barra dello spazio per modificare o visualizzare le proprietà della cartella specifica.
 
 ## Creazione di un nuovo progetto Screens {#creating-a-new-screens-project}
 
 Per creare un nuovo progetto Screens, procedi come segue:
 
-1. Selezionare **Screens** dall&#39;istanza AEM.
+1. Seleziona **Screens** dalla tua istanza AEM.
 
-1. Fare clic su **Crea progetto schermi**.
+1. Fai clic su **Crea progetto Screens**.
 
-1. Immettete il titolo come **TestScreens** e fate clic su **Save**.
+1. Inserisci il titolo **TestScreens** e fai clic su **Salva**.
 
 Il progetto viene creato e vieni riportato al pannello Progetto Screens. Ora puoi selezionare il progetto.
 
-In un progetto, ci sono cinque tipi di cartelle, come mostrato nella figura seguente:
+In un progetto sono disponibili cinque tipi di cartelle, come illustrato nella figura seguente:
 
 * **Pianificazioni**
 * **Posizioni**
@@ -53,12 +56,12 @@ In un progetto, ci sono cinque tipi di cartelle, come mostrato nella figura segu
 
 >[!NOTE]
 >
->Per impostazione predefinita, la struttura iniziale conterrà le pagine master **Pianificazioni**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi**, ma se necessario può essere regolata manualmente. Puoi rimuovere le opzioni, se quelle disponibili non sono rilevanti per il progetto.
+>Per impostazione predefinita, la struttura iniziale conterrà le pagine master **Pianificazioni**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi**, ma questo può essere regolato manualmente se necessario. Puoi rimuovere le opzioni, se quelle disponibili non sono rilevanti per il progetto.
 
 
 ## Visualizzazione delle proprietà {#viewing-properties}
 
-Dopo aver creato il progetto Screens, selezionate il progetto e fate clic su **Properties** dalla barra delle azioni per modificare le proprietà del progetto.
+Dopo aver creato il progetto Screens, seleziona il progetto e fai clic su **Proprietà** nella barra delle azioni per modificare le proprietà del progetto.
 
 Le seguenti opzioni consentono di modificare/modificare le proprietà di **TestScreens**.
 
@@ -67,20 +70,20 @@ Le seguenti opzioni consentono di modificare/modificare le proprietà di **TestS
 
 ## Creazione di una cartella personalizzata {#creating-a-custom-folder}
 
-Potete anche creare una cartella personalizzata nelle pagine master **Pianificazioni**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi** disponibili nel progetto.
+Puoi anche creare una cartella personalizzata nelle pagine master **Pianificazioni**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi** disponibili nel progetto.
 
 Per creare una cartella personalizzata:
 
-1. Selezionate il progetto e fate clic sull&#39;icona **Crea** accanto all&#39;icona più nella barra delle azioni.
+1. Seleziona il progetto e fai clic su **Crea** accanto all’icona del segno più nella barra delle azioni.
 1. Si apre la procedura guidata **Crea** da cui puoi selezionare l&#39;opzione appropriata.
 1. Fai clic su **Avanti**.
 1. Immetti le proprietà e fai clic su **Crea**.
 
-I passaggi seguenti mostrano la creazione di una cartella delle applicazioni nella pagina master **Applicazioni** in **TestScreens**.
+I passaggi seguenti mostrano la creazione di una cartella applicazioni nella pagina master **Applicazioni** in **TestScreens**.
 
 ![player2-1](assets/create-project3.gif)
 
 ### Passaggi successivi {#the-next-steps}
 
-Dopo aver creato il progetto, consulta [Gestione dei canali](managing-channels.md) per creare e gestire il contenuto del canale.
+Dopo aver creato un progetto personalizzato, consulta [Gestione canali](managing-channels.md) per creare e gestire il contenuto del canale.
 
