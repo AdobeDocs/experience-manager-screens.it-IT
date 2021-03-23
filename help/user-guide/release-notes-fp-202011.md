@@ -1,55 +1,58 @@
 ---
-title: Note sulla versione per Feature Pack 2011
-description: La pagina descrive le Note sulla versione per Feature Pack 2011.
+title: Note sulla versione per Feature Pack 202011
+description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2011 rilasciato il 30 novembre 2020."'
+feature: Feature Pack
+role: Developer (Sviluppatore)
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 7380862d0d5d77a155f9c135028c7548127a645a
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 4%
 
 ---
 
 
-# Note sulla versione per Feature Pack 2011 {#release-notes-for-feature-pack}
+# Note sulla versione per Feature Pack 202011 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->È consigliabile effettuare l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
- AEM Screens ha rilasciato AEM 6.5 Feature Pack 6.
+AEM Screens ha rilasciato AEM 6.5 Feature Pack 6.
 
-È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando l&#39;Adobe ID . Andate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere l&#39;ultimo pacchetto di funzioni intitolato **AEM 6.5 Screens FP6**.
+Scarica l&#39;ultimo pacchetto di funzioni per AEM Screens 6.5.6 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere l&#39;ultimo pacchetto di funzioni intitolato **AEM 6.5 Screens FP6**.
 
 ## Data di rilascio {#release-date}
 
-La data di rilascio per  AEM Screens Feature Pack 2011 è il 30 novembre 2020.
+La data di rilascio per AEM Screens Feature Pack 2011 è il 30 novembre 2020.
 
 ### Novità {#what-is-new}
 
 * **Rapporto assegnazione contenuti**
 
-   La funzione Rapporto assegnazione contenuto consente a un amministratore  AEM Screens o a un autore di esportare un report *Assegnazione contenuto* in un formato foglio di calcolo.
-Per ulteriori informazioni, fare riferimento a [Rapporto sull&#39;assegnazione dei contenuti](/help/user-guide/content-assignment-report.md).
+   La funzione Rapporto assegnazione contenuto consente a un amministratore AEM Screens o a un autore di esportare un *Rapporto assegnazione contenuto* in un formato foglio di calcolo.
+Per ulteriori informazioni, consulta [Rapporto sull’assegnazione dei contenuti](/help/user-guide/content-assignment-report.md) .
 
 
-* **Tizen Player**
+* **Giocatore Tizen**
 
-   È stato introdotto un nuovo lettore denominato Tizen player con l&#39;ultimo pacchetto di funzioni per  versione AEM Screens 6.5.6.
-Per ulteriori informazioni, fare riferimento a [Implementazione di Tizen Player](/help/user-guide/tizen-player.md).
+   È stato introdotto un nuovo lettore denominato Tizen player con l’ultimo pacchetto di funzioni per la versione 6.5.6 di AEM Screens.
+Per ulteriori informazioni, consulta [Implementazione di Tizen Player](/help/user-guide/tizen-player.md) .
 
 * **Funzionalità di ricerca da Device Manager**
 
-   È ora disponibile una nuova funzionalità di ricerca dall&#39;interfaccia utente di Device Manager con l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.6.
-Per ulteriori informazioni, fare riferimento alla sezione [Ricerca di un dispositivo da Device Manager](/help/user-guide/device-registration.md#search-device).
+   È ora disponibile una nuova funzionalità di ricerca dall’interfaccia utente di Gestione dispositivi con l’ultimo pacchetto di funzioni per la versione 6.5.6 di AEM Screens.
+Per ulteriori informazioni, consulta [Ricerca di un dispositivo da Gestione dispositivi](/help/user-guide/device-registration.md#search-device) .
 
 * **Intervallo di ping predefinito**
 
-   L&#39;intervallo di ping predefinito è ora impostato su 30 secondi in questa versione.
+   L’intervallo di ping predefinito è ora impostato su 30 secondi in questa versione.
 
-### Rilasciati  lettori AEM Screens {#released-aem-screens-players}
+### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti  AEM Screens Players sono rilasciati per AEM 6.5 Feature Pack 6:
+I seguenti lettori AEM Screens vengono rilasciati per AEM 6.5 Feature Pack 6:
 
 * Sistema operativo Chrome
 * Windows
@@ -57,6 +60,6 @@ I seguenti  AEM Screens Players sono rilasciati per AEM 6.5 Feature Pack 6:
 * Tizen
 * Linux
 
-#### Download di  AEM Screens Player {#aem-screens-player-downloads}
+#### Download di AEM Screens Player {#aem-screens-player-downloads}
 
-Per scaricare la versione più recente  lettore AEM Screens e ulteriori informazioni sulle correzioni dei bug, fare riferimento a **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
