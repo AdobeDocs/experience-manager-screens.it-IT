@@ -1,11 +1,14 @@
 ---
 title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
-description: Segui questa pagina per saperne di più sull’assegnazione del canale e la suddivisione del giorno.
+description: Segui questa pagina per informazioni sull'assegnazione dei canali e la suddivisione dei giorni.
+feature: Screens di authoring, Assegnazione canale
+role: Amministratore, sviluppatore
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1222'
 ht-degree: 41%
 
 ---
@@ -14,32 +17,32 @@ ht-degree: 41%
 # Assegnazione dei canali {#channel-assignment}
 
 >[!IMPORTANT]
->In questa sezione vengono evidenziati l&#39;assegnazione del canale e la programmazione dei canali per i Feature Pack precedenti alla versione AEM 6.5.5 Screens.
+>Questa sezione evidenzia l’assegnazione e la pianificazione dei canali per i Feature Pack precedenti alla versione 6.5.5 Screens AEM.
 
-Una volta configurato uno schermo, è necessario assegnare un canale a uno schermo per visualizzare il contenuto.
+Una volta impostata una visualizzazione, è necessario assegnare un canale a una visualizzazione per visualizzare il contenuto.
 
-Questa pagina mostra l’assegnazione di un canale al display.
+Questa pagina mostra l’assegnazione di un canale alla visualizzazione.
 
 >[!NOTE]
->Potete assegnare più canali a uno schermo.
+>È possibile assegnare più canali a una visualizzazione.
 
 ## Assegnazione di un canale {#assign-a-channel}
 
 Segui la procedura seguente per assegnare un canale a una visualizzazione:
 
-1. Passare alla visualizzazione desiderata, ad esempio **DemoProject** —> **Locations** —> **SanJose** —> **StoreDisplay**.
+1. Passa alla visualizzazione richiesta, ad esempio **DemoProject** —> **Posizioni** —> **SanJose** —> **StoreDisplay**.
 
    ![immagine](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Toccate/fate clic su **Assegna canale** nella barra delle azioni
+1. Tocca o fai clic su **Assegna canale** nella barra delle azioni
 
    Oppure,
 
-   Toccate/fate clic su **Dashboard** e fate clic su **+Assegna canale** dal pannello **CANALI ASSIGNED** per aprire la finestra di dialogo **Assegnazione canale**.
+   Tocca/fai clic su **Dashboard** e fai clic su **+Assegna canale** dal pannello **CANALI ASSEGNATI** per aprire la finestra di dialogo **Assegnazione canale** .
 
    ![immagine](/help/user-guide/assets/channel-assign1.png)
 
-   È possibile configurare le proprietà dalla finestra di dialogo **Assegnazione canale** nella sezione seguente. Fare riferimento alla sezione [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà del canale.
+   Puoi configurare le proprietà dalla finestra di dialogo **Assegnazione canale** nella sezione seguente. Per ulteriori informazioni sulle proprietà del canale, consulta la sezione [Proprietà canale](#channel-properties) .
 
 
 ## Informazioni sulle proprietà del canale dall&#39;assegnazione del canale {#channel-properties}
@@ -50,11 +53,11 @@ il riferimento a canale consente di fornire un riferimento al canale desiderato,
 
 * **In base al percorso**: fornisci un riferimento esplicito usando il percorso assoluto del canale.
 
-* **per nome**: Immettere il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. Ad esempio, un canale con il nome *offre tutte le offerte del giorno*, dove il contenuto effettivo sarebbe diverso in due città, ma l&#39;utente ha comunque lo stesso ruolo di canale su tutti i display.
+* **per nome**: Immetti il nome del canale che verrà risolto in un canale effettivo per contesto. Questa funzione consente di creare la versione locale di un canale, per determinare dinamicamente i contenuti in base alla posizione. Ad esempio, un canale con nome *offerte del giorno*, in cui il contenuto effettivo sarebbe diverso in due città, ma si dispone comunque dello stesso ruolo di canale su tutte le visualizzazioni.
 
 ### Ruolo canale {#role-channel}
 
-Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da diverse azioni ed è indipendente dal canale effettivo che svolge il ruolo.
+Il ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da varie azioni ed è indipendente dal canale effettivo che svolge il ruolo.
 
 ### Priorità {#priority-channel}
 
@@ -74,20 +77,20 @@ La priorità viene usata per ordinare le assegnazioni nel caso in cui più utent
 
 >[!IMPORTANT]
 >
-> Questa opzione è disponibile solo con il Feature Pack 8 AEM 6.4 o con il Feature Pack 4 AEM 6.5.
+> Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
-In qualità di autore dei contenuti, dovreste essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa dei contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
+In qualità di autore dei contenuti, è necessario essere in grado di specificare quando un canale viene interrotto in modo da poter scegliere di interrompere i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa di contenuti importanti prima di interrompere la riproduzione a causa della programmazione.
 
 Selezionare una delle seguenti opzioni disponibili per impostare il metodo di interruzione dalla finestra di dialogo **Assegnazione canale**:
 
-* **Immediatamente**: ogni volta che la pianificazione viene attivata o viene ricevuto un aggiornamento, potete interrompere la riproduzione e aggiornare o riprodurre immediatamente il nuovo contenuto
-* **Alla fine della voce** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
+* **Immediatamente**: ogni volta che la pianificazione si attiva o viene ricevuto un aggiornamento, è possibile interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto
+* **Alla fine dell&#39;elemento** corrente: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l&#39;elemento corrente nella sequenza finisca la riproduzione e solo dopo aver aggiornato o riprodotto il nuovo contenuto
    >[!NOTE]
    >Per impostazione predefinita, questa opzione è selezionata.
-* **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, potete aspettare che l&#39;intera sequenza raggiunga la fine, e subito prima della sequenza desiderata, tornate al primo elemento, aggiornate o riproducete il nuovo contenuto
+* **Alla fine della sequenza**: quando viene attivata una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l&#39;intera sequenza raggiunga la fine e, poco prima della sequenza desiderata, tornare al primo elemento, aggiornare o riprodurre il nuovo contenuto
 
    >[!NOTE]
-   >Utilizzando la seconda o la terza opzione è possibile che i tempi di programmazione definiti per l&#39;assegnazione vengano leggermente posticipati, in quanto il lettore aspetterà la fine dell&#39;elemento o della sequenza (dopo il tempo specificato) prima di effettuare l&#39;aggiornamento. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
+   >L&#39;utilizzo della seconda o della terza opzione può comportare un lieve differimento dei tempi di programmazione definiti sull&#39;assegnazione, in quanto il lettore attenderà la fine dell&#39;elemento o della sequenza (dopo il tempo specificato) prima dell&#39;aggiornamento. Il ritardo dipende dalla durata di riproduzione dell’elemento.
 
 ### Pianificazione {#schedule-channel}
 
@@ -99,15 +102,15 @@ Mostra descrizione luogo di interesse definisce se la descrizione del luogo di i
 
 ### DayParting {#dayparting}
 
-Pianifica se combinato con **DayParting**, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare la configurazione per tutti i display contemporaneamente.
+Le pianificazioni, se combinate con **DayParting**, consentono di impostare una pianificazione globale con più canali in esecuzione in momenti specifici della giornata e di riutilizzare tale impostazione per tutti i display contemporaneamente.
 
-DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata.  AEM Screens consente di pianificare i canali in termini di suddivisione del giorno entro un giorno, una settimana o un mese, in base alle esigenze.
+DayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specificazione del contenuto riprodotto all&#39;ora desiderata. AEM Screens ti consente di pianificare i canali in termini di ripartizione giornaliera entro un giorno, una settimana o un mese, in base alle esigenze.
 
-Gli esempi seguenti spiegano la suddivisione giornaliera nei canali in tre scenari diversi:
+Gli esempi seguenti spiegano la suddivisione giornaliera dei canali in tre scenari diversi:
 
 #### Riproduzione di contenuto su un singolo giorno suddiviso in più fasce orarie {#playing-content-on-a-single-day-divided-into-multiple-time-slots}
 
-Questo esempio mostra come un Ristorante utilizza la sfilatura giornaliera per mostrare la sua colazione, pranzo e cena menu.
+Questo esempio mostra come un Ristorante utilizza la ripartizione giornaliera per mostrare il suo menu di colazione, pranzo e cena.
 
 Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenuto del canale venga riprodotto secondo l&#39;ora specificata del giorno:
 
@@ -119,7 +122,7 @@ Qui, divideremo ogni giorno in tre fasce orarie diverse, in modo che il contenut
 
 #### Riproduzione di contenuto in un particolare giorno della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il giornoParting raggiunto in un casinò in cui l&#39;evento live si verifica ogni weekend dalle 8:00 pm alle 10:00 pm e i piatti speciali sono disponibili per il menu di cena dopo le 10:00 pm fino alle 1:00 am.
+Questo esempio mostra il dayParting realizzato in un casinò dove l&#39;evento live si verifica ogni fine settimana dalle 8:00 alle 10:00 pm e le specialità sono disponibili per il menu di cena dopo le 10:00 pm fino all&#39;1:00.
 
 <table>
  <tbody>
@@ -133,26 +136,26 @@ Questo esempio mostra il giornoParting raggiunto in un casinò in cui l&#39;even
    <td>LiveConcert</td>
    <td>Fine settimana</td>
    <td> </td>
-   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 20:00 prima delle 22:00</td>
+   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 20.00 prima delle 22.00</td>
   </tr>
   <tr>
-   <td>SpecialsDinner</td>
+   <td>CenaSpecials</td>
    <td>Fine settimana</td>
    <td> </td>
-   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 22:00 prima delle 1:00</td>
+   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 22.00 prima delle 1.00</td>
   </tr>
  </tbody>
 </table>
 
 #### Riproduzione di contenuto per un mese/mesi particolare/i {#playing-content-for-a-particular-month-months}
 
-Questo esempio mostra DayParting per uno store che visualizza la raccolta estiva dai mesi di giugno ad agosto e la raccolta autunnale da settembre fino alla fine di ottobre.
+Questo esempio mostra DayParting per un negozio che visualizza la raccolta estiva dai mesi di giugno ad agosto e la raccolta autunnale da settembre a fine ottobre.
 
-Qui si crea la suddivisione del giorno in base ai mesi, in modo che il contenuto del canale venga riprodotto in base ai mesi specificati dell&#39;anno.
+In questo caso, creerai la suddivisione del giorno in base ai mesi, in modo che il contenuto del canale venga riprodotto in base ai mesi specificati dell’anno.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
-| SummerCollection | Estate |  | 01 giugno 2017 - 31 agosto 2017 |
+| RaccoltaEstiva | Estate |  | 01 giugno 2017 - 31 agosto 2017 |
 | FallCollection | Autunno |  | 01 settembre 2017 - 30 ottobre 2017 |
 
 >[!NOTE]
@@ -161,7 +164,7 @@ Qui si crea la suddivisione del giorno in base ai mesi, in modo che il contenuto
 
 #### Riproduzione di contenuto per i canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
 
-In questo esempio viene illustrato DayParting per uno store che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
+In questo esempio viene illustrato DayParting per un negozio che visualizza la propria collezione invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana il canale B riproduce il suo contenuto piuttosto che il canale A.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
@@ -171,7 +174,7 @@ In questo esempio viene illustrato DayParting per uno store che visualizza la ra
 
 >[!NOTE]
 >
-> Per ulteriori informazioni su DayParting, fare riferimento alle sezioni seguenti:
+> Per ulteriori informazioni su DayParting, consulta le sezioni seguenti:
 >
 >* [Gestione della ricorrenza nelle risorse](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestione della ricorrenza per le risorse in un canale](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
