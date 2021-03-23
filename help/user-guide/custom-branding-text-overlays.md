@@ -1,44 +1,47 @@
 ---
-title: Applicazione del marchio personalizzato e dello stile per le sovrapposizioni di testo
-seo-title: Applicazione del marchio personalizzato e dello stile per le sovrapposizioni di testo
-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
-seo-description: Seguite questa pagina per apprendere come applicare il marchio e lo stile personalizzati per le sovrapposizioni di testo.
+title: Applicazione di branding e stile personalizzati per le sovrapposizioni di testo
+seo-title: Applicazione di branding e stile personalizzati per le sovrapposizioni di testo
+description: Segui questa pagina per scoprire come applicare branding e stile personalizzati per le sovrapposizioni di testo.
+seo-description: Segui questa pagina per scoprire come applicare branding e stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
+feature: Sviluppo di schermi
+role: Developer (Sviluppatore)
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 099000dea848810c7ab12a32f0235ca478c0d5dd
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
 
-# Personalizzazione e stile per le sovrapposizioni di testo {#creating-custom-branding-styling}
+# Branding personalizzato e stile per sovrapposizioni testo {#creating-custom-branding-styling}
 
-Seguite questa pagina per apprendere come applicare un marchio e uno stile personalizzati per le sovrapposizioni di testo applicate alle risorse in un canale AEM Screens .
+Segui questa pagina per scoprire come applicare branding e stile personalizzati per le sovrapposizioni di testo applicate alle risorse in un canale AEM Screens.
 
-## Creazione di un marchio personalizzato e stile per le sovrapposizioni di testo {#steps-custom-branding}
+## Creazione di branding e stili personalizzati per le sovrapposizioni di testo {#steps-custom-branding}
 
-Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo, effettuate le seguenti operazioni:
+Segui i passaggi riportati di seguito per creare branding e stile personalizzati per le sovrapposizioni di testo:
 
-1. Creare un progetto AEM Screens . Questo esempio mostra la funzionalità creando un progetto denominato **customstyle** e un canale denominato **DemoBrand**, come illustrato nella figura riportata di seguito.
+1. Crea un progetto AEM Screens. Questo esempio illustra la funzionalità creando un progetto denominato **customstyle** e un canale denominato **DemoBrand** , come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. Dall’editor trascinate un’immagine e aggiungete una sovrapposizione di testo alla risorsa.
+1. Dall’editor trascina e rilascia un’immagine e aggiungi sovrapposizione testo alla risorsa.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
    >[!NOTE]
-   >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor canale, consultate [Text Overlay](/help/user-guide/text-overlay.md).
+   >Per scoprire come aggiungere una sovrapposizione di testo alla risorsa in un editor di canali, consulta [Sovrapposizione di testo](/help/user-guide/text-overlay.md).
 
-1. Andate al CRXDE Lite dall&#39;istanza AEM —> strumenti —> **CRXDE Lite**.
+1. Passa a CRXDE Lite dalla tua istanza AEM —> strumenti —> **CRXDE Lite**.
 
-1. È necessario creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`, ad esempio in questo caso andate a `/apps/settings/wcm/designs/customstyle/`
+1. È necessario creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`, ad esempio, in questo caso, accedi a `/apps/settings/wcm/designs/customstyle/`
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Create il file *static.css* e impostate le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
+1. Crea il file *static.css* e imposta le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
 
    ```shell
     //global styles
@@ -65,66 +68,66 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand4.png)
 
-1. Copiate il percorso del progetto, in questo caso il percorso sarà `/apps/settings/wcm/designs/customstyle`.
+1. Copia il percorso del progetto. In questo caso, il percorso sarà `/apps/settings/wcm/designs/customstyle`.
 
-1. Andate al canale denominato **DemoBrand** (creato al punto 1)) e fate clic su **Properties** dalla barra delle azioni dopo aver selezionato il canale.
+1. Passa al canale denominato **DemoBrand** (creato nel passaggio(1))) e fai clic su **Proprietà** nella barra delle azioni dopo aver selezionato il canale.
 
-1. Passare alla scheda **Avanzate** e controllare il campo **Progettazione**.
+1. Passa alla scheda **Avanzate** e controlla il campo **Progettazione** .
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand5.png)
 
    >[!NOTE]
-   >Per impostazione predefinita, il campo **Design** mostra il percorso che punta alle strutture nella cartella libs.
+   >Per impostazione predefinita, il campo **Progettazione** mostra il percorso che punta alle progettazioni nella cartella libs.
 
-1. Aggiornate il campo **Design** con il percorso della cartella del progetto. In questo caso, sarà `/apps/settings/wcm/designs/customstyle`.
+1. Aggiorna il campo **Progettazione** con il percorso della cartella del progetto. In questo caso, sarà, `/apps/settings/wcm/designs/customstyle`.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Fare clic su **Salva e chiudi** per aggiornare il percorso di progettazione.
+1. Fai clic su **Salva e chiudi** per aggiornare il percorso di progettazione.
 
    >[!IMPORTANT]
-   >È possibile sovrapporre i modelli esistenti di Screens per inserire i propri design per impostazione predefinita o creare un modello personalizzato. Per ulteriori informazioni, fare riferimento ai passaggi descritti di seguito.
+   >Puoi sovrapporre i modelli Screens esistenti per inserire i tuoi progetti per impostazione predefinita o creare un modello tutto tuo. Per ulteriori informazioni, fai riferimento ai passaggi seguenti.
 
-1. Per sovrapporre i modelli Screens esistenti per inserire i propri design per impostazione predefinita:
+1. Per sovrapporre i modelli Screens esistenti per inserire le proprie progettazioni per impostazione predefinita:
 
-   1. Sovrapposizione `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
-   1. Modificate la proprietà *cq:designPath* in `/apps/screens/core/templates/sequencechannel/jcr:content` per puntare alla nuova progettazione.
+   1. Sovrapponi `/libs/screens/core/templates/sequencechannel` in `/apps/screens/core/templates/sequencechannel`.
+   1. Modifica la proprietà *cq:designPath* in `/apps/screens/core/templates/sequencechannel/jcr:content` per puntare alla nuova progettazione.
 
 1. Per creare un modello personalizzato:
-   1. Copiare `/libs/screens/core/templates/sequencechannel` in `/apps/customstyle/templates/styled-sequencechannel`.
-   1. Modificate la proprietà *cq:designPath* in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` per puntare alla nuova progettazione.
+   1. Copia `/libs/screens/core/templates/sequencechannel` in `/apps/customstyle/templates/styled-sequencechannel`.
+   1. Modifica la proprietà *cq:designPath* in `/apps/customstyle/templates/styled-sequencechannel/jcr:content` per puntare alla nuova progettazione.
 
 
-### Aggiornamento di ACL {#updating-acls}
+### Aggiornamento delle ACL {#updating-acls}
 
-È necessario aggiornare gli ACL per queste progettazioni in modo che possano essere scaricati dal lettore.
+Devi aggiornare le ACL per queste progettazioni in modo che possano essere scaricate dal lettore.
 
-1. Passate all&#39;amministratore utente e scegliete `screens-<project>-devices group` e assegnategli l&#39;autorizzazione di lettura per il percorso di progettazione personalizzato.
+1. Passa all&#39;amministratore utente e scegli il `screens-<project>-devices group` e concedi ad esso l&#39;autorizzazione di lettura per il percorso di progettazione personalizzato.
 
-1. Specifica le autorizzazioni di lettura e modifica del gruppo `screens-<project>-administrators` per questo percorso.
+1. Fornisci al gruppo `screens-<project>-administrators` le autorizzazioni di lettura e modifica per questo percorso.
 
 ## Visualizzazione del risultato {#viewing-the-result}
 
-Una volta completati i passaggi precedenti, potete aggiornare il file *statis.css* da **CRXDE Lite** e visualizzare di conseguenza l&#39;aggiornamento alla sovrapposizione di testo già aggiunta alla risorsa.
+Una volta completati i passaggi precedenti, puoi aggiornare il file *statis.css* da **CRXDE Lite** e quindi visualizzare l’aggiornamento della sovrapposizione di testo già aggiunta alla risorsa.
 
-Per visualizzare la struttura aggiornata alla sovrapposizione di testo, effettuate le seguenti operazioni:
+Segui i passaggi riportati di seguito per visualizzare la progettazione aggiornata alla sovrapposizione del testo:
 
-1. Andate al progetto AEM Screens  denominato **customstyle** —> **Channels** —> **DemoBrand**. Selezionate il canale e fate clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
+1. Passa al progetto AEM Screens denominato **customstyle** —> **Canali** —> **DemoBrand**. Seleziona il canale e fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
 
-1. Poiché la progettazione è stata aggiunta al campo **Progettazione**, come indicato sopra, fare clic su **Anteprima** per visualizzare lo stile corrente sull&#39;immagine con sovrapposizione testo.
+1. Poiché hai aggiunto la progettazione al campo **Progettazioni**, come indicato in precedenza, fai clic su **Anteprima** per visualizzare lo stile corrente sull&#39;immagine con sovrapposizione testo.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Individuate il file *static.css* nel CRXDE Lite e aggiungete il font `font-family: "Lucida Console", Courier, monospace;` al file, come illustrato di seguito.
+1. Passa al file *static.css* in CRXDE Lite e aggiungi il font `font-family: "Lucida Console", Courier, monospace;` a questo file, come illustrato di seguito.
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
-1. Dopo aver salvato le modifiche e ricaricato l&#39;anteprima, viene visualizzato un aggiornamento al font della sovrapposizione di testo, come illustrato nella figura riportata di seguito.
+1. Una volta salvate le modifiche e ricaricate l&#39;anteprima, verrà visualizzato un aggiornamento del font sovrapposto testo, come mostrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Inoltre, potete rimuovere gli ultimi due blocchi di codice dal file *static.css* per rimuovere lo stile &quot;boxed&quot; intorno alla sovrapposizione di testo.
+1. Inoltre, è possibile rimuovere gli ultimi due blocchi di codice dal file *static.css* per rimuovere lo stile in box intorno alla sovrapposizione di testo.
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand10.png)
 
-1. Nell’anteprima verrà visualizzata la modifica aggiornata in cui la sovrapposizione di testo viene aggiunta all’immagine.
+1. Nella tua anteprima verrà visualizzata la modifica aggiornata in cui la sovrapposizione testo viene aggiunta all&#39;immagine.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand11.png)
 
