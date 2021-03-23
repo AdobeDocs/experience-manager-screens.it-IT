@@ -9,10 +9,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
+feature: Creazione di esperienze in Screens
+role: Amministratore, sviluppatore
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 72%
 
 ---
@@ -38,19 +41,19 @@ Segui i passaggi descritti di seguito per assegnare un dispositivo a una visuali
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Seleziona la cartella **Devices** e tocca o fai clic su **Device Manager** nella barra delle azioni. Vengono mostrati i dispositivi assegnati e non assegnati.
+1. Seleziona la cartella **Dispositivi** e tocca o fai clic su **Gestione dispositivi** nella barra delle azioni. Vengono mostrati i dispositivi assegnati e non assegnati.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Selezionate un dispositivo non assegnato dall&#39;elenco, quindi toccate o fate clic su **Assegna dispositivo** nella barra delle azioni.
+1. Seleziona un dispositivo non assegnato dall’elenco e tocca o fai clic su **Assegna dispositivo** nella barra delle azioni.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Selezionare dall&#39;elenco la visualizzazione a cui si desidera assegnare il dispositivo, quindi toccare o fare clic su **Assign**.
+1. Seleziona la visualizzazione a cui assegnare il dispositivo dall’elenco e tocca o fai clic su **Assegna**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Toccare/fare clic su **Fine** per completare il processo di assegnazione.
+1. Tocca o fai clic su **Fine** per completare il processo di assegnazione.
 
 
    Il dashboard di visualizzazione mostra il dispositivo assegnato nel pannello **DISPOSITIVI**.
