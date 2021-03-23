@@ -1,8 +1,8 @@
 ---
 title: Implementazione di Windows 10 Player
 seo-title: Implementazione di Windows 10 Player
-description: Segui questa pagina per scoprire come configurare AEM Screens Windows 10 Player.
-seo-description: Segui questa pagina per scoprire come configurare AEM Screens Windows 10 Player.
+description: Segui questa pagina per informazioni sulla configurazione di AEM Screens Windows 10 Player.
+seo-description: Segui questa pagina per informazioni sulla configurazione di AEM Screens Windows 10 Player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,10 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
+feature: Amministrazione di schermi, Windows Player
+role: Administrator
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab67806751e8c57249c9ad656e931ca1339ab6d4
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 1%
 
 ---
@@ -25,9 +28,9 @@ Questa sezione descrive la configurazione di AEM Screens Windows 10 Player. Forn
 
 ## Installazione di Windows Player {#installing-windows-player}
 
-Per implementare Windows Player per AEM Screens, installa Windows Player per AEM Screens.
+Per implementare Windows Player per AEM Screens, installare Windows Player per AEM Screens.
 
-Visita la pagina [**Download di AEM 6.5 Player**](https://download.macromedia.com/screens/).
+Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >Non è disponibile una modalità finestra in Windows Player. È sempre in modalità a schermo intero.
@@ -35,17 +38,17 @@ Visita la pagina [**Download di AEM 6.5 Player**](https://download.macromedia.co
 ### Configurazione dell&#39;ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Windows Player.
+>Se si utilizza AEM Screens 6.5.5 Service Pack, è necessario configurare un ambiente per Windows Player.
 
-Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **console Web di Adobe Experience Manager
-Configurazione** su tutte le istanze di authoring e pubblicazione di AEM.
+Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web Adobe Experience Manager
+Configurazione** su tutte le istanze di authoring e pubblicazione AEM.
 
 Effettua le seguenti operazioni:
 
 1. Passa a **Console web Adobe Experience Manager
 Configurazione** utilizzando `http://localhost:4502/system/console/configMgr`.
 
-1. Cerca *Adobe Granite Token Authentication Handler*.
+1. Cerca *Adobe gestore autenticazione token di Granite*.
 
 1. Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None**.
    ![immagine](/help/user-guide/assets/granite-updates.png)
@@ -54,7 +57,7 @@ Configurazione** utilizzando `http://localhost:4502/system/console/configMgr`.
 
 ### Metodo ad hoc {#ad-hoc-method}
 
-Il metodo Ad-Hoc consente di installare l&#39;ultimo Windows Player (*.exe*). Visita la pagina [**Download di AEM 6.5 Player**](https://download.macromedia.com/screens/).
+Il metodo Ad-Hoc consente di installare l&#39;ultimo Windows Player (*.exe*). Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
 Una volta scaricata l&#39;applicazione, segui i passaggi sul lettore per completare l&#39;installazione ad-hoc:
 
