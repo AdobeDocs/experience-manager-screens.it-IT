@@ -1,30 +1,33 @@
 ---
 title: Rapporto assegnazione contenuti
-description: Questa pagina descrive il download e l'utilizzo del rapporto Assegnazione contenuto.
+description: Questa pagina descrive il download e l’utilizzo del rapporto sull’assegnazione dei contenuti.
+feature: Creazione di esperienze in Screens
+role: Developer (Sviluppatore)
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 6d6ab276f5b4c0cb34a18fe3cb848ae226a97e1c
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 6%
+source-wordcount: '336'
+ht-degree: 7%
 
 ---
 
 
 # Rapporto assegnazione contenuti {#content-assignment-report}
 
-La funzione Rapporto assegnazione contenuto consente a un amministratore  AEM Screens o a un autore di esportare un report *Assegnazione contenuto* in un formato foglio di calcolo.
+La funzione Rapporto assegnazione contenuto consente a un amministratore AEM Screens o a un autore di esportare un *Rapporto assegnazione contenuto* in un formato foglio di calcolo.
 
-## Utilizzo del report Assegnazione contenuto {#using-content-assignment-report}
+## Utilizzo del rapporto Assegnazione contenuto {#using-content-assignment-report}
 
-Il rapporto Assegnazione contenuto consente a un autore  AEM Screens o a un amministratore di scaricare il rapporto che contiene tutte le risorse come immagini e video in tutti i canali creati in un progetto  AEM Screens. Include inoltre le informazioni degli interi canali assegnati a tutti i display designati e, di conseguenza, a tutti i dispositivi assegnati ai rispettivi display designati.
+Il rapporto Assegnazione contenuto consente all’autore o all’amministratore di AEM Screens di scaricare il rapporto contenente tutte le risorse, ad esempio immagini e video, in tutti i canali creati in un progetto AEM Screens. Inoltre, include le informazioni dell&#39;intero canale assegnato a tutti i display designati e quindi a tutti i dispositivi assegnati ai relativi display designati.
 
-Il rapporto Assegnazione contenuto non solo consente di visualizzare un&#39;anteprima di tutti i canali, le risorse, i display e i dispositivi nel progetto AEM Screens  selezionato, ma fornisce anche una struttura di alto livello del progetto.
+Il rapporto Assegnazione contenuto non solo consente di visualizzare un’anteprima di tutti i canali, le risorse, i display e i dispositivi nel progetto AEM Screens selezionato, ma fornisce anche una struttura di alto livello del progetto.
 
 
 ### Prerequisiti {#pre-reqs}
 
-Prima di scaricare il rapporto Assegnazione contenuto, accertatevi di aver impostato un progetto AEM Screens  con canali, posizioni e dispositivi.
-Per ulteriori informazioni, consulta le risorse seguenti:
+Prima di scaricare il Rapporto sull’assegnazione del contenuto, accertati di aver impostato un progetto AEM Screens con canali, posizioni e dispositivi.
+Per ulteriori informazioni, consulta le seguenti risorse:
 
 1. [Creazione e gestione di progetti](/help/user-guide/creating-a-screens-project.md)
 1. [Creazione e gestione dei canali](/help/user-guide/managing-channels.md)
@@ -34,25 +37,25 @@ Per ulteriori informazioni, consulta le risorse seguenti:
 1. [Assegnazione dei canali](/help/user-guide/channel-assignment-latest-fp.md) 
 
 
-## Download del report Assegnazione contenuto {#downloading-content-assignment-report-fp}
+## Download del rapporto sull’assegnazione dei contenuti {#downloading-content-assignment-report-fp}
 
-Una volta configurato il progetto AEM Screens  e assegnato gli schermi a ciascuna delle posizioni come mostrato nei passaggi precedenti, potete scaricare il rapporto Assegnazione contenuto.
+Dopo aver configurato il progetto AEM Screens e aver assegnato le visualizzazioni a ciascuna delle posizioni come mostrato nei passaggi precedenti, puoi scaricare il rapporto Assegnazione contenuto .
 
 >[!NOTE]
->La funzione Rapporto assegnazione contenuto è accessibile solo a livello di progetto.
+>È possibile accedere alla funzione Rapporto assegnazione contenuto solo a livello di progetto.
 
-Seguite le istruzioni riportate di seguito per scaricare il rapporto Assegnazione contenuto:
+Segui le istruzioni riportate di seguito per scaricare il rapporto sull’assegnazione del contenuto:
 
-1. Andate al progetto AEM Screens  e selezionate il progetto **DemoScreens**.
+1. Passa al progetto AEM Screens e seleziona il progetto **DemoScreens**.
 
-1. Fare clic su **Rapporto assegnazione contenuto** dalla barra delle azioni.
+1. Fai clic su **Rapporto assegnazione contenuto** nella barra delle azioni.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 
    >[!NOTE]
-   >Il foglio di calcolo scaricato è costituito da quattro colonne, ad esempio **Canali**, **Risorse**, **Display** e **Dispositivi**, che possono essere utilizzate per approfondire l&#39;analisi di queste quattro entità relative al progetto AEM Screens .
+   >Il foglio di calcolo scaricato è costituito da quattro colonne quali **Canali**, **Risorse**, **Visualizzazioni** e **Dispositivi** che possono essere utilizzate per approfondire l&#39;analisi di queste quattro entità relative al progetto AEM Screens.
 
-1. Nel computer locale viene scaricato un foglio in excel con il nome del progetto AEM Screens  con lo stesso prefisso. Ad esempio, se il nome del progetto è **DemoScreens**, il nome file scaricato sarà **demoscreens-content-Assignment-report.xlxs**.
+1. Nel computer locale viene scaricato un foglio in excel con il nome identico prefisso del nome del progetto AEM Screens. Ad esempio, se il nome del progetto è **DemoScreens**, il nome file scaricato sarà **demoscreens-content-Assignment-report.xlxs**.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/car-download1.png)
 
