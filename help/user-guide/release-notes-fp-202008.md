@@ -1,72 +1,75 @@
 ---
 title: Note sulla versione per Feature Pack 2008
-description: La pagina descrive le Note sulla versione per Feature Pack 2008.
+description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 2008 rilasciato il 3 settembre 2020."'
+feature: Feature Pack
+role: Developer (Sviluppatore)
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: f13adf375631e3b7d7d03324458d91d9d55b0f80
+source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 2%
+source-wordcount: '343'
+ht-degree: 3%
 
 ---
 
 
-# Note sulla versione per Feature Pack 2008 {#release-notes-for-feature-pack}
+# Note sulla versione per Feature Pack 20208 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->È consigliabile effettuare l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
- AEM Screens ha rilasciato AEM 6.5 Feature Pack 5.
+AEM Screens ha rilasciato AEM 6.5 Feature Pack 5.
 
-È possibile scaricare l&#39;ultimo pacchetto di funzioni per  versione di AEM Screens 6.5.5 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando l&#39;Adobe ID . Andate alla scheda **Adobe Experience Manager** e cercate **Screens** per ottenere il pacchetto di funzioni più recente.
+Scarica l&#39;ultimo pacchetto di funzioni per AEM Screens 6.5.5 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il pacchetto di funzioni più recente.
 
 ## Data di rilascio {#release-date}
 
-La data di rilascio per  AEM Screens Feature Pack 202008 è il 3 settembre 2020.
+La data di rilascio di AEM Screens Feature Pack 20208 è il 3 settembre 2020.
 
 ### Novità {#what-is-new}
 
-* **Visualizzazione timeline nel dashboard di pianificazione**
+* **Vista Timeline sul dashboard della pianificazione**
 
-   Visualizzazione timeline consente di visualizzare le pianificazioni assegnate al canale dal pannello di visualizzazione.
+   La visualizzazione timeline consente di visualizzare le pianificazioni assegnate al canale dal dashboard di visualizzazione.
 
-   Per ulteriori informazioni, vedere [Visualizzazione timeline](/help/user-guide/channel-assignment-latest-fp.md#timeline-view).
+   Per ulteriori informazioni, consulta [Visualizzazione timeline](/help/user-guide/channel-assignment-latest-fp.md#timeline-view) .
 
 * **Pianificazione ricorrenza**
 
-   La programmazione ricorrenza consente di impostare una pianificazione periodica per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
+   La pianificazione della ricorrenza consente di impostare una pianificazione periodica per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
 
-   Per ulteriori informazioni, vedere [Programma di ricorrenza](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule).
+   Per ulteriori informazioni, consulta [Pianificazione ricorrenza](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) .
 
-* **Funzionalità di riconoscimento vocale per  AEM Screens**
+* **Funzionalità di riconoscimento vocale di AEM Screens**
 
-   La funzione di riconoscimento vocale consente di modificare i contenuti in un canale  AEM Screens, basato sull&#39;interazione vocale.
+   La funzione di riconoscimento vocale consente il cambiamento dei contenuti in un canale AEM Screens guidato dall&#39;interazione vocale.
 
-   Un autore del contenuto può configurare una visualizzazione in modo che sia attivata per la voce. Lo scopo di questa funzione è consentire ai clienti di utilizzare il linguaggio vocale come metodo per interagire con i loro schermi.
+   Un autore di contenuti può configurare una visualizzazione per l’attivazione vocale. Lo scopo di questa funzione è quello di consentire ai clienti di utilizzare il linguaggio come metodo per interagire con i loro schermi.
 
-   Per ulteriori informazioni, vedere [Riconoscimento vocale](voice-recognition.md).
+   Per ulteriori informazioni, consulta [Riconoscimento vocale](voice-recognition.md) .
 
 ### Problemi noti e correzioni {#known-issues}
 
-Se si utilizza  AEM Screens 6.5.5 Service Pack, è necessario configurare un ambiente per Windows o per il lettore Android.
+Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Windows o Android Player.
 
-Impostare l&#39;attributo **SameSite per i cookie di token di login** da **Lax** a **None** dalla **console Web di Adobe Experience Manager
-Configurazione** su tutte AEM istanze di creazione e pubblicazione.
+Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web Adobe Experience Manager
+Configurazione** su tutte le istanze di authoring e pubblicazione AEM.
 
-* Per ulteriori informazioni, vedere [Implementazione di Windows 10 Player](implementing-windows-player.md#fp-environment-setup).
+* Per ulteriori informazioni, consulta [Implementazione di Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
 
-* Per ulteriori informazioni, vedere [Implementazione di Android Player](implementing-android-player.md#fp-environment-setup).
+* Per ulteriori informazioni, consulta [Implementazione di Android Player](implementing-android-player.md#fp-environment-setup) .
 
-### Rilasciati  lettori AEM Screens {#released-aem-screens-players}
+### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti  AEM Screens Players sono rilasciati per  AEM Screens rilasciato AEM 6.5 Feature Pack 5.
+I seguenti lettori AEM Screens vengono rilasciati per AEM Screens rilasciato AEM Feature Pack 5 6.5.
 
 * Sistema operativo Chrome
 * Windows
 * Android
 
-#### Download di  AEM Screens Player {#aem-screens-player-downloads}
+#### Download di AEM Screens Player {#aem-screens-player-downloads}
 
-Per scaricare la versione più recente  lettore AEM Screens e ulteriori informazioni sulle correzioni dei bug, fare riferimento a **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
