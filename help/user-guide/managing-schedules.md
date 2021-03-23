@@ -1,28 +1,31 @@
 ---
 title: Creazione e gestione delle pianificazioni
 seo-title: Gestione delle pianificazioni
-description: Seguite questa pagina per informazioni sulle pianificazioni, che vi consente di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere l'assegnazione singolarmente per ogni visualizzazione per la quale desiderate mostrare il contenuto.
-seo-description: Seguite questa pagina per informazioni sulle pianificazioni, che vi consente di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere l'assegnazione singolarmente per ogni visualizzazione per la quale desiderate mostrare il contenuto.
+description: Segui questa pagina per scoprire le Pianificazioni, che ti consente di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere la loro assegnazione singolarmente per ogni visualizzazione in cui desideri mostrare il contenuto.
+seo-description: Segui questa pagina per scoprire le Pianificazioni, che ti consente di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere la loro assegnazione singolarmente per ogni visualizzazione in cui desideri mostrare il contenuto.
 uuid: c05328a0-620a-4597-b7b3-f4433e78d4e9
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 75ed3c42-4be9-42ae-9d76-e0343af81516
+feature: Creazione di esperienze in Screens
+role: Amministratore, sviluppatore
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 6d86710a5d0a4fd1cf6c0dc46961d231b0128f95
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 49%
+source-wordcount: '427'
+ht-degree: 48%
 
 ---
 
 
 # Creazione e gestione delle pianificazioni {#creating-and-managing-schedules}
 
-**Pianificazioni**, in  AEM Screens, consente di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere l&#39;assegnazione singolarmente per ogni visualizzazione in cui si desidera mostrare il contenuto.
+**Le pianificazioni**, in AEM Screens, consentono di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere la loro assegnazione singolarmente per ogni visualizzazione in cui desideri mostrare il contenuto.
 
-Pianifica se combinato con ***DayParting***, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare la configurazione per tutti i display contemporaneamente.
+Le pianificazioni, se combinate con ***DayParting***, consentono di impostare una pianificazione globale con più canali in esecuzione in momenti specifici della giornata e di riutilizzare tale impostazione per tutti i display contemporaneamente.
 
 >[!NOTE]
 >
@@ -34,8 +37,8 @@ Puoi creare una pianificazione di un progetto Screens, che verrà utilizzata per
 
 Segui i passaggi riportati di seguito per creare una pianificazione per il tuo canale:
 
-1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi accedere direttamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Andate al progetto Screens e fate clic su **Pianificazioni**.
+1. Seleziona il collegamento ad Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Passa al progetto Screens e fai clic su **Pianificazioni**.
 1. Fai clic su **Crea** nella barra delle azioni.
 1. Seleziona **Pianificazione** da **Crea** e fai clic su **Avanti**.
 
@@ -60,9 +63,9 @@ Segui i passaggi descritti di seguito per visualizzare il pannello di controllo 
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Pianificazione del** pannello delle informazioniFate clic su Proprietà dall’angolo in alto a destra del pannello delle informazioni di programmazione per visualizzare/modificare le proprietà della pianificazione.
+   **Pianificazione** Pannello informazioniFare clic su Proprietà dall&#39;angolo in alto a destra del pannello INFORMAZIONI PIANIFICAZIONE per visualizzare/modificare le proprietà della pianificazione.
 
-   **Pannello** Canali assegnatiFate clic su +Assegna canale nell’angolo in alto a destra del pannello CANALI ASSEGNATI per aprire la finestra di dialogo Assegnazione canale.
+   **Pannello Canali assegnati** Fare clic su +Assegna canale dall&#39;angolo in alto a destra del pannello CANALI ASSEGNATI per aprire la finestra di dialogo Assegnazione canale.
 
-   **Pannello di visualizzazione** assegnatoSelezionate uno dei display dal pannello VISUALIZZAZIONI ASSEGNATE per aprire il pannello di visualizzazione.
+   **Pannello Visualizzazioni assegnateSelezionate una delle visualizzazioni dal pannello VISUALIZZAZIONI ASSEGNATE per aprire il dashboard di visualizzazione.** 
 
