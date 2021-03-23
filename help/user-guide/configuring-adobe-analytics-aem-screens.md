@@ -1,8 +1,8 @@
 ---
-title: Configurazione  Adobe Analytics con  AEM Screens
-seo-title: Configurazione  Adobe Analytics con  AEM Screens
-description: 'Seguite questa sezione per ulteriori informazioni sulla sequenza e l''invio di eventi personalizzati tramite Offline  Adobe Analytics '
-seo-description: 'Seguite questa sezione per ulteriori informazioni sulla sequenza e l''invio di eventi personalizzati tramite Offline  Adobe Analytics '
+title: Configurazione di Adobe Analytics con AEM Screens
+seo-title: Configurazione di Adobe Analytics con AEM Screens
+description: 'Leggi questa sezione per ulteriori informazioni sulla sequenza e l’invio di eventi personalizzati tramite Offline Adobe Analytics '
+seo-description: 'Leggi questa sezione per ulteriori informazioni sulla sequenza e l’invio di eventi personalizzati tramite Offline Adobe Analytics '
 uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
 contentOwner: jsyal
 content-type: reference
@@ -10,51 +10,54 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
+feature: Amministrazione di schermi
+role: Amministratore, sviluppatore
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '699'
 ht-degree: 11%
 
 ---
 
 
-# Configurazione  Adobe Analytics con  AEM Screens {#configuring-adobe-analytics-with-aem-screens}
+# Configurazione di Adobe Analytics con AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
 >[!CAUTION]
 >
->Questa funzionalità  AEM Screens è disponibile solo se sono stati installati AEM Feature Pack 2 e AEM Feature Pack 4 6.3.3.
+>Questa funzionalità di AEM Screens è disponibile solo se hai installato AEM Feature Pack 2 6.4.2 e AEM Feature Pack 4 6.3.3.
 >
->Per accedere a uno di questi Feature Pack, è necessario contattare  Adobe di assistenza e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+>Per accedere a uno di questi Feature Pack, è necessario contattare il supporto Adobe e richiedere l’accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
 
-Questa sezione illustra i seguenti argomenti:
+Questa sezione tratta i seguenti argomenti:
 
-* **Sequenza in  Adobe Analytics con  AEM Screens**
-* **Invio di eventi personalizzati tramite offline  Adobe Analytics**
+* **Sequenza in Adobe Analytics con AEM Screens**
+* **Invio di eventi personalizzati tramite Adobe Analytics offline**
 
-## Sequenza in  Adobe Analytics con  AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
+## Sequenza in Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Il ***processo di sequenziamento*** inizia con il servizio di memorizzazione dei dati che attiva  servizio Adobe Analytics. Il contenuto del canale invia  eventi Adobe Analytics con payroll, ovvero l&#39;acquisizione di test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database di indice e vengono quindi inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati quando è connesso.
+Il ***processo di sequenziamento*** inizia con il servizio di archiviazione dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia gli eventi Adobe Analytics con il ciclo paghe, ovvero l&#39;acquisizione del test dei dati a Windows I/O e gli eventi di soggiorno vengono attivati. Gli eventi vengono salvati nel database dell&#39;indice e vengono ulteriormente inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Cerca di inviare la quantità massima di dati, quando connesso.
 
 ### Diagramma di sequenza {#sequencing-diagram}
 
-Nel seguente diagramma di sequenza viene illustrata la  integrazione Adobe Analytics con  AEM Screens:
+Il seguente diagramma di sequenza spiega l’integrazione di Adobe Analytics con AEM Screens:
 
 ![analytics_chunking](assets/analytics_chunking.png)
 
-## Invio di eventi personalizzati tramite offline  Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
+## Invio di eventi personalizzati tramite Adobe Analytics offline {#sending-custom-events-using-offline-adobe-analytics}
 
-La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tutti i campi inviati a  Adobe Analytics:
+La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tutti i campi inviati ad Adobe Analytics:
 
 <table>
  <tbody>
   <tr>
    <td><strong>Sezione</strong></td> 
    <td><strong>Etichetta proprietà</strong></td> 
-   <td><strong>Nome proprietà/Chiave</strong></td> 
+   <td><strong>Nome proprietà/chiave</strong></td> 
    <td><strong>Obbligatorio</strong></td> 
    <td><strong>Tipo di dati</strong></td> 
-   <td><strong>Tipo proprietà</strong><br /> </td> 
+   <td><strong>Tipo di proprietà</strong><br /> </td> 
    <td><strong>Descrizione</strong></td> 
   </tr>
   <tr>
@@ -68,21 +71,21 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
   </tr>
   <tr>
    <td> </td> 
-   <td>Data e ora della raccolta dell’evento</td> 
+   <td>Data della raccolta dell'evento</td> 
    <td>event.coll_dts</td> 
    <td>facoltativo</td> 
    <td>string</td> 
-   <td>marca temporale - UTC</td> 
-   <td>Data raccolta</td> 
+   <td>timestamp - UTC</td> 
+   <td>Data e ora di raccolta</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Data e ora dell'evento (inizio)</td> 
+   <td>Data e ora dell’evento (inizio)</td> 
    <td>event.dts_start</td> 
    <td>consigliato</td> 
    <td>string</td> 
-   <td>marca temporale - UTC</td> 
-   <td>Data e ora di inizio evento, se NON si specifica questa opzione, l'ora dell'evento verrà considerata l'ora in cui è stata ricevuta dal server</td> 
+   <td>timestamp - UTC</td> 
+   <td>Data e ora di inizio evento, se NON si specifica questa opzione, l'ora dell'evento verrà considerata come l'ora in cui è stata ricevuta dal server</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -90,8 +93,8 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>event.dts_end</td> 
    <td>facoltativo</td> 
    <td>string</td> 
-   <td>marca temporale - UTC</td> 
-   <td>Ora completamento evento</td> 
+   <td>timestamp - UTC</td> 
+   <td>Data e ora di completamento eventi</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -100,34 +103,34 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>consigliato</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Nome flusso di lavoro (schermate)</td> 
+   <td>Nome del flusso di lavoro (Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Categoria DM principale</td> 
+   <td>Categoria principale DMe</td> 
    <td>event.category</td> 
    <td>required</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Categoria principale (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Raggruppamento di tipi di evento - <strong>Noi inviamo Player</strong></td> 
+   <td>Categoria principale (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSISTEMA) - Raggruppamento di tipi di evento - <strong>Inviiamo Player</strong></td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Sottocategoria</td> 
+   <td>Categoria secondaria</td> 
    <td>event.subcategory</td> 
    <td>consigliato</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Sottocategoria - Sezione di un flusso di lavoro o Area di uno schermo, ecc. (File recenti, file CC, creazioni per dispositivi mobili e così via)</td> 
+   <td>Sottocategoria: sezione di un flusso di lavoro o area di una schermata, ecc. (File recenti, file CC, creazioni mobili e così via)</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Tipo di evento/azione</td> 
+   <td>Tipo evento/azione</td> 
    <td>event.type</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Tipo evento (rendering, clic, avvicinamento delle dita, zoom) - Azione utente principale</td> 
+   <td>Tipo evento (rendering, clic, pizzico, zoom) - Azione utente principale</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -136,7 +139,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>consigliato</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Sottotipo evento (creazione, aggiornamento, eliminazione, pubblicazione ecc.) - Ulteriori dettagli sull'azione dell'utente</td> 
+   <td>Tipo secondario evento (creazione, aggiornamento, eliminazione, pubblicazione, ecc.) - Ulteriori dettagli sull'azione dell'utente</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -145,25 +148,25 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>facoltativo</td> 
    <td>booleano</td> 
    <td> </td> 
-   <td>L'evento è stato generato mentre l'azione era offline/online (true/false)</td> 
+   <td>Evento generato mentre l'azione era offline/online (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>Agente utente</td> 
    <td>event.user_agent</td> 
-   <td>consigliato (proprietà Web)</td> 
+   <td>consigliato (proprietà web)</td> 
    <td>string</td> 
    <td> </td> 
    <td>Agente utente</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Lingua/lingua</td> 
+   <td>Lingua/Impostazioni internazionali</td> 
    <td>event.language</td> 
    <td>consigliato</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Le impostazioni internazionali dell'utente sono una stringa basata sulle convenzioni per l'assegnazione di tag nella lingua di RFC 3066 (ad esempio, en-US, fr-FR o es-ES)</td> 
+   <td>Le impostazioni internazionali utente sono una stringa basata sulle convenzioni di assegnazione tag della lingua della RFC 3066 (ad esempio, en-US, fr-FR o es-ES)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -172,7 +175,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>facoltativo</td> 
    <td>stringa<br /> </td> 
    <td>UUID</td> 
-   <td>Identifica il GUID del dispositivo (ad esempio, ID computer o hash dell'indirizzo IP + subnet mask + ID rete + agente utente) - Qui verrà inviato il nome utente del lettore generato al momento della registrazione.</td> 
+   <td>Identifica il GUID del dispositivo (ad esempio ID macchina o hash dell'indirizzo IP + subnet mask + ID rete + user agent) - Qui invieremo il nome utente del lettore generato al momento della registrazione.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -181,7 +184,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>facoltativo</td> 
    <td>numero</td> 
    <td> </td> 
-   <td>Numero di volte in cui si è verificato l’evento - Qui viene inviata la durata del video</td> 
+   <td>Numero di volte in cui si è verificato l’evento - Qui si invia la durata del video</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -190,7 +193,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>facoltativo</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Valore dell’evento (ad esempio, impostazioni attivate/disattivate)</td> 
+   <td>Valore dell’evento (ad esempio, impostazioni attive/disattivate)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -199,7 +202,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>richiesto per AA</td> 
    <td>string</td> 
    <td> </td> 
-   <td> supporto Adobe Analytics per il nome pagina personalizzato</td> 
+   <td>Supporto Adobe Analytics per Nome pagina personalizzato</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -212,7 +215,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
   </tr>
   <tr>
    <td> </td> 
-   <td>Codice errore</td> 
+   <td>Codice di errore</td> 
    <td>event.error_code</td> 
    <td> </td> 
    <td>string</td> 
@@ -241,16 +244,16 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td><strong><em>Prodotto di origine</em></strong></td> 
    <td>Nome</td> 
    <td>source.name</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Nome app ( AEM Screens)</td> 
+   <td>Nome app (AEM Screens)</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>Versione</td> 
    <td>source.version</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
    <td>Versione firmware</td> 
@@ -259,7 +262,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td> </td> 
    <td>Platform</td> 
    <td>source.platform</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
    <td>navigator.platform</td> 
@@ -271,7 +274,7 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td>con eccezioni richieste</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Nome lettore</td> 
+   <td>Nome del lettore</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -286,43 +289,43 @@ La tabella seguente riepiloga il modello dati standard per gli eventi. Elenca tu
    <td><strong><em>Contenuto</em></strong></td> 
    <td>Azione</td> 
    <td>content.action</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL della risorsa, inclusa la rappresentazione effettivamente riprodotta</td> 
+   <td>URL della risorsa, compreso il rendering effettivamente riprodotto</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Tipo mime</td> 
+   <td>Tipo MIME</td> 
    <td>content.mimetype</td> 
    <td>facoltativo</td> 
    <td>string</td> 
    <td> </td> 
-   <td>Tipo di mime del contenuto</td> 
+   <td>Tipo di MIME del contenuto</td> 
   </tr>
   <tr>
    <td><strong><em>Transazione</em></strong></td> 
-   <td>Numero transazione</td> 
+   <td>Numero della transazione</td> 
    <td>trn.number</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td>UUID</td> 
    <td>ID univoco che preferibilmente aderisce a UUID v4</td> 
   </tr>
   <tr>
    <td> </td> 
-   <td>Descrizione prodotto</td> 
+   <td>Descrizione del prodotto</td> 
    <td>trn.product</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
-   <td>URL della risorsa (esclusa la rappresentazione)</td> 
+   <td>URL della risorsa (rendering escluso)</td> 
   </tr>
   <tr>
    <td> </td> 
    <td>Quantità</td> 
    <td>trn.quantity</td> 
-   <td>mandatory</td> 
+   <td>obbligatorio</td> 
    <td>string</td> 
    <td> </td> 
    <td>Durata della riproduzione</td> 
