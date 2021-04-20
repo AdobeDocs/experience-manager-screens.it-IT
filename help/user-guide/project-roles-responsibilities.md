@@ -2,9 +2,9 @@
 title: '"Parte 1: Ruoli e responsabilità del progetto"'
 seo-title: '"Parte 1: Ruoli e responsabilità del progetto"'
 description: Segui questa esercitazione per comprendere meglio i ruoli, le responsabilità e le linee temporali richieste durante i cicli di vita dei progetti e delle vendite per un progetto di digital signage.
-feature: Panoramica
-role: Business Practices, architetto dati
-level: Principiante
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

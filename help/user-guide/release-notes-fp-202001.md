@@ -4,8 +4,8 @@ seo-title: Note sulla versione per Feature Pack 2001
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 20201 rilasciato il 31 gennaio 2020.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 20201 rilasciato il 31 gennaio 2020.
 feature: Feature Pack
-role: Developer (Sviluppatore)
-level: Intermedio
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

@@ -2,9 +2,9 @@
 title: Authoring con Data Triggers
 seo-title: Authoring con Data Triggers
 description: Segui questa pagina per scoprire come creare con i trigger di dati.
-feature: Creazione di esperienze in Screens
-role: Amministratore, sviluppatore
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

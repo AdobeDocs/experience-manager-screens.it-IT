@@ -1,9 +1,9 @@
 ---
 title: Riconoscimento vocale in AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in AEM Screens.
-feature: Creazione di esperienze in Screens
-role: Amministratore, sviluppatore
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

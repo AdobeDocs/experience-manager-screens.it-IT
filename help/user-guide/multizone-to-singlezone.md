@@ -3,9 +3,9 @@ title: Caso di utilizzo delle transizioni da MultiZone a SingleZone
 description: Segui questa pagina per scoprire il caso d’uso MultiZone to SingleZone Transitions.
 seo-description: 'Caso di utilizzo: Transizioni da MultiZone a SingleZone.'
 contentOwner: Jyotika Syal
-feature: Creazione di esperienze in Screens
-role: Sviluppatore, Business Practices
-level: Intermedio
+feature: Authoring Screens
+role: Developer, Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ title: Attivazione a livello di risorsa
 seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
-feature: Creazione di schermi, Attivazione a livello di risorsa
-role: Amministratore, sviluppatore
-level: Intermedio
+feature: Authoring Screens, Asset Level Activation
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

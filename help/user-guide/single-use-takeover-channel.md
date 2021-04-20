@@ -4,9 +4,9 @@ seo-title: Canale TakeOver per uso singolo
 description: Segui questo caso d’uso per creare un singolo canale TakeOver.
 seo-description: Segui questo caso d’uso per creare un singolo canale TakeOver.
 contentOwner: jsyal
-feature: Creazione di esperienze in Screens
-role: Amministratore, sviluppatore
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

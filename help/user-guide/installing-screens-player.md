@@ -4,9 +4,9 @@ seo-title: Installazione di Screens Player
 description: Segui questa pagina per informazioni sull'installazione di AEM Screens Player disponibile.
 seo-description: Installazione di Screens Player
 contentOwner: jsyal
-feature: Amministrazione di schermi
+feature: Administering Screens
 role: Administrator
-level: Intermedio
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

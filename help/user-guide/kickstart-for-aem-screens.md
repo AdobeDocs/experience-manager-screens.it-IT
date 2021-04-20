@@ -2,9 +2,9 @@
 title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare un progetto dimostrativo AEM Screens. Consente di creare un’esperienza di digital signage a partire dall’installazione e l’impostazione di un nuovo progetto per la visualizzazione dei contenuti in AEM Screens Player.
-feature: Panoramica, Digital Signage
-role: Professionista
-level: Principiante
+feature: Overview, Digital Signage
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

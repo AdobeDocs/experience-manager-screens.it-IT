@@ -4,9 +4,9 @@ seo-title: Applicazione di branding e stile personalizzati per le sovrapposizion
 description: Segui questa pagina per scoprire come applicare branding e stile personalizzati per le sovrapposizioni di testo.
 seo-description: Segui questa pagina per scoprire come applicare branding e stile personalizzati per le sovrapposizioni di testo.
 contentOwner: Jyotika Syal
-feature: Sviluppo di schermi
-role: Developer (Sviluppatore)
-level: Intermedio
+feature: Developing Screens
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ seo-title: Note sulla versione per Feature Pack 201909
 description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201909 rilasciato il 31 luglio 2019.
 seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201909 rilasciato il 7 ottobre 2019.
 feature: Feature Pack
-role: Developer (Sviluppatore)
-level: Intermedio
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

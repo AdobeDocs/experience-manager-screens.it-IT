@@ -4,9 +4,9 @@ seo-title: Canale di acquisizione perpetuo
 description: Segui questo caso d’uso per creare un canale TakeOver permanente.
 seo-description: Segui questo caso d’uso per configurare un progetto che crea un canale Perpetual TakeOver che viene riprodotto continuamente per un giorno e un’ora specifici.
 contentOwner: jsyal
-feature: Creazione di esperienze in Screens
-role: Amministratore, sviluppatore
-level: Intermedio
+feature: Authoring Screens
+role: Administrator, Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

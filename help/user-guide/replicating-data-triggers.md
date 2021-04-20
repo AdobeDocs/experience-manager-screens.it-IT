@@ -3,9 +3,9 @@ title: Replicare gli attivatori dati ai server di pubblicazione
 seo-title: Replicare gli attivatori dati al server di pubblicazione
 description: Segui questa pagina per scoprire come replicare i trigger di dati sul server di pubblicazione.
 seo-description: Replicare gli attivatori dati sul server di pubblicazione.
-feature: Amministrazione di Screens, Data Trigger
-role: Developer (Sviluppatore)
-level: Intermedio
+feature: Administering Screens, Data Trigger
+role: Developer
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt

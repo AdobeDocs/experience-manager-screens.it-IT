@@ -3,9 +3,9 @@ title: Lista di controllo sicurezza
 seo-title: Lista di controllo sicurezza
 description: La pagina descrive le aree di protezione principali con un elenco di domande e considerazioni.
 seo-description: La pagina descrive la Lista di controllo protezione
-feature: Amministrazione di schermi
+feature: Administering Screens
 role: Administrator
-level: Intermedio
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
 workflow-type: tm+mt

@@ -2,9 +2,9 @@
 title: Registrazione automatica dei giocatori
 seo-title: Registrazione automatica dei giocatori
 description: Segui questa pagina per scoprire la registrazione automatica dei giocatori con AMS/On-Prem Screens.
-feature: Amministrazione di schermi, lettori
+feature: Administering Screens, Players
 role: Administrator
-level: Intermedio
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
 workflow-type: tm+mt
