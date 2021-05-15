@@ -9,18 +9,17 @@ topic-tags: developing
 feature: Sviluppo di schermi
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 1667fd10f415214a5301e9740d205eb33cc34f89
+source-git-commit: 8d1633dab9e70ea988516cf9ee4d1b0a780bc7e9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 2%
 
 ---
 
 
 # Utilizza il flusso di lavoro per automatizzare gli aggiornamenti delle risorse per un canale AEM Screens {#automate-channel-updates-workflow}
 
-Scopri come creare un flusso di lavoro per elaborare automaticamente le risorse caricate su Adobe Experience Manager e assegnarle in modo dinamico a un canale Screens. In questo esempio, quando un’immagine viene aggiunta a una cartella specifica, viene attivato un flusso di lavoro che applica una filigrana dinamica e assegna l’immagine a un canale Screens. Le lezioni apprese da questo esempio possono essere applicate a un&#39;ampia varietà di scenari di automazione.
+Scopri come creare un flusso di lavoro per elaborare automaticamente le risorse caricate su Adobe Experience Manager e assegnarle in modo dinamico a un canale Screens. In questo esempio, quando un’immagine viene aggiunta a una cartella specifica, viene attivato un flusso di lavoro che applica una sovrapposizione di testo dinamica (processo di filigrana) e assegna l’immagine a un canale Screens. Le lezioni apprese da questo esempio possono essere applicate a un&#39;ampia varietà di scenari di automazione.
 
 ## Prerequisiti {#prerequisites}
 
