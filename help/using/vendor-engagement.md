@@ -1,10 +1,9 @@
 ---
-title: Coinvolgimento fornitore
-seo-title: Coinvolgimento fornitore per  AEM Screens
-description: La pagina descrive la Guida alle procedure ottimali  AEM Screens per il coinvolgimento del fornitore
-seo-description: La pagina descrive la Guida alle procedure ottimali  AEM Screens per il coinvolgimento del fornitore
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+title: Coinvolgimento del fornitore
+seo-title: Coinvolgimento del fornitore per AEM Screens
+description: La pagina descrive la Guida alle best practice per l’coinvolgimento del fornitore per AEM Screens
+seo-description: La pagina descrive la Guida alle best practice per l’coinvolgimento del fornitore per AEM Screens
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -15,14 +14,14 @@ ht-degree: 0%
 # Coinvolgimento fornitore {#vendor-engagement}
 
 >[!NOTE]
->Tipico azionista di questa attività è un integratore A/V.
+>L’azionista tipico di questa attività è un integratore A/V.
 
-In questa attività, è importante identificare tutti i fornitori chiave necessari per assemblare e distribuire la rete, nonché tutte le dipendenze dei partner:
+In questa attività, è importante identificare tutti i fornitori chiave necessari per assemblare e consegnare la rete e tutte le dipendenze dei partner:
 
-* Identificare i fornitori per tutti i componenti hardware, compresi display, PC player, montaggi e periferiche correlate.
+* Identificare i fornitori per tutti i dispositivi hardware, compresi display, PC per lettori, montaggi e periferiche correlate.
 
-* Definite le capacità e le attività di ciascun fornitore in relazione alla categoria di prodotti che supporta.
+* Definisci le funzionalità e le attività di ogni fornitore in relazione alla categoria di prodotto supportata.
 
-* Confermate la consegna *lead time* per tutti i prodotti consegnabili e create un piano di distribuzione che consenta a tutti i lead time di lavorare all&#39;indietro a partire dalla data o dalle date di installazione desiderate delle prime installazioni richieste.
+* Conferma la consegna *lead time* per tutti i deliverable e crea un piano di distribuzione che consenta a tutti i lead time di lavorare all’indietro a partire dalla data o dalle date di installazione desiderate per le prime installazioni richieste.
 
-Completando tutti i passaggi precedenti, ora è necessario disporre di un piano di distribuzione completo *Day 1* pronto per essere eseguito.
+Completando tutti i passaggi precedenti, ora dovrebbe essere pronto un *Piano di distribuzione completo*.
