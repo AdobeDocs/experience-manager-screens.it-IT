@@ -10,13 +10,12 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Per questo caso d&#39;uso, Google Sheet è popolato con percentuale di prenotazi
 
 Se il valore di **Ristorante1** > **Ristorante2**, a **AdTarget** viene assegnato il valore **1** altrimenti **AdTarget** viene assegnato il valore **2**. Il valore 1 genera l&#39;opzione *Bistecca food* e il valore 2 visualizza l&#39;opzione *Thai food* sullo schermo del display.
 
-## Precondizioni {#preconditions}
+## Condizioni preliminari {#preconditions}
 
 Prima di iniziare a implementare l&#39;attivazione della prenotazione, devi imparare a configurare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per canali*** in un progetto AEM Screens.
 
