@@ -3,13 +3,12 @@ title: Creazione e gestione dei canali
 seo-title: Gestione dei canali
 description: Segui le informazioni contenute in questa pagina per creare e gestire canali. Sono anche contenute spiegazioni sul dashboard per canale e sulla modifica del contenuto per un canale.
 seo-description: Segui le informazioni contenute in questa pagina per creare e gestire canali. Sono anche contenute spiegazioni sul dashboard per canale e sulla modifica del contenuto per un canale.
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1328'
 ht-degree: 42%
 
 ---
@@ -243,9 +242,7 @@ Le visualizzazioni collegate sono elencate nel pannello **Visualizzazioni assegn
 >Per informazioni sulla creazione di una visualizzazione in una posizione, consulta:
 >
 >* [Creare e gestire posizioni](managing-locations.md)
->* [Creare e gestire le visualizzazioni](managing-displays.md)
-
->
+* [Creare e gestire le visualizzazioni](managing-displays.md)
 
 
 
