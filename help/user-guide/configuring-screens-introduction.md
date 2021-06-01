@@ -12,10 +12,9 @@ discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -72,7 +71,7 @@ I seguenti punti chiave aiutano a configurare e AEM server per renderlo pronto a
 
 #### Consenti richieste referente vuote {#allow-empty-referrer-requests}
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
+1. Passa a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
@@ -89,7 +88,7 @@ I seguenti punti chiave aiutano a configurare e AEM server per renderlo pronto a
 
 #### Servizio HTTP basato su Jetty Apache Felix {#allow-apache-felix-service}
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
+1. Passa a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
@@ -136,7 +135,7 @@ Puoi configurare ***DeviceServiceImpl*** dal collegamento seguente per abilitare
 
 Segui i passaggi seguenti per configurare ***DeviceServiceImpl***:
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
+1. Passa a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
 
 1. **Viene** aperta la configurazione della console Web Adobe Experience Manager. Cerca *deviceservice*. Per cercare la proprietà, premere **Comando+F** per macOS e **Ctrl+F** per Microsoft Windows.
 
