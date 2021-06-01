@@ -5,13 +5,12 @@ description: Segui questa pagina per ottenere le risposte alle domande frequenti
 seo-description: Segui questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens.
 uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
 contentOwner: jsyal
-feature: Digital Signage, Content
+feature: Digital Signage, contenuti
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -101,7 +100,7 @@ Controlla le seguenti possibilità per risolvere il problema della schermata vuo
 
 È necessario abilitare l’opzione Consenti valori vuoti per il filtro di riferimento Apache Sling. Questo è necessario per il funzionamento ottimale del protocollo di controllo tra AEM Screens Player e il server AEM Screens.
 
-1. Passa a **Configurazione console Web Adobe Experience Manager**
+1. Passa a **Configurazione della console Web Adobe Experience Manager**
 1. Seleziona l&#39;opzione **allow.empty** .
 1. Fai clic su **Salva**.
 
