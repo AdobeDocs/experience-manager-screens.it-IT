@@ -1,13 +1,12 @@
 ---
 title: Rapporto assegnazione contenuti
 description: Questa pagina descrive il download e l’utilizzo del rapporto sull’assegnazione dei contenuti.
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '334'
 ht-degree: 7%
 
 ---
@@ -34,7 +33,7 @@ Per ulteriori informazioni, consulta le seguenti risorse:
 1. [Creazione e gestione delle posizioni](/help/user-guide/managing-locations.md)
 1. [Creazione e gestione delle visualizzazioni](/help/user-guide/managing-displays.md)
 1. [Creazione di dispositivi](/help/user-guide/managing-devices.md)
-1. [Assegnazione dei canali](/help/user-guide/channel-assignment-latest-fp.md) 
+1. [Assegnazione dei canali ](/help/user-guide/channel-assignment-latest-fp.md)
 
 
 ## Download del rapporto sull’assegnazione dei contenuti {#downloading-content-assignment-report-fp}
