@@ -3,8 +3,7 @@ title: Specifiche del dispositivo
 seo-title: Specifiche del dispositivo
 description: La pagina descrive le specifiche del dispositivo
 seo-description: La pagina descrive le specifiche del dispositivo
-translation-type: tm+mt
-source-git-commit: 5c83a2b59769dfd3736a830f7d7d3cc35137c182
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -16,29 +15,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Tipico azionista di questa attività è un integratore A/V.
+>L’azionista tipico di questa attività è un integratore A/V.
 
-In base alle informazioni raccolte durante il *Giorno Zero*, confermare le seguenti informazioni prima di iniziare lo sviluppo:
+In base alle informazioni raccolte durante *Giorno Zero*, conferma le seguenti informazioni prima di iniziare lo sviluppo:
 
-* Quali sono l&#39;orientamento, le dimensioni e la risoluzione degli schermi utilizzati?
+* Qual è l&#39;orientamento, le dimensioni e la risoluzione degli schermi utilizzati?
 
 * Quante schermate vengono installate per posizione e in quale configurazione?
 
 * Quale software e sistema operativo deve essere installato sui dispositivi di visualizzazione?
 
-* Sarà necessaria una connessione Internet sui lettori per sincronizzare gli schermi con AEM server?
+* Sarà necessaria una connessione Internet sui lettori per sincronizzare gli schermi con i server AEM?
 
-* Quando verrà aggiornato il contenuto dei lettori?
+* Quando verranno aggiornati i contenuti dei lettori?
 
-* Se state eseguendo dei video, accertatevi di conoscere le specifiche del dispositivo in modo che il contenuto venga visualizzato correttamente.
+* Se esegui dei video, assicurati di comprendere le specifiche del dispositivo in modo che il contenuto venga visualizzato correttamente.
 
 * In base alle considerazioni ambientali di cui sopra, lo stato solido o lo storage su disco rigido è più appropriato?
 
-* Determinare la capacità di storage richiesta e quali sono i requisiti di prestazioni dello storage? Alcuni esempi:
-   * Considerazioni speciali sullo storage (più unità, dispositivi di avvio e storage di massa)?
+* Determinare la capacità di storage necessaria e i requisiti di prestazioni dello storage? Alcuni esempi:
+   * Hai delle considerazioni speciali sullo storage (più unità, dispositivi di avvio e storage di massa)?
    * Quali sono i requisiti di capacità della RAM?
 
 
 >[!NOTE]
 >
->È inoltre importante convalidare le specifiche dell&#39;hardware selezionato per garantire che possa supportare l&#39;applicazione in fase di sviluppo. Ad esempio, se l&#39;applicazione è destinata a eseguire cinque video HD contemporaneamente, l&#39;hardware lo supporterà?
+>È inoltre importante convalidare le specifiche dell&#39;hardware selezionato per assicurarsi che possa supportare l&#39;applicazione in fase di sviluppo. Ad esempio, se l&#39;applicazione è destinata a eseguire cinque video HD contemporaneamente, l&#39;hardware lo supporterà?
