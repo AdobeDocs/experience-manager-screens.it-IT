@@ -10,13 +10,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: bfbdd6eb-4921-4c2d-a179-1cac4583d568
 docset: aem65
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1466'
 ht-degree: 60%
 
 ---
@@ -71,7 +70,7 @@ La sezione seguente spiega i componenti AEM Screens che puoi utilizzare nel tuo 
 >
 >Per visualizzare le proprietà di qualsiasi componente, seleziona il componente e fai clic sull&#39;icona a martello per aprire/visualizzare le proprietà.
 
-### Applicazione  {#application}
+### Applicazione {#application}
 
 Il componente **Applicazione** consente di aggiungere un&#39;applicazione al tuo canale.
 
@@ -90,7 +89,7 @@ L’esempio seguente mostra come incorporare un componente applicativo insieme a
 >
 >Fai riferimento all&#39;esempio precedente per visualizzare le proprietà di ogni componente qui sotto.
 
-### Canale  {#channel}
+### Canale {#channel}
 
 Il componente **Canale** consente di aggiungere un intero canale al progetto.
 
