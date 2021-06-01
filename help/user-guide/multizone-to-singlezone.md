@@ -3,13 +3,12 @@ title: Caso di utilizzo delle transizioni da MultiZone a SingleZone
 description: Segui questa pagina per scoprire il caso d’uso MultiZone to SingleZone Transitions.
 seo-description: 'Caso di utilizzo: Transizioni da MultiZone a SingleZone.'
 contentOwner: Jyotika Syal
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Developer, Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 3%
 
 Questa sezione descrive un esempio di caso d’uso che sottolinea come impostare un canale di layout con più aree che si alterna con un canale di layout a una sola zona. Il canale con più aree ha la sequenza di risorse immagine/video e mostra come impostare un progetto che si alterna da più aree a una singola zona e viceversa.
 
-### Precondizioni {#preconditions}
+### Condizioni preliminari {#preconditions}
 
 Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 
