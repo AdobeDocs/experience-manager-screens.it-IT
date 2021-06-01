@@ -10,13 +10,12 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Administering Screens, Windows Player
+feature: Amministrazione di schermi, Windows Player
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
@@ -40,7 +39,7 @@ Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >Se si utilizza AEM Screens 6.5.5 Service Pack, è necessario configurare un ambiente per Windows Player.
 
-Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web Adobe Experience Manager
+Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web di Adobe Experience Manager
 Configurazione** su tutte le istanze di authoring e pubblicazione AEM.
 
 Effettua le seguenti operazioni:
