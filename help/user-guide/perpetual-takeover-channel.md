@@ -4,13 +4,12 @@ seo-title: Canale di acquisizione perpetuo
 description: Segui questo caso d’uso per creare un canale TakeOver permanente.
 seo-description: Segui questo caso d’uso per configurare un progetto che crea un canale Perpetual TakeOver che viene riprodotto continuamente per un giorno e un’ora specifici.
 contentOwner: jsyal
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '860'
 ht-degree: 1%
 
 ---
@@ -25,7 +24,7 @@ Nella pagina seguente viene illustrato un caso d’uso che mette in evidenza l�
 Questo caso d&#39;uso spiega come creare un canale che *prende il controllo di* dal canale di riproduzione normale per una visualizzazione o un gruppo di display. L&#39;acquisizione avverrà per un giorno e un&#39;ora specifici in modo permanente.
 Ad esempio, c&#39;è un canale Perpetual TakeOver che riproduce ogni venerdì dalle 9 alle 10. Durante questo periodo, nessun altro canale dovrebbe giocare. L&#39;esempio seguente mostra la creazione di un canale di acquisizione perpetuo che riproduce consente la riproduzione dei contenuti ogni mercoledì per 2 ore dalle 2:00 alle 16:00.
 
-### Precondizioni {#preconditions}
+### Condizioni preliminari {#preconditions}
 
 Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 
