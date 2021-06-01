@@ -2,13 +2,12 @@
 title: Cos’è AEM Screens?
 seo-title: Cos’è AEM Screens?
 description: '"AEM Screens - una soluzione di digital signage che consente di pubblicare esperienze e interazioni digitali dinamiche e interattive che coinvolgono diversi tipi di schermi insieme a una piattaforma di marketing digitale completa."'
-feature: Overview, Digital Signage
+feature: Panoramica, Digital Signage
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '557'
 ht-degree: 9%
 
 ---
@@ -22,7 +21,7 @@ Inizia subito a usare una semplice esperienza di digital signage, utilizzando [K
 
 ## Panoramica {#overview}
 
-**AEM** Screensis si basa sulla solida base di  ***AEM*** Sites e consente agli addetti al marketing e al personale IT di creare e gestire esperienze su schermi digitali multipli che influiscono sugli obiettivi in-store/in-venue per la creazione di marchi e la domanda motrice. L’integrazione di AEM Screens con Sites consente di riutilizzare i contenuti esistenti e di fornire in modo efficace una soluzione cliente coerente e coerente. Questo fornisce un flusso di lavoro semplificato per creare esperienze digitali dedicate altamente convenienti e utilizzabili. Aiuta inoltre a influenzare la percezione del marchio e le decisioni di impatto che portano al miglioramento dell&#39;acquisto e del coinvolgimento.
+**AEM** Screensis si basa sulla solida base di  ***AEM*** Sites e consente agli esperti di marketing e al personale IT di creare e gestire esperienze su schermi digitali multipli che influiscono sugli obiettivi in-store/in-venue per la creazione di marchi e la domanda motrice. L’integrazione di AEM Screens con Sites consente di riutilizzare i contenuti esistenti e di fornire in modo efficace una soluzione cliente coerente e coerente. Questo fornisce un flusso di lavoro semplificato per creare esperienze digitali dedicate altamente convenienti e utilizzabili. Aiuta inoltre a influenzare la percezione del marchio e le decisioni di impatto che portano al miglioramento dell&#39;acquisto e del coinvolgimento.
 
 AEM Screens è una potente soluzione web-based che consente di creare schede di menu digitali dedicate, consigli sui prodotti, immagini di stile di vita di background per espandere l&#39;interazione con i clienti e fornire esperienze di marchio unificate e utili in spazi fisici, come negozi, alberghi, banche, istituti sanitari e di formazione, e molto altro ancora, dalla stessa piattaforma AEM. Screens offre diverse applicazioni uniche, ad esempio display interattivi, ricerca di percorsi, branding e aggiunta di atmosfera all’ambiente per clienti e dipendenti in base al dominio in cui vengono distribuiti.
 
