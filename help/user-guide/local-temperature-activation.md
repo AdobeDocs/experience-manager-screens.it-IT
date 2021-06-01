@@ -10,13 +10,12 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ Il seguente caso d’uso illustra l’utilizzo dell’attivazione della temperat
 
 Per questo caso d&#39;uso, se il tuo Google Sheets ha Valore inferiore a 50, verrà visualizzata un&#39;immagine con bevande calde e se il valore è maggiore o uguale a 50, verrà visualizzata l&#39;immagine con bevande fredde. In caso di altri valori o nessun valore, il lettore visualizzerà un&#39;immagine predefinita.
 
-## Precondizioni {#preconditions}
+## Condizioni preliminari {#preconditions}
 
 Prima di iniziare a implementare l&#39;attivazione della temperatura locale del centro viaggi, devi imparare a configurare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per canali*** in un progetto AEM Screens.
 
