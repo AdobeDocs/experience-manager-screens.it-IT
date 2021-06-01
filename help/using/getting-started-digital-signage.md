@@ -1,10 +1,9 @@
 ---
-title: Nozioni di base del digital signage per [!UICONTROL  AEM Screens]
-seo-title: Nozioni di base del digital signage per [!UICONTROL  AEM Screens]
+title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
+seo-title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
 description: La guida descrive le basi di un progetto di digital signage
 seo-description: La guida descrive le basi di un progetto di digital signage
-translation-type: tm+mt
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 2%
@@ -14,17 +13,17 @@ ht-degree: 2%
 
 # Nozioni di base di un progetto di digital signage {#basics-digital-signage}
 
-Prima di iniziare  procedure ottimali per l&#39;implementazione di AEM Screens, è importante considerare il progetto come un progetto di digital signage, invece di uno sviluppo di software tradizionale.
+Prima di immergerti nelle best practice di implementazione di AEM Screens, è importante considerare il progetto come un progetto di digital signage, invece di uno sviluppo software tradizionale.
 
-Questa sezione contiene raccomandazioni sugli elementi chiave principali che sono critici prima dell&#39;implementazione di un progetto AEM Screens .
+Questa sezione fornisce consigli sui principali elementi chiave critici prima dell’implementazione di un progetto AEM Screens.
 
-## Elementi chiave nel digital signage {#key-elements}
+## Elementi chiave del digital signage {#key-elements}
 
 Gli *elementi chiave* in un progetto di digital signage sono:
 
 ![](/help/assets/Elements-Revised.png)
 
-Prima di implementare un progetto di digital signage, è fondamentale definire gli elementi chiave:
+La definizione degli elementi chiave è essenziale prima di implementare un progetto di digital signage:
 
 1. **Hardware**
 
@@ -40,10 +39,10 @@ Prima di implementare un progetto di digital signage, è fondamentale definire g
 
 1. **Connettività**
 
-   La connettività pone l&#39;accento sulle seguenti domande:
-   * Rete (cellulare o wi-fi) o standalone?
-      * è necessario consentire l&#39;aggiornamento dei contenuti USB?
-      * è necessario consentire la raccolta dei dati di utilizzo?
+   La connettività pone l’accento sulle seguenti domande:
+   * Rete (cellulare o wi-fi) o indipendente?
+      * è necessario consentire gli aggiornamenti dei contenuti USB?
+      * è necessario consentire la raccolta dati di utilizzo?
 
 1. **Installazione**
 
@@ -51,28 +50,28 @@ Prima di implementare un progetto di digital signage, è fondamentale definire g
    * Visualizza: orizzontale o verticale
    * Come verrà montato lo schermo?
       * Verticale e orizzontale
-      * Struttura completa
+      * Alloggio completo
       * Piastra di copertura
-   * Supporto per la riparazione
+   * Supporto di fissaggio
    * Personale: responsabile dell&#39;installazione dell&#39;apparecchiatura e della sua connessione alla rete
-   * Quanto distante è la fonte di energia dal dispositivo?
-   * Quanto è distante il pannello fisico dal dispositivo vero e proprio?
+   * Quanto dista la fonte di energia dal dispositivo?
+   * Quanto dista il pannello fisico dal dispositivo?
 
 1. **Contenuto**
 
    Il contenuto include:
    * Zona singola o zona multipla?
-      * Quante risorse multimediali si trovano contemporaneamente sullo schermo?
-      * Quante pagine per applicazioni interattive?
-      * Definire il ciclo di interfaccia
+      * Quante risorse multimediali si trovano sullo schermo contemporaneamente?
+      * Quante pagine per le applicazioni interattive?
+      * Definire il loop dell’interfaccia utente
       * Contenuti basati su dati?
    * Controllo della versione
 
 1. **Interattivo**
 
-   Interattivo include:
+   Include interattivi:
    * Tipo di touchscreen preferito?(resistivo, capacitivo, multi-touch)?
-      * Tasto
+      * Pressione pulsante
       * Gesto
    * Attivazione dei dati (I/O)?
       * Invio/ricezione di comandi seriali (chiusura a contatto, PLC, ecc.)
@@ -87,15 +86,15 @@ Prima di implementare un progetto di digital signage, è fondamentale definire g
       * Interno e esterno
       * Fuori portata o direttamente esposti
    * Requisito temp speciale?
-   * Prova di atti vandalici?
-   * Luce ambiente elevata? Forti contrasti?
+   * Prove vandaliche?
+   * Luce ambiente elevata? Contrasti forti?
 
 1. **Manutenzione**
 
-   La manutenzione mette in evidenza:
+   La manutenzione pone l&#39;accento su:
 
-   * Sono richieste guide/guide utente dettagliate per l&#39;installazione?
-   * È in corso la configurazione (programmazione) del dispositivo prima della spedizione?
-   * È necessario acquisire ciascun numero di serie a scopo di tracciamento?
-   * Esistono requisiti di alimentazione di backup (alimentazione non interrotta)?
+   * Sono richieste guide dettagliate all&#39;installazione/guide utente?
+   * Stiamo configurando (programmando) il dispositivo prima della spedizione?
+   * È necessario acquisire ogni numero di serie a scopo di tracciamento?
+   * Sono previsti requisiti di alimentazione di riserva (alimentazione non interrotta)?
    * Come vengono distribuiti gli aggiornamenti di sistema? E come vengono monitorati i dispositivi da remoto? È necessaria una soluzione MDM?
