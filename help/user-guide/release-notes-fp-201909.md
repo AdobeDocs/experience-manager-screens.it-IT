@@ -6,11 +6,10 @@ seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Fe
 feature: Feature Pack
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
