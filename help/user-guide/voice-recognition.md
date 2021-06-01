@@ -1,13 +1,12 @@
 ---
 title: Riconoscimento vocale in AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in AEM Screens.
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1126'
 ht-degree: 3%
 
 ---
@@ -153,7 +152,7 @@ Ora puoi utilizzare questi tag nel tuo progetto AEM Screens.
    |---|---|---|
    | Principale | 2 | Caricamento iniziale, Schermo inattivo, Timer |
    | HotDrinks | 1 | Interazione utente |
-   | Bevande fredde | 3 | Interazione utente |
+   | Bevande fredde | 1 | Interazione utente |
    | Schermo diviso | 1 | Interazione utente |
 
    >[!NOTE]
