@@ -9,13 +9,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '2540'
+source-wordcount: '2537'
 ht-degree: 3%
 
 ---
@@ -40,7 +39,7 @@ Per utilizzare la Sequenza incorporata dinamica, assegni un canale per ***Ruolo 
 
 ### Vantaggi dell&#39;utilizzo di sequenze incorporate dinamiche {#benefits-of-using-dynamic-embedded-sequences}
 
-Il vantaggio principale del posizionamento di un canale di sequenza all&#39;interno di una posizione invece che nella cartella dei canali è quello di consentire agli autori locali o regionali di modificare i contenuti pertinenti a loro, senza che sia necessario modificare i canali più in alto nella gerarchia.
+Il vantaggio principale del posizionamento di un canale per sequenza all&#39;interno di una posizione invece che nella cartella dei canali è quello di consentire agli autori locali o regionali di modificare i contenuti pertinenti a loro, senza che sia necessario modificare i canali più in alto nella gerarchia.
 
 Il riferimento a un *Canale per ruolo* consente di creare la versione locale di un canale, al fine di risolvere dinamicamente i contenuti specifici per la posizione e di creare un canale globale che sfrutti i contenuti per i canali specifici per la posizione.
 
@@ -309,8 +308,7 @@ I privilegi sono assegnati a ciascun gruppo come segue:
 #### Passaggi per creare gruppi di utenti, utenti e impostare ACL {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
->
->Per informazioni dettagliate su come separare i progetti utilizzando ACL in modo che ogni singolo utente o team gestisca il proprio progetto, consulta **Impostazione delle ACL**.
+Per informazioni dettagliate su come separare i progetti utilizzando ACL in modo che ogni singolo utente o team gestisca il proprio progetto, consulta **Impostazione delle ACL**.
 
 Segui i passaggi seguenti per creare gruppi, utenti e modificare le ACL in base alle autorizzazioni:
 
@@ -337,7 +335,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare le ACL in base 
    Allo stesso modo, crea altri due utenti come **Region-User** e **Store-User** e aggiungili rispettivamente a **Region-Author** e **Store-Author**.
 
    >[!NOTE]
-   >È consigliabile aggiungere utenti in un gruppo e quindi assegnare autorizzazioni a ciascun gruppo specifico di utenti.
+È consigliabile aggiungere utenti in un gruppo e quindi assegnare autorizzazioni a ciascun gruppo specifico di utenti.
 
    ![screen_shot_2018-09-17at34412pm](assets/screen_shot_2018-09-17at34412pm.png)
 
@@ -407,6 +405,5 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare le ACL in base 
    ![archiviare](assets/store.gif)
 
 >[!NOTE]
->
->Per informazioni dettagliate sull&#39;impostazione delle autorizzazioni, fare riferimento a [Impostazione delle ACL](setting-up-acls.md).
+Per informazioni dettagliate sull&#39;impostazione delle autorizzazioni, fare riferimento a [Impostazione delle ACL](setting-up-acls.md).
 
