@@ -1,13 +1,12 @@
 ---
 title: Giocatore Tizen
 description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
-feature: Administering Screens, Players
+feature: Amministrazione di schermi, lettori
 role: Administrator
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -65,7 +64,7 @@ Segui i passaggi seguenti sul dispositivo Samsung per completare l&#39;installaz
 ## Esenzione degli agenti utente con problema cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Questa sezione si applica a Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
+>**Questa sezione si applica ad Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
 >Alcuni motori del browser sono incompatibili con l&#39;attributo *SameSite=None* utilizzato nel token di accesso rilasciato da AEM 6.5 a AEM 6.7. Nella maggior parte dei casi il problema può essere risolto aggiornando il browser all&#39;ultima versione disponibile. In alcuni casi tali aggiornamenti potrebbero non essere possibili, ad esempio con display intelligenti, decoder o altri dispositivi con motori di navigazione incorporati.
 
 Segui i passaggi seguenti per esentare questi client incompatibili quando utilizzi *SameSite=None*:
