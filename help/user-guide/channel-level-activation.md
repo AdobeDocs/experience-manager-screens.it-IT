@@ -10,13 +10,12 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
-feature: Authoring Screens, Channel Level Activation
+feature: Creazione di schermi, Attivazione a livello di canale
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -73,11 +72,8 @@ L&#39;immagine seguente mostra il progetto **Attivazione a livello di canale** c
 >Per ulteriori informazioni su come creare un progetto e come creare un canale per sequenza, consulta le risorse seguenti:
 >
 >* [Creazione e gestione di progetti](creating-a-screens-project.md)
-   >
-   >
-* [Gestione di un canale](managing-channels.md)
 
->
+* [Gestione di un canale](managing-channels.md)
 
 
 
@@ -98,8 +94,7 @@ Per implementare la funzionalità , effettua le seguenti operazioni:
    ![screen_shot_2018-11-27at112112am](assets/screen_shot_2018-11-27at112112am.png)
 
    >[!NOTE]
-   >
-   >Per informazioni su come creare una posizione, consulta **[Creazione e gestione di posizioni](managing-locations.md)**.
+   Per informazioni su come creare una posizione, consulta **[Creazione e gestione di posizioni](managing-locations.md)**.
 
 1. **Crea visualizzazione in posizione**
 
@@ -125,8 +120,7 @@ Per implementare la funzionalità , effettua le seguenti operazioni:
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
-   >
-   >Puoi anche assegnare il canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** —> **Posizioni** —> **Regione** —> **Visualizzazione a livello di canale** e facendo clic su **Dashboard** dalla barra delle azioni. Fai clic su **+ Assegna canale** dal pannello **CANALI ASSEGNATI E PIANIFICAZIONI**.
+   Puoi anche assegnare il canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** —> **Posizioni** —> **Regione** —> **Visualizzazione a livello di canale** e facendo clic su **Dashboard** dalla barra delle azioni. Fai clic su **+ Assegna canale** dal pannello **CANALI ASSEGNATI E PIANIFICAZIONI**.
 
    Allo stesso modo, assegna il canale **TargetedSinglePlay** per la visualizzazione**:
 
