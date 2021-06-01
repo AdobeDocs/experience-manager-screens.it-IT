@@ -10,13 +10,12 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 3f130808-71e8-4710-8181-021d953660f8
 docset: aem65
-feature: Digital Signage, Content, Players
+feature: Digital Signage, contenuti, lettori
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '805'
 ht-degree: 2%
 
 ---
@@ -136,7 +135,7 @@ Attualmente alcune di queste funzioni sono disponibili solo se il *filtro di rif
 
 Segui i passaggi riportati di seguito per abilitare il filtro di riferimento Apache Sling Consenti vuoto
 
-1. Passa a **Configurazione console Web Adobe Experience Manager**, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Passa a **Configurazione della console Web Adobe Experience Manager**, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Seleziona l&#39;opzione **allow.empty** .
 1. Fai clic su **Salva**.
 
