@@ -4,13 +4,12 @@ seo-title: Creazione di modelli personalizzati nei layout MultiZone
 description: Segui questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
 seo-description: Segui questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
 contentOwner: Jyotika Syal
-feature: Developing Screens
+feature: Sviluppo di schermi
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
