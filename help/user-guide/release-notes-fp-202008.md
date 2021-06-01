@@ -4,10 +4,9 @@ description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 9d36c0ebc985b815ab41d3f3ef44baefa22db915
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 3%
 
 ---
@@ -55,7 +54,7 @@ La data di rilascio di AEM Screens Feature Pack 20208 è il 3 settembre 2020.
 
 Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Windows o Android Player.
 
-Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web Adobe Experience Manager
+Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web di Adobe Experience Manager
 Configurazione** su tutte le istanze di authoring e pubblicazione AEM.
 
 * Per ulteriori informazioni, consulta [Implementazione di Windows 10 Player](implementing-windows-player.md#fp-environment-setup) .
