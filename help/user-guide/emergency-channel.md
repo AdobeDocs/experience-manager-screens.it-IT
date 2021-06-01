@@ -9,13 +9,12 @@ topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
-feature: Authoring Screens
+feature: Creazione di esperienze in Screens
 role: Administrator, Developer
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '814'
 ht-degree: 9%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 9%
 
 Questa sezione descrive un esempio di caso d’uso che sottolinea la creazione e la gestione di un canale di emergenza e che l’autore del contenuto può passare da un canale di sequenza in caso di condizione preliminare.
 
-### Precondizioni {#preconditions}
+### Condizioni preliminari {#preconditions}
 
 Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 
