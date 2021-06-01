@@ -2,14 +2,13 @@
 title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare un progetto dimostrativo AEM Screens. Consente di creare un’esperienza di digital signage a partire dall’installazione e l’impostazione di un nuovo progetto per la visualizzazione dei contenuti in AEM Screens Player.
-feature: Overview, Digital Signage
+feature: Panoramica, Digital Signage
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 89c70e64ce1409888800af7c7edfbf92ab4b2c68
+source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 6%
+source-wordcount: '1320'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +35,7 @@ Segui i passaggi riportati di seguito per creare un progetto di esempio per AEM 
 
 ## Consenti richieste referente vuote {#allow-empty-referrer-requests}
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
+1. Passa a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
