@@ -4,10 +4,10 @@ description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: ffd8a340af2e826d5c3a4fec4fd0ec471da671e8
+source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 6%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -28,15 +28,13 @@ La data di rilascio per AEM Screens Feature Pack 202105 è il 10 giugno 2021.
 
 ### Novità {#what-is-new}
 
-* **Registrazione automatica AEM Screens dei giocatori**
-
-   Il lettore viene visualizzato come schermo nero quando si passa al canale che contiene una sequenza incorporata dinamica
+* Blocca pagina
 
 ### Correzioni di bug {#bug-fixes}
 
-* Il lettore viene visualizzato come schermo nero quando si passa al canale contiene una sequenza incorporata dinamica.
-
-
+* Il lettore visualizzava uno schermo nero quando si passa al canale contiene una sequenza incorporata dinamica.
+* Prestazioni di generazione del manifesto del canale migliorate.
+* I lettori Screens ora bloccano il passaggio a qualsiasi canale interrotto che evita ulteriormente l&#39;errore 404 o una pagina con un messaggio di errore.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
