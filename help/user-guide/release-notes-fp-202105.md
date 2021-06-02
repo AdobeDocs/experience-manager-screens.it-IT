@@ -4,10 +4,10 @@ description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 0568e55557dcae8e2afa6bebfc5898480892dda0
+source-git-commit: c237486b9fe574727f14b3425f634c8d13d33596
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Scarica l&#39;ultimo pacchetto di funzioni per AEM Screens 6.5.8 dal [portale di
 
 ## Data di rilascio {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 202105 è il 10 giugno 2021.
+La data di rilascio per AEM Screens Feature Pack 202105 è il 3 giugno 2021.
 
 ### Novità {#what-is-new}
 
@@ -32,8 +32,8 @@ La data di rilascio per AEM Screens Feature Pack 202105 è il 10 giugno 2021.
 
 ### Correzioni di bug {#bug-fixes}
 
-* Il lettore visualizzava uno schermo nero quando si passa al canale contiene una sequenza incorporata dinamica.
 * Prestazioni di generazione del manifesto del canale migliorate.
+* Il lettore visualizzava uno schermo nero quando si passa al canale contiene una sequenza incorporata dinamica.
 * I lettori Screens ora bloccano il passaggio a qualsiasi canale interrotto che evita ulteriormente l&#39;errore 404 o una pagina con un messaggio di errore.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
@@ -45,7 +45,6 @@ I seguenti lettori AEM Screens vengono rilasciati per AEM 6.5 Feature Pack 8:
 * Tizen
 * Android
 * Linux
-* iOS
 
 #### Download di AEM Screens Player {#aem-screens-player-downloads}
 
