@@ -4,9 +4,9 @@ description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e9539d91b1215240c371bdea62a304b2e62df8ec
+source-git-commit: 0c3e8835174e34c5e8455f1849351717884b6d0e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 13%
 
 ---
@@ -36,10 +36,8 @@ La data di rilascio per AEM Screens Feature Pack 202105 è il 3 giugno 2021.
 
    Generazione più rapida del manifesto del canale con prestazioni migliori, ad esempio l&#39;allocazione di meno risorse sul server.
 
-
 ### Correzioni di bug {#bug-fixes}
 
-* Prestazioni di generazione del manifesto del canale migliorate.
 * Il lettore visualizzava uno schermo nero quando si passa al canale contiene una sequenza incorporata dinamica.
 * I lettori Screens ora bloccano il passaggio a qualsiasi canale interrotto che evita ulteriormente l&#39;errore 404 o una pagina con un messaggio di errore.
 
