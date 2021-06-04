@@ -13,10 +13,10 @@ docset: aem65
 feature: Amministrazione di schermi, lettore Android
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 1%
+source-wordcount: '1513'
+ht-degree: 0%
 
 ---
 
@@ -177,6 +177,15 @@ La tabella seguente riepiloga gli attributi del criterio con un esempio di codic
 ## Provisioning in blocco di Android Player utilizzando Enterprise Mobility Management {#bulk-provisioning}
 
 Quando si distribuisce il lettore Android in serie, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
+
+## Denominazione di Android Player {#name-android}
+
+È possibile assegnare un nome di dispositivo facile da usare al lettore Android, inviando in tal modo il nome assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore Android, ma anche di assegnare facilmente il contenuto appropriato.
+
+Per configurare il nome in Android Player, effettua le seguenti operazioni:
+
+1. Passa a **impostazioni** —> **Informazioni su dispositivo**
+1. Modifica e imposta il nome del dispositivo per denominare il lettore Android
 
 ### Implementazione del provisioning in blocco di Android Player utilizzando Enterprise Mobility Management {#implementation}
 
