@@ -4,10 +4,10 @@ description: '"Segui questa pagina per ottenere informazioni su AEM Screens Feat
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+source-git-commit: 444535b38fdf112939fdbf4c0f3f48e1cc28c902
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 9%
+source-wordcount: '378'
+ht-degree: 10%
 
 ---
 
@@ -39,11 +39,11 @@ Per impostazione predefinita, quando la registrazione in serie viene utilizzata 
 
    Per informazioni su come configurare il nome in ciascun sistema operativo supportato, consulta la seguente documentazione:
 
-       * [Android](/help/user-guide/implementing-android-player.md#name-android)
-       * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-       * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-       * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
-   
+   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+   * [Sistema operativo Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+
 * **Generazione manifesto**
 
    Generazione più rapida del manifesto del canale con prestazioni migliori, ad esempio l&#39;allocazione di meno risorse sul server.
