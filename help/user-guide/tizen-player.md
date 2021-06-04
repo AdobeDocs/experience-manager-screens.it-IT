@@ -4,9 +4,9 @@ description: Questa pagina descrive l'installazione e il funzionamento di Tizen 
 feature: Amministrazione di schermi, lettori
 role: Administrator
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '985'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,15 @@ Effettua le seguenti operazioni:
 1. Ottieni l’IP o l’URL del server HTTP locale (e il percorso della cartella contenente i file estratti nel passaggio 2 se estratti in una sottocartella e non in una cartella principale)
 
 1. Il Tizen Player scaricherà il programma di installazione dal server locale.
+
+### Assegnazione di un nome a Tizen Player {#name-tizen}
+
+È possibile assegnare un nome di dispositivo semplice da usare al lettore Tizen, inviando in tal modo il nome assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore personalizzato, ma anche di assegnare facilmente il contenuto appropriato.
+
+Per configurare il nome in Tizen Player, effettua le seguenti operazioni:
+
+1. Fare clic sul pulsante del menu sul telecomando.
+1. Passa a **rete** —> **Nome dispositivo** per assegnare un nome al lettore.
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
 
