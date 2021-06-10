@@ -4,9 +4,9 @@ description: Questa pagina descrive l'installazione e il funzionamento di Tizen 
 feature: Amministrazione di schermi, lettori
 role: Administrator
 level: Intermediate
-source-git-commit: e955838d33cbe74719b237e568fb0bfd1a6844a2
+source-git-commit: ee731bc5169d2c76665bbfa18e3b8529619d83ce
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Nella tabella seguente sono riepilogati i criteri con le relative funzioni.
 | enableAdminUI | Abilita l’interfaccia utente amministratore per configurare il dispositivo sul sito. Imposta su false una volta configurato completamente e in produzione. |
 | enableOSD | Abilita l’interfaccia utente del commutatore del canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false una volta configurata completamente e in produzione. |
 | enableActivityUI | Attiva per mostrare l&#39;avanzamento delle attività come il download e la sincronizzazione. Attiva per la risoluzione dei problemi e disattiva una volta configurato completamente e in produzione. |
-| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a screens as a cloud service. false per connettersi ad AMS o a onPrem AEM. |
+| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens come Cloud Service. Imposta su false per connettersi ad AMS o a AEM on-Prem. |
 | cloudToken | Token di registrazione per registrarsi su Screens come Cloud Service. |
 
 
