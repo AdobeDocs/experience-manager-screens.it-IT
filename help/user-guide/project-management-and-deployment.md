@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
 feature: Panoramica
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
 
 ---
-
 
 # Parte 4: Gestione e distribuzione dei progetti {#part-project-management-and-deployment}
 
@@ -37,7 +37,7 @@ Questa pagina descrive la preproduzione del progetto, l’avvio del progetto e l
 >
 >I partner che adottano un approccio olistico nella gestione delle fasi di pre-produzione, iniziazione e progressione del progetto aiuteranno a garantire che i clienti finali siano in grado di realizzare il massimo valore dal loro investimento
 
-## Riepilogo di tutte e tre le fasi nella gestione dei progetti {#summary-of-all-three-phases-in-project-management}
+## Riepilogo di tutte e tre le fasi della gestione dei progetti {#summary-of-all-three-phases-in-project-management}
 
 Per supportare una distribuzione di digital signage di successo, è consuetudine segmentare il progetto in 3 fasi. Queste fasi sono comunemente denominate ***giorni***.
 
@@ -58,7 +58,7 @@ Il giorno zero si articola in otto fasi chiave che riguardano tutti gli aspetti 
 * Potenza e connettività
 * Revisione dei piani o disegni tecnici
 
-### Attività del primo giorno {#day-one-activities}
+### Attività giornaliere {#day-one-activities}
 
 La seconda fase, ***Primo giorno***, fa riferimento a tutte le attività incluse nello sforzo di distribuzione. Un altro importante documento tecnico per un progetto di successo è il Diagramma di Gantt distribuzione.
 
@@ -72,7 +72,7 @@ Mentre le opportunità di vendita passano a un progetto, è prevista una riunion
 * Ambito di applicazione
 * Requisiti del lavoro.
 
-### Attività del secondo giorno {#day-two-activities}
+### Attività Giorno 2 {#day-two-activities}
 
 L&#39;ultima parte di un&#39;iniziativa Day One è quella di completare un NOC Handoff. Se un progetto completato include un servizio e un supporto per il giorno 2, Project Manager organizzerà un incontro di assistenza NOC con i supervisori di tali team.
 
@@ -93,4 +93,3 @@ Segui questa esercitazione per saperne di più sulla gestione e la preparazione 
 Una volta effettuata l’analisi approfondita delle considerazioni chiave relative alla gestione dei progetti per le implementazioni di AEM Screens;
 
 Passa alla **[Parte 5: Considerazioni sul supporto](support-considerations.md)** per comprendere il supporto di Day 2 e i relativi processi.
-
