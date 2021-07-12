@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Amministrazione di schermi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 43%
 
 ---
-
 
 # Utilizzo di AEM Screens Player {#working-with-aem-screens-player}
 
@@ -86,7 +86,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 >
 >Si consiglia di disattivare l&#39; **Interfaccia utente amministratore** nelle implementazioni di produzione.
 
-#### Accesso alle opzioni del menu della cache dei contenuti {#content-cache-options}
+#### Accesso alle opzioni del menu Cache contenuto {#content-cache-options}
 
 Puoi cancellare la cache per i canali e le applicazioni dall&#39;interfaccia utente dell&#39;amministratore in AEM Screens Player.
 
@@ -112,7 +112,7 @@ Per visualizzare il controllo canali dal lettore, tenere premuto a lungo nell&#3
 >
 >(Consulta *Modifica preferenze da Screens Player* come menzionato nella sezione di seguito).
 
-### Gestione delle preferenze da AEM Screens Player  {#managing-preferences-from-the-aem-screens-player}
+### Gestione delle preferenze da AEM Screens Player {#managing-preferences-from-the-aem-screens-player}
 
 Puoi anche modificare le impostazioni per l&#39;interfaccia utente dell&#39;amministratore e il controllo canali dal lettore stesso.
 
