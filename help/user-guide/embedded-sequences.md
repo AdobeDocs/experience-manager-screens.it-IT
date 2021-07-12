@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: fc13d713-af30-4a54-8408-920f78fd2b2f
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 42%
 
 ---
-
 
 # Sequenze incorporate {#embedded-sequences}
 
@@ -111,4 +111,3 @@ Segui i passaggi sottostanti per aggiungere una sequenza incorporata al canale:
 1. Seleziona la scheda **Durata (ms)** in **Sequenza** per il canale incorporato nella sequenza.
 
 ![più recente](assets/latest.gif)
-
