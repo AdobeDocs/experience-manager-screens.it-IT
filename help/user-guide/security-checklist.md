@@ -4,21 +4,21 @@ seo-title: Lista di controllo sicurezza
 description: La pagina descrive le aree di protezione principali con un elenco di domande e considerazioni.
 seo-description: La pagina descrive la Lista di controllo protezione
 feature: Amministrazione di schermi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3d2835c8-d844-46fd-b35a-30feaced9dd8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-
-# Lista di controllo AEM Screens {#security-checklist}
+# Elenco di controllo della sicurezza di AEM Screens  {#security-checklist}
 
 La pagina Lista di controllo sicurezza di AEM Screens descrive le aree di protezione chiave con una lista di controllo contenente domande e considerazioni.
 
-## Tabella elenco di controllo {#checklist-table}
+## Tabella a elenco di selezione {#checklist-table}
 
 | **Area di sicurezza** | **Elenco di controllo** | **Sì/No/NA** |
 |---|---|---|
@@ -29,6 +29,6 @@ La pagina Lista di controllo sicurezza di AEM Screens descrive le aree di protez
 | **Sicurezza dell&#39;applicazione** | ***a.*** *Hai disabilitato Interfaccia utente amministratore, Controllo canali e Interfaccia utente attività per la produzione?* <br>***b.*** *Hai ridotto al minimo il livello di log per la produzione?* <br>***c.*** *Utilizzi https per la connessione a AEM?* <br>***d.*** *Utilizzi un certificato firmato CA o un PKI Enterprise? (non certificati autofirmati)*<br>***e.*** *Utilizzi TLS e non SSL v3?*<br>***f.*** *Stai convalidando il token di registrazione sul dispositivo e AEM durante la registrazione?*<br> ***g.*** *Hai classificato i dati in uso e che sul dispositivo non esiste alcun PII o PHI?*<br> ***h.*** *Hai classificato i dati in uso e che sul dispositivo non esistono informazioni personali identificabili (PII) o informazioni sanitarie protette (PHI)?*<br> ***i.*** *Hai configurato il monitoraggio delle e-mail e disponi di un SOP per rispondere al monitoraggio delle e-mail e alla gestione dei dispositivi non ping?* |
 | **Controllo accesso** | ***a.*** *Hai un controllo dell&#39;accesso basato sul ruolo (RBAC) identificato e gestito internamente?* <br>***b.*** *Hai seguito il principio del minimo privilegio nel fornire l&#39;accesso ad autori, amministratori e giocatori utilizzando le best practice di Adobe?* |
 
-### Download della checklist di sicurezza {#download-checklist}
+### Download della lista di controllo della sicurezza {#download-checklist}
 
 Per scaricare la Lista di controllo sicurezza AEM Screens, fai clic [qui](/help/user-guide/assets/AEMScreens-SecurityChecklist.pdf).
