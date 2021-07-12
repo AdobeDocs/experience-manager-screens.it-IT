@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
 
 ---
-
 
 # Attivazione prenotazione alberghiera {#hospitality-reservation-activation}
 
@@ -86,6 +86,4 @@ Per implementare il caso d’uso per l’attivazione della prenotazione di un’
 
    1. Fare clic su **Anteprima.** Inoltre, apri i tuoi Google Sheets e ne aggiorna il valore.
    1. Aggiorna il valore nelle colonne **Ristorante1** e **Ristorante2** . Se **Ristorante1** > **Ristorante2,** si deve essere in grado di visualizzare un&#39;immagine di *Bistecca* cibo altrimenti, sullo schermo viene visualizzata l&#39;immagine del cibo *Thai*.
-
    ![risultato5](assets/result5.gif)
-
