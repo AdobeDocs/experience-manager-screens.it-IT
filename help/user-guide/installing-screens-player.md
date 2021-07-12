@@ -5,15 +5,15 @@ description: Segui questa pagina per informazioni sull'installazione di AEM Scre
 seo-description: Installazione di Screens Player
 contentOwner: jsyal
 feature: Amministrazione di schermi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
-
 
 # Installazione di AEM Screens Player {#installing-player}
 
