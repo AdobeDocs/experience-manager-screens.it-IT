@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d409ba46-b48a-44db-b305-27c392cd55de
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 9%
 
 ---
-
 
 # Canale di emergenza {#emergency-channel}
 
@@ -35,11 +35,11 @@ Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
 
-### Attori principali {#primary-actors}
+### Attori primari {#primary-actors}
 
 Autori di contenuti
 
-## Flusso di base: Configurazione del progetto {#basic-flow-setting-up-the-project}
+## Flusso di base: Impostazione del progetto {#basic-flow-setting-up-the-project}
 
 Per impostare un canale di emergenza, effettua le seguenti operazioni:
 
