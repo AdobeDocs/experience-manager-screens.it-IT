@@ -11,17 +11,17 @@ topic-tags: administering
 discoiquuid: f1df8d05-bb61-4bc9-aea1-c6af9e3519b4
 docset: aem65
 feature: Amministrazione di schermi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 2%
 
 ---
 
-
-# Nuova importazione di progetti dal file {#new-project-importer-from-file}
+# Importazione di nuovi progetti da file {#new-project-importer-from-file}
 
 Questa sezione descrive una funzionalità per importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens.
 
@@ -126,4 +126,3 @@ Per importare un file in una cartella di posizioni con campi obbligatori minimi,
 1. Di conseguenza, ora potrai visualizzare tutte le posizioni importate nel progetto.
 
    ![screen_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
-
