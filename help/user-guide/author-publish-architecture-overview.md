@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
 feature: Amministrazione di schermi
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
 
 ---
-
 
 # Panoramica dell’architettura di authoring e pubblicazione {#author-and-publish-architectural-overview}
 
@@ -61,7 +61,7 @@ Sono disponibili cinque componenti architettonici che facilitano questa soluzion
 * ****** Messaggistica tra istanze di pubblicazione per sincronizzare gli aggiornamenti e i comandi delle informazioni sul dispositivo
 * ****** Inchiostro da parte dell’autore delle istanze di pubblicazione per ottenere informazioni sul dispositivo tramite API REST specifiche
 
-### Replica (avanti) dei contenuti e delle configurazioni {#replication-forward-of-content-and-configurations}
+### Replica (avanti) dei contenuti e delle configurazioni  {#replication-forward-of-content-and-configurations}
 
 Gli agenti di replica standard vengono utilizzati per replicare il contenuto del canale delle schermate, le configurazioni della posizione e le configurazioni del dispositivo. Questo consente agli autori di aggiornare il contenuto di un canale ed eventualmente di passare attraverso un flusso di lavoro di approvazione prima di pubblicare gli aggiornamenti del canale. È necessario creare un agente di replica per ogni istanza di pubblicazione nella farm di pubblicazione.
 
@@ -73,13 +73,13 @@ Il diagramma seguente illustra il processo di replica:
 >
 >È necessario creare un agente di replica per ogni istanza di pubblicazione nella farm di pubblicazione.
 
-### Comandi e agenti di replica Screens {#screens-replication-agents-and-commands}
+### Agenti e comandi di replica Screens  {#screens-replication-agents-and-commands}
 
 Vengono creati agenti di replica specifici per gli schermi personalizzati per inviare i comandi dall&#39;istanza Author al dispositivo AEM Screens. Le istanze di AEM Publish fungono da intermediario per inoltrare questi comandi al dispositivo.
 
 Questo consente agli autori di continuare a gestire il dispositivo, ad esempio inviare aggiornamenti del dispositivo e scattare schermate dall’ambiente di authoring. Gli agenti di replica AEM Screens dispongono di una configurazione di trasporto personalizzata, come gli agenti di replica standard.
 
-### Messaggistica tra istanze di pubblicazione {#messaging-between-publish-instances}
+### Messaggistica tra istanze di pubblicazione  {#messaging-between-publish-instances}
 
 In molti casi, un comando deve essere inviato a un dispositivo una sola volta. Tuttavia, in un&#39;architettura di pubblicazione con bilanciamento del carico, non è noto a quale istanza di pubblicazione il dispositivo si sta connettendo.
 
@@ -94,7 +94,7 @@ In molti casi, seguendo un comando, è previsto un qualche tipo di risposta dal 
 * Una replica inversa in questo contesto viene utilizzata solo per i dati binari (come file di registro e schermate) forniti dai dispositivi. I dati non binari vengono recuperati dal polling.
 * La replica inversa estratta dall&#39;istanza di authoring AEM recupera la risposta e la salva nell&#39;istanza di authoring.
 
-### Polling delle istanze di pubblicazione {#polling-of-publish-instances}
+### Polling delle istanze di pubblicazione  {#polling-of-publish-instances}
 
 L’istanza autore deve essere in grado di eseguire il polling dei dispositivi per ottenere un heartbeat e conoscere lo stato di integrità di un dispositivo connesso.
 
