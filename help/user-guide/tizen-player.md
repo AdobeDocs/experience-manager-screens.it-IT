@@ -2,15 +2,15 @@
 title: Giocatore Tizen
 description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
 feature: Amministrazione di schermi, lettori
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 948515fb2f1fd3d1f94476cf5fe3983098d3b950
+exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
 
 ---
-
 
 # Implementazione di Tizen Player {#tizen-player}
 
@@ -70,7 +70,7 @@ Segui i passaggi seguenti sul dispositivo Samsung per completare l&#39;installaz
    >Sia il dispositivo Tizen che il server `http` devono essere in grado di connettersi tra loro, ovvero il server deve essere raggiungibile con il lettore Tizen.
 
 
-## Esenzione degli agenti utente con problema cookie SameSite {#exempting-user-agents}
+## Esenzione degli agenti utente con il problema del cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
 >**Questa sezione si applica ad Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
@@ -98,7 +98,7 @@ Assicurati di aver configurato l’indirizzo del modulo di avvio URL sul disposi
 Sul server `HTTP` che ospita l&#39;applicazione Tizen, posizionare il file `config.json` nella stessa posizione del file `wgt`. Il nome del file deve essere `config.json`.
 Il Tizen Player verrà installato e al momento del riavvio (e ogni riavvio) controllerà e applicherà le impostazioni nel file `config.json`.
 
-### Esempio di criteri JSON {#example-json}
+### Criteri JSON di esempio {#example-json}
 
 ```java
 {
@@ -164,4 +164,3 @@ Segui i passaggi seguenti per registrare il dispositivo Tizen al servizio di ges
    ![immagine](/help/user-guide/assets/tizen/rms-9.png)
 
 1. Fai clic su **Salva** per visualizzare le modifiche nella schermata di visualizzazione.
-
