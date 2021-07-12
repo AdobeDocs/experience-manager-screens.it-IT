@@ -6,15 +6,15 @@ seo-description: Segui questa pagina per informazioni su Aggiornamento dei conte
 uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
 contentOwner: Jyotika syal
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
 
 ---
-
 
 # Aggiornamento dei contenuti come servizio {#content-update-as-a-service}
 
@@ -43,7 +43,7 @@ Puoi anche pianificare questa attività per un periodo di traffico di rete infer
 
 Puoi utilizzare manualmente l’aggiornamento offline in blocco dall’interfaccia utente o pianificare l’aggiornamento in blocco dai servizi OSGi.
 
-### Utilizzo dell&#39;interfaccia utente di AEM Screens {#using-aem-screens-user-interface}
+### Utilizzo dell’interfaccia utente di AEM Screens {#using-aem-screens-user-interface}
 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
@@ -52,7 +52,7 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configurazione della console Web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configurazione della console Web di Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
@@ -74,4 +74,3 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
    **Pianificazione** FrequenzaSpecifica un&#39;ora, ad esempio le 17:00 o le 17:00, in cui il servizio deve aggiornare il contenuto offline.
 
 1. Fai clic su **Salva** per salvare le impostazioni e il contenuto verrà aggiornato all&#39;ora specificata.
-
