@@ -5,15 +5,15 @@ description: Segui questo caso d’uso per creare un singolo canale TakeOver.
 seo-description: Segui questo caso d’uso per creare un singolo canale TakeOver.
 contentOwner: jsyal
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 2%
 
 ---
-
 
 # Canale TakeOver per uso singolo {#single-use-takeover-channel}
 
@@ -34,11 +34,11 @@ Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
 
-### Attori principali {#primary-actors}
+### Attori primari {#primary-actors}
 
 Autori di contenuti
 
-## Configurazione del progetto {#setting-up-the-project}
+## Impostazione del progetto {#setting-up-the-project}
 
 Per impostare un progetto, effettua le seguenti operazioni:
 
