@@ -3,15 +3,15 @@ title: Guida di Kickstart
 seo-title: Guida di Kickstart
 description: Segui questa pagina per creare un progetto dimostrativo AEM Screens. Consente di creare un’esperienza di digital signage a partire dall’installazione e l’impostazione di un nuovo progetto per la visualizzazione dei contenuti in AEM Screens Player.
 feature: Panoramica, Digital Signage
-role: Business Practitioner
+role: User
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 5%
 
 ---
-
 
 # Guida di Kickstart {#kickstart-guide}
 
@@ -39,7 +39,7 @@ Segui i passaggi riportati di seguito per creare un progetto di esempio per AEM 
 
    ![immagine](assets/config/empty-ref1.png)
 
-1. **Viene** aperta la configurazione della console Web Adobe Experience Manager. Cerca il referrer sling.
+1. **Viene visualizzata la** configurazione della console Web Adobe Experience Manager. Cerca il referrer sling.
 
    Per cercare la proprietà del referente sling, premere **Comando+F** per **Mac** e **Control+F** per **Windows**.
 
@@ -49,7 +49,7 @@ Segui i passaggi riportati di seguito per creare un progetto di esempio per AEM 
 
 1. Fai clic su **Salva** per abilitare il filtro di riferimento Apache Sling Allow Empty.
 
-## Creazione di un’esperienza di digital signage in 5 minuti {#creating-a-digital-signage-experience-in-minutes}
+## Creazione di un&#39;esperienza di digital signage in 5 minuti {#creating-a-digital-signage-experience-in-minutes}
 
 ### Creazione di un progetto AEM Screens {#creating-project}
 
@@ -103,7 +103,7 @@ Per aggiungere contenuti al canale (**TestChannel**) nel progetto, effettua le s
 
    ![immagine](assets/kickstart/demo-7.png)
 
-### Creazione di una posizione{#creating-location} 
+### Creazione di una posizione  {#creating-location}
 
 Una volta installato il canale, devi creare una posizione.
 
