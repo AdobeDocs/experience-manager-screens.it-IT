@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: c28fd669-f23e-4d53-bec1-a2911274567d
 noindex: true
 feature: Creazione di schermi, Attivazione a livello di canale
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
 
 ---
-
 
 # Attivazione a livello di canale {#channel-level-activation-single-event-playback}
 
@@ -190,7 +190,7 @@ Nella tabella seguente sono riepilogati alcuni esempi di espressioni che è poss
 >[!NOTE]
 È inoltre possibile utilizzare la notazione _tempo militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero 2:00 pm).
 
-### Ripartizione settimanale {#week-parting}
+### WeekParting {#week-parting}
 
 1. Seleziona il canale e fai clic su **Dashboard** nella barra delle azioni per aprire il dashboard del canale.
 
@@ -265,4 +265,3 @@ Nella tabella seguente sono riepilogati alcuni esempi di espressioni che è poss
 
 >[!NOTE]
 Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le note a mano breve che a nome completo, ad esempio, lunedì/lunedì e gennaio/gennaio.  Inoltre, è possibile utilizzare la notazione _tempo militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero 2:00 pm).
-
