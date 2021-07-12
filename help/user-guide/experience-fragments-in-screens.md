@@ -1,8 +1,8 @@
 ---
 title: Utilizzo di Frammenti esperienza
 seo-title: Utilizzo di Frammenti esperienza
-description: 'Leggi questa pagina per scoprire come utilizzare Frammenti esperienza in AEM Screens. '
-seo-description: 'Leggi questa pagina per scoprire come utilizzare Frammenti esperienza in AEM Screens. '
+description: Leggi questa pagina per scoprire come utilizzare Frammenti esperienza in AEM Screens.
+seo-description: Leggi questa pagina per scoprire come utilizzare Frammenti esperienza in AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
 feature: Creazione di schermi, frammenti esperienza
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 13c0d75e-435f-433e-8886-f451df863517
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 8%
 
 ---
-
 
 # Utilizzo di Frammenti esperienza {#using-experience-fragments}
 
@@ -171,7 +171,7 @@ Dopo aver completato i passaggi precedenti, puoi convalidare il frammento esperi
 Puoi visualizzare il contenuto dalla pagina **Sites** (Live Copy del frammento di esperienza) nel tuo canale, come illustrato nella figura seguente:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
-## Propagazione delle modifiche apportate alla pagina {#propagating-changes-from-the-master-page}
+## Propagazione delle modifiche alla pagina {#propagating-changes-from-the-master-page}
 
 ***Live*** Copy fa riferimento alla copia (dell’origine), gestita dalle azioni di sincronizzazione definite dalle configurazioni di rollout.
 
@@ -219,4 +219,3 @@ Per confermare le modifiche apportate al canale, effettua le seguenti operazioni
 
 L&#39;immagine seguente illustra le modifiche apportate a **TestChannel**:\
 ![screen_shot_2018-06-08at3351pm](assets/screen_shot_2018-06-08at33351pm.png)
-
