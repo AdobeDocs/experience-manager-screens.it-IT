@@ -3,15 +3,15 @@ title: Authoring con Data Triggers
 seo-title: Authoring con Data Triggers
 description: Segui questa pagina per scoprire come creare con i trigger di dati.
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
 
 ---
-
 
 # Authoring con Data Triggers {#authoring-with-data-triggers}
 
@@ -75,7 +75,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
 1. Seleziona **Marchio** e **Attività** dal menu a discesa, quindi fai clic su **Avvia targeting**.
 
-### Ulteriori informazioni: Esempi di casi d&#39;uso {#learn-more-example-use-cases}
+### Ulteriori informazioni: Esempi di casi d’uso {#learn-more-example-use-cases}
 
 Dopo aver configurato ContextHub per il progetto AEM Screens, puoi seguire i diversi casi d’uso per comprendere in che modo i dati che hanno attivato le risorse svolgono un ruolo fondamentale in settori diversi:
 
