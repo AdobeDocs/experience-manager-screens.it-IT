@@ -5,15 +5,15 @@ description: Segui questo caso d’uso per creare un canale TakeOver permanente.
 seo-description: Segui questo caso d’uso per configurare un progetto che crea un canale Perpetual TakeOver che viene riprodotto continuamente per un giorno e un’ora specifici.
 contentOwner: jsyal
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
 
 ---
-
 
 # Canale di acquisizione perpetuo {#perpetual-takeover-channel}
 
@@ -33,11 +33,11 @@ Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
 
-### Attori principali {#primary-actors}
+### Attori primari {#primary-actors}
 
 Autori di contenuti
 
-## Configurazione del progetto {#setting-up-the-project}
+## Impostazione del progetto {#setting-up-the-project}
 
 Per impostare un progetto, effettua le seguenti operazioni:
 
