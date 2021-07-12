@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Amministrazione di schermi, registrazione dei dispositivi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
 
 ---
-
 
 # Registrazione dispositivo {#device-registration}
 
@@ -159,7 +159,7 @@ Una volta registrati i dispositivi sul lettore, puoi visualizzarli dall&#39;inte
 
 * Se il nome del dispositivo è *BostonStoreLobby* e la ricerca di *boston* non restituirà il risultato, invece di utilizzare *boston** nei criteri di ricerca restituirà il risultato.
 
-## Limitazioni per la registrazione del dispositivo {#limitations-on-device-registration}
+## Limitazioni della registrazione del dispositivo {#limitations-on-device-registration}
 
 Le restrizioni relative alla password utente a livello di sistema potrebbero causare un errore nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata in modo casuale per creare l’utente del dispositivo.
 
