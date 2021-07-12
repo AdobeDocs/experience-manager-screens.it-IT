@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
 feature: Amministrazione di schermi, Windows Player
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 1%
 
 ---
-
 
 # Implementazione di Windows 10 Player {#implementing-windows-player}
 
@@ -34,7 +34,7 @@ Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >Non è disponibile una modalità finestra in Windows Player. È sempre in modalità a schermo intero.
 
-### Configurazione dell&#39;ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >Se si utilizza AEM Screens 6.5.5 Service Pack, è necessario configurare un ambiente per Windows Player.
@@ -54,7 +54,7 @@ Configurazione** utilizzando `http://localhost:4502/system/console/configMgr`.
 
 1. Fai clic su **Salva**.
 
-### Metodo ad hoc {#ad-hoc-method}
+### Ad Hoc, metodo {#ad-hoc-method}
 
 Il metodo Ad-Hoc consente di installare l&#39;ultimo Windows Player (*.exe*). Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
@@ -128,7 +128,7 @@ La tabella seguente riepiloga gli attributi del criterio con un esempio di codic
 | enableOSD | Abilita l’interfaccia utente del commutatore del canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false una volta configurata completamente e in produzione. |
 | enableActivityUI | Attiva per mostrare l&#39;avanzamento delle attività come il download e la sincronizzazione. Attiva per la risoluzione dei problemi e disattiva una volta configurato completamente e in produzione. |
 
-#### Esempio di file JSON dei criteri {#example-policy-json-file}
+#### Esempio di file JSON per i criteri {#example-policy-json-file}
 
 ```
 {
@@ -193,4 +193,3 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
-
