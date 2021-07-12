@@ -10,17 +10,17 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Amministrazione di schermi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
-
-# Implementazione di Chrome OS Player {#implementing-chrome-os-player}
+# Implementazione di Chrome OS Player  {#implementing-chrome-os-player}
 
 Questa sezione descrive come implementare Chrome OS Player utilizzando la console di gestione Chrome.
 
@@ -91,7 +91,7 @@ Per attivare la modalità Kiosk, effettua le seguenti operazioni:
 >
 >Tieni presente che queste impostazioni possono essere attivate diversi minuti dopo la registrazione del dispositivo. Ogni opzione può diventare attivata nel tempo.
 
-### Configurazione della configurazione remota dei lettori del sistema operativo Chrome {#configuring-remote-configuration-of-chrome-os-players}
+### Configurazione della configurazione remota dei lettori di sistema operativo Chrome {#configuring-remote-configuration-of-chrome-os-players}
 
 AEM Screens Player è un&#39;applicazione abilitata per i chioschi che abilita anche la configurazione dei criteri remoti per i lettori di sistema operativo Chrome.
 
@@ -108,7 +108,7 @@ Segui i passaggi seguenti per configurare varie opzioni del lettore:
 >
 >Riavvia il dispositivo per sincronizzare le modifiche ai criteri.
 
-#### Esempio di file JSON dei criteri {#example-policy-json-file}
+#### Esempio di file JSON per i criteri {#example-policy-json-file}
 
 ```java
 {
