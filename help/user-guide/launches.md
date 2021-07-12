@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: 9cd8892b-fe5d-4ad3-9b10-10ff068adba6
 docset: aem65
 feature: Creazione di schermi, avvii
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 0%
 
 ---
-
 
 # Aggiornamento dei contenuti tramite Screens Launch {#launches}
 
@@ -47,7 +47,7 @@ L&#39;esecuzione di un&#39;esperienza sulla data di inizio impostata sul lettore
 
 * eventuali differenze di tempo tra il server e il lettore
 
-### Periodo di tolleranza {#understanding-grace-period}
+### Informazioni sul periodo di tolleranza {#understanding-grace-period}
 
 Affinché il lettore possa iniziare a riprodurre il contenuto nella data di inizio impostata, è necessario avviare le attività precedenti prima della data di inizio.
 
@@ -154,7 +154,7 @@ Per implementare la funzionalità Launch di Screens nel progetto AEM Screens, ef
    ![Immagine](/help/user-guide/assets/launches-images/launches-16.png)
 
 
-### Modifica delle proprietà di Launch per impostare la data e l&#39;ambito live {#editing-the-launch-properties-to-set-the-live-date-and-scope}
+### Modifica delle proprietà di Launch per impostare la data e l’ambito live {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
 Dopo aver creato il lancio, puoi aggiornare le proprietà come data di lancio, titolo del lancio e ambito di promozione utilizzando **Proprietà lancio**.
 
@@ -177,7 +177,7 @@ Per modificare le proprietà del lancio, effettua le seguenti operazioni:
 
    ![immagine](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Modifica del lancio di Screens per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modifica del lancio di Screens per aggiungere o rimuovere canali  {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Dopo aver creato il lancio, puoi aggiungere o rimuovere canali al lancio esistente utilizzando l&#39;opzione **Modifica lancio**.
 
@@ -207,4 +207,3 @@ Puoi eliminare il lancio utilizzando l’opzione **Elimina lancio** dal pannello
 >[!CAUTION]
 >
 >Questa azione eliminerà anche tutti i discendenti (lanci nidificati).
-
