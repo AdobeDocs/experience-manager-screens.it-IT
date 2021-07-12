@@ -11,15 +11,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 59430d38-b441-4488-934e-74a55122b063
 docset: aem65
 feature: Panoramica
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # Parte 5: Considerazioni sul supporto {#part-support-considerations}
 
@@ -59,7 +59,7 @@ Di seguito sono riportate alcune considerazioni chiave per il supporto di Day 2:
 * Alcuni produttori di schermi offrono la possibilità di monitorare gli schermi indipendentemente dai lettori multimediali, mentre altri richiedono un dispositivo esterno.
 * Gli integratori AV utilizzano una combinazione di tecnologie, per cui le soluzioni rimangono flessibili per soddisfare al meglio le esigenze dei clienti finali.
 
-## Parte 5: Tutorial video sulle considerazioni relative al supporto {#part-video-tutorial-on-support-considerations}
+## Parte 5: Tutorial video sulle considerazioni sul supporto {#part-video-tutorial-on-support-considerations}
 
 Segui questa esercitazione conclusiva su un tutorial in 5 parti riportato di seguito che sottolinea come garantire l’allineamento e una transizione senza problemi dall’implementazione al supporto operativo. Inoltre, spiega come un AEM implementatore deve lavorare con l&#39;integratore AV per garantire script di supporto adeguati, definiti come parte del piano di supporto Day 2.
 
@@ -72,4 +72,3 @@ Segui questa esercitazione conclusiva su un tutorial in 5 parti riportato di seg
 ## Conclusione {#conclusion}
 
 Queste serie di 5 parti si concentrano su considerazioni chiave fondamentali per garantire il successo del progetto. Per informazioni dettagliate sull’implementazione, consulta altre sezioni della Guida utente di AEM Screens .
-
