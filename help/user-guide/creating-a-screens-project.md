@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 00ea321c-3f79-4aa5-83cc-3fa2fe9e35d9
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 38%
 
 ---
-
 
 # Creazione e gestione di progetti {#creating-and-managing-projects}
 
@@ -85,4 +85,3 @@ I passaggi seguenti mostrano la creazione di una cartella applicazioni nella pag
 ### Passaggi successivi {#the-next-steps}
 
 Dopo aver creato un progetto personalizzato, consulta [Gestione canali](managing-channels.md) per creare e gestire il contenuto del canale.
-
