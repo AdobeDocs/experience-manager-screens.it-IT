@@ -11,15 +11,15 @@ topic-tags: authoring
 discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 3%
 
 ---
-
 
 # Sovrapposizione testo {#text-overlay}
 
@@ -74,7 +74,7 @@ Segui i passaggi seguenti per utilizzare la sovrapposizione di testo in un canal
 
    ![screen_shot_2018-12-16at80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
-### Proprietà di sovrapposizione testo {#understanding-text-overlay-properties}
+### Informazioni sulle proprietà della sovrapposizione testo {#understanding-text-overlay-properties}
 
 Utilizzando le proprietà Sovrapposizione testo , puoi aggiungere testo a qualsiasi componente del progetto Screens. La sezione seguente fornisce una panoramica delle proprietà disponibili in Sovrapposizione testo:
 
@@ -90,7 +90,7 @@ Utilizzando le proprietà Sovrapposizione testo , puoi aggiungere testo a qualsi
 >
 >Per utilizzare correttamente gli strumenti a grana fine, accertati di identificare la posizione corretta in pixel utilizzando (px) come suffisso, ad esempio 200px. Il risultato di questa espressione sarà di 200 pixel dal punto iniziale.
 
-## Utilizzo dei valori ContextHub nella sovrapposizione testo {#using-text-overlay-context-hub}
+## Utilizzo dei valori ContextHub nella sovrapposizione del testo {#using-text-overlay-context-hub}
 
 La sezione seguente descrive l&#39;utilizzo dei valori da un archivio dati, ad esempio, google sheet nel componente sovrapposizione testo.
 
@@ -149,18 +149,3 @@ Una volta configurate le configurazioni richieste per il progetto, segui i passa
 1. Fai clic su **Anteprima** per visualizzare l&#39;output desiderato.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
