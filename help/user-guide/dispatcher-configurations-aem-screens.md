@@ -4,15 +4,15 @@ seo-title: Configurazioni del Dispatcher per AEM Screens
 description: Questa pagina illustra le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
 seo-description: Questa pagina illustra le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
 feature: Amministrazione di schermi
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 6%
 
 ---
-
 
 # Configurazioni del Dispatcher per AEM Screens{#dispatcher-configurations-for-aem-screens}
 
@@ -90,7 +90,7 @@ Per configurare i filtri Screens, aggiungi quanto segue a ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Passaggio 3: Disabilitazione della cache del dispatcher {#step-disabling-dispatcher-cache}
+### Passaggio 3: Disattivazione della cache del Dispatcher {#step-disabling-dispatcher-cache}
 
 Disattiva la memorizzazione in cache del dispatcher per ***/content/screens path***.
 
