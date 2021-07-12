@@ -3,15 +3,15 @@ title: Assegnazione dei canali
 seo-title: Assegnazione dei canali
 description: Segui questa pagina per informazioni sull'assegnazione dei canali e la suddivisione dei giorni.
 feature: Screens di authoring, Assegnazione canale
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 41%
 
 ---
-
 
 # Assegnazione dei canali {#channel-assignment}
 
@@ -177,5 +177,4 @@ In questo esempio viene illustrato DayParting per un negozio che visualizza la p
 >
 >* [Gestione della ricorrenza nelle risorse](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestione della ricorrenza per le risorse in un canale](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-
 
