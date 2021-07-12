@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
 
 ---
-
 
 # Attivazione mirata inventario retail {#retail-inventory-targeted-activation}
 
@@ -123,6 +123,4 @@ Segui i passaggi seguenti per implementare il caso di utilizzo di Attivazione de
 
    1. Fare clic su **Anteprima.** Inoltre, apri il tuo foglio di Google e aggiorna il suo valore.
    1. Modifica il valore per tutte e tre le colonne e noterai gli aggiornamenti dell&#39;immagine di visualizzazione in base al valore più alto nell&#39;inventario.
-
    ![retail_result](assets/retail_result.gif)
-
