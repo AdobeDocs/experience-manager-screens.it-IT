@@ -4,17 +4,17 @@ description: Segui questa pagina per scoprire il caso d’uso MultiZone to Singl
 seo-description: 'Caso di utilizzo: Transizioni da MultiZone a SingleZone.'
 contentOwner: Jyotika Syal
 feature: Creazione di esperienze in Screens
-role: Developer, Business Practitioner
+role: Developer, User
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
 
 ---
 
-
-# Transizione da più aree a più aree {#multizone-to-singlezone-use-case}
+# Transizione da zona a zona singola {#multizone-to-singlezone-use-case}
 
 
 ## Descrizione di un caso d’uso {#use-case-description}
@@ -30,11 +30,11 @@ Prima di iniziare questo caso d’uso, assicurati di comprendere come:
 * **[Creare e gestire le pianificazioni](managing-schedules.md)**
 * **[Registrazione dispositivo](device-registration.md)**
 
-### Attori principali {#primary-actors}
+### Attori primari {#primary-actors}
 
 Autori di contenuti
 
-## Configurazione del progetto {#setting-up-the-project}
+## Impostazione del progetto {#setting-up-the-project}
 
 Per impostare un progetto, effettua le seguenti operazioni:
 
@@ -76,7 +76,7 @@ Per impostare un progetto, effettua le seguenti operazioni:
 
    ![risorsa](assets/mz-to-sz7.png)
 
-## Controllo dell&#39;anteprima {#checking-the-preview}
+## Controllo dell’anteprima {#checking-the-preview}
 
 Puoi visualizzare l&#39;output desiderato dal lettore o semplicemente facendo clic su **Anteprima** dall&#39;editor.
 
