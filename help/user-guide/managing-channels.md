@@ -4,15 +4,15 @@ seo-title: Gestione dei canali
 description: Segui le informazioni contenute in questa pagina per creare e gestire canali. Sono anche contenute spiegazioni sul dashboard per canale e sulla modifica del contenuto per un canale.
 seo-description: Segui le informazioni contenute in questa pagina per creare e gestire canali. Sono anche contenute spiegazioni sul dashboard per canale e sulla modifica del contenuto per un canale.
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 42%
 
 ---
-
 
 # Creazione e gestione dei canali {#creating-and-managing-channels}
 
@@ -259,4 +259,3 @@ Per i passaggi successivi, consulta le risorse seguenti:
 * [Creare e gestire i canali](managing-channels.md)
 * [Creare e gestire posizioni](managing-locations.md)
 * [Creare e gestire le visualizzazioni](managing-displays.md)
-
