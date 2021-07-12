@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
-
 
 # Creazione di un flusso di lavoro di spaziatura video {#creating-a-video-padding-workflow}
 
@@ -113,7 +113,7 @@ Per utilizzare il flusso di lavoro nel progetto AEM Screens, effettua le seguent
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 
-## Convalida dell&#39;output per il flusso di lavoro {#validating-the-output-for-the-workflow}
+## Convalida dell’output per il flusso di lavoro {#validating-the-output-for-the-workflow}
 
 Puoi convalidare l’output tramite:
 
@@ -121,4 +121,3 @@ Puoi convalidare l’output tramite:
 * Passa a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)
-
