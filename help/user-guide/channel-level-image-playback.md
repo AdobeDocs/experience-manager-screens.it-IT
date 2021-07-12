@@ -11,15 +11,15 @@ content-type: reference
 discoiquuid: df3cf999-0c8d-4754-8b58-5c6ced2c8ca5
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 4%
 
 ---
-
 
 # Durata della riproduzione di immagini in serie a livello di canale {#channel-level-bulk-image-playback-duration}
 
@@ -41,7 +41,7 @@ Prima di iniziare a implementare questa funzionalità, assicurati di aver impost
 
 La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un canale AEM Screens.
 
-### Aggiornamento della durata di riproduzione per le immagini in un canale {#updating-the-playback-duration-for-images-in-a-channel}
+### Aggiornamento della durata di riproduzione per le immagini di un canale {#updating-the-playback-duration-for-images-in-a-channel}
 
 Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della durata della riproduzione a livello di canale:
 
@@ -77,4 +77,3 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 Una volta aggiornata la durata di riproduzione del canale (in questo esempio, tutte e tre le immagini), noterai che le immagini verranno riprodotte per 3 secondi anziché 8 secondi (valore predefinito).
 
 ![channel_preview](assets/channel_preview.gif)
-
