@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: b1a0e00e-0368-42c9-8bcd-5f00b4d0990c
 docset: aem65
 feature: Amministrazione di schermi
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
 
 ---
-
 
 # Integrazione di Adobe Analytics con AEM Screens {#adobe-analytics-integration-with-aem-screens}
 
@@ -132,4 +132,3 @@ Gli eventi di Analytics vengono memorizzati offline in indexedDB e successivamen
 >[!NOTE]
 >
 >Per ulteriori informazioni sul ***Sequencing*** e ***Modello dati standard per gli eventi***, consulta **[Configurazione di Adobe Analytics per AEM Screens](configuring-adobe-analytics-aem-screens.md)**.
-
