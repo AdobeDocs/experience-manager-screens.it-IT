@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 0c7d6248-8ac0-4387-8725-57ed941f28f7
 docset: aem65
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
 
 ---
-
 
 # Configurazione e distribuzione di AEM Screens {#configuring-and-deploying-aem-screens}
 
@@ -32,7 +32,7 @@ Questa pagina mostra come installare e configurare i lettori Screens sui disposi
 >
 >AEM Screens Player non utilizza il token CSRF (Cross-Site Request Forgery). Pertanto, per configurare e AEM server in modo che sia pronto per l’uso per AEM Screens, salta il filtro di riferimento consentendo i referenti vuoti.
 
-## Framework di controllo integrità {#health-check-framework}
+## Framework di controllo dello stato {#health-check-framework}
 
 Il framework di verifica dello stato consente all’utente di verificare se sono configurate due configurazioni necessarie prima di eseguire un progetto AEM Screens.
 
@@ -75,7 +75,7 @@ I seguenti punti chiave aiutano a configurare e AEM server per renderlo pronto a
 
    ![immagine](assets/config/empty-ref1.png)
 
-1. **Viene** aperta la configurazione della console Web Adobe Experience Manager. Cerca il referrer sling.
+1. **Viene visualizzata la** configurazione della console Web Adobe Experience Manager. Cerca il referrer sling.
 
    Per cercare la proprietà del referente sling, premere **Comando+F** per **Mac** e **Control+F** per **Windows**.
 
@@ -86,7 +86,7 @@ I seguenti punti chiave aiutano a configurare e AEM server per renderlo pronto a
 1. Fai clic su **Salva** per abilitare il filtro di riferimento Apache Sling Allow Empty.
 
 
-#### Servizio HTTP basato su Jetty Apache Felix {#allow-apache-felix-service}
+#### Servizio HTTP basato su Apache Felix Jetty {#allow-apache-felix-service}
 
 1. Passa a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
 
@@ -137,7 +137,7 @@ Segui i passaggi seguenti per configurare ***DeviceServiceImpl***:
 
 1. Passa a **Configurazione della console Web Adobe Experience Manager** tramite AEM istanza —> icona a forma di martello —> **Operazioni** —> **Console web**.
 
-1. **Viene** aperta la configurazione della console Web Adobe Experience Manager. Cerca *deviceservice*. Per cercare la proprietà, premere **Comando+F** per macOS e **Ctrl+F** per Microsoft Windows.
+1. **Viene visualizzata la** configurazione della console Web Adobe Experience Manager. Cerca *deviceservice*. Per cercare la proprietà, premere **Comando+F** per macOS e **Ctrl+F** per Microsoft Windows.
 
 ![screen_shot_2019-07-31at92058am](assets/screen_shot_2019-07-31at92058am.png)
 
@@ -152,11 +152,3 @@ Imposta la ***codifica Java*** su Unicode. Ad esempio, *Dfile.encoding=Cp1252* n
 >[!NOTE]
 >**Consiglio:**
 >Si consiglia di utilizzare HTTPS per AEM Screens Server in uso di produzione.
-
-
-
-
-
-
-
-
