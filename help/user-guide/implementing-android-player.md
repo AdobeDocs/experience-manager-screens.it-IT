@@ -11,15 +11,15 @@ topic-tags: administering
 discoiquuid: 77fe9d4e-e1bb-42f7-b563-dc03e3af8a60
 docset: aem65
 feature: Amministrazione di schermi, lettore Android
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 7fa4207be0d89a6c7d0d9d9a04722cd40d035634
+exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
 
 ---
-
 
 # Implementazione di Android Player {#implementing-android-player}
 
@@ -33,7 +33,7 @@ Per implementare Android Player per AEM Screens, installa Android Player per AEM
 
 Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
-### Configurazione dell&#39;ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
+### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
 >Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Android Player.
@@ -52,7 +52,7 @@ Effettua le seguenti operazioni:
 1. Fai clic su **Salva**.
 
 
-### Metodo ad hoc {#ad-hoc-method}
+### Metodo Ad Hoc {#ad-hoc-method}
 
 Il metodo Ad-Hoc consente di installare l&#39;ultimo lettore Android (*.exe*). Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
 
@@ -69,11 +69,11 @@ Una volta scaricata l&#39;applicazione, segui i passaggi sul lettore per complet
 >
 >Se il **Stato** è **NON REGISTRATO**, puoi utilizzare il **Token** per registrare il dispositivo.
 
-## Implementazione di Android Watchdog {#implementing-android-watchdog}
+## Implementazione Android Watchdog {#implementing-android-watchdog}
 
 A causa dell&#39;architettura di Android, il riavvio del dispositivo richiede che l&#39;applicazione abbia i privilegi di sistema. A questo scopo, è necessario firmare l&#39;apk utilizzando le chiavi di firma del produttore, altrimenti watchdog riavvierà l&#39;applicazione del lettore e non riavvierà il dispositivo.
 
-### Segnalazione di apk Android utilizzando i codici produttore {#signage-of-android-apks-using-manufacturer-keys}
+### Segnalazione di apk Android utilizzando chiavi del produttore {#signage-of-android-apks-using-manufacturer-keys}
 
 Per accedere ad alcune delle API privilegiate di Android come *PowerManager* o *HDMIControlServices*, devi firmare l&#39;apk android utilizzando le chiavi del produttore.
 
@@ -147,7 +147,7 @@ La tabella seguente riepiloga gli attributi del criterio con un esempio di codic
 | *enableActivityUI* | Attiva per mostrare l&#39;avanzamento delle attività come il download e la sincronizzazione. Attiva per la risoluzione dei problemi e disattiva una volta configurato completamente e in produzione. |
 | *enableNativeVideo* | Abilitare l&#39;uso dell&#39;accelerazione hardware nativa per la riproduzione video (solo Android). |
 
-### Esempio di criteri JSON {#example-json}
+### Criteri JSON di esempio {#example-json}
 
 ```java
 {
@@ -174,7 +174,7 @@ La tabella seguente riepiloga gli attributi del criterio con un esempio di codic
 >[!NOTE]
 >Tutti i dispositivi Android hanno una cartella *sdcard* indipendentemente dal fatto che sia stato inserito o meno un *sdcard* effettivo. Questo file, se distribuito, si trova allo stesso livello della cartella Download. Alcuni MDM, come Samsung Knox, possono fare riferimento a questa posizione della cartella *sdcard* come *Archiviazione interna*.
 
-## Provisioning in blocco di Android Player utilizzando Enterprise Mobility Management {#bulk-provisioning}
+## Provisioning in blocco di Android Player tramite Enterprise Mobility Management {#bulk-provisioning}
 
 Quando si distribuisce il lettore Android in serie, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
