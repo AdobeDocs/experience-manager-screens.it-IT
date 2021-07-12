@@ -4,15 +4,15 @@ seo-title: Attivazione a livello di risorsa
 description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 seo-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 feature: Creazione di schermi, Attivazione a livello di risorsa
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 2%
 
 ---
-
 
 # Attivazione a livello di risorsa {#asset-level-scheduling}
 
@@ -111,7 +111,7 @@ Nella tabella seguente sono riepilogati alcuni esempi di espressioni che è poss
 >
 >È inoltre possibile utilizzare la notazione _tempo militare_ (ovvero, 14:00) invece della notazione *am/pm* (ovvero 2:00 pm).
 
-### Ripartizione settimanale {#week-parting}
+### WeekParting {#week-parting}
 
 1. Seleziona la risorsa e fai clic su **Configura** (icona chiave inglese) per aprire la finestra di dialogo delle proprietà.
 
@@ -222,4 +222,3 @@ Per selezionare più risorse e pianificarne la visualizzazione in un progetto AE
    >L’icona di pianificazione è visibile nell’angolo in alto a destra per le risorse per le quali è attiva più risorse.
 
    ![screen_shot_2018-12-21at70722am](assets/screen_shot_2018-12-21at70722am.png)
-
