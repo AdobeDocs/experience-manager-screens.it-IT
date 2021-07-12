@@ -3,15 +3,15 @@ title: Assegnazione del canale - Ultima FP
 seo-title: Assegnazione del canale - Ultima FP
 description: Segui questa pagina per informazioni sull'assegnazione dei canali e la ripartizione dei giorni.
 feature: Screens di authoring, Assegnazione canale
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 22%
 
 ---
-
 
 # Assegnazione dei canali {#channel-assignment}
 
@@ -32,7 +32,7 @@ Questa pagina mostra l’assegnazione di un canale alla visualizzazione, le prop
 
 Segui le sezioni seguenti per creare un progetto AEM Screens e assegnare un canale a una visualizzazione.
 
-### Creazione di un progetto AEM Screens e dei canali {#creating-project}
+### Creazione di un progetto e di canali AEM Screens {#creating-project}
 
 Per impostare un progetto e un canale, effettua le seguenti operazioni:
 
@@ -57,7 +57,7 @@ Per impostare un progetto e un canale, effettua le seguenti operazioni:
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp4.png)
 
-### Assegnazione del canale a una visualizzazione {#assigning-channel-to-display}
+### Assegnazione di un canale a una visualizzazione {#assigning-channel-to-display}
 
 Una volta completata la configurazione del progetto, devi assegnare il canale a una visualizzazione per visualizzare il contenuto.
 
@@ -120,7 +120,7 @@ Per passare alla visualizzazione timeline, effettua le seguenti operazioni:
 
    ![immagine](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
-## Proprietà canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
+## Informazioni sulle proprietà del canale dalla finestra di dialogo Assegnazione canale {#channel-properties}
 
 Le seguenti proprietà sono impostate dall&#39;opzione **Impostazioni** nella finestra di dialogo **Assegnazione canale**.
 
