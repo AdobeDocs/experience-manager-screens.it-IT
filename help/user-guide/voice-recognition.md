@@ -2,15 +2,15 @@
 title: Riconoscimento vocale in AEM Screens
 description: La pagina descrive la funzione di riconoscimento vocale in AEM Screens.
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
 
 ---
-
 
 # Riconoscimento vocale in AEM Screens {#voice-recognition}
 
@@ -39,7 +39,7 @@ Per implementare il riconoscimento vocale nel progetto AEM Screens, è necessari
 
 La sezione seguente descrive come abilitare e utilizzare la funzione di riconoscimento vocale in un progetto AEM Screens.
 
-## Visualizzazione del contenuto a schermo intero o dello switch del canale a schermo diviso {#sequence-channel}
+## Visualizzazione del contenuto a schermo intero o dello switch di canale a schermo diviso {#sequence-channel}
 
 Prima di utilizzare la funzione di riconoscimento vocale, assicurati di disporre di un progetto e di un canale con contenuto configurato per il progetto.
 
@@ -184,8 +184,3 @@ Allo stesso modo, se utilizzi una parola chiave **cold** come *Vorrei avere qual
 **Output desiderato per il canale schermo diviso**
 
 Il canale **Principale** sta riproducendo il suo contenuto, ma quando si utilizzano parole con parole chiave **hot** e **cold** insieme come *Vorrei vedere il menu per bevande calde e fredde*, il canale inizia a riprodurre il contenuto del canale **SplitScreen**. Se dici *di nuovo al menu principale*, torna al canale principale.
-
-
-
-
-
