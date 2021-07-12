@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: f8e2e7a3-f3a1-4c35-b055-166752c3fb86
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 59%
 
 ---
-
 
 # Creazione e gestione delle visualizzazioni {#creating-and-managing-displays}
 
@@ -118,7 +118,7 @@ Il pannello **INFORMAZIONI SULLA VISUALIZZAZIONE** fornisce le proprietà di vis
 Fai clic su **...** nell’angolo in alto a destra del pannello **INFORMAZIONI SULLA VISUALIZZAZIONE** per visualizzare le proprietà e vedere la visualizzazione in anteprima.
 
 
-#### Visualizzazione delle proprietà {#viewing-properties}
+#### Proprietà visualizzazione {#viewing-properties}
 
 Fai clic su **Proprietà** per visualizzare o modificare le proprietà della visualizzazione.
 
@@ -127,7 +127,7 @@ Inoltre, è possibile regolare il valore del timer evento per il canale interatt
 Utilizza **CRXDE Lite** per accedere alla proprietà **idleTimeout** , ovvero `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
 
 
-### Pannello Canali Assegnati {#assigned-channels-panel}
+### Pannello Canali assegnati {#assigned-channels-panel}
 
 Il pannello **CANALI ASSEGNATI** visualizza i canali assegnati a questo dispositivo.
 
