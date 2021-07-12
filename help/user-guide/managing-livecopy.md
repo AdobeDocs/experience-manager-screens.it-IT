@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 84085a03-1798-4f1d-858c-6014a3f6aff6
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 86%
 
 ---
-
 
 # Creazione e gestione di una Live Copy {#creating-and-managing-a-live-copy}
 
@@ -80,7 +80,7 @@ Puoi anche visualizzare le proprietà del tuo canale della Live Copy.
 
    ![chlimage_1-21](assets/chlimage_1-21.png)
 
-### Stato della Live Copy    {#live-copy-status}
+### Stato della Live Copy   {#live-copy-status}
 
 La modalità **Stato della Live Copy**, come mostrato nella figura sotto, consente di visualizzare lo stato di relazione di tutte le risorse presenti nel canale.
 
@@ -135,4 +135,3 @@ Segui i passaggi riportati di seguito per accertarti che le modifiche vengano ap
    ![chlimage_1-30](assets/chlimage_1-30.png)
 
    Noterai che l’immagine ora è stata eliminata dal canale Live Copy.
-
