@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 8879e510-4f0e-46da-87d2-77c5aaacb26e
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 205235d7-e621-4134-975c-257ae60939bc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 5%
 
 ---
-
 
 # Servizio notifiche AEM Screens{#aem-screens-notifications-service}
 
@@ -96,7 +96,7 @@ L’accesso a tale collegamento ti porterà direttamente al dashboard del dispos
 
 Le e-mail verranno inviate solo se al momento della generazione dell’e-mail non è presente almeno un dispositivo con ping in ping per il timeout specificato e se il ping non esegue il ping.
 
-### Esempi di casi d&#39;uso {#example-use-cases}
+### Esempi di casi d’uso {#example-use-cases}
 
 L&#39;esempio seguente descrive alcuni scenari di riferimento per configurare le proprietà da Screens Device Email Monitoring Service.
 
