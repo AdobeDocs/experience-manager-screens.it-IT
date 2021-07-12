@@ -11,15 +11,15 @@ topic-tags: use-case-examples
 discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
 
 ---
-
 
 # Attivazione temperatura centro viaggi {#travel-center-temperature-activation}
 
@@ -90,6 +90,4 @@ Segui i passaggi seguenti per implementare il caso d’uso di Attivazione temper
 
    1. Fare clic su **Anteprima.** Inoltre, apri il tuo foglio di Google e aggiorna il suo valore.
    1. Cambia il valore a meno di 50, dovresti essere in grado di visualizzare l&#39;immagine delle bevande estive. Se il valore nel Google Sheet è 50 o superiore a dovrebbe essere in grado di visualizzare l&#39;immagine di una bevanda calda.
-
    ![result3](assets/result3.gif)
-
