@@ -4,15 +4,15 @@ seo-title: Configurazione di Author e Publish in AEM Screens
 description: L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per scoprire come configurare l’authoring e la pubblicazione per AEM Screens.
 seo-description: L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per scoprire come configurare l’authoring e la pubblicazione per AEM Screens.
 feature: Amministrazione di schermi
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 2%
 
 ---
-
 
 # Configurazione di Author e Publish in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -52,7 +52,7 @@ Potete impostare un semplice esempio, in cui ospitate un autore e due istanze di
 * Publish 1 (pub1) —> localhost:4503
 * Publish 2 (pub2) —> localhost:4504
 
-## Impostazione degli agenti di replica sull&#39;autore {#setting-replication-agents}
+## Impostazione degli agenti di replica sull’autore {#setting-replication-agents}
 
 Per creare agenti di replica, devi imparare a creare un agente di replica standard.
 
@@ -103,7 +103,7 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
    >È inoltre possibile copiare e rinominare un agente di replica predefinito esistente.
 
 
-#### Creazione di agenti di replica standard {#creating-standard-replication-agents}
+#### Creazione di agenti di replica standard  {#creating-standard-replication-agents}
 
 1. Crea un agente di replica standard per pub1 (è già necessario configurare l&#39;agente predefinito preconfigurato) (ad esempio, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
 1. Crea un agente di replica standard per pub2. È possibile copiare l&#39;agente rep per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
@@ -136,11 +136,11 @@ Per ogni istanza di pubblicazione:
 
 La configurazione deve essere identica per ogni istanza di pubblicazione e il ciclo locale di arresto automatico impedisce un ciclo infinito.
 
-#### Passaggio 2: Verificare la topologia di pubblicazione {#step-verify-publish-topology}
+#### Passaggio 2: Verifica topologia di pubblicazione {#step-verify-publish-topology}
 
 Per una qualsiasi delle istanze di pubblicazione, passa a `https://:/system/console/topology`. Dovresti vedere ogni istanza di pubblicazione rappresentata nella topologia in **Connettori topologia in uscita**.
 
-#### Passaggio 3: Imposta cluster di array ActiveMQ {#step-setup-activemq-artemis-cluster}
+#### Passaggio 3: Configurazione cluster di array ActiveMQ {#step-setup-activemq-artemis-cluster}
 
 Questo passaggio ti consente di creare una password crittografata per il cluster ActiveMQ Artemis.
 L&#39;utente del cluster e la password di tutte le istanze di pubblicazione nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza ha la propria chiave di crittografia, è necessario utilizzare Crypto Support per creare una stringa di password crittografata. Quindi la password crittografata verrà utilizzata nella configurazione OSGi per ActiveMQ.
@@ -170,7 +170,7 @@ Su ogni istanza di pubblicazione:
    * ***Password*** cluster: utilizza il valore crittografato del passaggio precedente per ogni singola istanza
    * ***Argomenti***:  `{name: 'commands', address: 'com.adobe.cq.screens.commands', maxConsumers: 50}`
 
-#### Verifica cluster ActiveMQ Artemis {#verify-activemq-artemis-cluster}
+#### Verifica cluster di array ActiveMQ {#verify-activemq-artemis-cluster}
 
 Segui i passaggi seguenti su ogni istanza di Publish:
 
@@ -193,7 +193,7 @@ Se non vedi la seguente configurazione da */system/console/mq*, vai a */system/c
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
-#### Rimuovi il requisito dell&#39;intestazione del referente {#remove-referrer-header-requirement}
+#### Rimuovi requisito intestazione referrer {#remove-referrer-header-requirement}
 
 Segui i passaggi per ogni istanza di Publish:
 
@@ -201,7 +201,7 @@ Segui i passaggi per ogni istanza di Publish:
 1. Seleziona **Filtro di riferimento Sling Apache**
 1. Aggiorna la configurazione e **controlla Allow Empty**
 
-### Configurazione dell&#39;istanza di authoring e pubblicazione {#configuring-author-and-publish-instance}
+### Configurazione dell’istanza di authoring e pubblicazione {#configuring-author-and-publish-instance}
 
 Una volta impostata la topologia di pubblicazione, è necessario configurare le istanze di authoring e pubblicazione per visualizzare i risultati pratici dell’implementazione:
 
@@ -229,7 +229,7 @@ Una volta impostata la topologia di pubblicazione, è necessario configurare le 
 1. Verifica il codice di registrazione e fai clic su **Convalida**.
 1. Inserisci un titolo per il dispositivo e fai clic su **Registra**.
 
-#### Passaggio 3: Assegnazione del dispositivo da visualizzare {#step-assigning-the-device-to-display}
+#### Passaggio 3: Assegnazione del dispositivo alla visualizzazione {#step-assigning-the-device-to-display}
 
 1. Fare clic su **Assegna visualizzazione** nella finestra di dialogo del passaggio precedente.
 1. Seleziona il percorso di visualizzazione del canale dalla cartella **Posizioni** .
@@ -268,7 +268,7 @@ Puoi anche attivare il dispositivo dalla console di gestione dei dispositivi. Ef
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
-### Pubblicazione dell&#39;elenco di controllo {#publishing-check-list}
+### Elenco di controllo della pubblicazione {#publishing-check-list}
 
 I punti seguenti riepilogano l’elenco Controllo pubblicazione:
 
@@ -307,5 +307,3 @@ In alternativa, puoi anche aggiornare/modificare l’URL del server dalla consol
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
 La funzione **Gestisci pubblicazione** consente di distribuire aggiornamenti dei contenuti dall&#39;autore al dispositivo di pubblicazione. Puoi pubblicare/annullare la pubblicazione dei contenuti per l’intero progetto AEM Screens o solo per uno dei canali, la posizione, il dispositivo, l’applicazione o una pianificazione. Per ulteriori informazioni su questa funzione, consulta [Aggiornamento dei contenuti on-demand](on-demand-content.md).
-
-
