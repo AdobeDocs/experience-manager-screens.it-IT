@@ -4,15 +4,15 @@ seo-title: Utilizzo della sincronizzazione dei comandi
 description: Segui questa pagina per scoprire come utilizzare la sincronizzazione dei comandi.
 seo-description: Segui questa pagina per scoprire come utilizzare la sincronizzazione dei comandi.
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
 
 ---
-
 
 # Sincronizzazione dei comandi {#command-sync}
 
@@ -38,7 +38,7 @@ Nella sezione seguente viene descritto come utilizzare Command Sync in un proget
 >
 >Per la riproduzione sincronizzata, è necessario che tutti i dispositivi hardware abbiano le stesse specifiche hardware e preferibilmente lo stesso sistema operativo. La sincronizzazione tra diversi hardware e sistemi operativi non è consigliata.
 
-### Configurazione del progetto {#setting-up}
+### Impostazione del progetto {#setting-up}
 
 Prima di utilizzare la funzione di sincronizzazione dei comandi, assicurati di disporre di un progetto e di un canale con il contenuto configurato per il progetto.
 
