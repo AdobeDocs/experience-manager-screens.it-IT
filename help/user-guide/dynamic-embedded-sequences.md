@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: a40eb5bb-fbf7-4c0d-a34a-db79b884de8f
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3208d058-0812-44e1-83e3-b727b384876a
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 3%
 
 ---
-
 
 # Uso della Sequenza dinamica incorporata {#using-dynamic-embedded-sequence}
 
@@ -37,7 +37,7 @@ Quando si assegna un canale a una visualizzazione, è possibile specificare il p
 
 Per utilizzare la Sequenza incorporata dinamica, assegni un canale per ***Ruolo canale***. Ruolo canale definisce il contesto della visualizzazione. Il ruolo è mirato da varie azioni ed è indipendente dal canale effettivo che svolge il ruolo. Questa sezione descrive un esempio di utilizzo che definisce i canali secondo il ruolo e il modo in cui puoi sfruttare tali contenuti per un canale globale. È inoltre possibile considerare il ruolo come un identificatore per l&#39;assegnazione o un alias per il canale nel contesto di .
 
-### Vantaggi dell&#39;utilizzo di sequenze incorporate dinamiche {#benefits-of-using-dynamic-embedded-sequences}
+### Vantaggi dell’utilizzo di sequenze incorporate dinamiche {#benefits-of-using-dynamic-embedded-sequences}
 
 Il vantaggio principale del posizionamento di un canale per sequenza all&#39;interno di una posizione invece che nella cartella dei canali è quello di consentire agli autori locali o regionali di modificare i contenuti pertinenti a loro, senza che sia necessario modificare i canali più in alto nella gerarchia.
 
@@ -291,7 +291,7 @@ Se assegni il percorso di visualizzazione come **Demo** —> **Posizioni** —> 
 
 È necessario modificare le ACL per limitare l&#39;accesso degli utenti al contenuto in base alla loro posizione.
 
-### Esempio di caso d&#39;uso {#example-use-case}
+### Caso d’uso di esempio {#example-use-case}
 
 L’esempio seguente consente di creare tre utenti per il progetto Demo di cui sopra.
 
@@ -305,7 +305,7 @@ I privilegi sono assegnati a ciascun gruppo come segue:
 
 * **Autore** store: È costituito da utenti che dispongono di autorizzazioni di lettura, scrittura e modifica solo per  **Store 1**,  **Store 2**,  **Store 3** e  **Store 4**.
 
-#### Passaggi per creare gruppi di utenti, utenti e impostare ACL {#steps-for-creating-user-groups-users-and-setting-up-acls}
+#### Passaggi per la creazione di gruppi di utenti, utenti e la configurazione di ACL {#steps-for-creating-user-groups-users-and-setting-up-acls}
 
 >[!NOTE]
 Per informazioni dettagliate su come separare i progetti utilizzando ACL in modo che ogni singolo utente o team gestisca il proprio progetto, consulta **Impostazione delle ACL**.
@@ -406,4 +406,3 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare le ACL in base 
 
 >[!NOTE]
 Per informazioni dettagliate sull&#39;impostazione delle autorizzazioni, fare riferimento a [Impostazione delle ACL](setting-up-acls.md).
-
