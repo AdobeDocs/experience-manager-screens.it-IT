@@ -4,15 +4,15 @@ seo-title: Utilizzo di Chrome Player come estensione
 description: Segui questa pagina per scoprire come installare chrome player come estensione del browser.
 seo-description: 'null'
 feature: Amministrazione di schermi
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzo di Chrome Player come estensione {#using-chrome-player}
 
@@ -59,7 +59,7 @@ Segui questa pagina per scoprire come installare chrome player come estensione d
 
    **Pagina** in background di debug: Visualizza l’interfaccia utente amministratore, quindi fai clic con il pulsante destro del mouse ed esamina la pagina in background (per i servizi in background come il server http)
 
-## Aggiornamento dell&#39;estensione del lettore {#upgrading-player}
+## Aggiornamento dell’estensione Player {#upgrading-player}
 
 Segui i passaggi seguenti per aggiornare l’estensione del lettore se viene rilasciata una nuova versione del lettore. Puoi anche seguire le istruzioni riportate di seguito per testare gli scenari di aggiornamento:
 
