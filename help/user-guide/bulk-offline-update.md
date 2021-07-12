@@ -11,17 +11,17 @@ topic-tags: authoring
 discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Creazione di esperienze in Screens
-role: Administrator, Developer
+role: Admin, Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
+source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 8%
 
 ---
 
-
-# Aggiornamento offline bulk {#bulk-offline-update}
+# Aggiornamento offline in blocco {#bulk-offline-update}
 
 Questa sezione tratta i seguenti argomenti sull&#39;aggiornamento offline in blocco:
 
@@ -48,7 +48,7 @@ Puoi anche pianificare questa attività per un periodo di traffico di rete infer
 
 Puoi utilizzare manualmente l’aggiornamento offline in blocco dall’interfaccia utente o pianificare l’aggiornamento in blocco dai servizi OSGi.
 
-### Utilizzo dell&#39;interfaccia utente di AEM Screens {#using-aem-screens-user-interface}
+### Utilizzo dell’interfaccia utente di AEM Screens {#using-aem-screens-user-interface}
 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
@@ -57,7 +57,7 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configurazione della console Web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configurazione della console Web di Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
@@ -79,4 +79,3 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
    **Pianificazione** FrequenzaSpecifica un&#39;ora, ad esempio le 17:00 o le 17:00, in cui il servizio deve aggiornare il contenuto offline.
 
 1. Fai clic su **Salva** per salvare le impostazioni e il contenuto verrà aggiornato all&#39;ora specificata.
-
