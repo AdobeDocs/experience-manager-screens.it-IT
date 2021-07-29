@@ -5,9 +5,9 @@ feature: Amministrazione di schermi, lettori
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,9 @@ Effettua le seguenti operazioni:
 ### Assegnazione di un nome a Tizen Player {#name-tizen}
 
 È possibile assegnare un nome di dispositivo semplice da usare al lettore Tizen, inviando in tal modo il nome assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore personalizzato, ma anche di assegnare facilmente il contenuto appropriato.
+
+>[!NOTE]
+>È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato il lettore, il nome del lettore non può più essere cambiato.
 
 Per configurare il nome in Tizen Player, effettua le seguenti operazioni:
 
