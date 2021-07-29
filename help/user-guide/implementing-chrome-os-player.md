@@ -13,9 +13,9 @@ feature: Amministrazione di schermi
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,9 @@ Per configurare la console di gestione chrome, effettua le seguenti operazioni:
 ## Denominazione di Chrome OS Player {#name-chrome}
 
 È possibile assegnare un nome di dispositivo facile da usare al lettore Chrome, inviando in tal modo il nome del dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore Chrome, ma anche di assegnare facilmente il contenuto appropriato.
+
+>[!NOTE]
+>È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato il lettore, il nome del lettore non può più essere cambiato.
 
 Per configurare il nome in Chrome Player, effettua le seguenti operazioni:
 
