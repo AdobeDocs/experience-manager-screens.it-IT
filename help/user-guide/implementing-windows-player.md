@@ -14,9 +14,9 @@ feature: Amministrazione di schermi, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,9 @@ Una volta scaricata l&#39;applicazione, segui i passaggi sul lettore per complet
 ## Denominazione di Windows Player {#name-windows}
 
 È possibile assegnare un nome di dispositivo facile da usare al lettore Windows, inviando in tal modo il nome di dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome a Windows Player, ma anche di assegnare facilmente il contenuto appropriato.
+
+>[!NOTE]
+>È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato il lettore, il nome del lettore non può più essere cambiato.
 
 Per configurare il nome in Windows Player, effettua le seguenti operazioni:
 
