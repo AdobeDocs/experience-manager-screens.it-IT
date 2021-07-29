@@ -14,9 +14,9 @@ feature: Amministrazione di schermi, lettore Android
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -181,6 +181,9 @@ Quando si distribuisce il lettore Android in serie, diventa noioso registrare ma
 ## Denominazione di Android Player {#name-android}
 
 È possibile assegnare un nome di dispositivo facile da usare al lettore Android, inviando in tal modo il nome assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore Android, ma anche di assegnare facilmente il contenuto appropriato.
+
+>[!NOTE]
+>È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato il lettore, il nome del lettore non può più essere cambiato.
 
 Per configurare il nome in Android Player, effettua le seguenti operazioni:
 
