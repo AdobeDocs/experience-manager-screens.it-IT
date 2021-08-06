@@ -7,7 +7,7 @@ feature: Amministrazione di schermi
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: ee7e37c5a3b4fa20f1a5cb27ceaf8db4b56a03da
+source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -135,7 +135,7 @@ Per abilitare la cache per le risorse in modo che le risorse vengano servite dal
 
 Assicurati di consentire questi filtri e regole di cache nei dispatcher che fronteggiano le istanze di pubblicazione per il funzionamento di Screens.
 
-## Prerequisiti per la versione 3 di Manifest{#prerequisites3}
+### Prerequisiti per la versione 3 di Manifest{#prerequisites3}
 
 Prima di configurare Dispatcher (versione manifest v3) per AEM Screens, verifica di seguire i due prerequisiti seguenti:
 
