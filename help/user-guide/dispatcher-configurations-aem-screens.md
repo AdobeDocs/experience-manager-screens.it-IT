@@ -7,10 +7,10 @@ feature: Amministrazione di schermi
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 89b4bc6b7eca18d37246be188eddad87443a96d6
+source-git-commit: 0d341b5d370654e9b1f56ca3afbc2a075cc85188
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 4%
+source-wordcount: '585'
+ht-degree: 3%
 
 ---
 
@@ -25,8 +25,6 @@ La pagina seguente fornisce le linee guida per la configurazione del dispatcher 
 >Se un dispatcher è disponibile, è possibile impedire le connessioni al servlet di registrazione filtrando nelle regole del dispatcher.
 >
 >Se non è presente alcun dispatcher, disattiva il servlet di registrazione nell’elenco dei componenti OSGi.
-
-## Prerequisiti {#prerequisites}
 
 Prima di configurare il dispatcher per un progetto AEM Screens, è necessario disporre di conoscenze precedenti su Dispatcher.
 Per ulteriori informazioni, consulta [Configurazione di Dispatcher](https://docs.adobe.com/content/help/it-IT/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) .
