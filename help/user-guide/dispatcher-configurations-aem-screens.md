@@ -7,10 +7,10 @@ feature: Amministrazione di schermi
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 449f59f25f1164f1e638921192c538ac46d781d3
+source-git-commit: 0f32fc015729685c724176c25920da6f07707c00
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 3%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -142,6 +142,8 @@ Prima di configurare Dispatcher (versione manifest v3) per AEM Screens, verifica
 * Assicurati che l’agente di flush del dispatcher sia configurato in `/etc/replication/agents.publish/dispatcher1useast1Agent` nell’istanza di pubblicazione.
 
    ![immagine](/help/user-guide/assets/dispatcher/dispatcher-1.png)
+
+   ![immagine](/help/user-guide/assets/dispatcher/dispatcher-3.png)
 
 ### Filtri  {#filter-v3}
 
