@@ -1,20 +1,18 @@
 ---
 title: Domande frequenti su AEM Screens
-seo-title: Domande frequenti su AEM Screens
+seo-title: AEM Screens FAQs
 description: Segui questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens.
-seo-description: Segui questa pagina per ottenere le risposte alle domande frequenti relative a un progetto AEM Screens.
-uuid: 62e58f3b-0c0a-4006-b6d5-42d2090f47b5
-contentOwner: jsyal
-feature: Digital Signage, contenuti
+seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
+feature: Digital Signage, Content
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
+source-git-commit: ffc20b29b58e5fa39564d1e924832ff1c678f80c
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1872'
 ht-degree: 1%
 
 ---
-
 
 # Domande frequenti su AEM Screens {#aem-screens-faqs}
 
@@ -41,7 +39,7 @@ Per evitare le schermate vuote o grigie nel campo, crea un canale globale predef
 
 Tutti gli altri contenuti, come canali o pianificazioni, avranno priorità maggiore di 1, quindi l’altro contenuto ha priorità e il canale globale o il contenuto della pianificazione (con priorità 1) verrà riprodotto solo come opzione di fallback.
 
-## Gestione canali {#channel-management}
+## Gestione dei canali {#channel-management}
 
 ### 1. Qual è la differenza tra un canale online e un canale offline? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
@@ -84,9 +82,9 @@ Si consiglia di ottenere l’ID dispositivo dalla sessione anziché come paramet
 
 ### 3. C&#39;è un modo per rifiutare una richiesta di registrazione del dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
-Non è possibile rifiutare le richieste di registrazione. Le richieste di registrazione dovrebbero invece scadere dopo un timeout configurato in [Console web Adobe Experience Manager](https://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl). Per impostazione predefinita, questo valore è impostato su un giorno e viene memorizzato in una cache di memoria.
+Non è possibile rifiutare le richieste di registrazione. Le richieste di registrazione dovrebbero invece scadere dopo un timeout configurato in `Adobe Experience Manager Web Console`. Per impostazione predefinita, questo valore è impostato su un giorno e viene memorizzato in una cache di memoria.
 
-## Rapporti sul monitoraggio e l&#39;integrità dei dispositivi {#device-monitoring-and-health-reports}
+## Report di monitoraggio e integrità dei dispositivi {#device-monitoring-and-health-reports}
 
 ### 1. Come posso risolvere il problema, se il mio lettore AEM Screens mostra la schermata vuota? {#how-do-i-troubleshoot-if-my-aem-screens-player-shows-blank-screen}
 
@@ -210,5 +208,3 @@ AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.
 Se sono presenti *avvisi sull&#39;attraversamento delle query* nel `error.log`, crea un indice personalizzato per la query. Per ulteriori informazioni, consulta [Configurazione degli indici](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/queries-and-indexing.html?lang=en#configuring-the-indexes) .
 
 Puoi anche fare riferimento a una risorsa aggiuntiva in [Documentazione Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
-
-
