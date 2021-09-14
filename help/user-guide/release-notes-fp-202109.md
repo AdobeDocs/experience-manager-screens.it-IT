@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e96c314ea7487932d2ab994ffc41ca8d2af61c5c
+source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 10%
+source-wordcount: '334'
+ht-degree: 2%
 
 ---
 
@@ -29,30 +29,23 @@ La data di rilascio per AEM Screens Feature Pack 202109 è il 9 settembre 2021.
 
 ### Novità {#what-is-new}
 
-* **Blocco di una pagina in un canale AEM Screens**
+* **Supporto delle miniature per video**
 
-   AEM Screens supporta ora il *blocco di una pagina*, come già implementato in AEM Sites. Adobe Experience Manager (AEM) consente di bloccare una pagina in modo che nessun altro possa modificarne il contenuto. Questa funzione è utile quando si devono apportare numerose modifiche a una pagina oppure se occorre bloccarla per un breve periodo di tempo.
+   Supporto delle miniature per i video in ora supportato in AEM Screens. Un autore di contenuti può definire una miniatura per i video in modo che l’immagine possa essere utilizzata come segnaposto e possa testare correttamente la riproduzione e il targeting del contenuto, mentre il video effettivo viene finalizzato dal team appropriato. L&#39;immagine può anche essere utilizzata, nel caso in cui la riproduzione del video non riesca.
+Per ulteriori informazioni, consulta Supporto miniature per video .
 
-* **Denominazione del dispositivo AEM Screens Player**
+* **Monitoraggio della riproduzione di base**
 
-   I lettori AEM Screens ora includono la possibilità di inviare un nome di dispositivo ad Adobe Experience Manager (AEM).
-Per impostazione predefinita, quando la registrazione in serie viene utilizzata per registrare un dispositivo, nel campo title viene inserito un nome utente generato dal sistema. In alternativa, un cliente può utilizzare un tag risorsa o un altro nome descrittivo in modo che sia visibile in AEM e facile da assegnare il contenuto appropriato.
+   AEM Screens supporta ora il monitoraggio di base della riproduzione. Ora il lettore riporta diverse metriche di riproduzione per ciascun ping (per impostazione predefinita, 30 secondi). In base alle metriche, fornisce la possibilità di rilevare vari casi edge (esperienza bloccata, schermo vuoto, problemi di pianificazione, ecc.). Questa funzione consente al team di monitorare da remoto se un lettore riproduce correttamente i contenuti, migliora la reattività a schermi vuoti o esperienze interrotte sul campo e diminuisce il rischio di mostrare un’esperienza non funzionante all’utente finale.
+Per ulteriori informazioni, consulta Monitoraggio di base della riproduzione .
 
-   Per informazioni su come configurare il nome in ciascun sistema operativo supportato, consulta la seguente documentazione:
+* **Aggiornamenti al rapporto sull’assegnazione del contenuto**
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Sistema operativo Chrome](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
-* **Generazione manifesto**
-
-   Generazione più rapida del manifesto del canale con prestazioni migliori, ad esempio l&#39;allocazione di meno risorse sul server.
 
 ### Correzioni di bug {#bug-fixes}
 
-* Il lettore visualizzava uno schermo nero quando si passa al canale contenente una sequenza incorporata dinamica.
-* I lettori Screens ora bloccano il passaggio a qualsiasi canale interrotto che evita ulteriormente l&#39;errore 404 o una pagina con un messaggio di errore.
+
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
