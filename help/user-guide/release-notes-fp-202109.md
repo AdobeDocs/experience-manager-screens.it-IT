@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: e1f46a908a10bdf08985c857fb9302d3e111e9a1
+source-git-commit: 33e71d5d9b02036aa91db093274dcb058769f288
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -41,6 +41,10 @@ Per ulteriori informazioni, consulta Monitoraggio di base della riproduzione .
 
 * **Aggiornamenti al rapporto sull’assegnazione del contenuto**
 
+* **Supporto per i manifesti V3**
+
+   Ora puoi configurare il Dispatcher per la versione 3 di Manifest. Per ulteriori informazioni, consulta [Configurazione di Dispatcher per la versione manifesto v3](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) .
+Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, consulta [Modello per gestori personalizzati](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
 
 
 ### Correzioni di bug {#bug-fixes}
