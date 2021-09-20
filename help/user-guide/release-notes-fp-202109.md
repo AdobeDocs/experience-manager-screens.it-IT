@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '720'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,85 @@ Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, cons
 
 ### Correzioni di bug {#bug-fixes}
 
+**Lato del lettore**
+
+* Sono stati risolti gli errori di caching dei file sostituendo le risorse con le rappresentazioni.
+
+* I lettori ora espongono solo le rappresentazioni delle risorse, se è presente la mappatura del rendering.
+
+* È ora possibile impostare gli avvisi slack in base ai registri splunk.
+
+* Ottimizzazione del ping per la riautenticazione se la risposta non è JSON valido.
+
+* I nomi/ruoli dei canali numerici hanno causato una schermata vuota.
+
+* Scarica le rappresentazioni ottimizzate tramite SmartSync.
+
+* Trasforma la mappatura in un elenco di chiavi di rendering.
+
+* Rimuovere l&#39;accesso a cmd.exe e reg.exe in windows player.
+
+* Limita le chiamate token csrf.
+
+* Un lettore deve segnalare il proprio ultimo evento di riproduzione riuscito.
+
+* Un lettore deve segnalare il proprio stato di riproduzione.
+
+* Il lettore non scarica nuovamente le risorse quando la cache `ALL` è cancellata.
+
+* In qualità di amministratore del lettore, ora puoi scegliere un nome per il lettore.
+
+* La rimozione dell&#39;assegnazione del canale dalla visualizzazione non si riflette sul lettore.
+
+* Se il lettore viene ricaricato durante il download dell&#39;aggiornamento del canale, ignora l&#39;aggiornamento.
+
+* Il componente Pagina incorporata non rispetta l’evento di contatto .
+
+* È ora supportato il provisioning remoto di Tizen Player.
+
+**Lato server**
+
+* Il video di Target non viene visualizzato
+* Race condition durante la trasmissione dei dati di visualizzazione a sottosezioni.
+
+* L&#39;anteprima del canale non funziona per i canali contenenti video.
+
+* Modalità Anteprima visualizzata vuota per il canale a schermo diviso.
+
+* Le miniature video vengono rese vuote con le rappresentazioni adattive abilitate.
+
+* Aggiorna automaticamente il manifesto del canale se la pagina di riferimento è pubblicata.
+
+* I canali JSON non includono canali personalizzati (#942)
+
+* I dispositivi eliminati ora non bloccano la coda di replica Screens.
+
+* Il manifesto non contiene contenuto di destinazione né pagine incorporate di Sites.
+
+* Nuovo componente immagine di base non aggiunto al manifesto del canale.
+
+* È ora supportato il download di rappresentazioni ottimizzate tramite SmartSync.
+
+* Riproduci rendering ottimizzato per tutte le risorse.
+
+* È stato aggiunto il supporto per più tipi di provider di contenuti
+
+* La strategia di riproduzione in sequenza incorporata è stata interrotta e ora è stata corretta.
+
+* Manifesto offline utilizzando il parametro di richiesta `wcmmode` per la voce html, rendendolo inmemorizzabile nella cache.
+
+* Una sequenza incorporata dinamica vuota a volte causa la visualizzazione in bianco.
+
+* Un lettore deve segnalare il proprio stato di riproduzione.
+
+* Il video viene riprodotto in `Tiny mode` e non viene riprodotto come video a schermo intero sul dispositivo.
+
+* Le password OSGi sono visibili come testo normale.
 
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens vengono rilasciati per AEM 6.5 Feature Pack 8:
+I seguenti lettori AEM Screens vengono rilasciati per AEM 6.5 Feature Pack 9:
 
 * ChromeOS
 * Windows
