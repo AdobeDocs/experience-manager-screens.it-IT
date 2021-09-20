@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 060ab6a906597ab8e8789fab6932cec310cc06f5
+source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ Per ulteriori informazioni, consulta Supporto miniature per video .
 Per ulteriori informazioni, consulta Monitoraggio di base della riproduzione .
 
 * **Aggiornamenti al rapporto sull’assegnazione del contenuto**
+
+   Il rapporto sull’assegnazione dei contenuti è ora ottimizzato e migliorato con un’esperienza utente migliorata. Il rapporto scaricabile visualizza le entità correlate al lettore migliorate, come posizioni, visualizzazioni e dispositivi, in una scheda del foglio di calcolo e le informazioni del fornitore del contenuto, come canali e risorse in un’altra scheda.
 
 * **Supporto per i manifesti V3**
 
