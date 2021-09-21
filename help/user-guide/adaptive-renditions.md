@@ -1,15 +1,16 @@
 ---
 title: Rappresentazioni adattive in AEM Screens
-description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
+description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
+source-git-commit: 773632de04b10b2e9040fede8e85e8d9092be5a6
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
-# Rendering adattivi {#adaptive-renditions}
+
+# Rappresentazioni adattive: Panoramica e configurazioni dell&#39;architettura {#adaptive-renditions}
 
 ## Introduzione {#introduction}
 
@@ -59,12 +60,11 @@ Per abilitare la funzione, aggiungi almeno una regola di mappatura e accertati c
 
 ## Configurazione di Author e Publish {#setup-author-publish}
 
-Segui i passaggi seguenti per configurare l’autore e la pubblicazione:
+Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli in Author e Publish (Creazione e pubblicazione):
 
 * La mappatura delle rappresentazioni deve essere replicata manualmente.
 
 * Le rappresentazioni delle risorse non vengono replicate per impostazione predefinita. Tutte le risorse rilevanti devono essere replicate manualmente.
-
 
 ## Aggiunta di regole di mappatura rendering {#adding-rendition-mapping-rules}
 
@@ -90,4 +90,4 @@ Segui i passaggi seguenti per configurare l’autore e la pubblicazione:
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver caricato le rappresentazioni, ora puoi utilizzare le rappresentazioni adattive nei tuoi canali AEM Screens.
+Dopo aver caricato le rappresentazioni, ora puoi utilizzare le rappresentazioni adattive nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta Utilizzo di rappresentazioni adattive .
