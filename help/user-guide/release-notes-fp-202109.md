@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -59,17 +59,15 @@ Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, cons
 
 * È ora possibile impostare gli avvisi slack in base ai registri splunk.
 
-* Ottimizzazione del ping per la riautenticazione se la risposta non è JSON valido.
+* ping migliorato per la riautenticazione se la risposta non è JSON valida.
 
 * I nomi/ruoli dei canali numerici hanno causato una schermata vuota.
 
 * Scarica le rappresentazioni ottimizzate tramite SmartSync.
 
-* Trasforma la mappatura in un elenco di chiavi di rendering.
+* La mappatura è stata trasformata in elenco di chiavi di rendering.
 
-* Rimuovere l&#39;accesso a cmd.exe e reg.exe in windows player.
-
-* Limita le chiamate token csrf.
+* È stato rimosso l’accesso a `cmd.exe` e `reg.exe` in windows player.
 
 * Un lettore deve segnalare il proprio ultimo evento di riproduzione riuscito.
 
@@ -83,7 +81,7 @@ Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, cons
 
 * Se il lettore viene ricaricato durante il download dell&#39;aggiornamento del canale, ignora l&#39;aggiornamento.
 
-* Il componente Pagina incorporata non rispetta l’evento di contatto .
+* Il componente Pagina incorporata ora rispetta l’evento touch.
 
 * È ora supportato il provisioning remoto di Tizen Player.
 
@@ -100,13 +98,11 @@ Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, cons
 
 * Aggiorna automaticamente il manifesto del canale se la pagina di riferimento è pubblicata.
 
-* I canali JSON non includono canali personalizzati (#942)
-
 * I dispositivi eliminati ora non bloccano la coda di replica Screens.
 
-* Il manifesto non contiene contenuto di destinazione né pagine incorporate di Sites.
+* Il manifesto non conteneva contenuto di destinazione né pagine incorporate di Sites. Questo problema è stato risolto.
 
-* Nuovo componente immagine di base non aggiunto al manifesto del canale.
+* Il nuovo componente immagine di base viene ora aggiunto al manifesto del canale.
 
 * È ora supportato il download di rappresentazioni ottimizzate tramite SmartSync.
 
@@ -118,14 +114,11 @@ Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, cons
 
 * Manifesto offline utilizzando il parametro di richiesta `wcmmode` per la voce html, rendendolo inmemorizzabile nella cache.
 
-* Una sequenza incorporata dinamica vuota a volte causa la visualizzazione in bianco.
+* La sequenza incorporata dinamica vuota talvolta causava la visualizzazione in bianco.
 
-* Un lettore deve segnalare il proprio stato di riproduzione.
+* Il lettore ora ne segnala lo stato di riproduzione.
 
-* Il video viene riprodotto in `Tiny mode` e non viene riprodotto come video a schermo intero sul dispositivo.
-
-* Le password OSGi sono visibili come testo normale.
-
+* Il video è stato riprodotto in `Tiny mode` e non è stato riprodotto come video a schermo intero sul dispositivo e il problema è stato risolto.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 

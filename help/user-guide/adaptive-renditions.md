@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 75f7cf722880bb0a1f35ac663308cf049cd4fd20
+source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli 
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver caricato le rappresentazioni, ora puoi utilizzare le rappresentazioni adattive nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta Utilizzo di rappresentazioni adattive .
+Dopo aver configurato e caricato i rendering, puoi ora utilizzare le rappresentazioni adattive nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta Utilizzo di rappresentazioni adattive .
