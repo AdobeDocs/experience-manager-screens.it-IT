@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 0a870f337f69f3379abb15dac504ee8e8355bc98
+source-git-commit: e56b14639370b9ecd8924270e827dbd70112581b
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Le rappresentazioni adattive consentono ai dispositivi di selezionare automatica
 
 ## Obiettivo {#objective}
 
-In qualità di autore dei contenuti di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto.
+In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Per poter utilizzare questa funzione in un canale AEM Screens, è necessario configurare le rappresentazioni adattive.
 
 Pertanto, se hai implementato una varietà di dispositivi, l’utilizzo di questa funzione consentirà al dispositivo di scaricare e riprodurre automaticamente il rendering più appropriato di una risorsa in base alle regole.
 
