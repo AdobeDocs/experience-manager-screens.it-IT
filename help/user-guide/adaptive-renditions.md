@@ -2,10 +2,10 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
+source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 1%
 
 ---
 
@@ -18,26 +18,26 @@ Le rappresentazioni adattive consentono ai dispositivi di selezionare automatica
 
 ## Obiettivo {#objective}
 
-In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Per poter utilizzare questa funzione in un canale AEM Screens, è necessario configurare le rappresentazioni adattive.
-
-Pertanto, se hai implementato una varietà di dispositivi, l’utilizzo di questa funzione consentirà al dispositivo di scaricare e riprodurre automaticamente il rendering più appropriato di una risorsa in base alle regole.
+In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. È necessario configurare le rappresentazioni adattive prima che un autore di contenuti possa utilizzare questa funzione in un canale AEM Screens.
 
 ## Panoramica dell&#39;architettura {#architectural-overview}
 
-Le rappresentazioni adattive si basano sull’idea di avere più rappresentazioni di risorse denominate in base a una convenzione di denominazione specifica. La decisione di riprodurre un rendering specifico viene presa valutando espressioni di query multimediali che possono essere risolte solo su dispositivi con funzionalità previste. La capacità di avere un pattern di denominazione del rendering associato definisce una regola di mappatura del rendering. Dopo aver calcolato tutte le espressioni disponibili, il lettore Screens raccoglierà i pattern di denominazione corrispondenti alle regole corrispondenti. I pattern vengono utilizzati per trovare le rappresentazioni corrette durante la riproduzione della sequenza, cercando i pattern nei nomi delle rappresentazioni.
+Le rappresentazioni adattive si basano sull’idea di avere più rappresentazioni di risorse denominate in base a una convenzione di denominazione specifica. La decisione di riprodurre un rendering specifico viene presa valutando espressioni di query multimediali che possono essere risolte solo su dispositivi con funzionalità previste.
+
+La possibilità di avere un pattern di denominazione del rendering associato definisce una regola di mappatura del rendering, ad esempio verticale o orizzontale, come illustrato nella figura riportata di seguito. Dopo aver calcolato tutte le espressioni disponibili, il lettore Screens raccoglierà i pattern di denominazione corrispondenti alle regole corrispondenti. I pattern vengono utilizzati per trovare le rappresentazioni corrette durante la riproduzione della sequenza, cercando i pattern nei nomi delle rappresentazioni.
 
 ![immagine](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
 ## Configurazione dell’impostazione per l’utilizzo delle rappresentazioni adattive {#setup-adaptive-renditions}
 
-Per abilitare la funzione Rendering adattivo, le regole di mappatura devono essere presenti e la configurazione in base al contesto (CA) deve essere risolvibile per canali e display.
+Per abilitare la funzione Rendering adattivo, devono essere presenti le seguenti regole di mappatura e la configurazione in base al contesto (CA) deve essere risolvibile per i canali e i display.
 
 >[!NOTE]
 >Per ulteriori informazioni sulle configurazioni in base al contenuto, consulta [qui](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
 
 Per configurare la configurazione, effettua le seguenti operazioni:
 
-1. Controlla se la configurazione della mappatura del rendering esiste in `JCR`. Tutti i pacchetti di funzioni più recenti dispongono di questa struttura di nodi precompilata.
+1. Passa a **CRXDE Lite**. Controlla se la configurazione **rendition-mapping** esiste in `JCR`, come illustrato nella figura seguente.
 
    >[!NOTE]
    >Tutti i pacchetti di funzioni più recenti dispongono di questa struttura di nodi precompilata.
@@ -46,7 +46,7 @@ Per configurare la configurazione, effettua le seguenti operazioni:
 
 1. Assicurati che al progetto Screens sia associata la configurazione di mappatura del rendering.
 
-   * Ogni nuovo progetto creato con la procedura guidata di progetto Screens conterrà un riferimento alla configurazione della mappatura del rendering.
+   * Ogni nuovo progetto creato con la procedura guidata di progetto Screens conterrà un riferimento alla configurazione **rendition-mapping**.
 
       ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
 
@@ -64,7 +64,7 @@ Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli 
 
 ## Aggiunta di regole di mappatura rendering {#add-rendition-mapping-rules}
 
-1. Per aggiungere una regola di mappatura è necessario creare un nodo di tipo `nt:unstructured` sotto il nodo di rendering-mapping.
+1. Per aggiungere una regola di mappatura è necessario creare un nodo di tipo `nt:unstructured` sotto il nodo **rendition-mapping**.
 
 1. Aggiungi la proprietà espressione con il valore contenente l’espressione query.
 
@@ -74,7 +74,6 @@ Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli 
 1. Aggiungi la proprietà pattern con il valore contenente il pattern di denominazione del rendering che verrà selezionato, se l’espressione viene valutata su true.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
-
 
 
 ## Passaggi successivi {#next-steps}
