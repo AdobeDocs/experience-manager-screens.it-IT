@@ -2,10 +2,10 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: d3a2c7695afb296e9344aa55f6630798db5b1941
+source-git-commit: b597370d9ee9e2b06ebcd6915ecd949c003f8a50
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,12 @@ Le rappresentazioni adattive si basano sull’idea di avere più rappresentazion
 
 ## Configurazione dell’impostazione per l’utilizzo delle rappresentazioni adattive {#setup-adaptive-renditions}
 
-Per abilitare la funzione Rendering adattivo, le regole di mappatura devono essere presenti e la configurazione in base al contesto può essere risolta per i canali e le visualizzazioni:
+Per abilitare la funzione Rendering adattivo, le regole di mappatura devono essere presenti e la configurazione in base al contesto (CA) deve essere risolvibile per canali e display.
+
+>[!NOTE]
+>Per ulteriori informazioni sulle configurazioni in base al contenuto, consulta [qui](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html).
+
+Per configurare la configurazione, effettua le seguenti operazioni:
 
 1. Controlla se la configurazione della mappatura del rendering esiste in `JCR`. Tutti i pacchetti di funzioni più recenti dispongono di questa struttura di nodi precompilata.
 
@@ -74,4 +79,4 @@ Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli 
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver configurato e caricato le rappresentazioni, come Autore di contenuti, ora puoi utilizzare le rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per applicare questa funzione nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive](/help/user-guide/using-adaptive-renditions.md) .
+Dopo aver configurato e caricato le rappresentazioni, come autore di contenuti, ora puoi utilizzare le rappresentazioni adattive e anche migrare i dispositivi per reti di grandi dimensioni per usufruire di questa funzione nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive](/help/user-guide/using-adaptive-renditions.md) .
