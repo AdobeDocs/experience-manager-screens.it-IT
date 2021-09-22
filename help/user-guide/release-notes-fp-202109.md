@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '842'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 9.
 
-Scarica l&#39;ultimo pacchetto di funzioni per la versione di AEM Screens 6.5.9 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere l&#39;ultimo pacchetto di funzioni intitolato **AEM 6.5 Screens FP9**.
+Scarica l&#39;ultimo pacchetto di funzioni per la versione di AEM Screens 6.5.9 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere l&#39;ultimo pacchetto di funzioni intitolato **AEM 6.5 Screens FP9**.
 
 ## Data di rilascio {#release-date}
 
@@ -42,6 +42,14 @@ Per ulteriori informazioni, consulta Monitoraggio di base della riproduzione .
 * **Aggiornamenti al rapporto sull’assegnazione del contenuto**
 
    Il rapporto sull’assegnazione dei contenuti è ora ottimizzato e migliorato con un’esperienza utente migliorata. Il rapporto scaricabile visualizza le entità correlate al lettore migliorate, come posizioni, visualizzazioni e dispositivi, in una scheda del foglio di calcolo e le informazioni del fornitore del contenuto, come canali e risorse in un’altra scheda.
+
+* **Rendering adattivi**
+
+   Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente il rendering migliore per un dispositivo in base alle regole definite dal cliente.
+
+   In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni per ulteriori informazioni.
+
+   Inoltre, in qualità di autore dei contenuti di AEM Screens, ora puoi utilizzare le rappresentazioni adattive nel progetto AEM Screens e anche applicare la strategia di migrazione per le reti di grandi dimensioni. Per ulteriori informazioni, consulta Utilizzo di rappresentazioni adattive .
 
 * **Supporto per i manifesti V3**
 

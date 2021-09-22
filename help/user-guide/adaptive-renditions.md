@@ -2,7 +2,7 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
+source-git-commit: 375024848ed736104add828251ea494406a4f7ba
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -48,8 +48,6 @@ Per abilitare la funzione Rendering adattivo, le regole di mappatura devono esse
    * In una versione precedente dei progetti Screens, è necessario definire esplicitamente l’associazione aggiungendo la proprietà `sling:configRef` che punta a `/conf/screens` al nodo del contenuto del progetto.
 
       ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
-
-
 
 ## Configurazione di Author e Publish {#setup-author-publish}
 
