@@ -2,7 +2,7 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
+source-git-commit: fcc7126ac545c80004d718888b39c6477624cd33
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Le rappresentazioni adattive si basano sull’idea di avere più rappresentazion
 
 ## Configurazione dell’impostazione per l’utilizzo delle rappresentazioni adattive {#setup-adaptive-renditions}
 
-Per abilitare la funzione Rendering adattivo, le regole di mappatura devono essere presenti e la configurazione CA deve essere risolvibile per i canali e le visualizzazioni:
+Per abilitare la funzione Rendering adattivo, le regole di mappatura devono essere presenti e la configurazione in base al contesto può essere risolta per i canali e le visualizzazioni:
 
 1. Controlla se la configurazione della mappatura del rendering esiste in `JCR`. Tutti i pacchetti di funzioni più recenti dispongono di questa struttura di nodi precompilata.
 
