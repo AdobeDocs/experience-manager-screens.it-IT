@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 898eb8e7e9b7442aead9fb6fb89c2646aef65e05
+source-git-commit: 08f47e6542a7832f64d5d0dde9cdd463176f5f5d
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -49,24 +49,7 @@ Per abilitare la funzione Rendering adattivo, le regole di mappatura devono esse
 
       ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
-## Strategia di migrazione {#migration-strategy}
 
->[!IMPORTANT]
->Per le reti di grandi dimensioni, si raccomanda che la migrazione venga effettuata gradualmente per attenuare i rischi, in quanto la funzione introdurrà modifiche nel formato di archiviazione del file e del manifesto.
-
-Il diagramma seguente illustra la strategia di migrazione per le reti di grandi dimensioni:
-
-![immagine](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
-
-Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati che la configurazione della mappatura del rendering sia risolvibile nel contesto di visualizzazioni e canali. Per eseguire la migrazione, effettua le seguenti operazioni:
-
-1. Aggiungi [Regole di mappatura rappresentazioni](#adding-rendition-mapping-rules).
-1. Crea una cartella per i nuovi canali e aggiungi un riferimento che punta alla configurazione di mappatura del rendering.
-1. Crea nuovi canali sostituendo quelli precedenti e carica le rappresentazioni.
-1. Riassegna le visualizzazioni ai nuovi canali.
-1. Aggiungi un riferimento alle visualizzazioni o alle posizioni migrate che puntano alla configurazione di mappatura del rendering.
-1. Ripetere i passaggi 3, 4 e 5 per tutti i canali e le visualizzazioni rimanenti.
-1. Dopo aver completato la migrazione, rimuovi tutti i riferimenti di configurazione dai canali, dalle visualizzazioni e dalle posizioni e aggiungi un singolo riferimento al nodo di contenuto del progetto.
 
 ## Configurazione di Author e Publish {#setup-author-publish}
 
@@ -90,17 +73,6 @@ Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli 
    ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
 
 
-## Caricamento delle rappresentazioni {#upload-renditions}
-
-1. Crea una versione della risorsa più adatta alla visualizzazione di segnaletica, ad esempio `portrait orientation`.
-
-1. Scegli il pattern di denominazione del rendering, ad esempio,`portrait`.
-
-1. Rinomina il file della risorsa in modo che contenga il pattern, ad esempio `my_asset_portrait.png`.
-
-1. Fai clic su **Aggiungi rappresentazione** per caricare il rendering, come mostrato nella figura seguente.
-
-   ![immagine](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
 
 ## Passaggi successivi {#next-steps}
 
