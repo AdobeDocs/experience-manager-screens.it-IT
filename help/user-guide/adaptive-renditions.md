@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: f9e10463418ddc44f75c7d6c689298dcba20338f
+source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ La possibilità di avere un pattern di denominazione del rendering associato def
 
 ![immagine](/help/user-guide/assets/adaptive-renditions/adaptive-renditions.png)
 
-## Configurazione dell’impostazione per l’utilizzo delle rappresentazioni adattive {#setup-adaptive-renditions}
+## Aggiunta di una proprietà di mappatura rendering al progetto Screens {#rendition-mapping-new}
 
 Per abilitare la funzione Rendering adattivo, devono essere presenti le seguenti regole di mappatura e la configurazione in base al contesto (CA) deve essere risolvibile per i canali e i display.
 
@@ -37,22 +37,22 @@ Per abilitare la funzione Rendering adattivo, devono essere presenti le seguenti
 
 Per configurare la configurazione, effettua le seguenti operazioni:
 
-1. Passa a **CRXDE Lite**. Controlla se la configurazione **rendition-mapping** esiste in `JCR`, come illustrato nella figura seguente.
+1. Passa a **CRXDE Lite**. Controlla se la configurazione **rendition-mapping** esiste in `/conf/screens/sling:configs/rendition-mapping`, come illustrato nella figura seguente.
 
-   >[!NOTE]
-   >Tutti i pacchetti di funzioni più recenti dispongono di questa struttura di nodi precompilata.
+   >![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
-   ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
+   >[!IMPORTANT]
+   >Se hai installato l&#39;ultimo Feature Pack 202109, in CRXDE Lite verrà visualizzata la struttura del nodo **rendition-mapping** precompilata in `/conf/screens/sling:configs/rendition-mapping`. Per informazioni sull’ultimo pacchetto di funzioni, consulta [Note sulla versione per Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) .
+   >Per i progetti esistenti, assicurati che al progetto Screens sia associata la configurazione **rendition-mapping** . Per ulteriori informazioni, consulta la sezione [Aggiunta di mappature rappresentazioni a un progetto esistente](#rendition-mapping-existing) .
 
-1. Assicurati che al progetto Screens sia associata la configurazione di mappatura del rendering.
+### Aggiunta di una proprietà di mappatura rendering a un progetto esistente {#rendition-mapping-existing}
 
-   * Ogni nuovo progetto creato con la procedura guidata di progetto Screens conterrà un riferimento alla configurazione **rendition-mapping**.
+1. Passa a **CRXDE Lite**.
 
-      ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules2.png)
+1. Definisci esplicitamente l’associazione di mappatura del rendering aggiungendo la proprietà `sling:configRef` che punta a `/conf/screens` al nodo del contenuto del progetto, come illustrato nella figura seguente.
 
-   * In una versione precedente dei progetti Screens, è necessario definire esplicitamente l’associazione aggiungendo la proprietà `sling:configRef` che punta a `/conf/screens` al nodo del contenuto del progetto.
+   ![immagine](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
-      ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules3.png)
 
 ## Configurazione di Author e Publish {#setup-author-publish}
 
