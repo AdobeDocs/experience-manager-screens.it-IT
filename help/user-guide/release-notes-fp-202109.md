@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 index: false
-source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
+source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -65,8 +65,6 @@ Inoltre, se utilizzi componenti personalizzati come parte dei manifesti v3, cons
 * Sono stati risolti gli errori di caching dei file sostituendo le risorse con le rappresentazioni.
 
 * I lettori ora espongono solo le rappresentazioni delle risorse, se è presente la mappatura del rendering.
-
-* È ora possibile impostare gli avvisi slack in base ai registri splunk.
 
 * ping migliorato per la riautenticazione se la risposta non è JSON valida.
 

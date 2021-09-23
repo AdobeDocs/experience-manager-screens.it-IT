@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 951fd38d5f69cdab1bf9b23f07b4e92075e87baf
+source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -64,16 +64,39 @@ Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli 
 
 ## Aggiunta di regole di mappatura rendering {#add-rendition-mapping-rules}
 
-1. Per aggiungere una regola di mappatura è necessario creare un nodo di tipo `nt:unstructured` sotto il nodo **rendition-mapping**.
+Segui i passaggi seguenti per aggiungere un nodo in Mappatura rappresentazione:
 
-1. Aggiungi la proprietà espressione con il valore contenente l’espressione query.
+1. Passa a questo percorso `/conf/screens/sling:configs/rendition-mapping` da **CRXDE Lite**.
+
+1. Crea un nodo sotto **rendition-mapping**. Fai clic con il pulsante destro del mouse su **rendition-mapping** e fai clic su **Crea** —> **Crea nodo**, come mostrato nella figura seguente.
+
+   ![immagine](/help/user-guide/assets/adaptive-renditions/add-node1.png)
+
+1. Immetti il **Nome** per la regola di mappatura, ad esempio **regola1** e il nodo **Tipo** come **nt:unstructured** nella finestra di dialogo **Crea nodo**. Fai clic su **OK**.
+
+   ![immagine](/help/user-guide/assets/adaptive-renditions/add-node2.png)
+
+
+1. È necessario aggiungere la proprietà espressione con il valore contenente l’espressione query.
 
    >[!NOTE]
    >Per ulteriori informazioni, consulta [Utilizzo della sintassi delle query multimediali](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) .
 
+   Fai clic su **rule1** creato e immetti **espressione** in **Name** e **(orientation:orizzontale)** in **Valore**, come mostrato di seguito. Fai clic su **Aggiungi**.
+
+   ![immagine](/help/user-guide/assets/adaptive-renditions/add-node3.png)
+
+
+
 1. Aggiungi la proprietà pattern con il valore contenente il pattern di denominazione del rendering che verrà selezionato, se l’espressione viene valutata su true.
 
-   ![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules4.png)
+   Per aggiungere la proprietà del pattern, fai clic su **rule1** creata e immetti **pattern** in **Name** e **orizzontale** in **Valore**, come mostrato di seguito. Fai clic su **Aggiungi**.
+
+   ![immagine](/help/user-guide/assets/adaptive-renditions/add-node4.png)
+
+1. Fai clic su **Salva tutto** e vedrai le proprietà sotto il nodo creato in **rendition-mapping**.
+
+   ![immagine](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 
 
 ## Passaggi successivi {#next-steps}
