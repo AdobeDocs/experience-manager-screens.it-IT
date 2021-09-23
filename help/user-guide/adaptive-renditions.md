@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
+source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
@@ -102,4 +102,4 @@ Segui i passaggi seguenti per aggiungere un nodo in Mappatura rappresentazione:
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver configurato e caricato le rappresentazioni, come autore di contenuti, ora puoi utilizzare le rappresentazioni adattive e anche migrare i dispositivi per reti di grandi dimensioni per usufruire di questa funzione nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive](/help/user-guide/using-adaptive-renditions.md) .
+Dopo aver aggiunto le proprietà e le regole di mappatura del rendering, ora come Autore del contenuto, puoi configurare le risorse per l’utilizzo di Rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per usufruire di questa funzione, nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive](/help/user-guide/using-adaptive-renditions.md) .
