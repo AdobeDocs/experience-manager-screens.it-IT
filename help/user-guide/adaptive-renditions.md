@@ -2,9 +2,9 @@
 title: Rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: bbae7c8ba0f24b228221df8bc4c26cc5c4817ce0
+source-git-commit: 3ced907f4611ff7499ca4c013c4b25e1315e3726
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,10 @@ Segui i passaggi seguenti per aggiungere un nodo in Mappatura rappresentazione:
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
+1. Aggiungi la proprietà pattern con il valore contenente il pattern di denominazione del rendering.
 
-
-1. Aggiungi la proprietà pattern con il valore contenente il pattern di denominazione del rendering che verrà selezionato, se l’espressione viene valutata su true.
+   >[!NOTE]
+   >Il valore definito nella proprietà del pattern corrisponde al nuovo rendering della risorsa e viene selezionato se l’espressione viene valutata come true.
 
    Per aggiungere la proprietà del pattern, fai clic su **rule1** creata e immetti **pattern** in **Name** e **orizzontale** in **Valore**, come mostrato di seguito. Fai clic su **Aggiungi**.
 
