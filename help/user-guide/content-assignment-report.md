@@ -1,16 +1,16 @@
 ---
 title: Rapporto assegnazione contenuti
 description: Questa pagina descrive il download e l’utilizzo del rapporto sull’assegnazione dei contenuti.
-feature: Creazione di esperienze in Screens
+feature: Authoring Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
+source-git-commit: 9e750b874253a5d1786e5ef78fc41d96e72b702d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
-
 
 # Rapporto assegnazione contenuti {#content-assignment-report}
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni, consulta le seguenti risorse:
 1. [Assegnazione dei canali ](/help/user-guide/channel-assignment-latest-fp.md)
 
 
-## Download del rapporto sull’assegnazione dei contenuti {#downloading-content-assignment-report-fp}
+## Download del rapporto sull’assegnazione del contenuto {#downloading-content-assignment-report-fp}
 
 Dopo aver configurato il progetto AEM Screens e aver assegnato le visualizzazioni a ciascuna delle posizioni come mostrato nei passaggi precedenti, puoi scaricare il rapporto Assegnazione contenuto .
 
@@ -51,10 +51,13 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto sull’assegn
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 
+1. Il foglio di calcolo scaricato è costituito da due schede quali **Posizioni** e **Contenuto**. La scheda Posizione visualizza quattro colonne quali **Posizioni**, **Visualizzazioni**, **Canali** e **Dispositivi** che possono essere utilizzate per approfondire l&#39;analisi di queste quattro entità relative al progetto AEM Screens.
+
+   ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
+
    >[!NOTE]
-   >Il foglio di calcolo scaricato è costituito da quattro colonne quali **Canali**, **Risorse**, **Visualizzazioni** e **Dispositivi** che possono essere utilizzate per approfondire l&#39;analisi di queste quattro entità relative al progetto AEM Screens.
+   >I dati visualizzati nel foglio di calcolo sono ordinati alfabeticamente in un formato di facile lettura.
 
-1. Nel computer locale viene scaricato un foglio in excel con il nome identico prefisso del nome del progetto AEM Screens. Ad esempio, se il nome del progetto è **DemoScreens**, il nome file scaricato sarà **demoscreens-content-Assignment-report.xlxs**.
+1. Puoi fare clic su uno dei canali dalla colonna **Canali** per aprire la scheda **Contenuto** che ti permetterà di accedere direttamente a quel canale e ti fornirà anche informazioni sulle risorse (immagini e video) associate a quel canale specifico, come illustrato nella figura seguente.
 
-   ![immagine](/help/user-guide/assets/content-assignment-report/car-download1.png)
-
+   ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
