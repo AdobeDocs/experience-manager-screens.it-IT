@@ -1,11 +1,10 @@
 ---
-title: Rappresentazioni adattive in AEM Screens
-description: Questa pagina descrive la Panoramica dell’architettura e le configurazioni per le rappresentazioni adattive in AEM Screens.
-index: false
-source-git-commit: 884bee85c6f081cbd0969a8b51125f18e2d85413
+title: Panoramica e configurazioni dell'architettura delle rappresentazioni adattive
+description: Questa pagina descrive la panoramica e le configurazioni dell’architettura in CRXDE Lite per le rappresentazioni adattive in AEM Screens.
+source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 1%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
@@ -54,14 +53,6 @@ Per configurare la configurazione, effettua le seguenti operazioni:
    ![immagine](/help/user-guide/assets/adaptive-renditions/renditon-mapping2.png)
 
 
-## Configurazione di Author e Publish {#setup-author-publish}
-
-Prima di utilizzare le rappresentazioni adattive, considera i seguenti consigli in Author e Publish (Creazione e pubblicazione):
-
-* La mappatura delle rappresentazioni deve essere replicata manualmente.
-
-* Le rappresentazioni delle risorse non vengono replicate per impostazione predefinita. Tutte le risorse rilevanti devono essere replicate manualmente.
-
 ## Aggiunta di regole di mappatura rendering {#add-rendition-mapping-rules}
 
 Segui i passaggi seguenti per aggiungere un nodo in Mappatura rappresentazione:
@@ -102,4 +93,4 @@ Segui i passaggi seguenti per aggiungere un nodo in Mappatura rappresentazione:
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver aggiunto le proprietà e le regole di mappatura del rendering, ora come Autore del contenuto, puoi configurare le risorse per l’utilizzo di Rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per usufruire di questa funzione, nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive](/help/user-guide/using-adaptive-renditions.md) .
+Dopo aver aggiunto le proprietà e le regole di mappatura del rendering, ora come Autore del contenuto, puoi configurare le risorse per l’utilizzo di Rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per usufruire di questa funzione, nei tuoi canali AEM Screens.

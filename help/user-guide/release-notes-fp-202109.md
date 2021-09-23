@@ -4,10 +4,9 @@ description: Segui questa pagina per ottenere informazioni su AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-index: false
-source-git-commit: 0ffdf33afd6a97246e886fadb692d1b9a2ef55ab
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -48,7 +47,7 @@ Per ulteriori informazioni, consulta [Rapporto sull’assegnazione dei contenuti
 
    Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente il rendering migliore per un dispositivo in base alle regole definite dal cliente.
 
-   In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto.
+   In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli
 
    Inoltre, in qualità di autore dei contenuti di AEM Screens, ora puoi utilizzare le rappresentazioni adattive nel progetto AEM Screens e anche applicare la strategia di migrazione per le reti di grandi dimensioni.
 

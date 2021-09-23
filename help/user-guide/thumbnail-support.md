@@ -1,11 +1,11 @@
 ---
 title: Supporto delle miniature per i video in AEM Screens
 description: Questa pagina descrive come aggiungere il supporto per le miniature per i video in Screens.
-index: false
-source-git-commit: 07b5b6159b09c0c1301a5e782dfe959d0b83a7d2
+exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
+source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,23 @@ Per usare le miniature nei video, effettua le seguenti operazioni:
 
 1. Seleziona il canale e fai clic su **Modifica** nella barra delle azioni per aprire l&#39;editor.
 
+   ![immagine](/help/user-guide/assets/thumbnails/thumbnail-1.png)
+
 1. Aggiungi o modifica un componente video esistente, come illustrato nella figura riportata di seguito.
+
+   ![immagine](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
 1. Seleziona il video e fai clic sull&#39;icona *chiave inglese* per aprire le proprietà del video.
 
+   ![immagine](/help/user-guide/assets/thumbnails/thumbnail-3.png)
+
 1. Viene visualizzata la finestra di dialogo **Video** in cui viene visualizzata la zona di rilascio **Miniatura**.
 
+   ![immagine](/help/user-guide/assets/thumbnails/thumbnail-4.png)
+
 1. Trascina e rilascia un’immagine dal selettore delle risorse nella zona di rilascio **Miniatura** e fai clic su **Fine**.
+
+   ![immagine](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
 1. Fai clic su **Anteprima**.
 

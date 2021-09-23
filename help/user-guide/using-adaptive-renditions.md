@@ -2,7 +2,7 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: d3a54ed85b9fa2ddf3918161566ba2c82c373be0
+source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -43,7 +43,6 @@ Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati 
 
    >[!NOTE]
    >Dopo aver completato la migrazione, assicurati di rimuovere tutti i riferimenti di configurazione dai canali, dalle visualizzazioni e dalle posizioni e di aggiungerne uno singolo al nodo di contenuto del progetto.
-
 
 ## Caricamento di rappresentazioni e utilizzo di rappresentazioni adattive in un canale AEM Screens {#upload-renditions}
 
