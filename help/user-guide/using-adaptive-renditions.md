@@ -1,13 +1,13 @@
 ---
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
-index: false
-source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
+source-git-commit: 99102513b100f1f3b086eff9dcd21e5afb4f493c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
+
 
 # Utilizzo di rappresentazioni adattive in AEM Screens {#adaptive-renditions}
 
@@ -36,9 +36,9 @@ Segui i passaggi riportati di seguito per applicare rappresentazioni alle risors
 
 1. Crea una versione della risorsa più adatta alla visualizzazione di segnaletica, ad esempio `seahorse.jpg`.
 
-1. Scegliere il pattern di denominazione del rendering, ad esempio`landscape`, simile a quello definito nella proprietà del pattern in CRXDE Lite. Per ulteriori informazioni, consulta [Aggiunta di regole di mappatura rappresentazioni](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
+1. Scegli il pattern di denominazione del rendering, ad esempio`landscape`, simile a quello definito nella proprietà **pattern** in **CRXDE Lite**. Per ulteriori informazioni, consulta [Aggiunta di regole di mappatura rappresentazioni](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
 
-1. Rinomina il file della risorsa in modo che contenga il pattern, ad esempio `seahorse_landscape.png`.
+1. Rinomina il file della risorsa in modo che contenga il pattern (definito nel passaggio 3), ad esempio `seahorse_landscape.png`.
 
 1. Fai clic su **Aggiungi rappresentazione** per caricare il rendering, come mostrato nella figura seguente.
 
