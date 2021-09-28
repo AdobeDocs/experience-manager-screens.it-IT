@@ -4,7 +4,8 @@ description: Segui questa pagina per ottenere informazioni su AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 238d53377acdad857d722c2c53f74f3a29868b57
+exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
+source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 2%
@@ -22,7 +23,7 @@ AEM Screens ha rilasciato AEM 6.5 Feature Pack 9.
 
 Scarica l&#39;ultimo pacchetto di funzioni per la versione di AEM Screens 6.5.9 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere l&#39;ultimo pacchetto di funzioni intitolato **AEM 6.5 Screens FP9**.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
 La data di rilascio per AEM Screens Feature Pack 202109 è il 23 settembre 2021.
 
@@ -47,7 +48,7 @@ Per ulteriori informazioni, consulta [Rapporto sull’assegnazione dei contenuti
 
    Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente il rendering migliore per un dispositivo in base alle regole definite dal cliente.
 
-   In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli
+   In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
 
    Inoltre, in qualità di autore dei contenuti di AEM Screens, ora puoi utilizzare le rappresentazioni adattive nel progetto AEM Screens e anche applicare la strategia di migrazione per le reti di grandi dimensioni.
 

@@ -2,10 +2,10 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
 index: false
-source-git-commit: 687b850860cc0576b9e3ee607cac2f9e5685d33e
+source-git-commit: db6f8c438783725c6ea99e8e363f74e766a3767b
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,34 @@ In qualità di autore dei contenuti di AEM Screens, ora puoi configurare rappres
 Una volta che uno sviluppatore aggiunge le proprietà e le regole di mappatura del rendering, è ora pronto per applicare la mappatura del rendering alle risorse e successivamente includerle in un canale AEM Screens.
 
 >[!IMPORTANT]
->Prima di iniziare a utilizzare le rappresentazioni adattive, in un canale AEM Screens, è consigliabile conoscere la Panoramica e la configurazione architettoniche di questa funzione. Consulta Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni per ulteriori dettagli.
+>Prima di iniziare a utilizzare le rappresentazioni adattive, in un canale AEM Screens, è consigliabile conoscere la Panoramica e la configurazione architettoniche di questa funzione. Consulta [Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
+
+## Utilizzo di rappresentazioni adattive nei canali {#using-adaptive-renditions}
+
+>[!NOTE]
+>Dopo aver aggiunto [proprietà di mappatura rendering al progetto Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e [regole di mappatura rendering](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), come autore del contenuto ora puoi applicare i rendering alle risorse.
+
+### Applicazione di rappresentazioni alle risorse {#apply-renditions-assets}
+
+Segui i passaggi riportati di seguito per applicare rappresentazioni alle risorse, che desideri utilizzare nel canale Tour Screens:
+
+1. Passa alla cartella **Risorse** nell’istanza AEM.
+
+1. Crea una versione della risorsa più adatta alla visualizzazione di segnaletica, ad esempio `seahorse.jpg`.
+
+1. Scegliere il pattern di denominazione del rendering, ad esempio`landscape`, simile a quello definito nella proprietà del pattern in CRXDE Lite. Per ulteriori informazioni, consulta [Aggiunta di regole di mappatura rappresentazioni](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
+
+1. Rinomina il file della risorsa in modo che contenga il pattern, ad esempio `seahorse_landscape.png`.
+
+1. Fai clic su **Aggiungi rappresentazione** per caricare il rendering, come mostrato nella figura seguente.
+
+   ![immagine](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
+
 
 ## Strategia di migrazione {#migration-strategy}
 
 >[!IMPORTANT]
->Per le reti di grandi dimensioni, si raccomanda che la migrazione venga effettuata gradualmente per attenuare i rischi, in quanto la funzione introdurrà modifiche nel formato di archiviazione del file e del manifesto.
+>Per le reti di grandi dimensioni, si raccomanda che la migrazione venga effettuata gradualmente per attenuare i rischi, in quanto la funzione introdurrà modifiche nel formato di archiviazione del file e del manifesto. L&#39;aggiunta di `sling:configRef` all&#39;intero progetto comporta l&#39;aggiornamento di tutti i lettori al Feature Pack 6.5.9. Nel caso in cui alcuni dei lettori siano stati aggiornati, è necessario aggiungere il `sling:configRef` solo alle cartelle di display, posizioni o canali con tutti i lettori aggiornati al Feature Pack 6.5.9.
 
 Il diagramma seguente illustra la strategia di migrazione per le reti di grandi dimensioni:
 
@@ -44,14 +66,3 @@ Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati 
    >[!NOTE]
    >Dopo aver completato la migrazione, assicurati di rimuovere tutti i riferimenti di configurazione dai canali, dalle visualizzazioni e dalle posizioni e di aggiungerne uno singolo al nodo di contenuto del progetto.
 
-## Caricamento di rappresentazioni e utilizzo di rappresentazioni adattive in un canale AEM Screens {#upload-renditions}
-
-1. Crea una versione della risorsa più adatta alla visualizzazione di segnaletica, ad esempio `portrait orientation`.
-
-1. Scegli il pattern di denominazione del rendering, ad esempio,`portrait`.
-
-1. Rinomina il file della risorsa in modo che contenga il pattern, ad esempio `my_asset_portrait.png`.
-
-1. Fai clic su **Aggiungi rappresentazione** per caricare il rendering, come mostrato nella figura seguente.
-
-   ![immagine](/help/user-guide/assets/adaptive-renditions/add-rendition.png)
