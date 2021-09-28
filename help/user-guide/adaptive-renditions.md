@@ -1,13 +1,13 @@
 ---
 title: Panoramica e configurazioni dell'architettura delle rappresentazioni adattive
 description: Questa pagina descrive la panoramica e le configurazioni dell’architettura in CRXDE Lite per le rappresentazioni adattive in AEM Screens.
-source-git-commit: d30426f871d319bcfacb7a832479b87400e18fc2
+exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
+source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '658'
 ht-degree: 2%
 
 ---
-
 
 # Rappresentazioni adattive: Panoramica e configurazioni dell&#39;architettura {#adaptive-renditions}
 
@@ -93,4 +93,4 @@ Segui i passaggi seguenti per aggiungere un nodo in Mappatura rappresentazione:
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver aggiunto le proprietà e le regole di mappatura del rendering, ora come Autore del contenuto, puoi configurare le risorse per l’utilizzo di Rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per usufruire di questa funzione, nei tuoi canali AEM Screens.
+Dopo aver aggiunto le proprietà e le regole di mappatura del rendering, ora come Autore del contenuto, puoi configurare le risorse per l’utilizzo di Rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per usufruire di questa funzione, nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md) .
