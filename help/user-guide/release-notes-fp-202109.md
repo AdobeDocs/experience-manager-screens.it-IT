@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 609cb66ea1cc34262bb57c020eb07fd18bd31f0d
+source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 2%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Per ulteriori informazioni, consulta [Rapporto sull’assegnazione dei contenuti
 
    In qualità di sviluppatore di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
 
-   Inoltre, in qualità di autore dei contenuti di AEM Screens, ora puoi utilizzare le rappresentazioni adattive nel progetto AEM Screens e anche applicare la strategia di migrazione per le reti di grandi dimensioni.
+   Inoltre, in qualità di autore dei contenuti di AEM Screens, puoi configurare le risorse per l’utilizzo di rappresentazioni adattive e anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per sfruttare questa funzione nei tuoi canali AEM Screens. Per ulteriori informazioni, consulta [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md) .
 
 * **Supporto per i manifesti V3**
 
