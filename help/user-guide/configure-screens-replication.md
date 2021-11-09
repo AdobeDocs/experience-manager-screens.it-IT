@@ -3,10 +3,10 @@ title: Configura l'agente di replica Screens
 description: Segui questa pagina per ottenere informazioni su come configurare l'agente di replica Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 6f44bc9d28ed7fa3a9c8afef7ab7ecab64d53d36
+source-git-commit: 42e6adb7f8aa60854637a48fbb08525a0a971276
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '440'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,10 @@ Devi completare entrambe le sezioni per completare la configurazione di Screens 
 
 ## Abilitazione degli utenti e aggiornamento della password {#enable-users}
 
-Effettua le seguenti operazioni:
+Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per screens-ricevitore-user:
+
+>[!NOTE]
+>Per motivi di sicurezza, si consiglia di evitare di utilizzare la password dell&#39;amministratore per screens-ricevitore-user.
 
 1. Passa all’istanza AEM.
 
