@@ -3,9 +3,9 @@ title: Configurare gli agenti di replica Screens
 description: Segui questa pagina per ottenere informazioni su come configurare gli agenti di replica Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
+source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -105,10 +105,10 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Cerca l’agente di replica Screens sull’autore e fai clic sul collegamento, come illustrato nella figura seguente.
+1. Cerca tutti gli agenti di replica Screens sull’autore e fai clic sul collegamento, come illustrato nella figura seguente.
 
    >[!NOTE]
-   >Cerca l&#39;agente di replica Screens con la lettera **S** incluso nel nome dell&#39;autore.
+   >Cerca tutti gli agenti di replica Screens. Il nome dell’agente di replica Screens includerà una lettera **S** nel titolo.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
