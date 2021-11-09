@@ -3,9 +3,9 @@ title: Configurare gli agenti di replica Screens
 description: Segui questa pagina per ottenere informazioni su come configurare gli agenti di replica Screens.
 role: Developer
 level: Intermediate
-source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
+source-git-commit: 8f4aa5d33616275591c8b4c3bf0616c6cbd0ebf3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Questa pagina descrive come configurare gli agenti di replica Screens.
 
 ## Obiettivo {#objective}
 
-L’agente di replica Screens è responsabile del trasferimento dei dati di ping dalla pubblicazione all’autore. È essenziale configurarlo in modo che l’autore possa mostrare il ping del dispositivo.
+L&#39;agente di replica Screens è responsabile dell&#39;inserimento di dati di ping come, ad esempio, *user*, *password*, *RestartSchedule*, *maxNumberOfLogFilesToKeep*, e molti altri valori simili da pubblicare a creare. È essenziale configurarlo in modo che l’autore possa mostrare il ping del dispositivo.
 
 >[!NOTE]
 >Per ulteriori informazioni sugli agenti di replica Screens, consulta [Agenti e comandi di replica Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
@@ -108,7 +108,7 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 1. Cerca l’agente di replica Screens sull’autore e fai clic sul collegamento, come illustrato nella figura seguente.
 
    >[!NOTE]
-   >Cerca l’agente di replica Screens con la lettera **S** incluso nel nome dell&#39;autore.
+   >Cerca l&#39;agente di replica Screens con la lettera **S** incluso nel nome dell&#39;autore.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
