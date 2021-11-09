@@ -6,9 +6,9 @@ user-guide-title: Guida di Adobe Experience Manager Screens
 breadcrumb-title: Guida di AEM Screens
 user-guide-description: Scopri come utilizzare una soluzione Digital Signage per pubblicare esperienze e interazioni digitali dinamiche e interattive.
 feature-set: Experience Manager Screens
-source-git-commit: 8676b259304326ef3319ef40aa072b9d2a292a2e
+source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 18%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 18%
 # Guida utente di AEM Screens {#user-guide}
 
 + [Introduzione a Screens](aem-screens-introduction.md)
-+ Panoramica e Guida di Kickstart {#overview}
++ Panoramica e guida di Kickstart {#overview}
    + [Guida di Kickstart](kickstart-for-aem-screens.md)
    + [Guida alle best practice per Screens](https://docs.adobe.com/content/help/it/experience-manager-screens/using/about-guide.html)
    + [Termini chiave](screens-glossary.md)
@@ -38,6 +38,7 @@ ht-degree: 18%
    + [Transizione da ContentSync a SmartSync](smartsync.md)
    + [Importazione di nuovi progetti da file](project-importer.md)
    + [Replica degli attivatori di dati sui server di pubblicazione](replicating-data-triggers.md)
+   + [Configurazione degli agenti di replica Screens](configure-screens-replication.md)
    + Considerazioni specifiche per il cliente {#installing-client}
       + [Lettore del sistema operativo Chrome](implementing-chrome-os-player.md)
       + [Utilizzo di Chrome Player come estensione per la risoluzione dei problemi](using-chrome-player-as-an-extension.md)
@@ -62,7 +63,7 @@ ht-degree: 18%
       + Assegnazione dei canali{#assigning-channels} 
          + [Assegnazione dei canali](channel-assignment-latest-fp.md)
          + [Assegnazione canale: Pacchetti funzioni AEM Screens precedenti](channel-assignment.md)
-   + Utilizzo delle funzioni di base del prodotto {#product-features}
+   + Utilizzo delle funzionalità di base dei prodotti {#product-features}
       + [Sovrapposizione testo](text-overlay.md)
       + [Aggiornamento offline in blocco](bulk-offline-update.md)
       + [Servizio notifiche AEM Screens](screens-notifications-service.md)
@@ -87,7 +88,7 @@ ht-degree: 18%
       + [Aggiornamento dei contenuti on-demand](on-demand-content.md)
       + [Aggiornamento dei contenuti as-a-service](content-update-as-a-service.md)
       + [Aggiornamento dei contenuti tramite Screens Launch](launches.md)
-   + Esempi di casi d&#39;uso {#use-case-examples}
+   + Esempi di casi d’uso {#use-case-examples}
       + [Canali di emergenza](emergency-channel.md)
       + [Attivazione temperatura centro viaggi](local-temperature-activation.md)
       + [Attivazione prenotazione alberghiera](hospitality-reservation-activation.md)
