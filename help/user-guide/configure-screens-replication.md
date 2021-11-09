@@ -3,17 +3,25 @@ title: Configura l'agente di replica Screens
 description: Segui questa pagina per ottenere informazioni su come configurare l'agente di replica Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 75250cf11254499dbb30b3a5b04b1849753ea266
+source-git-commit: 99d66e5ac4239a6e43c15bb835f1e41ca94d908b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 6%
+source-wordcount: '396'
+ht-degree: 5%
 
 ---
 
 
 # Configurazione dell’agente di replica Screens {#configuring-screens-replication-agent}
 
-Questa sezione descrive come configurare l’agente di replica Screens.
+Questa pagina descrive come configurare l&#39;agente di replica Screens.
+
+>[!NOTE]
+>Per ulteriori informazioni sugli agenti di replica Screens, consulta [Agenti e comandi di replica Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
+
+Devi completare entrambe le sezioni per completare la configurazione di Screens Replication Agent:
+
+1. [Abilitazione degli utenti e aggiornamento della password](#enable-users)
+1. [Aggiornamento dell’agente di replica Screens](#replicate-agent)
 
 ## Abilitazione degli utenti e aggiornamento della password {#enable-users}
 
@@ -87,7 +95,7 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Fai clic sul collegamento, come illustrato nella figura riportata di seguito.
+1. Cerca il collegamento con la lettera **S** e fai clic su di esso, come mostrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
