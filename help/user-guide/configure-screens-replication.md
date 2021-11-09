@@ -3,9 +3,9 @@ title: Configurare gli agenti di replica Screens
 description: Segui questa pagina per ottenere informazioni su come configurare gli agenti di replica Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 137480ddaf6d7b73452c26402d56588230aa8c30
+source-git-commit: d35a8f1e4c8537560ca47c5a4ef4877137b8f7ea
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,7 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 >[!NOTE]
 >Per motivi di sicurezza, si consiglia di evitare di utilizzare la password dell&#39;amministratore per screens-ricevitore-user.
 
-1. Passa all’istanza AEM.
+1. Passa all’istanza di AEM Author.
 
 1. Fai clic su strumenti —> **Sicurezza** —> **Utenti**.
 
@@ -65,7 +65,7 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 1. Immetti una nuova password nel **Modifica password** e fai clic su **Salva**.
 
    >[!NOTE]
-   >È necessario immettere **admin** in **Password** campo .
+   >Immetti la password utente amministratore esistente in **Password** campo .
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
@@ -92,6 +92,9 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 
 Segui la sezione seguente per aggiornare le impostazioni nell’agente di replica Screens:
 
+>[!IMPORTANT]
+>È necessario completare i seguenti passaggi su TUTTI gli agenti di replica delle schermate esistenti.
+
 1. Passa all’istanza AEM.
 
 1. Fai clic su strumenti —> **Distribuzione** —> **Replica**.
@@ -117,9 +120,11 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1e.png)
 
-1. Passa a **Trasporti** dalla scheda **Impostazioni agente** e immetti la stessa password impostata in precedenza nel passaggio (8) di [Abilitazione degli utenti e aggiornamento della password](#enable-users). Fai clic su **OK**.
+1. Passa a **Trasporti** dalla scheda **Impostazioni agente** e aggiorna la **Utente** a **screen-ricevitore-user** e immetti la stessa password impostata in precedenza al passaggio (8) di [Abilitazione degli utenti e aggiornamento della password](#enable-users).
 
-   ![immagine](/help/user-guide/assets/screens-replication/screens-replication1f.png)
+   ![immagine](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
+
+1. Fai clic su **OK**.
 
 1. Una volta completati i passaggi precedenti, puoi fare clic su **Prova connessione** per verificare la connessione.
 
