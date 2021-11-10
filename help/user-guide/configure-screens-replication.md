@@ -3,7 +3,7 @@ title: Configurare gli agenti di replica Screens
 description: Segui questa pagina per ottenere informazioni su come configurare gli agenti di replica Screens.
 role: Developer
 level: Intermediate
-source-git-commit: 46b466d5d05700def4b2c290fa164fbdabae268a
+source-git-commit: ede0eb02c97c99732c64a92c603e51bedecdbac8
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 3%
@@ -17,7 +17,7 @@ Questa pagina descrive come configurare gli agenti di replica Screens.
 
 ## Obiettivo {#objective}
 
-L&#39;agente di replica Screens è responsabile dell&#39;inserimento di dati di ping come, ad esempio, *user*, *password*, *RestartSchedule*, *maxNumberOfLogFilesToKeep*, e molti altri valori simili da pubblicare a creare. È essenziale configurarlo in modo che l’autore possa mostrare il ping del dispositivo.
+L&#39;agente di replica Screens è responsabile dell&#39;inserimento di dati di comandi quali: *user*, *password*, *RestartSchedule*, *maxNumberOfLogFilesToKeep*, e molti altri valori simili da pubblicare a creare. È essenziale configurarlo in modo che l’autore possa mostrare il ping del dispositivo.
 
 >[!NOTE]
 >Per ulteriori informazioni sugli agenti di replica Screens, consulta [Agenti e comandi di replica Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#screens-replication-agents-and-commands).
