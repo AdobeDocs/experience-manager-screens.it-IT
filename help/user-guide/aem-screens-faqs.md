@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 9e9c7d49db3e3745719ded2505b1c41358ceeddd
+source-git-commit: c746fb991c02a015a5366187699e49d441ee2d88
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2120'
 ht-degree: 1%
 
 ---
@@ -240,3 +240,7 @@ Vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/doc
 * Passa a **Configurazione offline** scheda .
 
 * Invio `clientlibs `e cartelle per i file statici che devono essere aggiunti al manifesto.
+
+### 4. Cosa devi fare se, dopo l&#39;installazione dei pacchetti screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e dei bundle di base degli schermi, sono installati ma non attivi?
+
+Per il funzionamento del connettore AMS è necessario installare una versione minima di AMS AEM 6.5 Feature Pack 8. Consulta la sezione [Disponibilità](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105.html?lang=en#availability) per ottenere la versione minima del feature pack.
