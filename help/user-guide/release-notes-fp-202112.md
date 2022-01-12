@@ -4,13 +4,13 @@ description: Segui questa pagina per ottenere informazioni su AEM Screens Featur
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 2243a2a87fc5826a02c3eff60030dc296fa77a0f
+exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
+source-git-commit: 3366a918c75dd1485dfe8716797d7254b3b5c2b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 6%
+source-wordcount: '291'
+ht-degree: 5%
 
 ---
-
 
 # Note sulla versione per Feature Pack 202112 {#release-notes-for-feature-pack}
 
@@ -45,6 +45,11 @@ La data di rilascio per AEM Screens Feature Pack 20212 è il 17 dicembre 2021.
 
 * Il lettore non aggiornava la versione del firmware dopo l&#39;aggiornamento. Questo problema è stato risolto.
 
+* L&#39;anteprima della visualizzazione è bloccata sulla configurazione del lettore precedente.
+
+* L’anteprima di visualizzazione non viene sottoposta a rendering in alcune condizioni.
+
+* Correggere gli errori di download simultanei in SmartSync.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
