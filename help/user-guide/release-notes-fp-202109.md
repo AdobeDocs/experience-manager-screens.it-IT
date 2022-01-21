@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: c49cce64fe34e0611f086de5ac1c363589e3dc14
+source-git-commit: b56844c66bfa980013b610523842c7ac0c30f44d
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -54,18 +54,31 @@ Vedi [Rapporto sull&#39;assegnazione dei contenuti](/help/user-guide/content-ass
 
 * **Supporto per i manifesti V3**
 
-   Ora puoi configurare il Dispatcher per la versione 3 di Manifest. Per abilitare il manifesto v3, devi configurare:
+   Ora puoi configurare il Dispatcher per la versione 3 di Manifest. Per abilitare il manifesto v3, devi :
+
+   * Cancella eventuali processi di contenuto offline in sospeso sia nell&#39;autore che nella pubblicazione
+
+      * Passa a crx/de nell&#39;autore e pubblica
+
+      * Fai clic su Strumenti —> Query
+
+      * Nell’utilizzo della query `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`
+
+      * In questo modo verranno elencati tutti i processi di contenuto offline attualmente in esecuzione o in sospeso nella coda
+
+      * Attendi che non siano più presenti processi di contenuto offline restituiti dalla query
+   * Disattiva ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
+
+   * Abilita SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Aggiorna dispatcher
 
    * Aggiorna componente personalizzato
 
-   * Disattiva ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`
-
-   * Abilita SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`
 
    * Vedi [Configurazione di Dispatcher per la versione v3 del manifesto](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens.html?lang=en#configuring-dispatcherv3) per ulteriori dettagli.
    * Se utilizzi componenti personalizzati come parte di manifesti v3, consulta [Modello per gestori personalizzati](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop.html?lang=en#custom-handlers).
+
 
 
 ### Correzioni di bug {#bug-fixes}
