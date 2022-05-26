@@ -1,8 +1,8 @@
 ---
 title: Implementazione di Windows 10 Player
-seo-title: Implementazione di Windows 10 Player
+seo-title: Implementing Windows 10 Player
 description: Segui questa pagina per informazioni sulla configurazione di AEM Screens Windows 10 Player.
-seo-description: Segui questa pagina per informazioni sulla configurazione di AEM Screens Windows 10 Player.
+seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
 uuid: da7e88bf-c251-481e-9029-f8fc4768b309
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,13 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 4228e8a1-9749-49a6-a1bb-365492bc2a3d
 docset: aem65
-feature: Amministrazione di schermi, Windows Player
+feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Questa sezione descrive la configurazione di AEM Screens Windows 10 Player. Forn
 
 Per implementare Windows Player per AEM Screens, installare Windows Player per AEM Screens.
 
-Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
+Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
 
 >[!NOTE]
 >Non è disponibile una modalità finestra in Windows Player. È sempre in modalità a schermo intero.
@@ -39,36 +39,34 @@ Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/
 >[!NOTE]
 >Se si utilizza AEM Screens 6.5.5 Service Pack, è necessario configurare un ambiente per Windows Player.
 
-Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None** dalla **Console Web di Adobe Experience Manager
-Configurazione** su tutte le istanze di authoring e pubblicazione AEM.
+Imposta la **Attributo SameSite per i cookie login-token** da **Lax** a **Nessuno** da **Configurazione della console Web di Adobe Experience Manager** su tutte AEM istanze di authoring e pubblicazione.
 
 Effettua le seguenti operazioni:
 
-1. Passa a **Console web Adobe Experience Manager
-Configurazione** utilizzando `http://localhost:4502/system/console/configMgr`.
+1. Passa a **Configurazione della console Web di Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
 
-1. Cerca *Adobe gestore autenticazione token di Granite*.
+1. Cerca *Gestore autenticazione token di Granite Adobe*.
 
-1. Imposta l&#39;attributo **SameSite per i cookie login-token** da **Lax** a **None**.
+1. Imposta la **Attributo SameSite per i cookie login-token** da **Lax** a **Nessuno**.
    ![immagine](/help/user-guide/assets/granite-updates.png)
 
 1. Fai clic su **Salva**.
 
 ### Ad Hoc, metodo {#ad-hoc-method}
 
-Il metodo Ad-Hoc consente di installare l&#39;ultimo Windows Player (*.exe*). Visita la pagina [**AEM 6.5 Player Downloads**](https://download.macromedia.com/screens/).
+Il metodo Ad-Hoc ti consente di installare Windows Player più recente (*.exe*). Visita [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
 
 Una volta scaricata l&#39;applicazione, segui i passaggi sul lettore per completare l&#39;installazione ad-hoc:
 
 1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Passa a **Configurazione** dal menu di azione a sinistra e immetti la posizione (indirizzo) dell&#39;istanza AEM a cui desideri connetterti e fai clic su **Salva**.
-1. Passa al collegamento **Dispositivo** **Registrazione** dal menu di azione a sinistra per controllare lo stato del processo di registrazione del dispositivo.
+1. Passa a **Configurazione** dal menu Azioni a sinistra, immetti la posizione (indirizzo) dell&#39;istanza AEM a cui desideri connetterti e fai clic su **Salva**.
+1. Passa a **Dispositivo** **Registrazione** dal menu di azione a sinistra per controllare lo stato del processo di registrazione del dispositivo.
 
 >[!NOTE]
 >
->Se il campo **Stato** è **REGISTRATO**, noterai che il campo **ID dispositivo** sarà popolato.
+>Se la **Stato** è **REGISTRATO**, noterai **ID dispositivo** verrà compilato.
 >
->Se il **Stato** è **NON REGISTRATO**, puoi utilizzare il **Token** per registrare il dispositivo.
+>Se la **Stato** è **NON REGISTRATO**, puoi utilizzare la **Token** per registrare il dispositivo.
 
 ## Denominazione di Windows Player {#name-windows}
 
@@ -79,8 +77,8 @@ Una volta scaricata l&#39;applicazione, segui i passaggi sul lettore per complet
 
 Per configurare il nome in Windows Player, effettua le seguenti operazioni:
 
-1. Fare clic su **start** —> **run**
-1. Inserisci `system.cpl`
+1. Fai clic su **start** —> **eseguire**
+1. Invio `system.cpl`
 1. Utilizzare la scheda Nome computer per impostare il nome host del computer
 
 ## Modifica delle opzioni predefinite in Windows Installer {#changing-default-options}
@@ -89,7 +87,7 @@ Seguire questa sezione per scoprire come modificare le opzioni predefinite in Wi
 
 ## Installazione tramite CLI (PowerShell) {#install-powershell}
 
-1. Crea una posizione personalizzata **dedicata** per Screens Player, ad esempio:
+1. Creare una posizione personalizzata **dedicato** per Screens Player, ad esempio:
    `C:\Users\User\screens-player`)
 1. Installare la versione
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -150,7 +148,7 @@ Quando si distribuisce Windows Player, è importante attivare la modalità Kiosk
 
 >[!CAUTION]
 >
->Adobe consiglia una soluzione di gestione dispositivi per abilitare Kiosk per Windows. Segui i passaggi seguenti, se non disponi di una soluzione di gestione dispositivi per abilitare la modalità Kiosk. Questo metodo utilizza la funzione di avvio della shell disponibile in Windows 10 Enterprise ed Edu. Qualsiasi altro mezzo Microsoft consigliato per applicazioni non UWP può anche essere applicato per abilitare Kiosk, specialmente su altre edizioni di Windows.
+>Adobe consiglia una soluzione di gestione dispositivi per abilitare Kiosk per Windows. Segui i passaggi seguenti, se non disponi di una soluzione di gestione dispositivi per abilitare la modalità Kiosk. Questo metodo utilizza la funzione di avvio della shell disponibile in Windows 10 Enterprise ed Edu. Qualsiasi altro metodo consigliato da Microsoft per le app non UWP può essere applicato anche per abilitare il chiosco, specialmente su altre edizioni di Windows.
 
 Per attivare la modalità Kiosk, effettua le seguenti operazioni:
 
@@ -160,11 +158,11 @@ Per attivare la modalità Kiosk, effettua le seguenti operazioni:
 
 1. Abilita Shell Launcher.
 
-   Per ulteriori informazioni, consulta la sezione ***Configurare Shell Launcher*** nella pagina **[Shell Launcher](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** del supporto di Microsoft Windows.
+   Fai riferimento alla sezione ***Configurare il Launcher della shell*** in **[Launcher shell](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** supporto di Microsoft Windows per ulteriori informazioni.
 
 1. Crea un utente non amministrativo (se non ne hai già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
-1. Installa il lettore Windows per l&#39;utente Kiosk dalla pagina [Download di AEM Screens Player](https://download.macromedia.com/screens/) .
-1. Fare riferimento a [Utilizzare Shell Launcher per creare un chiosco Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) per modificare lo script PowerShell per ulteriori informazioni.
+1. Installa il lettore Windows per l&#39;utente Kiosk da [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina.
+1. Fai riferimento a [Utilizzare Shell Launcher per creare un chiosco Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) per modificare lo script PowerShell per ulteriori informazioni.
 
    Modificare lo script PowerShell per sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;eseguibile dell&#39;applicazione sia corretto. Questo imposterà la shell personalizzata come applicazione windows player per l&#39;utente chiosco e imposta il valore predefinito come explorer.exe per altri utenti.
 
@@ -185,9 +183,9 @@ Lo script di esempio nei collegamenti attiverà e disattiverà la shell personal
 >
 >In alcuni ambienti Windows gli script PowerShell possono essere limitati da criteri (in particolare da script non firmati). Per eseguire lo script potrebbe essere necessario disattivare temporaneamente e riattivare questa restrizione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
 >
->*set-execute policy illimitato*  - per rimuovere temporaneamente le restrizioni
+>*set-execute policy illimitato* - rimuovere temporaneamente le restrizioni
 >
->*set-execute policy limitato*  - per riabilitare la restrizione dopo l&#39;esecuzione dello script
+>*set-execute policy limitato* - per riattivare la restrizione dopo l&#39;esecuzione dello script
 
 ```
 # Remove the new custom shells.
@@ -196,3 +194,7 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
+
+### Utilizzo del telecomando Screens {#using-remote-control}
+
+AEM Screens fornisce la funzionalità Controllo remoto. Ulteriori informazioni su questa funzione sono disponibili qui: [Controllo remoto schermo](implementing-remote-control.md)

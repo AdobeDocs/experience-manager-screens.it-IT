@@ -1,21 +1,21 @@
 ---
 title: Implementazione di Chrome OS Player
-seo-title: Implementazione di Chrome OS Player
+seo-title: Implementing Chrome OS Player
 description: Segui questa pagina per scoprire l'implementazione di Chrome OS Player utilizzando la console di gestione Chrome.
-seo-description: Segui questa pagina per scoprire l'implementazione di Chrome OS Player utilizzando la console di gestione Chrome.
+seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
 uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
 discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
-feature: Amministrazione di schermi
+feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3bda698ca44f58c177f8e87a5c50b789966909de
+source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Questa sezione descrive come implementare Chrome OS Player utilizzando la consol
 
 Per configurare la console di gestione chrome, effettua le seguenti operazioni:
 
-1. Registrati alla console di gestione Chrome. È necessario ottenere una licenza per Chrome Management Console. Contatta [Supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per gestire le impostazioni dei dispositivi Chrome per ulteriori informazioni.
-1. Registra il tuo dispositivo Chrome OS nel dominio in attesa di 15 minuti perché il dispositivo si sincronizzi con la console di gestione Chrome. Per ulteriori informazioni sulla registrazione del dispositivo chrome, fai clic [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Registrati alla console di gestione Chrome. È necessario ottenere una licenza per Chrome Management Console. Contatto [Supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per gestire le impostazioni del dispositivo Chrome per ulteriori informazioni.
+1. Registra il tuo dispositivo Chrome OS nel dominio in attesa di 15 minuti perché il dispositivo si sincronizzi con la console di gestione Chrome. Per ulteriori informazioni sulla registrazione del dispositivo chrome, fai clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Il lettore Chrome sarà disponibile nello store Web Chrome.
 
 >[!NOTE]
@@ -68,8 +68,8 @@ Per attivare la modalità Kiosk, effettua le seguenti operazioni:
 
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
-1. Passa a **Gestione dispositivi** > **Gestione Chrome** > **Impostazioni dispositivo**.
-1. Scorri verso il basso fino a **Impostazioni chiosco** e fai clic su **Gestisci applicazioni chiosco**.
+1. Sfoglia per **Gestione dei dispositivi** > **Gestione Chrome** > **Impostazioni dispositivo**.
+1. Scorri verso il basso fino a **Impostazioni Kiosk** e fai clic su **Gestire le applicazioni Kiosk**.
 
    ![chiosco](assets/kiosk.png)
 
@@ -79,16 +79,16 @@ Per attivare la modalità Kiosk, effettua le seguenti operazioni:
    >
    >L&#39;elenco di un&#39;app pubblicata di recente potrebbe richiedere circa 15 minuti.
 
-1. Seleziona **AEM Screens Player** dal menu a discesa **Avvio automatico app chiosco** .
+1. Seleziona **Lettore AEM Screens** dal **App chiosco ad avvio automatico** a discesa.
 
    Potrebbero essere necessari alcuni minuti a seconda della rete per rendere effettive le modifiche. Si consiglia di riavviare il sistema.
 
 #### Controllo dello stato del dispositivo remoto {#checking-remote-device-status}
 
 1. Accedi a Chrome Developer Console.
-1. Vai a **Gestione dispositivi** > **Dispositivi Chrome** e seleziona il dispositivo che desideri controllare.
+1. Sfoglia per **Gestione dei dispositivi** > **Dispositivi Chrome** e selezionare il dispositivo che si desidera controllare.
 1. Fai clic su **Attività di sistema e risoluzione dei problemi**.
-1. Controllare le proprietà **Reboot Device** e **Screen Capture** del dispositivo. È inoltre possibile controllare lo stato del dispositivo e le informazioni di integrità.
+1. Controlla la **Riavvia il dispositivo** e **Acquisizione dello schermo** proprietà del dispositivo. È inoltre possibile controllare lo stato del dispositivo e le informazioni di integrità.
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ AEM Screens Player è un&#39;applicazione abilitata per i chioschi che abilita a
 Segui i passaggi seguenti per configurare varie opzioni del lettore:
 
 1. Accedi alla console di gestione Chrome.
-1. Fai clic su **Gestione dispositivi** > **Gestione Chrome** > **Gestione app**. Nell&#39;elenco viene visualizzato AEM Screens Player.
-1. Fai clic sull&#39;applicazione **AEM Screens Player**.
-1. Fai clic su **Impostazioni chiosco** e seleziona la tua organizzazione (*se utilizzi un ambiente di test*).
-1. Fai clic su **carica il file di configurazione** e carica il criterio di configurazione (*file Json*).
+1. Fai clic su **Gestione dei dispositivi** > **Gestione Chrome** > **Gestione app**. Nell&#39;elenco viene visualizzato AEM Screens Player.
+1. Fai clic sull’applicazione **Lettore AEM Screens**.
+1. Fai clic su **Impostazioni del chiosco** e seleziona la tua organizzazione (*se si utilizza un ambiente di test*).
+1. Fai clic su **carica file di configurazione** e carica il criterio di configurazione (*File JSON*).
 1. Fai clic su **Salva**. Per sincronizzare il criterio, è necessario riavviare il dispositivo.
 
 >[!NOTE]
@@ -151,4 +151,8 @@ Nella tabella seguente sono riepilogati i criteri con le relative funzioni.
 
 >[!NOTE]
 >
->Le configurazioni dei criteri vengono applicate in modo rigoroso e non vengono sostituite manualmente nell’interfaccia utente amministratore del lettore. Per consentire la configurazione manuale del lettore per un criterio specifico, non specificare il criterio nella ***configurazione del criterio,*** ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave ***RestartSchedule*** nella configurazione del criterio.
+>Le configurazioni dei criteri vengono applicate in modo rigoroso e non vengono sostituite manualmente nell’interfaccia utente amministratore del lettore. Per consentire la configurazione manuale del lettore per un criterio specifico, non specificare il criterio nel ***configurazione dei criteri,*** ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave ***RestartSchedule*** nella configurazione dei criteri.
+
+### Utilizzo del telecomando Screens {#using-remote-control}
+
+AEM Screens fornisce la funzionalità Controllo remoto. Ulteriori informazioni su questa funzione sono disponibili qui: [Controllo remoto schermo](implementing-remote-control.md)
