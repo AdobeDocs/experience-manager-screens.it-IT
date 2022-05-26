@@ -12,7 +12,7 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: ff59c3748ea69a37ca68e81e5bf753881e8464b0
+source-git-commit: a256f624c4b647deb4cee7668665ad7b576932e7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -52,4 +52,6 @@ Il diagramma seguente illustra l&#39;utilizzo chiave di un remoto Samsung:
 >[!NOTE]
 >Se imposti i valori di configurazione del dispositivo di enableAdminUI e/o enableOSD su false, il telecomando non attiva l’interfaccia utente amministratore e il commutatore del canale. Inoltre, non potrai utilizzare i tasti freccia per navigare nell’interfaccia utente o nei canali di amministrazione. Tuttavia è ancora possibile cancellare la cache e ricaricare il lettore. È possibile disattivare la funzione di controllo remoto se una delle combinazioni di tastiera è in conflitto con il contenuto interattivo utilizzando questo codice:
 
-```javascript require(/['util/ScreensDisplay'/], function() /{window.ScreensDisplay.ignoreRemoteControl = true;/}); ```
+```
+require(['util/ScreensDisplay'], function() {window.ScreensDisplay.ignoreRemoteControl = true;}); 
+```
