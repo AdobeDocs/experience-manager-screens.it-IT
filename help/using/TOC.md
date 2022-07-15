@@ -2,15 +2,15 @@
 user-guide-title: Guida alle best practice per i progetti AEM Screens
 breadcrumb-title: Guida alle best practice per AEM Screens
 solution-title: AEM Screens
-getting-started-title: Guida alle best practice per AEM Screens
+getting-started-title: AEM Screens Best Practices Guide
 getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 78%
+source-wordcount: '131'
+ht-degree: 77%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 78%
 + Informazioni sulla distribuzione {#deployment-brief}
    + [Configurazioni della piattaforma AEM](aem-platform-configurations.md)
    + [Tassonomia e implementazione dei progetti](project-taxonomy-implementation.md)
-   + Gestione del traffico di rete {#manage-network-traffic}
+   + Gestione del traffico in rete {#manage-network-traffic}
       + [Gestione del traffico di rete](/help/using/managing-network-traffic.md)
       + [Rete Internet diretta (cablata/wireless)](/help/using/direct-internet-network.md)
       + [Rete mobile diretta](/help/using/mobile-network.md)
