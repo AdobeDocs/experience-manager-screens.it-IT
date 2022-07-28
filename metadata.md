@@ -4,11 +4,11 @@ solution-title: AEM Screens
 solution: Experience Manager, Experience Manager Screens
 type: Documentation
 index: y
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-screens.it-IT
+git-repo: https://github.com/AdobeDocs/experience-manager-screens.it-IT
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
