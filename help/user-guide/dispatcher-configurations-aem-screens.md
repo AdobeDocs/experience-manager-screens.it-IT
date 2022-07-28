@@ -7,9 +7,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 13c9ed116a310c2c17fd1cc3d2c56ef74620df4b
+source-git-commit: 01d2245cca5757441ef2bd4e2c05c231b678ce48
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -233,9 +233,7 @@ Questo supporterà il caching fino a 10 livelli dal docroot della cache e annull
 
 ### Aggiungi una regola di invalidazione per segment.js {#invalidsegmentjs}
 
-Se aggiungi nuovi segmenti e li pubblichi, la `segments.js` il file gestito dal dispatcher non contiene le nuove voci che interrompevano il flusso di targeting sul dispositivo screens. Il file segment.js viene memorizzato nella cache a livello di dispatcher, ma non vi era alcuna regola di invalidazione per lo stesso file. Di conseguenza, è necessario aggiungere una regola di invalidazione.
-
-* Aggiungi nuovi segmenti al `/conf/<project-name>/settings/wcm/segments.seg.js` file.
+Se utilizzi campagne mirate con AEM Screens, la `segments.js file` il servizio dispatcher deve essere invalidato, in quanto aggiungi e pubblica nuovi segmenti su AEM. Senza questa regola di invalidazione, le nuove campagne con targeting non funzioneranno sul lettore Screens (mostrerà invece il contenuto predefinito).
 
 * Aggiungi una regola di invalidazione a `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Ecco la regola da aggiungere:
 
@@ -244,7 +242,7 @@ Se aggiungi nuovi segmenti e li pubblichi, la `segments.js` il file gestito dal 
                         .
                         .
                         /0004 {
-                               /glob "conf/personalisation-hub/settings/wcm/.js"
+                               /glob "conf/<project-name>/settings/wcm/.js"
                                /type "allow"
                         }
                 }
