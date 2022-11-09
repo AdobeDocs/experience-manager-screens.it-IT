@@ -2,7 +2,7 @@
 title: Configurazione di Author e Publish in AEM Screens
 description: L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per scoprire come configurare l’authoring e la pubblicazione per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 458ecfbbfb072a07d97d68f2a7ef1eb51f3db598
+source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 2%
@@ -102,20 +102,20 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
 #### Creazione di agenti di replica standard  {#creating-standard-replication-agents}
 
 1. Crea un agente di replica standard per pub1 (l&#39;agente predefinito preconfigurato deve già essere configurato) (ad esempio, *https://&lt;hostname>:4503/bin/receive?sling:authRequestLogin=1*)
-1. Crea un agente di replica standard per pub2. È possibile copiare l&#39;agente rep per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
+1. Crea un agente di replica standard per pub2. È possibile copiare come agente di replica per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. (ad esempio, *https://&lt;hostname>:4504/bin/receive?sling:authRequestLogin=1*)
 
 #### Creazione di agenti di replica Screens {#creating-screens-replication-agents}
 
-1. Crea un agente di replica AEM Screens per pub1. Preconfigurato, un agente di replica Screens che punta alla porta 4503. È necessario attivarlo.
-1. Crea un agente di replica AEM Screens per pub2. Copia l&#39;agente di replica Screens per pub1 e cambia la porta in punto a 4504 per pub2.
+1. Crea un agente di replica screens per pub1. Preconfigurato, esiste un agente di replica Screens denominato che punta alla porta 4503. È necessario attivarlo.
+1. Crea un agente di replica screens per pub2. Copia l&#39;agente di replica Screens per pub1 e cambia la porta in punto a 4504 per pub2.
 
    >[!NOTE]
    >Per informazioni su come configurare gli agenti di replica Screens, consulta [Configurazione dell’agente di replica Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/configure-screens-replication.html?lang=en).
 
 #### Creazione di agenti di replica inversa Screens {#creating-screens-reverse-replication-agents}
 
-1. Crea un agente di replica inversa standard per pub1.
-1. Crea un agente di replica inversa standard per pub2. È possibile copiare l&#39;agente di rep inversa per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto.
+1. Crea un agente di replica inversa per pub1.
+1. Crea un agente di replica inversa per pub2. È possibile copiare l&#39;agente di replica inversa per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto.
 
 ## Impostazione della topologia di pubblicazione {#setting-up-publish-topology}
 
