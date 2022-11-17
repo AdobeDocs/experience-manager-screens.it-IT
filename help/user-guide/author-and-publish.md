@@ -2,9 +2,9 @@
 title: Configurazione di Author e Publish in AEM Screens
 description: L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per scoprire come configurare l’authoring e la pubblicazione per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: ed9debd55cc4e142a46eda05e9e1aabc32532311
+source-git-commit: ab959584c01c10f76c231ab89b574886ad7346c5
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 2%
 
 ---
@@ -128,9 +128,10 @@ Per ogni istanza di pubblicazione:
 1. Accedi a `https://<host>:<port>/system/console/configMgr`
 1. Seleziona **Servizio di individuazione basato su Oak Apache Sling** Configurazione.
 1. Aggiorna gli URL del connettore topologia: aggiungi gli URL di tutte le istanze di pubblicazione partizionate che sono:
-   * `https://localhost:4503/libs/sling/topology/connector`
-   * `https://localhost:4504/libs/sling/topology/connector`
-1. **Elenco whitelist del connettore topologia**: adattarsi agli IP o alle subnet che coprono le istanze di pubblicazione parziali
+   * `https://publish:4503/libs/sling/topology/connector`
+   * `https://publish:4504/libs/sling/topology/connector`
+1. **Elenco whitelist del connettore topologia**: Adatta a IP o subnet che coprono tutte le istanze di pubblicazione. Assicurati di inserire in una whitelist l’IP/hostname di tutte le istanze di pubblicazione senza il numero di porta.
+
 1. Abilita **Interrompi automaticamente loop locali**
 
 La configurazione deve essere identica per ogni istanza di pubblicazione e il ciclo locale di arresto automatico impedisce un ciclo infinito.
