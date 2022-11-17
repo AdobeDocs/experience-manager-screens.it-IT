@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2275'
 ht-degree: 2%
 
 ---
@@ -553,6 +553,15 @@ Il codice seguente fornisce i requisiti minimi in `pom.xml` per tale progetto sp
 Il video seguente mostra il componente finito e come può essere aggiunto a un canale Sequenza. Il canale viene quindi aggiunto a una visualizzazione Posizione e infine assegnato a un lettore Screens.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+
+## Considerazioni aggiuntive relative ai componenti personalizzati che incorporano altre pagine o frammenti {#additional-considerations}
+
+Se il componente personalizzato che stai sviluppando è destinato a includere altre pagine o frammenti di esperienza e se desideri che le modifiche nel contenuto incorporato vengano automaticamente raccolte dal lettore senza dover ripubblicare il canale, devi tenere in considerazione questi 2 vincoli:
+
+1. Anziché estendersi direttamente `foundation/components/parbase`, devi estendere `screens/core/components/content/page` o `screens/core/components/content/experiencefragment`
+2. Il nome della proprietà utilizzata per fare riferimento al contenuto incorporato deve essere `pagePath`
+
+L’utilizzo di questi 2 componenti core Screens offre anche il vantaggio aggiunto che possono prendersi cura del bundling di alcune delle dipendenze necessarie (librerie lato client, font, ecc.) tramite le opzioni di configurazione offline nella finestra di dialogo del componente, che riduce la responsabilità di qualsiasi handler offline personalizzato che dovresti utilizzare per questo, a volte anche rimuovendo completamente la necessità di usarlo in primo luogo.
 
 ## Codice finito {#finished-code}
 
