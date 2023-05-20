@@ -10,7 +10,7 @@ audience: end-user
 source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 + [Informazioni su questa guida](about-guide.md)
 + Panoramica {#overview}
-   + [Introduzione a AEM Screens](introduction.md)
+   + [Introduzione ad AEM Screens](introduction.md)
    + [Ruoli e responsabilità del progetto](roles-responsibilities.md)
    + [Prerequisiti](pre-requisites.md)
    + [Elementi chiave di un progetto di digital signage](getting-started-digital-signage.md)
@@ -38,10 +38,10 @@ ht-degree: 77%
 + Informazioni sulla distribuzione {#deployment-brief}
    + [Configurazioni della piattaforma AEM](aem-platform-configurations.md)
    + [Tassonomia e implementazione dei progetti](project-taxonomy-implementation.md)
-   + Gestione del traffico in rete {#manage-network-traffic}
+   + Gestione traffico di rete {#manage-network-traffic}
       + [Gestione del traffico di rete](/help/using/managing-network-traffic.md)
       + [Rete Internet diretta (cablata/wireless)](/help/using/direct-internet-network.md)
-      + [Rete mobile diretta](/help/using/mobile-network.md)
+      + [Direct Mobile Network](/help/using/mobile-network.md)
       + [Rete mobile con router dati mobile e componenti di rete attivi](/help/using/mobile-network-router.md)
       + [Rete aziendale chiusa (cablata/wireless)](/help/using/enclosed-corporate-network.md)
    + [Configurazioni dispositivo](device-configurations.md)

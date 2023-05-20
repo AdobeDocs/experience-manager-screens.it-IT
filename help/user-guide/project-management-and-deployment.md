@@ -1,8 +1,8 @@
 ---
-title: '"Parte 4: Gestione e distribuzione dei progetti"'
-seo-title: '"Parte 4: Gestione e distribuzione dei progetti"'
-description: Segui questa esercitazione per scoprire la gestione e la preparazione dei progetti (preproduzione, avvio dei progetti, avanzamento dei progetti). Inoltre, scopri come viene definito l’ambito e la pianificazione del progetto, insieme alla raccolta di informazioni su fornitori, manodopera interna e fogli di lavoro.
-seo-description: Segui questa esercitazione per scoprire la gestione e la preparazione dei progetti (preproduzione, avvio dei progetti, avanzamento dei progetti). Inoltre, scopri come viene definito l’ambito e la pianificazione del progetto, insieme alla raccolta di informazioni su fornitori, manodopera interna e fogli di lavoro.
+title: "Parte 4: Gestione e realizzazione del progetto"
+seo-title: "Part 4: Project Management and Deployment"
+description: Segui questa esercitazione per scoprire come gestire e preparare l’implementazione del progetto (pre-produzione, avvio, progressione). Inoltre, scopri come vengono definiti l’ambito e la pianificazione del progetto e raccogli informazioni sul fornitore, sulla manodopera interna e sui cut-sheet.
+seo-description: Follow this tutorial to learn about project management and deployment preparation (project pre-production, project initiation, project progression). Additionally, get to know how the project scope and schedule is defined along with gathering information on vendor, internal labor, and cut-sheets.
 uuid: 44ff4d2b-c9bf-47f4-a14c-9f11554e3182
 contentOwner: jsyal
 content-type: reference
@@ -10,86 +10,86 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: cd1483af-8118-46ac-a2ad-42d89c05bdca
 docset: aem65
-feature: Panoramica
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
 
-# Parte 4: Gestione e distribuzione dei progetti {#part-project-management-and-deployment}
+# Parte 4: Gestione e realizzazione del progetto {#part-project-management-and-deployment}
 
-Questa pagina illustra la parte 4 di una serie in 5 parti progettata per la gestione e la preparazione dei progetti e definisce i fattori chiave che l&#39;integratore AV è responsabile per la gestione e la preparazione dei progetti.
+In questa pagina viene evidenziata la parte 4 di una serie di 5 parti, ideata per la gestione del progetto e la preparazione dell&#39;installazione, e vengono definiti i fattori chiave di cui AV Integrator è responsabile per la gestione del progetto e la preparazione dell&#39;installazione.
 
 ## Panoramica {#overview}
 
-Questa pagina descrive la preproduzione del progetto, l’avvio del progetto e la progressione del progetto.
+Questa pagina descrive la preproduzione, l’avvio e la progressione del progetto.
 
-È importante che tutte le parti interessate comprendano le responsabilità dell&#39;integratore AV, assicurando che vengano sviluppati piani documentati rispetto ai punti discussi in questo episodio
+È importante che tutte le parti interessate comprendano le responsabilità di AV Integrator, assicurando che i piani documentati vengano sviluppati in base ai punti discussi in questo episodio
 
 >[!NOTE]
 >
->Identificare un integratore AV con esperienza nella gestione dei progetti per le implementazioni di digital signage su larga scala è estremamente importante per il successo a lungo termine, e si consiglia vivamente di confrontare i piani di progetto tra l&#39;integratore AV e l&#39;AEM implementatore per garantire l&#39;allineamento man mano che i piani vengono sviluppati e finalizzati.
+>Identificare un integratore AV con esperienza nella gestione dei progetti di installazioni di digital signage su larga scala è estremamente importante per il successo a lungo termine, ed è fortemente consigliato che i piani di progetto tra l’integratore AV e l’integratore AEM vengano confrontati per garantire l’allineamento man mano che i piani vengono sviluppati e finalizzati.
 >
->I partner che adottano un approccio olistico nella gestione delle fasi di pre-produzione, iniziazione e progressione del progetto aiuteranno a garantire che i clienti finali siano in grado di realizzare il massimo valore dal loro investimento
+>I partner che adottano un approccio olistico nella gestione delle fasi di &quot;pre-produzione&quot;, avvio e progressione del progetto aiuteranno a garantire che i clienti finali siano posizionati in modo da ottenere il massimo valore dal loro investimento
 
-## Riepilogo di tutte e tre le fasi della gestione dei progetti {#summary-of-all-three-phases-in-project-management}
+## Riepilogo di tutte e tre le fasi di Project Management {#summary-of-all-three-phases-in-project-management}
 
-Per supportare una distribuzione di digital signage di successo, è consuetudine segmentare il progetto in 3 fasi. Queste fasi sono comunemente denominate ***giorni***.
+Per supportare una corretta implementazione del digital signage, è consuetudine segmentare il progetto in 3 fasi. Queste fasi sono comunemente denominate ***giorni***.
 
-### Attività giorno zero {#day-zero-activities}
+### Attività Day Zero {#day-zero-activities}
 
-La prima fase è indicata come ***Giorno Zero***. Questa fase include tutte le attività di pre-vendita e individuazione necessarie per definire completamente l’ambito dei progetti. La seconda fase, Primo giorno, si riferisce a tutte le attività incluse nello sforzo di implementazione. Infine, il secondo giorno si riferisce a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
+La prima fase è denominata ***Giorno zero***. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito dei progetti. La seconda fase, Giorno 1, si riferisce a tutte le attività incluse nello sforzo di implementazione. Il secondo giorno, infine, fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
-Le attività del giorno zero includono pre-vendita, individuazione client, analisi delle esigenze applicative e definizione dell&#39;ambito del progetto. Questa fase può anche includere il coinvolgimento iniziale e la definizione dei requisiti di progetto per la gestione dei progetti, in preparazione della distribuzione.
+Le attività &quot;Day Zero&quot; comportano attività di pre-vendita, individuazione dei client, analisi delle esigenze delle applicazioni e definizione dell&#39;ambito del progetto. In questa fase possono essere inclusi anche il coinvolgimento iniziale e la definizione dei requisiti del progetto per la gestione del progetto, in preparazione alla distribuzione.
 
-Il giorno zero si articola in otto fasi chiave che riguardano tutti gli aspetti della rampa di gestione dei progetti:
+Il giorno zero è costituito da otto passaggi chiave che coprono tutti gli aspetti della crescita della gestione del progetto:
 
-* Definizione del campo di applicazione del lavoro
+* Definizione dell’ambito di lavoro
 * Definizione della pianificazione del progetto
-* Definizione del fornitore e del lavoro interno
-* Acquisizione dei fogli di taglio delle apparecchiature
-* Pianificazione e acquisizione delle autorizzazioni del sito
-* Pianificazione per l&#39;accesso al sito
-* Potenza e connettività
-* Revisione dei piani o disegni tecnici
+* Definizione del fornitore e della manodopera interna
+* Acquisizione di fogli di taglio per apparecchiature
+* Pianificazione e acquisizione dei permessi di insediamento
+* Pianificazione dell&#39;accesso al sito
+* Efficienza e connettività
+* Esame di piani o disegni tecnici
 
-### Attività giornaliere {#day-one-activities}
+### Attività del primo giorno {#day-one-activities}
 
-La seconda fase, ***Primo giorno***, fa riferimento a tutte le attività incluse nello sforzo di distribuzione. Un altro importante documento tecnico per un progetto di successo è il Diagramma di Gantt distribuzione.
+La seconda fase, ***Primo giorno***, si riferisce a tutte le attività incluse nello sforzo di implementazione. Un altro documento tecnico importante per un progetto di successo è il Diagramma di Gantt di distribuzione.
 
-Mentre le opportunità di vendita passano a un progetto, è prevista una riunione di kickoff per confermare:
+Quando un’opportunità di vendita passa a un progetto, viene pianificata una riunione di avvio per confermare:
 
 * Bilancio preliminare
-* Milestone e interdipendenze del progetto
-* Elenco attrezzature
-* Impostazione dell&#39;account, inclusa la conferma dei termini di fatturazione
+* Milestone e interdipendenze progetto
+* Elenco apparecchiature
+* Configurazione dell’account, inclusa la conferma delle condizioni di fatturazione
 * Elenco contatti chiave
-* Ambito di applicazione
-* Requisiti del lavoro.
+* Ambito di lavoro
+* Requisiti di manodopera.
 
-### Attività Giorno 2 {#day-two-activities}
+### Attività del secondo giorno {#day-two-activities}
 
-L&#39;ultima parte di un&#39;iniziativa Day One è quella di completare un NOC Handoff. Se un progetto completato include un servizio e un supporto per il giorno 2, Project Manager organizzerà un incontro di assistenza NOC con i supervisori di tali team.
+L&#39;ultima parte di un&#39;iniziativa Day One è quella di completare un handoff NOC. Se un progetto completato include un servizio di assistenza e supporto Day 2, il Project Manager organizza una riunione di handoff NOC con i supervisori di tali team.
 
-Questa riunione è composta principalmente da rappresentanti AV Integrator di Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, Implementatore AEM e Cliente finale sono solitamente coinvolti in tandem, con l&#39;Integratore AV che definisce il programma, la cadenza e i pedaggi. I project manager sono generalmente in grado di coordinare le discussioni per garantire l&#39;allineamento delle parti appropriate e sviluppare la documentazione necessaria per la riunione di consegna NOC. È probabile che la documentazione di supporto critica provenga dal reparto IT e/o AV Engineering, oltre alle risorse di vendita e gestione degli account di tutte le parti coinvolte. Per tutti i clienti che richiedono il supporto dell&#39;helpdesk da un NOC, sarà necessario fornire la documentazione ai supervisori di NOC per il caricamento su una piattaforma della Knowledge Base.
+L&#39;incontro è composto principalmente da rappresentanti di AV Integrator nei settori Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, l&#39;implementatore AEM e il cliente finale sono solitamente coinvolti in tandem, con l&#39;integratore AV che definisce la pianificazione, la cadenza e i tollgate. I project manager sono in genere i migliori per coordinare le discussioni per garantire l&#39;allineamento delle parti appropriate e sviluppare la documentazione necessaria per la riunione di handoff del NOC. La documentazione di supporto di importanza critica proviene probabilmente da tecnici IT e/o AV, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
 
-## Parte 4: Tutorial video sulla gestione e la distribuzione dei progetti {#part-video-tutorial-on-project-management-and-deployment}
+## Parte 4: tutorial video su gestione e distribuzione dei progetti {#part-video-tutorial-on-project-management-and-deployment}
 
-Segui questa esercitazione per saperne di più sulla gestione e la preparazione dei progetti e definisci i fattori chiave che l&#39;integratore AV è responsabile per la gestione e la preparazione dei progetti.
+Seguire questa esercitazione per informazioni sulla gestione del progetto e sulla preparazione dell&#39;installazione e definire i fattori chiave di cui AV Integrator è responsabile per la gestione del progetto e la preparazione dell&#39;installazione.
 
-### Gestione e distribuzione dei progetti
+### Gestione e implementazione dei progetti
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
-*Scopri la gestione e la preparazione dei progetti (preproduzione dei progetti, avvio dei progetti, avanzamento dei progetti).*
+*Scopri come gestire e preparare l’implementazione del progetto (preproduzione, avvio e progressione del progetto).*
 
 ## Passaggio successivo {#the-next-step}
 
-Una volta effettuata l’analisi approfondita delle considerazioni chiave relative alla gestione dei progetti per le implementazioni di AEM Screens;
+Una volta acquisite le considerazioni chiave sulla gestione dei progetti per le distribuzioni di AEM Screens;
 
-Passa alla **[Parte 5: Considerazioni sul supporto](support-considerations.md)** per comprendere il supporto di Day 2 e i relativi processi.
+Accedi a **[Parte 5: Considerazioni di supporto](support-considerations.md)** per comprendere il Supporto Day 2 e i relativi processi.

@@ -1,116 +1,116 @@
 ---
-title: Creazione di modelli personalizzati nei layout MultiZone
-seo-title: Creazione di modelli personalizzati nei layout MultiZone
-description: Segui questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
-seo-description: Segui questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
+title: Creazione di modelli personalizzati in layout multisito
+seo-title: Creating Custom Templates in MultiZone Layouts
+description: Seguire questa pagina per informazioni sulla creazione di modelli personalizzati nei layout MultiZone.
+seo-description: Follow this page to learn about creating custom templates in MultiZone layouts.
 contentOwner: Jyotika Syal
-feature: Sviluppo di schermi
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '929'
 ht-degree: 1%
 
 ---
 
+# Creazione di modelli personalizzati per i layout multizona {#creating-custom-templates-multizone}
 
-# Creazione di modelli personalizzati per layout multi-zone {#creating-custom-templates-multizone}
-
-In questa pagina viene illustrato come creare un modello personalizzato per un layout con più aree.
+In questa pagina viene illustrato come creare un modello personalizzato per un layout multizona.
 
 ## Considerazioni importanti {#considerations}
 
-È necessario tenere presenti due importanti considerazioni prima di creare un modello personalizzato nel layout a più aree:
+Prima di creare un modello personalizzato in un layout multizona è necessario tenere presenti due considerazioni importanti:
 
-1. **Dimensioni o percentuali** fisse dei pixel:
+1. **Dimensioni pixel o percentuali fisse**:
 
-   È necessario decidere se utilizzare le dimensioni dei pixel fisse per aree diverse per il layout personalizzato o se si desidera creare un layout personalizzato utilizzando le percentuali.
+   È necessario decidere se utilizzare dimensioni pixel fisse per aree diverse per il layout personalizzato o se creare un layout personalizzato utilizzando percentuali.
 
    >[!NOTE]
-   >Il vantaggio dell’utilizzo della percentuale per impostare le aree per il layout personalizzato consente di riutilizzare il modello in diverse dimensioni dello schermo.
+   >L’utilizzo della percentuale per impostare le zone per il layout personalizzato consente di riutilizzare il modello su schermi di diverse dimensioni.
 
-1. **Convenzione** di denominazione:
+1. **Convenzione di denominazione**:
 
-   Prima di comprendere come creare modelli di aree multiple personalizzati da utilizzare in un progetto AEM Screens, è consigliabile conoscere la versione dei modelli da creare.
+   Prima di capire come creare modelli multizona personalizzati da utilizzare in un progetto AEM Screens, è consigliabile conoscere la veridicità dei modelli che si desidera creare.
 
    | **Nome layout** | **Descrizione** |
    |---|---|
-   | Left20-LandscapeHD3Zone | Si riferisce a un layout orizzontale a 3 zone che consente di creare 3 zone con zona 1 come 20% dello schermo orizzontale e verticale da sinistra, zona 2 come 80% dello schermo orizzontale e 20% dello schermo verticale giustificato, zona 3 come 100% dello schermo orizzontale e 80% dello schermo verticale con rapporto di formato di 16:9 |
-   | Upper20-PortraitHD2Zone | Si riferisce a un modello per ritratti a 2 zone che copre il 20% dello schermo dalla parte superiore, con rapporto di formato di 16:9 |
-   | Right20-LandscapeSD3Zone | Si riferisce a un modello a 3 zone che copre il 20% dello schermo da destra, con rapporto di formato di 4:3 |
+   | Left20-LandscapeHD3Zone | Si riferisce a un layout orizzontale a 3 zone che consente di creare 3 zone con zona 1 come 20% dello schermo orizzontale e verticale da sinistra, zona 2 come 80% dello schermo orizzontale e 20% dello schermo verticale giustificato a destra, zona 3 come 100% dello schermo orizzontale e 80% dello schermo verticale con proporzioni 16:9 |
+   | Upper20-PortraitHD2Zone | Si riferisce a un modello di ritratto a 2 zone che copre il 20% dello schermo dalla parte superiore, con proporzioni di 16:9 |
+   | Right20-LandscapeSD3Zone | Si riferisce a un modello a 3 zone che copre il 20% dello schermo da destra, con proporzioni di 4:3 |
 
    >[!IMPORTANT]
-   >Le aree definite all’interno del layout personalizzato potrebbero non corrispondere alle proporzioni complessive dell’intero layout. La convenzione di denominazione seguita in questo documento specifica le proporzioni del layout personalizzato nel suo insieme.
+   >Le aree definite nel layout personalizzato potrebbero non corrispondere alle proporzioni complessive dell&#39;intero layout. La convenzione di denominazione utilizzata in questo documento specifica le proporzioni del layout personalizzato nel suo complesso.
 
-## Esempio di utilizzo Case Left20-LandscapeHD3Zone Layout {#custom-template-one}
+## Esempio di utilizzo: layout Left20-LandscapeHD3Zone {#custom-template-one}
 
 Segui la sezione seguente per creare un modello personalizzato *Left20-LandscapeHD3Zone* con la seguente configurazione:
 
-* **Left20** fa riferimento alla zona superiore a sinistra che copre il 20% delle dimensioni dello schermo orizzontale e verticale.
-* **** Fasce di destinazione per l’orientamento dello schermo
-* **** HD: rapporto di formato 16:9
-* **3** Zonerefers a tre zone del display
+* **Left20** si riferisce alla zona in alto a sinistra che copre il 20% delle dimensioni dello schermo orizzontale e verticale.
+* **Orizzontale** si riferisce all’orientamento dello schermo
+* **HD** fa riferimento al rapporto di formato 16:9
+* **3Zona** si riferisce a tre zone del display
 
 ## Rappresentazione visiva del layout MultiZone {#multi-layout-visual-one}
 
-Il layout Left20-LandscapeHD3Zone consente di creare nel progetto il seguente layout a più aree:
+Il layout Left20-LandscapeHD3Zone consente di creare il seguente layout multizona nel progetto:
 
 ![immagine](/help/user-guide/assets/custom-multizone/landscape-3-zone-new.png)
 
 ## Creazione di un layout Left20-LandscapeHD3Zone {#landscape-layout-one}
 
-Per creare un layout Left20-LandscapeHD3Zone per un progetto AEM Screens, effettua le seguenti operazioni:
+Per creare un layout Zona Left20-LandscapeHD3Zone per un progetto AEM Screens, effettua le seguenti operazioni:
 
-1. Crea un progetto AEM Screens denominato **customtemplate**.
+1. Creare un progetto AEM Screens con titolo **customtemplate**.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Passa a **CRXDE Lite** dalla tua istanza AEM —> Strumenti —> **CRXDE Lite**.
+1. Accedi a **CRXDE Lite** dall&#39;istanza AEM —> Strumenti —> **CRXDE Lite**.
 
-1. Crea una cartella in **apps** con titolo **customtemplate**. Allo stesso modo, crea un&#39;altra cartella denominata **template** in **customtemplate**, come illustrato nella figura riportata di seguito.
+1. Crea una cartella in **app** con titolo **customtemplate**. Allo stesso modo, crea un’altra cartella con il nome **modello** in **customtemplate**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >È consigliabile fare clic su **Salva tutto** nella barra delle azioni di CRXDE Lite ogni volta che si creano, modificano o copia contenuti in uno dei nodi, altrimenti non sarà possibile eseguire il commit degli aggiornamenti.
+   >Si consiglia di fare clic su **Salva tutto** dalla barra delle azioni di CRXDE Lite ogni volta che crei, modifichi o copi contenuto in uno dei nodi, altrimenti non potrai eseguire il commit degli aggiornamenti.
 
-1. Copia il modello a sinistra della barra da `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
+1. Copia il modello barra a sinistra da `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 
-1. Rinomina il **lbar-left** (`/apps/customtemplate/template`) copiato in **my-custom-layout**.
+1. Rinomina la copia **barra a sinistra** (`/apps/customtemplate/template`) a **layout personalizzato**.
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template3.png)
 
-1. Passa a `/apps/customtemplate/template/my-custom-layout` e aggiorna le proprietà **jcr:description** a *Modello per Left20-LandscapeHD3Zone* e **jcr:title** a *Left20-LandscapeHD3Zone*.
+1. Accedi a `/apps/customtemplate/template/my-custom-layout` e aggiorna le proprietà **jcr:descrizione** a *Modello per Left20-LandscapeHD3Zone* e **jcr:title** a *Left20-LandscapeHD3Zone*.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template4.png)
 
-1. Passa al nodo **offline-config** da `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` e aggiorna il **jcr:title** a *Left20-LandscapeHD3Zone*.
+1. Accedi a **offline-config** nodo da `/apps/customtemplate/template/my-custom-layout/jcr:content/offline-config` e aggiorna **jcr:title** a *Left20-LandscapeHD3Zone*.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template5.png)
 
-1. Passa alla proprietà *jcr:content* di **my-custom-template** da `/apps/customtemplate/template/my-custom-layout/jcr:content` e aggiorna la proprietà **cq:cssClass** su **aem-Layout my-custom-layout**.
+1. Accedi a *jcr:content* proprietà di **my-custom-template** da `/apps/customtemplate/template/my-custom-layout/jcr:content` e aggiorna **cq:cssClass** proprietà a **aem-Layout my-custom-layout**.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Facendo riferimento al passaggio (4), in cui hai copiato il modello a sinistra della barra, potrai visualizzare 3 griglie reattive in `my-custom-layout/jcr:content`. Aggiungi una classe css personalizzata a ciascuna griglia reattiva nella proprietà *cq:cssClass* , ad esempio *my-custom-layout—in alto a sinistra* per il nodo *r1c1*.
+1. Con riferimento al passaggio (4), in cui hai copiato il modello barra a sinistra, visualizzerai 3 griglie reattive in `my-custom-layout/jcr:content`. Aggiungere una classe CSS personalizzata a ogni griglia reattiva nella *cq:cssClass* proprietà, ad esempio *my-custom-layout—in alto a sinistra* per *r1c1* nodo.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Allo stesso modo, aggiungi *my-custom-layout—top-right* per *r1c2* e, *my-custom-layout—bottom* per il nodo *r2c1*.
+   Analogamente, aggiungi *my-custom-layout—in alto a destra* per *r1c2*  e *my-custom-layout—bottom* per *r2c1* nodo.
 
    >[!NOTE]
-   >Queste classi personalizzate verranno utilizzate nel css per impostare la larghezza/altezza per queste griglie reattive.
+   >Queste classi personalizzate verranno utilizzate nel CSS per impostare la larghezza/altezza di queste griglie reattive.
 
    >[!NOTE]
-   >È possibile aggiungere o rimuovere le griglie reattive in base al numero di griglie totali desiderate. In questo esempio, mostriamo 2 griglie nella prima riga e 1 griglia nella seconda riga, quindi ci sono un totale di 3 griglie reattive (r1c1, r1c2, r2c1).
+   >È possibile aggiungere o rimuovere le griglie reattive in base al numero di griglie totali desiderate. In questo esempio vengono mostrate 2 griglie nella prima riga e 1 griglia nella seconda riga, in modo da ottenere un totale di 3 griglie reattive (r1c1, r1c2, r2c1).
 
-1. Copia `/libs/settings/wcm/designs/screens` in `/apps/settings/wcm/designs/` e rinomina la progettazione copiata come **custom-template-designs**.
+1. Copia `/libs/settings/wcm/designs/screens` a `/apps/settings/wcm/designs/` e rinominate il progetto copiato come **custom-template-designs**.
 
-1. Passa a `/apps/settings/wcm/designs/custom-template-designs` e aggiorna la proprietà *jcr:title* di **custom-template-designs** a **customtemplate-design**.
+1. Accedi a `/apps/settings/wcm/designs/custom-template-designs` e aggiorna la proprietà *jcr:title* di **custom-template-designs** a **customtemplate-design**.
 
-1. Passa a `/apps/settings/wcm/designs/custom-template-designs` e crea un file static.css.
+1. Accedi a `/apps/settings/wcm/designs/custom-template-designs` e creare un file static.css.
 
-1. Copia il contenuto nel file `static.css`:
+1. Copia il contenuto in `static.css` file:
 
    ```shell
        /*my-custom-layout styles*/
@@ -131,22 +131,22 @@ Per creare un layout Left20-LandscapeHD3Zone per un progetto AEM Screens, effett
    ```
 
    >[!NOTE]
-   >Puoi aggiornare le percentuali in modo che corrispondano ai requisiti per il modello personalizzato.
+   >Puoi aggiornare le percentuali in base ai requisiti del modello personalizzato.
 
-1. Passa a `/apps/<project>/templates/my-custom-layout/jcr:content` e aggiorna la proprietà *cq:designPath* a `/apps/settings/wcm/designs/customtemplate-designs` per caricare gli stili configurati in static.css
+1. Accedi a `/apps/<project>/templates/my-custom-layout/jcr:content` e aggiorna la proprietà *cq:designPath* a `/apps/settings/wcm/designs/customtemplate-designs` per caricare gli stili configurati in static.css
 
    >[!NOTE]
-   >È consigliabile digitare tutti gli stili anziché copiare o incollare, in modo da causare problemi di stile CSS.
+   >Si consiglia di digitare tutti gli stili anziché copiare o incollare, il che può causare spazi bianchi con conseguenti problemi di stile CSS.
 
 ## Visualizzazione del risultato {#viewing-result}
 
-Segui i passaggi riportati di seguito per utilizzare il modello personalizzato sopra indicato nel tuo progetto AEM Screens:
+Segui i passaggi seguenti per utilizzare il modello personalizzato di cui sopra nel tuo progetto AEM Screens:
 
-1. Passa al progetto Screens creato al passaggio (1) e seleziona la cartella **Canali** .
+1. Passa al progetto Schermi creato al passaggio (1) e seleziona la **Canali** cartella.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template8.png)
 
-1. Fai clic su **Crea** nella barra delle azioni e seleziona il modello **Left20-LandscapeHD3Zone** dalla procedura guidata **Crea** .
+1. Clic **Crea** dalla barra delle azioni e seleziona il modello **Left20-LandscapeHD3Zone** dal **Crea** procedura guidata.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template9.png)
 
@@ -154,26 +154,23 @@ Segui i passaggi riportati di seguito per utilizzare il modello personalizzato s
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Inserimento di un’immagine come livello di sfondo {#inserting-image}
+## Inserimento di un&#39;immagine come livello di sfondo  {#inserting-image}
 
-Potete inserire un’immagine come livello di sfondo nel layout:
+Potete inserire un&#39;immagine come livello di sfondo nel layout:
 
-Puoi regolare la regola CSS per utilizzare ciò che viene chiamato &quot;data-uri&quot; e inline direttamente l&#39;immagine (codificata Base64) nel file CSS, creato in (passaggio 13), *static.css*.
+È possibile regolare la regola CSS per utilizzare il cosiddetto &quot;uri dati&quot; e allineare direttamente l’immagine (codifica Base64) nel file CSS creato in (passaggio 13), *static.css*.
 
-Ciò avviene nel modo seguente:
+Questa operazione viene eseguita come segue:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Oppure, puoi seguire i passaggi seguenti:
 
-1. Assicurati che l&#39;immagine sia in qualche modo inclusa nella configurazione offline del canale
-1. Utilizza un collegamento diretto all’immagine nel CSS precedente, invece della variante &quot;data-uri&quot;
+1. Assicurati che l’immagine sia inclusa in qualche modo nella configurazione offline per il canale
+1. Utilizza un collegamento diretto all’immagine nel CSS qui sopra, invece della variante &quot;data-uri&quot;
 
 
 ## Aggiornamento del colore di sfondo {#updating-color}
 
-Per modificare il colore di sfondo, aggiungi il seguente codice al file xml (passaggio 13), *static.css*.
+Per modificare il colore di sfondo, aggiungere il codice seguente al file xml (passaggio 13): *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
-
-
-

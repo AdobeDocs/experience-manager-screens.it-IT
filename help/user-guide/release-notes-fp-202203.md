@@ -1,10 +1,11 @@
 ---
 title: Note sulla versione per Feature Pack 202203
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 202203 rilasciato il 25 marzo 2022.
+description: Segui questa pagina per ottenere informazioni sui 202203 di AEM Screens Feature Pack rilasciati il 25 marzo 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 78afc81cf588e643ad8c046d8bb70774e6296a11
+exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
+source-git-commit: a6708e1d91383c076ed822b50b9f37de163361c8
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 6%
@@ -14,17 +15,17 @@ ht-degree: 6%
 # Note sulla versione per Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
-AEM Screens ha rilasciato AEM Feature Pack 11 6.5.
+AEM Screens ha rilasciato AEM 6.5 Feature Pack 11.
 
-Scarica l’ultimo pacchetto di funzioni per AEM Screens 6.5.11 dalla [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Passa a **Adobe Experience Manager** tabulazione e ricerca **Schermi** per ottenere il pacchetto di funzioni più recente denominato **FP11 di AEM 6.5 Screens**.
+Puoi scaricare il feature pack più recente per AEM Screens 6.5.11 dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP11**.
 
 ## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 202203 è il 25 marzo 2022.
+La data di rilascio del Feature Pack 202203 per AEM Screens è il 25 marzo 2022.
 
 ### Novità {#what-is-new}
 
@@ -32,23 +33,23 @@ Questa versione include solo correzioni di bug.
 
 ### Correzioni di bug {#bug-fixes}
 
-* Targeting/personalizzazione non funzionava. Questo problema è stato risolto.
+* Il targeting e la personalizzazione non funzionavano. Questo problema è stato risolto.
 
-* L&#39;e-mail di monitoraggio Screens non funzionava dopo FP10. Questo problema è stato risolto.
+* L’e-mail di monitoraggio di Screens non funzionava dopo FP10. Questo problema è stato risolto.
 
-* Il lettore Windows si arresta in modo anomalo quando si scattava una schermata in modalità verticale. Questo problema è stato risolto.
+* Il lettore Windows si bloccava durante l’acquisizione di una schermata in modalità ritratto. Questo problema è stato risolto.
 
-* Il canale Screens SPA causava uno schermo bianco con Windows Player. Questo problema è stato risolto.
+* Il canale SPA Screens causava una schermata bianca con Windows Player. Questo problema è stato risolto.
 
-* La *wcmmode* Parametro rimosso da tutte le richieste Screens nell&#39;istanza di pubblicazione.
+* Il *wcmmode* Il parametro è stato rimosso da tutte le richieste Screens nell’istanza Publish.
 
-* L’interfaccia utente Attività di Player ora funziona come previsto.
+* L’interfaccia utente Attività del lettore ora funziona come previsto.
 
 * Impossibile ottenere l&#39;aggiornamento più recente tramite Gestisci pubblicazione. Questo problema è stato risolto.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens vengono rilasciati per AEM Feature Pack 11 6.5:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 11:
 
 * ChromeOS
 * Windows
@@ -59,4 +60,4 @@ I seguenti lettori AEM Screens vengono rilasciati per AEM Feature Pack 11 6.5:
 
 #### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

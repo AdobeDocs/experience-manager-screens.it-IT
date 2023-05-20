@@ -1,67 +1,66 @@
 ---
-title: Supporto post-avvio
-seo-title: Supporto post-avvio per  AEM Screens
-description: La pagina descrive la Guida alle procedure ottimali per  AEM Screens per il supporto post-lancio
-seo-description: La pagina descrive la Guida alle procedure ottimali per  AEM Screens per il supporto post-lancio
-translation-type: tm+mt
+title: Supporto post-lancio
+seo-title: Post Launch Support for AEM Screens
+description: La pagina descrive il supporto post-lancio per la guida alle best practice di AEM Screens
+seo-description: The page describes Post Launch Support for AEM Screens Best Practices Guide
 source-git-commit: 9b54b153676852742859b704ac9aedf908fceecf
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 7%
+source-wordcount: '395'
+ht-degree: 8%
 
 ---
 
 
-# Supporto post-avvio {#post-launch-support}
+# Supporto post-lancio {#post-launch-support}
 
 
 Il supporto post-lancio non deve essere trascurato nella fase iniziale.
 
 Garantire che i siti ricevano il supporto adeguato dal fornitore di hardware è fondamentale per le loro operazioni aziendali. L’**integratore A/V** deve collaborare a stretto contatto con le parti interessate e individuare i requisiti necessari a partire da diversi aspetti.
-Considerate i seguenti requisiti durante il supporto post-avvio:
+Durante il supporto post-lancio, considera i seguenti requisiti:
 
 * gestione remota dei dispositivi
-* disponibilità del centro di supporto
-* assistenza tecnica in loco
-* gestione dei dispositivi (supporto di garanzia e storage dei dispositivi di riserva)
+* disponibilità del centro di assistenza
+* assistenza tecnica on-site
+* gestione dei dispositivi (supporto in garanzia e storage dei dispositivi di riserva)
 
-Inoltre, per prepararsi al successo a lungo termine, è fondamentale stabilire un contratto SLA (Service Level Agreement) Day 2 in collaborazione con l&#39;integratore AV. L&#39;SLA deve fornire informazioni dettagliate su tutti i servizi di supporto post-distribuzione, al fine di aiutare a definire con precisione le aspettative dei clienti.
+Inoltre, per prepararsi al successo a lungo termine, è fondamentale stipulare un accordo sul livello di servizio (SLA) del giorno 2 in collaborazione con AV Integrator. Lo SLA deve descrivere in dettaglio tutti i servizi di supporto post-distribuzione per aiutare a definire con precisione le aspettative dei clienti.
 
 >[!NOTE]
 >
->È necessario definire i parametri operativi in anticipo inclusi nei budget operativi, nonché allineare le responsabilità con l&#39;implementazione AEM e con l&#39;integratore AV.
+>È necessario definire i parametri operativi già inclusi nei budget operativi e allineare le responsabilità con l&#39;implementatore AEM e l&#39;integratore AV.
 >
->* L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata?  Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
->* L’applicazione è altamente visibile alla dirigenza esecutiva del cliente finale? Siti con elevata visibilità possono meritare trattamenti diversi.
->* L&#39;applicazione è fondamentale per le operazioni aziendali, come le schede di menu nelle catene di fast food? In questi casi, il cliente finale può richiedere risoluzioni sul posto con tempi di risposta molto brevi, nonché la ridondanza nell&#39;hardware di riproduzione.
+>* L’implementazione è una rete pubblicitaria con molte parti interessate collegate a una rete monetizzata?  Questo può determinare tempi di risoluzione molto più brevi rispetto a una rete di comunicazione aziendale.
+>* L’applicazione è altamente visibile per la leadership esecutiva del cliente finale? I siti con elevata visibilità possono meritare trattamenti diversi.
+>* L&#39;applicazione è fondamentale per le operazioni aziendali, ad esempio per l&#39;uso di pannelli di menu nelle catene di fast-food? In questi casi, il client finale può richiedere risoluzioni sul sito con tempi di risposta molto brevi, nonché ridondanza nell’hardware di riproduzione.
 
 
 ## Considerazioni e query post-avvio {#considerations-queries}
 
-Di seguito sono riportati alcuni aspetti e domande utili per definire il supporto post-avvio:
+Di seguito sono riportate alcune considerazioni e domande utili per definire il supporto post-lancio:
 
-1. L&#39;implementazione di una rete pubblicitaria con molti soggetti interessati è legata a una rete monetizzata?  Ciò potrebbe richiedere tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
+1. L’implementazione è una rete pubblicitaria con molte parti interessate collegate a una rete monetizzata?  Questo può determinare tempi di risoluzione molto più brevi rispetto a una rete di comunicazione aziendale.
  
    >[!NOTE]
    >
-   > Ciò comporta tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.
+   > Questo consente di ridurre notevolmente i tempi di risoluzione delle chiamate rispetto alle reti di comunicazione aziendale.
 
-1. L’applicazione è altamente visibile alla dirigenza esecutiva del cliente finale?
-
-   >[!NOTE]
-   >
-   > Questo determina tempi di risoluzione molto più brevi rispetto a una rete di comunicazioni aziendali.I siti con elevata visibilità possono meritare trattamenti diversi.
-
-1. L&#39;applicazione è fondamentale per le operazioni aziendali, come le schede di menu nelle catene di fast food?
+1. L’applicazione è altamente visibile per la leadership esecutiva del cliente finale?
 
    >[!NOTE]
    >
-   > In questi casi, il cliente finale può richiedere risoluzioni sul posto con tempi di risposta molto brevi, nonché la ridondanza nell&#39;hardware di riproduzione.
+   > Questo consente di ridurre notevolmente i tempi di risoluzione rispetto a una rete di comunicazione aziendale.I siti ad alta visibilità meritano trattamenti diversi.
 
-1. Chi sarà il punto di contatto principale per il supporto?
+1. L&#39;applicazione è fondamentale per le operazioni aziendali, ad esempio per l&#39;uso di pannelli di menu nelle catene di fast-food?
 
-1. Chi risponderà alle richieste di assistenza?
+   >[!NOTE]
+   >
+   > In questi casi, il client finale può richiedere risoluzioni sul sito con tempi di risposta molto brevi, nonché ridondanza nell’hardware di riproduzione.
 
-1. Quale delle posizioni di vendita al dettaglio richiede un monitoraggio 24 ore su 24, 7 giorni su 7?
+1. Chi sarà il principale punto di contatto per il supporto?
 
-1. I display sono parte integrante della tua attività? (ovvero configurazione dell&#39;auto, avvisi di vendita)
+1. Chi risponderà alle richieste di supporto?
+
+1. Quali aree di vendita richiedono il monitoraggio continuo 24 ore su 24, 7 giorni su 7?
+
+1. Gli schermi sono parte integrante della tua attività commerciale? (configurazione dell’auto, avvisi di vendita)

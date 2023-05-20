@@ -1,49 +1,48 @@
 ---
 title: Approccio consigliato
-seo-title: Approccio consigliato in un progetto AEM Screens
+seo-title: Recommended Approach in an AEM Screens Project
 description: La pagina descrive l’approccio consigliato in un progetto AEM Screens
-seo-description: La pagina descrive l’approccio consigliato in un progetto AEM Screens
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes recommended approach in an AEM Screens project
+exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-
 # Approccio consigliato {#recommended-approach}
 
-È consigliabile considerare qualsiasi progetto AEM Screens a livello aziendale come un’impresa a lungo termine. È probabile che il progetto abbia una durata di uno o più anni, in particolare se la soluzione consente un’interazione utente complessa o se verrà implementata in diversi dispositivi e posizioni.
+Si consiglia di considerare qualsiasi progetto AEM Screens a livello aziendale come un’iniziativa a lungo termine. È probabile che il progetto duri uno o più anni, in particolare se la soluzione consente complesse interazioni dell’utente o verrà implementata in una varietà di dispositivi e posizioni.
 
 ## Linee guida prima di sviluppare una strategia di digital signage {#signage-strategy}
 
-Per sviluppare e distribuire un progetto di digital signage, consulta le raccomandazioni seguenti:
+Consulta le poche raccomandazioni prima di sviluppare e distribuire un progetto di digital signage:
 
-* **Controllo** ambito: Se la soluzione desiderata è ambiziosa, si consiglia di suddividere i risultati finali in fasi distinte per controllare l’ambito del progetto.
+* **Controllo ambito**: se la soluzione desiderata è ambiziosa, si consiglia di suddividere i risultati finali in fasi distinte per controllare l’ambito del progetto.
 
-* **Casi** di utilizzo definiti: Le fasi del progetto devono fornire casi d’uso ben definiti con criteri di successo chiaramente identificati.
+* **Casi d’uso definiti**: le fasi del progetto devono fornire casi d’uso ben definiti con criteri di successo chiaramente identificati.
 
-* **Risultati finali incrementali**: Concentrati sulla distribuzione delle funzioni in modo incrementale.
+* **Risultati finali incrementali**: consente di concentrarsi sulla distribuzione incrementale delle funzioni.
 
-* **Stima dei risultati** desiderati: Inizia con le funzionalità predefinite di AEM Screens prima di creare componenti e integrazioni personalizzati. Effettua sempre il brainstorm se è possibile raggiungere il risultato desiderato utilizzando i componenti e le funzioni standard di AEM Screens.
+* **Stima del risultato desiderato**: inizia con le funzioni predefinite di AEM Screens prima di creare componenti e integrazioni personalizzati. Brainstorm sempre se il risultato desiderato può essere raggiunto utilizzando i componenti e le funzioni standard di AEM Screens.
 
-* **Definizione di piloti, rollout e POC**: Sviluppa una prova del concetto (POC) e si adatta in base alle esigenze attraverso un pilota e un rollout.
+* **Definizione di programmi pilota, rollout e POC**: sviluppa una bozza di concetto (POC) e adattala in base alle esigenze tramite un progetto pilota e il rollout.
 
-* **Strategia** dei contenuti predefinita: Definire una strategia per i contenuti, compresi gli obiettivi a breve e a lungo termine. Inoltre, allinea gli obiettivi/i KPI del marchio con i miglioramenti delle funzioni.
-
-   >[!NOTE]
-   >
-   > I costi iniziali sono spesso più elevati su un progetto AEM Screens a causa della necessità di investire in hardware, dispositivi fissi e progetti del sito; pertanto, mantenere le soluzioni di contenuti iniziali più semplici può aiutare a gestire le aspettative di budget.
-
-* **Stima dei risultati finali** su larga scala: Se la soluzione verrà fornita su larga scala, si consiglia di distribuire i componenti dell&#39;applicazione in posizioni pilota scelte accuratamente per l&#39;uso di prova. Distribuisci in nuove posizioni e dispositivi durante il passaggio della convalida da parte dell’applicazione.
+* **Strategia di predefinizione dei contenuti**: stabilire una strategia di contenuti, compresi gli obiettivi a breve e a lungo termine. Inoltre, allinea gli obiettivi del brand/KPI con i miglioramenti delle funzioni.
 
    >[!NOTE]
    >
-   > Inizia a raccogliere le analisi durante il progetto pilota per aiutare i team aziendali a convalidare il successo della soluzione in base alle metriche specifiche che stanno tentando di raggiungere. Sapere in che modo il pilota esegue aiuta il team aziendale a determinare quali miglioramenti devono essere apportati.
+   > I costi iniziali sono spesso più elevati in un progetto AEM Screens a causa della necessità di investire in hardware, attrezzature e progetti del sito; pertanto, mantenere più semplici le soluzioni di contenuti iniziali può aiutare a gestire le aspettative di budget.
 
-* **Suddivisione dei risultati finali in attività** misurabili: La suddivisione delle funzionalità in attività misurabili consentirà un feedback tempestivo, fornirà obiettivi più raggiungibili e ridurrà i rischi complessivi del progetto.
+* **Stima dei risultati finali su larga scala**: se la soluzione verrà fornita su larga scala, si consiglia di implementare i componenti dell’applicazione in posizioni pilota scelte con cura per l’utilizzo sperimentale. Distribuisci a nuove posizioni e dispositivi man mano che l’applicazione supera la convalida.
 
-* **Sviluppo di una roadmap**: Se il cliente desidera un prodotto ricco di funzioni, fornisci una sezione delle funzionalità pianificate all’inizio del progetto e pianifica altre funzionalità per le fasi future. Un primo risultato finale importante per le funzionalità comporta maggiori rischi e sarà più difficile da convalidare con il cliente.
+   >[!NOTE]
+   >
+   > Inizia a raccogliere dati analitici durante il periodo pilota per aiutare i team aziendali a convalidare il successo della soluzione in base alle metriche specifiche che stanno tentando di raggiungere. Conoscere le prestazioni del progetto pilota aiuta il team aziendale a individuare i miglioramenti da apportare.
 
-* **Ambito delle integrazioni** personalizzate: I componenti interattivi con interazione touch screen, sensore di movimento o RFID richiedono uno sviluppo personalizzato significativo nel metodo di implementazione. Una presentazione, un annuncio video o un menu statico possono essere consegnati come contenuto grafico o HTML su un canale Screens.
+* **Suddivisione dei risultati finali in attività misurabili**: la suddivisione della distribuzione delle funzioni in attività misurabili consentirà un feedback tempestivo, fornirà obiettivi più raggiungibili e ridurrà i rischi complessivi del progetto.
 
+* **Sviluppo di una roadmap**: se il cliente desidera un prodotto ricco di funzioni, fornisci una porzione delle funzionalità pianificate all’inizio del progetto e pianifica altre funzioni per le fasi future. Un primo deliverable con numerose funzioni comporta maggiori rischi e sarà più difficile convalidarlo con il cliente.
+
+* **Ambito delle integrazioni personalizzate**: i componenti interattivi con interazione touch screen, sensore di movimento o RFID richiederanno uno sviluppo personalizzato significativo nel metodo di implementazione. Una presentazione, un annuncio video o un menu statico possono essere distribuiti come contenuto grafico o HTML su un canale Screens.

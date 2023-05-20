@@ -1,41 +1,41 @@
 ---
 title: Glossario
-seo-title: Glossario
+seo-title: Glossary
 description: Segui questa pagina per comprendere i termini chiave associati ad AEM Screens.
-seo-description: Segui questa pagina per comprendere i termini chiave associati ad AEM Screens.
-feature: Panoramica
+seo-description: Follow this page to understand the key terms associated with AEM Screens.
+feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 11%
+source-wordcount: '456'
+ht-degree: 0%
 
 ---
 
 # Glossario {#glossary}
 
-**Canale applicazione** Un canale applicazione mostra un&#39;applicazione creata da uno sviluppatore che visualizza il contenuto interattivo.
+**Canale applicazione** Un canale applicazione mostra un’applicazione creata da uno sviluppatore che visualizza contenuti interattivi.
 
-**Attract** LoopUn loop di attrazione è definito come l&#39; ** ombelico  ** idlestate quando il display ha due o più stati in cui può esistere. Il suo ruolo è quello di *attirare i clienti* sul display e incoraggiarli a interagire, solitamente toccando lo schermo ma anche interagendo con un prodotto.
+**Attrai ciclo** Un loop di attrazione è definito come *home* o *inattivo* stato quando la visualizzazione ha due o più stati in cui può esistere. Il suo ruolo è *attrarre* i clienti si avvicinano al display e li incoraggiano a interagire, solitamente toccando lo schermo ma anche interagendo con un prodotto.
 
-**** DayPartingDayParting si riferisce alla suddivisione di un giorno in fasce orarie e alla specifica del contenuto riprodotto all’ora desiderata. AEM Screens ti consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese, in base alle esigenze.
+**DayParting** DayParting si riferisce alla suddivisione di un giorno in intervalli temporali e alla specifica del contenuto riprodotto all’ora desiderata. AEM Screens consente di pianificare i canali in termini di DayParting entro un giorno, una settimana o un mese in base al requisito.
 
-**** Il dispositivo è in grado di eseguire il software del lettore per produrre un output visivo. È in grado di controllare la visualizzazione di una parte ritagliata, ridimensionata e tradotta di contenuti o esperienze comuni. La configurazione dello schermo è associata a una visualizzazione ma può essere sostituita in caso di difetti tecnici.
+**Dispositivo** Un dispositivo è in grado di eseguire il software del lettore per produrre un output visivo. È in grado di controllare la visualizzazione di una porzione ritagliata, ridimensionata e tradotta del contenuto o dell’esperienza comune. La configurazione dello schermo è associata a una visualizzazione, ma può essere sostituita in caso si verifichi un difetto tecnico.
 
-**** VisualizzazioneUna visualizzazione è un raggruppamento virtuale di schermate che sono solitamente posizionate una accanto all’altra. La visualizzazione è solitamente permanente per quanto riguarda l’installazione. Questo sarà l’oggetto con il quale gli autori di contenuti lavoreranno e al quale faranno sempre riferimento come visualizzazione logica piuttosto che le controparti fisiche.
+**Visualizzazione** Un display è un raggruppamento virtuale di schermi solitamente posizionati uno accanto all’altro. Il display è di solito permanente rispetto a un&#39;installazione. Questo sarà l’oggetto con cui gli autori di contenuto lavoreranno e a cui faranno sempre riferimento come visualizzazione logica piuttosto che le loro parti contatore fisiche.
 
-**** FirmwareFirmware è il termine dato al software che viene eseguito sul dispositivo all&#39;interno dell&#39;applicazione del lettore in una visualizzazione web. Si tratta di un livello javascript che esegue il contenuto contenuto contenuto in un canale all’interno di iFrames e fornisce l’accesso alle funzionalità native tramite plug-in. Il firmware può essere aggiornato senza aggiornare l&#39;applicazione del lettore.
+**Firmware** Firmware è il termine assegnato al software che viene eseguito sul dispositivo all&#39;interno dell&#39;applicazione del lettore in una visualizzazione web. È un livello JavaScript che esegue il contenuto contenuto contenuto in un canale all’interno di iFrame e fornisce accesso alle funzionalità native tramite plug-in. È possibile aggiornare il firmware senza aggiornare l&#39;applicazione del lettore.
 
-**Live** CopyUna Live Copy è una copia del contenuto specifico del sito per il quale viene mantenuta una relazione live con la sorgente originale. Questa relazione diretta consente alla Live Copy di ereditare il contenuto e le proprietà della pagina dalla sorgente.
+**Live Copy** Una Live Copy è una copia di un contenuto specifico del sito per il quale viene mantenuta una relazione live con il sorgente originale. Questa relazione live consente alla Live Copy di ereditare il contenuto e le proprietà di pagina dal sorgente.
 
-**Posizione/Posizione** CartellaLe posizioni o le posizioni all&#39;interno della cartella di posizione ospitano la configurazione delle visualizzazioni in base a dove si trovano le varie schermate.
+**Cartella posizione** Le posizioni all&#39;interno della cartella posizione ospitano la configurazione delle visualizzazioni in base alla posizione delle varie schermate.
 
-**Player** SoftwareIl lettore è l&#39;applicazione software in esecuzione su un dispositivo che ti permetterà di mostrare un canale su un display.
+**Software del lettore** Il lettore è l&#39;applicazione software in esecuzione su un dispositivo che consente di visualizzare un canale su uno schermo.
 
-**** Lo schermo ScreenA è un monitor fisico o qualsiasi altro sistema in grado di produrre un output visivo che mostra il contenuto proveniente dal suo dispositivo.
+**Schermo** Uno schermo è un monitor fisico o qualsiasi altro sistema in grado di produrre un output visivo che mostra il contenuto proveniente dal suo dispositivo.
 
-**Canale** per sequenzaUn canale per sequenza è una pagina che puoi creare contenente componenti che verranno visualizzati uno per uno in una presentazione.
+**Canale sequenza** Un canale di sequenza è una pagina che puoi creare e che contiene componenti che verranno mostrati singolarmente in una presentazione.
 
-**** Le areeLe aree sono segmentazioni di visualizzazioni utilizzate entità indirizzabili principali per i canali. Nei casi in cui le visualizzazioni si estendono su più schermi, è utile definire le zone in base alle dimensioni dello schermo, specialmente se le schermate presentano un bordo fisico prominente.
+**Zone** Le zone sono segmentazioni di visualizzazioni utilizzate come entità indirizzabili primarie per i canali. Nei casi in cui le visualizzazioni si estendono su più schermate, è vantaggioso definire le zone in modo che corrispondano alle dimensioni dello schermo, soprattutto se le schermate mostrano un bordo fisico prominente.

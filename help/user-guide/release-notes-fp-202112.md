@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione per Feature Pack 202112
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 202112 rilasciato il 12 gennaio 2022.
+description: Segui questa pagina per ottenere informazioni sui 202112 di AEM Screens Feature Pack rilasciati il 12 gennaio 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
@@ -15,51 +15,51 @@ ht-degree: 5%
 # Note sulla versione per Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
-AEM Screens ha rilasciato AEM Feature Pack 10 6.5.
+AEM Screens ha rilasciato AEM 6.5 Feature Pack 10.
 
-Scarica l’ultimo pacchetto di funzioni per AEM Screens 6.5.10 dalla [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Passa a **Adobe Experience Manager** tabulazione e ricerca **Schermi** per ottenere il pacchetto di funzioni più recente denominato **FP10 di AEM 6.5 Screens**.
+Puoi scaricare il feature pack più recente per AEM Screens 6.5.10 dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP10**.
 
 ## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 20212 è il 12 gennaio 2022.
+La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 2022.
 
 ### Novità {#what-is-new}
 
-* Gli aggiornamenti delle applicazioni Android ora sono destinati ad Android 11 (livello API 30). Attualmente il lettore Android è al livello API target 29.
+* Gli aggiornamenti dell’applicazione Android ora interessano Android 11 (livello API 30). Attualmente il lettore Android è nel livello API di destinazione 29.
 
-* Visualizzazione dell&#39;anteprima bloccata sulla configurazione del lettore precedente
+* L&#39;anteprima della visualizzazione è bloccata nella configurazione precedente del lettore
 
-* L&#39;anteprima della visualizzazione non viene resa in alcune condizioni
+* L’anteprima della visualizzazione non viene riprodotta in alcune condizioni
 
-* Correggere gli errori di download simultaneo in SmartSync
+* Correzione degli errori di download simultanei in SmartSync
 
-* In qualità di sviluppatore, ora visualizzerai le rappresentazioni delle risorse da elencare solo come voci di rendering nelle risorse corrispondenti nel manifesto per garantire l’estensibilità, la chiarezza e la facilità di gestione del manifesto.
+* In qualità di sviluppatore, ora puoi visualizzare le rappresentazioni delle risorse da elencare solo come voci di rappresentazione nelle risorse corrispondenti nel manifesto, per garantire l’estensibilità, la chiarezza e la facilità di gestione del manifesto.
 
 ### Correzioni di bug {#bug-fixes}
 
 * Ora puoi filtrare gli eventi di analisi in base al tipo di evento.
 
-* Raccogli i log del lettore locale e analizzali per lo schermo nero.
+* Raccogli i registri del lettore locale e analizzali per verificare la presenza di schermate nere.
 
-* Il lettore che mostra lo schermo vuoto con il canale a schermo diviso è ora fisso
+* Il lettore che mostra una schermata vuota con un canale a schermo diviso è ora fisso
 
-* Sono stati corretti i documenti del gestore personalizzati aggiungendo il bundle principale su maven pubblico.
+* Sono stati corretti i documenti dei gestori personalizzati aggiungendo il bundle core al maven pubblico.
 
-* Il lettore non aggiornava la versione del firmware dopo l&#39;aggiornamento. Questo problema è stato risolto.
+* Impossibile aggiornare la versione del firmware dopo l&#39;aggiornamento. Questo problema è stato risolto.
 
-* L&#39;anteprima della visualizzazione è bloccata sulla configurazione del lettore precedente.
+* L&#39;anteprima della visualizzazione è bloccata nella configurazione precedente del lettore.
 
-* L’anteprima di visualizzazione non viene sottoposta a rendering in alcune condizioni.
+* In alcune condizioni, l’anteprima della visualizzazione non viene riprodotta.
 
-* Correggere gli errori di download simultanei in SmartSync.
+* Correzione degli errori di download simultanei in SmartSync.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens vengono rilasciati per AEM 6.5 Feature Pack 10:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows
@@ -69,4 +69,4 @@ I seguenti lettori AEM Screens vengono rilasciati per AEM 6.5 Feature Pack 10:
 
 #### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

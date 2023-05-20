@@ -1,8 +1,8 @@
 ---
 title: Note sulla versione per Feature Pack 201812
-seo-title: Note sulla versione per Feature Pack 201812
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201812 rilasciato il 16 gennaio 2019.
-seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201812 rilasciato il 16 gennaio 2019.
+seo-title: Release Notes for Feature Pack 201812
+description: Segui questa pagina per ottenere informazioni sul Feature Pack di AEM Screens 201812 rilasciato il 16 gennaio 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019.
 uuid: 7cc8dd96-5965-4af0-bebc-9d4941481734
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,46 +13,46 @@ noindex: true
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 2%
 
 ---
-
 
 # Note sulla versione per Feature Pack 201812{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
-AEM Screens ha rilasciato AEM Feature Pack 5 6.3 e AEM Feature Pack 3 6.4 con i seguenti dettagli.
+L’AEM Screens ha rilasciato AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3 con i seguenti dettagli.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 2018 è il 16 gennaio 2019.
+La data di rilascio del Feature Pack 201812 per AEM Screens è il 16 gennaio 2019.
 
 ### Novità {#what-s-new}
 
-* **Sovrapposizione testo sulle risorse nel canale**:
+* **Sovrapposizione testo su risorse nel canale**:
 
-   Sovrapposizione testo è una funzione disponibile in AEM Screens che consente di creare un’esperienza avvincente in un Canale per sequenza fornendo un titolo o una descrizione sovrapposti a un’immagine. Per ulteriori informazioni, consulta [**Sovrapposizione testo**](text-overlay.md) .
+   La sovrapposizione testo è una funzione disponibile in AEM Screens che consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine. Fare riferimento a [**Sovrapposizione testo**](text-overlay.md) per ulteriori informazioni.
 
-* **Pianificazione** di più risorse:
+* **Programmazione di più risorse**:
 
-   La pianificazione di più risorse consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate. Per ulteriori informazioni, consulta la sezione **Pianificazione di più risorse** in **[Pianificazione delle risorse](asset-level-scheduling.md)** .
+   La pianificazione di più risorse consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate. Fare riferimento a **Programmazione di più risorse** sezione in **[Pianificazione risorse](asset-level-scheduling.md)** per ulteriori informazioni.
 
-* **Layout** con più aree:
+* **Layout multizona**:
 
-   Il layout a più aree consente di creare più contenuti di zona e utilizzare una varietà di risorse, come video, immagini e testo che possono essere combinate in un’unica schermata. Per ulteriori informazioni, consulta **[Layout a più zone](multi-zone-layout-aem-screens.md)** .
+   Il layout multizona consente di creare contenuti per più aree e utilizzare una varietà di risorse come video, immagini e testo che possono essere combinati in un’unica schermata. Fare riferimento a **[Layout multizona](multi-zone-layout-aem-screens.md)** per ulteriori informazioni.
 
-* **Sincronizzazione intelligente delle risorse ai lettori**
-* **Distribuzione di authoring/pubblicazione (Hardening)**
+* **Sincronizzazione intelligente delle risorse con i lettori**
+* **Distribuzione authoring/pubblicazione (protezione avanzata)**
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens sono rilasciati per AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3:
 
 * ChromeOS
 * Windows
@@ -61,4 +61,4 @@ I seguenti lettori AEM Screens sono rilasciati per AEM 6.3 Feature Pack 5 e AEM 
 
 #### Download di AEM Screens Player {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, fai riferimento a [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).

@@ -1,36 +1,36 @@
 ---
 title: Considerazioni relative all’ambito dei progetti
-seo-title: Considerazioni relative all’ambito dei progetti
+seo-title: Considerations as Projects are Scoped
 description: La pagina descrive le considerazioni relative all’ambito dei progetti
-seo-description: La pagina descrive le considerazioni relative all’ambito dei progetti
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The page describes Considerations as Projects are Scoped
+exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '288'
+ht-degree: 3%
 
 ---
-
 
 # Considerazioni relative all’ambito dei progetti {#pre-sales-considerations}
 
 >[!NOTE]
->Un tipico stakeholder per questa attività è un Marketing/Business Strategist.
+>Questa attività è tipicamente gestita da un esperto di marketing e business.
 
-Questa fase include tutte le attività di pre-vendita e individuazione necessarie per definire completamente l’ambito del progetto. Il lavoro svolto durante il Giorno Zero stabilisce il tono per il resto del progetto e influenza il successo complessivo dell&#39;applicazione in fase di creazione.
-A questo punto, i fornitori chiave vengono identificati e riuniti per contribuire a formulare il piano di progetto. In questa fase è importante che il buy-in sia stabilito anche con i principali soggetti coinvolti nel progetto all&#39;interno dell&#39;azienda cliente, come i responsabili vendite, i responsabili marketing e i team IT, in quanto tutti avranno un ruolo importante da svolgere nello sviluppo dell&#39;applicazione e nella sua manutenzione continua.
+Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito del progetto. Il lavoro svolto durante il Giorno zero imposta il tono per il resto del progetto e influenza il successo complessivo dell&#39;applicazione in fase di creazione.
+In questa fase, i principali fornitori vengono identificati e riuniti per aiutare a formulare il piano del progetto. In questa fase è importante che l&#39;adesione venga stabilita anche con le principali parti interessate del progetto all&#39;interno dell&#39;azienda cliente, come i responsabili delle vendite, i responsabili marketing e i team IT, in quanto tutti avranno un ruolo importante da svolgere nello sviluppo dell&#39;applicazione e nella sua manutenzione continua.
 
 ## Risultati principali {#key-deliverables}
 
-I principali risultati finali in questa fase includono:
+I principali risultati ottenuti in questa fase includono:
 
-* Piano di progetto approvato (comprensivo dell&#39;ambito di lavoro, della pianificazione del progetto e del budget) con il buy-in da parte dei principali soggetti interessati.
+* Piano di progetto approvato (compreso l&#39;ambito del lavoro, la pianificazione del progetto e il budget) con l&#39;adesione delle principali parti interessate.
 * Team definiti con ruoli e responsabilità chiari.
-* Strategia dei contenuti definita con obiettivi a breve e medio termine e visione a lungo termine.
-* Elenco delle esigenze di reporting e degli indicatori prestazioni chiave (KPI).
-* Pianificazione e pianificazione della distribuzione bozza.
+* Definizione di una strategia dei contenuti con obiettivi a breve e medio termine e una visione a lungo termine.
+* Elenco delle esigenze di reporting e degli indicatori di prestazioni chiave (KPI, Key Performance Indicators).
+* Pianificazione e piano di distribuzione bozza.
 
 >[!NOTE]
 >
->Identifica i dati che saranno necessari per l&#39;applicazione e da dove proverranno il prima possibile. Durante l&#39;implementazione verranno effettuate esplorazioni più approfondite, impiega del tempo *Giorno Zero* per scoprire quali dati intende utilizzare il client, dove sono attualmente memorizzati e come è possibile accedervi dall&#39;applicazione in fase di creazione. Notificare al team di sviluppo in anticipo le eventuali sfide future contribuirà a migliorare l&#39;implementazione.
+>Identifica quanto prima i dati necessari per l’applicazione e da dove provengono. Mentre un’esplorazione più approfondita avverrà durante l’implementazione, prenditi il tempo *Giorno zero* per scoprire quali dati il client intende utilizzare, dove sono attualmente memorizzati e come sono accessibili dall’applicazione in fase di generazione. Notificare in anticipo al team di sviluppo le sfide che potrebbero presentarsi in futuro contribuirà a facilitare l’implementazione.
 
-Per ulteriori informazioni, consulta l’esercitazione video su [Considerazioni relative all’ambito dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) .
+Fai riferimento al tutorial video su [Considerazioni relative all’ambito dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) per ulteriori informazioni.

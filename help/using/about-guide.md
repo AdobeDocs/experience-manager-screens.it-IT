@@ -1,7 +1,7 @@
 ---
 title: Informazioni su questa guida
 seo-title: Description on the Guide
-description: Segui questa guida alle best practice AEM 6.5 per i progetti AEM Screens per pianificare ed eseguire progetti, da informazioni strategiche e di progettazione, all’implementazione e dopo il supporto.
+description: Segui questa guida alle best practice dell’AEM 6.5 per i progetti AEM Screens per pianificare ed eseguire progetti, dalle informazioni strategiche e di progettazione fino alla distribuzione e al supporto successivo.
 seo-description: This page describes the intent of the Best Practices Guide
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef

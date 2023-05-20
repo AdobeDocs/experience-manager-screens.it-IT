@@ -1,50 +1,50 @@
 ---
 title: Panoramica dell’architettura di authoring e pubblicazione
-seo-title: Panoramica dell’architettura di authoring e pubblicazione
-description: L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per ulteriori informazioni sull’authoring e la pubblicazione di una panoramica dell’architettura.
-seo-description: L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. Segui questa pagina per ulteriori informazioni sull’authoring e la pubblicazione di una panoramica dell’architettura.
+seo-title: Author and Publish Architectural Overview
+description: L’architettura di AEM Screens è simile a un’architettura tradizionale di AEM Sites. Il contenuto viene creato su un’istanza dell’autore AEM e quindi replicato in avanti su più istanze di pubblicazione. Segui questa pagina per ulteriori informazioni su come creare e pubblicare una panoramica dell’architettura.
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more on author and publish architectural overview.
 uuid: 19bac3de-8938-4339-82f0-6ccb932b6684
 content-type: reference
 topic-tags: administering
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 112404de-5a5a-4b37-b87c-d02029933c8a
 docset: aem65
-feature: Amministrazione di schermi
+feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 3%
+source-wordcount: '985'
+ht-degree: 1%
 
 ---
 
 # Panoramica dell’architettura di authoring e pubblicazione {#author-and-publish-architectural-overview}
 
-Questa pagina evidenzia i seguenti argomenti:
+In questa pagina sono evidenziati i seguenti argomenti:
 
 * **Introduzione ai server di pubblicazione**
-* **Panoramica dell&#39;architettura**
+* **Panoramica dell’architettura**
 * **Processo di registrazione**
 
 ## Prerequisiti {#prerequisites}
 
-Prima di iniziare a utilizzare i server di authoring e pubblicazione, è necessario disporre di conoscenze precedenti su:
+Prima di iniziare a utilizzare i server di authoring e pubblicazione, è necessario conoscere in precedenza:
 
 * **Topologia AEM**
 * **Creazione e gestione di un progetto AEM Screens**
-* **Processo di registrazione dei dispositivi**
+* **Processo di registrazione del dispositivo**
 
 >[!NOTE]
 >
->Questa funzionalità di AEM Screens è disponibile solo se hai installato AEM Feature Pack 2 di 6.4 Screens. Per accedere a questo Feature Pack, è necessario contattare Adobe Support e richiedere l&#39;accesso. Una volta ottenute le autorizzazioni, è possibile scaricare il Feature Pack da Condivisione pacchetti.
+>Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.4 Screens Feature Pack 2. Per accedere a questo Feature Pack, contatta il supporto Adobe e richiedi l’accesso. Una volta ricevute le autorizzazioni, puoi scaricarle da Condivisione pacchetti.
 
 ## Introduzione {#introduction}
 
-L’architettura di AEM Screens assomiglia a un’architettura AEM Sites tradizionale. Il contenuto viene creato su un’istanza di authoring AEM e quindi replicato in avanti in più istanze di pubblicazione. I dispositivi AEM Screens ora possono connettersi a una farm di pubblicazione AEM tramite load balancer. È possibile aggiungere più istanze di pubblicazione AEM per continuare a ridimensionare la farm di pubblicazione.
+L’architettura di AEM Screens è simile a un’architettura tradizionale di AEM Sites. Il contenuto viene creato su un’istanza dell’autore AEM e quindi replicato in avanti su più istanze di pubblicazione. I dispositivi AEM Screens ora possono connettersi a una farm di pubblicazione AEM tramite il load balancer. È possibile aggiungere più istanze di pubblicazione AEM per continuare a scalare la farm di pubblicazione.
 
-*Ad esempio*, un autore di contenuti AEM Screens invia un comando al sistema di authoring per un particolare dispositivo configurato per interagire con una farm di pubblicazione o un autore di contenuti AEM Screens che ottiene informazioni sui dispositivi configurati per interagire con farm di pubblicazione.
+*Ad esempio*, un autore di contenuti AEM Screens esegue un comando sul sistema di authoring di un particolare dispositivo configurato per interagire con una farm di pubblicazione o un autore di contenuti AEM Screens che ottiene informazioni sui dispositivi configurati per interagire con le farm di pubblicazione.
 
 Il diagramma seguente illustra gli ambienti di authoring e pubblicazione.
 
@@ -54,16 +54,16 @@ Il diagramma seguente illustra gli ambienti di authoring e pubblicazione.
 
 Sono disponibili cinque componenti architettonici che facilitano questa soluzione:
 
-* ***Replicazione del*** contenuto dall&#39;autore alla pubblicazione per la visualizzazione da parte dei dispositivi
+* ***Replica dei contenuti*** dall’authoring alla pubblicazione per la visualizzazione per dispositivi
 
-* ****** Ripristino del contenuto binario dalla pubblicazione (ricevuto dai dispositivi) all’authoring
-* ****** Invio di comandi dall’autore per la pubblicazione tramite API REST specifiche
-* ****** Messaggistica tra istanze di pubblicazione per sincronizzare gli aggiornamenti e i comandi delle informazioni sul dispositivo
-* ****** Inchiostro da parte dell’autore delle istanze di pubblicazione per ottenere informazioni sul dispositivo tramite API REST specifiche
+* ***Inverso*** replica di contenuti binari da publish (ricevuti da dispositivi) a author
+* ***Invio*** comandi dall’autore alla pubblicazione tramite API REST specifiche
+* ***Messaggistica*** tra le istanze di pubblicazione per sincronizzare gli aggiornamenti e i comandi relativi alle informazioni sul dispositivo
+* ***Polling*** dall’autore delle istanze di pubblicazione per ottenere informazioni sul dispositivo tramite API REST specifiche
 
-### Replica (avanti) dei contenuti e delle configurazioni  {#replication-forward-of-content-and-configurations}
+### Replica (inoltro) di contenuti e configurazioni  {#replication-forward-of-content-and-configurations}
 
-Gli agenti di replica standard vengono utilizzati per replicare il contenuto del canale delle schermate, le configurazioni della posizione e le configurazioni del dispositivo. Questo consente agli autori di aggiornare il contenuto di un canale ed eventualmente di passare attraverso un flusso di lavoro di approvazione prima di pubblicare gli aggiornamenti del canale. È necessario creare un agente di replica per ogni istanza di pubblicazione nella farm di pubblicazione.
+Gli agenti di replica standard vengono utilizzati per replicare i contenuti del canale schermate, le configurazioni di posizione e le configurazioni dei dispositivi. Questo consente agli autori di aggiornare il contenuto di un canale e, facoltativamente, di passare attraverso una sorta di flusso di lavoro di approvazione prima di pubblicare gli aggiornamenti del canale. È necessario creare un agente di replica per ogni istanza di pubblicazione nella farm di pubblicazione.
 
 Il diagramma seguente illustra il processo di replica:
 
@@ -75,41 +75,41 @@ Il diagramma seguente illustra il processo di replica:
 
 ### Agenti e comandi di replica Screens  {#screens-replication-agents-and-commands}
 
-Vengono creati agenti di replica specifici per gli schermi personalizzati per inviare i comandi dall&#39;istanza Author al dispositivo AEM Screens. Le istanze di AEM Publish fungono da intermediario per inoltrare questi comandi al dispositivo.
+Gli agenti di replica specifici per schermi personalizzati vengono creati per inviare comandi dall’istanza Autore al dispositivo AEM Screens. Le istanze AEM Publish fungono da intermediario per inoltrare questi comandi al dispositivo.
 
-Questo consente agli autori di continuare a gestire il dispositivo, ad esempio inviare aggiornamenti del dispositivo e scattare schermate dall’ambiente di authoring. Gli agenti di replica AEM Screens dispongono di una configurazione di trasporto personalizzata, come gli agenti di replica standard.
+Questo consente agli autori di continuare a gestire il dispositivo come, inviare aggiornamenti del dispositivo e acquisire schermate dall’ambiente di authoring. Gli agenti di replica di AEM Screens dispongono di una configurazione di trasporto personalizzata, come gli agenti di replica standard.
 
 ### Messaggistica tra istanze di pubblicazione  {#messaging-between-publish-instances}
 
-In molti casi, un comando deve essere inviato a un dispositivo una sola volta. Tuttavia, in un&#39;architettura di pubblicazione con bilanciamento del carico, non è noto a quale istanza di pubblicazione il dispositivo si sta connettendo.
+In molti casi un comando è destinato a essere inviato a un dispositivo una sola volta. Tuttavia, in un’architettura di pubblicazione con carico bilanciato, non è noto a quale istanza di pubblicazione il dispositivo si connette.
 
-Pertanto, l’istanza di authoring invia il messaggio a tutte le istanze Publish. Tuttavia, solo un messaggio deve essere inviato al dispositivo. Per garantire la corretta messaggistica, è necessario che vi sia una comunicazione tra le istanze di pubblicazione. Questo si ottiene utilizzando *Apache ActiveMQ Artemis*. Ogni istanza di pubblicazione viene inserita in una topologia agganciata liberamente utilizzando il servizio di individuazione Sling basato su Oak e ActiveMQ è configurato in modo che ogni istanza di pubblicazione possa comunicare e creare una singola coda di messaggio. Il dispositivo Screens esegue il polling della farm di pubblicazione tramite il load balancer e rileva il comando dalla parte superiore della coda.
+Pertanto, l’istanza di authoring invia il messaggio a tutte le istanze Publish. Tuttavia, solo un singolo messaggio deve quindi essere inoltrato al dispositivo. Per garantire la corretta messaggistica, è necessario che tra le istanze di pubblicazione avvenga una comunicazione. Ciò si ottiene utilizzando *Apache ActiveMQ Artemis*. Ogni istanza di pubblicazione viene inserita in una topologia liberamente associata utilizzando il servizio di individuazione Sling basato su Oak e ActiveMQ è configurato in modo che ogni istanza di pubblicazione possa comunicare e creare una singola coda di messaggi. Il dispositivo Screens esegue il polling della farm di pubblicazione tramite il load balancer e seleziona il comando dalla parte superiore della coda.
 
 ### Replica inversa {#reverse-replication}
 
-In molti casi, seguendo un comando, è previsto un qualche tipo di risposta dal dispositivo Screens da inoltrare all&#39;istanza Author. Per ottenere questo AEM viene utilizzata ***Replica inversa***.
+In molti casi, a seguito di un comando, è previsto che il dispositivo Screens invii una risposta all’istanza di authoring. Per raggiungere questo obiettivo, l&#39;AEM ***Replica inversa*** viene utilizzato.
 
-* Crea un agente di replica inversa per ogni istanza di pubblicazione, simile agli agenti di replica standard e agli agenti di replica dello schermo.
+* Crea un agente di replica inversa per ogni istanza di pubblicazione, simile agli agenti di replica standard e agli agenti di replica Screens.
 * Una configurazione del modulo di avvio del flusso di lavoro ascolta i nodi modificati nell’istanza di pubblicazione e a sua volta attiva un flusso di lavoro per inserire la risposta del dispositivo nella casella in uscita dell’istanza di pubblicazione.
-* Una replica inversa in questo contesto viene utilizzata solo per i dati binari (come file di registro e schermate) forniti dai dispositivi. I dati non binari vengono recuperati dal polling.
-* La replica inversa estratta dall&#39;istanza di authoring AEM recupera la risposta e la salva nell&#39;istanza di authoring.
+* In questo contesto, la replica inversa viene utilizzata solo per i dati binari (ad esempio, file di registro e schermate) forniti dai dispositivi. I dati non binari vengono recuperati tramite polling.
+* La replica inversa sottoposta a polling dall’istanza di authoring AEM recupera la risposta e la salva nell’istanza di authoring.
 
 ### Polling delle istanze di pubblicazione  {#polling-of-publish-instances}
 
-L’istanza autore deve essere in grado di eseguire il polling dei dispositivi per ottenere un heartbeat e conoscere lo stato di integrità di un dispositivo connesso.
+L’istanza di authoring deve essere in grado di eseguire il polling dei dispositivi per ottenere un heartbeat e conoscere lo stato di integrità di un dispositivo connesso.
 
-I dispositivi eseguono il ping del load balancer e vengono indirizzati a un&#39;istanza di pubblicazione. Lo stato del dispositivo viene quindi esposto dall&#39;istanza di pubblicazione tramite un&#39;API Publish fornita @ **api/screens-dcc/devices/static** per tutti i dispositivi attivi e **api/screens-dcc/devices/&lt;device_id>/status.json** per un singolo dispositivo.
+I dispositivi eseguono il ping del load balancer e vengono indirizzati a un’istanza Publish. Lo stato del dispositivo viene quindi esposto dall’istanza Publish tramite un’API Publish distribuita con **api/screens-dcc/devices/static** per tutti i dispositivi attivi e **api/screens-dcc/devices/&lt;device_id>/status.json** per un singolo dispositivo.
 
-L’istanza di authoring controlla tutte le istanze di pubblicazione e unisce le risposte sullo stato del dispositivo in un unico stato. Il processo pianificato che esegue il polling sull’autore è `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` e può essere configurato in base a un’espressione cron.
+L’istanza di authoring esegue il polling di tutte le istanze di pubblicazione e unisce le risposte sullo stato del dispositivo in un singolo stato. Il processo pianificato che esegue il polling sull’autore è `com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob` e possono essere configurati in base a un’espressione cron.
 
 ## Registrazione {#registration}
 
-La registrazione continua ad avere origine nell’istanza di authoring AEM. Il dispositivo AEM Screens viene puntato all’istanza di authoring e la registrazione viene completata.
+La registrazione continua a provenire dall’istanza di authoring AEM. Il dispositivo AEM Screens punta all’istanza di authoring e la registrazione è completa.
 
-Una volta che un dispositivo è stato registrato nell’ambiente di authoring, la configurazione del dispositivo e le assegnazioni di canale/pianificazione vengono replicate nelle istanze di pubblicazione AEM. La configurazione del dispositivo AEM Screens viene quindi aggiornata per puntare al load balancer davanti alla farm di pubblicazione AEM. Questa è una configurazione unica, una volta che il dispositivo Screens è connesso correttamente all’ambiente di pubblicazione può continuare a ricevere i comandi provenienti dall’ambiente di authoring e non dovrebbe essere necessario collegare direttamente il dispositivo Screens all’ambiente di authoring.
+Una volta che un dispositivo è stato registrato nell’ambiente di authoring, la configurazione del dispositivo e le assegnazioni di canale/pianificazione vengono replicate nelle istanze di pubblicazione dell’AEM. La configurazione del dispositivo AEM Screens viene quindi aggiornata per puntare al load balancer davanti alla farm di pubblicazione dell’AEM. Questa è una configurazione una tantum: una volta che il dispositivo Screens è connesso correttamente all’ambiente di pubblicazione, può continuare a ricevere comandi provenienti dall’ambiente di authoring e non dovrebbe essere più necessario collegare direttamente il dispositivo Screens all’ambiente di authoring.
 
 ![screen_shot_2019-02-25at15218pm](assets/screen_shot_2019-02-25at15218pm.png)
 
 ### Passaggi successivi {#the-next-steps}
 
-Una volta compreso il design architettonico dell&#39;impostazione di authoring e pubblicazione in AEM Screens, consulta [Configurazione di authoring e pubblicazione per AEM Screens](author-and-publish.md) per ulteriori dettagli.
+Una volta compresa la progettazione architetturale della configurazione di authoring e pubblicazione in AEM Screens, consulta [Configurazione di Author e Publish per AEM Screens](author-and-publish.md) per ulteriori dettagli.

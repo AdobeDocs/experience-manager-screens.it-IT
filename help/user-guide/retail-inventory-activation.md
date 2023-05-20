@@ -1,8 +1,8 @@
 ---
-title: Attivazione mirata inventario retail
-seo-title: Attivazione mirata inventario retail
-description: Questo caso d'uso mostra il magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili in magazzino che è registrato in Google Sheets, l'immagine (rosso, verde, o blu felpa) con il numero più alto è visualizzata sullo schermo.
-seo-description: Questo caso d'uso mostra il magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili in magazzino che è registrato in Google Sheets, l'immagine (rosso, verde, o blu felpa) con il numero più alto è visualizzata sullo schermo.
+title: Attivazione con targeting magazzino vendita al dettaglio
+seo-title: Retail Inventory Targeted Activation
+description: Questo caso d’uso presenta le scorte di magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili che vengono registrate in Google Sheets, sullo schermo viene visualizzata l’immagine (felpa rossa, verde o blu) con il numero più alto.
+seo-description: This Use Case showcases the retail inventory stock for three different colored sweatshirts. Depending on the number of sweatshirts available in stock that is recorded in Google Sheets, the image (red, green, or blue sweatshirt) with highest number is displayed on the screen.
 uuid: 8e7faa65-b004-42b3-8865-4f71eb5dc1b1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,117 +10,117 @@ content-type: reference
 topic-tags: use-case-examples
 discoiquuid: 70147920-5bdb-401c-884e-51d268d40585
 docset: aem65
-feature: Creazione di esperienze in Screens
+feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
 
-# Attivazione mirata inventario retail {#retail-inventory-targeted-activation}
+# Attivazione con targeting magazzino vendita al dettaglio {#retail-inventory-targeted-activation}
 
-Il seguente caso d’uso illustra tre diverse immagini in base ai valori presenti nel foglio di Google.
+Il seguente caso d’uso illustra tre diverse immagini in base ai valori presenti nel foglio Google.
 
 ## Descrizione {#description}
 
-Questo caso d&#39;uso mostra il magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili in magazzino che è registrato in Google Sheets, l&#39;immagine (rosso, verde, o blu felpa) con il numero più alto è visualizzata sullo schermo.
+Questo caso d’uso presenta le scorte di magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili che vengono registrate in Google Sheets, sullo schermo viene visualizzata l’immagine (felpa rossa, verde o blu) con il numero più alto.
 
-Per questo caso d&#39;uso, il maglione rosso, verde o blu verrà visualizzato sul vostro schermo in base al valore più alto del numero di maglioni che è disponibile.
+Per questo caso d’uso, il maglione rosso, verde o blu verrà visualizzato sullo schermo in base al valore più alto del numero di maglie disponibile.
 
-## Condizioni preliminari {#preconditions}
+## Precondizioni {#preconditions}
 
-Prima di iniziare a implementare l&#39;attivazione del targeting di inventario per la vendita al dettaglio, devi imparare a configurare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per canali*** in un progetto AEM Screens.
+Prima di iniziare a implementare l’attivazione del targeting dell’inventario di vendita al dettaglio, devi imparare a impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per i canali*** in un progetto AEM Screens.
 
-Per informazioni dettagliate, consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) .
+Fai riferimento a [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
 
 ## Flusso di base {#basic-flow}
 
-Segui i passaggi seguenti per implementare il caso di utilizzo di Attivazione dell’inventario al dettaglio:
+Per implementare il caso d’uso di Retail Inventory Activation, effettua le seguenti operazioni:
 
-1. **Popolamento dei fogli di Google**
+1. **Compilazione dei fogli di Google**
 
-   1. Passa al foglio di Google ContextHubDemo.
-   1. Aggiungi tre colonne (rosso, verde e blu) con i corrispondenti valori per tre felpe diverse.
+   1. Passa al foglio Google ContextHubDemo.
+   1. Aggiungi tre colonne (rosso, verde e blu) con i valori corrispondenti per tre diverse felpe.
 
    ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
-1. **Configurazione del pubblico in base ai requisiti**
+1. **Configurazione dei tipi di pubblico in base ai requisiti**
 
-   1. Passa ai segmenti del pubblico (fai riferimento a ***Passaggio 2: Impostazione della segmentazione del pubblico*** nella pagina **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Passa ai segmenti del pubblico (consulta la sezione ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
-   1. Aggiungi tre nuovi segmenti **For_Red**, **For_Green** e **For_Blue**.
+   1. Aggiungi tre nuovi segmenti **For_Red**, **For_Green**, e **For_Blue**.
 
-   1. Seleziona **For_Red** e fai clic su **Modifica** nella barra delle azioni.
+   1. Seleziona **For_Red** e fai clic su **Modifica** dalla barra delle azioni.
 
-   1. Trascina e rilascia il **Confronto : Proprietà - Proprietà** all&#39;editor e fai clic sull&#39;icona di configurazione per modificare le proprietà.
-   1. Seleziona **googlesheets/value/1/2** dal menu a discesa in **Nome proprietà**
+   1. Trascina la **Comparison : Proprietà - Proprietà** nell’editor e fai clic sull’icona configura per modificare le proprietà.
+   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**
 
-   1. Seleziona **Operatore** come **maggiore di** dal menu a discesa
+   1. Seleziona la **Operatore** as **maggiore di** dal menu a discesa
 
-   1. Seleziona **Tipo di dati** come **numero**
+   1. Seleziona **Tipo di dati** as **numero**
 
-   1. Seleziona **googlesheets/value/1/1** dal menu a discesa in **Secondo nome proprietà**.
+   1. Seleziona **googlesheets/value/1/1** dall’elenco a discesa in **Nome seconda proprietà**.
 
-   1. Trascina **un altro confronto : Proprietà - Proprietà** all&#39;editor e fai clic sull&#39;icona di configurazione per modificare le proprietà.
-   1. Seleziona **googlesheets/value/1/2** dal menu a discesa in **Nome proprietà**.
+   1. Trascina **other Comparison : Proprietà - Proprietà** nell’editor e fai clic sull’icona configura per modificare le proprietà.
+   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
 
-   1. Seleziona **Operatore** come **maggiore di** dal menu a discesa
+   1. Seleziona la **Operatore** as **maggiore di** dal menu a discesa
 
-   1. Seleziona **Tipo di dati** come **numero**
+   1. Seleziona **Tipo di dati** as **numero**
 
-   1. Seleziona **googlesheets/value/1/0** dal menu a discesa in **Secondo nome proprietà**
+   1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome seconda proprietà**
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Allo stesso modo, modifica e aggiungi le regole delle proprietà di confronto al segmento **For_Blue** come mostrato nella figura seguente:
+   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto a **For_Blue** come illustrato nella figura seguente:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Analogamente, modifica e aggiungi le regole di proprietà di confronto al segmento ** For_Green **come mostrato nella figura seguente:
+   Analogamente, modificate e aggiungete regole di proprietà di confronto a** For_Green **segmento come mostrato nella figura seguente:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Noterai che per i segmenti **For_Green** e **For_Green**, i dati non possono essere risolti nell&#39;editor in quanto solo il primo confronto è valido a partire da ora secondo i valori di Google Sheet.
+   >Noterai che per i segmenti **For_Green** e **For_Green**, i dati non possono essere risolti nell’editor in quanto ora è valido solo il primo confronto in base ai valori presenti nel foglio di Google.
 
-1. Naviga e seleziona il canale **DataDrivenRetail** (un canale di sequenza) e fai clic su **Modifica** nella barra delle azioni.
+1. Naviga e seleziona il **DataDrivenRetail** channel (un canale sequencel) e fare clic su **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >Dovresti aver impostato la scheda **ContextHub** **Configurazioni** utilizzando il canale **Proprietà** —> **Personalizzazione**.
+   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** —> **Personalizzazione** scheda.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   È necessario selezionare sia il **Marchio** che l&#39; **Area** affinché le attività siano elencate correttamente all&#39;avvio del processo di targeting.
+   È necessario selezionare entrambe le opzioni **Marchio** e **Superfici** affinché le attività vengano elencate correttamente quando avvii il processo di targeting.
 
-1. **Aggiunta di un’immagine predefinita**
+1. **Aggiunta di un&#39;immagine predefinita**
 
-   1. Aggiungi un&#39;immagine predefinita al tuo canale e fai clic su **Targeting**.
-   1. Seleziona **Marchio** e **Attività** dal menu a discesa, quindi fai clic su **Avvia targeting**.
+   1. Aggiungi un’immagine predefinita al tuo canale e fai clic su **Targeting**.
+   1. Seleziona **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
 
-   1. Fai clic su **Inizia impostazione destinazione**.
+   1. Clic **Inizia impostazione destinazione**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Prima di iniziare il targeting, è necessario aggiungere i segmenti (**For_Green**, **For_Red** e **For_Blue**) facendo clic su **+ Aggiungi targeting esperienza** dalla barra laterale come mostrato nella figura seguente.
+   Prima di iniziare il targeting, devi aggiungere i segmenti (**For_Green**, **For_Red**, e **For_Blue**) facendo clic su **+ Aggiungi targeting esperienza** dalla barra laterale, come illustrato nella figura seguente.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
-1. Aggiungi le immagini a tutti e tre gli scenari, come mostrato di seguito.
+1. Aggiungi le immagini a tutti e tre i diversi scenari come mostrato di seguito.
 
    ![retail_targeting](assets/retail_targeting.gif)
 
 1. **Controllo dell’anteprima**
 
-   1. Fare clic su **Anteprima.** Inoltre, apri il tuo foglio di Google e aggiorna il suo valore.
-   1. Modifica il valore per tutte e tre le colonne e noterai gli aggiornamenti dell&#39;immagine di visualizzazione in base al valore più alto nell&#39;inventario.
+   1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
+   1. Modifica il valore per tutte e tre le colonne e noterai gli aggiornamenti dell’immagine di visualizzazione in base al valore più alto in magazzino.
    ![retail_result](assets/retail_result.gif)

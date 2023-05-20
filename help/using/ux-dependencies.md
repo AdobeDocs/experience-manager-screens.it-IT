@@ -1,44 +1,42 @@
 ---
 title: Dipendenze UX per [!UICONTROL AEM Screens]
-seo-title: Dipendenze UX per [!UICONTROL AEM Screens]
+seo-title: UX Dependencies for [!UICONTROL AEM Screens]
 description: La guida descrive le dipendenze UX per [!UICONTROL AEM Screens]
-seo-description: La guida descrive le dipendenze UX per [!UICONTROL AEM Screens]
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
-
 
 # Dipendenze UX {#ux-dependencies}
 
 >[!NOTE]
 >
->Un tipico stakeholder per questa attività è un Marketing/Business Strategist.
+>Questa attività è tipicamente gestita da un esperto di marketing e business.
 
-Le dipendenze UX definiscono dove e come i contenuti vengono strategicamente definiti in modo che abbiano il maggior impatto.
+Le dipendenze UX definiscono dove e come il contenuto viene strategizzato in modo da avere il maggior impatto.
 
-Durante la definizione della strategia dei contenuti hardware, è necessario tenere presenti le seguenti domande:
+Durante la definizione della strategia per i contenuti hardware è necessario tenere presenti le seguenti domande:
 
-1. In che modo il layout retail deve essere allineato con la strategia dei contenuti?
+1. In che modo il layout del retail deve essere allineato alla strategia dei contenuti?
 
-1. Saranno necessarie le interazioni (touchscreen, motion detection)?
+1. Saranno necessarie delle interazioni (ossia, touchscreen, rilevamento del movimento)?
 
 1. Qual è lo scopo del digital signage?
 
    * È per la configurazione del prodotto?
-   * È un modo?
-   * Mostra pubblicità?
+   * È ricerca di un modo?
+   * Mostra annunci?
 
-1. Come si configurano connessioni e cablaggio di rete?
+1. Come vengono configurati i collegamenti e il cablaggio di rete?
 
-1. Con quale frequenza i computer e la connessione saranno accesi e disattivati?
+1. Con quale frequenza verranno accesi e spenti i computer e la connessione?
 
-1. La progettazione del dispositivo supporta l’accessibilità?
+1. La progettazione degli staffaggi supporta l&#39;accessibilità?
 
-1. Sono necessari più dispositivi per un solo display (ad esempio, zone multiple, schede di grandi dimensioni aggiuntive)?
+1. Sono necessari più dispositivi per un display (ad esempio, più zone, schede di grandi dimensioni)?
 
-1. Quali sono le considerazioni ambientali quali luminosità, temperatura e stagione?
-
-
+1. Quali sono le considerazioni ambientali quali la luminosità, la temperatura e la stagione?

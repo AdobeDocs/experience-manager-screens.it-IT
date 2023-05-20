@@ -1,7 +1,7 @@
 ---
 title: Configurazioni del Dispatcher per AEM Screens
 seo-title: Dispatcher Configurations for AEM Screens
-description: Questa pagina illustra le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
+description: In questa pagina sono illustrate le linee guida per la configurazione di Dispatcher per un progetto AEM Screens.
 seo-description: This page highlights guidelines for configuring dispatcher for an AEM Screens project.
 feature: Administering Screens
 role: Developer, User
@@ -18,29 +18,29 @@ ht-degree: 2%
 
 Dispatcher è lo strumento di caching e/o bilanciamento del carico di Adobe Experience Manager.
 
-La pagina seguente fornisce le linee guida per la configurazione del dispatcher per un progetto AEM Screens.
+La pagina seguente fornisce le linee guida per configurare Dispatcher per un progetto AEM Screens.
 
 >[!NOTE]
 >
->Se un dispatcher è disponibile, è possibile impedire le connessioni al servlet di registrazione filtrando nelle regole del dispatcher.
+>Se è disponibile un dispatcher, le connessioni al servlet di registrazione possono essere impedite filtrando nelle regole del dispatcher.
 >
->Se non è presente alcun dispatcher, disattiva il servlet di registrazione nell’elenco dei componenti OSGi.
+>Se non è presente alcun dispatcher, disabilita il servlet di registrazione nell’elenco dei componenti OSGi.
 
-Prima di configurare il dispatcher per un progetto AEM Screens, è necessario disporre di conoscenze precedenti su Dispatcher.
+Prima di configurare Dispatcher per un progetto AEM Screens, è necessario avere una conoscenza preventiva di Dispatcher.
 Fai riferimento a [Configurazione di Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html) per ulteriori dettagli.
 
-## Configurazione di Dispatcher per la versione v2 del manifesto {#configuring-dispatcher}
+## Configurazione di Dispatcher per la versione del manifesto v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Le seguenti configurazioni del Dispatcher si applicano solo alla versione v2 Manifest. Fai riferimento a [Configurazioni del Dispatcher per la versione 3 di Manifest](#configuring-dispatcherv3) per la versione manifest v3.
+>Le seguenti configurazioni di Dispatcher si applicano solo alla versione v2 di Manifest. Fai riferimento a [Configurazioni del Dispatcher per la versione v3 del manifesto](#configuring-dispatcherv3) per la versione del manifesto v3.
 
-I lettori o i dispositivi AEM Screens utilizzano una sessione autenticata per accedere alle risorse anche nelle istanze di pubblicazione. Quindi, quando disponi di più istanze di pubblicazione, le richieste devono sempre andare alla stessa istanza di pubblicazione in modo che la sessione autenticata sia valida per tutte le richieste provenienti dai lettori/dispositivi AEM Screens.
+I lettori o i dispositivi AEM Screens utilizzano una sessione autenticata per accedere anche alle risorse nelle istanze di pubblicazione. Pertanto, quando disponi di più istanze di pubblicazione, le richieste devono sempre andare alla stessa istanza di pubblicazione in modo che la sessione autenticata sia valida per tutte le richieste provenienti dai lettori/dispositivi AEM Screens.
 
-Segui i passaggi riportati di seguito per configurare il dispatcher per un progetto AEM Screens.
+Segui i passaggi seguenti per configurare Dispatcher per un progetto AEM Screens.
 
 ### Abilitazione di sessioni permanenti {#enable-sticky-session}
 
-Se desideri utilizzare più istanze di pubblicazione fronte a un singolo dispatcher, dovrai aggiornare il `dispatcher.any` file per abilitare la persistenza
+Se desideri utilizzare più istanze di pubblicazione gestite da un singolo dispatcher, dovrai aggiornare `dispatcher.any` file per abilitare la coerenza
 
 ```xml
 /stickyConnections {
@@ -51,13 +51,13 @@ Se desideri utilizzare più istanze di pubblicazione fronte a un singolo dispatc
  }
 ```
 
-Se disponi di un’istanza di pubblicazione fronte a un dispatcher, l’abilitazione della persistenza al dispatcher non sarà di aiuto in quanto il load balancer può inviare ogni richiesta al dispatcher. In questo caso, fai clic su **Abilita** in **Atteggiamento** per attivarlo a livello di load balancer, come illustrato nella figura seguente:
+Se un’istanza Publish è gestita da un dispatcher, l’abilitazione della coerenza nel dispatcher non sarà di aiuto, in quanto il load balancer può inviare ogni richiesta al dispatcher. In questo caso, fai clic su **Abilita** in **Adesività** per abilitarlo a livello di load balancer, come illustrato nella figura seguente:
 
 ![immagine](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 
-Ad esempio, se utilizzi AWS ALB, consulta [Gruppi di destinazione per i bilanciatori di carico dell&#39;applicazione](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) per abilitare la persistenza a livello di ALB. Abilita l&#39;adesività per 1 giorno.
+Ad esempio, se utilizzi AWS ALB, consulta [Gruppi target per i load balancer delle applicazioni](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) per abilitare la fedeltà a livello ALB. Abilita la fedeltà per 1 giorno.
 
-### Passaggio 1: Configurazione delle intestazioni client {#step-configuring-client-headers}
+### Passaggio 1: configurazione delle intestazioni client {#step-configuring-client-headers}
 
 Aggiungi quanto segue a `/clientheaders`sezione:
 
@@ -67,9 +67,9 @@ Aggiungi quanto segue a `/clientheaders`sezione:
 
 **X-REQUEST-COMMAND**
 
-### Passaggio 2: Configurazione dei filtri Screens {#step-configuring-screens-filters}
+### Passaggio 2: configurazione dei filtri di Screens {#step-configuring-screens-filters}
 
-Per configurare i filtri Screens, aggiungi quanto segue a ***/filter***.
+Per configurare i filtri di Screens, aggiungi quanto segue a ***/filter***.
 
 ```
 ## AEM Screens Filters
@@ -90,16 +90,16 @@ Per configurare i filtri Screens, aggiungi quanto segue a ***/filter***.
 /0222 { /type "allow" /method '(GET|HEAD)' /url '/var/contentsync/content/screens/.+/jcr:content/.+/offline-config_.*\.[0-9]+\.zip' }
 ```
 
-### Passaggio 3: Disattivazione della cache del Dispatcher {#step-disabling-dispatcher-cache}
+### Passaggio 3: disabilitazione della cache di Dispatcher {#step-disabling-dispatcher-cache}
 
-Disattiva la memorizzazione in cache del dispatcher per ***/content/screens path***.
+Disattiva il caching del dispatcher per ***Percorso /content/screens***.
 
-I lettori Screens utilizzano una sessione autenticata, in modo che il dispatcher non memorizzi nella cache nessuna delle richieste dei lettori Screens per `channels/assets`.
+Screens Player utilizza una sessione autenticata, pertanto Dispatcher non memorizza in cache nessuna delle richieste di Screens Player per `channels/assets`.
 
-Per abilitare la cache per le risorse in modo che le risorse vengano servite dalla cache del dispatcher, devi:
+Per abilitare la cache per le risorse in modo che vengano servite dalla cache del dispatcher, devi:
 
 * Aggiungi `/allowAuthorization 1` in `/cache` sezione
-* Aggiungi le regole seguenti a `/rules` sezione `/cache`
+* Aggiungi le seguenti regole a `/rules` sezione di `/cache`
 
 ```xml
 /0000
@@ -131,15 +131,15 @@ Per abilitare la cache per le risorse in modo che le risorse vengano servite dal
 
 ## Configurazione di Dispatcher per la versione v3 del manifesto{#configuring-dispatcherv3}
 
-Assicurati di consentire questi filtri e regole di cache nei dispatcher che fronteggiano le istanze di pubblicazione per il funzionamento di Screens.
+Assicurati di consentire questi filtri e regole di cache nei dispatcher che presentano le istanze di pubblicazione per il funzionamento di Screens.
 
-### Prerequisiti per la versione 3 di Manifest{#prerequisites3}
+### Prerequisiti per la versione del manifesto v3{#prerequisites3}
 
-Prima di configurare Dispatcher (versione manifest v3) per AEM Screens, verifica di seguire i due prerequisiti seguenti:
+Prima di configurare Dispatcher (versione manifesto v3) per AEM Screens, assicurati di seguire questi due prerequisiti:
 
-* Assicurati di utilizzare `v3 manifests`. Passa a `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` e assicurano che `Enable ContentSync Cache` è deselezionato.
+* Assicurati di utilizzare `v3 manifests`. Accedi a `https://<server:port>/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag` e garantire che `Enable ContentSync Cache` non è selezionato.
 
-* Assicurati che l’agente di flush del dispatcher sia configurato in `/etc/replication/agents.publish/dispatcher1useast1Agent` nell’istanza di pubblicazione.
+* Assicurati che l’agente di svuotamento del dispatcher sia configurato in `/etc/replication/agents.publish/dispatcher1useast1Agent` nell’istanza Publish.
 
    ![immagine](/help/user-guide/assets/dispatcher/dispatcher-1.png)
 
@@ -171,14 +171,14 @@ Prima di configurare Dispatcher (versione manifest v3) per AEM Screens, verifica
 /0230 { /type "allow" /method "GET" /url "/etc.clientlibs/*" }
 ```
 
-### Regole di cache {#cache-rules-v3}
+### Regole cache {#cache-rules-v3}
 
-* Aggiungi `/allowAuthorized "1"` a `/cache` sezione `publish_farm.any`.
+* Aggiungi `/allowAuthorized "1"` a `/cache` sezione in `publish_farm.any`.
 
-* Tutti i lettori Screens utilizzeranno la sessione autenticata per connettersi a AEM (autore/pubblicazione). Dispatcher standard non memorizza in cache questi url, pertanto è necessario attivarli.
+* Tutti i lettori Screens utilizzeranno una sessione autenticata per connettersi all’AEM (authoring/pubblicazione). Dispatcher pronto all’uso non memorizza in cache questi URL, quindi è necessario abilitarli.
 
-* Aggiungi `statfileslevel "10"` a `/cache` sezione `publish_farm.any`
-Questo supporterà il caching fino a 10 livelli dal docroot della cache e annullerà di conseguenza la validità quando il contenuto viene pubblicato anziché invalidare tutto. Puoi modificare questo livello in base alla profondità della struttura del contenuto
+* Aggiungi `statfileslevel "10"` a `/cache` sezione in `publish_farm.any`
+Questo supporterà la memorizzazione in cache fino a 10 livelli dalla directory principale dei documenti della cache e di conseguenza l’annullamento della validità quando il contenuto viene pubblicato, anziché annullare la validità di tutto. Puoi modificare questo livello in base alla profondità della struttura del contenuto
 
 * Aggiungi quanto segue a `/invalidate section in publish_farm.any`
 
@@ -189,7 +189,7 @@ Questo supporterà il caching fino a 10 livelli dal docroot della cache e annull
    }
    ```
 
-* Aggiungi le regole seguenti a `/rules` sezione `/cache` in `publish_farm.any` o in un file incluso da `publish_farm.any`:
+* Aggiungi le seguenti regole a `/rules` sezione in `/cache` in `publish_farm.any` o in un file incluso da `publish_farm.any`:
 
    ```
    ## Don't cache CSRF login tokens
@@ -231,11 +231,11 @@ Questo supporterà il caching fino a 10 livelli dal docroot della cache e annull
        }
    ```
 
-### Aggiungi una regola di invalidazione per segment.js {#invalidsegmentjs}
+### Aggiungi regola di invalidazione per segment.js {#invalidsegmentjs}
 
-Se utilizzi campagne mirate con AEM Screens, la `segments.js file` il servizio dispatcher deve essere invalidato, in quanto aggiungi e pubblica nuovi segmenti su AEM. Senza questa regola di invalidazione, le nuove campagne con targeting non funzioneranno sul lettore Screens (mostrerà invece il contenuto predefinito).
+Se utilizzi campagne mirate con AEM Screens, il `segments.js file` Quando aggiungi e pubblichi nuovi segmenti su AEM, deve essere annullata la validità dell’assistenza fornita dal dispatcher. Senza questa regola di invalidazione, le nuove campagne mirate non funzioneranno sul lettore Screens (verrà invece mostrato il contenuto predefinito).
 
-* Aggiungi una regola di invalidazione a `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Ecco la regola da aggiungere:
+* Aggiungi una regola di invalidazione a `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Regola da aggiungere:
 
 ```
     /invalidate {
@@ -248,4 +248,4 @@ Se utilizzi campagne mirate con AEM Screens, la `segments.js file` il servizio d
                 }
 ```
 
-* Questa regola assicura `segments.js` Il file viene invalidato e l’ultima viene recuperata quando viene modificato.
+* Questa regola garantisce che `segments.js` il file viene invalidato e, se modificato, viene recuperato il file più recente.

@@ -1,8 +1,8 @@
 ---
-title: '"Parte 3: Test, POC, Piloti e Rollout"'
-seo-title: '"Parte 3: Test, POC, Piloti e Rollout"'
-description: Segui questa esercitazione per imparare i termini chiave coinvolti in un piano di progetto generale come il ciclo di progetto, le azioni che circondano il test hardware, la bozza del concetto, i piloti e i rollout.
-seo-description: Segui questa esercitazione per imparare i termini chiave coinvolti in un piano di progetto generale come il ciclo di progetto, le azioni che circondano il test hardware, la bozza del concetto, i piloti e i rollout.
+title: "Parte 3: Prove, POC, Programmi pilota e rollout"
+seo-title: "Part 3: Testing, POCs, Pilots & Rollouts"
+description: Segui questa esercitazione per scoprire i termini chiave coinvolti in un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test dell’hardware, la bozza di concetto, i progetti pilota e i rollout.
+seo-description: Follow this tutorial to learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and rollouts.
 uuid: 8e9b4f8f-cc09-4cd6-9465-c8eedb639dd8
 contentOwner: jsyal
 content-type: reference
@@ -10,72 +10,72 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
-feature: Panoramica
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Parte 3: Test, POC, Piloti e rollout {#part-testing-pocs-pilots-rollouts}
 
-Questa pagina evidenzia la parte 3 di una serie in 5 parti progettata per aiutare i membri del team a comprendere meglio i termini fondamentali per garantire il successo della soluzione in anticipo rispetto all&#39;implementazione.
+In questa pagina viene evidenziata la parte 3 di una serie in 5 parti progettata per aiutare i membri del gruppo a comprendere meglio i termini chiave fondamentali per garantire che una soluzione di successo possa essere sviluppata prima dell’implementazione.
 
 ## Panoramica {#overview}
 
-Questa esercitazione tratta i seguenti punti rilevanti per la corretta implementazione di un piano di progetto:
+Questo tutorial tratta i seguenti punti rilevanti per la corretta distribuzione di un piano di progetto:
 
-* Individuare aree spesso sottovalutate nell&#39;ambito del piano generale di progetto, tra cui:
-* Azioni che circondano i test di Hardware Lab e la convalida delle prestazioni
+* Individuare i settori spesso sottovalutati nell&#39;ambito del piano globale del progetto, tra cui:
+* Azioni relative ai test di laboratorio hardware e alla convalida delle prestazioni
 * Test di integrazione di sistemi e software
-* Prove del concetto (o POC) e programmi pilota
+* Proofs of Concept (o POC) e programmi pilota
 * Test end-to-end
 
 >[!NOTE]
 >
->I cicli di vendita tipici per l&#39;installazione di soluzioni di digital signage su scala possono variare da 9 a 18 mesi. Ci sono molti fattori coinvolti che influenzano la linea temporale finale, non ultimo il modo in cui il cliente finale misura il successo e quanto il rischio avverte i propri partner commerciali quando si introduce una nuova soluzione.
+>I cicli di vendita tipici per l&#39;installazione del digital signage su larga scala possono variare da 9 a 18 mesi. Ci sono molti fattori coinvolti che influenzano la tempistica finale, non ultimo il modo in cui il cliente finale misura il successo e il rischio avverso i propri partner commerciali quando introducono una nuova soluzione.
 
-Ad esempio, le parti interessate per un programma di digital signage in un ambiente retail potrebbero includere: Marketing all&#39;interno del punto vendita, ambiente del negozio o merchandising visivo, operazioni nel negozio, sicurezza IT, supporto IT, la categoria di prodotti Merchant e il loro fornitore, che potrebbero co-finanziare la soluzione.
+Ad esempio, le parti interessate a un programma di digital signage in un ambiente retail possono includere: Marketing in-store, Ambiente store o Visual Merchandising, Operazioni per i punti vendita, Sicurezza IT, Supporto IT, la categoria di prodotto Merchant e il relativo Fornitore, che può essere cofinanziatore della soluzione.
 
-## Riepilogo dei termini chiave coinvolti in un piano di progetto globale {#summary-of-key-terms-involved-in-an-overall-project-plan}
+## Riepilogo dei termini chiave coinvolti in un piano di progetto generale {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-La sezione seguente fornisce una panoramica dei termini chiave coinvolti in un piano di progetto generale come il ciclo di progetto, le azioni relative al test hardware, la prova del concetto, i piloti e le implementazioni.
+Nella sezione seguente viene fornita una panoramica dei termini chiave di un piano di progetto generale, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la verifica di concetto, i progetti pilota e i rollout.
 
-### Prova del concetto (POC) {#proof-of-concept-poc}
+### Prova di concetto (POC) {#proof-of-concept-poc}
 
-Lo scopo di un POC è quello di ottenere un feedback iniziale sulle funzionalità chiave di una soluzione e consentire sia al cliente finale che all&#39;integratore AV di identificare le aree di miglioramento e preparare le ipotesi relative alle esigenze di manodopera e di risorse. Un POC offre inoltre a entrambe le parti l&#39;opportunità di valutare le prestazioni della soluzione, che viene generalmente misurata attraverso:
+Lo scopo di un POC è quello di ottenere un feedback iniziale sulle funzionalità chiave di una soluzione e consentire sia al cliente finale che all&#39;AV Integrator di identificare le aree di miglioramento e preparare ipotesi sui requisiti di manodopera e sulle risorse richieste. Un POC offre inoltre a entrambe le parti l’opportunità di valutare le prestazioni della soluzione, che vengono generalmente misurate tramite:
 
 ### Controllo qualità {#quality-control}
 
-Il test di integrazione di sistemi e software inizia con il team IT Engineering di AV Integrator. Facendo riferimento al progetto di sistema approvato, il team di IT Engineering Team configura, implementa e controlla l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; nell&#39;impianto di AV Integrator. Questo consente di rivedere e testare attentamente l&#39;intera soluzione per il controllo della qualità.
+I test di integrazione dei sistemi e del software iniziano con il team IT Engineering di AV Integrator. Facendo riferimento al progetto di sistema approvato, il team tecnico IT configura, implementa e supervisiona l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; della struttura di AV Integrator. Questo consente di esaminare e testare attentamente l’intera soluzione per il controllo della qualità.
 
-Una volta completato il test di QC, il team IT Engineering crea documentazione, flussi di lavoro e formazione per riferimento durante il supporto di Day-2. Gli aspetti dei sistemi da testare comprendono:
+Una volta completato il test QC, il team di progettazione IT crea documentazione, flussi di lavoro e corsi di formazione da usare come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da sottoporre a prova comprendono:
 
-* Integrazioni AEM implementatore
+* Integrazioni con AEM
 * Integrazioni di sistemi di terze parti
 * Software
 * Hardware
 * Connettività
-* Workflow di distribuzione dei contenuti, incluse distribuzioni manuali, automatizzate e condizionali.
+* Flussi di lavoro per la distribuzione dei contenuti, comprese le distribuzioni manuali, automatizzate e condizionali.
 
-## Parte 3: Tutorial video su test, POC, piloti e rollout {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
+## Parte 3: tutorial video su test, POC, piloti e rollout {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Segui l&#39;esercitazione riportata di seguito per comprendere i test, le prove del concetto, i programmi pilota e i rollout.
+Segui il tutorial seguente per comprendere Test, Proofs of Concept, Programmi pilota e Rollout.
 
-Tenendo conto di tutte queste fasi come parte del piano generale del progetto, sarà possibile gestire le aspettative e identificare i punti naturali in cui l&#39;investimento in una distribuzione AEM Screens sarà valutato.
+Considerare tutte queste fasi come parte del piano generale del progetto aiuterà a gestire le aspettative e a identificare i punti naturali in cui verrà valutato l’investimento in un’implementazione AEM Screens.
 
-### Test, POC, Piloti e rollout
+### Test, POC, pilota e rollout
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405)
 
-*Scopri i termini chiave coinvolti in un piano di progetto generale come il ciclo di progetto, le azioni che circondano il test hardware, la prova del concetto, i piloti e i rollout.*
+*Scopri i termini chiave coinvolti in un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test dell’hardware, la bozza di concetto, i progetti pilota e i rollout.*
 
 ## Passaggio successivo {#the-next-step}
 
-Una volta effettuata la verifica, le prove del concetto, i programmi pilota e le implementazioni, segui il tutorial successivo che approfondisce la gestione dei progetti e i relativi processi.
+Una volta completati i test, le Proofs of Concept, i programmi pilota e i rollout, segui il tutorial successivo che approfondisce la gestione dei progetti e i processi coinvolti.
 
-Passa alla **[Parte 4: Gestione e distribuzione dei progetti](project-management-and-deployment.md)** per ulteriori dettagli.
+Accedi a **[Parte 4: Gestione e realizzazione del progetto](project-management-and-deployment.md)** per ulteriori dettagli.

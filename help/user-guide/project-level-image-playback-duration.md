@@ -1,13 +1,12 @@
 ---
 title: Durata riproduzione immagine a livello di progetto
-seo-title: Durata riproduzione immagine a livello di progetto
-description: 'Questa funzionalità consente di definire la durata di riproduzione delle immagini a livello di progetto. '
-seo-description: 'Questa funzionalità consente di definire la durata di riproduzione delle immagini a livello di progetto. '
+seo-title: Project Level Image Playback Duration
+description: Questa funzionalità consente di definire la durata di riproduzione delle immagini a livello di progetto.
+seo-description: This functionality allows you to define image playback duration at the project level.
 contentOwner: jsyal
-translation-type: tm+mt
 source-git-commit: f25176be89424059b8c51296969f069687328536
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -17,45 +16,45 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Questa funzione consente di definire la durata di riproduzione delle immagini a livello di progetto. Per impostazione predefinita, tutte le immagini ereditano questa durata di riproduzione. Se non viene definita alcuna durata a livello di progetto, la riproduzione predefinita di 8 secondi continuerà.
+Questa funzione consente di definire la durata di riproduzione delle immagini a livello di progetto. Per impostazione predefinita, tutte le immagini ereditano questa durata di riproduzione. Se a livello di progetto non è definita alcuna durata, la riproduzione predefinita di 8 secondi continua.
 
 ### Prerequisiti {#prerequisites}
 
-Prima di utilizzare questa funzione, accertatevi di configurare un progetto come prerequisito per iniziare ad implementare questa funzionalità. Esempio,
+Prima di utilizzare questa funzione, accertati di impostare un progetto come prerequisito per iniziare a implementare questa funzionalità. Ad esempio:
 
-1. Creare un progetto AEM Screens  (in questo esempio, **ProjectLevelPlayback**)
+1. Crea un progetto AEM Screens (in questo esempio, **RiproduzioneLivelloProgetto**)
 
-1. Creare un canale di sequenza come **PlayBackChannel** nella cartella **Channels**
+1. Crea un canale di sequenza come **PlayBackChannel** in **Canali** cartella
 
-1. Aggiungere contenuto a **PlayBackChannel**
+1. Aggiungi contenuto a **PlayBackChannel**
 
-   ![assets](assets/image_playback1.png)
+   ![risorse](assets/image_playback1.png)
 
-   Ad esempio, l&#39;immagine seguente mostra le immagini aggiunte all&#39;editor **PlayBackChannel**:
+   Ad esempio, l’immagine seguente mostra le immagini aggiunte al **PlayBackChannel** editor:
 
-   ![assets](assets/image_playback2.png)
+   ![risorse](assets/image_playback2.png)
 
-## Modifica dell&#39;assegnazione della durata di riproduzione dell&#39;immagine a livello di progetto {#editing-project-level-image-playback-duration-assignment}
+## Modifica dell&#39;assegnazione della durata di riproduzione immagine a livello di progetto {#editing-project-level-image-playback-duration-assignment}
 
-La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un progetto AEM Screens .
+La sezione seguente spiega come modificare la durata di riproduzione del contenuto in un progetto AEM Screens.
 
 ### Aggiornamento della durata di riproduzione per le immagini a livello di progetto {#updating-the-playback-duration-for-images-in-a-project}
 
 
 >[!NOTE]
 >
->Per aggiornare la durata di riproduzione a livello di immagine o canale, fare riferimento a [Durata di riproduzione a livello di canale](channel-level-image-playback.md).
+>Se desideri aggiornare la durata di riproduzione di un’immagine o a livello di canale, consulta [Durata riproduzione immagine a livello di canale](channel-level-image-playback.md).
 
-Per informazioni su come aggiornare la durata di riproduzione delle immagini a livello di progetto, effettuate le seguenti operazioni:
+Per informazioni su come aggiornare la durata di riproduzione delle immagini a livello di progetto, effettua le seguenti operazioni:
 
-1. Andate al progetto **ProjectLevelPlayback** e fate clic su **Properties** dalla barra delle azioni.
-   ![assets](assets/image_playback3.png)
+1. Passare al progetto **RiproduzioneLivelloProgetto** e fai clic su **Proprietà** dalla barra delle azioni.
+   ![risorse](assets/image_playback3.png)
 
-1. Selezionate tutte le immagini del canale e fate clic sull’icona chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito) per aprire la finestra di dialogo Configura a livello di canale.
+1. Selezionate tutte le immagini nel canale e fate clic sull&#39;icona chiave inglese in alto a sinistra (come mostrato nella figura riportata di seguito) per aprire la finestra di dialogo Configurazione a livello di canale.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Viene visualizzata la finestra di dialogo** Pagefinestra di dialogo.
+1. **Pagina** viene visualizzata.
 
    >[!NOTE]
    >
@@ -63,13 +62,13 @@ Per informazioni su come aggiornare la durata di riproduzione delle immagini a l
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modificate la **Durata** da 8000 (ms) a 3000 (ms), ossia 3 secondi. Fare clic sul segno di spunta in alto a destra della finestra di dialogo **Pagina** per salvare le modifiche.
+   Modifica il **Durata** da 8000 (ms) a 3000 (ms), ovvero 3 secondi. Fai clic sul segno di spunta in alto a destra del **Pagina** per salvare le modifiche.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visualizzazione del risultato {#viewing-the-result}
 
-Dopo aver aggiornato la durata di riproduzione del canale (in questo esempio, tutte e tre le immagini), noterete che le immagini verranno riprodotte per 3 secondi anziché 8 (valore predefinito).
+Dopo aver aggiornato la durata di riproduzione del canale (in questo esempio, tutte e tre le immagini), le immagini vengono riprodotte per 3 secondi anziché 8 secondi (valore predefinito).
 
 ![channel_preview](assets/channel_preview.gif)
 

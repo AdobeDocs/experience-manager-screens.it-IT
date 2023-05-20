@@ -1,8 +1,8 @@
 ---
 title: Canali offline
-seo-title: Canali offline
-description: 'Il lettore AEM Screens fornisce supporto offline per i canali sfruttando la tecnologia ContentSync. Segui questa pagina per ulteriori informazioni sull’aggiornamento dei gestori e sull’abilitazione della configurazione offline per un canale.  '
-seo-description: 'Il lettore AEM Screens fornisce supporto offline per i canali sfruttando la tecnologia ContentSync. Segui questa pagina per ulteriori informazioni sull’aggiornamento dei gestori e sull’abilitazione della configurazione offline per un canale.  '
+seo-title: Offline Channels
+description: Il lettore AEM Screens fornisce supporto offline per i canali sfruttando la tecnologia ContentSync. Segui questa pagina per ulteriori informazioni sui gestori di aggiornamenti e sull’abilitazione della configurazione offline per un canale.
+seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
 uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
 contentOwner: Jyotika Syal
 content-type: reference
@@ -10,40 +10,40 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
 discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
-feature: Sviluppo di schermi
+feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
 
-
 # Canali offline {#offline-channels}
 
-Il lettore Screens fornisce supporto offline per i canali sfruttando la tecnologia ***ContentSync*** .
+Il lettore Screens fornisce supporto offline per i canali sfruttando il ***Sincronizzazione contenuti*** tecnologia.
 
 I lettori utilizzano un server http locale per distribuire il contenuto decompresso.
 
-Quando un canale è configurato per l&#39;esecuzione di *online*, il lettore serve le risorse del canale accedendo al server AEM, ma quando il canale è configurato per l&#39;esecuzione di *offline*, il lettore trasmette le risorse del canale da un server http locale.
+Quando un canale è configurato per l’esecuzione *online*, il lettore distribuisce le risorse del canale accedendo al server AEM, ma quando il canale è configurato per l’esecuzione *offline*, il lettore distribuisce le risorse del canale da un server http locale.
 
-Il flusso di lavoro del processo è il seguente:
+Il flusso di lavoro per il processo è il seguente:
 
-1. Analizzare le pagine desiderate
-1. Raccogliere tutte le risorse correlate
-1. Crea un pacchetto in un file zip
-1. Scarica il file ZIP ed estrarlo localmente
-1. Visualizza la copia locale del contenuto
+1. Analizza le pagine desiderate
+1. Raccogli tutte le risorse correlate
+1. Crea un pacchetto di tutto in un file zip
+1. Scarica il file ZIP ed estrailo localmente
+1. Visualizza copia locale del contenuto
 
-## Aggiorna gestori {#update-handlers}
+## Gestori aggiornamenti {#update-handlers}
 
-Il ***ContentSync*** utilizza gestori di aggiornamenti per analizzare e raccogliere tutte le pagine e le risorse necessarie per un progetto specifico. AEM Screens utilizza i seguenti gestori di aggiornamenti:
+Il ***Sincronizzazione contenuti*** utilizza i gestori di aggiornamenti per analizzare e raccogliere tutte le pagine e le risorse necessarie per un progetto specifico. AEM Screens utilizza i seguenti gestori di aggiornamenti:
 
 ### Opzioni comuni {#common-options}
 
-* *tipo*: il tipo di gestore dell&#39;aggiornamento da utilizzare
+* *tipo*: tipo di gestore di aggiornamento da utilizzare
 * *percorso*: percorso della risorsa
 * *[targetRootDirectory]*: cartella di destinazione nel file zip
 
@@ -61,13 +61,13 @@ Il ***ContentSync*** utilizza gestori di aggiornamenti per analizzare e raccogli
   </tr>
   <tr>
    <td>clientlib</td> 
-   <td>raccoglie la libreria client specificata</td> 
+   <td>raccogliere la libreria client specificata</td> 
    <td>[extension='']: può essere css o js, per raccogliere solo il primo, o solo il secondo</td> 
   </tr>
   <tr>
    <td>assetrenditions</td> 
-   <td>raccogliere i rendering delle risorse</td> 
-   <td>[renditions=[]]: elenco delle rappresentazioni da raccogliere. Impostazioni predefinite del rendering originale</td> 
+   <td>raccogliere le rappresentazioni della risorsa</td> 
+   <td>[renditions=[]]: elenco di rendering da raccogliere. Valore predefinito per la rappresentazione originale</td> 
   </tr>
   <tr>
    <td>copia</td> 
@@ -77,9 +77,9 @@ Il ***ContentSync*** utilizza gestori di aggiornamenti per analizzare e raccogli
  </tbody>
 </table>
 
-### Verifica della configurazione di ContentSync {#testing-contentsync-configuration}
+### Verifica della configurazione ContentSync {#testing-contentsync-configuration}
 
-Segui i passaggi riportati di seguito per verificare la configurazione di ContentSync:
+Per verificare la configurazione di ContentSync, segui i passaggi seguenti:
 
 1. Apri `https://localhost:4502/libs/cq/contentsync/content/console.html`
 1. Seleziona la configurazione nell’elenco
@@ -88,36 +88,36 @@ Segui i passaggi riportati di seguito per verificare la configurazione di Conten
 1. Fai clic su Scarica completo
 1. Estrai il file zip
 1. Avvia un server locale nella cartella estratta
-1. Apri la pagina iniziale e verifica lo stato dell’app
+1. Apri la pagina iniziale e controlla lo stato dell’app
 
 ## Abilitazione della configurazione offline per un canale {#enabling-offline-config-for-a-channel}
 
-Segui i passaggi seguenti per abilitare la configurazione offline per un canale:
+Per abilitare la configurazione offline per un canale, effettua le seguenti operazioni:
 
-1. Inspect il contenuto del canale e verifica se è richiesto da un&#39;istanza AEM (online).
+1. Inspect il contenuto del canale e verifica se è richiesto da un’istanza AEM (online).
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Passa al dashboard del canale e fai clic su **...** nel pannello **INFORMAZIONI CANALE** per modificare le proprietà.
+1. Passa al dashboard dei canali e fai clic su **...** nel **INFORMAZIONI SUL CANALE** Pannello per modificare le proprietà.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Passa alle proprietà del canale e accertati che la casella di controllo sia disabilitata nella scheda **Canale** . Fai clic su **Salva e chiudi**.
+1. Passa alle proprietà del canale e assicurati che la casella di controllo sia disabilitata in **Canale** scheda. Fai clic su **Salva e chiudi**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Prima che il contenuto venga distribuito correttamente sul dispositivo, fai clic su **Aggiorna contenuto offline**.
+   Prima di distribuire correttamente il contenuto nel dispositivo, fai clic sul pulsante **Aggiorna contenuto offline**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 
-   Anche lo stato **Offline** in **PROPERTIES** viene aggiornato di conseguenza.
+   Il **Offline** stato in **PROPRIETÀ** viene aggiornato di conseguenza.
 
    ![screen_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspect il contenuto del canale e controlla se è richiesto dal locale Player-Cache.
+1. Inspect il contenuto del canale e verifica se è richiesto da Player-Cache locale.
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 
 >[!NOTE]
 >
->Per ulteriori informazioni sul modello per gestori di risorse offline personalizzati e sui requisiti minimi in `pom.xml` per quel progetto specifico, consulta [Modello per gestori personalizzati](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Sviluppo di un componente personalizzato per AEM Screens**.
+>Per ulteriori informazioni sul modello per i gestori di risorse offline personalizzati e sui requisiti minimi in `pom.xml` per quel progetto specifico, consulta [Modello per gestori personalizzati](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Sviluppo di un componente personalizzato per AEM Screens**.

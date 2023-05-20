@@ -1,7 +1,7 @@
 ---
 title: Implementazione di Android Player
 seo-title: Implementation of Android Player
-description: Segui questa pagina per imparare l'implementazione di Android Watchdog, una soluzione per recuperare il giocatore da arresti anomali.
+description: Segui questa pagina per scoprire l’implementazione di Android Watchdog, una soluzione per recuperare il lettore dagli arresti anomali.
 seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes.
 uuid: 17edd093-f1b1-479e-9f25-28c64f1a7223
 contentOwner: Jyotika syal
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 # Implementazione di Android Player {#implementing-android-player}
 
-Questa sezione descrive la configurazione di Android Player. Fornisce informazioni sul file di configurazione e sulle opzioni disponibili e fornisce raccomandazioni sulle impostazioni da utilizzare per lo sviluppo e il test.
+Questa sezione descrive come configurare il lettore Android. Fornisce informazioni sul file di configurazione e sulle opzioni disponibili, nonché consigli sulle impostazioni da utilizzare per lo sviluppo e il test.
 
-Inoltre, **Guardiano** è una soluzione per recuperare il lettore da arresti anomali. Un&#39;applicazione deve registrarsi con il servizio watchdog e quindi inviare periodicamente messaggi al servizio che è attivo. Nel caso in cui il servizio watchdog non riceva un messaggio keep-alive entro un tempo stabilito, il servizio tenta di riavviare il dispositivo per un ripristino pulito (se dispone dei privilegi sufficienti) o di riavviare l&#39;applicazione.
+Inoltre, **Watchdog** è una soluzione per recuperare il lettore dagli arresti anomali. Un’applicazione deve registrarsi presso il servizio di watchdog e quindi inviare periodicamente messaggi al servizio per informarlo che è attiva. Nel caso in cui il servizio watchdog non riceva un messaggio keep-alive entro il tempo stabilito, il servizio tenta di riavviare il dispositivo per un ripristino pulito (se dispone dei privilegi sufficienti) o riavviare l&#39;applicazione.
 
 ## Installazione di Android Player {#installing-android-player}
 
@@ -36,17 +36,17 @@ Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/scr
 ### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Android Player.
+>Devi impostare un ambiente per il lettore Android se utilizzi AEM Screens 6.5.5 Service Pack.
 
-Imposta la **Attributo SameSite per i cookie login-token** da **Lax** a **Nessuno** da **Configurazione della console Web di Adobe Experience Manager** su tutte AEM istanze di authoring e pubblicazione.
+Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione della console web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
 
 Effettua le seguenti operazioni:
 
-1. Passa a **Configurazione della console Web di Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
+1. Accedi a **Configurazione della console web Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
 
-1. Cerca *Gestore autenticazione token di Granite Adobe*.
+1. Cerca *Adobe Gestore autenticazione token Granite*.
 
-1. Imposta la **Attributo SameSite per i cookie login-token** da **Lax** a **Nessuno**.
+1. Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno**.
    ![immagine](/help/user-guide/assets/granite-updates.png)
 
 1. Fai clic su **Salva**.
@@ -54,100 +54,100 @@ Effettua le seguenti operazioni:
 
 ### Metodo Ad Hoc {#ad-hoc-method}
 
-Il metodo Ad-Hoc ti consente di installare il lettore Android più recente (*.exe*). Visita [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
+Il metodo Ad Hoc consente di installare il lettore Android più recente (*.exe*). Visita [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
 
-Una volta scaricata l&#39;applicazione, segui i passaggi sul lettore per completare l&#39;installazione ad-hoc:
+Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completare l’installazione ad hoc:
 
 1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Passa a **Configurazione** dal menu Azioni a sinistra, immetti la posizione (indirizzo) dell&#39;istanza AEM a cui desideri connetterti e fai clic su **Salva**.
+1. Accedi a **Configurazione** dal menu Azioni sinistro, inserisci la posizione (indirizzo) dell’istanza AEM a cui desideri connetterti e fai clic su **Salva**.
 
-1. Passa a **Dispositivo** **Registrazione** dal menu di azione a sinistra per controllare lo stato del processo di registrazione del dispositivo.
+1. Accedi a **Dispositivo** **Registrazione** dal menu Azioni sinistro per controllare lo stato del processo di registrazione del dispositivo.
 
 >[!NOTE]
 >
->Se la **Stato** è **REGISTRATO**, noterai **ID dispositivo** verrà compilato.
+>Se il **Stato** è **REGISTRATO**, noterai la **ID dispositivo** verrà compilato.
 >
->Se la **Stato** è **NON REGISTRATO**, puoi utilizzare la **Token** per registrare il dispositivo.
+>Se il **Stato** è **NON REGISTRATO**, è possibile utilizzare **Token** per registrare il dispositivo.
 
-## Implementazione Android Watchdog {#implementing-android-watchdog}
+## Implementazione di Android Watchdog {#implementing-android-watchdog}
 
-A causa dell&#39;architettura di Android, il riavvio del dispositivo richiede che l&#39;applicazione abbia i privilegi di sistema. A questo scopo, è necessario firmare l&#39;apk utilizzando le chiavi di firma del produttore, altrimenti watchdog riavvierà l&#39;applicazione del lettore e non riavvierà il dispositivo.
+A causa dell&#39;architettura di Android, il riavvio del dispositivo richiede che l&#39;applicazione disponga di privilegi di sistema. A questo scopo, devi firmare l’app utilizzando i tasti di firma del produttore, altrimenti watchdog riavvia l’applicazione del lettore e non il dispositivo.
 
-### Segnalazione di apk Android utilizzando chiavi del produttore {#signage-of-android-apks-using-manufacturer-keys}
+### Segnaletica di app Android tramite chiavi del produttore {#signage-of-android-apks-using-manufacturer-keys}
 
-Per accedere ad alcune delle API privilegiate di Android, ad esempio *PowerManager* o *HDMIControlServices*, devi firmare l’apk android utilizzando le chiavi del produttore.
+Per accedere ad alcune delle API privilegiate di Android, ad esempio *PowerManager* o *HDMIControlServices*, è necessario firmare l&#39;apk android utilizzando i tasti del produttore.
 
 >[!CAUTION]
 >
 >Prerequisiti:
 >
->Prima di eseguire i seguenti passaggi, è necessario installare l’SDK per Android.
+>Dovresti aver installato l’SDK per Android prima di eseguire i seguenti passaggi.
 
-Segui i passaggi seguenti per firmare l&#39;apk android utilizzando le chiavi del produttore:
+Segui i passaggi seguenti per firmare l&#39;apk android utilizzando i tasti del produttore:
 
-1. Scarica l&#39;app da Google Play o da [Download di AEM Screens Player](https://download.macromedia.com/screens/) page
-1. Per ottenere un *pk8* e *pem* file
+1. Scarica l’app da Google Play o da [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina
+1. Ottenere le chiavi della piattaforma dal produttore per ottenere un *pk8* e un *pem* file
 
-1. Individua lo strumento apksigner nell’sdk per android utilizzando find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
-1. &lt;pathto> /apksigner sign —key platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
-1. Trova il percorso dello strumento di allineamento zip nell&#39;sdk android
-1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensalign.apk
-1. Installa ***aemscreensalign.apk*** utilizzo dell’installazione adb nel dispositivo
+1. Individua lo strumento apksigner nell’sdk Android utilizzando find ~/Library/Android/sdk/build-tools -name &quot;apksigner&quot;
+1. &lt;pathto> /apksigner sign —chiave platform.pk8 —cert platform.x509.pem aemscreensplayer.apk
+1. Trovare il percorso dello strumento di allineamento zip nell&#39;SDK di Android
+1. &lt;pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk
+1. Installa ***aemscreensaligned.apk*** utilizzo dell&#39;installazione adb sul dispositivo
 
-## Informazioni sui servizi Android Watchdog {#android-watchdog-services}
+## Informazioni sui servizi di watchdog per Android {#android-watchdog-services}
 
-Il servizio di watchdog cross-Android è implementato come plugin cordova utilizzando *AlarmManager*.
+Il servizio watchdog cross-Android è implementato come plug-in cordova utilizzando *Gestione allarmi*.
 
-Il diagramma seguente illustra l’implementazione del servizio watchdog:
+Il diagramma seguente mostra l’implementazione del servizio watchdog:
 
 ![chlimage_1-31](assets/chlimage_1-31.png)
 
-**1. Inizializzazione** Al momento dell&#39;inizializzazione del plug-in cordova, le autorizzazioni vengono controllate per vedere se disponiamo dei privilegi di sistema e quindi dell&#39;autorizzazione Reboot. Se questi due criteri vengono soddisfatti, viene creato un Intent for Reboot in sospeso, altrimenti viene creato un Intent in sospeso per riavviare l&#39;applicazione (in base alla sua attività Launch).
+**1. Inizializzazione** Al momento dell&#39;inizializzazione del plug-in cordova, le autorizzazioni vengono controllate per verificare se disponiamo dei privilegi di sistema e quindi dell&#39;autorizzazione di riavvio. Se questi due criteri sono soddisfatti, viene creato un Intento in sospeso per il riavvio, altrimenti viene creato un Intento in sospeso per il riavvio dell&#39;applicazione (in base alla relativa attività di avvio).
 
-**2. Mantieni timer attivo** Un timer di conservazione viene utilizzato per attivare un evento ogni 15 secondi. In questo caso, devi annullare l’intento in sospeso esistente (per riavviare o riavviare l’app) e registrare un nuovo intento in sospeso per gli stessi 60 secondi in futuro (in sostanza, per posticipare il riavvio).
+**2. Timer Keep Alive** Viene utilizzato un timer keep alive per attivare un evento ogni 15 secondi. In questo caso, è necessario annullare l&#39;intento in sospeso esistente (per riavviare o riavviare l&#39;app) e registrare un nuovo intento in sospeso per gli stessi 60 secondi in futuro (essenzialmente posticipando il riavvio).
 
 >[!NOTE]
 >
->In Android, il *AlarmManager* viene utilizzato per registrare il *pendingIntents* che può essere eseguito anche se l’app si è bloccata e la relativa consegna dell’allarme è inesatta dall’API 19 (Kitkat). Mantenere una certa spaziatura tra l&#39;intervallo del timer e il *AlarmManager* *pendingIntent&#39;s* allarme.
+>In Android, il *Gestione allarmi* viene utilizzato per registrare *pendingIntents* che può essere eseguito anche se l’app si è bloccata e la sua trasmissione dell’allarme non è esatta dall’API 19 (Kitkat). Mantieni una certa spaziatura tra l&#39;intervallo del timer e il *di AlarmManager* *pendingIntent* allarme.
 
-**3. Arresto anomalo dell&#39;applicazione** In caso di arresto anomalo, l&#39;intento in sospeso per il riavvio registrato con AlarmManager non viene più reimpostato e quindi esegue un riavvio o un riavvio dell&#39;app (a seconda delle autorizzazioni disponibili al momento dell&#39;inizializzazione del plug-in cordova).
+**3. Arresto anomalo dell’applicazione** In caso di arresto anomalo, pendingIntent per il riavvio registrato con AlarmManager non viene più reimpostato ed esegue quindi un riavvio o un riavvio dell&#39;app (a seconda delle autorizzazioni disponibili al momento dell&#39;inizializzazione del plug-in cordova).
 
 ## Provisioning in blocco di Android Player {#bulk-provision-android-player}
 
-Quando si esegue il rollout in massa del lettore Android, è necessario eseguire il provisioning del lettore per puntare a un&#39;istanza AEM e configurare altre proprietà senza immettere manualmente quelle nell&#39;interfaccia utente amministratore.
+Quando si esegue il rollout in blocco del lettore Android, è necessario eseguire il provisioning del lettore per puntare a un’istanza AEM e configurare altre proprietà senza immetterle manualmente nell’interfaccia utente di amministrazione.
 
 >[!NOTE]
->Questa funzione è disponibile da Android Player 42.0.372.
+>Questa funzione è disponibile dal lettore Android 42.0.372.
 
-Segui i passaggi seguenti per consentire il provisioning in massa nel lettore Android:
+Segui i passaggi seguenti per consentire il provisioning in blocco nel lettore Android:
 
 1. Crea un file JSON di configurazione con il nome `player-config.default.json`.
-Fai riferimento a [Criteri JSON di esempio](#example-json) nonché una tabella che descrive l&#39;uso dei vari [Attributi dei criteri](#policy-attributes).
+Fai riferimento a un [Esempio di criterio JSON](#example-json) nonché una tabella che descrive l&#39;utilizzo dei vari [Attributi dei criteri](#policy-attributes).
 
-1. Utilizza un file explorer MDM, ADB o Android Studio per rilasciare questo file JSON di criteri *sdcard* sul dispositivo Android.
+1. Utilizza uno strumento di esplorazione dei file MDM, ADB o Android Studio per rilasciare questo file JSON per i criteri in *sdcard* sul dispositivo Android.
 
-1. Una volta distribuito il file, utilizza MDM per installare l’applicazione del lettore.
+1. Una volta distribuito il file, usa MDM per installare l’applicazione del lettore.
 
-1. Quando l&#39;applicazione player viene avviata, leggerà questo file di configurazione e punterà al server AEM applicabile dove può essere registrato e successivamente controllato.
+1. All’avvio dell’applicazione del lettore, questo file di configurazione viene letto e fa riferimento al server AEM applicabile in cui può essere registrato e successivamente controllato.
 
    >[!NOTE]
-   >Questo file è *sola lettura* la prima volta che l&#39;applicazione viene avviata e non può essere utilizzata per le configurazioni successive. Se il lettore viene avviato prima dell&#39;eliminazione del file di configurazione, è sufficiente disinstallare e reinstallare l&#39;applicazione sul dispositivo.
+   >Questo file è *sola lettura* la prima volta che l’applicazione viene avviata e non può essere utilizzata per le configurazioni successive. Se il lettore viene avviato prima dell&#39;eliminazione del file di configurazione, è sufficiente disinstallare e reinstallare l&#39;applicazione sul dispositivo.
 
 ### Attributi dei criteri {#policy-attributes}
 
-La tabella seguente riepiloga gli attributi del criterio con un esempio di codice JSON per riferimento:
+La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON per i criteri a scopo di riferimento:
 
 | **Nome criterio** | **Scopo** |
 |---|---|
-| *server* | URL del server Adobe Experience Manager. |
-| *risoluzione* | La risoluzione del dispositivo. |
-| *RestartSchedule* | La pianificazione da riavviare si applica a tutte le piattaforme. |
-| *enableAdminUI* | Abilita l’interfaccia utente amministratore per configurare il dispositivo sul sito. Imposta su *false* una volta configurato completamente e in produzione. |
-| *enableOSD* | Abilita l’interfaccia utente del commutatore del canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l&#39;impostazione su *false* una volta configurato completamente e in produzione. |
-| *enableActivityUI* | Attiva per mostrare l&#39;avanzamento delle attività come il download e la sincronizzazione. Attiva per la risoluzione dei problemi e disattiva una volta configurato completamente e in produzione. |
-| *enableNativeVideo* | Abilitare l&#39;uso dell&#39;accelerazione hardware nativa per la riproduzione video (solo Android). |
+| *server* | L’URL del server Adobe Experience Manager. |
+| *risoluzione* | Risoluzione del dispositivo. |
+| *rebootSchedule* | La pianificazione per il riavvio si applica a tutte le piattaforme. |
+| *enableAdminUI* | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Imposta su *false* una volta che è completamente configurato e in produzione. |
+| *enableOSD* | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considerare l&#39;impostazione su *false* una volta che è completamente configurato e in produzione. |
+| *enableActivityUI* | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| *enableNativeVideo* | Abilita per utilizzare l’accelerazione hardware nativa per la riproduzione video (solo Android). |
 
-### Criteri JSON di esempio {#example-json}
+### Esempio di criterio JSON {#example-json}
 
 ```java
 {
@@ -172,40 +172,40 @@ La tabella seguente riepiloga gli attributi del criterio con un esempio di codic
 ```
 
 >[!NOTE]
->Tutti i dispositivi Android hanno un *sdcard* se un *sdcard* è inserito o meno. Questo file, se distribuito, si trova allo stesso livello della cartella Download. Alcuni MDM come Samsung Knox possono fare riferimento a questo *sdcard* posizione della cartella come *Archiviazione interna*.
+>Tutti i dispositivi Android hanno un *sdcard* cartella se un valore effettivo *sdcard* è inserito o meno. Quando viene distribuito, questo file si trova allo stesso livello della cartella Download. Alcuni MDM come Samsung Knox possono fare riferimento a questo *sdcard* percorso cartella come *Memoria interna*.
 
 ## Provisioning in blocco di Android Player tramite Enterprise Mobility Management {#bulk-provisioning}
 
-Quando si distribuisce il lettore Android in serie, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per il provisioning e la gestione remota dell&#39;implementazione. AEM Screens Android Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
+Quando si distribuisce il lettore Android in massa, diventa noioso registrare manualmente ogni singolo lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come VMWare Airwatch, MobileIron o Samsung Knox per effettuare il provisioning e gestire l&#39;installazione in remoto. AEM Screens Android Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
-## Denominazione di Android Player {#name-android}
+## Denominazione del lettore Android {#name-android}
 
-È possibile assegnare un nome di dispositivo facile da usare al lettore Android, inviando in tal modo il nome assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore Android, ma anche di assegnare facilmente il contenuto appropriato.
+Puoi assegnare un nome descrittivo del dispositivo al lettore Android, inviando in tal modo il nome del dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Android, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
->È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato il lettore, il nome del lettore non può più essere cambiato.
+>È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
 
-Per configurare il nome in Android Player, effettua le seguenti operazioni:
+Per configurare il nome in Android Player, segui i passaggi seguenti:
 
-1. Passa a **impostazioni** —> **Informazioni sul dispositivo**
+1. Accedi a **impostazioni** —> **Informazioni sul dispositivo**
 1. Modifica e imposta il nome del dispositivo per denominare il lettore Android
 
-### Implementazione del provisioning in blocco di Android Player utilizzando Enterprise Mobility Management {#implementation}
+### Implementazione del provisioning in blocco di Android Player tramite Enterprise Mobility Management {#implementation}
 
-Segui i passaggi seguenti per consentire il provisioning in massa in Android Player:
+Segui i passaggi seguenti per consentire il provisioning in blocco in Android Player:
 
 1. Assicurati che il tuo dispositivo Android supporti i servizi Google Play.
-1. Registrati i tuoi dispositivi Android Player con la tua soluzione EMM preferita che supporta AppConfig.
-1. Accedi alla console EMM e estrae l’applicazione AEM Screens Player da Google Play.
-1. Seleziona la configurazione gestita o l&#39;opzione correlata.
-1. Ora dovresti visualizzare un elenco delle opzioni del lettore che possono essere configurate, ad esempio il codice di registrazione di massa e il server.
-1. Configura questi parametri, salva e distribuisci il criterio sui dispositivi.
+1. Iscrivi i dispositivi di riproduzione Android con la tua soluzione EMM preferita che supporta AppConfig.
+1. Accedi alla console EMM e richiama l’applicazione AEM Screens Player da Google Play.
+1. Seleziona la configurazione gestita o l’opzione correlata.
+1. A questo punto dovrebbe essere visualizzato un elenco di opzioni del lettore che possono essere configurate, ad esempio il codice di registrazione del server e in blocco.
+1. Configura questi parametri, salva e distribuisci il criterio nei dispositivi.
 
    >[!NOTE]
-   >I dispositivi devono ricevere l&#39;applicazione insieme alla configurazione e puntare al server AEM corretto con la configurazione selezionata. Se hai scelto di configurare il codice di registrazione in serie e lo hai mantenuto come configurato in AEM, il lettore dovrebbe essere in grado di registrarsi automaticamente. Se hai configurato una visualizzazione predefinita, può anche scaricare e mostrare alcuni contenuti predefiniti (che possono essere successivamente modificati secondo le tue esigenze).
+   >I dispositivi devono ricevere l&#39;applicazione insieme alla configurazione e puntare al server AEM corretto con la configurazione selezionata. Se hai scelto di configurare il codice di registrazione in blocco e lo hai mantenuto come configurato in AEM, il lettore deve essere in grado di registrarsi automaticamente. Se hai configurato una visualizzazione predefinita, questa può anche scaricare e mostrare alcuni contenuti predefiniti (che possono essere successivamente modificati per comodità).
 
-Inoltre, è necessario verificare con il fornitore EMM il supporto AppConfig. quelli più popolari come [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Ferro da stiro mobile](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [UEM Blackberry](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) e [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) tra gli altri, questo standard di settore.
+Inoltre, è necessario verificare con il fornitore EMM il supporto di AppConfig. Quelli più popolari come [VMWare Airwatch](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [Ferro da stiro](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [SOTI](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [Blackberry UEM](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [IBM Maas360](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm) e [Samsung Knox](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) tra gli altri, supporta questo standard di settore.
 
 ### Utilizzo del telecomando Screens {#using-remote-control}
 
-AEM Screens fornisce la funzionalità Controllo remoto. Ulteriori informazioni su questa funzione sono disponibili qui: [Controllo remoto schermo](implementing-remote-control.md)
+AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzione qui: [Controllo remoto Schermi](implementing-remote-control.md)

@@ -1,8 +1,8 @@
 ---
 title: Note sulla versione per Feature Pack 201905
-seo-title: Note sulla versione per Feature Pack 201905
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201905 rilasciato il 16 maggio 2019.
-seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201905 rilasciato il 16 maggio 2019.
+seo-title: Release Notes for Feature Pack 201905
+description: Segui questa pagina per ottenere informazioni sul Feature Pack di AEM Screens 201905 rilasciato il 16 maggio 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201905 released on May 16, 2019.
 uuid: ebbaa7bb-4672-4a07-bcb7-67a778c72db8
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,60 +13,60 @@ docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 2%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
-
 
 # Note sulla versione per Feature Pack 201905 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
-AEM Screens ha rilasciato AEM Feature Pack 6.3.3.3 e AEM Feature Pack 4 6.4.4.0 con i seguenti dettagli.
+L’AEM Screens ha rilasciato AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4 con i seguenti dettagli.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 201905 è il 16 maggio 2019.
+La data di rilascio del Feature Pack 201905 per AEM Screens è il 16 maggio 2019.
 
 ### Novità {#what-s-new}
 
 * **Importazione progetti**
 
-Importazione progetti è una funzione disponibile in AEM Screens che consente di importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens.
+Importazione progetti è una funzione disponibile in AEM Screens che consente di importare in blocco un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens.
 
-Per ulteriori informazioni, consulta **[Importazione di nuovi progetti da file](project-importer.md)** .
+Fai riferimento a **[Nuova importazione progetti da file](project-importer.md)** per ulteriori dettagli.
 
 * **Transizione da ContentSync a SmartSync**
 
 SmartSync riduce il carico/lo storage del server e il traffico di rete per ridurre i costi.
 
-Per ulteriori informazioni, consulta **[Transizione da ContentSync a SmartSync](smartsync.md)** .
+Fai riferimento a **[Transizione da ContentSync a SmartSync](smartsync.md)** per ulteriori dettagli.
 
 * **Canale di emergenza**
 
-Questo esempio di caso d’uso sottolinea come creare e gestire un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza in caso di condizione preliminare.
+In questo esempio di caso d’uso viene posto l’accento sulla creazione e la gestione di un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza in caso di una precondizione.
 
-Per ulteriori informazioni, fai riferimento a **[Canale di emergenza](emergency-channel.md)** Use Case .
+Fai riferimento a **[Canale di emergenza](emergency-channel.md)** Caso d’uso per ulteriori dettagli.
 
-* **Incorporazione di un’applicazione REACT tramite l’editor di SPA AEM e Integrazione con AEM Screens Analytics**
+* **Incorporare un’applicazione REACT utilizzando l’editor SPA dell’AEM e Integrare con AEM Screens Analytics**
 
-Questa sezione descrive come incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o Angular) utilizzando l’editor SPA AEM che può essere configurato dai professionisti aziendali in AEM e come integrare l’applicazione interattiva con Adobe Analytics offline.
+Questa sezione descrive come incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o un Angular) utilizzando l’editor SPA dell’AEM che può essere configurato dai professionisti del settore dell’AEM e come integrare l’applicazione interattiva con Adobe Analytics offline.
 
-Per ulteriori informazioni, consulta **[Incorporazione di un’applicazione REACT tramite l’editor di SPA AEM e Integrazione con AEM Screens Analytics](embedding-react-app.md)** .
+Fai riferimento a **[Incorporare un’applicazione REACT utilizzando l’editor SPA dell’AEM e Integrare con AEM Screens Analytics](embedding-react-app.md)** per ulteriori dettagli.
 
-### Lettori AEM Screens rilasciati {#released-aem-screens-players}
+### Lettori AEM Screens rilasciati  {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens sono rilasciati per AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Download di AEM Screens Player {#aem-screens-player-downloads}
+#### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, fai riferimento a **[Download di AEM Screens Player](https://download.macromedia.com/screens/)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/)**.

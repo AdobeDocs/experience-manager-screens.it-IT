@@ -1,7 +1,7 @@
 ---
 title: Estensione di un componente AEM Screens
 seo-title: Extending an AEM Screens Component
-description: L’esercitazione seguente illustra i passaggi e le best practice per l’estensione dei componenti predefiniti di AEM Screens. Il componente Immagine viene esteso per aggiungere una sovrapposizione di testo modificabile.
+description: Il seguente tutorial illustra i passaggi e le best practice per l’estensione dei componenti AEM Screens forniti con il prodotto. Il componente Immagine viene esteso per aggiungere una sovrapposizione di testo modificabile.
 seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 uuid: 38ee3a2b-a51a-4c35-b93a-89a0e5fc3837
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -22,65 +22,65 @@ ht-degree: 2%
 
 # Estensione di un componente AEM Screens {#extending-an-aem-screens-component}
 
-L’esercitazione seguente illustra i passaggi e le best practice per l’estensione dei componenti predefiniti di AEM Screens. Il componente Immagine viene esteso per aggiungere una sovrapposizione di testo modificabile.
+Il seguente tutorial illustra i passaggi e le best practice per l’estensione dei componenti AEM Screens forniti con il prodotto. Il componente Immagine viene esteso per aggiungere una sovrapposizione di testo modificabile.
 
 ## Panoramica {#overview}
 
-Questa esercitazione è destinata agli sviluppatori che hanno poca esperienza con AEM Screens. In questa esercitazione, il componente Immagine Screens viene esteso per creare un componente Poster. Titolo, descrizione e logo vengono sovrapposti su un’immagine per creare un’esperienza coinvolgente in un Canale per sequenza.
+Questo tutorial è destinato agli sviluppatori che hanno poca esperienza con AEM Screens. In questa esercitazione, il componente Immagine Schermi viene esteso per creare un componente Poster. Un titolo, una descrizione e un logo sono sovrapposti su un’immagine per creare un’esperienza coinvolgente in un canale di sequenza.
 
 >[!NOTE]
 >
->Prima di avviare questa esercitazione, è consigliabile completare l&#39;esercitazione: [Sviluppo di un componente personalizzato per AEM Screens](developing-custom-component-tutorial-develop.md).
+>Prima di iniziare questa esercitazione, si consiglia di completarla: [Sviluppo di un componente personalizzato per AEM Screens](developing-custom-component-tutorial-develop.md).
 
-![Componente Poster personalizzato](assets/2018-05-07_at_4_09pm.png)
+![Componente poster personalizzato](assets/2018-05-07_at_4_09pm.png)
 
-Il componente Poster personalizzato viene creato estendendo il componente Immagine .
+Il componente Poster personalizzato viene creato estendendo il componente Immagine.
 
 ## Prerequisiti {#prerequisites}
 
-Per completare questa esercitazione, è necessario quanto segue:
+Per completare questa esercitazione, sono necessari i seguenti elementi:
 
-1. Feature Pack di AEM 6.5 + più recente Screens
+1. AEM 6.5 + Pacchetto di funzioni per gli schermi più recenti
 1. [Lettore AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente di sviluppo locale
 
-I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) o [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) Gli IDE possono anche essere utilizzati per completare l’esercitazione. Ulteriori informazioni sull’utilizzo di un IDE per [sviluppare con AEM si trova qui](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. [Eclipse](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/aem-eclipse.html) o [IntelliJ](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-intellij.html) È inoltre possibile utilizzare gli IDE per completare l&#39;esercitazione. Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con l’AEM si trova qui](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 ## Configurazione del progetto {#project-setup}
 
-Il codice sorgente di un progetto Screens viene generalmente gestito come progetto Maven con più moduli. Per accelerare l’esercitazione, è stato pregenerato un progetto utilizzando [Archetipo di progetto AEM 13](https://github.com/adobe/aem-project-archetype). Maggiori dettagli su [la creazione di un progetto con Maven AEM Project Archetype si trova qui](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
+Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l’esercitazione, un progetto è stato pregenerato utilizzando [Archetipo progetto AEM 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli su [creazione di un progetto con Archetipo progetto AEM Maven disponibile qui](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup.html).
 
 1. Scarica e installa i seguenti pacchetti utilizzando **Gestione pacchetti CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
 [Ottieni file](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Ottieni file](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
-   **Facoltativamente,** se lavori con Eclipse o un altro IDE, scarica il pacchetto sorgente seguente. Distribuisci il progetto in un’istanza AEM locale utilizzando il comando Maven:
+   **Facoltativamente** se lavori con Eclipse o un altro IDE, scarica il pacchetto sorgente seguente. Distribuisci il progetto in un’istanza AEM locale utilizzando il comando Maven:
 
    **`mvn -PautoInstallPackage clean install`**
 
-   Progetto di esecuzione We.Retail di SRC Start Screens
+   Progetto esecuzione We.Retail Schermate iniziali SRC
 
 [Ottieni file](assets/start-poster-screens-weretail-run.zip)
 
-1. In **Gestione pacchetti CRX** `http://localhost:4502/crx/packmgr/index.jsp` sono installati i due pacchetti seguenti:
+1. In entrata **Gestione pacchetti CRX** `http://localhost:4502/crx/packmgr/index.jsp` vengono installati i due pacchetti seguenti:
 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Schermi I.Retail Esegui pacchetti Ui.Apps e Ui.Content installati tramite CRX Package Manager](assets/crx-packages.png)
+   ![Screens Esecuzione di pacchetti Ui.Apps e Ui.Content tramite CRX Package Manager](assets/crx-packages.png)
 
-   Schermi I.Retail Esegui pacchetti Ui.Apps e Ui.Content installati tramite CRX Package Manager
+   Screens Esecuzione di pacchetti Ui.Apps e Ui.Content tramite CRX Package Manager
 
 ## Creare il componente Poster {#poster-cmp}
 
-Il componente Poster estende il componente Immagine della schermata predefinita. Meccanismo di Sling, `sling:resourceSuperType`, viene utilizzato per ereditare le funzionalità di base del componente Immagine senza dover copiare e incollare. Ulteriori informazioni sulle nozioni di base di [Sling Request Processing si trova qui.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=it)
+Il componente Poster estende il componente Schermi predefiniti Immagine. Un meccanismo di Sling, `sling:resourceSuperType`, viene utilizzato per ereditare le funzionalità di base del componente Immagine senza dover copiare e incollare. Ulteriori informazioni sulle nozioni di base di [Elaborazione delle richieste Sling disponibile qui.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html?lang=it)
 
-Il componente Poster viene riprodotto a schermo intero in modalità anteprima/produzione. In modalità di modifica, è importante eseguire il rendering del componente in modo diverso per facilitare l’authoring del canale per sequenza.
+Il componente Poster viene riprodotto a schermo intero in modalità anteprima/produzione. In modalità di modifica, è importante eseguire il rendering del componente in modo diverso per facilitare l’authoring del canale della sequenza.
 
-1. In **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (o IDE di scelta) sotto a `/apps/weretail-run/components/content`creare un `cq:Component` denominato `poster`.
+1. In entrata **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (o IDE di scelta) sotto a `/apps/weretail-run/components/content`creare un `cq:Component` denominato `poster`.
 
-   Aggiungi le seguenti proprietà al `poster` componente:
+   Aggiungi le seguenti proprietà alla `poster` componente:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -95,15 +95,15 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    Proprietà per /apps/weretail-run/components/content/poster
 
-   Impostando `sling:resourceSuperType`proprietà uguale a `screens/core/components/content/image` il componente Poster eredita efficacemente tutte le funzionalità del componente Immagine . Nodi e file equivalenti trovati sotto `screens/core/components/content/image` può essere aggiunto sotto la `poster` per sovrascrivere ed estendere la funzionalità .
+   Impostando `sling:resourceSuperType`proprietà uguale a `screens/core/components/content/image` il componente Poster eredita tutte le funzionalità del componente Immagine. Nodi e file equivalenti trovati sotto `screens/core/components/content/image` può essere aggiunto sotto al `poster` per sostituire ed estendere la funzionalità.
 
-1. Copia il `cq:editConfig` nodo sotto `/libs/screens/core/components/content/image.`Incolla `cq:editConfig` sotto il `/apps/weretail-run/components/content/poster` componente.
+1. Copia il `cq:editConfig` nodo sotto `/libs/screens/core/components/content/image.`Incolla il `cq:editConfig` sotto `/apps/weretail-run/components/content/poster` componente.
 
-   Sulla `cq:editConfig/cq:dropTargets/image/parameters` aggiorna il nodo `sling:resourceType` proprietà uguale `weretail-run/components/content/poster`.
+   Il giorno `cq:editConfig/cq:dropTargets/image/parameters` aggiorna nodo `sling:resourceType` proprietà uguale a `weretail-run/components/content/poster`.
 
    ![edit-config](assets/edit-config.png)
 
-   La rappresentazione XML della cq:editConfig rappresentata di seguito:
+   Rappresentazione XML di cq:editConfig rappresentata di seguito:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -126,20 +126,20 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
    </jcr:root>
    ```
 
-1. Copia di WCM Foundation `image` della finestra di dialogo `poster` componente.
+1. Copia WCM Foundation `image` finestra di dialogo da utilizzare per `poster` componente.
 
    È più semplice iniziare da una finestra di dialogo esistente e quindi apportare modifiche.
 
    1. Copia la finestra di dialogo da: `/libs/wcm/foundation/components/image/cq:dialog`
-   1. Incolla la finestra di dialogo sottostante `/apps/weretail-run/components/content/poster`
+   1. Incolla la finestra di dialogo sotto `/apps/weretail-run/components/content/poster`
 
    ![Finestra di dialogo copiata da /libs/wcm/foundation/components/image/cq:dialog a /apps/weretail-run/components/content/poster](assets/2018-05-03_at_4_13pm.png)
 
    Finestra di dialogo copiata da /libs/wcm/foundation/components/image/cq:dialog a /apps/weretail-run/components/content/poster
 
-   Schermi `image` il componente è sostituito da WCM Foundation `image` componente. Pertanto, `poster` il componente eredita funzionalità da entrambi. La finestra di dialogo per il componente poster è composta da una combinazione delle finestre di dialogo Screens e Foundation. Funzioni del **Sling Resource Merger** vengono utilizzati per nascondere i campi e le schede di dialogo non rilevanti ereditati dai componenti superati.
+   Schermi `image` componente sovrascritto in WCM Foundation `image` componente. Pertanto, il `poster` Il componente eredita la funzionalità da entrambi. La finestra di dialogo per il componente poster è costituita da una combinazione delle finestre di dialogo Schermi e Fondamenti. Caratteristiche del **Sling Resource Merger** vengono utilizzati per nascondere le schede e i campi di dialogo irrilevanti ereditati dai componenti sovrascritti.
 
-1. Aggiorna cq:dialog sotto `/apps/weretail-run/components/content/poster` con le seguenti modifiche rappresentate in XML:
+1. Aggiorna il cq:dialog sotto `/apps/weretail-run/components/content/poster` con le seguenti modifiche rappresentate in XML:
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -242,23 +242,23 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
    </jcr:root>
    ```
 
-   La proprietà `sling:hideChildren`= `"[linkURL,size]`&quot; viene utilizzato nella `items` per garantire che **linkURL** e **size** i campi sono nascosti dalla finestra di dialogo. La rimozione di questi nodi dalla finestra di dialogo poster non è sufficiente. La proprietà `sling:hideResource="{Boolean}true"` nella scheda accessibilità viene utilizzata per nascondere l’intera scheda .
+   La proprietà `sling:hideChildren`= `"[linkURL,size]`&quot; viene utilizzato il `items` per garantire che il **linkURL** e **dimensione** I campi sono nascosti nella finestra di dialogo. La rimozione di questi nodi dalla finestra di dialogo del poster non è sufficiente. La proprietà `sling:hideResource="{Boolean}true"` nella scheda accessibilità viene utilizzata per nascondere l&#39;intera scheda.
 
-   Nella finestra di dialogo vengono aggiunti due campi di selezione per consentire agli autori di controllare la posizione del testo e il colore del titolo e della descrizione.
+   Nella finestra di dialogo vengono aggiunti due campi di selezione per consentire agli autori di controllare la posizione del testo e il colore del Titolo e della Descrizione.
 
-   ![Poster - Struttura della finestra di dialogo finale](assets/2018-05-03_at_4_49pm.png)
+   ![Poster - Struttura del dialogo finale](assets/2018-05-03_at_4_49pm.png)
 
-   Poster - Struttura della finestra di dialogo finale
+   Poster - Struttura del dialogo finale
 
-   A questo punto, un&#39;istanza del `poster` può essere aggiunto al **Canale inattivo** nel progetto di esecuzione We.Retail: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
+   A questo punto, un&#39;istanza di `poster` il componente può essere aggiunto al **Canale inattivo** nel progetto We.Retail Run: `http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`.
 
-   ![Campi della finestra di dialogo miniatura](assets/poster-dialog-full.png)
+   ![Campi finestra di dialogo poster](assets/poster-dialog-full.png)
 
-   Campi della finestra di dialogo miniatura
+   Campi finestra di dialogo poster
 
 1. Crea un file sotto `/apps/weretail-run/components/content/poster` denominato `production.html.`
 
-   Compila il file con le seguenti caratteristiche:
+   Compila il file con quanto segue:
 
    ```xml
    <!--/*
@@ -280,19 +280,19 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
    </div>
    ```
 
-   Sopra è riportato il markup di produzione per il componente Poster. Ignorare lo script HTL `screens/core/components/content/image/production.html`. La `image.js` è uno script lato server che crea un oggetto immagine simile a POJO. L’oggetto Immagine può quindi essere chiamato per eseguire il rendering del `src` come immagine di sfondo in linea.
+   Di seguito è riportato il markup di produzione per il componente Poster. Lo script HTL sostituisce `screens/core/components/content/image/production.html`. Il `image.js` è uno script lato server che crea un oggetto Immagine simile a POJO. L’oggetto Image può quindi essere chiamato per eseguire il rendering del `src` come immagine di sfondo in linea.
 
-   `The h1` e i tag h2 aggiunti visualizzano Titolo e Descrizione in base alle proprietà del componente: `${properties.jcr:title}` e `${properties.jcr:description}`.
+   `The h1` I tag h2 e vengono aggiunti per visualizzare Titolo e Descrizione in base alle proprietà del componente: `${properties.jcr:title}` e `${properties.jcr:description}`.
 
-   Circondato `h1` e `h2` tags è un wrapper div con tre classi CSS con varianti di &quot; `cmp-poster__text`&quot;. Il valore per `textPosition` e `textColor` Le proprietà vengono utilizzate per modificare la classe CSS di cui è stato eseguito il rendering in base alla selezione della finestra di dialogo dell&#39;autore. Nella sezione successiva vengono scritti CSS dalle librerie client per abilitare queste modifiche nella visualizzazione.
+   Intorno al `h1` e `h2` tags è un wrapper div con tre classi CSS con varianti di &quot; `cmp-poster__text`&quot;. Il valore per `textPosition` e `textColor` Le proprietà vengono utilizzate per modificare la classe CSS sottoposta a rendering in base alla selezione della finestra di dialogo dell’autore. Nella sezione successiva vengono scritti file CSS provenienti dalle librerie client per abilitare queste modifiche nella visualizzazione.
 
-   Nel componente è incluso anche un logo come sovrapposizione. In questo esempio, il percorso del logo We.Retail è codificato in modo rigido nel DAM. A seconda del caso d’uso, potrebbe essere più sensato creare un campo di dialogo per rendere il percorso del logo un valore popolato in modo dinamico.
+   Un logo viene incluso anche come sovrapposizione nel componente. In questo esempio, il percorso del logo We.Retail è hardcoded in DAM. A seconda del caso d’uso, potrebbe essere più logico creare un campo di dialogo per rendere il percorso del logo un valore popolato dinamicamente.
 
-   Inoltre, con il componente viene utilizzata la notazione BEM (modificatore elemento di blocco). BEM è una convenzione di codifica CSS che facilita la creazione di componenti riutilizzabili. BEM è la notazione utilizzata da [Componenti core AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Si noti inoltre che con il componente viene utilizzata la notazione BEM (Block Element Modifier). BEM è una convenzione di codifica CSS che semplifica la creazione di componenti riutilizzabili. BEM è la notazione utilizzata da [Componenti core AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Crea un file sotto `/apps/weretail-run/components/content/poster` denominato `edit.html.`
 
-   Compila il file con le seguenti caratteristiche:
+   Compila il file con quanto segue:
 
    ```xml
    <!--/*
@@ -312,25 +312,25 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
    </div>
    ```
 
-   Sopra è **modifica** Marcatura per il componente Poster. Ignorare lo script HTL `/libs/screens/core/components/content/image/edit.html`. Il markup è simile al `production.html` visualizza il titolo e la descrizione sopra l’immagine.
+   Qui sopra è riportato il **modifica** markup per il componente Poster. Lo script HTL sostituisce `/libs/screens/core/components/content/image/edit.html`. Il markup è simile al `production.html` e visualizza il titolo e la descrizione sopra l&#39;immagine.
 
-   La `aem-Screens-editWrapper`viene aggiunto in modo che nell’editor non venga eseguito il rendering del componente a schermo intero. La `data-emptytext` assicura che venga visualizzato un segnaposto quando non è stata compilata alcuna immagine o contenuto.
+   Il `aem-Screens-editWrapper`viene aggiunto in modo che il componente non venga renderizzato a schermo intero nell’editor. Il `data-emptytext` Questo attributo assicura che venga visualizzato un segnaposto quando non è stata compilata alcuna immagine o contenuto.
 
 ## Creare librerie lato client {#clientlibs}
 
-Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull&#39;utilizzo [Le librerie lato client si trovano qui.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull’utilizzo di [Le librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
 
-I componenti di AEM Screens vengono riprodotti in modo diverso in modalità Modifica rispetto alla modalità Anteprima/Produzione. Vengono creati due set di librerie client, uno per la modalità Modifica e uno per l’anteprima/produzione.
+Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto alla modalità Anteprima/Produzione. Vengono creati due set di librerie client, uno per la modalità di modifica e l’altro per l’anteprima/produzione.
 
 1. Crea una cartella per le librerie lato client per il componente Poster.
 
-   Sotto `/apps/weretail-run/components/content/poster,`creare una cartella denominata `clientlibs`.
+   Sotto `/apps/weretail-run/components/content/poster,`crea una cartella denominata `clientlibs`.
 
-   ![2018-05-03_at_1008pm](assets/2018-05-03_at_1008pm.png)
+   ![2018-05-03_at_1008 pm](assets/2018-05-03_at_1008pm.png)
 
-1. Sotto `clientlibs` creare una cartella denominata `shared` di tipo `cq:ClientLibraryFolder.`
+1. Sotto `clientlibs` cartella creare un nodo denominato `shared` di tipo `cq:ClientLibraryFolder.`
 
-   ![05/05/2018](assets/2018-05-03_at_1011pm.png)
+   ![2018-05-03_at_1011 pm](assets/2018-05-03_at_1011pm.png)
 
 1. Aggiungi le seguenti proprietà alla libreria client condivisa:
 
@@ -341,13 +341,13 @@ I componenti di AEM Screens vengono riprodotti in modo diverso in modalità Modi
 
    Proprietà per /apps/weretail-run/components/content/poster/clientlibs/shared
 
-   La `categories` è una stringa che identifica la libreria client. La `cq.screens.components` Questa categoria viene utilizzata sia in modalità Modifica che in modalità Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito nel `shared` clientlib viene caricato in tutte le modalità.
+   Il `categories` è una stringa che identifica la libreria client. Il `cq.screens.components` viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito in `shared` clientlib è caricato in tutte le modalità.
 
-   È consigliabile non esporre mai alcun percorso direttamente a /apps in un ambiente di produzione. La `allowProxy` assicura che la libreria client faccia riferimento a CSS e JS tramite un prefisso `/etc.clientlibs`. Ulteriori informazioni sulle [La proprietà allowProxy si trova qui.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
+   È consigliabile non esporre mai percorsi direttamente a /apps in un ambiente di produzione. Il `allowProxy` assicura che venga fatto riferimento alle librerie client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni su [La proprietà allowProxy si trova qui.](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=en)
 
-1. Crea file con nome `css.txt` sotto la cartella condivisa.
+1. Crea file denominato `css.txt` sotto la cartella condivisa.
 
-   Compila il file con le seguenti caratteristiche:
+   Compila il file con quanto segue:
 
    ```
    #base=css
@@ -355,11 +355,11 @@ I componenti di AEM Screens vengono riprodotti in modo diverso in modalità Modi
    styles.less
    ```
 
-1. Crea una cartella denominata `css` sotto il `shared` cartella. Aggiungi un file denominato `style.less` sotto il `css` cartella. La struttura delle librerie client dovrebbe ora essere simile alla seguente:
+1. Crea una cartella denominata `css` sotto `shared` cartella. Aggiungi un file denominato `style.less` sotto `css` cartella. La struttura delle librerie client ora dovrebbe essere simile alla seguente:
 
-   ![05/05/2018](assets/2018-05-03_at_1057pm.png)
+   ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Invece di scrivere CSS direttamente, questa esercitazione utilizza LESS. [MENO](https://lesscss.org/) è un precompilatore CSS popolare che supporta variabili CSS, mixin e funzioni. AEM librerie client supportano in modo nativo la compilazione LESS. Sass o altri precompilatori possono essere utilizzati ma devono essere compilati al di fuori di AEM.
+   Invece di scrivere direttamente CSS, questa esercitazione utilizza MENO. [MENO](https://lesscss.org/) è un popolare precompilatore CSS che supporta variabili, mixin e funzioni CSS. Le librerie client AEM supportano in modo nativo la compilazione LESS. È possibile utilizzare gli Sass o altri precompilatori, ma questi devono essere compilati al di fuori dell’AEM.
 
 1. Popolare `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` con le seguenti caratteristiche:
 
@@ -416,15 +416,15 @@ I componenti di AEM Screens vengono riprodotti in modo diverso in modalità Modi
 
    >[!NOTE]
    >
-   >I Web Fonts Google vengono utilizzati per le famiglie di font. I Web Fonts richiedono la connettività Internet e non tutte le implementazioni di schermi offrono una connessione affidabile. La pianificazione della modalità offline è un aspetto importante per le distribuzioni di Screens.
+   >I Web Fonts Google vengono utilizzati per le famiglie di caratteri. I Web Fonts richiedono connettività Internet e non tutte le implementazioni di Screens offrono una connessione affidabile. La pianificazione della modalità offline è un aspetto importante per le distribuzioni di Screens.
 
 1. Copia il `shared` cartella della libreria client. Incollalo come elemento di pari livello e rinominalo in `production`.
 
-   ![2018-05-03_at_1114pm](assets/2018-05-03_at_1114pm.png)
+   ![2018-05-03_at_1114 pm](assets/2018-05-03_at_1114pm.png)
 
-1. Aggiorna `categories` proprietà della libreria client di produzione da `cq.screens.components.production.`
+1. Aggiornare il `categories` proprietà della libreria client di produzione da `cq.screens.components.production.`
 
-   La `cq.screens.components.production` Questa categoria assicura che gli stili vengano caricati solo in modalità Anteprima/Produzione.
+   Il `cq.screens.components.production` Questa categoria assicura che gli stili vengano caricati solo in modalità Anteprima/Produzione.
 
    ![Proprietà per /apps/weretail-run/components/content/poster/clientlibs/production](assets/2018-04-30_at_5_04pm.png)
 
@@ -483,32 +483,32 @@ I componenti di AEM Screens vengono riprodotti in modo diverso in modalità Modi
    }
    ```
 
-   Gli stili di cui sopra presentano il Titolo e la Descrizione in posizione assoluta sullo schermo. Il titolo viene visualizzato più grande della descrizione. La notazione BEM del componente semplifica l&#39;ambito degli stili all&#39;interno della classe cmp-poster.
+   Gli stili di cui sopra visualizzano il Titolo e la Descrizione in una posizione assoluta sullo schermo. Il titolo viene visualizzato più grande della descrizione. La notazione BEM del componente consente di definire con attenzione gli stili all&#39;interno della classe cmp-poster.
 
-Una terza categoria di clientlibrary: `cq.screens.components.edit` può essere utilizzato per aggiungere al componente Modifica solo stili specifici.
+Una terza categoria di librerie client: `cq.screens.components.edit` può essere utilizzato per aggiungere al componente Modifica solo stili specifici.
 
-| Categoria clientlib | Utilizzo |
+| Categoria Clientlib | Utilizzo |
 |---|---|
 | `cq.screens.components` | Stili e script condivisi tra le modalità di modifica e di produzione |
 | `cq.screens.components.edit` | Stili e script utilizzati solo in modalità di modifica |
 | `cq.screens.components.production` | Stili e script utilizzati solo in modalità di produzione |
 
-## Aggiungere un componente Poster a un canale per sequenza {#add-sequence-channel}
+## Aggiungi componente poster a un canale sequenza {#add-sequence-channel}
 
-Il componente Poster viene utilizzato su un canale per sequenza. Il pacchetto iniziale per questa esercitazione includeva un canale inattivo. Il canale inattivo è preconfigurato per consentire i componenti del gruppo **Esecuzione We.Retail - Contenuto**. Il gruppo del componente Poster è impostato su `We.Retail Run - Content` ed è disponibile per essere aggiunto al canale.
+Il componente Poster viene utilizzato su un canale di sequenza. Il pacchetto iniziale di questa esercitazione includeva un canale inattivo. Il canale di inattività è preconfigurato per consentire i componenti del gruppo **Esecuzione We.Retail - Contenuto**. Il gruppo del componente Poster è impostato su `We.Retail Run - Content` ed è disponibile per essere aggiunto al canale.
 
-1. Apri il Canale inattivo dal progetto We.Retail Run: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
-1. Trascina + rilascia una nuova istanza del **Miniatura** dalla barra laterale alla pagina.
+1. Apri il canale inattivo dal progetto We.Retail Run: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Trascina + rilascia una nuova istanza del **Poster** dalla barra laterale alla pagina.
 
-   ![2018-05-07_at_3_23pm](assets/2018-05-07_at_3_23pm.png)
+   ![2018-05-07_at_3_23 pm](assets/2018-05-07_at_3_23pm.png)
 
-1. Modifica la finestra di dialogo del componente Poster per aggiungere un’immagine, un titolo, una descrizione. Utilizza le scelte Posizione testo e Colore testo per garantire che il Titolo/Descrizione sia leggibile sull’immagine.
+1. Modifica la finestra di dialogo del componente Poster per aggiungere un’immagine, un titolo, una descrizione. Utilizza le opzioni Posizione testo e Colore testo per garantire che Titolo/Descrizione sia leggibile sull’immagine.
 
-   ![2018-05-07_at_3_25pm](assets/2018-05-07_at_3_25pm.png)
+   ![2018-05-07_at_3_25 pm](assets/2018-05-07_at_3_25pm.png)
 
 1. Ripeti i passaggi precedenti per aggiungere alcuni componenti Poster. Aggiungi transizioni tra i componenti.
 
-   ![2018-05-07_at_3_28pm](assets/2018-05-07_at_3_28pm.png)
+   ![2018-05-07_at_3_28 pm](assets/2018-05-07_at_3_28pm.png)
 
 ## Tutti gli elementi insieme {#putting-it-all-together}
 
@@ -518,12 +518,12 @@ Il video seguente mostra il componente finito e come può essere aggiunto a un c
 
 ## Codice finito {#finished-code}
 
-Di seguito è riportato il codice finito dell&#39;esercitazione. La **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sono i pacchetti compilati AEM. Il **SRC-screens-weretail-run-0.0.1.zip **è il codice sorgente non compilato che può essere distribuito utilizzando Maven.
+Di seguito è riportato il codice finito dell&#39;esercitazione. Il **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sono i pacchetti AEM compilati. **SRC-screens-weretail-run-0.0.1.zip **è il codice sorgente non compilato che può essere distribuito utilizzando Maven.
 
 [Ottieni file](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
 [Ottieni file](assets/final-poster-screens-weretail-runuicontent-001-snapshot.zip)
 
-Progetto di esecuzione We.Retail di SRC Screens finali
+Progetto We.Retail Run per schermi finali SRC
 
 [Ottieni file](assets/src-screens-weretail-run-001.zip)

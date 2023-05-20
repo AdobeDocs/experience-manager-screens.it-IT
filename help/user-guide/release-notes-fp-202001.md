@@ -1,7 +1,7 @@
 ---
-title: Note sulla versione per Feature Pack 2001
+title: Note sulla versione per Feature Pack 202001
 seo-title: Release Notes for Feature Pack 202001
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 20201 rilasciato il 31 gennaio 2020.
+description: Segui questa pagina per ottenere informazioni sui 202001 di AEM Screens Feature Pack rilasciati il 31 gennaio 2020.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 202001 released on January 31, 2020.
 feature: Feature Pack
 role: Developer
@@ -14,43 +14,43 @@ ht-degree: 4%
 
 ---
 
-# Note sulla versione per Feature Pack 2001{#release-notes-for-feature-pack}
+# Note sulla versione per Feature Pack 202001{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 3.
 
-Scarica l’ultimo pacchetto di funzioni per AEM Screens 6.5.3 dalla versione [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Passa a **Adobe Experience Manager** tabulazione e ricerca **Schermi** per ottenere il pacchetto di funzioni più recente denominato **AEM 6.5 Screens FP3**.
+Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.3 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP3**.
 
 ## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 20201 è il 31 gennaio 2020.
+La data di rilascio del Feature Pack 202001 per AEM Screens è il 31 gennaio 2020.
 
 ### Novità {#what-s-new}
 
 * **Sincronizzazione dei comandi per la riproduzione delle risorse**
-La sincronizzazione dei comandi consente la riproduzione sincronizzata tra lettori diversi. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
-Per ulteriori informazioni su Command Sync e su come impostare il master e i client, consulta [Utilizzo della sincronizzazione dei comandi](using-command-sync.md).
+Command Sync consente la riproduzione sincronizzata tra diversi lettori. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
+Per ulteriori informazioni su Sincronizzazione comandi e su come impostare il master e i client, fare riferimento a [Utilizzo di Command Sync](using-command-sync.md).
 
-* **Framework di controllo dello stato per mostrare lo stato di https e consentire il referrer vuoto**
-Il framework di Verifica dello stato consente all’utente di verificare se sono configurate due configurazioni necessarie (Consenti richieste referente vuote e Apache Felix Jetty Based HTTP Service) prima di eseguire un progetto AEM Screens.
+* **Framework di verifica stato per mostrare lo stato di https e consentire un referente vuoto**
+Il framework di Verifica stato consente all’utente di verificare se due configurazioni necessarie (Consenti richieste di riferimento vuote e Apache Felix Jetty Based HTTP Service) sono configurate prima di eseguire un progetto AEM Screens.
 
-   Per ulteriori informazioni sul framework di verifica dello stato, consulta [Framework di controllo dello stato](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+   Per ulteriori informazioni sul framework di verifica stato, consulta [Framework di verifica stato](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
-* **Aggiornamenti ai tipi di transizione predefiniti**
-Le proprietà del componente di transizione quali 
-**Tipo** è ora impostato su **Dissolvenza** e **Durata** come **1600 ms**, per impostazione predefinita.
+* **Aggiornamenti a Tipi di transizione predefiniti**
+Le proprietà del componente di transizione, ad esempio 
+**Tipo** è ora impostato su **Dissolvenza** e **Durata** as **1600 ms**, per impostazione predefinita.
 
-   Fai riferimento a [Applicazione delle transizioni](/help/user-guide/applying-transitions.md) caso di utilizzo per ulteriori dettagli.
+   Fai riferimento a [Applicazione delle transizioni](/help/user-guide/applying-transitions.md) caso d’uso per ulteriori dettagli.
 
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens vengono rilasciati per AEM 6.4 Feature Pack 7 e AEM 6.5 Feature Pack 3:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.4 Feature Pack 7 e AEM 6.5 Feature Pack 3:
 
 * ChromeOS
 * Windows
@@ -58,4 +58,4 @@ I seguenti lettori AEM Screens vengono rilasciati per AEM 6.4 Feature Pack 7 e A
 
 #### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).

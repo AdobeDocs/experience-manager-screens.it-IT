@@ -1,99 +1,98 @@
 ---
 title: Accesso diretto a Internet
 description: Accesso diretto a Internet
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: a393ce2f-b774-4cd5-9001-c5cc24d445ae
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
-
 # Rete Internet diretta (cablata/wireless) {#direct-internet-access}
 
-La rete Internet diretta contiene un punto di accesso per l’accesso a Internet al fine di raggiungere i servizi cloud AEM a cui AEM Screens deve connettersi.
+La rete Internet diretta contiene un punto di accesso di ingresso per l’accesso a Internet per raggiungere i servizi cloud di AEM a cui AEM Screens deve connettersi.
 
 Le porte standard per la comunicazione AEM Screens sono:
 * `ssl-secured https (TCP Port 443)`
 
    <br>Oppure,</br>
 
-* `http (TCP Port 80)`, se il tuo caso d’uso specifico non richiede quel livello di sicurezza.
+* `http (TCP Port 80)`, se il tuo caso d’uso particolare non richiede quel livello di sicurezza.
 
-Le porte possono variare a causa della configurazione della configurazione AEM dedicata. All&#39;interno di questo SetUp, tutti i dispositivi sono direttamente collegati al router Internet come mostrato nella figura riportata di seguito.
+Le porte possono variare a causa della configurazione della configurazione AEM dedicata. All&#39;interno di questa configurazione, tutte le periferiche sono collegate direttamente al router Internet, come illustrato nella figura seguente.
 
 ![](/help/assets/direct-access-2.png)
 
-La configurazione include anche un accesso a Internet da parte di qualsiasi provider di servizi Internet (ISP) e la sua linea Internet. La maggior parte degli ISP fornisce un router Internet che copre il modem Internet, lo switch di rete, il punto di accesso Wi-Fi, il firewall e altre funzionalità di rete (a seconda del produttore e del modello).
+La configurazione include anche l’accesso a Internet da parte di qualsiasi provider di servizi Internet (ISP) e la relativa linea Internet. La maggior parte degli ISP fornisce un router Internet che copre modem Internet, switch di rete, punto di accesso Wi-Fi, firewall e altre funzionalità di rete (a seconda del produttore e del modello).
 
 ## Connessione di AEM Screens Player all&#39;accesso diretto a Internet {#connecting-aem-screens-players}
 
-Segui i passaggi riportati di seguito per garantire la connessione corretta dei lettori AEM dello schermo in questa configurazione:
+Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM Screen in questa configurazione:
 
-1. Assicurati che ciascuno dei lettori dello schermo AEM sia collegato alla rete del router.
-1. Verifica la connessione Internet richiamando un URL nel browser dei sistemi.
+1. Verificare che ogni lettore di schermo AEM sia collegato alla rete del router.
+1. Verifica la connessione Internet chiamando un URL nel browser del sistema.
 
    >[!NOTE]
-   >In caso di errore, controllare le impostazioni di rete.Esistono fondamentalmente due opzioni per una connessione di rete corretta:
+   >In caso di errore, controllare le impostazioni di rete.In pratica sono disponibili due opzioni per una connessione di rete corretta:
    >* DHCP
    >* Configurazione IP manuale
 
 
-1. Assicurati che l&#39;impostazione della scheda di rete corrisponda alle impostazioni del router e controlla se la quantità massima di indirizzi IP disponibili nella rete non viene raggiunta.
+1. Verificare che l&#39;impostazione della scheda di rete corrisponda alle impostazioni del router e verificare che non venga raggiunta la quantità massima di indirizzi IP disponibili nella rete.
 
-1. Verificare che il router sia collegato correttamente all&#39;ISP Wide Area Network (Internet Link). Questo può essere identificato anche utilizzando un LED di segnale su router standard.
+1. Verificare che il router sia connesso correttamente alla rete WAN (Internet Link). Questo può anche essere identificato utilizzando un LED di segnale sui router standard.
 1. Se la chiamata URL ha esito positivo, puoi continuare a installare AEM Screens e registrarti. Avvia AEM Screens.
 
    >[!NOTE]
    >**Suggerimento per la risoluzione dei problemi**
    >Se AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato:
    >
-   >1. Controlla il firewall per i router Internet in caso di restrizioni relative a `TCP/IP Port 80/443`.
-   >1. Assicurati che tutte le porte richieste siano consentite.
+   >1. Se sono presenti restrizioni relative a, controlla nel firewall del router Internet `TCP/IP Port 80/443`.
+   >1. Verificare che tutte le porte richieste siano consentite.
 
 
-## Configurazione della rete di accesso diretto {#requirements-direct}
+## Configurazione di una rete ad accesso diretto {#requirements-direct}
 
-La rete Internet diretta è logicamente separata in due blocchi:
+La rete Internet diretta è logicamente suddivisa in due blocchi:
 
-* Rete ampia
+* Wide Area Network
 
-* Rete locale
+* Local Area Network
 
-### Rete ampia {#wan-connection}
+### Wide Area Network {#wan-connection}
 
-Oltre alla raggiungibilità della rete, le prestazioni della connessione Internet forniscono una larghezza di banda sufficiente per l&#39;utilizzo di AEM Screens.
+Oltre alla raggiungibilità della rete, la connessione Internet fornisce una larghezza di banda sufficiente per il funzionamento di AEM Screens.
 
-** Sufficiente dipende dal numero di schermi AEM collegati e dall’utilizzo di altri consumatori all’interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
-
->[!NOTE]
->
->Tutti i dispositivi di cui sopra, hanno un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce linearmente quando si aggiungono più consumatori o computer alla rete.
-
-### Rete locale {#lan-connection}
-
-Le prestazioni della LAN (Local Area Network), oltre alla raggiungibilità della rete, offrono una larghezza di banda sufficiente per l&#39;utilizzo di AEM Screens.
-
-La rete LAN solitamente corrisponde ad almeno una rete a 100 Mbps, in modo da disporre di una larghezza di banda sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens a Internet Link, si consiglia di utilizzare almeno standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di migliore qualità.
+*Sufficiente* dipende dal numero di schermi AEM collegati e dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
->Se è necessario un ripetitore Wi-Fi, si consiglia vivamente un punto di accesso Mesh Wi-Fi come la rete Wi-Fi di Google Nest Mesh o simile. Altre tecnologie ripetute Wi-Fi finiscono in una perdita massiccia di larghezza di banda nella rete complessiva.
+>Tutti i dispositivi indicati sopra dispongono di un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce in modo lineare quando si aggiungono più utenti o computer alla rete.
 
-## Download di file multimediali e risorse {#download}
+### Local Area Network {#lan-connection}
 
-AEM Screens offre un grande vantaggio agli utenti del digital signage. Scarica e salva localmente tutti i file multimediali necessari, come immagini e video. Il traffico di rete principale si verifica quando su una visualizzazione specifica è presente un nuovo contenuto da visualizzare.
+Le prestazioni della rete LAN (Local Area Network), oltre alla raggiungibilità della rete, forniscono una larghezza di banda sufficiente per il funzionamento di AEM Screens.
 
-Per le operazioni normali, ad esempio, una playlist definita che si aggiorna frequentemente durante il giorno, offre un funzionamento simile a quello della rete, una volta salvati tutti i file sul lettore.
-
-Per gli scenari in cui vi sono più interazioni con sensori o attivatori e contenuti dinamici, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo, al fine di garantire la migliore esperienza del cliente possibile.
-
-La tabella seguente fornisce una panoramica dei dati chiave della connettività di rete.
+La rete LAN di solito corrisponde almeno a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` come minimo. Questo standard supporta connessioni fino a 54 Mbps. Qualsiasi *più recente* Standard come `802.11h-n` sono di migliore qualità.
 
 >[!NOTE]
 >
->Le informazioni consentono di visualizzare il consumo di ogni dispositivo della rete che richiede e scarica una fonte Internet. Ciascuna di queste richieste aggiunge ed estende il Tempo di download.
+>Se è necessario un ripetitore Wi-Fi, si consiglia vivamente un punto di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili. Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
+
+## Download di contenuti multimediali e risorse {#download}
+
+AEM Screens offre un grande vantaggio agli utenti di digital signage. Scarica e salva localmente tutti i file multimediali necessari, ad esempio immagini e video. Il traffico di rete principale si verifica quando è presente un nuovo contenuto da visualizzare su una visualizzazione specifica.
+
+Per le normali operazioni, ad esempio, una playlist definita che si aggiorna frequentemente durante il giorno - offre un funzionamento simile a quello della rete, una volta che tutti i file sono stati salvati sul lettore.
+
+Negli scenari in cui sono presenti più interazioni con sensori o attivatori e contenuti dinamici, una connessione di rete veloce e affidabile è essenziale per una reazione immediata allo schermo al fine di garantire la migliore esperienza possibile per il cliente.
+
+Nella tabella seguente viene fornita una panoramica sui dati chiave della connettività di rete.
+
+>[!NOTE]
+>
+>Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete che richiede e scarica un&#39;origine Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
 
 ![](/help/assets/download-times-direct.png)
-

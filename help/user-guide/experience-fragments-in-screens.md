@@ -1,8 +1,8 @@
 ---
 title: Utilizzo di Frammenti esperienza
-seo-title: Utilizzo di Frammenti esperienza
-description: Leggi questa pagina per scoprire come utilizzare Frammenti esperienza in AEM Screens.
-seo-description: Leggi questa pagina per scoprire come utilizzare Frammenti esperienza in AEM Screens.
+seo-title: Using Experience Fragments
+description: Segui questa pagina per scoprire come utilizzare Frammenti di esperienza in AEM Screens.
+seo-description: Follow this page to learn about using Experience Fragments in AEM Screens.
 uuid: 6ee16a94-3c53-43e0-99d5-c35cb9e01120
 contentOwner: jsyal
 content-type: reference
@@ -10,14 +10,14 @@ products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 discoiquuid: 0e88e9e0-a95b-4acd-98ea-499d4d4e3c99
 docset: aem65
-feature: Creazione di schermi, frammenti esperienza
+feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 8%
+source-wordcount: '1112'
+ht-degree: 1%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 8%
 Questa pagina tratta i seguenti argomenti:
 
 * **Panoramica**
-* **Utilizzo dei frammenti esperienza in AEM Screens**
+* **Utilizzo di Frammenti esperienza in AEM Screens**
 * **Propagazione delle modifiche alla pagina**
 
 ## Panoramica {#overview}
 
-Un ***Frammento esperienza*** è un gruppo di uno o più componenti, che include contenuto e layout, a cui è possibile fare riferimento tra le pagine. I frammenti esperienza possono includere qualsiasi componente singolo o multiplo, che contenga elementi all&#39;interno di un sistema di paragrafi e a cui si fa riferimento nell&#39;esperienza completa o che viene richiesto da un punto finale terzo.
+Un ***Frammento esperienza*** è un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui è possibile fare riferimento all’interno delle pagine. I frammenti di esperienza possono contenere qualsiasi componente, ad esempio uno o più componenti che possono contenere qualsiasi elemento all’interno di un sistema paragrafo, a cui verrà fatto riferimento nell’esperienza completa o richiesto da un terzo endpoint.
 
 
-## Utilizzo dei frammenti esperienza in AEM Screens {#using-experience-fragments-in-aem-screens}
+## Utilizzo di Frammenti esperienza in AEM Screens {#using-experience-fragments-in-aem-screens}
 
 >[!NOTE]
->Nell&#39;esempio seguente viene utilizzato **We.Retail** come progetto demo da cui viene sfruttato il frammento esperienza da una pagina **Sites** a un progetto AEM Screens.
+>L’esempio che segue utilizza **We.Retail** come progetto dimostrativo da cui il frammento di esperienza viene utilizzato a partire da un **Sites** a un progetto AEM Screens.
 
-Ad esempio, il flusso di lavoro seguente illustra l’utilizzo di frammenti di esperienza da We.Retail in Sites. Puoi scegliere una pagina web e sfruttarne il contenuto nel canale AEM Screens in uno dei tuoi progetti.
+Ad esempio, il seguente flusso di lavoro illustra l’utilizzo di frammenti di esperienza da We.Retail in Sites. Puoi scegliere una pagina web e sfruttarne i contenuti nel tuo canale AEM Screens in uno dei tuoi progetti.
 
 ### Prerequisiti {#pre-requisites}
 
@@ -47,175 +47,175 @@ Ad esempio, il flusso di lavoro seguente illustra l’utilizzo di frammenti di e
 
 ***Creazione di un progetto***
 
-1. Fai clic su **Crea progetto Screens** per creare un nuovo progetto.
-1. Inserisci come titolo **DemoProject**.
+1. Clic **Crea progetto Screens** per creare un nuovo progetto.
+1. Inserisci il titolo come **DemoProject**.
 1. Fai clic su **Salva**.
 
-Al tuo AEM Screens verrà aggiunto un **DemoProject** .
+A **DemoProject** verranno aggiunti al tuo AEM Screens.
 
 ***Creazione di un canale***
 
-1. Passa alla cartella **DemoProject** creata e seleziona la cartella **Canali** .
+1. Accedi a **DemoProject** hai creato e seleziona la **Canali** cartella.
 
-1. Fai clic su **Crea** nella barra delle azioni per aprire la procedura guidata.
-1. Scegli il modello **Canale sequenza** dalla procedura guidata e fai clic su **Avanti**.
+1. Clic **Crea** dalla barra delle azioni per aprire la procedura guidata.
+1. Scegli la **Canale sequenza** dalla procedura guidata e fai clic su **Successivo**.
 
-1. Inserisci il **Titolo** come **TestChannel** e fai clic su **Crea**.
+1. Inserisci il **Titolo** as **TestChannel** e fai clic su **Crea**.
 
-Al tuo **DemoProject** verrà aggiunto un **TestChannel**.\
+A **TestChannel** verrà aggiunto al tuo **DemoProject**.\
 ![screen_shot_2019-07-29at105101am](assets/screen_shot_2019-07-29at105101am.png)
 
 
 ### Creazione di un frammento esperienza {#creating-an-experience-fragment}
 
-Segui i passaggi riportati di seguito per sfruttare il contenuto da **We.Retail** al **TestChannel** in **DemoProject**.
+Segui i passaggi seguenti per sfruttare il contenuto di **We.Retail** al tuo **TestChannel** in **DemoProject**.
 
-1. **Passa a una pagina Sites in We.Retail**
+1. **Passare a una pagina Sites in We.Retail**
 
-   1. Passa a Sites e seleziona **We.Retail** -> **Stati Uniti** -> **Inglese** -> **Attrezzatura** e seleziona questa pagina per utilizzare questo frammento di esperienza per il canale Screens.
+   1. Passa a Sites e seleziona **We.Retail** -> **Stati Uniti** -> **Inglese** -> **Attrezzatura** e seleziona questa pagina per utilizzarla come frammento di esperienza per il canale Screens.
 
-   1. Fai clic su **Modifica** nella barra delle azioni per aprire la pagina da utilizzare come frammento di esperienza per il canale Screens.
+   1. Clic **Modifica** dalla barra delle azioni per aprire la pagina da utilizzare come frammento di esperienza per il canale Screens.
 
 1. **Riutilizzo del contenuto**
 
-   1. Selezionare il frammento da includere nel canale.
-   1. Fai clic sull&#39;ultima icona da destra per aprire la finestra di dialogo **Converti in frammento esperienza** .
+   1. Seleziona il frammento da includere nel canale.
+   1. Fai clic sull’ultima icona a destra per aprire **Converti in frammento esperienza** .
 
    ![screen_shot_2019-07-29at105314am](assets/screen_shot_2019-07-29at105314am.png)
 
 1. **Creazione di un frammento esperienza**
 
-   1. Scegli **Azione** come **Crea un nuovo frammento esperienza**.
+   1. Scegli la **Azione** as **Creare un nuovo frammento esperienza**.
 
-   1. Selezionare il **Percorso padre**.
-   1. Seleziona il **Modello**. Scegli qui il modello **Frammento esperienza - Variazione schermi** (valore nel campo `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
+   1. Seleziona la **Percorso principale**.
+   1. Seleziona la **Modello**. Scegli la **Frammento esperienza - Variante schermi** modello qui (valore nel campo `/libs/settings/screens/experience-fragments/templates/experience-fragment-template-screens`).
 
-   1. Inserisci il **Titolo frammento** come **ScreensFragment**.
+   1. Inserisci il **Titolo frammento** as **ScreensFragment**.
 
    1. Fai clic sul segno di spunta per completare la creazione di un nuovo frammento esperienza.
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Nota: Per selezionare più facilmente un’opzione, fai clic sul segno di spunta a destra dei campi per aprire la finestra di dialogo di selezione.
+   Nota: per selezionare un’opzione più semplice, fai clic sul segno di spunta a destra dei campi per aprire la finestra di dialogo di selezione.
 
-1. **Creazione di una Live Copy di un frammento esperienza**
+1. **Creazione di Live Copy di un frammento esperienza**
 
-   1. Passa alla home page di AEM.
-   1. Seleziona **Frammenti esperienza** ed evidenzia **ScreensFragment** e fai clic su **Variazione come Live-Copy**, come illustrato nella figura seguente:
+   1. Passa alla home page dell’AEM.
+   1. Seleziona **Frammenti esperienza** ed evidenzia **ScreensFragment** e fai clic su **Variante come Live Copy**, come illustrato nella figura seguente:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Seleziona la procedura guidata **ScreensFragment** da **Crea Live Copy** e fai clic su **Avanti**.
+   c. Seleziona la **ScreensFragment** da **Crea Live Copy** e fai clic su **Successivo**.
 
-   d. Inserisci i valori **Titolo** e **Nome** come **Schermi**.
+   d. Inserire **Titolo** e **Nome** as **Schermi**.
 
    e. Fai clic su **Crea** per creare la Live Copy.
 
-   f. Fai clic su **Fine** per tornare alla pagina **ScreensFragment**.
+   f. Fai clic su **Fine** per tornare a **ScreensFragment** pagina.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
    >[!NOTE]
    >
-   >Dopo aver creato il frammento Screens, è possibile modificare le proprietà del frammento. Seleziona il frammento e fai clic su **Proprietà** nella barra delle azioni.
+   >Dopo aver creato il frammento Screens, puoi modificarne le proprietà. Seleziona il frammento e fai clic su **Proprietà** dalla barra delle azioni.
 
    **Modifica delle proprietà di un frammento Screens**
 
-   1. Passa al **ScreensFragment** (creato nei passaggi precedenti) e fai clic su **Proprietà** dalla barra delle azioni.
+   1. Accedi a **ScreensFragment** (creato nei passaggi precedenti) e fare clic su **Proprietà** dalla barra delle azioni.
 
-   1. Seleziona la scheda **Configurazione offline** , come illustrato nella figura riportata di seguito.
+   1. Seleziona la **Configurazione offline** come illustrato nella figura riportata di seguito.
 
-   Puoi aggiungere le **Librerie lato client** (java e css) e **File statici** al frammento esperienza.
+   È possibile aggiungere **Librerie lato client** (java e css) e **File statici** al frammento di esperienza.
 
-   L’esempio seguente mostra l’aggiunta di librerie lato client e dei font come parte di file statici al frammento di esperienza.  ![frammento](assets/fragment.gif)
+   L’esempio seguente mostra l’aggiunta di librerie lato client e dei font come parte di file statici nel frammento di esperienza.  ![frammento](assets/fragment.gif)
 
 1. **Utilizzo di Frammento esperienza come componente nel canale Screens**
 
-   1. Passa al canale Screens in cui desideri utilizzare il frammento **Screens** .
-   1. Seleziona il **TestChannel** e fai clic su **Modifica** nella barra delle azioni.
+   1. Passa al canale Screens in cui desideri utilizzare il **Schermi** frammento.
+   1. Seleziona la **TestChannel** e fai clic su **Modifica** dalla barra delle azioni.
 
    1. Fai clic sull’icona dei componenti nella scheda laterale.
-   1. Trascina il **Frammento esperienza** sul tuo canale.
+   1. Trascina la **Frammento esperienza** al tuo canale.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
 
-   e. Seleziona il componente **Frammento esperienza** e fai clic sull’icona in alto a sinistra (chiave inglese) per aprire la finestra di dialogo **Frammento esperienza** .
+   e. Selezionare **Frammento esperienza** e seleziona l’icona in alto a sinistra (chiave inglese) per aprire **Frammento esperienza** .
 
-   f. Seleziona la **Live Copy Screens** del frammento creato in *Passaggio 3* in **Percorso**.
+   f. Seleziona la **Schermi** live copy del frammento creato in *Passaggio 3* in **Percorso**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Seleziona la **Live Copy Screens** del frammento creato in *Passaggio 3* in **Frammento esperienza**.
+   f. Seleziona la **Schermi** live copy del frammento creato in *Passaggio 3* nel **Frammento esperienza**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
-   h. Immettere i millisecondi in **Durata**.
+   h. Inserire i millisecondi in **Durata**.
 
-   i. Seleziona la **Configurazione offline** dalla finestra di dialogo **Frammenti esperienza** per definire le librerie lato client e i file statici.
+   i. Seleziona la **Configurazione offline** dal **Frammenti esperienza** per definire le librerie lato client e i file statici.
 
    >[!NOTE]
    >
-   >Se desideri aggiungere librerie lato client o file statici oltre a quello configurato nel passaggio (4), puoi aggiungere dalla scheda **Configurazione offline** nella finestra di dialogo **Frammento esperienza** .
+   >Se desideri aggiungere librerie lato client o i file statici in aggiunta a quanto configurato nel passaggio (4), puoi aggiungere da **Configurazione offline** scheda in **Frammento esperienza** .
 
    ![screen_shot_2019-07-26at82844pm](assets/screen_shot_2019-07-26at82844pm.png)
 
-   j. Fai clic sul segno di spunta per completare il processo.
+   j. Per completare il processo, fare clic sul segno di spunta.
 
 ### Convalida del risultato {#validating-the-result}
 
-Dopo aver completato i passaggi precedenti, puoi convalidare il frammento esperienza in **ChannelOne** tramite:
+Dopo aver completato i passaggi precedenti, puoi convalidare il frammento di esperienza in **ChannelOne** da:
 
-1. Navigazione al **TestChannel**.
-1. Seleziona **Anteprima** dalla barra delle azioni.
+1. Navigazione a **TestChannel**.
+1. Selezione del **Anteprima** dalla barra delle azioni.
 
-Puoi visualizzare il contenuto dalla pagina **Sites** (Live Copy del frammento di esperienza) nel tuo canale, come illustrato nella figura seguente:\
+Il contenuto verrà visualizzato da **Sites** pagina (Live Copy del frammento di esperienza) nel canale, come illustrato nella figura seguente:\
 ![screen_shot_2018-06-08at120739pm](assets/screen_shot_2018-06-08at120739pm.png)
 
 ## Propagazione delle modifiche alla pagina {#propagating-changes-from-the-master-page}
 
-***Live*** Copy fa riferimento alla copia (dell’origine), gestita dalle azioni di sincronizzazione definite dalle configurazioni di rollout.
+***Live Copy*** si riferisce alla copia (dell’origine), gestita dalle azioni di sincronizzazione definite dalle configurazioni di rollout.
 
-A partire dal frammento esperienza, è stata creata una Live Copy dalle pagine **Sites**. Pertanto, se apporti modifiche a quel particolare frammento dalla pagina master, visualizzerai le modifiche nel canale o nella destinazione in cui hai utilizzato il frammento esperienza.
+Poiché il frammento di esperienza è stato creato come Live Copy dal file **Sites** pagine, quindi se apporti modifiche a quel particolare frammento dalla pagina master, visualizzerai le modifiche nel tuo canale o nella destinazione in cui hai utilizzato il frammento di esperienza.
 
 >[!NOTE]
 >
 >Per ulteriori informazioni su Live Copy, consulta Riutilizzo del contenuto: Multi Site Manager e Live Copy.
 
-Segui i passaggi riportati di seguito per propagare le modifiche dal canale principale al canale di destinazione:
+Segui i passaggi seguenti per propagare le modifiche dal canale principale al canale di destinazione:
 
-1. Seleziona il frammento esperienza dalla pagina **Sites** (master) e fai clic sull’icona a forma di matita per modificare gli elementi nel frammento esperienza.
+1. Seleziona il frammento di esperienza dalla sezione **Sites** (master) e fai clic sull’icona a forma di matita per modificare gli elementi nel frammento di esperienza.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Seleziona il frammento esperienza e fai clic sull’icona a forma di chiave inglese per aprire la finestra di dialogo per modificare le immagini.
+1. Seleziona il frammento di esperienza e fai clic sull’icona a forma di chiave inglese per aprire la finestra di dialogo e modificare le immagini.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
-1. Viene visualizzata la finestra di dialogo **Griglia prodotto**.
+1. Il **Griglia prodotti** viene visualizzata.
 
    ![screen_shot_2018-06-08at25306pm](assets/screen_shot_2018-06-08at25306pm.png)
 
-1. È possibile modificare una qualsiasi delle immagini. Ad esempio, qui la prima immagine viene sostituita in questo frammento.
+1. È possibile modificare qualsiasi immagine. Ad esempio, qui la prima immagine viene sostituita in questo frammento.
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Seleziona il frammento esperienza e fai clic sull’icona Rollout per propagare le modifiche al frammento utilizzato nel canale.
+1. Seleziona il frammento di esperienza e fai clic sull’icona Rollout per propagare le modifiche al frammento utilizzato nel canale.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
 1. Fai clic su Rollout per confermare le modifiche.
 
-   Le modifiche vengono implementate.
+   Vedrai che le modifiche vengono implementate.
 
    ![screen_shot_2018-06-08at32148pm](assets/screen_shot_2018-06-08at32148pm.png)
 
 ### Convalida delle modifiche {#validating-the-changes}
 
-Per confermare le modifiche apportate al canale, effettua le seguenti operazioni:
+Per confermare le modifiche apportate al canale, segui la procedura riportata di seguito:
 
-1. Passa a **Schermi** -> **Canali** -> **TestChannel**.
+1. Accedi a **Schermi** -> **Canali** -> **TestChannel**.
 
-1. Fai clic su **Anteprima** nella barra delle azioni per confermare le modifiche.
+1. Clic **Anteprima** dalla barra delle azioni per confermare le modifiche.
 
-L&#39;immagine seguente illustra le modifiche apportate a **TestChannel**:\
-![screen_shot_2018-06-08at3351pm](assets/screen_shot_2018-06-08at33351pm.png)
+L’immagine seguente illustra le modifiche apportate al **TestChannel**:\
+![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

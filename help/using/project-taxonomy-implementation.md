@@ -7,7 +7,7 @@ exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
 source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -15,35 +15,35 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Le parti interessate tipiche di questa attività sono un AEM Implementatore.
+>Questa attività è in genere gestita da un implementatore AEM.
 
-Prima di creare un progetto AEM Screens, è importante comprendere e mettere in strategia tutti i componenti definiti nella fase di wireframing UX del progetto.
+Prima di creare un progetto AEM Screens, è importante comprendere e strategizzare tutti i componenti definiti nella fase UX Wireframing del progetto.
 
 Prima di implementare la soluzione di digital signage AEM Screens, considera i seguenti elementi:
 
 * **Posizioni**
-* **MediaZone**
+* **MediaZones**
 * **Display**
 * **Pianificazione**
 * **Anteprima del contenuto**
 
-Per informazioni su questi termini, fai riferimento a [Glossario](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+Per informazioni su questi termini, fare riferimento a [Glossario](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
->È consigliabile utilizzare:
+>È consigliabile prendere in considerazione l’utilizzo di:
 >
->* database delle risorse hardware per la compilazione automatica di un progetto Screens
->* file di configurazione di testo per puntare automaticamente ogni lettore a un&#39;istanza specifica di un AEM
+>* database di risorse hardware per compilare automaticamente un progetto Screens
+>* file di configurazione di testo per puntare automaticamente ogni lettore a un’istanza specifica di un AEM
 
 
 ## Implementazione di un progetto AEM Screens {#creating-a-project}
 
-Un autore di AEM Screens è responsabile della creazione e della gestione di un’esperienza utente utilizzando i componenti disponibili in AEM Screens. L’autore crea e rivede i contenuti e fornisce un’interfaccia utente grafica di facile utilizzo configurando, distribuendo e integrando i segmenti disponibili di AEM Screens.
+Un autore di AEM Screens è responsabile della creazione e della gestione di un’esperienza utente utilizzando i componenti disponibili in AEM Screens. L’autore crea e rivede i contenuti e fornisce un’interfaccia grafica utente facile da usare tramite la configurazione, la distribuzione e l’integrazione dei segmenti disponibili di AEM Screens.
 
 >[!NOTE]
 >
->Un autore crea i canali dalle sequenze specificate e conosce il pubblico a cui si rivolge la campagna e l’interesse desiderato. Di conseguenza, un autore di AEM Screens orchestra e crea l’esperienza utente tramite la creazione di diversi canali e l’assegnazione di sequenze nell’esperienza per canali sincronizzata.
+>Un autore crea i canali dalle sequenze date e conosce il pubblico della campagna e l’elemento attivo desiderato. Pertanto, un autore di AEM Screens crea e orchestra l’esperienza dell’utente finale creando diversi canali e assegnando sequenze all’esperienza del canale a tempo.
 
 In genere, un autore inizia un progetto AEM Screens:
 
@@ -58,4 +58,4 @@ In genere, un autore inizia un progetto AEM Screens:
 * [visualizzazione del contenuto in un lettore AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/working-with-screens-player.html?lang=en)
 
 >[!NOTE]
->Puoi anche importare in massa un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens. Segui [Importazione di nuovi progetti da file](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) per ulteriori dettagli.
+>Puoi anche importare in blocco un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens. Segui [Nuova importazione progetti da file](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/project-importer.html?lang=en) per ulteriori dettagli.

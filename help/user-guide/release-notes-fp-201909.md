@@ -1,62 +1,62 @@
 ---
 title: Note sulla versione per Feature Pack 201909
-seo-title: Note sulla versione per Feature Pack 201909
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201909 rilasciato il 31 luglio 2019.
-seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201909 rilasciato il 7 ottobre 2019.
+seo-title: Release Notes for Feature Pack 201909
+description: Segui questa pagina per ottenere informazioni sul Feature Pack di AEM Screens 201909 rilasciato il 31 luglio 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201909 released on October 07, 2019.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---
-
 
 # Note sulla versione per Feature Pack 201909{#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
-AEM Screens ha rilasciato AEM Feature Pack 6.4.6 e AEM Feature Pack 2 6.5.2 con i seguenti dettagli.
+AEM Screens ha rilasciato AEM 6.4.6 Feature Pack 6 e AEM 6.5.2 Feature Pack 2 con i seguenti dettagli.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 201909 è il 7 ottobre 2019.
+La data di rilascio del Feature Pack 201909 per AEM Screens è il 7 ottobre 2019.
 
 ### Novità {#what-s-new}
 
-* **Aggiornamenti dell’interfaccia utente migliorati per creare un progetto Screens**
+* **Sono stati migliorati gli aggiornamenti dell’interfaccia utente per creare un progetto Screens**
 
-   È ora disponibile un’interfaccia utente aggiornata per la creazione di un nuovo progetto screens. Puoi creare un nuovo progetto Screens con pochi clic. Inoltre, la scheda delle proprietà per ogni progetto dispone ora di un’interfaccia utente più intuitiva.
+   È ora disponibile un’interfaccia utente aggiornata per la creazione di un nuovo progetto Screens. Puoi creare un nuovo progetto Screens con pochi semplici clic. Inoltre, la scheda delle proprietà di ciascun progetto ora dispone di un’interfaccia utente più intuitiva.
 
-   Per ulteriori informazioni, consulta [Creazione di un nuovo progetto Screens](creating-a-screens-project.md) .
+   Fai riferimento a [Creazione di un nuovo progetto Screens](creating-a-screens-project.md) per ulteriori dettagli.
 
 * **Dashboard dispositivo avanzato:**
 
-   Il dashboard del dispositivo mostra le informazioni sul dispositivo, lo stato, la schermata, i registri, le preferenze e i dettagli del dispositivo che consentono di monitorare le attività e le funzioni del dispositivo. I pannelli vengono ora aggiornati.
+   Il dashboard del dispositivo mostra le informazioni, lo stato, lo screenshot, i registri, le preferenze e i dettagli del dispositivo che consentono di monitorare le attività e le funzioni del dispositivo. I pannelli sono ora aggiornati.
 
-   Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi al Centro di controllo dei dispositivi](monitoring-screens.md) .
+   Fai riferimento a [Risoluzione dei problemi di Device Control Center](monitoring-screens.md) per ulteriori dettagli.
 
-* **È stato abilitato il timeout per consentire l’interazione da tastiera**
+* **Timeout abilitato per consentire l’interazione con la tastiera**
 
-   Abilitare i dispositivi di controllo remoto come alternativa ai pannelli touch. Il tocco da interagire e il timeout dell’attività gestiscono l’input da tastiera.
+   Abilitare i dispositivi di controllo remoto come alternativa ai pannelli touch. Il tocco per interagire e il timeout dell’attività gestiscono l’input della tastiera.
 
-* **Configurazioni offline nei frammenti esperienza**
+* **Configurazioni offline in Frammenti esperienza**
 
    È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione del frammento di esperienza Screens.
-Per ulteriori informazioni, consulta [Uso dei frammenti esperienza](experience-fragments-in-screens.md) .
+Fai riferimento a [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens sono rilasciati per AEM 6.4.6 Feature Pack 6 e AEM 6.5.2 Feature Pack 2:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.4.6 Feature Pack 6 e AEM 6.5.2 Feature Pack 2:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Download di AEM Screens Player {#aem-screens-player-downloads}
+#### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).

@@ -1,75 +1,74 @@
 ---
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
-source-git-commit: 6d9dab9fd59289aafdb688682fea47589d3ec873
+exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
+source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
-
 # Utilizzo di rappresentazioni adattive in AEM Screens {#adaptive-renditions}
 
 ## Introduzione {#introduction}
 
-Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente il rendering migliore per un dispositivo in base alle regole definite dal cliente. I dispositivi scaricheranno e riprodurranno automaticamente il rendering più appropriato di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione dell&#39;esperienza *principale*.
+Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente la rappresentazione migliore per un dispositivo in base alle regole definite dal cliente. I dispositivi scaricheranno e riprodurranno automaticamente la rappresentazione più appropriata di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione della *principale* esperienza.
 
 ## Obiettivo {#objective}
 
-In qualità di autore dei contenuti di AEM Screens, ora puoi configurare rappresentazioni di risorse specifiche per dispositivo da scaricare e riprodurre automaticamente senza dover creare manualmente tutte le varianti di contenuto.
-Una volta che uno sviluppatore aggiunge le proprietà e le regole di mappatura del rendering, è ora pronto per applicare la mappatura del rendering alle risorse e successivamente includerle in un canale AEM Screens.
+In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.
+Una volta che uno sviluppatore aggiunge le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e successivamente includerle in un canale AEM Screens.
 
 >[!IMPORTANT]
->Prima di iniziare a utilizzare le rappresentazioni adattive, in un canale AEM Screens, è consigliabile conoscere la Panoramica e la configurazione architettoniche di questa funzione. Consulta [Rappresentazioni adattive: Panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
+>Prima di iniziare a utilizzare le rappresentazioni adattive in un canale AEM Screens, si consiglia di conoscere la panoramica e la configurazione dell’architettura di questa funzione. Consulta [Rappresentazioni adattive: panoramica dell’architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
 
 ## Utilizzo di rappresentazioni adattive nei canali {#using-adaptive-renditions}
 
 >[!NOTE]
->Dopo aver aggiunto [proprietà di mappatura rendering al progetto Screens](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e [regole di mappatura rendering](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules), come autore del contenuto ora puoi applicare i rendering alle risorse.
+>Dopo aver aggiunto [proprietà di mappatura della rappresentazione per il progetto Schermi](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e [regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)In qualità di autore di contenuti, ora puoi applicare le rappresentazioni alle risorse.
 
-### Applicazione di rappresentazioni alle risorse {#apply-renditions-assets}
+### Applicazione delle rappresentazioni alle risorse {#apply-renditions-assets}
 
-Segui i passaggi riportati di seguito per applicare rappresentazioni alle risorse, che desideri utilizzare nel canale Tour Screens:
+Per applicare le rappresentazioni alle risorse da utilizzare nel canale Schermi presentazione, segui i passaggi seguenti:
 
-1. Passa alla cartella **Risorse** nell’istanza AEM.
+1. Accedi a **Risorse** nell’istanza AEM.
 
-1. Crea una versione della risorsa più adatta alla visualizzazione di segnaletica, ad esempio `seahorse.jpg`.
+1. Crea una versione della risorsa che si adatti meglio alla visualizzazione del signage, ad esempio: `seahorse.jpg`.
 
-1. Scegli il pattern di denominazione del rendering, ad esempio`landscape`, simile a quello definito nella proprietà **pattern** in **CRXDE Lite**. Per ulteriori informazioni, consulta [Aggiunta di regole di mappatura rappresentazioni](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) .
+1. Scegli il pattern di denominazione della rappresentazione, ad esempio:`landscape`, simile a quanto definito in **pattern** proprietà in **CRXDE Lite**. Fai riferimento a [Aggiunta di regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) per ulteriori dettagli.
 
-1. Fai clic su **Aggiungi rappresentazione** per caricare il rendering, come mostrato nella figura seguente.
+1. Fai clic su **Aggiungi rappresentazione** per caricare la rappresentazione, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 
-1. Seleziona il file risorsa rinominato. Il rendering che si sta aggiungendo deve contenere il pattern (definito nel passaggio 3), ad esempio `seahorse-landscape.png`.
+1. Seleziona il file della risorsa rinominato. La rappresentazione che state aggiungendo deve contenere il pattern (definito nel passaggio 3), ad esempio: `seahorse-landscape.png`.
 
-1. Dopo aver aggiunto la risorsa, selezionala e fai clic su **Gestisci pubblicazione** nella barra delle azioni per pubblicarla.
+1. Dopo aver aggiunto la risorsa, selezionala e fai clic su **Gestisci pubblicazione** dalla barra delle azioni per pubblicare la risorsa.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Per ulteriori informazioni sulla gestione della pubblicazione e sulla distribuzione degli aggiornamenti dei contenuti da Author a Publish al dispositivo, consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) .
+   >Fai riferimento a [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) per ulteriori informazioni sulla gestione delle pubblicazioni e sulla distribuzione degli aggiornamenti dei contenuti da Author a Publish sul dispositivo.
 
 
 ## Strategia di migrazione {#migration-strategy}
 
 >[!IMPORTANT]
->Per le reti di grandi dimensioni, si raccomanda che la migrazione venga effettuata gradualmente per attenuare i rischi, in quanto la funzione introdurrà modifiche nel formato di archiviazione del file e del manifesto. L&#39;aggiunta di `sling:configRef` all&#39;intero progetto comporta l&#39;aggiornamento di tutti i lettori al Feature Pack 6.5.9. Nel caso in cui alcuni dei lettori siano stati aggiornati, è necessario aggiungere il `sling:configRef` solo alle cartelle di display, posizioni o canali con tutti i lettori aggiornati al Feature Pack 6.5.9.
+>Per le reti di grandi dimensioni, si consiglia di eseguire la migrazione in modo graduale per mitigare i rischi, in quanto la funzione introdurrà modifiche nel formato di archiviazione del file e del manifesto. Aggiunta di `sling:configRef` per l’intero progetto, tutti i lettori devono essere aggiornati a Feature Pack 6.5.9. Nel caso in cui, hai aggiornato alcuni dei lettori, devi aggiungere il `sling:configRef` solo per gli schermi, le posizioni o le cartelle di canali con tutti i lettori aggiornati a Feature Pack 6.5.9.
 
 Il diagramma seguente illustra la strategia di migrazione per le reti di grandi dimensioni:
 
 ![immagine](/help/user-guide/assets/adaptive-renditions/migration-strategy1.png)
 
-Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati che la configurazione della mappatura del rendering sia risolvibile nel contesto di visualizzazioni e canali. Per eseguire la migrazione, effettua le seguenti operazioni:
+Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati che la configurazione della mappatura della rappresentazione sia risolvibile nel contesto di visualizzazioni e canali. Per eseguire la migrazione, segui i passaggi seguenti:
 
-1. Aggiungi [Regole di mappatura rappresentazioni](/help/user-guide/adaptive-renditions.md).
-1. Crea una cartella per i nuovi canali e aggiungi un riferimento che punta alla configurazione di mappatura del rendering.
-1. Crea nuovi canali sostituendo quelli precedenti e carica le rappresentazioni.
-1. Riassegna le visualizzazioni ai nuovi canali.
-1. Aggiungi un riferimento alle visualizzazioni o alle posizioni migrate che puntano alla configurazione di mappatura del rendering.
-1. Ripetere i passaggi 3, 4 e 5 per tutti i canali e le visualizzazioni rimanenti.
+1. Aggiungi [Regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md).
+1. Crea una cartella per i nuovi canali e aggiungi un riferimento che punti alla configurazione del mapping della rappresentazione.
+1. Crea nuovi canali in sostituzione di quelli precedenti e carica le rappresentazioni.
+1. Riassegna visualizzazioni ai nuovi canali.
+1. Aggiungi un riferimento alle visualizzazioni o alle posizioni migrate che puntano alla configurazione del mapping della rappresentazione.
+1. Ripetere i punti 3, 4 e 5 per tutti i restanti canali e display.
 
    >[!NOTE]
-   >Dopo aver completato la migrazione, assicurati di rimuovere tutti i riferimenti di configurazione dai canali, dalle visualizzazioni e dalle posizioni e di aggiungerne uno singolo al nodo di contenuto del progetto.
-
+   >Dopo aver completato la migrazione, assicurati di rimuovere tutti i riferimenti di configurazione da canali, visualizzazioni e posizioni e di aggiungerne uno singolo al nodo del contenuto del progetto.

@@ -1,6 +1,6 @@
 ---
 title: Giocatore Tizen
-description: Questa pagina descrive l'installazione e il funzionamento di Tizen Player.
+description: Questa pagina descrive l’installazione e il funzionamento di Tizen Player.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
@@ -16,92 +16,92 @@ ht-degree: 1%
 
 ## Installazione di Tizen Player {#installing-tizen-player}
 
-Per implementare Tizen Player per AEM Screens, effettua le seguenti operazioni:
+Segui i passaggi seguenti per implementare Tizen Player per AEM Screens:
 
-1. Passa a [Download di AEM Screens Player](https://download.macromedia.com/screens/) per scaricare Tizen Player.
+1. Accedi a [Download di AEM Screens Player](https://download.macromedia.com/screens/) per scaricare Tizen Player.
 
-1. Installare il lettore Tizen *(.zip)* file dal computer locale.
+1. Installare il lettore Tizen *(.zip)* dal computer locale.
 
 ## Configurazione del server http {#setting-local-server}
 
 >[!NOTE]
-> Estrai il file zip e rendi disponibile il lettore Tizen attraverso un `http server`. (2) `http server` non deve essere locale o server Apache).
+> Estrai il file zip e rendi disponibile il lettore Tizen tramite un `http server`. (Il `http server` non deve essere un server locale o Apache).
 
 Effettua le seguenti operazioni:
 
-1. Copia i due file estratti, ad esempio `AEMScreensPlayer.wgt` e `sssp_config.xml` alla directory principale del server Web Apache locale.
+1. Copiare i due file estratti, ad esempio `AEMScreensPlayer.wgt` e `sssp_config.xml` nella directory principale del server web Apache locale.
 
    >[!NOTE]
-   >La `AEMScreensPlayer.wgt`è l&#39;effettiva applicazione Tizen player e `sssp_config.xml` contiene informazioni su questa mappa che ti aiutano a installarla sul dispositivo Tizen.
+   >Il `AEMScreensPlayer.wgt`è l’effettiva applicazione lettore Tizen e `sssp_config.xml` contiene informazioni su questa mappa che consentono di installarla sul dispositivo Tizen.
 
-1. Ottieni l’IP o l’URL del server HTTP locale (e il percorso della cartella contenente i file estratti nel passaggio 2 se estratti in una sottocartella e non in una cartella principale)
+1. Ottieni l’IP o l’URL del server HTTP locale (e il percorso della cartella contenente i file estratti al passaggio 2 se estratti in una sottocartella e non nella cartella principale)
 
-1. Il Tizen Player scarica il programma di installazione dal server locale.
+1. Il lettore Tizen scarica il programma di installazione dal server locale.
 
-### Assegnazione di un nome a Tizen Player {#name-tizen}
+### Denominazione del lettore Tizen {#name-tizen}
 
-È possibile assegnare un nome di dispositivo semplice da usare al lettore Tizen, inviando in tal modo il nome assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di assegnare un nome al lettore personalizzato, ma anche di assegnare facilmente il contenuto appropriato.
+Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il nome del dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Tizen, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
->È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato il lettore, il nome del lettore non può più essere cambiato.
+>È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
 
-Per configurare il nome in Tizen Player, effettua le seguenti operazioni:
+Segui i passaggi seguenti per configurare il nome in Tizen player:
 
 1. Fare clic sul pulsante del menu sul telecomando.
-1. Passa a **rete** —> **Nome del dispositivo** per assegnare un nome al lettore.
+1. Accedi a **rete** —> **Nome dispositivo** per assegnare un nome al lettore.
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
 
-Segui i passaggi seguenti sul dispositivo Samsung per completare l&#39;installazione del lettore AEM Screens sul dispositivo:
+Per completare l’installazione del lettore AEM Screens sul dispositivo Samsung, segui i passaggi indicati di seguito:
 
-1. Passa al tuo dispositivo Samsung e accendi.
+1. Passa al dispositivo Samsung e accendi.
 
-1. Fai clic sul pulsante **MENU** dal telecomando del dispositivo e scorri verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
+1. Fai clic su **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
 
-1. Scorri verso il basso e seleziona la **Riproduci tramite** e cambialo in **URL Launcher** opzione .
+1. Scorri verso il basso e seleziona la **Riproduci tramite** e modificarla in **Utilità di avvio URL** opzione.
    ![immagine](/help/user-guide/assets/tizen/rms-2.png)
 
-1. Una volta impostato l’URL Launcher, premi il pulsante **Pagina principale** dal telecomando.
+1. Una volta impostato l&#39;URL Launcher, premere il tasto **Home** dal telecomando.
 
-1. Passa a **Impostazioni URL Launcher** e immetti l&#39;indirizzo IP del server localhost e fai clic su **Fine**.
+1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e fare clic su **Fine**.
    >[!NOTE]
    >Il lettore Tizen deve essere in grado di connettersi al server http.
 
-1. AEM Screens Player dovrebbe ora installare e avviare automaticamente sul tuo dispositivo Samsung.
+1. AEM Screens Player dovrebbe ora essere installato e avviato automaticamente sul tuo dispositivo Samsung.
 
    >[!NOTE]
-   >Sia il dispositivo Tizen che il `http` il server dovrebbe essere in grado di connettersi tra di loro, ovvero il server dovrebbe essere raggiungibile con il Tizen player.
+   >Sia il dispositivo Tizen che il `http` Il server dovrebbe essere in grado di connettersi tra di loro, ovvero il server dovrebbe essere raggiungibile dal lettore Tizen.
 
 
-## Esenzione degli agenti utente con il problema del cookie SameSite {#exempting-user-agents}
+## Esenzione degli agenti utente con il problema relativo ai cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Questa sezione si applica ad Adobe Experience Manager (AEM) da 6.5.5 a AEM 6.5.7**
->Alcuni motori browser non sono compatibili con *SameSite=None* attributo utilizzato nel token di accesso rilasciato da AEM 6.5 a AEM 6.7. Di solito, il problema può essere risolto aggiornando il browser all&#39;ultima versione disponibile. In alcuni casi tali aggiornamenti potrebbero non essere possibili, ad esempio con smart display, set top box o altri dispositivi con motori di navigazione incorporati.
+>**Questa sezione si applica alle versioni da Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
+>Alcuni motori del browser non sono compatibili con *SameSite=Nessuno* attributo utilizzato nel token di accesso rilasciato da AEM 6.5 a AEM 6.7. Di solito, il problema può essere risolto aggiornando il browser all’ultima versione disponibile. In alcuni casi tali aggiornamenti potrebbero non essere possibili, ad esempio con display avanzati, set top box o altri dispositivi con motori di navigazione incorporati.
 
-Segui i passaggi seguenti per esentare questi client incompatibili quando utilizzi *SameSite=None*:
+Segui i passaggi seguenti per esentare questi client incompatibili quando utilizzi *SameSite=Nessuno*:
 
-1. Aggiornamento a Adobe Experience Manager (AEM) Service Pack 6.5.7.
+1. Aggiornamento ad Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Dopo AEM riavvii, vai a `/system/console/configMgr` e cerca **Gestore autenticazione token di Granite Adobe**. Imposta il valore per **SameSite** valore a **Nessuno**.
+1. Dopo il riavvio dell’AEM vai a `/system/console/configMgr` e cerca **Adobe Gestore autenticazione token Granite**. Imposta il valore per **SameSite** valore per **Nessuno**.
 
-1. Dovresti visualizzare una nuova opzione *Agenti utente da esentare dall&#39;attributo samesite*. Popolare questo con un regex corrispondente all&#39;agente utente che è(sono) incompatibile con il *SameSite=None* attributo.
+1. Dovresti visualizzare una nuova opzione *Agenti utente da esentare dall’attributo samesite*. Popola questo con un regex corrispondente all’agente utente incompatibile con il *SameSite=Nessuno* attributo.
    >[!NOTE]
-   >Vedi [SameSite=None: Client noti non compatibili](https://www.chromium.org/updates/same-site/incompatible-clients) per ulteriori dettagli. Per il giocatore Tizen usare il regex: `(.*)Tizen(.*)`.
+   >Consulta [SameSite=None: client incompatibili noti](https://www.chromium.org/updates/same-site/incompatible-clients) per ulteriori dettagli. Per il giocatore Tizen usa il regex: `(.*)Tizen(.*)`.
 
-1. Registra il Tizen player rispetto alla tua istanza AEM 6.5.5 e successive e dovrebbe registrare e mostrare il contenuto normalmente.
+1. Registra il lettore Tizen rispetto all’istanza AEM 6.5.5 e versioni successive e deve registrarsi e mostrare il contenuto normalmente.
 
 ## Provisioning remoto di Tizen Player {#remote-provisioning}
 
-Il provisioning remoto del Tizen Player consente di distribuire centinaia e migliaia di display Samsung Tizen senza molto sforzo. Evita il noioso lavoro manuale per configurare ogni lettore con l&#39;URL del server e il codice di registrazione in massa, o altri parametri e nel caso di Screens as a Cloud Service a configurare la modalità cloud e il token cloud.
+Il provisioning remoto di Tizen Player consente di distribuire centinaia e migliaia di display Samsung Tizen senza troppi sforzi. Evita il tedioso sforzo manuale di configurare ogni lettore con l’URL del server e il codice di registrazione in blocco, o altri parametri e nel caso di Schermi as a Cloud Service a configurare la modalità cloud e il token cloud.
 
-Questa funzione consente di configurare Tizen Player in remoto e di aggiornare anche centralmente le configurazioni, se necessario. Tutto ciò che richiedi è il `HTTP` server utilizzato per ospitare l&#39;applicazione Tizen `(wgt and xml file)` e un editor di testo per salvare `config.json` con i parametri appropriati.
+Questa funzione consente di configurare in remoto il lettore Tizen e, se necessario, di aggiornare centralmente le configurazioni. Tutto ciò che serve è il `HTTP` server utilizzato per ospitare l&#39;applicazione Tizen `(wgt and xml file)` e un editor di testo per salvare `config.json` con i parametri appropriati.
 
-Assicurati di aver configurato l’indirizzo del modulo di avvio URL sul dispositivo personalizzato, ovvero Pulsante Home > Impostazioni del modulo di avvio URL.
-Sulla `HTTP` server che ospita l&#39;applicazione Tizen, inserire il file `config.json` nella stessa posizione del `wgt` file. Il nome del file deve essere `config.json`.
-Il Tizen Player verrà installato e al momento del lancio (e ogni riavvio) controllerà e applicherà le impostazioni nel `config.json` file.
+Accertati di aver configurato l&#39;indirizzo del modulo di avvio URL sul dispositivo Tizen, ovvero il pulsante Home —> le impostazioni del modulo di avvio URL.
+Il giorno `HTTP` che ospita l&#39;applicazione Tizen, inserire il file `config.json` nella stessa posizione del `wgt` file. Il nome file deve essere `config.json`.
+Il lettore Tizen verrà installato e al momento del lancio (e di ogni riavvio) verificherà e applicherà le impostazioni in `config.json` file.
 
-### Criteri JSON di esempio {#example-json}
+### Esempio di criterio JSON {#example-json}
 
 ```java
 {
@@ -115,59 +115,59 @@ Il Tizen Player verrà installato e al momento del lancio (e ogni riavvio) contr
 
 ### Attributi e finalità dei criteri {#policy-attributes}
 
-Nella tabella seguente sono riepilogati i criteri con le relative funzioni.
+Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
 >[!NOTE]
->Le configurazioni dei criteri vengono applicate in modo rigoroso e non vengono sostituite manualmente nell’interfaccia utente amministratore del lettore. Per consentire la configurazione manuale del lettore per un criterio specifico, non specificare il criterio nella configurazione del criterio, ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore si ricarica.
+>Le configurazioni dei criteri vengono rigorosamente applicate e non vengono ignorate manualmente nell’interfaccia utente di amministrazione del lettore. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio. Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
 
 | **Nome criterio** | **Scopo** |
 |---|---|
 | server | URL del server Adobe Experience Manager (AEM). |
-| registrationKey | Utilizzato per la registrazione in massa di dispositivi utilizzando una chiave pre-condivisa. |
-| risoluzione | La risoluzione del dispositivo. |
-| RestartSchedule | Pianificazione del riavvio del lettore. |
-| enableAdminUI | Abilita l’interfaccia utente amministratore per configurare il dispositivo sul sito. Imposta su false una volta configurato completamente e in produzione. |
-| enableOSD | Abilita l’interfaccia utente del commutatore del canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false una volta configurata completamente e in produzione. |
-| enableActivityUI | Attiva per mostrare l&#39;avanzamento delle attività come il download e la sincronizzazione. Attiva per la risoluzione dei problemi e disattiva una volta configurato completamente e in produzione. |
-| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Imposta su false per connettersi ad AMS o a AEM on-Prem. |
-| cloudToken | Token di registrazione per registrarsi su Screens as a Cloud Service. |
+| registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |
+| risoluzione | Risoluzione del dispositivo. |
+| rebootSchedule | Pianificazione per il riavvio del lettore. |
+| enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
+| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
+| enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 
-## Registrazione del dispositivo Tizen al servizio di gestione remota Samsung (RMS) {#enroll-tizen-device-rms}
+## Iscrizione del dispositivo Tizen a Samsung Remote Management Service (RMS) {#enroll-tizen-device-rms}
 
-Segui i passaggi seguenti per registrare il dispositivo Tizen al servizio di gestione remota Samsung (RMS) e configurare in remoto l&#39;URL Launcher:
+Segui i passaggi seguenti per registrare il dispositivo Tizen su Samsung Remote Management Service (RMS) e configurare in remoto l’URL Launcher:
 
 >[!NOTE]
 >Verificare le impostazioni di rete e il monitor.
 
-1. Passa a **Menu** -> **Rete** -> **Impostazioni di rete del server** e premere **Invio**.
+1. Accedi a **Menu** -> **Rete** -> **Impostazioni rete server** e premere **Invio**.
 
-1. Passa all&#39;indirizzo del server e digita l&#39;accesso all&#39;URL MagicInfo e premi **Fine**.
+1. Passa all’indirizzo del server e digita nell’URL MagicInfo, quindi premi **Fine**.
 
-1. Imposta TLS, se necessario. Passa alla porta e seleziona il numero di porta dal server e fai clic su **Salva**.
+1. Imposta TLS, se necessario. Passare alla porta, selezionare il numero di porta dal server e fare clic su **Salva**.
 
-1. Passa a **Dispositivo** e controlla il dispositivo appena configurato. Una volta trovato il dispositivo, fai clic sulla casella di controllo e seleziona **Approva**.
+1. Accedi a **Dispositivo** e verificare la periferica appena configurata. Una volta trovato un dispositivo, fai clic sulla casella di controllo e seleziona **Approva**.
 
    >![immagine](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Compila le informazioni richieste e seleziona un gruppo di dispositivi. Fai clic su **OK** per completare il processo di approvazione.
+1. Inserire le informazioni richieste e selezionare un gruppo di dispositivi. Fai clic su **OK** per completare il processo di approvazione.
 
    >![immagine](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Una volta approvato, il dispositivo dovrebbe essere visualizzato nell&#39;elenco dei dispositivi. Fai clic sul pulsante *Informazioni* pulsante situato nella casella del dispositivo, ovvero **i**, come illustrato nella figura seguente.
+1. Una volta approvato, il dispositivo dovrebbe comparire nell&#39;elenco dei dispositivi. Fai clic sul pulsante *Informazioni* sulla scatola del dispositivo, ovvero **i**, come illustrato nella figura seguente.
 
    >![immagine](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Viene visualizzata la finestra di dialogo delle informazioni sul dispositivo. Seleziona la **Informazioni sul dispositivo** e fai clic su **Modifica**.
+1. Viene visualizzata la finestra di dialogo Informazioni dispositivo. Seleziona la **Informazioni dispositivo** e fai clic su **Modifica**.
 
    >![immagine](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Modifica le opzioni del dispositivo e seleziona la **Configurazione** scheda . Passa a **URL Launcher** e immetti l&#39;URL che ospita il wgt e `SSSP config file` per installare un `SSSP` come illustrato nella figura riportata di seguito.
+1. Modifica le opzioni del dispositivo e seleziona la **Configurazione** scheda. Accedi a **Utilità di avvio URL** e immetti l’URL che ospita il wgt e `SSSP config file` per installare un `SSSP` come illustrato nella figura riportata di seguito.
 
    ![immagine](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Fai clic su **Salva** per visualizzare le modifiche nella schermata di visualizzazione.
+1. Fai clic su **Salva** affinché le modifiche vengano visualizzate sullo schermo.
 
 ### Utilizzo del telecomando Screens {#using-remote-control}
 
-AEM Screens fornisce la funzionalità Controllo remoto. Ulteriori informazioni su questa funzione sono disponibili qui: [Controllo remoto schermo](implementing-remote-control.md)
+AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzione qui: [Controllo remoto Schermi](implementing-remote-control.md)

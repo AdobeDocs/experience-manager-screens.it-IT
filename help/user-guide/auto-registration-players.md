@@ -1,54 +1,54 @@
 ---
-title: Registrazione automatica dei giocatori
-seo-title: Registrazione automatica dei giocatori
-description: Segui questa pagina per scoprire la registrazione automatica dei giocatori con AMS/On-Prem Screens.
-feature: Amministrazione di schermi, lettori
+title: Registrazione automatica dei lettori
+seo-title: Auto Registration of Players
+description: Segui questa pagina per scoprire di più sulla Registrazione automatica dei lettori con AMS/On-Prem Screens.
+feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
 source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-# Registrazione automatica dei giocatori {#auto-registration}
+# Registrazione automatica dei lettori {#auto-registration}
 
-La registrazione collettiva di migliaia di giocatori manualmente può diventare molto ingombrante e aggiunge tempo e costi. Per semplificare questo processo, la funzione di registrazione in blocco ti consente di specificare una chiave pre-condivisa in AEM che può essere fornita in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
+Registrare manualmente migliaia di giocatori in massa può diventare molto complicato e aggiunge tempo e costi. Per semplificare questo processo, la funzione di registrazione in blocco consente di specificare una chiave già condivisa in AEM che può essere fornita in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
 
-## Implementazione della registrazione automatica dei giocatori {#bulk-registering-implementation}
+## Implementazione della registrazione automatica dei lettori {#bulk-registering-implementation}
 
-Segui i passaggi seguenti per implementare la registrazione automatica dei giocatori:
+Segui i passaggi seguenti per implementare la registrazione automatica dei lettori:
 
-1. Accedi all&#39;istanza AEM e seleziona il progetto schermate AEM e fai clic su **Proprietà** nella barra delle azioni.
-1. Seleziona la scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo** .
+1. Accedi all’istanza AEM e seleziona il progetto AEM screens, quindi fai clic su **Proprietà** dalla barra delle azioni.
+1. Seleziona la **Avanzate** per visualizzare **Registrazione dispositivo** sezione.
 
-1. Specifica un codice di registrazione automatica nel campo **Codice di registrazione bulk** e una visualizzazione predefinita facoltativa in **Assegnazione visualizzazione predefinita** per assegnare al lettore che viene registrato automaticamente.
+1. Specificare un codice di registrazione automatica in **Codice di registrazione in blocco** e una visualizzazione predefinita facoltativa in **Assegnazione visualizzazione predefinita** per assegnare al lettore la registrazione automatica.
    >[!NOTE]
-   >Immetti un codice a tua scelta e seleziona una visualizzazione predefinita, se necessario.
+   >Immetti un codice a tua scelta e, se necessario, seleziona una visualizzazione predefinita.
 
    ![immagine](/help/user-guide/assets/auto-registration/auto-register1.png)
-1. Effettua il provisioning dei tuoi lettori con l’URL del server e il codice di registrazione appropriati utilizzando un file MDM o JSON di configurazione.
+1. Fornisci ai lettori l’URL del server e il codice di registrazione appropriati utilizzando un file MDM o JSON di configurazione.
 
    >[!NOTE]
-   >Per ulteriori informazioni, consulta la pagina di implementazione per il lettore specifico del sistema operativo in uso. Puoi anche utilizzare l’interfaccia utente amministratore per inserire il codice di registrazione.
+   >Per ulteriori informazioni, consulta la pagina di implementazione del lettore specifico per il sistema operativo in uso. Puoi anche utilizzare l’interfaccia utente di amministrazione per immettere il codice di registrazione.
 
-1. Se l’attributo `registrationKey` corrisponde a quello configurato in AEM, il lettore si registra automaticamente e, se è configurata una visualizzazione predefinita, il contenuto viene scaricato e riprodotto.
+1. Se il `registrationKey` corrisponde a quello configurato in AEM, il lettore si registrerà automaticamente e, se è configurata una visualizzazione predefinita, tale contenuto verrà scaricato e riprodotto.
 
    ![immagine](/help/user-guide/assets/auto-registration/auto-register2.png)
 
-## Tecniche consigliate per la sicurezza {#security-best-practices}
+## Best practice per la sicurezza {#security-best-practices}
 
 Segui la sezione seguente per prendere in considerazione alcune delle best practice per la sicurezza:
 
-* Per garantire che il codice di registrazione non sia compromesso, configura il codice in AEM immediatamente prima di avviare la registrazione collettiva e, al termine, cancella quel campo e salva in AEM.
+* Per evitare che il codice di registrazione venga compromesso, configura il codice in AEM immediatamente prima di avviare la registrazione in blocco. Al termine, cancella questo campo e salva in AEM.
 
-* Puoi configurare il percorso `/bin/screens/registration` in modo che sia accessibile solo da intervalli IP noti, se possibile.
+* Puoi configurare il percorso `/bin/screens/registration` per essere accessibile solo da intervalli IP noti, se possibile.
 
-* Prendi in considerazione l’utilizzo di un MDM per il provisioning del lettore con la configurazione.
+* Prendi in considerazione l’utilizzo di un MDM per eseguire il provisioning del lettore con la configurazione.
 
-* Utilizza sempre `HTTPS` e non `HTTP` per la comunicazione del lettore con AEM.
+* Usa sempre `HTTPS` e non `HTTP` per la comunicazione tra i giocatori e l’AEM.
 
    >[!NOTE]
-   >L&#39;assegnazione predefinita della visualizzazione attualmente funziona solo per la registrazione in serie e non per la registrazione manuale senza un codice di registrazione.
+   >L&#39;assegnazione di visualizzazione predefinita funziona attualmente solo per la registrazione in blocco e non per la registrazione manuale senza un codice di registrazione.

@@ -1,50 +1,49 @@
 ---
-title: Eventi basati su dati
-seo-title: Eventi basati su dati
-description: 'null'
-seo-description: 'null'
+title: Eventi basati sui dati
+seo-title: Data Driven Events
+description: null
+seo-description: null
 page-status-flag: never-activated
 uuid: 138ceff2-84a2-47f2-981a-755522502c16
 contentOwner: jsyal
 discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-translation-type: tm+mt
 source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 95%
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
 
-# Eventi basati su dati{#data-driven-events}
+# Eventi basati sui dati{#data-driven-events}
 
-Nella segnaletica digitale, o digital signage, si utilizzano eventi basati su dati per coinvolgere i clienti e trasmettere informazioni in tempo reale tramite l’uso interattivo di menu digitali e video wall. Gli eventi basati su dati consentono di ottimizzare l’esperienza utente.
+Nel digital signage, gli eventi basati sui dati coinvolgono e trasmettono informazioni in tempo reale tramite l&#39;utilizzo interattivo di menu digitali e pareti video. Puoi massimizzare l’esperienza utente con eventi basati sui dati.
 
-## Utilizzo di Context Hub per gli eventi basati su dati {#using-context-hub-for-data-driven-events}
+## Utilizzo di Context Hub per eventi basati su dati {#using-context-hub-for-data-driven-events}
 
-AEM Screens consente di gestire gli eventi basati su dati tramite Context Hub. Context Hub, consente di utilizzare in tempo reale
+AEM Screens abilita eventi basati sui dati tramite Context Hub. Context Hub, consente di utilizzare in tempo reale
 
 ### Categorizzazione di eventi basati su dati {#categorizing-data-driven-events}
 
-Gli eventi basati su dati sono suddivisi in quattro diverse categorie:
+Gli eventi basati su dati sono suddivisi in quattro categorie diverse:
 
-* Dati in ingresso - Operativi
-* Dati in ingresso - Presentazione
-* Dati in uscita - Attuabili
-* Dati in uscita - Presentazione
+* Dati in Operativo
+* Dati nella presentazione
+* Uscita dati actionable
+* Data Out Presentational
 
-#### Dati in ingresso - Operativi  {#data-in-operational}
+#### Dati in Operativo {#data-in-operational}
 
-Questa categoria può essere ulteriormente suddivisa in Interruzione canale e Segnaposto.
+Questa può essere ulteriormente categorizzata in Interrupt canale e Segnaposto.
 
-#### Dati in ingresso - Presentazione  {#data-in-presentation}
+#### Dati nella presentazione {#data-in-presentation}
 
-I dati sono in esecuzione nel canale temporaneo e dopo un’attivazione, cambiano una risorsa all’interno di un canale.
+I dati sono in esecuzione nel canale temporaneo e, dopo un trigger, cambia una risorsa all’interno di un canale.
 
-#### Dati in uscita - Attuabili  {#data-out-actionable}
+#### Uscita dati utilizzabile {#data-out-actionable}
 
-Quando viene inviato un comando allo schermo LCD per accendere e spegnere lo schermo. Esempio, luminosità o volume dello schermo.
+Quando si invia un comando allo schermo LCD per accendere e spegnere lo schermo. Ad esempio, luminosità o volume dello schermo.
 
-#### Dati in uscita - Presentazione  {#data-out-presentational}
+#### Presentazione dati in uscita {#data-out-presentational}
 
-Grafico che raccoglie le informazioni nel ciclo di feedback. Utilizza l’analisi per valutare e osservare gli eventi.
+Grafico che aggrega le informazioni nel ciclo di feedback. Utilizza le analisi per valutare e notare gli eventi.

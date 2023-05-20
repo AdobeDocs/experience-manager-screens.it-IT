@@ -1,8 +1,8 @@
 ---
 title: Note sulla versione per Feature Pack 201907
-seo-title: Note sulla versione per Feature Pack 201907
-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201907 rilasciato il 31 luglio 2019.
-seo-description: Segui questa pagina per ottenere informazioni su AEM Screens Feature Pack 201907 rilasciato il 31 luglio 2019.
+seo-title: Release Notes for Feature Pack 201907
+description: Segui questa pagina per ottenere informazioni sul Feature Pack di AEM Screens 201907 rilasciato il 31 luglio 2019.
+seo-description: Follow this page to get information for AEM Screens Feature Pack 201907 released on July 31, 2019.
 uuid: e5349c92-d532-4f04-a757-7c4545cdb074
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -13,69 +13,69 @@ docset: aem65
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 4611dd40153ccd09d3a0796093157cd09a8e5b80
+exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
+source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 2%
+source-wordcount: '365'
+ht-degree: 1%
 
 ---
-
 
 # Note sulla versione per Feature Pack 201907 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens supporta la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
-AEM Screens ha rilasciato AEM Feature Pack 5 6.4.5 e AEM Feature Pack 1 6.5.1 con i seguenti dettagli.
+AEM Screens ha rilasciato AEM 6.4.5 Feature Pack 5 e AEM 6.5.1 Feature Pack 1 con i seguenti dettagli.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
-La data di rilascio per AEM Screens Feature Pack 201907 è il 31 luglio 2019.
+La data di rilascio del Feature Pack 201907 per AEM Screens è il 31 luglio 2019.
 
 ### Novità {#what-s-new}
 
-* **Data Trigger guida la modifica delle risorse in un canale AEM Screens**
+* **Trigger dati per cambiare le risorse in un canale AEM Screens**
 
-Il lettore passa a un canale che mostra le informazioni di emergenza quando riceve un evento attivato dal sistema di emergenza. Il canale gioca esclusivamente fino alla fine della situazione di emergenza.
+Il lettore passa a un canale che mostra le informazioni di emergenza quando riceve un evento attivato dal sistema di emergenza. Il canale gioca esclusivamente fino a quando la situazione di emergenza non è finita.
 
-Fai riferimento a [Canale di emergenza](emergency-channel.md) Caso d&#39;uso per l&#39;implementazione.
+Fai riferimento a [Canale di emergenza](emergency-channel.md) Caso d’uso per l’implementazione.
 
-* **Targeting abilitato per componenti asincroni
+* **Targeting abilitato per i componenti asincroni
 
-Il targeting può ora essere abilitato per le risorse utilizzate nel progetto AEM Screens.
+È ora possibile abilitare il targeting per le risorse utilizzate nel progetto AEM Screens.
 
-Per ulteriori informazioni su come abilitare il targeting per le risorse nel progetto AEM Screens, consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
+Per ulteriori informazioni su come abilitare il targeting delle risorse nel progetto AEM Screens, consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
 
-Dopo aver configurato ContextHub per il progetto AEM Screens, segui diversi casi d’uso per comprendere in che modo i dati attivati dalle risorse svolgono un ruolo fondamentale in settori diversi:
+Dopo aver configurato ContextHub per il progetto AEM Screens, segui diversi casi d’uso per comprendere in che modo le risorse attivate dai dati svolgono un ruolo fondamentale in diversi settori:
 
-**[Attivazione mirata inventario retail](retail-inventory-activation.md)**
+**[Attivazione con targeting magazzino vendita al dettaglio](retail-inventory-activation.md)**
 
-**[Attivazione temperatura centro viaggi](local-temperature-activation.md)**
+**[Attivazione temperatura centro di viaggio](local-temperature-activation.md)**
 
-**[Attivazione prenotazione alberghiera](hospitality-reservation-activation.md)**
+**[Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)**
 
-* **Miglioramenti nei gestori aggiornamenti**
+* **Miglioramenti nei gestori degli aggiornamenti**
 
-Il gestore di aggiornamenti ora analizza i frammenti di esperienza e raccoglie tutte le immagini, i video o i prodotti ad esso associati.
+Il gestore degli aggiornamenti analizza ora i frammenti di esperienza e raccoglie qualsiasi immagine, video o prodotto associato.
 
 * **Lanci**
 
-I lanci consentono agli autori di contenuti di creare versioni future dei canali. Con l’aiuto dei lanci, gli autori possono visualizzare in anteprima ogni canale del lancio e devono essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceverà la notifica e potrà approvare o rifiutare la richiesta. Una volta raggiunta la data di inizio, il contenuto viene riprodotto nei dispositivi.
-Per ulteriori informazioni, consulta [Lanci](launches.md) .
+I lanci consentono agli autori di contenuti di creare versioni future dei canali. Con l’aiuto dei lanci, gli autori possono visualizzare in anteprima ogni canale del lancio e dovrebbero essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceverà una notifica e potrà approvare o rifiutare la richiesta. Una volta raggiunta la data di attivazione, il contenuto viene riprodotto nei dispositivi.
+Fai riferimento a [Lanci](launches.md) per ulteriori dettagli.
 
-* **Configurazioni offline nei frammenti esperienza**
+* **Configurazioni offline in Frammenti esperienza**
 
-È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione del frammento di esperienza Screens. Per ulteriori informazioni, consulta [Uso dei frammenti esperienza](experience-fragments-in-screens.md) .
+È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione del frammento di esperienza Screens. Fai riferimento a [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 
-I seguenti lettori AEM Screens vengono rilasciati per AEM Feature Pack 5 6.4.5 e AEM Feature Pack 1 6.5.1:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.4.5 Feature Pack 5 e AEM 6.5.1 Feature Pack 1:
 
 * ChromeOS
 * Windows
 * Android
 
-#### Download di AEM Screens Player {#aem-screens-player-downloads}
+#### Download di AEM Screens Player  {#aem-screens-player-downloads}
 
-Per scaricare l&#39;ultimo lettore AEM Screens e ulteriori informazioni sulle correzioni di bug, consulta [Download di AEM Screens Player](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [Download di AEM Screens Player](https://download.macromedia.com/screens/).
