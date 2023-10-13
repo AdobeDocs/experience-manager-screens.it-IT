@@ -8,9 +8,9 @@ user-guide-description: Scopri come utilizzare una soluzione Digital Signage per
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: b055ab685a1dcf5d53552971ecea42bffd81b848
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 14%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 14%
       + [Lettore Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Giocatore Tizen](tizen-player.md)
+      + [Lettore cloud](implementing-cloud-player.md)
       + [Registrazione automatica dei lettori](auto-registration-players.md)
       + [Uso del telecomando](implementing-remote-control.md)
    + Pubblicazione autore {#author-publish}
