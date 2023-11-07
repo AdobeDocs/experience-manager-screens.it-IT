@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Segui i passaggi seguenti per configurare la console di gestione Chrome:
 
 ## Denominazione del lettore Chrome OS {#name-chrome}
 
-Puoi assegnare un nome descrittivo del dispositivo al lettore Chrome, inviando in tal modo il nome del dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Chrome, ma anche di assegnare facilmente i contenuti appropriati.
+Puoi assegnare un nome descrittivo del dispositivo al lettore Chrome, inviando in tal modo il nome del dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Chrome, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
@@ -58,7 +58,7 @@ Segui i passaggi seguenti per configurare il nome nel lettore Chrome:
    ![immagine](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituirà vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non verranno accettate da Adobe Experience Manager (AEM).
+   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituirà vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non saranno accettate da Adobe Experience Manager (AEM).
 
 ### Abilitazione della modalità Kiosk (chiosco) {#enabling-kiosk-mode}
 
@@ -142,12 +142,15 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
 | **Nome criterio** | **Scopo** |
 |---|---|
-| *server* | URL del server Adobe Experience Manager |
-| *risoluzione* | Risoluzione del dispositivo Chrome OS |
-| *rebootSchedule* | Pianificazione per il riavvio del lettore Chrome |
-| *enableAdminUI* | Abilita l’interfaccia utente di amministrazione per consentire ai tecnici di configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
-| *enableOSD* | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false una volta che è completamente configurato e in produzione. |
-| *enableActivityUI* | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| server | URL del server Adobe Experience Manager (AEM). |
+| registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |
+| risoluzione | Risoluzione del dispositivo. |
+| rebootSchedule | Pianificazione per il riavvio del lettore. |
+| enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
+| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
+| enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 >[!NOTE]
 >

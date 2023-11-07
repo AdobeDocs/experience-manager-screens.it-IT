@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 97bc64ce3c01ac2de301b17bf9f8610662d45f88
+source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -39,11 +39,11 @@ Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/scr
 >[!NOTE]
 >Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Windows Player.
 
-Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione della console web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
+Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione console Web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
 
 Effettua le seguenti operazioni:
 
-1. Accedi a **Configurazione della console web Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
+1. Accedi a **Configurazione console Web Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
 
 1. Cerca *Adobe Gestore autenticazione token Granite*.
 
@@ -70,7 +70,7 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 ## Denominazione di Windows Player {#name-windows}
 
-È possibile assegnare un nome di dispositivo descrittivo al lettore di Windows, inviando in tal modo il nome di dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Windows, ma anche di assegnare facilmente il contenuto appropriato.
+È possibile assegnare un nome di dispositivo descrittivo al lettore di Windows, inviando in tal modo il nome di dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Windows, ma anche di assegnare facilmente il contenuto appropriato.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
@@ -120,14 +120,18 @@ Per configurare Windows 10 Player, attenersi alla procedura descritta di seguito
 
 La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON per i criteri a scopo di riferimento:
 
+
 | **Nome criterio** | **Scopo** |
 |---|---|
 | server | URL del server Adobe Experience Manager (AEM). |
+| registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |
 | risoluzione | Risoluzione del dispositivo. |
 | rebootSchedule | Pianificazione per il riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
-| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false una volta che è completamente configurato e in produzione. |
+| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 #### Esempio di file JSON del criterio {#example-policy-json-file}
 
