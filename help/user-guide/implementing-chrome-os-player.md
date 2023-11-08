@@ -13,7 +13,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
 | enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
-| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudMode | Imposta su true se desideri che il lettore Chrome si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
 | cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 >[!NOTE]

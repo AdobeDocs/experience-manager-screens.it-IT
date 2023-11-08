@@ -14,7 +14,7 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 970762bb08f19ab07917dd5a21f67a007ec1143f
+source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 1%
@@ -130,7 +130,7 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
 | enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
-| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudMode | Impostare su true se si desidera che il lettore Windows si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
 | cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 #### Esempio di file JSON del criterio {#example-policy-json-file}
