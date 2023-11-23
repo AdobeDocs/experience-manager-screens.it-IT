@@ -11,9 +11,10 @@ discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
-source-git-commit: 718ef76b620accd7096be2e4b7ac53658cb7fce7
+exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
+source-git-commit: 8d1b955e54650daf3a09b5f1c16f92f2e1143f2c
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -67,3 +68,24 @@ In base al tipo di istanza AEM, seleziona una delle seguenti guide per abilitare
 * [AEM on-premise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams)
 * [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs)
 
+## Supporto offline per il recupero di contenuti esterni {#offline-support}
+
+In vari scenari di utilizzo, i canali possono richiedere il recupero di contenuto da un’origine esterna (ad esempio, widget meteo o applicazioni a pagina singola integrate in Commerce) che non può fornire supporto offline. Per abilitare la funzionalità offline per questi casi d’uso specifici, Cloud Player offre il supporto per l’intestazione personalizzata.
+Cloud Player utilizza una strategia di cache Network First, ovvero tenta di recuperare il contenuto dalla rete (quindi aggiorna la cache con l’ultima versione), tornando al contenuto memorizzato nella cache, se disponibile. Per implementare il supporto offline per tale recupero di contenuto, l’intestazione personalizzata deve essere inclusa nella richiesta. Successivamente, la richiesta con l’intestazione personalizzata verrà memorizzata nella cache del lettore, facilitando l’accesso offline al contenuto e mantenendo la strategia di cache Network First.
+
+```
+// Sample fetch request with the 'X-Cache-Strategy' header
+fetch(externalUrl, {
+  headers: {
+    'X-Cache-Strategy': 'external-cache'
+  }
+})
+  .then(response => {
+    // Handle the response, which may be from the network or cache.
+    // Your logic here.
+  })
+  .catch(error => {
+    // Handle any errors that may occur during the fetch operation.
+    // Your error handling logic here.
+  }); 
+```
