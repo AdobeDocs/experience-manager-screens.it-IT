@@ -14,9 +14,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 97820c602885ecf581ae1e6bada6c104aeeb4c70
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stata installata la versione minima del Feature Pack 2 AEM 6.4.2 o del Feature Pack 4 AEM 6.3.3.
+>Questa funzionalità di AEM Screens è disponibile solo se è stata installata la versione minima del Feature Pack 2 AEM 6.4.2 o del Feature Pack 4 AEM 6.3.3. Per i clienti del servizio cloud AEM Screens, contatta il tuo Adobe Relationship Manager per abilitare Adobe Analytics in Screens Cloud.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Il diagramma architetturale seguente spiega l’integrazione di Adobe Analytics 
 
 Le impostazioni di Adobe Analytics possono essere configurate dalla console OSGi.
 
-Accedi a **Configurazione della console web Adobe Experience Manager** per configurare Adobe Analytics per AEM Screens, come illustrato nella figura seguente:
+Accedi a **Configurazione console Web Adobe Experience Manager** per configurare Adobe Analytics per AEM Screens, come illustrato nella figura seguente:
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -98,7 +98,7 @@ La tabella seguente evidenzia le proprietà con la relativa descrizione per la c
   <tr>
    <td><strong>URL di Analytics</strong></td>
    <td>URL per pubblicare i dati di analisi dal lettore. <br>
-   Per sviluppo/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Per la produzione</em> - https://cc-api-data.adobe.io/ingest/</em><br /> <br /></td>
+   Per sviluppo/fase</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>Per la produzione</em> - https://cc-api-data.adobe.io/ingest/<br /> <br /></td>
   </tr>
   <tr>
    <td><strong>Chiave API di Analytics</strong></td>
