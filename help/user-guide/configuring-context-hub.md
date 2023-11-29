@@ -14,9 +14,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 93e9514ebd25a4d84076174c4d90a0325b167393
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1513'
 ht-degree: 2%
 
 ---
@@ -104,21 +104,20 @@ La seguente convalida è quella che verrà visualizzata quando si controlla la c
       >
       >Effettua le seguenti operazioni:
       >
-      >1. Passa a CRXDE Lite e quindi a `/conf/screens/settings/cloudsettings`.
+      >1. Passa a CRXDE Liti e quindi a `/conf/screens/settings/cloudsettings`.
       >1. Controlla se `cloudsettings jcr:primaryType` è in `sling:Folder`. Se il `jcr:primaryType` non è in `sling:folder`, procedere ai passaggi successivi.
       >1. Fai clic con il pulsante destro del mouse su `/conf/screens/settings` e crea un nuovo nodo con *nome*  as **impostazioni cloud1** e *Tipo* as **sling:Cartella** e salva le modifiche.
       >1. Sposta tutti i nodi in `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
       >1. Elimina `cloudsettings` e salva.
       >1. Rinomina `cloudsettings1` a `cloudsettings` e salva.
       >1. Si noti che /conf/screens/settings/cloudsettings ha `jcr:primaryType` as `sling:Folder`.
-
       >
       >Prima o dopo l’aggiornamento, segui la procedura riportata di seguito per effettuare l’authoring e pubblicare.
 
    1. Inserisci il **Titolo** as **Fogli Google**, **Nome store** as **googlesheets**, e **Tipo di archivio** as **contexthub.generic-jsonp** e fai clic su **Successivo**.
 
       >[!CAUTION]
-      >Se utilizzi Adobe Experience Manager (AEM) 6.4, immetti il **Titolo configurazione** as **googlesheets** e **Tipo di archivio** as **contexthub.generic-jsonp**.
+      >Se si utilizza Adobe Experience Manager (AEM) 6.4, immettere il **Titolo configurazione** as **googlesheets** e **Tipo di archivio** as **contexthub.generic-jsonp**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub6.png)
 
@@ -144,10 +143,13 @@ La seguente convalida è quella che verrà visualizzata quando si controlla la c
       ```
 
       >[!NOTE]
+      >
       Nel codice di esempio di cui sopra, **pollInterval** definisce la frequenza di aggiornamento dei valori (in ms).
+      >
       Sostituisci il codice con il *&lt;sheet id=&quot;&quot;>* e *&lt;api key=&quot;&quot;>*, recuperato durante la configurazione dei fogli Google.
 
       >[!CAUTION]
+      >
       Se crei le configurazioni dell’archivio dei fogli di Google al di fuori della cartella globale (ad esempio nella tua cartella di progetto), il targeting non funzionerà come previsto.
 
 1. **Impostazione della segmentazione dell’archivio**
@@ -201,6 +203,7 @@ Segui i passaggi seguenti per creare un marchio nelle attività e nell’area so
 
 
       >[!CAUTION]
+      >
       Problema noto: per aggiungere un’area, rimuovi la pagina mastro dall’URL, ad esempio
       `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html/content/campaigns/screensbrand/master`.
 
@@ -267,9 +270,11 @@ Il **googlesheets/value/1/0** si riferisce alla riga 2 e alla colonna compilate 
    1. Inserisci il **Valore** as **70**.
 
       >[!NOTE]
+      >
       L’AEM convalida i dati dal foglio Google mostrando il segmento in verde.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub18.png)
+
    Allo stesso modo, modifica i valori delle proprietà in **Minore di 50**.
 
    1. Trascina la **Confronto: Proprietà - Valore** all&#39;editor.
@@ -281,7 +286,6 @@ Il **googlesheets/value/1/0** si riferisce alla riga 2 e alla colonna compilate 
    1. Seleziona la **Operatore** as **less-than** dal menu a discesa.
 
    1. Inserisci il **Valore** as **50**.
-
 
 
 ## Abilitazione del targeting nei canali {#step-enabling-targeting-in-channels}
@@ -296,18 +300,21 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
 1. Seleziona la **Personalizzazione** per impostare le configurazioni ContextHub.
 
-   1. Imposta il **Percorso ContextHub** a `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Percorso segmenti** a `/conf/screens/settings/wcm/segments` e fai clic su **Salva**.
+   1. Imposta il **Percorso ContextHub** a `/conf/screens/settings/wcm/segments` e **Percorso segmenti** a `/conf/screens/settings/wcm/segments`.
+   1. Imposta marchio su **ScreensBrand** dal menu a discesa e **Imposta riferimento area** a **ScreensValue**.
 
    1. Fai clic su **Salva e chiudi**.
 
       >[!NOTE]
+      >
       Utilizza ContextHub e il percorso Segmenti, dove hai inizialmente salvato le configurazioni e i segmenti dell’hub di contesto.
 
-      ![immagine](/help/user-guide/assets/context-hub/context-hub20.png)
+      ![immagine](/help/user-guide/assets/context-hub/context-hub20New.png)
 
    1. Naviga e seleziona la **TargetChannel** channel e click **Modifica** dalla barra delle azioni.
 
       >[!NOTE]
+      >
       Se hai impostato tutto correttamente, vedrai **Targeting** nell’elenco a discesa dall’editor, come illustrato nella figura riportata di seguito.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub21.png)
