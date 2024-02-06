@@ -4,9 +4,9 @@ description: Segui questa pagina per ottenere informazioni sull’AEM Screens Fe
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: e172d2a4a3d2c1f3b555edc8f8ea41b663fc0a30
+source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '232'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,3 @@ Questa versione include solo correzioni di sicurezza.
 * Problema XSS in `libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.openLink.js`. (SCRNS-3459)
 
 * Pulsanti Pianificazione ricorrenza e Aggiungi pianificazione corretti e mancanti: problema rilevato nella programmazione dei canali. (SCRNS-2739)
-
-#### Download di AEM Screens Player  {#aem-screens-player-downloads}
-
-Per scaricare l’ultimo lettore AEM Screens, fai riferimento a **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
