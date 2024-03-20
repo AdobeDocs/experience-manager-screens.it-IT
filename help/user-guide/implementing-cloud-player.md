@@ -76,9 +76,11 @@ In base al tipo di istanza AEM, seleziona una delle seguenti guide per abilitare
 
 >[!NOTE]
 >
-## App Chrome obsolete da Google
-1. App Chrome su hardware Chrome OS: Google ha attivamente dichiarato obsolete le app Chrome a favore delle app PWA, con una migrazione pianificata fino a gennaio 2025. Di conseguenza, l’app AEM Screens Player su Chrome OS cesserà di funzionare in base alla timeline condivisa.Esortiamo i nostri clienti che attualmente utilizzano Chrome Player in produzione a pianificare la transizione a Screens Cloud Player.
-2. Chrome Extension Player su Mac, Windows e Linux: a causa del processo di rimozione di Google, a partire dalla versione 114 di Google Chrome, Screens Chrome Extension Player non è più supportato. Consigliamo vivamente la transizione al nostro Screens Cloud Player per tutti i requisiti di sviluppo e test.
+>## App Chrome obsolete da Google
+>1. App Chrome su hardware Chrome OS: 
+>Google ha attivamente dichiarato obsolete le app Chrome a favore delle app PWA, con una migrazione pianificata fino a gennaio 2025. Di conseguenza, l’app AEM Screens Player su Chrome OS cesserà di funzionare in base alla timeline condivisa.Esortiamo i nostri clienti che attualmente utilizzano Chrome Player in produzione a pianificare la transizione a Screens Cloud Player.
+>2. Chrome Extension Player su Mac, Windows e Linux: 
+>a causa del processo di rimozione di Google, a partire dalla versione 114 di Google Chrome, Screens Chrome Extension Player non è più supportato. Consigliamo vivamente la transizione al nostro Screens Cloud Player per tutti i requisiti di sviluppo e test.
 
 ## Supporto offline per il recupero di contenuti esterni {#offline-support}
 
