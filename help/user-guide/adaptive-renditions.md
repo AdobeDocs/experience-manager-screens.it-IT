@@ -1,11 +1,11 @@
 ---
 title: Panoramica e configurazioni dell’architettura di rappresentazioni adattive
-description: Questa pagina descrive la panoramica dell’architettura e le configurazioni in CRXDE Lite per le rappresentazioni adattive in AEM Screens.
+description: Questa pagina descrive la panoramica dell’architettura e le configurazioni in CRXDE Liti per le rappresentazioni adattive in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: e5da55eeb5da3d0ef9f21bd47bfec75d660a6a1e
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 3%
+source-wordcount: '645'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Per abilitare la funzione Rendering adattivi, è necessario che siano presenti l
 
 Per configurare la configurazione, segui i passaggi seguenti:
 
-1. Accedi a **CRXDE Lite**. Seleziona, se **rendition-mapping** la configurazione esiste in `/conf/screens/sling:configs/rendition-mapping`, come illustrato nella figura seguente.
+1. Accedi a **CRXDE Liti**. Seleziona, se **rendition-mapping** la configurazione esiste in `/conf/screens/sling:configs/rendition-mapping`, come illustrato nella figura seguente.
 
    >![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
@@ -46,7 +46,7 @@ Per configurare la configurazione, segui i passaggi seguenti:
 
 ### Aggiunta di una proprietà di mappatura rappresentazione a un progetto esistente {#rendition-mapping-existing}
 
-1. Accedi a **CRXDE Lite**.
+1. Accedi a **CRXDE Liti**.
 
 1. Definire in modo esplicito l’associazione per il mapping della rappresentazione aggiungendo `sling:configRef` proprietà che punta a `/conf/screens` al nodo del contenuto del progetto, come illustrato nella figura seguente.
 
@@ -57,9 +57,9 @@ Per configurare la configurazione, segui i passaggi seguenti:
 
 Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti operazioni:
 
-1. Passa a questo percorso `/conf/screens/sling:configs/rendition-mapping` da **CRXDE Lite**.
+1. Passa a questo percorso `/conf/screens/sling:configs/rendition-mapping` da **CRXDE Liti**.
 
-1. Crea un nodo sotto **rendition-mapping**. Fai clic con il pulsante destro del mouse su **rendition-mapping** e fai clic su **Crea** —> **Crea nodo**, come illustrato nella figura seguente.
+1. Crea un nodo sotto **rendition-mapping**. Fai clic con il pulsante destro del mouse su **rendition-mapping** e fai clic su **Crea** > **Crea nodo**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 

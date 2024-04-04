@@ -3,10 +3,10 @@ title: Configurazione del flusso di lavoro di posizionamento diretto
 seo-title: Direct Placement Workflow Configuration
 description: Questa pagina evidenzia la configurazione del flusso di lavoro di posizionamento diretto.
 seo-description: This page highlights Direct Placement Workflow Configuration.
-source-git-commit: 2a3bbdd283f983cbdb5f21b606f508603385e041
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ In alternativa, come autore di contenuti puoi fare clic manualmente su **Aggiorn
 
 >[!IMPORTANT]
 >
->Prima di avviare la configurazione, è necessario installare [Pacchetto dimostrativo](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Dopo aver installato il pacchetto, dovresti essere in grado di visualizzarlo e accedervi dall’istanza AEM —> Strumenti (icona) —> **Flusso di lavoro** —> **Modelli flusso di lavoro**.
+>Prima di avviare la configurazione, è necessario installare [Pacchetto dimostrativo](https://github.com/godanny86/screens-demo/releases/download/v.0.0.1/screens-demo.all-1.0-SNAPSHOT.zip). Dopo aver installato il pacchetto, dovresti essere in grado di visualizzarlo e accedervi dall’istanza AEM > Strumenti (icona) > **Flusso di lavoro** > **Modelli flusso di lavoro**.
 
 Segui i passaggi seguenti per configurare il flusso di lavoro di posizionamento diretto:
 

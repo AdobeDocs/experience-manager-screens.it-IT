@@ -14,9 +14,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,7 @@ Il processo di registrazione del dispositivo viene eseguito su 2 macchine separa
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
 >1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
 >1. Fai clic sul pulsante **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
-
 >
-
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
@@ -126,7 +124,7 @@ Se non hai assegnato il dispositivo a una visualizzazione, segui i passaggi segu
 
 Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’interfaccia utente di Gestione dispositivi.
 
-1. Dal progetto AEM Screens, accedi all’interfaccia utente di Gestione dispositivi, ad esempio, **DemoScreens** —> **Dispositivi**.
+1. Dal progetto AEM Screens, accedi all’interfaccia utente di Gestione dispositivi, ad esempio, **DemoScreens** > **Dispositivi**.
 
 1. Seleziona la **Dispositivi** cartella e fai clic su **Gestione dispositivi** dalla barra delle azioni.
 
@@ -138,7 +136,7 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’
 
    ![immagine](/help/user-guide/assets/device-manager/device-manager-2.png)
 
-   Oppure,
+   Oppure
 
    Clic `/` (barra) per richiamare la funzionalità di ricerca.
 
@@ -149,8 +147,8 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’
 
 * L’utente sarà in grado di cercare qualsiasi parola esistente nel *ID dispositivo* o *Nome dispositivo*.
 
-   >[!NOTE]
-   >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *Lobby del negozio di Boston* anziché un singolo *LobbyStoreBoston*.
+  >[!NOTE]
+  >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *Lobby del negozio di Boston* anziché un singolo *LobbyStoreBoston*.
 
 * Se si creano nomi di dispositivi quali *Lobby del negozio di Boston*, consente di cercare qualsiasi parola *boston*, *archiviare* o *atrio* ma se il nome del dispositivo è indicato come *LobbyStoreBoston* ricerca *boston* non mostrerà i risultati.
 

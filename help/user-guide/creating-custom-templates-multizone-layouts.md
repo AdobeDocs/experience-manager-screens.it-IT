@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '927'
 ht-degree: 1%
 
 ---
@@ -66,14 +66,14 @@ Per creare un layout Zona Left20-LandscapeHD3Zone per un progetto AEM Screens, e
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Accedi a **CRXDE Lite** dall&#39;istanza AEM —> Strumenti —> **CRXDE Lite**.
+1. Accedi a **CRXDE Liti** dall’istanza AEM > Strumenti > **CRXDE Liti**.
 
 1. Crea una cartella in **app** con titolo **customtemplate**. Allo stesso modo, crea un’altra cartella con il nome **modello** in **customtemplate**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template1.png)
 
    >[!NOTE]
-   >Si consiglia di fare clic su **Salva tutto** dalla barra delle azioni di CRXDE Lite ogni volta che crei, modifichi o copi contenuto in uno dei nodi, altrimenti non potrai eseguire il commit degli aggiornamenti.
+   >Si consiglia di fare clic su **Salva tutto** dalla barra delle azioni di CRXDE Liti ogni volta che crei, modifichi o copi contenuto in uno dei nodi, altrimenti non potrai eseguire il commit degli aggiornamenti.
 
 1. Copia il modello barra a sinistra da `/libs/screens/core/templates/splitscreenchannel/lbar-left` a `/apps/customtemplate/template`.
 

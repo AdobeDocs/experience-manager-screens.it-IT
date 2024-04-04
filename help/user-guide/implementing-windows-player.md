@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -77,8 +77,8 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 Segui i passaggi seguenti per configurare il nome in Windows Player:
 
-1. Fai clic su **inizio** —> **eseguire**
-1. Inserisci `system.cpl`
+1. Fai clic su **inizio** > **eseguire**
+1. Invio `system.cpl`
 1. Utilizzare la scheda Nome computer per impostare il nome host del computer
 
 ## Modifica delle opzioni predefinite in Windows Installer {#changing-default-options}
@@ -121,7 +121,7 @@ Per configurare Windows 10 Player, attenersi alla procedura descritta di seguito
 La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON per i criteri a scopo di riferimento:
 
 
-| **Nome criterio** | **Scopo** |
+| **Nome criterio** | **Finalità** |
 |---|---|
 | server | URL del server Adobe Experience Manager (AEM). |
 | registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |

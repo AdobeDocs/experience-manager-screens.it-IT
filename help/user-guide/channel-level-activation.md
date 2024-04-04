@@ -7,10 +7,10 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 9eece68a4fa1577dd7222dd1fd7aa5d0b0da314b
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 1%
+source-wordcount: '1792'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,6 @@ L&#39;immagine seguente mostra **Attivazione a livello di canale** progetto con 
 >* [Gestione di un canale](managing-channels.md)
 >
 
-
 ### Implementazione {#implementation}
 
 L’implementazione dell’attivazione a livello di canale in un progetto AEM Screens prevede tre attività principali:
@@ -126,18 +125,20 @@ Per implementare la funzionalità, segui i passaggi seguenti:
    1. Il **Ruolo canale** viene compilato come **targetedsingleplay**.
    1. Imposta il **Priorità** as **2**.
    1. Seleziona la **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività** e **Timer**, *come illustrato nella figura seguente.
-   1. Scegli la data in **attivo da** come 27 novembre 2018 23:59 e in **attivo fino a** come 28 novembre 2018 12:05 am.
+   1. Scegli la data in **attivo da** come 27 novembre 2018 23:59 e in **attivo fino a** come 28 novembre 2018 12:05 am
    1. Fai clic su **Salva**.
 
    >[!CAUTION]
+   >
    È necessario impostare la priorità per **TargetedSinglePlay** canale superiore al **MainAdSegment** canale.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
+   >
    Per scegliere lo stesso giorno, devi selezionare il giorno successivo e modificare manualmente la data in modo che corrisponda allo stesso giorno ma per un’ora successiva. Questo impedisce all’utente di selezionare una data passata. Consulta l’esempio seguente:
 
-   ![new1](assets/new1.gif)
+   ![nuovo1](assets/new1.gif)
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
@@ -146,6 +147,7 @@ Una volta completata la configurazione dei canali e della visualizzazione, avvia
 Il lettore visualizza il contenuto di **MainAdChannel** e esattamente alle 23:59 (come indicato nella pianificazione), il **TargetedSinglePlay** canale visualizzerà il contenuto fino alle 00:05 e quindi il **MainAdChannel** riprenderà la riproduzione del contenuto.
 
 >[!NOTE]
+>
 Per informazioni sul lettore di schermo dell’AEM, consulta le seguenti risorse:
 [Download di AEM Screens Player](https://download.macromedia.com/screens/)
 [Utilizzo di AEM Screens Player](working-with-screens-player.md)
@@ -164,6 +166,7 @@ Si supponga di voler visualizzare il contenuto di un canale solo il venerdì dal
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
    >[!NOTE]
+   >
    Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
@@ -183,6 +186,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | l&#39;1-2 giorno di gennaio dopo le 14:00 anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a essere riprodotta fino alle 03:00 del 2 gennaio, quindi inizia di nuovo il 2 gennaio alle 14:00 e continua a essere riprodotta fino alle 03:00 del 3 gennaio |
 
 >[!NOTE]
+>
 Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
 
 ### WeekParting {#week-parting}
@@ -192,6 +196,7 @@ Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
    >[!NOTE]
+   >
    Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
@@ -209,6 +214,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | prima delle 12:15 anche dopo le 12:45 | il canale viene riprodotto ogni giorno prima delle 12:15 e poi anche dopo le 12:45 |
 
 >[!NOTE]
+>
 Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
 
 
@@ -219,6 +225,7 @@ Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
    >[!NOTE]
+   >
    Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
@@ -232,9 +239,11 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | di febbraio,maggio,agosto,novembre | la risorsa viene riprodotta nel canale in febbraio, maggio, agosto, novembre |
 
 >[!NOTE]
+>
 Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.
 
 >[!NOTE]
+>
 Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
 
 ### Combinazione di partizioni {#combined-parting}
@@ -244,6 +253,7 @@ Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
    >[!NOTE]
+   >
    Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
@@ -259,4 +269,5 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | l&#39;1-2 giorno di gennaio dopo le 14:00 anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a essere riprodotta fino alle 03:00 del 2 gennaio, quindi inizia di nuovo il 2 gennaio alle 14:00 e continua a essere riprodotta fino alle 03:00 del 3 gennaio |
 
 >[!NOTE]
+>
 Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.  Inoltre, puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).

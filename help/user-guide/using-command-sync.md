@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 43ac19cf7ef63ec17611cf19ca357f791dca6e87
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '779'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
 ### Configurazione di un primario {#setting-up-primary}
 
-1. Passa al dashboard di visualizzazione da **CommandSyncDemo** —> **Posizioni**  —> **Lobby** —> **LobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni.
+1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni.
 Verranno visualizzati i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illustrato nella figura riportata di seguito.
    ![image1](assets/command-sync/command-sync10-1.png)
 
@@ -120,7 +120,7 @@ Selezionare l&#39;altro dispositivo (in questo caso, Windows Player) dal **DISPO
    >[NOTA:]
    > Il **Sincronizza con dispositivo principale** verrà visualizzato l’elenco dei dispositivi principali. Puoi selezionare quello desiderato tra le tue preferenze.
 
-1. Una volta che il dispositivo (lettore Windows) è sincronizzato con il principale (lettore Chrome), il dispositivo verrà sincronizzato in **DISPOSITIVI** pannello.
+1. Una volta sincronizzato il dispositivo (lettore Windows) con il principale (lettore Chrome), il dispositivo verrà sincronizzato in **DISPOSITIVI** pannello.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

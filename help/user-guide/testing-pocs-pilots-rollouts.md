@@ -1,29 +1,25 @@
 ---
 title: "Parte 3: Prove, POC, Programmi pilota e rollout"
-seo-title: "Part 3: Testing, POCs, Pilots & Rollouts"
-description: Segui questa esercitazione per scoprire i termini chiave coinvolti in un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test dell’hardware, la bozza di concetto, i progetti pilota e i rollout.
-seo-description: Follow this tutorial to learn the key terms involved in an overall project plan such as project cycle, actions surrounding hardware testing, Proof Of Concept, pilots and rollouts.
-uuid: 8e9b4f8f-cc09-4cd6-9465-c8eedb639dd8
+description: Scopri i termini chiave coinvolti in un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la bozza di concetto, i progetti pilota e i rollout.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: 157185f9-c5e3-4a5b-badc-9becb26f1b27
 docset: aem65
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
 # Parte 3: Test, POC, Piloti e rollout {#part-testing-pocs-pilots-rollouts}
 
-In questa pagina viene evidenziata la parte 3 di una serie in 5 parti progettata per aiutare i membri del gruppo a comprendere meglio i termini chiave fondamentali per garantire che una soluzione di successo possa essere sviluppata prima dell’implementazione.
+Questa pagina evidenzia la parte 3 di una serie in 5 parti progettata per aiutare i membri del gruppo a comprendere meglio i termini chiave fondamentali per garantire che una soluzione di successo possa essere sviluppata prima di un rollout.
 
 ## Panoramica {#overview}
 
@@ -39,7 +35,14 @@ Questo tutorial tratta i seguenti punti rilevanti per la corretta distribuzione 
 >
 >I cicli di vendita tipici per l&#39;installazione del digital signage su larga scala possono variare da 9 a 18 mesi. Ci sono molti fattori coinvolti che influenzano la tempistica finale, non ultimo il modo in cui il cliente finale misura il successo e il rischio avverso i propri partner commerciali quando introducono una nuova soluzione.
 
-Ad esempio, le parti interessate a un programma di digital signage in un ambiente retail possono includere: Marketing in-store, Ambiente store o Visual Merchandising, Operazioni per i punti vendita, Sicurezza IT, Supporto IT, la categoria di prodotto Merchant e il relativo Fornitore, che può essere cofinanziatore della soluzione.
+Ad esempio, i soggetti interessati a un programma di digital signage in un ambiente retail potrebbero essere i seguenti:
+
+* Marketing in-store
+* Ambiente store o Visual Merchandising
+* Operazioni store
+* Sicurezza IT
+* Supporto IT
+* La categoria di prodotti Merchant e il relativo fornitore, che potrebbe cofinanziare la soluzione.
 
 ## Riepilogo dei termini chiave coinvolti in un piano di progetto generale {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
@@ -47,7 +50,7 @@ Nella sezione seguente viene fornita una panoramica dei termini chiave di un pia
 
 ### Prova di concetto (POC) {#proof-of-concept-poc}
 
-Lo scopo di un POC è quello di ottenere un feedback iniziale sulle funzionalità chiave di una soluzione e consentire sia al cliente finale che all&#39;AV Integrator di identificare le aree di miglioramento e preparare ipotesi sui requisiti di manodopera e sulle risorse richieste. Un POC offre inoltre a entrambe le parti l’opportunità di valutare le prestazioni della soluzione, che vengono generalmente misurate tramite:
+Lo scopo di un POC è ottenere un feedback iniziale sulle funzionalità chiave di una soluzione. Consente inoltre al cliente finale e a AV Integrator di identificare le aree da migliorare e di preparare le ipotesi relative ai requisiti di manodopera e alle risorse richieste. Un POC consente inoltre a entrambe le parti di valutare le prestazioni della soluzione, che in genere vengono misurate tramite:
 
 ### Controllo qualità {#quality-control}
 
@@ -66,7 +69,7 @@ Una volta completato il test QC, il team di progettazione IT crea documentazione
 
 Segui il tutorial seguente per comprendere Test, Proofs of Concept, Programmi pilota e Rollout.
 
-Considerare tutte queste fasi come parte del piano generale del progetto aiuterà a gestire le aspettative e a identificare i punti naturali in cui verrà valutato l’investimento in un’implementazione AEM Screens.
+Considerare tutte queste fasi come parte del piano generale del progetto aiuta a gestire le aspettative e identifica i punti naturali in cui è possibile valutare l’investimento in un’implementazione AEM Screens.
 
 ### Test, POC, pilota e rollout
 

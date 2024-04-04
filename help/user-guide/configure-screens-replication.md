@@ -4,9 +4,9 @@ description: Segui questa pagina per ottenere informazioni su come configurare g
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: 93bbffa2d752bfbd92702487802d40e7e8e287b8
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '498'
 ht-degree: 3%
 
 ---
@@ -34,9 +34,9 @@ Per abilitare gli utenti e aggiornare la password per screens-receiver-user, seg
 >[!NOTE]
 >Per motivi di sicurezza, si consiglia di evitare di utilizzare la password amministratore per screens-receiver-user.
 
-1. Passa all’istanza Autore AEM.
+1. Passa all’istanza di authoring dell’AEM.
 
-1. Fai clic sugli strumenti —> **Sicurezza** —> **Utenti**.
+1. Fai clic sugli strumenti > **Sicurezza** > **Utenti**.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
@@ -97,7 +97,7 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 
 1. Passa all’istanza AEM.
 
-1. Fai clic sugli strumenti —> **Distribuzione** —> **Replica**.
+1. Fai clic sugli strumenti > **Distribuzione** > **Replica**.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 

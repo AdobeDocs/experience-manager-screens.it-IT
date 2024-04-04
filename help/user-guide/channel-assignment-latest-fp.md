@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 3%
+source-wordcount: '1476'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ Una volta completata la configurazione del progetto, devi assegnare il canale a 
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
-   Oppure,
+   Oppure
 
    Tocca o fai clic **Dashboard** dalla barra delle azioni e fai clic su **+Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
@@ -102,7 +102,7 @@ Fai riferimento a [Registrazione dispositivo](device-registration.md) per scopri
 
 Viene visualizzato il seguente output sulla scelta del lettore:
 
-![new1](assets/channel-assignment/channel-assign-output.gif)
+![nuovo1](assets/channel-assignment/channel-assign-output.gif)
 
 ## Vista Timeline {#timeline-view}
 
@@ -114,7 +114,7 @@ Per passare alla vista timeline, segui la procedura riportata di seguito:
 
 1. Tocca o fai clic **Assegna canale** dalla barra delle azioni.
 
-   Oppure,
+   Oppure
 
    Tocca o fai clic **Dashboard** e fai clic su **Timeline** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
@@ -165,13 +165,13 @@ Selezionare una delle seguenti opzioni disponibili per impostare il metodo di in
 * **Immediatamente**: quando la pianificazione si attiva o viene ricevuto un aggiornamento, puoi interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto
 * **Alla fine dell&#39;elemento corrente**: quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
 
-   >[!NOTE]
-   >Questa opzione è selezionata per impostazione predefinita.
+  >[!NOTE]
+  >Questa opzione è selezionata per impostazione predefinita.
 
 * **Alla fine della sequenza**: quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l’intera sequenza raggiunga la fine e, immediatamente prima della sequenza desiderata, si torna al primo elemento, si aggiorna o si riproduce il nuovo contenuto
 
-   >[!NOTE]
-   >Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell’assegnazione potrebbero essere leggermente differiti, in quanto il lettore attenderà la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di aggiornarli. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
+  >[!NOTE]
+  >Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell’assegnazione potrebbero essere leggermente differiti, in quanto il lettore attenderà la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di aggiornarli. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
 
 Le seguenti proprietà sono impostate dal **Pianificazione** opzione in **Assegnazione canale** .
 
@@ -208,9 +208,9 @@ Gli esempi seguenti illustrano DayParting nei canali in tre diversi scenari:
 
 Questo esempio mostra come un ristorante utilizza DayParting per mostrare ogni giorno il menu per la colazione, il pranzo e la cena.
 
-In questo caso, ogni giorno viene diviso in diversi intervalli di tempo, in modo che il contenuto del canale venga riprodotto in base all’ora specificata del giorno. Imposta le seguenti proprietà della pianificazione della ricorrenza per il canale per riprodurre il contenuto in base a questo caso d’uso.
+In questo caso, ogni giorno viene diviso in diversi intervalli di tempo, in modo che il contenuto del canale venga riprodotto in base all’ora del giorno specificata. Imposta le seguenti proprietà della pianificazione della ricorrenza per il canale per riprodurre il contenuto in base a questo caso d’uso.
 
-| **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
+| **Nome** | **Si ripete** | **Avvia** | **Fine** |
 |---|---|---|---|
 | Colazione | Giornaliero | 6:00 | 11:00 |
 | Pranzo | Giornaliero | 11:00 | 15:00 |
@@ -218,9 +218,9 @@ In questo caso, ogni giorno viene diviso in diversi intervalli di tempo, in modo
 
 #### Riproduzione di contenuti in un giorno specifico della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il DayParting implementato in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:00 e sono disponibili speciali per il menu di cena dopo le 22:00 fino all’1:00.
+Questo esempio mostra il DayParting implementato in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:00 e sono disponibili speciali per il menu di cena dopo le 22:00 fino all’1:00
 
-| **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
+| **Nome** | **Si ripete** | **Avvia** | **Fine** |
 |---|---|---|---|
 | Fine settimana | Settimanale: sabato, domenica | 20:00 | 22:00 |
 | Programmi speciali | Giornaliero: lunedì-venerdì | 22:00 | 01:00 |

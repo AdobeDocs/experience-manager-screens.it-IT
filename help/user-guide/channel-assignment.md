@@ -6,10 +6,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 3%
+source-wordcount: '1233'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Per assegnare un canale a una visualizzazione, segui i passaggi seguenti:
 
 1. Tocca o fai clic **Assegna canale** nella barra delle azioni
 
-   Oppure,
+   Oppure
 
    Tocca o fai clic **Dashboard** e fai clic su **+Assegna canale** dal **CANALI ASSEGNATI** pannello per aprire **Assegnazione canale** .
 
@@ -84,18 +84,18 @@ Selezionare una delle seguenti opzioni disponibili per impostare il metodo di in
 
 * **Immediatamente**: quando la pianificazione si attiva o viene ricevuto un aggiornamento, puoi interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto
 * **Alla fine dell&#39;elemento corrente**: quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell’elemento corrente nella sequenza e solo dopo aver aggiornato o riprodotto il nuovo contenuto
-   >[!NOTE]
-   >Questa opzione è selezionata per impostazione predefinita.
+  >[!NOTE]
+  >Questa opzione è selezionata per impostazione predefinita.
 * **Alla fine della sequenza**: quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l’intera sequenza raggiunga la fine e, immediatamente prima della sequenza desiderata, si torna al primo elemento, si aggiorna o si riproduce il nuovo contenuto
 
-   >[!NOTE]
-   >Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell’assegnazione potrebbero essere leggermente differiti, in quanto il lettore attenderà la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di aggiornarli. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
+  >[!NOTE]
+  >Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell’assegnazione potrebbero essere leggermente differiti, in quanto il lettore attenderà la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di aggiornarli. Il ritardo dipenderà dalla durata di riproduzione dell’elemento.
 
 ### Pianificazione {#schedule-channel}
 
 Pianifica consente di fornire una descrizione testuale di quando deve apparire il canale. Consente inoltre di definire una data di inizio (**attivo da**) e una data di fine (**attivo fino a**) per il canale da visualizzare.
 
-**Mostra descrizione luogo di interesse**:
+**Mostra descrizione attrazione**:
 
 Mostra descrizione comando attrazione definisce se la descrizione comando attrazione (&quot;*Toccare ovunque per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
 
@@ -121,7 +121,7 @@ In questo caso, ogni giorno viene diviso in tre diversi intervalli di tempo, in 
 
 #### Riproduzione di contenuti in un giorno specifico della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il dayParting ottenuto in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:00 e i piatti sono disponibili per il menu di cena dopo le 22:00 fino all’1:00.
+Questo esempio mostra il dayParting ottenuto in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:00 e i piatti sono disponibili per il menu di cena dopo le 22:00 fino all’1:00
 
 <table>
  <tbody>
@@ -177,4 +177,3 @@ In questo esempio viene illustrato DayParting per un negozio che visualizza la r
 >
 >* [Gestione della ricorrenza nelle risorse](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling.html#handling-recurrence-in-assets)
 >* [Gestione della ricorrenza per le risorse in un canale](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation.html#handling-recurrence-in-assets)
-

@@ -14,9 +14,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1510'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/scr
 >[!NOTE]
 >Devi impostare un ambiente per il lettore Android se utilizzi AEM Screens 6.5.5 Service Pack.
 
-Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione della console web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
+Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione console Web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
 
 Effettua le seguenti operazioni:
 
-1. Accedi a **Configurazione della console web Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
+1. Accedi a **Configurazione console Web Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
 
 1. Cerca *Adobe Gestore autenticazione token Granite*.
 
@@ -137,9 +137,9 @@ Fai riferimento a un [Esempio di criterio JSON](#example-json) nonché una tabel
 
 La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON per i criteri a scopo di riferimento:
 
-| **Nome criterio** | **Scopo** |
+| **Nome criterio** | **Finalità** |
 |---|---|
-| *server* | L’URL del server Adobe Experience Manager. |
+| *server* | URL del server Adobe Experience Manager. |
 | *risoluzione* | Risoluzione del dispositivo. |
 | *rebootSchedule* | La pianificazione per il riavvio si applica a tutte le piattaforme. |
 | *enableAdminUI* | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Imposta su *false* una volta che è completamente configurato e in produzione. |
@@ -180,14 +180,14 @@ Quando si distribuisce il lettore Android in massa, diventa noioso registrare ma
 
 ## Denominazione del lettore Android {#name-android}
 
-Puoi assegnare un nome descrittivo del dispositivo al lettore Android, inviando in tal modo il nome del dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Android, ma anche di assegnare facilmente i contenuti appropriati.
+Puoi assegnare un nome descrittivo del dispositivo al lettore Android, inviando in tal modo il nome del dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Android, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
 
 Per configurare il nome in Android Player, segui i passaggi seguenti:
 
-1. Accedi a **impostazioni** —> **Informazioni sul dispositivo**
+1. Accedi a **impostazioni** > **Informazioni sul dispositivo**
 1. Modifica e imposta il nome del dispositivo per denominare il lettore Android
 
 ### Implementazione del provisioning in blocco di Android Player tramite Enterprise Mobility Management {#implementation}

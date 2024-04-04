@@ -1,29 +1,28 @@
 ---
-title: Canale TakeOver per singolo utilizzo
-seo-title: Single Use TakeOver Channel
+title: Canale TakeOver monouso
 description: Segui questo caso d’uso per creare un canale TakeOver monouso.
-seo-description: Follow this Use Case for creating a Single Use TakeOver Channel.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 2%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
 # Canale TakeOver per singolo utilizzo {#single-use-takeover-channel}
 
-Nella pagina seguente viene illustrato un caso d’uso che pone l’accento sulla configurazione di un progetto e spiega come creare un singolo canale di acquisizione da riprodurre una sola volta per un periodo di tempo specifico.
+Nella pagina seguente viene illustrato un caso d’uso che pone l’accento sulla configurazione di un progetto per la creazione di un singolo canale TakeOver che viene riprodotto una volta per un periodo di tempo specifico.
 
 
 ## Descrizione del caso d’uso {#use-case-description}
 
-Questo caso d’uso spiega come creare un canale che *subentra* dal canale di riproduzione normale per uno schermo o un gruppo di schermi. L&#39;acquisizione avverrà una sola volta e per un periodo di tempo specifico.
-Ad esempio, esiste un canale Single TakeOver che viene riprodotto venerdì dalle 9 alle 10. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. Prima e dopo questo periodo di tempo, il canale Single Use Takeover non viene riprodotto. L’esempio seguente mostra la creazione di un singolo canale di acquisizione che viene riprodotto e consente la riproduzione del contenuto per 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01.
+Questo caso d’uso spiega come creare un canale che *subentra* dal canale di riproduzione normale per un display o un gruppo di display. L&#39;acquisizione avviene una sola volta e per un periodo di tempo specifico.
+
+Ad esempio, esiste un canale Single TakeOver che viene riprodotto dal venerdì dalle 9:00 alle 10:00 Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. Prima e dopo questo periodo di tempo, il canale Single Use Takeover non viene riprodotto. L’esempio seguente mostra la creazione di un singolo canale di acquisizione che consente la riproduzione del contenuto per 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01
 
 ### Precondizioni {#preconditions}
 
@@ -62,13 +61,13 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/single-takeover3.png)
 
-1. Creare un **TakeOver** canale che assume il controllo dei contenuti in **MainAdChannel** e viene riprodotto solo per un giorno e un&#39;ora specifici.
+1. Creare un **TakeOver** canale che assume il controllo dei contenuti in **MainAdChannel** e viene riprodotto solo per un giorno e un’ora specifici.
 
-1. Seleziona la **TakeOver** e fai clic su **Modifica** dalla barra delle azioni. Trascina alcune risorse sul tuo canale. L’esempio seguente mostra un’immagine di una singola zona aggiunta a questo canale.
+1. Seleziona la **TakeOver** e fai clic su **Modifica** dalla barra delle azioni. Trascina alcune risorse nel canale. L’esempio seguente mostra un’immagine di una singola zona aggiunta a questo canale.
 
    ![risorsa](assets/single-takeover4.png)
 
-1. Imposta una posizione e una visualizzazione per i canali. Ad esempio, la seguente posizione **Lobby** e visualizzazione **MainLobbyDisplay** è configurato per questo progetto.
+1. Imposta una posizione e una visualizzazione per i canali. Ad esempio, i seguenti **Lobby** posizione e  **MainLobbyDisplay** sono impostati per questo progetto.
 
    ![risorsa](assets/single-takeover5.png)
 
@@ -85,27 +84,26 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/single-takeover7.png)
 
-1. Seleziona la visualizzazione **TakeOver** dal **Posizioni** cartella. Clic **Assegna canale** dalla barra delle azioni per assegnare il canale di acquisizione monouso.
+1. Seleziona la visualizzazione **TakeOver** dal **Posizioni** cartella. Clic **Assegna canale** dalla barra delle azioni, in modo da poter assegnare il canale di acquisizione monouso.
 
-1. Per assegnare **TakeOver** canale per la visualizzazione a un orario pianificato e compila i campi seguenti dal **Assegnazione canale** e fare clic su **Salva**:
+1. Assegna la **TakeOver** canale per la visualizzazione a un orario pianificato e compila i campi seguenti dal **Assegnazione canale** e fare clic su **Salva**:
 
    * **Percorso canale**: seleziona il percorso del canale TakeOver
    * **Priorità**: imposta la priorità di questo canale su un valore maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
 
-      >[!NOTE]
-      >Priorità può essere qualsiasi valore superiore al valore di priorità del canale normalmente riprodotto.
+     >[!NOTE]
+     >Priorità può essere qualsiasi valore superiore al valore di priorità del canale di riproduzione normale.
    * **Eventi supportati**: seleziona la **Schermata di inattività** e **Timer**.
-   * **Pianificazione**: immetti il testo per la pianificazione in base alla quale il canale deve eseguire la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01.
-Il testo nella **Pianificazione** menzionato in questo esempio è *il 31 dicembre dopo le 23:58 e anche il 1° gennaio prima delle 00.01*.
+   * **Pianificazione**: immetti il testo per la pianificazione in base alla quale il canale deve eseguire la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01 **Pianificazione** menzionato in questo esempio è *il 31 dicembre dopo le 23:58 e anche il 1° gennaio prima delle 00.01*.
 
-      ![risorsa](assets/single-takeover8.png)
+     ![risorsa](assets/single-takeover8.png)
 
-      Passa alla visualizzazione da **SingleUseTakeOver** —> **Posizioni** —> **Lobby** —> **MainLobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni per visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
+     Passa alla visualizzazione da **SingleUseTakeOver** > **Posizioni** > **Lobby** > **MainLobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
 
-      >[!NOTE]
-      >È obbligatorio impostare come massima la priorità del canale di acquisizione.
+     >[!NOTE]
+     >È obbligatorio impostare come massima la priorità del canale di acquisizione.
 
-      ![risorsa](assets/single-takeover9.png)
+     ![risorsa](assets/single-takeover9.png)
 
 >[!NOTE]
 >

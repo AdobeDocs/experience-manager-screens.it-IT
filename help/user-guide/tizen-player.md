@@ -5,10 +5,10 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 8d4a7b2bc436d822c673a00437ee895c8ef5cb6f
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Effettua le seguenti operazioni:
 
 ### Denominazione del lettore Tizen {#name-tizen}
 
-Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il nome del dispositivo assegnato ad Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Tizen, ma anche di assegnare facilmente i contenuti appropriati.
+Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il nome del dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Tizen, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
@@ -48,7 +48,7 @@ Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il
 Segui i passaggi seguenti per configurare il nome in Tizen player:
 
 1. Fare clic sul pulsante del menu sul telecomando.
-1. Accedi a **rete** —> **Nome dispositivo** per assegnare un nome al lettore.
+1. Accedi a **rete** > **Nome dispositivo** per assegnare un nome al lettore.
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
 
@@ -76,12 +76,12 @@ Per completare l’installazione del lettore AEM Screens sul dispositivo Samsung
 ## Esenzione degli agenti utente con il problema relativo ai cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Questa sezione si applica alle versioni da Adobe Experience Manager (AEM) 6.5.5 a AEM 6.5.7**
+>**Questo paragrafo si applica alla Adobe Experience Manager (AEM) da 6.5.5 a AEM 6.5.7**
 >Alcuni motori del browser non sono compatibili con *SameSite=Nessuno* attributo utilizzato nel token di accesso rilasciato da AEM 6.5 a AEM 6.7. Di solito, il problema può essere risolto aggiornando il browser all’ultima versione disponibile. In alcuni casi tali aggiornamenti potrebbero non essere possibili, ad esempio con display avanzati, set top box o altri dispositivi con motori di navigazione incorporati.
 
 Segui i passaggi seguenti per esentare questi client incompatibili quando utilizzi *SameSite=Nessuno*:
 
-1. Aggiornamento ad Adobe Experience Manager (AEM) Service Pack 6.5.7.
+1. Aggiornamento a Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
 1. Dopo il riavvio dell’AEM vai a `/system/console/configMgr` e cerca **Adobe Gestore autenticazione token Granite**. Imposta il valore per **SameSite** valore per **Nessuno**.
 
@@ -97,7 +97,7 @@ Il provisioning remoto di Tizen Player consente di distribuire centinaia e migli
 
 Questa funzione consente di configurare in remoto il lettore Tizen e, se necessario, di aggiornare centralmente le configurazioni. Tutto ciò che serve è il `HTTP` server utilizzato per ospitare l&#39;applicazione Tizen `(wgt and xml file)` e un editor di testo per salvare `config.json` con i parametri appropriati.
 
-Accertati di aver configurato l&#39;indirizzo del modulo di avvio URL sul dispositivo Tizen, ovvero il pulsante Home —> le impostazioni del modulo di avvio URL.
+Assicurati di aver configurato l’indirizzo dell’utilità di avvio URL sul dispositivo Tizen, ovvero Pulsante Home > Impostazioni dell’utilità di avvio URL.
 Il giorno `HTTP` che ospita l&#39;applicazione Tizen, inserire il file `config.json` nella stessa posizione del `wgt` file. Il nome file deve essere `config.json`.
 Il lettore Tizen verrà installato e al momento del lancio (e di ogni riavvio) verificherà e applicherà le impostazioni in `config.json` file.
 
@@ -120,7 +120,7 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 >[!NOTE]
 >Le configurazioni dei criteri vengono rigorosamente applicate e non vengono ignorate manualmente nell’interfaccia utente di amministrazione del lettore. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio. Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
 
-| **Nome criterio** | **Scopo** |
+| **Nome criterio** | **Finalità** |
 |---|---|
 | server | URL del server Adobe Experience Manager (AEM). |
 | registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |

@@ -8,9 +8,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
    >[!NOTE]
    >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor di canali, consulta [Sovrapposizione testo](/help/user-guide/text-overlay.md).
 
-1. Passa a CRXDE Lite dalla tua istanza AEM —> strumenti —> **CRXDE Lite**.
+1. Passa a CRXDE Liti dall’istanza AEM > Strumenti > **CRXDE Liti**.
 
 1. Devi creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`, ad esempio, in questo caso, passa a `/apps/settings/wcm/designs/customstyle/`
 
@@ -106,17 +106,17 @@ Devi aggiornare gli ACL per queste progettazioni in modo che possano essere scar
 
 ## Visualizzazione del risultato {#viewing-the-result}
 
-Dopo aver completato i passaggi precedenti, puoi aggiornare *statis.css* file da **CRXDE Lite** e di conseguenza visualizza l’aggiornamento della sovrapposizione di testo già aggiunto alla risorsa.
+Dopo aver completato i passaggi precedenti, puoi aggiornare *statis.css* file da **CRXDE Liti** e di conseguenza visualizza l’aggiornamento della sovrapposizione di testo già aggiunto alla risorsa.
 
 Per visualizzare la progettazione aggiornata in sovrapposizione testo, attenersi alla procedura descritta di seguito.
 
-1. Passa al progetto AEM Screens con titolo **customstyle** —> **Canali** —> **DemoBrand**. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Passa al progetto AEM Screens con titolo **customstyle** > **Canali** > **DemoBrand**. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
 
 1. Poiché ora hai aggiunto il design al tuo **Progettazioni** come indicato in precedenza, fai clic su **Anteprima** per visualizzare lo stile corrente dell&#39;immagine con sovrapposizione testo.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand7.png)
 
-1. Accedi al tuo *static.css* file in CRXDE Lite e aggiungi il font, ad esempio, `font-family: "Lucida Console", Courier, monospace;` a questo file, come illustrato di seguito.
+1. Accedi al tuo *static.css* file in CRXDE Liti e aggiungi il font, ad esempio, `font-family: "Lucida Console", Courier, monospace;` a questo file, come illustrato di seguito.
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand8.png)
 
 1. Dopo aver salvato le modifiche e ricaricato l’anteprima, verrà visualizzato un aggiornamento del font di sovrapposizione del testo, come illustrato nella figura riportata di seguito.

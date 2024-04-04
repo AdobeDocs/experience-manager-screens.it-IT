@@ -5,10 +5,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 3%
+source-wordcount: '1119'
+ht-degree: 2%
 
 ---
 
@@ -51,13 +51,13 @@ Prima di utilizzare la funzione di riconoscimento vocale, accertarsi di disporre
    >
    >Per informazioni su come creare un canale o aggiungere contenuto a un canale, consulta [Creazione e gestione dei canali](/help/user-guide/managing-channels.md)
 
-   Oppure,
+   Oppure
 
    Puoi creare tre canali di sequenza **Principale**, **ColdDrinks**, e **HotDrinks** e un canale aggiuntivo Screens diviso 1x2 **SplitScreen** come illustrato nella figura riportata di seguito.
 
    ![immagine](assets/voice-recognition/vr-emb-1.png)
 
-1. Passa a ciascun canale e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** —> **Canali** —> **Principale** e selezionare il canale. Clic **Modifica** dalla barra delle azioni per aprire l’editor e aggiungere contenuto (immagini/video) in base alle tue esigenze. Allo stesso modo, aggiungi contenuto a entrambi **ColdDrinks** e **HotDrinks** canale.
+1. Passa a ciascun canale e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale. Clic **Modifica** dalla barra delle azioni per aprire l’editor e aggiungere contenuto (immagini/video) in base alle tue esigenze. Allo stesso modo, aggiungi contenuto a entrambi **ColdDrinks** e **HotDrinks** canale.
 
    I canali ora contengono risorse (immagini), come illustrato nelle figure riportate di seguito.
 
@@ -83,7 +83,7 @@ Dopo aver aggiunto il contenuto ai canali, è necessario passare a ciascuno di e
 
 Per aggiungere tag al canale, segui la procedura riportata di seguito:
 
-1. Passa a ciascun canale e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** —> **Canali** —> **Principale** e selezionare il canale.
+1. Passa a ciascun canale e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale.
 
 1. Clic **Proprietà** dalla barra delle azioni.
 
@@ -95,7 +95,7 @@ Per aggiungere tag al canale, segui la procedura riportata di seguito:
 
    ![immagine](assets/voice-recognition/vr-6.png)
 
-   Oppure,
+   Oppure
 
    Puoi anche creare tag dall’istanza AEM in anticipo per il progetto e selezionarli. Dopo aver seguito i passaggi descritti in [Creazione di tag](#creating-tags), è possibile selezionare il tag dalla posizione e aggiungerlo al canale, come illustrato nella figura seguente:
 
@@ -116,10 +116,10 @@ Per creare i tag, segui i passaggi seguenti:
 
 1. Passa all’istanza AEM.
 
-1. Fai clic sull&#39;icona degli strumenti —> **Assegnazione tag**.
+1. Fai clic sull’icona Strumenti > **Assegnazione tag**.
    ![immagine](assets/voice-recognition/vr-7.png)
 
-1. Clic **Crea** —> **Crea spazio dei nomi**.
+1. Clic **Crea** > **Crea spazio dei nomi**.
    ![immagine](assets/voice-recognition/vr-tag3.png)
 
 1. Inserisci il nome del progetto, ad esempio: **Demo vocale** e fai clic su **Crea**.
