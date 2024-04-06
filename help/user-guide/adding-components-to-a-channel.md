@@ -14,16 +14,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 7%
+source-wordcount: '1450'
+ht-degree: 5%
 
 ---
 
 # Aggiunta di componenti a un canale{#adding-components-to-a-channel}
 
-I componenti sono gli elementi fondamentali dell’esperienza AEM (Adobe Experience Manager). Puoi utilizzare una serie di componenti e aggiungerli al tuo canale in un progetto AEM Screens.
+I componenti sono gli elementi fondamentali dell’esperienza dell’AEM (Adobe Experience Manager). Puoi utilizzare una serie di componenti e aggiungerli al tuo canale in un progetto AEM Screens.
 
 ## Componenti in AEM Screens {#components-in-aem-screens}
 
@@ -35,7 +35,7 @@ Ogni volta che crei un progetto AEM Screens, visualizzerai un elenco di componen
 
 Per visualizzare i componenti predefiniti del progetto Schermi, effettua le seguenti operazioni:
 
-1. Seleziona il canale. Ad esempio: **We.Retail nello store** —> **Canali** —> **Canale inattivo**.
+1. Seleziona il canale. Ad esempio: **We.Retail nello store** > **Canali** > **Canale inattivo**.
 
 1. Clic **Modifica** dalla barra delle azioni per aprire l’editor AEM.
 1. Fai clic su **+** dalla barra laterale per aprire i componenti.
@@ -49,7 +49,7 @@ L’AEM fornisce una serie di altri componenti. Puoi sempre aggiungere al proget
 
 L’esempio seguente mostra l’aggiunta di un componente Livefyre a un progetto AEM Screens:
 
-1. Seleziona il canale in cui desideri aggiungere un nuovo componente. Ad esempio: **We.Retail nello store** —> **Canali** —> **Canale inattivo**.
+1. Seleziona il canale in cui desideri aggiungere un nuovo componente. Ad esempio: **We.Retail nello store** > **Canali** > **Canale inattivo**.
 
 1. Clic **Modifica** dalla barra delle azioni per aprire l’editor.
 1. Seleziona **Progettazione** modalità.
@@ -78,7 +78,7 @@ Il componente dell&#39;applicazione ha le seguenti proprietà:
 
 | **Proprietà** | **Descrizione** |
 |---|---|
-| ***Percorso dell&#39;applicazione*** | Selezionare il percorso assoluto in cui si trova l&#39;applicazione. |
+| ***Percorso applicazione*** | Selezionare il percorso assoluto in cui si trova l&#39;applicazione. |
 | ***Durata (ms)*** | Seleziona la durata dell’applicazione. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre (applicazione a pagina singola). Impostando il valore di durata >0, mostra l’elemento per la durata specificata e quindi passa a quello successivo. |
 
 L’esempio seguente mostra come incorporare un componente dell’applicazione insieme all’anteprima delle relative proprietà:
@@ -116,7 +116,7 @@ Il componente Canale ha le seguenti proprietà:
 
 Un **Pagina incorporata** consente di aggiungere una pagina incorporata al progetto. Ad esempio, può essere un’applicazione web o un catalogo di prodotti.
 
-La pagina Incorporata ha le seguenti proprietà:
+La pagina Incorporata presenta le seguenti proprietà:
 
 <table>
  <tbody>

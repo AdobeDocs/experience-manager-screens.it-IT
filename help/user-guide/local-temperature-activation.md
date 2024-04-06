@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Il seguente caso d’uso illustra l’utilizzo dell’attivazione della temperat
 
 ## Descrizione {#description}
 
-Per questo caso d’uso, se il valore dei fogli di Google è inferiore a 50, viene visualizzata un’immagine con bevande calde e, se il valore è maggiore o uguale a 50, viene visualizzata l’immagine con bevande fredde. Se è presente un altro valore o non è presente alcun valore, verrà visualizzata un’immagine predefinita.
+Per questo caso d’uso, se il valore dei fogli Google è inferiore a 50, viene visualizzata un’immagine con bevande calde e, se il valore è maggiore o uguale a 50, viene visualizzata l’immagine con bevande fredde. Se è presente un altro valore o non è presente alcun valore, verrà visualizzata un’immagine predefinita.
 
 ## Precondizioni {#preconditions}
 
@@ -78,7 +78,7 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    >[!CAUTION]
    >
-   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** —> **Personalizzazione** scheda.
+   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -90,4 +90,5 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
    1. Cambia il valore a meno di 50, dovresti essere in grado di visualizzare l&#39;immagine di una bevanda estiva. Se il valore nel foglio Google è 50 o maggiore di quanto dovrebbe essere in grado di visualizzare l&#39;immagine di una bevanda calda.
-   ![result3](assets/result3.gif)
+
+   ![risultato3](assets/result3.gif)

@@ -14,9 +14,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ Se quando accedi come utente Kiosk viene visualizzata una schermata nera, signif
 
 Il percorso di installazione predefinito per Windows Player è:
 
-***C:\Users\&amp;lt;utente>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 Lo script di esempio nei collegamenti attiverà e disabiliterà la shell personalizzata. Di conseguenza, potrebbe essere necessario suddividere lo script in due e abilitare/disabilitare le righe applicabili seguenti:
 

@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1058'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Dopo aver assegnato un canale a una visualizzazione, AEM Screens Player visualiz
 
 Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositivi, accessibile tramite l’istanza di authoring AEM.
 
-1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** —> ***Dispositivi***.
+1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
    Seleziona **Dispositivi** e **Gestione dispositivi** dalla barra delle azioni.
 
@@ -74,9 +74,9 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 * Attiva o disattiva **Menu Amministrazione**, **Commutatore canale**, e **Interfaccia attività** per Screens.
 
-   Se il **Interfaccia attività** è abilitato da **Configurazione** AEM Screens Player visualizza il menu *notifiche di attività del lettore* nell’angolo in alto a destra del lettore, come illustrato nella figura seguente.
+  Se il **Interfaccia attività** è abilitato da **Configurazione** AEM Screens Player visualizza il menu *notifiche di attività del lettore* nell’angolo in alto a destra del lettore, come illustrato nella figura seguente.
 
-   ![immagine](/help/user-guide/assets/activity_ui.png)
+  ![immagine](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Per modificare le preferenze del lettore, segui la procedura riportata di seguit
 
 Puoi risolvere vari problemi associati al lettore AEM Screens (hardware e software):
 
-| **Edizioni** | **Consigli** |
+| **Problemi** | **Recommendations** |
 |---|---|
 | Spazio di archiviazione del lettore pieno | Eliminazione dei file non necessari |
 | Rete persa dal lettore | Utilizzare il cavo Cat-5/Cat-6. Per il wifi, ridurre la distanza tra il router e il dispositivo di riproduzione |
@@ -143,8 +143,8 @@ Esistono due tipi di aggiornamenti per AEM Screens Player:
 
 | **Metodo** | **Dettagli** | **tramite remoto** | **Automatizzato** | **0 tempi di inattività** |
 |---|---|---|---|---|
-| Aggiornamento firmware | Applicato ai lettori installati esistenti tramite comando remoto. Dopo l’aggiornamento, il lettore viene ricaricato automaticamente con il contenuto esistente. | Sì | Personalizzati | Quasi - 1-3 secondi |
-| Aggiornamenti della shell del lettore | Questo è un nuovo eseguibile da distribuire in Windows Media Player. A tal fine, è necessario copiare in remoto un nuovo file binario sul lettore, arrestare l&#39;esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario ricaricare il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzati | No |
+| Aggiornamento firmware | Applicato ai lettori installati esistenti tramite comando remoto. Dopo l’aggiornamento, il lettore viene ricaricato automaticamente con il contenuto esistente. | Sì | Personalizzato | Quasi - 1-3 secondi |
+| Aggiornamenti della shell del lettore | Questo è un nuovo eseguibile da distribuire in Windows Media Player. A tal fine, è necessario copiare in remoto un nuovo file binario sul lettore, arrestare l&#39;esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario ricaricare il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzato | No |
 
 ## Linee guida per la selezione dell&#39;hardware per il dispositivo del lettore {#hardware-selection-guidelines-for-player-device}
 
@@ -177,7 +177,7 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td><p>4 GB di memoria</p> <p>2 MB di cache</p> </td>
    <td><p>·ChromeOS 32 GB</p> <p>·Windows 128 GB</p> </td>
    <td>OnBoard</td>
-   <td>1920x1080</td>
+   <td>1920 x 1080</td>
    <td>DVI<br /> Ethernet/wireless,<br /> 2x USB</td>
    <td>
     <ul>

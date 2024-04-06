@@ -14,10 +14,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ L&#39;immagine seguente mostra **DemoSovrapposizioneTesto** progetto con **TextS
 
 Per utilizzare la sovrapposizione di testo in un canale AEM Screens, effettua le seguenti operazioni:
 
-1. Accedi a **DemoSovrapposizioneTesto** —> **Canali** —> **TextSample** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
 
    ![screen_shot_2018-12-16alle80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -78,7 +78,7 @@ Per utilizzare la sovrapposizione di testo in un canale AEM Screens, effettua le
 
 Utilizzando le proprietà Sovrapposizione testo è possibile aggiungere testo a qualsiasi componente del progetto Schermi. La sezione seguente fornisce una panoramica delle proprietà disponibili in Sovrapposizione testo:
 
-![testo](assets/text.gif)
+![text](assets/text.gif)
 
 È possibile aggiungere un testo alla casella di testo e aggiungere enfasi tipografiche quali grassetto, corsivo e sottolineato.
 
@@ -102,7 +102,7 @@ Per informazioni su come impostare e gestire le modifiche delle risorse basate s
 
 Dopo aver impostato le configurazioni richieste per il progetto, segui i passaggi seguenti per utilizzare i valori dei fogli di Google:
 
-1. Accedi a **DemoSovrapposizioneTesto** —> **Canali** —> **TextSample** e fai clic su **Proprietà** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Proprietà** dalla barra delle azioni.
 
 1. Seleziona la **Personalizzazione** per configurare le configurazioni ContextHub.
 
@@ -118,7 +118,7 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accedi a **DemoSovrapposizioneTesto** —> **Canali** —> **TextSample** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 

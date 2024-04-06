@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -57,6 +57,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
    1. Seleziona la **Percorso segmenti** as **conf** > **We.Retail** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Seleziona**.
 
    1. Fai clic su **Salva e chiudi**.
+
    >[!NOTE]
    >
    >Utilizza ContextHub e il percorso Segmenti, dove hai inizialmente salvato le configurazioni e i segmenti dell’hub di contesto.

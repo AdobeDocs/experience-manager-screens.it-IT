@@ -7,10 +7,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 3%
+source-wordcount: '1305'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Questa pagina mostra come creare e gestire i canali per AEM Screens.
 
 Dopo aver creato il progetto per AEM Screens, segui i passaggi seguenti per creare un nuovo canale per il progetto:
 
-1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra), quindi Screens. In alternativa, puoi passare direttamente a `https://localhost:4502/screens.html/content/screens`.
+1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi passare direttamente a `https://localhost:4502/screens.html/content/screens`.
 
 1. Passa al progetto Schermi e seleziona **Canali** cartella.
 
@@ -139,7 +139,7 @@ Per abilitare questa opzione dal dashboard dei canali, segui la procedura riport
 1. **Imposta il canale su Non in linea**
    1. Seleziona il canale e seleziona **Proprietà** dalla barra delle azioni
    1. Accedi a **Canale** e assicurati di deselezionare **Modalità sviluppatore (forza canale online)** opzione
-   1. Fai clic su **Salva e chiudi**
+   1. Clic **Salva e chiudi**
 1. **Aggiorna contenuto offline**
    1. Seleziona il canale e seleziona **Dashboard** dalla barra delle azioni
    1. Accedi a **INFORMAZIONI SUL CANALE** e fai clic su *...*
@@ -161,7 +161,7 @@ Un ***Canale online***, mostrerà il contenuto aggiornato nell&#39;ambiente in t
 
 Segui i passaggi seguenti per rendere il canale online:
 
-1. Passa al canale come **TestProject** —> **Canali** —> **TestChannel**.
+1. Passa al canale come **TestProject** > **Canali** > **TestChannel**.
 
    Seleziona il canale.
 
@@ -204,7 +204,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
   <tr>
    <td>Modifica nel canale online</td>
    <td>Contenuto aggiornato automaticamente</td>
-   <td><p>Contenuto aggiornato in "Device: Push Config"</p> <p>Oppure,</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Contenuto aggiornato in "Device: Push Config"</p> <p>Oppure</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
   </tr>
   <tr>
    <td>Modifica nel canale offline ma IL CANALE "Contenuto push" NON viene attivato (non verrà ricreato alcun pacchetto offline)</td>
@@ -214,7 +214,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
   <tr>
    <td>Modifica in "Contenuto push" per canale e canale offline attivata (nuovo pacchetto offline)</td>
    <td>Contenuto aggiornato automaticamente</td>
-   <td><p>Contenuto aggiornato il <strong><i>Device: Push Config</i></strong></p> <p>Oppure,</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Contenuto aggiornato il <strong><i>Device: Push Config</i></strong></p> <p>Oppure</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Modifica nella configurazione</p>
@@ -225,7 +225,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
      <li>Assegnazione canale (ruolo, evento, pianificazione)</li>
     </ul> </td>
    <td>Configurazione aggiornata automaticamente</td>
-   <td><p>Configurazione aggiornata il <strong><i>Device: Push Config</i></strong></p> <p>Oppure,</p> <p>Configurazione aggiornata il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Configurazione aggiornata il <strong><i>Device: Push Config</i></strong></p> <p>Oppure</p> <p>Configurazione aggiornata il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
@@ -244,7 +244,6 @@ Le visualizzazioni associate saranno elencate nel **Visualizzazioni assegnate** 
 >* [Creare e gestire le posizioni](managing-locations.md)
 >* [Creare e gestire le visualizzazioni](managing-displays.md)
 >
-
 
 Inoltre, fai clic sul display nella sezione **VISUALIZZAZIONI ASSEGNATE** per visualizzare le informazioni sul display, come illustrato di seguito:
 

@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -94,12 +94,13 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
    >[!CAUTION]
    >
-   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** —> **Personalizzazione** scheda.
+   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
-   È necessario selezionare entrambe le opzioni **Marchio** e **Superfici** affinché le attività vengano elencate correttamente quando avvii il processo di targeting.
+   >
+   >È necessario selezionare entrambe le opzioni **Marchio** e **Superfici** affinché le attività vengano elencate correttamente quando avvii il processo di targeting.
 
 1. **Aggiunta di un&#39;immagine predefinita**
 
@@ -111,7 +112,8 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
    >[!NOTE]
-   Prima di iniziare il targeting, devi aggiungere i segmenti (**For_Green**, **For_Red**, e **For_Blue**) facendo clic su **+ Aggiungi targeting esperienza** dalla barra laterale, come illustrato nella figura seguente.
+   >
+   >Prima di iniziare il targeting, devi aggiungere i segmenti (**For_Green**, **For_Red**, e **For_Blue**) facendo clic su **+ Aggiungi targeting esperienza** dalla barra laterale, come illustrato nella figura seguente.
 
    ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
@@ -123,4 +125,5 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
    1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
    1. Modifica il valore per tutte e tre le colonne e noterai gli aggiornamenti dell’immagine di visualizzazione in base al valore più alto in magazzino.
+
    ![retail_result](assets/retail_result.gif)

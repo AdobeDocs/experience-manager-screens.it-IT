@@ -7,7 +7,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
    1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
    1. **Assegnazione canale** viene visualizzata.
    1. Seleziona **Canale di riferimento**.. in base al percorso.
-   1. Seleziona la **Percorso canale** as **Attivazione a livello di canale** —> ***Canali*** —> ***MainAdChannel***.
+   1. Seleziona la **Percorso canale** as **Attivazione a livello di canale** > ***Canali*** > ***MainAdChannel***.
    1. Il **Ruolo canale** viene compilato come **mainadchannel**.
    1. Seleziona la **Priorità** as **1**.
    1. Seleziona la **Eventi supportati** as **Caricamento iniziale** e **Schermata di inattività**.
@@ -114,14 +114,14 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** —> **Posizioni** —> **Regione** —> **RegionDisplay** e clic **Dashboard** dalla barra delle azioni. Clic **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e clic **Dashboard** dalla barra delle azioni. Clic **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    Analogamente, assegna canale **TargetedSinglePlay** per la visualizzazione**:
 
-   1. Accedi a **Attivazione a livello di canale** —> **Posizioni** —> **Regione** —> **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
+   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
    1. **Assegnazione canale** viene visualizzata.
    1. Seleziona **Canale di riferimento**.. in base al percorso.
-   1. Seleziona la **Percorso canale** as **Attivazione a livello di canale*** —> ***Canali*** —> ***TargetedSinglePlay***.
+   1. Seleziona la **Percorso canale** as **Attivazione a livello di canale*** > ***Canali*** > ***TargetedSinglePlay***.
    1. Il **Ruolo canale** viene compilato come **targetedsingleplay**.
    1. Imposta il **Priorità** as **2**.
    1. Seleziona la **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività** e **Timer**, *come illustrato nella figura seguente.
@@ -130,13 +130,13 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    >[!CAUTION]
    >
-   È necessario impostare la priorità per **TargetedSinglePlay** canale superiore al **MainAdSegment** canale.
+   >È necessario impostare la priorità per **TargetedSinglePlay** canale superiore al **MainAdSegment** canale.
 
    ![screen_shot_2018-11-27at31206pm](assets/screen_shot_2018-11-27at31206pm.png)
 
    >[!NOTE]
    >
-   Per scegliere lo stesso giorno, devi selezionare il giorno successivo e modificare manualmente la data in modo che corrisponda allo stesso giorno ma per un’ora successiva. Questo impedisce all’utente di selezionare una data passata. Consulta l’esempio seguente:
+   >Per scegliere lo stesso giorno, devi selezionare il giorno successivo e modificare manualmente la data in modo che corrisponda allo stesso giorno ma per un’ora successiva. Questo impedisce all’utente di selezionare una data passata. Consulta l’esempio seguente:
 
    ![nuovo1](assets/new1.gif)
 
@@ -148,9 +148,9 @@ Il lettore visualizza il contenuto di **MainAdChannel** e esattamente alle 23:59
 
 >[!NOTE]
 >
-Per informazioni sul lettore di schermo dell’AEM, consulta le seguenti risorse:
-[Download di AEM Screens Player](https://download.macromedia.com/screens/)
-[Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>Per informazioni sul lettore di schermo dell’AEM, consulta le seguenti risorse:
+>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
+>[Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per le risorse in un canale {#handling-recurrence-in-assets}
@@ -167,7 +167,7 @@ Si supponga di voler visualizzare il contenuto di un canale solo il venerdì dal
 
    >[!NOTE]
    >
-   Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
+   >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -187,7 +187,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
-Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
 
 ### WeekParting {#week-parting}
 
@@ -197,7 +197,7 @@ Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* 
 
    >[!NOTE]
    >
-   Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
+   >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -215,7 +215,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
-Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
 
 
 ### MonthParting {#month-parting}
@@ -226,7 +226,7 @@ Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* 
 
    >[!NOTE]
    >
-   Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
+   >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -240,11 +240,11 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
-Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.
+>Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.
 
 >[!NOTE]
 >
-Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
 
 ### Combinazione di partizioni {#combined-parting}
 
@@ -254,7 +254,7 @@ Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* 
 
    >[!NOTE]
    >
-   Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
+   >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
 
@@ -270,4 +270,4 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
-Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.  Inoltre, puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.  Inoltre, puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).

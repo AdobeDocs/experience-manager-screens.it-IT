@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Per creare e utilizzare il flusso di lavoro, segui i passaggi seguenti:
 
 Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
-1. Passa all’istanza AEM e fai clic su Strumenti nella barra laterale. Seleziona **Flusso di lavoro** —> **Modelli** per creare un nuovo modello.
+1. Passa all’istanza AEM e fai clic su Strumenti nella barra laterale. Seleziona **Flusso di lavoro** > **Modelli** per creare un nuovo modello.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clic **Modelli** —> **Crea** —> **Crea modello**. Inserisci il **Titolo** (come **VideoRendition**) e **Nome** nel **Aggiungi modello flusso di lavoro**. Clic **Fine** per aggiungere il modello di workflow.
+1. Clic **Modelli** > **Crea** > **Crea modello**. Inserisci il **Titolo** (come **VideoRendition**) e **Nome** nel **Aggiungi modello flusso di lavoro**. Clic **Fine** per aggiungere il modello di workflow.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -101,7 +101,7 @@ Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
 Per utilizzare il flusso di lavoro nel progetto AEM Screens, segui i passaggi seguenti:
 
-1. Passare a un progetto AEM Screens (**TestVideoRendition** —> **Canali** —>**VideoRendition**).
+1. Passare a un progetto AEM Screens (**TestVideoRendition** > **Canali** >**VideoRendition**).
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
@@ -118,6 +118,6 @@ Per utilizzare il flusso di lavoro nel progetto AEM Screens, segui i passaggi se
 Per convalidare l’output:
 
 * Controlla anteprima del video nel canale
-* Accedi a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, come illustrato nella figura seguente:
+* Accedi a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Liti, come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

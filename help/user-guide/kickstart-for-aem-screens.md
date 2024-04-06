@@ -6,9 +6,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1308'
 ht-degree: 2%
 
 ---
@@ -35,11 +35,11 @@ Segui i passaggi seguenti per creare un progetto di esempio per AEM Screens e pu
 
 ## Consenti richieste referrer vuote {#allow-empty-referrer-requests}
 
-1. Accedi a **Configurazione della console web Adobe Experience Manager** tramite istanza AEM —> icona martello —> **Operazioni** —> **Console web**.
+1. Accedi a **Configurazione console Web Adobe Experience Manager** tramite istanza AEM > icona a forma di martello > **Operazioni** > **Console web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
-1. **Configurazione della console web Adobe Experience Manager** viene aperto. Cerca il referente sling.
+1. **Configurazione console Web Adobe Experience Manager** viene aperto. Cerca il referente sling.
 
    Per cercare la proprietà del referente sling, premi **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
 
@@ -152,13 +152,13 @@ Dopo aver creato una posizione, è necessario crearne una nuova.
 
 Una volta completata la configurazione del progetto, devi assegnare il canale a una visualizzazione per visualizzare il contenuto.
 
-1. Passa alla visualizzazione desiderata da **DemoScreens** —> **Posizioni** —> **TestLocation** —> **LobbyDisplay**.
+1. Passa alla visualizzazione desiderata da **DemoScreens** > **Posizioni** > **TestLocation** > **LobbyDisplay**.
 
 1. Tocca o fai clic **Assegna canale** dalla barra delle azioni.
 
    ![immagine](assets/kickstart/demo-assign1.png)
 
-   Oppure,
+   Oppure
 
    Tocca o fai clic **Dashboard** dalla barra delle azioni e fai clic su **+Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
@@ -198,7 +198,6 @@ Una volta completata la configurazione del progetto, devi assegnare il canale a 
 >1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure naviga direttamente in ***chrome://apps***.
 >1. Fai clic su **AEM Screens** Plug-in per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **esc** per uscire dalla modalità a tutto schermo.
 
-
 Una volta che il lettore Chrome OS è acceso, segui i passaggi seguenti per registrare un dispositivo Chrome.
 
 1. Accedi a **Dispositivi** del progetto dall’istanza AEM.
@@ -226,7 +225,7 @@ Una volta che il lettore Chrome OS è acceso, segui i passaggi seguenti per regi
 
    ![immagine](assets/kickstart/demo-register5.png)
 
-1. Seleziona il percorso per la visualizzazione come **DemoScreens** —> **Posizioni** —> **TestLocation** —> **LobbyDisplay** e fai clic su **Assegna**.
+1. Seleziona il percorso per la visualizzazione come **DemoScreens** > **Posizioni** > **TestLocation** > **LobbyDisplay** e fai clic su **Assegna**.
 
    ![immagine](assets/kickstart/demo-device6.png)
 

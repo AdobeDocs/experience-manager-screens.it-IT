@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 2%
+source-wordcount: '2526'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +94,6 @@ Puoi scaricare le seguenti risorse (immagini e aggiungerle alle risorse) e utili
 >* **[Gestione di un canale](managing-channels.md)**
 >
 
-
 L’implementazione di Dynamic Embedded Sequence in un progetto AEM Screens comporta tre attività principali:
 
 1. **Impostazione della tassonomia del progetto, inclusi canali, posizioni e visualizzazioni**
@@ -124,7 +123,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Crea due posizioni e un canale sotto ogni cartella di posizione.**
 
-   1. Accedi a **Demo** —> **Posizioni** —> **Regione A**.
+   1. Accedi a **Demo** > **Posizioni** > **Regione A**.
    1. Seleziona **Regione A** e fai clic su **+ Crea** dalla barra delle azioni.
    1. Seleziona **Posizione** dalla procedura guidata con **Titolo** as **Store 1**. Analogamente, creare un&#39;altra posizione dalla procedura guidata con il titolo **Store 2** con **Titolo** as **Store 2**. È possibile lasciare **Nome** campo vuoto durante la creazione **Store 1** e **Store 2**.
    1. Ripeti il passaggio b) e seleziona **Canale sequenza** dalla procedura guidata. Inserisci il **Titolo** as **Regione A** e **Nome** as **area geografica** per questo canale.
@@ -145,7 +144,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Crea display e canale sotto ogni posizione.**
 
-   1. Accedi a **Demo** —> **Posizioni** —> **Regione A** —> **Store 1**.
+   1. Accedi a **Demo** > **Posizioni** > **Regione A** > **Store 1**.
    1. Seleziona **Store 1** e fai clic su **+ Crea** dalla barra delle azioni.
    1. Seleziona **Visualizzazione** dalla procedura guidata e crea **Store1Display.**
    1. Ripeti il passaggio b) e seleziona questa volta **Canale sequenza** dalla procedura guidata. Inserisci il **Titolo** as **Store1Channel** e **Nome** as **archiviare**.
@@ -176,14 +175,14 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Aggiungere contenuto ai canali nelle rispettive posizioni.**
 
-   Accedi a **Demo** -> **Posizioni** -> **Regione A** -> **Regione A** e fai clic su **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse da aggiungere al canale.
+   Accedi a **Demo** > **Posizioni** > **Regione A** > **Regione A** e fai clic su **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse da aggiungere al canale.
 
    >[!NOTE]
    >È possibile utilizzare ***Resources.zip*** file da **Risorse** per utilizzare le immagini come risorse per il contenuto del canale.
 
    ![screen_shot_2018-09-12alle12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Allo stesso modo, passa a **Demo** -> **Posizioni** -> **Regione B** -> **Regione B** e fai clic su **Modifica** dalla barra delle azioni per trascinare e rilasciare le risorse sul canale, come illustrato di seguito:
+   Allo stesso modo, passa a **Demo** > **Posizioni** > **Regione B** > **Regione B** e fai clic su **Modifica** dalla barra delle azioni per trascinare e rilasciare le risorse sul canale, come illustrato di seguito:
 
    ![screen_shot_2018-09-12alle13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -204,10 +203,10 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Assegna canali a una pianificazione**
 
-   1. Accedi a **Demo** —> **Schedules** —> **AdSchedule** e fai clic su **Dashboard** dalla barra delle azioni.
+   1. Accedi a **Demo** > **Schedules** > **AdSchedule** e fai clic su **Dashboard** dalla barra delle azioni.
    1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** pannello per aprire **Assegnazione canale** .
    1. Seleziona **Canale di riferimento**.. in base al percorso.
-   1. Seleziona la **Percorso canale** as **Demo** —> ***Canali*** —> ***Globale***.
+   1. Seleziona la **Percorso canale** as **Demo** > ***Canali*** > ***Globale***.
    1. Inserisci il **Ruolo canale** as **GlobalAdSegment**.
    1. Seleziona la **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Interazione utente**.
    1. Fai clic su **Salva**.
@@ -250,10 +249,10 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Assegnazione della pianificazione a ogni visualizzazione**
 
-   1. Passa a ogni visualizzazione, ad esempio **Demo** —> **Posizioni** —> **Regione A** —>**Store 1** —>**Store1Display**.
+   1. Passa a ogni visualizzazione, ad esempio **Demo** > **Posizioni** > **Regione A** >**Store 1** >**Store1Display**.
    1. Clic **Dashboard** dall&#39;azione per aprire il dashboard di visualizzazione.
    1. Clic **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e fai clic su **+Assegna pianificazione**.
-   1. Seleziona il percorso della pianificazione (ad esempio, qui, **Demo** —> **Schedules** —>**AdSchedule**).
+   1. Seleziona il percorso della pianificazione (ad esempio, qui, **Demo** > **Schedules** >**AdSchedule**).
    1. Fai clic su **Salva**.
 
 ## Visualizzazione dei risultati {#viewing-the-results}
@@ -268,18 +267,17 @@ Una volta completata la configurazione dei canali e della visualizzazione, avvia
 >* [Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
-
 L’output seguente conferma il contenuto del canale in AEM Screens player, a seconda del percorso di visualizzazione.
 
 **Scenario 1**:
 
-Se si assegna il percorso di visualizzazione come **Demo** —> **Posizioni** —> **Regione A** —> **Store 1** —> **Store1Display**, il seguente contenuto verrà visualizzato sul lettore AEM Screens.
+Se si assegna il percorso di visualizzazione come **Demo** > **Posizioni** > **Regione A** > **Store 1** > **Store1Display**, il seguente contenuto verrà visualizzato sul lettore AEM Screens.
 
 ![channeldisplay1](assets/channeldisplay1.gif)
 
 **Scenario 1**:
 
-Se si assegna il percorso di visualizzazione come **Demo** —> **Posizioni** —> **Regione B** —> **Store 3** —> **Store3Display**, il seguente contenuto verrà visualizzato sul lettore AEM Screens.
+Se si assegna il percorso di visualizzazione come **Demo** > **Posizioni** > **Regione B** > **Store 3** > **Store3Display**, il seguente contenuto verrà visualizzato sul lettore AEM Screens.
 
 ![channeldisplay2](assets/channeldisplay2.gif)
 
@@ -314,7 +312,7 @@ Per creare gruppi e utenti e modificare gli ACL in base alle autorizzazioni, eff
 1. **Crea gruppi**
 
    1. Accedi a **Adobe Experience Manager**.
-   1. Clic **Strumenti** —> **Sicurezza** —> **Gruppi**.
+   1. Clic **Strumenti** > **Sicurezza** > **Gruppi**.
    1. Clic **Crea gruppo** e immetti **Global-Author** in **ID**.
    1. Fai clic su **Salva e chiudi**.
 
@@ -325,7 +323,7 @@ Per creare gruppi e utenti e modificare gli ACL in base alle autorizzazioni, eff
 1. **Creare utenti e aggiungere utenti ai gruppi**
 
    1. Accedi a **Adobe Experience Manager**.
-   1. Clic **Strumenti** —> **Sicurezza** —> **Utenti**.
+   1. Fai clic su **Strumenti** > **Protezione** > **Utenti**.
    1. Clic **Crea utente** e immetti **Utente globale** in **ID**.
    1. Invio **Password** e conferma la password per questo utente.
    1. Fai clic su **Gruppi** e immettere il nome del gruppo in **Seleziona gruppo**, ad esempio, immetti **Global-Author** da aggiungere **Utente globale** a tale gruppo specifico.
@@ -341,7 +339,7 @@ Per creare gruppi e utenti e modificare gli ACL in base alle autorizzazioni, eff
 1. **Aggiungere tutti i gruppi ai collaboratori**
 
    1. Accedi a **Adobe Experience Manager**.
-   1. Clic **Strumenti** —> **Sicurezza** —> **Gruppi**.
+   1. Clic **Strumenti** > **Sicurezza** > **Gruppi**.
    1. Seleziona **Collaboratori** dall’elenco e seleziona **Membri** scheda.
    1. Seleziona la **Gruppo** come **Global-Author**, **Region-Author,** e **Store-Author** ai collaboratori.
    1. Fai clic su **Salva e chiudi**.

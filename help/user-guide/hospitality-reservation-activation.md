@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Segui i passaggi seguenti per implementare il caso di utilizzo dell’attivazion
 
    >[!CAUTION]
    >
-   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** —> **Personalizzazione** scheda.
+   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -86,4 +86,5 @@ Segui i passaggi seguenti per implementare il caso di utilizzo dell’attivazion
 
    1. Clic **Anteprima.** Inoltre, apri i fogli Google e aggiornane il valore.
    1. Aggiornare il valore in **Ristorante1** e **Ristorante2** colonne. Se **Ristorante1** > **Ristorante2,** dovrebbe essere possibile visualizzare un&#39;immagine di *Bistecca* altri prodotti alimentari, *Thailandese* l’immagine del cibo viene visualizzata sullo schermo.
-   ![result5](assets/result5.gif)
+
+   ![risultato5](assets/result5.gif)

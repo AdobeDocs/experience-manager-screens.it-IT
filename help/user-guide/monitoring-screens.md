@@ -14,10 +14,10 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Puoi monitorare l’attività e quindi risolvere eventuali problemi del lettore 
 
 Per accedere al dashboard dei dispositivi, segui la procedura riportata di seguito:
 
-1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** —> ***Dispositivi***.
+1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
    Seleziona **Dispositivi** e **Gestione dispositivi** dalla barra delle azioni.
 
@@ -108,7 +108,7 @@ Il **PREFERENZE** consente all&#39;utente di modificare le preferenze per **Inte
 
 Inoltre, fai clic **Impostazioni** dall’angolo in alto a destra per aggiornare le preferenze del dispositivo. Puoi aggiornare le seguenti preferenze:
 
-* **URL del server**
+* **URL server**
 * **Risoluzione**
 * **Riavvia pianificazione**
 * **N. max. di file di registro da mantenere**
@@ -124,7 +124,6 @@ Inoltre, fai clic **Impostazioni** dall’angolo in alto a destra per aggiornare
 >* **Avvertenza**
 >* **Errore**
 
-
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
 ## Risoluzione dei problemi relativi alle impostazioni OSGi {#troubleshoot-osgi-settings}
@@ -135,7 +134,7 @@ Attualmente alcune di queste funzioni sono disponibili solo se *Il Filtro Di Rif
 
 Segui i passaggi seguenti per abilitare il filtro Apache Sling Referrer Allow Empty
 
-1. Accedi a **Configurazione della console web Adobe Experience Manager**, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Accedi a **Configurazione console Web Adobe Experience Manager**, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Controlla la **allow.empty** opzione.
 1. Fai clic su **Salva**.
 

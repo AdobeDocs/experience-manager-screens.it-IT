@@ -13,10 +13,10 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: 9d8b336c12d5e44beb831ba41f3df5031a6ca32d
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 2%
+source-wordcount: '2207'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Questo tutorial è destinato agli sviluppatori che hanno poca esperienza con AEM
 
 Per completare questa esercitazione, è necessario quanto segue:
 
-1. [AEM 6.5](https://helpx.adobe.com/it/experience-manager/6-4/release-notes.html) o [AEM 6.3](https://helpx.adobe.com/it/experience-manager/6-3/release-notes.html) + Pacchetto di funzioni per gli schermi più recenti
+1. [AEM 6.5](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) o [AEM 6.3](https://helpx.adobe.com/it/experience-manager/6-3/release-notes.html) + Pacchetto di funzioni per gli schermi più recenti
 
 1. [Lettore AEM Screens](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Ambiente di sviluppo locale
@@ -76,9 +76,9 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
    >
    >In questa esercitazione non viene scritto alcun codice Java. Se è necessaria una logica di business più complessa, è possibile creare e distribuire Java di back-end utilizzando il bundle Java di base.
 
-   ![Rappresentazione del codice ui.apps in CRXDE Lite](assets/uipps-contents.png)
+   ![Rappresentazione del codice ui.apps in CRXDE Liti](assets/uipps-contents.png)
 
-   Rappresentazione del codice ui.apps in CRXDE Lite
+   Rappresentazione del codice ui.apps in CRXDE Liti
 
    Il **helloworld** Il componente è attualmente solo un segnaposto. Nel corso dell’esercitazione, verrà aggiunta una funzionalità che consente all’autore di aggiornare il messaggio visualizzato dal componente.
 
@@ -143,7 +143,7 @@ AEM Screens presenta alcuni vincoli interessanti che non sono necessariamente va
    I componenti Screens richiedono due rendering diversi a seconda di quale [modalità di authoring](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#PageModes) è in uso:
 
    1. **Produzione**: modalità Anteprima o Pubblicazione (wcmmode=disabled)
-   1. **Modifica**: utilizzato per tutte le altre modalità di authoring, ovvero modifica, progettazione, scaffolding, sviluppatore...
+   1. **Modifica**: utilizzato per tutte le altre modalità di authoring, ad esempio modifica, progettazione, scaffolding, sviluppatore...
 
    `helloworld.html`funge da switch, controllando quale modalità di authoring è attualmente attiva e reindirizzando a un altro script HTL. Una convenzione comune utilizzata dai componenti Screens consiste nell’avere `edit.html` script per la modalità di modifica e un `production.html` script per la modalità di produzione.
 
@@ -387,7 +387,7 @@ Una terza categoria di librerie client: `cq.screens.components.edit` può essere
 
 ## Creare una pagina di progettazione {#design-page}
 
-AEM Screens utilizza [Modelli di pagina statici](https://helpx.adobe.com/it/experience-manager/6-5/sites/developing/using/page-templates-static.html) e [Configurazioni di progettazione](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) per le modifiche globali. Le configurazioni di progettazione vengono spesso utilizzate per configurare i componenti consentiti per Parsys su un canale. Una best practice consiste nell’archiviare queste configurazioni in un modo specifico per l’app.
+AEM Screens utilizza [Modelli di pagina statici](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html) e [Configurazioni di progettazione](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) per le modifiche globali. Le configurazioni di progettazione vengono spesso utilizzate per configurare i componenti consentiti per Parsys su un canale. Una best practice consiste nell’archiviare queste configurazioni in un modo specifico per l’app.
 
 Sotto viene creata una pagina Progettazione esecuzione We.Retail in cui vengono memorizzate tutte le configurazioni specifiche del progetto Esecuzione We.Retail.
 
@@ -422,6 +422,7 @@ Il componente Hello World deve essere utilizzato su un canale di sequenza. Per t
 1. Passaggio modello - scegli **Canale sequenza**
 
    1. Passaggio proprietà
+
    * Scheda Base > Titolo = **Canale inattivo**
    * Scheda Canale > spunta **Rendi il canale online**
 

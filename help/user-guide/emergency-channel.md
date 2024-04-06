@@ -13,10 +13,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 1%
+source-wordcount: '769'
+ht-degree: 0%
 
 ---
 
@@ -115,9 +115,10 @@ Per impostare un canale di emergenza, procedere come segue:
       1. Seleziona il percorso per **MainAdChannel**
       1. Imposta il **Priorità** as 2
       1. Imposta gli eventi supportati come **Caricamento iniziale** e **Schermata di inattività**.
-      1. Fai clic su **Salva**
+      1. Clic **Salva**
 
       Allo stesso modo, dovrai seguire di nuovo gli stessi passaggi per assegnare il **EmergencyChannel** e impostarne **Priorità**.
+
    >[!NOTE]
    >
    >La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più corrispondano ai criteri di riproduzione. Quello con il valore più alto avrà sempre la precedenza sui valori più bassi.
@@ -133,7 +134,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
    1. Imposta gli eventi supportati come **Caricamento iniziale**, **Schermata di inattività**, e **Interazione utente**
 
-   1. Fai clic su **Salva**
+   1. Clic **Salva**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -143,12 +144,12 @@ Per impostare un canale di emergenza, procedere come segue:
 
 1. **Assegnazione della pianificazione a ogni visualizzazione**
 
-   1. Passa a ogni visualizzazione, ad esempio **EmergencyChannel** —> **Posizioni** —> **Archivia** —>**StoreFront**.
+   1. Passa a ogni visualizzazione, ad esempio **EmergencyChannel** > **Posizioni** > **Archivia** >**StoreFront**.
 
    1. Clic **Dashboard** dall&#39;azione per aprire il dashboard di visualizzazione.
    1. Clic **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e fai clic su **+Assegna pianificazione**.
 
-   1. Seleziona il percorso della pianificazione (ad esempio, qui, **EmergencyChannel** —> **Schedules** —>**StoreSchedule**).
+   1. Seleziona il percorso della pianificazione (ad esempio, qui, **EmergencyChannel** > **Schedules** >**StoreSchedule**).
 
    1. Fai clic su **Salva**.
 
@@ -165,7 +166,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
 In caso di emergenza, effettuare le seguenti operazioni:
 
-1. Accedi a **EmergencyChannel** —> **Schedules** —> **StoreSchedule** e seleziona **Dashboard** dalla barra delle azioni.
+1. Accedi a **EmergencyChannel** > **Schedules** > **StoreSchedule** e seleziona **Dashboard** dalla barra delle azioni.
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 

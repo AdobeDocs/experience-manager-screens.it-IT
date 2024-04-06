@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 1%
+source-wordcount: '983'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Il diagramma seguente illustra il processo di replica:
 
 ### Agenti e comandi di replica Screens  {#screens-replication-agents-and-commands}
 
-Gli agenti di replica specifici per schermi personalizzati vengono creati per inviare comandi dall’istanza Autore al dispositivo AEM Screens. Le istanze AEM Publish fungono da intermediario per inoltrare questi comandi al dispositivo.
+Gli agenti di replica specifici per schermi personalizzati vengono creati per inviare comandi dall’istanza Autore al dispositivo AEM Screens. Le istanze Pubblicazione AEM fungono da intermediario per inoltrare questi comandi al dispositivo.
 
 Questo consente agli autori di continuare a gestire il dispositivo come, inviare aggiornamenti del dispositivo e acquisire schermate dall’ambiente di authoring. Gli agenti di replica di AEM Screens dispongono di una configurazione di trasporto personalizzata, come gli agenti di replica standard.
 

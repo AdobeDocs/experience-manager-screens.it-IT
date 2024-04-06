@@ -7,9 +7,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 089bf4eebe5234d77d6f02ae6fc3b8bb75ba6ea2
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Per risolvere il problema relativo alla schermata vuota, controlla che siano dis
 
 Devi abilitare il filtro Apache Sling Referrer Allow Empty (Consenti vuoto). Ciò è necessario per il funzionamento ottimale del protocollo di controllo tra AEM Screens Player e il server AEM Screens.
 
-1. Accedi a **Configurazione della console web Adobe Experience Manager**
+1. Accedi a **Configurazione console Web Adobe Experience Manager**
 1. Controlla la **allow.empty** opzione.
 1. Fai clic su **Salva**.
 
@@ -152,7 +152,7 @@ All’avvio di AEM Screens Player, viene inviata una richiesta a ***/content/scr
 
 Segui i passaggi seguenti per attivare Stay Awake in su qualsiasi lettore Android:
 
-1. Passa a Impostazioni lettore Android —> **Informazioni su**
+1. Passa a Impostazioni lettore Android > **Informazioni su**
 1. Tocca 7 volte il numero di build per abilitare **Opzioni sviluppatore** in **Impostazioni**
 1. Accedi a **Opzioni sviluppatore**
 1. Abilita **Rimani sveglio**
@@ -184,16 +184,16 @@ Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Scr
 * **un’API JS interna**
 * **un archivio ContextHub**: in sono definiti tre store ContextHub `/libs/screens/clientlibs/contexthub` per esporre canali, dispositivi e, visualizza informazioni.
 
-   Per utilizzare questi valori dell’archivio ContentHub, segui i passaggi seguenti:
+  Per utilizzare questi valori dell’archivio ContentHub, segui i passaggi seguenti:
 
    * Modifica le proprietà del canale e imposta il percorso ContextHub nella scheda di personalizzazione sul valore (come indicato sopra)
    * In JS per il canale, puoi utilizzare:
 
-      ```shell
-         ContextHub.getStore('screens-device');
-         ContextHub.getStore('screens-display');
-         ContextHub.getStore('screens-channels');
-      ```
+     ```shell
+        ContextHub.getStore('screens-device');
+        ContextHub.getStore('screens-display');
+        ContextHub.getStore('screens-channels');
+     ```
 
 ## Suggerimenti generali per la risoluzione dei problemi {#general-troubleshooting-tips}
 
@@ -203,13 +203,13 @@ Per disabilitare Livefyre ed evitare errori di registro:
 
 1. ***Disabilita bundle Livefyre:***
 
-   * Accedi a `https://&lt;host&gt;:&lt;port&gt;/system/console/bundles`
+   * Accedi a `https://<host>:<port>/system/console/bundles`
    * Cerca il bundle AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`
    * Clic **Interrompi**
 
 1. ***Disabilita poller Livefyre:***
 
-   * In CRXDE Lite, passa a `/etc/importers/polling/livefyre-poller/jcr:content`
+   * In CRXDE Liti, passa a `/etc/importers/polling/livefyre-poller/jcr:content`
    * Aggiungi una nuova proprietà *abilitato* tipo *Booleano*
    * Imposta **proprietà enabled** a **false**
 
@@ -233,7 +233,7 @@ Consulta [Modello per gestori personalizzati](https://experienceleague.adobe.com
 
 * Disattiva ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-* Abilitare SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+* Abilita SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
 * Modifica `channel/experience fragment/page components`.
 

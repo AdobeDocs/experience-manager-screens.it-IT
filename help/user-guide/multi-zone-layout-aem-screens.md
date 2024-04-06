@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Puoi utilizzare risorse singole, come un’immagine o un video, in tutte le sing
 
 1. **Aggiunta di contenuto al canale**
 
-   1. Accedi a **Zone** —> **Canali**—> **ZonaMultipla**.
+   1. Accedi a **Zone** > **Canali**> **ZonaMultipla**.
    1. Seleziona la **ZonaMultipla** channel e click **Modifica** dalla barra delle azioni per aprire l’editor.
 
 1. **Aggiunta di immagini al canale**
@@ -82,7 +82,7 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 
 1. **Creazione di una cartella canali**
 
-   1. Accedi a **Zone** —> **ZonaMultipla** —> **Canali** e fai clic su **Crea** dalla barra delle azioni.
+   1. Accedi a **Zone** > **ZonaMultipla** > **Canali** e fai clic su **Crea** dalla barra delle azioni.
    1. Seleziona **Cartella canali** dal **Crea** e fai clic su **Successivo**.
    1. Inserisci il titolo come **EmbeddedChannels** e fai clic su **Crea**.
 
@@ -90,7 +90,7 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 
 1. **Aggiunta di altri due canali alla cartella canali**
 
-   1. Accedi a **Zone** —> **Canali** —> **EmbeddedChannels** e fai clic su **Crea** dalla barra delle azioni.
+   1. Accedi a **Zone** > **Canali** > **EmbeddedChannels** e fai clic su **Crea** dalla barra delle azioni.
    1. Seleziona **Canale sequenza** dal **Crea** creazione guidata di un canale con titolo **Zona1**.
    1. Seleziona **Zona1** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
    1. Trascina alcune immagini su questo canale.
@@ -111,12 +111,12 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 
 1. **Aggiunta di sequenze incorporate (componente) al canale principale (MultiZone)**
 
-   1. Accedi a **Zone** —> **Canali** —> **ZonaMultipla**.
+   1. Accedi a **Zone** > **Canali** > **ZonaMultipla**.
    1. Clic **Modifica** dalla barra delle azioni per aprire l’editor.
    1. Trascina la **Sequenza incorporata** in entrambe le zone.
    1. Selezionate la sequenza incorporata in una delle zone.
    1. Fai clic su **Configura** (chiave inglese) a una delle sequenze incorporate nell’editor.
-   1. Seleziona il percorso del canale come **Zone** —> **Canali** —> **EmbeddedChannels** —> **Zona1**, come illustrato nella figura seguente.
+   1. Seleziona il percorso del canale come **Zone** > **Canali** > **EmbeddedChannels** > **Zona1**, come illustrato nella figura seguente.
    1. Analogamente, aggiungi **Zona2** a un altro componente di sequenza incorporato nell’editor.
 
       ![immagine](/help/user-guide/assets/multi-zone/multizone-3.png)
@@ -127,14 +127,14 @@ Crea una posizione e una visualizzazione per visualizzare il contenuto in Screen
 
 1. **Creazione di una posizione**
 
-   1. Accedi a **Zone** —> **Posizioni** cartella.
+   1. Accedi a **Zone** > **Posizioni** cartella.
    1. Seleziona la **Posizioni** cartella e fai clic su **Crea** dalla barra delle azioni.
    1. Seleziona **Posizione** dal **Crea** e fai clic su **Successivo**.
    1. Inserisci il **Titolo** as **SanJose** e fai clic su **Crea**.
 
 1. **Creazione di una visualizzazione**
 
-   1. Accedi a **Zone** —> **Posizioni** cartella.
+   1. Accedi a **Zone** > **Posizioni** cartella.
    1. Seleziona la **SanJose** posizione e clic **Crea** dalla barra delle azioni.
    1. Seleziona **Visualizzazione** dal **Crea** e fai clic su **Successivo**.
    1. Inserisci il **Titolo** as **Lobby** e fai clic su **Crea**.
@@ -145,7 +145,7 @@ Assegna i canali alla visualizzazione per visualizzare il contenuto. Per assegna
 
 1. **Assegnazione del canale alla visualizzazione**
 
-   1. Accedi a **Zone** —> **Posizioni** —> **SanJose**—> **Lobby**.
+   1. Accedi a **Zone** > **Posizioni** > **SanJose**> **Lobby**.
    1. Seleziona la **Lobby** visualizzare e fare clic su **Assegna canale** dalla barra delle azioni.
    1. Inserisci il percorso del **ZonaMultipla** channel in **Percorso canale**.
    1. Imposta il **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Timer**.
@@ -168,10 +168,9 @@ Dopo aver impostato una posizione e uno schermo, attenersi alla procedura riport
 
 1. **Registrazione del dispositivo**
 
-   1. Accedi a **Zone** —> **Dispositivi** cartella.
+   1. Accedi a **Zone** > **Dispositivi** cartella.
    1. Seleziona la **Dispositivi** cartella e fai clic su **Gestione dispositivi** dalla barra delle azioni.
    1. Clic **Registrazione dispositivo** e selezionare il dispositivo in sospeso dall&#39;elenco.
-
       >[!NOTE]
       > Il titolo del dispositivo deve corrispondere al token del dispositivo (**Token** ) visualizzato nel **Registrazione dispositivo** scheda.
    1. Se il titolo corrisponde al token del dispositivo, seleziona il dispositivo e fai clic su **Registra dispositivo** dalla barra delle azioni.

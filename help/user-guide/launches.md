@@ -14,9 +14,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 2cc613454d0d20a42871858e3d754e1b0e161dc3
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -65,10 +65,10 @@ Ogni volta che pianifichiamo un lancio in diretta, la promozione inizierà prima
 
 In questa sezione viene illustrato come aggiornare a 10 minuti un periodo di tolleranza predefinito.
 
-1. Passa a CRXDE Lite e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Passa a CRXDE Liti e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 2. Fai clic con il pulsante destro del mouse e copia il file.
 3. Accedi a `/apps/system/config` e fare clic con il pulsante destro del mouse e incollare.
-4. Doppio clic su `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` per aprire il file nell’editor in CRXDE Lite. Deve mostrare il periodo di tolleranza per il percorso */content/screens/* as **86400**. Cambia il valore in **600**.
+4. Doppio clic su `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` per aprire il file nell’editor in CRXDE Liti. Deve mostrare il periodo di tolleranza per il percorso */content/screens/* as **86400**. Cambia il valore in **600**.
 
 Ora il contenuto nel file di testo dovrebbe essere simile a:
 
@@ -90,7 +90,7 @@ Questa sezione illustra come implementare Screens Launch nel progetto AEM Screen
 
 Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Screens, segui i passaggi seguenti:
 
-1. Crea un canale di sequenza nel progetto AEM Screens, ad esempio **DemoLanci** —> **Canali** —> **FutureLaunch**, come illustrato di seguito.
+1. Crea un canale di sequenza nel progetto AEM Screens, ad esempio **DemoLanci** > **Canali** > **FutureLaunch**, come illustrato di seguito.
 
    >[!CAUTION]
    >
@@ -141,9 +141,9 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
    * **Promuovi pagine modificate**: verranno promosse solo le risorse di lancio modificate. Si consiglia di utilizzare questa opzione quando non è richiesta la revisione del lancio.
    * **Promuovi pagine approvate**: questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito sui canali del lancio. Solo le pagine approvate verranno promosse alla data di attivazione impostata.
 
-      >[!CAUTION]
-      >
-      >La data di lancio live rispetta il fuso orario del lettore/dispositivo anziché quello del server.
+     >[!CAUTION]
+     >
+     >La data di lancio live rispetta il fuso orario del lettore/dispositivo anziché quello del server.
 
 1. Vedrai che il lancio è stato creato. Puoi fare clic su **Apri** per visualizzare le pagine nell’editor o fai clic su **Fine** per tornare al progetto.
 
@@ -165,7 +165,7 @@ Dopo la creazione del lancio, puoi aggiornare proprietà quali data di attivazio
 
 Per modificare le proprietà del lancio, segui i passaggi seguenti:
 
-1. Accedi al canale **FutureLaunch**, *(questo è il lancio in sospeso)* e selezionare il canale, come illustrato nella figura seguente.
+1. Passare al canale **FutureLaunch**, *(questo è il lancio in sospeso)* e selezionare il canale, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-17.png)
 

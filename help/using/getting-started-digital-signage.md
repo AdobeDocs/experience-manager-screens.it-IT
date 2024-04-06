@@ -1,13 +1,11 @@
 ---
 title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
-seo-title: Basics Of Digital  Signage for [!UICONTROL AEM Screens]
-description: La guida descrive i fondamenti di un progetto di digital signage
-seo-description: The guide describes the basics of a digital signage project
+description: Scopri le basi di un progetto di digital signage.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +27,7 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 
    L’hardware definisce i componenti hardware ideali per l’implementazione del progetto di digital signage:
    * Il dispositivo dispone di spazio di archiviazione sufficiente per eseguire tutte le varianti delle esperienze offline?
-   * Sono consentiti il tipo e la lunghezza del cavo video? Il dispositivo supporta entrambe le risoluzioni desiderate (HD, Full HD, 4K, ecc.) e codec video che intendo distribuire (h.264, h.265, ecc.)
+   * Sono consentiti il tipo e la lunghezza del cavo video? Il dispositivo supporta entrambe le risoluzioni desiderate (HD, Full HD, `4K`e così via) e i codec video che intendo distribuire (h.264, h.265 e così via)
    * Uso del filo di rame fisico
    * Dimensioni degli schermi
    * Numero di schermate
@@ -41,14 +39,14 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 
    Connectivity pone l’accento sulle seguenti domande:
    * Rete (cellulare o wi-fi) o standalone?
-      * è necessario consentire gli aggiornamenti dei contenuti USB?
-      * è necessario consentire la raccolta dei dati di utilizzo?
+      * È necessario consentire gli aggiornamenti dei contenuti USB?
+      * È necessario consentire la raccolta dei dati di utilizzo?
 
 1. **Installazione**
 
    L&#39;installazione include:
    * Display: orizzontale o verticale
-   * Come verrà montato lo schermo?
+   * Come viene montato lo schermo?
       * Verticale e orizzontale
       * Alloggiamento completo
       * Piastra di copertura
@@ -74,7 +72,7 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
       * Pressione pulsante
       * Gesto
    * Attivazione dati (I/O)?
-      * Comandi seriali di invio/ricezione (chiusura contatto, PLC, ecc.)
+      * Invio/ricezione di comandi seriali (chiusura contatto, PLC e così via)
       * I dati in arrivo vengono visualizzati sullo schermo (RSS) o attivano il contenuto
       * RFID/NFC/Bluetooth/iBeacon
       * Servizi esterni (meteo, traffico)
@@ -82,7 +80,7 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 1. **Ambiente**
 
    L&#39;ambiente sottolinea:
-   * Posizione di visualizzazione?
+   * Mostrare la posizione?
       * Interno ed esterno
       * Fuori dalla portata o direttamente esposto
    * Requisito particolare di temperatura?
@@ -93,8 +91,8 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 
    La manutenzione è incentrata su:
 
-   * Sono necessari manuali di installazione/guide utente dettagliate?
-   * Stiamo configurando (programmando) il dispositivo prima della spedizione?
+   * Sono necessari manuali di installazione e guide utente?
+   * Si sta configurando (programmando) il dispositivo prima della spedizione?
    * È necessario acquisire ogni numero di serie a scopo di tracciamento?
    * Sono previsti requisiti di alimentazione di riserva (alimentazione senza interruzioni)?
    * Come vengono distribuiti gli aggiornamenti di sistema? E come vengono monitorati i dispositivi in remoto? È necessaria una soluzione MDM?

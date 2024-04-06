@@ -1,25 +1,23 @@
 ---
 title: 'Caso di utilizzo: transizione da MultiZone a SingleZone'
 description: Segui questa pagina per scoprire il caso d’uso MultiZone sulle transizioni SingleZone.
-seo-description: MultiZone to SingleZone Transitions use case.
 contentOwner: Jyotika Syal
 feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 3%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
 # Transizione da più zone a zona singola {#multizone-to-singlezone-use-case}
 
-
 ## Descrizione del caso d’uso {#use-case-description}
 
-Questa sezione descrive un esempio di caso d’uso che evidenzia come impostare un canale di layout multizona alternativo a un canale di layout a zona singola. Il canale multizona dispone di risorse immagine/video in sequenza e mostra come impostare un progetto che si alterna da più zone a una singola zona e viceversa.
+Questa sezione descrive un esempio di caso d’uso che evidenzia come impostare un canale di layout multizona alternativo a un canale di layout a zona singola. Il canale multizona dispone di risorse video/immagini di sequenziamento e mostra come impostare un progetto che si alterni da più zone a una singola zona e viceversa.
 
 ### Precondizioni {#preconditions}
 
@@ -45,9 +43,9 @@ Per impostare un progetto, segui i passaggi seguenti:
 
 1. **Creazione di un canale schermi con più zone**
 
-   1. Seleziona la **Canali** cartella e fai clic su **Crea** dalla barra delle azioni per aprire la procedura guidata per creare un canale.
+   1. Seleziona la **Canali** cartella e fai clic su **Crea** dalla barra delle azioni e aprendo la procedura guidata per creare un canale.
    1. Seleziona **Canale schermo diviso barra sinistra-L** dalla procedura guidata e crea il canale con titolo **LayoutZonaMultiplo**.
-   1. Aggiungi contenuto al canale. Trascina e rilascia le risorse in ciascuna zona. L’esempio seguente mostra una **LayoutZonaMultiplo** canale composto da un video, un’immagine e un banner di testo (in una sequenza incorporata), come mostrato di seguito.
+   1. Aggiungi contenuto al canale. Trascina e rilascia le risorse in ciascuna zona. L’esempio seguente mostra una **LayoutZonaMultiplo** canale comprendente un video, un’immagine e un banner di testo (in una sequenza incorporata), come mostrato di seguito.
 
    ![risorsa](assets/mz-to-sz2.png)
 
@@ -60,7 +58,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/mz-to-sz3.png)
 
-1. Clic **Modifica** dalla barra delle azioni per aggiungere contenuto a questo canale. Aggiungi un **Canale** e una risorsa di immagine a cui passare, a questo canale, come illustrato nella figura seguente:
+1. Clic **Modifica** dalla barra delle azioni, in modo da poter aggiungere contenuto a questo canale. Aggiungi un **Canale** e una risorsa di immagine a cui passare per questo canale, come illustrato nella figura seguente:
 
    ![risorsa](assets/mz-to-sz4.png)
 
@@ -68,22 +66,22 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/mz-to-sz5.png)
 
-1. Imposta la durata da **Sequenza** campo a **10000 ms**.
+1. Imposta la durata da **Sequenza** campo a **10000 millisecondi**.
 
    ![risorsa](assets/mz-to-sz6.png)
 
-1. Allo stesso modo, apri le impostazioni per l’immagine (risorsa aggiunta) e impostane la durata dal campo **Sequenza** campo a **3000 ms**.
+1. Allo stesso modo, apri le impostazioni per l’immagine (risorsa aggiunta) e impostane la durata dal campo **Sequenza** campo a **3000 millisecondi**.
 
    ![risorsa](assets/mz-to-sz7.png)
 
 ## Controllo dell’anteprima {#checking-the-preview}
 
-Puoi visualizzare l’output desiderato dal lettore o semplicemente facendo clic sul pulsante **Anteprima** dall’editor.
+È possibile visualizzare l’output desiderato dal lettore o semplicemente selezionando **Anteprima** dall’editor.
 
-L’output mostra come viene riprodotto un layout multizona per *10000 ms* e quindi passa al layout a zona singola con durata di riproduzione di *3000 ms* e quindi torna al layout multizona.
+L’output mostra come viene riprodotto un layout multizona per *10000 millisecondi* e quindi passa al layout a zona singola con durata di riproduzione di *3000 millisecondi* e quindi torna al layout multizona.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 
 >[!NOTE]
 >
->È possibile personalizzare la transizione dei canali (dal layout multisito a quello a zona singola o viceversa) in base alle proprie esigenze.
+>È possibile personalizzare la transizione dei canali (dal layout multizona a quello a zona singola o viceversa) in base alle proprie esigenze.

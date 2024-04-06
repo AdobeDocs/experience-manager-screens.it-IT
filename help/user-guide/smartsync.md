@@ -13,10 +13,10 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
@@ -61,11 +61,11 @@ La funzione SmartSync offre numerosi vantaggi al progetto AEM Screens. Permette
 >
 >Consulta la sezione [Download di AEM Screens Player](https://download.macromedia.com/screens/) per scaricare il lettore più recente. La tabella seguente descrive la versione minima del lettore richiesta per ogni piattaforma:
 
-| **Platform** | **Versione minima del lettore supportata** |
+| **Piattaforma** | **Versione minima del lettore supportata** |
 |---|---|
 | Android | 3.3.72 |
-| Chrome OS | 1.0.136 |
-| Windows | 1.0.136 |
+| Chrome OS | 1,0,136 |
+| Windows | 1,0,136 |
 
 Per passare da ContentSync a SmartSync, effettua le seguenti operazioni:
 
@@ -79,11 +79,11 @@ Per passare da ContentSync a SmartSync, effettua le seguenti operazioni:
    >
    >Prima di utilizzare SmartSync per la prima volta, è necessario cancellare tutta la cache del contenuto.
 
-1. Accedi a **Configurazione della console web Adobe Experience Manager** tramite istanza AEM —> icona martello —> **Operazioni** —> **Console web**.
+1. Accedi a **Configurazione console Web Adobe Experience Manager** tramite istanza AEM > icona a forma di martello > **Operazioni** > **Console web**.
 
    ![screen_shot_2019-02-11at15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 
-1. **Configurazione della console web Adobe Experience Manager** viene aperto. Cerca *offlinecontentservice*.
+1. **Configurazione console Web Adobe Experience Manager** viene aperto. Cerca *offlinecontentservice*.
 
    Per la ricerca **Servizio di contenuti offline Screens** proprietà, premere **Comando+F** per **Mac** e **Ctrl+F** per **Windows**.
 
