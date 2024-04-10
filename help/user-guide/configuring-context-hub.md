@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 02929219a064e3b936440431e77e67e0bf511bf6
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
    >
    >1. Passa a CRXDE Liti e quindi a `/conf/screens/settings/cloudsettings`.
    >1. Controlla se `cloudsettings jcr:primaryType` è in `sling:Folder`. Se il `jcr:primaryType` non è in `sling:folder`, procedere ai passaggi successivi.
-   >1. Clic con il pulsante destro `/conf/screens/settings` e creare un nodo con *nome* as **impostazioni cloud1** e *Tipo* as **sling:Cartella** e salva le modifiche.
+   >1. Clic con il pulsante destro `/conf/screens/settings` e creare un nodo con *nome* as **`cloudsettings1`** e *Tipo* as **`sling:Folder`** e salva le modifiche.
    >1. Sposta tutti i nodi in `/conf/screens/settings/cloudsettings` a `cloudsettings1`.
    >1. Elimina `cloudsettings` e salva.
    >1. Rinomina `cloudsettings1` a `cloudsettings` e salva.
@@ -110,10 +110,10 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
    >
    >Segui questi passaggi in Creazione e pubblicazione prima o dopo l’aggiornamento.
 
-   1. Inserisci il **Titolo** as **Fogli Google**, **Nome store** as **googlesheets**, e **Tipo di archivio** as **contexthub.generic-jsonp** e fai clic su **Successivo**.
+   1. Inserisci il **Titolo** as **Fogli Google**, **Nome store** as **`googlesheets`**, e **Tipo di archivio** as **c`ontexthub.generic-jsonp`** e fai clic su **Successivo**.
 
       >[!CAUTION]
-      >Se si utilizza Adobe Experience Manager (AEM) 6.4, immettere il **Titolo configurazione** as **googlesheets** e **Tipo di archivio** as **contexthub.generic-jsonp**.
+      >Se si utilizza Adobe Experience Manager (AEM) 6.4, immettere il **Titolo configurazione** as **`googlesheets`** e **Tipo di archivio** as **c`ontexthub.generic-jsonp`**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub6.png)
 
