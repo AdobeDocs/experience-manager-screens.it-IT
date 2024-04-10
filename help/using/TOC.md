@@ -1,4 +1,5 @@
 ---
+cloud: Experience Cloud
 user-guide-title: Guida alle best practice per i progetti AEM Screens
 breadcrumb-title: Guida alle best practice per AEM Screens
 solution-title: AEM Screens
@@ -9,10 +10,10 @@ product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 0286497306276c45c126b83b4c799970b145f42d
+source-git-commit: cd3c7e0766aebd0fd5cb0ae52c0bf72095308bb5
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 75%
+ht-degree: 25%
 
 ---
 
@@ -32,11 +33,11 @@ ht-degree: 75%
    + [Dipendenze UX](ux-dependencies.md)
    + [Integrazione con Analytics](analytics.md)
 + Informazioni progettuali {#design-brief}
-   + [Mappa percorso UX](journey-map.md)
-   + [Prototipi UX](prototypes.md)
+   + [Mappa Percorso UX](journey-map.md)
+   + [Prototipazione UX](prototypes.md)
    + [Wireframe UX](wireframes.md)
    + [Transizione verso la piattaforma](transition-platform.md)
-   + [Ottimizzazione dinamica dei contenuti](dynamic-creative-optimizations.md)
+   + [Dynamic Creative Optimization](dynamic-creative-optimizations.md)
 + Informazioni sulla distribuzione {#deployment-brief}
    + [Configurazioni della piattaforma AEM](aem-platform-configurations.md)
    + [Tassonomia e implementazione dei progetti](project-taxonomy-implementation.md)
