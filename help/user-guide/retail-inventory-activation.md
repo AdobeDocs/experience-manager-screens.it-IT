@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per questo caso d’uso, il maglione rosso, verde o blu verrà visualizzato sull
 
 Prima di iniziare a implementare l’attivazione del targeting dell’inventario di vendita al dettaglio, devi imparare a impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per i canali*** in un progetto AEM Screens.
 
-Fai riferimento a [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
+Consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
 
 ## Flusso di base {#basic-flow}
 
@@ -50,7 +50,7 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
 1. **Configurazione dei tipi di pubblico in base ai requisiti**
 
-   1. Passa ai segmenti del pubblico (consulta la sezione ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
    1. Aggiungi tre nuovi segmenti **For_Red**, **For_Green**, e **For_Blue**.
 

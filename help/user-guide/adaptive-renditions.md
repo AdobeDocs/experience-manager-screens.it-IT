@@ -2,9 +2,9 @@
 title: Panoramica e configurazioni dell’architettura di rappresentazioni adattive
 description: Questa pagina descrive la panoramica dell’architettura e le configurazioni in CRXDE Liti per le rappresentazioni adattive in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
 1. È necessario aggiungere la proprietà espressione con il valore contenente l’espressione della query.
 
    >[!NOTE]
-   >Fai riferimento a [Utilizzo della sintassi per query multimediali](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) per ulteriori informazioni.
+   >Consulta [Utilizzo della sintassi per query multimediali](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) per ulteriori informazioni.
 
    Fai clic su **rule1** che hai creato e immetti **espressione** in **Nome** e **(orientamento:orizzontale)** in **Valore**, come illustrato di seguito. Fai clic su **Aggiungi**.
 

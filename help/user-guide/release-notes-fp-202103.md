@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 2%
 
 ---
@@ -33,14 +33,14 @@ La data di rilascio del Feature Pack 202103 per AEM Screens è il 5 marzo 2021.
 
   La registrazione manuale in blocco di migliaia di giocatori è complicata e aggiunge tempo e costi. Per semplificare questo processo, la funzione di Registrazione automatica dei lettori consente di specificare una chiave già condivisa in AEM. È possibile eseguire il provisioning di questa chiave in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
 
-  Fai riferimento a [Registrazione automatica dei lettori](/help/user-guide/auto-registration-players.md) per ulteriori dettagli.
+  Consulta [Registrazione automatica dei lettori](/help/user-guide/auto-registration-players.md) per ulteriori dettagli.
 
 
 * **Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management**
 
   Quando si distribuisce in massa il lettore Android™, diventa noioso registrare manualmente ogni lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come `VMWare Airwatch`, `MobileIron`, o `Samsung Knox` per il provisioning e la gestione in remoto dell&#39;installazione. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
-  Fai riferimento a [Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) per ulteriori dettagli.
+  Consulta [Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) per ulteriori dettagli.
 
 
 ### Correzioni di bug {#bug-fixes}

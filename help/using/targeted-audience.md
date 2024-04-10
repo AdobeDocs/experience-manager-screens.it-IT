@@ -3,10 +3,10 @@ title: Pubblico di destinazione
 seo-title: Target Audience for AEM Screens
 description: La pagina descrive i destinatari della Guida alle best practice di AEM Screens
 seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 54c5a2f2f3f755e4da4028d54042f4bd8f2df369
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 5%
+source-wordcount: '495'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ In qualità di implementatore di AEM con esperienza, è probabile che avrai nota
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante all’interno del progetto.
 
-Il diagramma seguente mostra i ruoli a cui faremo riferimento in tutta la guida.
+Il diagramma seguente mostra i ruoli che verranno visualizzati in tutta la guida.
 
 ![](/help/assets/roles-used.png)
 
@@ -30,9 +30,9 @@ La sezione seguente fornisce una panoramica sul pubblico di destinazione:
 
 ### Adobe {#adobe-audience}
 
-Ad Adobe sono incluse le risorse di Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
+L’Adobe include risorse Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
 
-### Implementatori di AEM {#aem-implementors}
+### Implementatori AEM {#aem-implementors}
 
 Gli implementatori AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per l’AEM.
 
@@ -62,7 +62,7 @@ La gestione di contenuti e creatività potrebbe essere una delle seguenti:
 * Agenzia creativa o,
 * Brand Manager
 
-### Manager di progetto {#project-managers}
+### Project manager {#project-managers}
 
 In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è il responsabile dell&#39;intera implementazione del progetto designato e svolge le principali responsabilità, quali la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 

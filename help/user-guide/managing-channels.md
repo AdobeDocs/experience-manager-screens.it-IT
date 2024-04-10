@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1258'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ Per aggiungere o modificare il contenuto di un canale, effettua le seguenti oper
 1. Clic **Modifica** dall&#39;angolo in alto a sinistra della barra delle azioni, per modificare le proprietà del canale. Viene aperto l’editor che consente di aggiungere risorse/componenti al canale da pubblicare.
 
 >[!NOTE]
->Puoi aggiungere componenti al tuo canale. Fai riferimento a **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** per ulteriori dettagli.
+>Puoi aggiungere componenti al tuo canale. Consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** per ulteriori dettagli.
 
 ![demochannel1](assets/demochannel1.gif)
 

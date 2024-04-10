@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 2b865165793b1c0f90f1351518e41096a57ea2ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '491'
 ht-degree: 2%
 
 ---
@@ -97,7 +97,7 @@ Nella tabella seguente sono riepilogati i gruppi con descrizione e autorizzazion
    <td><strong>Autorizzazioni</strong></td>
   </tr>
   <tr>
-   <td>Amministratori Screens<br /> <em>screens-admins</em></td>
+   <td>Amministratori Screens<br /> <em><code>screens-admins</code></em></td>
    <td>Accesso a livello di amministratore per le funzionalità di AEM Screens</td>
    <td>
     <ul>
@@ -110,29 +110,29 @@ Nella tabella seguente sono riepilogati i gruppi con descrizione e autorizzazion
     </ul> </td>
   </tr>
   <tr>
-   <td>Utenti Screens<br /> <em>screens-users</em></td>
+   <td>Utenti Screens<br /> <em><code>screens-users</code></em></td>
    <td>Crea e aggiorna canali e pianificazioni e assegna a posizioni in AEM Screens</td>
    <td>
     <ul>
      <li>Membro Di Collaboratori</li>
-     <li>&lt;project&gt; /content/screens</li>
-     <li>&lt;project&gt; /content/dam</li>
-     <li>&lt;project&gt; /content/experience-fragments</li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
+     <li><code>&lt;project&gt; /content/dam</code></li>
+     <li><code>&lt;project&gt; /content/experience-fragments</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Operatori Screens<br /> <em>operatori di schermi</em></td>
+   <td>Operatori Screens<br /> <em><code>screens-operators</code></em></td>
    <td>Creare e aggiornare la struttura della posizione e registrare i lettori in AEM Screens</td>
    <td>
     <ul>
      <li>Membro Di Collaboratori</li>
-     <li>jcr:all /home/users/screens</li>
-     <li>jcr:all /home/groups/screens</li>
-     <li>&lt;project&gt; /content/screens</li>
+     <li><code>jcr:all /home/users/screens</code></li>
+     <li><code>jcr:all /home/groups/screens</code></li>
+     <li><code>&lt;project&gt; /content/screens</code></li>
     </ul> </td>
   </tr>
   <tr>
-   <td>Lettori Screens<br /> <em>schermi-&lt;project&gt;-dispositivi</em></td>
+   <td>Lettori Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
    <td>Raggruppa automaticamente tutti i lettori e tutti i lettori/dispositivi sono membri dei collaboratori.</td>
    <td><p> Membro di collaboratori</p> </td>
   </tr>

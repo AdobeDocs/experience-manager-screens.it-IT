@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -214,9 +214,9 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 ### 2. Come aggiungere le informazioni dell’indice Oak? {#add-oak-index-info}
 
 AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.
-Se sono presenti *Avvisi di attraversamento query* nel `error.log`, crea un indice personalizzato per la query. Fai riferimento a [Configurazione degli indici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) per ulteriori dettagli.
+Se sono presenti *Avvisi di attraversamento query* nel `error.log`, crea un indice personalizzato per la query. Consulta [Configurazione degli indici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) per ulteriori dettagli.
 
-Puoi anche fare riferimento a una risorsa aggiuntiva in [Documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+È inoltre possibile visualizzare una risorsa aggiuntiva in [Documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. Cosa è necessario per configurare i manifesti v3? {#configure-v3}

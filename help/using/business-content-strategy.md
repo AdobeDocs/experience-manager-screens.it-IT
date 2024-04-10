@@ -4,9 +4,9 @@ seo-title: Business Content Strategy for [!UICONTROL AEM Screens]
 description: La guida descrive la strategia dei contenuti aziendali
 seo-description: The guide describes Business Content Strategy
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Valuta in che modo l’applicazione Screens può contribuire a ottenere questo r
 >
 >È necessario tenere presente che l&#39;esperienza deve funzionare offline con una larghezza di banda limitata.
 
-Devi fare riferimento a queste poche domande a cui rispondere quando crei una strategia di contenuto per il tuo progetto AEM Screens:
+Quando crei una strategia di contenuto per il tuo progetto AEM Screens, devi vedere queste poche domande a cui rispondere:
 
 * Chi è il pubblico target e quale è il tempo di permanenza previsto?
 * Quale contenuto deve essere mostrato?
@@ -40,9 +40,9 @@ Devi fare riferimento a queste poche domande a cui rispondere quando crei una st
 * Qual è la tua strategia di aggiornamento?
 * Con quale frequenza saranno necessari nuovi contenuti?
 
-   >[!NOTE]
-   >
-   >Durante la fase di pre-vendita è importante iniziare a porre domande non solo su quale contenuto verrà condiviso, ma anche su dove si trovano attualmente i dati dei contenuti e come verranno utilizzati nel progetto Screens. Devi cercare di approfondire i contenuti durante l’implementazione, ma stabilisci subito quali dati sono disponibili e in quale formato.
+  >[!NOTE]
+  >
+  >Durante la fase di pre-vendita è importante iniziare a porre domande non solo su quale contenuto verrà condiviso, ma anche su dove si trovano attualmente i dati dei contenuti e come verranno utilizzati nel progetto Screens. Devi cercare di approfondire i contenuti durante l’implementazione, ma stabilisci subito quali dati sono disponibili e in quale formato.
 
 ## Considerazioni importanti {#important-considerations}
 

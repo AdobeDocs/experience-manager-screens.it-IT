@@ -2,9 +2,9 @@
 title: Gestione del traffico di rete
 description: La pagina descrive le impostazioni di rete standard e come gestire il traffico di rete.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Quando un server proxy riceve una richiesta per una risorsa Internet (ad esempio
 
 ## Informazioni sulle impostazioni di rete standard {#network-setups}
 
-Per implementare un&#39;installazione di rete, è necessario fare riferimento ai seguenti scenari con i relativi punti di forza e dettagli di distribuzione.
+Per implementare una configurazione di rete, vedi i seguenti scenari con i relativi punti di forza e dettagli di distribuzione.
 
 In questa Guida vengono illustrati quattro diversi tipi di impostazioni di rete all&#39;interno di un&#39;organizzazione:
 

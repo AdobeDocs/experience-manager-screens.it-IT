@@ -4,9 +4,9 @@ seo-title: Recommended Approach in an AEM Screens Project
 description: La pagina descrive l’approccio consigliato in un progetto AEM Screens
 seo-description: The page describes recommended approach in an AEM Screens project
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ Consulta le poche raccomandazioni prima di sviluppare e distribuire un progetto 
 
 * **Strategia di predefinizione dei contenuti**: stabilire una strategia di contenuti, compresi gli obiettivi a breve e a lungo termine. Inoltre, allinea gli obiettivi del brand/KPI con i miglioramenti delle funzioni.
 
-   >[!NOTE]
-   >
-   > I costi iniziali sono spesso più elevati in un progetto AEM Screens a causa della necessità di investire in hardware, attrezzature e progetti del sito; pertanto, mantenere più semplici le soluzioni di contenuti iniziali può aiutare a gestire le aspettative di budget.
+  >[!NOTE]
+  >
+  > I costi iniziali sono spesso più elevati in un progetto AEM Screens a causa della necessità di investire in hardware, attrezzature e progetti del sito; pertanto, mantenere più semplici le soluzioni di contenuti iniziali può aiutare a gestire le aspettative di budget.
 
 * **Stima dei risultati finali su larga scala**: se la soluzione verrà fornita su larga scala, si consiglia di implementare i componenti dell’applicazione in posizioni pilota scelte con cura per l’utilizzo sperimentale. Distribuisci a nuove posizioni e dispositivi man mano che l’applicazione supera la convalida.
 
-   >[!NOTE]
-   >
-   > Inizia a raccogliere dati analitici durante il periodo pilota per aiutare i team aziendali a convalidare il successo della soluzione in base alle metriche specifiche che stanno tentando di raggiungere. Conoscere le prestazioni del progetto pilota aiuta il team aziendale a individuare i miglioramenti da apportare.
+  >[!NOTE]
+  >
+  > Inizia a raccogliere dati analitici durante il periodo pilota per aiutare i team aziendali a convalidare il successo della soluzione in base alle metriche specifiche che stanno tentando di raggiungere. Conoscere le prestazioni del progetto pilota aiuta il team aziendale a individuare i miglioramenti da apportare.
 
 * **Suddivisione dei risultati finali in attività misurabili**: la suddivisione della distribuzione delle funzioni in attività misurabili consentirà un feedback tempestivo, fornirà obiettivi più raggiungibili e ridurrà i rischi complessivi del progetto.
 

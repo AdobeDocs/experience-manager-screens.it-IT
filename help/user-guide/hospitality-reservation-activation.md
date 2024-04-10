@@ -14,9 +14,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Se il valore di **Ristorante1** > **Ristorante2**, quindi **AdTarget** è un val
 
 Prima di iniziare a implementare l’attivazione della prenotazione, devi imparare a impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per i canali*** in un progetto AEM Screens.
 
-Fai riferimento a [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
+Consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
 
 ## Flusso di base {#basic-flow}
 
@@ -49,7 +49,7 @@ Segui i passaggi seguenti per implementare il caso di utilizzo dell’attivazion
 
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
-   1. Passa ai segmenti del pubblico (consulta la sezione ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
    1. Seleziona la **Fogli A1 1** e fai clic su **Modifica**.
 

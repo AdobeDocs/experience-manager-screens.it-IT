@@ -8,9 +8,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: c6506ca62e806ec11d3380d6ac7670bcfcf13adb
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,6 @@ Per scaricare **Lettore AEM Screens**, visita il [Download del lettore AEM 6.5](
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
 >1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
 >1. Fai clic sul pulsante **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
-
 
 ## Monitoraggio della riproduzione di base {#playback-monitoring}
 
@@ -79,10 +78,10 @@ Di seguito sono elencate alcune limitazioni al monitoraggio di base della riprod
 
 ### Risorse aggiuntive {#additional-resources}
 
-Per informazioni approfondite, consulta i seguenti argomenti:
+Per informazioni dettagliate, consulta i seguenti argomenti:
 
 * Per scaricare Android Player, visita **Google Play**. Per informazioni sull’implementazione di Android Watchdog, consulta [Implementazione del lettore Android](implementing-android-player.md).
 
-* Per implementare Chrome OS Player, consulta [Console di gestione Chrome](implementing-chrome-os-player.md) per ulteriori informazioni.
+* Per implementare Chrome OS Player, vedi [Console di gestione Chrome](implementing-chrome-os-player.md) per ulteriori informazioni.
 
-* Per configurare AEM Screens Windows Player, fare riferimento a [Implementazione di Windows Player](implementing-windows-player.md).
+* Per configurare AEM Screens Windows Player, consulta [Implementazione di Windows Player](implementing-windows-player.md).

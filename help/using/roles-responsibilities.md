@@ -4,10 +4,10 @@ seo-title: AEM Screens Project Roles  and Responsibilities
 description: La pagina descrive i ruoli e le responsabilità del progetto AEM Screens
 seo-description: The page describes AEM Screens Project Roles  and Responsibilities
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 6%
+source-wordcount: '1242'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ In qualità di implementatore di AEM con esperienza, è probabile che avrai nota
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante all’interno del progetto.
 
-Il diagramma seguente mostra i ruoli a cui faremo riferimento in tutta la guida.
+Il diagramma seguente mostra i ruoli che verranno visualizzati in tutta la guida.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -31,9 +31,9 @@ La sezione seguente fornisce una panoramica sul pubblico di destinazione:
 
 ### Adobe {#adobe-audience}
 
-Ad Adobe sono incluse le risorse di Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
+L’Adobe include risorse Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
 
-### Implementatori di AEM {#aem-implementors}
+### Implementatori AEM {#aem-implementors}
 
 Gli implementatori AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per l’AEM.
 
@@ -61,7 +61,7 @@ Un integratore AV è responsabile dell&#39;esecuzione di ricerche con i clienti 
 
 1. Quali sono i sistemi di monitoraggio e di allarme attivi?
 
-### Responsabili aziendali {#business-strategist}
+### Strategici aziendali {#business-strategist}
 
 Gli esperti di strategia aziendale rappresentano i responsabili decisionali dell&#39;azienda. Questo ruolo è fortemente coinvolto nelle fasi di individuazione e requisiti ed è il principale motore del progetto.
 
@@ -77,7 +77,7 @@ La gestione di contenuti e creatività potrebbe essere la seguente:
 * Agenzia creativa o,
 * Brand Manager
 
-### Manager di progetto {#project-managers}
+### Project manager {#project-managers}
 
 In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è il responsabile dell&#39;intera implementazione del progetto designato e svolge le principali responsabilità, quali la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
@@ -158,7 +158,7 @@ La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Prepa
 |---|---|---|---|---|
 | Ordinazione e archiviazione hardware | RA | I | I | I |
 | Pianificazione di onboarding per la vendita al dettaglio | I | I | C | RA |
-| Test di accettazione utente per staging | I | C | RA |  |
+| Test di accettazione utente per staging | I | C | RA |   |
 | Configurazione hardware in blocco | RA | I | C | I |
 | Contratto per supporto post-lancio | RA | C | RA | C |
 

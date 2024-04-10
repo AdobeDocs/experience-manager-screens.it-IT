@@ -4,10 +4,10 @@ seo-title: Considerations as Projects are Scoped
 description: La pagina descrive le considerazioni relative all’ambito dei progetti
 seo-description: The page describes Considerations as Projects are Scoped
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 3%
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
@@ -33,4 +33,4 @@ I principali risultati ottenuti in questa fase includono:
 >
 >Identifica quanto prima i dati necessari per l’applicazione e da dove provengono. Mentre un’esplorazione più approfondita avverrà durante l’implementazione, prenditi il tempo *Giorno zero* per scoprire quali dati il client intende utilizzare, dove sono attualmente memorizzati e come sono accessibili dall’applicazione in fase di generazione. Notificare in anticipo al team di sviluppo le sfide che potrebbero presentarsi in futuro contribuirà a facilitare l’implementazione.
 
-Fai riferimento al tutorial video su [Considerazioni relative all’ambito dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) per ulteriori informazioni.
+Guarda il video tutorial su [Considerazioni relative all’ambito dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-considerations.html) per ulteriori informazioni.

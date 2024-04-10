@@ -5,9 +5,9 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ La pagina seguente fornisce le linee guida per configurare Dispatcher per un pro
 >Se non è presente alcun Dispatcher, disabilita il servlet di registrazione nell’elenco dei componenti OSGi.
 
 Prima di configurare Dispatcher per un progetto AEM Screens, è necessario avere una conoscenza preventiva di Dispatcher.
-Fai riferimento a [Configurazione di Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) per ulteriori dettagli.
+Consulta [Configurazione di Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) per ulteriori dettagli.
 
 ## Configurazione di Dispatcher per la versione del manifesto v2 {#configuring-dispatcher}
 
 >[!IMPORTANT]
->Le seguenti configurazioni di Dispatcher si applicano solo alla versione v2 di Manifest. Fai riferimento a [Configurazioni del Dispatcher per la versione v3 del manifesto](#configuring-dispatcherv3) per la versione del manifesto v3.
+>Le seguenti configurazioni di Dispatcher si applicano solo alla versione v2 di Manifest. Consulta [Configurazioni del Dispatcher per la versione v3 del manifesto](#configuring-dispatcherv3) per la versione del manifesto v3.
 
 I lettori o i dispositivi AEM Screens utilizzano una sessione autenticata per accedere anche alle risorse nelle istanze Publishing. Pertanto, quando disponi di più istanze di pubblicazione, le richieste devono sempre andare alla stessa istanza di pubblicazione in modo che la sessione autenticata sia valida per tutte le richieste provenienti dai lettori/dispositivi AEM Screens.
 

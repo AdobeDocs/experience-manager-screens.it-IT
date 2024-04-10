@@ -2,9 +2,9 @@
 title: Durata riproduzione immagine a livello di progetto
 description: Scopri come definire la durata di riproduzione delle immagini a livello di progetto.
 contentOwner: jsyal
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -14,17 +14,15 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Questa funzione consente di definire la durata di riproduzione delle immagini a livello di progetto. Per impostazione predefinita, tutte le immagini ereditano questa durata di riproduzione. Se a livello di progetto non è definita alcuna durata, la riproduzione predefinita di 8 secondi continua.
+Questa funzione consente di definire la durata di riproduzione dell’immagine a livello di progetto. Per impostazione predefinita, tutte le immagini ereditano questa durata di riproduzione. Se a livello di progetto non è definita alcuna durata, la riproduzione predefinita di 8 secondi continua.
 
 ### Prerequisiti {#prerequisites}
 
-Prima di utilizzare questa funzione, accertati di impostare un progetto come prerequisito per iniziare a implementare questa funzionalità. Ad esempio:
+Prima di utilizzare questa funzione, imposta un progetto come prerequisito per iniziare a implementarla. Ad esempio:
 
-1. Crea un progetto AEM Screens (in questo esempio, **RiproduzioneLivelloProgetto**)
-
-1. Crea un canale di sequenza come **PlayBackChannel** in **Canali** cartella
-
-1. Aggiungi contenuto a **PlayBackChannel**
+1. Crea un progetto AEM Screens (in questo esempio, **RiproduzioneLivelloProgetto**).
+1. Crea un canale di sequenza come **PlayBackChannel** in **Canali** cartella.
+1. Aggiungi contenuto a **PlayBackChannel**.
 
    ![risorse](assets/image_playback1.png)
 
@@ -52,7 +50,7 @@ Per informazioni su come aggiornare la durata di riproduzione delle immagini a l
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Pagina** viene visualizzata.
+1. Il **Pagina** viene visualizzata.
 
    >[!NOTE]
    >
@@ -60,13 +58,13 @@ Per informazioni su come aggiornare la durata di riproduzione delle immagini a l
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifica il **Durata** da 8000 (ms) a 3000 (ms), ovvero 3 secondi. Fai clic sul segno di spunta in alto a destra del **Pagina** per salvare le modifiche.
+   Modifica il **Durata** da 8000 (millisecondi) a 3000 (millisecondi), ovvero 3 secondi. Fai clic sul segno di spunta in alto a destra del **Pagina** in modo da salvare le modifiche.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visualizzazione del risultato {#viewing-the-result}
 
-Dopo aver aggiornato la durata di riproduzione del canale (in questo esempio, tutte e tre le immagini), le immagini vengono riprodotte per 3 secondi anziché 8 secondi (valore predefinito).
+Dopo aver aggiornato la durata di riproduzione del canale (in questo esempio, tutte e tre le immagini), le immagini vengono ora riprodotte per 3 secondi anziché 8 secondi (valore predefinito).
 
 ![channel_preview](assets/channel_preview.gif)
 

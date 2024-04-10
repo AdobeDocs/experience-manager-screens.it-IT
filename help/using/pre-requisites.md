@@ -2,9 +2,9 @@
 title: Prerequisiti [!UICONTROL AEM Screens]
 description: Scopri quali sono i prerequisiti prima di avviare un progetto AEM Screens.
 exl-id: ff305a6c-02cb-4c06-a457-9a22f525fab5
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Consulta i tutorial e le risorse seguenti per conoscere Adobe Experience Manager
 
 ## Apprendimento delle funzionalità e degli utenti tipo del prodotto in AEM Screens {#product-features}
 
-Per informazioni sulle nozioni di base di un progetto AEM Screens, consulta le risorse seguenti:
+Per informazioni di base su un progetto AEM Screens, consulta le risorse seguenti:
 
 * **[Guida utente di AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/aem-screens-introduction)**: fornisce una documentazione dettagliata sulle funzioni e le funzionalità di vari utenti tipo utilizzati in un progetto AEM Screens.
 

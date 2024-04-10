@@ -14,10 +14,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 2%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 AEM Screens ha rilasciato AEM 6.4.5 Feature Pack 5 e AEM 6.5.1 Feature Pack 1 con i seguenti dettagli.
 
-## Data di pubblicazione {#release-date}
+## Data di rilascio {#release-date}
 
 La data di rilascio del Feature Pack 201907 per AEM Screens è il 31 luglio 2019.
 
@@ -39,7 +39,7 @@ La data di rilascio del Feature Pack 201907 per AEM Screens è il 31 luglio 2019
 
 Il lettore passa a un canale che mostra le informazioni di emergenza quando riceve un evento attivato dal sistema di emergenza. Il canale gioca esclusivamente fino a quando la situazione di emergenza non è finita.
 
-Fai riferimento a [Canale di emergenza](emergency-channel.md) Caso d’uso per l’implementazione.
+Consulta [Canale di emergenza](emergency-channel.md) Caso d’uso per l’implementazione.
 
 * **Targeting abilitato per i componenti asincroni
 
@@ -62,11 +62,11 @@ Il gestore degli aggiornamenti analizza ora i frammenti di esperienza e raccogli
 * **Lanci**
 
 I lanci consentono agli autori di contenuti di creare versioni future dei canali. Con l’aiuto dei lanci, gli autori possono visualizzare in anteprima ogni canale del lancio e dovrebbero essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceverà una notifica e potrà approvare o rifiutare la richiesta. Una volta raggiunta la data di attivazione, il contenuto viene riprodotto nei dispositivi.
-Fai riferimento a [Lanci](launches.md) per ulteriori dettagli.
+Consulta [Lanci](launches.md) per ulteriori dettagli.
 
 * **Configurazioni offline in Frammenti esperienza**
 
-È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione del frammento di esperienza Screens. Fai riferimento a [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
+È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione del frammento di esperienza Screens. Consulta [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
 
 ### Lettori AEM Screens rilasciati {#released-aem-screens-players}
 

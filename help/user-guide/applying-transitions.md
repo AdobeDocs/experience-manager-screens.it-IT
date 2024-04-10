@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Questa sezione descrive come applicare **Transizione** componente intermedio tra
 
 >[!CAUTION]
 >
->Per informazioni dettagliate sulle proprietà di **Transizione** componente, fare riferimento a [Transizioni](adding-components-to-a-channel.md#transition).
+>Per informazioni dettagliate sulle proprietà di **Transizione** componente, vedi [Transizioni](adding-components-to-a-channel.md#transition).
 
 ## Aggiunta di un componente di transizione alle risorse in un canale {#adding-transition}
 

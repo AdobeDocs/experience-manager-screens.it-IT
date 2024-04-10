@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >Quando utilizzi la funzione di riconoscimento vocale, segui tutte le linee guida legali ed etiche applicabili per la tua area geografica (inclusa, a titolo esemplificativo e non esaustivo, la notifica visibile agli utenti finali che il lettore utilizza il riconoscimento vocale). Adobe Inc. non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens utilizzano l’API di riconoscimento vocale web standard incorporata nel motore di navigazione. Dietro le quinte questa API invia una forma ondulata del discorso ai server di Google per la conversione da discorso a testo e questo testo viene confrontato dal lettore con parole chiave configurate.
 >
->Fai riferimento a [White paper sulla privacy di Google sull&#39;API di riconoscimento vocale Web](https://www.google.com/chrome/privacy/whitepaper.html#speech) per ulteriori dettagli.
+>Consulta [White paper sulla privacy di Google sull&#39;API di riconoscimento vocale Web](https://www.google.com/chrome/privacy/whitepaper.html#speech) per ulteriori dettagli.
 
 
 La funzione di riconoscimento vocale consente la modifica del contenuto in un canale AEM Screens guidata dall’interazione vocale.
@@ -173,7 +173,7 @@ Ora puoi utilizzare questi tag nel tuo progetto AEM Screens.
 Una volta completati i passaggi precedenti, puoi registrare il dispositivo Chrome per visualizzare l’output.
 
 >[!NOTE]
->Fai riferimento a [Registrazione dispositivo](device-registration.md) per scoprire come registrare un dispositivo su un lettore AEM Screens.
+>Consulta [Registrazione dispositivo](device-registration.md) per scoprire come registrare un dispositivo su un lettore AEM Screens.
 
 **Output desiderato per il canale sequenza**
 

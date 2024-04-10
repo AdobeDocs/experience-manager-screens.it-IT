@@ -2,9 +2,9 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Questa pagina descrive come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: cd26f77b9b41a5854aaa1f936abed3b410533684
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Schermi 
 
 1. Crea una versione della risorsa che si adatti meglio alla visualizzazione del signage, ad esempio: `seahorse.jpg`.
 
-1. Scegli il pattern di denominazione della rappresentazione, ad esempio:`landscape`, simile a quanto definito in **pattern** proprietà in **CRXDE Lite**. Fai riferimento a [Aggiunta di regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) per ulteriori dettagli.
+1. Scegli il pattern di denominazione della rappresentazione, ad esempio:`landscape`, simile a quanto definito in **pattern** proprietà in **CRXDE Liti**. Consulta [Aggiunta di regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) per ulteriori dettagli.
 
 1. Fai clic su **Aggiungi rappresentazione** per caricare la rappresentazione, come illustrato nella figura seguente.
 
@@ -49,7 +49,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Schermi 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Fai riferimento a [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) per ulteriori informazioni sulla gestione delle pubblicazioni e sulla distribuzione degli aggiornamenti dei contenuti da Author a Publish sul dispositivo.
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content.html?lang=en) per ulteriori informazioni sulla gestione delle pubblicazioni e sulla distribuzione degli aggiornamenti dei contenuti da Author a Publish sul dispositivo.
 
 
 ## Strategia di migrazione {#migration-strategy}

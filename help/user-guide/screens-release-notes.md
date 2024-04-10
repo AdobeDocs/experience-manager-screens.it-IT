@@ -13,9 +13,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -34,14 +34,14 @@ La data di rilascio del Feature Pack 201809 per AEM Screens è il 1° ottobre 20
 
 ### Novità {#what-s-new}
 
-* **Generazione di rapporti per bozza di riproduzione Adobe Analytics**: consulta [Integrazione di Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) per ulteriori informazioni.
+* **Generazione di rapporti per bozza di riproduzione Adobe Analytics**: vedi [Integrazione di Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) per ulteriori informazioni.
 
-* **Adobe Analytics Abilita i lettori a memorizzare in cache e inviare eventi di riproduzione ad Adobe Analytics**: consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori informazioni.
+* **Adobe Analytics Abilita i lettori a memorizzare in cache e inviare eventi di riproduzione ad Adobe Analytics**: vedi [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori informazioni.
 
-* **Aggiornamento in blocco del contenuto offline**: consente di aggiornare tutti i canali in blocco ed evita il fastidio di navigare su un canale particolare e di aggiornare il contenuto. Fare riferimento a [Aggiornamento offline in blocco](bulk-offline-update.md) per ulteriori informazioni.
+* **Aggiornamento in blocco del contenuto offline**: consente di aggiornare tutti i canali in blocco ed evita il fastidio di navigare su un canale particolare e di aggiornare il contenuto. Consulta [Aggiornamento offline in blocco](bulk-offline-update.md) per ulteriori informazioni.
 
 * **Pubblicare in blocco i canali per pubblicare le istanze**
-* **Meccanismo di registrazione avanzato del lettore**: puoi specificare il numero massimo di file di registro per un lettore AEM Screens. Fare riferimento a [Utilizzo di un lettore AEM Screens](working-with-screens-player.md) per ulteriori dettagli.
+* **Meccanismo di registrazione avanzato del lettore**: puoi specificare il numero massimo di file di registro per un lettore AEM Screens. Consulta [Utilizzo di un lettore AEM Screens](working-with-screens-player.md) per ulteriori dettagli.
 
 * **Distribuzione authoring/pubblicazione (protezione avanzata)**
 

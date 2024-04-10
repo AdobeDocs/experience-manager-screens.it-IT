@@ -4,9 +4,9 @@ seo-title: Project Taxonomy
 description: Questa pagina descrive la tassonomia dei progetti
 seo-description: The page describes Project Taxonomy
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 10a4918eeb56df5e8542bbc2e8806f766a86f781
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Prima di implementare la soluzione di digital signage AEM Screens, considera i s
 * **Pianificazione**
 * **Anteprima del contenuto**
 
-Per informazioni su questi termini, fare riferimento a [Glossario](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
+Per informazioni su questi termini, consulta [Glossario](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/overview/screens-glossary.html?lang=en).
 
 >[!NOTE]
 >
@@ -35,7 +35,6 @@ Per informazioni su questi termini, fare riferimento a [Glossario](https://exper
 >
 >* database di risorse hardware per compilare automaticamente un progetto Screens
 >* file di configurazione di testo per puntare automaticamente ogni lettore a un’istanza specifica di un AEM
-
 
 ## Implementazione di un progetto AEM Screens {#creating-a-project}
 

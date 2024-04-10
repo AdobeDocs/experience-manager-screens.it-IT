@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Quando si esegue il rollout in blocco del lettore Android™, è necessario eseg
 Segui i passaggi seguenti per consentire il provisioning in blocco nel lettore Android™:
 
 1. Crea un file JSON di configurazione con il nome `player-config.default.json`.
-Fai riferimento a un [Esempio di criterio JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [Attributi dei criteri](#policy-attributes).
+Vedi un [Esempio di criterio JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [Attributi dei criteri](#policy-attributes).
 
 1. Utilizza uno strumento di esplorazione dei file MDM, ADB o Android™ Studio per rilasciare questo file JSON per la policy nel *sdcard* sul dispositivo Android™.
 
@@ -168,7 +168,7 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 ```
 
 >[!NOTE]
->Tutti i dispositivi Android™ hanno un `*sdcard*` cartella se un valore effettivo `*sdcard*` è inserito o meno. Quando viene distribuito, questo file si trova allo stesso livello della cartella Download. Alcuni MDM come Samsung Knox possono fare riferimento a questo *sdcard* percorso cartella come *Memoria interna*.
+>Tutti i dispositivi Android™ hanno un `*sdcard*` cartella se un valore effettivo `*sdcard*` è inserito o meno. Quando viene distribuito, questo file si trova allo stesso livello della cartella Download. Alcuni MDM, come Samsung Knox, potrebbero vedere questo *sdcard* percorso cartella come *Memoria interna*.
 
 ## Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management {#bulk-provisioning}
 

@@ -13,9 +13,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: ffc44dbf1822ff4d0e875ef693d48dece248d555
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -65,18 +65,18 @@ Per modificare i contenuti nell’app REACT:
 
 Per aggiungere l’app REACT interattiva ad AEM Screens, segui i passaggi seguenti:
 
-1. Crea un nuovo progetto AEM Screens. Fai riferimento a [Creazione e gestione di progetti](creating-a-screens-project.md) per ulteriori dettagli.
+1. Crea un nuovo progetto AEM Screens. Consulta [Creazione e gestione di progetti](creating-a-screens-project.md) per ulteriori dettagli.
 
 1. Crea un nuovo **Canale applicazione** (preferibilmente) (o modello 1x1 o canale multizona) nel **Canali** del progetto Screens.
 
    >[!NOTE]
    >**Canali sequenza** sono sconsigliati per questo caso d’uso, in quanto presentano una logica di presentazione intrinsecamente in conflitto con la natura interattiva dell’esperienza
-   >Fai riferimento a [Creazione e gestione dei canali](managing-channels.md) per ulteriori dettagli.
+   >Consulta [Creazione e gestione dei canali](managing-channels.md) per ulteriori dettagli.
 
 
 1. Modifica un canale di sequenza e trascina e rilascia un componente di pagina incorporato.
 
-   Fai riferimento a [Aggiunta di componenti a un canale](adding-components-to-a-channel.md) per ulteriori dettagli.
+   Consulta [Aggiunta di componenti a un canale](adding-components-to-a-channel.md) per ulteriori dettagli.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Per aggiungere l’app REACT interattiva ad AEM Screens, segui i passaggi seguen
 
 1. Registra un lettore per questo progetto e assegnalo al display. Ora dovresti essere in grado di vedere l’applicazione interattiva in esecuzione su AEM Screens.
 
-   Fai riferimento a [Registrazione dispositivo](device-registration.md) per informazioni dettagliate sulla registrazione di un dispositivo.
+   Consulta [Registrazione dispositivo](device-registration.md) per informazioni dettagliate sulla registrazione di un dispositivo.
 
 ## Integrazione dell’SPA con Adobe Analytics con funzionalità offline tramite AEM Screens {#integrating-the-spa-with-adobe-analytics-with-offline-capability-through-aem-screens}
 
@@ -105,12 +105,12 @@ Segui i passaggi seguenti per integrare l’SPA con Adobe Analytics con funziona
 
 1. Configurare Adobe Analytics in AEM Screens.
 
-   Fai riferimento a [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per scoprire come eseguire la sequenza in Adobe Analytics con AEM Screens e inviare eventi personalizzati utilizzando offline Adobe Analytics.
+   Consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per scoprire come eseguire la sequenza in Adobe Analytics con AEM Screens e inviare eventi personalizzati utilizzando offline Adobe Analytics.
 
 1. Modifica l’app React nell’IDE/editor che preferisci (in particolare il componente testo o un altro componente da cui vuoi iniziare a emettere eventi).
 1. Aggiungi le informazioni di analisi utilizzando il modello dati standard all’evento di clic o a un altro evento che desideri acquisire per il componente.
 
-   Fai riferimento a [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)s per ulteriori dettagli.
+   Consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)s per ulteriori dettagli.
 
 1. Chiama l’API di AEM Screens Analytics per salvare l’evento offline e inviarlo in modalità burst ad Adobe Analytics.
 

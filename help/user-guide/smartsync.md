@@ -13,9 +13,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ La funzione SmartSync offre numerosi vantaggi al progetto AEM Screens. Permette
 >
 >SmartSync è disponibile per Screens Player con server supportati AEM 6.4.3 FP3.
 >
->Consulta la sezione [Download di AEM Screens Player](https://download.macromedia.com/screens/) per scaricare il lettore più recente. La tabella seguente descrive la versione minima del lettore richiesta per ogni piattaforma:
+>Consulta la [Download di AEM Screens Player](https://download.macromedia.com/screens/) per scaricare il lettore più recente. La tabella seguente descrive la versione minima del lettore richiesta per ogni piattaforma:
 
 | **Piattaforma** | **Versione minima del lettore supportata** |
 |---|---|

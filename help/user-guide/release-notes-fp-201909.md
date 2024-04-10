@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 577228c1-8d90-47b5-8600-7e2f1004e928
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -30,13 +30,13 @@ La data di rilascio del Feature Pack 201909 per AEM Screens è il 7 ottobre 2019
 
   È ora disponibile un’interfaccia utente aggiornata per la creazione di un progetto AEM Screens. Puoi creare un progetto Schermi con pochi semplici clic. Inoltre, la scheda delle proprietà di ciascun progetto ora dispone di un’interfaccia utente più intuitiva.
 
-  Fai riferimento a [Creazione di un nuovo progetto Screens](creating-a-screens-project.md) per ulteriori dettagli.
+  Consulta [Creazione di un nuovo progetto Screens](creating-a-screens-project.md) per ulteriori dettagli.
 
 * **Dashboard dispositivo avanzato**
 
   Il dashboard del dispositivo mostra le informazioni, lo stato, le schermate, i registri, le preferenze e i dettagli del dispositivo che consentono di monitorare le attività e le funzioni del dispositivo. I pannelli sono ora aggiornati.
 
-  Fai riferimento a [Risoluzione dei problemi di Device Control Center](monitoring-screens.md) per ulteriori dettagli.
+  Consulta [Risoluzione dei problemi di Device Control Center](monitoring-screens.md) per ulteriori dettagli.
 
 * **Attivazione del timeout per consentire l&#39;interazione con la tastiera**
 
@@ -45,7 +45,7 @@ La data di rilascio del Feature Pack 201909 per AEM Screens è il 7 ottobre 2019
 * **Configurazioni offline in Frammenti esperienza**
 
   È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione di Frammento esperienza Screens.
-Fai riferimento a [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
+Consulta [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
 
 ### Lettori AEM Screens rilasciati
 
