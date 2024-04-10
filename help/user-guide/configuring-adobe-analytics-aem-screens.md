@@ -1,33 +1,30 @@
 ---
 title: Configurazione di Adobe Analytics con AEM Screens
-seo-title: Configuring Adobe Analytics with AEM Screens
-description: Leggi questa sezione per ulteriori informazioni sulla sequenza e l’invio di eventi personalizzati tramite Offline Adobe Analytics
-seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics
-uuid: e685e553-c05b-4db4-8fa5-9ef45268b094
+description: Ulteriori informazioni sulla sequenza e l’invio di eventi personalizzati utilizzando Offline Adobe Analytics.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: 3cec9266-4032-46b9-9c75-16da64bfea7d
 docset: aem65
 feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 9%
+source-wordcount: '614'
+ht-degree: 10%
 
 ---
 
 # Configurazione di Adobe Analytics con AEM Screens {#configuring-adobe-analytics-with-aem-screens}
 
+<!-- OBSOLETE NOTE>
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato il Feature Pack 2 per AEM 6.4.2 e il Feature Pack 4 per AEM 6.3.3.
+>This AEM Screens functionality is only available if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.
 >
->Per accedere a uno di questi Feature Pack, contatta il supporto Adobe e richiedi l’accesso. Una volta ricevute le autorizzazioni, puoi scaricarle da Condivisione pacchetti.
+>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions, download it from Package Share. -->
 
 Questa sezione tratta i seguenti argomenti:
 
@@ -36,7 +33,7 @@ Questa sezione tratta i seguenti argomenti:
 
 ## Ordinamento in Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Il ***processo di sequenziamento*** inizia con il servizio di archiviazione dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia gli eventi di Adobe Analytics con il ciclo paghe, ovvero l’acquisizione dei test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database dell&#39;indice e successivamente inseriti nell&#39;archivio oggetti. In base alla pianificazione, l&#39;amministratore imposta, taglia i dati dall&#39;archivio oggetti e li trasferisce ulteriormente nell&#39;archivio blocchi. Quando è connesso, tenta di inviare la quantità massima di dati.
+Il ***processo di sequenziamento*** inizia con il servizio di archiviazione dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia gli eventi di Adobe Analytics con il ciclo paghe, ovvero l’acquisizione dei test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database dell&#39;indice e successivamente inseriti nell&#39;archivio oggetti. In base alla pianificazione impostata dall&#39;amministratore, i dati vengono tagliati dall&#39;archivio oggetti e ulteriormente trasferiti nell&#39;archivio blocchi. Tenta di inviare la quantità massima di dati quando si è connessi.
 
 ### Diagramma di sequenziamento {#sequencing-diagram}
 
@@ -84,7 +81,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>consigliato</td> 
    <td>stringa</td> 
    <td>timestamp - UTC</td> 
-   <td>Data e ora di inizio evento. Se NON si specifica questa impostazione, l'ora dell'evento verrà considerata come l'ora in cui è stata ricevuta dal server</td> 
+   <td>Data e ora di inizio evento. Se non specificato, l'ora dell'evento viene considerata come l'ora in cui è stata ricevuta dal server</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -111,7 +108,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>obbligatorio</td> 
    <td>stringa</td> 
    <td> </td> 
-   <td>Categoria principale (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Raggruppamento di tipi di evento - <strong>Inviamo il lettore</strong></td> 
+   <td>Categoria principale (DESKTOP, MOBILE, WEB, PROCESS, SDK, SERVICE, ECOSYSTEM) - Raggruppamento di tipi di evento - <strong>Lettore inviato</strong></td> 
   </tr>
   <tr>
    <td> </td> 
@@ -120,7 +117,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>consigliato</td> 
    <td>stringa</td> 
    <td> </td> 
-   <td>Sottocategoria: sezione di un flusso di lavoro o area di uno schermo, ecc. (File recenti, file CC, creazioni per dispositivi mobili e così via).</td> 
+   <td>Sottocategoria: sezione di un flusso di lavoro o area di uno schermo e così via. (File recenti, file CC, creazioni per dispositivi mobili e così via).</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -138,7 +135,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>consigliato</td> 
    <td>stringa</td> 
    <td> </td> 
-   <td>Sottotipo evento (creazione, aggiornamento, eliminazione, pubblicazione, ecc.) - Dettagli aggiuntivi dell’azione utente</td> 
+   <td>Sottotipo evento (crea, aggiorna, elimina, pubblica e così via) - Ulteriori dettagli sull’azione dell’utente</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -165,7 +162,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>consigliato</td> 
    <td>stringa</td> 
    <td> </td> 
-   <td>La lingua utente è una stringa basata sulle convenzioni di assegnazione dei tag della lingua della RFC 3066 (ad esempio, en-US, fr-FR o es-ES)</td> 
+   <td>Le impostazioni locali dell’utente sono stringhe basate sulle convenzioni di assegnazione tag della lingua della RFC 3066 (ad esempio, en-US, fr-FR o es-ES)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -174,7 +171,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>facoltativo</td> 
    <td>stringa<br /> </td> 
    <td>UUID</td> 
-   <td>Identifica il GUID del dispositivo (ad esempio, ID computer o hash dell’indirizzo IP + subnet mask + ID di rete + useragent). Qui verrà inviato il nome utente del lettore generato al momento della registrazione.</td> 
+   <td>Identifica il GUID del dispositivo (ad esempio, ID computer o hash dell'indirizzo IP + subnet mask + ID di rete + agente utente) - Qui viene inviato il nome utente del lettore generato al momento della registrazione.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -183,7 +180,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>facoltativo</td> 
    <td>numero</td> 
    <td> </td> 
-   <td>Numero di volte in cui si è verificato l’evento: qui inviamo la durata del video</td> 
+   <td>Numero di volte in cui si è verificato l’evento: viene inviata la durata del video</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -192,7 +189,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>facoltativo</td> 
    <td>stringa</td> 
    <td> </td> 
-   <td>Valore dell’evento (ad es. impostazioni on/off)</td> 
+   <td>Valore dell’evento (ad esempio impostazioni attivate/disattivate)</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -291,7 +288,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>obbligatorio</td> 
    <td>stringa</td> 
    <td> </td> 
-   <td>URL della risorsa, inclusa la rappresentazione effettivamente riprodotta</td> 
+   <td>URL della risorsa, inclusa la rappresentazione riprodotta</td> 
   </tr>
   <tr>
    <td> </td> 

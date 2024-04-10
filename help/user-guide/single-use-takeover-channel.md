@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Nella pagina seguente viene illustrato un caso d’uso che pone l’accento sull
 
 Questo caso d’uso spiega come creare un canale che *subentra* dal canale di riproduzione normale per un display o un gruppo di display. L&#39;acquisizione avviene una sola volta e per un periodo di tempo specifico.
 
-Ad esempio, esiste un canale Single TakeOver che viene riprodotto dal venerdì dalle 9:00 alle 10:00 Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. Prima e dopo questo periodo di tempo, il canale Single Use Takeover non viene riprodotto. L’esempio seguente mostra la creazione di un singolo canale di acquisizione che consente la riproduzione del contenuto per 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01
+Ad esempio, esiste un canale Single TakeOver che viene riprodotto da venerdì 9:00 a mezzanotte. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. Prima e dopo questo periodo di tempo, il canale Single Use Takeover non viene riprodotto. L’esempio seguente illustra la creazione di un singolo canale di acquisizione che consente la riproduzione del contenuto per 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01.
 
 ### Precondizioni {#preconditions}
 
@@ -94,7 +94,7 @@ Per impostare un progetto, segui i passaggi seguenti:
      >[!NOTE]
      >Priorità può essere qualsiasi valore superiore al valore di priorità del canale di riproduzione normale.
    * **Eventi supportati**: seleziona la **Schermata di inattività** e **Timer**.
-   * **Pianificazione**: immetti il testo per la pianificazione in base alla quale il canale deve eseguire la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01 **Pianificazione** menzionato in questo esempio è *il 31 dicembre dopo le 23:58 e anche il 1° gennaio prima delle 00.01*.
+   * **Pianificazione**: immetti il testo per la pianificazione in base alla quale il canale deve eseguire la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01 Il testo nella **Pianificazione** menzionato in questo esempio è *il 31 dicembre dopo le 23:58 e anche il 1° gennaio prima delle 00.01*.
 
      ![risorsa](assets/single-takeover8.png)
 

@@ -1,13 +1,11 @@
 ---
 title: Transizione verso la piattaforma
-seo-title: Transition to Platform for AEM Screens
-description: La pagina descrive la transizione alla piattaforma
-seo-description: The page describes Transition to Platform
+description: Scopri come passare alla piattaforma in AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 3%
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
@@ -17,22 +15,22 @@ ht-degree: 3%
 >
 >Questa attività è in genere gestita da un implementatore AEM.
 
-Mentre il nostro progetto è passato da una visione strategica a una realtà wireframe, ora dovremmo iniziare a prepararci per le attività necessarie per creare effettivamente un progetto Screens in AEM che possiamo implementare.
+Con il passare da una visione strategica a una realtà wireframe, ora dovresti iniziare a prepararti per le attività necessarie per creare effettivamente un progetto Screens in AEM da distribuire.
 
-Ciò includerà la mappatura delle configurazioni specifiche della piattaforma in base a requisiti definiti in modo approssimativo nella fase di prototipazione.
+Questo progetto include la mappatura delle configurazioni specifiche della piattaforma in base a requisiti definiti in modo approssimativo nella fase di prototipazione.
 
-Alcuni esempi includono come e quando utilizzare:
+Alcuni esempi includono come e quando utilizzare quanto segue:
 
-* **Frammenti esperienza** per creare raggruppamenti di contenuti
-* **Frammenti di contenuto** per creare varianti di testo
-* **Context Hub** per creare archivi di dati esterni, SPA per esperienze interattive
-* **Servizi OSGi** per gli avvisi di rete
-* **Asset Link** per Creative Cloud sourcing
-* **Cartelle di rete** per allocazione risorse
-* **Sovrapposizione testo** per dati in tempo reale
-* **Schedules** per i raggruppamenti display/canali
+* **Frammenti esperienza** per la creazione di raggruppamenti di contenuti.
+* **Frammenti di contenuto** per creare varianti di testo.
+* **Context Hub** per creare archivi di dati esterni, SPA per esperienze interattive.
+* **Servizi OSGi** per gli avvisi di rete.
+* **Asset Link** per l&#39;origine Creative Cloud.
+* **Cartelle di rete** per l’allocazione delle risorse.
+* **Sovrapposizione testo** per dati in tempo reale.
+* **Schedules** per i raggruppamenti display/canali.
 * **Flussi di lavoro** per le modifiche automatizzate dei contenuti.
 
-In questa fase, è importante rivedere tutte le attività e le attività richieste che richiederanno attenzione e documentarle correttamente in modo che le attività assegnate possano essere correttamente tracciate nella fase di implementazione.
+In questa fase, rivedi tutte le attività e le attività richieste che richiedono attenzione e documentale correttamente in modo che le attività assegnate possano essere tracciate correttamente nella fase di distribuzione.
 
-In questa fase, è inoltre necessario esaminare tutte le attività predefinite come possibili candidati per l&#39;automazione.
+Inoltre, esamina tutte le attività predefinite come possibili candidati per l’automazione in questa fase.

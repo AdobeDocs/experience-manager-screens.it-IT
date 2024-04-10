@@ -1,18 +1,15 @@
 ---
 title: Aggiornamento contenuti come servizio
-seo-title: Content Update As a Service
-description: Segui questa pagina per scoprire di più sull’aggiornamento dei contenuti come servizio.
-seo-description: Follow this page to learn about Content Update As a Service.
-uuid: c73126ca-18d0-45b4-bdde-a3653082bfc4
+description: Scopri come Aggiornare i contenuti come servizio.
 contentOwner: Jyotika syal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +20,12 @@ Questa sezione tratta i seguenti argomenti sull’aggiornamento del contenuto co
 * **Panoramica**
 * **Utilizzo dell’aggiornamento offline in blocco**
 
+<!--
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.3 Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Per accedere a questo Feature Pack, contatta il supporto Adobe e richiedi l’accesso. Una volta ricevute le autorizzazioni, puoi scaricarle da Condivisione pacchetti.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission you can download it from Package Share. -->
 
 ## Panoramica {#overview}
 
@@ -52,11 +50,11 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configurazione della console web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configurazione console Web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
-1. Configurazione della console web di Adobe Experience Manager.
+1. Configurazione della console Web Adobe Experience Manager.
 1. Cerca servizi di aggiornamento offline in blocco.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
@@ -73,4 +71,4 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    **Frequenza Schedule** Specifica un orario, ad esempio 17:00 o 17:00 in cui il servizio deve aggiornare il contenuto offline.
 
-1. Clic **Salva** per salvare le impostazioni; il contenuto verrà aggiornato all’ora specificata.
+1. Seleziona **Salva** per salvare le impostazioni. Tutto il contenuto viene aggiornato all’ora specificata.

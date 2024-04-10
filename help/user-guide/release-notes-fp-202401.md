@@ -1,20 +1,21 @@
 ---
 title: Note sulla versione per Screens Feature Pack 202401
-description: Segui questa pagina per ottenere informazioni sull’AEM Screens Feature Pack 202401 rilasciato il 2 gennaio 2024.
+description: Scopri AEM Screens Feature Pack 202401 rilasciato il 2 gennaio 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: bdc8ff6c1291b7f0dc749e4a9f3a4c1d21678303
+exl-id: 9879f339-e70f-446d-acd3-380016269f27
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 4%
 
 ---
 
 # Note sulla versione per Feature Pack 202401 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager 6.5 (AEM 6.5). Possiamo ottenere le informazioni più recenti sulla versione da [qui](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager 6.5 (AEM 6.5). Puoi ottenere informazioni sulla versione più recente da [qui](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilità {#availability}
 

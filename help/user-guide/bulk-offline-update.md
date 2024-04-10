@@ -1,23 +1,19 @@
 ---
 title: Aggiornamento offline in blocco
-seo-title: Bulk Offline Update
-description: Segui questa pagina per scoprire come aggiornare tutti i canali in blocco.
-seo-description: Follow this page to learn how you can update all the channels in bulk.
-uuid: 9b52c5e7-aa6d-4f55-b23c-8bd923723552
+description: Scopri come aggiornare tutti i canali in blocco.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 5d4ca652-d918-4b2b-b239-a2be9255ef0d
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 1%
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +24,12 @@ Questa sezione tratta i seguenti argomenti relativi all’aggiornamento offline 
 * **Panoramica**
 * **Utilizzo dell’aggiornamento offline in blocco**
 
+<!-- OBSOLETE VERSIONS
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.3 Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Per accedere a questo Feature Pack, contatta il supporto Adobe e richiedi l’accesso. Una volta ricevute le autorizzazioni, puoi scaricarle da Condivisione pacchetti.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share. -->
 
 ## Panoramica {#overview}
 
@@ -53,15 +50,15 @@ Puoi utilizzare manualmente l’aggiornamento offline in blocco dall’interfacc
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
 1. Passa al progetto AEM Screens.
-1. Seleziona il progetto e fai clic su **Aggiorna contenuto offline** dalla barra delle azioni per aggiornare manualmente il contenuto del canale.
+1. Seleziona il progetto, quindi seleziona **Aggiorna contenuto offline** dalla barra delle azioni, in modo da poter aggiornare manualmente il contenuto del canale.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
-### Configurazione della console web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
+### Configurazione console Web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
-1. Configurazione della console web di Adobe Experience Manager.
+1. Configurazione della console Web Adobe Experience Manager.
 1. Cerca servizi di aggiornamento offline in blocco.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
@@ -78,4 +75,4 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    **Frequenza Schedule** Specifica un orario, ad esempio 17:00 o 17:00 in cui il servizio deve aggiornare il contenuto offline.
 
-1. Clic **Salva** per salvare le impostazioni; il contenuto verrà aggiornato all’ora specificata.
+1. Seleziona **Salva** per salvare le impostazioni. Il contenuto viene aggiornato all&#39;ora specificata.

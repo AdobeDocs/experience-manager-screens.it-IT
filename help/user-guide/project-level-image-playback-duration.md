@@ -1,10 +1,8 @@
 ---
 title: Durata riproduzione immagine a livello di progetto
-seo-title: Project Level Image Playback Duration
-description: Questa funzionalità consente di definire la durata di riproduzione delle immagini a livello di progetto.
-seo-description: This functionality allows you to define image playback duration at the project level.
+description: Scopri come definire la durata di riproduzione delle immagini a livello di progetto.
 contentOwner: jsyal
-source-git-commit: f25176be89424059b8c51296969f069687328536
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%

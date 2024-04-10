@@ -1,15 +1,13 @@
 ---
 title: Attivazione a livello di risorsa
-seo-title: Asset Level Activation
-description: Segui questa pagina per scoprire come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
-seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone.
+description: Scopri come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 939d078def133e0db0e61ec80167f496c65ade46
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -31,15 +29,16 @@ In questa sezione vengono trattati i seguenti argomenti:
 * Attivazione di più risorse
 * Sostituzione Globale Per Ora Di Inizio Universale
 
+<!-- REFERS TO ARCHIVED VERSIONS THAT ADOBE NO LONGER SUPPORTS>
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.3 Feature Pack 3 o AEM 6.4 Screens Feature Pack 1.
+>This AEM Screens functionality is only available if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->Per accedere a questo Feature Pack, contatta il supporto Adobe e richiedi l’accesso. Una volta ricevute le autorizzazioni, puoi scaricarle da Condivisione pacchetti.
+>To get access to this Feature Pack, you must contact Adobe Support and request access. When you have permission, you can download it from Package Share. -->
 
 ## Panoramica {#overview}
 
-***Attivazione a livello di risorsa***, consente di attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore. Questa funzione è disponibile per immagini, video, transizioni, pagine e canali incorporati (dinamici o statici).
+***Attivazione a livello di risorsa*** consente di attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore. Questa funzione è disponibile per immagini, video, transizioni, pagine e canali incorporati (dinamici o statici).
 
 *Ad esempio*, si desidera che una promozione speciale venga visualizzata solo durante l&#39;happy hour (dalle 14 alle 17) di lunedì e mercoledì.
 
@@ -51,7 +50,7 @@ L’attivazione a livello di risorsa viene eseguita configurando **Attivazione**
 
 Per eseguire la programmazione a livello di risorsa, attenersi alla procedura descritta di seguito.
 
-1. Seleziona un canale e fai clic su **Modifica** dalla barra delle azioni per aggiungere o modificare il contenuto nel canale.
+1. Seleziona un canale, quindi seleziona **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
@@ -62,20 +61,19 @@ Per eseguire la programmazione a livello di risorsa, attenersi alla procedura de
    >* Crea un progetto, consulta [Creazione di un nuovo progetto](creating-a-screens-project.md).
    >* Creare e aggiungere contenuti a un canale, consulta [Gestione dei canali](managing-channels.md).
 
-
-1. Clic **Modifica** per aprire l’editor canali e selezionare una risorsa a cui applicare la pianificazione.
+1. Seleziona **Modifica** quindi puoi aprire l’editor canali e selezionare una risorsa a cui applicare la pianificazione.
 
    ![immagine](/help/user-guide/assets/asset-activation/asset-level2.png)
 
-1. Seleziona la risorsa e fai clic su in alto a sinistra **Configura** (icona a forma di chiave inglese) per aprire le proprietà dell’immagine.
+1. Seleziona la risorsa, quindi seleziona in alto a sinistra **Configura** (icona chiave inglese).
 
-   Fai clic su **Attivazione** scheda.
+   Seleziona la **Attivazione** scheda.
 
    ![immagine](/help/user-guide/assets/asset-activation/asset-level3.png)
 
 1. Puoi specificare la data dalla selezione della data utilizzando **Attivo da** e **Attivo fino a** campi.
 
-   Se si seleziona la **Attivo da** e **Attivo fino a** data e ora, la risorsa verrà visualizzata e ripeterà il ciclo solo tra tale data/ora di inizio e data/ora di fine, rispettivamente.
+   Se si seleziona la **Attivo da** e **Attivo fino a** data e ora, la risorsa viene visualizzata e continua solo tra tale data/ora di inizio e data/ora di fine, rispettivamente.
 
    ![immagine](/help/user-guide/assets/asset-activation/asset-level3.png)
 
@@ -83,18 +81,18 @@ Per eseguire la programmazione a livello di risorsa, attenersi alla procedura de
 
 Puoi pianificare la ricorrenza delle risorse a determinati intervalli su base giornaliera, settimanale o mensile, in base alle tue esigenze.
 
-Si supponga di voler visualizzare un&#39;immagine solo il venerdì dalle 13:00 alle 22:00. È possibile utilizzare **Attivazione** per impostare l’intervallo ricorrente desiderato per la risorsa.
+Si supponga di voler visualizzare un&#39;immagine solo il venerdì dalle 13.00 alle 22.00. È possibile utilizzare **Attivazione** per impostare l’intervallo ricorrente desiderato per la risorsa.
 
 ### Ripartizione giornaliera {#day-parting}
 
-1. Seleziona la risorsa e fai clic su **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
+1. Seleziona la risorsa e fai clic **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
 
 1. Dopo aver inserito la data/ora di inizio e l’ora di fine/data, puoi utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
    >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
-1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immetti l’espressione nel file **Pianificazione** e la risorsa viene visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per la suddivisione dei giorni {#example-one}
 
@@ -102,26 +100,25 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| prima delle 08:00 | la risorsa nel canale viene riprodotta ogni giorno prima delle 8:00 |
-| dopo le 2:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 ogni giorno per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45 |
-
+| prima delle 08:00 | la risorsa nel canale viene riprodotta prima delle 8.00 di ogni giorno |
+| dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
+| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
+| prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
 
 >[!NOTE]
 >
->Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Puoi anche utilizzare _ora militare_ notazione (14:00) invece di *A.M./P.M.* (14.00).
 
 ### WeekParting {#week-parting}
 
-1. Seleziona la risorsa e fai clic su **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
+1. Seleziona la risorsa, quindi seleziona **Configura** (icona chiave inglese).
 
 1. Dopo aver inserito la data/ora di inizio e l’ora di fine/data, puoi utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
    >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
-1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immetti l’espressione nel file **Pianificazione** e la risorsa viene visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per WeekParting {#example-two}
 
@@ -129,24 +126,24 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| Lun,Mer,Ven | la risorsa viene riprodotta nel canale dal lunedì, mercoledì e venerdì |
-| Lun-gio | la risorsa viene riprodotta nel canale dal lunedì al giovedì |
+| `Mon,Wed,Fri` | la risorsa viene riprodotta nel canale da lunedì, mercoledì e venerdì |
+| `Mon-Thu` | la risorsa viene riprodotta nel canale dal lunedì al giovedì |
 
 >[!NOTE]
 >
->Puoi anche utilizzare _completo_ notazione (ovvero, lunedì, mercoledì, venerdì) invece di _mano corta_ notazione (Lun,Mer,Ven).
+>Puoi anche utilizzare _completo_ notazione (`Monday,Wednesday,Friday`) invece di _mano corta_ (`Mon,Wed,Fri`).
 
 
 ### MonthParting {#month-parting}
 
-1. Seleziona la risorsa e fai clic su **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
+1. Seleziona la risorsa, quindi seleziona **Configura** (icona chiave inglese).
 
 1. Dopo aver inserito la data/ora di inizio e l’ora di fine/data, puoi utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
    >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
-1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immetti l’espressione nel file **Pianificazione** e la risorsa viene visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per MonthParting {#example-three}
 
@@ -154,22 +151,22 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| di febbraio,maggio,agosto,novembre | la risorsa viene riprodotta nel canale in febbraio, maggio, agosto e novembre |
-| di febbraio-luglio | la risorsa viene riprodotta nel canale da febbraio fino alla fine di luglio |
+| `on February,May,August,November` | la risorsa viene riprodotta nel canale in febbraio, maggio, agosto e novembre |
+| `on February-July` | la risorsa viene riprodotta nel canale da febbraio a fine luglio |
 
 >[!NOTE]
->Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.
+>Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio.
 
 ### Combinazione di partizioni {#combined-parting}
 
-1. Seleziona la risorsa e fai clic su **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
+1. Seleziona la risorsa, quindi seleziona **Configura** (icona chiave inglese).
 
 1. Dopo aver inserito la data/ora di inizio e l’ora di fine/data, puoi utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
    >[!NOTE]
    >Puoi saltare o includere **Attivo da** e **Attivo fino a** e aggiungi l’espressione al campo Schedules, in base alle tue esigenze.
 
-1. Immetti l’espressione nel file **Pianificazione** e la risorsa verrà visualizzata per il particolare intervallo di giorno e ora.
+1. Immetti l’espressione nel file **Pianificazione** e la risorsa viene visualizzata per il particolare intervallo di giorno e ora.
 
 #### Espressioni di esempio per la combinazione di partizioni {#example-four}
 
@@ -177,19 +174,20 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| dopo le 6:00 e prima delle 18:00 di lunedì,mer di gen-mar | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio a fine marzo |
-| il 1° gennaio dopo le 14:00 anche il 2 gennaio anche il 3 gennaio prima delle 03:00 | la risorsa nel canale inizia a essere riprodotta dopo le 14:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 03:00 del 3 gennaio |
-| l&#39;1-2 giorno di gennaio dopo le 14:00 anche il 2-3 giorno di gennaio prima delle 3:00 | la risorsa nel canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a essere riprodotta fino alle 03:00 del 2 gennaio, quindi inizia di nuovo il 2 gennaio alle 14:00 e continua a essere riprodotta fino alle 03:00 del 3 gennaio |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio a fine marzo |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]
->Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a mano breve che quelle con il nome completo, come lunedì/lunedì e gennaio/gennaio.  Inoltre, puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. Inoltre, puoi anche utilizzare _ora militare_ notazione (14:00) invece di *A.M./P.M.*(14.00).
 
 
 ## Attivazione di più risorse {#multi-asset-scheduling}
 
+<!--
 >[!CAUTION]
 >
->Il **Attivazione di più risorse** Questa funzione è disponibile solo se è stato installato il Feature Pack 5 di AEM 6.3 o il Feature Pack 3 di AEM 6.4.
+>The **Multi-asset Activation** feature is only available if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3. -->
 
 ***Attivazione di più risorse*** consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate.
 
@@ -197,26 +195,26 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 Per utilizzare l’attivazione a livello di più risorse, crea un progetto AEM Screens con un canale di sequenza. Ad esempio, il seguente caso d’uso illustra l’implementazione della funzione:
 
-* Creare un progetto AEM Screens con titolo **Demo risorse multiple**
-* Crea un canale con titolo **MultiAssetChannel** e aggiungi contenuto al canale, come illustrato nella figura seguente
+* Creare un progetto AEM Screens con titolo **Demo risorse multiple**.
+* Crea un canale con titolo **MultiAssetChannel** e aggiungete contenuto al canale, come illustrato nella figura riportata di seguito.
 
 ![screen_shot_2018-12-21at70128am](assets/screen_shot_2018-12-21at70128am.png)
 
 Per selezionare più risorse e pianificarne la visualizzazione in un progetto AEM Screens, effettua le seguenti operazioni:
 
-1. Seleziona **MultiAssetChannel** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Seleziona **MultiAssetChannel**, quindi seleziona **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-12-21at70313am](assets/screen_shot_2018-12-21at70313am.png)
 
-1. Seleziona più risorse dall’editor e fai clic su **Modifica attivazione** (icona in alto a sinistra).
+1. Seleziona più risorse dall’editor, quindi seleziona **Modifica attivazione** (icona superiore sinistra).
 
    ![screen_shot_2018-12-21at70550am](assets/screen_shot_2018-12-21at70550am.png)
 
-1. Seleziona data e ora in **Attivo da** e **Attivo fino a** dal **Attivazione componente** . Dopo aver selezionato le pianificazioni, fai clic sull’icona del segno di spunta.
+1. Seleziona data e ora in **Attivo da** e **Attivo fino a** dal **Attivazione componente** . Dopo aver selezionato le pianificazioni, seleziona l’icona con il segno di spunta.
 
    ![screen_shot_2018-12-17at20337pm](assets/screen_shot_2018-12-17at20337pm.png)
 
-1. Fai clic su Aggiorna per controllare le risorse a cui viene applicata la pianificazione per più risorse.
+1. Seleziona aggiorna per controllare le risorse a cui viene applicata la pianificazione per più risorse.
 
    >[!NOTE]
    >
@@ -234,14 +232,15 @@ Questo consente all’autore di contenuto di indicare che la riproduzione di una
 
 La sostituzione globale per l’ora di inizio universale viene eseguita configurando **Attivazione** durante l’accesso alle proprietà di una risorsa. Per eseguire una sostituzione globale per la programmazione delle risorse, attenersi alla procedura descritta di seguito.
 
-1. Seleziona un canale e fai clic su **Modifica** dalla barra delle azioni per aggiungere o modificare il contenuto nel canale.
+1. Seleziona un canale, quindi seleziona **Modifica** dalla barra delle azioni per aggiungere o modificare il contenuto nel canale.
 
    ![screen_shot_2018-04-23at111422am](/help/user-guide/assets/asset-activation/asset-level1.png)
 
-1. Clic **Modifica** per aprire l’editor canali e selezionare una risorsa a cui applicare la pianificazione.
+1. Seleziona **Modifica**.
+1. Nell’editor canali, seleziona una risorsa di cui desideri applicare la pianificazione.
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Per una sostituzione globale, inserisci il tempo di attivazione in **Sovrascrittura fuso orario** per la risorsa. Se non immetti nulla in quest’area, il fuso orario applicato sarà quello del lettore.
+1. Per una sostituzione globale, immettere il tempo di attivazione nel campo **Sovrascrittura fuso orario** per la risorsa. Se non immetti nulla in quest’area, il fuso orario applicato è quello del lettore.
 
 

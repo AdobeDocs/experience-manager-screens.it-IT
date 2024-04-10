@@ -1,13 +1,11 @@
 ---
 title: Test e garanzia della qualità
-seo-title: Testing and Quality Assurance for AEM Screens
-description: La pagina descrive la Guida alle best practice per test e controllo qualità per AEM Screens
-seo-description: The page describes Testing and Quality Assurance for AEM Screens Best Practices Guide
+description: Scopri i test e il controllo della qualità per AEM Screens nella Guida alle best practice.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a22702998599ea184529ab62eb8bd5113ad58e2c
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +14,10 @@ ht-degree: 2%
 >[!NOTE]
 >Questa attività è in genere gestita da un integratore A/V.
 
-Man mano che ci avviciniamo all&#39;effettiva implementazione della rete di digital signage, dobbiamo creare un piano di test e controllo qualità che affronti ogni elemento della rete, inclusi tutti i componenti hardware, software e di rete.
+Man mano che ti avvicini all&#39;implementazione della rete di digital signage, crea un piano di test e controllo qualità che affronti ogni elemento della rete, inclusi tutti i componenti hardware, software e di rete.
 Durante la fase, si dovrebbero costruire e collaudare completamente interi sistemi di test.
 
-È necessario creare un elenco di controllo che identifichi tutti gli indicatori KPI definiti in precedenza e misuri il risultato finale rispetto a tali indicatori.
+È necessario creare un elenco di controllo che identifichi tutti i KPI definiti in precedenza e ne misuri i risultati finali.
 
 >[!NOTE]
 >
@@ -56,32 +54,32 @@ Si riferisce a qualsiasi *player* dispositivo hardware su cui è installata l’
 Questo modulo consente di:
 
 1. Registri di errore dell’applicazione del lettore di monitor
-1. Gestione delle schermate remote
+1. Gestione schermate remote
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Centro controllo dispositivi***, fare riferimento a [Risoluzione dei problemi di Device Control Center](https://helpx.adobe.com/experience-manager/6-5/screens/using/monitoring-screens.html) in **Guida utente di AEM Screens**.
+Per informazioni dettagliate su ***Centro controllo dispositivi***, fare riferimento a [Risoluzione dei problemi di Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guida utente di AEM Screens**.
 
 >[!CAUTION]
 >
-> Non utilizzare Centro controllo dispositivi per:
-> 1. Installare nuove versioni dell’applicazione del lettore
-> 1. Monitorare le risorse a livello di sistema
-> 1. Risolvere i problemi relativi agli errori a livello di sistema
-> 1. Consenti intervento desktop remoto
-
+>Non utilizzare Centro controllo dispositivi per:
+>
+>* Installare nuove versioni dell’applicazione del lettore
+>* Monitorare le risorse a livello di sistema
+>* Risolvere i problemi relativi agli errori a livello di sistema
+>* Consenti intervento desktop remoto
 
 
 >[!NOTE]
 >
 > L’Adobe consiglia di utilizzare piattaforme di gestione dei dispositivi di terze parti dedicate per tutte le distribuzioni.
 
-La piattaforma specifica scelta dipende da una serie di fattori, tra cui ***sistema operativo di destinazione***, ***requisiti del progetto*** e ***numero di punti finali***.
+La piattaforma specifica scelta dipende da diversi fattori, tra cui ***sistema operativo di destinazione***, ***requisiti del progetto***, e ***numero di punti finali***.
 
-Alcuni esempi sono:
+Di seguito sono riportati alcuni esempi:
 
 * Gestione dei dispositivi Google Chrome
 * TeamViewer
 * AirWatch
-* 42Gears
+* `42Gears`
 * Middleware proprietario di AV Integrator

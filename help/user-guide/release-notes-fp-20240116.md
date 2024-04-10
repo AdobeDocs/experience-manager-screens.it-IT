@@ -1,20 +1,21 @@
 ---
 title: Note sulla versione per Screens Feature Pack 20240116
-description: Segui questa pagina per ottenere informazioni sull’AEM Screens Feature Pack 20240116 rilasciato il 16 gennaio 2024.
+description: Ulteriori informazioni sul Feature Pack di AEM Screens 20240116 rilasciato il 16 gennaio 2024.
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: f20cdc76eb599000b4da4b2c654b3c191d963ed6
+exl-id: b26ed2de-2e47-4dd5-be1c-4c46971e9f6d
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
 # Note sulla versione per Feature Pack 20240116 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager 6.5 (AEM 6.5). Possiamo ottenere le informazioni più recenti sulla versione da [qui](https://experienceleague.adobe.com/docs/experience-manager-65/content/release-notes/release-notes.html?lang=en)
+>Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager 6.5 (AEM 6.5). Puoi ottenere informazioni sulla versione più recente da [qui](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes)
 
 ## Disponibilità {#availability}
 
@@ -24,7 +25,7 @@ Puoi scaricare il feature pack più recente per AEM Screens 6.5.11.2 dalla versi
 
 ## Data di rilascio {#release-date}
 
-La data di pubblicazione del Feature Pack 202204 per AEM Screens è il 16 gennaio 2024.
+La data di rilascio del Feature Pack 202204 per AEM Screens è il 16 gennaio 2024.
 
 ### Novità {#what-is-new}
 
@@ -36,6 +37,6 @@ Questa versione include solo correzioni di sicurezza.
 
 * Problema XSS in `libs/screens/dcc/components/fileuploaddrop/clientlibs/js/dropzone.js`. (SCRNS-3906)
 
-#### Download di AEM Screens Player  {#aem-screens-player-downloads}
+#### Download di AEM Screens Player
 
 Per scaricare l’ultimo lettore AEM Screens, fai riferimento a **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

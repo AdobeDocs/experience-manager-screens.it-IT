@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La pagina seguente presenta un caso d’uso con particolare attenzione alla conf
 ## Descrizione del caso d’uso {#use-case-description}
 
 Questo caso d’uso spiega come creare un canale che *subentra* dal canale di riproduzione normale per un display o un gruppo di display. L&#39;acquisizione avviene perennemente per un giorno e un&#39;ora specifici.
-Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00 Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L’esempio seguente mostra la creazione di un canale di acquisizione permanente che viene riprodotto e consente di riprodurre i contenuti ogni mercoledì per due ore, dalle 14:00 alle 16:00
+Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L&#39;esempio seguente mostra la creazione di un canale di acquisizione permanente che viene riprodotto e consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.
 
 ### Precondizioni {#preconditions}
 
@@ -57,7 +57,7 @@ Per impostare un progetto, segui i passaggi seguenti:
    >[!NOTE]
    >Il **MainAdChannel** in questo esempio viene illustrato un canale di sequenza che riproduce il contenuto in modo continuo.
 
-1. Creare un **TakeOver** canale che assume il controllo dei contenuti in **MainAdChannel** e si gioca ogni mercoledì dalle 14:00 alle 16:00
+1. Creare un **TakeOver** canale che assume il controllo dei contenuti in **MainAdChannel** e viene riprodotto ogni mercoledì dalle 14:00 alle 16:00.
 
 1. Seleziona la **TakeOver** e fai clic su **Modifica** dalla barra delle azioni. Trascina alcune risorse nel canale. L’esempio seguente mostra un’immagine di una singola zona aggiunta a questo canale.
 
@@ -96,7 +96,7 @@ Per impostare un progetto, segui i passaggi seguenti:
    * **attivo da**: data e ora di inizio.
    * **attivo fino a**: data e ora di fine.
 
-     Ad esempio, il testo in **Pianificazione** e **attivo da** e **attivo fino a** La data e l’ora consentono di riprodurre il contenuto ogni mercoledì dalle 14:00 alle 16:00.
+     Ad esempio, il testo in **Pianificazione** e **attivo da** e **attivo fino a** Con questa funzione, il contenuto può essere riprodotto ogni mercoledì dalle 14:00 alle 16:00.
 
 
      ![risorsa](assets/p_usecase7.png)
@@ -116,12 +116,12 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | **Espressione** | **Interpretazione** |
 |---|---|
 | prima delle 08:00 | il canale viene riprodotto ogni giorno prima delle 8:00 |
-| dopo le 2:00 | il canale viene riprodotto ogni giorno dopo le 14:00 |
+| dopo le 14:00 | il canale viene riprodotto ogni giorno dopo le 14:00 |
 | dopo le 12:15 e prima delle 12:45 | il canale viene riprodotto ogni giorno dopo le 12:15 per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | il canale viene riprodotto ogni giorno prima delle 12:15 e poi anche dopo le 12:45 |
-| il primo giorno di gennaio dopo le 14:00 anche il secondo giorno di gennaio anche il terzo giorno di gennaio prima delle 3:00 | il canale inizia la riproduzione dopo le 14:00 del 1 gennaio, continua per l&#39;intera giornata del 2 gennaio fino alle 03:00 del 3 gennaio |
-| nei 1-2 giorni di gennaio dopo le 14:00 anche nei 2-3 giorni di gennaio prima delle 03:00. | il canale avvia il lettore dopo le 14:00 del 1° gennaio, continua la riproduzione fino alle 03:00 del 2 gennaio, quindi riparte il 2 gennaio alle 14:00 e continua fino alle 03:00 del 3 gennaio |
+| prima delle 12:15 anche dopo le 12:45 | il canale viene riprodotto ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
+| il primo giorno di gennaio dopo le 14:00 anche il secondo giorno di gennaio anche il terzo giorno di gennaio prima delle 03:00. | il canale inizia la riproduzione dopo le 14:00 del 1° gennaio e continua per l’intera giornata del 2 gennaio fino alle 03:00 del 3 gennaio |
+| nei 1-2 giorni di gennaio dopo le 14:00 anche nei 2-3 giorni di gennaio prima delle 03:00. | il canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 03:00 del 2 gennaio, quindi riparte il 2 gennaio alle 14:00 e continua a giocare fino alle 03:00 del 3 gennaio |
 
 >[!NOTE]
 >
->Puoi anche utilizzare _ora militare_ notazione (ovvero 14:00) invece di *am/pm* notazione (ovvero, 14:00).
+>Puoi anche utilizzare _ora militare_ notazione (14:00) invece di *A.M./P.M.* (14.00).
