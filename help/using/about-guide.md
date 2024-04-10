@@ -1,13 +1,11 @@
 ---
 title: Informazioni su questa guida
-seo-title: Description on the Guide
-description: Segui questa guida alle best practice dell’AEM 6.5 per i progetti AEM Screens per pianificare ed eseguire progetti, dalle informazioni strategiche e di progettazione fino alla distribuzione e al supporto successivo.
-seo-description: This page describes the intent of the Best Practices Guide
+description: Scopri le best practice per i progetti AEM Screens per pianificare ed eseguire progetti, da informazioni strategiche e di progettazione, fino alla distribuzione e al supporto successivo.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 4817c02bf7f65edd1e55ab56f250cc982cc7c1ef
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 88%
+source-wordcount: '254'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +13,7 @@ ht-degree: 88%
 
 La Guida alle best practice di AEM Screens fornisce indicazioni su come pianificare ed eseguire con successo un progetto AEM Screens.
 
-Questo documento si rivolge a:
+Il pubblico previsto per questo documento è:
 
 * *Implementatori di AEM*
 * *Integratori AV*
@@ -23,26 +21,24 @@ Questo documento si rivolge a:
 * *Manager di progetto*
 * *Consulenti*
 
-Tuttavia, è opportuno sottolineare che anche molti altri ruoli trarranno beneficio dalla lettura di questa guida.
+Tuttavia, è opportuno sottolineare che anche molti altri ruoli possono trarre vantaggio dalla lettura di questa guida.
 
-AEM Screens è una nuova estensione di Adobe Experience Manager (AEM) e poiché gli strumenti sono nuovi e le loro potenziali applicazioni variano, è fondamentale identificare importanti considerazioni e fattori di rischio comuni coinvolti nello sviluppo e nella distribuzione di AEM Screens.
+AEM Screens è una nuova estensione di Adobe Experience Manager (AEM). Poiché gli strumenti sono nuovi e le loro potenziali applicazioni variano, è fondamentale identificare importanti considerazioni e fattori di rischio comuni coinvolti nello sviluppo e nella distribuzione di AEM Screens.
 
-Questa guida fornisce informazioni approfondite e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione del digital signage. Inoltre, aiuta a scoprire come creare un impatto positivo sulle attività aziendali utilizzando alcune delle best practice durante l’implementazione di un progetto di digital signage in AEM Screens.
+Questa guida fornisce informazioni approfondite e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione per insegne digitali. Inoltre, illustra come creare un impatto positivo sull’azienda utilizzando alcune delle best practice adottate durante l’implementazione di un progetto di digital signage in AEM Screens.
 
 >[!IMPORTANT]
 >
 > La presente Guida è stata progettata per identificare i problemi comuni durante l’implementazione di un progetto AEM Screens e il materiale è incentrato principalmente sui seguenti argomenti:
 >
 > * **[Ruoli e responsabilità del progetto](roles-responsibilities.md)**
-> * **[Grafico RACI per diversi ruoli](roles-responsibilities.md#raci-chart)**
+> * **[Grafico RACI per ruoli diversi](roles-responsibilities.md#raci-chart)**
 > * **[Configurazioni della piattaforma AEM](aem-platform-configurations.md)**
 > * **[Supporto e monitoraggio](support-monitoring.md)**
-
 
 >[!NOTE]
 >
 > Termini utilizzati in questa guida (nel contesto di AEM Screens):
 >
 > * **UX:** esperienze di digital signage fornite ai clienti finali.
-> * **UI:** interfaccia utente, che consente di creare e gestire i progetti in Screens.
-
+> * **UI** si intende l’interfaccia utente che consente di creare e gestire i progetti in Screens.

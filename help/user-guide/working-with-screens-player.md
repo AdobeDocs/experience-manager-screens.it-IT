@@ -1,32 +1,28 @@
 ---
 title: Utilizzo di AEM Screens Player
-seo-title: Working with Screens Player
-description: Segui questa pagina per scoprire di più su Screens Player. Vengono inoltre illustrate l’interfaccia utente di amministrazione e il selettore di canale.
-seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 93e113ea-fbef-4757-982b-b7dc52fc76a7
+description: Scopri come utilizzare AEM Screens Player, l’interfaccia utente di amministrazione e il Channel Switcher.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 4ad51b5e-c628-4440-9f2e-41d17cb10bc3
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
-# Utilizzo di AEM Screens Player {#working-with-aem-screens-player}
+# Utilizzo di AEM Screens Player
 
 Puoi gestire il contenuto del canale e altre impostazioni in AEM Screens Player.
 
 >[!NOTE]
 >
->Premi ***Ctrl+Comando+F*** per uscire dalla modalità a schermo intero per OS X AEM Screens Player.
+>Premi ***Ctrl+Comando+F*** in modo da poter uscire dalla modalità a schermo intero per OS X AEM Screens Player.
 
 Dopo aver assegnato un canale a una visualizzazione, AEM Screens Player visualizza il contenuto. Puoi configurare le impostazioni per il lettore utilizzando le preferenze per l’interfaccia utente amministratore (dalla dashboard) oppure dal lettore stesso.
 
@@ -40,7 +36,7 @@ Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositiv
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Fai clic sul dispositivo per aprire il dashboard del dispositivo.
+1. Fare clic sul dispositivo per aprirne il dashboard.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -52,7 +48,7 @@ Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositiv
 
 Abilitazione di **Interfaccia utente amministratore** dal pannello delle preferenze, consente all’utente di aprire le impostazioni di amministrazione da Screens Player. Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente non può aprire l’interfaccia utente di amministrazione dal lettore.
 
-Per visualizzare l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo nell’angolo in alto a sinistra per aprire il menu Amministratore, sul lettore AEM Screens touch o utilizzando un mouse. Mostra le informazioni dopo il completamento della registrazione e il caricamento dei canali.
+Per visualizzare l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra per aprire il menu Amministratore, sul lettore AEM Screens touch o utilizzando un mouse. Le informazioni vengono visualizzate al termine della registrazione e dopo il caricamento dei canali.
 
 >[!NOTE]
 >
@@ -62,7 +58,7 @@ Per visualizzare l’interfaccia utente di amministrazione dal lettore Screens, 
 
 #### Accesso alle opzioni del menu di configurazione {#configuration-options}
 
-Puoi aggiornare le configurazioni, se selezioni **Configurazione** dal menu laterale, come illustrato nella figura seguente:
+Puoi aggiornare le configurazioni selezionando l&#39;opzione **Configurazione** dal menu laterale, come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -70,7 +66,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 * Reimposta **Firmware**, **Preferenze**, o **In fabbrica** da questa finestra di dialogo.
 
-* Specifica il numero massimo di file di registro da mantenere per un lettore AEM Screens in **N. max. di file di registro da mantenere**.
+* Specifica il numero massimo di file di registro che desideri mantenere per un lettore AEM Screens in **N. max. di file di registro da mantenere**.
 
 * Attiva o disattiva **Menu Amministrazione**, **Commutatore canale**, e **Interfaccia attività** per Screens.
 
@@ -80,7 +76,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 >[!NOTE]
 >
->Il **Aggiorna firmware** L’opzione funziona solo sulla cordova, ad esempio sui lettori Android.
+>Il **Aggiorna firmware** opzione funziona solo sui lettori Cordova, come Android™.
 
 >[!NOTE]
 >
@@ -90,7 +86,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 Puoi cancellare la cache per i canali e le applicazioni dall’interfaccia utente di amministrazione nel lettore AEM Screens.
 
-Seleziona la **Cache contenuto** dalla barra laterale per aggiornare la cache.
+Seleziona la **Cache contenuto** dalla barra laterale, in modo da poter aggiornare la cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
@@ -102,7 +98,7 @@ Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente n
 
 È possibile cambiare e controllare le impostazioni per il canale dal lettore Screens.
 
-Per visualizzare il commutatore di canale dal lettore, premere a lungo nell&#39;angolo inferiore sinistro per aprire il commutatore di canale che consente di cambiare canale e altre funzioni.
+Per visualizzare il commutatore di canale dal lettore, premere a lungo l&#39;angolo inferiore sinistro per aprire il commutatore di canale che consente di cambiare canale e altre funzioni.
 
 ![chlimage_1-69](assets/chlimage_1-69.png)
 
@@ -112,19 +108,19 @@ Per visualizzare il commutatore di canale dal lettore, premere a lungo nell&#39;
 >
 >(vedere *Modifica preferenze da Screens Player* come indicato nella sezione seguente).
 
-### Gestione delle preferenze da AEM Screens Player {#managing-preferences-from-the-aem-screens-player}
+### Gestione delle preferenze da AEM Screens Player
 
 Puoi anche modificare le impostazioni dell’interfaccia utente di amministrazione e del selettore di canale dal lettore stesso.
 
-Per modificare le preferenze del lettore, segui la procedura riportata di seguito:
+Per modificare le preferenze dal lettore:
 
-1. Premi a lungo nell’angolo in alto a sinistra del canale inattivo per aprire il pannello di amministrazione.
+1. Premi a lungo sull’angolo in alto a sinistra del canale inattivo per aprire il pannello di amministrazione.
 1. Accedi a **Configurazione** dal menu Azioni sinistro.
 1. Abilita/disabilita configurazione per **Interfaccia utente amministratore** o **Commutatore canale**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
-## Risoluzione dei problemi di AEM Screens Player {#troubleshooting-aem-screens-player}
+## Risoluzione dei problemi di AEM Screens Player
 
 Puoi risolvere vari problemi associati al lettore AEM Screens (hardware e software):
 
@@ -137,14 +133,14 @@ Puoi risolvere vari problemi associati al lettore AEM Screens (hardware e softwa
 | AEM Screens Player non si avvia automaticamente dopo il riavvio o il riavvio del lettore | Controllare la cartella di avvio del sistema operativo o la procedura di inizializzazione |
 | AEM Screens Player mostra contenuti errati/obsoleti | Verifica connessione di rete |
 
-### Aggiornamenti per AEM Screens Player {#updates-for-aem-screens-player}
+### Aggiornamenti per AEM Screens Player
 
 Esistono due tipi di aggiornamenti per AEM Screens Player:
 
-| **Metodo** | **Dettagli** | **tramite remoto** | **Automatizzato** | **0 tempi di inattività** |
+| **Metodo** | **Dettagli** | **tramite telecomando** | **Automatizzato** | **0 tempi di inattività** |
 |---|---|---|---|---|
-| Aggiornamento firmware | Applicato ai lettori installati esistenti tramite comando remoto. Dopo l’aggiornamento, il lettore viene ricaricato automaticamente con il contenuto esistente. | Sì | Personalizzato | Quasi - 1-3 secondi |
-| Aggiornamenti della shell del lettore | Questo è un nuovo eseguibile da distribuire in Windows Media Player. A tal fine, è necessario copiare in remoto un nuovo file binario sul lettore, arrestare l&#39;esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario ricaricare il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzato | No |
+| Aggiornamento firmware | Applicato ai lettori installati esistenti tramite comando remoto. Dopo l&#39;aggiornamento, il lettore viene ricaricato automaticamente con il contenuto esistente. | Sì | Personalizzato | Quasi - 1-3 secondi |
+| Aggiornamenti della shell del lettore | Questo è un nuovo eseguibile da distribuire in Windows Media Player. A tal fine, è necessario copiare in remoto un nuovo file binario sul lettore, arrestare l&#39;esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario scaricare di nuovo il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzato | No |
 
 ## Linee guida per la selezione dell&#39;hardware per il dispositivo del lettore {#hardware-selection-guidelines-for-player-device}
 
@@ -175,10 +171,10 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td>Base</td>
    <td>Processore Intel® Atom dual-core, i3 o quad-core entry-level</td>
    <td><p>4 GB di memoria</p> <p>2 MB di cache</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/wireless,<br /> 2x USB</td>
+   <td>DVI<br /> Ethernet/wireless<br /> 2x USB</td>
    <td>
     <ul>
      <li>Ciclo a schermo intero standard<br /> </li>
@@ -187,7 +183,7 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Quad-core, processore Intel® Core i5</td>
+   <td>Quad-core, processore Intel® Core™ i5</td>
    <td><p>8 GB di memoria</p> <p>4 MB di cache</p> </td>
    <td>128 GB</td>
    <td>OnBoard</td>
@@ -202,7 +198,7 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
   </tr>
   <tr>
    <td>Avanzate </td>
-   <td>Quad-core con hyperthreading, processore Intel® Core i7</td>
+   <td>Quad-core con hyperthreading, processore Intel® Core™ i7</td>
    <td><p>16 GB di memoria</p> <p>8 MB di cache</p> </td>
    <td>256 GB</td>
    <td>GPU grafica dedicata</td>

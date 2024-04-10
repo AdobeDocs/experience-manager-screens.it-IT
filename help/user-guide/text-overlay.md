@@ -1,22 +1,18 @@
 ---
 title: Sovrapposizione testo
-seo-title: Text Overlay
-description: La sovrapposizione testo è una funzione disponibile in AEM Screens che consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine. Per ulteriori informazioni, segui questa pagina.
-seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: 944477e8-0025-4cc7-aa61-6b72f4a245fd
+description: Scopri la sovrapposizione di testo in AEM Screens che consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: b6fdb5a0-5601-4443-a3f4-85cc90c49914
 noindex: true
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -48,7 +44,7 @@ La sezione seguente descrive l’utilizzo della sovrapposizione di testo in un p
 
 **Prerequisiti**
 
-Prima di iniziare a implementare questa funzionalità, assicurati di aver impostato un progetto come prerequisito per iniziare a implementare la sovrapposizione di testo. Ad esempio:
+Prima di implementare questa funzionalità, accertati di aver impostato un progetto come prerequisito per iniziare a implementare la sovrapposizione di testo. Ad esempio:
 
 * Crea un progetto AEM Screens (in questo esempio, **DemoSovrapposizioneTesto**)
 
@@ -62,7 +58,7 @@ L&#39;immagine seguente mostra **DemoSovrapposizioneTesto** progetto con **TextS
 
 Per utilizzare la sovrapposizione di testo in un canale AEM Screens, effettua le seguenti operazioni:
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-12-16alle80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
@@ -98,19 +94,19 @@ La sezione seguente descrive l’utilizzo di valori provenienti da un archivio d
 
 Configura le configurazioni ContextHub per il progetto AEM Screens.
 
-Per informazioni su come impostare e gestire le modifiche delle risorse basate sui dati utilizzando un archivio dati, consulta [Configurazione di ContextHub in AEM Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/developing/configuring-context-hub.html).
+Per scoprire come impostare e gestire le modifiche delle risorse basate sui dati utilizzando un archivio dati, consulta [Configurazione di ContextHub in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Dopo aver impostato le configurazioni richieste per il progetto, segui i passaggi seguenti per utilizzare i valori dei fogli di Google:
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Proprietà** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e seleziona **Proprietà** dalla barra delle azioni.
 
-1. Seleziona la **Personalizzazione** per configurare le configurazioni ContextHub.
+1. Seleziona la **Personalizzazione** in modo da poter impostare le configurazioni ContextHub.
 
-   1. Seleziona la **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e fai clic su **Seleziona**.
+   1. Seleziona la **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e seleziona **Seleziona**.
 
-   1. Seleziona la **Percorso segmenti** as **conf** > **schermi** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Seleziona**.
+   1. Seleziona la **Percorso segmenti** as **conf** > **schermi** > **impostazioni** > **wcm** > **segmenti** e seleziona **Seleziona**.
 
-   1. Fai clic su **Salva e chiudi**.
+   1. Seleziona **Salva e chiudi**.
 
       >[!NOTE]
       >
@@ -118,27 +114,27 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Aggiungi un componente di sovrapposizione immagine e testo all’immagine, come descritto in [Utilizzo della sovrapposizione testo](/help/user-guide/text-overlay.md#using-text-overlay) sezione di questa pagina.
 
-1. Fai clic su **Configura** (icona chiave inglese) per aprire **Immagine** .
+1. Seleziona il **Configura** (icona chiave inglese) per aprire **Immagine** .
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Accedi a **ContextHub** scheda da **Immagine** . Clic **Aggiungi**.
+1. Accedi a **ContextHub** scheda da **Immagine** . Seleziona **Aggiungi**.
 
    >[!NOTE]
-   >Se non hai configurato le configurazioni ContextHub, questa opzione è disabilitata per il progetto.
+   >Se non hai configurato la configurazione ContextHub, questa opzione è disabilitata per il progetto.
 
 1. Invio **Valore** nel **Segnaposto** campo. Selezionare la riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, fai clic sul segno di spunta.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
    >[!NOTE]
-   >Per riferimento, l&#39;immagine seguente mostra il valore recuperato dai fogli di Google:
+   >Per riferimento, l’immagine seguente mostra il valore recuperato dai fogli di Google:
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay6.png)
 
@@ -146,6 +142,6 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Fai clic su **Anteprima** per visualizzare l&#39;output desiderato.
+1. Seleziona **Anteprima**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

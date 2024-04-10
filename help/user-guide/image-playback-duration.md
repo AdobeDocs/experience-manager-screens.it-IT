@@ -1,12 +1,10 @@
 ---
 title: Durata riproduzione immagine
-seo-title: Image Playback Duration
-description: Segui questa pagina per scoprire la durata di riproduzione delle immagini.
-seo-description: Follow this page to learn about image playback duration.
+description: Scopri la durata di riproduzione delle immagini in AEM Screens.
 contentOwner: jsyal
-source-git-commit: 69a40e437fa9b19e283bcf1a1322d18e17990a49
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -16,16 +14,14 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Dopo aver creato un canale di sequenza e aver aggiunto le immagini a esso, per impostazione predefinita, tutte le immagini assumono la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa; questa operazione viene eseguita modificando la durata di riproduzione del componente immagine specifico.
+Dopo aver creato un canale di sequenza e avervi aggiunto le immagini, per impostazione predefinita, tutte le immagini assumono la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa; questa operazione viene eseguita modificando la durata di riproduzione del componente immagine specifico.
 
 ### Prerequisiti {#prerequisites}
 
-Prima di iniziare a implementare questa funzionalità, assicurati di aver impostato un progetto come prerequisito per iniziare a implementarla. Ad esempio:
+Prima di implementare questa funzionalità, accertati di aver impostato un progetto come prerequisito per iniziare a implementarla. Ad esempio:
 
 1. Crea un progetto AEM Screens (in questo esempio, **ChannelLevelPlayback**)
-
 1. Crea un canale di sequenza come **PlaybackChannel** in **Canali** cartella
-
 1. Aggiungi contenuto a **PlaybackChannel**
 
 ## Modifica dell&#39;assegnazione della durata di riproduzione immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
@@ -40,7 +36,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Clic **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Clic **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -48,7 +44,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Selezionate tutte le immagini nel canale e fate clic sull&#39;icona chiave inglese in alto a sinistra (come mostrato nella figura riportata di seguito) per aprire la finestra di dialogo Configurazione a livello di canale.
+1. Selezionate tutte le immagini nel canale e l&#39;icona a forma di chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito). Viene visualizzata la finestra di dialogo Configura a livello di canale.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -60,13 +56,13 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifica il **Durata** da 8000 (ms) a 3000 (ms), ovvero 3 secondi. Fai clic sul segno di spunta in alto a destra del **Pagina** per salvare le modifiche.
+   Modifica il **Durata** da 8000 (millisecondi) a 3000 (millisecondi), ovvero 3 secondi. Fai clic sul segno di spunta in alto a destra del **Pagina** in modo da poter salvare le modifiche.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visualizzazione del risultato {#viewing-the-result}
 
-Dopo aver aggiornato la durata di riproduzione del canale (in questo esempio, tutte e tre le immagini), le immagini vengono riprodotte per 3 secondi anziché 8 secondi (valore predefinito).
+Dopo aver aggiornato la durata della riproduzione del canale (in questo esempio, tutte e tre le immagini), le immagini vengono ora riprodotte per 3 secondi anziché 8 secondi (valore predefinito).
 
 ![channel_preview](assets/channel_preview.gif)
 

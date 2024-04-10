@@ -1,9 +1,6 @@
 ---
 title: Implementazione di Windows 10 Player
-seo-title: Implementing Windows 10 Player
-description: Segui questa pagina per scoprire come configurare il lettore AEM Screens Windows 10.
-seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player.
-uuid: da7e88bf-c251-481e-9029-f8fc4768b309
+description: Informazioni sulla configurazione di AEM Screens Windows 10 Player.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -14,9 +11,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -37,7 +34,7 @@ Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/scr
 ### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Se utilizzi AEM Screens 6.5.5 Service Pack, devi configurare un ambiente per Windows Player.
+>Configurare un ambiente per Windows Player se si utilizza AEM Screens 6.5.5 Service Pack.
 
 Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione console Web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
 
@@ -60,11 +57,11 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
 1. Accedi a **Configurazione** dal menu Azioni sinistro, inserisci la posizione (indirizzo) dell’istanza AEM a cui desideri connetterti e fai clic su **Salva**.
-1. Accedi a **Dispositivo** **Registrazione** dal menu Azioni sinistro per controllare lo stato del processo di registrazione del dispositivo.
+1. Accedi a **Dispositivo** **Registrazione** dal menu Azioni sinistro, per controllare lo stato del processo di registrazione del dispositivo.
 
 >[!NOTE]
 >
->Se il **Stato** è **REGISTRATO**, noterai la **ID dispositivo** verrà compilato.
+>Se il **Stato** è **REGISTRATO**, si noti che **ID dispositivo** è compilato.
 >
 >Se il **Stato** è **NON REGISTRATO**, è possibile utilizzare **Token** per registrare il dispositivo.
 
@@ -77,13 +74,13 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 Segui i passaggi seguenti per configurare il nome in Windows Player:
 
-1. Fai clic su **inizio** > **eseguire**
-1. Invio `system.cpl`
-1. Utilizzare la scheda Nome computer per impostare il nome host del computer
+1. Clic **inizio** > **eseguire**.
+1. Invio `system.cpl`.
+1. Utilizzare la scheda Nome computer per impostare il nome host del computer.
 
 ## Modifica delle opzioni predefinite in Windows Installer {#changing-default-options}
 
-Seguire questa sezione per scoprire come modificare le opzioni predefinite di Windows Installer e l&#39;elenco delle personalizzazioni disponibili.
+Seguire questa sezione per apprendere come modificare le opzioni predefinite di Windows Installer e l&#39;elenco delle personalizzazioni disponibili.
 
 ## Installazione tramite CLI (PowerShell) {#install-powershell}
 
@@ -106,9 +103,9 @@ C:\Users\User\Downloads> Start-Process C:\Users\User\Downloads\screens-player\AE
 
 ## Registrazione in blocco di Windows Player {#bulk-registration}
 
-Quando si implementa Windows Player, non è necessario configurare manualmente ogni singolo lettore. Al contrario, puoi aggiornare il file JSON di configurazione dopo averlo testato ed essere pronto per la distribuzione.
+Quando si implementa Windows Player, non è necessario configurare manualmente ogni lettore. Al contrario, puoi aggiornare il file JSON di configurazione dopo averlo testato ed essere pronto per la distribuzione.
 
-La configurazione assicurerà che tutti i lettori eseguano il ping dello stesso server fornito nel file di configurazione. È comunque necessario registrare manualmente ogni lettore.
+La configurazione assicura che tutti i lettori eseguano il ping dello stesso server fornito nel file di configurazione. Registra manualmente ogni lettore.
 
 Per configurare Windows 10 Player, attenersi alla procedura descritta di seguito.
 
@@ -129,7 +126,7 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 | rebootSchedule | Pianificazione per il riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
 | enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
-| enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
 | cloudMode | Impostare su true se si desidera che il lettore Windows si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
 | cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
@@ -162,34 +159,34 @@ Per attivare la modalità Kiosk (chiosco), procedere come segue:
 
 1. Attiva modulo di avvio shell.
 
-   Consulta la sezione ***Configura modulo di avvio shell*** in **[Modulo di avvio shell](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/shell-launcher)** pagina del supporto di Microsoft per ulteriori informazioni.
+   Consulta ***Configura modulo di avvio shell*** in **[Modulo di avvio shell](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina del supporto Microsoft® Windows per ulteriori informazioni.
 
 1. Crea un utente non amministrativo (se non ne hai già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
 1. Installare il lettore Windows per l&#39;utente Kiosk da [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina.
-1. Fai riferimento a [Utilizza Shell Launcher per creare un chiosco Windows 10](https://docs.microsoft.com/en-us/windows/configuration/kiosk-shelllauncher) per modificare lo script di PowerShell per ulteriori informazioni.
+1. Consulta [Utilizza Shell Launcher per creare un chiosco Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) per modificare lo script di PowerShell per ulteriori informazioni.
 
-   Modificare lo script di PowerShell in modo da sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;eseguibile dell&#39;applicazione sia corretto. La shell personalizzata verrà impostata come applicazione Windows Player per l&#39;utente del chiosco e quella predefinita come explorer.exe per gli altri utenti.
+   Modificare lo script di PowerShell in modo da poter sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;eseguibile dell&#39;applicazione sia corretto. In questo modo la shell personalizzata verrà impostata come applicazione Windows Player per l&#39;utente del chiosco e il file predefinito verrà impostato come explorer.exe per gli altri utenti.
 
 1. Eseguire lo script di PowerShell come amministratore.
 1. Riavvia e accedi come l’utente Kiosk e l’applicazione del lettore devono avviarsi subito.
 
 ### Risoluzione dei problemi {#troubleshooting}
 
-Se quando accedi come utente Kiosk viene visualizzata una schermata nera, significa che potresti aver specificato in modo errato il percorso dell’eseguibile di Windows Player. Accedi nuovamente come amministratore, quindi verifica ed esegui nuovamente lo script.
+Se dopo aver effettuato l&#39;accesso come utente Kiosk viene visualizzata una schermata nera, è possibile che il percorso dell&#39;eseguibile di Windows Player non sia stato specificato correttamente. Accedi nuovamente come amministratore, quindi verifica ed esegui nuovamente lo script.
 
 Il percorso di installazione predefinito per Windows Player è:
 
 ***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
-Lo script di esempio nei collegamenti attiverà e disabiliterà la shell personalizzata. Di conseguenza, potrebbe essere necessario suddividere lo script in due e abilitare/disabilitare le righe applicabili seguenti:
+Lo script di esempio nei collegamenti abilita e disabilita la shell personalizzata. Pertanto, divide lo script in due e abilita/disabilita le righe applicabili seguenti:
 
 >[!NOTE]
 >
->In alcuni ambienti Windows gli script di PowerShell possono essere limitati da criteri (in particolare gli script non firmati). Per eseguire lo script potrebbe essere necessario disattivare temporaneamente e riattivare questa restrizione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
+>In alcuni ambienti Windows, gli script di PowerShell possono essere limitati da criteri (in particolare gli script non firmati). Per eseguire lo script, disattivare temporaneamente e riattivare questa restrizione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
 >
->*set-execution policy senza restrizioni* - per rimuovere temporaneamente le restrizioni
+>*`set-executionpolicy unrestricted`* - per rimuovere temporaneamente le restrizioni.
 >
->*set-execution policy limitato* - per riattivare la restrizione dopo l&#39;esecuzione dello script
+>*`set-executionpolicy restricted`* : per riabilitare la restrizione dopo l’esecuzione dello script.
 
 ```
 # Remove the new custom shells.

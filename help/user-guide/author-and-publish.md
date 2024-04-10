@@ -2,9 +2,9 @@
 title: Configurazione delle istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 4b8013873be87d4d118f627d6131ff3e2fd087de
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Per ogni istanza Publish:
 1. Aggiorna URL connettore topologia: aggiungi URL di tutte le istanze Publish che effettuano la raccolta e che sono:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
-1. **Elenco whitelist del connettore topologia**: adattati a IP o subnet che coprono tutte le istanze Publish. Assicurati di inserire in una whitelist il nome IP/host di tutte le istanze Publish senza il numero di porta.
+1. **Connettore topologia `Whitelist` Elenco**: adattati a IP o subnet che coprono tutte le istanze Publish. Assicurati di `whitelist` il nome IP/host di tutte le istanze Publish senza il numero di porta.
 
 1. Abilita **Arresto automatico cicli locali**
 
@@ -213,7 +213,7 @@ Dopo aver impostato la topologia di pubblicazione, configura le istanze Author e
 >
 >Per iniziare a utilizzare questo esempio, crea un progetto AEM Screens, quindi crea una posizione, una visualizzazione e un canale nel progetto. Aggiungi contenuto al tuo canale e assegna il canale a una visualizzazione.
 
-#### Passaggio 1: avvio di un lettore AEM Screens (dispositivo) {#step-starting-an-aem-screens-player-device}
+#### Passaggio 1: avvio di un lettore AEM Screens (dispositivo)
 
 1. Avvia una finestra del browser separata.
 1. Passa a Screens player utilizzando *browser web*, ovvero`https://localhost:4502/content/mobileapps/cq-screens-player/firmware.html` o avvia l&#39;app AEM Screens. Quando apri il dispositivo, noterai che lo stato del dispositivo non è registrato.
@@ -280,7 +280,7 @@ I punti seguenti riepilogano l&#39;elenco di controllo per la pubblicazione:
 * *Pianificazione* - se utilizzi una pianificazione, assicurati che sia pubblicata
 * *Cartella posizioni, pianificazioni e canali* - se le risorse corrispondenti si trovano all’interno di una cartella.
 
-Per verificare il comportamento di Author/Publish, effettua le seguenti operazioni:
+Per verificare il comportamento di authoring e pubblicazione, segui i passaggi seguenti:
 
 1. Aggiorna alcuni contenuti del canale nell’istanza di authoring.
 1. Esegui **Gestisci pubblicazione** per pubblicare le nuove modifiche su tutte le istanze Publish.

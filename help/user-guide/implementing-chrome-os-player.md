@@ -1,21 +1,17 @@
 ---
 title: Implementazione di Chrome OS Player
-seo-title: Implementing Chrome OS Player
-description: Segui questa pagina per scoprire l’implementazione di Chrome OS Player tramite Chrome Management Console.
-seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.
-uuid: eee84286-fa81-475c-ad6f-db2d6cf1fed5
+description: Scopri l’implementazione di Chrome OS Player tramite Chrome Management Console.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
-discoiquuid: 1be944f0-02ed-48c6-98bc-504d758ff866
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: d8c420c289452e3ddb1be42c8f170758385ff7af
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -30,11 +26,11 @@ Segui i passaggi seguenti per configurare la console di gestione Chrome:
 
 1. Registrati alla Chrome Management Console. È necessario ottenere una licenza per Chrome Management Console. Contatto [Supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per ulteriori informazioni, consulta Gestire le impostazioni del dispositivo Chrome.
 1. Iscrivi il dispositivo Chrome OS nel dominio attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fare clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
-1. Chrome Player sarà disponibile nel Chrome Web Store.
+1. Chrome Player è disponibile nel Chrome Web Store.
 
 >[!NOTE]
 >
->Per la distribuzione e la gestione dei dispositivi Chrome OS, si consiglia una soluzione di gestione dei dispositivi come Chrome Management Console. Anche se, questo documento fornisce l’implementazione per Chrome Management Console, ci sono altri fornitori che affermano di fornire funzionalità simili. Contattare il fornitore del software di gestione dei dispositivi.
+>Per la distribuzione e la gestione dei dispositivi Chrome OS, si consiglia una soluzione di gestione dei dispositivi come Chrome Management Console. Anche se questo documento fornisce l’implementazione per Chrome Management Console, ci sono altri fornitori che affermano di fornire funzionalità simili. Contattare il fornitore del software di gestione dei dispositivi.
 
 ## Denominazione del lettore Chrome OS {#name-chrome}
 
@@ -49,16 +45,16 @@ Segui i passaggi seguenti per configurare il nome nel lettore Chrome:
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome1.png)
 
-1. Quando sarà possibile registrare il dispositivo, verranno visualizzate le opzioni disponibili.
+1. Quando è possibile registrare il dispositivo, vengono visualizzate le opzioni disponibili.
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Puoi impostare l’ID risorsa come parte dell’iscrizione Enterprise e nella console di gestione Chrome.
+1. Puoi impostare l’ID risorsa come parte della registrazione Enterprise e nella console di gestione Chrome.
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituirà vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non saranno accettate da Adobe Experience Manager (AEM).
+   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono prese in considerazione da Adobe Experience Manager (AEM).
 
 ### Abilitazione della modalità Kiosk (chiosco) {#enabling-kiosk-mode}
 
@@ -92,7 +88,7 @@ Per attivare la modalità Kiosk (Chiosco), procedere come segue:
 
 >[!NOTE]
 >
->Tieni presente che queste impostazioni potrebbero essere attivate diversi minuti dopo la registrazione del dispositivo. Ogni opzione può diventare abilitata nel tempo.
+>Queste impostazioni possono essere attivate diversi minuti dopo la registrazione del dispositivo. Ogni opzione può diventare abilitata nel tempo.
 
 ### Configurazione della configurazione remota dei lettori Chrome OS {#configuring-remote-configuration-of-chrome-os-players}
 
@@ -104,8 +100,8 @@ Segui i passaggi seguenti per configurare varie opzioni del lettore:
 1. Clic **Gestione dei dispositivi** > **Gestione Chrome** > **Gestione app**. AEM Screens Player viene visualizzato nell’elenco.
 1. Fai clic sull’applicazione **Lettore AEM Screens**.
 1. Clic **Impostazioni chiosco** e seleziona la tua organizzazione (*se si utilizza un ambiente di test*).
-1. Fai clic su **carica file di configurazione** e carica il criterio di configurazione (*File Json*).
-1. Fai clic su **Salva**. Per sincronizzare i criteri è necessario riavviare il dispositivo.
+1. Clic **carica file di configurazione** e carica il criterio di configurazione (*File JSon*).
+1. Fai clic su **Salva**. Riavviare il dispositivo per sincronizzare i criteri.
 
 >[!NOTE]
 >
@@ -140,7 +136,7 @@ Segui i passaggi seguenti per configurare varie opzioni del lettore:
 
 Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
-| **Nome criterio** | **Scopo** |
+| **Nome criterio** | **Finalità** |
 |---|---|
 | server | URL del server Adobe Experience Manager (AEM). |
 | registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |
@@ -148,13 +144,13 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 | rebootSchedule | Pianificazione per il riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
 | enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
-| enableActivityUI | Abilita questa opzione per mostrare l’avanzamento di attività come download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
+| enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
 | cloudMode | Imposta su true se desideri che il lettore Chrome si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
 | cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 >[!NOTE]
 >
->Le configurazioni dei criteri vengono rigorosamente applicate e non vengono ignorate manualmente nell’interfaccia utente di amministrazione del lettore. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio in ***configurazione dei criteri,*** ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave ***rebootSchedule*** nella configurazione dei criteri.
+>Le configurazioni dei criteri vengono rigorosamente applicate e non vengono ignorate manualmente nell’interfaccia utente di amministrazione del lettore. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio in ***configurazione dei criteri***. Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave ***rebootSchedule*** nella configurazione dei criteri.
 
 ### Utilizzo del telecomando Screens {#using-remote-control}
 

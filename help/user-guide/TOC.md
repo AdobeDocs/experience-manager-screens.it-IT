@@ -1,17 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: experience manager
 audience: end-user
 user-guide-title: Guida di Adobe Experience Manager Screens
 breadcrumb-title: Guida di AEM Screens
-user-guide-description: Scopri come utilizzare una soluzione Digital Signage per pubblicare esperienze e interazioni digitali dinamiche e interattive.
+user-guide-description: Scopri come utilizzare una soluzione di digital signage per pubblicare esperienze e interazioni digitali dinamiche e interattive.
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 705540969c96d143294953d4fa391ad97a3aa0f5
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Introduzione a Screens](aem-screens-introduction.md)
 + Panoramica e guida Kick-Start {#overview}
    + [Guida di Kickstart](kickstart-for-aem-screens.md)
-   + [Guida alle best practice per Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=it)
+   + [Guida alle best practice per Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide)
    + [Termini chiave](screens-glossary.md)
 + Nozioni di base sulla rete di digital signage {#digital-signage-network}
    + [Parte 1: Ruoli e responsabilità del progetto](project-roles-responsibilities.md)
@@ -41,10 +41,10 @@ ht-degree: 11%
    + [Nuova importazione progetti da file](project-importer.md)
    + [Replica di Data Triggers su server di pubblicazione](replicating-data-triggers.md)
    + [Configurazione degli agenti di replica di Screens](configure-screens-replication.md)
-   + Considerazioni specifiche sul client {#installing-client}
+   + Considerazioni specifiche per il client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Utilizzo di Chrome Player come estensione per la risoluzione dei problemi](using-chrome-player-as-an-extension.md)
-      + [Lettore Android](implementing-android-player.md)
+      + [Android](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Giocatore Tizen](tizen-player.md)
       + [Lettore cloud](implementing-cloud-player.md)
@@ -99,7 +99,7 @@ ht-degree: 11%
       + [Attivazione con targeting magazzino vendita al dettaglio](retail-inventory-activation.md)
       + [Applicazione delle transizioni](applying-transitions.md)
       + [Transizioni da più zone a zona singola](multizone-to-singlezone.md)
-      + [Canale TakeOver per singolo utilizzo](single-use-takeover-channel.md)
+      + [Canale TakeOver monouso](single-use-takeover-channel.md)
       + [Canale TakeOver per uso permanente](perpetual-takeover-channel.md)
 + Risorse per sviluppatori e API {#developing}
    + [API REST](rest-api.md)

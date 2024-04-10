@@ -1,14 +1,13 @@
 ---
 title: Guida di Kickstart
-seo-title: Kickstart Guide
-description: Segui questa pagina per creare un progetto demo di AEM Screens. Consente di creare un’esperienza di segnaletica digitale, a partire dall’installazione e dalla configurazione di un nuovo progetto per visualizzare i contenuti in AEM Screens player.
+description: Scopri come creare un progetto demo di AEM Screens. Consente di creare un’esperienza di segnaletica digitale, a partire dall’installazione e dalla configurazione di un nuovo progetto per visualizzare i contenuti in AEM Screens player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1279'
 ht-degree: 2%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 2%
 Kick-Start per AEM Screens illustra come impostare ed eseguire un progetto AEM Screens. Illustra i passaggi necessari per configurare un’esperienza di digital signage di base, aggiungere contenuti quali risorse e/o video a ciascun canale e successivamente pubblicarli su un lettore AEM Screens.
 
 >[!NOTE]
->Prima di iniziare a lavorare sui dettagli del progetto, assicurati di aver installato il Feature Pack più recente per AEM Screens. Puoi scaricare il feature pack più recente dalla sezione [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID.
+>Prima di lavorare sui dettagli del progetto, assicurati di aver installato il Feature Pack più recente per AEM Screens. Puoi scaricare il feature pack più recente dalla sezione [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID.
 
 ## Prerequisiti {#prerequisites}
 
@@ -57,7 +56,8 @@ Il primo passaggio consiste nel creare un progetto AEM Screens.
 
 1. Passa all’istanza di Adobe Experience Manager (AEM) e fai clic su **Schermi**. In alternativa, puoi navigare direttamente da `https://localhost:4502/screens.html/content/screens](https://localhost:4502/screens.html/content/screens`.
 
-1. Clic **Crea progetto Screens** per creare un nuovo progetto Screens. Inserisci il titolo come **DemoScreens** e fai clic su **Salva**.
+1. Clic **Crea progetto Screens** in modo da poter creare un progetto Schermi.
+1. Inserisci il titolo come **DemoScreens**, quindi fai clic su **Salva**.
 
    ![immagine](assets/kickstart/demo-1.png)
 
@@ -66,9 +66,9 @@ Il primo passaggio consiste nel creare un progetto AEM Screens.
 
 ### Creazione di un canale {#creating-channel}
 
-Dopo aver creato il progetto AEM Screens, devi creare un nuovo canale in cui gestire il contenuto.
+Dopo aver creato il progetto AEM Screens, devi creare un canale in cui gestire il contenuto.
 
-Per creare un nuovo canale per il progetto, segui i passaggi seguenti:
+Per creare un canale per il progetto, segui i passaggi seguenti:
 
 1. Dopo aver creato un progetto, seleziona **DemoScreens** e seleziona la **Canali** come illustrato nella figura seguente. Clic **+ Crea** dalla barra delle azioni.
 
@@ -87,7 +87,7 @@ Per creare un nuovo canale per il progetto, segui i passaggi seguenti:
 
 ### Aggiunta di contenuto a un canale {#adding-content}
 
-Una volta impostato il canale, devi aggiungere al canale il contenuto che verrà visualizzato dal lettore AEM Screens.
+Una volta impostato il canale, aggiungi al canale contenuto che il lettore AEM Screens può visualizzare.
 
 Per aggiungere contenuti al canale, segui la procedura riportata di seguito (**TestChannel**) nel progetto:
 
@@ -105,19 +105,16 @@ Per aggiungere contenuti al canale, segui la procedura riportata di seguito (**T
 
 ### Creazione di una posizione {#creating-location}
 
-Una volta che hai impostato il canale, devi creare una posizione.
+Una volta impostato il canale, crea una posizione.
 
 >[!NOTE]
 >***Posizioni*** suddividere le varie esperienze di digital signage e contiene le configurazioni dei display in base alla posizione dei vari schermi.
 
-Per creare una nuova posizione per il progetto, segui i passaggi seguenti:
+Per creare una posizione per il progetto, segui i passaggi seguenti:
 
 1. Accedi a **DemoProject** hai creato e seleziona la **Posizioni** cartella.
-
 1. Clic **+ Crea** dalla barra delle azioni.
-
 1. Seleziona **Posizione** dalla procedura guidata e fai clic su **Successivo**.
-
 1. Inserisci il **Nome** per la tua posizione (inserisci il titolo come **TestLocation**) e fai clic su **Crea**.
 
 Il **TestLocation** viene creato e aggiunto al tuo **Posizioni** cartella.
@@ -125,13 +122,12 @@ Il **TestLocation** viene creato e aggiunto al tuo **Posizioni** cartella.
 
 ### Creazione di una visualizzazione per la posizione {#creating-display}
 
-Dopo aver creato una posizione, è necessario crearne una nuova.
+Dopo aver creato una posizione, creane una corrispondente.
 
 >[!NOTE]
 >***Visualizzazione*** rappresenta l’esperienza digitale che viene eseguita su uno o più schermi.
 
 1. Accedi a **TestLocation** e selezionala.
-
 1. Clic **Crea** dalla barra delle azioni.
 
    ![immagine](assets/kickstart/demo-disp1.png)
@@ -150,7 +146,7 @@ Dopo aver creato una posizione, è necessario crearne una nuova.
 
 ### Assegnazione di un canale {#assigning-channel}
 
-Una volta completata la configurazione del progetto, devi assegnare il canale a una visualizzazione per visualizzare il contenuto.
+Al termine della configurazione del progetto, devi assegnare il canale a una visualizzazione per visualizzare il contenuto.
 
 1. Passa alla visualizzazione desiderata da **DemoScreens** > **Posizioni** > **TestLocation** > **LobbyDisplay**.
 
@@ -174,7 +170,7 @@ Una volta completata la configurazione del progetto, devi assegnare il canale a 
 
    ![immagine](assets/kickstart/demo-assign3.png)
 
-   Inoltre, puoi anche selezionare **Finestra di attivazione** e **Pianificazione ricorrenza**.
+   Inoltre, è possibile selezionare **Finestra di attivazione** e **Pianificazione ricorrenza**.
 
    >[!NOTE]
    >Il *Pianificazione ricorrenza* consente di impostare una pianificazione ricorrente per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
@@ -184,7 +180,7 @@ Una volta completata la configurazione del progetto, devi assegnare il canale a 
 
 ### Registrazione di un dispositivo e assegnazione del dispositivo a una visualizzazione {#registering-device}
 
-È necessario registrare il dispositivo utilizzando il dashboard AEM.
+Registra il dispositivo utilizzando il dashboard AEM.
 
 >[!IMPORTANT]
 >Chrome OS Player può essere installato come plugin del browser Chrome in modalità sviluppatore senza richiedere il dispositivo effettivo del lettore chrome. Per l&#39;installazione, procedere come segue:
@@ -193,10 +189,10 @@ Una volta completata la configurazione del progetto, devi assegnare il canale a 
 >1. Decomprimi e salva su disco.
 >1. Apri il browser Chrome e seleziona **Estensioni** dal menu o passa direttamente a ***chrome://extensions***.
 >1. Accendere il **Modalità sviluppatore** dall&#39;angolo superiore destro.
->1. Fai clic su **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
->1. Verifica **AEM Screens Chrome Player** plugin se disponibile nell’elenco delle estensioni.
->1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure naviga direttamente in ***chrome://apps***.
->1. Fai clic su **AEM Screens** Plug-in per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **esc** per uscire dalla modalità a tutto schermo.
+>1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
+>1. Verifica **AEM Screens Chrome Player** plug-in, se disponibile nell’elenco delle estensioni.
+>1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.
+>1. Clic **AEM Screens** Plug-in per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
 
 Una volta che il lettore Chrome OS è acceso, segui i passaggi seguenti per registrare un dispositivo Chrome.
 
@@ -229,11 +225,11 @@ Una volta che il lettore Chrome OS è acceso, segui i passaggi seguenti per regi
 
    ![immagine](assets/kickstart/demo-device6.png)
 
-1. Una volta che il dispositivo è stato assegnato correttamente, verrà visualizzata la seguente conferma.
+1. Quando il dispositivo è stato assegnato correttamente, viene visualizzata la seguente conferma.
 
    ![immagine](assets/kickstart/demo-register8.png)
 
-1. Tocca o fai clic **Fine** per completare il processo di registrazione. Dovresti essere in grado di visualizzare il dispositivo registrato dal dashboard di visualizzazione.
+1. Seleziona **Fine** per completare il processo di registrazione. È ora possibile visualizzare il dispositivo registrato dal dashboard di visualizzazione.
 
    ![immagine](assets/kickstart/demo-register9.png)
 

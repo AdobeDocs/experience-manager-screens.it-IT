@@ -1,23 +1,19 @@
 ---
 title: Registrazione dispositivo
-seo-title: Device Registration
-description: Questa pagina descrive il processo di registrazione del dispositivo in un progetto AEM Screens.
-seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: 5365e506-1641-4a0c-b34d-c39da02f700b
+description: Scopri il processo di registrazione del dispositivo in un progetto AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 523084f6-bd71-4daf-95b7-fc4c481f76dc
 docset: aem65
 feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: d1adadbab2cb13626dd8ce70deacced9f55aa4c9
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +23,7 @@ La pagina seguente descrive il processo di registrazione del dispositivo in un p
 
 ## Registrazione di un dispositivo {#registering-a-device}
 
-Il processo di registrazione del dispositivo viene eseguito su 2 macchine separate:
+Il processo di registrazione del dispositivo viene eseguito su due computer distinti:
 
 * Il dispositivo effettivo da registrare, ad esempio il display per la segnaletica
 * Server AEM utilizzato per registrare il dispositivo
@@ -38,7 +34,7 @@ Il processo di registrazione del dispositivo viene eseguito su 2 macchine separa
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
 >1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
->1. Fai clic sul pulsante **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
+>1. Seleziona la **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
 >
 
 ![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
@@ -51,7 +47,7 @@ Il processo di registrazione del dispositivo viene eseguito su 2 macchine separa
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di un nuovo progetto per Screens nel dashboard AEM, consulta [Creare e gestire un progetto Screens](creating-a-screens-project.md).
+   >Per ulteriori informazioni sulla creazione di un progetto per Screens nel dashboard AEM, consulta [Creare e gestire un progetto Screens](creating-a-screens-project.md).
 
 1. Tocca o fai clic sul pulsante **Gestione dispositivi** nella barra delle azioni.
 
@@ -116,7 +112,7 @@ Se non hai assegnato il dispositivo a una visualizzazione, segui i passaggi segu
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Inoltre, potete visualizzare la dashboard di visualizzazione facendo clic su **Fine**.
+   È inoltre possibile visualizzare il dashboard di visualizzazione facendo clic su **Fine**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -145,26 +141,26 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’
 
 ### Limitazioni alla funzionalità di ricerca {#limitations}
 
-* L’utente sarà in grado di cercare qualsiasi parola esistente nel *ID dispositivo* o *Nome dispositivo*.
+* L’utente è in grado di cercare qualsiasi parola esistente nel *ID dispositivo* o *Nome dispositivo*.
 
   >[!NOTE]
   >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *Lobby del negozio di Boston* anziché un singolo *LobbyStoreBoston*.
 
-* Se si creano nomi di dispositivi quali *Lobby del negozio di Boston*, consente di cercare qualsiasi parola *boston*, *archiviare* o *atrio* ma se il nome del dispositivo è indicato come *LobbyStoreBoston* ricerca *boston* non mostrerà i risultati.
+* Se si creano nomi di dispositivi quali *Lobby del negozio di Boston*, cerca qualsiasi parola *boston*, *archiviare*, o *atrio*. Tuttavia, se il nome del dispositivo è *LobbyStoreBoston*, quindi ricerca *boston* non mostra alcun risultato.
 
-* wild card, `*` è supportato per la ricerca. Nel caso in cui si desideri trovare tutti i dispositivi i cui nomi iniziano con *boston*, è possibile utilizzare *boston**.
+* wild card, `*` è supportato per la ricerca. Nel caso in cui si desideri trovare tutti i dispositivi con nomi che iniziano con *boston*, è possibile utilizzare *boston**.
 
-* Se il nome del dispositivo è *LobbyStoreBoston* e ricerca *boston* non restituirà il risultato utilizzando *boston** nei criteri di ricerca restituirà il risultato.
+* Se il nome del dispositivo è *LobbyStoreBoston* e ricerca *boston* non restituisce il risultato, quindi utilizza *boston** nei criteri di ricerca restituisce il risultato.
 
 ## Limitazioni alla registrazione del dispositivo {#limitations-on-device-registration}
 
-Le restrizioni della password utente a livello di sistema potrebbero causare errori nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata casualmente per creare l&#39;utente del dispositivo.
+Le restrizioni della password utente a livello di sistema potrebbero causare errori nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata in modo casuale per creare l&#39;utente del dispositivo.
 
 Se la password è limitata da *AuthorizableActionProvider* configurazione, la creazione dell&#39;utente del dispositivo potrebbe non riuscire.
 
 >[!NOTE]
 >
->La password casuale attualmente generata è composta da 36 caratteri ASCII, compresi tra 33 e 122 (include quasi tutti i caratteri speciali).
+>La password casuale attualmente generata è composta da 36 caratteri ASCII, da 33 a 122 (include quasi tutti i caratteri speciali).
 
 ```java
 25.09.2016 16:54:03.140 *ERROR* [59.100.121.82 [1474844043109] POST /content/screens/svc/registration HTTP/1.1] com.adobe.cq.screens.device.registration.impl.RegistrationServlet Error during device registration
@@ -174,6 +170,6 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
         at org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308)
 ```
 
-### Risorse aggiuntive {#additional-resources}
+### Altre risorse {#additional-resources}
 
 Per informazioni su AEM Screens Player, consulta [Lettore AEM Screens](working-with-screens-player.md).

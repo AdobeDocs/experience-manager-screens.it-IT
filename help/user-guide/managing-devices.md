@@ -1,22 +1,18 @@
 ---
 title: Gestione dei dispositivi
-seo-title: Managing Devices
-description: Questa pagina descrive l'assegnazione dei dispositivi.
-seo-description: Follow this page to learn about device assignment. The Devices console allows you to access the device manager to assign your device to a display.
-uuid: 889cc11c-60f7-4966-82b5-9ebdd082a3c5
+description: Scopri le funzioni di assegnazione e gestione dei dispositivi in AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 8dc08e29-a377-4e84-84ee-442470c19019
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
+source-wordcount: '249'
+ht-degree: 6%
 
 ---
 
@@ -48,7 +44,7 @@ Per assegnare un dispositivo a uno schermo, attenersi alla procedura descritta d
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Seleziona dall’elenco la visualizzazione a cui assegnare il dispositivo, quindi tocca o fai clic sul pulsante **Assegna**.
+1. Seleziona dall’elenco la visualizzazione a cui desideri assegnare il dispositivo, quindi tocca o fai clic sul pulsante **Assegna**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
@@ -67,7 +63,7 @@ Per assegnare un dispositivo a uno schermo, attenersi alla procedura descritta d
 >
 >Ogni volta che il primo dispositivo viene aggiunto a un nuovo progetto Screens, viene creato un gruppo di utenti.
 >Ad esempio, se il nome del nodo del progetto è *we-retail*, il nome del gruppo di utenti è *screens-we-retail-devices*.
->Questo gruppo verrà aggiunto come membro del **Collaboratori** come illustrato nella figura seguente:
+>Questo gruppo viene aggiunto come membro del **Collaboratori** come illustrato nella figura seguente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
 

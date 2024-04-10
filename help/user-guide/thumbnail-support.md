@@ -1,10 +1,10 @@
 ---
 title: Supporto di miniature per video in AEM Screens
-description: Questa pagina descrive come aggiungere il supporto miniature per video in Screens.
+description: Scopri come aggiungere il supporto per miniature per video in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: ec58cd9171e359b451eaad7015d42b41ef1bff3f
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -13,12 +13,12 @@ ht-degree: 2%
 
 ## Introduzione {#introduction}
 
-Un autore di contenuti può definire una miniatura per video in modo che l’immagine possa essere utilizzata come segnaposto e testare correttamente la riproduzione e il targeting del contenuto, mentre il video effettivo è in fase di finalizzazione da parte del team appropriato. L’immagine può essere utilizzata anche nel caso in cui la riproduzione del video non riesca.
+Un autore di contenuti può definire una miniatura per video in modo che l’immagine venga utilizzata come segnaposto e possa testare correttamente la riproduzione e il targeting del contenuto, mentre il video effettivo viene finalizzato dal team appropriato. L’immagine può essere utilizzata anche in caso di interruzione della riproduzione del video.
 
-L’aggiunta di supporto per un’immagine miniatura sul componente video consente al cliente di aggiungere correttamente un componente valido nel canale, con il contenuto effettivo ed eseguire eventuali configurazioni di targeting prima che il video venga effettivamente distribuito.
+L’aggiunta di supporto per un’immagine miniatura sul componente video consente al cliente di aggiungere correttamente un componente valido nel canale, con il contenuto effettivo ed eseguire eventuali configurazioni di targeting prima che il video venga consegnato.
 
 >[!NOTE]
->L’immagine miniatura, se impostata sul componente video, viene riprodotta in caso di errore di riproduzione video sul lettore. Questo consente di inviare al pubblico il messaggio desiderato (riproducendo il contenuto) invece di saltarlo completamente.
+>L’immagine miniatura, se impostata sul componente video, viene riprodotta in caso di errore di riproduzione video sul lettore. Questo ti consente di inviare il messaggio desiderato al pubblico (riproducendo il contenuto) invece di saltarlo completamente.
 
 Il supporto delle miniature consente di:
 
@@ -30,9 +30,9 @@ Il supporto delle miniature consente di:
 
 Per usare la miniatura nei video, segui la procedura indicata di seguito:
 
-1. Passa a un canale Screens esistente o creane uno nuovo.
+1. Passa a un canale AEM Screens esistente o creane uno.
 
-1. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni per aprire l’editor.
+1. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,7 +40,7 @@ Per usare la miniatura nei video, segui la procedura indicata di seguito:
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Seleziona il video e fai clic sul pulsante *chiave inglese* per aprire le proprietà del video.
+1. Seleziona il video e fai clic su *chiave inglese* icona.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
@@ -48,22 +48,22 @@ Per usare la miniatura nei video, segui la procedura indicata di seguito:
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Trascina e rilascia un’immagine dal selettore risorse al **Miniatura** rilascia la zona e fai clic su **Fine**.
+1. Trascina e rilascia un’immagine dal selettore risorse al **Miniatura** rilascia zona e seleziona **Fine**.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Fai clic su **Anteprima**.
+1. Seleziona **Anteprima**.
 
-1. Se un video è impostato sul componente, il video verrà riprodotto. In caso contrario, e la miniatura è impostata, verrà riprodotta. In caso contrario, il componente viene considerato non configurato e verrà ignorato.
+1. Se un video è impostato sul componente, viene riprodotto. In caso contrario, e la miniatura è impostata, la miniatura viene riprodotta. In caso contrario, il componente viene considerato non configurato e viene saltato.
 
 ## Casi d’uso supportati durante l’utilizzo della miniatura nei video {#understand-use-case}
 
 La miniatura nei video supporta i seguenti casi d’uso:
 
-* Un componente video senza alcuna configurazione verrà ignorato.
+* Viene saltato un componente video senza alcuna configurazione.
 
-* La miniatura viene riprodotta da un componente video contenente solo la serie di miniature.
+* Un componente video con solo la miniatura impostata riproduce la miniatura.
 
-* Il video verrà riprodotto da un componente video con il video (se il video ha una rappresentazione corretta) e la miniatura impostata.
+* Un componente video con il video (se il video ha una rappresentazione corretta) e il set di miniature riproduce il video.
 
-* Un componente video con il set di video riprodurrà la miniatura, in caso di errore di riproduzione, o passerà all’elemento successivo nel caso in cui la miniatura non sia configurata.
+* Un componente video con il set di video riproduce la miniatura, se si verifica un errore di riproduzione, o passa all’elemento successivo nel caso in cui la miniatura non sia configurata.

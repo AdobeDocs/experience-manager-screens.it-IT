@@ -13,10 +13,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: abeaed51-b18c-4366-93ef-4f05f33af649
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 L’AEM Screens ha rilasciato AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4 con i seguenti dettagli.
 
-## Data di pubblicazione {#release-date}
+## Data di rilascio {#release-date}
 
 La data di rilascio del Feature Pack 201809 per AEM Screens è il 1° ottobre 2018.
 
