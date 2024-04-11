@@ -1,15 +1,12 @@
 ---
 title: Applicazione delle transizioni
-seo-title: Applying Transitions
-description: Segui questa pagina per scoprire come applicare le transizioni ai progetti Screens.
-seo-description: Follow this page to learn how to apply transitions to your Screens projects.
-uuid: b79d521b-19d4-47c8-a41a-148d7bbf6ac9
+description: Scopri come applicare le transizioni ai progetti AEM Screens.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 757e6751-8008-487f-be89-9f53ac898928
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -19,7 +16,6 @@ ht-degree: 0%
 # Applicazione delle transizioni {#applying-transitions}
 
 Questa sezione descrive come applicare **Transizione** componente intermedio tra risorse diverse (immagini e video) e sequenze incorporate in un canale.
-
 
 >[!CAUTION]
 >
@@ -33,7 +29,7 @@ Per aggiungere un componente di transizione al progetto AEM Screens, segui i pas
 >
 >**Prerequisiti**
 >
->Creazione di un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, impostate una posizione e una visualizzazione per visualizzare l&#39;output.
+>Creazione di un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, imposta una posizione e una visualizzazione per visualizzare l’output.
 
 1. Passa al canale **TestTransition** e fai clic su **Modifica** dalla barra delle azioni.
 
@@ -47,6 +43,7 @@ Per aggiungere un componente di transizione al progetto AEM Screens, segui i pas
 
 
 1. Trascina la **Transizione** all&#39;editor.
+
    >[!CAUTION]
    >
    >Prima di aggiungere la transizione alle risorse nel canale, accertati di non aggiungere la transizione prima della prima risorsa nel canale sequenziale. Il primo elemento nel canale deve essere una risorsa e non una transizione.
@@ -55,8 +52,8 @@ Per aggiungere un componente di transizione al progetto AEM Screens, segui i pas
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, le proprietà del componente Transizione come **Tipo** è impostato su **Dissolvenza** e **Durata** è impostato su *1600 ms*.  Inoltre, non è consigliabile impostare una durata di transizione superiore a quella della risorsa a cui viene applicata.
+   >Per impostazione predefinita, le proprietà del componente Transizione come **Tipo** è impostato su **Dissolvenza** e **Durata** è impostato su *1600 millisecondi*. Inoltre, non è consigliabile impostare una durata di transizione più lunga della risorsa a cui viene applicata.
 
-1. Inoltre, se aggiungi un’ **Sequenza incorporata** componente (che include un canale di sequenza) di questo editor di canali, puoi aggiungere un componente di transizione alla fine, in modo che il contenuto venga riprodotto in ordine, come illustrato nella figura seguente:
+1. Inoltre, se aggiungi un’ **Sequenza incorporata** (che include un canale di sequenza) a questo editor di canali, puoi aggiungere un componente di transizione alla fine. In questo modo il contenuto viene riprodotto nell’ordine corretto, come illustrato nell’immagine seguente:
 
    ![image3](assets/transitions5.png)

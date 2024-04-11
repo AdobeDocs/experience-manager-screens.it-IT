@@ -1,11 +1,9 @@
 ---
 title: Attivazione di frammenti esperienza
-seo-title: Experience Fragments Activation
-description: Segui questo esempio di caso d’uso per scoprire di più sull’attivazione di frammenti di esperienza.
-seo-description: Follow this use case example to learn about experience fragments activation.
-source-git-commit: 7876c5eed8d23bbe566645feefd8eefb9aeac3f3
+description: Un esempio di caso d’uso per scoprire di più sull’attivazione di frammenti di esperienza in relazione ad AEM Screens.
+source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 Un frammento di esperienza è un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui si fa riferimento all’interno delle pagine.
 
-Il seguente caso d’uso ti consente di implementare un progetto demo da dove il Frammento di esperienza viene utilizzato a un progetto AEM Screens. Gli elementi di rilievo di questo caso d’uso includono:
+Il seguente caso d’uso consente di implementare un progetto demo da cui il frammento di esperienza viene applicato a un progetto AEM Screens. Gli elementi di rilievo di questo caso d’uso includono:
 
 * Aumento delle dimensioni del testo
 * Capovolgimento delle immagini
@@ -34,7 +32,7 @@ Crea un progetto con titolo **DemoProject** e un canale di sequenza denominato *
 
 ### Implementazione del frammento di esperienza in un progetto AEM Screens {#experience-fragments-implementation}
 
-Dopo aver creato un frammento di esperienza e averlo utilizzato nel progetto AEM Screens, **DemoProject** ora puoi migliorare il frammento esperienza in base alle tue esigenze.
+Dopo aver creato un frammento di esperienza e averlo applicato al progetto AEM Screens, **DemoProject** puoi migliorare il frammento di esperienza in base alle tue esigenze.
 
 ### Aumento delle dimensioni del testo {#increasing-text-size}
 
