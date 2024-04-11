@@ -1,12 +1,10 @@
 ---
 title: Attivatori dati
-seo-title: Data Triggers
-description: La pagina descrive i trigger di dati
-seo-description: The page describes data triggers
+description: Scopri i trigger di dati in AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,9 +19,9 @@ ht-degree: 0%
 
 Questa operazione è anche definita appiattimento lato client dei contenuti.
 
-Il motivo principale per cui vogliamo farlo è che ogni dispositivo di riproduzione o endpoint può utilizzare set di dati per determinare automaticamente il contenuto migliore da riprodurre in base a una varietà di fattori diversi.
+Il motivo è garantire che ogni dispositivo di riproduzione o endpoint possa utilizzare set di dati per determinare automaticamente il contenuto migliore da riprodurre in base a vari fattori diversi.
 
-Questo elimina la necessità di un intervento umano costante nell’authoring dei contenuti, che riduce il costo totale di proprietà per il funzionamento della rete e rende le esperienze digitali più pertinenti, contestuali ed efficaci.
+Questo elimina la necessità di un intervento umano costante durante l’authoring dei contenuti. Consente inoltre di ridurre il costo totale di proprietà per il funzionamento della rete e rende le esperienze digitali più pertinenti, contestuali ed efficaci.
 
 Alcuni esempi:
 

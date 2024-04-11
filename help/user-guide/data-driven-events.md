@@ -1,10 +1,9 @@
 ---
 title: Eventi basati sui dati
-description: null
+description: Nullo
 page-status-flag: never-activated
 contentOwner: jsyal
-discoiquuid: b662831c-8cb0-48d8-9b4b-cc11a573d1b5
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 # Eventi basati sui dati{#data-driven-events}
 
-Nel digital signage, gli eventi basati sui dati coinvolgono e trasmettono informazioni in tempo reale tramite l&#39;utilizzo interattivo di menu digitali e pareti video. Puoi massimizzare l’esperienza utente con eventi basati sui dati.
+Nel digital signage, gli eventi basati sui dati coinvolgono e trasmettono informazioni in tempo reale attraverso l&#39;utilizzo interattivo di menu digitali e pareti video. Puoi massimizzare l’esperienza utente con eventi basati sui dati.
 
 ## Utilizzo di Context Hub per eventi basati su dati {#using-context-hub-for-data-driven-events}
 
@@ -22,14 +21,14 @@ AEM Screens abilita eventi basati sui dati tramite Context Hub. Context Hub cons
 
 ### Categorizzazione di eventi basati su dati {#categorizing-data-driven-events}
 
-Gli eventi basati su dati sono suddivisi in quattro categorie diverse:
+Gli eventi basati sui dati sono suddivisi nelle quattro categorie seguenti:
 
-* Dati in Operativo
+* Dati in fase operativa
 * Dati nella presentazione
 * Uscita dati actionable
-* Data Out Presentational
+* Presentazione dati in uscita
 
-#### Dati in Operativo {#data-in-operational}
+#### Dati in fase operativa {#data-in-operational}
 
 Questa può essere ulteriormente categorizzata in Interrupt canale e Segnaposto.
 
@@ -37,9 +36,9 @@ Questa può essere ulteriormente categorizzata in Interrupt canale e Segnaposto.
 
 I dati sono in esecuzione nel canale temporaneo e, dopo un trigger, cambia una risorsa all’interno di un canale.
 
-#### Uscita dati utilizzabile {#data-out-actionable}
+#### Uscita dati actionable {#data-out-actionable}
 
-Quando si invia un comando allo schermo LCD per accendere e spegnere lo schermo. Ad esempio, luminosità o volume dello schermo.
+Quando si invia un comando allo schermo LCD per accendere e spegnere lo schermo. Esempio, luminosità o volume dello schermo.
 
 #### Presentazione dati in uscita {#data-out-presentational}
 

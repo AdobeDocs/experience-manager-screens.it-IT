@@ -1,22 +1,18 @@
 ---
 title: Attivazione temperatura centro di viaggio
-seo-title: Travel Center Temperature Activation
-description: Il seguente caso d’uso illustra l’utilizzo dell’attivazione della temperatura locale del centro di viaggio in base ai valori inseriti nei fogli di Google.
-seo-description: The following use case demonstrates the usage of travel center local temperature activation based on the values populated in Google Sheets.
-uuid: b35286d2-79be-4c36-b72e-c40ffc1a0ca0
+description: Utilizzando AEM Screens, scopri come questo caso d’uso dimostra l’utilizzo dell’attivazione della temperatura locale del centro di viaggio in base ai valori inseriti nei fogli Google.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: 9d58b971-4540-4007-968d-2a1d94d1fd38
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: a8055c5f859e401f7b1da4f5d95f1268dee243ad
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -27,7 +23,7 @@ Il seguente caso d’uso illustra l’utilizzo dell’attivazione della temperat
 
 ## Descrizione {#description}
 
-Per questo caso d’uso, se il valore dei fogli Google è inferiore a 50, viene visualizzata un’immagine con bevande calde e, se il valore è maggiore o uguale a 50, viene visualizzata l’immagine con bevande fredde. Se è presente un altro valore o non è presente alcun valore, verrà visualizzata un’immagine predefinita.
+Per questo caso d’uso, se il valore in Google Sheets è inferiore a 50, viene visualizzata un’immagine con bevande calde. Se il valore è maggiore o uguale a 50, viene visualizzata un’immagine con bevande fredde. Se è presente un altro valore o non è presente alcun valore, il lettore visualizza un’immagine predefinita.
 
 ## Precondizioni {#preconditions}
 
@@ -42,7 +38,7 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 1. **Compilazione dei fogli di Google**
 
    1. Passa al foglio Google ContextHubDemo.
-   1. Aggiungi una colonna con **Intestazione1** con valore corrispondente per la temperatura.
+   1. Aggiungi una colonna con **`Heading1`** con valore corrispondente per la temperatura.
 
    ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
@@ -52,7 +48,7 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    1. Seleziona la **Fogli A1 1** e fai clic su **Modifica**.
 
-   1. Seleziona la proprietà di confronto e fai clic sull’icona di configurazione per modificarne le proprietà.
+   1. Seleziona la proprietà di confronto e fai clic sull&#39;icona di configurazione.
    1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**
 
    1. Seleziona la **Operatore** as **maggiore di o uguale a** dal menu a discesa
@@ -61,7 +57,7 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    1. Analogamente, selezionare **Fogli A1 2** e fai clic su **Modifica**.
 
-   1. Seleziona la **Proprietà Comparison - Valore** e fai clic sull’icona configura per modificare le proprietà.
+   1. Seleziona la **Proprietà Comparison - Valore** e fai clic sull’icona di configurazione.
    1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**
 
    1. Seleziona la **Operatore** as **less-than** dal menu a discesa
@@ -89,6 +85,6 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 1. **Controllo dell’anteprima**
 
    1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
-   1. Cambia il valore a meno di 50, dovresti essere in grado di visualizzare l&#39;immagine di una bevanda estiva. Se il valore nel foglio Google è 50 o maggiore di quanto dovrebbe essere in grado di visualizzare l&#39;immagine di una bevanda calda.
+   1. Modifica il valore in meno di 50. Dovreste essere in grado di vedere l&#39;immagine di una bevanda fredda. Se il valore in Google Sheets è uguale o superiore a 50, dovrebbe essere visualizzata l&#39;immagine di una bevanda calda.
 
    ![risultato3](assets/result3.gif)
