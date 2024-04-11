@@ -1,15 +1,13 @@
 ---
 title: Utilizzo di Chrome Player come estensione
-seo-title: Using Chrome Player as an Extension
-description: Segui questa pagina per scoprire come installare il lettore chrome come estensione del browser.
-seo-description: null
+description: Scopri come installare il lettore chrome come estensione del browser per AEM Screens.
 feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: 4102c2b2291c92823a36f87f07d5b5ca87cfa48f
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -20,44 +18,45 @@ Il lettore ChromeOS può essere installato come plug-in del browser Chrome in mo
 
 >[!CAUTION]
 >
-> L’utilizzo di Chrome Player come estensione per la risoluzione dei problemi è consigliato per le demo rapide, il debug e anche per la risoluzione dei problemi dei clienti. Questo meccanismo non deve essere utilizzato per implementazioni in produzione che richiederebbero la modalità chiosco e la gestione centrale.
+> L’utilizzo di Chrome Player come estensione per la risoluzione dei problemi è consigliato per le demo rapide, il debug e anche per la risoluzione dei problemi dei clienti. Non utilizzare questo meccanismo per implementazioni in produzione che richiederebbero la modalità chiosco e la gestione centralizzata.
 
-Segui questa pagina per scoprire come installare il lettore chrome come estensione del browser.
+Segui questa pagina per informazioni sull’installazione del lettore chrome come estensione del browser.
 
 1. Clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 
 1. Decomprimi e salva su disco.
 
-1. Apri il browser Chrome, fai clic sul menu con tre puntini e seleziona **Altri strumenti** da **Estensioni** posizionato nell’angolo in alto a destra o naviga direttamente in `chrome://extensions`.
+1. Apri il browser Chrome, fai clic sul menu con tre puntini e seleziona **Altri strumenti** da **Estensioni** nell’angolo in alto a destra o passa direttamente a `chrome://extensions`.
 
-1. Accendere il **Sviluppatore** dall&#39;angolo in alto a destra.
+1. Accendere il **Sviluppatore** dall&#39;angolo superiore destro.
 
-1. Fai clic su **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
+1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
 
 1. Controlla il plug-in AEM Screens Chrome Player se è disponibile nell’elenco delle estensioni.
 
 1. Apri una nuova scheda e fai clic sull’icona App dall’angolo in alto a sinistra, oppure passa direttamente a `chrome://apps`.
 
-1. Fai clic su **Plug-in AEM Screens** per avviare Chrome Player.
+1. Clic **Plug-in AEM Screens** in modo da poter avviare Chrome Player.
+
    >[!NOTE]
    >
-   > Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **esc** per uscire dalla modalità a tutto schermo.
+   > Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
 
 
 ## Suggerimenti per il debug avanzato {#advanced-debugging-tips}
 
-1. Una volta che il lettore ha scaricato il contenuto localmente, puoi sfogliare il contenuto scaricato localmente accedendo a `http://localhost:24502`.
+1. Quando il lettore ha scaricato il contenuto localmente, puoi sfogliare il contenuto scaricato localmente accedendo a `http://localhost:24502`.
 
    >[!NOTE]
    >
-   > Se l’URL indicato sopra non funziona, significa che al lettore non è stata assegnata una visualizzazione o che il contenuto non è stato scaricato correttamente. Controlla la scheda di rete per il JSON di configurazione del lettore per vedere se il lettore ottiene i dettagli corretti e per eventuali problemi di rete nel download.
+   > Se l’URL indicato sopra non funziona, significa che al lettore non è assegnata una visualizzazione o che il contenuto non è stato scaricato correttamente. Controlla la scheda di rete per il JSON di configurazione del lettore per vedere se il lettore ottiene i dettagli corretti e per eventuali problemi di rete nel download.
 
-1. Puoi fare clic con il pulsante destro del mouse e controllare tre livelli del lettore chrome
+1. Fare clic con il pulsante destro del mouse e controllare tre livelli del lettore Chrome.
    **Debug del contenuto**: fai clic con il pulsante destro del mouse e controlla il contenuto per eseguire il debug del contenuto in esecuzione (nel menu di scelta rapida dovrebbe essere presente un singolo elemento denominato &quot;Inspect&quot;)
 
-   **Debug del firmware**: apri l’interfaccia utente di amministrazione, quindi fai clic con il pulsante destro del mouse e controlla per eseguire il debug del codice del firmware (lettore). Dovrebbe essere disponibile un’opzione per controllare la pagina di sfondo e simulare il riavvio del browser.
+   **Debug del firmware**: visualizza l’interfaccia utente di amministrazione, quindi fai clic con il pulsante destro del mouse e controlla per eseguire il debug del codice firmware(player). Dovrebbe essere disponibile un’opzione per esaminare e controllare la pagina di sfondo e simulare il riavvio del browser.
 
-   **Pagina di sfondo debug**: visualizza l’interfaccia utente di amministrazione, quindi fai clic con il pulsante destro del mouse e controlla la pagina di sfondo (per i servizi in background come http server)
+   **Pagina di sfondo debug**: visualizza l’interfaccia utente di amministrazione, quindi fai clic con il pulsante destro del mouse e controlla la pagina di sfondo (per i servizi in background come http server).
 
 ## Aggiornamento dell&#39;estensione del lettore {#upgrading-player}
 
