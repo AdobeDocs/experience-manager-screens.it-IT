@@ -1,6 +1,6 @@
 ---
 title: Integrazione di Adobe Analytics con AEM Screens
-description: Segui questa pagina per scoprire l’integrazione predefinita di AEM Screens con Adobe Analytics e ti fornisce una prova di riproduzione.
+description: Scopri l’integrazione preconfigurata di AEM Screens con Adobe Analytics e una bozza di gioco.
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Questa sezione tratta i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-***AEM Screens*** sfrutta Adobe Analytics e con questo puoi ottenere qualcosa di unico nel mercato: analisi cross-channel che consentono di correlare i contenuti mostrati nella posizione con altre origini dati.
+***AEM Screens*** utilizza Adobe Analytics e con questo puoi ottenere qualcosa di unico nel mercato: analisi cross-channel che consentono di correlare i contenuti mostrati nella posizione con altre origini dati.
 
 AEM Screens fornisce un’integrazione standard con Adobe Analytics e una bozza di riproduzione.
 
@@ -55,7 +55,7 @@ L’integrazione di Adobe Analytics con AEM Screens applica quindi quanto segue 
 
 ## Dettagli dell’architettura {#architectural-details}
 
-Un cliente AEM Screens vuole capire quale contenuto è stato mostrato in che momento e per quanto tempo (aggregato). Si tratta di una funzionalità comune della soluzione di signage. Invece di creare le nostre analisi, AEM Screens sfrutterà Adobe Analytics e con questo possiamo ottenere qualcosa di unico nel mercato: l’analisi cross-channel che consente di correlare i contenuti mostrati sul posto con altre origini dati.
+Un cliente AEM Screens vuole capire quale contenuto è stato mostrato in che momento e per quanto tempo (aggregato). Si tratta di una funzionalità comune della soluzione di signage. Invece di creare un’applicazione di analisi separata, AEM Screens utilizza Adobe Analytics. La combinazione consente di ottenere qualcosa di unico nel mercato: analisi cross-channel che consentono di correlare i contenuti mostrati localmente con altre origini dati.
 
 Il diagramma architetturale seguente spiega l’integrazione di Adobe Analytics con AEM Screens:
 
@@ -65,7 +65,7 @@ Il diagramma architetturale seguente spiega l’integrazione di Adobe Analytics 
 
 Le impostazioni di Adobe Analytics possono essere configurate dalla console OSGi.
 
-Accedi a **Configurazione console Web Adobe Experience Manager** per configurare Adobe Analytics per AEM Screens, come illustrato nella figura seguente:
+Accedi a **Configurazione console Web Adobe Experience Manager** in modo da poter configurare Adobe Analytics per AEM Screens.
 
 ![screen_shot_2018-09-04at25550pm](assets/screen_shot_2018-09-04at25550pm.png)
 
@@ -121,7 +121,7 @@ La tabella seguente evidenzia le proprietà con la relativa descrizione per la c
 
 #### Utilizzo del servizio Adobe Analytics in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Questo scenario richiama l’API di Analytics tramite chiamate REST da un servizio di analisi nei componenti core delle schermate firmware e strumento per creare e inviare in modo esplicito eventi specifici per un particolare caso d’uso, consentendo al contempo l’estensibilità in cui qualsiasi messaggio personalizzato può essere inviato ad Analytics da un canale sviluppato personalizzato.
+Questo scenario richiama l’API di Analytics tramite chiamate REST da un servizio di analisi nel firmware. Inoltre, strumenti i componenti core Screens dell’AEM per creare e inviare esplicitamente eventi specifici per un particolare caso d’uso. Tutto questo consentendo al tempo stesso l’estensibilità in cui qualsiasi messaggio personalizzato può essere inviato ad Analytics da un canale personalizzato.
 
 Gli eventi di Analytics vengono archiviati offline in indexedDB e successivamente bloccati e inviati al cloud.
 

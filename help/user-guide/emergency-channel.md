@@ -1,21 +1,17 @@
 ---
 title: Canale di emergenza
-seo-title: Emergency Channel
-description: Segui questo esempio di caso d’uso per scoprire come creare e gestire un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza in caso di una precondizione.
-seo-description: Follow this use case example to learn about creating and managing an emergency channel that the content author can switch from a sequence channel in case of a precondition.
-uuid: 612917c9-a832-453b-970c-f4365f7b105d
+description: Scopri come creare e gestire un canale di emergenza che l’autore del contenuto può cambiare da un canale di sequenza, se esiste una condizione preliminare.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
-discoiquuid: dbb4fae6-f3fb-496a-9bd6-1151e2862b5b
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 0%
 
 ## Descrizione del caso d’uso {#use-case-description}
 
-Questa sezione descrive un esempio di caso d’uso che pone l’accento sulla creazione e la gestione di un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza in caso di una precondizione.
+Questa sezione descrive un esempio di caso d’uso che pone l’accento sulla creazione e la gestione di un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza se esiste una precondizione.
 
 ### Precondizioni {#preconditions}
 
@@ -52,7 +48,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
 1. **Creazione di un canale sequenza**
 
-   1. Seleziona la **Canali** cartella e fai clic su **Crea** per aprire la procedura guidata per creare un canale.
+   1. Seleziona la **Canali** cartella e fai clic su **Crea**.
 
    1. Seleziona **Canale sequenza** dalla procedura guidata e crea il canale con titolo **MainAdChannel**.
 
@@ -61,14 +57,15 @@ Per impostare un canale di emergenza, procedere come segue:
 1. **Aggiunta di contenuto al canale della sequenza**
 
    1. Seleziona il canale (**MainAdChannel**).
-   1. Clic **Modifica** dalla barra delle azioni per aprire l’editor. Trascina alcune risorse sul tuo canale.
+   1. Clic **Modifica** dalla barra delle azioni.
+   1. Trascina alcune risorse sul tuo canale.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
 
 1. **Creazione di un canale di emergenza**
 
    1. Seleziona la **Canali** cartella.
-   1. Fai clic su **Crea** per aprire la procedura guidata per creare un canale.
+   1. Fai clic su **Crea**.
    1. Seleziona **Canale sequenza** dalla procedura guidata e crea il canale con titolo **EmergencyChannel**.
 
    >[!NOTE]
@@ -80,7 +77,8 @@ Per impostare un canale di emergenza, procedere come segue:
 1. **Aggiunta di contenuto al canale di emergenza**
 
    1. Seleziona il canale (**Canale di emergenza)**.
-   1. Clic **Modifica** dalla barra delle azioni per aprire l’editor. Trascina nel canale la risorsa da eseguire in caso di emergenza.
+   1. Clic **Modifica** dalla barra delle azioni.
+   1. Trascina nel canale la risorsa da eseguire in caso di emergenza.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
 
@@ -93,14 +91,15 @@ Per impostare un canale di emergenza, procedere come segue:
 
 1. **Creazione di visualizzazioni nella tua posizione**
 
-   Passa alla tua posizione (**Archivia**) e fai clic su **Crea** dalla barra delle azioni. Segui la procedura guidata per creare due **Display** con titolo **StoreFront** e **StoreRear**.
+   Passa alla tua posizione (**Archivia**) e fai clic su **Crea** dalla barra delle azioni. Seguendo la procedura guidata, crea due **Display** con titolo **StoreFront** e **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Creazione di una pianificazione**
 
    1. Accedi al tuo **Schedules** cartella.
-   1. Clic **Crea** dalla barra delle azioni. Segui la procedura guidata per creare una pianificazione con titolo **StoreSchedule**.
+   1. Clic **Crea** dalla barra delle azioni.
+   1. Al termine della procedura guidata, crea una pianificazione denominata come **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
@@ -117,11 +116,11 @@ Per impostare un canale di emergenza, procedere come segue:
       1. Imposta gli eventi supportati come **Caricamento iniziale** e **Schermata di inattività**.
       1. Clic **Salva**
 
-      Allo stesso modo, dovrai seguire di nuovo gli stessi passaggi per assegnare il **EmergencyChannel** e impostarne **Priorità**.
+      Analogamente, esegui nuovamente gli stessi passaggi per assegnare il **EmergencyChannel** e impostarne **Priorità**.
 
    >[!NOTE]
    >
-   >La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più corrispondano ai criteri di riproduzione. Quello con il valore più alto avrà sempre la precedenza sui valori più bassi.
+   >La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più corrispondano ai criteri di riproduzione. Quello con il valore più alto ha sempre la precedenza sui valori più bassi.
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
@@ -146,7 +145,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
    1. Passa a ogni visualizzazione, ad esempio **EmergencyChannel** > **Posizioni** > **Archivia** >**StoreFront**.
 
-   1. Clic **Dashboard** dall&#39;azione per aprire il dashboard di visualizzazione.
+   1. Clic **Dashboard** dalla barra delle azioni.
    1. Clic **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e fai clic su **+Assegna pianificazione**.
 
    1. Seleziona il percorso della pianificazione (ad esempio, qui, **EmergencyChannel** > **Schedules** >**StoreSchedule**).
@@ -158,7 +157,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
 1. **Registrazione dispositivo**
 
-   Completa il processo di registrazione del dispositivo e, una volta effettuata la registrazione, visualizzerai il seguente output sul lettore AEM Screens.
+   Completa il processo di registrazione del dispositivo. Dopo la registrazione, puoi visualizzare il seguente output sul lettore AEM Screens.
 
    ![new30](assets/new30.gif)
 
@@ -178,12 +177,12 @@ In caso di emergenza, effettuare le seguenti operazioni:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Non appena viene aggiornata la priorità del canale, tutto il lettore AEM Screens visualizzerà **EmergencyChannel** come mostrato di seguito.
+1. Quando la priorità del canale viene aggiornata, tutto il lettore AEM Screens visualizza il **EmergencyChannel** contenuto.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
 ### Conclusione {#conclusion}
 
-Il **EmergencyChannel** continuerà a visualizzarne il contenuto fino a quando l’autore del contenuto non reimposta il valore di priorità su 1.
+Il **EmergencyChannel** continua a visualizzarne il contenuto fino a quando l’autore del contenuto non reimposta il valore di priorità su 1.
 
-Una volta che l’autore del contenuto riceve le istruzioni per l’eliminazione dell’emergenza, deve aggiornare la priorità della **MainAdChannel** che riprenderà la riproduzione normale.
+Quando l’autore del contenuto riceve le istruzioni per il superamento dell’emergenza, deve aggiornare la priorità della **MainAdChannel** che riprende la riproduzione normale.

@@ -1,9 +1,9 @@
 ---
 title: Linee guida per la selezione dell'hardware per i dispositivi del lettore
-description: Linee guida per la selezione dell'hardware per i dispositivi del lettore
-source-git-commit: 7fdd812c71c995424a27db18264ef2db420d5717
+description: Scopri le linee guida per la selezione dell’hardware per i dispositivi di riproduzione AEM Screens.
+source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
@@ -43,9 +43,9 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td>Base</td>
    <td>Processore Intel® Atom dual-core, i3 o quad-core entry-level</td>
    <td><p>4 GB di memoria</p> <p>2 MB di cache</p> </td>
-   <td><p>·ChromeOS 32 GB</p> <p>·Windows 128 GB</p> </td>
+   <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
-   <td>1920x1080</td>
+   <td>1920 x 1080</td>
    <td>DVI<br /> Ethernet/wireless,<br /> 2x USB</td>
    <td>
     <ul>
@@ -55,11 +55,11 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
   </tr>
   <tr>
    <td>Standard</td>
-   <td>Quad-core, processore Intel® Core i5</td>
+   <td>Quad-core, processore Intel® Core™ i5</td>
    <td><p>8 GB di memoria</p> <p>4 MB di cache</p> </td>
    <td>128 GB</td>
    <td>OnBoard</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/wireless,<br /> 2x USB</td>
    <td>
     <ul>
@@ -70,11 +70,11 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
   </tr>
   <tr>
    <td>Avanzate </td>
-   <td>Quad-core con hyperthreading, processore Intel® Core i7</td>
+   <td>Quad-core con hyperthreading, processore Intel® Core™ i7</td>
    <td><p>16 GB di memoria</p> <p>8 MB di cache</p> </td>
    <td>256 GB</td>
    <td>GPU grafica dedicata</td>
-   <td>3840x2160 (4K)</td>
+   <td>3840x2160 (<code>4K</code>)</td>
    <td>DVI, HDMI<br /> Ethernet/wireless,<br /> 4x USB</td>
    <td>
     <ul>
