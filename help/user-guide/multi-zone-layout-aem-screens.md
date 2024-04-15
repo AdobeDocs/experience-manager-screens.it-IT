@@ -10,10 +10,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 1%
+source-wordcount: '1126'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ La pagina seguente descrive l&#39;utilizzo del layout multizona e tratta i segue
 
 In base alle esigenze del progetto, a volte è necessario disporre di più zone in un canale e modificarle come un&#39;unica unità completa. Ad esempio, una sequenza di prodotto con un feed di social media correlato che viene eseguita in tre aree separate su un singolo canale.
 
+>[!NOTE]
+>Nei canali multizona, la pianificazione a livello di risorsa non è consigliata a causa di potenziali conflitti e comportamenti non desiderati. Se è necessaria una pianificazione a livello di risorsa, si consiglia di creare un canale di sequenza separato e di applicare una logica di pianificazione all’interno di tale canale. Quindi, incorpora il canale della sequenza nel canale multizona.
 
 ### Prerequisiti {#prerequisites}
 
