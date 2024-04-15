@@ -1,23 +1,21 @@
 ---
 title: Pubblico di destinazione
-seo-title: Target Audience for AEM Screens
-description: La pagina descrive i destinatari della Guida alle best practice di AEM Screens
-seo-description: The page describes who are the target audience for AEM Screens Best Practices Guide
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+description: Scopri di più su chi è il pubblico di destinazione per la Guida alle best practice di AEM Screens.
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 
 # Pubblico di destinazione {#target-audience}
 
-In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
+In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori*, e *IT/Tecnici*.
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante all’interno del progetto.
 
-Il diagramma seguente mostra i ruoli che verranno visualizzati in tutta la guida.
+Il diagramma seguente mostra i ruoli che è possibile prevedere di visualizzare in tutta la guida.
 
 ![](/help/assets/roles-used.png)
 
@@ -38,13 +36,13 @@ Gli implementatori AEM sono responsabili dell’esecuzione di attività di svilu
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva potrebbe includere la possibilità di supportare la riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, con fasi aggiuntive che includono il supporto di elementi interattivi tramite touch screen, sensori, trigger dinamici e così via.
+In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, mentre altre fasi includono il supporto di elementi interattivi tramite touch screen, sensori, trigger dinamici e così via.
 
-### Integratori AV {#av-integrators}
+### Integratori audio/video {#av-integrators}
 
-L&#39;integratore A/V è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di un terzo che ha accesso a un centro operativo di rete (NOC, Network Operations Center). In molti casi, A/V Integrator è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
+L&#39;integratore audio/video è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso l&#39;integratore audio/video è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
 
-Un integratore AV è responsabile dell&#39;esecuzione di ricerche con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per progettare, creare e gestire in modo efficace le installazioni di hardware per il digital signage.
+Un integratore audio/video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per la progettazione, la creazione e la gestione efficace delle installazioni relative all&#39;hardware di digital signage.
 
 ### Stratega aziendale {#business-strategist}
 
@@ -64,7 +62,7 @@ La gestione di contenuti e creatività potrebbe essere una delle seguenti:
 
 ### Project manager {#project-managers}
 
-In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è il responsabile dell&#39;intera implementazione del progetto designato e svolge le principali responsabilità, quali la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
+In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è la persona responsabile per l’intera implementazione del progetto designato. Svolgono importanti responsabilità come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
 >[!NOTE]
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, consulta **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.

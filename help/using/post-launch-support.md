@@ -1,9 +1,9 @@
 ---
 title: Supporto post-lancio
 description: Scopri il supporto post-lancio per AEM Screens nella Guida alle best practice.
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '375'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Non trascurare il supporto post-lancio nella fase iniziale.
 
-Garantire che i siti ricevano il supporto adeguato dal fornitore di hardware è fondamentale per le loro operazioni aziendali. Il **Integratore A/V** dovrebbe collaborare strettamente con le parti interessate e individuare i requisiti necessari a partire da diversi aspetti.
+Garantire che i siti ricevano il supporto adeguato dal fornitore di hardware è fondamentale per le loro operazioni aziendali. Il **Integratore audio/video** dovrebbe collaborare strettamente con le parti interessate e individuare i requisiti necessari a partire da diversi aspetti.
 Durante il supporto post-lancio, considera i seguenti requisiti:
 
 * gestione remota dei dispositivi
@@ -22,11 +22,11 @@ Durante il supporto post-lancio, considera i seguenti requisiti:
 * assistenza tecnica on-site
 * gestione dei dispositivi (supporto in garanzia e storage dei dispositivi di riserva)
 
-Inoltre, per prepararsi al successo a lungo termine, è fondamentale stipulare un accordo sul livello di servizio (SLA) del giorno 2 in collaborazione con AV Integrator. Lo SLA deve descrivere in dettaglio tutti i servizi di supporto post-distribuzione per consentire di definire con precisione le aspettative dei clienti.
+Inoltre, per prepararsi al successo a lungo termine, è fondamentale stipulare un accordo sul livello di servizio (SLA) del giorno 2 in collaborazione con l&#39;integratore audio/video. Lo SLA deve descrivere in dettaglio tutti i servizi di supporto post-distribuzione per consentire di definire con precisione le aspettative dei clienti.
 
 >[!NOTE]
 >
->Definizione anticipata dei parametri operativi inclusi nei budget operativi e allineamento delle responsabilità con l&#39;implementatore AEM e l&#39;integratore AV.
+>Definisci i parametri operativi da includere in anticipo nei budget operativi e allinea le responsabilità con l’implementatore AEM e l’integratore audio/video.
 >
 >* L’implementazione è una rete pubblicitaria con molte parti interessate collegate a una rete monetizzata? Questo può determinare tempi di risoluzione più brevi rispetto a una rete di comunicazione aziendale.
 >* L&#39;applicazione è altamente visibile per la leadership esecutiva del cliente finale? I siti con elevata visibilità possono meritare trattamenti diversi.

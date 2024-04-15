@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Puoi assegnare un nome descrittivo del dispositivo al lettore Chrome, inviando i
 
 Segui i passaggi seguenti per configurare il nome nel lettore Chrome:
 
-1. Facoltativamente, è possibile consentire agli integratori AV o agli amministratori IT di impostare l&#39;ID risorsa e la posizione come parte della registrazione aziendale.
+1. Facoltativamente, puoi consentire agli integratori Audio/Video o agli amministratori IT di impostare l’ID risorsa e la posizione come parte della registrazione Enterprise.
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome1.png)
 

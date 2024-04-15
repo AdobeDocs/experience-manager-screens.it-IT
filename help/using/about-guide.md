@@ -2,10 +2,10 @@
 title: Informazioni su questa guida
 description: Scopri le best practice per i progetti AEM Screens per pianificare ed eseguire progetti, da informazioni strategiche e di progettazione, fino alla distribuzione e al supporto successivo.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 34%
+source-wordcount: '255'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ La Guida alle best practice di AEM Screens fornisce indicazioni su come pianific
 Il pubblico previsto per questo documento è:
 
 * *Implementatori di AEM*
-* *Integratori AV*
+* *Integratori audio/video*
 * *Responsabili aziendali*
 * *Manager di progetto*
 * *Consulenti*

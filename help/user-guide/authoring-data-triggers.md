@@ -1,14 +1,13 @@
 ---
 title: Authoring con Data Triggers
-seo-title: Authoring with Data Triggers
-description: Segui questa pagina per scoprire come effettuare l’authoring con i trigger di dati.
+description: Scopri come effettuare l’authoring con i trigger di dati in un canale AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -50,11 +49,11 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Seleziona la **Personalizzazione** per impostare le configurazioni ContextHub e selezionare il percorso ContextHub e Segments.
+1. Seleziona la **Personalizzazione** in modo da poter impostare le configurazioni ContextHub e selezionare il percorso ContextHub e Segmenti.
 
    1. Seleziona la **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e fai clic su **Seleziona**.
 
-   1. Seleziona la **Percorso segmenti** as **conf** > **We.Retail** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Seleziona**.
+   1. Seleziona la **Percorso segmenti** as **conf** > **`We.Retail`** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Seleziona**.
 
    1. Fai clic su **Salva e chiudi**.
 
@@ -68,7 +67,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
    >[!NOTE]
    >
-   >Se hai impostato tutto correttamente, vedrai **Targeting** nell’elenco a discesa dall’editor, come illustrato nella figura riportata di seguito.
+   >Se hai impostato tutto correttamente, puoi vedere **Targeting** nell’elenco a discesa dall’editor, come illustrato nella figura riportata di seguito.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 

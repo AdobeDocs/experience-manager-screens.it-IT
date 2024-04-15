@@ -1,21 +1,21 @@
 ---
 title: Note sulla versione per Feature Pack 202203
-description: Segui questa pagina per ottenere informazioni sui 202203 di AEM Screens Feature Pack rilasciati il 25 marzo 2022.
+description: Ulteriori informazioni sul Feature Pack di AEM Screens 202203 rilasciato il 25 marzo 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
 # Note sulla versione per Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
@@ -45,19 +45,19 @@ Questa versione include solo correzioni di bug.
 
 * L’interfaccia utente Attività del lettore ora funziona come previsto.
 
-* Impossibile ottenere l&#39;aggiornamento più recente tramite Gestisci pubblicazione. Questo problema è stato risolto.
+* Windows Media Player: impossibile ottenere l&#39;ultimo aggiornamento tramite la gestione della pubblicazione. Questo problema è stato risolto.
 
-### Lettori AEM Screens rilasciati {#released-aem-screens-players}
+### Lettori AEM Screens rilasciati
 
 Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 11:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 * iOS
 
-#### Download di AEM Screens Player  {#aem-screens-player-downloads}
+#### Download di AEM Screens Player
 
 Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

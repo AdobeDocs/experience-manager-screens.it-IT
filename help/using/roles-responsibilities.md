@@ -1,23 +1,21 @@
 ---
 title: Ruoli e responsabilità del progetto AEM Screens
-seo-title: AEM Screens Project Roles  and Responsibilities
-description: La pagina descrive i ruoli e le responsabilità del progetto AEM Screens
-seo-description: The page describes AEM Screens Project Roles  and Responsibilities
+description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 4%
+source-wordcount: '1241'
+ht-degree: 0%
 
 ---
 
 # Ruoli e responsabilità del progetto {#roles-responsibilities}
 
-In qualità di implementatore di AEM con esperienza, è probabile che avrai notato che i ruoli sono stati denominati *Autori*, *Sviluppatori* e *IT/Tecnici*.
+In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori*, e *IT/Tecnici*.
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante all’interno del progetto.
 
-Il diagramma seguente mostra i ruoli che verranno visualizzati in tutta la guida.
+Il diagramma seguente mostra i ruoli che è possibile prevedere di visualizzare in tutta la guida.
 
 ![](/help/assets/project-roles-revised.png)
 
@@ -39,13 +37,13 @@ Gli implementatori AEM sono responsabili dell’esecuzione di attività di svilu
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva potrebbe includere la possibilità di supportare la riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, con fasi aggiuntive che includono il supporto di elementi interattivi tramite touch screen, sensori, trigger dinamici e così via.
+In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, mentre altre fasi includono il supporto di elementi interattivi tramite touch screen, sensori, trigger dinamici e così via.
 
-### Integratori AV {#av-integrators}
+### Integratori audio/video {#av-integrators}
 
-L&#39;integratore A/V è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di un terzo che ha accesso a un centro operativo di rete (NOC, Network Operations Center). In molti casi, A/V Integrator è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
+L&#39;integratore audio/video è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso l&#39;integratore audio/video è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
 
-Un integratore AV è responsabile dell&#39;esecuzione di ricerche con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per progettare, creare e gestire in modo efficace le installazioni di hardware per il digital signage.
+Un integratore audio/video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto da progettare, creare e gestire in modo efficace le distribuzioni relative all&#39;hardware di digital signage.
 
 #### Considerazione dei partner hardware {#selecting-hardware-partner}
 
@@ -55,9 +53,9 @@ Un integratore AV è responsabile dell&#39;esecuzione di ricerche con i clienti 
 
 1. Che cos &#39;è la copertura globale?
 
-1. È supporto 24 ore su 24?
+1. Supporto 24 ore su 24?
 
-1. Come verranno gestiti i dispositivi?
+1. Gestione dei dispositivi
 
 1. Quali sono i sistemi di monitoraggio e di allarme attivi?
 
@@ -79,26 +77,26 @@ La gestione di contenuti e creatività potrebbe essere la seguente:
 
 ### Project manager {#project-managers}
 
-In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è il responsabile dell&#39;intera implementazione del progetto designato e svolge le principali responsabilità, quali la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
+In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è la persona responsabile per l’intera implementazione del progetto designato. Svolgono importanti responsabilità come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
 
 >[!NOTE]
 >
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-roles-responsibilities.html)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fasi del progetto {#project-stages}
 
-Per supportare una corretta implementazione del digital signage, è consuetudine segmentare il progetto in 3 fasi.  Queste fasi sono comunemente denominate **Giorni**. Non si tratta di giorni letterali, ma di designazioni per ogni fase principale del progetto.
+Per supportare una corretta implementazione del digital signage, è consuetudine segmentare il progetto in tre fasi. Queste fasi sono comunemente denominate **Giorni**. Non si tratta di giorni letterali, ma di designazioni per ogni fase principale del progetto.
 
-1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito del progetto.
+1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito del progetto.
 1. La seconda fase, *Primo giorno*, si riferisce a tutte le attività incluse nello sforzo di implementazione.
 1. Terza e ultima fase *Giorno due* fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
 >[!NOTE]
 >
->Mentre questa guida pone l’accento soprattutto sul *Primo giorno* e sul *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
+>Mentre questa guida pone l’accento principalmente su *Primo giorno* e *Giorno due* Tuttavia, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
 >
->Segui un altro video su **[Gestione e implementazione dei progetti](https://helpx.adobe.com/experience-manager/6-5/screens/using/project-management-and-deployment.html)** per informazioni sulla preproduzione, l’avvio e la progressione del progetto.
+>Per informazioni sulla preproduzione, l’avvio e la progressione del progetto, guarda un video su **[Gestione e implementazione dei progetti](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Grafico RACI {#raci-chart}
 
@@ -106,13 +104,13 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 >[!NOTE]
 >
->Questo grafico non è progettato per essere seguito esattamente ma per fornire un esempio di attività comuni e considerazioni in un progetto AEM Screens.
+>Non è necessario seguire esattamente il grafico. Al contrario, ha lo scopo di fornire un esempio di attività e considerazioni comuni in un progetto AEM Screens.
 
 ### Definizioni RACI {#raci-definitions}
 
 * **Responsabile**: esegue il lavoro per completare l’attività.
 
-* **Responsabile**: i delegati lavorano ed è l’ultima parte a rivedere l’attività prima che sia completata.
+* **Responsabile**: i delegati lavorano e sono l’ultima parte a rivedere l’attività prima che sia completata.
 
 * **Consultato**: rivede l’attività o il risultato finale per fornire input.
 
@@ -122,7 +120,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 La tabella seguente riassume **Giorno zero: considerazioni pre-vendita**:
 
-| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Formazione team e selezione fornitore | I | I | RA | RA |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
@@ -134,7 +132,7 @@ La tabella seguente riassume **Giorno zero: considerazioni pre-vendita**:
 
 La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Progettazione Dell’Applicazione)**:
 
-| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento al piano e alla pianificazione del progetto | RA | RA | C | C |
@@ -154,7 +152,7 @@ La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Proge
 
 La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Preparazione Per La Vendita Al Dettaglio)**:
 
-| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Ordinazione e archiviazione hardware | RA | I | I | I |
 | Pianificazione di onboarding per la vendita al dettaglio | I | I | C | RA |
@@ -164,12 +162,12 @@ La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Prepa
 
 La tabella seguente riassume **Primo giorno: primo giorno: implementazione del progetto (hardware)**:
 
-| **Fase** | **Integratore A/V** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | La progettazione per la vendita al dettaglio include le operazioni di cablaggio | - | - | - | - |
 | Selezione hardware del lettore | RAC | - | - | - |
-| Gestione dei dispositivi del master | RA | I | - | - |
+| Gestione dei dispositivi di primario | RA | I | - | - |
 | Ordinamento e memorizzazione dei dispositivi e configurazione | RA | CI | I | - |
 | Definizione del processo di supporto | RA | I | RA | C |
 
@@ -181,16 +179,16 @@ La tabella seguente riassume **Primo giorno: primo giorno: implementazione del p
 
 * **Sviluppatore**: in genere è un membro del team di implementazione di AEM Screens o del team di sviluppo interno
 
-* **Tecnico**: contratto dell&#39;integratore AV o appartenente alla stessa società.
+* **Tecnico**: è sotto contratto con l&#39;integratore audio/video o fa parte della stessa azienda.
 
 La tabella seguente riassume **Secondo giorno: grafico RACI per il supporto post-lancio**:
 
 | **Fase** | **Autore** | **Sviluppatore** | **Tecnico** |
 |---|---|---|---|
-| *Secondo giorno: supporto post-lancio* |
+| *Secondo Giorno: Supporto Post-Lancio* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
 | Supporto livello 1 | I | I | RA |
 | Supporto di livello 2 | I | C | RA |
 | Supporto di livello 3 | I | RA | C |
 | Aggiornamento contenuti | RA | I | I |
-| Valutazione del successo dell’interfaccia utente e identificazione delle aree di miglioramento | RA | C | I |
+| Valutare il successo dell’esperienza utente e identificare le aree di miglioramento | RA | C | I |
