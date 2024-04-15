@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 5%
@@ -31,13 +31,13 @@ Segui i passaggi seguenti per creare una Live Copy di un canale nella cartella d
 
 1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
 
-1. Passa al progetto Schermi e fai clic su **Canali**.
-1. Clic **Crea** e seleziona **Live Copy** in modo da poter creare una Live Copy del canale.
-1. Seleziona la destinazione e fai clic su **Successivo**.
+1. Passa a Progetto schermi e seleziona **Canali**.
+1. Seleziona **Crea** e seleziona **Live Copy** in modo da poter creare una Live Copy del canale.
+1. Seleziona la destinazione e seleziona **Successivo**.
 1. Seleziona il percorso in cui può risiedere la Live Copy.
 1. Inserisci il **Titolo** e **Nome** nel **Crea Live Copy** pagina.
 
-1. Clic **Apri** per visualizzare il contenuto di una nuova live copy o **Fine** per tornare alla pagina principale.
+1. Seleziona **Apri** per visualizzare il contenuto di una nuova live copy o **Fine** per tornare alla pagina principale.
 
 In alternativa, consulta i passaggi seguenti per la rappresentazione visiva per creare una nuova Live Copy di un canale.
 
@@ -51,11 +51,11 @@ Una Live Copy è una copia di un canale esistente.
 
 Per visualizzare il contenuto della Live Copy, consulta i passaggi seguenti:
 
-1. Passa al progetto Screens e fai clic sul percorso in cui hai creato la Live Copy originariamente, come mostrato nella sezione precedente. (In questo caso, la posizione è stata scelta come **Canali** cartella)
+1. Passa a Progetto schermi e seleziona il percorso in cui hai creato la Live Copy originale, come illustrato nella sezione precedente. (In questo caso, la posizione è stata scelta come **Canali** cartella)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
-1. Clic **Modifica** dalla barra delle azioni.
+1. Seleziona **Modifica** dalla barra delle azioni.
 
    ![chlimage_1-19](assets/chlimage_1-19.png)
 
@@ -67,7 +67,7 @@ Per visualizzare il contenuto della Live Copy, consulta i passaggi seguenti:
 
 Inoltre, puoi visualizzare le proprietà del canale Live Copy.
 
-1. Passa al canale Live Copy e fai clic su **Proprietà** dalla barra delle azioni.
+1. Passa al canale Live Copy e seleziona **Proprietà** dalla barra delle azioni.
 
    ![chlimage_1-20](assets/chlimage_1-20.png)
 
@@ -79,7 +79,7 @@ Inoltre, puoi visualizzare le proprietà del canale Live Copy.
 
 Modalità **Stato Live Copy**, come illustrato nella figura seguente, ti consente di visualizzare lo stato della relazione di tutte le risorse nel canale.
 
-1. Clic **Modifica** in modo da poter scegliere **Stato Live Copy** e visualizzare l’associazione del contenuto del canale al canale originale (da cui viene generata la Live Copy).
+1. Seleziona **Modifica** in modo da poter scegliere **Stato Live Copy** e visualizzare l’associazione del contenuto del canale al canale originale (da cui viene generata la Live Copy).
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -93,7 +93,7 @@ Modalità **Stato Live Copy**, come illustrato nella figura seguente, ti consent
 
 Puoi anche annullare l’ereditarietà dalla Live Copy, in modo che il contenuto diventi indipendente dal ramo originale.
 
-L’esempio seguente mostra che hai selezionato l’immagine in modalità di modifica e fai clic sul simbolo Annulla ereditarietà in alto a destra.
+L’esempio seguente mostra che hai selezionato l’immagine in modalità di modifica e selezionato il simbolo di annullamento dell’ereditarietà in alto a destra.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Segui i passaggi seguenti per assicurarti che le modifiche vengano propagate dal
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Per propagare le modifiche al canale Live Copy, passa al dashboard AEM, seleziona il canale Live Copy e fai clic su **Proprietà** dalla barra delle azioni.
+1. Per propagare le modifiche al canale Live Copy, passa al dashboard AEM e seleziona il canale Live Copy, quindi seleziona **Proprietà** dalla barra delle azioni.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 

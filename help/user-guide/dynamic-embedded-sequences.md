@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -118,7 +118,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 1. **Crea due posizioni e un canale sotto ogni cartella di posizione.**
 
    1. Accedi a **Demo** > **Posizioni** > **Regione A**.
-   1. Seleziona **Regione A** e fai clic su **+ Crea** dalla barra delle azioni.
+   1. Seleziona **Regione A** e seleziona **+ Crea** dalla barra delle azioni.
    1. Seleziona **Posizione** dalla procedura guidata con **Titolo** as **Store 1**. Analogamente, creare un&#39;altra posizione dalla procedura guidata con il titolo **Store 2** con **Titolo** as **Store 2**. È possibile lasciare **Nome** campo vuoto durante la creazione **Store 1** e **Store 2**.
    1. Ripeti il passaggio b) e seleziona **Canale sequenza** dalla procedura guidata. Inserisci il **Titolo** as **Regione A** e **Nome** as **area geografica** per questo canale.
 
@@ -139,7 +139,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 1. **Crea display e canale sotto ogni posizione.**
 
    1. Accedi a **Demo** > **Posizioni** > **Regione A** > **Store 1**.
-   1. Seleziona **Store 1** e fai clic su **+ Crea** dalla barra delle azioni.
+   1. Seleziona **Store 1** e seleziona **+ Crea** dalla barra delle azioni.
    1. Seleziona **Visualizzazione** dalla procedura guidata e crea **`Store1Display`**.
    1. Ripeti il passaggio b) e seleziona questa volta **Canale sequenza** dalla procedura guidata. Inserisci il **Titolo** as **`Store1Channel`** e **Nome** as **archiviare**.
 
@@ -169,14 +169,14 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Aggiungere contenuto ai canali nelle rispettive posizioni.**
 
-   Accedi a **Demo** > **Posizioni** > **Regione A** > **Regione A** e fai clic su **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse da aggiungere al canale.
+   Accedi a **Demo** > **Posizioni** > **Regione A** > **Regione A** e seleziona **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse da aggiungere al canale.
 
    >[!NOTE]
    >È possibile utilizzare ***Resources.zip*** file da **Risorse** per utilizzare le immagini come risorse per il contenuto del canale.
 
    ![screen_shot_2018-09-12alle12438pm](assets/screen_shot_2018-09-12at12438pm.png)
 
-   Allo stesso modo, passa a **Demo** > **Posizioni** > **Regione B** > **Regione B** e fai clic su **Modifica** dalla barra delle azioni per trascinare e rilasciare le risorse sul canale, come illustrato di seguito:
+   Allo stesso modo, passa a **Demo** > **Posizioni** > **Regione B** > **Regione B** e seleziona **Modifica** dalla barra delle azioni per trascinare e rilasciare le risorse sul canale, come illustrato di seguito:
 
    ![screen_shot_2018-09-12alle13133pm](assets/screen_shot_2018-09-12at13133pm.png)
 
@@ -189,7 +189,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Creare una pianificazione**
 
-   Naviga e seleziona **Schedules** nel progetto AEM Screens. Quindi fai clic su **Crea** dalla barra delle azioni.
+   Naviga e seleziona **Schedules** nel progetto AEM Screens. Quindi seleziona **Crea** dalla barra delle azioni.
 
    L&#39;immagine seguente mostra **AdSchedule** creato in **Demo** progetto.
 
@@ -197,29 +197,29 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 1. **Assegna canali a una pianificazione**
 
-   1. Accedi a **Demo** > **Schedules** > **AdSchedule** e fai clic su **Dashboard** dalla barra delle azioni.
-   1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
+   1. Accedi a **Demo** > **Schedules** > **AdSchedule** e seleziona **Dashboard** dalla barra delle azioni.
+   1. Seleziona **+ Assegna canale** da **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
    1. Seleziona **Canale di riferimento** in base al percorso.
    1. Seleziona la **Percorso canale** as **Demo** > ***Canali*** > ***Globale***.
    1. Inserisci il **Ruolo canale** as **GlobalAdSegment**.
    1. Seleziona la **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Interazione utente**.
-   1. Fai clic su **Salva**.
+   1. Seleziona **Salva**.
 
    **Assegna canale per ruolo per regione:**
 
-   1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** pannello.
+   1. Seleziona **+ Assegna canale** da **CANALI ASSEGNATI** pannello.
    1. Nella finestra di dialogo Assegnazione canale, seleziona **Canale di riferimento** per nome.
    1. Inserisci il **Nome canale** as **area geografica***.
    1. Inserisci il **Ruolo canale** as **RegionAdSegment**.
-   1. Fai clic su **Salva**.
+   1. Seleziona **Salva**.
 
    **Assegna canale per ruolo per store:**
 
-   1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** pannello.
+   1. Seleziona **+ Assegna canale** da **CANALI ASSEGNATI** pannello.
    1. Nella finestra di dialogo Assegnazione canale, seleziona **Canale di riferimento** per nome.
    1. Inserisci il **Nome canale** as **archiviare**.
    1. Inserisci il **Ruolo canale** as **StoreAdSegment**.
-   1. Fai clic su **Salva**.
+   1. Seleziona **Salva**.
 
    L’immagine seguente mostra i canali assegnati in base al percorso e al ruolo.
 
@@ -229,7 +229,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    Accedi a **Globale** Canale creato inizialmente in **Demo** progetto.
 
-   Clic **Modifica** dalla barra delle azioni.
+   Seleziona **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-09-13at52754pm](assets/screen_shot_2018-09-13at52754pm.png)
 
@@ -244,10 +244,10 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 1. **Assegnazione della pianificazione a ogni visualizzazione**
 
    1. Passa a ogni visualizzazione, ad esempio **Demo** > **Posizioni** > **Regione A** >**Store 1** >**`Store1Display`**.
-   1. Clic **Dashboard** dalla barra delle azioni.
-   1. Nel dashboard, fai clic su **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e quindi fare clic su **+Assegna pianificazione**.
+   1. Seleziona **Dashboard** dalla barra delle azioni.
+   1. Nel dashboard, seleziona **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e quindi selezionare **+Assegna pianificazione**.
    1. Seleziona il percorso della pianificazione (ad esempio, qui, **Demo** > **Schedules** > **AdSchedule**).
-   1. Fai clic su **Salva**.
+   1. Seleziona **Salva**.
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
@@ -306,9 +306,9 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 1. **Crea gruppi**
 
    1. Accedi a **Adobe Experience Manager**.
-   1. Clic **Strumenti** > **Sicurezza** > **Gruppi**.
-   1. Clic **Crea gruppo** e immetti **Global-Author** in **ID**.
-   1. Fai clic su **Salva e chiudi**.
+   1. Seleziona **Strumenti** > **Sicurezza** > **Gruppi**.
+   1. Seleziona **Crea gruppo** e immetti **Global-Author** in **ID**.
+   1. Seleziona **Salva e chiudi**.
 
    Allo stesso modo, crea altri due gruppi, ad esempio **Region-Author** e **Store-Author**.
 
@@ -317,11 +317,11 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 1. **Creare utenti e aggiungere utenti ai gruppi**
 
    1. Accedi a **Adobe Experience Manager**.
-   1. Fai clic su **Strumenti** > **Protezione** > **Utenti**.
-   1. Clic **Crea utente** e immetti **Utente globale** in **ID**.
+   1. Seleziona **Strumenti** > **Sicurezza** > **Utenti**.
+   1. Seleziona **Crea utente** e immetti **Utente globale** in **ID**.
    1. Invio **Password** e conferma la password per questo utente.
-   1. Fai clic su **Gruppi** e immettere il nome del gruppo in **Seleziona gruppo**, ad esempio, immetti **Global-Author** da aggiungere **Utente globale** a tale gruppo specifico.
-   1. Fai clic su **Salva e chiudi**.
+   1. Seleziona la **Gruppi** e immettere il nome del gruppo in **Seleziona gruppo**, ad esempio, immetti **Global-Author** da aggiungere **Utente globale** a tale gruppo specifico.
+   1. Seleziona **Salva e chiudi**.
 
    Allo stesso modo, crea altri due utenti, ad esempio **Regione-Utente** e **Store-User** e aggiungili a **Region-Author** e **Store-Author** rispettivamente.
 
@@ -333,15 +333,15 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 1. **Aggiungere tutti i gruppi ai collaboratori**
 
    1. Accedi a **Adobe Experience Manager**.
-   1. Clic **Strumenti** > **Sicurezza** > **Gruppi**.
+   1. Seleziona **Strumenti** > **Sicurezza** > **Gruppi**.
    1. Seleziona **Collaboratori** dall’elenco e seleziona **Membri** scheda.
    1. Seleziona la **Gruppo** come **Global-Author**, **Region-Author,** e **Store-Author** ai collaboratori.
-   1. Fai clic su **Salva e chiudi**.
+   1. Seleziona **Salva e chiudi**.
 
 1. **Accesso alle autorizzazioni per ogni gruppo**
 
    1. Accedi a *Useradmin* e utilizza questa interfaccia utente per modificare le autorizzazioni per diversi gruppi.
-   1. Cerca **Global-Author** e fai clic su **Autorizzazioni** come illustrato nella figura riportata di seguito.
+   1. Cerca **Global-Author** e seleziona **Autorizzazioni** come illustrato nella figura riportata di seguito.
    1. Allo stesso modo, puoi accedere alle autorizzazioni per **Region-Author** e **Store-Author**.
 
    ![screen_shot_2018-09-18 73523](assets/screen_shot_2018-09-18at73523am.png)

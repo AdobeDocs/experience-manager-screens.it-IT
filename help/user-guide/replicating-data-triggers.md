@@ -5,7 +5,7 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 ### Passaggio 1: replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
 
-1. Accedi a **Strumenti** > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione** e fai clic sull’agente di pubblicazione per configurare le impostazioni.
+1. Accedi a **Strumenti** > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione** e seleziona l’agente di pubblicazione per configurare le impostazioni.
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -38,7 +38,7 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
    >
    >In alternativa, è possibile utilizzare `http://localhost:4502/libs/granite/distribution/content/distribution-agent.html?agentName=publish` per passare direttamente alla schermata e configurare e verificare la connessione.
 
-1. Clic **Verifica connessione** dalla barra delle azioni, in modo da poter convalidare la comunicazione dell’Autore con l’istanza Publishing, come illustrato di seguito:
+1. Seleziona **Verifica connessione** dalla barra delle azioni, in modo da poter convalidare la comunicazione dell’Autore con l’istanza Publishing, come illustrato di seguito:
 
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers2.png)
 
@@ -48,7 +48,7 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 1. Seleziona **Aggiungi** dal **Agente di distribuzione** struttura ad albero e seleziona il percorso di configurazione per il progetto, ad esempio, `/conf/screens/settings/cloudsettings/configuration`.
 
-1. Fai clic su **Invia**.
+1. Seleziona **Invia**.
 
 ### Replica dei tipi di pubblico {#replicating-audiences}
 
@@ -60,9 +60,9 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 1. Seleziona tutti i tipi di pubblico e i segmenti dall’interfaccia utente di.
 
-1. Clic **Gestisci pubblicazione** dalla barra delle azioni.
+1. Seleziona **Gestisci pubblicazione** dalla barra delle azioni.
 
-1. Clic **Successivo** e **Pubblica**.
+1. Seleziona **Successivo** e **Pubblica**.
 
 ### Replica delle attività  {#replicating-activities}
 
@@ -72,9 +72,9 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 1. Seleziona tutte le attività dall’interfaccia utente.
 
-1. Clic **Gestisci pubblicazione** dalla barra delle azioni.
+1. Seleziona **Gestisci pubblicazione** dalla barra delle azioni.
 
-1. Clic **Successivo** e **Pubblica**.
+1. Seleziona **Successivo** e **Pubblica**.
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
 
 1. Passa a Strumenti > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione**.
 
-1. Clic **Modifica** dalla barra delle azioni e assicurati che l’URL dell’endpoint in **Endpoint importazione** Il campo punta anche all’URL del server di pubblicazione nell’agente di distribuzione.
+1. Seleziona **Modifica** dalla barra delle azioni e assicurati che l’URL dell’endpoint in **Endpoint importazione** Il campo punta anche all’URL del server di pubblicazione nell’agente di distribuzione.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Se non utilizzi le credenziali amministratore predefinite, devi configurare l’agente di distribuzione con un nome utente e una password diversi.
@@ -110,10 +110,10 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers7.png)
 
-   1. Clic **Salva**
+   1. Seleziona **Salva**
    1. Utilizzare `Cmd +F` per cercare **Agente di distribuzione Apache Sling - Factory agenti di inoltro** per aprire le configurazioni e cercare **Provider segreto di trasporto**.
 
       ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers8.png)
 
    1. Aggiornare il `(name=default)` con `(name=slingTransportSecretProvider)`.
-   1. Clic **Salva** ed esegui nuovamente la connessione di prova da **Agente di distribuzione** dall’istanza AEM.
+   1. Seleziona **Salva** ed esegui nuovamente la connessione di prova da **Agente di distribuzione** dall’istanza AEM.

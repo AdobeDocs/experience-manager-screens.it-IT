@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
 1. **Creazione di un canale schermi con più zone**
 
-   1. Seleziona la **Canali** cartella e fai clic su **Crea** dalla barra delle azioni e aprendo la procedura guidata per creare un canale.
+   1. Seleziona la **Canali** cartella e seleziona **Crea** dalla barra delle azioni e aprendo la procedura guidata per creare un canale.
    1. Seleziona **Canale schermo diviso barra sinistra-L** dalla procedura guidata e crea il canale con titolo **LayoutZonaMultiplo**.
    1. Aggiungi contenuto al canale. Trascina e rilascia le risorse in ciascuna zona. L’esempio seguente mostra una **LayoutZonaMultiplo** canale comprendente un video, un’immagine e un banner di testo (in una sequenza incorporata), come mostrato di seguito.
 
@@ -58,7 +58,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/mz-to-sz3.png)
 
-1. Clic **Modifica** dalla barra delle azioni, in modo da poter aggiungere contenuto a questo canale. Aggiungi un **Canale** e una risorsa di immagine a cui passare per questo canale, come illustrato nella figura seguente:
+1. Seleziona **Modifica** dalla barra delle azioni, in modo da poter aggiungere contenuto a questo canale. Aggiungi un **Canale** e una risorsa di immagine a cui passare per questo canale, come illustrato nella figura seguente:
 
    ![risorsa](assets/mz-to-sz4.png)
 

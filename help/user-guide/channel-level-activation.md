@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 1. **Crea visualizzazione in Posizione**
 
    1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione**.
-   1. Seleziona **Regione** e fai clic su **+ Crea** dalla barra delle azioni.
+   1. Seleziona **Regione** e seleziona **+ Crea** dalla barra delle azioni.
    1. Seleziona **Visualizzazione** dalla procedura guidata e crea una visualizzazione con titolo **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
@@ -100,7 +100,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    Per **MainAdChannel:**
 
-   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
+   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e seleziona **Assegna canale** dalla barra delle azioni.
    1. **Assegnazione canale** viene visualizzata.
    1. Seleziona **Canale di riferimento** in base al percorso.
    1. Seleziona la **Percorso canale** as **Attivazione a livello di canale** > ***Canali*** > ***MainAdChannel***.
@@ -113,11 +113,11 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e clic **Dashboard** dalla barra delle azioni. Clic **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e selezione **Dashboard** dalla barra delle azioni. Seleziona **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    Analogamente, assegna canale **TargetedSinglePlay** per la visualizzazione**:
 
-   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
+   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e seleziona **Assegna canale** dalla barra delle azioni.
    1. **Assegnazione canale** viene visualizzata.
    1. Seleziona **Canale di riferimento** in base al percorso.
    1. Seleziona la **Percorso canale** as **Attivazione a livello di canale*** > ***Canali*** > ***TargetedSinglePlay***.

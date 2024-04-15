@@ -2,7 +2,7 @@
 title: Supporto di miniature per video in AEM Screens
 description: Scopri come aggiungere il supporto per miniature per video in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Per usare la miniatura nei video, segui la procedura indicata di seguito:
 
 1. Passa a un canale AEM Screens esistente o creane uno.
 
-1. Seleziona il canale e fai clic su **Modifica** dalla barra delle azioni.
+1. Seleziona il canale e seleziona **Modifica** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 

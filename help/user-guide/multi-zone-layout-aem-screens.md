@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Durante la creazione di un canale, puoi utilizzare diversi modelli per creare zo
 **Creazione di un canale**
 
 1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Accedi a **Canali** cartella e fai clic su **Crea** dalla barra delle azioni.
+1. Accedi a **Canali** cartella e seleziona **Crea** dalla barra delle azioni.
 
 1. Seleziona **Canale schermo diviso 1x2** dal **Crea** procedura guidata.
 
-1. Clic **Successivo** e immetti **titolo** as **ZonaMultipla**.
+1. Seleziona **Successivo** e immetti **titolo** as **ZonaMultipla**.
 
-1. Clic **Crea** per completare la creazione del canale.
+1. Seleziona **Crea** per completare la creazione del canale.
 
 ### Utilizzo di risorse singole in una o più aree {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ Puoi utilizzare risorse singole, come un’immagine o un video, in tutte le sing
 1. **Aggiunta di contenuto al canale**
 
    1. Accedi a **Zone** > **Canali**> **ZonaMultipla**.
-   1. Seleziona la **ZonaMultipla** channel e click **Modifica** dalla barra delle azioni.
+   1. Seleziona la **ZonaMultipla** channel e select **Modifica** dalla barra delle azioni.
 
 1. **Aggiunta di immagini al canale**
 
@@ -80,17 +80,17 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 
 1. **Creazione di una cartella canali**
 
-   1. Accedi a **Zone** > **ZonaMultipla** > **Canali** e fai clic su **Crea** dalla barra delle azioni.
-   1. Seleziona **Cartella canali** dal **Crea** e fai clic su **Successivo**.
-   1. Inserisci il titolo come **EmbeddedChannels** e fai clic su **Crea**.
+   1. Accedi a **Zone** > **ZonaMultipla** > **Canali** e seleziona **Crea** dalla barra delle azioni.
+   1. Seleziona **Cartella canali** dal **Crea** procedura guidata e seleziona **Successivo**.
+   1. Inserisci il titolo come **EmbeddedChannels** e seleziona **Crea**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Aggiunta di altri due canali alla cartella canali**
 
-   1. Accedi a **Zone** > **Canali** > **EmbeddedChannels** e fai clic su **Crea** dalla barra delle azioni.
+   1. Accedi a **Zone** > **Canali** > **EmbeddedChannels** e seleziona **Crea** dalla barra delle azioni.
    1. Seleziona **Canale sequenza** dal **Crea** creazione guidata di un canale con titolo **`Zone1`**.
-   1. Seleziona **`Zone1`** e fai clic su **Modifica** dalla barra delle azioni.
+   1. Seleziona **`Zone1`** e seleziona **Modifica** dalla barra delle azioni.
    1. Trascina alcune immagini su questo canale.
    1. Allo stesso modo, crea un altro canale di sequenza denominato **`Zone2`** in **EmbeddedChannels** cartella.
    1. Trascina un video su questo canale.
@@ -110,10 +110,10 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 1. **Aggiunta di sequenze incorporate (componente) al canale principale (MultiZone)**
 
    1. Accedi a **Zone** > **Canali** > **ZonaMultipla**.
-   1. Clic **Modifica** dalla barra delle azioni.
+   1. Seleziona **Modifica** dalla barra delle azioni.
    1. Trascina la **Sequenza incorporata** in entrambe le zone.
    1. Selezionate la sequenza incorporata in una delle zone.
-   1. Fai clic su **Configura** (chiave inglese) a una delle sequenze incorporate nell’editor.
+   1. Seleziona la **Configura** (chiave inglese) a una delle sequenze incorporate nell’editor.
    1. Seleziona il percorso del canale come **Zone** > **Canali** > **EmbeddedChannels** > **`Zone1`**, come illustrato nella figura seguente.
    1. Analogamente, aggiungi **`Zone2`** a un altro componente di sequenza incorporato nell’editor.
 

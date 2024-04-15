@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,11 +58,11 @@ L&#39;immagine seguente mostra **DemoSovrapposizioneTesto** progetto con **TextS
 
 Per utilizzare la sovrapposizione di testo in un canale AEM Screens, effettua le seguenti operazioni:
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e seleziona **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-12-16alle80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Seleziona l’immagine e fai clic su **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
+1. Seleziona l’immagine e seleziona **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
 
    ![screen_shot_2018-12-16alle80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
@@ -114,7 +114,7 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e seleziona **Modifica** dalla barra delle azioni.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
@@ -129,7 +129,7 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
    >[!NOTE]
    >Se non hai configurato la configurazione ContextHub, questa opzione è disabilitata per il progetto.
 
-1. Invio **Valore** nel **Segnaposto** campo. Selezionare la riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, fai clic sul segno di spunta.
+1. Invio **Valore** nel **Segnaposto** campo. Selezionare la riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, seleziona il segno di spunta.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

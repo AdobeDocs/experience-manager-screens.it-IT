@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '238'
 ht-degree: 7%
 
 ---
@@ -36,26 +36,26 @@ Per assegnare un dispositivo a uno schermo, attenersi alla procedura descritta d
 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
-1. Seleziona il **Dispositivi** cartella e tocca o fai clic su **Gestione dispositivi** nella barra delle azioni. Vengono visualizzati i dispositivi assegnati e non assegnati.
+1. Seleziona il **Dispositivi** cartella e seleziona **Gestione dispositivi** nella barra delle azioni. Vengono visualizzati i dispositivi assegnati e non assegnati.
 
    ![chlimage_1-33](assets/chlimage_1-33.png)
 
-1. Seleziona un dispositivo non assegnato dall’elenco, quindi tocca o fai clic sul pulsante **Assegna dispositivo** nella barra delle azioni.
+1. Selezionare un dispositivo non assegnato dall&#39;elenco, quindi selezionare **Assegna dispositivo** nella barra delle azioni.
 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
-1. Seleziona dall’elenco la visualizzazione a cui desideri assegnare il dispositivo, quindi tocca o fai clic sul pulsante **Assegna**.
+1. Selezionare la visualizzazione a cui si desidera assegnare il dispositivo dall&#39;elenco, quindi selezionare **Assegna**.
 
    ![chlimage_1-35](assets/chlimage_1-35.png)
 
-1. Tocca o fai clic sul pulsante **Fine** per completare il processo di assegnazione.
+1. Seleziona la **Fine** per completare il processo di assegnazione.
 
 
    Il dashboard di visualizzazione mostra il dispositivo assegnato nel **DISPOSITIVI** pannello.
 
    ![chlimage_1-37](assets/chlimage_1-37.png)
 
-   Fai clic su (**...**) nell&#39;angolo in alto a destra del **DISPOSITIVI** per aggiungere la configurazione del dispositivo o aggiornare i dispositivi.
+   Seleziona la (**...**) nell&#39;angolo in alto a destra del **DISPOSITIVI** per aggiungere la configurazione del dispositivo o aggiornare i dispositivi.
 
    ![chlimage_1-38](assets/chlimage_1-38.png)
 

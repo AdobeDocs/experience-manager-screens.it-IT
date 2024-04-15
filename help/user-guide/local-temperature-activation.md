@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
-   1. Seleziona la **Fogli A1 1** e fai clic su **Modifica**.
+   1. Seleziona la **Fogli A1 1** e seleziona **Modifica**.
 
    1. Seleziona la proprietà di confronto e fai clic sull&#39;icona di configurazione.
    1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**
@@ -55,16 +55,16 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    1. Inserisci il **Valore** as **50**
 
-   1. Analogamente, selezionare **Fogli A1 2** e fai clic su **Modifica**.
+   1. Analogamente, selezionare **Fogli A1 2** e seleziona **Modifica**.
 
-   1. Seleziona la **Proprietà Comparison - Valore** e fai clic sull’icona di configurazione.
+   1. Seleziona la **Proprietà Comparison - Valore** e seleziona l’icona di configurazione.
    1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**
 
    1. Seleziona la **Operatore** as **less-than** dal menu a discesa
 
    1. Inserisci il **Valore** as **50**
 
-1. Naviga e seleziona il canale () e fai clic su **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenWeather**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
+1. Naviga e seleziona il tuo canale () e seleziona **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenWeather**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
 
    >[!NOTE]
    >
@@ -78,13 +78,13 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Seleziona **Targeting** dall’editor e seleziona **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
+1. Seleziona **Targeting** dall’editor e seleziona **Marchio** e **Attività** dal menu a discesa e seleziona **Inizia impostazione destinazione**.
 
    ![new_activity3](assets/new_activity3.gif)
 
 1. **Controllo dell’anteprima**
 
-   1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
+   1. Seleziona **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
    1. Modifica il valore in meno di 50. Dovreste essere in grado di vedere l&#39;immagine di una bevanda fredda. Se il valore in Google Sheets è uguale o superiore a 50, dovrebbe essere visualizzata l&#39;immagine di una bevanda calda.
 
    ![risultato3](assets/result3.gif)

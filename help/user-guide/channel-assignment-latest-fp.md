@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1448'
 ht-degree: 2%
 
 ---
@@ -62,13 +62,13 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
 
 1. Passa alla visualizzazione desiderata, ad esempio: **DemoScreens** > **Posizioni** > **SanJose** > **Lobby**.
 
-1. Tocca o fai clic **Assegna canale** dalla barra delle azioni.
+1. Seleziona **Assegna canale** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oppure
 
-   Tocca o fai clic **Dashboard** dalla barra delle azioni e fai clic su **+Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   Seleziona **Dashboard** dalla barra delle azioni e seleziona **+Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -91,7 +91,7 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
    >
    >Per ulteriori informazioni sulle proprietà di assegnazione dei canali, consulta [Proprietà canale](#channel-properties) sezione.
 
-1. Clic **Salva** dopo aver configurato le preferenze.
+1. Seleziona **Salva** dopo aver configurato le preferenze.
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Per passare alla vista timeline, segui la procedura riportata di seguito:
 
 1. Passa alla visualizzazione desiderata, ad esempio: **DemoScreens** > **Posizioni** > **SanJose** > **Lobby**.
 
-1. Tocca o fai clic **Assegna canale** dalla barra delle azioni.
+1. Seleziona **Assegna canale** dalla barra delle azioni.
 
    Oppure
 
-   Tocca o fai clic **Dashboard** e fai clic su **Timeline** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   Seleziona **Dashboard** e seleziona **Timeline** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    ![immagine](/help/user-guide/assets/channel-assignment/timeline-1.png)
 

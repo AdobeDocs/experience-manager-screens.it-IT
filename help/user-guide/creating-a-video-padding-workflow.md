@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,16 +58,16 @@ Per creare e utilizzare il flusso di lavoro, segui i passaggi seguenti:
 Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
 1. Passa all’istanza AEM.
-1. Fare clic su Strumenti nella barra laterale.
+1. Selezionare gli strumenti dalla barra laterale.
 1. Seleziona **Flusso di lavoro** > **Modelli** quindi potete creare un modello.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clic **Modelli** > **Crea** > **Crea modello**. Inserisci il **Titolo** (come **VideoRendition**) e **Nome** nel **Aggiungi modello flusso di lavoro**. Clic **Fine** per aggiungere il modello di workflow.
+1. Seleziona **Modelli** > **Crea** > **Crea modello**. Inserisci il **Titolo** (come **VideoRendition**) e **Nome** nel **Aggiungi modello flusso di lavoro**. Seleziona **Fine** per aggiungere il modello di workflow.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
-1. Dopo aver creato il modello di flusso di lavoro, selezionare il modello (**VideoRendition**) e fai clic su **Modifica** dalla barra delle azioni.
+1. Dopo aver creato il modello di flusso di lavoro, selezionare il modello (**VideoRendition**) e seleziona **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
@@ -87,11 +87,11 @@ Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
    ![screen_shot_2018-10-18 105300](assets/screen_shot_2018-10-18at105300am.png)
 
 1. Seleziona il flusso di lavoro (**VideoRenditions**).
-1. Clic **Avvia flusso di lavoro** dalla barra delle azioni.
+1. Seleziona **Avvia flusso di lavoro** dalla barra delle azioni.
 
    ![screen_shot_2018-10-18 105335](assets/screen_shot_2018-10-18at105335am.png)
 
-1. In **Esegui flusso di lavoro** , seleziona il percorso della risorsa in **Payload** (come ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e immettere il **Titolo** as ***EseguiVideo*** e fai clic su **Esegui**.
+1. In **Esegui flusso di lavoro** , seleziona il percorso della risorsa in **Payload** (come ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e immettere il **Titolo** as ***EseguiVideo*** e seleziona **Esegui**.
 
    ![screen_shot_2018-10-18 112043](assets/screen_shot_2018-10-18at112043am.png)
 
@@ -103,11 +103,11 @@ Per utilizzare il flusso di lavoro nel progetto AEM Screens, segui i passaggi se
 
    ![screen_shot_2018-10-17at100715pm](assets/screen_shot_2018-10-17at100715pm.png)
 
-1. Clic **Modifica** dalla barra delle azioni. Trascina e rilascia il video caricato inizialmente in **Risorse**.
+1. Seleziona **Modifica** dalla barra delle azioni. Trascina e rilascia il video caricato inizialmente in **Risorse**.
 
    ![screen_shot_2018-10-17at102806pm](assets/screen_shot_2018-10-17at102806pm.png)
 
-1. Dopo aver caricato il video, fai clic su **Anteprima** per visualizzare l’output.
+1. Dopo aver caricato il video, seleziona **Anteprima** per visualizzare l’output.
 
    ![screen_shot_2018-10-22at15151pm](assets/screen_shot_2018-10-22at15151pm.png)
 

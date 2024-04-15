@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/p_usecase2.png)
 
-1. Seleziona la **MainAdChannel** e fai clic su **Modifica** dalla barra delle azioni. Trascina alcune risorse (immagini, video, sequenze incorporate) sul canale.
+1. Seleziona la **MainAdChannel** e seleziona **Modifica** dalla barra delle azioni. Trascina alcune risorse (immagini, video, sequenze incorporate) sul canale.
 
    ![risorsa](assets/p_usecase3.png)
 
@@ -59,7 +59,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
 1. Creare un **TakeOver** canale che assume il controllo dei contenuti in **MainAdChannel** e viene riprodotto ogni mercoledì dalle 14:00 alle 16:00.
 
-1. Seleziona la **TakeOver** e fai clic su **Modifica** dalla barra delle azioni. Trascina alcune risorse nel canale. L’esempio seguente mostra un’immagine di una singola zona aggiunta a questo canale.
+1. Seleziona la **TakeOver** e seleziona **Modifica** dalla barra delle azioni. Trascina alcune risorse nel canale. L’esempio seguente mostra un’immagine di una singola zona aggiunta a questo canale.
 
    ![risorsa](assets/p_usecase4.png)
 
@@ -69,12 +69,12 @@ Per impostare un progetto, segui i passaggi seguenti:
 
 **Assegnazione di canali a una visualizzazione**
 
-1. Seleziona la visualizzazione **MainLobbyDisplay** dal **Posizioni** cartella. Clic **Assegna canale** dalla barra delle azioni per aprire **Assegnazione canale** .
+1. Seleziona la visualizzazione **MainLobbyDisplay** dal **Posizioni** cartella. Seleziona **Assegna canale** dalla barra delle azioni per aprire **Assegnazione canale** .
 
    >[!NOTE]
    >Per informazioni su come assegnare un canale a una visualizzazione, consulta **[Assegnazione canale](channel-assignment.md)**.
 
-1. Compila i campi (**Percorso canale**, **Priorità**, e **Eventi supportati**) dalla **Assegnazione canale** e fare clic su **Salva** per assegnare **MainAdChannel** sul display.
+1. Compila i campi (**Percorso canale**, **Priorità**, e **Eventi supportati**) dalla **Assegnazione canale** e selezionare **Salva** per assegnare **MainAdChannel** sul display.
 
    * **Percorso canale**: seleziona il percorso del file **MainAdChannel** channel
    * **Priorità**: imposta la priorità di questo canale su 1.
@@ -82,9 +82,9 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/p_usecase6.png)
 
-1. Seleziona la visualizzazione **TakeOver** dal **Posizioni** cartella. Clic **Assegna canale** dalla barra delle azioni, in modo da poter assegnare il canale di acquisizione.
+1. Seleziona la visualizzazione **TakeOver** dal **Posizioni** cartella. Seleziona **Assegna canale** dalla barra delle azioni, in modo da poter assegnare il canale di acquisizione.
 
-1. Assegnazione del **TakeOver** canale per la visualizzazione a un orario pianificato e popolando i seguenti campi dalla **Assegnazione canale** e clic su **Salva**:
+1. Assegnazione del **TakeOver** canale per la visualizzazione a un orario pianificato e popolando i seguenti campi dalla **Assegnazione canale** finestra di dialogo e selezione **Salva**:
 
    * **Percorso canale**: seleziona il percorso del file **TakeOver** channel
    * **Priorità**: imposta la priorità di questo canale su un valore maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
@@ -101,7 +101,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
      ![risorsa](assets/p_usecase7.png)
 
-     Passa alla visualizzazione da **TakeOver** > **Posizioni** > **LobbyPrincipale** > **MainLobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
+     Passa alla visualizzazione da **TakeOver** > **Posizioni** > **LobbyPrincipale** > **MainLobbyDisplay** e seleziona **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
 
      >[!NOTE]
      >È obbligatorio impostare come massima la priorità del canale di acquisizione.

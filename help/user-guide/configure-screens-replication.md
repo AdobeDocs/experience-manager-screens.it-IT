@@ -4,7 +4,7 @@ description: Scopri come configurare gli agenti di replica di Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 4%
@@ -36,17 +36,17 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 
 1. Passa all’istanza di authoring dell’AEM.
 
-1. Fai clic su Strumenti > **Sicurezza** > **Utenti**.
+1. Seleziona strumenti > **Sicurezza** > **Utenti**.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1.png)
 
 1. Cerca **`screens-receiver-user`**.
 
-1. Seleziona la **`screens-receiver-user`** e fai clic su **Abilita** dalla barra delle azioni.
+1. Seleziona la **`screens-receiver-user`** e seleziona **Abilita** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication2.png)
 
-1. Clic **OK** per confermare.
+1. Seleziona **OK** per confermare.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication3.png)
 
@@ -54,39 +54,39 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication4.png)
 
-1. Seleziona la **`screens-receiver-user`** e fai clic su **Proprietà** dalla barra delle azioni.
+1. Seleziona la **`screens-receiver-user`** e seleziona **Proprietà** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication5.png)
 
-1. Clic **Cambia password** in **Impostazioni account** dal **Dettagli** come illustrato nella figura riportata di seguito.
+1. Seleziona **Cambia password** in **Impostazioni account** dal **Dettagli** come illustrato nella figura riportata di seguito.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication6.png)
 
-1. Immettere una nuova password in **Cambia password** e fare clic su **Salva**.
+1. Immettere una nuova password in **Cambia password** e selezionare **Salva**.
 
    >[!NOTE]
    >Immetti la password utente amministratore esistente in **Password** campo.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication7.png)
 
-1. Fai clic su **Salva e chiudi**.
+1. Seleziona **Salva e chiudi**.
 
-1. Seleziona la **`screens-receiver-user`** e fai clic su **Attiva** dalla barra delle azioni.
+1. Seleziona la **`screens-receiver-user`** e seleziona **Attiva** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication8.png)
 
-1. Clic **OK** per confermare.
+1. Seleziona **OK** per confermare.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication9.png)
 
-1. Seleziona la **`screens-receiver-user`** e fai clic su **Disattiva** dalla barra delle azioni.
+1. Seleziona la **`screens-receiver-user`** e seleziona **Disattiva** dalla barra delle azioni.
 
    >[!IMPORTANT]
-   > Disattivazione **`screens-receiver-user`** disabilita questo utente solo dall’istanza Authoring e tutti gli utenti nell’istanza Publishing rimangono attivi. Non fare clic su **Disattiva** dalla barra delle azioni, poiché la disattivazione rimuove l’utente anche dalle istanze Publishing.
+   > Disattivazione **`screens-receiver-user`** disabilita questo utente solo dall’istanza Authoring e tutti gli utenti nell’istanza Publishing rimangono attivi. Non selezionare **Disattiva** dalla barra delle azioni, poiché la disattivazione rimuove l’utente anche dalle istanze Publishing.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication10.png)
 
-1. Clic **OK** per confermare.
+1. Seleziona **OK** per confermare.
 
 ## Aggiornamento delle impostazioni per l’agente di replica Screens {#replicate-agent}
 
@@ -96,22 +96,22 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 >Completa i seguenti passaggi per TUTTI gli agenti di replica AEM Screens esistenti.
 
 1. Passa all’istanza AEM.
-1. Fai clic su Strumenti > **Distribuzione** > **Replica**.
+1. Seleziona strumenti > **Distribuzione** > **Replica**.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1a.png)
 
-1. Clic **Agenti per creazione**.
+1. Seleziona **Agenti per creazione**.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1b.png)
 
-1. Cerca tutti gli agenti di replica di AEM Screens sull’autore e fai clic sul collegamento, come illustrato nella figura riportata di seguito.
+1. Cerca tutti gli agenti di replica di AEM Screens sull’istanza di authoring e seleziona il collegamento, come illustrato nella figura riportata di seguito.
 
    >[!NOTE]
    >Cerca tutti gli agenti di replica di AEM Screens. Il nome dell’agente di replica Screens include la lettera **S** nel titolo.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1c.png)
 
-1. Clic **Modifica**.
+1. Seleziona **Modifica**.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1d.png)
 
@@ -123,9 +123,9 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1-f.png)
 
-1. Fai clic su **OK**.
+1. Seleziona **OK**.
 
-1. Dopo aver completato i passaggi precedenti, fai clic su **Verifica connessione** per verificare la connessione.
+1. Dopo aver completato i passaggi precedenti, seleziona **Verifica connessione** per verificare la connessione.
 
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 

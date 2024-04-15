@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Prima di utilizzare la funzione di riconoscimento vocale, accertarsi di disporre
 
    ![immagine](assets/voice-recognition/vr-emb-1.png)
 
-1. Passa a ciascuno dei canali e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale. Clic **Modifica** dalla barra delle azioni, aggiungi contenuto (immagini/video) in base alle tue esigenze. Allo stesso modo, aggiungi contenuto a entrambi **ColdDrinks** e **HotDrinks** canale.
+1. Passa a ciascuno dei canali e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale. Seleziona **Modifica** dalla barra delle azioni, aggiungi contenuto (immagini/video) in base alle tue esigenze. Allo stesso modo, aggiungi contenuto a entrambi **ColdDrinks** e **HotDrinks** canale.
 
    I canali ora contengono risorse (immagini), come illustrato nelle figure riportate di seguito.
 
@@ -85,7 +85,7 @@ Per aggiungere tag al canale, segui la procedura riportata di seguito:
 
 1. Passa a ciascuno dei canali e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale.
 
-1. Clic **Proprietà** dalla barra delle azioni.
+1. Seleziona **Proprietà** dalla barra delle azioni.
 
    ![immagine](assets/voice-recognition/vr-5.png)
 
@@ -107,7 +107,7 @@ Per aggiungere tag al canale, segui la procedura riportata di seguito:
 
    ![immagine](assets/voice-recognition/vr-emb-7.png)
 
-1. Clic **Salva e chiudi** quando hai finito.
+1. Seleziona **Salva e chiudi** quando hai finito.
 
 
 ### Creazione di tag {#creating-tags}
@@ -116,18 +116,18 @@ Per creare i tag, segui i passaggi seguenti:
 
 1. Passa all’istanza AEM.
 
-1. Fai clic sull&#39;icona Strumenti > **Assegnazione tag**.
+1. Seleziona l’icona Strumenti > **Assegnazione tag**.
    ![immagine](assets/voice-recognition/vr-7.png)
 
-1. Clic **Crea** > **Crea spazio dei nomi**.
+1. Seleziona **Crea** > **Crea spazio dei nomi**.
    ![immagine](assets/voice-recognition/vr-tag3.png)
 
-1. Inserisci il nome del progetto, ad esempio: **Demo vocale** e fai clic su **Crea**.
+1. Inserisci il nome del progetto, ad esempio: **Demo vocale** e seleziona **Crea**.
 
-1. Seleziona la **Demo vocale** progetto e fai clic su **Crea tag** dalla barra delle azioni.
+1. Seleziona la **Demo vocale** progetto e selezione **Crea tag** dalla barra delle azioni.
    ![immagine](assets/voice-recognition/vr-tag4.png)
 
-1. Inserisci il nome del tag e fai clic su **Invia**.
+1. Inserisci il nome del tag e seleziona **Invia**.
    ![immagine](assets/voice-recognition/vr-tag5.png)
 
 Ora puoi utilizzare questi tag nel tuo progetto AEM Screens.

@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione 
 
 1. Passa al progetto AEM Screens e seleziona il progetto **DemoScreens**.
 
-1. Clic **Rapporto assegnazione contenuti** dalla barra delle azioni.
+1. Seleziona **Rapporto assegnazione contenuti** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 
@@ -58,6 +58,6 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione 
    >[!NOTE]
    >I dati visualizzati nel foglio di calcolo sono ordinati alfabeticamente in un formato di facile lettura.
 
-1. Facendo clic su uno dei canali dalla **Canali** apre la colonna **Contenuto** scheda. A sua volta, naviga direttamente in quel canale e ti fornisce informazioni sulle risorse (immagini e video) associate a quel canale specifico.
+1. Selezione di uno dei canali dalla **Canali** apre la colonna **Contenuto** scheda. A sua volta, naviga direttamente in quel canale e ti fornisce informazioni sulle risorse (immagini e video) associate a quel canale specifico.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

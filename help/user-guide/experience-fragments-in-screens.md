@@ -10,7 +10,7 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -97,11 +97,11 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 1. **Creazione di Live Copy di un frammento esperienza**
 
    1. Passa alla home page dell’AEM.
-   1. Seleziona **Frammenti esperienza** ed evidenzia **ScreensFragment** e fai clic su **Variante come Live Copy**, come illustrato nella figura seguente:
+   1. Seleziona **Frammenti esperienza** ed evidenzia **ScreensFragment** e seleziona **Variante come Live Copy**, come illustrato nella figura seguente:
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Seleziona la **ScreensFragment** da **Crea Live Copy** e fai clic su **Successivo**.
+   c. Seleziona la **ScreensFragment** da **Crea Live Copy** procedura guidata e seleziona **Successivo**.
 
    d. Inserire **Titolo** e **Nome** as **Schermi**.
 
@@ -117,7 +117,7 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 
    **Modifica delle proprietà di un frammento Screens**
 
-   1. Accedi a **ScreensFragment** (creato nei passaggi precedenti) e fare clic su **Proprietà** dalla barra delle azioni.
+   1. Accedi a **ScreensFragment** (creato nei passaggi precedenti) e selezionare **Proprietà** dalla barra delle azioni.
 
    1. Seleziona la **Configurazione offline** come illustrato nella figura riportata di seguito.
 
@@ -128,9 +128,9 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 1. **Utilizzo di Frammento esperienza come componente nel canale Screens**
 
    1. Passa al canale Screens in cui desideri utilizzare il **Schermi** frammento.
-   1. Seleziona la **TestChannel** e fai clic su **Modifica** dalla barra delle azioni.
+   1. Seleziona la **TestChannel** e seleziona **Modifica** dalla barra delle azioni.
 
-   1. Fai clic sull’icona dei componenti nella scheda laterale.
+   1. Seleziona l’icona dei componenti dalla scheda laterale.
    1. Trascina la **Frammento esperienza** al tuo canale.
 
    ![screen_shot_2019-07-29at123115pm](assets/screen_shot_2019-07-29at123115pm.png)
@@ -179,11 +179,11 @@ Poiché il frammento di esperienza creato è una Live Copy da **Sites** e modifi
 
 Segui i passaggi seguenti per propagare le modifiche dal canale principale al canale di destinazione:
 
-1. Seleziona il frammento di esperienza dalla sezione **Sites** (principale) e fai clic sull’icona della matita per modificare gli elementi nel frammento di esperienza.
+1. Seleziona il frammento di esperienza dalla sezione **Sites** (principale) e seleziona l’icona a forma di matita per modificare gli elementi nel frammento di esperienza.
 
    ![screen_shot_2018-06-08at122655pm](assets/screen_shot_2018-06-08at122655pm.png)
 
-1. Seleziona il frammento di esperienza e fai clic sull’icona a forma di chiave inglese per aprire la finestra di dialogo e modificare le immagini.
+1. Seleziona il frammento di esperienza e l’icona a forma di chiave inglese per aprire la finestra di dialogo e modificare le immagini.
 
    ![screen_shot_2018-06-08at25031pm](assets/screen_shot_2018-06-08at25031pm.png)
 
@@ -195,7 +195,7 @@ Segui i passaggi seguenti per propagare le modifiche dal canale principale al ca
 
    ![screen_shot_2018-06-08at25608pm](assets/screen_shot_2018-06-08at25608pm.png)
 
-1. Seleziona il frammento di esperienza e fai clic sull’icona Rollout per propagare le modifiche al frammento utilizzato nel canale.
+1. Seleziona il frammento di esperienza e l’icona Rollout, in modo da poter propagare le modifiche al frammento utilizzato nel canale.
 
    ![screen_shot_2018-06-08at31352pm](assets/screen_shot_2018-06-08at31352pm.png)
 
@@ -211,7 +211,7 @@ Per confermare le modifiche apportate al canale, segui la procedura riportata di
 
 1. Accedi a **Schermi** > **Canali** > **TestChannel**.
 
-1. Clic **Anteprima** dalla barra delle azioni.
+1. Seleziona **Anteprima** dalla barra delle azioni.
 
 L’immagine seguente illustra le modifiche apportate al **TestChannel**:\
 ![screen_shot_2018-06-08at33351pm](assets/screen_shot_2018-06-08at33351pm.png)

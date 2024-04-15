@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -23,13 +23,13 @@ Questa sezione descrive una funzionalità per importare in blocco un set di posi
 
 ## Introduzione {#introduction}
 
-Quando imposti un progetto AEM Screens per la prima volta nell’organizzazione, crea anche tutte le posizioni. Se il progetto coinvolge molte posizioni, si ottiene una noiosa attività che comporta molti clic e attese nell’interfaccia utente.
+Quando imposti un progetto AEM Screens per la prima volta nell’organizzazione, crea anche tutte le posizioni. Se il progetto coinvolge molte posizioni, si ottiene una noiosa attività che richiede molta selezione e attesa nell’interfaccia utente.
 
 L’obiettivo di questa funzione è ridurre il tempo necessario per configurare il progetto e risolvere quindi i problemi di budget.
 
 Consentendo all&#39;autore di fornire un foglio di calcolo come file di input e consentendo al sistema di creare automaticamente la struttura di posizioni nel back-end, questa funzione:
 
-* *migliora le prestazioni rispetto al clic manuale nell’interfaccia utente*
+* *offre prestazioni notevolmente migliori rispetto alla selezione manuale tramite l’interfaccia utente*
 * *consente al cliente di esportare i siti di cui dispone dal proprio sistema e di importarli facilmente direttamente nell&#39;AEM*
 
 Questo consente di risparmiare tempo e denaro durante la configurazione iniziale del progetto o quando si estende l’AEM Screens esistente a nuove posizioni.
@@ -107,11 +107,11 @@ Per importare un file in una cartella di percorso contenente campi obbligatori m
 
 1. Il **Importa** viene visualizzata la procedura guidata. Selezionare il file per il progetto con le posizioni o selezionare il file (***minimal-file.xls***) scaricato da *Prerequisiti* sezione.
 
-   Dopo aver selezionato il file, fai clic su **Successivo**.
+   Dopo aver selezionato il file, seleziona **Successivo**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Verifica il contenuto del file (percorsi) dall’Importazione guidata e fai clic su **Importa**.
+1. Verifica il contenuto del file (percorsi) dall’Importazione guidata e seleziona **Importa**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

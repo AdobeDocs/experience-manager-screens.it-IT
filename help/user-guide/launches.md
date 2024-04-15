@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Seleziona il canale **FutureLaunch** e fai clic su **Crea lancio** dalla barra delle azioni.
+1. Seleziona il canale **FutureLaunch** e seleziona **Crea lancio** dalla barra delle azioni.
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. Il **Crea lancio** viene aperta la procedura guidata. È possibile selezionare il canale già visibile nella procedura guidata oppure fare clic su **+ Aggiungi canali** per aggiungere il canale per il quale desideri creare il lancio.
+1. Il **Crea lancio** viene aperta la procedura guidata. Puoi selezionare il canale già visibile nella procedura guidata oppure selezionare **+ Aggiungi canali** per aggiungere il canale per il quale desideri creare il lancio.
 
-1. Clic **Successivo** dal **Crea lancio** procedura guidata. Il **Includi pagine secondarie** è selezionata per impostazione predefinita.
+1. Seleziona **Successivo** dal **Crea lancio** procedura guidata. Il **Includi pagine secondarie** è selezionata per impostazione predefinita.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >È possibile utilizzare **+ Aggiungi canali** per aggiungere un altro canale per il quale desideri creare il lancio.
 
-   Da utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e fai clic su **Seleziona**.
+   Da utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e seleziona **Seleziona**.
 
    Il **Seleziona** l’opzione è disabilitata se tenti di selezionare più canali o una cartella per l’aggiunta del lancio.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Dopo aver selezionato il canale/i canali, fai clic su **Successivo**.
+   Dopo aver selezionato i canali, seleziona **Successivo**.
 
 
-1. Inserisci il **Titolo lancio** as **SummerPromotions** e non è necessario impostare **Data lancio**, come illustrato nella figura seguente. Fai clic su **Crea**.
+1. Inserisci il **Titolo lancio** as **SummerPromotions** e non è necessario impostare **Data lancio**, come illustrato nella figura seguente. Seleziona **Crea**.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Per modificare le proprietà del lancio, segui i passaggi seguenti:
 
    ![immagine](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Seleziona il lancio e fai clic su **Proprietà lancio** dal **LANCI IN SOSPESO** pannello.
+1. Seleziona il lancio e seleziona **Proprietà lancio** dal **LANCI IN SOSPESO** pannello.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-19.png)
 

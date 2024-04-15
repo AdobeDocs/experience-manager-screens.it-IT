@@ -1,7 +1,7 @@
 ---
 title: Configurazione del flusso di lavoro di posizionamento diretto
 description: Questa pagina evidenzia la configurazione del flusso di lavoro di posizionamento diretto.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Questa sezione tratta i seguenti argomenti:
 
 La configurazione del flusso di lavoro di posizionamento diretto mappa un canale di progetto AEM Screens in una cartella specifica delle risorse e consente di posizionare qualsiasi risorsa in tale cartella. L’Adobe consiglia di attivare un aggiornamento offline in blocco per completare la pubblicazione.
 
-In alternativa, come autore di contenuti puoi fare clic manualmente su **Aggiorna contenuto offline**.
+In alternativa, come autore di contenuti puoi selezionare manualmente **Aggiorna contenuto offline**.
 
 >[!NOTE]
 >

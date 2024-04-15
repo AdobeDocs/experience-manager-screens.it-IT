@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -46,17 +46,17 @@ Segui i passaggi del caso d’uso seguenti per implementare l’attivazione dell
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
    1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
-   1. Seleziona la **Fogli A1 1** e fai clic su **Modifica**.
+   1. Seleziona la **Fogli A1 1** e seleziona **Modifica**.
    1. Seleziona la proprietà di confronto e fai clic su **Configurazione** icona.
    1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**.
    1. Seleziona la **Operatore** as **uguale** dal menu a discesa.
    1. Inserisci il **Valore** as **1**.
-   1. Analogamente, selezionare **Fogli A1 2** e fai clic su **Modifica**.
+   1. Analogamente, selezionare **Fogli A1 2** e seleziona **Modifica**.
    1. Seleziona la proprietà di confronto e fai clic su **Configurazione** icona.
    1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**.
    1. Seleziona la **Operatore** as **2**.
 
-1. Naviga e seleziona il canale () e fai clic su **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenRestaurant**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
+1. Naviga e seleziona il tuo canale () e seleziona **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenRestaurant**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
 
    >[!NOTE]
    >
@@ -70,10 +70,10 @@ Segui i passaggi del caso d’uso seguenti per implementare l’attivazione dell
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Seleziona **Targeting** dall’editor e seleziona **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
+1. Seleziona **Targeting** dall’editor e seleziona **Marchio** e **Attività** dal menu a discesa e seleziona **Inizia impostazione destinazione**.
 1. **Controllo dell’anteprima**
 
-   1. Clic **Anteprima.** Inoltre, apri i fogli Google e aggiornane il valore.
+   1. Seleziona **Anteprima.** Inoltre, apri i fogli Google e aggiornane il valore.
    1. Aggiornare il valore in **`Restaurant1`** e **`Restaurant2`** colonne. Se **`Restaurant1`** > **`Restaurant2`,** dovrebbe essere possibile visualizzare un&#39;immagine di *Bistecca* altri prodotti alimentari, *Thailandese* l’immagine del cibo viene visualizzata sullo schermo.
 
    ![risultato5](assets/result5.gif)

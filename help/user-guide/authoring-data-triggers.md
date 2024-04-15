@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -45,17 +45,17 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
 1. Passa a uno dei canali di AEM Screens. I passaggi seguenti mostrano come abilitare il targeting utilizzando **DataDrivenRetail** *(canale sequenza)* creato in un canale AEM Screens.
 
-1. Seleziona il canale **DataDrivenRetail** e fai clic su **Proprietà** dalla barra delle azioni.
+1. Seleziona il canale **DataDrivenRetail** e seleziona **Proprietà** dalla barra delle azioni.
 
    ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
 1. Seleziona la **Personalizzazione** in modo da poter impostare le configurazioni ContextHub e selezionare il percorso ContextHub e Segmenti.
 
-   1. Seleziona la **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e fai clic su **Seleziona**.
+   1. Seleziona la **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e seleziona **Seleziona**.
 
-   1. Seleziona la **Percorso segmenti** as **conf** > **`We.Retail`** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Seleziona**.
+   1. Seleziona la **Percorso segmenti** as **conf** > **`We.Retail`** > **impostazioni** > **wcm** > **segmenti** e seleziona **Seleziona**.
 
-   1. Fai clic su **Salva e chiudi**.
+   1. Seleziona **Salva e chiudi**.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
    ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Naviga e seleziona la **DataDrivenRetail** da **DataDrivenAssets** > **Canali** e fai clic su **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse nell’editor canali.
+1. Naviga e seleziona la **DataDrivenRetail** da **DataDrivenAssets** > **Canali** e seleziona **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse nell’editor canali.
 
    >[!NOTE]
    >
@@ -71,9 +71,9 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
    ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Clic **Targeting**.
+1. Seleziona **Targeting**.
 
-1. Seleziona **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
+1. Seleziona **Marchio** e **Attività** dal menu a discesa e seleziona **Inizia impostazione destinazione**.
 
 ### Ulteriori informazioni: casi di utilizzo di esempio {#learn-more-example-use-cases}
 

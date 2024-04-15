@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Segui i passaggi riportati di seguito per passare al dashboard di dispositivo:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Seleziona il dispositivo (**NewTestDevice**) e fai clic su **Dashboard** dalla barra delle azioni.
+1. Seleziona il dispositivo (**NewTestDevice**) e seleziona **Dashboard** dalla barra delle azioni.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -89,7 +89,7 @@ Seleziona **Proprietà** in modo da visualizzare **Proprietà dispositivo** . Pu
 
 Puoi visualizzare lo screenshot del lettore dal dispositivo dalla sezione **SCHERMATA DEL LETTORE** pannello.
 
-Fai clic su (**...**) nell&#39;angolo in alto a destra del pannello Schermata del lettore e selezionare **Aggiorna schermata** per visualizzare l&#39;istantanea del lettore in esecuzione.
+Seleziona (**...**) nell&#39;angolo in alto a destra del pannello Schermata del lettore e selezionare **Aggiorna schermata** per visualizzare l&#39;istantanea del lettore in esecuzione.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -132,7 +132,7 @@ Segui i passaggi seguenti per abilitare il filtro Apache Sling Referrer Allow Em
 
 1. Accedi a **Adobe Experience Manager configurazione** della console Web, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
 1. Seleziona l&#39;opzione **allow.empty** .
-1. Fai clic su **Salva**.
+1. Seleziona **Salva**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 

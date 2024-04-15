@@ -2,7 +2,7 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Scopri come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Schermi 
 1. Accedi a **Risorse** nell’istanza AEM.
 1. Crea una versione della risorsa che si adatti meglio alla visualizzazione del signage, ad esempio: `seahorse.jpg`.
 1. Scegli il pattern di denominazione della rappresentazione, ad esempio:`landscape`, simile a quanto definito in **pattern** proprietà in **CRXDE Liti**. Consulta [Aggiunta di regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules) per ulteriori dettagli.
-1. Clic **Aggiungi rappresentazione** per caricare la rappresentazione, come illustrato nella figura seguente.
+1. Seleziona **Aggiungi rappresentazione** per caricare la rappresentazione, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
 

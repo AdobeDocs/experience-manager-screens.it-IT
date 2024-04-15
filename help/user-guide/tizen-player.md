@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il
 
 Segui i passaggi seguenti per configurare il nome in Tizen player:
 
-1. Fare clic sul pulsante del menu sul telecomando.
+1. Selezionare il pulsante del menu sul telecomando.
 1. Accedi a **rete** > **Nome dispositivo** in modo da poter assegnare un nome al lettore.
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
@@ -55,11 +55,11 @@ Segui i passaggi seguenti per configurare il nome in Tizen player:
 Segui i passaggi seguenti sul dispositivo Samsung per completare l’installazione del lettore AEM Screens sul dispositivo:
 
 1. Passa al dispositivo Samsung e accendi.
-1. Fai clic su **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
+1. Seleziona la **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
 1. Scorri verso il basso e seleziona la **Riproduci tramite** e modificarla in **Utilità di avvio URL** opzione.
    ![immagine](/help/user-guide/assets/tizen/rms-2.png)
 1. Quando l&#39;utilità di avvio URL è impostata, premere il tasto **Home** dal telecomando.
-1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e fare clic su **Fine**.
+1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e selezionare **Fine**.
 
    >[!NOTE]
    >Il lettore Tizen deve essere in grado di connettersi al server http.

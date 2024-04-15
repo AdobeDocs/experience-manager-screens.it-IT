@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Effettua le seguenti operazioni:
 1. Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno**.
    ![immagine](/help/user-guide/assets/granite-updates.png)
 
-1. Fai clic su **Salva**.
+1. Seleziona **Salva**.
 
 
 ### Metodo Ad Hoc {#ad-hoc-method}
@@ -55,7 +55,7 @@ Il metodo Ad Hoc consente di installare il lettore Android™ più recente (*.ex
 Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completare l’installazione ad hoc:
 
 1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Accedi a **Configurazione** dal menu Azioni sinistro, inserisci la posizione (indirizzo) dell’istanza AEM a cui desideri connetterti e fai clic su **Salva**.
+1. Accedi a **Configurazione** dal menu di azione sinistro, inserisci la posizione (indirizzo) dell’istanza AEM a cui desideri connetterti e seleziona **Salva**.
 
 1. Accedi a **Dispositivo** **Registrazione** dal menu Azioni sinistro, per controllare lo stato del processo di registrazione del dispositivo.
 

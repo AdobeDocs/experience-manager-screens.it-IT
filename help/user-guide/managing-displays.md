@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -66,9 +66,9 @@ La configurazione di un dispositivo funge da segnaposto per un dispositivo di di
 1. Selezionare la cartella di visualizzazione e selezionare **Visualizza dashboard** nella barra delle azioni.
 1. Seleziona **+ Aggiungi configurazione dispositivo** in alto a destra nella **Dispositivi** pannello.
 
-1. Seleziona la **Configurazione dispositivo** come modello richiesto come e tocca o fai clic su **Successivo**.
+1. Seleziona la **Configurazione dispositivo** come modello richiesto e seleziona **Successivo**.
 
-1. Inserisci le proprietà richieste e tocca o fai clic su **Crea**.
+1. Inserisci le proprietà come richiesto e seleziona **Crea**.
 
 La configurazione del dispositivo viene creata e aggiunta alla visualizzazione corrente (nella seguente dimostrazione, la nuova configurazione del dispositivo è *DeviceConfig*).
 
@@ -102,12 +102,12 @@ La dashboard di visualizzazione offre diversi pannelli per la gestione dei dispo
 
 Il **INFORMAZIONI SULLA VISUALIZZAZIONE** Il pannello fornisce le proprietà di visualizzazione.
 
-Fai clic su (**...**) nell&#39;angolo in alto a destra nella **INFORMAZIONI SULLA VISUALIZZAZIONE** per visualizzare le proprietà e visualizzare l&#39;anteprima della visualizzazione.
+Seleziona (**...**) nell&#39;angolo in alto a destra nella **INFORMAZIONI SULLA VISUALIZZAZIONE** per visualizzare le proprietà e visualizzare l&#39;anteprima della visualizzazione.
 
 
 #### Visualizzazione delle proprietà {#viewing-properties}
 
-Clic **Proprietà** in modo da poter visualizzare o modificare le proprietà dello schermo.
+Seleziona **Proprietà** in modo da poter visualizzare o modificare le proprietà dello schermo.
 
 Inoltre, è possibile regolare il valore del timer dell’evento per il canale interattivo in **Timeout di inattività** proprietà in **Visualizzazione** scheda. Il valore predefinito è impostato su *300 secondi*.
 
@@ -125,7 +125,7 @@ Il **DISPOSITIVI** Il pannello fornisce informazioni sulle configurazioni del di
 
 Seleziona (**...**) nell&#39;angolo in alto a destra nella **DISPOSITIVI** per aggiungere configurazioni di dispositivi e aggiornare i dispositivi.
 
-Inoltre, fai clic sulla configurazione del dispositivo per visualizzare le proprietà, assegnare un dispositivo o eliminarlo completamente.
+Inoltre, seleziona la configurazione dispositivo per visualizzare le proprietà, assegnare un dispositivo o eliminarlo completamente.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

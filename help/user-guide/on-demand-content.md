@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -69,12 +69,12 @@ Ad esempio, l’immagine seguente mostra come gestire e aggiornare solo le pagin
    >
    >
    >    1. Il flusso di lavoro non funziona se nel progetto non sono presenti modifiche e nulla per **Aggiorna contenuto offline**.
-   >    1. Il flusso di lavoro non funziona se l’autore non completa il processo di replica (i contenuti vengono ancora caricati nell’istanza Publish) dopo aver fatto clic su **Pubblica** nel flusso di lavoro di gestione della pubblicazione.
+   >    1. Il flusso di lavoro non funziona se l’autore non completa il processo di replica (i contenuti vengono ancora caricati nell’istanza di pubblicazione) dopo aver selezionato la **Pubblica** nel flusso di lavoro di gestione della pubblicazione.
 
    >[!CAUTION]
-   >Se in qualità di autore o creatore di contenuti desideri visualizzare le modifiche nei dispositivi collegati all’istanza di authoring, fai clic su **Aggiorna contenuto offline** dal dashboard del canale o selezionando il progetto. In questo caso, l’aggiornamento del contenuto offline viene eseguito solo nell’istanza di authoring.
+   >Se in qualità di autore o creatore di contenuti desideri visualizzare le modifiche nei dispositivi collegati all’istanza di authoring, seleziona **Aggiorna contenuto offline** dal dashboard del canale o selezionando il progetto. In questo caso, l’aggiornamento del contenuto offline viene eseguito solo nell’istanza di authoring.
 
-1. Passa al progetto e fai clic su **Aggiorna contenuto offline** dalla barra delle azioni. Questa azione inoltra lo stesso comando all’istanza Publish, in modo che vengano creati anche i file ZIP non in linea nell’istanza Publish.
+1. Passa al progetto e seleziona **Aggiorna contenuto offline** dalla barra delle azioni. Questa azione inoltra lo stesso comando all’istanza Publish, in modo che vengano creati anche i file ZIP non in linea nell’istanza Publish.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 

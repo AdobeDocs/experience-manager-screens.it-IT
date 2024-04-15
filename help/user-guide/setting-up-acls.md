@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -30,7 +30,7 @@ I passaggi seguenti riepilogano la procedura per la configurazione di ACL per un
 
    ![screen_shot_2018-02-16alle10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
-1. Clic **Gruppi** e inserisci un ID (ad esempio, Acme).
+1. Seleziona **Gruppi** e inserisci un ID (ad esempio, Acme).
 
    In alternativa, utilizza questo collegamento, `http://localhost:4502/libs/granite/security/content/groupadmin.html`.
 
@@ -38,11 +38,11 @@ I passaggi seguenti riepilogano la procedura per la configurazione di ACL per un
 
    ![screen_shot_2018-02-16alle12648pm](assets/screen_shot_2018-02-16at12648pm.png)
 
-1. Seleziona **Collaboratori** dall&#39;elenco e fare doppio clic su di esso.
+1. Seleziona **Collaboratori** dall&#39;elenco e selezionarlo.
 
    ![screen_shot_2018-02-18alle33938pm](assets/screen_shot_2018-02-18at33938pm.png)
 
-1. Aggiungi il **Acme** (progetto che hai creato) a **Aggiungi membri al gruppo**. Fai clic su **Salva**.
+1. Aggiungi il **Acme** (progetto che hai creato) a **Aggiungi membri al gruppo**. Seleziona **Salva**.
 
    ![screen_shot_2018-02-18alle35630pm](assets/screen_shot_2018-02-18at35630pm.png)
 
@@ -56,7 +56,7 @@ I passaggi seguenti riepilogano la procedura per la configurazione di ACL per un
 
 1. Impostare le autorizzazioni per il gruppo **Acme** utilizzando questo `(http://localhost:4502/useradmin)`.
 
-   Seleziona il gruppo **Acme** e fai clic su **autorizzazioni**.
+   Seleziona il gruppo **Acme** e seleziona la **autorizzazioni**.
 
    ![screen_shot_2018-02-18alle41534pm](assets/screen_shot_2018-02-18at41534pm.png)
 

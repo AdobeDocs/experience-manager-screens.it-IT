@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
 1. **Creazione di un canale sequenza**
 
-   1. Seleziona la **Canali** cartella e fai clic su **Crea**.
+   1. Seleziona la **Canali** cartella e seleziona **Crea**.
 
    1. Seleziona **Canale sequenza** dalla procedura guidata e crea il canale con titolo **MainAdChannel**.
 
@@ -57,7 +57,7 @@ Per impostare un canale di emergenza, procedere come segue:
 1. **Aggiunta di contenuto al canale della sequenza**
 
    1. Seleziona il canale (**MainAdChannel**).
-   1. Clic **Modifica** dalla barra delle azioni.
+   1. Seleziona **Modifica** dalla barra delle azioni.
    1. Trascina alcune risorse sul tuo canale.
 
    ![screen_shot_2019-02-21at40053pm](assets/screen_shot_2019-02-21at40053pm.png)
@@ -65,7 +65,7 @@ Per impostare un canale di emergenza, procedere come segue:
 1. **Creazione di un canale di emergenza**
 
    1. Seleziona la **Canali** cartella.
-   1. Fai clic su **Crea**.
+   1. Seleziona **Crea**.
    1. Seleziona **Canale sequenza** dalla procedura guidata e crea il canale con titolo **EmergencyChannel**.
 
    >[!NOTE]
@@ -77,7 +77,7 @@ Per impostare un canale di emergenza, procedere come segue:
 1. **Aggiunta di contenuto al canale di emergenza**
 
    1. Seleziona il canale (**Canale di emergenza)**.
-   1. Clic **Modifica** dalla barra delle azioni.
+   1. Seleziona **Modifica** dalla barra delle azioni.
    1. Trascina nel canale la risorsa da eseguire in caso di emergenza.
 
    ![screen_shot_2019-02-21at40516pm](assets/screen_shot_2019-02-21at40516pm.png)
@@ -85,36 +85,36 @@ Per impostare un canale di emergenza, procedere come segue:
 1. **Creazione di una posizione**
 
    1. Accedi a **Posizioni** cartella.
-   1. Clic **Crea** dalla barra delle azioni e crea una posizione denominata **Archivia** dalla procedura guidata.
+   1. Seleziona **Crea** dalla barra delle azioni e crea una posizione denominata **Archivia** dalla procedura guidata.
 
    ![screen_shot_2019-02-22at121638pm](assets/screen_shot_2019-02-22at121638pm.png)
 
 1. **Creazione di visualizzazioni nella tua posizione**
 
-   Passa alla tua posizione (**Archivia**) e fai clic su **Crea** dalla barra delle azioni. Seguendo la procedura guidata, crea due **Display** con titolo **StoreFront** e **StoreRear**.
+   Passa alla tua posizione (**Archivia**) e seleziona **Crea** dalla barra delle azioni. Seguendo la procedura guidata, crea due **Display** con titolo **StoreFront** e **StoreRear**.
 
    ![screen_shot_2019-02-22at122556pm](assets/screen_shot_2019-02-22at122556pm.png)
 
 1. **Creazione di una pianificazione**
 
    1. Accedi al tuo **Schedules** cartella.
-   1. Clic **Crea** dalla barra delle azioni.
+   1. Seleziona **Crea** dalla barra delle azioni.
    1. Al termine della procedura guidata, crea una pianificazione denominata come **StoreSchedule**.
 
    ![screen_shot_2019-02-22at122845pm](assets/screen_shot_2019-02-22at122845pm.png)
 
 1. Assegnare entrambe le visualizzazioni alla pianificazione e impostare le priorità
 
-   1. Seleziona la pianificazione **(StoreSchedule)** e fai clic su **Dashboard** dalla barra delle azioni.
+   1. Seleziona la pianificazione **(StoreSchedule)** e seleziona **Dashboard** dalla barra delle azioni.
 
-   1. Clic **+ Assegna canale** dal **CANALI ASSEGNATI** pannello.
+   1. Seleziona **+ Assegna canale** dal **CANALI ASSEGNATI** pannello.
 
    1. Dalla sezione **Assegnazione canale** finestra di dialogo:
 
       1. Seleziona il percorso per **MainAdChannel**
       1. Imposta il **Priorità** as 2
       1. Imposta gli eventi supportati come **Caricamento iniziale** e **Schermata di inattività**.
-      1. Clic **Salva**
+      1. Seleziona **Salva**
 
       Analogamente, esegui nuovamente gli stessi passaggi per assegnare il **EmergencyChannel** e impostarne **Priorità**.
 
@@ -124,7 +124,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
    ![screen_shot_2019-03-04at104636am](assets/screen_shot_2019-03-04at104636am.png)
 
-1. Clic **+ Assegna canale** dal **CANALI ASSEGNATI** pannello.
+1. Seleziona **+ Assegna canale** dal **CANALI ASSEGNATI** pannello.
 
 1. Dalla sezione **Assegnazione canale** finestra di dialogo:
 
@@ -133,7 +133,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
    1. Imposta gli eventi supportati come **Caricamento iniziale**, **Schermata di inattività**, e **Interazione utente**
 
-   1. Clic **Salva**
+   1. Seleziona **Salva**
 
    ![screen_shot_2019-03-04at104741am](assets/screen_shot_2019-03-04at104741am.png)
 
@@ -145,12 +145,12 @@ Per impostare un canale di emergenza, procedere come segue:
 
    1. Passa a ogni visualizzazione, ad esempio **EmergencyChannel** > **Posizioni** > **Archivia** >**StoreFront**.
 
-   1. Clic **Dashboard** dalla barra delle azioni.
-   1. Clic **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e fai clic su **+Assegna pianificazione**.
+   1. Seleziona **Dashboard** dalla barra delle azioni.
+   1. Seleziona **...** dal **CANALI E PIANIFICAZIONI ASSEGNATI** e seleziona ulteriormente **+Assegna pianificazione**.
 
    1. Seleziona il percorso della pianificazione (ad esempio, qui, **EmergencyChannel** > **Schedules** >**StoreSchedule**).
 
-   1. Fai clic su **Salva**.
+   1. Seleziona **Salva**.
 
    È possibile visualizzare la programmazione assegnata dalla **StoreSchedule** dashboard.
    ![screen_shot_2019-03-04at122003pm](assets/screen_shot_2019-03-04at122003pm.png)
@@ -169,11 +169,11 @@ In caso di emergenza, effettuare le seguenti operazioni:
 
    ![screen_shot_2019-02-25at101112pm](assets/screen_shot_2019-02-25at101112pm.png)
 
-1. Seleziona la **EmergencyChannel** dal **StoreSchedule** dashboard e fai clic su **Modifica assegnazione**.
+1. Seleziona la **EmergencyChannel** dal **StoreSchedule** dashboard e selezione **Modifica assegnazione**.
 
    ![screen_shot_2019-02-25at101239pm](assets/screen_shot_2019-02-25at101239pm.png)
 
-1. Aggiornare il **Priorità** del **EmergencyChannel** a **3** dal **Assegnazione canale** e fare clic su **Salva**.
+1. Aggiornare il **Priorità** del **EmergencyChannel** a **3** dal **Assegnazione canale** e selezionare **Salva**.
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
