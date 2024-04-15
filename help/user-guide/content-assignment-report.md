@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Per ulteriori informazioni, consulta le seguenti risorse:
 
 ## Download del report di assegnazione contenuti {#downloading-content-assignment-report-fp}
 
-Dopo aver configurato il progetto AEM Screens e aver assegnato le visualizzazioni a ciascuna delle posizioni come mostrato nei passaggi precedenti, è possibile scaricare il rapporto Assegnazione contenuto.
+Dopo aver configurato il progetto AEM Screens e aver assegnato le visualizzazioni a ciascuna delle posizioni come illustrato nei passaggi precedenti, scarica il rapporto Assegnazione contenuto.
 
 >[!NOTE]
 >È possibile accedere alla funzione Report assegnazione contenuto solo a livello di progetto.

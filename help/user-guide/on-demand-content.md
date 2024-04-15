@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,6 @@ Segui i passaggi seguenti per fornire aggiornamenti dei contenuti da Autore > Pu
 
 ### Riassegnazione di canali e dispositivi: {#channel-and-device-re-assignment}
 
-Se è stato riassegnato un dispositivo, è necessario pubblicare sia la visualizzazione iniziale che quella nuova, una volta che il dispositivo è stato riassegnato alla nuova visualizzazione.
+Se hai riassegnato un dispositivo, pubblica sia la visualizzazione iniziale che quella nuova, una volta che il dispositivo è stato riassegnato alla nuova visualizzazione.
 
-Allo stesso modo, se avete riassegnato un canale, dovete pubblicare sia la visualizzazione iniziale che quella nuova, una volta che il canale è stato riassegnato alla nuova visualizzazione.
+Allo stesso modo, se avete riassegnato un canale, pubblicate sia la visualizzazione iniziale che quella nuova, una volta che il canale è stato riassegnato alla nuova visualizzazione.

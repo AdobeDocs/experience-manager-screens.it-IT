@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Vedi un [Esempio di criterio JSON](#example-json) e una tabella che descrive l&#
 
 1. Utilizza uno strumento di esplorazione dei file MDM, ADB o Android™ Studio per rilasciare questo file JSON per la policy nel *sdcard* sul dispositivo Android™.
 
-1. Una volta distribuito il file, usa MDM per installare l’applicazione del lettore.
+1. Quando il file viene distribuito, utilizzare MDM per installare l&#39;applicazione del lettore.
 
 1. All’avvio dell’applicazione del lettore, questo file di configurazione viene letto e punta al server AEM applicabile in cui viene registrato e quindi controllato.
 
@@ -179,7 +179,7 @@ Quando si distribuisce in massa il lettore Android™, diventa noioso registrare
 Puoi assegnare un nome descrittivo al tuo lettore Android™, inviando in tal modo il nome del dispositivo assegnato all’AEM (Adobe Experience Manager). Questa funzionalità consente non solo di denominare il lettore Android™, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
->È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
+>È possibile scegliere il nome del lettore solo prima della registrazione. Dopo la registrazione del lettore, il nome del lettore non può più essere modificato.
 
 Per configurare il nome in Android™ Player, segui i passaggi seguenti:
 

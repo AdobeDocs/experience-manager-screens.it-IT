@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -62,15 +62,15 @@ Il primo passaggio consiste nel creare un progetto AEM Screens.
    ![immagine](assets/kickstart/demo-1.png)
 
    >[!NOTE]
-   >Una volta creato il progetto, si torna alla home page del progetto Schermi. Ora puoi selezionare il progetto. In un progetto, ci sono cinque cartelle diverse denominate **Applicazioni**, **Canali**, **Dispositivi**, **Posizioni**, e **Schedules**.
+   >Dopo aver creato il progetto, si torna alla home page del progetto AEM Screens. Ora puoi selezionare il progetto. In un progetto, ci sono cinque cartelle diverse denominate **Applicazioni**, **Canali**, **Dispositivi**, **Posizioni**, e **Schedules**.
 
 ### Creazione di un canale {#creating-channel}
 
-Dopo aver creato il progetto AEM Screens, devi creare un canale in cui gestire il contenuto.
+Dopo aver creato il progetto AEM Screens, crea un canale in cui gestire il contenuto.
 
 Per creare un canale per il progetto, segui i passaggi seguenti:
 
-1. Dopo aver creato un progetto, seleziona **DemoScreens** e seleziona la **Canali** come illustrato nella figura seguente. Clic **+ Crea** dalla barra delle azioni.
+1. Dopo aver creato un progetto, seleziona la **DemoScreens** e seleziona la **Canali** come illustrato nella figura seguente. Clic **+ Crea** dalla barra delle azioni.
 
    ![immagine](assets/kickstart/demo-2.png)
 
@@ -146,7 +146,7 @@ Dopo aver creato una posizione, creane una corrispondente.
 
 ### Assegnazione di un canale {#assigning-channel}
 
-Al termine della configurazione del progetto, devi assegnare il canale a una visualizzazione per visualizzare il contenuto.
+Al termine della configurazione del progetto, assegna il canale a una visualizzazione per visualizzare il contenuto.
 
 1. Passa alla visualizzazione desiderata da **DemoScreens** > **Posizioni** > **TestLocation** > **LobbyDisplay**.
 
@@ -194,7 +194,7 @@ Registra il dispositivo utilizzando il dashboard AEM.
 >1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.
 >1. Clic **AEM Screens** Plug-in per avviare Chrome Player. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
 
-Una volta che il lettore Chrome OS è acceso, segui i passaggi seguenti per registrare un dispositivo Chrome.
+Dopo che il lettore Chrome OS è acceso, segui i passaggi seguenti per registrare un dispositivo Chrome.
 
 1. Accedi a **Dispositivi** del progetto dall’istanza AEM.
 

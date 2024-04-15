@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Prima di creare un flusso di lavoro per i video, completa i seguenti prerequisit
 
 ## Creazione di un flusso di lavoro di spaziatura video {#creating-a-video-padding-workflow-1}
 
-Per creare un flusso di lavoro di spaziatura video, devi creare un flusso di lavoro per il video e quindi utilizzarlo nel canale del progetto AEM Screens.
+Per creare un flusso di lavoro per la spaziatura video, crea un flusso di lavoro per il video e quindi utilizza lo stesso nel canale del progetto AEM Screens.
 
 Per creare e utilizzare il flusso di lavoro, segui i passaggi seguenti:
 

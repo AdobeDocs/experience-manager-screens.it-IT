@@ -1,17 +1,13 @@
 ---
 title: Matrice di compatibilità per AEM Screens Player
-seo-title: Compatibility Matrix for AEM Screens Player
-description: In questa pagina sono elencati i lettori AEM Screens con la rispettiva versione di AEM Screens.
-seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
+description: Ulteriori informazioni sui lettori AEM Screens e sulle rispettive versioni di AEM Screens.
 page-status-flag: de-activated
-uuid: 54fcc40f-2e8f-40b5-a5c7-2a6264342dc3
 contentOwner: jsyal
-discoiquuid: a3f0cd27-dcc4-49c5-b80b-5025344278e2
 docset: aem65
-source-git-commit: ad7f18b99b45ed51f0393a0f608a75e5a5dfca30
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 9%
+source-wordcount: '301'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +16,9 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Le seguenti informazioni sono aggiornate al 14 maggio 2018.
+>Le seguenti informazioni sono state aggiornate al 14 maggio 2018.
 
-Nella sezione seguente sono elencati i lettori di schermi di Adobe Experience Manager (AEM) con la rispettiva versione di AEM Screens.
+Nella sezione seguente sono elencati i lettori di Adobe Experience Manager (AEM) Screens con la rispettiva versione di AEM Screens.
 
 ## Lettore iOS {#ios-player}
 
@@ -38,11 +34,11 @@ Nella sezione seguente sono elencati i lettori di schermi di Adobe Experience Ma
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
-   <td><p><strong>3.3.0</strong> </p> <p> </p> </td> 
+   <td><p><strong>3,3,0</strong> </p> <p> </p> </td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
-   <td><strong>3.3.0</strong> </td> 
+   <td><strong>3,3,0</strong> </td> 
   </tr>
  </tbody>
 </table>
@@ -55,13 +51,13 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 [Ottieni file](assets/aem-screens-player-ios-330ipa.zip)
 
-## Windows10 Player {#windows-player}
+## Windows 10 Player {#windows-player}
 
 <table>
  <tbody>
   <tr>
    <td><strong>Versione server AEM</strong></td> 
-   <td><strong>Windows10 Player</strong></td> 
+   <td><strong>Windows 10 Player</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
@@ -80,23 +76,23 @@ aem-screens-player-ios-3.3.0.ipa.zip
 
 ### Collegamento di download {#download-link-1}
 
-Fare clic sul collegamento di download per Windows10 Player:
+Fare clic sul collegamento di download per Windows 10 Player:
 
 aem-screens-player-windows-1.0.48-signed.exe.zip
 
 [Ottieni file](assets/aem-screens-player-windows-1048-signedexe.zip)
 
-## Lettore Android {#android-player}
+## Lettore Android™ {#android-player}
 
-| **Versione server AEM** | **Lettore Android** |
+| **Versione server AEM** | **Lettore Android™** |
 |---|---|
 | **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** | **3.2.68 -** (Disponibile sul sito Macromedia) e Google Play Store |
-| **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3.3.0** |
-| **AEM 6.4** | **3.3.0** |
+| **AEM 6.3+SP1+Screens FP2(1.0.298)** | **3,3,0** |
+| **AEM 6.4** | **3,3,0** |
 
 ### Collegamento di download {#download-link-2}
 
-Fai clic sul collegamento per il download di Android Player:
+Fai clic sul collegamento di download per Android™ Player:
 
 aem-screens-player-android-3.3.0.apk.zip
 
@@ -107,9 +103,9 @@ aem-screens-player-android-3.3.0.apk.zip
   <tr>
    <td><strong>Versione server AEM</strong></td> 
    <td><strong>Lettore iOS</strong></td> 
-   <td><strong>Windows10 Player</strong></td> 
+   <td><strong>Windows 10 Player</strong></td> 
    <td><strong>Chrome OS Player</strong><br /> </td> 
-   <td><strong>Lettore Android</strong></td> 
+   <td><strong>Lettore Android™</strong></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 

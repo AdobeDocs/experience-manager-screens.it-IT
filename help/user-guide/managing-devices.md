@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 10749ff2-9128-44e7-9f10-c8e783a6f695
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ La console Dispositivi consente di accedere al gestore di dispositivi per assegn
 
 >[!CAUTION]
 >
->Prima di assegnare il dispositivo, è necessario registrarlo. Per ulteriori informazioni, consulta [Registrazione dispositivo](device-registration.md).
+>Prima di assegnare il dispositivo, registrarlo. Consulta [Registrazione dispositivo](device-registration.md).
 
 ## Assegnazione dispositivo {#device-assignment}
 
@@ -69,6 +69,4 @@ Per assegnare un dispositivo a uno schermo, attenersi alla procedura descritta d
 
 ### Passaggi successivi {#the-next-steps}
 
-Una volta acquisita familiarità con l’assegnazione di un canale a una visualizzazione, consulta le risorse seguenti:
-
-* [Monitoraggio e risoluzione dei problemi](monitoring-screens.md)
+Dopo aver acquisito familiarità con l&#39;assegnazione di un canale a una visualizzazione, vedere t[Monitoraggio e risoluzione dei problemi](monitoring-screens.md).

@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Segui i passaggi seguenti per configurare un progetto e un canale:
 
 ### Assegnazione di un canale a una visualizzazione {#assigning-channel-to-display}
 
-Al termine della configurazione del progetto, devi assegnare il canale a una visualizzazione per visualizzare il contenuto.
+Al termine della configurazione del progetto, assegna il canale a una visualizzazione per visualizzare il contenuto.
 
 1. Passa alla visualizzazione desiderata, ad esempio: **DemoScreens** > **Posizioni** > **SanJose** > **Lobby**.
 
@@ -105,7 +105,7 @@ Puoi visualizzare il seguente output nella scelta del lettore:
 
 ## Vista Timeline {#timeline-view}
 
-Dopo aver assegnato un canale a una visualizzazione e aver impostato una pianificazione di ricorrenza, puoi visualizzare la timeline dalla sezione **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+Quando hai assegnato un canale a una visualizzazione e hai impostato una pianificazione di ricorrenza, puoi visualizzare la timeline dalla sezione **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
 Per passare alla vista timeline, segui la procedura riportata di seguito:
 

@@ -1,22 +1,18 @@
 ---
 title: Creazione e gestione delle posizioni
-seo-title: Managing Locations
-description: Segui questa pagina per scoprire come creare/gestire le posizioni.
-seo-description: Follow this page to learn about creating/managing locations.
-uuid: f18802d4-dae8-48b2-8c94-ecc73579b29f
+description: Scopri come creare e gestire le posizioni in relazione ad AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
-discoiquuid: 70bdf384-6c27-403b-a6ab-fdec68016428
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7935c206-7189-4243-9a2d-ccc322caf441
-source-git-commit: acf925b7e4f3bba44ffee26919f7078dd9c491ff
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '236'
+ht-degree: 1%
 
 ---
 
@@ -34,22 +30,20 @@ Questa pagina mostra come creare e gestire le posizioni per Screens.
 
 ## Creazione di una nuova posizione {#creating-a-new-location}
 
-Dopo aver creato il progetto per Screens, segui i passaggi seguenti per creare una nuova Posizione per un progetto Screens:
+Dopo aver creato il progetto per Screens, segui i passaggi seguenti per creare una Posizione per un progetto Screens:
 
-1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra), quindi Screens. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
 1. Passa al progetto Schermi e fai clic su **Posizioni**.
-1. Clic **Crea** accanto all’icona più nella barra delle azioni. Verrà aperta una procedura guidata.
+1. Clic **Crea** accanto all’icona più nella barra delle azioni.
 1. Seleziona il modello **Posizione** dalla procedura guidata e fai clic su **Successivo**.
-
 1. Immetti le proprietà per **Titolo e tag**, **Altri titoli e descrizioni**, **Ora di attivazione/disattivazione**, e **URL personalizzato**.
-
 1. Clic **Crea** e il percorso viene creato e aggiunto alla cartella dei percorsi.
 
-Per informazioni sulla creazione di una nuova posizione per un progetto AEM Screens, consulta i passaggi seguenti. A scopo dimostrativo, la nuova posizione (SanJose) viene creata in *DemoProject*.
+Per informazioni sulla creazione di una posizione per un progetto AEM Screens, consulta i passaggi seguenti. A scopo dimostrativo, la nuova posizione (SanJose) viene creata in *DemoProject*.
 
 ![player2](assets/player2.gif)
 
-Una volta creata una posizione, è necessario crearne una nuova per la posizione.
+Dopo aver creato una posizione, creane una per la tua.
 
 ### Modifica delle proprietà di una posizione {#editing-properties-for-a-location}
 
@@ -62,6 +56,6 @@ Per modificare o accedere alle proprietà di una posizione:
 
 #### Passaggi successivi {#the-next-steps}
 
-Una volta creata una posizione, è necessario crearne una nuova per la posizione.
+Dopo aver creato una posizione, creane una per la tua.
 
-Consulta [Creazione e gestione delle visualizzazioni](managing-displays.md) per ulteriori dettagli.
+Consulta [Creazione e gestione delle visualizzazioni](managing-displays.md).

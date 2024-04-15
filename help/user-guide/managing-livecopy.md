@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '697'
 ht-degree: 5%
 
 ---
@@ -99,7 +99,7 @@ L’esempio seguente mostra che hai selezionato l’immagine in modalità di mod
 
 ### Propagazione delle modifiche al canale Live Copy {#propagating-changes-to-the-live-copy-channel}
 
-Se apporti modifiche/aggiornamenti nel canale originale, devi propagare tali modifiche anche al canale Live Copy.
+Se apporti modifiche o aggiornamenti nel canale originale, propagale tali modifiche anche al canale Live Copy.
 
 Segui i passaggi seguenti per assicurarti che le modifiche vengano propagate dal canale originale al canale Live Copy:
 

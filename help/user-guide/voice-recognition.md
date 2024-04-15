@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Un autore di contenuti può configurare una visualizzazione in modo che sia abil
 >[!IMPORTANT]
 > La funzione di riconoscimento vocale è disponibile solo sui lettori Chrome OS e Windows.
 
-Per implementare il riconoscimento vocale nel progetto AEM Screens, devi abilitare il riconoscimento vocale per Display e associare ciascun canale a un tag univoco per attivare una transizione di canale.
+Per implementare il riconoscimento vocale nel progetto AEM Screens, abilita il riconoscimento vocale per lo schermo e associa ciascun canale a un tag univoco per attivare una transizione di canale.
 
 Nella sezione seguente viene descritto come abilitare e utilizzare la funzione di riconoscimento vocale in un progetto AEM Screens.
 

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Un display è un raggruppamento virtuale di schermi posizionati uno accanto all’altro. Il display è fisso rispetto a un&#39;installazione. Si tratta degli autori di contenuti oggetto che lavorano con e a cui fanno sempre riferimento come visualizzazione logica anziché come parti contatore fisiche.
 
-Una volta creata una posizione, è necessario crearne una visualizzazione specifica.
+Quando crei una posizione, devi crearne una visualizzazione specifica.
 
 Questa pagina mostra come creare e gestire le visualizzazioni di Screens.
 
@@ -54,7 +54,7 @@ Quando lo schermo è in posizione, il passaggio successivo consiste nel creare u
 >
 >**Passaggio successivo**:
 >
->Quando crei una visualizzazione per la posizione, devi assegnare un canale alla visualizzazione per utilizzare il contenuto.
+>Quando crei una visualizzazione per la tua posizione, assegna un canale alla visualizzazione per utilizzare il contenuto.
 >
 >Consulta [Assegna canali](channel-assignment.md) per scoprire come assegnare un canale alla visualizzazione.
 
@@ -74,11 +74,9 @@ La configurazione del dispositivo viene creata e aggiunta alla visualizzazione c
 
 ![deviceconfig](assets/deviceconfig.gif)
 
-Una volta che la configurazione del dispositivo è impostata sul display nella posizione, il passaggio successivo consisterà nell’assegnare un canale al display.
-
 >[!NOTE]
 >
->Una volta che la configurazione del dispositivo è impostata sul display nella posizione, il passaggio successivo consisterà nell’assegnare un canale al display.
+>Quando una configurazione dispositivo è impostata sulla visualizzazione nella posizione, il passaggio successivo consiste nell’assegnare un canale alla visualizzazione.
 >
 >Come mostrato nella figura seguente, se la configurazione del dispositivo viene visualizzata come non assegnata nel **DISPOSITIVI** nel caso in cui non sia stato assegnato alcun canale alla specifica configurazione del dispositivo.
 >

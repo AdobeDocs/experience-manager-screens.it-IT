@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ Lo scopo di un POC è ottenere un feedback iniziale sulle funzionalità chiave d
 
 I test di integrazione dei sistemi e del software iniziano con il team IT Engineering di Audio/Video Integrator. Facendo riferimento al progetto di sistema approvato, il team tecnico IT configura, implementa e supervisiona l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; della struttura di Audio/Video Integrator. Questo consente di esaminare e testare attentamente l’intera soluzione per il controllo della qualità.
 
-Una volta completato il test QC, il team di progettazione IT crea documentazione, flussi di lavoro e corsi di formazione da usare come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da sottoporre a prova comprendono:
+Una volta completato il test QC, il team di progettazione IT crea la documentazione, i flussi di lavoro e la formazione come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da testare includono:
 
-* Integrazioni con AEM
-* Integrazioni di sistemi di terze parti
-* Software
-* Hardware
-* Connettività
+* Integrazioni con implementatori AEM.
+* Integrazioni di sistemi di terze parti.
+* Software.
+* Hardware.
+* Connettività.
 * Flussi di lavoro per la distribuzione dei contenuti, comprese le distribuzioni manuali, automatizzate e condizionali.
 
 ## Parte 3: tutorial video su test, POC, piloti e rollout {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
@@ -79,6 +79,6 @@ Considerare tutte queste fasi come parte del piano generale del progetto aiuta a
 
 ## Passaggio successivo {#the-next-step}
 
-Una volta completati i test, le Proofs of Concept, i programmi pilota e i rollout, segui il tutorial successivo che approfondisce la gestione dei progetti e i processi coinvolti.
+Quando hai terminato con test, Proofs of Concept, programmi pilota e rollout, segui il tutorial successivo che approfondisce la gestione del progetto e i processi coinvolti.
 
 Accedi a **[Parte 4: Gestione e realizzazione del progetto](project-management-and-deployment.md)** per ulteriori dettagli.

@@ -2,9 +2,9 @@
 title: Configurazione delle istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Prima di iniziare a utilizzare i server di authoring e pubblicazione, è necessa
 
 >[!IMPORTANT]
 >
->Se desideri utilizzare più di un’istanza Publish con Dispatcher, devi aggiornare Dispatcher. Consulta [Abilitazione di sessioni permanenti](dispatcher-configurations-aem-screens.md#enable-sticky-session) per ulteriori dettagli.
+>Se desideri utilizzare più di un’istanza Publish con Dispatcher, aggiorna Dispatcher. Consulta [Abilitazione di sessioni permanenti](dispatcher-configurations-aem-screens.md#enable-sticky-session).
 
 ## Configurazione delle istanze di authoring e pubblicazione {#configuring-author-and-publish-instances}
 
@@ -50,7 +50,7 @@ Puoi impostare un semplice esempio, in cui ospiti un’istanza Author e due ista
 
 ## Impostazione degli agenti di replica sull’autore {#setting-replication-agents}
 
-Per creare gli agenti di replica, è necessario imparare a creare un agente di replica standard.
+Per creare agenti di replica, scopri come creare un agente di replica standard.
 
 Per Screens sono necessari tre agenti di replica:
 

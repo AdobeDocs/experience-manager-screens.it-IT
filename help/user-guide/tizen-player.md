@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Effettua le seguenti operazioni:
 Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il nome del dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Tizen, ma anche di assegnare facilmente i contenuti appropriati.
 
 >[!NOTE]
->È possibile scegliere il nome del lettore solo prima della registrazione. Una volta registrato, il nome del lettore non può più essere modificato.
+>È possibile scegliere il nome del lettore solo prima della registrazione. Dopo la registrazione del lettore, il nome del lettore non può più essere modificato.
 
 Segui i passaggi seguenti per configurare il nome in Tizen player:
 
@@ -58,7 +58,7 @@ Segui i passaggi seguenti sul dispositivo Samsung per completare l’installazio
 1. Fai clic su **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
 1. Scorri verso il basso e seleziona la **Riproduci tramite** e modificarla in **Utilità di avvio URL** opzione.
    ![immagine](/help/user-guide/assets/tizen/rms-2.png)
-1. Una volta impostato l&#39;URL Launcher, premere il tasto **Home** dal telecomando.
+1. Quando l&#39;utilità di avvio URL è impostata, premere il tasto **Home** dal telecomando.
 1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e fare clic su **Fine**.
 
    >[!NOTE]

@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 
    >[!NOTE]
    >
-   >Dopo aver creato il frammento Screens, puoi modificarne le proprietà. Seleziona il frammento e fai clic su **Proprietà** dalla barra delle azioni.
+   >Dopo aver creato un frammento AEM Screens, puoi modificarne le proprietà. Seleziona il frammento e fai clic su **Proprietà** dalla barra delle azioni.
 
    **Modifica delle proprietà di un frammento Screens**
 

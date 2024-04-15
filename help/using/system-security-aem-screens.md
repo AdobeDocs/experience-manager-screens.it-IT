@@ -1,10 +1,9 @@
 ---
 title: Elenco di controllo della sicurezza per AEM Screens
-description: La pagina descrive l’elenco di controllo della sicurezza per AEM Screens.
-seo-description: The page describes Security Checklist for AEM Screens
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+description: Ulteriori informazioni sull’elenco di controllo per la sicurezza di AEM Screens.
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---

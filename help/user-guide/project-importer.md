@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: c0fa0717034e5094108eb1e23d4e9f1f16aeb57e
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Questa sezione descrive una funzionalità per importare in blocco un set di posi
 
 ## Introduzione {#introduction}
 
-Quando imposti un progetto AEM Screens per la prima volta nell’organizzazione, devi creare anche tutte le posizioni. Se il progetto coinvolge molte posizioni, si ottiene una noiosa attività che comporta molti clic e attese nell’interfaccia utente.
+Quando imposti un progetto AEM Screens per la prima volta nell’organizzazione, crea anche tutte le posizioni. Se il progetto coinvolge molte posizioni, si ottiene una noiosa attività che comporta molti clic e attese nell’interfaccia utente.
 
 L’obiettivo di questa funzione è ridurre il tempo necessario per configurare il progetto e risolvere quindi i problemi di budget.
 

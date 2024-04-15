@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: c440527b80a3899fd45ec2d20d8cb48ffe85f6f3
+source-git-commit: 510a621902eed9302232ed3b6c462b42c5849d79
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Assegna i canali alla visualizzazione per visualizzare il contenuto. Per assegna
    1. Seleziona **Salva**.
 
       ![immagine](/help/user-guide/assets/multi-zone/multizone-img9.png)
-   1. Analogamente, è necessario assegnare gli altri due canali incorporati (**`Zone1`** e **`Zone2`**) a questo display.
+   1. Allo stesso modo, assegna gli altri due canali incorporati (**`Zone1`** e **`Zone2`**) a questo display.
    1. Dopo aver assegnato tutti e tre i canali a **Lobby** visualizzazione, dovresti essere in grado di visualizzare i canali assegnati dal dashboard di visualizzazione.
 
       ![immagine](/help/user-guide/assets/multi-zone/multizone-img8.png)

@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Le sezioni seguenti descrivono come eseguire il debug e risolvere i problemi rel
 
 ## Rappresentazioni DAM {#dam-renditions}
 
-Una volta caricato il video sul canale, l’AEM dovrebbe iniziare a creare alcune rappresentazioni per esso. Puoi visualizzare i video in Risorse.
+Dopo aver caricato il video sul canale, AEM dovrebbe iniziare a creare alcune rappresentazioni per esso. Puoi visualizzare i video in Risorse.
 
 Per visualizzare il video:
 

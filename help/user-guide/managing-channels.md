@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 3%
 
 ---
@@ -67,7 +67,7 @@ Durante l’utilizzo della procedura guidata sono disponibili le seguenti opzion
 
 >[!IMPORTANT]
 >
-> Dopo aver creato e aggiunto il contenuto al canale, il passaggio successivo consiste nel creare una posizione seguita dalla creazione di una visualizzazione. Inoltre, devi assegnare quel canale a una visualizzazione. Consulta le risorse sottostanti alla fine della sezione.
+>Dopo aver creato e aggiunto il contenuto al canale, il passaggio successivo consiste nel creare una posizione seguita dalla creazione di una visualizzazione. Inoltre, assegna il canale a una visualizzazione. Consulta le risorse sottostanti alla fine della sezione.
 
 ## Utilizzo dei canali {#working-with-channels}
 

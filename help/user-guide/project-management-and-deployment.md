@@ -10,7 +10,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -86,6 +86,4 @@ Scopri la gestione del progetto e la preparazione dell’implementazione e defin
 
 ## Passaggio successivo {#the-next-step}
 
-Una volta acquisite le considerazioni chiave sulla gestione dei progetti per le distribuzioni di AEM Screens;
-
-Accedi a **[Parte 5: Considerazioni di supporto](support-considerations.md)** in modo da comprendere il Supporto Day 2 e i relativi processi.
+Quando hai finito con le considerazioni chiave relative alla gestione dei progetti per le distribuzioni di AEM Screens, passa a **[Parte 5: Considerazioni di supporto](support-considerations.md)** in modo da comprendere il Supporto Day 2 e i relativi processi.

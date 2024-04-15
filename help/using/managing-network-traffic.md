@@ -2,9 +2,9 @@
 title: Gestione del traffico di rete
 description: La pagina descrive le impostazioni di rete standard e come gestire il traffico di rete.
 exl-id: b6d8f4a3-fca2-4556-9455-b9e27b138154
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ Questa guida presenta un&#39;introduzione ai server proxy, seguita dalle varie s
 
 >[!NOTE]
 >**Requisiti di rete di AEM Screens**
->L’AEM Screens comunica direttamente con l’AEM as a Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono assolutamente obbligatori per l&#39;accesso commerciale a Internet e, in qualità di cliente, è necessario capire quali porte di comunicazione devono essere aperte in questi firewall e in altri componenti di rete relativi alla sicurezza IT.
+>AEM Screens comunica direttamente con l’AEM as a Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono obbligatori per l&#39;accesso commerciale a Internet. In qualità di cliente, scopri quali porte di comunicazione devono essere aperte in questi firewall e in altri componenti di rete relativi alla sicurezza IT.
 
 ## Panoramica sui server proxy {#proxy-servers}
 
-Una connessione Internet si basa sull&#39;utilizzo di un server proxy. Un server proxy è un computer dedicato o un sistema software in esecuzione su un computer che funge da intermediario tra un dispositivo endpoint, ad esempio un computer, e un altro server da cui un utente o un client richiede un servizio. Il server proxy può esistere nello stesso computer di un server firewall oppure in un server separato, che inoltra le richieste tramite il firewall.
+Una connessione Internet si basa sull&#39;utilizzo di un server proxy. Un server proxy è un computer dedicato o un sistema software in esecuzione su un computer. Funge da intermediario tra un dispositivo endpoint, ad esempio un computer, e un altro server da cui un utente o un client richiede un servizio. Il server proxy può esistere nello stesso computer di un server firewall oppure in un server separato, che inoltra le richieste tramite il firewall.
 
 Un vantaggio di un server proxy è che la sua cache può servire tutti gli utenti. Se uno o più siti Internet vengono richiesti di frequente, è probabile che si trovino nella cache del proxy e questo migliora ulteriormente il tempo di risposta dell’utente. Un proxy può anche registrare le sue interazioni, che possono essere utilizzate per la risoluzione dei problemi.
 

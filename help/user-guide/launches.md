@@ -10,9 +10,9 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1556'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Con l&#39;aiuto di ***Lancio di Screens***, gli autori possono visualizzare in a
 
 Ad esempio, se l’autore desidera creare versioni future di c1, c2 (canali), viene creato un lancio e viene impostata una data di attivazione (ad esempio, 10 novembre alle 8.00). Eventuali altri aggiornamenti nel contenuto vengono inviati per la revisione.
 
-Una volta approvato e in data live (10 novembre, 8:00), questo lancio riproduce il contenuto sui dispositivi o sui lettori.
+Dopo l’approvazione e nella data di attivazione (10 novembre, 08:00), questo lancio riproduce il contenuto sui dispositivi o sui lettori.
 
 ## Requisiti {#requirements}
 
@@ -45,7 +45,7 @@ L&#39;esecuzione di un&#39;esperienza nella data di attivazione impostata sul le
 
 ### Informazioni sul periodo di tolleranza {#understanding-grace-period}
 
-Affinché il lettore possa iniziare a riprodurre il contenuto nella data di pubblicazione impostata, devi avviare le attività precedenti prima della data di pubblicazione.
+Affinché il lettore possa iniziare a riprodurre il contenuto nella data di pubblicazione impostata, avvia le attività precedenti prima della data di pubblicazione.
 
 Se la data di attivazione è *24 novembre, 09:00* e il periodo di tolleranza è *24 ore*, quindi la sequenza di azioni precedente inizierà a (data pubblicazione - periodo di tolleranza), ovvero il 23 novembre alle 09:00 ora del server. Questo offre 24 ore per completare tutte le azioni sopra menzionate affinché il contenuto raggiunga i lettori. I giocatori capiscono che questo è un contenuto di lancio. Di conseguenza, il contenuto non viene riprodotto immediatamente, ma i lettori possono memorizzarlo come versione futura e farne iniziare la riproduzione esattamente alla data di trasmissione impostata sul fuso orario del lettore.
 
@@ -120,7 +120,7 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
 
    ![immagine](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Dopo aver selezionato i canali, fai clic su **Successivo**.
+   Dopo aver selezionato il canale/i canali, fai clic su **Successivo**.
 
 
 1. Inserisci il **Titolo lancio** as **SummerPromotions** e non è necessario impostare **Data lancio**, come illustrato nella figura seguente. Fai clic su **Crea**.

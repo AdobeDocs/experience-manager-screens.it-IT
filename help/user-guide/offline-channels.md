@@ -1,41 +1,37 @@
 ---
 title: Canali offline
-seo-title: Offline Channels
-description: Il lettore AEM Screens fornisce supporto offline per i canali sfruttando la tecnologia ContentSync. Segui questa pagina per ulteriori informazioni sui gestori di aggiornamenti e sull’abilitazione della configurazione offline per un canale.
-seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
-uuid: 18b9d175-ff26-42db-86aa-5ea978909f71
+description: Scopri come il lettore AEM Screens fornisce supporto offline per i canali utilizzando la tecnologia ContentSync.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
-discoiquuid: bd572743-652f-4fc5-8b75-a3c4c74536f4
 docset: aem65
 feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
 
 # Canali offline {#offline-channels}
 
-Il lettore Screens fornisce supporto offline per i canali sfruttando il ***Sincronizzazione contenuti*** tecnologia.
+Il lettore Screens fornisce il supporto offline per i canali utilizzando ***Sincronizzazione contenuti*** tecnologia.
 
 I lettori utilizzano un server http locale per distribuire il contenuto decompresso.
 
-Quando un canale è configurato per l’esecuzione *online*, il lettore distribuisce le risorse del canale accedendo al server AEM, ma quando il canale è configurato per l’esecuzione *offline*, il lettore distribuisce le risorse del canale da un server http locale.
+Quando un canale è configurato per l’esecuzione *online*, il lettore distribuisce le risorse del canale accedendo al server AEM. Tuttavia, quando il canale è configurato per l’esecuzione *offline*, il lettore distribuisce le risorse del canale da un server http locale.
 
 Il flusso di lavoro per il processo è il seguente:
 
-1. Analizza le pagine desiderate
-1. Raccogli tutte le risorse correlate
-1. Crea un pacchetto di tutto in un file zip
-1. Scarica il file ZIP ed estrailo localmente
-1. Visualizza copia locale del contenuto
+1. Analizza le pagine desiderate.
+1. Raccogli tutte le risorse correlate.
+1. Crea il pacchetto di tutto in un file zip.
+1. Scarica lo zip ed estrailo localmente.
+1. Visualizza una copia locale del contenuto.
 
 ## Gestori aggiornamenti {#update-handlers}
 
@@ -55,22 +51,22 @@ Il ***Sincronizzazione contenuti*** utilizza i gestori di aggiornamenti per anal
    <td><strong>Opzioni</strong></td> 
   </tr>
   <tr>
-   <td>canali</td> 
+   <td><code>channels</code></td> 
    <td>raccoglie un canale</td> 
    <td>estensione: estensione della risorsa da raccogliere<br /> [pathSuffix='']: suffisso da aggiungere al percorso del canale<br /> </td> 
   </tr>
   <tr>
-   <td>clientlib</td> 
+   <td><code>clientlib</code></td> 
    <td>raccogliere la libreria client specificata</td> 
    <td>[extension='']: può essere css o js, per raccogliere solo il primo, o solo il secondo</td> 
   </tr>
   <tr>
-   <td>assetrenditions</td> 
+   <td><code>assetrenditions</code></td> 
    <td>raccogliere le rappresentazioni della risorsa</td> 
    <td>[renditions=[]]: elenco di rendering da raccogliere. Valore predefinito per la rappresentazione originale</td> 
   </tr>
   <tr>
-   <td>copia</td> 
+   <td><code>copy</code></td> 
    <td>copia la struttura specificata dal percorso</td> 
    <td> </td> 
   </tr>
@@ -98,11 +94,13 @@ Per abilitare la configurazione offline per un canale, effettua le seguenti oper
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
-1. Passa al dashboard dei canali e fai clic su **...** nel **INFORMAZIONI SUL CANALE** Pannello per modificare le proprietà.
+1. Passa alla dashboard dei canali.
+1. Clic **...** nel **INFORMAZIONI SUL CANALE** Pannello.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
-1. Passa alle proprietà del canale e assicurati che la casella di controllo sia disabilitata in **Canale** scheda. Fai clic su **Salva e chiudi**.
+1. Passa alle proprietà del canale.
+1. Nella scheda (Canale), accertati che la casella di controllo sia disabilitata, quindi fai clic su **Salva e chiudi**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
