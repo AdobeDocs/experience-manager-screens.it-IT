@@ -1,15 +1,13 @@
 ---
 title: Note sulla versione per Feature Pack 202004
-seo-title: Release Notes for Feature Pack 202004
-description: Segui questa pagina per ottenere informazioni sui 202004 di AEM Screens Feature Pack rilasciati il 20 aprile 2020.
-seo-description: Follow this page to get information for AEM Screens Feature Pack 202004 released on April 20, 2020.
+description: Ulteriori informazioni sul Feature Pack di AEM Screens 202004 rilasciato il 20 aprile 2020.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
@@ -34,9 +32,9 @@ La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020
 
 * **Opzioni strategia di interruzione riproduzione**
 
-  In qualità di autore di contenuti, dovresti essere in grado di specificare quando un canale viene interrotto, in modo da poter scegliere di tagliare i contenuti non critici, ma avere la possibilità di consentire la riproduzione completa di contenuti importanti prima di interrompere la riproduzione a causa della pianificazione.
+  In qualità di autore di contenuti, specifica quando un canale viene interrotto in modo da poter scegliere di tagliare i contenuti non critici, ma facoltativamente lascia che i contenuti importanti vengano riprodotti interamente prima di interrompere la riproduzione a causa della pianificazione.
 
-  Consulta la sezione **[Metodo di interruzione](/help/user-guide/channel-assignment.md#interruption-method-channel)** per ulteriori informazioni sulle opzioni disponibili da **Assegnazione canale** per implementare questa funzione nel progetto AEM Screens.
+  Per ulteriori informazioni sulle opzioni disponibili da **Assegnazione canale** per implementare questa funzione nel progetto AEM Screens, consulta la sezione **[Metodo di interruzione](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Lanci di Screens**
 
@@ -59,7 +57,7 @@ La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020
 
   Durante l&#39;aggiunta del test alla funzione di sovrapposizione del testo, la dimensione del font è precisa e migliorata.
 
-  Consulta **[Sovrapposizione testo](text-overlay.md)** per creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine.
+  Per creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine, consulta **[Sovrapposizione testo](text-overlay.md)**.
 
 * **Miglioramenti nella sincronizzazione dei comandi**
 
@@ -67,14 +65,14 @@ La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020
 
   Consulta **[Sincronizzazione comandi](using-command-sync.md)** per ulteriori dettagli.
 
-### Lettori AEM Screens rilasciati {#released-aem-screens-players}
+### Lettori AEM Screens rilasciati
 
 Per AEM Screens sono stati rilasciati i seguenti lettori AEM Screens: AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
 
 * ChromeOS
 * Windows
-* Android
+* Android™
 
-#### Download di AEM Screens Player  {#aem-screens-player-downloads}
+#### Download di AEM Screens Player
 
 Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/)**.

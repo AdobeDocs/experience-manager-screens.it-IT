@@ -1,13 +1,11 @@
 ---
-title: Dipendenze UX per [!UICONTROL AEM Screens]
-seo-title: UX Dependencies for [!UICONTROL AEM Screens]
-description: La guida descrive le dipendenze UX per [!UICONTROL AEM Screens]
-seo-description: The guide describes UX Dependencies for [!UICONTROL AEM Screens]
+title: Dipendenze UX per AEM Screens
+description: Ulteriori informazioni sulle dipendenze UX per AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 707833ddd8ab2573abcac4e9a77ec88778624435
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +31,7 @@ Durante la definizione della strategia per i contenuti hardware è necessario te
 
 1. Come vengono configurati i collegamenti e il cablaggio di rete?
 
-1. Con quale frequenza verranno accesi e spenti i computer e la connessione?
+1. Con quale frequenza vengono attivati e disattivati i computer e le connessioni?
 
 1. La progettazione degli staffaggi supporta l&#39;accessibilità?
 

@@ -1,22 +1,18 @@
 ---
 title: Attivazione prenotazione ospitalità
-seo-title: Hospitality Reservation Activation
-description: Il seguente caso d’uso illustra l’utilizzo dell’attivazione della prenotazione ospedaliera in base ai valori inseriti nei fogli Google.
-seo-description: The following use case demonstrates the usage of hospital reservation activation based on the values populated in Google Sheets.
-uuid: 7692d616-2b00-4d9a-9d3f-211c089b29af
+description: Scopri come questo caso d’uso illustra l’utilizzo dell’attivazione della prenotazione dell’ospitalità in base ai valori inseriti nei fogli di Google.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
 topic-tags: use-case-examples
-discoiquuid: ef3e5dce-e36a-45d3-ad5e-db01430477c6
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -27,9 +23,9 @@ Il seguente caso d’uso illustra l’utilizzo dell’attivazione della prenotaz
 
 ## Descrizione {#description}
 
-Per questo caso d’uso, il foglio di Google viene compilato con la percentuale di prenotazione su due ristoranti **Ristorante1** e **Ristorante2**. Viene applicata una formula basata sui valori di Restaurant1 e Restaurant2 e sulla formula viene assegnato il valore 1 o 2 alla **AdTarget** Colonna.
+Per questo caso d’uso, il foglio Google viene compilato con la percentuale di prenotazioni su due ristoranti **`Restaurant1`** e **`Restaurant2`**. Viene applicata una formula in base ai valori di `Restaurant1` e `Restaurant2` e in base alla formula, il valore 1 o 2 è assegnato al **AdTarget** Colonna.
 
-Se il valore di **Ristorante1** > **Ristorante2**, quindi **AdTarget** è un valore assegnato **1** altrimenti **AdTarget** è un valore assegnato **2**. Il valore 1 genera *Bistecca* opzione e Valore 2 determina la visualizzazione di *Cibo thailandese* sullo schermo.
+Se il valore di **`Restaurant1`** > **`Restaurant2`**, quindi **AdTarget** è un valore assegnato **1** altrimenti **AdTarget** è un valore assegnato **2**. Il valore 1 genera *Bistecca* opzione e Valore due determina la visualizzazione di *Cibo thailandese* sullo schermo.
 
 ## Precondizioni {#preconditions}
 
@@ -39,9 +35,9 @@ Consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.m
 
 ## Flusso di base {#basic-flow}
 
-Segui i passaggi seguenti per implementare il caso di utilizzo dell’attivazione della prenotazione dell’ospitalità per il tuo progetto AEM Screens:
+Segui i passaggi del caso d’uso seguenti per implementare l’attivazione della prenotazione dell’ospitalità per il tuo progetto AEM Screens:
 
-1. **Compilazione dei fogli di Google e aggiunta della formula.**
+1. **Compilazione dei fogli di Google e aggiunta della formula**.
 
    Applicare ad esempio la formula alla terza colonna **AdTarget**, come illustrato nella figura seguente.
 
@@ -50,22 +46,15 @@ Segui i passaggi seguenti per implementare il caso di utilizzo dell’attivazion
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
    1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
-
    1. Seleziona la **Fogli A1 1** e fai clic su **Modifica**.
-
-   1. Seleziona la proprietà di confronto e fai clic sull’icona di configurazione per modificarne le proprietà.
-   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**
-
-   1. Seleziona la **Operatore** as **uguale** dal menu a discesa
-
-   1. Inserisci il **Valore** as **1**
-
+   1. Seleziona la proprietà di confronto e fai clic su **Configurazione** icona.
+   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**.
+   1. Seleziona la **Operatore** as **uguale** dal menu a discesa.
+   1. Inserisci il **Valore** as **1**.
    1. Analogamente, selezionare **Fogli A1 2** e fai clic su **Modifica**.
-
-   1. Seleziona la proprietà di confronto e fai clic sull’icona di configurazione per modificarne le proprietà.
-   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**
-
-   1. Seleziona la **Operatore** as **2**
+   1. Seleziona la proprietà di confronto e fai clic su **Configurazione** icona.
+   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**.
+   1. Seleziona la **Operatore** as **2**.
 
 1. Naviga e seleziona il canale () e fai clic su **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenRestaurant**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
 
@@ -85,6 +74,6 @@ Segui i passaggi seguenti per implementare il caso di utilizzo dell’attivazion
 1. **Controllo dell’anteprima**
 
    1. Clic **Anteprima.** Inoltre, apri i fogli Google e aggiornane il valore.
-   1. Aggiornare il valore in **Ristorante1** e **Ristorante2** colonne. Se **Ristorante1** > **Ristorante2,** dovrebbe essere possibile visualizzare un&#39;immagine di *Bistecca* altri prodotti alimentari, *Thailandese* l’immagine del cibo viene visualizzata sullo schermo.
+   1. Aggiornare il valore in **`Restaurant1`** e **`Restaurant2`** colonne. Se **`Restaurant1`** > **`Restaurant2`,** dovrebbe essere possibile visualizzare un&#39;immagine di *Bistecca* altri prodotti alimentari, *Thailandese* l’immagine del cibo viene visualizzata sullo schermo.
 
    ![risultato5](assets/result5.gif)

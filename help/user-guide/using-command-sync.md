@@ -1,15 +1,13 @@
 ---
 title: Utilizzo di Command Sync
-seo-title: Using Command Sync
-description: Seguire questa pagina per ulteriori informazioni sull'utilizzo di Sincronizzazione comandi.
-seo-description: Follow this page to learn about how to use Command Sync.
+description: Scopri come utilizzare la sincronizzazione dei comandi in AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ Nella pagina seguente viene descritto come utilizzare Sincronizzazione comandi. 
 
 ## Panoramica {#overview}
 
-Le soluzioni di digital signage devono supportare pareti video e riproduzione sincronizzata per supportare scenari come il conto alla rovescia di Capodanno o video di grandi dimensioni suddivisi per la riproduzione su più schermi ed è qui che entra in gioco Command Sync.
+Le soluzioni di digital signage devono supportare pareti video e riproduzione sincronizzata per supportare scenari come i conteggi di Capodanno o video di grandi dimensioni suddivisi per la riproduzione su più schermi ed è qui che entra in gioco Command Sync.
 
 Per utilizzare Command Sync, un lettore agisce come un *primario* e invia il comando e tutti gli altri lettori agiscono come *client* e viene riprodotto quando riceve il comando.
 
@@ -54,7 +52,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
    ![image1](assets/command-sync/command-sync2-1.png)
 
-1. Creare una posizione **Lobby** e successivamente una visualizzazione con il titolo **LobbyDisplay** nel **Posizioni** come illustrato nella figura seguente.
+1. Creare una posizione **Lobby** e quindi una visualizzazione con titolo **LobbyDisplay** nel **Posizioni** come illustrato nella figura seguente.
    ![image1](assets/command-sync/command-sync3-1.png)
 
 1. Assegna il canale, **ChannelLobby** al tuo **LobbyDisplay**. Ora puoi visualizzare il canale assegnato alla visualizzazione dal dashboard di visualizzazione.
@@ -64,7 +62,8 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
    >
    >Per informazioni su come assegnare un canale a una visualizzazione, consulta [Creazione e gestione delle visualizzazioni](/help/user-guide/managing-displays.md).
 
-1. Accedi a **Dispositivi** cartella e fai clic su **Gestione dispositivi** dalla barra delle azioni per registrare i dispositivi.
+1. Accedi a **Dispositivi** cartella.
+1. Clic **Gestione dispositivi** dalla barra delle azioni.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,26 +76,25 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
 ### Aggiornamento impostazioni canale
 
-1. Accedi a **ChannelLobby** e fai clic su **Modifica** dalla barra delle azioni per aggiornare le impostazioni del canale.
-
+1. Accedi a **ChannelLobby**.
+1. Clic **Modifica** dalla barra delle azioni.
 1. Selezionate l&#39;intero canale come mostrato nella figura riportata di seguito.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Fai clic sull’icona chiave inglese per aprire **Pagina** .
+1. Fai clic sull’icona a forma di chiave inglese.
    ![image1](assets/command-sync/command-sync8-1.png)
 
-1. Inserisci il *sincronizzato* parola chiave in **Strategia** campo.
-
+1. In **Pagina** , immetti il *sincronizzato* parola chiave in **Strategia** campo.
    ![image1](assets/command-sync/command-sync9-1.png)
 
 
 ### Configurazione di un primario {#setting-up-primary}
 
 1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni.
-Verranno visualizzati i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illustrato nella figura riportata di seguito.
+Osserva i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illustrato di seguito:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Dalla sezione **DISPOSITIVI** , selezionare il dispositivo da impostare come principale. L’esempio seguente illustra come impostare il dispositivo Chrome come principale. Fai clic su **Imposta come dispositivo principale**.
+1. Dalla sezione **DISPOSITIVI** selezionare il dispositivo da impostare come principale. L’esempio seguente illustra come impostare il dispositivo Chrome come principale. Clic **Imposta come dispositivo principale**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -118,9 +116,9 @@ Selezionare l&#39;altro dispositivo (in questo caso, Windows Player) dal **DISPO
 1. Selezionare il dispositivo dall&#39;elenco e fare clic su **Salva**.
 
    >[NOTA:]
-   > Il **Sincronizza con dispositivo principale** verrà visualizzato l’elenco dei dispositivi principali. Puoi selezionare quello desiderato tra le tue preferenze.
+   > Il **Sincronizza con dispositivo principale** mostra l&#39;elenco dei dispositivi principali. Seleziona quella preferita.
 
-1. Una volta sincronizzato il dispositivo (lettore Windows) con il principale (lettore Chrome), il dispositivo verrà sincronizzato in **DISPOSITIVI** pannello.
+1. Quando il dispositivo (lettore Windows) viene sincronizzato con il principale (lettore Chrome), è possibile vedere il dispositivo sincronizzato in **DISPOSITIVI** pannello.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 
@@ -136,11 +134,11 @@ Per rimuovere la sincronizzazione dal dispositivo principale, effettua le seguen
 
 1. Accedi a **DISPOSITIVI** e selezionare il dispositivo.
 
-1. Fai clic su **Desincronizza dispositivo/i** per desincronizzare il client dal dispositivo principale.
+1. Clic **Desincronizza dispositivi** in modo da poter desincronizzare il client dal dispositivo principale.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
 1. Clic **Conferma** per desincronizzare il dispositivo selezionato dal dispositivo primario.
 
    >[NOTA:]
-   > Se si seleziona il dispositivo principale e si utilizza l&#39;opzione di desincronizzazione, tutti i dispositivi connessi al dispositivo principale verranno desincronizzati in un unico passaggio.
+   > Se si seleziona il dispositivo principale e si utilizza l&#39;opzione di desincronizzazione, tutti i dispositivi connessi al dispositivo principale vengono desincronizzati in un unico passaggio.

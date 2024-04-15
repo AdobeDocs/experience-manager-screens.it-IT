@@ -1,22 +1,18 @@
 ---
 title: Creazione di un flusso di lavoro di spaziatura video
-seo-title: Creating a Video Padding Workflow
-description: Segui questa pagina per scoprire come creare una spaziatura video nel flusso di lavoro per le risorse.
-seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: c0f004ca-c934-47f8-bcdc-da58ea62118e
+description: Ulteriori informazioni sulla creazione di una spaziatura video nel flusso di lavoro per le risorse.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a90e3950-c95a-4aff-8cb3-9229c660a815
 docset: aem65
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ Questa sezione tratta i seguenti argomenti:
 
 Il seguente caso d’uso prevede il posizionamento di un video (ad esempio: 1280 x 720) in un canale in cui il display è 1920 x 1080 e il posizionamento del video su 0x0 (in alto a sinistra). Il video non deve essere allungato o modificato in alcun modo e non utilizzare **Copertina** nel componente video.
 
-Il video verrà visualizzato come un oggetto da pixel 1 a pixel 1280 in e da pixel 1 a pixel 720 in giù e il resto del canale sarà colore predefinito.
+Il video viene visualizzato come un oggetto da pixel 1 a pixel 1280 in orizzontale e da pixel 1 a pixel 720 in basso e il resto del canale è il colore predefinito.
 
 ## Prerequisiti {#prerequisites}
 
@@ -61,7 +57,9 @@ Per creare e utilizzare il flusso di lavoro, segui i passaggi seguenti:
 
 Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
-1. Passa all’istanza AEM e fai clic su Strumenti nella barra laterale. Seleziona **Flusso di lavoro** > **Modelli** per creare un nuovo modello.
+1. Passa all’istanza AEM.
+1. Fare clic su Strumenti nella barra laterale.
+1. Seleziona **Flusso di lavoro** > **Modelli** quindi potete creare un modello.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
@@ -73,27 +71,27 @@ Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
    ![screen_shot_2018-10-17at91256pm](assets/screen_shot_2018-10-17at91256pm.png)
 
-1. Trascina la **Riga di comando** al flusso di lavoro.
+1. Trascina la **`Command Line`** al flusso di lavoro.
 
    ![screen_shot_2018-10-22at14846pm](assets/screen_shot_2018-10-22at14846pm.png)
 
-1. Seleziona la **Riga di comando** e aprire la finestra di dialogo proprietà.
+1. Seleziona la **`Command Line`** e aprire la finestra di dialogo proprietà.
 
    ![screen_shot_2018-10-17at95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
-1. Seleziona la **Argomenti** per immettere i campi nella scheda **Riga di comando - Proprietà passaggio** .
-
-   Immetti il formato in **Tipi MIME** (come ***video/mp4***) e il comando come (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***) per avviare il flusso di lavoro nel **Comandi** campo.
+1. Seleziona la **Argomenti** scheda.
+1. In **Riga di comando - Proprietà passaggio** , immettere il formato nella finestra di dialogo **Tipi MIME** (come ***video/mp4***) e il comando come (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Questo comando avvia il flusso di lavoro in **Comandi** campo.
 
    Vedi i dettagli su **Tipi MIME** e **Comandi** nella nota seguente.
 
    ![screen_shot_2018-10-18 105300](assets/screen_shot_2018-10-18at105300am.png)
 
-1. Seleziona il flusso di lavoro (**VideoRenditions**) e fai clic su **Avvia flusso di lavoro** dalla barra delle azioni per aprire **Esegui flusso di lavoro** .
+1. Seleziona il flusso di lavoro (**VideoRenditions**).
+1. Clic **Avvia flusso di lavoro** dalla barra delle azioni.
 
    ![screen_shot_2018-10-18 105335](assets/screen_shot_2018-10-18at105335am.png)
 
-1. Seleziona il percorso della risorsa in **Payload** (come ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e immettere il **Titolo** as ***EseguiVideo*** e fai clic su **Esegui**.
+1. In **Esegui flusso di lavoro** , seleziona il percorso della risorsa in **Payload** (come ***/content/dam/huseinpeyda-crossroads01_512kb 2.mp4***) e immettere il **Titolo** as ***EseguiVideo*** e fai clic su **Esegui**.
 
    ![screen_shot_2018-10-18 112043](assets/screen_shot_2018-10-18at112043am.png)
 

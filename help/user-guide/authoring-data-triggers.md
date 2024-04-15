@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c95da2e9-a216-4d0a-85d0-a0fb895a8d8a
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Per ulteriori informazioni, segui i collegamenti riportati di seguito:
 1. **[Configurazione dell’archivio dati](configuring-context-hub.md)**
 1. **[Impostazione della segmentazione del pubblico](configuring-context-hub.md)**
 
-Dopo aver completato i passaggi precedenti, sei pronto per abilitare il targeting nei tuoi canali.
+Una volta completati i passaggi precedenti, sei pronto per abilitare il targeting nei tuoi canali.
 
 ## Panoramica sull’authoring con Data Triggers {#author-targeting}
 

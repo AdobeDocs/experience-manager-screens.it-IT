@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Canale TakeOver per singolo utilizzo {#single-use-takeover-channel}
 
 Nella pagina seguente viene illustrato un caso d’uso che pone l’accento sulla configurazione di un progetto per la creazione di un singolo canale TakeOver che viene riprodotto una volta per un periodo di tempo specifico.
-
 
 ## Descrizione del caso d’uso {#use-case-description}
 

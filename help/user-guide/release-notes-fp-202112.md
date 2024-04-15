@@ -1,21 +1,21 @@
 ---
 title: Note sulla versione per Feature Pack 202112
-description: Segui questa pagina per ottenere informazioni sui 202112 di AEM Screens Feature Pack rilasciati il 12 gennaio 2022.
+description: Ulteriori informazioni sull’202112 AEM Screens Feature Pack rilasciato il 12 gennaio 2022.
 feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '315'
+ht-degree: 3%
 
 ---
 
 # Note sulla versione per Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
@@ -29,7 +29,7 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 ### Novità {#what-is-new}
 
-* Gli aggiornamenti dell’applicazione Android ora interessano Android 11 (livello API 30). Attualmente il lettore Android è nel livello API di destinazione 29.
+* Gli aggiornamenti dell&#39;applicazione Android™ ora interessano Android™ 11 (livello API 30). Attualmente il lettore Android™ è nel livello API di destinazione 29.
 
 * L&#39;anteprima della visualizzazione è bloccata nella configurazione precedente del lettore
 
@@ -37,7 +37,7 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 * Correzione degli errori di download simultanei in SmartSync
 
-* In qualità di sviluppatore, ora puoi visualizzare le rappresentazioni delle risorse da elencare solo come voci di rappresentazione nelle risorse corrispondenti nel manifesto, per garantire l’estensibilità, la chiarezza e la facilità di gestione del manifesto.
+* In qualità di sviluppatore, puoi visualizzare le rappresentazioni delle risorse che desideri elencare solo come voci di rappresentazione nelle risorse corrispondenti nel manifesto, per garantire l’estensibilità, la chiarezza e la facilità di gestione del manifesto.
 
 ### Correzioni di bug {#bug-fixes}
 
@@ -57,16 +57,16 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 * Correzione degli errori di download simultanei in SmartSync.
 
-### Lettori AEM Screens rilasciati {#released-aem-screens-players}
+### Lettori AEM Screens rilasciati
 
 Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 10:
 
 * ChromeOS
 * Windows
 * Tizen
-* Android
-* Linux
+* Android™
+* Linux®
 
-#### Download di AEM Screens Player  {#aem-screens-player-downloads}
+#### Download di AEM Screens Player
 
 Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.

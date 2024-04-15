@@ -1,13 +1,13 @@
 ---
 title: Riconoscimento vocale in AEM Screens
-description: La pagina descrive la funzione di riconoscimento vocale di AEM Screens.
+description: Ulteriori informazioni sul riconoscimento vocale e su come utilizzarlo in AEM Screens.
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >
 >**Informazioni importanti sulla privacy**
 >
->Quando utilizzi la funzione di riconoscimento vocale, segui tutte le linee guida legali ed etiche applicabili per la tua area geografica (inclusa, a titolo esemplificativo e non esaustivo, la notifica visibile agli utenti finali che il lettore utilizza il riconoscimento vocale). Adobe Inc. non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens utilizzano l’API di riconoscimento vocale web standard incorporata nel motore di navigazione. Dietro le quinte questa API invia una forma ondulata del discorso ai server di Google per la conversione da discorso a testo e questo testo viene confrontato dal lettore con parole chiave configurate.
+>Quando utilizzi la funzione di riconoscimento vocale, segui tutte le linee guida legali ed etiche applicabili per la tua area geografica (inclusa, a titolo esemplificativo e non esaustivo, la notifica visibile agli utenti finali che il lettore utilizza il riconoscimento vocale). Adobe non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens utilizzano l’API di riconoscimento vocale web standard incorporata nel motore di navigazione. Dietro le quinte, questa API invia una forma ondulata del discorso ai server di Google per la conversione da discorso a testo e questo testo viene confrontato dal lettore con parole chiave configurate.
 >
 >Consulta [White paper sulla privacy di Google sull&#39;API di riconoscimento vocale Web](https://www.google.com/chrome/privacy/whitepaper.html#speech) per ulteriori dettagli.
 
@@ -53,11 +53,11 @@ Prima di utilizzare la funzione di riconoscimento vocale, accertarsi di disporre
 
    Oppure
 
-   Puoi creare tre canali di sequenza **Principale**, **ColdDrinks**, e **HotDrinks** e un canale aggiuntivo Screens diviso 1x2 **SplitScreen** come illustrato nella figura riportata di seguito.
+   Puoi creare tre canali di sequenza **Principale**, **ColdDrinks**, e **HotDrinks** e un altro canale schermo diviso 1x2 **SplitScreen** come illustrato nella figura riportata di seguito.
 
    ![immagine](assets/voice-recognition/vr-emb-1.png)
 
-1. Passa a ciascun canale e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale. Clic **Modifica** dalla barra delle azioni per aprire l’editor e aggiungere contenuto (immagini/video) in base alle tue esigenze. Allo stesso modo, aggiungi contenuto a entrambi **ColdDrinks** e **HotDrinks** canale.
+1. Passa a ciascuno dei canali e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale. Clic **Modifica** dalla barra delle azioni, aggiungi contenuto (immagini/video) in base alle tue esigenze. Allo stesso modo, aggiungi contenuto a entrambi **ColdDrinks** e **HotDrinks** canale.
 
    I canali ora contengono risorse (immagini), come illustrato nelle figure riportate di seguito.
 
@@ -79,19 +79,19 @@ Prima di utilizzare la funzione di riconoscimento vocale, accertarsi di disporre
 
 ### Impostazione dei tag per i canali {#setting-tags}
 
-Dopo aver aggiunto il contenuto ai canali, è necessario passare a ciascuno di essi e aggiungere i tag appropriati che attiverebbero il riconoscimento vocale.
+Dopo aver aggiunto il contenuto ai canali, passa a ciascuno di essi e aggiungi i tag appropriati che attiverebbero il riconoscimento vocale.
 
 Per aggiungere tag al canale, segui la procedura riportata di seguito:
 
-1. Passa a ciascun canale e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale.
+1. Passa a ciascuno dei canali e aggiungi il contenuto. Ad esempio, passa a **Demo vocale** > **Canali** > **Principale** e selezionare il canale.
 
 1. Clic **Proprietà** dalla barra delle azioni.
 
    ![immagine](assets/voice-recognition/vr-5.png)
 
-1. Accedi a **Nozioni di base** e seleziona un tag già esistente dalla scheda **Tag** o crearne uno nuovo.
+1. Accedi a **Nozioni di base** , quindi selezionare un tag esistente dalla scheda **Tag** o crearne uno.
 
-   Per creare un nuovo tag, digita un nuovo nome per il tag e premi `return` come illustrato nella figura seguente:
+   Per creare un tag, digita un nuovo nome per il tag e l’hit `return` come illustrato nella figura seguente:
 
    ![immagine](assets/voice-recognition/vr-6.png)
 
@@ -116,7 +116,7 @@ Per creare i tag, segui i passaggi seguenti:
 
 1. Passa all’istanza AEM.
 
-1. Fai clic sull’icona Strumenti > **Assegnazione tag**.
+1. Fai clic sull&#39;icona Strumenti > **Assegnazione tag**.
    ![immagine](assets/voice-recognition/vr-7.png)
 
 1. Clic **Crea** > **Crea spazio dei nomi**.
@@ -173,7 +173,7 @@ Ora puoi utilizzare questi tag nel tuo progetto AEM Screens.
 Una volta completati i passaggi precedenti, puoi registrare il dispositivo Chrome per visualizzare l’output.
 
 >[!NOTE]
->Consulta [Registrazione dispositivo](device-registration.md) per scoprire come registrare un dispositivo su un lettore AEM Screens.
+>Consulta [Registrazione dispositivo](device-registration.md).
 
 **Output desiderato per il canale sequenza**
 
@@ -183,4 +183,4 @@ Analogamente, se si utilizza una parola con una parola chiave **freddo** come *V
 
 **Uscita desiderata per canale schermo diviso**
 
-Il **Principale** canale ne sta riproducendo il contenuto, ma quando utilizzi parole con parola chiave **caldo** e **freddo** insieme come *Vorrei vedere il menù per le bevande calde e fredde*, il canale avvia la riproduzione del contenuto del **SplitScreen** canale. Se dite *torna al menu principale*, torna al canale principale.
+Il **Principale** canale sta riproducendo il suo contenuto. Tuttavia, quando si utilizzano parole con parole chiave **caldo** e **freddo** insieme come *Vorrei vedere il menù per le bevande calde e fredde*, il canale riproduce il contenuto del **SplitScreen** canale. Se dite *torna al menu principale*, viene ripristinato il **Principale** canale.

@@ -1,12 +1,10 @@
 ---
 title: Specifiche del dispositivo
-seo-title: Device Specifications
-description: La pagina descrive le specifiche dei dispositivi
-seo-description: The page describes device specifications
+description: Ulteriori informazioni sulle specifiche dei dispositivi relative ad AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -25,9 +23,9 @@ In base alle informazioni raccolte durante *Giorno zero*, conferma le seguenti i
 
 * Quale software e sistema operativo deve essere installato sui dispositivi video?
 
-* Sarà necessaria una connessione a Internet sui lettori per sincronizzare gli schermi con i server AEM?
+* È necessaria una connessione a Internet sui lettori per sincronizzare gli schermi con i server AEM?
 
-* Quando verranno aggiornati i contenuti sui lettori?
+* Quando vengono aggiornati i contenuti sui lettori?
 
 * Se esegui dei video, accertati di conoscere le specifiche del dispositivo in modo che il contenuto venga visualizzato correttamente.
 
@@ -40,4 +38,4 @@ In base alle informazioni raccolte durante *Giorno zero*, conferma le seguenti i
 
 >[!NOTE]
 >
->È inoltre importante convalidare le specifiche dell&#39;hardware selezionato per garantire che supporti l&#39;applicazione in fase di sviluppo. Ad esempio, se l&#39;applicazione è progettata per eseguire cinque video HD contemporaneamente, l&#39;hardware lo supporterà?
+>È inoltre importante convalidare le specifiche dell&#39;hardware selezionato per garantire che supporti l&#39;applicazione in fase di sviluppo. Ad esempio, se l&#39;applicazione è destinata a eseguire contemporaneamente cinque video ad alta definizione, l&#39;hardware lo supporta?
