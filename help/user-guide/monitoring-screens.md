@@ -1,6 +1,6 @@
 ---
-title: Centro di controllo dei dispositivi di risoluzione dei problemi
-description: Scopri come monitorare e risolvere i problemi relativi alle prestazioni dell'attività e del dispositivo di AEM Screens Player utilizzando la dashboard del dispositivo.
+title: Risoluzione dei problemi di Device Control Center
+description: Scopri come monitorare e risolvere i problemi di prestazioni per l’attività del lettore AEM Screens e il dispositivo utilizzando la dashboard Dispositivo.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -21,17 +21,17 @@ ht-degree: 1%
 
 Puoi monitorare e risolvere i problemi di prestazioni per l’attività del lettore AEM Screens e il dispositivo utilizzando la dashboard Dispositivo. Questa pagina fornisce informazioni su come monitorare e risolvere i problemi di prestazioni percepiti per Screens player e i dispositivi assegnati.
 
-## Monitoraggio e risoluzione dei problemi dal Centro di controllo dispositivi {#monitor-and-troubleshoot-from-device-control-center}
+## Monitoraggio e risoluzione dei problemi da Centro controllo dispositivi {#monitor-and-troubleshoot-from-device-control-center}
 
-È possibile monitorare l&#39;attività e quindi risolvere i problemi del lettore AEM Screens, utilizzando la dashboard del dispositivo.
+Puoi monitorare l’attività e quindi risolvere eventuali problemi del lettore AEM Screens, utilizzando la dashboard del dispositivo.
 
-### Dashboard del dispositivo {#device-dashboard}
+### Dashboard dispositivo {#device-dashboard}
 
-Segui i passaggi riportati di seguito per passare al dashboard di dispositivo:
+Per accedere al dashboard dei dispositivi, segui la procedura riportata di seguito:
 
-1. Passare al dashboard di dispositivo dal progetto, ad esempio ***Test del progetto*** > ***dispositivi***.
+1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
-   Seleziona **Dispositivi** e **Gestione** dispositivi dalla barra delle azioni.
+   Clic **Dispositivi** e **Gestione dispositivi** dalla barra delle azioni.
 
    ![screen_shot_2019-09-03at13823pm](assets/screen_shot_2019-09-03at13823pm.png)
 
@@ -39,7 +39,7 @@ Segui i passaggi riportati di seguito per passare al dashboard di dispositivo:
 
    ![screen_shot_2019-09-05at12823pm](assets/screen_shot_2019-09-05at12823pm.png)
 
-1. Seleziona il dispositivo (**NewTestDevice**) e seleziona **Dashboard** dalla barra delle azioni.
+1. Fare clic sul dispositivo (**NewTestDevice**) e fai clic su **Dashboard** dalla barra delle azioni.
 
    ![screen_shot_2019-09-05at13341pm](assets/screen_shot_2019-09-05at13341pm.png)
 
@@ -53,31 +53,31 @@ Il **Attività** Il pannello mostra l’ultimo ping del lettore AEM Screens con 
 
 ![chlimage_1](assets/chlimage_1.png)
 
-Inoltre, seleziona **Raccogli registri** nell&#39;angolo in alto a destra del **pannello Attività** per visualizzare i registri del lettore.
+Fai clic su **Raccogli registri** dall&#39;angolo in alto a destra del **Attività** per visualizzare i registri del lettore.
 
 ### Aggiorna dettagli dispositivo {#update-device-details}
 
-Controlla il pannello Dettagli **dispositivo** in modo da poter visualizzare l&#39;IP dispositivo, l&#39;utilizzo dell&#39;archiviazione, la versione del firmware e il tempo di attività del lettore per il tuo dispositivo.
+Controlla la **Dettagli dispositivo** per visualizzare l&#39;IP del dispositivo, l&#39;utilizzo dello storage, la versione del firmware e il tempo di attività del lettore per il dispositivo.
 
 ![chlimage_1-1](assets/chlimage_1-1.png)
 
-Inoltre, seleziona **Cancella cache** e **Aggiorna** per cancellare la cache del dispositivo e aggiornare [firmware](screens-glossary.md) versione rispettivamente da questo pannello.
+Fai clic su **Cancella cache** e **Aggiorna** per cancellare la cache del dispositivo e aggiornare [firmware](screens-glossary.md) versione rispettivamente da questo pannello.
 
-Inoltre, seleziona **...** dall&#39;angolo in alto a destra del **Dettagli dispositivo** per riavviare o aggiornare lo stato del lettore.
+Fai clic su **...** dall&#39;angolo in alto a destra del **Dettagli dispositivo** per riavviare o aggiornare lo stato del lettore.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
 ### Aggiorna informazioni dispositivo {#update-device-information}
 
-Controllare il **pannello DEVICE INFORMATION** . Qui è possibile visualizzare l&#39;aggiornamento della configurazione, dispositivo modello, dispositivo sistema operativo e le informazioni sulla shell.
+Controlla la **INFORMAZIONI DISPOSITIVO** pannello. Qui puoi visualizzare l’aggiornamento della configurazione, il modello del dispositivo, il sistema operativo del dispositivo e le informazioni sulla shell.
 
-![screen_shot_2019-09-05At13853PM](assets/screen_shot_2019-09-05at13853pm.png)
+![screen_shot_2019-09-05at13853pm](assets/screen_shot_2019-09-05at13853pm.png)
 
-Inoltre, seleziona (**...**) nell&#39;angolo in alto a destra del pannello Informazioni dispositivo per visualizzare le proprietà o aggiornare la dispositivo.
+Inoltre, fai clic su (**...**) dall&#39;angolo superiore destro del pannello Informazioni dispositivo per visualizzare le proprietà o aggiornare il dispositivo.
 
 ![screen_shot_2019-09-05at14017pm](assets/screen_shot_2019-09-05at14017pm.png)
 
-Seleziona **Proprietà** in modo da visualizzare **Proprietà dispositivo** . Puoi modificare il titolo del dispositivo o scegliere l’opzione per gli aggiornamenti della configurazione come **Manuale** o **Automatico**.
+Clic **Proprietà** in modo da visualizzare **Proprietà dispositivo** . Puoi modificare il titolo del dispositivo o scegliere l’opzione per gli aggiornamenti della configurazione come **Manuale** o **Automatico**.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Seleziona **Proprietà** in modo da visualizzare **Proprietà dispositivo** . Pu
 
 Puoi visualizzare lo screenshot del lettore dal dispositivo dalla sezione **SCHERMATA DEL LETTORE** pannello.
 
-Seleziona (**...**) nell&#39;angolo in alto a destra del pannello Schermata del lettore e selezionare **Aggiorna schermata** per visualizzare l&#39;istantanea del lettore in esecuzione.
+Fai clic su (**...**) nell&#39;angolo in alto a destra del pannello Schermata del lettore e fare clic su **Aggiorna schermata** per visualizzare l&#39;istantanea del lettore in esecuzione.
 
 ![screen_shot_2019-09-05at14205pm](assets/screen_shot_2019-09-05at14205pm.png)
 
@@ -98,11 +98,11 @@ Seleziona (**...**) nell&#39;angolo in alto a destra del pannello Schermata del 
 Il **PREFERENZE** consente all&#39;utente di modificare le preferenze per **Interfaccia utente amministratore**, **Commutatore canale**, e **Debug remoto** per il dispositivo.
 
 >[!NOTE]
->Per ulteriori informazioni su queste opzioni, vedere [AEM Screens lettore](working-with-screens-player.md).
+>Per ulteriori informazioni su queste opzioni, vedi [Lettore AEM Screens](working-with-screens-player.md).
 
 ![screen_shot_2019-09-05at14250pm](assets/screen_shot_2019-09-05at14250pm.png)
 
-Inoltre, seleziona **Impostazioni** dall’angolo in alto a destra per aggiornare le preferenze del dispositivo. Puoi aggiornare le seguenti preferenze:
+Fai clic su **Impostazioni** dall’angolo in alto a destra per aggiornare le preferenze del dispositivo. Puoi aggiornare le seguenti preferenze:
 
 * **URL server**
 * **Risoluzione**
@@ -113,7 +113,7 @@ Inoltre, seleziona **Impostazioni** dall’angolo in alto a destra per aggiornar
 ![screen_shot_2019-09-05at14511pm](assets/screen_shot_2019-09-05at14511pm.png)
 
 >[!NOTE]
->È possibile selezionare uno dei seguenti livelli di registro:
+>È possibile fare clic su uno dei livelli di registro seguenti:
 >* **Disattiva**
 >* **Debug**
 >* **Info**
@@ -122,23 +122,23 @@ Inoltre, seleziona **Impostazioni** dall’angolo in alto a destra per aggiornar
 
 ![screen_shot_2019-09-05at15645pm](assets/screen_shot_2019-09-05at15645pm.png)
 
-## Risoluzione dei problemi relativi alle Impostazioni OSGi {#troubleshoot-osgi-settings}
+## Risoluzione dei problemi relativi alle impostazioni OSGi {#troubleshoot-osgi-settings}
 
-Abilita il referente vuoto per consentire al dispositivo di post dati al server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot.
+Abilita il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot.
 
 Attualmente alcune di queste funzioni sono disponibili solo se *Il Filtro Di Riferimento Apache Sling Consenti Vuoto* è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
 
 Segui i passaggi seguenti per abilitare il filtro Apache Sling Referrer Allow Empty
 
-1. Accedi a **Adobe Experience Manager configurazione** della console Web, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
-1. Seleziona l&#39;opzione **allow.empty** .
-1. Seleziona **Salva**.
+1. Accedi a **Configurazione console Web Adobe Experience Manager**, ovvero `https://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter`.
+1. Controlla la **allow.empty** opzione.
+1. Fai clic su **Salva**.
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
 
 ### Consigli {#recommendations}
 
-La sezione seguente consiglia di monitorare i collegamenti di rete, i server e i lettori per comprendere lo stato e reagire ai problemi.
+La sezione seguente consiglia di monitorare i collegamenti di rete, i server e i lettori per comprenderne lo stato e reagire ai problemi.
 
 L&#39;AEM fornisce un monitoraggio integrato per:
 
@@ -158,4 +158,4 @@ Si consiglia di distribuire l&#39;hardware e il sistema operativo del lettore in
 
 #### Altre risorse {#additional-resources}
 
-Consulta [Video Configurazione della riproduzione e Risoluzione dei problemi](troubleshoot-videos.md) se desideri debug e risolvere i problemi relativi ai video riprodotti nel tuo canale.
+Consulta [Configurazione della riproduzione video e risoluzione dei problemi](troubleshoot-videos.md) se desideri eseguire il debug e risolvere i problemi relativi ai video riprodotti nel tuo canale.

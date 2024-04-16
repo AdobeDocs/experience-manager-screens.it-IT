@@ -6,7 +6,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -28,8 +28,8 @@ Per scaricare **Lettore AEM Screens**, visita il [Download del lettore AEM 6.5](
 >Dopo aver scaricato l&#39;ultimo lettore (*.exe*), segui i passaggi sul lettore in modo da poter completare l’installazione ad hoc:
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e seleziona **Salva**.
->1. Seleziona **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
+>1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
+>1. Clic **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
 
 ## Monitoraggio della riproduzione di base {#playback-monitoring}
 

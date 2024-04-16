@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 Per generare automaticamente rappresentazioni Full HD, segui la procedura indicata di seguito:
 
-1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona del martello in modo da poter selezionare **Flusso di lavoro**.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona del martello in modo da poter fare clic su **Flusso di lavoro**.
 
-   Seleziona **Modelli**.
+   Clic **Modelli**.
 
    ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Nella gestione del modello di flusso di lavoro, seleziona la **Aggiorna risorsa DAM** modello e selezione **Modifica** dalla barra delle azioni.
+1. Nella gestione del modello di flusso di lavoro, fai clic su **Aggiorna risorsa DAM** e fai clic su **Modifica** dalla barra delle azioni.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
@@ -44,18 +44,18 @@ Per generare automaticamente rappresentazioni Full HD, segui la procedura indica
 
    ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Seleziona la **Processo** scheda.
+1. Fai clic su **Processo** scheda.
 1. Inserire i profili Full HD nell&#39;elenco in **Argomenti** come segue:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
-1. Seleziona **OK**.
+1. Fai clic su **OK**.
 
    ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Seleziona **Salva** in alto a sinistra nella **Aggiorna risorsa DAM** schermo.
+1. Clic **Salva** in alto a sinistra nella **Aggiorna risorsa DAM** schermo.
 
    ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Accedi a **Risorse** e carica un nuovo video. Seleziona il video e apri la barra laterale Rappresentazioni. Osservate i due video Full HD.
+1. Accedi a **Risorse** e carica un nuovo video. Fai clic sul video e apri la barra laterale Rappresentazioni. Osservate i due video Full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,21 +71,21 @@ Per generare automaticamente rappresentazioni Full HD, segui la procedura indica
 
 Per generare manualmente le rappresentazioni Full HD, effettua le seguenti operazioni:
 
-1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona a forma di martello per selezionare gli strumenti e selezionare **Flusso di lavoro**.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona del martello in modo da poter fare clic su Strumenti e poi su **Flusso di lavoro**.
 
-   Seleziona **Modelli**.
+   Clic **Modelli**.
 
    ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Nella gestione dei modelli di flusso di lavoro, seleziona **Risorsa per aggiornamento schermi** e selezionare il **Avvia flusso di lavoro** per aprire **Esegui flusso di lavoro** .
+1. Nella gestione dei modelli di flusso di lavoro, fai clic su **Risorsa per aggiornamento schermi** e fare clic sul pulsante **Avvia flusso di lavoro** per aprire **Esegui flusso di lavoro** .
 
    ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Seleziona il video desiderato nella **Payload** e seleziona **Esegui**.
+1. Fai clic sul video desiderato nella sezione **Payload** e fai clic su **Esegui**.
 
    ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Accedi a **Risorse**, espandi la risorsa e selezionala.
+1. Accedi a **Risorse**, espandi la risorsa e fai clic su di essa.
 
    ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 

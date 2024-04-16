@@ -5,7 +5,7 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Un ***Canale online*** mostra il contenuto aggiornato nell’ambiente in tempo r
 
 ### 2. Come si crea un canale online? {#how-do-i-make-a-channel-online}
 
-Seleziona il canale e accedi alle proprietà del canale dalla barra delle azioni. Verifica **Modalità sviluppatore (forza canale online)** in **Canale** per rendere il canale online.
+Fai clic sul canale e accedi alle proprietà del canale dalla barra delle azioni. Verifica **Modalità sviluppatore (forza canale online)** in **Canale** per rendere il canale online.
 
 ### 3. Qual è l’utilizzo del campo Ruolo canale? {#what-is-the-use-of-the-channel-role-field}
 
@@ -70,9 +70,9 @@ Quando si utilizza un codice lato client personalizzato generato `clientlib` in 
 
 Segui i passaggi seguenti dall’editor canali:
 
-1. Seleziona un canale, quindi seleziona **Modifica** dalla barra delle azioni.
-1. Seleziona il componente in cui desideri aggiungere il componente personalizzato `clientlib`.
-1. Seleziona il pulsante Configura (icona a forma di chiave inglese).
+1. Fai clic su un canale, quindi fai clic su **Modifica** dalla barra delle azioni.
+1. Fai clic sul componente in cui desideri aggiungere il componente personalizzato `clientlib`.
+1. Fai clic sul pulsante Configura (icona a forma di chiave inglese).
 1. Accedi a **Configurazione offline** e aggiungere il percorso alla libreria client personalizzata in **Librerie lato client**.
 
 ## Registrazione dispositivo {#device-registration}
@@ -109,7 +109,7 @@ Abilita il filtro Apache Sling Referrer Allow Empty. Ciò è necessario per il f
 
 1. Accedi a **Configurazione console Web Adobe Experience Manager**
 1. Controlla la **allow.empty** opzione.
-1. Seleziona **Salva**.
+1. Fai clic su **Salva**.
 
 ### 3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens, il dispositivo mostra l’errore FAILURE e i registri della console mostrano l’errore ENAME_NOT_FOUND?
 
@@ -133,14 +133,14 @@ Per ulteriori informazioni su dove è possibile monitorare l&#39;attività dei d
 
 Il lettore ChromeOS può essere installato come plug-in del browser Chrome in modalità sviluppatore senza richiedere il dispositivo effettivo del lettore Chrome. Per l&#39;installazione, procedere come segue:
 
-1. Seleziona [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
+1. Clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 1. Decomprimi e salva su disco.
-1. Apri il browser Chrome e seleziona **Estensioni** dal menu o passa direttamente a ***chrome://extensions***.
+1. Apri il browser Chrome e fai clic su **Estensioni** dal menu o passa direttamente a ***chrome://extensions***.
 1. Accendere il **Modalità sviluppatore** dall&#39;angolo superiore destro.
-1. Seleziona **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
+1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
 1. Se disponibile nell’elenco delle estensioni, seleziona **AEM Screens Chrome Player** plugin.
-1. Apri una nuova scheda e seleziona la **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.
-1. Seleziona la **AEM Screens** Plugin. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
+1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.
+1. Fai clic su **AEM Screens** Plugin. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
 
 ### 2. Come risolvere i problemi se Screens Player non è in grado di eseguire l’autenticazione tramite l’istanza di pubblicazione con un gestore degli errori personalizzato?
 
@@ -203,7 +203,7 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 
    * Accedi a `https://<host>:<port>/system/console/bundles`.
    * Cerca il bundle AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`.
-   * Seleziona **Interrompi**.
+   * Clic **Interrompi**.
 
 1. ***Disabilita poller Livefyre:***
 

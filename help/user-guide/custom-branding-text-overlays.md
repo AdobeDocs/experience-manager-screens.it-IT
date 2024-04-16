@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 1. Copia il percorso nel progetto; in questo caso, il percorso è `/apps/settings/wcm/designs/customstyle`.
 
-1. Passa al canale con titolo **DemoBrand** (creato nel passaggio 1) e selezionare **Proprietà** dalla barra delle azioni dopo aver selezionato il canale.
+1. Passa al canale con titolo **DemoBrand** (creato nel passaggio 1) e fare clic su **Proprietà** dalla barra delle azioni dopo aver selezionato il canale.
 
 1. Accedi a **Avanzate** e controllare la **Progettazione** campo.
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand5.png)
@@ -79,7 +79,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand6.png)
 
-1. Seleziona **Salva e chiudi** per aggiornare il percorso di progettazione.
+1. Clic **Salva e chiudi** per aggiornare il percorso di progettazione.
 
    >[!IMPORTANT]
    >Facoltativamente, puoi sovrapporre i modelli di Screens esistenti per inserire le progettazioni personalizzate per impostazione predefinita o creare completamente un modello personalizzato. Per ulteriori informazioni, consulta i passaggi seguenti.
@@ -108,9 +108,9 @@ Una volta completati i passaggi precedenti, puoi aggiornare *statis.css* file da
 
 Per visualizzare la progettazione aggiornata in sovrapposizione testo, attenersi alla procedura descritta di seguito.
 
-1. Passa al progetto AEM Screens con titolo **`customstyle`** > **Canali** > **DemoBrand**. Seleziona il canale e seleziona **Modifica** dalla barra delle azioni.
+1. Passa al progetto AEM Screens con titolo **`customstyle`** > **Canali** > **DemoBrand**. Fai clic sul canale e fai clic su **Modifica** dalla barra delle azioni.
 
-1. Poiché ora hai aggiunto il design al tuo **Progettazioni** come indicato sopra, seleziona **Anteprima** per visualizzare lo stile corrente dell&#39;immagine con sovrapposizione testo.
+1. Poiché ora hai aggiunto il design al tuo **Progettazioni** come indicato in precedenza, fai clic su **Anteprima** per visualizzare lo stile corrente dell&#39;immagine con sovrapposizione testo.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand7.png)
 

@@ -2,7 +2,7 @@
 title: Configurazione delle istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -66,23 +66,23 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
 
    ![screen_shot_2019-02-25at24621pm](assets/screen_shot_2019-02-25at24621pm.png)
 
-1. Seleziona la **Replica** dalla struttura di navigazione a sinistra.
+1. Fai clic su **Replica** dalla struttura di navigazione a sinistra.
 
    ![screen_shot_2019-02-25at24715pm](assets/screen_shot_2019-02-25at24715pm.png)
 
-1. Seleziona la **Agenti per creazione** dal **Replica** cartella e seleziona **Nuovo** per creare un nuovo agente di replica standard.
+1. Fai clic su **Agenti per creazione** dal **Replica** cartella e fai clic su **Nuovo** per creare un nuovo agente di replica standard.
 
    ![screen_shot_2019-02-25at25400pm](assets/screen_shot_2019-02-25at25400pm.png)
 
-1. Inserisci il **Titolo** e **Nome** in modo da poter creare l’agente di replica, quindi selezionare **Crea**.
+1. Inserisci il **Titolo** e **Nome** in modo da poter creare l’agente di replica, quindi fai clic su **Crea**.
 
    ![screen_shot_2019-02-25at25737pm](assets/screen_shot_2019-02-25at25737pm.png)
 
-1. Fai clic con il pulsante destro del mouse sull’agente di replica e seleziona **Apri** per modificare le impostazioni.
+1. Fare clic con il pulsante destro del mouse sull&#39;agente di replica e scegliere **Apri** per modificare le impostazioni.
 
    ![screen_shot_2019-02-25at30018pm](assets/screen_shot_2019-02-25at30018pm.png)
 
-1. Seleziona **Modifica**.
+1. Clic **Modifica**.
 
 1. In **Impostazioni agente** immetti i dettagli.
 
@@ -128,7 +128,7 @@ Configurare Apache Sling Oak-Based Discovery per tutte le istanze Publish nella 
 Per ogni istanza Publish:
 
 1. Accedi a `https://<host>:<port>/system/console/configMgr`
-1. Seleziona **Servizio di individuazione basato su Oak Apache Sling** Configurazione.
+1. Clic **Servizio di individuazione basato su Oak Apache Sling** Configurazione.
 1. Aggiorna URL connettore topologia: aggiungi URL di tutte le istanze Publish che effettuano la raccolta e che sono:
    * `https://publish:4503/libs/sling/topology/connector`
    * `https://publish:4504/libs/sling/topology/connector`
@@ -151,7 +151,7 @@ Per ogni istanza di pubblicazione:
 
 1. Nella console OSGi, passa a **PRINCIPALE** > **Supporto crittografia** (`https://<host>:<port>/system/console/crypto`).
 1. Digita la password di testo normale desiderata (stessa per tutte le istanze) in **Testo normale**
-1. Seleziona **Protect**.
+1. Clic **Protect**.
 1. Copia il valore **Testo protetto** al blocco note o all’editor di testo. Questo valore può essere utilizzato nella configurazione OSGi per ActiveMQ.
 
 Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi di crittografia univoche, esegui questo passaggio su ogni istanza pub e salva la chiave univoca per la configurazione successiva.
@@ -166,7 +166,7 @@ Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi di
 Su ogni istanza Publish:
 
 1. Passa a Gestione configurazione OSGi `https://<host>:<port>/system/console/configMgr`
-1. Seleziona **Provider Apache ActiveMQ Artemis JMS** Configurazione
+1. Clic **Provider Apache ActiveMQ Artemis JMS** Configurazione
 1. Aggiorna quanto segue:
 
    * ***Password cluster***: utilizza un valore crittografato del passaggio precedente per la rispettiva istanza
@@ -191,7 +191,7 @@ Segui i passaggi seguenti per ogni istanza Publish:
 
 Ad esempio, l&#39;immagine seguente viene visualizzata in caso di configurazione corretta del server ActiveMQ Artemis.
 
-Se non vedi la seguente configurazione da */system/console/mq*, quindi passa a */system/console/mq* e seleziona **Riavvia** per riavviare il broker.
+Se non vedi la seguente configurazione da */system/console/mq*, quindi passa a */system/console/mq* e fai clic su **Riavvia** per riavviare il broker.
 
 ![image-2018-06-18-18-14-55-449](assets/image-2018-06-18-18-14-55-449.png)
 
@@ -200,7 +200,7 @@ Se non vedi la seguente configurazione da */system/console/mq*, quindi passa a *
 Segui i passaggi per ogni istanza Publish:
 
 1. Accedi a **Console OSGi** > **Gestione configurazione**
-1. Seleziona **Filtro referrer Apache Sling**
+1. Clic **Filtro referrer Apache Sling**
 1. Aggiorna configurazione e **seleziona Consenti vuoto**
 
 ### Configurazione dell’istanza di authoring e pubblicazione {#configuring-author-and-publish-instance}
@@ -224,19 +224,19 @@ Dopo aver impostato la topologia di pubblicazione, configura le istanze Author e
 
 #### Passaggio 2: registrazione di un dispositivo durante l’authoring {#step-registering-a-device-on-author}
 
-1. Vai a `https://localhost:4502/screens.html/content/screens/we-retail` oppure seleziona il progetto e passa a Dispositivi > Gestione dispositivi.
-1. Seleziona **Registra dispositivo**.
-1. Seleziona **Registrazione dispositivo**.
-1. Selezionare il dispositivo da registrare, quindi selezionare **Registra dispositivo**.
-1. Verifica il codice di registrazione, quindi seleziona **Convalida**.
-1. Inserisci un titolo per il dispositivo, quindi seleziona **Registrati**.
+1. Vai a `https://localhost:4502/screens.html/content/screens/we-retail` oppure fai clic sul progetto e passa a Dispositivi > Gestione dispositivi.
+1. Clic **Registra dispositivo**.
+1. Clic **Registrazione dispositivo**.
+1. Fare clic sul dispositivo da registrare, quindi fare clic su **Registra dispositivo**.
+1. Verifica il codice di registrazione, quindi fai clic su **Convalida**.
+1. Inserisci un titolo per il dispositivo, quindi fai clic su **Registrati**.
 
 #### Passaggio 3: assegnazione del dispositivo alla visualizzazione {#step-assigning-the-device-to-display}
 
-1. Seleziona **Assegna visualizzazione** dalla finestra di dialogo del passaggio precedente.
-1. Seleziona il percorso di visualizzazione del canale dalla **Posizioni** cartella.
-1. Seleziona **Assegna**.
-1. Seleziona **Fine** per completare il processo, e ora il dispositivo viene assegnato.
+1. Clic **Assegna visualizzazione** dalla finestra di dialogo del passaggio precedente.
+1. Fai clic sul percorso di visualizzazione del canale dalla scheda **Posizioni** cartella.
+1. Clic **Assegna**.
+1. Clic **Fine** per completare il processo, e ora il dispositivo viene assegnato.
 
 Controlla il lettore e nota il contenuto aggiunto nel canale.
 
@@ -248,7 +248,7 @@ Per replicare l’utente del dispositivo, segui la procedura riportata di seguit
 
 1. Passa alla pagina dell’amministratore utenti. Esempio: `https://localhost:4502/useradmin`.
 1. Cerca **`screens-devices-master`** gruppo.
-1. Fare clic con il pulsante destro del mouse sul gruppo e selezionare **Attiva**.
+1. Fare clic con il pulsante destro del mouse sul gruppo e scegliere **Attiva**.
 
 >[!CAUTION]
 >
@@ -257,14 +257,14 @@ Per replicare l’utente del dispositivo, segui la procedura riportata di seguit
 È inoltre possibile attivare il dispositivo dalla console di gestione dei dispositivi. Effettua le seguenti operazioni:
 
 1. Passa al progetto Schermi > **Dispositivi**.
-1. Seleziona **Gestione dispositivi** dalla barra delle azioni.
-1. Selezionare il dispositivo e selezionare **Attiva** dalla barra delle azioni, come illustrato nella figura riportata di seguito.
+1. Clic **Gestione dispositivi** dalla barra delle azioni.
+1. Fare clic sul dispositivo e fare clic su **Attiva** dalla barra delle azioni, come illustrato nella figura riportata di seguito.
 
 ![screen_shot_2019-02-21at111036am](assets/screen_shot_2019-02-21at111036am.png)
 
 >[!NOTE]
 >
->In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server. Seleziona **Modifica URL server** dalla barra delle azioni, come illustrato nella figura seguente, le modifiche vengono propagate al lettore AEM Screens.
+>In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server. Clic **Modifica URL server** dalla barra delle azioni, come illustrato nella figura seguente, le modifiche vengono propagate al lettore AEM Screens.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -293,16 +293,16 @@ Per verificare il comportamento di authoring e pubblicazione, segui i passaggi s
 #### Passaggio 5: indirizzamento del dispositivo all’istanza Publish nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
 1. Visualizza l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra in modo da poter aprire il menu di amministrazione, sul lettore AEM Screens touch o utilizzando un mouse.
-1. Seleziona la **Configurazione** dal pannello laterale.
+1. Fai clic su **Configurazione** dal pannello laterale.
 1. Cambia l’istanza di authoring in Istanza di pubblicazione in **Server**.
 
 Visualizza le modifiche nel lettore AEM Screens.
 
 In alternativa, puoi anche aggiornare/modificare l’URL del server dalla console di gestione del dispositivo seguendo la procedura riportata di seguito:
 
-1. Passa al progetto AEM Screens e seleziona la **Dispositivi** cartella.
-1. Seleziona **Gestione dispositivi** dalla barra delle azioni.
-1. Selezionare il dispositivo e selezionare **Modifica URL server** dalla barra delle azioni, come illustrato nella figura seguente, e le modifiche vengono propagate al lettore AEM Screens.
+1. Passa al progetto AEM Screens e fai clic su **Dispositivi** cartella.
+1. Clic **Gestione dispositivi** dalla barra delle azioni.
+1. Fare clic sul dispositivo e fare clic su **Modifica URL server** dalla barra delle azioni, come illustrato nella figura seguente, e le modifiche vengono propagate al lettore AEM Screens.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

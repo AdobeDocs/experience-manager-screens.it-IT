@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Segui i passaggi seguenti per configurare un progetto e un canale:
 
 1. Crea un canale di sequenza denominato **Caffetteria** nel **Canali** cartella.
 
-1. Seleziona il canale, quindi seleziona **Modifica** dalla barra delle azioni.
+1. Fai clic sul canale, quindi su **Modifica** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp2.png)
 
@@ -62,13 +62,13 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
 
 1. Passa alla visualizzazione desiderata, ad esempio: **DemoScreens** > **Posizioni** > **SanJose** > **Lobby**.
 
-1. Seleziona **Assegna canale** dalla barra delle azioni.
+1. Clic **Assegna canale** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp5.png)
 
    Oppure
 
-   Seleziona **Dashboard** dalla barra delle azioni e seleziona **+Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   Clic **Dashboard** dalla barra delle azioni e fai clic su **+Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp6.png)
 
@@ -84,14 +84,14 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
    >
    >Per ulteriori informazioni sulle proprietà di assegnazione dei canali, consulta [Proprietà canale](#channel-properties) sezione.
 
-1. Dalla sezione **Pianificazione** , seleziona l&#39;opzione **Finestra di attivazione** e **Pianificazione ricorrenza**.
+1. Dalla sezione **Pianificazione** , fare clic sul pulsante **Finestra di attivazione** e **Pianificazione ricorrenza**.
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
    >Per ulteriori informazioni sulle proprietà di assegnazione dei canali, consulta [Proprietà canale](#channel-properties) sezione.
 
-1. Seleziona **Salva** dopo aver configurato le preferenze.
+1. Clic **Salva** dopo aver configurato le preferenze.
 
 ### Visualizzazione del contenuto in Chrome Player {#viewing-content-output}
 
@@ -111,11 +111,11 @@ Per passare alla vista timeline, segui la procedura riportata di seguito:
 
 1. Passa alla visualizzazione desiderata, ad esempio: **DemoScreens** > **Posizioni** > **SanJose** > **Lobby**.
 
-1. Seleziona **Assegna canale** dalla barra delle azioni.
+1. Clic **Assegna canale** dalla barra delle azioni.
 
    Oppure
 
-   Seleziona **Dashboard** e seleziona **Timeline** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   Clic **Dashboard** e fai clic su **Timeline** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    ![immagine](/help/user-guide/assets/channel-assignment/timeline-1.png)
 
@@ -181,7 +181,7 @@ La finestra di attivazione consente di selezionare un **Data di inizio** e un **
 
 ### Pianificazione ricorrenza {#recurrence-schedule}
 
-La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il contenuto. Seleziona **+ Aggiungi pianificazione** per aggiungere una pianificazione di ricorrenza al canale.
+La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il contenuto. Clic **+ Aggiungi pianificazione** per aggiungere una pianificazione di ricorrenza al canale.
 
 >[!NOTE]
 >Puoi aggiungere più pianificazioni ricorrenti al tuo canale.

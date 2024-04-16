@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 1%
@@ -73,7 +73,7 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
 
 1. **Navigazione a ContextHub**
 
-   Passa all’istanza dell’AEM e seleziona l’icona Strumenti dalla barra laterale a sinistra. Seleziona **Sites** > **ContextHub**, come illustrato nella figura seguente.
+   Passa all’istanza AEM e fai clic sull’icona Strumenti nella barra laterale a sinistra. Clic **Sites** > **ContextHub**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -81,16 +81,16 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
 
    1. Passa al contenitore di configurazione con titolo **schermi**.
 
-   1. Seleziona **Crea** > **Crea contenitore configurazione** e inserisci il titolo come **DemoContextHub**.
+   1. Clic **Crea** > **Crea contenitore configurazione** e inserisci il titolo come **DemoContextHub**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub4.png)
 
-   1. **Naviga** a **DemoContextHub** > **Crea** **Configurazione ContentHub** e seleziona **Salva**.
+   1. **Naviga** a **DemoContextHub** > **Crea** **Configurazione ContentHub** e fai clic su **Salva**.
 
       >[!NOTE]
-      > Dopo aver selezionato **Salva**, sei nel **Configurazione ContextHub** schermo.
+      > Dopo aver fatto clic su **Salva**, sei nel **Configurazione ContextHub** schermo.
 
-   1. Dalla sezione **Configurazione ContextHub** schermata, seleziona **Crea** > **Configurazione archivio ContentHub**
+   1. Dalla sezione **Configurazione ContextHub** schermata, fai clic su **Crea** > **Configurazione archivio ContentHub**
 
    ![immagine](/help/user-guide/assets/context-hub/context-hub5.png)
 
@@ -110,14 +110,14 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
    >
    >Segui questi passaggi in Creazione e pubblicazione prima o dopo l’aggiornamento.
 
-   1. Inserisci il **Titolo** as **Fogli Google**, **Nome store** as **`googlesheets`**, e **Tipo di archivio** as **c`ontexthub.generic-jsonp`** e seleziona **Successivo**.
+   1. Inserisci il **Titolo** as **Fogli Google**, **Nome store** as **`googlesheets`**, e **Tipo di archivio** as **c`ontexthub.generic-jsonp`** e fai clic su **Successivo**.
 
       >[!CAUTION]
       >Se si utilizza Adobe Experience Manager (AEM) 6.4, immettere il **Titolo configurazione** as **`googlesheets`** e **Tipo di archivio** as **c`ontexthub.generic-jsonp`**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub6.png)
 
-   1. Immetti la configurazione JSON specifica. Ad esempio, puoi utilizzare il seguente codice json a scopo dimostrativo e selezionare **Salva**. Vedi la configurazione dell’archivio con titolo **Fogli Google** nella configurazione ContextHub.
+   1. Immetti la configurazione JSON specifica. Ad esempio, puoi utilizzare il seguente codice json a scopo dimostrativo e fare clic su **Salva**. Vedi la configurazione dell’archivio con titolo **Fogli Google** nella configurazione ContextHub.
 
       >[!IMPORTANT]
       >Assicurati di sostituire il codice con il `*<Sheet ID>*` e `*<API Key>*`, recuperato durante la configurazione dei fogli Google.
@@ -154,7 +154,7 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub7.png)
 
-   1. Seleziona **Successivo** e poi **Salva**.
+   1. Clic **Successivo** e poi **Salva**.
 
       >[!NOTE]
       >Ignora il processo di definizione del codice JSON e lascialo vuoto.
@@ -166,16 +166,16 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
 
    1. Passa dall’istanza AEM a **Personalizzazione** > **Tipi di pubblico** > **schermi**.
 
-   1. Seleziona **Crea** > **Crea un segmento ContextHub.** Il **Nuovo segmento ContextHub** viene visualizzata.
+   1. Clic **Crea** > **Crea un segmento ContextHub.** Il **Nuovo segmento ContextHub** viene visualizzata.
 
-   1. Inserisci il **Titolo** as `**Higherthan50**` e seleziona **Crea**. Allo stesso modo, crea un altro segmento denominato come `**Lowerthan50**`.
+   1. Inserisci il **Titolo** as `**Higherthan50**` e fai clic su **Crea**. Allo stesso modo, crea un altro segmento denominato come `**Lowerthan50**`.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub11.png)
 
-   1. Seleziona il segmento `**Higherthan50**` e seleziona **Proprietà** dalla barra delle azioni.
+   1. Fai clic sul segmento `**Higherthan50**` e fai clic su **Proprietà** dalla barra delle azioni.
       ![immagine](/help/user-guide/assets/context-hub/context-hub12.png)
 
-   1. Seleziona la **Personalizzazione** scheda da **Proprietà segmento**. Imposta il **Percorso ContextHub** a `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Percorso segmenti** a `/conf/screens/settings/wcm/segments` e seleziona **Salva**, come illustrato nella figura seguente.
+   1. Fai clic su **Personalizzazione** scheda da **Proprietà segmento**. Imposta il **Percorso ContextHub** a `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Percorso segmenti** a `/conf/screens/settings/wcm/segments` e fai clic su **Salva**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/context-hub/context-hub13.png)
 
@@ -189,11 +189,11 @@ Segui i passaggi seguenti per creare un marchio nelle attività e nelle aree sot
 
    1. Passa dall’istanza AEM a **Personalizzazione** > **Attività**.
 
-   1. Seleziona **Crea** > **Crea marchio**.
+   1. Clic **Crea** > **Crea marchio**.
 
-   1. Seleziona **Marchio** dal **Crea pagina** procedura guidata e seleziona **Successivo**.
+   1. Clic **Marchio** dal **Crea pagina** e fai clic su **Successivo**.
 
-   1. Inserisci il **Titolo** as **ScreensBrand** e seleziona **Crea**. Il brand viene ora creato come mostrato di seguito.
+   1. Inserisci il **Titolo** as **ScreensBrand** e fai clic su **Crea**. Il brand viene ora creato come mostrato di seguito.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub8.png)
 
@@ -208,13 +208,13 @@ Segui i passaggi seguenti per creare un marchio nelle attività e nelle aree sot
 
    Per creare un’area nel brand, segui i passaggi seguenti:
 
-   1. Seleziona **Crea** e poi **Crea area**.
+   1. Clic **Crea** e poi **Crea area**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub9.png)
 
-   1. Seleziona **Superfici** dal **Crea pagina** procedura guidata e seleziona **Successivo**.
+   1. Clic **Superfici** dal **Crea pagina** e fai clic su **Successivo**.
 
-   1. Inserisci il **Titolo** as **ScreensValue** e seleziona **Crea**.
+   1. Inserisci il **Titolo** as **ScreensValue** e fai clic su **Crea**.
 Nel tuo marchio viene creata un’area.
 
 ## Passaggio 5: Creazione dei segmenti in un’attività {#step-setting-up-audience-segmentation}
@@ -225,21 +225,21 @@ Dopo aver configurato un archivio dati e definito l’attività (marchio e area)
 
    1. Passa dall’istanza AEM a **Personalizzazione** > **Attività** > **ScreensBrand** >**ScreensValue**.
 
-   1. Seleziona **Crea** > **Crea attività.** Il **Configurazione guidata attività** viene aperto.
+   1. Clic **Crea** > **Crea attività.** Il **Configurazione guidata attività** viene aperto.
 
-   1. Inserisci il **Titolo** as **ValueCheck50** e **Nome** as **valuecheck50**. Seleziona la **Motore di targeting** as **ContextHub (AEM)** dall’elenco a discesa e seleziona **Successivo**.
+   1. Inserisci il **Titolo** as **ValueCheck50** e **Nome** as **valuecheck50**. Fai clic su **Motore di targeting** as **ContextHub (AEM)** dall’elenco a discesa e fai clic su **Successivo**.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub14.png)
 
-   1. Seleziona **Aggiungi esperienza** dal `**Configure Activity**` procedura guidata.
+   1. Clic **Aggiungi esperienza** dal `**Configure Activity**` procedura guidata.
 
-   1. Dalla sezione **Tipi di pubblico**, seleziona la `**Higherthan50**` e seleziona **Aggiungi esperienza** e immetti **Titolo** as `**higherthan50**` **Nome** as `**higherthan50**`. Seleziona **Ok**.
+   1. Dalla sezione **Tipi di pubblico**, fare clic su `**Higherthan50**` e fai clic su **Aggiungi esperienza** e immetti **Titolo** as `**higherthan50**` **Nome** as `**higherthan50**`. Clic **Ok**.
 
-   1. Dalla sezione **Tipi di pubblico**, seleziona la `**Lowerthan50**` e seleziona **Aggiungi esperienza** e immetti **Titolo** as `**lowerthan50**` **Nome** as `**lowerthan50**`. Seleziona **Ok**.
+   1. Dalla sezione **Tipi di pubblico**, fare clic su `**Lowerthan50**` e fai clic su **Aggiungi esperienza** e immetti **Titolo** as `**lowerthan50**` **Nome** as `**lowerthan50**`. Clic **Ok**.
 
    ![immagine](/help/user-guide/assets/context-hub/context-hub15.png)
 
-   1. Seleziona **Successivo** e poi **Salva**. `**ValueCheck50**` L’attività viene ora creata e configurata.
+   1. Clic **Successivo** e poi **Salva**. `**ValueCheck50**` L’attività viene ora creata e configurata.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub16.png)
 
@@ -249,20 +249,20 @@ Dopo aver configurato un archivio dati e definito l’attività (marchio e area)
 
    1. Passa dall’istanza AEM a **Personalizzazione** > **Tipi di pubblico** > **schermi**.
 
-   1. Seleziona il segmento `**Higherthan50**`, e seleziona **Modifica** dalla barra delle azioni.
+   1. Fai clic sul segmento `**Higherthan50**`e fai clic su **Modifica** dalla barra delle azioni.
 
    1. Trascina la **Confronto: Proprietà - Valore** all&#39;editor.
 
-   1. Seleziona l’icona chiave inglese per aprire **Confronto di una proprietà con un valore** .
+   1. Fai clic sull’icona chiave inglese per aprire **Confronto di una proprietà con un valore** .
 
-   1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**.
+   1. Clic **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**.
 
       >[!NOTE]
       > Il **googlesheets/value/1/0** si riferisce alla riga 2 e alla colonna compilate in `google` fogli nella figura seguente:
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub17.png)
 
-   1. Seleziona la **Operatore** as **maggiore di** dal menu a discesa.
+   1. Fai clic su **Operatore** as **maggiore di** dal menu a discesa.
 
    1. Inserisci il **Valore** as **70**.
 
@@ -276,11 +276,11 @@ Dopo aver configurato un archivio dati e definito l’attività (marchio e area)
 
    1. Trascina la **Confronto: Proprietà - Valore** all&#39;editor.
 
-   1. Seleziona l’icona chiave inglese.
+   1. Fai clic sull’icona a forma di chiave inglese.
 
-   1. In **Confronto di una proprietà con un valore** finestra di dialogo, seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**.
+   1. In **Confronto di una proprietà con un valore** , fare clic su **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**.
 
-   1. Seleziona la **Operatore** as **less-than** dal menu a discesa.
+   1. Fai clic su **Operatore** as **less-than** dal menu a discesa.
 
    1. Inserisci il **Valore** as **50**.
 
@@ -291,16 +291,16 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
 1. Passa a uno dei canali di AEM Screens. I passaggi seguenti mostrano come abilitare il targeting utilizzando **DataDrivenChannel** creato in un canale AEM Screens.
 
-1. Seleziona il canale **TargetChannel** e seleziona **Proprietà** dalla barra delle azioni.
+1. Fai clic sul canale **TargetChannel** e fai clic su **Proprietà** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/context-hub/context-hub19.png)
 
-1. Seleziona la **Personalizzazione** in modo da poter impostare le configurazioni ContextHub.
+1. Fai clic su **Personalizzazione** in modo da poter impostare le configurazioni ContextHub.
 
    1. Imposta il **Percorso ContextHub** a `/conf/screens/settings/wcm/segments` e **Percorso segmenti** a `/conf/screens/settings/wcm/segments`.
    1. Imposta marchio su **ScreensBrand** dal menu a discesa e **Imposta riferimento area** a **ScreensValue**.
 
-   1. Seleziona **Salva e chiudi**.
+   1. Fai clic su **Salva e chiudi**.
 
       >[!NOTE]
       >
@@ -308,7 +308,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub20New.png)
 
-   1. Naviga e seleziona la **TargetChannel** channel e select **Modifica** dalla barra delle azioni.
+   1. Naviga e fai clic su **TargetChannel** channel e click **Modifica** dalla barra delle azioni.
 
       >[!NOTE]
       >

@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * **Rappresentazioni adattive**
 
-  Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente la rappresentazione migliore per un dispositivo in base alle regole definite dal cliente.
+  Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base alle regole definite dal cliente.
 
   In qualità di sviluppatore di AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: panoramica dell’architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
 
@@ -60,7 +60,7 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
       * Passa a CRXDE Liti in Creazione e pubblicazione.
 
-      * Selezionare Strumenti > Query.
+      * Selezionate Strumenti (Tools) > Query.
 
       * Nella query, utilizza `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 

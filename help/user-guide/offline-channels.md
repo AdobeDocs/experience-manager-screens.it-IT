@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 2%
@@ -78,10 +78,10 @@ Il ***Sincronizzazione contenuti*** utilizza i gestori di aggiornamenti per anal
 Per verificare la configurazione di ContentSync, segui i passaggi seguenti:
 
 1. Apri `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Seleziona la configurazione nell’elenco
-1. Seleziona Cancella cache
-1. Seleziona Aggiorna cache
-1. Seleziona Download completo
+1. Fai clic sulla configurazione nell’elenco
+1. Fai clic su Cancella cache
+1. Fai clic su Aggiorna cache
+1. Fai clic su Scarica completo
 1. Estrai il file zip
 1. Avvia un server locale nella cartella estratta
 1. Apri la pagina iniziale e controlla lo stato dell’app
@@ -95,16 +95,16 @@ Per abilitare la configurazione offline per un canale, effettua le seguenti oper
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
 1. Passa alla dashboard dei canali.
-1. Seleziona **...** nel **INFORMAZIONI SUL CANALE** Pannello.
+1. Clic **...** nel **INFORMAZIONI SUL CANALE** Pannello.
 
    ![chlimage_1-25](assets/chlimage_1-25.png)
 
 1. Passa alle proprietà del canale.
-1. Nella scheda (Canale), accertati che la casella di controllo sia disabilitata, quindi seleziona **Salva e chiudi**.
+1. Nella scheda (Canale), accertati che la casella di controllo sia disabilitata, quindi fai clic su **Salva e chiudi**.
 
    ![screen_shot_2017-12-19at122422pm](assets/screen_shot_2017-12-19at122422pm.png)
 
-   Prima che il contenuto venga distribuito correttamente sul dispositivo, seleziona la **Aggiorna contenuto offline**.
+   Prima di distribuire correttamente il contenuto nel dispositivo, fai clic sul pulsante **Aggiorna contenuto offline**.
 
    ![screen_shot_2017-12-19at122637pm](assets/screen_shot_2017-12-19at122637pm.png)
 

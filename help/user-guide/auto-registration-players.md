@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -20,13 +20,13 @@ La registrazione manuale in blocco di migliaia di giocatori può diventare compl
 
 Segui i passaggi seguenti per implementare la registrazione automatica dei lettori:
 
-1. Accedi all’istanza AEM, seleziona il progetto AEM Screens e fai clic su **Proprietà** dalla barra delle azioni.
-1. Seleziona la **Avanzate** in modo da visualizzare **Registrazione dispositivo** sezione.
+1. Accedi all’istanza dell’AEM, fai clic sul progetto AEM Screens e quindi su **Proprietà** dalla barra delle azioni.
+1. Fai clic su **Avanzate** in modo da visualizzare **Registrazione dispositivo** sezione.
 
 1. Specificare un codice di registrazione automatica in **Codice di registrazione in blocco** e una visualizzazione predefinita facoltativa in **Assegnazione visualizzazione predefinita** per assegnare al lettore la registrazione automatica.
 
    >[!NOTE]
-   >Immetti un codice a tua scelta e, se necessario, seleziona una visualizzazione predefinita.
+   >Immetti un codice a tua scelta e fai clic su una visualizzazione predefinita, se necessario.
 
    ![immagine](/help/user-guide/assets/auto-registration/auto-register1.png)
 1. Fornisci ai lettori l’URL del server e il codice di registrazione appropriati utilizzando un file MDM o JSON di configurazione.

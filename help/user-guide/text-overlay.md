@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
@@ -58,15 +58,15 @@ L&#39;immagine seguente mostra **DemoSovrapposizioneTesto** progetto con **TextS
 
 Per utilizzare la sovrapposizione di testo in un canale AEM Screens, effettua le seguenti operazioni:
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e seleziona **Modifica** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2018-12-16alle80017pm](assets/screen_shot_2018-12-16at80017pm.png)
 
-1. Seleziona l’immagine e seleziona **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
+1. Fai clic sull’immagine e fai clic su **Configura** (icona a forma di chiave inglese) per aprire la finestra di dialogo proprietà.
 
    ![screen_shot_2018-12-16alle80221pm](assets/screen_shot_2018-12-16at80221pm.png)
 
-1. Seleziona la **Sovrapposizione testo** nella barra di navigazione della finestra di dialogo, come illustrato nella figura riportata di seguito.
+1. Fai clic su **Sovrapposizione testo** nella barra di navigazione della finestra di dialogo, come illustrato nella figura riportata di seguito.
 
    ![screen_shot_2018-12-16alle80424pm](assets/screen_shot_2018-12-16at80424pm.png)
 
@@ -98,15 +98,15 @@ Per scoprire come impostare e gestire le modifiche delle risorse basate sui dati
 
 Dopo aver impostato le configurazioni richieste per il progetto, segui i passaggi seguenti per utilizzare i valori dei fogli di Google:
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e seleziona **Proprietà** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Proprietà** dalla barra delle azioni.
 
-1. Seleziona la **Personalizzazione** in modo da poter impostare le configurazioni ContextHub.
+1. Fai clic su **Personalizzazione** in modo da poter impostare le configurazioni ContextHub.
 
-   1. Seleziona la **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e seleziona **Seleziona**.
+   1. Fai clic su **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e fai clic su **Seleziona**.
 
-   1. Seleziona la **Percorso segmenti** as **conf** > **schermi** > **impostazioni** > **wcm** > **segmenti** e seleziona **Seleziona**.
+   1. Fai clic su **Percorso segmenti** as **conf** > **schermi** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Seleziona**.
 
-   1. Seleziona **Salva e chiudi**.
+   1. Fai clic su **Salva e chiudi**.
 
       >[!NOTE]
       >
@@ -114,22 +114,22 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
       ![image1](/help/user-guide/assets/text-overlay/text-overlay8.png)
 
-1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e seleziona **Modifica** dalla barra delle azioni.
+1. Accedi a **DemoSovrapposizioneTesto** > **Canali** > **TextSample** e fai clic su **Modifica** dalla barra delle azioni.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
 1. Aggiungi un componente di sovrapposizione immagine e testo all’immagine, come descritto in [Utilizzo della sovrapposizione testo](/help/user-guide/text-overlay.md#using-text-overlay) sezione di questa pagina.
 
-1. Seleziona il **Configura** (icona chiave inglese) per aprire **Immagine** .
+1. Fai clic su **Configura** (icona chiave inglese) per aprire **Immagine** .
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay4.png)
 
-1. Accedi a **ContextHub** scheda da **Immagine** . Seleziona **Aggiungi**.
+1. Accedi a **ContextHub** scheda da **Immagine** . Clic **Aggiungi**.
 
    >[!NOTE]
    >Se non hai configurato la configurazione ContextHub, questa opzione è disabilitata per il progetto.
 
-1. Invio **Valore** nel **Segnaposto** campo. Selezionare la riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, seleziona il segno di spunta.
+1. Invio **Valore** nel **Segnaposto** campo. Fare clic sulla riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, fai clic sul segno di spunta.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 
@@ -142,6 +142,6 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay7.png)
 
-1. Seleziona **Anteprima**.
+1. Clic **Anteprima**.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay10.png)

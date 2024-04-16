@@ -5,7 +5,7 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -32,11 +32,11 @@ Per assegnare un canale a una visualizzazione, segui i passaggi seguenti:
 
    ![immagine](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Seleziona **Assegna canale** nella barra delle azioni.
+1. Clic **Assegna canale** nella barra delle azioni.
 
    oppure
 
-   Seleziona **Dashboard** e seleziona **+Assegna canale** dal **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
+   Clic **Dashboard** e fai clic su **+Assegna canale** dal **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
 
    ![immagine](/help/user-guide/assets/channel-assign1.png)
 
@@ -78,7 +78,7 @@ La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più 
 
 In qualità di autore di contenuti, specifica quando un canale viene interrotto in modo da poter scegliere di tagliare i contenuti non critici, ma facoltativamente lascia che vengano riprodotti contenuti importanti prima di interromperne la riproduzione a causa della pianificazione.
 
-Selezionare una delle seguenti opzioni disponibili per impostare il metodo di interruzione dal menu **Assegnazione canale** finestra di dialogo:
+Fare clic su una delle opzioni seguenti disponibili per impostare il metodo di interruzione dal **Assegnazione canale** finestra di dialogo:
 
 * **Immediatamente** - Ogni volta che si attiva la programmazione o si riceve un aggiornamento, è possibile interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto.
 * **Alla fine dell&#39;elemento corrente** - Quando si attiva una nuova programmazione o si riceve un aggiornamento, è possibile attendere che l&#39;elemento corrente della sequenza finisca la riproduzione. Solo in seguito è possibile aggiornare o riprodurre il nuovo contenuto.

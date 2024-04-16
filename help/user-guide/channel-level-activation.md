@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -91,8 +91,8 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 1. **Crea visualizzazione in Posizione**
 
    1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione**.
-   1. Seleziona **Regione** e seleziona **+ Crea** dalla barra delle azioni.
-   1. Seleziona **Visualizzazione** dalla procedura guidata e crea una visualizzazione con titolo **RegionDisplay.**
+   1. Clic **Regione** e fai clic su **+ Crea** dalla barra delle azioni.
+   1. Clic **Visualizzazione** dalla procedura guidata e crea una visualizzazione con titolo **RegionDisplay.**
 
    ![screen_shot_2018-11-27at112216am](assets/screen_shot_2018-11-27at112216am.png)
 
@@ -100,32 +100,32 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    Per **MainAdChannel:**
 
-   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e seleziona **Assegna canale** dalla barra delle azioni.
+   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
    1. **Assegnazione canale** viene visualizzata.
-   1. Seleziona **Canale di riferimento** in base al percorso.
-   1. Seleziona la **Percorso canale** as **Attivazione a livello di canale** > ***Canali*** > ***MainAdChannel***.
+   1. Clic **Canale di riferimento** in base al percorso.
+   1. Fai clic su **Percorso canale** as **Attivazione a livello di canale** > ***Canali*** > ***MainAdChannel***.
    1. Il **Ruolo canale** viene compilato come **mainadchannel**.
-   1. Seleziona la **Priorità** as **1**.
-   1. Seleziona la **Eventi supportati** as **Caricamento iniziale** e **Schermata di inattività**.
-   1. Seleziona **Salva**.
+   1. Fai clic su **Priorità** as **1**.
+   1. Fai clic su **Eventi supportati** as **Caricamento iniziale** e **Schermata di inattività**.
+   1. Fai clic su **Salva**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e selezione **Dashboard** dalla barra delle azioni. Seleziona **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e selezione **Dashboard** dalla barra delle azioni. Clic **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
 
    Analogamente, assegna canale **TargetedSinglePlay** per la visualizzazione**:
 
-   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e seleziona **Assegna canale** dalla barra delle azioni.
+   1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
    1. **Assegnazione canale** viene visualizzata.
-   1. Seleziona **Canale di riferimento** in base al percorso.
-   1. Seleziona la **Percorso canale** as **Attivazione a livello di canale*** > ***Canali*** > ***TargetedSinglePlay***.
+   1. Clic **Canale di riferimento** in base al percorso.
+   1. Fai clic su **Percorso canale** as **Attivazione a livello di canale*** > ***Canali*** > ***TargetedSinglePlay***.
    1. Il **Ruolo canale** viene compilato come **targetedsingleplay**.
    1. Imposta il **Priorità** as **2**.
-   1. Seleziona la **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Timer**, come illustrato nella figura seguente.
+   1. Fai clic su **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Timer**, come illustrato nella figura seguente.
    1. Scegli la data in **attivo da** come 27 novembre 2018 23:59 e in **attivo fino a** come 28 novembre 2018 12:05 A.M.
-   1. Seleziona **Salva**.
+   1. Fai clic su **Salva**.
 
    >[!CAUTION]
    >
@@ -135,7 +135,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Per scegliere lo stesso giorno, seleziona il giorno successivo, quindi modifica manualmente la data impostandola sullo stesso giorno ma per un’ora successiva. In questo modo si impedisce all’utente di selezionare una data passata. Vedi l’esempio seguente:
+   >Per scegliere lo stesso giorno, fai clic su quello successivo, quindi modifica manualmente la data impostandola sullo stesso giorno ma per un’ora successiva. In questo modo si impedisce all’utente di selezionare una data passata. Vedi l’esempio seguente:
 
    ![nuovo1](assets/new1.gif)
 
@@ -160,7 +160,7 @@ Si supponga di voler visualizzare il contenuto di un canale solo il venerdì dal
 
 ### Ripartizione giornaliera {#day-parting}
 
-1. Seleziona il canale, quindi seleziona **Dashboard** dalla barra delle azioni.
+1. Fai clic sul canale, quindi su **Dashboard** dalla barra delle azioni.
 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
@@ -190,7 +190,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### WeekParting {#week-parting}
 
-1. Seleziona il canale, quindi seleziona **Dashboard** dalla barra delle azioni.
+1. Fai clic sul canale, quindi su **Dashboard** dalla barra delle azioni.
 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
@@ -219,7 +219,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### MonthParting {#month-parting}
 
-1. Seleziona il canale, quindi seleziona **Dashboard** dalla barra delle azioni.
+1. Fai clic sul canale, quindi su **Dashboard** dalla barra delle azioni.
 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 
@@ -247,7 +247,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 ### Combinazione di partizioni {#combined-parting}
 
-1. Seleziona il canale, quindi seleziona **Dashboard** dalla barra delle azioni.
+1. Fai clic sul canale, quindi su **Dashboard** dalla barra delle azioni.
 
 1. Dopo aver inserito la data/ora di inizio e la data/ora di fine dalla **Assegnazione canale** è possibile utilizzare un&#39;espressione o una versione di testo naturale per specificare la pianificazione di ricorrenza.
 

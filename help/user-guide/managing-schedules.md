@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -32,12 +32,12 @@ Puoi creare una pianificazione per il progetto Screens in grado di gestire tutte
 
 Per creare una pianificazione per il tuo canale, segui la procedura riportata di seguito:
 
-1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e quindi Screens. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Passa a Progetto schermi e seleziona **Schedules**.
-1. Seleziona **Crea** dalla barra delle azioni.
-1. Seleziona **Pianificazione** dal **Crea** procedura guidata e seleziona **Successivo**.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra), quindi su Screens. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Passa al progetto Schermi e fai clic su **Schedules**.
+1. Clic **Crea** dalla barra delle azioni.
+1. Clic **Pianificazione** dal **Crea** e fai clic su **Successivo**.
 
-1. Inserisci il **Nome** e **Titolo** e seleziona **Crea**.
+1. Inserisci il **Nome** e **Titolo** e fai clic su **Crea**.
 
 Puoi visualizzare una cartella di pianificazione con il nome e il titolo indicati nel progetto.
 
@@ -52,14 +52,14 @@ Per visualizzare il dashboard della pianificazione, segui la procedura riportata
 
    ![chlimage_1](assets/chlimage_1.png)
 
-1. Seleziona **Dashboard** dalla barra delle azioni.
+1. Clic **Dashboard** dalla barra delle azioni.
 
    Puoi visualizzare tre pannelli diversi, ad esempio **INFORMAZIONI SULLA PIANIFICAZIONE**, **CANALI ASSEGNATI**, e **VISUALIZZAZIONI ASSEGNATE**.
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Riquadro informazioni pianificazione** Selezionare Proprietà nell&#39;angolo in alto a destra del riquadro INFORMAZIONI PIANIFICAZIONE per visualizzare/modificare le proprietà della pianificazione.
+   **Riquadro informazioni pianificazione** Fare clic su Proprietà nell&#39;angolo superiore destro del riquadro INFORMAZIONI PIANIFICAZIONE per visualizzare/modificare le proprietà della pianificazione.
 
-   **Pannello Canali assegnati** Selezionate +Assegna canale (Assign Channel) dall&#39;angolo superiore destro del pannello CANALI ASSEGNATI (ASSIGNED CHANNELS) per aprire la finestra di dialogo Assegnazione canale (Channel Assignment).
+   **Pannello Canali assegnati** Fate clic su +Assegna canale (Assign Channel) nell&#39;angolo superiore destro del pannello CANALI ASSEGNATI (ASSIGNED CHANNELS) per aprire la finestra di dialogo Assegnazione canale (Channel Assignment).
 
-   **Pannello visualizzazioni assegnate** Selezionate una delle visualizzazioni dal pannello VISUALIZZAZIONI ASSEGNATE per aprire la dashboard di visualizzazione.
+   **Pannello visualizzazioni assegnate** Fate clic su una delle visualizzazioni nel pannello VISUALIZZAZIONI ASSEGNATE per aprire la dashboard di visualizzazione.

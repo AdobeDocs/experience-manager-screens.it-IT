@@ -10,7 +10,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -37,7 +37,7 @@ La data di rilascio del Feature Pack 201812 per AEM Screens è il 16 gennaio 201
 
 * **Programmazione di più risorse**:
 
-  La pianificazione di più risorse consente all’utente di selezionare più risorse e di applicare una pianificazione di riproduzione a tutte le risorse selezionate. Consulta **Programmazione di più risorse** sezione in **[Pianificazione risorse](asset-level-scheduling.md)**.
+  La pianificazione di più risorse consente all’utente di fare clic su più risorse e applicare una pianificazione di riproduzione a tutte le risorse selezionate. Consulta **Programmazione di più risorse** sezione in **[Pianificazione risorse](asset-level-scheduling.md)**.
 
 * **Layout multizona**:
 

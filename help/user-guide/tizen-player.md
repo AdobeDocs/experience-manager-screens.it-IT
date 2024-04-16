@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il
 
 Segui i passaggi seguenti per configurare il nome in Tizen player:
 
-1. Selezionare il pulsante del menu sul telecomando.
+1. Fare clic sul pulsante del menu sul telecomando.
 1. Accedi a **rete** > **Nome dispositivo** in modo da poter assegnare un nome al lettore.
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
@@ -55,11 +55,11 @@ Segui i passaggi seguenti per configurare il nome in Tizen player:
 Segui i passaggi seguenti sul dispositivo Samsung per completare l’installazione del lettore AEM Screens sul dispositivo:
 
 1. Passa al dispositivo Samsung e accendi.
-1. Seleziona la **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
-1. Scorri verso il basso e seleziona la **Riproduci tramite** e modificarla in **Utilità di avvio URL** opzione.
+1. Fai clic su **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
+1. Scorri verso il basso e fai clic su **Riproduci tramite** e modificarla in **Utilità di avvio URL** opzione.
    ![immagine](/help/user-guide/assets/tizen/rms-2.png)
 1. Quando l&#39;utilità di avvio URL è impostata, premere il tasto **Home** dal telecomando.
-1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e selezionare **Fine**.
+1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e fare clic su **Fine**.
 
    >[!NOTE]
    >Il lettore Tizen deve essere in grado di connettersi al server http.
@@ -145,29 +145,29 @@ Segui i passaggi seguenti per registrare il dispositivo Tizen su Samsung Remote 
 
 1. Passa all’indirizzo del server e digita nell’URL MagicInfo, quindi premi **Fine**.
 
-1. Imposta TLS, se necessario. Passare alla porta e selezionare il numero di porta dal server, quindi selezionare **Salva**.
+1. Imposta TLS, se necessario. Passare alla porta, fare clic sul numero di porta dal server e quindi su **Salva**.
 
-1. Accedi a **Dispositivo** e controllare il dispositivo configurato. Quando viene trovata una periferica, selezionare la casella di controllo, quindi selezionare **Approva**.
+1. Accedi a **Dispositivo** e controllare il dispositivo configurato. Quando viene trovato un dispositivo, fare clic sulla casella di controllo e quindi su **Approva**.
 
    >![immagine](/help/user-guide/assets/tizen/rms-3.png)
 
-1. Inserire le informazioni richieste e selezionare un gruppo di dispositivi. Seleziona **OK**.
+1. Immettere le informazioni richieste e fare clic su un gruppo di dispositivi. Fai clic su **OK**.
 
    >![immagine](/help/user-guide/assets/tizen/rms-7.png)
 
-1. Quando il dispositivo viene approvato, viene visualizzato nell&#39;elenco dei dispositivi. Seleziona *Informazioni* nella casella del dispositivo, come illustrato di seguito.
+1. Quando il dispositivo viene approvato, viene visualizzato nell&#39;elenco dei dispositivi. Clic *Informazioni* nella casella del dispositivo, come illustrato di seguito.
 
    >![immagine](/help/user-guide/assets/tizen/rms-6.png)
 
-1. Viene visualizzata la finestra di dialogo Informazioni dispositivo. Seleziona la **Informazioni dispositivo** e seleziona **Modifica**.
+1. Viene visualizzata la finestra di dialogo Informazioni dispositivo. Fai clic su **Informazioni dispositivo** e fai clic su **Modifica**.
 
    >![immagine](/help/user-guide/assets/tizen/rms-5.png)
 
-1. Modifica le opzioni del dispositivo e seleziona la **Configurazione** scheda. Accedi a **Utilità di avvio URL** e immetti l’URL che ospita il wgt e `SSSP config file` in modo da poter installare un `SSSP` come illustrato nella figura riportata di seguito.
+1. Modifica le opzioni del dispositivo e fai clic su **Configurazione** scheda. Accedi a **Utilità di avvio URL** e immetti l’URL che ospita il wgt e `SSSP config file` in modo da poter installare un `SSSP` come illustrato nella figura riportata di seguito.
 
    ![immagine](/help/user-guide/assets/tizen/rms-9.png)
 
-1. Seleziona **Salva**.
+1. Fai clic su **Salva**.
 
 ### Utilizzo del telecomando Screens {#using-remote-control}
 

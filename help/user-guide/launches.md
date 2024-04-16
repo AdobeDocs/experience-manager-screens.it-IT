@@ -10,7 +10,7 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -101,29 +101,29 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Seleziona il canale **FutureLaunch** e seleziona **Crea lancio** dalla barra delle azioni.
+1. Fai clic sul canale **FutureLaunch** e fai clic su **Crea lancio** dalla barra delle azioni.
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. Il **Crea lancio** viene aperta la procedura guidata. Puoi selezionare il canale già visibile nella procedura guidata oppure selezionare **+ Aggiungi canali** per aggiungere il canale per il quale desideri creare il lancio.
+1. Il **Crea lancio** viene aperta la procedura guidata. È possibile fare clic sul canale già visibile nella procedura guidata oppure fare clic su **+ Aggiungi canali** per aggiungere il canale per il quale desideri creare il lancio.
 
-1. Seleziona **Successivo** dal **Crea lancio** procedura guidata. Il **Includi pagine secondarie** è selezionata per impostazione predefinita.
+1. Clic **Successivo** dal **Crea lancio** procedura guidata. Il **Includi pagine secondarie** è selezionata per impostazione predefinita.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
    >È possibile utilizzare **+ Aggiungi canali** per aggiungere un altro canale per il quale desideri creare il lancio.
 
-   Da utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e seleziona **Seleziona**.
+   Da utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e fai clic su **Seleziona**.
 
-   Il **Seleziona** l’opzione è disabilitata se tenti di selezionare più canali o una cartella per l’aggiunta del lancio.
+   Il **Seleziona** l’opzione è disabilitata se tenti di fare clic su più canali o su una cartella per aggiungere il lancio.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Dopo aver selezionato i canali, seleziona **Successivo**.
+   Dopo aver fatto clic sul canale/canali, fai clic su **Successivo**.
 
 
-1. Inserisci il **Titolo lancio** as **SummerPromotions** e non è necessario impostare **Data lancio**, come illustrato nella figura seguente. Seleziona **Crea**.
+1. Inserisci il **Titolo lancio** as **SummerPromotions** e non è necessario impostare **Data lancio**, come illustrato nella figura seguente. Fai clic su **Crea**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
      >
      >La data di lancio live rispetta il fuso orario del lettore/dispositivo anziché quello del server.
 
-1. Tieni presente che il lancio viene creato. Puoi selezionare **Apri** per visualizzare le pagine nell’editor o seleziona **Fine** per tornare al progetto.
+1. Tieni presente che il lancio viene creato. Puoi fare clic su **Apri** per visualizzare le pagine nell’editor o fai clic su **Fine** per tornare al progetto.
 
    ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
@@ -167,15 +167,15 @@ Dopo la creazione del lancio, puoi aggiornare proprietà quali data di attivazio
 
 Per modificare le proprietà del lancio, segui i passaggi seguenti:
 
-1. Passare al canale **FutureLaunch** *(il lancio in sospeso)* e selezionare il canale come illustrato nella figura seguente.
+1. Passare al canale **FutureLaunch** *(il lancio in sospeso)* e fare clic sul canale come illustrato nella figura riportata di seguito.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Seleziona **Dashboard** dalla barra delle azioni e viene visualizzata la **LANCI IN SOSPESO** dal dashboard dei canali.
+1. Clic **Dashboard** dalla barra delle azioni e viene visualizzata la **LANCI IN SOSPESO** dal dashboard dei canali.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Seleziona il lancio e seleziona **Proprietà lancio** dal **LANCI IN SOSPESO** pannello.
+1. Fai clic sul lancio e fai clic su **Proprietà lancio** dal **LANCI IN SOSPESO** pannello.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-19.png)
 
@@ -183,7 +183,7 @@ Per modificare le proprietà del lancio, segui i passaggi seguenti:
 
 Dopo aver creato il lancio, puoi aggiungere o rimuovere canali dal lancio esistente utilizzando **Modifica lancio** opzione.
 
-Al termine, seleziona **Salva** per tornare a **FutureLaunch** canale.
+Al termine, fai clic su **Salva** per tornare a **FutureLaunch** canale.
 
 ### Promozione manuale del lancio di Screens{#promote-the-screens-launch-manually}
 
@@ -199,8 +199,8 @@ Puoi scegliere le risorse da promuovere nell&#39;ambito di questa promozione man
    * **Promuovi pagine modificate** - Vengono promosse solo le risorse di lancio modificate. Utilizza questa opzione quando non è richiesta la revisione del lancio.
    * **Promuovi pagine approvate** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito sui canali del lancio. Solo le pagine approvate vengono promosse alla data di attivazione impostata.
    * **Promuovi la pagina corrente** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito solo per la pagina corrente.
-1. Seleziona **Successivo** nel **Promuovi lancio** procedura guidata.
-1. Seleziona **Promuovi** per promuovere il lancio.
+1. Clic **Successivo** nel **Promuovi lancio** procedura guidata.
+1. Clic **Promuovi** per promuovere il lancio.
 
 ### Eliminazione del lancio Screens
 

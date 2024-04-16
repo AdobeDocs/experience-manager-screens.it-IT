@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Dopo aver caricato il video sul canale, AEM dovrebbe iniziare a creare alcune ra
 Per visualizzare il video:
 
 1. Accedi al tuo video, ad esempio `http://localhost:4502/assets.html/content/dam/we-retail/en/videos`.
-1. Seleziona il video, espandi il menu in alto a sinistra e seleziona **Rappresentazioni**.
+1. Fai clic sul video, espandi il menu in alto a sinistra e fai clic su **Rappresentazioni**.
 
 Devono esistere diverse rappresentazioni (un MP4 o M4V).
 
@@ -39,7 +39,7 @@ Se non è presente alcuna rappresentazione, accertati di avere ffmpeg installato
 >
 >Se non è presente alcuna rappresentazione, accertati di avere ffmpeg installato sul sistema operativo in cui è in esecuzione AEM.
 >
->Seleziona [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
+>Clic [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
 
 ## Risorse video {#video-assets}
 
@@ -51,11 +51,11 @@ Verificare che ffmpeg sia installato e che i profili video siano corretti.
 
 ### Verifica del profilo video {#checking-video-profile}
 
-1. Accedi a **Profilo video**, ovvero `http://localhost:4502/etc/dam/video.html` e seleziona **Carica video di prova**.
+1. Accedi a **Profilo video**, ovvero `http://localhost:4502/etc/dam/video.html` e fai clic su **Carica video di prova**.
 
    ![chlimage_1-3](assets/chlimage_1-3.png)
 
-1. Carica un video di prova e seleziona **Ok** così si può iniziare la transcodifica.
+1. Carica un video di prova e fai clic su **Ok** così si può iniziare la transcodifica.
 
    Se il video transcodificato non riesce, espandi l’output ffmpeg per comprendere eventuali errori nell’output della console di ffmpeg.
 
@@ -73,14 +73,14 @@ Verificare che ffmpeg sia installato e che i profili video siano corretti.
 
 Se il componente video non è configurato correttamente, controlla l’elenco dei profili dalla progettazione della pagina.
 
-1. Passa al tuo canale e seleziona la **Progettazione** modalità.
+1. Accedi al tuo canale e fai clic su **Progettazione** modalità.
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-1. Seleziona il video e apri **Modifica** . Apri **Profili** scheda.
+1. Fai clic sul video e apri **Modifica** . Apri **Profili** scheda.
 
    >[!NOTE]
-   >Seleziona profili diversi (dovrebbe esserci almeno il profilo &quot;H.264 di alta qualità&quot;).
+   >Fare clic su profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
 
 ### Controllo del video nel lettore web {#checking-the-video-in-the-web-player}
 
@@ -91,10 +91,10 @@ Se il video non viene eseguito su Safari, non viene eseguito né sul sistema ope
 Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effettuare le seguenti operazioni:
 
 1. Accedi a *amministratore modello flusso di lavoro* che è `http://localhost:4502/libs/cq/workflow/admin/console/content/models.html/etc/workflow/models`.
-1. Seleziona la **Risorsa per aggiornamento schermi** modello.
-1. Seleziona **Avvia flusso di lavoro** dalla barra delle azioni.
-1. Dalla sezione **Esegui flusso di lavoro** , seleziona la risorsa video in **Payload**.
-1. Seleziona **Esegui**.
+1. Fai clic su **Risorsa per aggiornamento schermi** modello.
+1. Clic **Avvia flusso di lavoro** dalla barra delle azioni.
+1. Dalla sezione **Esegui flusso di lavoro** , fai clic sulla risorsa video in **Payload**.
+1. Clic **Esegui**.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ La strategia assoluta:
 
 Per impostare una strategia assoluta, procedere come segue:
 
-1. Passa all’autore del canale e seleziona il componente sequenza, come illustrato nella figura riportata di seguito.
+1. Passa all’autore del canale e fai clic sul componente sequenza come illustrato nella figura riportata di seguito.
 1. Apri la relativa finestra di dialogo di configurazione.
 1. Modifica il **Strategia** e aggiungi assoluto.
 

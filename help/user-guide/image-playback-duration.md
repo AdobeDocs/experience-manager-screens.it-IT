@@ -2,7 +2,7 @@
 title: Durata riproduzione immagine
 description: Scopri la durata di riproduzione delle immagini in AEM Screens.
 contentOwner: jsyal
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-24at62818pm](assets/screen_shot_2019-06-24at62818pm.png)
 
-1. Seleziona **Modifica** dalla barra delle azioni.
+1. Clic **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2019-06-24at70141pm](assets/screen_shot_2019-06-24at70141pm.png)
 
@@ -44,7 +44,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Selezionate tutte le immagini nel canale e l&#39;icona a forma di chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito). Viene visualizzata la finestra di dialogo Configura a livello di canale.
+1. Fare clic su tutte le immagini nel canale e fare clic sull&#39;icona chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito). Viene visualizzata la finestra di dialogo Configura a livello di canale.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
@@ -56,7 +56,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifica il **Durata** da 8000 (millisecondi) a 3000 (millisecondi), ovvero 3 secondi. Seleziona il segno di spunta in alto a destra del **Pagina** in modo da poter salvare le modifiche.
+   Modifica il **Durata** da 8000 (millisecondi) a 3000 (millisecondi), ovvero 3 secondi. Fai clic sul segno di spunta in alto a destra del **Pagina** in modo da poter salvare le modifiche.
 
    ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 

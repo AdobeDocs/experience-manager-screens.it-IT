@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
    >Per informazioni su come assegnare un canale a una visualizzazione, consulta [Creazione e gestione delle visualizzazioni](/help/user-guide/managing-displays.md).
 
 1. Accedi a **Dispositivi** cartella.
-1. Seleziona **Gestione dispositivi** dalla barra delle azioni.
+1. Clic **Gestione dispositivi** dalla barra delle azioni.
 
    ![image1](assets/command-sync5.png)
 
@@ -77,11 +77,11 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 ### Aggiornamento impostazioni canale
 
 1. Accedi a **ChannelLobby**.
-1. Seleziona **Modifica** dalla barra delle azioni.
-1. Selezionate l&#39;intero canale come mostrato nella figura riportata di seguito.
+1. Clic **Modifica** dalla barra delle azioni.
+1. Fate clic sull&#39;intero canale come illustrato nella figura riportata di seguito.
    ![image1](assets/command-sync/command-sync7-1.png)
 
-1. Seleziona l’icona chiave inglese.
+1. Fai clic sull’icona a forma di chiave inglese.
    ![image1](assets/command-sync/command-sync8-1.png)
 
 1. In **Pagina** , immetti il *sincronizzato* parola chiave in **Strategia** campo.
@@ -90,15 +90,15 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
 ### Configurazione di un primario {#setting-up-primary}
 
-1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay** e seleziona **Dashboard** dalla barra delle azioni.
+1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni.
 Osserva i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illustrato di seguito:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Dalla sezione **DISPOSITIVI** selezionare il dispositivo da impostare come principale. L’esempio seguente illustra come impostare il dispositivo Chrome come principale. Seleziona **Imposta come dispositivo principale**.
+1. Dalla sezione **DISPOSITIVI** fare clic sul dispositivo che si desidera impostare come principale. L’esempio seguente illustra come impostare il dispositivo Chrome come principale. Clic **Imposta come dispositivo principale**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
-1. Inserisci l’indirizzo IP in **Imposta come dispositivo principale** e seleziona **Salva**.
+1. Inserisci l’indirizzo IP in **Imposta come dispositivo principale** e fai clic su **Salva**.
 
    ![image1](assets/command-sync/command-sync12-1.png)
 
@@ -109,11 +109,11 @@ Osserva i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illu
 ### Sincronizzazione con primario {#sync-up-primary}
 
 1. Dopo aver impostato il dispositivo Chrome come primario, sincronizza l’altro dispositivo (in questo caso, Windows Player) per sincronizzarlo con il principale.
-Selezionare l&#39;altro dispositivo (in questo caso, Windows Player) dal **DISPOSITIVI** e seleziona **Sincronizza con dispositivo principale**.
+Fare clic sull&#39;altra periferica (in questo caso, Windows Player) dal **DISPOSITIVI** e fai clic su **Sincronizza con dispositivo principale**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
-1. Selezionare il dispositivo dall&#39;elenco e selezionare **Salva**.
+1. Selezionare il dispositivo dall&#39;elenco e fare clic su **Salva**.
 
    >[NOTA:]
    > Il **Sincronizza con dispositivo principale** mostra l&#39;elenco dei dispositivi principali. Seleziona quella preferita.
@@ -132,13 +132,13 @@ Dopo aver sincronizzato uno o più dispositivi in un dispositivo primario, è po
 
 Per rimuovere la sincronizzazione dal dispositivo principale, effettua le seguenti operazioni:
 
-1. Accedi a **DISPOSITIVI** e selezionare il dispositivo.
+1. Accedi a **DISPOSITIVI** e fare clic sul dispositivo.
 
-1. Seleziona **Desincronizza dispositivi** in modo da poter desincronizzare il client dal dispositivo principale.
+1. Clic **Desincronizza dispositivi** in modo da poter desincronizzare il client dal dispositivo principale.
 
    ![image1](assets/command-sync/command-sync15-1.png)
 
-1. Seleziona **Conferma** per desincronizzare il dispositivo selezionato dal dispositivo primario.
+1. Clic **Conferma** per desincronizzare il dispositivo selezionato dal dispositivo primario.
 
    >[NOTA:]
-   > Se si seleziona il dispositivo principale e si utilizza l&#39;opzione di desincronizzazione, tutti i dispositivi connessi al dispositivo principale vengono desincronizzati in un unico passaggio.
+   > Se si fa clic sul dispositivo principale e si utilizza l&#39;opzione di desincronizzazione, tutti i dispositivi connessi al dispositivo principale vengono desincronizzati in un unico passaggio.

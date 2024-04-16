@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Questa sezione descrive come implementare Chrome OS Player utilizzando Chrome Ma
 Segui i passaggi seguenti per configurare la console di gestione Chrome:
 
 1. Registrati alla Chrome Management Console. È necessario ottenere una licenza per Chrome Management Console. Contatto [Supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per ulteriori informazioni, consulta Gestire le impostazioni del dispositivo Chrome.
-1. Iscrivi il dispositivo Chrome OS nel dominio attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, seleziona [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Iscrivi il dispositivo Chrome OS nel dominio attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fare clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome Player è disponibile nel Chrome Web Store.
 
 >[!NOTE]
@@ -65,25 +65,25 @@ Per attivare la modalità Kiosk (Chiosco), procedere come segue:
    ![screen_shot_2017-12-08at20303pm](assets/screen_shot_2017-12-08at20303pm.png)
 
 1. Sfoglia per **Gestione dei dispositivi** > **Gestione Chrome** > **Impostazioni dispositivo**.
-1. Scorri verso il basso fino a **Impostazioni chiosco** e seleziona **Gestione delle applicazioni Kiosk**.
+1. Scorri verso il basso fino a **Impostazioni chiosco** e fai clic su **Gestione delle applicazioni Kiosk**.
 
    ![chiosco](assets/kiosk.png)
 
-1. Seleziona AEM Screens Player dal Chrome Web Store.
+1. Dal Chrome Web Store, fai clic su AEM Screens Player.
 
    >[!NOTE]
    >
    >La pubblicazione di un&#39;app in questo elenco potrebbe richiedere circa 15 minuti.
 
-1. Seleziona **Lettore AEM Screens** dal **App chiosco per avvio automatico** a discesa.
+1. Clic **Lettore AEM Screens** dal **App chiosco per avvio automatico** a discesa.
 
    L&#39;applicazione delle modifiche potrebbe richiedere alcuni minuti a seconda della rete. Si consiglia di riavviare il sistema.
 
 #### Verifica dello stato del dispositivo remoto {#checking-remote-device-status}
 
 1. Accedi a Chrome Developer Console.
-1. Sfoglia per **Gestione dei dispositivi** > **Dispositivi Chrome** e selezionare il dispositivo da controllare.
-1. Seleziona **Attività di sistema e risoluzione dei problemi**.
+1. Sfoglia per **Gestione dei dispositivi** > **Dispositivi Chrome** e fare clic sul dispositivo da controllare.
+1. Clic **Attività di sistema e risoluzione dei problemi**.
 1. Controlla la **Riavvia dispositivo** e **Acquisizione schermo** proprietà del dispositivo. È inoltre possibile controllare lo stato e le informazioni sullo stato del dispositivo.
 
 >[!NOTE]
@@ -97,11 +97,11 @@ AEM Screens Player è un’applicazione abilitata per i chioschi che abilita anc
 Segui i passaggi seguenti per configurare varie opzioni del lettore:
 
 1. Accedi a Chrome Management Console.
-1. Seleziona **Gestione dei dispositivi** > **Gestione Chrome** > **Gestione app**. AEM Screens Player viene visualizzato nell’elenco.
-1. Seleziona l’applicazione **Lettore AEM Screens**.
-1. Seleziona **Impostazioni chiosco** e seleziona la tua organizzazione (*se si utilizza un ambiente di test*).
-1. Seleziona **carica file di configurazione** e carica il criterio di configurazione (*File JSon*).
-1. Seleziona **Salva**. Riavviare il dispositivo per sincronizzare i criteri.
+1. Clic **Gestione dei dispositivi** > **Gestione Chrome** > **Gestione app**. AEM Screens Player viene visualizzato nell’elenco.
+1. Fai clic sull’applicazione **Lettore AEM Screens**.
+1. Clic **Impostazioni chiosco** e fai clic sulla tua organizzazione (*se si utilizza un ambiente di test*).
+1. Clic **carica file di configurazione** e carica il criterio di configurazione (*File JSon*).
+1. Fai clic su **Salva**. Riavviare il dispositivo per sincronizzare i criteri.
 
 >[!NOTE]
 >

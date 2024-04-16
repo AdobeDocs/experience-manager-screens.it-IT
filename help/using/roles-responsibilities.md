@@ -2,7 +2,7 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Un integratore audio/video è responsabile dell&#39;esecuzione dell&#39;individu
 
 #### Considerazione dei partner hardware {#selecting-hardware-partner}
 
-È fondamentale selezionare il partner hardware appropriato. Devono essere prese in considerazione le seguenti domande:
+È fondamentale fare clic sul partner hardware appropriato. Devono essere prese in considerazione le seguenti domande:
 
 1. Quali sono i termini dell&#39;accordo sui livelli di servizio?
 

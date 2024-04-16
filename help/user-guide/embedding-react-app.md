@@ -10,7 +10,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -77,11 +77,11 @@ Per aggiungere l’app REACT interattiva ad AEM Screens, segui i passaggi seguen
    >
    >Assicurati di aggiungere l’evento di interazione dell’utente quando assegni il canale alla visualizzazione.
 
-1. Seleziona **Modifica** dalla barra delle azioni, in modo da poter modificare le proprietà del canale.
+1. Clic **Modifica** dalla barra delle azioni, in modo da poter modificare le proprietà del canale.
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Trascina la **Pagina incorporata** , o riutilizzare il componente esistente in un canale dell’applicazione, e selezionare la home page sotto l’applicazione mysamplespa, ad esempio, ***/content/mysamplespa/en/home***.
+1. Trascina la **Pagina incorporata** , o riutilizzare il componente esistente in un canale dell&#39;applicazione, e fare clic sulla home page sotto l&#39;applicazione mysamplespa, ad esempio, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -103,7 +103,7 @@ Segui i passaggi seguenti per integrare l’SPA con Adobe Analytics con funziona
    Consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori informazioni su come eseguire la sequenza in Adobe Analytics con AEM Screens e inviare eventi personalizzati utilizzando offline Adobe Analytics.
 
 1. Modifica l’app React nell’IDE/editor che preferisci (in particolare il componente testo o un altro componente da cui vuoi iniziare a emettere eventi).
-1. Nell’evento di selezione o in un altro evento che desideri acquisire per il componente, aggiungi le informazioni di analisi utilizzando il modello dati standard.
+1. Aggiungi le informazioni di analisi utilizzando il modello dati standard all’evento di clic o a un altro evento che desideri acquisire per il componente.
 
    Consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori dettagli.
 

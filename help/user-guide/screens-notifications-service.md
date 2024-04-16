@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
    >
    >Puoi inserire un solo indirizzo e-mail. Per inviare un’e-mail in blocco, crea un gruppo o una lista di distribuzione con gli utenti interessati.
 
-1. Seleziona **Salva** per configurare l’attività di monitoraggio tramite un’e-mail per il dispositivo AEM Screens.
+1. Clic **Salva** per configurare l’attività di monitoraggio tramite un’e-mail per il dispositivo AEM Screens.
 
 ## Notifica e-mail {#email-notification}
 

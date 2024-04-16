@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,19 +50,19 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
    1. Aggiungi tre nuovi segmenti **For_Red**, **For_Green**, e **For_Blue**.
 
-   1. Seleziona **For_Red** e seleziona **Modifica** dalla barra delle azioni.
+   1. Clic **For_Red** e fai clic su **Modifica** dalla barra delle azioni.
 
    1. Trascina la selezione **Comparison : Proprietà - Proprietà** all’editor.
-   1. Seleziona la **Configurazione** icona.
-   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
-   1. Seleziona la **Operatore** as **maggiore di** dal menu a discesa.
-   1. Seleziona **Tipo di dati** as **numero**.
-   1. Seleziona **googlesheets/value/1/1** dall’elenco a discesa in **Nome seconda proprietà**.
-   1. Trascinamento della selezione **other Comparison : Proprietà - Proprietà** nell’editor e seleziona la **Configurazione** icona.
-   1. Seleziona **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
-   1. Seleziona la **Operatore** as **maggiore di** dal menu a discesa.
-   1. Seleziona **Tipo di dati** as **numero**.
-   1. Seleziona **googlesheets/value/1/0** dall’elenco a discesa in **Nome seconda proprietà**.
+   1. Fai clic su **Configurazione** icona.
+   1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
+   1. Fai clic su **Operatore** as **maggiore di** dal menu a discesa.
+   1. Clic **Tipo di dati** as **numero**.
+   1. Clic **googlesheets/value/1/1** dall’elenco a discesa in **Nome seconda proprietà**.
+   1. Trascinamento della selezione **other Comparison : Proprietà - Proprietà** nell’editor e fai clic su **Configurazione** icona.
+   1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
+   1. Fai clic su **Operatore** as **maggiore di** dal menu a discesa.
+   1. Clic **Tipo di dati** as **numero**.
+   1. Clic **googlesheets/value/1/0** dall’elenco a discesa in **Nome seconda proprietà**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
@@ -78,8 +78,8 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
    >
    >Nota che per i segmenti **For_Green** e **For_Green**, i dati non possono essere risolti nell’editor in quanto ora è valido solo il primo confronto in base ai valori presenti nel foglio di Google.
 
-1. Naviga e seleziona il **DataDrivenRetail** channel (un canale di sequenza).
-1. Seleziona **Modifica** dalla barra delle azioni.
+1. Naviga e fai clic su **DataDrivenRetail** channel (un canale di sequenza).
+1. Clic **Modifica** dalla barra delle azioni.
 
    ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
@@ -91,13 +91,13 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
    >[!NOTE]
    >
-   >Seleziona entrambi i **Marchio** e **Superfici** affinché le attività vengano elencate correttamente quando avvii il processo di targeting.
+   >Fai clic su entrambi i pulsanti **Marchio** e **Superfici** affinché le attività vengano elencate correttamente quando avvii il processo di targeting.
 
 1. **Aggiunta di un&#39;immagine predefinita**
 
-   1. Aggiungi un’immagine predefinita al canale e seleziona **Targeting**.
-   1. Seleziona **Marchio** e **Attività** dal menu a discesa e seleziona **Inizia impostazione destinazione**.
-   1. Fai clic su **Inizia impostazione destinazione**.
+   1. Aggiungi un’immagine predefinita al tuo canale e fai clic su **Targeting**.
+   1. Clic **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
+   1. Clic **Inizia impostazione destinazione**.
 
    ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
 
@@ -113,7 +113,7 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
 1. **Controllo dell’anteprima**
 
-   1. Seleziona **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
+   1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
    1. Modifica il valore per tutte e tre le colonne. Osserva gli aggiornamenti dell’immagine di visualizzazione in base al valore più alto in magazzino.
 
    ![retail_result](assets/retail_result.gif)

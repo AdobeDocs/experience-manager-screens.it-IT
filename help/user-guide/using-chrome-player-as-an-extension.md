@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -22,21 +22,21 @@ Il lettore ChromeOS può essere installato come plug-in del browser Chrome in mo
 
 Segui questa pagina per informazioni sull’installazione del lettore chrome come estensione del browser.
 
-1. Seleziona [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
+1. Clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 
 1. Decomprimi e salva su disco.
 
-1. Apri il browser Chrome, seleziona il menu con 3 puntini e fai clic su **Altri strumenti** da **Estensioni** nell’angolo in alto a destra o passa direttamente a `chrome://extensions`.
+1. Apri il browser Chrome e fai clic sul menu con tre puntini, quindi fai clic su **Altri strumenti** da **Estensioni** nell’angolo in alto a destra o passa direttamente a `chrome://extensions`.
 
 1. Accendere il **Sviluppatore** dall&#39;angolo superiore destro.
 
-1. Seleziona **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
+1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
 
 1. Controlla il plug-in AEM Screens Chrome Player se è disponibile nell’elenco delle estensioni.
 
-1. Apri una nuova scheda e seleziona l’icona App dall’angolo in alto a sinistra, oppure passa direttamente a `chrome://apps`.
+1. Apri una nuova scheda e fai clic sull’icona App dall’angolo in alto a sinistra, oppure passa direttamente a `chrome://apps`.
 
-1. Seleziona **Plug-in AEM Screens** in modo da poter avviare Chrome Player.
+1. Clic **Plug-in AEM Screens** in modo da poter avviare Chrome Player.
 
    >[!NOTE]
    >
@@ -66,4 +66,4 @@ Se viene rilasciata una nuova versione del lettore, segui i passaggi indicati di
 1. Rinomina la vecchia cartella con i file del lettore
 1. Estrai il nuovo file ZIP nella stessa posizione della cartella precedente
 1. Avvia Chrome e passa a `chrome://extensions`
-1. Seleziona l’icona del lettore e il pulsante Aggiorna o ricarica
+1. Seleziona l’icona del lettore e fai clic sul pulsante Aggiorna o Ricarica

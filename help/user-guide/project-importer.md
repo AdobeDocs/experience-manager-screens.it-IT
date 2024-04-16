@@ -10,7 +10,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 1%
@@ -101,17 +101,17 @@ Per importare un file in una cartella di percorso contenente campi obbligatori m
 
    ![screen_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Selezionare il progetto,** DemoProjectImporter **>** Crea **>** Importa posizioni** dalla barra laterale.
+1. Fare clic sul progetto,** DemoProjectImporter **>** Crea **>** Importa posizioni** dalla barra laterale.
 
    ![screen_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
-1. Il **Importa** viene visualizzata la procedura guidata. Selezionare il file per il progetto con le posizioni o selezionare il file (***minimal-file.xls***) scaricato da *Prerequisiti* sezione.
+1. Il **Importa** viene visualizzata la procedura guidata. Fai clic sul file del progetto con le posizioni o fai clic sul file (***minimal-file.xls***) scaricato da *Prerequisiti* sezione.
 
-   Dopo aver selezionato il file, seleziona **Successivo**.
+   Dopo aver selezionato il file, fai clic su **Successivo**.
 
    ![screen_shot_2019-05-15at113718am](assets/screen_shot_2019-05-15at113718am.png)
 
-1. Verifica il contenuto del file (percorsi) dall’Importazione guidata e seleziona **Importa**.
+1. Verifica il contenuto del file (percorsi) dall’Importazione guidata e fai clic su **Importa**.
 
    ![screen_shot_2019-05-12at53131am](assets/screen_shot_2019-05-12at53131am.png)
 

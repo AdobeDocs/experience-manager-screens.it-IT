@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 5%
@@ -31,10 +31,10 @@ Ogni volta che crei un progetto AEM Screens, viene visualizzato un elenco di com
 
 Per visualizzare i componenti predefiniti del progetto Schermi, effettua le seguenti operazioni:
 
-1. Seleziona il canale. Ad esempio: **`We.Retail In Store`** > **Canali** > **Canale inattivo**.
+1. Fai clic sul canale. Ad esempio: **`We.Retail In Store`** > **Canali** > **Canale inattivo**.
 
-1. Seleziona **Modifica** dalla barra delle azioni.
-1. Nell’editor AEM, seleziona la **+** dalla barra laterale.
+1. Clic **Modifica** dalla barra delle azioni.
+1. Nell’editor AEM, fai clic su **+** dalla barra laterale.
 1. Vengono visualizzati tutti i componenti inclusi per impostazione predefinita in un progetto AEM Screens, come illustrato nella figura seguente.
 
 ![screen_shot_2017-12-18alle21350pm](assets/screen_shot_2017-12-18at21350pm.png)
@@ -45,12 +45,12 @@ L’AEM fornisce diverse altre componenti. Puoi sempre aggiungere al progetto al
 
 L’esempio seguente mostra l’aggiunta di un componente Livefyre a un progetto AEM Screens:
 
-1. Seleziona il canale in cui desideri aggiungere un componente. Ad esempio: **`We.Retail In Store`** > **Canali** > **Canale inattivo**.
+1. Fai clic sul canale in cui desideri aggiungere un componente. Ad esempio: **`We.Retail In Store`** > **Canali** > **Canale inattivo**.
 
-1. Seleziona **Modifica** dalla barra delle azioni.
-1. Seleziona **Progettazione** modalità.
-1. Selezionare l&#39;intero editor di progettazione a destra e selezionare il simbolo di impostazioni che consente di aprire **Progettazione parsys** .
-1. Puoi selezionare i componenti da importare nel progetto AEM Screens. L’esempio seguente mostra l’aggiunta di **Livefyre** componente di un progetto AEM Screens.
+1. Clic **Modifica** dalla barra delle azioni.
+1. Clic **Progettazione** modalità.
+1. Fare clic sull&#39;intero editor di progettazione a destra e fare clic sul simbolo delle impostazioni per aprire **Progettazione parsys** .
+1. Puoi fare clic sui componenti da importare nel progetto AEM Screens. L’esempio seguente mostra l’aggiunta di **Livefyre** componente di un progetto AEM Screens.
 
 ![add_components](assets/adding_components.gif)
 
@@ -64,7 +64,7 @@ Nella sezione seguente sono illustrati i componenti di AEM Screens che è possib
 
 >[!NOTE]
 >
->Per visualizzare le proprietà di un componente, selezionalo e seleziona l’icona a forma di martello per aprire/visualizzare le proprietà.
+>Per visualizzare le proprietà di qualsiasi componente, fai clic sul componente e sull’icona a forma di martello per aprire/visualizzare le proprietà.
 
 ### Applicazione {#application}
 
@@ -74,8 +74,8 @@ Il componente dell&#39;applicazione ha le seguenti proprietà:
 
 | **Proprietà** | **Descrizione** |
 |---|---|
-| ***Percorso applicazione*** | Selezionare il percorso assoluto in cui si trova l&#39;applicazione. |
-| ***Durata (millisecondi)*** | Seleziona la durata dell’applicazione. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre (applicazione a pagina singola). Impostando il valore di durata >0, mostra l’elemento per la durata specificata e quindi passa a quello successivo. |
+| ***Percorso applicazione*** | Fare clic sul percorso assoluto dell&#39;applicazione. |
+| ***Durata (millisecondi)*** | Fare clic sulla durata dell&#39;applicazione. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre (applicazione a pagina singola). Impostando il valore di durata >0, mostra l’elemento per la durata specificata e quindi passa a quello successivo. |
 
 L’esempio seguente mostra come incorporare un componente dell’applicazione insieme all’anteprima delle relative proprietà:
 
@@ -193,7 +193,7 @@ La sequenza incorporata dinamica ha le seguenti proprietà:
 
 ### Frammento di esperienza {#experience-fragment}
 
-Un frammento di esperienza ti consente di aggiungere al canale AEM Screens un frammento di esperienza (gruppo di uno o più componenti, tra cui contenuto e layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina e rilascia il componente nell’editor AEM e seleziona il frammento di esperienza.
+Un frammento di esperienza ti consente di aggiungere al canale AEM Screens un frammento di esperienza (gruppo di uno o più componenti, tra cui contenuto e layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina e rilascia il componente all’editor AEM e fai clic sul frammento di esperienza.
 
 Per ulteriori informazioni su come creare un frammento di esperienza e applicarlo a un progetto AEM Screens, consulta [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md).
 
@@ -221,7 +221,7 @@ La risorsa immagine presenta tre schede: **Immagine**, **Accessibilità**, e **S
 | **Proprietà** | **Descrizione** |
 |---|---|
 | **Immagine** |
-| ***Risorsa immagine*** | Seleziona la risorsa immagine. |
+| ***Risorsa immagine*** | Fai clic sulla risorsa immagine. |
 | ***Titolo*** | Titolo dell&#39;immagine. |
 | ***Collega a*** | Aggiungi un collegamento all’immagine. |
 | ***Descrizione*** | Breve descrizione dell&#39;immagine. |
@@ -239,7 +239,7 @@ L’immagine seguente mostra il componente di transizione (aggiunto mediante tra
 
 ![screen_shot_2019-07-25at104237am](assets/screen_shot_2019-07-25at104237am.png)
 
-Seleziona l’icona della transizione e fai clic su **Configura** (icona chiave inglese) per aprire **Transizione** . Questa finestra di dialogo include tre schede:
+Fai clic sull’icona della transizione, quindi fai clic su **Configura** (icona chiave inglese) per aprire **Transizione** . Questa finestra di dialogo include tre schede:
 
 * **Transizione**
 * **Sequenza**
@@ -316,7 +316,7 @@ Il componente video ha le seguenti proprietà:
   </tr>
   <tr>
    <td><em><strong>Risorsa video</strong></em></td>
-   <td>Seleziona il collegamento al video.</td>
+   <td>Fai clic sul collegamento al video.</td>
   </tr>
   <tr>
    <td><em><strong>Durata</strong></em></td>

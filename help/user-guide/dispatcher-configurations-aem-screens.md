@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Se desideri utilizzare più istanze di pubblicazione gestite da un singolo Dispa
  }
 ```
 
-Se un’istanza Publish è gestita da un’istanza di Dispatcher, l’abilitazione della coerenza nel Dispatcher non aiuta, perché il load balancer può inviare ogni richiesta a Dispatcher. In questo caso, seleziona **Abilita** in **Adesività** per attivarlo a livello del load balancer, come illustrato nella figura seguente:
+Se un’istanza Publish è gestita da un’istanza di Dispatcher, l’abilitazione della coerenza nel Dispatcher non aiuta, perché il load balancer può inviare ogni richiesta a Dispatcher. In questo caso, fai clic su **Abilita** in **Adesività** per attivarlo a livello del load balancer, come illustrato nella figura seguente:
 
 ![immagine](/help/user-guide/assets/dispatcher/dispatcher-enable.png)
 

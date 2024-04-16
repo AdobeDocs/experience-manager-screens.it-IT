@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
@@ -38,11 +38,11 @@ Questa pagina mostra come creare e gestire le visualizzazioni di Screens.
 >Create una posizione prima di creare una visualizzazione. Consulta [Creare e gestire le posizioni](managing-locations.md) per ulteriori informazioni.
 
 1. Passa alla posizione appropriata, ad esempio `http://localhost:4502/screens.html/content/screens/TestProject`.
-1. Seleziona la cartella del percorso e fai clic su **Crea** che si trova accanto all’icona più nella barra delle azioni.
-1. Seleziona **Visualizzazione** dal **Crea** procedura guidata, quindi seleziona **Successivo**.
+1. Fai clic sulla cartella del percorso e fai clic su **Crea** che si trova accanto all’icona più nella barra delle azioni.
+1. Clic **Visualizzazione** dal **Crea** procedura guidata, quindi fai clic su **Successivo**.
 1. Invio **Nome** e **Titolo** per la posizione di visualizzazione.
 1. Sotto **Visualizzazione** , scegliere i dettagli del layout. Scegli il **Risoluzione**, ad esempio **Full HD**. Scegli il numero di dispositivi in orizzontale e in verticale.
-1. Seleziona **Crea**.
+1. Fai clic su **Crea**.
 
 Visualizzazione (*StoreDisplay*) viene creato e aggiunto alla posizione (*SanJose*).
 
@@ -63,12 +63,12 @@ Quando lo schermo è in posizione, il passaggio successivo consiste nel creare u
 La configurazione di un dispositivo funge da segnaposto per un dispositivo di digital signage non ancora installato.
 
 1. Passa alla visualizzazione appropriata, ad esempio: `http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation`.
-1. Selezionare la cartella di visualizzazione e selezionare **Visualizza dashboard** nella barra delle azioni.
-1. Seleziona **+ Aggiungi configurazione dispositivo** in alto a destra nella **Dispositivi** pannello.
+1. Fai clic sulla cartella di visualizzazione e fai clic su **Visualizza dashboard** nella barra delle azioni.
+1. Clic **+ Aggiungi configurazione dispositivo** in alto a destra nella **Dispositivi** pannello.
 
-1. Seleziona la **Configurazione dispositivo** come modello richiesto e seleziona **Successivo**.
+1. Fai clic su **Configurazione dispositivo** come modello richiesto, come e fai clic su **Successivo**.
 
-1. Inserisci le proprietà come richiesto e seleziona **Crea**.
+1. Immetti le proprietà richieste e fai clic su **Crea**.
 
 La configurazione del dispositivo viene creata e aggiunta alla visualizzazione corrente (nella seguente dimostrazione, la nuova configurazione del dispositivo è *DeviceConfig*).
 
@@ -92,9 +92,9 @@ La dashboard di visualizzazione offre diversi pannelli per la gestione dei dispo
 
 >[!NOTE]
 >
->Puoi selezionare gli elenchi del dashboard e attivare azioni in blocco sugli elementi, invece di esaminare ogni elemento singolarmente.
+>Puoi fare clic sugli elenchi del dashboard e attivare azioni in blocco sugli elementi, invece di esaminare ogni elemento singolarmente.
 >
->Ad esempio, l&#39;immagine seguente mostra come selezionare più canali dal dashboard di visualizzazione.
+>Ad esempio, l&#39;immagine seguente mostra come fare clic su più canali dal dashboard di visualizzazione.
 
 ![cqdoc9456](assets/cqdoc9456.gif)
 
@@ -102,12 +102,12 @@ La dashboard di visualizzazione offre diversi pannelli per la gestione dei dispo
 
 Il **INFORMAZIONI SULLA VISUALIZZAZIONE** Il pannello fornisce le proprietà di visualizzazione.
 
-Seleziona (**...**) nell&#39;angolo in alto a destra nella **INFORMAZIONI SULLA VISUALIZZAZIONE** per visualizzare le proprietà e visualizzare l&#39;anteprima della visualizzazione.
+Fai clic su (**...**) nell&#39;angolo in alto a destra nella **INFORMAZIONI SULLA VISUALIZZAZIONE** per visualizzare le proprietà e visualizzare l&#39;anteprima della visualizzazione.
 
 
 #### Visualizzazione delle proprietà {#viewing-properties}
 
-Seleziona **Proprietà** in modo da poter visualizzare o modificare le proprietà dello schermo.
+Clic **Proprietà** in modo da poter visualizzare o modificare le proprietà dello schermo.
 
 Inoltre, è possibile regolare il valore del timer dell’evento per il canale interattivo in **Timeout di inattività** proprietà in **Visualizzazione** scheda. Il valore predefinito è impostato su *300 secondi*.
 
@@ -123,9 +123,9 @@ Il **CANALI ASSEGNATI** nel pannello vengono visualizzati i canali assegnati al 
 
 Il **DISPOSITIVI** Il pannello fornisce informazioni sulle configurazioni del dispositivo.
 
-Seleziona (**...**) nell&#39;angolo in alto a destra nella **DISPOSITIVI** per aggiungere configurazioni di dispositivi e aggiornare i dispositivi.
+Fai clic su (**...**) nell&#39;angolo in alto a destra nella **DISPOSITIVI** per aggiungere configurazioni di dispositivi e aggiornare i dispositivi.
 
-Inoltre, seleziona la configurazione dispositivo per visualizzare le proprietà, assegnare un dispositivo o eliminarlo completamente.
+Inoltre, fai clic sulla configurazione del dispositivo per visualizzare le proprietà, assegnare un dispositivo o eliminarlo completamente.
 
 ![chlimage_1-13](assets/chlimage_1-13.png)
 

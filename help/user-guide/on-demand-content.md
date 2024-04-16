@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Puoi pubblicare e annullare la pubblicazione dei contenuti da AEM Screens. La fu
 Per distribuire gli aggiornamenti dei contenuti dall’ambiente di authoring a quello di pubblicazione su dispositivi per un progetto AEM Screens, segui i passaggi seguenti:
 
 1. Passa al progetto AEM Screens.
-1. Seleziona **Gestisci pubblicazione** dalla barra delle azioni, in modo da poter pubblicare il progetto nell’istanza Publish.
+1. Clic **Gestisci pubblicazione** dalla barra delle azioni, in modo da poter pubblicare il progetto nell’istanza Publish.
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. Il **Gestisci pubblicazione** viene aperta la procedura guidata. È possibile selezionare **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Seleziona **Avanti**.
+1. Il **Gestisci pubblicazione** viene aperta la procedura guidata. Puoi fare clic su **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Fai clic su **Avanti**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Seleziona la casella in modo da poter selezionare l’intero progetto dalla sezione **`Manage Publication`** procedura guidata.
+1. Seleziona la casella in modo da poter fare clic sull’intero progetto da **`Manage Publication`** procedura guidata.
 
    ![screen_shot_2019-02-25at22712pm](assets/screen_shot_2019-02-25at22712pm.png)
 
-1. Seleziona **+ Includi elementi figlio** dalla barra delle azioni e deseleziona tutte le opzioni in modo da poter pubblicare tutti i moduli del progetto e selezionare **Aggiungi** per la pubblicazione.
+1. Clic **+ Includi elementi figlio** dalla barra delle azioni, deseleziona tutte le opzioni per pubblicare tutti i moduli del progetto e fai clic su **Aggiungi** per la pubblicazione.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Ad esempio, l’immagine seguente mostra come gestire e aggiornare solo le pagin
    1. **Solo pagine già pubblicate**: questa opzione consente di gestire gli aggiornamenti solo per le pagine precedentemente pubblicate.
 
 
-1. Dalla sezione **`Manage Publication wizard`**, seleziona **Pubblica**.
+1. Dalla sezione **`Manage Publication wizard`**, fai clic su **Pubblica**.
 
    ![screen_shot_2019-02-25at23341pm](assets/screen_shot_2019-02-25at23341pm.png)
 
@@ -72,9 +72,9 @@ Ad esempio, l’immagine seguente mostra come gestire e aggiornare solo le pagin
    >    1. Il flusso di lavoro non funziona se l’autore non completa il processo di replica (i contenuti vengono ancora caricati nell’istanza di pubblicazione) dopo aver selezionato la **Pubblica** nel flusso di lavoro di gestione della pubblicazione.
 
    >[!CAUTION]
-   >Se in qualità di autore o creatore di contenuti desideri visualizzare le modifiche nei dispositivi collegati all’istanza di authoring, seleziona **Aggiorna contenuto offline** dal dashboard del canale o selezionando il progetto. In questo caso, l’aggiornamento del contenuto offline viene eseguito solo nell’istanza di authoring.
+   >Se in qualità di autore o creatore di contenuti desideri visualizzare le modifiche nei dispositivi collegati all’istanza di authoring, fai clic su **Aggiorna contenuto offline** dal dashboard del canale o selezionando il progetto. In questo caso, l’aggiornamento del contenuto offline viene eseguito solo nell’istanza di authoring.
 
-1. Passa al progetto e seleziona **Aggiorna contenuto offline** dalla barra delle azioni. Questa azione inoltra lo stesso comando all’istanza Publish, in modo che vengano creati anche i file ZIP non in linea nell’istanza Publish.
+1. Passa al progetto e fai clic su **Aggiorna contenuto offline** dalla barra delle azioni. Questa azione inoltra lo stesso comando all’istanza Publish, in modo che vengano creati anche i file ZIP non in linea nell’istanza Publish.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -95,16 +95,16 @@ Segui i passaggi seguenti per fornire aggiornamenti dei contenuti da Autore > Pu
 >
 >Segui questa sezione solo se ci sono modifiche in un canale. Se un canale non presenta modifiche dopo il precedente aggiornamento del contenuto offline, il flusso di lavoro di gestione della pubblicazione per un singolo canale non funzionerà.
 
-1. Passa al progetto AEM Screens e seleziona il canale.
-1. Seleziona **Gestisci pubblicazione** dalla barra delle azioni, in modo da poter pubblicare il canale nell’istanza Publish.
+1. Passa al progetto AEM Screens e fai clic sul canale.
+1. Clic **Gestisci pubblicazione** dalla barra delle azioni, in modo da poter pubblicare il canale nell’istanza Publish.
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. Il **Gestisci pubblicazione** viene aperta la procedura guidata. È possibile selezionare **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Seleziona **Avanti**.
+1. Il **Gestisci pubblicazione** viene aperta la procedura guidata. Puoi fare clic su **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Fai clic su **Avanti**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Seleziona **Pubblica** dal **`Manage Publication`** procedura guidata.
+1. Clic **Pubblica** dal **`Manage Publication`** procedura guidata.
 
    ![screen_shot_2019-02-07at120507pm](assets/screen_shot_2019-02-07at120507pm.png)
 

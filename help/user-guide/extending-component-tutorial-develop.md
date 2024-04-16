@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -192,7 +192,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
                                    name="./jcr:description"/>
                                <position
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Position"
                                    name="./textPosition">
                                    <items jcr:primaryType="nt:unstructured">
@@ -212,7 +212,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
                                </position>
                                <color
                                    jcr:primaryType="nt:unstructured"
-                                   sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                   sling:resourceType="granite/ui/components/coral/foundation/form/click"
                                    fieldLabel="Text Color"
                                    name="./textColor">
                                    <items jcr:primaryType="nt:unstructured">
@@ -240,7 +240,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    La proprietà `sling:hideChildren`= `"[linkURL,size]`&quot; viene utilizzato il `items` per garantire che il **linkURL** e **dimensione** I campi sono nascosti nella finestra di dialogo. La rimozione di questi nodi dalla finestra di dialogo del poster non è sufficiente. La proprietà `sling:hideResource="{Boolean}true"` nella scheda accessibilità viene utilizzata per nascondere l&#39;intera scheda.
 
-   Nella finestra di dialogo vengono aggiunti due campi di selezione per consentire agli autori di controllare la posizione del testo e il colore del Titolo e della Descrizione.
+   Nella finestra di dialogo vengono aggiunti due campi di clic per consentire agli autori di controllare la posizione del testo e il colore del Titolo e della Descrizione.
 
    ![Poster - Struttura del dialogo finale](assets/2018-05-03_at_4_49pm.png)
 

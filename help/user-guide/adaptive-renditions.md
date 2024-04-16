@@ -2,10 +2,10 @@
 title: Panoramica e configurazioni dell’architettura di rappresentazioni adattive
 description: Scopri la panoramica dell’architettura e le configurazioni in CRXDE Liti per rappresentazioni adattive in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ## Introduzione {#introduction}
 
-Le rappresentazioni adattive consentono ai dispositivi di selezionare automaticamente la rappresentazione migliore per un dispositivo in base alle regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente la rappresentazione più appropriata di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione della *principale* esperienza.
+Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base alle regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente la rappresentazione più appropriata di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione della *principale* esperienza.
 
 ## Obiettivo {#objective}
 
@@ -58,11 +58,11 @@ Per configurare la configurazione, segui i passaggi seguenti:
 Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti operazioni:
 
 1. Passa a questo percorso `/conf/screens/sling:configs/rendition-mapping` da **CRXDE Liti**.
-1. Crea un nodo sotto **rendition-mapping**. Clic con il pulsante destro **rendition-mapping** e seleziona **Crea** > **Crea nodo**, come illustrato nella figura seguente.
+1. Crea un nodo sotto **rendition-mapping**. Clic con il pulsante destro **rendition-mapping** e fai clic su **Crea** > **Crea nodo**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node1.png)
 
-1. Inserisci il **Nome** per la regola di mappatura come **rule1** e il nodo **Tipo** as **`nt:unstructured`** in **Crea nodo** . Seleziona **OK**.
+1. Inserisci il **Nome** per la regola di mappatura come **rule1** e il nodo **Tipo** as **`nt:unstructured`** in **Crea nodo** . Fai clic su **OK**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node2.png)
 
@@ -72,7 +72,7 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
    >[!NOTE]
    >Consulta [Utilizzo della sintassi per query multimediali](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) per ulteriori informazioni.
 
-   Seleziona **rule1** che hai creato e immetti **espressione** in **Nome** e **(orientamento:orizzontale)** in **Valore**, come illustrato di seguito. Seleziona **Aggiungi**.
+   Clic **rule1** che hai creato e immetti **espressione** in **Nome** e **(orientamento:orizzontale)** in **Valore**, come illustrato di seguito. Clic **Aggiungi**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,11 +81,11 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
    >[!NOTE]
    >Il valore definito nella proprietà pattern viene abbinato alla nuova rappresentazione della risorsa e, se l’espressione viene valutata come true, viene selezionato.
 
-   Per aggiungere la proprietà pattern, selezionate **rule1** che hai creato e immetti **pattern** in **Nome** e **orizzontale** in **Valore**, come illustrato di seguito. Seleziona **Aggiungi**.
+   Per aggiungere la proprietà pattern, fate clic su **rule1** che hai creato e immetti **pattern** in **Nome** e **orizzontale** in **Valore**, come illustrato di seguito. Clic **Aggiungi**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
-1. Seleziona **Salva tutto** e osserva le proprietà sotto il nodo creato in **rendition-mapping**.
+1. Clic **Salva tutto** e osserva le proprietà sotto il nodo creato in **rendition-mapping**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node5.png)
 

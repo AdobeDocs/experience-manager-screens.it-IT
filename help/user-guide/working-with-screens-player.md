@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -32,11 +32,11 @@ Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositiv
 
 1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
-   Seleziona **Dispositivi** e **Gestione dispositivi** dalla barra delle azioni.
+   Clic **Dispositivi** e **Gestione dispositivi** dalla barra delle azioni.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
-1. Seleziona il dispositivo in modo da poter aprire il dashboard del dispositivo.
+1. Fare clic sul dispositivo per aprirne il dashboard.
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
@@ -58,7 +58,7 @@ Per visualizzare l’interfaccia utente di amministrazione dal lettore Screens, 
 
 #### Accesso alle opzioni del menu di configurazione {#configuration-options}
 
-Puoi aggiornare le configurazioni selezionando l&#39;opzione **Configurazione** dal menu laterale, come illustrato nella figura seguente:
+Puoi aggiornare le configurazioni facendo clic sul pulsante **Configurazione** dal menu laterale, come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
@@ -86,7 +86,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 Puoi cancellare la cache per i canali e le applicazioni dall’interfaccia utente di amministrazione nel lettore AEM Screens.
 
-Seleziona la **Cache contenuto** dalla barra laterale, in modo da poter aggiornare la cache.
+Fai clic su **Cache contenuto** dalla barra laterale, in modo da poter aggiornare la cache.
 
 ![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 

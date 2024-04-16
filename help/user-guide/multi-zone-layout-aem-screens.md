@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 0%
@@ -50,14 +50,14 @@ Durante la creazione di un canale, puoi utilizzare diversi modelli per creare zo
 
 **Creazione di un canale**
 
-1. Seleziona il collegamento Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Accedi a **Canali** cartella e seleziona **Crea** dalla barra delle azioni.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e quindi **Schermi**. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Accedi a **Canali** cartella e fai clic su **Crea** dalla barra delle azioni.
 
-1. Seleziona **Canale schermo diviso 1x2** dal **Crea** procedura guidata.
+1. Clic **Canale schermo diviso 1x2** dal **Crea** procedura guidata.
 
-1. Seleziona **Successivo** e immetti **titolo** as **ZonaMultipla**.
+1. Clic **Successivo** e immetti **titolo** as **ZonaMultipla**.
 
-1. Seleziona **Crea** per completare la creazione del canale.
+1. Clic **Crea** per completare la creazione del canale.
 
 ### Utilizzo di risorse singole in una o più aree {#using-single-assets-in-one-or-more-zones}
 
@@ -66,7 +66,7 @@ Puoi utilizzare risorse singole, come un’immagine o un video, in tutte le sing
 1. **Aggiunta di contenuto al canale**
 
    1. Accedi a **Zone** > **Canali**> **ZonaMultipla**.
-   1. Seleziona la **ZonaMultipla** channel e select **Modifica** dalla barra delle azioni.
+   1. Fai clic su **ZonaMultipla** channel e click **Modifica** dalla barra delle azioni.
 
 1. **Aggiunta di immagini al canale**
 
@@ -80,17 +80,17 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 
 1. **Creazione di una cartella canali**
 
-   1. Accedi a **Zone** > **ZonaMultipla** > **Canali** e seleziona **Crea** dalla barra delle azioni.
-   1. Seleziona **Cartella canali** dal **Crea** procedura guidata e seleziona **Successivo**.
-   1. Inserisci il titolo come **EmbeddedChannels** e seleziona **Crea**.
+   1. Accedi a **Zone** > **ZonaMultipla** > **Canali** e fai clic su **Crea** dalla barra delle azioni.
+   1. Clic **Cartella canali** dal **Crea** e fai clic su **Successivo**.
+   1. Inserisci il titolo come **EmbeddedChannels** e fai clic su **Crea**.
 
    ![screen_shot_2018-12-19at125428pm](assets/screen_shot_2018-12-19at125428pm.png)
 
 1. **Aggiunta di altri due canali alla cartella canali**
 
-   1. Accedi a **Zone** > **Canali** > **EmbeddedChannels** e seleziona **Crea** dalla barra delle azioni.
-   1. Seleziona **Canale sequenza** dal **Crea** creazione guidata di un canale con titolo **`Zone1`**.
-   1. Seleziona **`Zone1`** e seleziona **Modifica** dalla barra delle azioni.
+   1. Accedi a **Zone** > **Canali** > **EmbeddedChannels** e fai clic su **Crea** dalla barra delle azioni.
+   1. Clic **Canale sequenza** dal **Crea** creazione guidata di un canale con titolo **`Zone1`**.
+   1. Clic **`Zone1`** e fai clic su **Modifica** dalla barra delle azioni.
    1. Trascina alcune immagini su questo canale.
    1. Allo stesso modo, crea un altro canale di sequenza denominato **`Zone2`** in **EmbeddedChannels** cartella.
    1. Trascina un video su questo canale.
@@ -110,11 +110,11 @@ Se desideri che le aree visualizzino la sequenza di immagini e un video nelle di
 1. **Aggiunta di sequenze incorporate (componente) al canale principale (MultiZone)**
 
    1. Accedi a **Zone** > **Canali** > **ZonaMultipla**.
-   1. Seleziona **Modifica** dalla barra delle azioni.
+   1. Clic **Modifica** dalla barra delle azioni.
    1. Trascina la **Sequenza incorporata** in entrambe le zone.
-   1. Selezionate la sequenza incorporata in una delle zone.
-   1. Seleziona la **Configura** (chiave inglese) a una delle sequenze incorporate nell’editor.
-   1. Seleziona il percorso del canale come **Zone** > **Canali** > **EmbeddedChannels** > **`Zone1`**, come illustrato nella figura seguente.
+   1. Fate clic sulla sequenza incorporata in una delle zone.
+   1. Fai clic su **Configura** (chiave inglese) a una delle sequenze incorporate nell’editor.
+   1. Fare clic sul percorso del canale come **Zone** > **Canali** > **EmbeddedChannels** > **`Zone1`**, come illustrato nella figura seguente.
    1. Analogamente, aggiungi **`Zone2`** a un altro componente di sequenza incorporato nell’editor.
 
       ![immagine](/help/user-guide/assets/multi-zone/multizone-3.png)
@@ -126,16 +126,16 @@ Crea una posizione e una visualizzazione per visualizzare il contenuto nel letto
 1. **Creazione di una posizione**
 
    1. Accedi a **Zone** > **Posizioni** cartella.
-   1. Seleziona la **Posizioni** cartella e seleziona **Crea** dalla barra delle azioni.
-   1. Seleziona **Posizione** dal **Crea** procedura guidata e seleziona **Successivo**.
-   1. Inserisci il **Titolo** as **SanJose** e seleziona **Crea**.
+   1. Fai clic su **Posizioni** cartella e fai clic su **Crea** dalla barra delle azioni.
+   1. Clic **Posizione** dal **Crea** e fai clic su **Successivo**.
+   1. Inserisci il **Titolo** as **SanJose** e fai clic su **Crea**.
 
 1. **Creazione di una visualizzazione**
 
    1. Accedi a **Zone** > **Posizioni** cartella.
-   1. Seleziona la **SanJose** posizione e selezione **Crea** dalla barra delle azioni.
-   1. Seleziona **Visualizzazione** dal **Crea** procedura guidata e seleziona **Successivo**.
-   1. Inserisci il **Titolo** as **Lobby** e seleziona **Crea**.
+   1. Fai clic su **SanJose** posizione e clic **Crea** dalla barra delle azioni.
+   1. Clic **Visualizzazione** dal **Crea** e fai clic su **Successivo**.
+   1. Inserisci il **Titolo** as **Lobby** e fai clic su **Crea**.
 
 ### Assegnazione di canali alla visualizzazione {#channel-channel}
 
@@ -144,10 +144,10 @@ Assegna i canali alla visualizzazione per visualizzare il contenuto. Per assegna
 1. **Assegnazione del canale alla visualizzazione**
 
    1. Accedi a **Zone** > **Posizioni** > **SanJose**> **Lobby**.
-   1. Seleziona la **Lobby** visualizza e seleziona **Assegna canale** dalla barra delle azioni.
+   1. Fai clic su **Lobby** visualizzare e fare clic su **Assegna canale** dalla barra delle azioni.
    1. Inserisci il percorso del **ZonaMultipla** channel in **Percorso canale**.
    1. Imposta il **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Timer**.
-   1. Seleziona **Salva**.
+   1. Fai clic su **Salva**.
 
       ![immagine](/help/user-guide/assets/multi-zone/multizone-img9.png)
    1. Allo stesso modo, assegna gli altri due canali incorporati (**`Zone1`** e **`Zone2`**) a questo display.
@@ -167,20 +167,20 @@ Dopo aver impostato una posizione e uno schermo, attenersi alla procedura riport
 1. **Registrazione del dispositivo**
 
    1. Accedi a **Zone** > **Dispositivi** cartella.
-   1. Seleziona la **Dispositivi** cartella e seleziona **Gestione dispositivi** dalla barra delle azioni.
-   1. Seleziona **Registrazione dispositivo** e selezionare il dispositivo in sospeso dall&#39;elenco.
+   1. Fai clic su **Dispositivi** cartella e fai clic su **Gestione dispositivi** dalla barra delle azioni.
+   1. Clic **Registrazione dispositivo** e fare clic sul dispositivo in sospeso nell&#39;elenco.
 
       >[!NOTE]
       > Il titolo del dispositivo deve corrispondere al token del dispositivo (**Token** ) visualizzato nel **Registrazione dispositivo** scheda.
 
-   1. Se il titolo corrisponde al token del dispositivo, seleziona il dispositivo e seleziona **Registra dispositivo** dalla barra delle azioni.
-   1. Se il codice di registrazione corrisponde al codice presente nel lettore Screens **Registrazione dispositivo** , seleziona **Convalida** dalla barra delle azioni.
+   1. Se il titolo corrisponde al token del dispositivo, fai clic sul dispositivo e fai clic su **Registra dispositivo** dalla barra delle azioni.
+   1. Se il codice di registrazione corrisponde al codice presente nel lettore Screens **Registrazione dispositivo** , fare clic su **Convalida** dalla barra delle azioni.
       ![immagine](/help/user-guide/assets/multi-zone/multizone-img6.png)
-   1. Inserisci il **Titolo** as **`Chrome-Device1`** e seleziona **Registrati**.
-   1. Seleziona **Assegna visualizzazione** e selezionare il percorso della configurazione del dispositivo.
+   1. Inserisci il **Titolo** as **`Chrome-Device1`** e fai clic su **Registrati**.
+   1. Clic **Assegna visualizzazione** e fai clic sul percorso della configurazione del dispositivo.
 
    >[!NOTE]
-   >Se stai tentando di visualizzare il contenuto in Screens player, assicurati di selezionare **Aggiorna contenuto offline** dal dashboard dei canali per ciascuno dei canali assegnati alla visualizzazione.
+   >Se stai tentando di visualizzare il contenuto in Screens player, assicurati di fare clic su **Aggiorna contenuto offline** dal dashboard dei canali per ciascuno dei canali assegnati alla visualizzazione.
 
 ### Visualizzazione del risultato {#viewing-the-result}
 

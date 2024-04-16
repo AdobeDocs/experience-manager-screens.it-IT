@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Puoi utilizzare manualmente l’aggiornamento offline in blocco dall’interfacc
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
 1. Passa al progetto AEM Screens.
-1. Seleziona il progetto, quindi seleziona **Aggiorna contenuto offline** dalla barra delle azioni, in modo da poter aggiornare manualmente il contenuto del canale.
+1. Fai clic sul progetto, quindi su **Aggiorna contenuto offline** dalla barra delle azioni, in modo da poter aggiornare manualmente il contenuto del canale.
 
    ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
@@ -67,7 +67,7 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    **Percorso progetto** Specifica il percorso del progetto AEM Screens. Il percorso è in genere `/content/screens/<Name of your project>`.
 
-   *Ad esempio*, `/content/screens/we-retail`. Per trovare questo percorso nell’URL, seleziona qualsiasi progetto in AEM Screens (non selezionare l’icona ).
+   *Ad esempio*, `/content/screens/we-retail`. Per trovare questo percorso nell’URL, seleziona qualsiasi progetto in AEM Screens (non fare clic sull’icona ).
 
    >[!NOTE]
    >
@@ -75,4 +75,4 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 
    **Frequenza Schedule** Specifica un orario, ad esempio 17:00 o 17:00 in cui il servizio deve aggiornare il contenuto offline.
 
-1. Seleziona **Salva** per salvare le impostazioni. Il contenuto viene aggiornato all&#39;ora specificata.
+1. Clic **Salva** per salvare le impostazioni. Il contenuto viene aggiornato all&#39;ora specificata.

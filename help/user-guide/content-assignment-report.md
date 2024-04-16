@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: 3b44fd920dd6c98ecc0e2b45bf95b81685647c0f
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 2%
@@ -45,9 +45,9 @@ Dopo aver configurato il progetto AEM Screens e aver assegnato le visualizzazion
 
 Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione contenuti:
 
-1. Passa al progetto AEM Screens e seleziona il progetto **DemoScreens**.
+1. Passa al progetto AEM Screens e fai clic sul progetto **DemoScreens**.
 
-1. Seleziona **Rapporto assegnazione contenuti** dalla barra delle azioni.
+1. Clic **Rapporto assegnazione contenuti** dalla barra delle azioni.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 

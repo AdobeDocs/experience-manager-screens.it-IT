@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: cdfaee19-15d9-4bcb-bc85-0b43c59d88d2
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -42,13 +42,13 @@ Puoi aggiungere una sequenza incorporata al tuo canale. Una sequenza incorporata
 
 Per aggiungere una sequenza incorporata al canale, effettua le seguenti operazioni:
 
-1. Seleziona il canale in cui desideri incorporare una pagina. Ad esempio: **`We.Retail`In-store** > **Canali** > **Canale inattivo**.
+1. Fai clic sul canale in cui desideri incorporare una pagina. Ad esempio: **`We.Retail`In-store** > **Canali** > **Canale inattivo**.
 
-1. Seleziona **Modifica** dalla barra delle azioni.
-1. In modalità editor, seleziona l’icona dei componenti dalla barra laterale sinistra, in modo da poter aggiungere la pagina incorporata. Trascina la **Sequenza incorporata** all’editor.
+1. Clic **Modifica** dalla barra delle azioni.
+1. In modalità editor, fai clic sull’icona dei componenti nella barra laterale sinistra per aggiungere la pagina incorporata. Trascina la **Sequenza incorporata** all’editor.
 1. Fai doppio clic su **Sequenza incorporata** in modo da poter aggiungere il canale al canale della sequenza originale.
-1. Seleziona la **Percorso canale** del canale.
-1. Seleziona la **Durata (millisecondi)** per il canale incorporato in **Sequenza** scheda. Per impostazione predefinita, la durata è impostata su **-1**, ciò significa che il canale incorporato è completamente in esecuzione. Se l’utente specifica una durata, la sottosequenza viene interrotta (ovvero si interrompe) all’ora specificata.
+1. Fai clic su **Percorso canale** del canale.
+1. Fai clic su **Durata (millisecondi)** per il canale incorporato in **Sequenza** scheda. Per impostazione predefinita, la durata è impostata su **-1**, ciò significa che il canale incorporato è completamente in esecuzione. Se l’utente specifica una durata, la sottosequenza viene interrotta (ovvero si interrompe) all’ora specificata.
 
 1. Imposta il **Strategia di riproduzione controllata** a **normale**.
 
@@ -60,15 +60,15 @@ Per impostazione predefinita, è impostato su **normale**. Impostazione del valo
 >
 >Dopo aver aggiunto al canale una sequenza incorporata tra quelle precedenti, effettua le seguenti operazioni:
 >
->1. Passa alla visualizzazione e selezionala da **Posizioni** cartella.
->1. Seleziona **Dashboard** dalla barra delle azioni.
->1. Nel dashboard di visualizzazione, seleziona **+ Assegna canali** dal **CANALI ASSEGNATI E PANNELLI PIANIFICATI** in modo da poter aprire **Finestra di dialogo Assegnazione canale**.
+>1. Passa alla visualizzazione e fai clic su di essa da **Posizioni** cartella.
+>1. Clic **Dashboard** dalla barra delle azioni.
+>1. Nel dashboard di visualizzazione, fai clic su **+ Assegna canali** dal **CANALI ASSEGNATI E PANNELLI PIANIFICATI** in modo da poter aprire **Finestra di dialogo Assegnazione canale**.
 >
->1. Seleziona il percorso del canale in cui (utilizzato nella sequenza incorporata) **Percorso canale**.
+>1. Fai clic sul percorso del canale in cui (utilizzato nella sequenza incorporata) **Percorso canale**.
 >1. Assicurati che il **Priorità** è inferiore al canale principale.
 >
->1. Non selezionare alcuna **Eventi supportati**.
->1. Seleziona **Salva** al termine.
+>1. Non fare clic su nessuna **Eventi supportati**.
+>1. Clic **Salva** al termine.
 >
 
 L&#39;esempio seguente mostra l&#39;aggiunta di una sequenza incorporata (**Canale inattivo - Notte**) a un canale esistente (**Canale inattivo**).
@@ -87,16 +87,16 @@ Puoi aggiungere una sequenza dinamica incorporata al canale. Una sequenza incorp
 
 Per aggiungere una sequenza incorporata al canale, effettua le seguenti operazioni:
 
-1. Selezionate il canale in cui desiderate incorporare una sequenza dinamica. Ad esempio: **`We.Retail`In-store** > **Canali** > **Canale inattivo**.
+1. Fate clic sul canale in cui desiderate incorporare una sequenza dinamica. Ad esempio: **`We.Retail`In-store** > **Canali** > **Canale inattivo**.
 
-1. Seleziona **Modifica** dalla barra delle azioni.
-1. In modalità editor, seleziona l’icona dei componenti dalla barra laterale sinistra, in modo da poter aggiungere la sequenza dinamica incorporata. Trascina la **Dinamico** **Sequenza incorporata** all’editor.
+1. Clic **Modifica** dalla barra delle azioni.
+1. In modalità editor, fai clic sull’icona dei componenti nella barra laterale sinistra per aggiungere la sequenza dinamica incorporata. Trascina la **Dinamico** **Sequenza incorporata** all’editor.
 
 1. Fai doppio clic su **Dinamico** **Sequenza incorporata** in modo da poter aggiungere la pagina al canale della sequenza.
 
 1. Inserisci il **Ruolo assegnazione canale**.
 1. Imposta il **Strategia di riproduzione controllata** a **normale**. Per impostazione predefinita, è impostato su **normale**. Impostazione del valore su **normale** (Riproduci tutti gli elementi) significa che la sottosequenza viene eseguita completamente su ogni ciclo della sequenza principale. L’altro valore possibile è **Riproduci un singolo elemento**. Tale valore mostra solo un elemento della sottosequenza a ogni esecuzione. Ad esempio, il primo elemento del primo ciclo e il secondo elemento del secondo ciclo.
 
-1. Seleziona la **Durata (millisecondi)** in **Sequenza** per il canale incorporato nella sequenza.
+1. Fai clic su **Durata (millisecondi)** in **Sequenza** per il canale incorporato nella sequenza.
 
 ![più recente](assets/latest.gif)
