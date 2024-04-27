@@ -1,16 +1,16 @@
 ---
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 8330c85b68e9fd3877a04455f38b908459036805
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 61%
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 # Licenza MIT
 
 © Copyright 2021 Adobe. All rights reserved.
 
-Viene concessa gratuitamente l’autorizzazione a qualsiasi persona che ottenga una copia di questo software e dei relativi file di documentazione (il &quot;Software&quot;), a trattare il Software senza restrizioni, compresi, a titolo esemplificativo, i diritti di utilizzo, copia, modifica, unione, pubblicazione, distribuzione, sublicenza e/o vendita di copie del Software, e a consentire alle persone a cui il Software è fornito di farlo, fatte salve le seguenti condizioni:
+Viene concessa gratuitamente l’autorizzazione a qualsiasi persona che ottenga una copia di questo software e dei relativi file di documentazione (il &quot;Software&quot;) a trattare il Software senza restrizioni. Ciò include, a titolo esemplificativo, i diritti di utilizzo, copia, modifica, unione, pubblicazione, distribuzione, sublicenza e/o vendita di copie del Software. E, per consentire alle persone a cui il Software è fornito di farlo, alle seguenti condizioni:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NESSUN CASO GLI AUTORI O I TITOLARI DEL DIRITTO D’AUTORE SONO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRA RESPONSABILITÀ. IN UN&#39;AZIONE DI CONTRATTO, TORTO O ALTRO, DERIVANTE DAL SOFTWARE, IN RELAZIONE O MENO AL SOFTWARE. O L&#39;UTILIZZO O ALTRE OPERAZIONI NEL SOFTWARE.
