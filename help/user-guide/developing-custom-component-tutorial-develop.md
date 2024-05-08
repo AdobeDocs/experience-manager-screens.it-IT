@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2139'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
    1. **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**
    1. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip**
 
-   ![Screens Esecuzione di pacchetti Ui.Apps e Ui.Content tramite CRX Package Manager](assets/crx-packages.png)
+   ![Screens Esecuzione di We.Retail Pacchetti Ui.Apps e Ui.Content installati tramite Gestione pacchetti CRX](assets/crx-packages.png)
 
    Schermi `We.Retail` Esegui `Ui.Apps` e `Ui.Content` pacchetti installati tramite Gestione pacchetti CRX.
 
@@ -296,7 +296,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    La proprietà Categories è una stringa che identifica la libreria client. La categoria cq.screens.component viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Di conseguenza, qualsiasi CSS/JS definito nella libreria client condivisa viene caricato in tutte le modalità.
 
-   È consigliabile non esporre mai percorsi direttamente a /apps in un ambiente di produzione. La proprietà allowProxy garantisce che venga fatto riferimento alle librerie client CSS e JS tramite un prefisso of/etc.clientlibs.
+   È consigliabile non esporre mai percorsi direttamente a /apps in un ambiente di produzione. La proprietà allowProxy garantisce che venga fatto riferimento alla libreria client CSS e JS tramite un prefisso of/etc.clientlibs.
 
 1. Crea file denominato `css.txt` sotto la cartella condivisa.
 

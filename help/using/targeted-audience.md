@@ -1,9 +1,9 @@
 ---
 title: Pubblico di destinazione
 description: Scopri di più su chi è il pubblico di destinazione per la Guida alle best practice di AEM Screens.
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Gli implementatori AEM sono responsabili dell’esecuzione di attività di svilu
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, mentre altre fasi includono il supporto di elementi interattivi tramite touch screen, sensori, trigger dinamici e così via.
+In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include la possibilità di supportare la riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, con altre fasi che includono il supporto di elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
 
 ### Integratori audio/video {#av-integrators}
 

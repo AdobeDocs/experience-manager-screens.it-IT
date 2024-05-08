@@ -2,9 +2,9 @@
 title: Monitoraggio del supporto
 description: Scopri come monitorare il supporto per la Guida alle best practice di AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Il monitoraggio dei contenuti consente di risolvere i problemi relativi a conten
 
 1. Se si verifica un problema a schermo vuoto:
 
-   * Verifica *anteprima* in modo da poter vedere se il canale mostra una schermata nera.
-   * Registra un *lettore chrome locale* (come estensione) sul laptop per visualizzare la schermata e vedere se appare una schermata nera.
-   * Clic con il pulsante destro del mouse, verifica e controlla *registri applicabili*.
+   * Controlla la *anteprima* in modo da poter vedere se il canale mostra una schermata nera.
+   * Registra un *lettore chrome locale* (come estensione) sul notebook per visualizzare la schermata e vedere se è visualizzata una schermata nera.
+   * Fare clic con il pulsante destro del mouse, esaminare e controllare *registri applicabili*.
 
-   Inoltre, se ciò non avviene sul lettore locale ma solo sul dispositivo:
+   Inoltre, se il problema non si verifica sul lettore locale ma solo sul dispositivo:
 
-   * Verifica *tipo di file multimediale* (in uso) che potrebbero avere problemi sul dispositivo e confermare se il contenuto è stato scaricato correttamente localmente (interfaccia utente amministratore cancella cache del canale).
+   * Controlla la *tipo di file multimediale* (in uso) che potrebbero avere problemi con il dispositivo e confermare se il contenuto è stato scaricato correttamente localmente (interfaccia utente amministratore cancella cache del canale).
    * Includi qualsiasi *registri dispositivo* nel ticket per la risoluzione rapida dei problemi.
    * *Raccogli registri* dal dispositivo dell’AEM.
 
@@ -41,5 +41,5 @@ Monitoraggio del dispositivo relativo al monitoraggio del dispositivo fisico se 
 1. Se si verifica un problema a schermo vuoto:
 
    * Controlla se *visualizzare* è acceso.
-   * Controlla se *computer* è acceso e sta inviando il segnale.
+   * Controlla se *computer* è acceso e invia un segnale.
    * Clic con il pulsante destro del mouse, controlla e controlla *registri applicabili*.

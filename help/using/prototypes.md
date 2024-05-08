@@ -2,9 +2,9 @@
 title: Prototipi
 description: Questa pagina descrive i prototipi per un progetto AEM Screens
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
-source-git-commit: c142830a37461a36baae15f543bd43b0ae8a62a7
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questa attività è tipicamente gestita da un esperto di marketing e business.
+>Una delle parti interessate per questa attività è un Marketing/Business Strategist.
 
 È importante testare le idee, i presupposti e le dipendenze precedentemente definiti nella mappa del Percorso UX utilizzando la prototipazione UX.
 

@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
 
 ## Creare il componente Poster {#poster-cmp}
 
-Il componente Poster estende il componente immagine predefinito di AEM Screens. Un meccanismo di Sling, `sling:resourceSuperType`, viene utilizzato per ereditare le funzionalità di base del componente Immagine senza dover copiare e incollare. Ulteriori informazioni sulle nozioni di base di [Elaborazione delle richieste Sling disponibile qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
+Il componente Poster estende il componente immagine predefinito di AEM Screens. Un meccanismo di Sling, `sling:resourceSuperType`, viene utilizzato per ereditare le funzionalità di base del componente Immagine senza dover copiare e incollare. Ulteriori informazioni sulle nozioni di base di [Elaborazione delle richieste Sling disponibile qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
 Il componente Poster viene riprodotto a schermo intero in modalità anteprima/produzione. In modalità di modifica, è importante eseguire il rendering del componente in modo diverso per facilitare l’authoring del canale della sequenza.
 
@@ -339,7 +339,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    Il `categories` è una stringa che identifica la libreria client. Il `cq.screens.components` viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito in `shared` clientlib è caricato in tutte le modalità.
 
-   È consigliabile non esporre mai percorsi direttamente a /apps in un ambiente di produzione. Il `allowProxy` assicura che venga fatto riferimento alle librerie client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni su [La proprietà allowProxy si trova qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   È consigliabile non esporre mai percorsi direttamente a /apps in un ambiente di produzione. Il `allowProxy` assicura che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni su [La proprietà allowProxy si trova qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crea file denominato `css.txt` sotto la cartella condivisa.
 

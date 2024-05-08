@@ -2,9 +2,9 @@
 title: Tassonomia dei progetti
 description: Scopri di più sulla tassonomia dei progetti in relazione ad AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questa attività è in genere gestita da un implementatore AEM.
+>Un soggetto interessato tipico per questa attività è un implementatore AEM.
 
 Prima di creare un progetto AEM Screens, è necessario comprendere e strategizzare tutti i componenti definiti nella fase UX Wireframing del progetto.
 

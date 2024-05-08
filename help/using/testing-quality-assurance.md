@@ -2,9 +2,9 @@
 title: Test e garanzia della qualità
 description: Scopri i test e il controllo della qualità per AEM Screens nella Guida alle best practice.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Test e garanzia della qualità {#testing-quality}
 
 >[!NOTE]
->Questa attività è in genere gestita da un integratore audio/video.
+>Una delle parti interessate per questa attività è un integratore audio/video.
 
 Man mano che ti avvicini all&#39;implementazione della rete di digital signage, crea un piano di test e controllo qualità che affronti ogni elemento della rete, inclusi tutti i componenti hardware, software e di rete.
 Durante la fase, si dovrebbero costruire e collaudare completamente interi sistemi di test.
@@ -21,7 +21,7 @@ Durante la fase, si dovrebbero costruire e collaudare completamente interi siste
 
 >[!NOTE]
 >
->Questa fase dovrebbe essere utilizzata anche come strumento per la creazione di un manuale di installazione e di istruzioni per l&#39;uso, che potrà essere successivamente fornito con l&#39;apparecchiatura e conservato in loco per riferimento futuro.
+>Questa fase deve essere utilizzata anche come strumento per la creazione di un&#39;installazione e di una guida utente. Entrambi possono essere successivamente spediti con l&#39;apparecchiatura e tenuti in loco per riferimento futuro.
 
 Devono essere presi in considerazione i seguenti elementi:
 

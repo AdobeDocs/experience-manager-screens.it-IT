@@ -2,9 +2,9 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Gli implementatori AEM sono responsabili dell’esecuzione di attività di svilu
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, mentre altre fasi includono il supporto di elementi interattivi tramite touch screen, sensori, trigger dinamici e così via.
+In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include la possibilità di supportare la riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, con altre fasi che includono il supporto di elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
 
 ### Integratori audio/video {#av-integrators}
 

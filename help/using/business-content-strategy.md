@@ -2,18 +2,18 @@
 title: Strategia di contenuti aziendali per AEM Screens
 description: Ulteriori informazioni sulla strategia di marketing e contenuti aziendali in relazione ad AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# Strategia per i contenuti aziendali {#business-content}
+# Strategia sui contenuti aziendali {#business-content}
 
 >[!NOTE]
 >
->Questa attività è tipicamente gestita da un esperto di marketing e business.
+>Una delle parti interessate per questa attività è un Marketing/Business Strategist.
 
 I contenuti sono un fattore importante per stimolare il coinvolgimento. Nella fase di pre-vendita, è importante definire una strategia di contenuti aziendali che tenga conto del modo in cui l&#39;applicazione utilizza le risorse hardware, software e di connettività per offrire il valore desiderato ai clienti.
 

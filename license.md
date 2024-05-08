@@ -1,16 +1,16 @@
 ---
-source-git-commit: 8330c85b68e9fd3877a04455f38b908459036805
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 34%
+source-wordcount: '173'
+ht-degree: 69%
 
 ---
 # Licenza MIT
 
 © Copyright 2021 Adobe. All rights reserved.
 
-Viene concessa gratuitamente l’autorizzazione a qualsiasi persona che ottenga una copia di questo software e dei relativi file di documentazione (il &quot;Software&quot;) a trattare il Software senza restrizioni. Ciò include, a titolo esemplificativo, i diritti di utilizzo, copia, modifica, unione, pubblicazione, distribuzione, sublicenza e/o vendita di copie del Software. E, per consentire alle persone a cui il Software è fornito di farlo, alle seguenti condizioni:
+Viene concessa gratuitamente l’autorizzazione a qualsiasi persona che ottenga una copia di questo software e dei relativi file di documentazione (il “Software”) a trattare il Software senza restrizioni. Questa licenza include senza limitazioni i diritti di utilizzo, copia, modifica, unione, pubblicazione, distribuzione, sublicenza e/o vendita di copie del Software. E, per consentirlo alle persone a cui il Software è fornito, è soggetto alle seguenti condizioni:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NESSUN CASO GLI AUTORI O I TITOLARI DEL DIRITTO D’AUTORE SONO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRA RESPONSABILITÀ. IN UN&#39;AZIONE DI CONTRATTO, TORTO O ALTRO, DERIVANTE DAL SOFTWARE, IN RELAZIONE O MENO AL SOFTWARE. O L&#39;UTILIZZO O ALTRE OPERAZIONI NEL SOFTWARE.
+IL SOFTWARE VIENE FORNITO &quot;COSÌ COM&#39;È&quot;, SENZA GARANZIA DI ALCUN TIPO, ESPLICITA O IMPLICITA, COMPRESE, TRA L&#39;ALTRO, LE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ A SCOPI PARTICOLARI E NON VIOLAZIONE. IN NESSUN CASO GLI AUTORI O I TITOLARI DEL DIRITTO D’AUTORE SONO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRA RESPONSABILITÀ. IN UN’AZIONE DI CONTRATTO, ILLECITO O ALTRO, DERIVANTE DAL SOFTWARE, IN RELAZIONE O MENO ALLO STESSO O ALL’UTILIZZO O ALTRE OPERAZIONI NEL SOFTWARE.

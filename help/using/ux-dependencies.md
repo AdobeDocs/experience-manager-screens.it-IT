@@ -2,9 +2,9 @@
 title: Dipendenze UX per AEM Screens
 description: Ulteriori informazioni sulle dipendenze UX per AEM Screens.
 exl-id: 05a4a7a7-0a97-47a1-b371-056ab31f4ed5
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questa attività è tipicamente gestita da un esperto di marketing e business.
+>Una delle parti interessate per questa attività è un Marketing/Business Strategist.
 
 Le dipendenze UX definiscono dove e come il contenuto viene strategizzato in modo da avere il maggior impatto.
 

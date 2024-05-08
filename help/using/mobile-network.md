@@ -2,7 +2,7 @@
 title: Direct Mobile Network
 description: Scopri Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
 
 1. Verificare che ogni lettore di schermo AEM sia collegato alla rete del router.
 
-1. Verifica la connessione Internet chiamando un URL nel browser del sistema.
+1. Verificare la connessione Internet chiamando un URL nel browser.
 
    >[!NOTE]
    >Se viene visualizzato un messaggio di errore, controllare le impostazioni di rete e verificare se è disponibile un collegamento di rete sufficiente. Verificare inoltre che il firewall del sistema operativo sia configurato per consentire l&#39;accesso alla rete mentre si utilizzano le porte di comunicazione AEM Screens configurate.

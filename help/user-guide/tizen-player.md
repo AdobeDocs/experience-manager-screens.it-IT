@@ -1,24 +1,24 @@
 ---
 title: Giocatore Tizen
-description: Questa pagina descrive l’installazione e il funzionamento di Tizen Player.
+description: Scopri l’installazione e il funzionamento del lettore Tizen.
 feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1217'
 ht-degree: 1%
 
 ---
 
-# Implementazione di Tizen Player {#tizen-player}
+# Implementazione di Tizen player {#tizen-player}
 
 ## Installazione di Tizen Player {#installing-tizen-player}
 
-Segui i passaggi seguenti per implementare Tizen Player per AEM Screens:
+Segui i passaggi seguenti per implementare Tizen player per AEM Screens:
 
-1. Accedi a [Download di AEM Screens Player](https://download.macromedia.com/screens/) in modo da poter scaricare Tizen Player.
+1. Accedi a [Download di AEM Screens Player](https://download.macromedia.com/screens/) per scaricare il lettore Tizen.
 
 1. Installare il lettore Tizen *(.zip)* dal computer locale.
 
@@ -40,15 +40,15 @@ Effettua le seguenti operazioni:
 
 ### Denominazione del lettore Tizen {#name-tizen}
 
-Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il nome del dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Tizen, ma anche di assegnare facilmente i contenuti appropriati.
+Puoi assegnare un nome descrittivo al tuo lettore Tizen, inviando in tal modo il nome del dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Tizen, ma anche di assegnare facilmente il contenuto appropriato.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Dopo la registrazione del lettore, il nome del lettore non può più essere modificato.
 
-Segui i passaggi seguenti per configurare il nome in Tizen player:
+Segui i passaggi seguenti per configurare il nome nel lettore Tizen:
 
 1. Fare clic sul pulsante del menu sul telecomando.
-1. Accedi a **rete** > **Nome dispositivo** in modo da poter assegnare un nome al lettore.
+1. Accedi a **Rete** > **Nome dispositivo** in modo da poter assegnare un nome al lettore.
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
 
@@ -56,13 +56,13 @@ Segui i passaggi seguenti sul dispositivo Samsung in modo da poter completare l�
 
 1. Passa al dispositivo Samsung e accendi.
 1. Fai clic su **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.
-1. Scorri verso il basso e fai clic su **Riproduci tramite** e modificarla in **Utilità di avvio URL** opzione.
+1. Scorri verso il basso e fai clic su **Gioca tramite** e modificarla in **Utilità di avvio URL** opzione.
    ![immagine](/help/user-guide/assets/tizen/rms-2.png)
 1. Quando l&#39;utilità di avvio URL è impostata, premere il tasto **Home** dal telecomando.
 1. Accedi a **Impostazioni modulo di avvio URL** e immettere l&#39;indirizzo IP del server localhost e fare clic su **Fine**.
 
    >[!NOTE]
-   >Il lettore Tizen deve essere in grado di connettersi al server http.
+   >Il lettore Tizen deve essere in grado di connettersi al server HTTP.
 
 1. AEM Screens Player si installa e si avvia automaticamente sul tuo dispositivo Samsung.
 
@@ -83,7 +83,7 @@ Segui i passaggi seguenti per esentare questi client incompatibili quando utiliz
 
 1. Dopo il riavvio dell’AEM, vai a `/system/console/configMgr` e cerca **Adobe Gestore autenticazione token Granite**. Imposta il valore per **SameSite** valore per **Nessuno**.
 
-1. Dovresti visualizzare una nuova opzione *`User agents to be exempted from samesite attribute`*. Popola questo con un regex corrispondente all’agente utente incompatibile con il *SameSite=Nessuno* attributo.
+1. Dovresti visualizzare una nuova opzione *`User agents to be exempted from samesite attribute`*. Popola questa opzione con un regex corrispondente all’agente utente incompatibile con il *SameSite=Nessuno* attributo.
 
    >[!NOTE]
    >
@@ -91,13 +91,13 @@ Segui i passaggi seguenti per esentare questi client incompatibili quando utiliz
 
 1. Registra il lettore Tizen rispetto all’istanza AEM 6.5.5 e versioni successive e deve registrarsi e mostrare il contenuto normalmente.
 
-## Provisioning remoto di Tizen Player {#remote-provisioning}
+## Provisioning remoto del lettore Tizen {#remote-provisioning}
 
-Il provisioning remoto di Tizen Player consente di distribuire centinaia e migliaia di display Samsung Tizen senza troppi sforzi. Evita di configurare manualmente ogni lettore con l’URL del server e il codice di registrazione in blocco o altri parametri. E, se è presente AEM Screens as a Cloud Service, per configurare la modalità cloud e il token cloud.
+Provisioning remoto del lettore Tizen consente di distribuire centinaia e migliaia di display Samsung Tizen senza troppi sforzi. Evita di configurare manualmente ogni lettore con l’URL del server e il codice di registrazione in blocco o altri parametri. E, se è presente AEM Screens as a Cloud Service, per configurare la modalità cloud e il token cloud.
 
 Questa funzione consente di configurare in remoto il lettore Tizen e, se necessario, di aggiornare centralmente le configurazioni. Tutto ciò che serve è il `HTTP` server utilizzato per ospitare l&#39;applicazione Tizen `(wgt and xml file)` e un editor di testo per salvare `config.json` con i parametri appropriati.
 
-Assicurati di aver configurato l’indirizzo dell’utilità di avvio URL sul dispositivo Tizen, ovvero Pulsante Home > Impostazioni dell’utilità di avvio URL.
+Verifica di aver configurato l’indirizzo URL Launcher sul dispositivo Tizen. Fai clic sul pulsante Home > Impostazioni modulo di avvio URL.
 Il giorno `HTTP` che ospita l&#39;applicazione Tizen, inserire il file `config.json` nella stessa posizione del `wgt` file. Il nome file deve essere `config.json`.
 Il lettore Tizen installa e, al momento del lancio (e di ogni riavvio), controlla e applica le impostazioni in `config.json` file.
 
@@ -118,7 +118,7 @@ Il lettore Tizen installa e, al momento del lancio (e di ogni riavvio), controll
 Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
 >[!NOTE]
->Le configurazioni dei criteri vengono rigorosamente applicate e non vengono ignorate manualmente nell’interfaccia utente di amministrazione del lettore. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio.
+>Le configurazioni dei criteri dell’interfaccia utente di amministrazione del lettore vengono rigorosamente applicate e non vengono ignorate manualmente. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio.
 >Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
 
 | **Nome criterio** | **Finalità** |
