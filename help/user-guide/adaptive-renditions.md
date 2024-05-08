@@ -2,9 +2,9 @@
 title: Panoramica e configurazioni dell’architettura di rappresentazioni adattive
 description: Scopri la panoramica dell’architettura e le configurazioni in CRXDE Liti per rappresentazioni adattive in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ## Introduzione {#introduction}
 
-Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base alle regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente la rappresentazione più appropriata di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione della *principale* esperienza.
+Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base a regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente la rappresentazione più appropriata di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi sulla progettazione della *principale* solo esperienza.
 
 ## Obiettivo {#objective}
 
@@ -41,7 +41,7 @@ Per configurare la configurazione, segui i passaggi seguenti:
    >![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se hai installato la 202109 Feature Pack più recente, puoi vedere **rendition-mapping** struttura del nodo precompilata in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Consulta [Note sulla versione per Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) per ottenere dettagli sul feature pack più recente.
+   >Se hai installato la 202109 Feature Pack più recente, puoi vedere **rendition-mapping** struttura del nodo precompilata in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Consulta [Note sulla versione per Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) per ottenere informazioni dettagliate sull’ultimo Feature Pack.
    >Per i progetti esistenti, assicurati che il progetto Screens disponga del **rendition-mapping** configurazione associata. Consulta [Aggiunta della mappatura di rappresentazione a un progetto esistente](#rendition-mapping-existing) per ulteriori informazioni.
 
 ### Aggiunta di una proprietà di mappatura rappresentazione a un progetto esistente {#rendition-mapping-existing}
@@ -72,7 +72,7 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
    >[!NOTE]
    >Consulta [Utilizzo della sintassi per query multimediali](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) per ulteriori informazioni.
 
-   Clic **rule1** che hai creato e immetti **espressione** in **Nome** e **(orientamento:orizzontale)** in **Valore**, come illustrato di seguito. Clic **Aggiungi**.
+   Clic **rule1** che hai creato e immetti il **espressione** in **Nome** e **(orientamento:orizzontale)** in **Valore**, come illustrato di seguito. Clic **Aggiungi**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +81,7 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
    >[!NOTE]
    >Il valore definito nella proprietà pattern viene abbinato alla nuova rappresentazione della risorsa e, se l’espressione viene valutata come true, viene selezionato.
 
-   Per aggiungere la proprietà pattern, fate clic su **rule1** che hai creato e immetti **pattern** in **Nome** e **orizzontale** in **Valore**, come illustrato di seguito. Clic **Aggiungi**.
+   Per aggiungere la proprietà pattern, fate clic su **rule1** che hai creato e immetti il **pattern** in **Nome** e **orizzontale** in **Valore**, come illustrato di seguito. Clic **Aggiungi**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
@@ -91,4 +91,4 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver aggiunto le proprietà e le regole per la mappatura delle rappresentazioni, in qualità di Autore di contenuti puoi configurare le risorse. A tale scopo, utilizza le rappresentazioni adattive ed esegui la migrazione dei dispositivi per reti di grandi dimensioni per utilizzare questa funzione nei canali di AEM Screens. Consulta [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md) per ulteriori informazioni.
+Dopo aver aggiunto le proprietà e le regole per la mappatura delle rappresentazioni, in qualità di Autore di contenuti puoi configurare le risorse. Puoi utilizzare le rappresentazioni adattive ed eseguire la migrazione dei dispositivi per reti di grandi dimensioni per utilizzare questa funzione nei canali di AEM Screens. Consulta [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md) per ulteriori informazioni.

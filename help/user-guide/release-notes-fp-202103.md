@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: a8741cc7-de4f-4e5a-b69e-852a43597123
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 7.
 
-Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.7 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **AEM 6.5 Screens FP7**.
+Puoi scaricare l’ultimo Feature Pack per AEM Screens versione 6.5.7 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **AEM 6.5 Screens FP7**.
 
 ## Data di rilascio {#release-date}
 
@@ -38,7 +38,7 @@ La data di rilascio del Feature Pack 202103 per AEM Screens è il 5 marzo 2021.
 
 * **Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management**
 
-  Quando si distribuisce in massa il lettore Android™, diventa noioso registrare manualmente ogni lettore con AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come `VMWare Airwatch`, `MobileIron`, o `Samsung Knox` per il provisioning e la gestione in remoto dell&#39;installazione. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
+  Quando si distribuisce il lettore Android™ in massa, diventa noioso registrare ogni lettore manualmente con l&#39;AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come `VMWare Airwatch`, `MobileIron`, o `Samsung Knox` per il provisioning e la gestione dell&#39;installazione in remoto. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
   Consulta [Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) per ulteriori dettagli.
 
@@ -57,9 +57,9 @@ La data di rilascio del Feature Pack 202103 per AEM Screens è il 5 marzo 2021.
 
 * L’aggiornamento del contenuto offline non riusciva con eccezioni di query.
 
-* L’intervallo di tempo tra le transizioni durante l’interazione nell’esperienza interattiva è ora fisso.
+* L’intervallo di tempo tra le transizioni durante l’interazione in un’esperienza interattiva è ora fisso.
 
-* La richiesta di aggiornamento della configurazione non è riuscita causava la visualizzazione di una schermata vuota.
+* Una richiesta di aggiornamento della configurazione non riuscita ha causato la visualizzazione di schermate vuote.
 
 ### Lettori AEM Screens rilasciati
 

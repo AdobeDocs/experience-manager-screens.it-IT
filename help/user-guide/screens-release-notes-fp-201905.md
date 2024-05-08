@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 67560ae17646424985032c81f33c937c6eeb5957
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '313'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Consulta **[Transizione da ContentSync a SmartSync](smartsync.md)** per ulterior
 
 In questo esempio di caso d’uso viene posto l’accento sulla creazione e la gestione di un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza se esiste una precondizione.
 
-Consulta **[Canale di emergenza](emergency-channel.md)** Caso d’uso per ulteriori dettagli.
+Consulta **[Canale di emergenza](emergency-channel.md)** caso d’uso per ulteriori dettagli.
 
 * **Incorporare un’applicazione REACT utilizzando l’editor SPA dell’AEM e Integrare con AEM Screens Analytics**
 

@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '2426'
 ht-degree: 1%
@@ -251,17 +251,17 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
-Una volta completata la configurazione dei canali e della visualizzazione, avvia il lettore AEM Screens per visualizzare il contenuto.
+Una volta completata la configurazione dei canali e della visualizzazione, avvia AEM Screens Player per visualizzare il contenuto.
 
 >[!NOTE]
 >
 >Per informazioni su AEM Screens Player, consulta le risorse seguenti:
 >
->* [Scarica il lettore AEM Screens](https://download.macromedia.com/screens/)
+>* [Scarica AEM Screens Player](https://download.macromedia.com/screens/)
 >* [Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
-L’output seguente conferma il contenuto del canale in AEM Screens player, a seconda del percorso di visualizzazione.
+L’output seguente conferma il contenuto del canale in AEM Screens Player, a seconda del percorso di visualizzazione.
 
 **Scenario 1**:
 

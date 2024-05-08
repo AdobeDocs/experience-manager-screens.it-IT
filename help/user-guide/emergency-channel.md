@@ -1,6 +1,6 @@
 ---
 title: Canale di emergenza
-description: Scopri come creare e gestire un canale di emergenza che l’autore del contenuto può cambiare da un canale di sequenza, se esiste una condizione preliminare.
+description: Scopri come creare e gestire un canale di emergenza che l’autore del contenuto può cambiare da un canale di sequenza, se esiste una precondizione.
 content-type: example
 topic-tags: use-case-examples
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d409ba46-b48a-44db-b305-27c392cd55de
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Descrizione del caso d’uso {#use-case-description}
 
-Questa sezione descrive un esempio di caso d’uso che pone l’accento sulla creazione e la gestione di un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza se esiste una precondizione.
+Questa sezione descrive un esempio di caso d’uso che evidenzia come creare e gestire un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza, se esiste una precondizione.
 
 ### Precondizioni {#preconditions}
 
@@ -157,7 +157,7 @@ Per impostare un canale di emergenza, procedere come segue:
 
 1. **Registrazione dispositivo**
 
-   Completa il processo di registrazione del dispositivo. Dopo la registrazione, puoi visualizzare il seguente output sul lettore AEM Screens.
+   Completa il processo di registrazione del dispositivo. Dopo la registrazione, puoi visualizzare il seguente output su AEM Screens Player.
 
    ![new30](assets/new30.gif)
 
@@ -177,7 +177,7 @@ In caso di emergenza, effettuare le seguenti operazioni:
 
    ![screen_shot_2019-02-25at101622pm](assets/screen_shot_2019-02-25at101622pm.png)
 
-1. Quando la priorità del canale viene aggiornata, tutto il lettore AEM Screens visualizza il **EmergencyChannel** contenuto.
+1. Quando la priorità del canale viene aggiornata, in AEM Screens Player viene visualizzato **EmergencyChannel** contenuto.
 
    ![screen_shot_2019-02-25at101742pm](assets/screen_shot_2019-02-25at101742pm.png)
 
@@ -185,4 +185,4 @@ In caso di emergenza, effettuare le seguenti operazioni:
 
 Il **EmergencyChannel** continua a visualizzarne il contenuto fino a quando l’autore del contenuto non reimposta il valore di priorità su 1.
 
-Quando l’autore del contenuto riceve le istruzioni per il superamento dell’emergenza, deve aggiornare la priorità della **MainAdChannel** che riprende la riproduzione normale.
+Quando l’Autore del contenuto riceve le istruzioni per l’eliminazione dell’emergenza, deve aggiornare la priorità della **MainAdChannel** che riprende la riproduzione normale.

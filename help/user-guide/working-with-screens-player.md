@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 1%
@@ -84,7 +84,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 #### Accesso alle opzioni del menu Content Cache {#content-cache-options}
 
-Puoi cancellare la cache per i canali e le applicazioni dall’interfaccia utente di amministrazione nel lettore AEM Screens.
+Puoi cancellare la cache per i canali e le applicazioni dall’interfaccia utente di amministrazione in AEM Screens Player.
 
 Fai clic su **Cache contenuto** dalla barra laterale, in modo da poter aggiornare la cache.
 

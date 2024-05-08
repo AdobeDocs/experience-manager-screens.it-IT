@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e1794013-59ce-4ddc-93c0-601668c75cd1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '912'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 9.
 
-Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.9 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi FP9 di AEM 6.5**.
+Scarica il Feature Pack più recente per AEM Screens versione 6.5.9 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi FP9 di AEM 6.5**.
 
 ## Data di rilascio {#release-date}
 
@@ -31,7 +31,7 @@ La data di pubblicazione del Feature Pack 202109 per AEM Screens è il 23 settem
 
 * **Supporto miniature per video**
 
-  Il supporto miniature per video è ora supportato in AEM Screens. Un autore di contenuti definisce una miniatura per video in modo che l’immagine venga utilizzata come segnaposto. Inoltre, sottopongono correttamente a test la riproduzione e il targeting dei contenuti, mentre il video effettivo viene finalizzato dal team appropriato. L’immagine può essere utilizzata anche in caso di interruzione della riproduzione del video.
+  Il supporto miniature per video è ora supportato in AEM Screens. Un autore di contenuti definisce una miniatura per video in modo che l’immagine venga utilizzata come segnaposto. Inoltre, sottopongono a test appropriati la riproduzione e il targeting dei contenuti, mentre il team appropriato finalizza il video effettivo. L’immagine può essere utilizzata anche in caso di interruzione della riproduzione del video.
 Consulta [Supporto miniature per video](/help/user-guide/thumbnail-support.md) per ulteriori dettagli.
 
 * **Monitoraggio della riproduzione di base**
@@ -41,12 +41,12 @@ Consulta [Monitoraggio della riproduzione di base](https://experienceleague.adob
 
 * **Aggiornamenti al rapporto Assegnazione contenuti**
 
-  Il report sull’assegnazione dei contenuti ora è ottimizzato e migliorato con una migliore esperienza utente. Il rapporto scaricabile mostra le entità relative al lettore migliorate, come posizioni, visualizzazioni e dispositivi, in una scheda del foglio di calcolo e le informazioni sul provider di contenuti, come canali e risorse in un’altra scheda.
+  Il report sull’assegnazione dei contenuti ora è ottimizzato e migliorato con una migliore esperienza utente. Il rapporto scaricabile mostra entità migliorate relative al lettore. Tali entità includono posizioni, visualizzazioni e dispositivi in una scheda del foglio di calcolo. Include inoltre le informazioni sul provider di contenuti, come canali e risorse, in altre schede.
 Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-report.md) per ulteriori dettagli.
 
 * **Rappresentazioni adattive**
 
-  Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base alle regole definite dal cliente.
+  Le rappresentazioni adattive consentono al dispositivo di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base a regole definite dal cliente.
 
   In qualità di sviluppatore di AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: panoramica dell’architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
 
@@ -74,7 +74,7 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
    * Aggiorna Dispatcher.
 
-   * Aggiorna componente personalizzato.
+   * Aggiorna il componente personalizzato.
 
 
    * Consulta [Configurazione di Dispatcher per la versione v3 del manifesto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) per ulteriori dettagli.
@@ -95,9 +95,9 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * Scarica le rappresentazioni ottimizzate tramite SmartSync.
 
-* La mappatura è stata trasformata in elenco di chiavi di rappresentazione.
+* La mappatura è stata trasformata in un elenco di chiavi di rappresentazione.
 
-* Rimosso l’accesso a `cmd.exe` e `reg.exe` in windows player.
+* Rimosso l’accesso a `cmd.exe` e `reg.exe` in Windows Player.
 
 * Un lettore deve segnalare il suo ultimo evento di riproduzione riuscito.
 
@@ -124,13 +124,13 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * Modalità Anteprima che mostra il valore vuoto per il canale schermo diviso.
 
-* Le miniature video risultano vuote con le rappresentazioni adatte abilitate.
+* Le miniature video vengono visualizzate come vuote se sono abilitate le rappresentazioni adattive.
 
-* Aggiorna automaticamente il manifesto del canale se viene pubblicata la pagina di riferimento.
+* Aggiorna automaticamente il manifesto del canale se la pagina di riferimento è pubblicata.
 
 * I dispositivi eliminati ora non bloccano la coda di replica Screens.
 
-* Il manifesto non conteneva contenuto di destinazione né pagine incorporate in Sites. Questo problema è stato risolto.
+* Il manifesto non conteneva contenuto di destinazione o pagine incorporate in Sites. Questo bug è ora corretto.
 
 * Al manifesto del canale viene ora aggiunto un nuovo componente immagine di base.
 
@@ -140,13 +140,13 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * È stato aggiunto il supporto per più tipi di provider di contenuti
 
-* La strategia di riproduzione della sequenza incorporata è stata interrotta e ora è stata corretta.
+* La strategia di riproduzione della sequenza incorporata è stata interrotta e questo bug è ora corretto.
 
 * Manifesto offline utilizzando il parametro di richiesta `wcmmode` per la voce html, rendendola non memorizzabile in cache.
 
 * A volte, una sequenza dinamica incorporata vuota causava la visualizzazione di una schermata vuota.
 
-* Il lettore ora segnala il proprio stato di riproduzione.
+* Il lettore ora segnala il suo stato di riproduzione.
 
 * Riproduzione del video in corso `Tiny mode` e non viene riprodotto come video a schermo intero sul dispositivo e il problema è risolto ora.
 

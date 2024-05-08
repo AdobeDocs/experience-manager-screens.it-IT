@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi di Device Control Center
-description: Scopri come monitorare e risolvere i problemi di prestazioni per l’attività del lettore AEM Screens e il dispositivo utilizzando la dashboard Dispositivo.
+description: Scopri come monitorare e risolvere i problemi di prestazioni per l’attività e il dispositivo di AEM Screens Player utilizzando il dashboard Dispositivo.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,7 +10,7 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 # Risoluzione dei problemi di Device Control Center {#troubleshooting-device-control-center}
 
-Puoi monitorare e risolvere i problemi di prestazioni per l’attività del lettore AEM Screens e il dispositivo utilizzando la dashboard Dispositivo. Questa pagina fornisce informazioni su come monitorare e risolvere i problemi di prestazioni percepiti per Screens player e i dispositivi assegnati.
+Puoi monitorare e risolvere i problemi relativi alle prestazioni per l’attività e il dispositivo di AEM Screens Player utilizzando il dashboard Dispositivo. Questa pagina fornisce informazioni su come monitorare e risolvere i problemi di prestazioni percepiti per Screens player e i dispositivi assegnati.
 
 ## Monitoraggio e risoluzione dei problemi da Centro controllo dispositivi {#monitor-and-troubleshoot-from-device-control-center}
 
-Puoi monitorare l’attività e quindi risolvere eventuali problemi del lettore AEM Screens, utilizzando la dashboard del dispositivo.
+Puoi monitorare l’attività e quindi risolvere eventuali problemi del lettore AEM Screens, utilizzando il dashboard del dispositivo.
 
 ### Dashboard dispositivo {#device-dashboard}
 

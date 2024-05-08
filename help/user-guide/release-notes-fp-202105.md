@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 8.
 
-Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.8 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP8**.
+Puoi scaricare l’ultimo Feature Pack per AEM Screens versione 6.5.8 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP8**.
 
 >[!IMPORTANT]
 >Installa la versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS dopo l’installazione dei pacchetti `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`e `screens core bundles`.
@@ -34,7 +34,7 @@ La data di rilascio del Feature Pack 202105 per AEM Screens è il 4 giugno 2021.
 
 * **Blocco della pagina in un canale AEM Screens**
 
-  AEM Screens ora supporta *Blocco di una pagina*, come già implementato in AEM Sites. Adobe Experience Manager (AEM) consente di bloccare una pagina in modo che nessun altro possa modificarne il contenuto. Questa funzione è utile quando si apportano numerose modifiche a una pagina specifica o quando è necessario bloccarla per un breve periodo.
+  AEM Screens ora supporta *Blocco di una pagina*, come già implementato in AEM Sites. Adobe Experience Manager (AEM) consente di bloccare una pagina in modo che nessun altro possa modificarne il contenuto. Questa funzione è utile quando si apportano numerose modifiche a una pagina specifica o quando è necessario bloccare una pagina per un breve periodo.
 
 * **Denominazione del dispositivo AEM Screens Player**
 
@@ -54,8 +54,8 @@ Per impostazione predefinita, quando si utilizza la registrazione in blocco per 
 
 ### Correzioni di bug {#bug-fixes}
 
-* Il lettore visualizza una schermata nera quando si passa al canale contenente la sequenza dinamica incorporata.
-* I lettori Screens ora bloccano il passaggio a qualsiasi canale interrotto che evita ulteriormente l’errore 404 o una pagina con un messaggio di errore.
+* Il lettore visualizzava una schermata nera quando si passava a un canale contenente una sequenza dinamica incorporata.
+* I lettori Screens ora bloccano il passaggio a qualsiasi canale interrotto che evita ulteriormente un errore 404 o una pagina con un messaggio di errore.
 
 ### Lettori AEM Screens rilasciati
 

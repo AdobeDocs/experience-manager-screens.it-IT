@@ -1,30 +1,30 @@
 ---
 title: Guida di Kickstart
-description: Scopri come creare un progetto demo di AEM Screens. Consente di creare un’esperienza di segnaletica digitale, a partire dall’installazione e dalla configurazione di un nuovo progetto per visualizzare i contenuti in AEM Screens player.
+description: Scopri come creare un progetto demo di AEM Screens. Consente di creare un’esperienza di segnaletica digitale, a partire dall’installazione e dalla configurazione di un nuovo progetto per visualizzare il contenuto in AEM Screens Player.
 feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
 
 # Guida di Kickstart {#kickstart-guide}
 
-Kick-Start per AEM Screens illustra come impostare ed eseguire un progetto AEM Screens. Illustra i passaggi necessari per configurare un’esperienza di digital signage di base, aggiungere contenuti quali risorse e/o video a ciascun canale e successivamente pubblicarli su un lettore AEM Screens.
+Kick-Start per AEM Screens illustra come impostare ed eseguire un progetto AEM Screens. Illustra i passaggi necessari per configurare un’esperienza di digital signage di base, aggiungere contenuti quali risorse e/o video a ciascun canale e successivamente pubblicarli in un lettore AEM Screens.
 
 >[!NOTE]
->Prima di lavorare sui dettagli del progetto, assicurati di aver installato il Feature Pack più recente per AEM Screens. Puoi scaricare il feature pack più recente dalla sezione [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID.
+>Prima di lavorare sui dettagli del progetto, assicurati di aver installato il Feature Pack più recente per AEM Screens. Puoi scaricare il Feature Pack più recente da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID.
 
 ## Prerequisiti {#prerequisites}
 
 Segui i passaggi seguenti per creare un progetto di esempio per AEM Screens e pubblicare ulteriormente i contenuti su Screens player.
 
 >[!NOTE]
->Il seguente tutorial mostra come riprodurre il contenuto del canale in Chrome OS Player.
+>Il seguente tutorial mostra come riprodurre il contenuto del canale in un lettore Chrome OS.
 
 >[!IMPORTANT]
 >**Impostazioni configurazione OSGi**
@@ -87,7 +87,7 @@ Per creare un canale per il progetto, segui i passaggi seguenti:
 
 ### Aggiunta di contenuto a un canale {#adding-content}
 
-Una volta impostato il canale, aggiungi al canale contenuto che il lettore AEM Screens può visualizzare.
+Una volta impostato il canale, aggiungi al canale contenuto che AEM Screens Player può visualizzare.
 
 Per aggiungere contenuti al canale, segui la procedura riportata di seguito (**TestChannel**) nel progetto:
 
@@ -162,18 +162,18 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
 
 1. Il **Assegnazione canale** viene visualizzata.
 
-1. Dalla sezione **Impostazioni** , scegli il canale **per percorso**  e **Eventi supportati** as **Caricamento iniziale** e **Schermata di inattività**.
+1. Dalla sezione **Impostazioni** , scegli il canale **per percorso** e **Eventi supportati** come **Caricamento iniziale** e **Schermata di inattività**.
 
    >[!NOTE]
    >
-   >Il **Ruolo canale**, **Priorità**, e **Metodi di interruzione** sono tutti compilati per impostazione predefinita. Consulta [Proprietà canale](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) per ulteriori informazioni sulle proprietà di assegnazione dei canali.
+   >Il **Ruolo canale**, **Priorità**, e **Metodi di interruzione** sono tutti compilati per impostazione predefinita. Consulta la [Proprietà canale](/help/user-guide/channel-assignment-latest-fp.md#channel-properties) per ulteriori informazioni sulle proprietà di assegnazione dei canali.
 
    ![immagine](assets/kickstart/demo-assign3.png)
 
    Inoltre, puoi fare clic sul pulsante **Finestra di attivazione** e **Pianificazione ricorrenza**.
 
    >[!NOTE]
-   >Il *Pianificazione ricorrenza* consente di impostare una pianificazione ricorrente per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
+   >Il *Pianificazione ricorrenza* consente di impostare una pianificazione ricorrente per il canale. È possibile impostare più pianificazioni di ricorrenza per un canale.
    >Consulta [Pianificazione ricorrenza](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) per ulteriori dettagli.
 
 1. Clic **Salva** dopo aver configurato le preferenze.
@@ -183,12 +183,12 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
 Registra il dispositivo utilizzando il dashboard AEM.
 
 >[!IMPORTANT]
->Chrome OS Player può essere installato come plugin del browser Chrome in modalità sviluppatore senza richiedere il dispositivo effettivo del lettore chrome. Per l&#39;installazione, procedere come segue:
+>Il lettore Chrome OS può essere installato come plug-in del browser Chrome in modalità sviluppatore senza richiedere un dispositivo Chrome Player effettivo. Per l&#39;installazione, procedere come segue:
 >
 >1. Clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 >1. Decomprimi e salva su disco.
 >1. Apri il browser Chrome e fai clic su **Estensioni** dal menu o passa direttamente a ***chrome://extensions***.
->1. Accendere il **Modalità sviluppatore** dall&#39;angolo superiore destro.
+>1. Accendere il **Modalità sviluppatore** dall&#39;angolo in alto a destra.
 >1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
 >1. Verifica **AEM Screens Chrome Player** plug-in, se disponibile nell’elenco delle estensioni.
 >1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.

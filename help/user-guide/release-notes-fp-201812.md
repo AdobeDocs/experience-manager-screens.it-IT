@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ La data di rilascio del Feature Pack 201812 per AEM Screens è il 16 gennaio 201
 
 * **Sovrapposizione testo su risorse nel canale**:
 
-  La sovrapposizione testo è una funzione disponibile in AEM Screens che consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine. Consulta [**Sovrapposizione testo**](text-overlay.md).
+  La sovrapposizione testo è una funzione disponibile in AEM Screens. Ti consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine. Consulta [**Sovrapposizione testo**](text-overlay.md).
 
 * **Programmazione di più risorse**:
 

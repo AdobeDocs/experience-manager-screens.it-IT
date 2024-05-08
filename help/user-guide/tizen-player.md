@@ -5,7 +5,7 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Segui i passaggi seguenti per configurare il nome in Tizen player:
 
 ### Configurazione degli aggiornamenti sul dispositivo Samsung {#config-updates}
 
-Segui i passaggi seguenti sul dispositivo Samsung per completare l’installazione del lettore AEM Screens sul dispositivo:
+Segui i passaggi seguenti sul dispositivo Samsung in modo da poter completare l’installazione di AEM Screens Player sul dispositivo:
 
 1. Passa al dispositivo Samsung e accendi.
 1. Fai clic su **MENU** dal telecomando del dispositivo e scorrere verso il basso fino a **Sistema** dalla barra di navigazione a sinistra.

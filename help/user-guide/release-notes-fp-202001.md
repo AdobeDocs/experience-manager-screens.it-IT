@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: c1a0b394-97dc-4104-b2b4-41fcbb63a22e
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 3.
 
-Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.3 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP3**.
+Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.3 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP3**.
 
 ## Data di rilascio {#release-date}
 
@@ -37,9 +37,9 @@ Per ulteriori informazioni su Sincronizzazione comandi e su come impostare clien
 
 * **Framework di verifica stato per mostrare lo stato di https e consentire un referente vuoto**
 
-Il framework di Verifica stato consente all’utente di verificare se due configurazioni necessarie (Consenti richieste di riferimento vuote e Servizio HTTP Apache Felix Jetty Based) sono configurate prima di eseguire un progetto AEM Screens.
+Il framework di controllo dello stato consente all’utente di verificare se due configurazioni necessarie (Consenti richieste di riferimento vuote e Servizio HTTP basato su Apache Felix Jetty) sono configurate prima di eseguire un progetto AEM Screens.
 
-Per ulteriori informazioni sul framework di verifica stato, consulta [Framework di verifica stato](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
+Per ulteriori informazioni sul framework di verifica dello stato, consulta [Framework di verifica stato](/help/user-guide/configuring-screens-introduction.md#health-check-framework).
 
 * **Aggiornamenti a Tipi di transizione predefiniti**
 Le proprietà del componente di transizione, ad esempio **Tipo** è ora impostato su **Dissolvenza** e **Durata** as **1600 millisecondi**, per impostazione predefinita.

@@ -9,7 +9,7 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Configurazione della riproduzione video e risoluzione dei problemi {#video-playback-configuration-and-troubleshooting}
 
-Quando carichi un video in DAM e lo aggiungi al canale, potrebbero verificarsi dei problemi in cui il video potrebbe non essere riprodotto nel lettore AEM Screens.
+Quando carichi un video in DAM e lo aggiungi al canale, potrebbero verificarsi dei problemi in cui il video potrebbe non essere riprodotto in AEM Screens Player.
 
 Le sezioni seguenti descrivono come eseguire il debug e risolvere i problemi relativi alla riproduzione di video nel canale.
 
@@ -102,7 +102,7 @@ Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effe
 
 #### Risoluzione dei problemi relativi al flag di criteri Autoplay {#troubleshooting-autoplay-policy-flag}
 
-Se il lettore AEM Screens riprende il video ma non lo visualizza, risolvi il problema con il flag di criteri Riproduzione automatica.
+Se il lettore AEM Screens seleziona il video ma non lo visualizza, risolvi il problema con il flag di criteri Riproduzione automatica.
 
 Per risolvere il problema del flag di criteri di riproduzione automatica di Google, segui la procedura seguente:
 

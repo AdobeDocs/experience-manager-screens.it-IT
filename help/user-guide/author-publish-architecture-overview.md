@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ba23eb8e-bbde-4a6e-8cfb-ae98176ed890
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Prima di iniziare a utilizzare i server di authoring e di pubblicazione, è nece
 
 L’architettura di AEM Screens è simile a un’architettura tradizionale di AEM Sites. Il contenuto viene creato su un’istanza dell’autore AEM e quindi replicato in avanti su più istanze di pubblicazione. I dispositivi su AEM Screens ora possono connettersi a una farm di pubblicazione AEM tramite il load balancer. È possibile aggiungere più istanze di pubblicazione AEM per continuare a scalare la farm di pubblicazione.
 
-*Ad esempio*, un autore di contenuti AEM Screens esegue un comando sul sistema di authoring di un determinato dispositivo. Il dispositivo è configurato per interagire con una farm di pubblicazione o con un autore di contenuti AEM Screens che ottiene informazioni sui dispositivi configurati per interagire con le farm di pubblicazione.
+*Ad esempio*, un autore di contenuti AEM Screens esegue un comando sul sistema di authoring per un determinato dispositivo. Il dispositivo è configurato per interagire con una farm di pubblicazione o con un autore di contenuti AEM Screens che ottiene informazioni sui dispositivi configurati per interagire con le farm di pubblicazione.
 
 Il diagramma seguente illustra sia l’ambiente di authoring che quello di pubblicazione.
 

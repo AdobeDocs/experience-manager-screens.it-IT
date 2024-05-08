@@ -2,7 +2,7 @@
 title: Configurazione delle istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 0%
@@ -264,7 +264,7 @@ Per replicare l’utente del dispositivo, segui la procedura riportata di seguit
 
 >[!NOTE]
 >
->In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server. Clic **Modifica URL server** dalla barra delle azioni, come illustrato nella figura seguente, le modifiche vengono propagate al lettore AEM Screens.
+>In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server. Clic **Modifica URL server** dalla barra delle azioni, come illustrato nella figura riportata di seguito, le modifiche vengono propagate ad AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -286,13 +286,13 @@ Per verificare il comportamento di authoring e pubblicazione, segui i passaggi s
 1. Esegui **Gestisci pubblicazione** per pubblicare le nuove modifiche su tutte le istanze Publish.
 1. Premi **Attiva** per attivare il dispositivo da **Gestione dispositivi**.
 1. **Modifica URL** dall’URL dell’istanza di authoring a uno dell’URL delle istanze di pubblicazione.
-1. Verifica che il contenuto del canale aggiornato venga visualizzato sul lettore AEM Screens.
+1. Verifica che il contenuto del canale aggiornato venga visualizzato in AEM Screens Player.
 1. Ripeti questi passaggi utilizzando un’istanza Publish diversa.
 
 
 #### Passaggio 5: indirizzamento del dispositivo all’istanza Publish nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visualizza l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra in modo da poter aprire il menu di amministrazione, sul lettore AEM Screens touch o utilizzando un mouse.
+1. Visualizza l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra in modo da poter aprire il menu Amministratore, sul lettore AEM Screens touch abilitato o utilizzando un mouse.
 1. Fai clic su **Configurazione** dal pannello laterale.
 1. Cambia l’istanza di authoring in Istanza di pubblicazione in **Server**.
 
@@ -302,7 +302,7 @@ In alternativa, puoi anche aggiornare/modificare l’URL del server dalla consol
 
 1. Passa al progetto AEM Screens e fai clic su **Dispositivi** cartella.
 1. Clic **Gestione dispositivi** dalla barra delle azioni.
-1. Fare clic sul dispositivo e fare clic su **Modifica URL server** dalla barra delle azioni, come illustrato nella figura seguente, e le modifiche vengono propagate al lettore AEM Screens.
+1. Fare clic sul dispositivo e fare clic su **Modifica URL server** dalla barra delle azioni, come illustrato nella figura riportata di seguito, e le modifiche vengono propagate ad AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 

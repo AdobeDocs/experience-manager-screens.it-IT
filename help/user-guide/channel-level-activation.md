@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 ## Visualizzazione dei risultati {#viewing-the-results}
 
-Una volta completata la configurazione dei canali e della visualizzazione, avvia il lettore AEM Screens per visualizzare il contenuto.
+Una volta completata la configurazione dei canali e della visualizzazione, avvia AEM Screens Player per visualizzare il contenuto.
 
 Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:59 (come indicato nella pianificazione), **TargetedSinglePlay** canale visualizza il contenuto fino alle 00:05 e quindi il **MainAdChannel** riprende la riproduzione del contenuto.
 

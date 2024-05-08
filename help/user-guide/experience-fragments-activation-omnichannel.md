@@ -1,7 +1,7 @@
 ---
 title: Attivazione di frammenti esperienza
 description: Un esempio di caso d’uso per scoprire di più sull’attivazione di frammenti di esperienza in relazione ad AEM Screens.
-source-git-commit: 97084aee861e152abcc5f117a2a4759dced038cc
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%

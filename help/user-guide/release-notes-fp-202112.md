@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3ff32a3d-9baf-4085-a775-bb5a76a1f5b3
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '326'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 10.
 
-Puoi scaricare il feature pack più recente per AEM Screens 6.5.10 dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP10**.
+Puoi scaricare il Feature Pack più recente per la versione 6.5.10 di AEM Screens dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP10**.
 
 ## Data di rilascio {#release-date}
 
@@ -29,7 +29,7 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 ### Novità {#what-is-new}
 
-* Gli aggiornamenti dell&#39;applicazione Android™ ora interessano Android™ 11 (livello API 30). Attualmente il lettore Android™ è nel livello API di destinazione 29.
+* Gli aggiornamenti dell&#39;applicazione Android™ ora interessano Android™ 11 (livello API 30). Attualmente il lettore Android™ è in API di destinazione livello 29.
 
 * L&#39;anteprima della visualizzazione è bloccata nella configurazione precedente del lettore
 
@@ -37,7 +37,7 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 * Correzione degli errori di download simultanei in SmartSync
 
-* In qualità di sviluppatore, puoi visualizzare le rappresentazioni delle risorse che desideri elencare solo come voci di rappresentazione nelle risorse corrispondenti nel manifesto, per garantire l’estensibilità, la chiarezza e la facilità di gestione del manifesto.
+* In qualità di sviluppatore, visualizza le rappresentazioni delle risorse che desideri elencare solo come voci di rappresentazione nelle risorse corrispondenti nel manifesto. In questo modo è possibile garantire l&#39;estensibilità, la chiarezza e la facilità di gestione del manifesto.
 
 ### Correzioni di bug {#bug-fixes}
 
@@ -45,11 +45,11 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 * Raccogli i registri del lettore locale e analizzali per verificare la presenza di schermate nere.
 
-* Il lettore che mostra una schermata vuota con un canale a schermo diviso è ora fisso
+* Il lettore che mostra una schermata vuota con un canale schermo diviso è ora fisso
 
-* Sono stati corretti i documenti dei gestori personalizzati aggiungendo il bundle core al maven pubblico.
+* Sono stati corretti i documenti dei gestori personalizzati aggiungendo un bundle core in Maven pubblico.
 
-* Impossibile aggiornare la versione del firmware dopo l&#39;aggiornamento. Questo problema è stato risolto.
+* Il lettore non stava aggiornando la versione del firmware dopo l&#39;aggiornamento. Questo bug è ora corretto.
 
 * L&#39;anteprima della visualizzazione è bloccata nella configurazione precedente del lettore.
 

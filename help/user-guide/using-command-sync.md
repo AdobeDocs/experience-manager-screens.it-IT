@@ -5,7 +5,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 ### Configurazione di un primario {#setting-up-primary}
 
 1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni.
-Osserva i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illustrato di seguito:
+Osserva i due dispositivi (chrome e Windows Player) in **DISPOSITIVI** come illustrato di seguito:
    ![image1](assets/command-sync/command-sync10-1.png)
 
 1. Dalla sezione **DISPOSITIVI** fare clic sul dispositivo che si desidera impostare come principale. L’esempio seguente illustra come impostare il dispositivo Chrome come principale. Clic **Imposta come dispositivo principale**.
@@ -108,8 +108,8 @@ Osserva i due dispositivi (chrome e windows player) in **DISPOSITIVI** come illu
 
 ### Sincronizzazione con primario {#sync-up-primary}
 
-1. Dopo aver impostato il dispositivo Chrome come primario, sincronizza l’altro dispositivo (in questo caso, Windows Player) per sincronizzarlo con il principale.
-Fare clic sull&#39;altra periferica (in questo caso, Windows Player) dal **DISPOSITIVI** e fai clic su **Sincronizza con dispositivo principale**.
+1. Dopo aver impostato il dispositivo Chrome come primario, sincronizzare l&#39;altro dispositivo (in questo caso, Windows Player) per la sincronizzazione con il principale.
+Fare clic sull&#39;altro dispositivo (in questo caso Windows Player) dal **DISPOSITIVI** e fai clic su **Sincronizza con dispositivo principale**.
 
    ![image1](assets/command-sync/command-sync13-1.png)
 
@@ -118,7 +118,7 @@ Fare clic sull&#39;altra periferica (in questo caso, Windows Player) dal **DISPO
    >[NOTA:]
    > Il **Sincronizza con dispositivo principale** mostra l&#39;elenco dei dispositivi principali. Seleziona quella preferita.
 
-1. Quando il dispositivo (lettore Windows) viene sincronizzato con il principale (lettore Chrome), è possibile vedere il dispositivo sincronizzato in **DISPOSITIVI** pannello.
+1. Quando il dispositivo (Windows Player) viene sincronizzato con il principale (Chrome Player), è possibile vedere il dispositivo sincronizzato in **DISPOSITIVI** pannello.
 
    ![image1](assets/command-sync/command-sync14-1.png)
 

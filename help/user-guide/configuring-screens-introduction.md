@@ -1,6 +1,6 @@
 ---
 title: Configurazione e distribuzione di AEM Screens
-description: Il lettore AEM Screens è disponibile per Android&trade;, Chrome OS, iOS e Windows. Scopri come configurare e distribuire AEM Screens.
+description: AEM Screens Player è disponibile per Android&trade;, Chrome OS, iOS e Windows. Scopri come configurare e distribuire AEM Screens.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,11 @@ Questa pagina mostra come installare e configurare i lettori Screens sui tuoi di
 
 >[!IMPORTANT]
 >
->Il lettore AEM Screens non utilizza il token CSRF (Cross-Site Request Forgery). Pertanto, per configurare il server AEM in modo che sia pronto all’uso per AEM Screens, ignora il filtro referente consentendo l’utilizzo di referenti vuoti.
+>AEM Screens Player non utilizza il token CSRF (Cross-Site Request Forgery). Pertanto, per configurare il server AEM in modo che sia pronto all’uso per AEM Screens, ignora il filtro referente consentendo l’utilizzo di referenti vuoti.
 
 ## Framework di verifica stato {#health-check-framework}
 
-Il framework di Verifica stato consente all’utente di verificare se sono impostate due configurazioni necessarie prima di eseguire un progetto AEM Screens.
+Il framework di verifica stato consente all’utente di verificare se sono impostate due configurazioni necessarie prima di eseguire un progetto AEM Screens.
 
 Consente all’utente di verificare i due controlli di configurazione seguenti per eseguire un progetto AEM Screens, ovvero per controllare lo stato dei due filtri seguenti:
 
@@ -93,11 +93,11 @@ I seguenti punti chiave aiutano a configurare e a rendere il server AEM pronto a
 
    ![immagine](assets/config/config-1.png)
 
-1. Clic **Salva** per attivare *http* servizio.
+1. Clic **Salva** per attivare *Http* servizio.
 
 #### Abilitare l’interfaccia utente touch per AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens richiede l’interfaccia touch e non funziona con l’interfaccia classica di Adobe Experience Manager (AEM).
+AEM Screens richiede l’interfaccia utente TOUCH e non funziona con l’interfaccia classica di Adobe Experience Manager (AEM).
 
 1. Accedi a `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Assicurati che **Modalità interfaccia utente di authoring predefinita** è impostato su **TOUCH**, come illustrato nella figura seguente
@@ -116,7 +116,7 @@ L’esecuzione dell’AEM in produzione utilizza **NOSAMPLECONTENT** modalità d
 
 `https://localhost:4502/system/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet`.
 
-Questa opzione è necessaria per consentire a AEM Screens Player di riprodurre i canali online.
+Questa rimozione è necessaria per consentire a AEM Screens Player di riprodurre i canali online.
 
 #### Limitazioni password {#password-restrictions}
 

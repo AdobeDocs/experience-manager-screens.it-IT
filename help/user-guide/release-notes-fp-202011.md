@@ -5,10 +5,10 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: b080a697-0e65-4ae1-a161-669c3098246b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '287'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 6.
 
-Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.6 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP6**.
+Puoi scaricare l’ultimo Feature Pack per AEM Screens versione 6.5.6 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP6**.
 
 ## Data di rilascio {#release-date}
 
@@ -37,12 +37,12 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * **Giocatore Tizen**
 
-  Un nuovo lettore denominato Tizen player è stato introdotto con il feature pack più recente per la versione 6.5.6 di AEM Screens.
+  Un nuovo lettore, denominato Tizen player, è stato introdotto con l’ultimo Feature Pack per la versione 6.5.6 di AEM Screens.
 Consulta [Implementazione di Tizen Player](/help/user-guide/tizen-player.md) per ulteriori dettagli.
 
 * **Funzionalità di ricerca da Gestione dispositivi**
 
-  È ora disponibile una nuova funzionalità di ricerca dall’interfaccia utente di Gestione dispositivi con il feature pack più recente per AEM Screens versione 6.5.6.
+  È ora disponibile una nuova funzionalità di ricerca dall’interfaccia utente di Gestione dispositivi con il Feature Pack più recente per AEM Screens versione 6.5.6.
 Consulta [Ricerca di un dispositivo da Gestione dispositivi](/help/user-guide/device-registration.md#search-device) per ulteriori dettagli.
 
 * **Intervallo ping predefinito**

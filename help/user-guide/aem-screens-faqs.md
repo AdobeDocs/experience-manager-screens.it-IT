@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Questo argomento fornisce le risposte alle domande frequenti più frequenti rela
 ## Problema schermo vuoto {#blank-screen}
 
 >[!NOTE]
->I controlli obbligatori elencati che devono essere eseguiti dal supporto principale o dal supporto lato cliente prima di segnalare un problema.
+>L’elenco dei controlli obbligatori che il supporto principale o il supporto lato cliente devono provare prima di segnalare un problema.
 
 ### 1. Quali dovrebbero essere i passaggi per la risoluzione dei problemi di primo soccorso per qualsiasi cliente che si trova di fronte a una schermata nera o contenuti non riprodotti? {#troubleshooting-blank-screen}
 
@@ -33,7 +33,7 @@ Questo argomento fornisce le risposte alle domande frequenti più frequenti rela
 
 ### 2. Come risolvere il problema della schermata grigia in AEM Screens creando un canale o una pianificazione predefiniti?
 
-Per evitare le schermate vuote o grigie nel campo, crea un canale o una pianificazione globale predefinita, assegnata a ogni visualizzazione con la priorità minima di 1. In caso di problemi con gli aggiornamenti dei contenuti (a causa di rete, lettore, server o replica), poiché i lettori hanno già tali contenuti memorizzati nella cache del disco che dovrebbero essere riprodotti correttamente ed evitare le schermate grigie.
+Per evitare le schermate vuote o grigie nel campo, crea un canale o una pianificazione globale predefinita, assegnata a ogni visualizzazione con la priorità minima di 1. Nel caso in cui si verifichi un errore con gli aggiornamenti del contenuto, perché il contenuto è già memorizzato nella cache del disco dei lettori. Dovrebbe funzionare correttamente ed evitare le schermate grigie.
 
 Tutti gli altri contenuti, ad esempio i canali o le pianificazioni, hanno priorità maggiore di 1, quindi gli altri contenuti hanno priorità e i contenuti globali dei canali o delle pianificazioni (con priorità 1) vengono riprodotti solo come opzione di fallback.
 
@@ -62,11 +62,11 @@ Per *riferimenti dinamici*, la risoluzione si verifica una volta che il canale �
 1. La posizione padre della visualizzazione ha un nodo figlio che corrisponde al nome del canale di riferimento
 1. La posizione padre principale della visualizzazione ha un nodo figlio che corrisponde al nome del canale di riferimento
 
-E così via, finché non raggiungi la cartella posizioni e ci fermi in questo momento (quindi non puoi fare riferimento a un canale che si troverebbe nella cartella canali, ad esempio, solo i canali nella sottostruttura posizioni ).
+E così via, fino a raggiungere la cartella posizioni. Fermarsi qui al momento (quindi non è possibile fare riferimento a un canale che si troverebbe nella cartella dei canali, ad esempio, solo i canali nella sottostruttura della posizione).
 
 ### 5. Come impostare la configurazione offline personalizzata clientlib nel canale AEM Screens?
 
-Quando si utilizza un codice lato client personalizzato generato `clientlib` in un canale AEM Screens, sono necessari i seguenti passaggi per garantire che il `clientlib` i file sono stati caricati correttamente nel canale (`manifest.json`) e contiene il percorso del `clientlib`.
+Quando si utilizza un codice lato client personalizzato generato `clientlib` in un canale AEM Screens, sono necessari i seguenti passaggi. I passaggi garantiscono che `clientlib` i file sono stati caricati correttamente nel canale (`manifest.json`) e contiene il percorso del `clientlib`.
 
 Segui i passaggi seguenti dall’editor canali:
 
@@ -81,13 +81,13 @@ Segui i passaggi seguenti dall’editor canali:
 
 Attualmente la registrazione è possibile solo sull’istanza di authoring. Sebbene il servizio di registrazione non sia autenticato, crea solo un dispositivo in sospeso nell’AEM e non registra effettivamente il dispositivo né assegna alcun display.
 
-Per registrare un dispositivo (creando un utente per il dispositivo in AEM), eseguire l&#39;autenticazione in AEM e attualmente seguire manualmente la registrazione guidata per completare la registrazione. In teoria, un utente malintenzionato può creare diversi dispositivi in sospeso, ma non può registrarne nessuno senza un accesso AEM.
+Per registrare un dispositivo (creando un utente per il dispositivo in AEM), eseguire l&#39;autenticazione in AEM e seguire manualmente la procedura guidata di registrazione per completare la registrazione. In teoria, un utente malintenzionato può creare diversi dispositivi in sospeso, ma non può registrarne nessuno se non ha un accesso AEM.
 
 ### 2. Esiste un modo per trasformare le richieste HTTP GET in HTTP POST con una qualche forma di autenticazione? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La richiesta di registrazione è una richiesta POST.
 
-Si consiglia di ottenere l’ID dispositivo dalla sessione anziché passare come parametro. In questo modo verrebbero eliminati i registri del server, la cache del browser e così via. Non è un problema di sicurezza. Semanticamente. GET viene utilizzato quando non vi è alcuna modifica di stato sul server e POST viene utilizzato quando si è verificata una modifica di stato.
+Si consiglia di ottenere l’ID dispositivo dalla sessione, anziché passare come parametro. In questo modo si eliminerebbero i registri del server, la cache del browser e così via. Non è un problema di sicurezza. Semanticamente. GET viene utilizzato quando non vi è alcuna modifica di stato sul server e POST viene utilizzato quando si è verificata una modifica di stato.
 
 ### 3. Esiste un modo per rifiutare una richiesta di registrazione del dispositivo? {#is-there-a-way-to-decline-a-device-registration-request}
 
@@ -103,17 +103,17 @@ Cerca le seguenti possibilità per risolvere il problema della schermata vuota:
 * Il canale non ha alcun contenuto
 * Nessuna delle risorse è programmata per essere visualizzata al momento
 
-### 2. Cosa posso fare se il lettore AEM Screens non riesce a registrarsi e il suo stato viene visualizzato come Errore?
+### 2. Cosa posso fare se AEM Screens Player non riesce a registrarsi e il suo stato viene visualizzato come Errore?
 
-Abilita il filtro Apache Sling Referrer Allow Empty. Ciò è necessario per il funzionamento ottimale del protocollo di controllo tra AEM Screens Player e il server AEM Screens.
+Abilita il filtro Apache Sling Referrer Allow Empty. Necessario per il funzionamento ottimale del protocollo di controllo tra AEM Screens Player e il server AEM Screens.
 
 1. Accedi a **Configurazione console Web Adobe Experience Manager**
 1. Controlla la **allow.empty** opzione.
 1. Fai clic su **Salva**.
 
-### 3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens, il dispositivo mostra l’errore FAILURE e i registri della console mostrano l’errore ENAME_NOT_FOUND?
+### 3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens, il dispositivo mostra FAILURE e i registri della console mostrano un errore ENAME_NOT_FOUND?
 
-Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l&#39;IP del server, utilizzare: *arp &lt;server_dns_name>*.
+Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l’IP del server, utilizza: *arp &lt;server_dns_name>*.
 
 ### 4. AMS consiglia di implementare un watchdog Android™ su tutti i dispositivi? Il plug-in Watchdog (Cordova) è incluso nell’APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -129,22 +129,22 @@ Per ulteriori informazioni su dove è possibile monitorare l&#39;attività dei d
 
 ## Lettore AEM Screens
 
-### 1. Come installare il lettore ChromeOS come plug-in del browser Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Come installare il lettore ChromeOS come plugin del browser Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
-Il lettore ChromeOS può essere installato come plug-in del browser Chrome in modalità sviluppatore senza richiedere il dispositivo effettivo del lettore Chrome. Per l&#39;installazione, procedere come segue:
+Il lettore ChromeOS può essere installato come plug-in del browser Chrome in modalità sviluppatore senza richiedere un dispositivo Chrome Player effettivo. Per l&#39;installazione, procedere come segue:
 
 1. Clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 1. Decomprimi e salva su disco.
 1. Apri il browser Chrome e fai clic su **Estensioni** dal menu o passa direttamente a ***chrome://extensions***.
-1. Accendere il **Modalità sviluppatore** dall&#39;angolo superiore destro.
+1. Accendere il **Modalità sviluppatore** dall&#39;angolo in alto a destra.
 1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
-1. Se disponibile nell’elenco delle estensioni, seleziona **AEM Screens Chrome Player** plugin.
+1. Se disponibile nell&#39;elenco delle estensioni, seleziona **AEM Screens Chrome Player** plugin.
 1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.
 1. Fai clic su **AEM Screens** Plugin. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
 
-### 2. Come risolvere i problemi se Screens Player non è in grado di eseguire l’autenticazione tramite l’istanza di pubblicazione con un gestore degli errori personalizzato?
+### 2. Come risolvere il problema se Screens Player non è in grado di eseguire l’autenticazione tramite un’istanza di pubblicazione con un gestore degli errori personalizzato?
 
-All’avvio di AEM Screens Player, viene inviata una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per eseguire l’autenticazione nell’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore degli errori personalizzato, assicurati di restituire il codice di stato 404 per l’utente anonimo il ***/content/screens/svc.ping.json***.
+All’avvio di AEM Screens Player, viene inviata una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per eseguire l’autenticazione nell’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore degli errori personalizzato, assicurati di restituire il codice di stato 404 per un utente anonimo su ***/content/screens/svc.ping.json***.
 
 ### 3. Come impostare lo schermo del dispositivo rimanere su in un lettore Android™? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
@@ -155,15 +155,15 @@ Segui i passaggi seguenti per attivare Stay Awake in su qualsiasi lettore Androi
 1. Accedi a **Opzioni sviluppatore**.
 1. Abilita **Rimani sveglio**.
 
-### 4. Come abilitare la modalità finestra per il lettore Windows?{#enable-player}
+### 4. Come attivare la modalità finestra per Windows Player?{#enable-player}
 
-Nessuna modalità finestra in Windows Player. È sempre in modalità a schermo intero.
+In Windows Player non è disponibile alcuna modalità finestra. È sempre in modalità a schermo intero.
 
-### 5. Come risolvere i problemi se un lettore AEM Screens invia continuamente richieste di accesso?
+### 5. Come risolvere i problemi se AEM Screens Player invia continuamente richieste di accesso?
 
 Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Screens che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. All’avvio di AEM Screens Player, questo richiede di: `/content/screens/svc.json`. Quando il lettore ottiene un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` contro *pubblicare* dell&#39;istanza. Se è presente un gestore degli errori personalizzato in *pubblicare* , assicurati di restituire il codice di stato 404 per l’utente anonimo il `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+1. All’avvio di AEM Screens Player, quest’ultimo richiede a `/content/screens/svc.json`. Quando il lettore ottiene un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` contro *pubblicare* dell&#39;istanza. Se è presente un gestore degli errori personalizzato in *pubblicare* , assicurati di restituire il codice di stato 404 per l’utente anonimo il `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
 1. Verifica se la configurazione del Dispatcher consente tali richieste nel `/filters`.
 
@@ -209,7 +209,7 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 
    * In CRXDE Liti, passa a `/etc/importers/polling/livefyre-poller/jcr:content`.
    * Aggiungi una proprietà *abilitato* tipo *Booleano*.
-   * Imposta **proprietà enabled** a **false**.
+   * Imposta **Enabled, proprietà** essere **false**.
 
 ### 2. Come aggiungere le informazioni dell’indice Oak? {#add-oak-index-info}
 
@@ -241,7 +241,7 @@ Consulta [Modello per gestori personalizzati](https://experienceleague.adobe.com
 
 ### 4. Cosa devi fare se, dopo il pacchetto screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e i bundle di base screens sono installati ma non attivi?
 
-Installa una versione minima del Feature Pack 8 di AEM 6.5 affinché il connettore AMS funzioni. Consulta [Disponibilità](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) in modo da ottenere la versione minima del feature pack di AEM Screens.
+Installa una versione minima del Feature Pack 8 di AEM 6.5 affinché il connettore AMS funzioni. Consulta [Disponibilità](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) in modo da ottenere la versione minima del Feature Pack di AEM Screens.
 
 ### 5. Come configurare il servizio CQ Link Externalizer in Screens?
 

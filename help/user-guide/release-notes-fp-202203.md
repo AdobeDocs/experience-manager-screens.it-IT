@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 570003d8-216d-4dcf-b03e-3a0dde818a43
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 11.
 
-Puoi scaricare il feature pack più recente per AEM Screens 6.5.11 dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo feature pack con titolo **Schermi AEM 6.5 FP11**.
+Puoi scaricare il Feature Pack più recente per la versione 6.5.11 di AEM Screens dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP11**.
 
 ## Data di rilascio {#release-date}
 
@@ -33,19 +33,19 @@ Questa versione include solo correzioni di bug.
 
 ### Correzioni di bug {#bug-fixes}
 
-* Il targeting e la personalizzazione non funzionavano. Questo problema è stato risolto.
+* Il targeting e la personalizzazione non funzionavano. Questo bug è ora corretto.
 
-* L’e-mail di monitoraggio di Screens non funzionava dopo FP10. Questo problema è stato risolto.
+* L’e-mail di monitoraggio di Screens non funzionava dopo FP10. Questo bug è ora corretto.
 
-* Il lettore Windows si bloccava durante l’acquisizione di una schermata in modalità ritratto. Questo problema è stato risolto.
+* Windows Player si stava bloccando durante l&#39;acquisizione di una schermata in modalità ritratto. Questo bug è ora corretto.
 
-* Il canale SPA Screens causava una schermata bianca con Windows Player. Questo problema è stato risolto.
+* Il canale SPA Screens causava una schermata bianca con Windows Player. Questo bug è ora corretto.
 
 * Il *wcmmode* Il parametro è stato rimosso da tutte le richieste Screens nell’istanza Publish.
 
 * L’interfaccia utente Attività del lettore ora funziona come previsto.
 
-* Windows Media Player: impossibile ottenere l&#39;ultimo aggiornamento tramite la gestione della pubblicazione. Questo problema è stato risolto.
+* Windows Media Player: impossibile ottenere l&#39;ultimo aggiornamento tramite la gestione della pubblicazione. Questo bug è ora corretto.
 
 ### Lettori AEM Screens rilasciati
 

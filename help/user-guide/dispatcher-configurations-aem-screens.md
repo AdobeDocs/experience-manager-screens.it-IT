@@ -5,7 +5,7 @@ feature: Administering Screens
 role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -25,7 +25,7 @@ La pagina seguente fornisce le linee guida per configurare Dispatcher per un pro
 >Se non è presente alcun Dispatcher, disabilita il servlet di registrazione nell’elenco dei componenti OSGi.
 
 Prima di configurare Dispatcher per un progetto di AEM Screens, è necessario avere una conoscenza approfondita di Dispatcher.
-Consulta [Configurazione di Dispatcher](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) per ulteriori dettagli.
+Consulta [Configurazione di Dispatcher](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration) per ulteriori dettagli.
 
 ## Configurazione di Dispatcher per la versione del manifesto v2 {#configuring-dispatcher}
 
@@ -231,7 +231,7 @@ In questo modo è possibile memorizzare in cache fino a dieci livelli dalla dire
 
 ### Aggiungi regola di invalidazione per segment.js {#invalidsegmentjs}
 
-Se utilizzi campagne mirate con AEM Screens, il `segments.js file` Quando aggiungi e pubblichi nuovi segmenti su AEM, questi devono essere invalidati. Senza questa regola di invalidazione, le nuove campagne mirate non funzionano sul lettore AEM Screens (vengono invece visualizzati i contenuti predefiniti).
+Se utilizzi campagne mirate con AEM Screens, il `segments.js file` Quando aggiungi e pubblichi nuovi segmenti su AEM, questi devono essere invalidati. Senza questa regola di invalidazione, le nuove campagne mirate non funzionano su AEM Screens Player (mostra invece il contenuto predefinito).
 
 * Aggiungi una regola di invalidazione a `/etc/httpd/conf.dispatcher.d/available_farms/999_ams_publish_farm.any`. Regola da aggiungere:
 

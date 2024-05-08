@@ -10,9 +10,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 6a05a014-aedf-4261-849d-abf1ce070964
-source-git-commit: 43e89ddc3eb6baffca75d730a978e60e234aaee4
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,10 @@ La data di rilascio del Feature Pack 201907 per AEM Screens è il 31 luglio 2019
 
 * **Trigger dati per cambiare le risorse in un canale AEM Screens**
 
-Il lettore passa a un canale che mostra le informazioni di emergenza quando riceve un evento attivato dal sistema di emergenza. Il canale gioca esclusivamente fino a quando la situazione di emergenza non è finita.
+Il lettore passa a un canale che mostra le informazioni di emergenza. Il sistema di emergenza invia queste informazioni quando riceve un evento. Il canale gioca esclusivamente fino a quando la situazione di emergenza non è finita.
 
-Consulta [Canale di emergenza](emergency-channel.md) Caso d’uso per l’implementazione.
+
+Consulta [Canale di emergenza](emergency-channel.md) caso d’uso per l’implementazione.
 
 * **Targeting abilitato per i componenti asincroni
 

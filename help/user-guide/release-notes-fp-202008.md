@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: bd466576-a6d3-494c-82e5-c5326b6e0aca
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 5.
 
-Puoi scaricare il feature pack più recente per AEM Screens versione 6.5.5 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere il feature pack più recente.
+Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.5 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere il Feature Pack più recente.
 
 ## Data di rilascio {#release-date}
 
@@ -38,7 +38,7 @@ La data di rilascio del Feature Pack 202008 per AEM Screens è il 3 settembre 20
 
 * **Pianificazione ricorrenza**
 
-  La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il canale. Puoi impostare più pianificazioni di ricorrenza per un canale.
+  La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il canale. È possibile impostare più pianificazioni di ricorrenza per un canale.
 
   Consulta [Pianificazione ricorrenza](/help/user-guide/channel-assignment-latest-fp.md#recurrence-schedule) per ulteriori dettagli.
 

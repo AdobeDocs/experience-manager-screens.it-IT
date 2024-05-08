@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Questa pagina descrive come installare AEM Screens Player.
 
 ## Lettore schermi disponibile {#available-players}
 
-Il lettore AEM Screens è disponibile per Android™, Chrome OS e Windows.
+AEM Screens Player è disponibile per Android™, Chrome OS e Windows.
 
 Per scaricare **Lettore AEM Screens**, visita il [Download del lettore AEM 6.5](https://download.macromedia.com/screens/) pagina.
 
@@ -29,11 +29,11 @@ Per scaricare **Lettore AEM Screens**, visita il [Download del lettore AEM 6.5](
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
 >1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
->1. Clic **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
+>1. Fai clic su **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
 
 ## Monitoraggio della riproduzione di base {#playback-monitoring}
 
-Il lettore riporta diverse metriche di riproduzione per ciascuno di essi `ping` il valore predefinito è 30 secondi. In base a queste metriche, è in grado di rilevare vari casi limite, come esperienza bloccata, schermata vuota e problemi di pianificazione. Questo consente di comprendere e risolvere i problemi del dispositivo, velocizzando in tal modo le indagini e le misure correttive.
+Il lettore riporta diverse metriche di riproduzione per ciascuno di essi `ping` il valore predefinito è 30 secondi. In base a queste metriche, è in grado di rilevare vari casi limite, come esperienza bloccata, schermata vuota e problemi di pianificazione. Ci consente di comprendere e risolvere i problemi sul dispositivo, e quindi accelera un&#39;indagine e misure correttive per voi.
 
 Il monitoraggio della riproduzione di base in un lettore AEM Screens consente di effettuare le seguenti operazioni:
 
@@ -69,11 +69,11 @@ Di seguito sono elencate alcune limitazioni al monitoraggio di base della riprod
 
 * Il lettore segnala il proprio stato di riproduzione al server, pertanto richiede una connessione attiva.
 
-* Il `isContentRendering` che controlla che la GPU richieda un uso intensivo delle risorse per essere abilitata per impostazione predefinita e che richieda il consenso esplicito dalle preferenze del lettore. L’Adobe consiglia di non utilizzarlo con i video in produzione.
+* Il `isContentRendering` che controlla che la GPU richieda un uso intensivo delle risorse per essere abilitata per impostazione predefinita e richieda il consenso esplicito delle preferenze del lettore. L’Adobe consiglia di non utilizzarlo con i video in produzione.
 
 * Questa funzione è supportata solo per i canali di sequenza e non copre ancora il caso di utilizzo dei canali interattivi (SPA).
 
-* Le metriche non sono ancora completamente esposte ai clienti; Adobe sta lavorando per abilitare a breve meccanismi di reporting e di avviso simili a quelli delle dashboard.
+* Le metriche non sono ancora completamente esposte ai clienti, ma Adobe sta lavorando per abilitare presto meccanismi di reporting e di avviso simili a quelli delle dashboard.
 
 ### Altre risorse {#additional-resources}
 
@@ -83,4 +83,4 @@ Per informazioni dettagliate, consulta i seguenti argomenti:
 
 * Per implementare Chrome OS Player, vedi [Console di gestione Chrome](implementing-chrome-os-player.md) per ulteriori informazioni.
 
-* Per configurare AEM Screens Windows Player, consulta [Implementazione di Windows Player](implementing-windows-player.md).
+* Per configurare AEM Screens Windows Player, vedere [Implementazione di Windows Player](implementing-windows-player.md).

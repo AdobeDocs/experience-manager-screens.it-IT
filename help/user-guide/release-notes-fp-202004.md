@@ -5,9 +5,9 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 AEM Screens ha rilasciato AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4.
 
-Puoi scaricare il feature pack più recente per AEM Screens 6.4.8 o AEM Screens 6.5.4 dalla versione [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere il feature pack più recente.
+Puoi scaricare il Feature Pack più recente per AEM Screens 6.4.8 o AEM Screens 6.5.4 dalla versione [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere il Feature Pack più recente.
 
 ## Data di rilascio {#release-date}
 
@@ -32,13 +32,13 @@ La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020
 
 * **Opzioni strategia di interruzione riproduzione**
 
-  In qualità di autore di contenuti, specifica quando un canale viene interrotto in modo da poter scegliere di tagliare i contenuti non critici, ma facoltativamente lascia che i contenuti importanti vengano riprodotti interamente prima di interrompere la riproduzione a causa della pianificazione.
+  In qualità di autore di contenuti, specifica quando un canale viene interrotto. Questa azione consente di scegliere di tagliare i contenuti non critici, ma facoltativamente di consentire la riproduzione completa di contenuti importanti prima di interrompere la riproduzione a causa della pianificazione.
 
-  Per ulteriori informazioni sulle opzioni disponibili da **Assegnazione canale** per implementare questa funzione nel progetto AEM Screens, consulta la sezione **[Metodo di interruzione](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
+  Per ulteriori informazioni sulle opzioni disponibili nella sezione **Assegnazione canale** per implementare questa funzione nel progetto AEM Screens, consulta la sezione **[Metodo di interruzione](/help/user-guide/channel-assignment.md#interruption-method-channel)**.
 
 * **Lanci di Screens**
 
-  Il flusso di esperienza utente dell’autore di contenuti è stato migliorato e ha ridotto il numero di clic per utilizzare la pubblicazione futura.
+  Il flusso di esperienza dell’utente di authoring dei contenuti è stato migliorato e ha ridotto il numero di clic per utilizzare la pubblicazione futura.
 
   Consulta **[Aggiornamento dei contenuti tramite Screens Launch](launches.md)** per ulteriori dettagli.
 
@@ -61,7 +61,7 @@ La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020
 
 * **Miglioramenti nella sincronizzazione dei comandi**
 
-  Con questa versione del feature pack, si riflettono i miglioramenti apportati al ritardo di sincronizzazione dei comandi tra le modifiche delle risorse.
+  Con questa versione del Feature Pack, si riflettono i miglioramenti apportati al ritardo di sincronizzazione dei comandi tra le modifiche delle risorse.
 
   Consulta **[Sincronizzazione comandi](using-command-sync.md)** per ulteriori dettagli.
 

@@ -1,6 +1,6 @@
 ---
-title: Implementazione di Windows 10 Player
-description: Informazioni sulla configurazione di AEM Screens Windows 10 Player.
+title: Implementazione di Windows Player
+description: Informazioni sulla configurazione di Windows Player in AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: administering
@@ -10,16 +10,16 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
 
-# Implementazione di Windows 10 Player {#implementing-windows-player}
+# Implementazione di Windows Player {#implementing-windows-player}
 
-In questa sezione viene descritta la configurazione di AEM Screens Windows 10 Player. Fornisce informazioni sul file di configurazione e sulle opzioni disponibili, nonché consigli sulle impostazioni da utilizzare per lo sviluppo e il test.
+Questa sezione descrive la configurazione di Windows Player in AEM Screens. Fornisce informazioni sul file di configurazione e sulle opzioni disponibili, nonché consigli sulle impostazioni da utilizzare per lo sviluppo e il test.
 
 ## Installazione di Windows Player {#installing-windows-player}
 
@@ -28,7 +28,7 @@ Per implementare Windows Player per AEM Screens, installare Windows Player per A
 Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
 
 >[!NOTE]
->Nessuna modalità finestra in Windows Player. È sempre in modalità a schermo intero.
+>In Windows Player non è disponibile alcuna modalità finestra. È sempre in modalità a schermo intero.
 
 ### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
@@ -50,7 +50,7 @@ Effettua le seguenti operazioni:
 
 ### Metodo ad hoc {#ad-hoc-method}
 
-Il metodo Ad Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
+Il metodo Ad Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
 
 Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completare l’installazione ad hoc:
 
@@ -66,12 +66,12 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 ## Denominazione di Windows Player {#name-windows}
 
-È possibile assegnare un nome di dispositivo descrittivo al lettore di Windows, inviando in tal modo il nome di dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Windows, ma anche di assegnare facilmente il contenuto appropriato.
+È possibile assegnare un nome descrittivo al dispositivo Windows Player, inviando in tal modo il nome assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Windows, ma anche di assegnare facilmente il contenuto appropriato.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Dopo la registrazione del lettore, il nome del lettore non può più essere modificato.
 
-Segui i passaggi seguenti per configurare il nome in Windows Player:
+Per configurare il nome in Windows Player, eseguire la procedura seguente:
 
 1. Clic **inizio** > **eseguire**.
 1. Invio `system.cpl`.
@@ -84,7 +84,7 @@ Seguire questa sezione per apprendere come modificare le opzioni predefinite di 
 ## Installazione tramite CLI (PowerShell) {#install-powershell}
 
 1. Creare una posizione personalizzata **dedicato** per Screens Player, ad esempio:
-   `C:\Users\User\screens-player`)
+   `C:\Users\User\screens-player`
 1. Installa
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
 1. Apri
@@ -126,7 +126,7 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
 | enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
-| cloudMode | Impostare su true se si desidera che il lettore Windows si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudMode | Impostare su true se si desidera che Windows Player si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
 | cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
 
 #### Esempio di file JSON del criterio {#example-policy-json-file}
@@ -144,11 +144,11 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 
 ## Abilitazione della modalità Kiosk (chiosco) {#enabling-kiosk-mode}
 
-Quando si distribuisce il lettore Windows, è importante attivare la modalità Chiosco in modo che sul desktop di Windows non vengano visualizzate altre applicazioni o la barra delle applicazioni.
+Durante la distribuzione di Windows Player, è importante attivare la modalità Chiosco in modo che sul desktop di Windows non vengano visualizzate altre applicazioni o la barra delle applicazioni.
 
 >[!CAUTION]
 >
->L&#39;Adobe consiglia una soluzione di gestione dei dispositivi per abilitare Kiosk per Windows. Se non disponi di una soluzione di gestione dispositivi per attivare la modalità Kiosk, segui la procedura riportata di seguito. Questo metodo utilizza la funzionalità di avvio della shell disponibile in Windows 10 enterprise ed Edu. Qualsiasi altro mezzo consigliato da Microsoft per le app non UWP può essere applicato per abilitare Kiosk specialmente su altre edizioni di Windows.
+>L&#39;Adobe consiglia una soluzione di gestione dei dispositivi per abilitare Kiosk per Windows. Se non disponi di una soluzione di gestione dispositivi per attivare la modalità Kiosk, segui la procedura riportata di seguito. Questo metodo utilizza la funzionalità di avvio della shell disponibile in Windows 10 Enterprise ed Edu. Per attivare il chiosco può essere utilizzato anche qualsiasi altro strumento consigliato da Microsoft per le app non UWP, in particolare per altre edizioni di Windows.
 
 Per attivare la modalità Kiosk (chiosco), procedere come segue:
 
@@ -161,7 +161,7 @@ Per attivare la modalità Kiosk (chiosco), procedere come segue:
    Consulta ***Configura modulo di avvio shell*** in **[Modulo di avvio shell](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina del supporto Microsoft® Windows per ulteriori informazioni.
 
 1. Crea un utente non amministrativo (se non ne hai già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
-1. Installare il lettore Windows per l&#39;utente Kiosk da [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina.
+1. Installare Windows Player per l&#39;utente del chiosco dal [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina.
 1. Consulta [Utilizza Shell Launcher per creare un chiosco Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) per modificare lo script di PowerShell per ulteriori informazioni.
 
    Modificare lo script di PowerShell in modo da poter sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;eseguibile dell&#39;applicazione sia corretto. In questo modo la shell personalizzata verrà impostata come applicazione Windows Player per l&#39;utente del chiosco e il file predefinito verrà impostato come explorer.exe per gli altri utenti.

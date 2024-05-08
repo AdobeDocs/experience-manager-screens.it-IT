@@ -1,7 +1,7 @@
 ---
 title: Linee guida per la selezione dell'hardware per i dispositivi del lettore
-description: Scopri le linee guida per la selezione dell’hardware per i dispositivi di riproduzione AEM Screens.
-source-git-commit: ba5327077e4a2d30cc7b77f02123da5a240c67ae
+description: Scopri le linee guida per la selezione dell’hardware per i dispositivi AEM Screens Player.
+source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Linee guida per la selezione dell&#39;hardware per il dispositivo del lettore {#hardware-selection}
 
-La sezione seguente fornisce le linee guida per la selezione dell’hardware per un lettore AEM Screens.
+Nella sezione seguente vengono fornite le linee guida per la selezione dell&#39;hardware per un lettore AEM Screens.
 
 ## Considerazioni importanti {#important-considerations}
 
