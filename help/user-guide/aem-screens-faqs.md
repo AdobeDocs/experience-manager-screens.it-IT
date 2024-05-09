@@ -5,9 +5,9 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,7 @@ Installa una versione minima del Feature Pack 8 di AEM 6.5 affinché il connetto
 
 Il servizio viene utilizzato per definire il nome host pubblico per le istanze di authoring e pubblicazione e i valori vengono quindi utilizzati per aggiornare gli URL del server dispositivo e anche per il targeting ContextHub.
 
-Il servizio CQ Link Externalizer in Screens può essere configurato tramite:
+Il servizio CQ Link Externalizer in Screens può essere configurato nel modo seguente:
 
 1. Accedi a `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer

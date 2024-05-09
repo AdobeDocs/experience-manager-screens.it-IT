@@ -8,14 +8,14 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 184168f5-6070-4c33-a2c5-5429061dac75
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
-# Implementazione di Cloud Player  {#implementing-cloud-player}
+# Implementazione di Cloud Player {#implementing-cloud-player}
 
 AEM Screens offre tradizionalmente applicazioni di lettore native distinte per varie piattaforme, tra cui ChromeOS, Windows, Android™ e `Tizen`. Tuttavia, in risposta alle esigenze in continua evoluzione degli utenti, Adobe ha introdotto una soluzione innovativa: AEM Screens Cloud Player.
 
@@ -34,7 +34,7 @@ Questa sezione descrive come implementare Cloud Player.
 L’installazione di Cloud Player può variare su piattaforme diverse. In generale, per qualsiasi piattaforma con un browser moderno, puoi eseguire l’applicazione lettore cloud seguendo questi passaggi:
 
 1. Apri il browser e immetti [URL del lettore cloud](https://player.adobescreens.com/content/dam/universal-player/firmware.html) nella barra degli indirizzi.
-1. Il browser controlla se il lettore cloud è installabile e quindi mostra un’icona di installazione nella barra degli indirizzi.
+1. Il browser controlla se Cloud Player è installabile e quindi mostra un’icona di installazione nella barra degli indirizzi.
 
    ![immagine](/help/user-guide/assets/cloud-player-install.png)
 
@@ -45,13 +45,13 @@ L’installazione di Cloud Player può variare su piattaforme diverse. In genera
 >### Opzione di installazione di Cloud Player {#cloud-player-install-option}
 >
 1. L’opzione di installazione per un PWA è nota anche come &quot;Aggiungi alla schermata iniziale&quot; o funzione A2HS. Il supporto per l’installazione di PWA dal web varia in base al browser e alla piattaforma.
-1. Ogni browser ha criteri diversi per verificare se l’app PWA è installabile o meno. Generalmente il browser controlla questi (maggiori dettagli qui):
+1. Ogni browser ha criteri diversi per verificare se l’app PWA è installabile o meno. In genere, il browser può verificare (ulteriori dettagli qui):
 >
-* Se l’applicazione dispone di un file json manifesto con le chiavi minime necessarie per installare l’app sulla piattaforma, ovvero nome, icone, start_url, visualizzazione
+* Se l’applicazione dispone di un file json manifesto con chiavi minime richieste per l’installazione dell’app sulla piattaforma, ovvero nome, icone, start_url, visualizzazione
 * Se l&#39;applicazione dispone di un file di service worker con un listener di eventi di recupero
-* L&#39;app deve essere servita tramite https
+* L’app deve essere servita tramite https
 >
-1. L’opzione Installa potrebbe essere visibile in posizioni diverse in browser e tipi di dispositivi diversi. Alcuni browser potrebbero nascondere l’icona Installa nella barra dei menu delle opzioni.
+1. L’opzione di installazione potrebbe essere visibile in posizioni diverse in browser e tipi di dispositivi diversi. Alcuni browser potrebbero nascondere l’icona Installa nella barra dei menu delle opzioni.
 
 ## Provisioning di massa di Cloud Player {#bulk-provisioning}
 
@@ -62,18 +62,21 @@ Per eseguire il provisioning in blocco del lettore cloud su più dispositivi:
 
    1. Host config.json su un server in modo che sia accessibile, ad esempio: `https://<config_server_host>/config.json`
    1. Per installare Cloud Player e applicare le configurazioni in hosting, utilizza l’URL del lettore cloud, ad esempio: `https://player.adobescreens.com?playerConfigAddress=https://<config_server_host>`
-   1. L’applicazione Cloud Player cerca config.json nella directory principale di &lt;config_server_host>, analizza config.json per ottenere le configurazioni personalizzate e applicale.
+   1. L’applicazione Cloud Player cerca config.json nella directory principale di &lt;config_server_host>, quindi analizza il file config.json per ottenere le configurazioni personalizzate e applicarle.
    1. Queste configurazioni vengono applicate a ogni ricaricamento del lettore.
 
 ## Provisioning in blocco su Chrome OS {#bulk-provisioning-chrome}
 
-Ulteriori informazioni sul provisioning in blocco su Chrome OS, vedi [Installare Cloud Player su Chrome OS](https://www.adobe.com/go/aem_screens_cloud_player_en).
+Ulteriori informazioni sul provisioning in blocco su Chrome OS. Consulta [Installare Cloud Player su Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). &lt;!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` >
 
 ## Configurazione richiesta per le istanze AEM {#bulk-provisioning-config-aem}
 
-In base al tipo di istanza dell’AEM, fai clic su una delle seguenti guide per abilitare CORS b/w AEM &amp; cloud player:
-* [AEM on-premise/AMS](https://www.adobe.com/go/aem_screens_cors_ams_en)
-* [AEM Cloud Service](https://www.adobe.com/go/aem_screens_cors_aemaacs_en)
+In base al tipo di istanza dell’AEM, fai clic su una delle seguenti guide per abilitare CORS b/w AEM e Cloud Player:
+
+* [AEM on-premise/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+
 
 >[!NOTE]
 >

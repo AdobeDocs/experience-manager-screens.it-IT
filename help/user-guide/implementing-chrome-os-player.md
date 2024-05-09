@@ -9,23 +9,23 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Implementazione di Chrome OS Player  {#implementing-chrome-os-player}
+# Implementazione di Chrome OS Player {#implementing-chrome-os-player}
 
 Questa sezione descrive come implementare Chrome OS Player utilizzando Chrome Management Console.
 
 ## Utilizzo di Chrome Management Console {#using-chrome-management-console}
 
-Segui i passaggi seguenti per configurare la console di gestione Chrome:
+Segui i passaggi seguenti per configurare la console di gestione chrome:
 
 1. Registrati alla Chrome Management Console. È necessario ottenere una licenza per Chrome Management Console. Contatto [Supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per ulteriori informazioni, consulta Gestire le impostazioni del dispositivo Chrome.
-1. Iscrivi il dispositivo Chrome OS nel dominio attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fare clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Iscrivi il dispositivo Chrome OS nel dominio e attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fare clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome Player è disponibile nel Chrome Web Store.
 
 >[!NOTE]
@@ -34,7 +34,7 @@ Segui i passaggi seguenti per configurare la console di gestione Chrome:
 
 ## Denominazione del lettore Chrome OS {#name-chrome}
 
-Puoi assegnare un nome descrittivo del dispositivo al Chrome Player, inviando in tal modo il nome assegnato al dispositivo a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Chrome, ma anche di assegnare facilmente i contenuti appropriati.
+Puoi assegnare un nome descrittivo del dispositivo al Chrome Player, inviando in tal modo il nome assegnato al dispositivo a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Chrome, ma anche di assegnare facilmente il contenuto appropriato.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Dopo la registrazione del lettore, il nome del lettore non può più essere modificato.
@@ -49,12 +49,12 @@ Segui i passaggi seguenti per configurare il nome in Chrome Player:
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome2.jpg)
 
-1. Puoi impostare l’ID risorsa come parte della registrazione Enterprise e nella console di gestione Chrome.
+1. Puoi impostare l’ID risorsa come parte dell’iscrizione Enterprise e in Chrome Management Console.
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono prese in considerazione da Adobe Experience Manager (AEM).
+   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce un valore vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono prese in considerazione da Adobe Experience Manager (AEM).
 
 ### Abilitazione della modalità Kiosk (chiosco) {#enabling-kiosk-mode}
 
@@ -94,9 +94,9 @@ Per attivare la modalità Kiosk (Chiosco), procedere come segue:
 
 AEM Screens Player è un’applicazione abilitata per i chioschi che abilita anche la configurazione dei criteri remoti per i lettori Chrome OS.
 
-Segui i passaggi seguenti per configurare varie opzioni del lettore:
+Segui i passaggi seguenti per configurare le varie opzioni del lettore:
 
-1. Accedi a Chrome Management Console.
+1. Accedi alla console di gestione Chrome.
 1. Clic **Gestione dei dispositivi** > **Gestione Chrome** > **Gestione app**. AEM Screens Player viene visualizzato nell’elenco.
 1. Fai clic sull’applicazione **Lettore AEM Screens**.
 1. Clic **Impostazioni chiosco** e fai clic sulla tua organizzazione (*se si utilizza un ambiente di test*).
@@ -150,7 +150,7 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
 >[!NOTE]
 >
->Le configurazioni dei criteri vengono rigorosamente applicate e non vengono ignorate manualmente nell’interfaccia utente di amministrazione del lettore. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio in ***configurazione dei criteri***. Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave ***rebootSchedule*** nella configurazione dei criteri.
+>Le configurazioni dei criteri vengono rigorosamente applicate e l’interfaccia utente di amministrazione del lettore non viene bypassata manualmente. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio in ***configurazione dei criteri***. Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave ***rebootSchedule*** nella configurazione dei criteri.
 
 ### Utilizzo del telecomando Screens {#using-remote-control}
 

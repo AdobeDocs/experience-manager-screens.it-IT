@@ -1,13 +1,13 @@
 ---
 title: Attivazione a livello di risorsa
-description: Scopri come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore.
+description: Scopri come attivare una risorsa specifica in un canale per un intervallo di tempo pianificato, il tutto all’interno del fuso orario locale del lettore.
 feature: Authoring Screens, Asset Level Activation
 role: Admin, Developer
 level: Intermediate
 exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ In questa sezione vengono trattati i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-***Attivazione a livello di risorsa*** consente di attivare una risorsa specifica in un canale per un intervallo di tempo pianificato nel fuso orario locale del lettore. Questa funzione è disponibile per immagini, video, transizioni, pagine e canali incorporati (dinamici o statici).
+***Attivazione a livello di risorsa*** consente di attivare una risorsa specifica in un canale per un intervallo di tempo pianificato, il tutto all’interno del fuso orario locale del lettore. Questa funzionalità è disponibile per immagini, video, transizioni, pagine e canali incorporati (dinamici o statici).
 
 *Ad esempio*, si desidera che una promozione speciale venga visualizzata solo durante l&#39;happy hour (dalle 14 alle 17) di lunedì e mercoledì.
 
-Con questa funzione, non solo puoi specificare la data e l’ora di inizio e di fine, ma anche un criterio di ricorrenza.
+Con questa funzione, non solo puoi specificare una data e un’ora di inizio e di fine, ma anche un criterio di ricorrenza.
 
 ## Finestra di attivazione {#single-event-playback}
 
@@ -58,8 +58,8 @@ Per eseguire la programmazione a livello di risorsa, attenersi alla procedura de
    >
    >Per informazioni dettagliate su come
    >
-   >* Crea un progetto, consulta [Creazione di un nuovo progetto](creating-a-screens-project.md).
-   >* Creare e aggiungere contenuti a un canale, consulta [Gestione dei canali](managing-channels.md).
+   >* Crea un progetto. Consulta [Creazione di un nuovo progetto](creating-a-screens-project.md).
+   >* Crea e aggiungi contenuto a un canale. Consulta [Gestione dei canali](managing-channels.md).
 
 1. Clic **Modifica** quindi puoi aprire l’editor canali e fare clic su una risorsa a cui applicare la pianificazione.
 
@@ -79,7 +79,7 @@ Per eseguire la programmazione a livello di risorsa, attenersi alla procedura de
 
 ## Gestione della ricorrenza nelle risorse {#handling-recurrence-in-assets}
 
-Puoi pianificare la ricorrenza delle risorse a determinati intervalli su base giornaliera, settimanale o mensile, in base alle tue esigenze.
+Puoi pianificare la ricorrenza delle risorse a determinati intervalli su base giornaliera, settimanale o mensile in base alle tue esigenze.
 
 Si supponga di voler visualizzare un&#39;immagine solo il venerdì dalle 13.00 alle 22.00. È possibile utilizzare **Attivazione** per impostare l’intervallo ricorrente desiderato per la risorsa.
 
@@ -174,7 +174,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio a fine marzo |
+| `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio alla fine di marzo |
 | `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
 | `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
 
@@ -226,11 +226,11 @@ Per fare clic su più risorse e pianificarne la visualizzazione in un progetto A
 
 ***Sostituzione globale per l’ora di inizio universale***, è un’impostazione che consente all’autore di contenuto di definire la riproduzione di un’immagine o di una risorsa video in base a un orario specifico. Non viene usata l’impostazione di ora/fuso orario di un singolo lettore.
 
-Normalmente, la riproduzione è determinata dall’ora locale di un dato lettore, ma con l’override globale è possibile utilizzare un’ora di inizio universale specifica per avviare la riproduzione della risorsa.
+Normalmente, l’ora locale di un determinato lettore determina la riproduzione. Tuttavia, con la sostituzione globale, è possibile utilizzare un’ora di inizio specifica e universale per avviare la riproduzione della risorsa.
 
-Questo consente all’autore del contenuto di indicare che la riproduzione di una specifica risorsa avviene in una data/ora specifica, indipendentemente dall’orologio locale su qualsiasi lettore a cui è assegnato il contenuto.
+Di conseguenza, l’autore del contenuto può designare la riproduzione di una risorsa specifica. Possono verificarsi in una data/ora specifica indipendentemente dall’orologio locale su qualsiasi lettore a cui è assegnato il contenuto.
 
-La sostituzione globale per l’ora di inizio universale viene eseguita configurando **Attivazione** durante l’accesso alle proprietà di una risorsa. Per eseguire una sostituzione globale per la programmazione delle risorse, attenersi alla procedura descritta di seguito.
+***Sostituzione globale per l’ora di inizio universale*** viene eseguito configurando **Attivazione** durante l’accesso alle proprietà di una risorsa. Per eseguire una sostituzione globale per la programmazione delle risorse, attenersi alla procedura descritta di seguito.
 
 1. Fai clic su un canale e poi su **Modifica** dalla barra delle azioni per aggiungere o modificare il contenuto nel canale.
 
@@ -241,6 +241,6 @@ La sostituzione globale per l’ora di inizio universale viene eseguita configur
 
    ![screen_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
-1. Per una sostituzione globale, immettere il tempo di attivazione nel campo **Sovrascrittura fuso orario** per la risorsa. Se non immetti nulla in quest’area, il fuso orario applicato è quello del lettore.
+1. Per una sostituzione globale, inserisci il tempo di attivazione in **Sovrascrittura fuso orario** per la risorsa. Se non immetti nulla in quest’area, il fuso orario applicato è quello del lettore.
 
 

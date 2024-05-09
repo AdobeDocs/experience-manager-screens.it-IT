@@ -10,26 +10,26 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # Aggiornamento dei contenuti tramite Screens Launch {#launches}
 
-Gli autori dei contenuti possono creare versioni future dei canali, note come **Lancio di Screens** e imposta ulteriormente la data di pubblicazione per questo lancio. Questo consente di riprodurre il contenuto in tempo reale su dispositivi o lettori alla data di pubblicazione specificata.
+Gli autori dei contenuti possono creare una versione futura dei canali e impostare ulteriormente la data di pubblicazione di questo lancio. Questa funzionalità consente di riprodurre il contenuto in tempo reale su dispositivi o lettori alla data di pubblicazione specificata.
 
 Con l&#39;aiuto di ***Lancio di Screens***, gli autori possono visualizzare in anteprima ogni canale nel lancio e dovrebbero essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve una notifica e può approvare o rifiutare la richiesta. Una volta raggiunta la data di attivazione, il contenuto viene riprodotto nei dispositivi.
 
 Ad esempio, se l’autore desidera creare versioni future di c1, c2 (canali), viene creato un lancio e viene impostata una data di attivazione (ad esempio, 10 novembre alle 8.00). Eventuali altri aggiornamenti nel contenuto vengono inviati per la revisione.
 
-Dopo l’approvazione e nella data di attivazione (10 novembre, 08:00), questo lancio riproduce il contenuto sui dispositivi o sui lettori.
+Dopo l’approvazione e nella data di attivazione (10 novembre, 8:00), questo lancio riproduce il contenuto sui dispositivi o sui lettori.
 
 ## Requisiti {#requirements}
 
-Prima di iniziare a utilizzare *Lancio di Screens* in un progetto AEM Screens, accertati di comprendere il concetto di Periodo di tolleranza e la sua rilevanza.
+Prima di iniziare a utilizzare *Lancio di Screens* in un progetto AEM Screens, accertati di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
 
 L&#39;esecuzione di un&#39;esperienza nella data di attivazione impostata sul lettore comporta:
 
@@ -37,7 +37,7 @@ L&#39;esecuzione di un&#39;esperienza nella data di attivazione impostata sul le
 
 * La pubblicazione delle risorse nelle istanze di pubblicazione (in genere richiede alcuni minuti, a seconda delle dimensioni dei canali o delle risorse da pubblicare).
 
-* Tempo impiegato dal completamento dell’aggiornamento del contenuto offline (in genere richiede qualche minuto).
+* Tempo impiegato per il completamento dell’aggiornamento del contenuto offline (in genere richiede qualche minuto).
 
 * Tempo impiegato dai lettori per scaricare il contenuto dall’istanza di pubblicazione (in genere richiede minuti a seconda della larghezza di banda e delle dimensioni delle risorse da scaricare).
 
@@ -47,33 +47,33 @@ L&#39;esecuzione di un&#39;esperienza nella data di attivazione impostata sul le
 
 Affinché il lettore possa iniziare a riprodurre il contenuto nella data di pubblicazione impostata, avvia le attività precedenti prima della data di pubblicazione.
 
-Se la data di attivazione è *24 novembre, 09:00* e il periodo di tolleranza è *24 ore*, quindi la sequenza di azioni precedente inizierà a (data pubblicazione - periodo di tolleranza), ovvero il 23 novembre alle 09:00 ora del server. Questo offre 24 ore per completare tutte le azioni sopra menzionate affinché il contenuto raggiunga i lettori. I giocatori capiscono che questo è un contenuto di lancio. Di conseguenza, il contenuto non viene riprodotto immediatamente, ma i lettori possono memorizzarlo come versione futura e farne iniziare la riproduzione esattamente alla data di trasmissione impostata sul fuso orario del lettore.
+Se la data di attivazione è *24 novembre, 09:00* e *24 ore* è il periodo di tolleranza, quindi la sequenza di azioni precedente inizia da (data di attivazione: periodo di tolleranza), ovvero il 23 novembre alle 9:00 ora del server. Questa impostazione offre 24 ore per completare tutte le azioni sopra menzionate affinché il contenuto raggiunga i lettori. I giocatori capiscono che questo periodo è un contenuto di lancio. Di conseguenza, il contenuto non viene riprodotto immediatamente, ma i lettori possono memorizzarlo come versione futura e farne iniziare la riproduzione esattamente alla data di trasmissione impostata sul fuso orario del lettore.
 
-Ad esempio, il server è in PST e i dispositivi sono in EST. In questo caso, la differenza di tempo massima è di tre ore e presuppone che la promozione richieda 1 minuto, che la pubblicazione dall’ambiente di authoring a quello di pubblicazione richieda 10 minuti e che il lettore possa scaricare le risorse in genere in 10-15 minuti. Quindi il periodo di tolleranza = differenza di tempo (tre ore):
+Ad esempio, il server è in PST e i dispositivi sono in EST. La differenza massima è di tre ore. Si presuppone che la promozione richieda 1 minuto e che la pubblicazione dall’autore alla pubblicazione richieda 10 minuti e che il lettore possa scaricare le risorse in genere in 10-15 minuti. Quindi il periodo di tolleranza = differenza di tempo (tre ore):
 
 * Più tempo per promuovere il lancio (1 minuto)
 * Più tempo per pubblicare il lancio (10 minuti)
 * Più tempo per scaricare sul lettore (10-15 minuti)
 * Più buffer (30 minuti)
 
-È uguale a 3 ore e 56 minuti (14160 secondi).
+Pertanto, 3 ore e 56 minuti (14160 secondi).
 
-Pertanto, ogni volta che pianifichi un lancio in diretta, la promozione inizia prima di questo offset. Nell&#39;equazione precedente, la maggior parte degli elementi non richiede molto tempo. È possibile utilizzare una stima ragionata per questo scostamento quando si conosce la differenza di tempo massima tra il server e qualsiasi lettore.
+Pertanto, ogni volta che pianifichi un lancio in diretta, la promozione inizia presto tenendo conto di questo offset. Nell&#39;equazione precedente, la maggior parte degli elementi non richiede molto tempo. È possibile utilizzare una stima ragionata per questo scostamento quando si conosce la differenza di tempo massima tra il server e qualsiasi lettore.
 
 >[!NOTE]
 >
->Pronto all’uso, il periodo di tolleranza per Screens Launch è impostato su 24 ore. Ciò significa che quando imposti la data di attivazione per qualsiasi lancio per le risorse in */content/screens*, la promozione inizia con questo offset.
+>Pronto all’uso, il periodo di tolleranza per Screens Launch è impostato su 24 ore. Ciò significa che quando imposti una data di attivazione per qualsiasi lancio per le risorse in */content/screens*, la promozione inizia con questo offset.
 
 ### Aggiornamento del periodo di tolleranza predefinito {#updating-out-of-the-box-grace-period}
 
-In questa sezione viene illustrato come aggiornare a 10 minuti un periodo di tolleranza predefinito.
+Questa sezione spiega come aggiornare a 10 minuti un periodo di tolleranza predefinito.
 
 1. Passa a CRXDE Liti e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Fare clic con il pulsante destro del mouse e copiare il file.
 1. Accedi a `/apps/system/config` e fare clic con il pulsante destro del mouse e incollare.
 1. Doppio clic `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` in modo da poter aprire il file nell’editor in CRXDE Liti. Deve mostrare il periodo di tolleranza per il percorso */content/screens/* as **86400**. Cambia il valore in **600**.
 
-Ora il contenuto nel file di testo dovrebbe essere simile a:
+Il contenuto del file di testo dovrebbe ora essere simile al seguente:
 
 ```java
 launches.eventhandler.launch.promotion.graceperiod=[ \
@@ -81,9 +81,9 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
    ]
 ```
 
-Poiché nell&#39;esempio precedente il periodo di tolleranza era stato impostato su 10 minuti, quando si imposta la data di attivazione per un avvio delle risorse in */content/screens*, la promozione inizia con questo offset.
+Nell’esempio precedente, il periodo di tolleranza viene impostato su 10 minuti. Pertanto, quando imposti una data di attivazione per qualsiasi lancio per le risorse in */content/screens*, la promozione inizia con questo offset.
 
-Ad esempio, se la data di attivazione è impostata sul 24 novembre alle 9.00 e il periodo di tolleranza è di 600 secondi, il processo di promozione inizia il 24 novembre alle 8.50.
+Ad esempio, se la data di attivazione è impostata sul 24 novembre alle 9 e il periodo di tolleranza è di 600 secondi, il processo di promozione inizierà il 24 novembre alle 8.50.
 
 ## Utilizzo di Screens Launch {#using-launches}
 
@@ -114,7 +114,7 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
    >[!NOTE]
    >È possibile utilizzare **+ Aggiungi canali** per aggiungere un altro canale per il quale desideri creare il lancio.
 
-   Da utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e fai clic su **Seleziona**.
+   Per utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e fai clic su **Seleziona**.
 
    Il **Seleziona** l’opzione è disabilitata se tenti di fare clic su più canali o su una cartella per aggiungere il lancio.
 
@@ -146,7 +146,7 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
 
      >[!CAUTION]
      >
-     >La data di lancio live rispetta il fuso orario del lettore/dispositivo anziché quello del server.
+     >La data di lancio live rispetta il fuso orario del lettore/dispositivo anziché i server.
 
 1. Tieni presente che il lancio viene creato. Puoi fare clic su **Apri** per visualizzare le pagine nell’editor o fai clic su **Fine** per tornare al progetto.
 
@@ -162,7 +162,7 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
 Dopo la creazione del lancio, puoi aggiornare proprietà quali data di attivazione, titolo del lancio e ambito della promozione utilizzando **Proprietà lancio**.
 
 * **Data lancio** - La data e l’ora di riproduzione del contenuto nel lettore Screens in base al fuso orario del lettore.
-* **Produzione pronta** : consente la pubblicazione dei canali dopo la promozione di questi, abilitata per impostazione predefinita, quindi non è necessario modificarla.
+* **Produzione pronta** - Dopo la promozione, consente la pubblicazione dei canali ed è attivata la modalità preconfigurata, quindi non è necessario modificarla.
 * **Ambito** - Decide quali canali promuovere durante la promozione del lancio.
 
 Per modificare le proprietà del lancio, segui i passaggi seguenti:
@@ -179,11 +179,11 @@ Per modificare le proprietà del lancio, segui i passaggi seguenti:
 
    ![immagine](/help/user-guide/assets/launches-images/launches-19.png)
 
-### Modifica di Screens Launch per aggiungere o rimuovere canali  {#editing-the-screens-launch-to-add-or-remove-channels}
+### Modifica di Screens Launch per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
 
 Dopo aver creato il lancio, puoi aggiungere o rimuovere canali dal lancio esistente utilizzando **Modifica lancio** opzione.
 
-Al termine, fai clic su **Salva** per tornare a **FutureLaunch** canale.
+Al termine, fai clic su **Salva** per tornare al **FutureLaunch** canale.
 
 ### Promozione manuale del lancio di Screens{#promote-the-screens-launch-manually}
 
