@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 3db8241d-03ed-4c87-bd3e-0ead2b44ae50
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 1%
 
 Iniziare a lavorare con una semplice esperienza di digital signage, utilizzando [Kick-Start per AEM Screens](kickstart-for-aem-screens.md).
 
-Per informazioni su come configurare e creare il progetto di Experienci Manager Screens in Experience Manager as a Cloud Service, consulta [qui](https://experienceleague.adobe.com/en/docs/experience-manager-screens/using/about-guide).
+Per informazioni su come configurare e creare il progetto di Experienci Manager Screens in Experience Manager as a Cloud Service, consulta [qui](https://experienceleague.adobe.com/it/docs/experience-manager-screens/using/about-guide).
 
 ## Panoramica {#overview}
 
-**Experienci Manager Screens** è basato sulle basi solide di ***Experience Manager Sites***. Consente agli addetti al marketing e al personale IT di creare e gestire esperienze su più schermi digitali che hanno un impatto sugli obiettivi in-store/in-place per creare brand e stimolare la domanda. L’integrazione dei Experienci Manager Screens con Sites consente di riutilizzare i contenuti esistenti e di offrire in modo efficace una soluzione coerente per il cliente. Questo fornisce un flusso di lavoro semplificato per creare esperienze digitali dedicate altamente convenienti e utilizzabili. Aiuta inoltre ad influenzare la percezione del marchio e le decisioni di impatto, migliorando gli acquisti e il coinvolgimento.
+**Experienci Manager Screens** è basato sulle basi solide di ***Experience Manager Sites***. Consente agli addetti al marketing e al personale IT di creare e gestire esperienze su più schermi digitali, con effetti sugli obiettivi in-store/in-place per creare il marchio e stimolare la domanda. L’integrazione dei Experienci Manager Screens con Sites consente di riutilizzare i contenuti esistenti e di offrire in modo efficace una soluzione coerente per il cliente. Questo flusso di lavoro è semplificato per creare esperienze digitali dedicate, altamente convenienti e utilizzabili. Aiuta inoltre ad influenzare la percezione del marchio e le decisioni di impatto, migliorando gli acquisti e il coinvolgimento.
 
-Experience Manager Screens è una potente soluzione basata su Web che consente di creare menu digitali dedicati, consigli di prodotto, immagini lifestyle di sfondo per espandere l&#39;interazione del cliente. Consente di offrire esperienze unificate e utili per il marchio in luoghi fisici, come negozi, hotel, banche, istituti sanitari ed educativi e molto altro ancora, utilizzando la stessa piattaforma di Experience Manager. Gli schermi forniscono numerose applicazioni uniche, come display interattivi, ricerche di metodi, branding e aggiunta di atmosfera all’ambiente per clienti e dipendenti in base al dominio in cui vengono distribuiti.
+Experience Manager Screens è una potente soluzione basata su Web che consente di creare menu digitali dedicati, consigli di prodotto, immagini lifestyle di sfondo per espandere l&#39;interazione del cliente. Consente di offrire esperienze unificate e utili per il marchio in luoghi fisici, come negozi, hotel, banche, istituti sanitari ed educativi e molto altro ancora, utilizzando la stessa piattaforma di Experience Manager. Gli schermi forniscono molte applicazioni uniche. Ad esempio, display interattivi, ricerche di metodi, branding e aggiunta di atmosfera all’ambiente per clienti e dipendenti in base al dominio in cui vengono distribuiti.
 
 La creazione e la gestione di un&#39;applicazione mediante Experienci Manager Screens è semplice e intuitiva. Un *applicazione* ospita pagine web create per Experienci Manager Screens dai clienti o dai partner di implementazione. *Posizioni* gestisci gerarchie predefinite e contiene *display*. Ogni display ha un dashboard che mostra i diversi dispositivi e schermi collegati. Il contenuto dei Experienci Manager Screens viene gestito in *canali*. Experience Manager Screens Player riproduce sui display i contenuti presenti nei canali.
 
-Per informazioni sulle terminologie chiave associate ai Experienci Manager Screens, consulta [Glossario](screens-glossary.md).
+Per informazioni sulle terminologie chiave associate ai Experienci Manager Screens, vedere [Glossario](screens-glossary.md).
 
 ### Architettura di Screens Player
 
@@ -38,7 +38,7 @@ Il diagramma seguente mostra l’architettura generale di un lettore di Experien
 
 ### Creare in 5 minuti un’esperienza di digital signage {#create-a-digital-signage-experience-in-minutes}
 
-Per creare un progetto demo Screens e pubblicare il contenuto in Screens player, consulta [Kick-Start per Experienci Manager Screens](kickstart-for-aem-screens.md).
+Per creare un progetto demo Screens e pubblicare il contenuto nel lettore Screens, vedi [Kick-Start per Experienci Manager Screens](kickstart-for-aem-screens.md).
 
 ## Avvio di un progetto Nuovi Experienci Manager Screens {#starting-a-new-aem-screens-project}
 
@@ -61,7 +61,7 @@ La figura seguente definisce gli utenti tipo e i loro ruoli per i Experienci Man
 
 * **Guida alle best practice per i progetti di Experienci Manager Screens**
 
-  Segui **[Guida alle best practice per i progetti di Experienci Manager Screens](/help/using/about-guide.md)** che è progettato per identificare insidie comuni durante l’implementazione di un progetto di Experienci Manager Screens. Il materiale si concentra principalmente su Ruoli e responsabilità del progetto, Grafico RACI per diversi ruoli Experience Manager Configurazioni piattaforma e Supporto e monitoraggio.
+  Segui le **[Guida alle best practice per i progetti di Experienci Manager Screens](/help/using/about-guide.md)** che è progettato per identificare insidie comuni durante l’implementazione di un progetto di Experienci Manager Screens. Il materiale si concentra principalmente su Ruoli e responsabilità del progetto. È incentrato sul grafico RACI per diversi ruoli, configurazioni della piattaforma Experience Manager e supporto e monitoraggio.
 
 <!-- DEAD LINK * **New Adobe Customer Support Experience**
 

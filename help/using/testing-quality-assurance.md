@@ -2,9 +2,9 @@
 title: Test e garanzia della qualità
 description: Scopri i test e il controllo della qualità per AEM Screens nella Guida alle best practice.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Test e garanzia della qualità {#testing-quality}
 
 >[!NOTE]
->Una delle parti interessate per questa attività è un integratore audio/video.
+>Una delle parti interessate per questa attività è un integratore audio-video.
 
 Man mano che ti avvicini all&#39;implementazione della rete di digital signage, crea un piano di test e controllo qualità che affronti ogni elemento della rete, inclusi tutti i componenti hardware, software e di rete.
 Durante la fase, si dovrebbero costruire e collaudare completamente interi sistemi di test.
@@ -82,4 +82,4 @@ Di seguito sono riportati alcuni esempi:
 * TeamViewer
 * AirWatch
 * `42Gears`
-* Middleware con integrazione audio/video proprietaria
+* Middleware con integrazione audio-video proprietaria

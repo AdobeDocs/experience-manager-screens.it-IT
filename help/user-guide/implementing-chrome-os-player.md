@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Puoi assegnare un nome descrittivo del dispositivo al Chrome Player, inviando in
 
 Segui i passaggi seguenti per configurare il nome in Chrome Player:
 
-1. Facoltativamente, puoi consentire agli integratori Audio/Video o agli amministratori IT di impostare l’ID risorsa e la posizione come parte della registrazione Enterprise.
+1. Facoltativamente, puoi consentire agli integratori Audio-Video o agli amministratori IT di impostare l’ID risorsa e la posizione come parte della registrazione aziendale.
 
    ![immagine](/help/user-guide/assets/chrome-device/chrome1.png)
 

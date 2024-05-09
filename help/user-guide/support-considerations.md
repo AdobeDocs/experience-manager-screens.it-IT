@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d1472137-c15f-44fb-89c3-d251a06c392b
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -37,25 +37,25 @@ La pianificazione comprende:
 * Risoluzione di problemi hardware, software o di connettività
 * Bilanciamento dei costi di risoluzione dei problemi rispetto ai requisiti aziendali del cliente finale.
 * Identificazione del metodo migliore per risolvere i problemi della rete.
-* Favorire l’allineamento tra l’integratore AEM e l’integratore audio/video nella definizione dei piani di supporto del giorno 2
+* Favorire l’allineamento tra l’integratore di AEM e l’integratore di audio e video nella definizione dei piani di supporto del giorno 2
 
 ## Riepilogo delle principali considerazioni relative al supporto del giorno 2 {#summary-of-key-considerations-involved-in-day-support}
 
 Di seguito sono riportate alcune considerazioni chiave per il supporto Day 2:
 
-* Per garantire l&#39;allineamento e una transizione senza problemi dall&#39;implementazione al supporto operativo, l&#39;integratore AEM collabora con l&#39;integratore audio/video per garantire che gli script di supporto appropriati siano definiti nell&#39;ambito del piano di supporto Day 2.
-* In questa fase dell&#39;evoluzione del settore del digital signage, i requisiti quali la gestione remota dei dispositivi, la disponibilità dell&#39;helpdesk e il supporto di tecnici on-site sono praticamente scontati. Oltre a questa esigenza di base, gli integratori audio/video dovrebbero anche esplorare le variabili di costo tra modelli di monitoraggio proattivo e reattivo e modelli di supporto.
+* Per garantire l&#39;allineamento e la transizione graduale dall&#39;implementazione al supporto operativo, l&#39;integratore AEM collabora con l&#39;integratore audio-video per garantire che gli script di supporto appropriati siano definiti nell&#39;ambito del piano di supporto Day 2.
+* In questa fase dell&#39;evoluzione del settore del digital signage, i requisiti quali la gestione remota dei dispositivi, la disponibilità dell&#39;helpdesk e il supporto di tecnici on-site sono praticamente scontati. Oltre a questa esigenza di base, gli integratori audio-video dovrebbero anche esplorare le variabili di costo tra modelli di monitoraggio proattivo e reattivo e modelli di supporto.
 
-* In questa fase dell&#39;evoluzione del settore del digital signage, i requisiti quali la gestione remota dei dispositivi, la disponibilità dell&#39;helpdesk e il supporto di tecnici on-site sono praticamente scontati. Oltre a questa esigenza di base, gli integratori audio/video dovrebbero anche esplorare le variabili di costo tra modelli di monitoraggio proattivo e reattivo e modelli di supporto.
-* Per prepararsi al successo a lungo termine, è fondamentale stabilire un accordo di livello di supporto Day 2 (chiamato anche &#39;S.L.A.&#39;) in collaborazione con l&#39;integratore audio/video. Gli SLA descrivono nel dettaglio i servizi di supporto post-distribuzione e aiutano a definire le aspettative dei clienti.
+* In questa fase dell&#39;evoluzione del settore del digital signage, i requisiti quali la gestione remota dei dispositivi, la disponibilità dell&#39;helpdesk e il supporto di tecnici on-site sono praticamente scontati. Oltre a questa esigenza di base, gli integratori audio-video dovrebbero anche esplorare le variabili di costo tra modelli di monitoraggio proattivo e reattivo e modelli di supporto.
+* Per prepararsi al successo a lungo termine, è fondamentale stabilire un accordo di livello di supporto Day 2 (chiamato anche &#39;S.L.A.&#39;) in collaborazione con Audio-Video Integrator. Gli SLA descrivono nel dettaglio i servizi di supporto post-distribuzione e aiutano a definire le aspettative dei clienti.
 * Una risorsa chiave utilizzata per la corretta gestione di più reti è la Knowledge Base. SharePoint è una piattaforma comune per questo tipo di risorse. La Knowledge Base include domande e risposte preimpostate che gli agenti NOC dovranno seguire, garantendo che le richieste di risoluzione dei problemi in entrata vengano gestite in modo coerente. Le Knowledge Base includono in genere materiali di riferimento per le configurazioni del sistema e le posizioni del sito, inclusi fogli di taglio per l&#39;hardware e materiali di riferimento per il software dei sistemi.
 * Le funzionalità di monitoraggio e gestione dipendono in larga misura dai sistemi operativi e dalle funzionalità dello schermo di Media Player. I sistemi operativi Windows offrono il massimo livello di dettaglio. Per le distribuzioni in esecuzione su dispositivi Android™ o iOS, viene utilizzato Mobile Device Management (noto anche come MDM).
 * Alcuni produttori di schermi offrono la possibilità di monitorare schermi indipendenti dai lettori multimediali, mentre altri richiedono un dispositivo esterno.
-* Gli integratori audio/video utilizzano una combinazione di tecnologie, in modo che le soluzioni rimangano flessibili per soddisfare al meglio le esigenze dei clienti finali.
+* Gli integratori audio-video utilizzano una combinazione di tecnologie, in modo che le soluzioni rimangano flessibili per soddisfare al meglio le esigenze del cliente finale.
 
 ## Parte 5: tutorial video sulle considerazioni di supporto {#part-video-tutorial-on-support-considerations}
 
-Segui questo tutorial conclusivo e segui un tutorial in serie in 5 parti, in cui viene sottolineato come garantire l’allineamento e una transizione fluida dall’implementazione al supporto operativo. Spiega anche come un implementatore AEM deve lavorare con l&#39;integratore audio/video per garantire gli script di supporto appropriati che sono definiti come parte del piano di supporto Day 2.
+Segui questo tutorial conclusivo e segui un tutorial in serie in 5 parti, in cui viene sottolineato come garantire l’allineamento e una transizione fluida dall’implementazione al supporto operativo. Spiega anche come un implementatore AEM deve lavorare con Audio-Video Integrator per garantire gli script di supporto appropriati che sono definiti come parte del piano di supporto Day 2.
 
 ### Considerazioni sul progetto
 

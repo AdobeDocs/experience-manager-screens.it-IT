@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ Nella sezione seguente viene fornita una panoramica dei termini chiave di un pia
 
 ### Prova di concetto (POC) {#proof-of-concept-poc}
 
-Lo scopo di un POC è ottenere un feedback iniziale sulle funzionalità chiave di una soluzione. Consente inoltre al cliente finale e all&#39;integratore audio/video di identificare le aree da migliorare e di preparare ipotesi sui requisiti di manodopera e sulle richieste di risorse. Un POC consente inoltre a entrambe le parti di valutare le prestazioni della soluzione, che in genere vengono misurate tramite:
+Lo scopo di un POC è ottenere un feedback iniziale sulle funzionalità chiave di una soluzione. Consente inoltre al cliente finale e all&#39;integratore audio-video di identificare le aree da migliorare e di preparare ipotesi sui requisiti di manodopera e sulle richieste di risorse. Un POC consente inoltre a entrambe le parti di valutare le prestazioni della soluzione, che in genere vengono misurate tramite:
 
 ### Controllo qualità {#quality-control}
 
-I test di integrazione dei sistemi e del software iniziano con il team IT Engineering di Audio/Video Integrator. Facendo riferimento al progetto di sistema approvato, il team tecnico IT configura, implementa e supervisiona l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; della struttura di Audio/Video Integrator. Questo consente di esaminare e testare attentamente l’intera soluzione per il controllo della qualità.
+I test di integrazione dei sistemi e del software iniziano con il team IT Engineering di Audio-Video Integrator. Facendo riferimento al progetto di sistema approvato, il team tecnico IT configura, implementa e supervisiona l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; della struttura di Audio-Video Integrator. Questo consente di esaminare e testare attentamente l’intera soluzione per il controllo della qualità.
 
 Una volta completato il test QC, il team di progettazione IT crea la documentazione, i flussi di lavoro e la formazione come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da testare includono:
 

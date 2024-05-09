@@ -2,9 +2,9 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Questo processo acquisisce e distribuisce anche le funzioni personalizzate neces
 
 In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include la possibilità di supportare la riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, con altre fasi che includono il supporto di elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
 
-### Integratori audio/video {#av-integrators}
+### Integratori Audio-Video {#av-integrators}
 
-L&#39;integratore audio/video è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso l&#39;integratore audio/video è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
+L&#39;integratore audio-video è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso Audio-Video Integrator è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
 
-Un integratore audio/video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto da progettare, creare e gestire in modo efficace le distribuzioni relative all&#39;hardware di digital signage.
+Un integratore audio-video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per la progettazione, la creazione e la gestione efficace delle installazioni relative all&#39;hardware di digital signage.
 
 #### Considerazione dei partner hardware {#selecting-hardware-partner}
 
@@ -120,7 +120,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 La tabella seguente riassume **Giorno zero: considerazioni pre-vendita**:
 
-| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Formazione team e selezione fornitore | I | I | RA | RA |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
@@ -132,7 +132,7 @@ La tabella seguente riassume **Giorno zero: considerazioni pre-vendita**:
 
 La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Progettazione Dell’Applicazione)**:
 
-| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento al piano e alla pianificazione del progetto | RA | RA | C | C |
@@ -152,7 +152,7 @@ La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Proge
 
 La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Preparazione Per La Vendita Al Dettaglio)**:
 
-| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Ordinazione e archiviazione hardware | RA | I | I | I |
 | Pianificazione di onboarding per la vendita al dettaglio | I | I | C | RA |
@@ -162,7 +162,7 @@ La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Prepa
 
 La tabella seguente riassume **Primo giorno: primo giorno: implementazione del progetto (hardware)**:
 
-| **Fase** | **Integratore audio/video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | La progettazione per la vendita al dettaglio include le operazioni di cablaggio | - | - | - | - |
@@ -179,7 +179,7 @@ La tabella seguente riassume **Primo giorno: primo giorno: implementazione del p
 
 * **Sviluppatore**: in genere è un membro del team di implementazione di AEM Screens o del team di sviluppo interno
 
-* **Tecnico**: è sotto contratto con l&#39;integratore audio/video o fa parte della stessa azienda.
+* **Tecnico**: è sotto contratto dall&#39;integratore audio-video o fa parte della stessa azienda.
 
 La tabella seguente riassume **Secondo giorno: grafico RACI per il supporto post-lancio**:
 

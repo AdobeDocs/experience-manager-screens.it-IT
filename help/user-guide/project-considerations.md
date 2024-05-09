@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ I componenti principali di un programma di digital signage necessari per una cor
 * Strategia dei contenuti
 * Requisiti delle operazioni aziendali
 * Individuazione dell&#39;ambiente IT e di rete
-* Requisiti audio/video
+* Requisiti audio-video
 * Specifiche delle apparecchiature
 * Preparazione del sito
 
@@ -67,7 +67,7 @@ L’inserimento di strategie basate su componenti Day-Part può consentire ai cl
 
 Anche le operazioni aziendali sono importanti da definire nelle conversazioni relative alla strategia dei contenuti. La formalizzazione dei requisiti di supporto dei clienti finali può aiutare a gestire le aspettative post-distribuzione, garantendo che le attività di supporto vengano misurate in modo appropriato.
 
-### Requisiti audio/video {#a-v-requirements}
+### Requisiti Audio-Video {#a-v-requirements}
 
 Anche gli scenari di montaggio necessitano di una definizione, così come le considerazioni relative all&#39;accesso ai dispositivi per la manutenzione delle apparecchiature. Questo non influisce solo sulla manodopera iniziale di installazione e sulle raccomandazioni relative alle apparecchiature, ma determina anche i requisiti di assistenza e supporto continui.
 

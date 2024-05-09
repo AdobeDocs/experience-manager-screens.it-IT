@@ -2,10 +2,10 @@
 title: Informazioni su questa guida
 description: Scopri le best practice per i progetti AEM Screens per pianificare ed eseguire progetti, da informazioni strategiche e di progettazione, fino alla distribuzione e al supporto successivo.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 33%
+source-wordcount: '254'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ La Guida alle best practice di AEM Screens fornisce indicazioni su come pianific
 Il pubblico previsto per questo documento è:
 
 * *Implementatori di AEM*
-* *Integratori audio/video*
+* *Integratori Audio-Video*
 * *Responsabili aziendali*
 * *Manager di progetto*
 * *Consulenti*
@@ -25,7 +25,7 @@ Tuttavia, è opportuno sottolineare che anche molti altri ruoli possono trarre v
 
 AEM Screens è una nuova estensione di Adobe Experience Manager (AEM). Poiché gli strumenti sono nuovi e le loro potenziali applicazioni variano, è fondamentale identificare importanti considerazioni e fattori di rischio comuni coinvolti nello sviluppo e nella distribuzione di AEM Screens.
 
-Questa guida fornisce informazioni approfondite e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione per insegne digitali. Inoltre, illustra come creare un impatto positivo sull’azienda utilizzando alcune delle best practice adottate durante l’implementazione di un progetto di digital signage in AEM Screens.
+Questa guida fornisce informazioni approfondite e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione per insegne digitali. Inoltre, illustra come creare un impatto positivo sull’azienda utilizzando alcune delle best practice adottate durante l’implementazione di un progetto di segnaletica digitale in AEM Screens.
 
 >[!IMPORTANT]
 >

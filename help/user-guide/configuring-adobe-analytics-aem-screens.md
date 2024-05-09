@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4ecc1fb1-2437-449a-a085-66b2a85f4053
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '625'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Questa sezione tratta i seguenti argomenti:
 
 ## Ordinamento in Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
-Il ***processo di sequenziamento*** inizia con il servizio di archiviazione dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia gli eventi di Adobe Analytics con il ciclo paghe, ovvero l’acquisizione dei test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database dell&#39;indice e successivamente inseriti nell&#39;archivio oggetti. In base alla pianificazione impostata dall&#39;amministratore, i dati vengono tagliati dall&#39;archivio oggetti e ulteriormente trasferiti nell&#39;archivio blocchi. Tenta di inviare la quantità massima di dati quando si è connessi.
+Il ***processo di sequenziamento*** inizia con un servizio di archiviazione dati che attiva il servizio Adobe Analytics. Il contenuto del canale invia gli eventi di Adobe Analytics con il ciclo paghe, ovvero l’acquisizione dei test dei dati a Windows I/O e gli eventi stay vengono attivati. Gli eventi vengono salvati nel database dell&#39;indice e successivamente inseriti nell&#39;archivio oggetti. In base alla pianificazione impostata dall&#39;amministratore, i dati vengono tagliati dall&#39;archivio oggetti e ulteriormente trasferiti nell&#39;archivio blocchi. Tenta di inviare la quantità massima di dati quando si è connessi.
 
 ### Diagramma di sequenziamento {#sequencing-diagram}
 
@@ -63,7 +63,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>consigliato</td> 
    <td>stringa</td> 
    <td>UUID</td> 
-   <td>ID univoco che identifica l’istanza di un evento</td> 
+   <td>ID univoco che identifica un’istanza di un evento</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -81,7 +81,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>consigliato</td> 
    <td>stringa</td> 
    <td>timestamp - UTC</td> 
-   <td>Data e ora di inizio evento. Se non specificato, l'ora dell'evento viene considerata come l'ora in cui è stata ricevuta dal server</td> 
+   <td>Data e ora di inizio evento. Se non è stata specificata questa ora, l'ora dell'evento verrà considerata come l'ora di ricezione del server.</td> 
   </tr>
   <tr>
    <td> </td> 
@@ -144,7 +144,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>facoltativo</td> 
    <td>booleano</td> 
    <td> </td> 
-   <td>L'evento è stato generato mentre l'azione era offline/online (true/false)</td> 
+   <td>L’evento è stato generato mentre l’azione era offline/online (true/false)</td> 
   </tr>
   <tr>
    <td> </td> 

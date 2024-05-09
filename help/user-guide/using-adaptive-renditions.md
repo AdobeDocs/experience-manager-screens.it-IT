@@ -2,9 +2,9 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Scopri come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ## Introduzione {#introduction}
 
-Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base alle regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente la rappresentazione più appropriata di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione della *principale* esperienza.
+Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base a regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente il rendering più appropriato di una risorsa in base a queste regole. Consente ai clienti di concentrarsi sulla progettazione della *principale* esperienza.
 
 ## Obiettivo {#objective}
 
-In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.
+In qualità di autore di contenuti AEM Screens, ora puoi configurare le rappresentazioni di risorse specifiche per il dispositivo in modo che vengano scaricate e riprodotte automaticamente senza dover creare manualmente tutte le varianti di contenuto.
 Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e quindi includerle in un canale AEM Screens.
 
 >[!IMPORTANT]
@@ -26,11 +26,11 @@ Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura del
 ## Utilizzo di rappresentazioni adattive nei canali {#using-adaptive-renditions}
 
 >[!NOTE]
->Dopo aver aggiunto [proprietà di mappatura rappresentazione per il progetto Schermi](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e [regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)In qualità di autore di contenuti, ora puoi applicare le rappresentazioni alle risorse.
+>Dopo aver aggiunto il [proprietà di mappatura rappresentazione per il progetto Schermi](/help/user-guide/adaptive-renditions.md#rendition-mapping-new) e [regole di mappatura rappresentazione](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules)In qualità di autore di contenuti, ora puoi applicare le rappresentazioni alle risorse.
 
 ### Applicazione delle rappresentazioni alle risorse {#apply-renditions-assets}
 
-Per applicare le rappresentazioni alle risorse da utilizzare nel canale Schermi presentazione, effettua le seguenti operazioni.
+Per applicare le rappresentazioni alle risorse da utilizzare nel canale Schermate di presentazione, effettua le seguenti operazioni.
 
 1. Accedi a **Risorse** nell’istanza AEM.
 1. Crea una versione della risorsa che si adatti meglio alla visualizzazione del signage, ad esempio: `seahorse.jpg`.

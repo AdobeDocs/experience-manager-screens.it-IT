@@ -10,26 +10,26 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Parte 4: Gestione e realizzazione del progetto {#part-project-management-and-deployment}
 
-In questa pagina viene evidenziata la parte 4 di una serie in 5 parti progettata per coprire la gestione del progetto e la preparazione dell&#39;implementazione e per definire i fattori chiave di cui l&#39;integratore audio/video è responsabile in relazione alla gestione del progetto e alla preparazione dell&#39;implementazione.
+In questa pagina viene evidenziata la parte 4 di una serie in 5 parti progettata per coprire la gestione del progetto e la preparazione dell&#39;implementazione e per definire i fattori chiave di cui l&#39;integratore audio-video è responsabile per la gestione del progetto e la preparazione dell&#39;implementazione.
 
 ## Panoramica {#overview}
 
 Questa pagina descrive la preproduzione, l’avvio e la progressione del progetto.
 
-È importante che tutte le parti interessate capiscano di cosa è responsabile l&#39;integratore audio/video, garantendo che i piani documentati vengano sviluppati rispetto ai punti discussi in questo episodio
+È importante che tutte le parti interessate capiscano di cosa è responsabile l&#39;integratore audio e video, garantendo che i piani documentati siano sviluppati rispetto ai punti discussi in questo episodio
 
 >[!NOTE]
 >
->Identificare un integratore audio/video con esperienza nella gestione dei progetti di installazioni di digital signage su larga scala è importante per il successo a lungo termine. Si consiglia di confrontare i piani di progetto tra Audio/Video Integrator e AEM Implementor. In questo modo si garantisce l’allineamento man mano che i piani vengono sviluppati e finalizzati.
+>Identificare un integratore audio-video con esperienza nella gestione dei progetti di installazioni di digital signage su larga scala è importante per il successo a lungo termine. Si suggerisce di confrontare i piani di progetto tra Audio-Video Integrator e AEM Implementor. In questo modo si garantisce l’allineamento man mano che i piani vengono sviluppati e finalizzati.
 >
 >I partner che adottano un approccio olistico nella gestione delle fasi di &quot;pre-produzione&quot;, avvio e progressione del progetto garantiscono che i clienti finali siano posizionati in modo da trarre il massimo valore dal loro investimento
 
@@ -72,11 +72,11 @@ Quando un’opportunità di vendita passa a un progetto, viene pianificata una r
 
 L&#39;ultima parte di un&#39;iniziativa Day One è quella di completare un handoff NOC. Se un progetto completato include un servizio di assistenza e supporto Day Two, il Project Manager organizza una riunione Handoff NOC con i supervisori di tali team.
 
-L&#39;incontro è composto principalmente da rappresentanti di Audio/Video Integrator provenienti da Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, AEM Implementor e End-Customer sono coinvolti in tandem, con Audio/Video Integrator che definisce pianificazione, cadenza e tollgate. I project manager sono in genere i migliori per coordinare le discussioni per garantire l&#39;allineamento delle parti appropriate e sviluppare la documentazione necessaria per la riunione di handoff del NOC. La documentazione di supporto critica proviene probabilmente da tecnici IT e/o audio/video, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
+L&#39;incontro è composto principalmente da rappresentanti di Audio-Video Integrator provenienti da Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, dell&#39;implementatore AEM e del cliente finale sono coinvolti in tandem, con l&#39;integratore audio-video che definisce pianificazione, cadenza e tollgate. I project manager sono in genere i migliori per coordinare le discussioni per garantire l&#39;allineamento delle parti appropriate e sviluppare la documentazione necessaria per la riunione di handoff del NOC. La documentazione di supporto critica proviene probabilmente da tecnici IT e/o audio-video, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
 
 ## Parte 4: tutorial video su gestione e distribuzione dei progetti {#part-video-tutorial-on-project-management-and-deployment}
 
-Scopri la gestione del progetto e la preparazione dell’implementazione e definisci i fattori chiave di cui l’integratore audio/video è responsabile in quanto relativi alla gestione del progetto e alla preparazione dell’implementazione.
+Scopri la gestione del progetto e la preparazione dell’implementazione e definisci i fattori chiave di cui è responsabile Audio-Video Integrator in quanto relativi alla gestione del progetto e alla preparazione dell’implementazione.
 
 ### Gestione e implementazione dei progetti
 
