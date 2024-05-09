@@ -2,7 +2,7 @@
 title: Monitoraggio del supporto
 description: Scopri come monitorare il supporto per la Guida alle best practice di AEM Screens.
 exl-id: b9d6f713-e26d-4f56-bedb-2d419a19a05c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Il monitoraggio dei contenuti consente di risolvere i problemi relativi a conten
 1. Se si verifica un problema a schermo vuoto:
 
    * Controlla la *anteprima* in modo da poter vedere se il canale mostra una schermata nera.
-   * Registra un *lettore chrome locale* (come estensione) sul notebook per visualizzare la schermata e vedere se è visualizzata una schermata nera.
+   * Registra un *lettore Chrome locale* (come estensione) sul notebook per visualizzare la schermata e vedere se è visualizzata una schermata nera.
    * Fare clic con il pulsante destro del mouse, esaminare e controllare *registri applicabili*.
 
    Inoltre, se il problema non si verifica sul lettore locale ma solo sul dispositivo:

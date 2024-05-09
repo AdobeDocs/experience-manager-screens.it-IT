@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -22,10 +22,10 @@ Questa sezione descrive come implementare Chrome OS Player utilizzando Chrome Ma
 
 ## Utilizzo di Chrome Management Console {#using-chrome-management-console}
 
-Segui i passaggi seguenti per configurare la console di gestione chrome:
+Segui i passaggi seguenti per configurare la console di gestione Chrome:
 
 1. Registrati alla Chrome Management Console. È necessario ottenere una licenza per Chrome Management Console. Contatto [Supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per ulteriori informazioni, consulta Gestire le impostazioni del dispositivo Chrome.
-1. Iscrivi il dispositivo Chrome OS nel dominio e attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fare clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
+1. Iscrivi il dispositivo Chrome OS nel dominio e attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fai clic su [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome Player è disponibile nel Chrome Web Store.
 
 >[!NOTE]
@@ -54,7 +54,7 @@ Segui i passaggi seguenti per configurare il nome in Chrome Player:
    ![immagine](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce un valore vuoto (ad esempio, chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono prese in considerazione da Adobe Experience Manager (AEM).
+   >I lettori Chrome devono essere iscritti all’iscrizione Enterprise e il lettore Chrome deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce vuoto (ad esempio, Chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono prese in considerazione da Adobe Experience Manager (AEM).
 
 ### Abilitazione della modalità Kiosk (chiosco) {#enabling-kiosk-mode}
 

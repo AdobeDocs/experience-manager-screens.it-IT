@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Nella pagina seguente viene descritto come utilizzare Sincronizzazione comandi. 
 
 ## Panoramica {#overview}
 
-Le soluzioni di digital signage devono supportare pareti video e riproduzione sincronizzata per supportare scenari come i conteggi di Capodanno o video di grandi dimensioni suddivisi per la riproduzione su più schermi ed è qui che entra in gioco Command Sync.
+Le soluzioni di digital signage devono supportare pareti video e riproduzione sincronizzata. Questo scenario è valido se stai tentando di supportare scenari come il conto alla rovescia di Capodanno o un video di grandi dimensioni suddiviso in più sezioni da riprodurre su più schermi. In tali scenari entra in gioco la sincronizzazione dei comandi.
 
 Per utilizzare Command Sync, un lettore agisce come un *primario* e invia il comando e tutti gli altri lettori agiscono come *client* e viene riprodotto quando riceve il comando.
 
-Il *primario* invia un comando a tutti i client registrati quando sta per avviare la riproduzione di un elemento. Il payload di questo può essere l’indice dell’elemento da riprodurre e/o l’html esterno dell’elemento da riprodurre.
+Il *primario* invia un comando a tutti i client registrati quando sta per avviare la riproduzione di un elemento. Il payload di questa azione può essere l’indice dell’elemento da riprodurre, l’html esterno dell’elemento da riprodurre o entrambi.
 
 ## Implementazione sincronizzazione comandi {#using-command-sync}
 
@@ -90,11 +90,11 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
 ### Configurazione di un primario {#setting-up-primary}
 
-1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni.
-Osserva i due dispositivi (chrome e Windows Player) in **DISPOSITIVI** come illustrato di seguito:
+1. Passa al dashboard di visualizzazione da **CommandSyncDemo** > **Posizioni**  > **Lobby** > **LobbyDisplay**. Quindi fai clic su **Dashboard** dalla barra delle azioni.
+Osserva i due dispositivi (Chrome e Windows Player) in **DISPOSITIVI** come illustrato di seguito:
    ![image1](assets/command-sync/command-sync10-1.png)
 
-1. Dalla sezione **DISPOSITIVI** fare clic sul dispositivo che si desidera impostare come principale. L’esempio seguente illustra come impostare il dispositivo Chrome come principale. Clic **Imposta come dispositivo principale**.
+1. Dalla sezione **DISPOSITIVI** fare clic sul dispositivo che si desidera impostare come principale. L’esempio seguente illustra la configurazione del dispositivo Chrome come dispositivo principale. Clic **Imposta come dispositivo principale**.
 
    ![image1](assets/command-sync/command-sync11-1.png)
 
@@ -104,11 +104,11 @@ Osserva i due dispositivi (chrome e Windows Player) in **DISPOSITIVI** come illu
 
 >[!NOTE]
 >
->È possibile impostare più dispositivi come principali.
+>È possibile impostare più dispositivi come dispositivi principali.
 
 ### Sincronizzazione con primario {#sync-up-primary}
 
-1. Dopo aver impostato il dispositivo Chrome come primario, sincronizzare l&#39;altro dispositivo (in questo caso, Windows Player) per la sincronizzazione con il principale.
+1. Dopo aver impostato il dispositivo Chrome come principale, sincronizzare l&#39;altro dispositivo (in questo caso, Windows Player) per la sincronizzazione con il principale.
 Fare clic sull&#39;altro dispositivo (in questo caso Windows Player) dal **DISPOSITIVI** e fai clic su **Sincronizza con dispositivo principale**.
 
    ![image1](assets/command-sync/command-sync13-1.png)

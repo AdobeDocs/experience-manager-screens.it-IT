@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -30,12 +30,12 @@ Prima di creare un modello personalizzato in un layout multizona è necessario t
 
 1. **Convenzione di denominazione**:
 
-   Prima di capire come creare modelli personalizzati per più aree da utilizzare in un progetto AEM Screens, è necessario conoscere la variegata quantità di modelli che si desidera creare.
+   Consente di comprendere come creare modelli personalizzati per più aree da utilizzare in un progetto AEM Screens. Ma prima di tutto, devi capire il limite dei modelli che vuoi creare.
 
    | **Nome layout** | **Descrizione** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Layout a tre zone orizzontale che consente di creare tre zone:<br>* Area 1 pari al 20% dello schermo orizzontale e verticale da sinistra<br>* Zona 2: 80 % dello schermo orizzontale e 20 % dello schermo verticale giustificato a destra<br>* Zona 3: 100 % dello schermo orizzontale e 80 % dello schermo verticale con rapporto di formato 16:9 |
-   | `Upper20-PortraitHD2Zone` | Modello di ritratto in due aree che copre il 20% dello schermo dalla parte superiore, con proporzioni di 16:9 |
+   | `Left20-LandscapeHD3Zone` | Layout a tre zone orizzontale che consente di creare tre zone:<br>* Area 1 pari al 20% dello schermo orizzontale e verticale da sinistra<br>* Zona 2: 80% dello schermo orizzontale e 20% dello schermo verticale giustificato a destra<br>* Zona 3: 100% dello schermo orizzontale e 80% di quello verticale. Il rapporto di formato è 16:9 |
+   | `Upper20-PortraitHD2Zone` | Modello di ritratto in due zone che copre il 20% dello schermo dalla parte superiore, con proporzioni di 16:9 |
    | `Right20-LandscapeSD3Zone` | Modello a tre aree che copre il 20% dello schermo da destra, con proporzioni di 4:3 |
 
    >[!IMPORTANT]
@@ -90,11 +90,11 @@ Per creare un `Left20-LandscapeHD3Zone` Layout per un progetto AEM Screens.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template6.png)
 
-1. Con riferimento al passaggio (4) in cui hai copiato il modello barra a sinistra, puoi visualizzare tre griglie reattive in `my-custom-layout/jcr:content`. Aggiungere una classe CSS personalizzata a ogni griglia reattiva nella *`cq:cssClass`* proprietà, ad esempio *my-custom-layout—in alto a sinistra* per *r1c1* nodo.
+1. Con riferimento al passaggio (4) in cui hai copiato il modello barra a sinistra, puoi visualizzare tre griglie reattive in `my-custom-layout/jcr:content`. Aggiungere una classe CSS personalizzata a ogni griglia reattiva nella *`cq:cssClass`* proprietà, ad esempio *my-custom-layout-top-left* per *r1c1* nodo.
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template7.png)
 
-   Analogamente, aggiungi *my-custom-layout—in alto a destra* per *r1c2*  e *my-custom-layout—bottom* per *r2c1* nodo.
+   Analogamente, aggiungi *my-custom-layout-top-right* per *r1c2* e *my-custom-layout-bottom* per *r2c1* nodo.
 
    >[!NOTE]
    >Queste classi personalizzate vengono utilizzate nel CSS per impostare la larghezza/altezza di queste griglie reattive.
@@ -134,7 +134,7 @@ Per creare un `Left20-LandscapeHD3Zone` Layout per un progetto AEM Screens.
 1. Accedi a `/apps/<project>/templates/my-custom-layout/jcr:content` e aggiorna la proprietà *`cq:designPath`* a `/apps/settings/wcm/designs/customtemplate-designs` in modo da poter caricare gli stili configurati in static.css.
 
    >[!NOTE]
-   >Digita tutti gli stili anziché copiare o incollare, il che può causare spazi bianchi con conseguenti problemi di stile CSS.
+   >Digita tutti gli stili invece di copiare o incollare, il che può causare spazi bianchi che causano problemi di stile CSS.
 
 ## Visualizzazione del risultato {#viewing-result}
 
@@ -152,13 +152,13 @@ Segui i passaggi seguenti per utilizzare il modello personalizzato di cui sopra 
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template10.png)
 
-## Inserimento di un&#39;immagine come livello di sfondo  {#inserting-image}
+## Inserimento di un&#39;immagine come livello di sfondo {#inserting-image}
 
 Potete inserire un&#39;immagine come livello di sfondo nel layout:
 
 Puoi regolare la regola CSS per utilizzare &quot;data-uri&quot; e allineare direttamente l’immagine (`Base64` codificati) nel file CSS creato in (passaggio 13), *static.css*.
 
-Questa operazione viene eseguita come segue:
+Questa disposizione viene eseguita come segue:
 `.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Oppure, puoi seguire i passaggi seguenti:
