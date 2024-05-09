@@ -2,9 +2,9 @@
 title: Transizione verso la piattaforma
 description: Scopri come passare alla piattaforma in AEM Screens.
 exl-id: e69f504f-d20b-4cdb-b567-5c9c1df4d331
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Un soggetto interessato tipico per questa attività è un implementatore AEM.
 
-Con il passare da una visione strategica a una realtà wireframe, ora dovresti iniziare a prepararti per le attività necessarie per creare effettivamente un progetto Screens in AEM da distribuire.
+Poiché il progetto è passato da una visione strategica a una realtà wireframe, è necessario prepararsi per la creazione effettiva di un progetto Screens in AEM che è possibile implementare.
 
 Questo progetto include la mappatura delle configurazioni specifiche della piattaforma in base a requisiti definiti in modo approssimativo nella fase di prototipazione.
 

@@ -2,9 +2,9 @@
 title: Tassonomia dei progetti
 description: Scopri di più sulla tassonomia dei progetti in relazione ad AEM Screens.
 exl-id: be0ad77a-e593-4c95-8a58-4e5ccb974fcf
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ Prima di implementare la soluzione di digital signage AEM Screens, considera i s
 * **Pianificazione**
 * **Anteprima del contenuto**
 
-Per informazioni su questi termini, consulta [Glossario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Per ulteriori informazioni su questi termini, consulta [Glossario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
 >È consigliabile prendere in considerazione l’utilizzo di:
 >
 >* database di risorse hardware per compilare automaticamente un progetto Screens
->* file di configurazione di testo per puntare automaticamente ogni lettore a un’istanza specifica di un AEM
+>* file di configurazione di testo che rimanda automaticamente ogni lettore a un’istanza specifica di un AEM
 
 ## Implementazione di un progetto AEM Screens {#creating-a-project}
 

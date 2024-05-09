@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 95aa761a-1449-4e18-8115-3b151036dc54
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '340'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Quando create un canale di sequenza e aggiungete immagini ad esso, per impostazione predefinita, tutte le immagini assumono la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa; questa operazione viene eseguita modificando la durata di riproduzione del componente immagine specifico.
+Quando create un canale di sequenza e aggiungete immagini ad esso, per impostazione predefinita, tutte le immagini assumono la durata di riproduzione definita nella configurazione a livello di canale. Qualsiasi singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa. Questa funzionalità viene eseguita modificando la durata di riproduzione del componente immagine specifico.
 
 ### Prerequisiti {#prerequisites}
 
@@ -29,7 +29,7 @@ Prima di iniziare a implementare questa funzionalità, assicurati di aver impost
 
 1. Esempio di creazione di un progetto AEM Screens **ChannelLevelPlayback**.
 
-1. Crea un canale di sequenza come **PlaybackChannel** in **Canali** cartella.
+1. Crea un canale di sequenza come **PlaybackChannel** sotto **Canali** cartella.
 
 1. Aggiungi contenuto a **PlaybackChannel**.
 
@@ -53,7 +53,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-24at90534pm](assets/screen_shot_2019-06-24at90534pm.png)
 
-1. Fare clic su tutte le immagini nel canale e fare clic sull&#39;icona chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito) per aprire la finestra di dialogo Configurazione a livello di canale.
+1. Fare clic su tutte le immagini del canale e fare clic sull&#39;icona chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito) per aprire la finestra di dialogo Configurazione a livello di canale.
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 

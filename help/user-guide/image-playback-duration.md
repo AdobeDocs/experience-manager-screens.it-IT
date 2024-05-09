@@ -2,9 +2,9 @@
 title: Durata riproduzione immagine
 description: Scopri la durata di riproduzione delle immagini in AEM Screens.
 contentOwner: jsyal
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 1%
 
 ## Panoramica {#overview}
 
-Dopo aver creato un canale di sequenza e avervi aggiunto le immagini, per impostazione predefinita, tutte le immagini assumono la durata di riproduzione definita nella configurazione a livello di canale. Ogni singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa; questa operazione viene eseguita modificando la durata di riproduzione del componente immagine specifico.
+Dopo aver creato un canale di sequenza e avervi aggiunto le immagini, per impostazione predefinita, tutte le immagini assumono la durata di riproduzione definita nella configurazione a livello di canale. Qualsiasi singola immagine può comunque ignorare l’impostazione predefinita e avere una durata di riproduzione diversa. Questa funzionalità viene eseguita modificando la durata di riproduzione del componente immagine specifico.
 
 ### Prerequisiti {#prerequisites}
 
 Prima di implementare questa funzionalità, accertati di aver impostato un progetto come prerequisito per iniziare a implementarla. Ad esempio:
 
 1. Crea un progetto AEM Screens (in questo esempio, **ChannelLevelPlayback**)
-1. Crea un canale di sequenza come **PlaybackChannel** in **Canali** cartella
+1. Crea un canale di sequenza come **PlaybackChannel** sotto **Canali** cartella
 1. Aggiungi contenuto a **PlaybackChannel**
 
 ## Modifica dell&#39;assegnazione della durata di riproduzione immagine a livello di canale {#editing-channel-level-image-playback-duration-assignment}
@@ -48,7 +48,7 @@ Segui i passaggi seguenti per scoprire come aggiornare l’assegnazione della du
 
    ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. **Pagina** viene visualizzata.
+1. Il **Pagina** viene visualizzata.
 
    >[!NOTE]
    >

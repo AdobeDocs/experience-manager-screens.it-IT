@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2451'
 ht-degree: 1%
 
 ---
@@ -29,21 +29,21 @@ L’utilizzo delle sequenze dinamiche incorporate tratta i seguenti argomenti:
 
 ***Sequenze incorporate dinamiche*** vengono create per progetti di grandi dimensioni che seguono una gerarchia padre-figlio, in cui al figlio viene fatto riferimento all’interno di una cartella posizione e non di una cartella canali. Consente all&#39;utente di incorporare una sequenza all&#39;interno di un canale ***Ruolo canale***. Consente all&#39;utente di definire segnaposto specifici per la posizione per uffici diversi utilizzando una sequenza incorporata all&#39;interno di un canale principale.
 
-Quando si assegna un canale a una visualizzazione, è possibile specificare il percorso della visualizzazione o il ruolo del canale che si risolve in un canale effettivo in base al contesto.
+Quando si assegna un canale a una visualizzazione, è possibile specificare il percorso della visualizzazione. In alternativa, puoi specificare il ruolo del canale che viene risolto in un canale effettivo in base al contesto.
 
-Per utilizzare la sequenza dinamica incorporata, è necessario assegnare un canale ***Ruolo canale***. Ruolo canale definisce il contesto della visualizzazione. Il ruolo è oggetto di varie azioni ed è indipendente dal canale effettivo che lo svolge. Questa sezione descrive un caso d’uso che definisce i canali in base al ruolo e come applicarli a un canale globale. Puoi anche considerare il ruolo come un identificatore per l’assegnazione o un alias per il canale nel contesto di.
+Per utilizzare la sequenza dinamica incorporata, è necessario assegnare un canale ***Ruolo canale***. Ruolo canale definisce il contesto della visualizzazione. Il ruolo esegue il targeting di varie azioni ed è indipendente dal canale effettivo che svolge il ruolo. Questa sezione descrive un caso d’uso che definisce i canali in base al ruolo e come applicarli a un canale globale. Puoi anche considerare il ruolo come un identificatore per l’assegnazione o un alias per il canale nel contesto di.
 
 ### Vantaggi dell’utilizzo di sequenze dinamiche incorporate {#benefits-of-using-dynamic-embedded-sequences}
 
-Il vantaggio principale del posizionamento di un canale di sequenza all&#39;interno di una posizione invece che nella cartella dei canali è quello di consentire agli autori locali o regionali di modificare i contenuti di loro interesse. Tutto questo, mentre non è possibile modificare i canali nella parte superiore della gerarchia.
+Posizionare un canale di sequenza all&#39;interno di una posizione invece che nella cartella dei canali consente agli autori locali o regionali di modificare i contenuti di loro interesse. Consente inoltre di non effettuare l&#39;editing dei canali nella parte superiore della gerarchia.
 
-Con riferimento a *Canale per ruolo*, consente di creare una versione locale di un canale, per risolvere dinamicamente il contenuto specifico della posizione e consente inoltre di creare un canale globale che utilizza il contenuto per i canali specifici della posizione.
+Con riferimento a *Canale per ruolo*, consente di creare una versione locale di un canale. In questo modo viene risolto in modo dinamico il contenuto specifico della posizione e viene creato un canale globale che utilizza il contenuto per i canali specifici della posizione.
 
 >[!NOTE]
 >
 >**Sequenze incorporate e sequenze incorporate dinamiche**
 >
->Una sequenza incorporata dinamica è simile a una sequenza incorporata, ma consente all’utente di seguire una gerarchia in cui le modifiche o gli aggiornamenti apportati a un canale vengono propagati a un altro in relazione. Segue la gerarchia genitore-figlio, ma include anche risorse come immagini e video.
+>Una sequenza incorporata dinamica è simile a una sequenza incorporata, ma consente all’utente di seguire una gerarchia in cui le modifiche e gli aggiornamenti apportati a un canale vengono propagati a un altro in relazione. Segue una gerarchia genitore-figlio e include anche risorse come immagini o video.
 >
 >***Sequenze incorporate dinamiche*** consente di visualizzare contenuto specifico per la posizione, mentre ***Sequenze incorporate*** visualizza solo la presentazione generale del contenuto. Inoltre, durante l’impostazione delle sequenze dinamiche incorporate, configura il canale utilizzando il ruolo e il nome del canale. Per informazioni sull’implementazione pratica, consulta i passaggi seguenti.
 >
@@ -68,10 +68,10 @@ La sezione seguente spiega la creazione di una sequenza dinamica incorporata in 
 Prima di iniziare a implementare questa funzionalità, accertati di disporre dei seguenti prerequisiti per iniziare a implementare sequenze integrate dinamiche:
 
 * Crea un progetto AEM Screens (in questo esempio, **Demo**).
-* Crea un canale come **Globale** in **Canali** cartella.
+* Creare un **Globale** canale sotto **Canali** cartella.
 * Aggiungi contenuto al tuo **Globale** Canale (*Verifica **Resources.zip**per le attività rilevanti*).
 
-L&#39;immagine seguente mostra **Demo** progetto con **Globale** channel in **Canali** cartella.
+L&#39;immagine seguente mostra **Demo** progetto con **Globale** canale in **Canali** cartella.
 ![screen_shot_2018-09-07at21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Riferimenti {#resources}
@@ -108,7 +108,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
    >
    >Durante la creazione di **Regione A** cartella di percorso, assicurati di immettere il **Titolo** as **Regione A** e puoi lasciare il **Nome** campo vuoto, quindi automaticamente **region-a** il nome viene selezionato.
    >
-   >Lo stesso vale per la creazione di una cartella di percorso **Regione B**, come illustrato di seguito:
+   >Lo stesso vale per la creazione della cartella del percorso **Regione B**, come illustrato di seguito:
 
    ![screen_shot_2018-09-13at23212pm](assets/screen_shot_2018-09-13at23212pm.png)
 
@@ -120,11 +120,11 @@ Per implementare la funzionalità, segui i passaggi seguenti:
    1. Accedi a **Demo** > **Posizioni** > **Regione A**.
    1. Clic **Regione A** e fai clic su **+ Crea** dalla barra delle azioni.
    1. Clic **Posizione** dalla procedura guidata con **Titolo** as **Store 1**. Analogamente, creare un&#39;altra posizione dalla procedura guidata con il titolo **Store 2** con **Titolo** as **Store 2**. È possibile lasciare **Nome** campo vuoto durante la creazione **Store 1** e **Store 2**.
-   1. Ripeti il passaggio b) e fai clic su **Canale sequenza** dalla procedura guidata. Inserisci il **Titolo** as **Regione A** e **Nome** as **area geografica** per questo canale.
+   1. Ripeti il passaggio b) e fai clic su **Canale sequenza** dalla procedura guidata. Inserisci il **Titolo** as **Regione A** e **Nome** come **area geografica** per questo canale.
 
    >[!CAUTION]
    >
-   >Assicurati che durante la creazione del canale **Regione A**, immetti il **Titolo** as **Regione A** e **Nome** as **area geografica**.
+   >Assicurati che durante la creazione del canale **Regione A**, immetti il **Titolo** as **Regione A** e **Nome** as a **area geografica**.
 
    ![screen_shot_2018-09-13at22857pm](assets/screen_shot_2018-09-13at22857pm.png)
 
@@ -198,16 +198,16 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 1. **Assegna canali a una pianificazione**
 
    1. Accedi a **Demo** > **Schedules** > **AdSchedule** e fai clic su **Dashboard** dalla barra delle azioni.
-   1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
+   1. Clic **+ Assegna canale** dal **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
    1. Clic **Canale di riferimento** in base al percorso.
-   1. Fai clic su **Percorso canale** as **Demo** > ***Canali*** > ***Globale***.
-   1. Inserisci il **Ruolo canale** as **GlobalAdSegment**.
-   1. Fai clic su **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Interazione utente**.
+   1. Fai clic su **Percorso canale**, esattamente come **Demo** > ***Canali*** > ***Globale***.
+   1. Inserisci il **Ruolo canale**, esattamente come **GlobalAdSegment**.
+   1. Fai clic su **Eventi supportati**, esattamente come **Caricamento iniziale**, **Schermata di inattività**, e **Interazione utente**.
    1. Fai clic su **Salva**.
 
    **Assegna canale per ruolo per regione:**
 
-   1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** pannello.
+   1. Clic **+ Assegna canale** dal **CANALI ASSEGNATI** pannello.
    1. Nella finestra di dialogo Assegnazione canale, fai clic su **Canale di riferimento** per nome.
    1. Inserisci il **Nome canale** as **area geografica***.
    1. Inserisci il **Ruolo canale** as **RegionAdSegment**.
@@ -215,7 +215,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
    **Assegna canale per ruolo per store:**
 
-   1. Clic **+ Assegna canale** da **CANALI ASSEGNATI** pannello.
+   1. Clic **+ Assegna canale** dal **CANALI ASSEGNATI** pannello.
    1. Nella finestra di dialogo Assegnazione canale, fai clic su **Canale di riferimento** per nome.
    1. Inserisci il **Nome canale** as **archiviare**.
    1. Inserisci il **Ruolo canale** as **StoreAdSegment**.
@@ -323,7 +323,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
    1. Fai clic su **Gruppi** e immettere il nome del gruppo in **Fai clic su Gruppo**, ad esempio, immetti **Global-Author** da aggiungere **Utente globale** a tale gruppo specifico.
    1. Fai clic su **Salva e chiudi**.
 
-   Allo stesso modo, crea altri due utenti, ad esempio **Regione-Utente** e **Store-User** e aggiungili a **Region-Author** e **Store-Author** rispettivamente.
+   Allo stesso modo, crea altri due utenti, ad esempio **Regione-Utente** e **Store-User** e aggiungerli a **Region-Author** e **Store-Author** rispettivamente.
 
    >[!NOTE]
    >È consigliabile aggiungere utenti in un gruppo e quindi assegnare le autorizzazioni a ciascun gruppo di utenti specifico.
@@ -340,7 +340,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 
 1. **Accesso alle autorizzazioni per ogni gruppo**
 
-   1. Accedi a *Useradmin* e utilizza questa interfaccia utente per modificare le autorizzazioni per diversi gruppi.
+   1. Accedi a *Amministratore utenti* e utilizza questa interfaccia utente per modificare le autorizzazioni per diversi gruppi.
    1. Cerca **Global-Author** e fai clic su **Autorizzazioni** come illustrato nella figura riportata di seguito.
    1. Allo stesso modo, puoi accedere alle autorizzazioni per **Region-Author** e **Store-Author**.
 
@@ -358,7 +358,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
    Per comprendere i passaggi, vedere la figura riportata di seguito.
    ![screen_shot_2018-09-18 115752](assets/screen_shot_2018-09-18at115752am.png)
 
-   Di seguito viene illustrato come **Utente globale** ha accesso al **Canale globale**, ed entrambi **Regione A** e **Regione B** con tutti e quattro i negozi **Store 1**, **Store 2**, **Store 3**, e **Store 4**.
+   Di seguito viene illustrato come **Utente globale** ha accesso al **Canale globale**. E, accesso a entrambi **Regione A** e **Regione B** con tutti e quattro i negozi **Store 1**, **Store 2**, **Store 3**, e **Store 4**.
 
    ![globale](assets/global.gif)
 
@@ -374,7 +374,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 
    ![screen_shot_2018-09-18alle125158pm](assets/screen_shot_2018-09-18at125158pm.png)
 
-   Di seguito viene illustrato come l&#39;utente dell&#39;area geografica abbia accesso a entrambi **Regione A** e **Regione B**, con tutti e quattro i negozi, ovvero **Store 1**, **Store 2**, **Store 3**, e **Store 4**, ma non accede al **Globale** Canale.
+   Di seguito viene illustrato come l&#39;utente dell&#39;area geografica abbia accesso a entrambi **Regione A** e **Regione B**. E, l&#39;accesso a tutti e quattro i negozi, vale a dire **Store 1**, **Store 2**, **Store 3**, e **Store 4**, ma non accede al **Globale** Canale.
 
    ![area geografica](assets/region.gif)
 
@@ -391,7 +391,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 
    ![screen_shot_2018-09-18alle12415pm](assets/screen_shot_2018-09-18at12415pm.png)
 
-   Di seguito viene illustrato come **Store-User** ha accesso solo a **Store 1**, **Store 2**, **Store 3**, e **Store 4**, ma non dispone delle autorizzazioni necessarie per accedere al **Globale** o area (**Regione A** e **Regione B**).
+   Di seguito viene illustrato come **Store-User** ha accesso solo a **Store 1**, **Store 2**, **Store 3**, e **Store 4**. Tuttavia, non dispone delle autorizzazioni necessarie per accedere al **Globale** o area (**Regione A** e **Regione B**).
 
    ![archiviare](assets/store.gif)
 
