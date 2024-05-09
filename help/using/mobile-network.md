@@ -2,9 +2,9 @@
 title: Direct Mobile Network
 description: Scopri Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ I lettori AEM Screens possono anche essere collegati utilizzando reti mobili o c
 
 All’interno di AEM Screens, il contenuto richiesto viene fisicamente scaricato sul controller o sul computer del lettore e memorizzato correttamente all’interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali e sugli aggiornamenti dei contenuti, e non influenza le prestazioni della riproduzione regolare dei display.
 
-Il vantaggio di collegare i lettori AEM Screens tramite la rete cellulare 3/4/5G al provider di dati Mobile Services è che il router mobile può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo è di solito in una posizione elevata e aperta con il minor numero possibile di strutture circostanti in calcestruzzo o metallo.
+Il vantaggio di collegare i lettori AEM Screens al proprio provider di dati Mobile Services rispetto alla rete cellulare 3/4/5G è che il router mobile può essere posizionato in un punto ottimizzato. In questo modo si garantisce la migliore copertura di rete disponibile. Questa posizione è solitamente in posizione elevata e aperta con il minor numero possibile di strutture circostanti in calcestruzzo o metallo.
 
-Questa configurazione offre agli utenti di Schermo AEM una grande flessibilità in quanto non è necessaria alcuna connessione fissa per connettersi ad AEM Screens. Questo è interessante per le configurazioni effimere o mobili.
+Questa configurazione offre agli utenti di Schermo AEM una grande flessibilità perché non è necessaria alcuna connessione fissa per connettersi ad AEM Screens. Questa disposizione è interessante per le configurazioni temporanee o mobili.
 
-Il diagramma seguente mostra la configurazione della rete mobile diretta ed è costituito da un singolo segmento di connessione di rete e dalla connessione di ciascun lettore alla rete dati mobile o cellulare.
+Il diagramma seguente mostra la configurazione di Direct Mobile Network. È costituito da un singolo segmento di connessione di rete e dalla connessione di ciascun lettore alla rete dati mobile o cellulare.
 
 ![](/help/using/assets/direct-mobile-1.png)
 
@@ -68,7 +68,7 @@ Come follow-up, il pacchetto dati necessario deve essere almeno:
 
 
 >[!IMPORTANT]
->Per il caricamento iniziale dei file multimediali, ad esempio, durante l’integrazione di nuovi lettori, è necessario prevedere una maggiore quantità di dati e un tempo di download maggiore, ipotesi che si riflettono in precedenza. Una rete 4G con *buono* copertura e *illimitato* I dati devono corrispondere alle installazioni più comuni in questa configurazione di rete.
+>Per il caricamento iniziale dei file multimediali durante l’integrazione di nuovi lettori, è necessario prevedere una maggiore quantità di dati e un tempo di download maggiore; questo si riflette nelle ipotesi precedenti. Una rete 4G con *buono* copertura e *illimitato* I dati devono corrispondere alle installazioni più comuni in questa configurazione di rete.
 
 >[!NOTE]
 >Un piano 3G minimo con una buona copertura di rete dovrebbe portare a prestazioni di download accettabili per un lettore AEM Screens. Se in una posizione specifica è disponibile solo la copertura equa, è consigliabile passare alla configurazione di rete globale [Rete mobile con router dati mobile e componenti di rete attivi](/help/using/mobile-network-router.md).

@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # Creazione e gestione delle visualizzazioni {#creating-and-managing-displays}
 
-Un display è un raggruppamento virtuale di schermi posizionati uno accanto all’altro. Il display è fisso rispetto a un&#39;installazione. Si tratta degli autori di contenuti oggetto che lavorano con e a cui fanno sempre riferimento come visualizzazione logica anziché come parti contatore fisiche.
+Un display è un raggruppamento virtuale di schermi posizionati uno accanto all’altro. Il display è fisso rispetto a un&#39;installazione. Si tratta degli autori di contenuti oggetto che lavorano con e a cui fanno sempre riferimento come visualizzazione logica piuttosto che come parti contatore fisiche.
 
 Quando crei una posizione, devi crearne una visualizzazione specifica.
 
@@ -40,7 +40,7 @@ Questa pagina mostra come creare e gestire le visualizzazioni di Screens.
 1. Passa alla posizione appropriata, ad esempio `http://localhost:4502/screens.html/content/screens/TestProject`.
 1. Fai clic sulla cartella del percorso e fai clic su **Crea** che si trova accanto all’icona più nella barra delle azioni.
 1. Clic **Visualizzazione** dal **Crea** procedura guidata, quindi fai clic su **Successivo**.
-1. Invio **Nome** e **Titolo** per la posizione di visualizzazione.
+1. Immetti il **Nome** e **Titolo** per la posizione di visualizzazione.
 1. Sotto **Visualizzazione** , scegliere i dettagli del layout. Scegli il **Risoluzione**, ad esempio **Full HD**. Scegli il numero di dispositivi in orizzontale e in verticale.
 1. Fai clic su **Crea**.
 
@@ -48,7 +48,7 @@ Visualizzazione (*StoreDisplay*) viene creato e aggiunto alla posizione (*SanJos
 
 ![visualizzare](assets/display.gif)
 
-Quando lo schermo è in posizione, il passaggio successivo consiste nel creare una configurazione di dispositivo per quel particolare display.
+Quando si dispone di una visualizzazione in posizione, il passaggio successivo consiste nel creare una configurazione di dispositivo per quella particolare visualizzazione.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Quando lo schermo è in posizione, il passaggio successivo consiste nel creare u
 >
 >Quando crei una visualizzazione per la tua posizione, assegna un canale alla visualizzazione per utilizzare il contenuto.
 >
->Consulta [Assegna canali](channel-assignment.md) per scoprire come assegnare un canale alla visualizzazione.
+>Consulta la [Assegna canali](channel-assignment.md) per scoprire come assegnare un canale alla visualizzazione.
 
 ## Creazione di una nuova configurazione dispositivo {#creating-a-new-device-config}
 
@@ -86,7 +86,7 @@ La configurazione del dispositivo viene creata e aggiunta alla visualizzazione c
 
 ## Dashboard di visualizzazione {#display-dashboard}
 
-La dashboard di visualizzazione offre diversi pannelli per la gestione dei dispositivi di visualizzazione e delle configurazioni dei dispositivi per il dispositivo.
+Il dashboard di visualizzazione offre diversi pannelli per la gestione dei dispositivi di visualizzazione. Consente inoltre di configurare il dispositivo.
 
 ![screen_shot_2018-08-23at42810pm](assets/screen_shot_2018-08-23at42810pm.png)
 
@@ -109,9 +109,9 @@ Fai clic su (**...**) nell&#39;angolo in alto a destra nella **INFORMAZIONI SULL
 
 Clic **Proprietà** in modo da poter visualizzare o modificare le proprietà dello schermo.
 
-Inoltre, è possibile regolare il valore del timer dell’evento per il canale interattivo in **Timeout di inattività** proprietà in **Visualizzazione** scheda. Il valore predefinito è impostato su *300 secondi*.
+Inoltre, puoi regolare il valore del timer dell’evento per il canale interattivo sotto il **Visualizzazione** scheda. Il valore predefinito è impostato su *300 secondi*.
 
-Utilizzare **CRXDE Liti**, per accedere al **idleTimeout** proprietà, ovvero `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels` .
+Utilizzare **CRXDE Liti**, per accedere al **idleTimeout** proprietà, ovvero `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Pannello Canali assegnati {#assigned-channels-panel}

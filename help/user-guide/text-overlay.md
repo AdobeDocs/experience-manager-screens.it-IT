@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: bbc719df-24a7-4cfb-9786-1c3496f9f082
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ Questa sezione tratta i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-La sovrapposizione testo è una funzione disponibile in AEM Screens che consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine.
+La sovrapposizione testo è una funzione disponibile in AEM Screens. Ti consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine.
 
 Per informazioni su come creare un componente personalizzato, consulta **Estensione di un componente AEM Screens**.
 
-In questa sezione viene illustrato solo come utilizzare e applicare il componente poster in un progetto AEM Screens e utilizzarlo come sovrapposizione di testo in uno dei canali della sequenza.
+In questa sezione viene illustrato solo come utilizzare e applicare il componente poster in un progetto AEM Screens. Mostra anche come utilizzarlo come sovrapposizione di testo in uno dei canali della sequenza.
 
 ## Utilizzo della sovrapposizione testo {#using-text-overlay}
 
@@ -48,11 +48,11 @@ Prima di implementare questa funzionalità, accertati di aver impostato un proge
 
 * Crea un progetto AEM Screens (in questo esempio, **DemoSovrapposizioneTesto**)
 
-* Crea un canale di sequenza denominato **TextSample** in **Canali** cartella
+* Crea un canale di sequenza denominato **TextSample** sotto **Canali** cartella
 
 * Aggiungi contenuto al tuo **TextSample** Canale
 
-L&#39;immagine seguente mostra **DemoSovrapposizioneTesto** progetto con **TextSample** channel in **Canali** cartella.
+L&#39;immagine seguente mostra **DemoSovrapposizioneTesto** progetto con **TextSample** canale in **Canali** cartella.
 
 ![screen_shot_2018-12-16alle75908pm](assets/screen_shot_2018-12-16at75908pm.png)
 
@@ -84,11 +84,11 @@ Utilizzando le proprietà Sovrapposizione testo è possibile aggiungere testo a 
 
 >[!NOTE]
 >
->Per utilizzare correttamente gli strumenti granulari, assicurati di identificare la posizione corretta in pixel utilizzando (px) come suffisso, ad esempio 200 px. Il risultato di questa espressione è di 200 pixel dal punto iniziale.
+>Quando si utilizzano strumenti granulari, assicurarsi di identificare la posizione corretta in pixel utilizzando (px) come suffisso, ad esempio 200 px. Il risultato di questa espressione è di 200 pixel dal punto iniziale.
 
 ## Utilizzo dei valori ContextHub nella sovrapposizione testo {#using-text-overlay-context-hub}
 
-La sezione seguente descrive l’utilizzo di valori provenienti da un archivio dati, ad esempio i fogli di google nel componente di sovrapposizione testo.
+La sezione seguente descrive l’utilizzo di valori provenienti da un archivio dati, ad esempio i fogli Google nel componente di sovrapposizione testo.
 
 **Prerequisiti**
 
@@ -118,7 +118,7 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay1.png)
 
-1. Aggiungi un componente di sovrapposizione immagine e testo all’immagine, come descritto in [Utilizzo della sovrapposizione testo](/help/user-guide/text-overlay.md#using-text-overlay) sezione di questa pagina.
+1. Aggiungi un componente di sovrapposizione immagine e testo all’immagine come descritto nella [Utilizzo della sovrapposizione testo](/help/user-guide/text-overlay.md#using-text-overlay) sezione di questa pagina.
 
 1. Fai clic su **Configura** (icona chiave inglese) per aprire **Immagine** .
 
@@ -129,7 +129,7 @@ Dopo aver impostato le configurazioni richieste per il progetto, segui i passagg
    >[!NOTE]
    >Se non hai configurato la configurazione ContextHub, questa opzione è disabilitata per il progetto.
 
-1. Invio **Valore** nel **Segnaposto** campo. Fare clic sulla riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, fai clic sul segno di spunta.
+1. Invio **Valore** nel **Segnaposto** campo. Fare clic sulla riga in cui si desidera ottenere il valore dal foglio Google in **Variabile ContextHub**. In questo caso, il valore viene recuperato dalla riga 2 e dalla colonna 1 dai fogli di Google. Ora, immetti il **Valore predefinito** as **20**, come illustrato nella figura seguente. Al termine, fai clic sul segno di spunta.
 
    ![image1](/help/user-guide/assets/text-overlay/text-overlay5.png)
 

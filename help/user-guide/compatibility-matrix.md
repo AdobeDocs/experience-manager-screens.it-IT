@@ -4,9 +4,9 @@ description: Ulteriori informazioni sui lettori AEM Screens e sulle rispettive v
 page-status-flag: de-activated
 contentOwner: jsyal
 docset: aem65
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '309'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Nella sezione seguente sono elencati i lettori di Adobe Experience Manager (AEM)
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72</strong> - Disponibile su Apple Store</p> <p> </p> </td> 
+   <td><p><strong>3.2.72</strong> - Disponibile sul negozio Apple</p> <p> </p> </td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
@@ -109,23 +109,23 @@ aem-screens-player-android-3.3.0.apk.zip
   </tr>
   <tr>
    <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
-   <td><p><strong>3.2.72 - </strong>Disponibile su Apple Store</p> <p><strong>3,3,0</strong> - Non funziona</p> <p> </p> </td> 
+   <td><p><strong>3.2.72 - </strong>Disponibile nello store di Apple</p> <p><strong>3,3,0</strong> - Non funziona</p> <p> </p> </td> 
    <td><strong>1.0.12</strong> - (disponibile su Macromedia)</td> 
-   <td><p><strong>1.0.30 -</strong> Disponibile su Chrome Store.</p> <p>Non supportato con Feature Pack 1</p> </td> 
+   <td><p><strong>1.0.30 -</strong> Disponibile sul Chrome Store.</p> <p>Non supportato con Feature Pack 1</p> </td> 
    <td><strong>3.2.68 -</strong> (Disponibile sul sito Macromedia) e Google Play Store</td> 
   </tr>
   <tr>
    <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
    <td><p><strong>3,3,0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Da pubblicare su Apple Store</p> <p> </p> </td> 
    <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>Da pubblicare su Chrome Store</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>Da pubblicare sul Chrome Store</p> </td> 
    <td><strong>3,3 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
   <tr>
    <td><strong>AEM 6.4</strong></td> 
    <td><p><strong>3,3,0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>Da pubblicare su Apple Store</p> </td> 
    <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
-   <td><p><strong>1.0.42 - </strong></p> <p>Da pubblicare su Chrome Store</p> </td> 
+   <td><p><strong>1.0.42 - </strong></p> <p>Da pubblicare sul Chrome Store</p> </td> 
    <td><strong>3,3 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
   </tr>
  </tbody>

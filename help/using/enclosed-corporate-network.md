@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
 
 1. Verificare che l&#39;impostazione della scheda di rete corrisponda alle impostazioni del router e verificare che non sia stato raggiunto il numero massimo di indirizzi IP disponibili nella rete.
 
-1. Verificare che il router sia connesso correttamente all&#39;ISP Wide Area Network (collegamento Internet). Questo può anche essere identificato utilizzando un LED di segnale sui router standard.
+1. Verificare che il router sia connesso correttamente all&#39;ISP Wide Area Network (collegamento Internet). Questa connessione può anche essere identificata utilizzando un LED di segnale sui router standard.
 1. Se la chiamata URL ha esito positivo, puoi continuare a installare AEM Screens e registrarti. Avvia AEM Screens.
 
    >[!NOTE]
@@ -50,11 +50,11 @@ L&#39;installazione di Enclosed Corporate Network può essere separata logicamen
 ### Wide Area Network {#wan-connection}
 
 Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire un agevole aggiornamento dei contenuti AEM Screens.
-*Larghezza di banda sufficiente* dipende dal numero di schermi AEM collegati e dall&#39;utilizzo di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
+*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connesse. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
->Tutti i dispositivi hanno un accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce linearmente quando si aggiungono più consumatori o computer alla rete.
+>Tutti i dispositivi hanno accesso simultaneo alla connessione Internet e la larghezza di banda diminuisce linearmente quando si aggiungono più utenti o computer alla rete.
 
 ### Local Area Network {#lan-connection}
 
@@ -69,7 +69,7 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 M
 Le reti aziendali hanno diversi dispositivi connessi, sono separate in varie sottoreti e dispongono di connessioni Internet ridondanti o multiplexate per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
 Questo schema è semplificato e si adatta nella maggior parte dei casi agli ambienti disponibili per il client.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare Screens al collegamento Internet, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` come minimo. Questo standard supporta connessioni fino a 54 Mbps. Qualsiasi *più recente* Standard come `802.11h-n` sono di migliore qualità. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` come minimo. Questo standard supporta connessioni fino a 54 Mbps. Qualsiasi *più recente* Standard come `802.11h-n` sono di migliore qualità. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
 Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
 
 ## Download di contenuti multimediali e risorse {#download}
@@ -83,6 +83,6 @@ Negli scenari in cui sono presenti più interazioni con sensori o attivatori e c
 Nella tabella seguente viene fornita una panoramica sui dati chiave della connettività di rete.
 
 >[!NOTE]
->Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete che richiede e scarica un&#39;origine Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
+>Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete richiedendo e scaricando un&#39;origine Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
 
 ![](/help/using/assets/enclosed-network-download.png)

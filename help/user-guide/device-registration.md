@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer dist
 
 >[!NOTE]
 >
->Dopo aver scaricato l&#39;ultimo Windows Player (*.exe*), da [Download del lettore AEM 6.4](https://download.macromedia.com/screens/) , seguire i passaggi del lettore per completare l&#39;installazione ad hoc:
+>Dopo aver scaricato l&#39;ultimo Windows Player (*.exe*), dal [Download del lettore AEM 6.4](https://download.macromedia.com/screens/) , seguire i passaggi del lettore per completare l&#39;installazione ad hoc:
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
 >1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
@@ -69,7 +69,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer dist
 
    ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se il **Codice di registrazione** è lo stesso in entrambi i computer, fare clic su **Convalida** nell’AEM, come indicato al punto (6).
+1. Se il **Codice di registrazione** è lo stesso in entrambi i computer, fare clic sul pulsante **Convalida** nell’AEM, come indicato al punto (6).
 1. Impostare il nome desiderato per il dispositivo e fare clic su **Registrati**.
 
    ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
@@ -112,7 +112,7 @@ Se non hai assegnato il dispositivo a una visualizzazione, segui i passaggi segu
 
    ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
-   Inoltre, è possibile visualizzare il dashboard di visualizzazione selezionando **Fine**.
+   È inoltre possibile visualizzare il dashboard di visualizzazione selezionando **Fine**.
 
    ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
@@ -144,19 +144,19 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’
 * L’utente è in grado di cercare qualsiasi parola esistente nel *ID dispositivo* o *Nome dispositivo*.
 
   >[!NOTE]
-  >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *Lobby del negozio di Boston* anziché un singolo *LobbyStoreBoston*.
+  >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *`Boston Store Lobby`* anziché un singolo *`BostonStoreLobby`*.
 
-* Se si creano nomi di dispositivi quali *Lobby del negozio di Boston*, cerca qualsiasi parola *boston*, *archiviare*, o *atrio*. Tuttavia, se il nome del dispositivo è *LobbyStoreBoston*, quindi ricerca *boston* non mostra alcun risultato.
+* Se sono stati creati nomi di dispositivi quali *`Boston Store Lobby`*, cerca qualsiasi parola *`boston`*, *`store`*, o *`lobby`*. Tuttavia, se il nome del dispositivo è *`BostonStoreLobby`*, quindi ricerca *`boston`* non mostra alcun risultato.
 
-* wild card, `*` è supportato per la ricerca. Nel caso in cui si desideri trovare tutti i dispositivi con nomi che iniziano con *boston*, è possibile utilizzare *boston**.
+* wild card, `*` è supportato per la ricerca. Nel caso in cui si desideri trovare tutti i dispositivi con nomi che iniziano con *`boston`*, puoi utilizzare *`boston`**.
 
-* Se il nome del dispositivo è *LobbyStoreBoston* e ricerca *boston* non restituisce il risultato, quindi utilizza *boston** nei criteri di ricerca restituisce il risultato.
+* Se il nome del dispositivo è *`BostonStoreLobby`* e ricerca *`boston`* non restituisce il risultato, quindi utilizza *`boston`** nei criteri di ricerca restituisce il risultato.
 
 ## Limitazioni alla registrazione del dispositivo {#limitations-on-device-registration}
 
 Le restrizioni della password utente a livello di sistema potrebbero causare errori nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata in modo casuale per creare l&#39;utente del dispositivo.
 
-Se la password è limitata da *AuthorizableActionProvider* configurazione, la creazione dell&#39;utente del dispositivo potrebbe non riuscire.
+Se il *AuthorizableActionProvider* La configurazione limita la password e la creazione dell&#39;utente del dispositivo potrebbe non riuscire.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Altre risorse {#additional-resources}
 
-Per informazioni su AEM Screens Player, consulta [Lettore AEM Screens](working-with-screens-player.md).
+Per ulteriori informazioni su AEM Screens Player, consulta [Lettore AEM Screens](working-with-screens-player.md).

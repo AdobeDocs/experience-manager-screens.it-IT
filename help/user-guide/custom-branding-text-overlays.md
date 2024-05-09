@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ Scopri come applicare il branding e lo stile personalizzati per le sovrapposizio
 
 Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo, effettua le seguenti operazioni:
 
-1. Crea un progetto AEM Screens. Questo esempio mostra la funzionalità creando un progetto denominato **`customstyle`** e un canale con titolo **DemoBrand** , come illustrato nella figura seguente.
+1. Crea un progetto AEM Screens. Questo esempio mostra la funzionalità creando un progetto denominato **`customstyle`** e un canale con titolo **DemoBrand**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand1.png)
 
-1. Dall’editor, trascina e rilascia un’immagine e aggiungi sovrapposizione testo alla risorsa.
+1. Dall’editor, trascina e rilascia un’immagine e aggiungi una sovrapposizione di testo alla risorsa.
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand2.png)
 
@@ -38,7 +38,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand3.png)
 
-1. Crea *static.css* e imposta le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
+1. Creare un *static.css* e imposta le seguenti regole css. Anche mostrato come esempio nella figura sotto le regole css.
 
    ```shell
     //global styles
@@ -96,7 +96,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
 
 ### Aggiornamento degli ACL {#updating-acls}
 
-Aggiorna gli ACL per queste progettazioni in modo che possano essere scaricati dal lettore.
+Aggiorna gli ACL per queste progettazioni in modo che il lettore possa scaricarle.
 
 1. Accedi all’amministratore utenti e scegli il `screens-<project>-devices group` e concedergli l&#39;autorizzazione di lettura per il percorso di progettazione personalizzato.
 
@@ -122,7 +122,7 @@ Per visualizzare la progettazione aggiornata in sovrapposizione testo, attenersi
 
    ![immagine](/help/user-guide/assets/custom-brand/custom-brand9.png)
 
-1. Inoltre, puoi rimuovere gli ultimi due blocchi di codice da *static.css* per rimuovere lo stile del riquadro attorno alla sovrapposizione di testo.
+1. Inoltre, puoi rimuovere gli ultimi due blocchi di codice dal *static.css* per rimuovere lo stile del riquadro attorno alla sovrapposizione di testo.
 
 ![immagine](/help/user-guide/assets/custom-brand/custom-brand10.png)
 

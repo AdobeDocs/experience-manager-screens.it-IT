@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 926f529b-f3cf-471d-83b4-6ccb628cf160
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Il seguente caso d’uso illustra tre diverse immagini in base ai valori present
 
 ## Descrizione {#description}
 
-Questo caso d’uso presenta le scorte di magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili che vengono registrate in Google Sheets, sullo schermo viene visualizzata l’immagine (felpa rossa, verde o blu) con il numero più alto.
+Questo caso d’uso presenta le scorte di magazzino al dettaglio per tre felpe colorate diverse. A seconda del numero di felpe disponibili che vengono registrate in Google Sheets, viene visualizzata l’immagine (felpa rossa, verde o blu) con il numero più alto.
 
-Per questo caso d’uso, il maglione rosso, verde o blu viene visualizzato sullo schermo in base al valore più alto del numero di maglioni disponibile.
+Il maglione rosso, verde o blu viene visualizzato in base al valore più alto del numero di maglie disponibili.
 
 ## Precondizioni {#preconditions}
 
@@ -55,22 +55,22 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
    1. Trascina la selezione **Comparison : Proprietà - Proprietà** all’editor.
    1. Fai clic su **Configurazione** icona.
    1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
-   1. Fai clic su **Operatore** as **maggiore di** dal menu a discesa.
-   1. Clic **Tipo di dati** as **numero**.
+   1. Fai clic su **Operatore**, e come **maggiore di** dal menu a discesa.
+   1. Clic **Tipo di dati**, e come **numero**.
    1. Clic **googlesheets/value/1/1** dall’elenco a discesa in **Nome seconda proprietà**.
    1. Trascinamento della selezione **other Comparison : Proprietà - Proprietà** nell’editor e fai clic su **Configurazione** icona.
    1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
-   1. Fai clic su **Operatore** as **maggiore di** dal menu a discesa.
-   1. Clic **Tipo di dati** as **numero**.
+   1. Fai clic su **Operatore**, e come **maggiore di** dal menu a discesa.
+   1. Clic **Tipo di dati**, e come **numero**.
    1. Clic **googlesheets/value/1/0** dall’elenco a discesa in **Nome seconda proprietà**.
 
    ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto a **For_Blue** come illustrato nella figura seguente:
+   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto al **For_Blue** come illustrato nella figura seguente:
 
    ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto a **For_Green** come illustrato nella figura seguente:
+   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto al **For_Green** come illustrato nella figura seguente:
 
    ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
@@ -85,7 +85,7 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
    >[!CAUTION]
    >
-   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
+   >Dovresti aver già configurato il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
 
    ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
@@ -114,6 +114,6 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 1. **Controllo dell’anteprima**
 
    1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
-   1. Modifica il valore per tutte e tre le colonne. Osserva gli aggiornamenti dell’immagine di visualizzazione in base al valore più alto in magazzino.
+   1. Modifica il valore per tutte e tre le colonne. Osserva gli aggiornamenti dell’immagine di visualizzazione in base al valore più alto nell’inventario.
 
    ![retail_result](assets/retail_result.gif)
