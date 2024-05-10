@@ -6,9 +6,9 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ La sezione seguente spiega la creazione di una riproduzione di un singolo evento
 
 Prima di iniziare a implementare questa funzionalità, assicurati di disporre dei seguenti prerequisiti per iniziare a implementare l’attivazione a livello di canale:
 
-* Crea un progetto AEM Screens, in questo esempio, **Attivazione a livello di canale**
+* Crea un progetto AEM Screens, in questo esempio, **Attivazione a livello di canale**.
 
-* Crea un canale come **MainAdChannel** in **Canali** cartella
+* Crea un canale come **MainAdChannel** sotto **Canali** cartella.
 
-* Crea un altro canale come **TargetedSinglePlay** in **Canali** cartella
+* Crea un altro canale come **TargetedSinglePlay** sotto **Canali** cartella.
 
-* Aggiungere risorse rilevanti a entrambi i canali
+* Aggiungi risorse rilevanti a entrambi i canali.
 
 L&#39;immagine seguente mostra **Attivazione a livello di canale** progetto con **MainAdChannel** e **TargetedSinglePlay** canali in **Canali** cartella.
 
@@ -101,30 +101,28 @@ Per implementare la funzionalità, segui i passaggi seguenti:
    Per **MainAdChannel:**
 
    1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
-   1. **Assegnazione canale** viene visualizzata.
-   1. Clic **Canale di riferimento** in base al percorso.
-   1. Fai clic su **Percorso canale** as **Attivazione a livello di canale** > ***Canali*** > ***MainAdChannel***.
+   1. In **Assegnazione canale** finestra di dialogo, fai clic su **Canale di riferimento** in base al percorso.
+   1. Fai clic su **Percorso canale**, quindi fai clic su **Attivazione a livello di canale** > ***Canali*** > ***MainAdChannel***.
    1. Il **Ruolo canale** viene compilato come **mainadchannel**.
-   1. Fai clic su **Priorità** as **1**.
-   1. Fai clic su **Eventi supportati** as **Caricamento iniziale** e **Schermata di inattività**.
+   1. Fai clic su **Priorità** e impostato su **1**.
+   1. Fai clic su **Eventi supportati** come **Caricamento iniziale** e **Schermata di inattività**.
    1. Fai clic su **Salva**.
 
    ![screen_shot_2018-11-27at124626pm](assets/screen_shot_2018-11-27at124626pm.png)
 
    >[!NOTE]
    >
-   >È inoltre possibile assegnare un canale dal dashboard di visualizzazione passando a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e selezione **Dashboard** dalla barra delle azioni. Clic **+ Assegna canale** dal **CANALI E PIANIFICAZIONI ASSEGNATI** pannello.
+   >Potete anche assegnare il canale dal quadro comandi di visualizzazione. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay**. Sulla barra delle azioni, seleziona **Dashboard**. Dalla sezione **CANALI E PIANIFICAZIONI ASSEGNATI** , fare clic su **+ Assegna canale**.
 
    Analogamente, assegna canale **TargetedSinglePlay** per la visualizzazione**:
 
    1. Accedi a **Attivazione a livello di canale** > **Posizioni** > **Regione** > **RegionDisplay** e fai clic su **Assegna canale** dalla barra delle azioni.
-   1. **Assegnazione canale** viene visualizzata.
-   1. Clic **Canale di riferimento** in base al percorso.
-   1. Fai clic su **Percorso canale** as **Attivazione a livello di canale*** > ***Canali*** > ***TargetedSinglePlay***.
+   1. In **Assegnazione canale** , fare clic su **Canale di riferimento** in base al percorso.
+   1. Fai clic su **Percorso canale**, quindi fai clic su **Attivazione a livello di canale** > ***Canali*** > ***TargetedSinglePlay***.
    1. Il **Ruolo canale** viene compilato come **targetedsingleplay**.
-   1. Imposta il **Priorità** as **2**.
-   1. Fai clic su **Eventi supportati** as **Caricamento iniziale**, **Schermata di inattività**, e **Timer**, come illustrato nella figura seguente.
-   1. Scegli la data in **attivo da** come 27 novembre 2018 23:59 e in **attivo fino a** come 28 novembre 2018 12:05 A.M.
+   1. Imposta il **Priorità** a **2**.
+   1. Fai clic su **Eventi supportati**, e impostare **Caricamento iniziale**, **Schermata di inattività**, e **Timer**, come illustrato nella figura seguente.
+   1. In entrata **attivo da**, impostato come 27 novembre 2018, 23:59 e in **attivo fino a**, impostato come 28 novembre 2018, 12:05 A.M.
    1. Fai clic su **Salva**.
 
    >[!CAUTION]
@@ -154,7 +152,7 @@ Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:5
 
 ## Gestione della ricorrenza per le risorse in un canale {#handling-recurrence-in-assets}
 
-Puoi pianificare le risorse in un canale in modo che ricorrano a determinati intervalli su base giornaliera, settimanale o mensile, anche in base alle tue esigenze.
+Puoi pianificare le risorse in un canale in modo che ricorrano a determinati intervalli su base giornaliera, settimanale o mensile in base alle tue esigenze.
 
 Si supponga di voler visualizzare il contenuto di un canale solo il venerdì dalle 13.00 alle 22.00. È possibile utilizzare **Attivazione** per impostare l’intervallo ricorrente desiderato per la risorsa.
 
@@ -181,7 +179,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
 | prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
 | Lun, Mar, Mer o Mon-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
-| il primo giorno di gennaio dopo le 14:00 anche il secondo giorno di gennaio anche il terzo giorno di gennaio prima delle 03:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
+| il primo giorno di gennaio dopo le 14:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle 03:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
 | nei 1-2 giorni di gennaio dopo le 2:00 anche nei 2-3 giorni di gennaio prima delle 3:00. | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]
@@ -263,8 +261,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| dopo le 6:00 e prima delle 18:00 di lunedì, mercoledì di gennaio-marzo | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio a fine marzo |
-| il primo giorno di gennaio dopo le 14:00 anche il secondo giorno di gennaio anche il terzo giorno di gennaio prima delle 03:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
+| dopo le 6:00 e prima delle 18:00 di lunedì, mercoledì di gennaio-marzo | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio alla fine di marzo |
+| il primo giorno di gennaio dopo le 14:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle 03:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
 | nei 1-2 giorni di gennaio dopo le 2:00 anche nei 2-3 giorni di gennaio prima delle 3:00. | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]

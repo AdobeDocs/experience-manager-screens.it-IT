@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 3%
 
 ---
@@ -51,15 +51,15 @@ Durante l’utilizzo della procedura guidata sono disponibili le seguenti opzion
 
 | **Opzione modello** | **Descrizione** |
 |---|---|
-| Cartella canali | Consente di creare una cartella in cui archiviare la raccolta di canali. |
-| Canale per sequenza | Consente di creare un canale che riproduce i componenti in sequenza (uno per uno in una presentazione). |
-| Canale di applicazione | Consente di mostrare l’applicazione web personalizzata in Screens player. |
-| Canale schermo diviso 1x1 | Consente di visualizzare un componente in una singola zona. |
-| Canale schermo diviso 1x2 | Consente di visualizzare le risorse in due aree (suddivise orizzontalmente). |
-| Canale schermo diviso 2X1 | Consente di visualizzare le risorse in due aree (divise verticalmente). |
-| Canale schermo diviso 2x2 | Consente di visualizzare le risorse in quattro aree (suddivise orizzontalmente e verticalmente in una matrice). |
-| Canale schermo diviso da 2 a 3 | Consente di visualizzare le risorse in due zone (suddivise orizzontalmente) in cui una è più grande dell’altra. |
-| Canale schermo diviso barra a L sinistra o destra | Consente agli autori di contenuto di visualizzare diversi tipi di risorse in aree di dimensioni appropriate. |
+| Cartella canali | Crea una cartella in cui archiviare un insieme di canali. |
+| Canale per sequenza | Create un canale che riproduca i componenti in sequenza (uno per uno in una presentazione). |
+| Canale di applicazione | Mostra la tua applicazione web personalizzata in Screens player. |
+| Canale schermo diviso 1x1 | Visualizzare un componente in una singola zona. |
+| Canale schermo diviso 1x2 | Visualizza le risorse in due aree (suddivise orizzontalmente). |
+| Canale schermo diviso 2X1 | Visualizza le risorse in due aree (divise verticalmente). |
+| Canale schermo diviso 2x2 | Visualizza le risorse in quattro aree (suddivise orizzontalmente e verticalmente in una matrice). |
+| Canale schermo diviso da 2 a 3 | Visualizza le risorse in due zone (divise orizzontalmente) in cui una è più grande dell’altra. |
+| Canale schermo diviso barra a L sinistra o destra | Gli autori dei contenuti possono visualizzare diversi tipi di risorse nelle aree di dimensioni appropriate. |
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Per caricare i video sul tuo canale, segui la procedura riportata di seguito:
 
 ### Informazioni canale {#channel-information}
 
-Il pannello Informazioni canale descrive le proprietà del canale, insieme all’anteprima sul canale. Inoltre, fornisce informazioni su se il canale è offline o online.
+Il pannello Informazioni canale descrive le proprietà del canale, insieme all’anteprima sul canale. Inoltre, fornisce informazioni sul fatto che il canale sia offline o online.
 
 Fai clic su (**...**) dalla **INFORMAZIONI SUL CANALE** barra delle azioni per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto offline) per il canale.
 
@@ -169,7 +169,7 @@ Segui i passaggi seguenti per rendere il canale online:
 
    ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Controlla la **Sviluppatore** **modalità (forza canale online)** per impostare il canale come online.
+1. Controlla la **Sviluppatore** **modalità (forza la connessione del canale)** per impostare il canale come online.
 
    Clic **Salva e chiudi** per salvare l’opzione.
 
@@ -197,7 +197,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
   </tr>
   <tr>
    <td>Modifica nel canale online</td>
-   <td>Contenuto aggiornato automaticamente</td>
+   <td>Il contenuto viene aggiornato automaticamente</td>
    <td><p>Contenuto aggiornato in "Device: Push Config"</p> <p>Oppure</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
   </tr>
   <tr>
    <td>Modifica in "Contenuto push" per canale e canale offline attivata (nuovo pacchetto offline)</td>
-   <td>Contenuto aggiornato automaticamente</td>
+   <td>Il contenuto viene aggiornato automaticamente</td>
    <td><p>Contenuto aggiornato il <strong><i>Device: Push Config</i></strong></p> <p>Oppure</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
   </tr>
   <tr>
@@ -218,7 +218,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
      <li>Assegnazioni canale (nuovo canale, canale rimosso)</li>
      <li>Assegnazione canale (ruolo, evento, pianificazione)</li>
     </ul> </td>
-   <td>Configurazione aggiornata automaticamente</td>
+   <td>La configurazione viene aggiornata automaticamente</td>
    <td><p>Configurazione aggiornata il <strong><i>Device: Push Config</i></strong></p> <p>Oppure</p> <p>Configurazione aggiornata il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
   </tr>
  </tbody>

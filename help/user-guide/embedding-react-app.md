@@ -10,16 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # Incorporare un’applicazione REACT utilizzando l’editor SPA dell’AEM e Integrare con AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
-Puoi incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o Angular). A tale scopo, utilizza l’editor SPA dell’AEM configurato dai professionisti dell’AEM. Scopri anche come integrare l’applicazione interattiva con Adobe Analytics offline.
+Puoi incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o Angular). A tale scopo, utilizza l’editor SPA dell’AEM configurato dai professionisti del settore AEM. Scopri anche come integrare l’applicazione interattiva con Adobe Analytics offline.
 
 ## Utilizzo dell’Editor SPA dell’AEM {#using-the-aem-spa-editor}
 
@@ -56,7 +56,7 @@ Per utilizzare l’Editor SPA dell’AEM, segui la procedura riportata di seguit
 Per modificare i contenuti nell’app REACT:
 
 1. Accedi a `https://localhost:4502/editor.html/content/mysamplespa/en/home.html` (sostituisci il nome host, la porta e il nome del progetto, a seconda dei casi).
-1. Dovresti essere in grado di modificare il testo visualizzato nell’applicazione Hello world.
+1. Possibilità di modificare il testo visualizzato nell&#39;applicazione Hello World.
 
 ### Aggiunta dell’app REACT interattiva ad AEM Screens {#adding-the-interactive-react-app-to-aem-screens}
 
@@ -81,7 +81,7 @@ Per aggiungere l’app REACT interattiva ad AEM Screens, segui i passaggi seguen
 
    ![screen_shot_2019-02-15at100555am](assets/screen_shot_2019-02-15at100555am.png)
 
-1. Trascina la **Pagina incorporata** , o riutilizzare il componente esistente in un canale dell&#39;applicazione, e fare clic sulla home page sotto l&#39;applicazione mysamplespa, ad esempio, ***/content/mysamplespa/en/home***.
+1. Trascina la **Pagina incorporata** o riutilizzare il componente esistente in un canale dell&#39;applicazione e fare clic sulla home page sotto l&#39;applicazione mysamplespa, ad esempio, ***/content/mysamplespa/en/home***.
 
    ![screen_shot_2019-02-15at101104am](assets/screen_shot_2019-02-15at101104am.png)
 
@@ -90,7 +90,7 @@ Per aggiungere l’app REACT interattiva ad AEM Screens, segui i passaggi seguen
    >[!NOTE]
    >Assicurati di aggiungere l’evento di interazione dell’utente quando assegni il canale alla visualizzazione.
 
-1. Registra un lettore per questo progetto e assegnalo al display. Ora dovresti essere in grado di vedere l’applicazione interattiva in esecuzione su AEM Screens.
+1. Registra un lettore per questo progetto e assegnalo al display. Ora puoi vedere la tua applicazione interattiva in esecuzione su AEM Screens.
 
    Consulta [Registrazione dispositivo](device-registration.md) per ulteriori informazioni sulla registrazione di un dispositivo.
 
@@ -103,7 +103,7 @@ Segui i passaggi seguenti per integrare l’SPA con Adobe Analytics con funziona
    Consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori informazioni su come eseguire la sequenza in Adobe Analytics con AEM Screens e inviare eventi personalizzati utilizzando offline Adobe Analytics.
 
 1. Modifica l’app React nell’IDE/editor che preferisci (in particolare il componente testo o un altro componente da cui vuoi iniziare a emettere eventi).
-1. Aggiungi le informazioni di analisi utilizzando il modello dati standard all’evento di clic o a un altro evento che desideri acquisire per il componente.
+1. Aggiungi le informazioni di analisi utilizzando il modello dati standard all’evento di clic o all’altro evento che desideri acquisire per il componente.
 
    Consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori dettagli.
 

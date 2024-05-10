@@ -1,6 +1,6 @@
 ---
 title: Utilizzo di AEM Screens Player
-description: Scopri come utilizzare AEM Screens Player, l’interfaccia utente di amministrazione e il Channel Switcher.
+description: Scopri come utilizzare AEM Screens Player, l’interfaccia utente di amministrazione e il selettore di canale.
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Dopo aver assegnato un canale a una visualizzazione, AEM Screens Player visualiz
 
 ## Utilizzo del dashboard dei dispositivi {#using-the-device-dashboard}
 
-Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositivi, accessibile tramite l’istanza di authoring AEM.
+Puoi configurare le preferenze per il dispositivo dal dashboard Dispositivo, accessibile tramite l’istanza di authoring AEM.
 
 1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
@@ -40,7 +40,7 @@ Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositiv
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Controlla la **PREFERENZE** pannello. È possibile abilitare/disabilitare **Interfaccia utente amministratore** e **Commutatore canale** per il lettore da queste due opzioni.
+1. Controlla la **PREFERENZE** pannello. È possibile abilitare o disabilitare **Interfaccia utente amministratore** e **Commutatore canale** per il lettore da queste due opzioni.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
@@ -48,7 +48,7 @@ Puoi configurare le preferenze per il dispositivo dalla dashboard dei dispositiv
 
 Abilitazione di **Interfaccia utente amministratore** dal pannello delle preferenze, consente all’utente di aprire le impostazioni di amministrazione da Screens Player. Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente non può aprire l’interfaccia utente di amministrazione dal lettore.
 
-Per visualizzare l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra per aprire il menu Amministratore, sul lettore AEM Screens touch o utilizzando un mouse. Le informazioni vengono visualizzate al termine della registrazione e dopo il caricamento dei canali.
+Per visualizzare l’interfaccia utente di amministrazione da Screens Player, premi a lungo l’angolo in alto a sinistra per aprire il menu Admin, sul lettore AEM Screens touch o utilizzando un mouse. Le informazioni vengono visualizzate al termine della registrazione e dopo il caricamento dei canali.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Il menu Configurazione consente di modificare le seguenti impostazioni:
 
 * Specifica il numero massimo di file di registro che desideri mantenere per un lettore AEM Screens in **N. max. di file di registro da mantenere**.
 
-* Attiva o disattiva **Menu Amministrazione**, **Commutatore canale**, e **Interfaccia attività** per Screens.
+* Attiva o disattiva la **Menu Amministrazione**, **Commutatore canale**, e **Interfaccia attività** per Screens Player.
 
   Se il **Interfaccia attività** è abilitato da **Configurazione** AEM Screens Player visualizza il menu *notifiche di attività del lettore* nell’angolo in alto a destra del lettore, come illustrato nella figura seguente.
 
@@ -92,7 +92,7 @@ Fai clic su **Cache contenuto** dalla barra laterale, in modo da poter aggiornar
 
 ### Commutatore canale {#the-channel-switcher}
 
-Abilitazione di **Commutatore canale** dal pannello delle preferenze, consente all’utente di aprire la selezione del canale o le impostazioni da Screens Player.
+Abilitazione di **Commutatore canale** dal pannello delle preferenze consente all’utente di aprire le impostazioni di selezione del canale da Screens Player.
 
 Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente non può controllare le preferenze del canale da Screens Player.
 
@@ -104,19 +104,19 @@ Per visualizzare il commutatore di canale dal lettore, premere a lungo l&#39;ang
 
 >[!NOTE]
 >
->È inoltre possibile abilitare o disabilitare il menu di amministrazione e il selettore di canale per il lettore dal lettore Screens.
+>È inoltre possibile abilitare o disabilitare il menu di amministrazione e il selettore di canale per il lettore da Screens Player.
 >
 >(vedere *Modifica preferenze da Screens Player* come indicato nella sezione seguente).
 
 ### Gestione delle preferenze da AEM Screens Player
 
-Puoi anche modificare le impostazioni dell’interfaccia utente di amministrazione e del selettore di canale dal lettore stesso.
+Puoi anche modificare le impostazioni per l’interfaccia utente di amministrazione e il selettore di canale dal lettore stesso.
 
 Per modificare le preferenze dal lettore:
 
 1. Premi a lungo sull’angolo in alto a sinistra del canale inattivo per aprire il pannello di amministrazione.
 1. Accedi a **Configurazione** dal menu Azioni sinistro.
-1. Abilita/disabilita configurazione per **Interfaccia utente amministratore** o **Commutatore canale**.
+1. Attiva o disattiva la configurazione per **Interfaccia utente amministratore** o **Commutatore canale**.
 
 ![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
@@ -127,11 +127,11 @@ Puoi risolvere vari problemi associati al lettore AEM Screens (hardware e softwa
 | **Problemi** | **Recommendations** |
 |---|---|
 | Spazio di archiviazione del lettore pieno | Eliminazione dei file non necessari |
-| Rete persa dal lettore | Utilizzare il cavo Cat-5/Cat-6. Per il wifi, ridurre la distanza tra il router e il dispositivo di riproduzione |
+| Rete persa dal lettore | Utilizzare il cavo CAT-5 o CAT-6. Per il wifi, ridurre la distanza tra il router e il dispositivo di riproduzione |
 | Arresto anomalo del lettore AEM Screens | Si consiglia di disporre di un’app watchdog che garantisca l’esecuzione continua di AEM Screens Player |
 | Impostazioni perse del lettore AEM Screens | Controllare la connessione al server AEM |
 | AEM Screens Player non si avvia automaticamente dopo il riavvio o il riavvio del lettore | Controllare la cartella di avvio del sistema operativo o la procedura di inizializzazione |
-| AEM Screens Player mostra contenuti errati/obsoleti | Verifica connessione di rete |
+| AEM Screens Player mostra contenuti errati o obsoleti | Verifica connessione di rete |
 
 ### Aggiornamenti per AEM Screens Player
 
@@ -140,7 +140,7 @@ Esistono due tipi di aggiornamenti per AEM Screens Player:
 | **Metodo** | **Dettagli** | **tramite telecomando** | **Automatizzato** | **0 tempi di inattività** |
 |---|---|---|---|---|
 | Aggiornamento firmware | Applicato ai lettori installati esistenti tramite comando remoto. Dopo l&#39;aggiornamento, il lettore viene ricaricato automaticamente con il contenuto esistente. | Sì | Personalizzato | Quasi - 1-3 secondi |
-| Aggiornamenti della shell del lettore | Questo è un nuovo eseguibile da distribuire in Windows Media Player. A tal fine, è necessario copiare in remoto un nuovo file binario sul lettore, arrestare l&#39;esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario scaricare di nuovo il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzato | No |
+| Aggiornamenti della shell del lettore | Un nuovo eseguibile distribuito sul lettore. Questa funzionalità richiede di copiare in remoto il nuovo binario sul lettore, arrestare l’esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario scaricare nuovamente il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzato | No |
 
 ## Linee guida per la selezione dell&#39;hardware per il dispositivo del lettore {#hardware-selection-guidelines-for-player-device}
 
@@ -151,7 +151,7 @@ La sezione seguente fornisce le linee guida per la selezione dell&#39;hardware p
 * Interagisci sempre con i fornitori che operano nel mercato del digital signage.
 * Considera sempre fattori ambientali quali la temperatura ambiente e l’umidità relativa.
 * Controllare sempre i requisiti di alimentazione e il condizionamento dell&#39;alimentazione.
-* Esaminare attentamente le prestazioni richieste e le porte di I/O richieste per l&#39;applicazione.
+* Esaminare attentamente le prestazioni richieste e le porte di I/O necessarie per l&#39;applicazione.
 
 La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici per un progetto AEM Screens:
 

@@ -1,6 +1,6 @@
 ---
-title: Implementazione di Android Player
-description: Scopri l’implementazione di Android Watchdog, una soluzione che consente di recuperare il lettore Android dagli arresti anomali.
+title: Implementazione di Android&trade; Player
+description: Scopri l’implementazione di Android&trade; Watchdog, una soluzione che consente di recuperare Android&trade; player dagli arresti anomali.
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---

@@ -2,9 +2,9 @@
 title: Supporto e manutenzione per il giorno 2
 description: Scopri il supporto e la manutenzione per il giorno due di AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: 10c168cd00b79964d229e3d2a14049e799d89d77
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---

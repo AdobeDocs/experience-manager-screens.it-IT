@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 752c74d7-5d6d-4363-97ef-b96e97d2f6b1
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 È possibile generare copie trasformate Full HD manuali e automatiche. La sezione seguente descrive il flusso di lavoro per aggiungere rappresentazioni alle risorse.
 
-## Generazione automatica di rappresentazioni Full HD  {#automatically-generating-full-hd-renditions}
+## Generazione automatica di rappresentazioni Full HD {#automatically-generating-full-hd-renditions}
 
 >[!NOTE]
 >
->Se le rappresentazioni video di AEM Screens non vengono riprodotte in modo ottimale sul dispositivo, contatta il fornitore dell’hardware per le specifiche del video. Questo aiuta a ottenere le migliori prestazioni sul dispositivo e quindi crea un tuo profilo video personalizzato in cui fornisci i parametri appropriati affinché FFMPEG possa generare la tua rappresentazione. Quindi, utilizza i passaggi seguenti per aggiungere il tuo profilo video personalizzato all’elenco dei profili.
+>Se le rappresentazioni video di AEM Screens non vengono riprodotte in modo ottimale sul dispositivo, contatta il fornitore dell’hardware per le specifiche del video. In questo modo è possibile ottenere le migliori prestazioni sul dispositivo. Consente di creare un profilo video personalizzato con i parametri appropriati affinché FFMPEG possa generare la rappresentazione. Quindi, utilizza i passaggi seguenti per aggiungere il tuo profilo video personalizzato all’elenco dei profili.
 >
 >Vedi anche [Video sulla risoluzione dei problemi](troubleshoot-videos.md) per eseguire il debug e risolvere i problemi relativi alla riproduzione di video nel canale.
 
-Per generare automaticamente rappresentazioni Full HD, segui la procedura indicata di seguito:
+Per generare automaticamente le rappresentazioni Full HD, effettua le seguenti operazioni:
 
 1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona del martello in modo da poter fare clic su **Flusso di lavoro**.
 

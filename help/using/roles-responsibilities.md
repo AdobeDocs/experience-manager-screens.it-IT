@@ -2,18 +2,18 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
 
 # Ruoli e responsabilità del progetto {#roles-responsibilities}
 
-In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori*, e *IT/Tecnici*.
+In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori*, e *Tecnici IT*.
 
-In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi svolge un ruolo importante all’interno del progetto.
+In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi ha uno scopo importante nel progetto.
 
 Il diagramma seguente mostra i ruoli che è possibile prevedere di visualizzare in tutta la guida.
 
@@ -25,7 +25,7 @@ Il diagramma seguente mostra i ruoli che è possibile prevedere di visualizzare 
 
 ## Definizione dei ruoli {#roles}
 
-La sezione seguente fornisce una panoramica sul pubblico di destinazione:
+La sezione seguente fornisce una panoramica del pubblico target:
 
 ### Adobe {#adobe-audience}
 
@@ -37,13 +37,13 @@ Gli implementatori AEM sono responsabili dell’esecuzione di attività di svilu
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include la possibilità di supportare la riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati, con altre fasi che includono il supporto di elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
+In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati. Altre fasi includono il supporto per gli elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
 
 ### Integratori Audio-Video {#av-integrators}
 
-L&#39;integratore audio-video è il fornitore/partner hardware. È la parte che si occupa della progettazione della vendita al dettaglio e della preparazione del sito, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso Audio-Video Integrator è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
+L&#39;integratore audio-video è il fornitore hardware-partner. È la parte che si occupa della progettazione e della preparazione dei siti di vendita al dettaglio, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso Audio-Video Integrator è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
 
-Un integratore audio-video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti che determinano l&#39;ambito del progetto per la progettazione, la creazione e la gestione efficace delle installazioni relative all&#39;hardware di digital signage.
+Un integratore audio-video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti, determinare l&#39;ambito del progetto per la progettazione, la creazione e la gestione efficace delle installazioni relative all&#39;hardware di digital signage.
 
 #### Considerazione dei partner hardware {#selecting-hardware-partner}
 
@@ -77,7 +77,7 @@ La gestione di contenuti e creatività potrebbe essere la seguente:
 
 ### Project manager {#project-managers}
 
-In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è la persona responsabile per l’intera implementazione del progetto designato. Svolgono importanti responsabilità come la definizione delle tempistiche, la gestione delle esigenze e delle comunicazioni del team, la gestione delle sfide e la garanzia del raggiungimento degli obiettivi.
+In genere, i project manager gestiscono l’intera implementazione di AEM Screens. Un project manager è la persona responsabile per l’intera implementazione del progetto designato. Svolgono responsabilità importanti come l’impostazione delle tempistiche e la gestione delle esigenze del team. e influiscono sulle comunicazioni, affrontando le sfide e garantendo il raggiungimento degli obiettivi.
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ In genere, i project manager gestiscono l’intera implementazione di AEM Screen
 
 ## Fasi del progetto {#project-stages}
 
-Per supportare una corretta implementazione del digital signage, è consuetudine segmentare il progetto in tre fasi. Queste fasi sono comunemente denominate **Giorni**. Non si tratta di giorni letterali, ma di designazioni per ogni fase principale del progetto.
+Per supportare una corretta implementazione del digital signage, è consuetudine segmentare il progetto in tre fasi. Queste fasi sono comunemente denominate **Giorni**. Non sono giorni letterali, ma designazioni per ogni fase principale del progetto.
 
-1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito del progetto.
+1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire l&#39;ambito del progetto.
 1. La seconda fase, *Primo giorno*, si riferisce a tutte le attività incluse nello sforzo di implementazione.
-1. Terza e ultima fase *Giorno due* fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
+1. La terza e ultima fase è *Giorno due*. Fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
 >[!NOTE]
 >
@@ -177,9 +177,9 @@ La tabella seguente riassume **Primo giorno: primo giorno: implementazione del p
 
 * **Autore**: gestione dei contenuti e strategia
 
-* **Sviluppatore**: in genere è un membro del team di implementazione di AEM Screens o del team di sviluppo interno
+* **Sviluppatore**: in genere è un membro del team di implementazione di AEM Screens o un membro di un team di sviluppo interno
 
-* **Tecnico**: è sotto contratto dall&#39;integratore audio-video o fa parte della stessa azienda.
+* **Tecnico**: è sotto contratto da Audio-Video Integrator o fa parte della stessa azienda.
 
 La tabella seguente riassume **Secondo giorno: grafico RACI per il supporto post-lancio**:
 
