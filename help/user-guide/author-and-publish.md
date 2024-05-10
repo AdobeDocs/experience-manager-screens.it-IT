@@ -2,9 +2,9 @@
 title: Configurazione delle istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Prima di iniziare a utilizzare i server di authoring e pubblicazione, è necessa
 >
 >Per ulteriori informazioni sulla panoramica dell’architettura Author e Publish e su come il contenuto viene creato su un’istanza AEM Author e poi replicato in avanti su più istanze Publish, consulta [Panoramica dell’architettura di authoring e pubblicazione](author-publish-architecture-overview.md).
 
-La sezione seguente spiega come impostare gli agenti di replica sulla topologia Author e Publish.
+Nella sezione seguente viene illustrato come impostare agenti di replica sulla topologia Author e Publish.
 
 Puoi impostare un semplice esempio, in cui ospiti un’istanza Author e due istanze Publish:
 
@@ -101,15 +101,15 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
    >È inoltre possibile copiare e rinominare un agente di replica predefinito esistente.
 
 
-#### Creazione di agenti di replica standard  {#creating-standard-replication-agents}
+#### Creazione di agenti di replica standard {#creating-standard-replication-agents}
 
-1. Crea un agente di replica standard per pub1 (l’agente predefinito deve già essere configurato). Ad esempio *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
+1. Crea un agente di replica standard per pub1 (è già necessario configurare un agente predefinito). Ad esempio *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
 1. Crea un agente di replica standard per pub2. È possibile copiare come agente di replica per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. Esempio: *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Creazione di agenti di replica Screens {#creating-screens-replication-agents}
 
-1. Creazione di un agente di replica AEM Screens per pub1. Come funzione integrata, esiste un agente di replica Screens che punta alla porta 4503. Abilitala.
-1. Creazione di un agente di replica AEM Screens per pub2. Copia l’agente di replica di Screens per pub1 e modifica la porta in modo che punti a 4504 per pub2.
+1. Creazione di un agente di replica AEM Screens per pub1. Predefinito, esiste un agente di replica Screens denominato che punta alla porta 4503. Abilitala.
+1. Creazione di un agente di replica AEM Screens per pub2. Copiare l&#39;agente di replica Screens per pub1 e modificare la porta in modo che punti a 4504 per pub2.
 
    >[!NOTE]
    >Per informazioni su come configurare gli agenti di replica Screens, consulta [Configurazione dell’agente di replica di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
@@ -152,7 +152,7 @@ Per ogni istanza di pubblicazione:
 1. Nella console OSGi, passa a **PRINCIPALE** > **Supporto crittografia** (`https://<host>:<port>/system/console/crypto`).
 1. Digita la password di testo normale desiderata (stessa per tutte le istanze) in **Testo normale**
 1. Clic **Protect**.
-1. Copia il valore **Testo protetto** al blocco note o all’editor di testo. Questo valore può essere utilizzato nella configurazione OSGi per ActiveMQ.
+1. Copia il valore **Testo protetto** a un blocco note o a un editor di testo. Questo valore può essere utilizzato nella configurazione OSGi per ActiveMQ.
 
 Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi di crittografia univoche, esegui questo passaggio su ogni istanza pub e salva la chiave univoca per la configurazione successiva.
 
@@ -163,7 +163,7 @@ Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi di
 
 #### Passaggio 4: attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
-Su ogni istanza Publish:
+Su ogni istanza di pubblicazione:
 
 1. Passa a Gestione configurazione OSGi `https://<host>:<port>/system/console/configMgr`
 1. Clic **Provider Apache ActiveMQ Artemis JMS** Configurazione
@@ -187,7 +187,7 @@ Segui i passaggi seguenti per ogni istanza Publish:
 
 >[!NOTE]
 >
->L’accesso alla console OSGi potrebbe richiedere alcuni secondi dopo il salvataggio della configurazione di cui al passaggio precedente. Puoi anche controllare il registro degli errori per ulteriori dettagli.
+>La navigazione alla console OSGi potrebbe richiedere alcuni secondi dopo il salvataggio della configurazione di cui al passaggio precedente. Puoi anche controllare il registro degli errori per ulteriori dettagli.
 
 Ad esempio, l&#39;immagine seguente viene visualizzata in caso di configurazione corretta del server ActiveMQ Artemis.
 
@@ -197,7 +197,7 @@ Se non vedi la seguente configurazione da */system/console/mq*, quindi passa a *
 
 #### Rimuovi requisito intestazione referente {#remove-referrer-header-requirement}
 
-Segui i passaggi per ogni istanza Publish:
+Segui i passaggi descritti in ogni istanza Publish:
 
 1. Accedi a **Console OSGi** > **Gestione configurazione**
 1. Clic **Filtro referrer Apache Sling**
@@ -220,7 +220,7 @@ Dopo aver impostato la topologia di pubblicazione, configura le istanze Author e
 
 >[!NOTE]
 >
->Puoi aprire un lettore AEM Screens utilizzando l’app AEM Screens che hai scaricato o il browser web.
+>Puoi aprire un lettore AEM Screens utilizzando l’app AEM Screens che hai scaricato o il browser Web.
 
 #### Passaggio 2: registrazione di un dispositivo durante l’authoring {#step-registering-a-device-on-author}
 
@@ -252,7 +252,7 @@ Per replicare l’utente del dispositivo, segui la procedura riportata di seguit
 
 >[!CAUTION]
 >
->Non attivare author-publish-screens-service in quanto è un utente di sistema utilizzato dal processo di authoring.
+>Non attivare il servizio author-publish-screens-service in quanto è un utente di sistema utilizzato dal processo di authoring.
 
 È inoltre possibile attivare il dispositivo dalla console di gestione dei dispositivi. Effettua le seguenti operazioni:
 
@@ -264,7 +264,7 @@ Per replicare l’utente del dispositivo, segui la procedura riportata di seguit
 
 >[!NOTE]
 >
->In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server. Clic **Modifica URL server** dalla barra delle azioni, come illustrato nella figura riportata di seguito, le modifiche vengono propagate ad AEM Screens Player.
+>In alternativa, dopo aver attivato il dispositivo, puoi anche modificare o aggiornare l’URL del server. Dalla barra delle azioni, fai clic su **Modifica URL server**, come illustrato nella figura seguente. Le modifiche vengono propagate ad AEM Screens Player.
 
 ![screen_shot_2019-02-21at105527am](assets/screen_shot_2019-02-21at105527am.png)
 
@@ -272,27 +272,27 @@ Per replicare l’utente del dispositivo, segui la procedura riportata di seguit
 
 I punti seguenti riepilogano l&#39;elenco di controllo per la pubblicazione:
 
-* *Utente dispositivo Screens* - Questo viene memorizzato come utente AEM e deve essere attivato da **Strumenti** > **Sicurezza** > **Utenti**. All’utente viene aggiunto il prefisso &quot;screens&quot; con una lunga stringa serializzata.
+* *Utente dispositivo Screens* - Queste informazioni sono memorizzate come utente AEM e possono essere attivate da **Strumenti** > **Sicurezza** > **Utenti**. All’utente viene aggiunto il prefisso &quot;screens&quot; con una lunga stringa serializzata.
 
 * *Progetto* - Il progetto AEM Screens.
 * *Posizione* : posizione a cui è connesso il dispositivo.
-* *Canali* - uno o più canali visualizzati nel percorso
-* *Pianificazione* - se utilizzi una pianificazione, assicurati che sia pubblicata
-* *Cartella posizioni, pianificazioni e canali* - se le risorse corrispondenti si trovano all’interno di una cartella.
+* *Canali* - Uno o più canali visualizzati nel percorso.
+* *Pianificazione* - Se utilizzi una pianificazione, assicurati che questa pianificazione sia pubblicata.
+* *Cartella posizioni, pianificazioni e canali* - Se le risorse corrispondenti si trovano all’interno di una cartella.
 
 Per verificare il comportamento di authoring e pubblicazione, segui i passaggi seguenti:
 
 1. Aggiorna alcuni contenuti del canale nell’istanza di authoring.
 1. Esegui **Gestisci pubblicazione** per pubblicare le nuove modifiche su tutte le istanze Publish.
 1. Premi **Attiva** per attivare il dispositivo da **Gestione dispositivi**.
-1. **Modifica URL** dall’URL dell’istanza di authoring a uno dell’URL delle istanze di pubblicazione.
+1. Seleziona **Modifica URL** dall’URL dell’istanza di authoring a uno dell’URL delle istanze di pubblicazione.
 1. Verifica che il contenuto del canale aggiornato venga visualizzato in AEM Screens Player.
 1. Ripeti questi passaggi utilizzando un’istanza Publish diversa.
 
 
 #### Passaggio 5: indirizzamento del dispositivo all’istanza Publish nel pannello di amministrazione {#step-pointing-the-device-to-publish-instance-in-the-admin-panel}
 
-1. Visualizza l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra in modo da poter aprire il menu Amministratore, sul lettore AEM Screens touch abilitato o utilizzando un mouse.
+1. Visualizza l’interfaccia utente di amministrazione dal lettore Screens, premi a lungo l’angolo in alto a sinistra in modo da poter aprire il menu Amministratore, sul lettore AEM Screens touch o utilizzando un mouse.
 1. Fai clic su **Configurazione** dal pannello laterale.
 1. Cambia l’istanza di authoring in Istanza di pubblicazione in **Server**.
 
@@ -302,7 +302,7 @@ In alternativa, puoi anche aggiornare/modificare l’URL del server dalla consol
 
 1. Passa al progetto AEM Screens e fai clic su **Dispositivi** cartella.
 1. Clic **Gestione dispositivi** dalla barra delle azioni.
-1. Fare clic sul dispositivo e fare clic su **Modifica URL server** dalla barra delle azioni, come illustrato nella figura riportata di seguito, e le modifiche vengono propagate ad AEM Screens Player.
+1. Fare clic sul dispositivo, quindi nella barra delle azioni fare clic su **Modifica URL server**, come illustrato nella figura seguente. Le modifiche vengono propagate ad AEM Screens Player.
 
 ![screen_shot_2019-02-07at31028pm](assets/screen_shot_2019-02-07at31028pm.png)
 
@@ -310,7 +310,7 @@ Il **Gestisci pubblicazione** Questa funzione consente di fornire aggiornamenti 
 
 ## Suggerimenti per la risoluzione dei problemi {#troubleshoot-tips}
 
-Leggi la sezione seguente per ottenere risposte alle domande frequenti relative alla configurazione di authoring/pubblicazione.
+Segui la sezione seguente per ottenere risposte alle domande frequenti relative alla configurazione Author/Publish.
 
 ### Come si aggiunge un reindirizzamento da https a http dopo la registrazione e l’assegnazione iniziali? {#add-redirect}
 
@@ -325,4 +325,4 @@ Concedi autorizzazioni di lettura per utenti di servizi bulk-offline-update-scre
 ### Come si risolvono gli errori dell’agente di replica di Screens? {#replication-agent}
 
 **Soluzione**
-Assicurati di non aver selezionato l’opzione Usa per replica inversa nella configurazione dell’agente. L’agente di replica di Screens non può essere utilizzato come agente di replica inversa e l’ambito di questa funzione è quello di inoltrare i comandi del dispositivo dall’istanza di authoring a quella di pubblicazione.
+Assicurati di non aver selezionato l’opzione Usa per replica inversa nella configurazione dell’agente. L’agente di replica Screens non può essere utilizzato come agente di replica inversa e l’obiettivo di questa funzione è inoltrare i comandi del dispositivo dall’istanza di authoring a quella di pubblicazione.

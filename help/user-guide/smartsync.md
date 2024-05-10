@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ SmartSync è il meccanismo più recente utilizzato da AEM Screens. Serve come so
 
 Viene eseguito sia sul lato server che sul lato client.
 
-**Sul lato server**:
+**Sul lato server**
 
 * Il contenuto dei canali, incluse le risorse, è memorizzato nella cache in *`/var/contentsync`*.
 * La cache viene esposta ai lettori tramite un manifesto che descrive il contenuto disponibile per una visualizzazione.
 
-**Sul lato client**:
+**Sul lato client**
 
-* Il contenuto del lettore viene aggiornato in base al manifesto generato in precedenza.
+* Il lettore aggiorna il contenuto in base al manifesto generato in precedenza.
 
 ### Vantaggi dell&#39;utilizzo di SmartSync {#benefits-of-using-smartsync}
 

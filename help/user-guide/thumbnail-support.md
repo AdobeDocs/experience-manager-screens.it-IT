@@ -2,7 +2,7 @@
 title: Supporto di miniature per video in AEM Screens
 description: Scopri come aggiungere il supporto per miniature per video in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 2%
@@ -13,12 +13,12 @@ ht-degree: 2%
 
 ## Introduzione {#introduction}
 
-Un autore di contenuti può definire una miniatura per video in modo che l’immagine venga utilizzata come segnaposto e possa testare correttamente la riproduzione e il targeting del contenuto, mentre il video effettivo viene finalizzato dal team appropriato. L’immagine può essere utilizzata anche in caso di interruzione della riproduzione del video.
+Un autore di contenuti può definire una miniatura per video in modo che l’immagine venga utilizzata come segnaposto. È in grado di testare correttamente la riproduzione e il targeting dei contenuti, mentre il team appropriato finalizza il video effettivo. L’immagine può essere utilizzata anche in caso di interruzione della riproduzione del video.
 
 L’aggiunta di supporto per un’immagine miniatura sul componente video consente al cliente di aggiungere correttamente un componente valido nel canale, con il contenuto effettivo ed eseguire eventuali configurazioni di targeting prima che il video venga consegnato.
 
 >[!NOTE]
->L’immagine miniatura, se impostata sul componente video, viene riprodotta in caso di errore di riproduzione video sul lettore. Questo ti consente di inviare il messaggio desiderato al pubblico (riproducendo il contenuto) invece di saltarlo completamente.
+>L’immagine miniatura, se impostata sul componente video, viene riprodotta in caso di errore di riproduzione video sul lettore. Questo fallback consente di inviare il messaggio desiderato al pubblico (riproducendo il contenuto) invece di saltarlo completamente.
 
 Il supporto delle miniature consente di:
 
@@ -28,7 +28,7 @@ Il supporto delle miniature consente di:
 
 ## Utilizzo delle miniature nei video {#using-thumbnails}
 
-Per usare la miniatura nei video, segui la procedura indicata di seguito:
+Per usare una miniatura nei video, segui la procedura indicata di seguito:
 
 1. Passa a un canale AEM Screens esistente o creane uno.
 

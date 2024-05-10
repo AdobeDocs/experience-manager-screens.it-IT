@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d98b449f-6b7d-4c08-b507-a64dece84ba8
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -46,12 +46,12 @@ In un progetto sono disponibili cinque tipi di cartelle, come illustrato nella f
 
 >[!NOTE]
 >
->Per impostazione predefinita, la struttura iniziale contiene **Schedules**, **Posizioni**, **Applicazioni**, **Canali**, e **Dispositivi** pagine primarie, ma può essere regolato manualmente se necessario. Puoi rimuovere le opzioni se quelle disponibili non sono pertinenti al progetto.
+>Per impostazione predefinita, la struttura iniziale contiene **Schedules**, **Posizioni**, **Applicazioni**, **Canali**, e **Dispositivi** pagine primarie, ma questa struttura può essere regolata manualmente se necessario. Puoi rimuovere le opzioni se quelle disponibili non sono pertinenti al progetto.
 
 
 ## Visualizzazione delle proprietà {#viewing-properties}
 
-Dopo aver creato il progetto Schermi, fai clic sul progetto e quindi su **Proprietà** dalla barra delle azioni per modificare le proprietà del progetto.
+Dopo aver creato il progetto Schermi, fai clic sul progetto e quindi su **Proprietà** dalla barra delle azioni, in modo da poter modificare le proprietà del progetto.
 
 Le seguenti opzioni consentono di modificare/modificare le proprietà del **TestScreens**.
 
@@ -59,7 +59,7 @@ Le seguenti opzioni consentono di modificare/modificare le proprietà del **Test
 
 ## Creazione di una cartella personalizzata {#creating-a-custom-folder}
 
-Puoi anche creare una cartella personalizzata in **Schedules**, **Posizioni**, **Applicazioni**, **Canali**, e **Dispositivi** pagine principali disponibili nel progetto.
+Puoi anche creare una cartella personalizzata sotto il **Schedules**, **Posizioni**, **Applicazioni**, **Canali**, e **Dispositivi** pagine principali disponibili nel progetto.
 
 Per creare una cartella personalizzata:
 
