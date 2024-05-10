@@ -1,9 +1,9 @@
 ---
 title: Elenco di controllo della sicurezza per AEM Screens
 description: Ulteriori informazioni sull’elenco di controllo per la sicurezza di AEM Screens.
-source-git-commit: b65e59473e175e7c1b31fba900bb7e47eff3a263
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Considerazioni sulla sicurezza del sistema per AEM Screens {#security-checklist}
 
 >[!IMPORTANT]
->Questa è una risorsa Git interna.
+>Una risorsa Git interna.
 
 Questa pagina illustra le considerazioni sulla sicurezza del sistema per AEM Screens.
 
@@ -24,7 +24,7 @@ Questa sezione descrive il white paper. (allegato White Paper in sospeso)
 
 ## Domande frequenti sulla sicurezza di AEM Screens {#faqs-screens}
 
-Le seguenti domande frequenti presuppongono un’architettura del lettore autenticata e registrata che utilizza HTTPS come protocollo di comunicazione tra il lettore e il server AEM.
+Le seguenti domande frequenti presuppongono un’architettura del lettore autenticata e registrata. Utilizza HTTPS come protocollo di comunicazione tra il lettore e il server AEM.
 
 ### Domande frequenti 1 {#faq1}
 
@@ -41,7 +41,7 @@ Devo utilizzare HTTP o HTTP?
 
 **Risposta**
 
-Utilizza HTTP. Questo è un must se sei preoccupato della sicurezza. Con gli HTTP, la comunicazione è crittografata tra il lettore e il server e intercettare il contenuto o modificarlo è impossibile.
+Utilizza HTTP. Questo protocollo è un must se sei preoccupato per la sicurezza. Con gli HTTP, la comunicazione è crittografata tra il lettore e il server e intercettare il contenuto o modificarlo è impossibile.
 
 
 ### Domande frequenti 3 {#faq3}
@@ -50,7 +50,7 @@ In un download di contenuti, esiste una sorta di firma del contenuto o dell’ha
 
 **Risposta**
 
-Ogni risorsa è firmata (SHA) dal server e quindi convalidata dal lettore per lo stesso hash, in modo da garantire l’integrità.
+Ogni risorsa è firmata (SHA) dal server. Il lettore lo convalida quindi per lo stesso hash per garantire l’integrità.
 Se l&#39;hash non corrisponde, il software tenta di riconvalidare tre volte. Dopo tre tentativi, il comando di download viene considerato non valido.
 
 

@@ -2,14 +2,14 @@
 title: Configurazioni della piattaforma AEM
 description: La pagina descrive le configurazioni della piattaforma AEM
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
 
-# Configurazioni della piattaforma AEM  {#platform-configurations}
+# Configurazioni della piattaforma AEM {#platform-configurations}
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Consulta [Configurazione di Author e Publish in AEM Screens](https://experiencel
 
 >[!NOTE]
 >
->Se esiste un solo autore e una sola pubblicazione, segui i passaggi descritti in **Impostazione degli agenti di replica sull’autore** in [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) pagina.
+>Se esiste un solo autore e una sola pubblicazione, puoi seguire solo i passaggi descritti in **Impostazione degli agenti di replica sull’autore** in [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish) pagina.
 
 ## Configurazioni di Dispatcher {#dispatcher-configurations}
 
@@ -49,7 +49,7 @@ Installare FFMpeg seguendo la procedura per il sistema operativo appropriato (in
 
 ## Limitazioni password {#password-restrictions}
 
-I criteri password dell&#39;AEM devono essere disabilitati nell&#39;istanza AMS. Questa può essere configurata alternativamente nella console web utilizzando il servizio per dispositivi Screens *com.adobe.cq.screens.device.impl.DeviceService*
+I criteri password dell&#39;AEM devono essere disabilitati nell&#39;istanza AMS. Può anche essere configurato alternativamente nella console web utilizzando il servizio per dispositivi Screens *com.adobe.cq.screens.device.impl.DeviceService*
 Consulta **Limitazioni password** sezione in[Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configurazione degli ambienti {#setting-up-environments}
@@ -71,4 +71,4 @@ Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale. I
 
 La sezione Configurazione di ACL spiega come separare i progetti in modo che ogni singolo utente o team gestisca il proprio progetto.
 
-Fai riferimento a [Impostazione di ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) per ulteriori dettagli.
+Consulta [Impostazione di ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls) per ulteriori dettagli.

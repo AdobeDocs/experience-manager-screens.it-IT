@@ -1,14 +1,14 @@
 ---
 title: Canale TakeOver permanente
-description: Segui questo caso d’uso per creare un canale di acquisizione permanente.
+description: Scopri come creare un canale di acquisizione permanente.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La pagina seguente presenta un caso d’uso con particolare attenzione alla conf
 ## Descrizione del caso d’uso {#use-case-description}
 
 Questo caso d’uso spiega come creare un canale che *subentra* dal canale di riproduzione normale per un display o un gruppo di display. L&#39;acquisizione avviene perennemente per un giorno e un&#39;ora specifici.
-Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L&#39;esempio seguente mostra la creazione di un canale di acquisizione permanente che viene riprodotto e consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.
+Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L&#39;esempio seguente mostra la creazione di un canale di acquisizione permanente che consente la riproduzione dei contenuti ogni mercoledì per due ore, dalle 14:00 alle 16:00.
 
 ### Precondizioni {#preconditions}
 
@@ -84,12 +84,12 @@ Per impostare un progetto, segui i passaggi seguenti:
 
 1. Fai clic sulla visualizzazione **TakeOver** dal **Posizioni** cartella. Clic **Assegna canale** dalla barra delle azioni, in modo da poter assegnare il canale di acquisizione.
 
-1. Assegnazione del **TakeOver** canale per la visualizzazione a un orario pianificato e popolando i seguenti campi dalla **Assegnazione canale** finestra di dialogo e selezione **Salva**:
+1. Assegnazione del **TakeOver** canale al display a un orario pianificato. Quindi, popolando i seguenti campi dalla sezione **Assegnazione canale** finestra di dialogo e selezione **Salva**:
 
    * **Percorso canale**: fai clic sul percorso per **TakeOver** channel
    * **Priorità**: imposta la priorità di questo canale su un valore maggiore di **MainAdChannel**. Ad esempio, la priorità impostata in questo esempio è 8.
    * **Eventi supportati**: fai clic su **Schermata di inattività** e **Timer**.
-   * **Pianificazione**: immetti il testo per la pianificazione in base alla quale il canale deve eseguire la visualizzazione. Il testo nella **Pianificazione** menzionato in questo esempio è *il mercoledì dopo le 14:00 e prima delle 16:00*.
+   * **Pianificazione**: immetti il testo per la pianificazione per cui desideri che il canale venga eseguito sul display. Il testo nella **Pianificazione** menzionato in questo esempio è *il mercoledì dopo le 14:00 e prima delle 16:00*.
 
      >[!NOTE]
      >Per ulteriori informazioni sulle espressioni puoi aggiungere al **Pianificazione**, vedere [Espressioni di esempio](#example-expressions) sezione successiva.
@@ -101,7 +101,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
      ![risorsa](assets/p_usecase7.png)
 
-     Passa alla visualizzazione da **TakeOver** > **Posizioni** > **LobbyPrincipale** > **MainLobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
+     Passa alla visualizzazione da **TakeOver** > **Posizioni** > **LobbyPrincipale** > **MainLobbyDisplay**, Quindi, fai clic su **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
 
      >[!NOTE]
      >È obbligatorio impostare come massima la priorità del canale di acquisizione.
@@ -119,8 +119,8 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | dopo le 14:00 | il canale viene riprodotto ogni giorno dopo le 14:00 |
 | dopo le 12:15 e prima delle 12:45 | il canale viene riprodotto ogni giorno dopo le 12:15 per 30 minuti |
 | prima delle 12:15 anche dopo le 12:45 | il canale viene riprodotto ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
-| il primo giorno di gennaio dopo le 14:00 anche il secondo giorno di gennaio anche il terzo giorno di gennaio prima delle 03:00. | il canale inizia la riproduzione dopo le 14:00 del 1° gennaio e continua per l’intera giornata del 2 gennaio fino alle 03:00 del 3 gennaio |
-| nei 1-2 giorni di gennaio dopo le 14:00 anche nei 2-3 giorni di gennaio prima delle 03:00. | il canale avvia il lettore dopo le 14:00 del 1° gennaio, continua a giocare fino alle 03:00 del 2 gennaio, quindi riparte il 2 gennaio alle 14:00 e continua a giocare fino alle 03:00 del 3 gennaio |
+| il primo giorno di gennaio dopo le 14:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle 03:00. | il canale inizia la riproduzione dopo le 14:00 del 1 gennaio, continua per l&#39;intera giornata del 2 gennaio fino alle 03:00 del 3 gennaio |
+| nei 1-2 giorni di gennaio dopo le 2:00 anche nei 2-3 giorni di gennaio prima delle 3:00. | il canale avvia il lettore dopo le 14:00 del 1 gennaio, continua a giocare fino alle 03:00 del 2 gennaio, quindi riparte il 2 gennaio alle 14:00 e continua a giocare fino alle 03:00 del 3 gennaio |
 
 >[!NOTE]
 >
