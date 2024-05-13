@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -77,14 +77,14 @@ Il ***Sincronizzazione contenuti*** utilizza i gestori di aggiornamenti per anal
 
 Per verificare la configurazione di ContentSync, segui i passaggi seguenti:
 
-1. Apri `https://localhost:4502/libs/cq/contentsync/content/console.html`
-1. Fai clic sulla configurazione nell’elenco
-1. Fai clic su Cancella cache
-1. Fai clic su Aggiorna cache
-1. Fai clic su Scarica completo
-1. Estrai il file zip
-1. Avvia un server locale nella cartella estratta
-1. Apri la pagina iniziale e controlla lo stato dell’app
+1. Apri `https://localhost:4502/libs/cq/contentsync/content/console.html`.
+1. Fai clic sulla configurazione nell’elenco.
+1. Clic **Cancella cache**.
+1. Clic **Aggiorna cache**.
+1. Clic **Download completo**.
+1. Estrai il file zip.
+1. Avvia un server locale nella cartella estratta.
+1. Apri la pagina iniziale e controlla lo stato dell’app.
 
 ## Abilitazione della configurazione offline per un canale {#enabling-offline-config-for-a-channel}
 
@@ -118,4 +118,4 @@ Per abilitare la configurazione offline per un canale, effettua le seguenti oper
 
 >[!NOTE]
 >
->Per ulteriori informazioni sul modello per i gestori di risorse offline personalizzati e sui requisiti minimi in `pom.xml` per quel progetto specifico, consulta [Modello per gestori personalizzati](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Sviluppo di un componente personalizzato per AEM Screens**.
+>Scopri il modello per i gestori di risorse offline personalizzati. Inoltre, scopri di più sui requisiti minimi in `pom.xml` per il progetto. Consulta [Modello per gestori personalizzati](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Sviluppo di un componente personalizzato per AEM Screens**.

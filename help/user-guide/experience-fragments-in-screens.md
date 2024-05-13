@@ -10,9 +10,9 @@ feature: Authoring Screens, Experience Fragments
 role: Admin, Developer
 level: Intermediate
 exl-id: 13c0d75e-435f-433e-8886-f451df863517
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1102'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Questa pagina tratta i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-Un ***Frammento esperienza*** è un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui è possibile fare riferimento all’interno delle pagine. I frammenti di esperienza possono contenere qualsiasi componente, ad esempio uno o più componenti che possono contenere qualsiasi elemento all’interno di un sistema paragrafo a cui si fa riferimento nell’esperienza completa o richiesto da un terzo endpoint.
+Un ***Frammento esperienza*** è un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui è possibile fare riferimento all’interno delle pagine. I frammenti di esperienza possono contenere qualsiasi componente. Ad esempio, può contenere uno o più componenti che possono contenere qualsiasi elemento all’interno di un sistema paragrafo a cui si fa riferimento nell’esperienza completa o richiesto da un terzo endpoint.
 
 
 ## Utilizzo di Frammenti esperienza in AEM Screens {#using-experience-fragments-in-aem-screens}
@@ -35,7 +35,7 @@ Un ***Frammento esperienza*** è un gruppo di uno o più componenti, inclusi il 
 >[!NOTE]
 >L’esempio che segue utilizza **`We.Retail`** come progetto dimostrativo da cui viene applicato il frammento di esperienza da una **Sites** a un progetto AEM Screens.
 
-Ad esempio, il seguente flusso di lavoro illustra l’utilizzo di frammenti di esperienza di `We.Retail` in Sites. Puoi scegliere una pagina web e utilizzare tale contenuto nel tuo canale AEM Screens in uno dei tuoi progetti.
+Ad esempio, il seguente flusso di lavoro illustra l’utilizzo di Frammenti di esperienza di `We.Retail` in Sites. Puoi scegliere una pagina web e utilizzare tale contenuto nel tuo canale AEM Screens in uno dei tuoi progetti.
 
 ### Prerequisiti {#pre-requisites}
 
@@ -92,7 +92,7 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 
    ![screen_shot_2019-07-29at105918am](assets/screen_shot_2019-07-29at105918am.png)
 
-   Nota: per selezionare un&#39;opzione più semplice, fare clic sul segno di spunta a destra del campo per aprire la finestra di dialogo di selezione.
+   Per selezionare un&#39;opzione più semplice, fare clic sul segno di spunta a destra del campo per aprire la finestra di dialogo di selezione.
 
 1. **Creazione di Live Copy di un frammento esperienza**
 
@@ -101,13 +101,13 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 
    ![screen_shot_2019-07-29at110443am](assets/screen_shot_2019-07-29at110443am.png)
 
-   c. Fai clic sul pulsante **ScreensFragment** da **Crea Live Copy** e fai clic su **Successivo**.
+   c. Fai clic sul pulsante **ScreensFragment** dal **Crea Live Copy** e fai clic su **Successivo**.
 
    d. Inserire **Titolo** e **Nome** as **Schermi**.
 
    e. Fai clic su **Crea** in modo da poter creare la Live Copy.
 
-   f. Fai clic su **Fine** in modo da tornare a **ScreensFragment** pagina.
+   f. Fai clic su **Fine** in modo da poter tornare al **ScreensFragment** pagina.
 
    ![screen_shot_2019-07-29at110616am](assets/screen_shot_2019-07-29at110616am.png)
 
@@ -121,7 +121,7 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 
    1. Fai clic su **Configurazione offline** come illustrato nella figura riportata di seguito.
 
-   È possibile aggiungere **Librerie lato client** (Java™ e css) e **File statici** nel frammento di esperienza.
+   È possibile aggiungere **Librerie lato client** (Java™ e CSS) **File statici** nel frammento di esperienza.
 
    L’esempio seguente mostra l’aggiunta di librerie lato client e dei font come parte di file statici nel frammento di esperienza.  ![frammento](assets/fragment.gif)
 
@@ -137,11 +137,11 @@ Segui i passaggi seguenti per applicare il contenuto da **`We.Retail`** al tuo *
 
    e. Fai clic sul pulsante **Frammento esperienza** e fai clic sull’icona in alto a sinistra (chiave inglese) per aprire **Frammento esperienza** .
 
-   f. Fai clic sul pulsante **Schermi** live copy del frammento creato in *Passaggio 3* in **Percorso**.
+   f. Fai clic sul pulsante **Schermi** Live Copy del frammento creato in *Passaggio 3* in **Percorso**.
 
    ![screen_shot_2019-07-26at82650pm](assets/screen_shot_2019-07-26at82650pm.png)
 
-   f. Fai clic sul pulsante **Schermi** live copy del frammento creato in *Passaggio 3* nel **Frammento esperienza**.
+   f. Fai clic sul pulsante **Schermi** Live Copy del frammento creato in *Passaggio 3* nel **Frammento esperienza**.
 
    ![screen_shot_2019-07-26at82509pm](assets/screen_shot_2019-07-26at82509pm.png)
 
@@ -171,7 +171,7 @@ Visualizza il contenuto da **Sites** pagina (Live Copy del frammento di esperien
 
 ***Live Copy*** si riferisce alla copia (dell’origine), gestita dalle azioni di sincronizzazione definite dalle configurazioni di rollout.
 
-Poiché il frammento di esperienza creato è una Live Copy da **Sites** e modifichi quel particolare frammento dalla pagina principale, visualizzi le modifiche nel tuo canale. In alternativa, puoi visualizzare la destinazione in cui hai utilizzato il frammento di esperienza.
+Perché il frammento di esperienza creato è una Live Copy dalla sezione **Sites** e modifichi quel particolare frammento dalla pagina principale, visualizzi le modifiche nel tuo canale. In alternativa, puoi visualizzare la destinazione in cui hai utilizzato il frammento di esperienza.
 
 >[!NOTE]
 >

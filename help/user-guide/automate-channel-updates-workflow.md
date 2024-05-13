@@ -1,5 +1,5 @@
 ---
-title: Utilizza il flusso di lavoro per automatizzare gli aggiornamenti delle risorse per un canale AEM Screens
+title: Utilizza un flusso di lavoro per automatizzare gli aggiornamenti delle risorse per un canale AEM Screens
 description: Scopri come creare un flusso di lavoro per elaborare automaticamente le risorse caricate in Adobe Experience Manager e assegnarle in modo dinamico a un canale Screens.
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -7,17 +7,17 @@ topic-tags: developing
 feature: Developing Screens
 role: Developer
 level: Intermediate
-source-git-commit: 3c4b37b3b9f268b500562fa4ce3782b7be1e7d74
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '403'
 ht-degree: 1%
 
 ---
 
 
-# Utilizza il flusso di lavoro per automatizzare gli aggiornamenti delle risorse per un canale AEM Screens {#automate-channel-updates-workflow}
+# Utilizza un flusso di lavoro per automatizzare gli aggiornamenti delle risorse per un canale AEM Screens {#automate-channel-updates-workflow}
 
-Scopri come creare un flusso di lavoro per elaborare automaticamente le risorse caricate in Adobe Experience Manager e assegnarle in modo dinamico a un canale Screens. In questo esempio, quando un’immagine viene aggiunta a una cartella specifica, viene attivato un flusso di lavoro che applica una sovrapposizione di testo dinamica (processo di filigrana) e assegna l’immagine a un canale Screens. Le lezioni apprese da questo esempio possono essere applicate a un’ampia varietà di scenari di automazione.
+Scopri come creare un flusso di lavoro per elaborare automaticamente le risorse caricate in Adobe Experience Manager e assegnarle in modo dinamico a un canale Screens. In questo esempio, un flusso di lavoro viene attivato quando un’immagine viene aggiunta a una cartella specifica. Il flusso di lavoro applica una sovrapposizione di testo dinamica (processo di filigrana) e assegna l’immagine a un canale Screens. Le lezioni apprese da questo esempio possono essere applicate a un’ampia varietà di scenari di automazione.
 
 ## Prerequisiti {#prerequisites}
 
@@ -38,7 +38,7 @@ Il video seguente illustra come installare un pacchetto di codice di esempio che
 
 ## Modello flusso di lavoro {#workflow-model}
 
-È stato creato uno schema di metadati di cartelle personalizzato per acquisire il canale Screens di destinazione in cui aggiungere le immagini. Per automatizzare l’elaborazione delle risorse vengono utilizzati due modelli di flusso di lavoro. Il **Aggiorna risorsa DAM** il flusso di lavoro è stato modificato per chiamare un flusso di lavoro personalizzato, **Elaborazione risorse demo Screens** che controlla la cartella contenitore della risorsa per determinare il canale Schermi di destinazione. Il **Elaborazione risorse demo Screens** workflow è anche responsabile dell&#39;applicazione della filigrana all&#39;immagine.
+È stato creato uno schema di metadati di cartelle personalizzato per acquisire il canale Screens di destinazione in cui aggiungere le immagini. Per automatizzare l’elaborazione delle risorse vengono utilizzati due modelli di flusso di lavoro. Il **Aggiorna risorsa DAM** Il flusso di lavoro viene modificato per richiamare un flusso di lavoro personalizzato, **Screens Demo Asset Processing) che controlla la cartella contenitore della risorsa per determinare il canale Schermi di destinazione. Il **Elaborazione risorse demo Screens** workflow è anche responsabile dell&#39;applicazione della filigrana all&#39;immagine.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 

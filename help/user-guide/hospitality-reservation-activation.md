@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: ae032042-fa2b-49cd-91fe-ce50f3ce9867
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Il seguente caso d’uso illustra l’utilizzo dell’attivazione della prenotaz
 
 ## Descrizione {#description}
 
-Per questo caso d’uso, il foglio Google viene compilato con la percentuale di prenotazioni su due ristoranti **`Restaurant1`** e **`Restaurant2`**. Viene applicata una formula in base ai valori di `Restaurant1` e `Restaurant2` e in base alla formula, il valore 1 o 2 è assegnato al **AdTarget** Colonna.
+Per questo caso d’uso, il foglio Google viene compilato con la percentuale di prenotazioni su due ristoranti **`Restaurant1`** e **`Restaurant2`**. Viene applicata una formula in base ai valori di `Restaurant1` e `Restaurant2` e, in base alla formula, il valore 1 o 2 è assegnato al **AdTarget** Colonna.
 
-Se il valore di **`Restaurant1`** > **`Restaurant2`**, quindi **AdTarget** è un valore assegnato **1** altrimenti **AdTarget** è un valore assegnato **2**. Il valore 1 genera *Bistecca* opzione e Valore due determina la visualizzazione di *Cibo thailandese* sullo schermo.
+Se il valore di **`Restaurant1`** > **`Restaurant2`**, quindi **AdTarget** è un valore assegnato **1** altrimenti **AdTarget** è un valore assegnato **2**. Il valore 1 genera un *Bistecca* opzione e Valore due determina una visualizzazione di *Cibo thailandese* sullo schermo.
 
 ## Precondizioni {#preconditions}
 
@@ -66,7 +66,7 @@ Segui i passaggi del caso d’uso seguenti per implementare l’attivazione dell
 
    >[!CAUTION]
    >
-   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
+   >Il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** A questo punto, la scheda dovrebbe essere già stata impostata.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 

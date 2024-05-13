@@ -2,9 +2,9 @@
 title: Strategia di contenuti aziendali per AEM Screens
 description: Ulteriori informazioni sulla strategia di marketing e contenuti aziendali in relazione ad AEM Screens.
 exl-id: efb8ea95-62c0-41ed-9e67-23d76ad12a4c
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 >
 >Una delle parti interessate per questa attività è un Marketing/Business Strategist.
 
-I contenuti sono un fattore importante per stimolare il coinvolgimento. Nella fase di pre-vendita, è importante definire una strategia di contenuti aziendali che tenga conto del modo in cui l&#39;applicazione utilizza le risorse hardware, software e di connettività per offrire il valore desiderato ai clienti.
+I contenuti sono un fattore importante per stimolare il coinvolgimento. Nella fase di pre-vendita è importante definire una strategia di contenuti aziendali. Questa strategia considera il modo in cui l&#39;applicazione utilizza le risorse hardware, software e di connettività per offrire il valore desiderato ai clienti del cliente.
 
-Una strategia dei contenuti aziendali ben definita definisce il percorso per la creazione, la distribuzione e il monitoraggio dell’utilizzo dei contenuti in relazione al percorso dell’acquirente e ai punti di contatto di marketing nel funnel di vendita. È fondamentale trasmettere al cliente giusto il messaggio giusto al momento giusto.
+Una strategia di contenuti aziendali ben definita definisce il percorso per la creazione, la distribuzione e il monitoraggio dell&#39;utilizzo dei contenuti in relazione al percorso dell&#39;acquirente. Vengono inoltre presi in considerazione i punti di contatto di marketing nel funnel di vendita. È fondamentale trasmettere al cliente giusto il messaggio giusto al momento giusto.
 
-Valuta in che modo l’applicazione Screens può contribuire a ottenere questo risultato e determina i KPI per aiutare a misurare il successo dell’applicazione nella distribuzione di quel contenuto.
+Valuta in che modo l’applicazione Screens può contribuire a raggiungere questa strategia e determina i KPI per aiutare a misurare il successo dell’applicazione nella distribuzione di quel contenuto.
 
 >[!NOTE]
 >

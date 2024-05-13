@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
 
    **Frequenza Schedule** : specifica un orario (ad esempio, 17:00 o 17:00) o una frequenza in ore (ad esempio, 1) in cui il monitoraggio deve inviare le e-mail.
 
-   **Timeout ping** - Specifica l&#39;intervallo in minuti dopo il quale un dispositivo deve essere considerato non raggiungibile.
+   **Timeout ping** - Questo campo specifica l&#39;intervallo in minuti dopo il quale un dispositivo deve essere considerato non raggiungibile.
 
    **Server SMTP** - Specifica il server SMTP utilizzato per l&#39;invio di e-mail.
 
@@ -91,7 +91,10 @@ Dopo aver impostato la configurazione per le notifiche e-mail, riceverai una not
 
 L’accesso a tale collegamento ti porta direttamente al dashboard del dispositivo.
 
-Le e-mail vengono inviate solo se è presente almeno un dispositivo che non ha eseguito il ping per il timeout di ping specificato e non esegue ancora il ping al momento della generazione dell’e-mail.
+Le e-mail vengono inviate solo se:
+
+* esiste almeno un dispositivo che non ha eseguito il ping per il timeout di ping specificato e
+* non effettua ancora il ping al momento della generazione dell’e-mail.
 
 ### Casi d’uso di esempio {#example-use-cases}
 
@@ -103,4 +106,4 @@ Puoi impostare la frequenza di pianificazione su 1:00 e il timeout del ping su 6
 
 **Scenario 2**
 
-Puoi impostare la frequenza di pianificazione su 1 e il timeout del ping su 60. Quindi, se il dispositivo AEM Screens non esegue il ping tra una volta e un’ora particolare della giornata, ricevi una notifica e-mail che conferma l’inattività del dispositivo.
+Puoi impostare la frequenza di pianificazione su 1 e il timeout del ping su 60. Quindi, se il dispositivo AEM Screens non esegue il ping immediatamente in un determinato momento della giornata, ricevi una notifica e-mail che conferma l’inattività del dispositivo.

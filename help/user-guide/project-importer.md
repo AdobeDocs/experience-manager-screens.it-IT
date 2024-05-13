@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Consentendo all&#39;autore di fornire un foglio di calcolo come file di input e 
 * *offre prestazioni notevolmente migliori rispetto alla selezione manuale tramite l’interfaccia utente*
 * *consente al cliente di esportare i siti di cui dispone dal proprio sistema e di importarli facilmente direttamente nell&#39;AEM*
 
-Questo consente di risparmiare tempo e denaro durante la configurazione iniziale del progetto o quando si estende l’AEM Screens esistente a nuove posizioni.
+Questo processo consente di risparmiare tempo e denaro durante la configurazione iniziale del progetto o quando si estende l’AEM Screens esistente a nuove posizioni.
 
 ## Panoramica dell’architettura {#architectural-overview}
 
@@ -51,14 +51,14 @@ Il modello dati per Importazione progetti è descritto di seguito:
 | **Proprietà** | **Descrizione** |
 |---|---|
 | ***`path {string*}`*** | Percorso della risorsa per la posizione |
-| ***`[./jcr:title] {string*}`*** | Nome del modello da utilizzare, ovvero posizione *screens/core/templates/location*) |
+| ***`[./jcr:title] {string*}`*** | Nome del modello da utilizzare, ovvero la posizione per *screens/core/templates/location*) |
 | ***`template {string}`*** | Titolo facoltativo da utilizzare per la pagina |
 | ***`[./jcr:description] {string}`*** | Descrizione facoltativa da utilizzare per la pagina |
 
 Il file del foglio di calcolo (CSV/XLS) richiede quindi le seguenti colonne:
 
 * **percorso {string}** : percorso del percorso da importare, in cui la directory principale del percorso è la cartella dei percorsi del progetto (ovvero *`/foo`* viene importato in *`/content/screens/<project>/locations/foo`*)
-* **modello {string}** - Modello da utilizzare per la nuova posizione; per ora l’unico valore consentito è &quot;posizione&quot;, ma questo verrà esteso in futuro a tutti i modelli Screens (`display`, `sequencechannel`e così via)
+* **modello {string}** - Modello da utilizzare per la nuova posizione; per ora l’unico valore consentito è &quot;posizione&quot;, ma questo valore viene esteso in futuro a tutti i modelli di Screens (`display`, `sequencechannel`e così via)
 * **[./*] {string}** - Qualsiasi proprietà facoltativa da impostare sulla posizione (ovvero `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versione corrente non consente alcun filtro.
 
 >[!NOTE]
@@ -89,7 +89,7 @@ A scopo dimostrativo, puoi scaricare un file excel dalla sezione seguente.
 
 ### Importazione del file con i campi obbligatori minimi {#importing-the-file-with-minimum-required-fields}
 
-Per importare un file in una cartella di percorso contenente campi obbligatori minimi, attenersi alla procedura descritta di seguito.
+Per importare un file in una cartella di percorso contenente i campi obbligatori minimi, attenersi alla procedura descritta di seguito.
 
 >[!NOTE]
 >

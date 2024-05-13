@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -33,19 +33,19 @@ Per visualizzare il video:
 
 Devono esistere diverse rappresentazioni (un MP4 o M4V).
 
-Se non è presente alcuna rappresentazione, accertati di avere ffmpeg installato sul sistema operativo in cui è in esecuzione AEM.
+Se non è disponibile alcun rendering, verificare che FFMPEG sia installato sul sistema operativo in cui è in esecuzione AEM.
 
 >[!CAUTION]
 >
->Se non è presente alcuna rappresentazione, accertati di avere ffmpeg installato sul sistema operativo in cui è in esecuzione AEM.
+>Se non è disponibile alcun rendering, verificare che FFMPEG sia installato sul sistema operativo in cui è in esecuzione AEM.
 >
->Clic [qui](https://www.ffmpeg.org/download.html) per installare ffmpeg.
+>Clic [qui](https://www.ffmpeg.org/download.html) per installare FFMPEG.
 
 ## Risorse video {#video-assets}
 
 Se non trovi un attributo sorgente in video, è possibile che il video non sia stato transcodificato. Se il video è codificato correttamente, viene visualizzato nel dashboard, come illustrato di seguito:
 
-Verificare che ffmpeg sia installato e che i profili video siano corretti.
+Verificare che FFMPEG sia installato e che i profili video.
 
 ![chlimage_1-2](assets/chlimage_1-2.png)
 
@@ -57,7 +57,7 @@ Verificare che ffmpeg sia installato e che i profili video siano corretti.
 
 1. Carica un video di prova e fai clic su **Ok** così si può iniziare la transcodifica.
 
-   Se il video transcodificato non riesce, espandi l’output ffmpeg per comprendere eventuali errori nell’output della console di ffmpeg.
+   Se il video transcodificato ha esito negativo, espandi l’output FFMPEG per comprendere eventuali errori nell’output della console di FFMPEG.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
 
@@ -80,13 +80,13 @@ Se il componente video non è configurato correttamente, controlla l’elenco de
 1. Fai clic sul video e apri **Modifica** . Apri **Profili** scheda.
 
    >[!NOTE]
-   >Fare clic su profili diversi (dovrebbe essere presente almeno il profilo &quot;H.264 di alta qualità&quot;).
+   >Fare clic su profili diversi (almeno il profilo &quot;H.264 di alta qualità&quot; dovrebbe essere presente).
 
 ### Controllo del video nel lettore web {#checking-the-video-in-the-web-player}
 
 Utilizza il **Lettore Web** `http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html/content/screens/we-retail/locations/demo/flagship/single/device0` per convalidare la riproduzione nei browser (Chrome e Safari). Chrome viene utilizzato sui dispositivi Android™ mentre Safari è il browser OS X e iOS.
 
-Se il video non viene eseguito su Safari, non viene eseguito né sul sistema operativo X né sui lettori iOS. Questo è probabilmente un problema di codifica e il video deve essere codificato di nuovo.
+Se il video non viene eseguito su Safari, non viene eseguito né sul sistema operativo X né sui lettori iOS. Questo problema è probabilmente dovuto a un problema di codifica e il video deve essere codificato di nuovo.
 
 Per utilizzare un flusso di lavoro DAM per creare rappresentazioni Full HD, effettuare le seguenti operazioni:
 
@@ -109,11 +109,11 @@ Per risolvere il problema del flag di criteri di riproduzione automatica di Goog
 1. Accedi a ***chrome://flags/#autoplay-policy***
 1. Cambia **Criterio Riproduzione automatica** da **Predefinito** a **non è richiesto alcun movimento utente**
 
-1. Riavvia il browser web e aggiorna il lettore
+1. Riavvia il browser e aggiorna il lettore
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle best practice per una buona esperienza utente con i nuovi criteri di riproduzione automatica in Chrome, consulta la documentazione di *Modifiche ai criteri di Riproduzione automatica* a `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
+>Per ulteriori informazioni sulle best practice per una buona esperienza utente con i nuovi criteri di riproduzione automatica in Chrome. Consulta *Modifiche ai criteri di Riproduzione automatica* a `https://developers.google.com/web/updates/2017/09/autoplay-policy-changes#webaudio`.
 
 ### Sincronizzazione di video tra più lettori {#syncing-video-across-multiple-players}
 

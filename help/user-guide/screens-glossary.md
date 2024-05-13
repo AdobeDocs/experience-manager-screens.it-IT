@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5b5d5251-90bf-4ef0-8300-76093f725291
-source-git-commit: 1e8beb9dfaf579250138d4a41eeec88cc81f2d39
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **Dispositivo** - Un dispositivo può eseguire il software del lettore per produrre un output visivo. È in grado di controllare la visualizzazione di una porzione ritagliata, ridimensionata e tradotta del contenuto o dell’esperienza comune. La configurazione dello schermo è associata a una visualizzazione, ma può essere sostituita in caso si verifichi un difetto tecnico.
 
-**Visualizzazione** - Un display è un raggruppamento virtuale di schermi posizionati uno accanto all&#39;altro. Il display è fisso rispetto a un&#39;installazione. Si tratta degli autori di contenuti oggetto che lavorano con e a cui fanno sempre riferimento come visualizzazione logica anziché come parti contatore fisiche.
+**Visualizzazione** - Un display è un raggruppamento virtuale di schermi posizionati uno accanto all&#39;altro. Il display è fisso rispetto a un&#39;installazione. Questo oggetto è ciò con cui gli autori di contenuti lavorano e a cui fanno sempre riferimento come visualizzazione logica anziché come controparti fisiche.
 
 **Firmware** - Firmware è il termine assegnato al software che viene eseguito sul dispositivo all&#39;interno dell&#39;applicazione del lettore in una visualizzazione web. Si tratta di un livello JavaScript che esegue il contenuto contenuto contenuto in un canale all’interno di iFrame e fornisce accesso alle funzionalità native tramite plug-in. È possibile aggiornare il firmware senza aggiornare l&#39;applicazione del lettore.
 
@@ -36,4 +36,4 @@ ht-degree: 0%
 
 **Canale sequenza** - Un canale di sequenza è una pagina che puoi creare e che contiene componenti che mostrano uno alla volta in una presentazione.
 
-**Zone** - Le zone sono segmentazioni di schermi che vengono utilizzati come entità indirizzabili primarie per i canali. Nei casi in cui le visualizzazioni si estendono su più schermate, è vantaggioso definire le zone in modo che corrispondano alle dimensioni dello schermo, soprattutto se le schermate mostrano un bordo fisico prominente.
+**Zone** - Le zone sono segmentazioni di display utilizzati come entità indirizzabili primarie per i canali. Nei casi in cui le visualizzazioni si estendono su più schermate, è vantaggioso definire le zone in modo che corrispondano alle dimensioni dello schermo, soprattutto se le schermate mostrano un bordo fisico prominente.

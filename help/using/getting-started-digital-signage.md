@@ -2,9 +2,9 @@
 title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
 description: Scopri le basi di un progetto di digital signage.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 299018986ae58ecbdb51a30413222a9682fffc76
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Prima di immergerti nelle best practice per l’implementazione di AEM Screens, è importante considerare il progetto come un progetto di digital signage, invece di uno sviluppo software tradizionale.
 
-Questa sezione fornisce consigli sui principali elementi chiave critici prima dell’implementazione di un progetto AEM Screens.
+Questa sezione fornisce consigli sui principali elementi chiave fondamentali per l’implementazione di un progetto AEM Screens.
 
 ## Elementi chiave nel digital signage {#key-elements}
 
@@ -40,14 +40,14 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
    Connectivity pone l’accento sulle seguenti domande:
    * Rete (cellulare o wi-fi) o standalone?
       * È necessario consentire gli aggiornamenti dei contenuti USB?
-      * È necessario consentire la raccolta dei dati di utilizzo?
+      * Devi consentire l’utilizzo della raccolta dati?
 
 1. **Installazione**
 
    L&#39;installazione include:
    * Display: orizzontale o verticale
    * Come viene montato lo schermo?
-      * Verticale e orizzontale
+      * Orientamento verticale e orientamento orizzontale
       * Alloggiamento completo
       * Piastra di copertura
    * Supporto di dispositivi fissi
@@ -79,7 +79,7 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 
 1. **Ambiente**
 
-   L&#39;ambiente sottolinea:
+   L&#39;ambiente pone l&#39;accento su:
    * Mostrare la posizione?
       * Interno ed esterno
       * Fuori dalla portata o direttamente esposto

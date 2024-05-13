@@ -1,6 +1,6 @@
 ---
 title: Configurazione di ContextHub in AEM Screens
-description: Scopri ContextHub nel motore di targeting per definire l’archivio dati per la modifica del contenuto dell’attivatore dei dati.
+description: Scopri ContextHub nel motore di targeting per definire un archivio dati per la modifica del contenuto dell’attivatore dei dati.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 topic-tags: developing
@@ -10,9 +10,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1450'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ Prima di entrare nei dettagli della creazione e della gestione dei canali basati
 
 **Pubblico** - Definisce la regola.
 
-**Segmento** : versione della risorsa da riprodurre per la regola specificata. Ad esempio, se la temperatura è inferiore a 50 gradi Fahrenheit, sullo schermo viene visualizzata l’immagine di una bevanda calda, altrimenti di una bevanda fredda.
+**Segmento** : versione di una risorsa da riprodurre per la regola specificata. Ad esempio, se la temperatura è inferiore a 50 gradi Fahrenheit, sullo schermo viene visualizzata l’immagine di una bevanda calda, altrimenti di una bevanda fredda.
 
-Il diagramma seguente fornisce una rappresentazione visiva del modo in cui le configurazioni ContextHub coincidono con attività, pubblico e canali.
+Il diagramma seguente fornisce una rappresentazione visiva del modo in cui le configurazioni di ContextHub coincidono con attività, pubblico e canali.
 
 ![screen_shot_2019-05-29at53729pm](assets/screen_shot_2019-05-29at53729pm.png)
 
 ## Precondizioni {#preconditions}
 
-Prima di iniziare a configurare le configurazioni Context Hub per un progetto AEM Screens, imposta i fogli Google (a scopo dimostrativo).
+Prima di iniziare a configurare le configurazioni ContextHub per un progetto AEM Screens, imposta i fogli Google (a scopo dimostrativo).
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ Prima di iniziare a configurare le configurazioni Context Hub per un progetto AE
 
 È possibile impostare l&#39;archivio dati come evento di I/O locale o come evento di database locale.
 
-L’esempio seguente di trigger di dati a livello di risorsa mostra un evento di database locale che imposta un archivio dati come un foglio di Excel che consente di utilizzare le configurazioni ContextHub e il percorso dei segmenti per il canale AEM Screens.
+L’esempio seguente, relativo ai trigger di dati a livello di risorsa, mostra un evento di database locale. L’evento configura un archivio dati, ad esempio un foglio Excel, che consente di utilizzare le configurazioni ContextHub e il percorso dei segmenti per il canale AEM Screens.
 
 Dopo aver configurato `google` correttamente, come illustrato nell&#39;esempio seguente:
 
@@ -67,7 +67,7 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
 
 >[!NOTE]
 >
->L’esempio specifico seguente mostra i fogli di google come archivio dati che attiva un cambiamento di risorsa se il valore è maggiore di 100 o minore di 50.
+>L’esempio specifico seguente mostra i fogli di Google come archivio dati che attiva una modifica della risorsa se il valore è maggiore di 100 o minore di 50.
 
 ## Passaggio 2: configurazione dell’archivio {#step-setting-store-configurations}
 
@@ -146,7 +146,7 @@ La seguente convalida è ciò che viene visualizzato quando si controlla la conn
 
       >[!CAUTION]
       >
-      >Se crei le configurazioni dell’archivio dei fogli di Google al di fuori della cartella globale (ad esempio, nella tua cartella di progetto), il targeting non funziona come previsto.
+      >Se crei i fogli Google per memorizzare le configurazioni al di fuori della cartella globale (ad esempio, nella tua cartella di progetto), il targeting non funziona come previsto.
 
 1. **Impostazione della segmentazione dell’archivio**
 
@@ -304,7 +304,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
       >[!NOTE]
       >
-      >Utilizza ContextHub e il percorso Segmenti, dove hai inizialmente salvato le configurazioni e i segmenti dell’hub di contesto.
+      >Utilizza ContextHub e il percorso Segmenti, dove hai inizialmente salvato le configurazioni e i segmenti ContextHub.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub20New.png)
 
@@ -312,7 +312,7 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
       >[!NOTE]
       >
-      >Se hai impostato tutto correttamente, puoi vedere **Targeting** nell’elenco a discesa dall’editor, come illustrato nella figura riportata di seguito.
+      >Se tutto è stato configurato correttamente, viene visualizzata la **Targeting** nell’elenco a discesa dall’editor, come illustrato nella figura riportata di seguito.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub21.png)
 
