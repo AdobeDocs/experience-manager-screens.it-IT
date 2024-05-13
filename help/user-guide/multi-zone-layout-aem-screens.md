@@ -1,6 +1,6 @@
 ---
 title: Layout multizona
-description: Scopri come creare contenuti per più aree e utilizzare varie risorse come video, immagini e testo che possono essere combinati in una singola schermata in AEM Screens.
+description: Scopri come creare contenuti per più aree e utilizzare varie risorse, come video, immagini e testo, che si combinano in un’unica schermata in AEM Screens.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 content-type: reference
@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 901ed50e-d3f0-4c85-ad79-6c4595382759
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ La pagina seguente descrive l&#39;utilizzo del layout multizona e tratta i segue
 In base alle esigenze del progetto, a volte è necessario disporre di più zone in un canale e modificarle come un&#39;unica unità completa. Ad esempio, una sequenza di prodotto con un feed di social media correlato che viene eseguita in tre aree separate su un singolo canale.
 
 >[!NOTE]
->Nei canali multizona, la pianificazione a livello di risorsa non è consigliata a causa di potenziali conflitti e comportamenti non desiderati. Se è necessaria una pianificazione a livello di risorsa, si consiglia di creare un canale di sequenza separato e di applicare una logica di pianificazione all’interno di tale canale. Quindi, incorpora il canale della sequenza nel canale multizona.
+>Nei canali multizona, la pianificazione a livello di risorsa non è consigliata a causa di potenziali conflitti e comportamenti non desiderati. Se è necessaria una pianificazione a livello di risorsa, crea un canale di sequenza separato e applica una logica di pianificazione all’interno di tale canale. Quindi, incorpora il canale della sequenza nel canale multizona.
 
 ### Prerequisiti {#prerequisites}
 
@@ -76,7 +76,7 @@ Puoi utilizzare risorse singole, come un’immagine o un video, in tutte le sing
 
 ### Utilizzo di contenuti in sequenza in una o più aree {#using-sequenced-content-in-one-or-more-zones}
 
-Se desideri che le aree visualizzino la sequenza di immagini e un video nelle diverse aree, segui i passaggi riportati di seguito per i dettagli.
+Se desideri che le aree visualizzino una sequenza di immagini e un video nelle diverse aree, segui i passaggi riportati di seguito per i dettagli.
 
 1. **Creazione di una cartella canali**
 
@@ -162,7 +162,7 @@ Assegna i canali alla visualizzazione per visualizzare il contenuto. Per assegna
 
 ### Registrazione del dispositivo {#registering-device}
 
-Dopo aver impostato una posizione e uno schermo, attenersi alla procedura riportata di seguito per registrare il dispositivo e assegnargli uno schermo.
+Dopo aver impostato una posizione e uno schermo, attenersi alla procedura riportata di seguito per registrare il dispositivo e assegnargli lo schermo.
 
 1. **Registrazione del dispositivo**
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Questo tutorial tratta i seguenti punti rilevanti per la corretta distribuzione 
 
 >[!NOTE]
 >
->I cicli di vendita tipici per l&#39;installazione del digital signage su larga scala possono variare da 9 a 18 mesi. Ci sono molti fattori coinvolti che influenzano la tempistica finale, non ultimo il modo in cui il cliente finale misura il successo e il rischio avverso i propri partner commerciali quando introducono una nuova soluzione.
+>I cicli di vendita tipici per l&#39;installazione del digital signage su larga scala possono variare da 9 a 18 mesi. Ci sono molti fattori coinvolti che influenzano la tempistica finale. Alcuni di questi fattori includono il modo in cui il cliente finale misura il successo e il grado di avversione al rischio dei propri partner commerciali quando viene introdotta una nuova soluzione.
 
 Ad esempio, i soggetti interessati a un programma di digital signage in un ambiente retail potrebbero essere i seguenti:
 
@@ -46,7 +46,7 @@ Ad esempio, i soggetti interessati a un programma di digital signage in un ambie
 
 ## Riepilogo dei termini chiave coinvolti in un piano di progetto generale {#summary-of-key-terms-involved-in-an-overall-project-plan}
 
-Nella sezione seguente viene fornita una panoramica dei termini chiave di un piano di progetto generale, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la verifica di concetto, i progetti pilota e i rollout.
+Nella sezione seguente viene fornita una panoramica dei termini chiave di un piano di progetto complessivo, che includono il ciclo del progetto, le azioni relative ai test dell&#39;hardware, il Proof of Concept, i progetti pilota e i rollout.
 
 ### Prova di concetto (POC) {#proof-of-concept-poc}
 
@@ -54,9 +54,9 @@ Lo scopo di un POC è ottenere un feedback iniziale sulle funzionalità chiave d
 
 ### Controllo qualità {#quality-control}
 
-I test di integrazione dei sistemi e del software iniziano con il team IT Engineering di Audio-Video Integrator. Facendo riferimento al progetto di sistema approvato, il team tecnico IT configura, implementa e supervisiona l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; della struttura di Audio-Video Integrator. Questo consente di esaminare e testare attentamente l’intera soluzione per il controllo della qualità.
+I test di integrazione dei sistemi e del software iniziano con il team di progettazione IT di Audio-Video Integrator. Facendo riferimento al progetto di sistema approvato, il team di progettazione IT configura, implementa e supervisiona l&#39;installazione dei componenti hardware in un &quot;ambiente Lab&quot; della struttura di Audio-Video Integrator. Questa disposizione consente di esaminare e testare attentamente l&#39;intera soluzione per il controllo della qualità.
 
-Una volta completato il test QC, il team di progettazione IT crea la documentazione, i flussi di lavoro e la formazione come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da testare includono:
+Una volta completato il test QC, il team di progettazione IT crea documentazione, flussi di lavoro e corsi di formazione come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da testare includono:
 
 * Integrazioni con implementatori AEM.
 * Integrazioni di sistemi di terze parti.
@@ -67,7 +67,7 @@ Una volta completato il test QC, il team di progettazione IT crea la documentazi
 
 ## Parte 3: tutorial video su test, POC, piloti e rollout {#part-video-tutorial-on-testing-pocs-pilots-rollouts}
 
-Segui il tutorial seguente per comprendere Test, Proofs of Concept, Programmi pilota e Rollout.
+Segui il tutorial seguente per comprendere test, bozze di concetto, programmi pilota e rollout.
 
 Considerare tutte queste fasi come parte del piano generale del progetto aiuta a gestire le aspettative e identifica i punti naturali in cui è possibile valutare l’investimento in un’implementazione AEM Screens.
 

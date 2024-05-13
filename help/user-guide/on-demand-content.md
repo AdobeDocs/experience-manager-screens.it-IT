@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 9ffdb1eb-a1ba-42ac-a30f-260004e5b165
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’ambiente di authoring a q
 
    ![screen_shot_2019-02-25at21420pm](assets/screen_shot_2019-02-25at21420pm.png)
 
-1. Il **Gestisci pubblicazione** viene aperta la procedura guidata. Puoi fare clic su **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Fai clic su **Avanti**.
+1. Il **Gestisci pubblicazione** Viene visualizzata la procedura guidata. Puoi fare clic su **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Fai clic su **Avanti**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 
@@ -42,7 +42,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’ambiente di authoring a q
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, tutte le caselle sono selezionate e devi deselezionarle manualmente per pubblicare tutti i moduli del progetto.
+   >Per impostazione predefinita, tutte le caselle sono selezionate ed è necessario deselezionarle manualmente per pubblicare tutti i moduli del progetto.
 
    ![screen_shot_2019-02-25at23116pm](assets/screen_shot_2019-02-25at23116pm.png)
 
@@ -72,9 +72,9 @@ Ad esempio, l’immagine seguente mostra come gestire e aggiornare solo le pagin
    >    1. Il flusso di lavoro non funziona se l’autore non completa il processo di replica (i contenuti vengono ancora caricati nell’istanza di pubblicazione) dopo aver selezionato la **Pubblica** nel flusso di lavoro di gestione della pubblicazione.
 
    >[!CAUTION]
-   >Se in qualità di autore o creatore di contenuti desideri visualizzare le modifiche nei dispositivi collegati all’istanza di authoring, fai clic su **Aggiorna contenuto offline** dal dashboard del canale o selezionando il progetto. In questo caso, l’aggiornamento del contenuto offline viene eseguito solo nell’istanza di authoring.
+   >Come creatore di contenuti, se desideri visualizzare le modifiche nei dispositivi collegati all’istanza di authoring, fai clic su **Aggiorna contenuto offline** dal dashboard dei canali o selezionando il progetto. In questo caso, l’aggiornamento del contenuto offline viene eseguito solo nell’istanza di authoring.
 
-1. Passa al progetto e fai clic su **Aggiorna contenuto offline** dalla barra delle azioni. Questa azione inoltra lo stesso comando all’istanza Publish, in modo che vengano creati anche i file ZIP non in linea nell’istanza Publish.
+1. Passa al progetto e fai clic su **Aggiorna contenuto offline** dalla barra delle azioni. Questa azione inoltra lo stesso comando all’istanza Publish, in modo che i file ZIP non in linea vengano creati anche nell’istanza Publish.
 
    ![screen_shot_2019-02-25at23451pm](assets/screen_shot_2019-02-25at23451pm.png)
 
@@ -100,7 +100,7 @@ Segui i passaggi seguenti per fornire aggiornamenti dei contenuti da Autore > Pu
 
    ![screen_shot_2019-02-07at115800am](assets/screen_shot_2019-02-07at115800am.png)
 
-1. Il **Gestisci pubblicazione** viene aperta la procedura guidata. Puoi fare clic su **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Fai clic su **Avanti**.
+1. Il **Gestisci pubblicazione** Viene visualizzata la procedura guidata. Puoi fare clic su **Azione** e pianifica anche il tempo di pubblicazione per il momento o in un secondo momento. Fai clic su **Avanti**.
 
    ![screen_shot_2019-02-07at120304pm](assets/screen_shot_2019-02-07at120304pm.png)
 

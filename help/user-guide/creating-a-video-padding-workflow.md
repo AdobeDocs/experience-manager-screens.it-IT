@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Questa sezione tratta i seguenti argomenti:
 
 Il seguente caso d’uso prevede il posizionamento di un video (ad esempio: 1280 x 720) in un canale in cui il display è 1920 x 1080 e il posizionamento del video su 0x0 (in alto a sinistra). Il video non deve essere allungato o modificato in alcun modo e non utilizzare **Copertina** nel componente video.
 
-Il video viene visualizzato come un oggetto da pixel 1 a pixel 1280 in orizzontale e da pixel 1 a pixel 720 in basso e il resto del canale è il colore predefinito.
+Il video viene visualizzato come un oggetto da pixel 1 a pixel 1280 in e da pixel 1 a pixel 720 in giù. Il resto del canale è il colore predefinito.
 
 ## Prerequisiti {#prerequisites}
 
 Prima di creare un flusso di lavoro per i video, completa i seguenti prerequisiti:
 
-1. Caricare un video in **Risorse** cartella nell’istanza AEM
+1. Carica un video in **Risorse** cartella nell’istanza AEM
 1. Creare un progetto AEM Screens (ad esempio, **TestVideoRendition**) e un canale denominato (**VideoRendering**), come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-17at85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -58,12 +58,12 @@ Per creare e utilizzare il flusso di lavoro, segui i passaggi seguenti:
 Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
 1. Passa all’istanza AEM.
-1. Fare clic su Strumenti nella barra laterale.
+1. Fate clic sugli strumenti nella barra laterale.
 1. Clic **Flusso di lavoro** > **Modelli** quindi potete creare un modello.
 
    ![screen_shot_2018-10-17at90025pm](assets/screen_shot_2018-10-17at90025pm.png)
 
-1. Clic **Modelli** > **Crea** > **Crea modello**. Inserisci il **Titolo** (come **VideoRendition**) e **Nome** nel **Aggiungi modello flusso di lavoro**. Clic **Fine** per aggiungere il modello di workflow.
+1. Clic **Modelli** > **Crea** > **Crea modello**. Inserisci il **Titolo** (ad esempio **VideoRendition**) e **Nome** nel **Aggiungi modello flusso di lavoro**. Clic **Fine** per aggiungere il modello di workflow.
 
    ![screen_shot_2018-10-17at90747pm](assets/screen_shot_2018-10-17at90747pm.png)
 
@@ -115,7 +115,7 @@ Per utilizzare il flusso di lavoro nel progetto AEM Screens, segui i passaggi se
 
 Per convalidare l’output:
 
-* Controlla anteprima del video nel canale
+* Controlla un&#39;anteprima del video nel canale
 * Accedi a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Liti, come illustrato nella figura seguente:
 
 ![screen_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

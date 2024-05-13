@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 5%
+source-wordcount: '704'
+ht-degree: 4%
 
 ---
 
@@ -37,11 +37,11 @@ Segui i passaggi seguenti per creare una Live Copy di un canale nella cartella d
 1. Fai clic sul percorso in cui può risiedere la Live Copy.
 1. Inserisci il **Titolo** e **Nome** nel **Crea Live Copy** pagina.
 
-1. Clic **Apri** per visualizzare il contenuto di una nuova live copy o **Fine** per tornare alla pagina principale.
+1. Clic **Apri** per visualizzare il contenuto della nuova live copy o **Fine** per tornare alla pagina principale.
 
 In alternativa, consulta i passaggi seguenti per la rappresentazione visiva per creare una nuova Live Copy di un canale.
 
-L’esempio seguente mostra la creazione di una Live Copy (***IdleLiveCopy***) per ***Canale inattivo*** con cartella di destinazione come ***Canali***.
+L’esempio seguente mostra la creazione di una Live Copy (***IdleLiveCopy***) per ***Canale inattivo*** con la cartella di destinazione come ***Canali***.
 
 ![chlimage_1-2](assets/chlimage_1-2.gif)
 
@@ -51,7 +51,7 @@ Una Live Copy è una copia di un canale esistente.
 
 Per visualizzare il contenuto della Live Copy, consulta i passaggi seguenti:
 
-1. Passa al progetto Screens e fai clic sul percorso in cui hai creato la Live Copy originariamente, come mostrato nella sezione precedente. (In questo caso, la posizione è stata scelta come **Canali** cartella)
+1. Passa a Progetto Schermi e fai clic sul percorso in cui hai creato originariamente una Live Copy, come illustrato nella sezione precedente. (In questo caso, la posizione è stata scelta come **Canali** cartella)
 
    ![chlimage_1-18](assets/chlimage_1-18.png)
 
@@ -79,7 +79,7 @@ Inoltre, puoi visualizzare le proprietà del canale Live Copy.
 
 Modalità **Stato Live Copy**, come illustrato nella figura seguente, ti consente di visualizzare lo stato della relazione di tutte le risorse nel canale.
 
-1. Clic **Modifica** in modo da poter scegliere **Stato Live Copy** e visualizzare l’associazione del contenuto del canale al canale originale (da cui viene generata la Live Copy).
+1. Clic **Modifica** in modo da poter scegliere **Stato Live Copy**. Puoi anche visualizzare l’associazione del contenuto del canale al canale originale da cui viene generata la Live Copy.
 
    ![chlimage_1-22](assets/chlimage_1-22.png)
 
@@ -99,7 +99,7 @@ L’esempio seguente mostra che fai clic sull’immagine in modalità di modific
 
 ### Propagazione delle modifiche al canale Live Copy {#propagating-changes-to-the-live-copy-channel}
 
-Se apporti modifiche o aggiornamenti nel canale originale, propagale tali modifiche anche al canale Live Copy.
+Se apporti modifiche o aggiornamenti nel canale originale, propagale anche tali modifiche al canale Live Copy.
 
 Segui i passaggi seguenti per assicurarti che le modifiche vengano propagate dal canale originale al canale Live Copy:
 

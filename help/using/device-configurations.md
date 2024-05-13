@@ -2,9 +2,9 @@
 title: Specifiche del dispositivo
 description: Ulteriori informazioni sulle specifiche dei dispositivi relative ad AEM Screens.
 exl-id: c2e521b3-89f5-4537-a751-0bfa031286c4
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In base alle informazioni raccolte durante *Giorno zero*, conferma le seguenti i
 
 * Quando vengono aggiornati i contenuti sui lettori?
 
-* Se esegui dei video, accertati di conoscere le specifiche del dispositivo in modo che il contenuto venga visualizzato correttamente.
+* Se esegui dei video, accertati di comprendere le specifiche del dispositivo in modo che il contenuto venga visualizzato correttamente.
 
 * Sulla base delle considerazioni ambientali di cui sopra, è più appropriato lo storage a stato solido o su disco rigido?
 

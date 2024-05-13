@@ -6,9 +6,9 @@ feature: Authoring Screens
 role: Developer, User
 level: Intermediate
 exl-id: 15632f31-1e92-40e5-b567-8705e27bdc93
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
 È possibile visualizzare l’output desiderato dal lettore o semplicemente selezionando **Anteprima** dall’editor.
 
-L’output mostra come viene riprodotto un layout multizona per *10000 millisecondi* e quindi passa al layout a zona singola con durata di riproduzione di *3000 millisecondi* e quindi torna al layout multizona.
+L’output mostra come viene riprodotto un layout multizona per *10000 millisecondi*. Quindi, passa a un layout a zona singola con una durata di riproduzione di *3000 millisecondi*. Infine, torna al layout multizona.
 
 >[!VIDEO](https://video.tv.adobe.com/v/30366)
 

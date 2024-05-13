@@ -4,9 +4,9 @@ description: Scopri come configurare gli agenti di replica di Screens.
 role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Questa pagina descrive come configurare gli agenti di replica di Screens.
 
 ## Obiettivo {#objective}
 
-L’agente di replica di Screens è responsabile della trasmissione dei dati dei comandi come, *utente*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* e molti altri valori di questo tipo, da pubblicazione a authoring. È essenziale configurarlo in modo che l’autore possa mostrare il ping del dispositivo.
+L’agente di replica di Screens è responsabile della trasmissione dei dati dei comandi, ad esempio *utente*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* e molti altri valori di questo tipo, da pubblicazione a authoring. È essenziale configurare questo agente in modo che l’autore possa mostrare il ping del dispositivo.
 
 >[!NOTE]
 >Per ulteriori informazioni sugli agenti di replica Screens, consulta [Agenti e comandi di replica Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
@@ -34,7 +34,7 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 >[!NOTE]
 >Per motivi di sicurezza, si consiglia di evitare di utilizzare la password amministratore per `screens-receiver-user`.
 
-1. Passa all’istanza di authoring dell’AEM.
+1. Passa all’istanza di creazione AEM in uso.
 
 1. Fai clic su Strumenti > **Sicurezza** > **Utenti**.
 
@@ -93,7 +93,7 @@ Segui i passaggi seguenti per abilitare gli utenti e aggiornare la password per 
 Segui la sezione seguente per aggiornare le impostazioni nell’agente di replica di AEM Screens:
 
 >[!IMPORTANT]
->Completa i seguenti passaggi per TUTTI gli agenti di replica AEM Screens esistenti.
+>Completa i seguenti passaggi per TUTTI gli agenti di replica di AEM Screens esistenti.
 
 1. Passa all’istanza AEM.
 1. Fai clic su Strumenti > **Distribuzione** > **Replica**.

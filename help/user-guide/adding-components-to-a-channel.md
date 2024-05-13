@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1417'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Per visualizzare i componenti predefiniti del progetto Schermi, effettua le segu
 
 ### Aggiunta di un nuovo componente {#adding-a-new-component}
 
-L’AEM fornisce diverse altre componenti. Puoi sempre aggiungere al progetto altri componenti (non inclusi per impostazione predefinita), purché siano compatibili con AEM Screens.
+L’AEM fornisce diverse altre componenti. Puoi sempre aggiungere al progetto altri componenti (non inclusi per impostazione predefinita), dato che sono compatibili con AEM Screens.
 
 L’esempio seguente mostra l’aggiunta di un componente Livefyre a un progetto AEM Screens:
 
@@ -70,12 +70,12 @@ Nella sezione seguente sono illustrati i componenti di AEM Screens che è possib
 
 Il **Applicazione** consente di aggiungere un’applicazione al canale.
 
-Il componente dell&#39;applicazione ha le seguenti proprietà:
+Il componente dell’applicazione ha le seguenti proprietà:
 
 | **Proprietà** | **Descrizione** |
 |---|---|
 | ***Percorso applicazione*** | Fare clic sul percorso assoluto dell&#39;applicazione. |
-| ***Durata (millisecondi)*** | Fare clic sulla durata dell&#39;applicazione. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre (applicazione a pagina singola). Impostando il valore di durata >0, mostra l’elemento per la durata specificata e quindi passa a quello successivo. |
+| ***Durata (millisecondi)*** | Fare clic sulla durata dell&#39;applicazione. Per impostazione predefinita, la durata è impostata su -1, il che significa che l’elemento viene eseguito per sempre (ovvero, un’applicazione a pagina singola). Impostando il valore di durata >0, mostra l’elemento per la durata specificata e quindi passa a quello successivo. |
 
 L’esempio seguente mostra come incorporare un componente dell’applicazione insieme all’anteprima delle relative proprietà:
 
@@ -137,7 +137,7 @@ La pagina Incorporata presenta le seguenti proprietà:
 >
 >Per informazioni dettagliate sulle sequenze incorporate, consulta [Sequenze incorporate](embedded-sequences.md) nella sezione Authoring Screens (Creazione di schermi).
 
-Una sequenza incorporata consente di aggiungere un canale di sequenza incorporato nel canale esistente (con altre risorse).
+Una sequenza incorporata consente di aggiungere un canale sequenza incorporata nel canale esistente (con altre risorse).
 
 La sequenza incorporata presenta le seguenti proprietà di pagina:
 
@@ -164,9 +164,9 @@ La sequenza incorporata presenta le seguenti proprietà di pagina:
 
 ### Sequenza incorporata dinamica {#dynamic-embedded-sequence}
 
-Una sequenza incorporata dinamica consente di aggiungere una sequenza simile a quella sopra indicata, ad eccezione del ruolo canale.
+Una sequenza incorporata dinamica consente di aggiungere una sequenza simile a quella sopra indicata, ad eccezione del ruolo del canale.
 
-Per informazioni sulle sequenze incorporate, consulta [Sequenze incorporate](embedded-sequences.md) nella sezione Authoring Screens (Creazione di schermi).
+Per ulteriori informazioni sulle sequenze incorporate, consulta [Sequenze incorporate](embedded-sequences.md) nella sezione Authoring Screens (Creazione di schermi).
 
 La sequenza incorporata dinamica ha le seguenti proprietà:
 
@@ -193,7 +193,7 @@ La sequenza incorporata dinamica ha le seguenti proprietà:
 
 ### Frammento di esperienza {#experience-fragment}
 
-Un frammento di esperienza ti consente di aggiungere al canale AEM Screens un frammento di esperienza (gruppo di uno o più componenti, tra cui contenuto e layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina e rilascia il componente all’editor AEM e fai clic sul frammento di esperienza.
+Un frammento di esperienza consente di aggiungere al canale AEM Screens un frammento di esperienza (un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina e rilascia il componente all’editor AEM e fai clic sul frammento di esperienza.
 
 Per ulteriori informazioni su come creare un frammento di esperienza e applicarlo a un progetto AEM Screens, consulta [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md).
 
@@ -206,7 +206,7 @@ Per ulteriori informazioni su come creare un frammento di esperienza e applicarl
 | ***Durata*** | Seleziona l’intera durata del frammento di esperienza che viene riprodotto nel canale. |
 | **Configurazione offline** |
 | ***Librerie lato client*** | File JavaScript e CSS. |
-| ***File statici*** | File statici che è possibile aggiungere come configurazioni offline al frammento di esperienza. |
+| ***File statici*** | File statici che puoi aggiungere come configurazioni offline al frammento di esperienza. |
 
 >[!NOTE]
 >
@@ -293,7 +293,7 @@ Il componente Transizione ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Attivo fino a</em></strong></td>
-   <td>Marca temporale che descrive fino a quando la transizione può essere attiva.</td>
+   <td>La marca temporale descrive fino a quando la transizione può essere attiva.</td>
   </tr>
   <tr>
    <td><strong><em>Pianificazione</em></strong></td>

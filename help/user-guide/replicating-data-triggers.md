@@ -5,9 +5,9 @@ feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Quando si utilizzano ContextHub e il motore di targeting dell’AEM per personal
 
 Questa pagina ti aiuta a scoprire i passaggi manuali necessari per pubblicare separatamente queste configurazioni.
 
-Questo si riduce fondamentalmente alla pubblicazione manuale:
+Questo processo si riduce essenzialmente alla pubblicazione manuale dei seguenti elementi:
 
 1. Configurazioni dei moduli Store e UI di ContextHub
 1. Tipi di pubblico per personalizzazione
@@ -64,7 +64,7 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 1. Clic **Successivo** e **Pubblica**.
 
-### Replica delle attività  {#replicating-activities}
+### Replica delle attività {#replicating-activities}
 
 1. Passa all’istanza AEM > **Personalizzazione** > **Attività** o utilizzare `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
 
@@ -92,9 +92,9 @@ Se la replica ha esito positivo, è necessario visualizzare la seguente struttur
 
 Se la connessione di prova non riesce durante la replica delle configurazioni ContextHub, segui la sezione seguente per la risoluzione del problema:
 
-1. Passa a Strumenti > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione**.
+1. Accedi a **Strumenti** > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione**.
 
-1. Clic **Modifica** dalla barra delle azioni e assicurati che l’URL dell’endpoint in **Endpoint importazione** Il campo punta anche all’URL del server di pubblicazione nell’agente di distribuzione.
+1. Clic **Modifica** dalla barra delle azioni e assicurati che l’URL dell’endpoint nella sezione **Endpoint importazione** Il campo punta anche all’URL del server di pubblicazione nell’agente di distribuzione.
    ![image1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
 
 1. Se non utilizzi le credenziali amministratore predefinite, devi configurare l’agente di distribuzione con un nome utente e una password diversi.

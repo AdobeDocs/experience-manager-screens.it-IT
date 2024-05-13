@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Nella sezione seguente viene illustrato come separare i progetti utilizzando ACL in modo che ogni singolo utente o team gestisca il proprio progetto.
 
-In qualità di amministratore AEM, desideri garantire che i membri del team di un progetto non interferiscano con altri progetti e che a ciascuno degli utenti siano assegnati ruoli specifici in base ai requisiti del progetto.
+In qualità di amministratore AEM, vuoi essere certo che i membri del team di un progetto non interferiscano con altri progetti. A ogni utente vengono assegnati ruoli specifici in base ai requisiti del progetto.
 
 ## Impostazione delle autorizzazioni {#setting-up-permissions}
 
@@ -66,11 +66,11 @@ Nella tabella seguente viene riepilogato il percorso con le autorizzazioni a liv
 
 | **Percorso** | **Autorizzazione** | **Descrizione** |
 |---|---|---|
-| `/apps/<project>` | LEGGI | Fornisce l&#39;accesso ai file di progetto, se applicabile. |
-| `/content/dam/<project>` | ALL | Consente di accedere per archiviare le risorse del progetto, come immagini o video, in DAM. |
+| `/apps/<project>` | LEGGI | Fornire l’accesso ai file di progetto, se applicabile. |
+| `/content/dam/<project>` | ALL | Fornisci l’accesso per archiviare le risorse del progetto, ad esempio immagini o video, in DAM. |
 | `/content/screens/<project>` | ALL | Rimuove l’accesso a tutti gli altri progetti in /content/screens. |
-| `/content/screens/svc` | LEGGI | Fornisce l’accesso al servizio di registrazione. |
-| `/libs/screens` | LEGGI | Consente di accedere a DCC. |
+| `/content/screens/svc` | LEGGI | Fornire accesso al servizio di registrazione. |
+| `/libs/screens` | LEGGI | Fornire accesso a DCC. |
 | `/var/contentsync/content/screens/` | ALL | Consente di aggiornare il contenuto offline del progetto. |
 
 >[!NOTE]
@@ -133,7 +133,7 @@ Nella tabella seguente sono riepilogati i gruppi con descrizione e autorizzazion
   </tr>
   <tr>
    <td>Lettori Screens<br /> <em><code>screens-&lt;project&gt;-devices</code></em></td>
-   <td>Raggruppa automaticamente tutti i lettori e tutti i lettori/dispositivi sono membri dei collaboratori.</td>
+   <td>Tutti i lettori e tutti i lettori/dispositivi sono automaticamente membri dei collaboratori.</td>
    <td><p> Membro di collaboratori</p> </td>
   </tr>
  </tbody>
