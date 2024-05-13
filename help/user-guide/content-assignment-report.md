@@ -5,9 +5,9 @@ feature: Authoring Screens
 role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione 
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Il foglio di calcolo scaricato è costituito da due schede, ad esempio **Posizioni** e **Contenuto**. Nella scheda Posizione vengono visualizzate quattro colonne, ad esempio **Posizioni**, **Display**, **Canali**, e **Dispositivi** che possono essere utilizzate per analizzare ulteriormente queste quattro entità relative al progetto AEM Screens.
+1. Il foglio di calcolo scaricato è costituito da due schede, ad esempio **Posizioni** e **Contenuto**. Nella scheda Posizione vengono visualizzate quattro colonne, ad esempio **Posizioni**, **Display**, **Canali**, e **Dispositivi** che può essere utilizzato per esaminare queste quattro entità relative al progetto AEM Screens.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 

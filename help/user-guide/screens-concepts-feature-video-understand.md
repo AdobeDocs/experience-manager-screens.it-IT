@@ -7,9 +7,9 @@ topic-tags: introduction
 content-type: reference
 docset: aem65
 targetaudience: target-audience new
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Per seguire insieme ai video, è necessario quanto segue:
 
 1. Un lettore Screens
 
-Per scaricare AEM Screens Player, fai clic su [qui](https://download.macromedia.com/screens/). Inoltre, AEM Screens è disponibile in [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
+Per scaricare AEM Screens Player, fai clic su [qui](https://download.macromedia.com/screens/). Inoltre, AEM Screens è disponibile nel [Google Play Store](https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en). <!-- LINK IS 404 WITH NO SUITABLE REPLACEMENT See [Installing and Configuring Screens](https://helpx.adobe.com/experience-manager/6-4/help/sites-deploying/configuring-screens-introduction.html) for more details. -->
 
 Il video seguente illustra nei dettagli la creazione di un nuovo canale, la creazione di nuovi contenuti e l’aggiunta di un canale a una pianificazione riutilizzabile. Segue liberamente la prima metà del [Guida rapida a Screens](kickstart-for-aem-screens.md).
 

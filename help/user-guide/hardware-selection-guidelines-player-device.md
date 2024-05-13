@@ -1,9 +1,9 @@
 ---
 title: Linee guida per la selezione dell'hardware per i dispositivi del lettore
 description: Scopri le linee guida per la selezione dell’hardware per i dispositivi AEM Screens Player.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Nella sezione seguente vengono fornite le linee guida per la selezione dell&#39;
 * Interagisci sempre con i fornitori che operano nel mercato del digital signage.
 * Considera sempre fattori ambientali quali la temperatura ambiente e l’umidità relativa.
 * Controllare sempre i requisiti di alimentazione e il condizionamento dell&#39;alimentazione.
-* Esaminare attentamente le prestazioni richieste e le porte di I/O richieste per l&#39;applicazione.
+* Esaminare attentamente le prestazioni richieste e le porte di I/O necessarie per l&#39;applicazione.
 
 ## Configurazioni hardware {#hardware-configurations}
 

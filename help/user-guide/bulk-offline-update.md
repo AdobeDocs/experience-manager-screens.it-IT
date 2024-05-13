@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Puoi anche pianificare questa attività per un periodo di traffico di rete ridot
 
 ## Utilizzo dell’aggiornamento offline in blocco {#using-bulk-offline-update}
 
-Puoi utilizzare manualmente l’aggiornamento offline in blocco dall’interfaccia utente o pianificare l’aggiornamento in blocco dai servizi OSGi.
+Puoi utilizzare manualmente l’aggiornamento in blocco offline dall’interfaccia utente o pianificare l’aggiornamento in blocco dai servizi OSGi.
 
 ### Utilizzo dell’interfaccia utente di AEM Screens {#using-aem-screens-user-interface}
 
@@ -59,7 +59,7 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
 1. Configurazione della console Web Adobe Experience Manager.
-1. Cerca servizi di aggiornamento offline in blocco.
+1. Cercare i servizi di aggiornamento offline in blocco.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

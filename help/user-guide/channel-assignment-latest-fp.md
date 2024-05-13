@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Questa sezione descrive come assegnare i canali e programmarne di nuovi per AEM 6.5.5 Screens Feature Pack e versioni successive.
+>In questa sezione vengono illustrate l’assegnazione dei canali e la pianificazione dei canali per AEM 6.5.5 Screens Feature Pack e versioni successive.
 
 Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione per visualizzarne il contenuto.
 
@@ -82,14 +82,14 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulle proprietà di assegnazione dei canali, consulta [Proprietà canale](#channel-properties) sezione.
+   >Per ulteriori informazioni sulle proprietà di Assegnazione canale, consulta [Proprietà canale](#channel-properties) sezione.
 
 1. Dalla sezione **Pianificazione** , fare clic sul pulsante **Finestra di attivazione** e **Pianificazione ricorrenza**.
    ![immagine](/help/user-guide/assets/channel-assignment/channel-assign-fp8.png)
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulle proprietà di assegnazione dei canali, consulta [Proprietà canale](#channel-properties) sezione.
+   >Per ulteriori informazioni sulle proprietà di Assegnazione canale, consulta [Proprietà canale](#channel-properties) sezione.
 
 1. Clic **Salva** dopo aver configurato le preferenze.
 
@@ -134,7 +134,7 @@ La selezione di un canale consente di fornire un riferimento al canale desiderat
 
 ### Ruolo canale {#role-channel}
 
-Il ruolo del canale definisce il contesto della visualizzazione. Il ruolo è oggetto di varie azioni ed è indipendente dal canale effettivo che lo svolge.
+Il ruolo del canale definisce il contesto della visualizzazione. Il ruolo è assegnato a diverse azioni. È indipendente dal canale effettivo che svolge il ruolo.
 
 ### Priorità {#priority-channel}
 
@@ -181,11 +181,11 @@ La finestra di attivazione consente di selezionare un **Data di inizio** e un **
 
 ### Pianificazione ricorrenza {#recurrence-schedule}
 
-La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il contenuto. Clic **+ Aggiungi pianificazione** per aggiungere una pianificazione di ricorrenza al canale.
+La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il contenuto. Clic **+ Aggiungi pianificazione** per aggiungere una pianificazione di ricorrenza al tuo canale.
 
 >[!NOTE]
 >Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
->Gli Schedules per la Ricorrenza introducono *DayParting* che consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici della giornata e di riutilizzare quella impostata per tutti i display contemporaneamente.
+>Gli Schedules per la Ricorrenza introducono *DayParting*. Puoi impostare una pianificazione globale con più canali in esecuzione in orari specifici della giornata e riutilizzare quella impostata per tutte le visualizzazioni contemporaneamente.
 
 È possibile impostare le seguenti opzioni:
 

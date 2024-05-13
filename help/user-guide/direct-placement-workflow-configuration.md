@@ -1,9 +1,9 @@
 ---
 title: Configurazione del flusso di lavoro di posizionamento diretto
 description: Questa pagina evidenzia la configurazione del flusso di lavoro di posizionamento diretto.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -38,5 +38,5 @@ Segui i passaggi seguenti per configurare il flusso di lavoro di posizionamento 
 
 1. Dalla tua istanza AEM, accedi ad AEM Screens e crea un progetto Screens denominato **Flusso di lavoro risorse**.
 
-1. Crea un canale con titolo **Workflow-Assets** in **Canali** cartella.
+1. Crea un canale con titolo **Workflow-Assets** sotto **Canali** cartella.
 
