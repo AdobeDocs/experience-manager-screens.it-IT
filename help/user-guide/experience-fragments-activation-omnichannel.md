@@ -1,7 +1,7 @@
 ---
 title: Attivazione di frammenti esperienza
-description: Un esempio di caso d’uso per scoprire di più sull’attivazione di frammenti di esperienza in relazione ad AEM Screens.
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+description: Un esempio di caso d’uso per scoprire di più sull’attivazione di Frammenti di esperienza in relazione ad AEM Screens.
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Crea un progetto con titolo **DemoProject** e un canale di sequenza denominato *
 
 ### Implementazione del frammento di esperienza in un progetto AEM Screens {#experience-fragments-implementation}
 
-Dopo aver creato un frammento di esperienza e averlo applicato al progetto AEM Screens, **DemoProject** puoi migliorare il frammento di esperienza in base alle tue esigenze.
+Dopo aver creato un frammento di esperienza e averlo applicato al progetto AEM Screens, **DemoProject**, puoi migliorare il frammento di esperienza in base alle tue esigenze.
 
 ### Aumento delle dimensioni del testo {#increasing-text-size}
 

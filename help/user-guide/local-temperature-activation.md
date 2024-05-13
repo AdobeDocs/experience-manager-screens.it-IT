@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 2ec2891f-0fbe-4812-b3c4-ff160ead36b8
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 
    >[!CAUTION]
    >
-   >Avresti dovuto impostare il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
+   >Il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** La scheda deve essere già impostata.
 
    ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
@@ -85,6 +85,6 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 1. **Controllo dell’anteprima**
 
    1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
-   1. Modifica il valore in meno di 50. Dovreste essere in grado di vedere l&#39;immagine di una bevanda fredda. Se il valore in Google Sheets è uguale o superiore a 50, dovrebbe essere visualizzata l&#39;immagine di una bevanda calda.
+   1. Modifica il valore in meno di 50. Si può vedere l&#39;immagine di una bevanda fredda. Se il valore in Google Sheets è uguale o superiore a 50, dovrebbe essere visualizzata l&#39;immagine di una bevanda calda.
 
    ![risultato3](assets/result3.gif)

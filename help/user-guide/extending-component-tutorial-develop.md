@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1700'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Il seguente tutorial illustra i passaggi e le best practice per l’estensione d
 
 ## Panoramica {#overview}
 
-Questo tutorial è destinato agli sviluppatori che hanno poca esperienza con AEM Screens. In questa esercitazione, il componente Immagine Schermi viene esteso per creare un componente Poster. Un titolo, una descrizione e un logo sono sovrapposti su un’immagine per creare un’esperienza coinvolgente in un canale di sequenza.
+Questo tutorial è destinato agli sviluppatori che hanno poca esperienza con AEM Screens. In questa esercitazione, il componente Immagine Schermi viene esteso per creare un componente Poster. Un titolo, una descrizione e un logo sono sovrapposti su un’immagine per creare un’esperienza coinvolgente in un canale Sequenza.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Questo tutorial è destinato agli sviluppatori che hanno poca esperienza con AEM
 
 ![Componente poster personalizzato](assets/2018-05-07_at_4_09pm.png)
 
-Il componente Poster personalizzato viene creato estendendo il componente Immagine.
+A `Custom Poster` Il componente viene creato estendendo il componente Immagine.
 
 ## Prerequisiti {#prerequisites}
 
@@ -72,7 +72,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
 
 Il componente Poster estende il componente immagine predefinito di AEM Screens. Un meccanismo di Sling, `sling:resourceSuperType`, viene utilizzato per ereditare le funzionalità di base del componente Immagine senza dover copiare e incollare. Ulteriori informazioni sulle nozioni di base di [Elaborazione delle richieste Sling disponibile qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/the-basics)
 
-Il componente Poster viene riprodotto a schermo intero in modalità anteprima/produzione. In modalità di modifica, è importante eseguire il rendering del componente in modo diverso per facilitare l’authoring del canale della sequenza.
+Il componente Poster viene riprodotto a schermo intero in modalità anteprima/produzione. In modalità di modifica, è importante eseguire il rendering del componente in modo diverso per facilitare l’authoring del canale Sequenza.
 
 1. In entrata **CRXDE-Lite** `http://localhost:4502/crx/de/index.jsp` (o IDE di scelta) sotto a `/apps/weretail-run/components/content`creare un `cq:Component` denominato `poster`.
 
@@ -133,7 +133,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    Finestra di dialogo copiata da `/libs/wcm/foundation/components/image/cq:dialog` a `/apps/weretail-run/components/content/poster`
 
-   AEM Screens `image` componente sovrascritto in WCM Foundation `image` componente. Pertanto, il `poster` Il componente eredita la funzionalità da entrambi. La finestra di dialogo per il componente poster è costituita da una combinazione delle finestre di dialogo Schermi e Fondamenti. Caratteristiche del **Sling Resource Merger** vengono utilizzati per nascondere le schede e i campi di dialogo irrilevanti ereditati dai componenti sovrascritti.
+   AEM Screens `image` componente sovrascritto in WCM Foundation `image` componente. Pertanto, la `poster` Il componente eredita la funzionalità da entrambi. La finestra di dialogo per il componente poster è costituita da una combinazione delle finestre di dialogo Schermi e Fondamenti. Caratteristiche del **Sling Resource Merger** vengono utilizzati per nascondere le schede e i campi di dialogo irrilevanti ereditati dai componenti sovrascritti.
 
 1. Aggiornare il `cq:dialog` sotto `/apps/weretail-run/components/content/poster` con le seguenti modifiche rappresentate in XML:
 
@@ -240,7 +240,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    La proprietà `sling:hideChildren`= `"[linkURL,size]`&quot; viene utilizzato il `items` per garantire che il **linkURL** e **dimensione** I campi sono nascosti nella finestra di dialogo. La rimozione di questi nodi dalla finestra di dialogo del poster non è sufficiente. La proprietà `sling:hideResource="{Boolean}true"` nella scheda accessibilità viene utilizzata per nascondere l&#39;intera scheda.
 
-   Nella finestra di dialogo vengono aggiunti due campi di clic per consentire agli autori di controllare la posizione del testo e il colore del Titolo e della Descrizione.
+   Nella finestra di dialogo, Posizione testo e Colore testo, vengono aggiunti due campi di clic per consentire agli autori di controllare la posizione del testo e il colore del Titolo e della Descrizione.
 
    ![Poster - Struttura del dialogo finale](assets/2018-05-03_at_4_49pm.png)
 
@@ -280,7 +280,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    `The h1` I tag h2 e vengono aggiunti per visualizzare Titolo e Descrizione in base alle proprietà del componente: `${properties.jcr:title}` e `${properties.jcr:description}`.
 
-   Intorno al `h1` e `h2` tags è un wrapper div con tre classi CSS con varianti di &quot; `cmp-poster__text`&quot;. Il valore per `textPosition` e `textColor` Le proprietà vengono utilizzate per modificare la classe CSS sottoposta a rendering in base alla selezione della finestra di dialogo dell’autore. Nella sezione successiva vengono scritti file CSS provenienti dalle librerie client per abilitare queste modifiche nella visualizzazione.
+   Intorno al `h1` e `h2` tags è un wrapper div con tre classi CSS con varianti di &quot;`cmp-poster__text`.&quot; Il valore per `textPosition` e `textColor` Le proprietà vengono utilizzate per modificare la classe CSS sottoposta a rendering in base alla selezione della finestra di dialogo dell’autore. Nella sezione successiva vengono scritti file CSS provenienti dalle librerie client per abilitare queste modifiche nella visualizzazione.
 
    Un logo viene incluso anche come sovrapposizione nel componente. In questo esempio, il percorso di` We.Retail` Il logo è hardcoded in DAM. A seconda del caso d’uso, potrebbe essere più logico creare un campo di dialogo per rendere il percorso del logo un valore popolato dinamicamente.
 
@@ -308,7 +308,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
    </div>
    ```
 
-   Il **modifica** Il markup per il componente Poster è visualizzato direttamente qui sopra. Lo script HTL sostituisce `/libs/screens/core/components/content/image/edit.html`. Il markup è simile al `production.html` e visualizza il titolo e la descrizione sopra l&#39;immagine.
+   Il **modifica** Il markup del componente Poster è visibile direttamente qui sopra. Lo script HTL sostituisce `/libs/screens/core/components/content/image/edit.html`. Il markup è simile al `production.html` e visualizza il titolo e la descrizione sopra l&#39;immagine.
 
    Il `aem-Screens-editWrapper`viene aggiunto in modo che il componente non venga renderizzato a schermo intero nell’editor. Il `data-emptytext` Questo attributo assicura che venga visualizzato un segnaposto quando non è stata compilata alcuna immagine o contenuto.
 
@@ -339,7 +339,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    Il `categories` è una stringa che identifica la libreria client. Il `cq.screens.components` viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito in `shared` clientlib è caricato in tutte le modalità.
 
-   È consigliabile non esporre mai percorsi direttamente a /apps in un ambiente di produzione. Il `allowProxy` assicura che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni su [La proprietà allowProxy si trova qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. Il `allowProxy` assicura che alle librerie client CSS e JS venga fatto riferimento tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni su [La proprietà allowProxy si trova qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crea file denominato `css.txt` sotto la cartella condivisa.
 
@@ -362,7 +362,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less
-    Poster Component - Shared Style
+    Poster component - Shared Style
    */
    
    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400i');
@@ -431,7 +431,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
    ```css
    /*
     /apps/weretail-run/components/content/poster/clientlibs/production/css/styles.less
-    Poster Component - Production Style
+    Poster component - Production Style
    */
    
    .cmp-poster {
@@ -491,9 +491,9 @@ Una terza categoria di librerie client: `cq.screens.components.edit` può essere
 
 ## Aggiungi componente poster a un canale sequenza {#add-sequence-channel}
 
-Il componente Poster viene utilizzato su un canale di sequenza. Il pacchetto iniziale di questa esercitazione includeva un canale inattivo. Il canale di inattività è preconfigurato per consentire i componenti del gruppo **`We.Retail Run - Content`**. Il gruppo del componente Poster è impostato su `We.Retail Run - Content` ed è disponibile per essere aggiunto al canale.
+Il componente Poster viene utilizzato su un canale Sequenza. Il pacchetto iniziale di questa esercitazione includeva un canale inattivo. Il canale Inattivo è preconfigurato per consentire i componenti del gruppo **`We.Retail Run - Content`**. Il gruppo del componente Poster è impostato su `We.Retail Run - Content` ed è disponibile per essere aggiunto al canale.
 
-1. Apri il canale di inattività da `We.Retail` Esegui progetto: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
+1. Apri il canale Inattivo da `We.Retail` Esegui progetto: **`http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html`**
 1. Trascina + rilascia una nuova istanza del **Poster** dalla barra laterale alla pagina.
 
    ![2018-05-07_at_3_23 pm](assets/2018-05-07_at_3_23pm.png)

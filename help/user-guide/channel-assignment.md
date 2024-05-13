@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1179'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 # Assegnazione canale {#channel-assignment}
 
 >[!IMPORTANT]
->Questa sezione evidenzia l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione di Screens di AEM 6.5.5.
+>Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione di Screens di AEM 6.5.5.
 
 Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione per visualizzarne il contenuto.
 
@@ -40,21 +40,21 @@ Per assegnare un canale a una visualizzazione, segui i passaggi seguenti:
 
    ![immagine](/help/user-guide/assets/channel-assign1.png)
 
-   Puoi configurare le proprietà da **Assegnazione canale** dalla sezione seguente. Consulta [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà del canale.
+   Puoi configurare le proprietà da **Assegnazione canale** dalla sezione seguente. Consulta la [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà del canale.
 
 ## Informazioni sulle proprietà del canale da Assegnazione canale {#channel-properties}
 
 ### Canale di riferimento {#ref-channel}
 
-Canale di riferimento consente di fornire un riferimento al canale desiderato, in base al nome del canale o al percorso del canale.
+Un canale di riferimento consente di fornire un riferimento al canale desiderato, in base al nome del canale o al percorso del canale.
 
 * **per percorso** : fornisci un riferimento esplicito utilizzando il percorso assoluto del canale.
 
-* **per nome** - Immetti il nome del canale che viene risolto in un canale effettivo per contesto. Questa funzione consente di creare una versione locale di un canale per risolvere in modo dinamico il contenuto specifico della posizione. Ad esempio, un canale con nome *offerte del giorno*, in cui il contenuto effettivo sarebbe diverso in due città, ma si dispone comunque del ruolo di canale sano su tutti gli schermi.
+* **per nome** - Immetti il nome del canale che viene risolto in un canale effettivo per contesto. Questa funzione ti consente di creare una versione locale di un canale in modo da poter risolvere dinamicamente il contenuto specifico della posizione. Ad esempio, un canale con nome *offerte del giorno*, in cui il contenuto effettivo sarebbe diverso in due città, ma si dispone comunque del ruolo di canale sano su tutti gli schermi.
 
 ### Ruolo canale {#role-channel}
 
-Il ruolo del canale definisce il contesto della visualizzazione. Il ruolo è oggetto di varie azioni ed è indipendente dal canale effettivo che lo svolge.
+Il ruolo del canale definisce il contesto della visualizzazione. Il ruolo esegue il targeting di varie azioni ed è indipendente dal canale effettivo che svolge il ruolo.
 
 ### Priorità {#priority-channel}
 
@@ -76,7 +76,7 @@ La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più 
 >
 > Questa opzione è disponibile solo con <!--AEM 6.4 Feature Pack 8 or -->Feature Pack 4 per AEM 6.5.
 
-In qualità di autore di contenuti, specifica quando un canale viene interrotto in modo da poter scegliere di tagliare i contenuti non critici, ma facoltativamente lascia che vengano riprodotti contenuti importanti prima di interromperne la riproduzione a causa della pianificazione.
+In qualità di autore di contenuti, specifica quando un canale viene interrotto. In questo modo è possibile tagliare i contenuti non critici, se necessario, ma facoltativamente consentire la riproduzione di contenuti importanti prima di interromperne la riproduzione a causa della programmazione.
 
 Fare clic su una delle opzioni seguenti disponibili per impostare il metodo di interruzione dal **Assegnazione canale** finestra di dialogo:
 
@@ -100,7 +100,7 @@ Mostra descrizione comando attrazione definisce se la descrizione comando attraz
 
 ### DayParting {#dayparting}
 
-Schedules quando combinati con **DayParting**, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare tale configurazione per tutti gli schermi contemporaneamente.
+Schedules, quando combinati con **DayParting**, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare tale configurazione per tutti gli schermi contemporaneamente.
 
 DayParting si riferisce alla suddivisione di un giorno in intervalli di tempo e alla specifica del contenuto riprodotto all’ora desiderata. AEM Screens consente di pianificare i canali in termini di DayPparting entro un giorno, una settimana o un mese in base al requisito.
 
@@ -162,7 +162,7 @@ In questo caso, puoi creare DayParting al mese, in modo che il contenuto del can
 
 #### Riproduzione di contenuti per canali con la stessa priorità {#playing-content-for-channels-with-same-priority}
 
-Questo esempio mostra il DayParting per un negozio che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha priorità impostata su 2, durante quella settimana; il canale B riproduce il suo contenuto invece del canale A.
+Questo esempio mostra il DayParting per un negozio che visualizza la raccolta invernale con la stessa pianificazione nel mese di dicembre. Ma poiché il canale B ha la priorità impostata su 2, durante quella settimana; il canale B riproduce il suo contenuto invece del canale A.
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|

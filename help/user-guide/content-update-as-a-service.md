@@ -6,7 +6,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: de9f669b-9ce7-4d70-99b4-0b69ef3c1af5
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Questa sezione tratta i seguenti argomenti sull’aggiornamento del contenuto co
 
 ## Panoramica {#overview}
 
-Bulk Offline Update (Aggiornamento offline in blocco) consente di aggiornare tutti i canali in blocco. Evita il problema di navigare su un canale particolare e di aggiornare il contenuto. Piuttosto, puoi aggiornare tutti i contenuti in canali per un progetto specifico in un istante.
+L’aggiornamento in blocco offline consente di aggiornare tutti i canali in blocco. Evita il problema di navigare su un canale particolare e di aggiornare il contenuto. Piuttosto, puoi aggiornare tutti i contenuti in canali per un progetto specifico in un istante.
 
 Puoi anche pianificare questa attività per un periodo di traffico di rete ridotto.
 
@@ -39,7 +39,7 @@ Puoi anche pianificare questa attività per un periodo di traffico di rete ridot
 
 ## Utilizzo dell’aggiornamento offline in blocco {#using-bulk-offline-update}
 
-Puoi utilizzare manualmente l’aggiornamento offline in blocco dall’interfaccia utente o pianificare l’aggiornamento in blocco dai servizi OSGi.
+Puoi utilizzare manualmente l’aggiornamento in blocco offline dall’interfaccia utente o pianificare l’aggiornamento in blocco dai servizi OSGi.
 
 ### Utilizzo dell’interfaccia utente di AEM Screens {#using-aem-screens-user-interface}
 
@@ -55,7 +55,7 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
 1. Configurazione della console Web Adobe Experience Manager.
-1. Cerca servizi di aggiornamento offline in blocco.
+1. Cercare i servizi di aggiornamento offline in blocco.
 
    ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 

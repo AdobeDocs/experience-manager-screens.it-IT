@@ -1,6 +1,6 @@
 ---
 title: Creazione e gestione delle pianificazioni
-description: Scopri le pianificazioni che ti consentono di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere individualmente le assegnazioni per ogni visualizzazione in cui desideri visualizzare il contenuto.
+description: Scopri le pianificazioni che ti consentono di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere singolarmente la loro assegnazione.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,16 +9,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: fff2df02661fc3fb3098be40e090b8bc6925bcc2
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Creazione e gestione delle pianificazioni {#creating-and-managing-schedules}
 
-**Schedules** in AEM Screens puoi organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere singolarmente l’assegnazione per ogni visualizzazione in cui desideri visualizzare il contenuto.
+**Schedules** in AEM Screens consente di organizzare i canali in gruppi riutilizzabili. In questo modo, non è necessario ripetere le singole assegnazioni per ogni visualizzazione in cui si desidera visualizzare il contenuto.
 
 Schedules, quando combinati con ***DayParting***, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare tale configurazione per tutti gli schermi contemporaneamente.
 
@@ -44,7 +44,7 @@ Puoi visualizzare una cartella di pianificazione con il nome e il titolo indicat
 
 ## Visualizzazione del dashboard {#viewing-dashboard}
 
-Dopo aver creato la cartella Schedules nel progetto, puoi visualizzarne i dettagli dal dashboard Schedules.
+Dopo aver creato una cartella delle pianificazioni nel progetto, è possibile visualizzarne i dettagli dal dashboard delle pianificazioni.
 
 Per visualizzare il dashboard della pianificazione, segui la procedura riportata di seguito. L&#39;esempio seguente mostra il dashboard di `We.Retail` progetto:
 

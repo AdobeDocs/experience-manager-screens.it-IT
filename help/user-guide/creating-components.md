@@ -9,7 +9,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 3%
@@ -47,8 +47,8 @@ I componenti incorporati utilizzano le seguenti categorie di librerie client:
 
 | **Component** | **Libreria client** |
 |---|---|
-| *cq.screens.components.edit* | CSS e JS che devono essere caricati durante la creazione |
-| *cq.screens.components.production* | CSS e JS che devono essere caricati quando il canale è in esecuzione |
+| *cq.screens.components.edit* | CSS e JS che devono essere caricati durante l’authoring |
+| *cq.screens.components.production* | CSS e JS da caricare quando il canale è in esecuzione |
 | *cq.screens.components* | CSS e JS condivisi |
 
 >[!NOTE]

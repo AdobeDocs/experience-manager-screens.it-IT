@@ -1,12 +1,12 @@
 ---
 title: Canale TakeOver monouso
-description: Segui questo caso d’uso per creare un canale TakeOver monouso.
+description: Segui questo caso d’uso per creare un canale di acquisizione monouso.
 contentOwner: jsyal
 feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Per impostare un progetto, segui i passaggi seguenti:
 
    ![risorsa](assets/single-takeover4.png)
 
-1. Imposta una posizione e una visualizzazione per i canali. Ad esempio, i seguenti **Lobby** posizione e  **MainLobbyDisplay** sono impostati per questo progetto.
+1. Imposta una posizione e una visualizzazione per i canali. Ad esempio, i seguenti **Lobby** posizione e **MainLobbyDisplay** sono impostati per questo progetto.
 
    ![risorsa](assets/single-takeover5.png)
 
@@ -93,11 +93,11 @@ Per impostare un progetto, segui i passaggi seguenti:
      >[!NOTE]
      >Priorità può essere qualsiasi valore superiore al valore di priorità del canale di riproduzione normale.
    * **Eventi supportati**: fai clic su **Schermata di inattività** e **Timer**.
-   * **Pianificazione**: immetti il testo per la pianificazione in base alla quale il canale deve eseguire la visualizzazione. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01 Il testo nella **Pianificazione** menzionato in questo esempio è *il 31 dicembre dopo le 23:58 e anche il 1° gennaio prima delle 00.01*.
+   * **Pianificazione**: immetti il testo per la pianificazione per cui desideri che il canale venga eseguito sul display. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01 Il testo nella **Pianificazione** menzionato in questo esempio è *il 31 dicembre dopo le 23:58 e anche il 1° gennaio prima delle 00.01*.
 
      ![risorsa](assets/single-takeover8.png)
 
-     Passa alla visualizzazione da **SingleUseTakeOver** > **Posizioni** > **Lobby** > **MainLobbyDisplay** e fai clic su **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
+     Passa alla visualizzazione da **SingleUseTakeOver** > **Posizioni** > **Lobby** > **MainLobbyDisplay**. Clic **Dashboard** dalla barra delle azioni, in modo da poter visualizzare i canali assegnati con le relative priorità, come illustrato di seguito.
 
      >[!NOTE]
      >È obbligatorio impostare come massima la priorità del canale di acquisizione.
