@@ -1,5 +1,5 @@
 ---
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: 0f3a2cb6deacd0a81db8f0dc2b1554e7506aaf17
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 69%
@@ -90,3 +90,4 @@ Nelle schermate non devono essere utilizzati marcatori o altre annotazioni (come
 In un articolo, fai sempre riferimento al prodotto con il suo nome completo **Adobe Experience Manager** la prima volta che viene utilizzato. In seguito, può essere definita **AEM**.
 
 Day, Day Software, CQ e CRX non devono essere utilizzati a meno che non sia inevitabile, ad esempio nei nomi di classi o in riferimenti specifici a versioni storiche di AEM.
+
