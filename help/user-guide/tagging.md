@@ -3,9 +3,9 @@ title: Assegnazione di tag a Screens Cloud
 description: Questa pagina descrive come creare, gestire e utilizzare i tag in Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 6c59d86d7c2224994686320381632b9150287fca
+source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ L’utente può creare tag su Screens Cloud e utilizzarli per classificare visua
 
 ## Creare e gestire i tag {#create-and-manage-tags}
 
-![Tag di creazione VIDEO](assets/tagging/create-tag.mp4).
+![crea tag](assets/tagging/create-tag.gif).
 
 Utilizza lo stesso menu di azione per rinominare o eliminare un tag.
 
@@ -35,13 +35,13 @@ Utilizza lo stesso menu di azione per rinominare o eliminare un tag.
 
 Utilizza i tag creati su Display e lettori. Puoi assegnare un tag a un massimo di 30 tag.
 
-![VIDEO gestire le assegnazioni dei tag](assets/tagging/assign-tags-to-players.mp4).
+![gestire le assegnazioni di tag](assets/tagging/assign-tags-to-players.gif).
 
 ## Filtra per tag {#filter-by-tags}
 
 Seleziona i tag per filtrare l’elenco di visualizzazioni o lettori.
 
-![Filtra video per tag](assets/tagging/filter-by-tags.mp4).
+![filtra per tag](assets/tagging/filter-by-tags.gif).
 
 >[!NOTE]
 > 
