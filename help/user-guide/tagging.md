@@ -3,9 +3,9 @@ title: Assegnazione di tag a Screens Cloud
 description: Questa pagina descrive come creare, gestire e utilizzare i tag in Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 62036fb6149d4babfeba69261af0bc4904ae0e82
+source-git-commit: 43971621ae34a433cb5af3cd84b0e6f074af0c30
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,18 @@ Utilizza lo stesso menu di azione per rinominare o eliminare un tag.
 
 >[!NOTE]
 > 
-> Il nome del tag può contenere solo lettere, numeri, trattini e trattini bassi. Il nome deve iniziare e terminare solo con lettere o numeri.
 > Un totale di 500 tag è consentito per un tenant
 
 ## Gestire le assegnazioni dei tag {#manage-tags-assignments}
 
-Utilizza i tag creati su Display e lettori. Puoi assegnare un tag a un massimo di 30 tag.
+Utilizza i tag creati su Display e lettori.
 
 ![gestire le assegnazioni di tag](assets/tagging/assign-tags-to-players.gif).
+
+>[!NOTE]
+> 
+> Un display o un lettore può avere un massimo di 100 tag.
+> Al massimo, è possibile taggare 30 elementi in una sola volta.
 
 ## Filtra per tag {#filter-by-tags}
 
