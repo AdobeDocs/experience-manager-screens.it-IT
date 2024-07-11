@@ -10,7 +10,7 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 06082edf3dadbaea1cea142ff624e83bc6045dfd
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -25,14 +25,14 @@ Inoltre, **Watchdog** è una soluzione per recuperare il lettore dagli arresti a
 
 ## Installazione di Android™ Player {#installing-android-player}
 
-Per implementare Android™ Player per AEM Screens, installa Android™ Player per AEM Screens.
+Per implementare Android™ Player for AEM Screens, installa Android™ Player for AEM Screens.
 
 Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
 
 ### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Se utilizzi AEM Screens 6.5.5 Service Pack, imposta un ambiente per il lettore Android™.
+>Se utilizzi AndroidAEM Screens ™ 6.5.5 Service Pack, imposta un ambiente per il lettore.
 
 Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione console Web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
 
@@ -67,7 +67,7 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 ## Implementazione di Android™ Watchdog {#implementing-android-watchdog}
 
-A causa dell&#39;architettura di Android™, il riavvio del dispositivo richiede che l&#39;applicazione disponga di privilegi di sistema. Firma l’apk utilizzando i tasti di firma del produttore, altrimenti il watchdog può riavviare l’applicazione del lettore e non il dispositivo.
+A causa dell&#39;architettura di Android™, il riavvio del dispositivo richiede che l&#39;applicazione disponga dei privilegi di sistema. Firma l’apk utilizzando i tasti di firma del produttore, altrimenti il watchdog può riavviare l’applicazione del lettore e non il dispositivo.
 
 ### Segnaletica di Android™ `apks` utilizzo delle chiavi del produttore {#signage-of-android-apks-using-manufacturer-keys}
 
@@ -77,22 +77,22 @@ Per accedere ad alcune delle API privilegiate di Android™ ad esempio *PowerMan
 >
 >Prerequisiti:
 >
->Dovresti aver installato l’SDK Android™ prima di eseguire i seguenti passaggi.
+>Prima di eseguire i passaggi seguenti, è necessario aver installato Android™ SDK.
 
-Segui i passaggi seguenti per firmare l&#39;apk Android™ utilizzando i tasti del produttore:
+Segui i passaggi seguenti per firmare il pacchetto Android™ utilizzando i tasti del produttore:
 
 1. Scarica l’app da Google Play o da [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina
 1. Ottenere le chiavi della piattaforma dal produttore in modo da poter ottenere un *pk8* e un *pem* file
 
-1. Individua il `apksigner` strumento in Android™ SDK tramite trova `~/Library/Android/sdk/build-tools -name "apksigner"`
+1. Individua il `apksigner` nell’SDK di Android™ tramite trova `~/Library/Android/sdk/build-tools -name "apksigner"`
 1. `<pathto> /apksigner sign --key platform.pk8 --cert platform.x509.pem aemscreensplayer.apk`
-1. Trova il percorso dello strumento di allineamento zip nell’SDK Android™
+1. Trova il percorso dello strumento Allineamento zip nell’SDK di Android™
 1. `<pathto> /zipalign -fv 4 aemscreensplayer.apk aemscreensaligned.apk`
 1. Installa ***aemscreensaligned.apk*** utilizzo dell&#39;installazione adb sul dispositivo
 
 ## Informazioni su Android™ Watchdog Services {#android-watchdog-services}
 
-Il servizio watchdog cross-Android è implementato come plug-in Cordova utilizzando *Gestione allarmi*.
+Il servizio watchdog cross-Android™ è implementato come plug-in Cordova utilizzando *Gestione allarmi*.
 
 Il diagramma seguente mostra l’implementazione del servizio watchdog:
 
@@ -110,7 +110,7 @@ Il diagramma seguente mostra l’implementazione del servizio watchdog:
 
 ## Provisioning in blocco di Android™ Player {#bulk-provision-android-player}
 
-Quando si esegue il rollout in blocco del lettore Android™, è necessario eseguire il provisioning del lettore in modo che punti a un’istanza AEM e configurare altre proprietà senza immetterle manualmente nell’interfaccia utente di amministrazione.
+Quando si esegue il rollout in massa del lettore Android™, è necessario eseguire il provisioning del lettore in modo che punti a un’istanza AEM e configurare altre proprietà senza immetterle manualmente nell’interfaccia utente di amministrazione.
 
 >[!NOTE]
 >Questa funzione è disponibile dal lettore Android™ 42.0.372.
@@ -120,7 +120,7 @@ Segui i passaggi seguenti per consentire il provisioning in blocco nel lettore A
 1. Crea un file JSON di configurazione con il nome `player-config.default.json`.
 Vedi un [Esempio di criterio JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [Attributi dei criteri](#policy-attributes).
 
-1. Utilizza uno strumento di esplorazione dei file MDM, ADB o Android™ Studio per rilasciare questo file JSON per la policy nel *sdcard* sul dispositivo Android™.
+1. Utilizza un MDM, un ADB o uno strumento di esplorazione file di Android™ Studio per rilasciare questo file JSON della policy in *sdcard* sul dispositivo Android™.
 
 1. Quando il file viene distribuito, utilizzare MDM per installare l&#39;applicazione del lettore.
 
@@ -172,9 +172,9 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 
 ## Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management {#bulk-provisioning}
 
-Quando si distribuisce il lettore Android™ in massa, diventa noioso registrare ogni lettore manualmente con l&#39;AEM. Utilizzare una soluzione EMM (Enterprise Mobility Management) come [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox per il provisioning e la gestione in remoto dell&#39;installazione. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
+Quando si distribuisce il lettore Android™ in massa, diventa noioso registrare ogni lettore manualmente con l’AEM. Utilizzare una soluzione EMM (Enterprise Mobility Management) come [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), MobileIron o Samsung Knox per il provisioning e la gestione in remoto dell&#39;installazione. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
-## Denominazione del lettore Android™ {#name-android}
+## Denominazione di Android™ Player {#name-android}
 
 Puoi assegnare un nome descrittivo al tuo lettore Android™, inviando in tal modo il nome del dispositivo assegnato all’AEM (Adobe Experience Manager). Questa funzionalità consente non solo di denominare il lettore Android™, ma anche di assegnare facilmente il contenuto appropriato.
 
@@ -202,6 +202,6 @@ Segui i passaggi seguenti per consentire il provisioning in blocco in Android™
 
 Inoltre, devi verificare con il fornitore EMM il supporto di AppConfig. Quelli più popolari come [`VMWare Airwatch`](https://docs.samsungknox.com/admin/uem/vm-configure-appconfig.htm), [`Mobile Iron`](https://docs.samsungknox.com/admin/uem/mobileiron2-configure-appconfig.htm), [`SOTI`](https://docs.samsungknox.com/admin/uem/soti-configure-appconfig.htm), [`BlackBerry&reg; UEM`](https://docs.samsungknox.com/admin/uem/bb-configure-appconfig.htm), [`IBM&reg; Maas360`](https://docs.samsungknox.com/admin/uem/ibm-configure-appconfig.htm), e [`Samsung Knox`](https://docs.samsungknox.com/admin/uem/km-configure-appconfig.htm) tra gli altri, supporta questo standard di settore.
 
-### Utilizzo del telecomando Screens {#using-remote-control}
+### Uso del telecomando Screens {#using-remote-control}
 
-AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzione qui: [Controllo remoto Schermi](implementing-remote-control.md)
+AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzione qui: [Telecomando Screens](implementing-remote-control.md)
