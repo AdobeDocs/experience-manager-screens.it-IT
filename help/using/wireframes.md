@@ -24,11 +24,11 @@ Questo processo viene applicato a:
 
 Questo consente di avvicinare il progetto dalla fase di prototipazione alla fase di implementazione effettiva.
 
-Da un **Visualizzazione a livello di risorsa**, è necessario creare wireframe che definiscano varie opzioni di layout del contenuto e raggruppamenti di contenuti. Questo lavoro consente di definire l’aspetto che possono avere più parti di contenuto quando vengono assemblate come gruppo.
+Da una **visualizzazione a livello di risorsa**, è necessario creare wireframe che definiscano varie opzioni di layout del contenuto e raggruppamenti di contenuti. Questo lavoro consente di definire l’aspetto che possono avere più parti di contenuto quando vengono assemblate come gruppo.
 In genere, in questa attività vengono utilizzati elementi grafici, immagini e video pronti per la produzione.
 
-Da un **Visualizzazione a livello di canale**, è necessario creare wireframe che mostrino come i canali di contenuto sono collegati tra loro nell’esperienza complessiva, incluse le strategie di riproduzione per i canali incorporati. È inoltre possibile rivedere le transizioni di canale che possono verificarsi quando vengono attivati i trigger di dati.
+Da una **Visualizzazione a livello di canale**, è necessario creare wireframe che mostrino come i canali di contenuto sono collegati nell&#39;esperienza complessiva, incluse le strategie di riproduzione per i canali incorporati. È inoltre possibile rivedere le transizioni di canale che possono verificarsi quando vengono attivati i trigger di dati.
 
-Su un **Livello progetto**, puoi iniziare a modellare il modo in cui più schermate o esperienze possono funzionare insieme in uno spazio fisico per fornire un percorso utente completo con più punti di contatto.
+In un **livello progetto**, puoi iniziare a modellare il modo in cui più schermate o esperienze possono lavorare insieme in uno spazio fisico per fornire un percorso di utenti multi-punto di contatto completo.
 
 Queste strategie devono essere allineate alla mappa del Percorso UX creata in precedenza.

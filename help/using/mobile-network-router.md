@@ -57,9 +57,9 @@ L&#39;installazione di rete può essere separata logicamente in due blocchi:
 
 Le prestazioni della connessione Internet, oltre alla già descritta raggiungibilità di rete, devono fornire una larghezza di banda sufficiente per eseguire i download dei contenuti AEM Screens in modo fluido.
 
-*Sufficiente* dipende dal numero di dispositivi AEM Screens collegati. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come Smartphone, Tablet, Cassieri, Computer o reti Wi-Fi guest.
+*Sufficiente* dipende dal numero di dispositivi AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come Smartphone, Tablet, Cassieri, Computer o reti Wi-Fi guest.
 Tenere presente che tutti i dispositivi hanno un accesso simultaneo alla connessione Internet e che la larghezza di banda diminuisce in modo lineare, aggiungendo più consumatori/computer alla rete.
-Oltre alla specifica connessione di rete teorica, è necessario garantire che la copertura del router mobile sia almeno pari a *buono*. Inoltre, il piano mensile sottostante deve coprire una capacità di dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN connessa.
+Oltre alla specifica connessione di rete teorica, è necessario assicurarsi che la copertura del router mobile sia almeno *buona*. Inoltre, il piano mensile sottostante deve coprire una capacità di dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN connessa.
 
 Nella tabella seguente vengono evidenziate le reti di dati con la larghezza di banda standard:
 
@@ -82,7 +82,7 @@ Quando consideri quale rete dati utilizzare, l’Adobe consiglia di rispondere a
 
 >[!IMPORTANT]
 >
->Per il caricamento iniziale dei file multimediali durante l’integrazione di nuovi lettori, è necessario prevedere una maggiore quantità di dati e un tempo di download maggiore. Ciò si riflette anche nelle ipotesi di cui sopra. Una rete 4G con *buono* copertura e dati illimitati devono corrispondere alle installazioni più comuni di questa configurazione di rete.
+>Per il caricamento iniziale dei file multimediali durante l’integrazione di nuovi lettori, è necessario prevedere una maggiore quantità di dati e un tempo di download maggiore. Ciò si riflette anche nelle ipotesi di cui sopra. Una rete 4G con copertura *buona* e dati illimitati deve corrispondere alle installazioni più comuni di questa installazione di rete.
 
 
 ### Local Area Network {#lan-connection}
@@ -91,9 +91,9 @@ Le prestazioni della LAN, oltre alla già descritta raggiungibilità di rete, de
 
 Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalle specifiche di accesso a Internet/router.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare lo schermo al collegamento Internet, si consiglia di utilizzare standard Wi-Fi moderni come IEEE `802.11g` come minimo. Questo standard supporta connessioni fino a 54 Mbps. Qualsiasi *più recente* Standard come `802.11h-n` sono di migliore qualità. Se è necessario un ripetitore Wi-Fi, l&#39;Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare lo schermo al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come IEEE `802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, l&#39;Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
 
-## Download di contenuti multimediali e risorse {#download}
+## Download di contenuti multimediali e Assets {#download}
 
 AEM Screens offre un vantaggio significativo agli utenti di digital signage. Scarica e salva localmente tutti i file multimediali necessari, ad esempio immagini e video. A causa di questo concetto, il traffico di rete principale si verifica nel caso in cui vi siano nuovi contenuti da visualizzare su uno schermo specifico.
 Per il normale funzionamento, una playlist definita che non viene aggiornata frequentemente offre un funzionamento quasi indipendente dalla rete quando tutti i file vengono salvati sul lettore.

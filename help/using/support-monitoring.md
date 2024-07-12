@@ -24,15 +24,15 @@ Il monitoraggio dei contenuti consente di risolvere i problemi relativi a conten
 
 1. Se si verifica un problema a schermo vuoto:
 
-   * Controlla la *anteprima* in modo da poter vedere se il canale mostra una schermata nera.
-   * Registra un *lettore Chrome locale* (come estensione) sul notebook per visualizzare la schermata e vedere se è visualizzata una schermata nera.
-   * Fare clic con il pulsante destro del mouse, esaminare e controllare *registri applicabili*.
+   * Controlla l&#39;*anteprima* per verificare se sul canale è visualizzata una schermata nera.
+   * Registra un *lettore Chrome locale* (come estensione) sul tuo laptop per visualizzarlo e verificare se è visualizzata una schermata nera.
+   * Fare clic con il pulsante destro del mouse e verificare e controllare i *registri applicabili*.
 
    Inoltre, se il problema non si verifica sul lettore locale ma solo sul dispositivo:
 
-   * Controlla la *tipo di file multimediale* (in uso) che potrebbero avere problemi con il dispositivo e confermare se il contenuto è stato scaricato correttamente localmente (interfaccia utente amministratore cancella cache del canale).
-   * Includi qualsiasi *registri dispositivo* nel ticket per la risoluzione rapida dei problemi.
-   * *Raccogli registri* dal dispositivo dell’AEM.
+   * Controllare il *tipo di supporto* (in uso) che potrebbe presentare problemi sul dispositivo e verificare che il contenuto sia stato scaricato correttamente localmente (Admin UI clear channel cache).
+   * Includi *registri dispositivi* nel ticket per una rapida risoluzione dei problemi.
+   * *Raccogli i registri* dal dispositivo da AEM.
 
 ## Monitoraggio dei dispositivi {#device-monitoring}
 
@@ -40,6 +40,6 @@ Monitoraggio del dispositivo relativo al monitoraggio del dispositivo fisico se 
 
 1. Se si verifica un problema a schermo vuoto:
 
-   * Controlla se *visualizzare* è acceso.
-   * Controlla se *computer* è acceso e invia un segnale.
-   * Clic con il pulsante destro del mouse, controlla e controlla *registri applicabili*.
+   * Verificare che *display* sia acceso.
+   * Verificare che il *computer* sia acceso e stia inviando un segnale.
+   * Fare clic con il pulsante destro del mouse, verificare e controllare *registri applicabili*.

@@ -27,9 +27,9 @@ Per questo caso d’uso, se il valore in Google Sheets è inferiore a 50, viene 
 
 ## Precondizioni {#preconditions}
 
-Prima di iniziare a implementare l’attivazione della temperatura locale del centro di viaggio, scopri come impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per i canali*** in un progetto AEM Screens.
+Prima di iniziare a implementare l&#39;attivazione della temperatura locale del centro viaggi, scopri come impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per canali*** in un progetto AEM Screens.
 
-Consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
+Per informazioni dettagliate, vedere [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
 
 ## Flusso di base {#basic-flow}
 
@@ -38,53 +38,53 @@ Per implementare il caso d’uso di attivazione della temperatura locale del Tra
 1. **Compilazione dei fogli di Google**
 
    1. Passa al foglio Google ContextHubDemo.
-   1. Aggiungi una colonna con **`Heading1`** con valore corrispondente per la temperatura.
+   1. Aggiungi una colonna con **`Heading1`** con il valore di temperatura corrispondente.
 
-   ![screen_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
+   ![schermata_shot_2019-05-08at112911am](assets/screen_shot_2019-05-08at112911am.png)
 
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
-   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[configurazione di ContextHub nella pagina AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
-   1. Fai clic su **Fogli A1 1** e fai clic su **Modifica**.
+   1. Fare clic sui **fogli A1 1** e fare clic su **Modifica**.
 
    1. Fai clic sulla proprietà di confronto e fai clic sull&#39;icona di configurazione.
-   1. Clic **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**
+   1. Fai clic su **googlesheets/value/1/0** dal menu a discesa in **Nome proprietà**
 
-   1. Fai clic su **Operatore** as **maggiore di o uguale a** dal menu a discesa
+   1. Fai clic su **Operatore** come **maggiore o uguale** dal menu a discesa
 
-   1. Inserisci il **Valore** as **50**
+   1. Immetti **Valore** come **50**
 
-   1. Allo stesso modo, seleziona la **Fogli A1 2** e fai clic su **Modifica**.
+   1. Analogamente, selezionare i **fogli A1 2** e fare clic su **Modifica**.
 
-   1. Fai clic su **Proprietà Comparison - Valore** e seleziona l’icona di configurazione.
-   1. Clic **googlesheets/value/1/0** dall’elenco a discesa in **Nome proprietà**
+   1. Fare clic su **Proprietà confronto - Valore** e selezionare l&#39;icona di configurazione.
+   1. Fai clic su **googlesheets/value/1/0** dal menu a discesa in **Nome proprietà**
 
-   1. Fai clic su **Operatore** as **less-than** dal menu a discesa
+   1. Fai clic su **Operatore** come **minore di** dal menu a discesa
 
-   1. Inserisci il **Valore** as **50**
+   1. Immetti **Valore** come **50**
 
-1. Naviga e seleziona il canale () e fai clic su **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenWeather**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
+1. Naviga e seleziona il tuo canale () e fai clic su **Modifica** nella barra delle azioni. Nell&#39;esempio seguente, **DataDrivenWeather**, viene utilizzato un canale sequenziale per mostrare la funzionalità.
 
    >[!NOTE]
    >
-   >Il canale deve già avere un’immagine predefinita e il pubblico deve essere preconfigurato come descritto in [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
+   >Il tuo canale deve già avere un&#39;immagine predefinita e i tipi di pubblico devono essere preconfigurati come descritto in [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
 
-   ![screen_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
+   ![schermata_shot_2019-05-08at113022am](assets/screen_shot_2019-05-08at113022am.png)
 
    >[!CAUTION]
    >
-   >Il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** La scheda deve essere già impostata.
+   >**ContextHub** **Configurazioni** tramite la scheda **Proprietà** > **Personalization** del canale devono essere già configurate.
 
-   ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
+   ![schermata_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Clic **Targeting** dall’editor e fai clic su **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
+1. Fai clic su **Targeting** dall&#39;editor, quindi fai clic su **Brand** e **Activity** dal menu a discesa, quindi fai clic su **Start Targeting**.
 
-   ![new_activity3](assets/new_activity3.gif)
+   ![nuova_attività3](assets/new_activity3.gif)
 
-1. **Controllo dell’anteprima**
+1. **Controllo dell&#39;anteprima**
 
-   1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
+   1. Fare clic su **Anteprima.** Aprire inoltre Google Sheet e aggiornarne il valore.
    1. Modifica il valore in meno di 50. Si può vedere l&#39;immagine di una bevanda fredda. Se il valore in Google Sheets è uguale o superiore a 50, dovrebbe essere visualizzata l&#39;immagine di una bevanda calda.
 
    ![risultato3](assets/result3.gif)

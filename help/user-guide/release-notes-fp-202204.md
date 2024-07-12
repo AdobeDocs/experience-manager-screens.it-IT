@@ -15,13 +15,13 @@ ht-degree: 3%
 # Note sulla versione per Feature Pack 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 ## Disponibilità {#availability}
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 11.
 
-Puoi scaricare il Feature Pack più recente per la versione 6.5.11 di AEM Screens dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP11**.
+È possibile scaricare il Feature Pack più recente per AEM Screens 6.5.11 Release dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP11**.
 
 ## Data di rilascio {#release-date}
 
@@ -39,7 +39,7 @@ La data di pubblicazione del Feature Pack 202204 per AEM Screens è il 26 aprile
 
 * Windows Player si stava bloccando durante l&#39;acquisizione di una schermata in modalità ritratto. Questo bug è ora corretto.
 
-* Il canale SPA Screens causava una schermata bianca con Windows Player. Questo bug è ora corretto.
+* Il canale SPA di Screens causava una schermata bianca con Windows Player. Questo bug è ora corretto.
 
 * Il parametro wcmmode è stato rimosso da tutte le richieste Screens nell’istanza Publish.
 
@@ -59,4 +59,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 11
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi **[Download del lettore AEM Screens](https://download.macromedia.com/screens/index.html)**.

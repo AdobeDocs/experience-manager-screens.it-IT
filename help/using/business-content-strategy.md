@@ -33,7 +33,7 @@ Rivedi e rispondi alle seguenti domande durante la creazione di una strategia de
 * Quando è il momento ideale per coinvolgere il pubblico?
 * Chi creerà il contenuto?
 * Perché il pubblico di destinazione dovrebbe preoccuparsi del contenuto?
-* Quali problemi vengono risolti dai contenuti? Ad esempio, l&#39;applicazione Screens aiuta il cliente a trovare le scarpe più adatte da indossare per l&#39;arrampicata estrema o un apparecchio perfetto per la nuova casa?
+* Quali problemi vengono risolti dai contenuti? Ad esempio, l&#39;applicazione Screens aiuta un cliente a trovare le scarpe più adatte da indossare per l&#39;arrampicata estrema o un apparecchio perfetto per la sua nuova casa?
 * In che modo il cliente interagisce con l’applicazione o come è l’esperienza utente?
 * Qual è la tua strategia di aggiornamento?
 * Con quale frequenza prevedete di creare i nuovi contenuti necessari?

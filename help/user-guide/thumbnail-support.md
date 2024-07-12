@@ -32,7 +32,7 @@ Per usare una miniatura nei video, segui la procedura indicata di seguito:
 
 1. Passa a un canale AEM Screens esistente o creane uno.
 
-1. Fai clic sul canale e fai clic su **Modifica** dalla barra delle azioni.
+1. Fai clic sul canale e fai clic su **Modifica** nella barra delle azioni.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-1.png)
 
@@ -40,19 +40,19 @@ Per usare una miniatura nei video, segui la procedura indicata di seguito:
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-2.png)
 
-1. Fai clic sul video e fai clic su *chiave inglese* icona.
+1. Fai clic sul video e sull&#39;icona *chiave inglese*.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-3.png)
 
-1. Il **Video** viene visualizzata la finestra di dialogo in cui è possibile visualizzare **Miniatura** zona di rilascio.
+1. Viene visualizzata la finestra di dialogo **Video** in cui è possibile visualizzare la zona di rilascio **Miniatura**.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-4.png)
 
-1. Trascina e rilascia un’immagine dal selettore risorse al **Miniatura** rilascia la zona e fai clic su **Fine**.
+1. Trascina e rilascia un&#39;immagine dal selettore risorse alla zona di rilascio **Miniatura** e fai clic su **Fine**.
 
    ![immagine](/help/user-guide/assets/thumbnails/thumbnail-5.png)
 
-1. Clic **Anteprima**.
+1. Fare clic su **Anteprima**.
 
 1. Se un video è impostato sul componente, viene riprodotto. In caso contrario, e la miniatura è impostata, la miniatura viene riprodotta. In caso contrario, il componente viene considerato non configurato e viene saltato.
 

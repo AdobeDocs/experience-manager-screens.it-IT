@@ -17,23 +17,23 @@ ht-degree: 1%
 
 Questa pagina descrive come installare AEM Screens Player.
 
-## Lettore schermi disponibile {#available-players}
+## Lettore Screens disponibile {#available-players}
 
 AEM Screens Player è disponibile per Android™, Chrome OS e Windows.
 
-Per scaricare **Lettore AEM Screens**, visita il [Download del lettore AEM 6.5](https://download.macromedia.com/screens/) pagina.
+Per scaricare **AEM Screens Player**, visita la pagina [Download di AEM 6.5 Player](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >
->Dopo aver scaricato l&#39;ultimo lettore (*.exe*), segui i passaggi sul lettore in modo da poter completare l’installazione ad hoc:
+>Dopo aver scaricato l&#39;ultimo lettore (*.exe*), eseguire la procedura sul lettore per completare l&#39;installazione ad hoc:
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
->1. Fai clic su **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
+>1. Passa a **Configurazione** dal menu Azioni a sinistra e immetti l&#39;indirizzo della posizione dell&#39;istanza AEM in **Server**, quindi fai clic su **Salva**.
+>1. Fai clic sul collegamento **Registrazione** dal menu Azioni a sinistra e sui passaggi seguenti per completare il processo di registrazione del dispositivo.
 
 ## Monitoraggio della riproduzione di base {#playback-monitoring}
 
-Il lettore riporta diverse metriche di riproduzione per ciascuno di essi `ping` il valore predefinito è 30 secondi. In base a queste metriche, è in grado di rilevare vari casi limite, come esperienza bloccata, schermata vuota e problemi di pianificazione. Ci consente di comprendere e risolvere i problemi sul dispositivo, e quindi accelera un&#39;indagine e misure correttive per voi.
+Il lettore riporta diverse metriche di riproduzione per ogni `ping` per impostazione predefinita, 30 secondi. In base a queste metriche, è in grado di rilevare vari casi limite, come esperienza bloccata, schermata vuota e problemi di pianificazione. Ci consente di comprendere e risolvere i problemi sul dispositivo, e quindi accelera un&#39;indagine e misure correttive per voi.
 
 Il monitoraggio della riproduzione di base in un lettore AEM Screens consente di effettuare le seguenti operazioni:
 
@@ -45,7 +45,7 @@ Il monitoraggio della riproduzione di base in un lettore AEM Screens consente di
 
 ### Informazioni sulle proprietà {#understand-properties}
 
-Le seguenti proprietà sono incluse in ogni `ping`:
+In ogni `ping` sono incluse le seguenti proprietà:
 
 | Proprietà | Descrizione |
 |---|---|
@@ -69,7 +69,7 @@ Di seguito sono elencate alcune limitazioni al monitoraggio di base della riprod
 
 * Il lettore segnala il proprio stato di riproduzione al server, pertanto richiede una connessione attiva.
 
-* Il `isContentRendering` che controlla che la GPU richieda un uso intensivo delle risorse per essere abilitata per impostazione predefinita e richieda il consenso esplicito delle preferenze del lettore. L’Adobe consiglia di non utilizzarlo con i video in produzione.
+* La proprietà `isContentRendering` che controlla la GPU richiede molte più risorse per essere abilitata per impostazione predefinita e richiede il consenso esplicito dalle preferenze del lettore. L’Adobe consiglia di non utilizzarlo con i video in produzione.
 
 * Questa funzione è supportata solo per i canali di sequenza e non copre ancora il caso di utilizzo dei canali interattivi (SPA).
 
@@ -79,8 +79,8 @@ Di seguito sono elencate alcune limitazioni al monitoraggio di base della riprod
 
 Per informazioni dettagliate, consulta i seguenti argomenti:
 
-* Per scaricare Android™ Player, visita **Google Play**. Per informazioni sull’implementazione di Android™ Watchdog, consulta [Implementazione del lettore Android™](implementing-android-player.md).
+* Per scaricare Android™ Player, visita **Google Play**. Per informazioni sull&#39;implementazione di Android™ Watchdog, consulta [Implementazione di Android™ player](implementing-android-player.md).
 
-* Per implementare Chrome OS Player, vedi [Console di gestione Chrome](implementing-chrome-os-player.md) per ulteriori informazioni.
+* Per implementare Chrome OS Player, vedere [Chrome Management Console](implementing-chrome-os-player.md) per ulteriori informazioni.
 
 * Per configurare AEM Screens Windows Player, vedere [Implementazione di Windows Player](implementing-windows-player.md).

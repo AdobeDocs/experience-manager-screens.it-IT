@@ -33,14 +33,14 @@ ht-degree: 11%
    + [Configurazione di Screens Server](configuring-screens-introduction.md)
    + [Configurazione delle configurazioni del Dispatcher](dispatcher-configurations-aem-screens.md)
    + [Installazione di Screens Player](installing-screens-player.md)
-   + [Collegamento del lettore Screens](working-with-screens-player.md)
+   + [Collegamento di Screens Player](working-with-screens-player.md)
    + [Registrazione dispositivo](device-registration.md)
    + [Impostazione di ACL](setting-up-acls.md)
    + [Elenco di controllo della sicurezza di AEM Screens](security-checklist.md)
    + [Transizione da ContentSync a SmartSync](smartsync.md)
    + [Nuova importazione progetti da file](project-importer.md)
-   + [Replica di Data Triggers su server di pubblicazione](replicating-data-triggers.md)
-   + [Configurazione degli agenti di replica sulle schermate](configure-screens-replication.md)
+   + [Replica di Data Triggers su server Publish](replicating-data-triggers.md)
+   + [Configurazione degli agenti di replica in Screens](configure-screens-replication.md)
    + Considerazioni specifiche per il client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Utilizzo di Chrome Player come estensione per la risoluzione dei problemi](using-chrome-player-as-an-extension.md)
@@ -50,21 +50,21 @@ ht-degree: 11%
       + [Lettore cloud](implementing-cloud-player.md)
       + [Registrazione automatica dei lettori](auto-registration-players.md)
       + [Uso del telecomando](implementing-remote-control.md)
-   + Pubblicazione autore {#author-publish}
-      + [Panoramica dell’architettura Author-Publish](author-publish-architecture-overview.md)
+   + Autore Publish {#author-publish}
+      + [Panoramica dell’architettura di Author-Publish](author-publish-architecture-overview.md)
       + [Configurazione di Author e Publish](author-and-publish.md)
    + Integrazione di Analytics con AEM Screens {#analytics-integration}
       + [Integrazione di Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Esempi di authoring e casi d’uso {#authoring}
-   + Configurazione di un progetto Schermi {#setting-up-projects}
++ Esempi di authoring e casi d&#39;uso {#authoring}
+   + Configurazione di un progetto Screens {#setting-up-projects}
       + [Creazione e gestione di progetti](creating-a-screens-project.md)
       + [Creazione e gestione dei canali](managing-channels.md)
       + [Creazione e gestione delle visualizzazioni](managing-displays.md)
       + [Creazione e gestione delle posizioni](managing-locations.md)
       + [Creazione e gestione delle pianificazioni](managing-schedules.md)
       + [Gestione dei dispositivi](managing-devices.md)
-      + Assegnazione dei canali {#assigning-channels}
+      + Assegnazione canali {#assigning-channels}
          + [Assegnazione canale](channel-assignment-latest-fp.md)
          + [Assegnazione canale: Feature Pack precedenti di AEM Screens](channel-assignment.md)
    + Utilizzo delle funzionalità core del prodotto {#product-features}
@@ -92,8 +92,8 @@ ht-degree: 11%
    + Gestione degli aggiornamenti dei contenuti {#content-updates}
       + [Aggiornamento dei contenuti on-demand](on-demand-content.md)
       + [Aggiornamento contenuto as a service](content-update-as-a-service.md)
-      + [Aggiornamento dei contenuti tramite Screens Launch](launches.md)
-   + Esempi di casi d’uso {#use-case-examples}
+      + [Aggiornamento dei contenuti con Screens Launch](launches.md)
+   + Esempi di casi d&#39;uso {#use-case-examples}
       + [Canali di emergenza](emergency-channel.md)
       + [Attivazione temperatura centro di viaggio](local-temperature-activation.md)
       + [Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)

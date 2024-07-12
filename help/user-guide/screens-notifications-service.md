@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <!--removed from metadata: admitteddomains: @adobe.com;@caesars.com-->
 
-***Servizio notifiche AEM Screens*** descrive l&#39;attività del dispositivo di monitoraggio.
+***Il servizio AEM Screens Notifications*** descrive l&#39;attività del dispositivo di monitoraggio.
 
 Questa sezione tratta i seguenti argomenti:
 
 * **Panoramica**
 * **Configurazione delle impostazioni e-mail**
 * **Notifica e-mail**
-* **Caso d’uso di esempio**
+* **Caso d&#39;uso di esempio**
 
 <!-- OBSOLETE NOTE>
 >[!CAUTION]
@@ -38,7 +38,7 @@ Questa sezione tratta i seguenti argomenti:
 
 ## Panoramica {#overview}
 
-***Servizio notifiche AEM Screens*** consente agli amministratori di ricevere un’e-mail se un lettore AEM Screens non esegue il ping per un periodo di tempo configurabile.
+***AEM Screens Notifications Service*** consente agli amministratori di ricevere un&#39;e-mail se un lettore AEM Screens non esegue il ping per un periodo di tempo configurabile.
 
 Questo servizio può essere configurato nella console web OSGi.
 
@@ -47,13 +47,13 @@ Questo servizio può essere configurato nella console web OSGi.
 Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail:
 
 1. Apri **Configurazione console Web Adobe Experience Manager**.
-1. Apri **Servizio di monitoraggio e-mail del dispositivo Screens**.
+1. Aprire **Servizio Monitoraggio e-mail dispositivo Screens**.
 
-   ![screen_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
+   ![schermata_shot_2018-04-26at44602pm](assets/screen_shot_2018-04-26at44602pm.png)
 
 1. Definisci i campi seguenti per configurare le impostazioni per l’e-mail:
 
-   **Percorso dispositivi** Immetti il percorso dei progetti Screens che desideri monitorare. Il percorso è in genere `/home/users/screens/<Name of your project>`.
+   **Percorso dispositivi** Immettere il percorso dei progetti Screens che si desidera monitorare. Il percorso è in genere `/home/users/screens/<Name of your project>`.
 
    Ad esempio, se il progetto è **`We.Retail`**, utilizza il percorso del progetto come ***/home/users/screens/we-retail***.
 
@@ -61,7 +61,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
    >
    >Specifica il percorso del progetto, dove si trovano gli utenti del dispositivo.
 
-   **Frequenza Schedule** : specifica un orario (ad esempio, 17:00 o 17:00) o una frequenza in ore (ad esempio, 1) in cui il monitoraggio deve inviare le e-mail.
+   **Frequenza pianificazione** - Specificare un orario (ad esempio, 17:00 o 17:00) o una frequenza in ore (ad esempio, 1) in cui il monitoraggio deve inviare le e-mail.
 
    **Timeout ping** - Questo campo specifica l&#39;intervallo in minuti dopo il quale un dispositivo deve essere considerato non raggiungibile.
 
@@ -69,13 +69,13 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
 
    **Porta SMTP** - Immettere la porta SMTP.
 
-   **Usa TLS** - TLS (Transport Layer Security) consente di comunicare in modo sicuro con il server SMTP.
+   **Usa TLS** - TLS (Transport Layer Security) consente di utilizzare una comunicazione protetta con il server SMTP.
 
    L&#39;Adobe consiglia di utilizzare TLS per la connessione sicura ai server di posta aziendali. Rivolgersi all&#39;amministratore della posta per ottenere i valori appropriati.
 
-   **nome utente** - Specifica il nome utente per l’invio delle e-mail.
+   **nomeutente** - Specificare il nome utente per l&#39;invio di e-mail.
 
-   **password** - Specificare la password per l&#39;invio delle e-mail.
+   **password** - Specifica la password per l&#39;invio di e-mail.
 
    **Destinatario** - Specifica l&#39;indirizzo e-mail del destinatario.
 
@@ -83,7 +83,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
    >
    >Puoi inserire un solo indirizzo e-mail. Per inviare un’e-mail in blocco, crea un gruppo o una lista di distribuzione con gli utenti interessati.
 
-1. Clic **Salva** per configurare l’attività di monitoraggio tramite un’e-mail per il dispositivo AEM Screens.
+1. Fai clic su **Salva** per configurare l&#39;attività di monitoraggio tramite un&#39;e-mail per il dispositivo AEM Screens.
 
 ## Notifica e-mail {#email-notification}
 
@@ -98,7 +98,7 @@ Le e-mail vengono inviate solo se:
 
 ### Casi d’uso di esempio {#example-use-cases}
 
-L’esempio seguente descrive alcuni scenari di riferimento per configurare le proprietà da Screens Device Email Monitoring Service.
+Nell&#39;esempio seguente vengono descritti alcuni scenari di riferimento per configurare le proprietà da Screens Device Email Monitoring Service.
 
 **Scenario 1**
 

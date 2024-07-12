@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 AEM Screens ha rilasciato AEM 6.4.5 Feature Pack 5 e AEM 6.5.1 Feature Pack 1 con i seguenti dettagli.
 
@@ -31,12 +31,12 @@ La data di rilascio del Feature Pack 201907 per AEM Screens è il 31 luglio 2019
 
 ### Novità {#what-s-new}
 
-* **Trigger dati per cambiare le risorse in un canale AEM Screens**
+* **Il trigger di dati determina il cambiamento delle risorse in un canale AEM Screens**
 
 Il lettore passa a un canale che mostra le informazioni di emergenza. Il sistema di emergenza invia queste informazioni quando riceve un evento. Il canale gioca esclusivamente fino a quando la situazione di emergenza non è finita.
 
 
-Consulta [Canale di emergenza](emergency-channel.md) caso d’uso per l’implementazione.
+Consulta [Caso di utilizzo del canale di emergenza](emergency-channel.md) per l&#39;implementazione.
 
 * **Targeting abilitato per i componenti asincroni
 
@@ -46,24 +46,24 @@ Per ulteriori informazioni su come abilitare il targeting delle risorse nel prog
 
 Dopo aver configurato ContextHub per il progetto AEM Screens, segui diversi casi d’uso per comprendere in che modo le risorse attivate dai dati svolgono un ruolo fondamentale in diversi settori:
 
-**[Attivazione con targeting magazzino vendita al dettaglio](retail-inventory-activation.md)**
+**[Attivazione con targeting inventario vendita al dettaglio](retail-inventory-activation.md)**
 
 **[Attivazione temperatura centro di viaggio](local-temperature-activation.md)**
 
 **[Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)**
 
-* **Miglioramenti nei gestori degli aggiornamenti**
+* **Miglioramenti nei gestori di aggiornamenti**
 
 Il gestore degli aggiornamenti analizza ora i frammenti di esperienza e raccoglie qualsiasi immagine, video o prodotto ad essi associato.
 
 * **Lanci**
 
 I lanci consentono agli autori di contenuti di creare versioni future dei canali. Con l’aiuto di Launches, gli autori possono visualizzare in anteprima ogni canale nel lancio e dovrebbero essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve una notifica e può approvare o rifiutare la richiesta. Una volta raggiunta la data di attivazione, il contenuto viene riprodotto nei dispositivi.
-Consulta [Lanci](launches.md) per ulteriori dettagli.
+Per ulteriori dettagli, vedi [Lanci](launches.md).
 
 * **Configurazioni offline in Frammenti esperienza**
 
-È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione di Frammento esperienza Screens. Consulta [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
+È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione di Frammento esperienza Screens. Per ulteriori dettagli, vedi [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md).
 
 ### Lettori AEM Screens rilasciati
 
@@ -75,4 +75,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.4.5 Feature Pack 
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [Download di AEM Screens Player](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi [Download del lettore AEM Screens](https://download.macromedia.com/screens/).

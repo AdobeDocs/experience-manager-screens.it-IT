@@ -1,5 +1,5 @@
 ---
-title: Nozioni di base del digital signage per [!UICONTROL AEM Screens]
+title: Nozioni di base sul digital signage per [!UICONTROL AEM Screens]
 description: Scopri le basi di un progetto di digital signage.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
@@ -17,7 +17,7 @@ Questa sezione fornisce consigli sui principali elementi chiave fondamentali per
 
 ## Elementi chiave nel digital signage {#key-elements}
 
-Il *Elementi chiave* in un progetto di digital signage:
+Gli elementi chiave *1} in un progetto di digital signage sono:*
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -27,7 +27,7 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 
    L’hardware definisce i componenti hardware ideali per l’implementazione del progetto di digital signage:
    * Il dispositivo dispone di spazio di archiviazione sufficiente per eseguire tutte le varianti delle esperienze offline?
-   * Sono consentiti il tipo e la lunghezza del cavo video? Il dispositivo supporta entrambe le risoluzioni desiderate (HD, Full HD, `4K`e così via) e i codec video che intendo distribuire (h.264, h.265 e così via)
+   * Sono consentiti il tipo e la lunghezza del cavo video? Il dispositivo supporta sia le risoluzioni desiderate (HD, Full HD, `4K` e così via) che i codec video che intendo distribuire (h.264, h.265 e così via)
    * Uso del filo di rame fisico
    * Dimensioni degli schermi
    * Numero di schermate
@@ -65,7 +65,7 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
       * Contenuto basato su dati?
    * Controllo della versione
 
-1. **Interattiva**
+1. **Interattivo**
 
    Il servizio interattivo include:
    * Tipo di touchscreen preferito? (resistivo, capacitivo, multi-touch)?

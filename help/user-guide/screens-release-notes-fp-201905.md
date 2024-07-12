@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 L’AEM Screens ha rilasciato AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4 con i seguenti dettagli.
 
@@ -35,25 +35,25 @@ La data di rilascio del Feature Pack 201905 per AEM Screens è il 16 maggio 2019
 
 Importazione progetti è una funzione disponibile in AEM Screens che consente di importare in blocco un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens.
 
-Consulta **[Nuova importazione progetti da file](project-importer.md)** per ulteriori dettagli.
+Per ulteriori dettagli, vedere **[Nuova importazione progetti dal file](project-importer.md)**.
 
 * **Transizione da ContentSync a SmartSync**
 
 SmartSync riduce il carico/lo storage del server e il traffico di rete per ridurre i costi.
 
-Consulta **[Transizione da ContentSync a SmartSync](smartsync.md)** per ulteriori dettagli.
+Per ulteriori dettagli, vedere **[Passaggio da ContentSync a SmartSync](smartsync.md)**.
 
 * **Canale di emergenza**
 
 In questo esempio di caso d’uso viene posto l’accento sulla creazione e la gestione di un canale di emergenza che l’autore del contenuto può passare da un canale di sequenza se esiste una precondizione.
 
-Consulta **[Canale di emergenza](emergency-channel.md)** caso d’uso per ulteriori dettagli.
+Per ulteriori dettagli, vedi **[Caso di utilizzo del canale di emergenza](emergency-channel.md)**.
 
-* **Incorporare un’applicazione REACT utilizzando l’editor SPA dell’AEM e Integrare con AEM Screens Analytics**
+* **Incorporazione di un&#39;applicazione REACT tramite l&#39;editor SPA dell&#39;AEM e integrazione con AEM Screens Analytics**
 
 Questa sezione descrive come incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o un Angular) utilizzando l’editor SPA dell’AEM. I professionisti dell’AEM possono configurare l’editor. Descrive inoltre come integrare l’applicazione interattiva con Adobe Analytics offline.
 
-Consulta **[Incorporare un’applicazione REACT utilizzando l’editor SPA dell’AEM e Integrare con AEM Screens Analytics](embedding-react-app.md)** per ulteriori dettagli.
+Per ulteriori informazioni, vedere **[Incorporazione di un&#39;applicazione REACT tramite l&#39;editor SPA dell&#39;AEM e Integrazione con AEM Screens Analytics](embedding-react-app.md)**.
 
 ### Lettori AEM Screens rilasciati
 
@@ -65,4 +65,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.3.3.3 Feature Pac
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi **[Download del lettore AEM Screens](https://download.macromedia.com/screens/)**.

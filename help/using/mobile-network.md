@@ -68,10 +68,10 @@ Come follow-up, il pacchetto dati necessario deve essere almeno:
 
 
 >[!IMPORTANT]
->Per il caricamento iniziale dei file multimediali durante l’integrazione di nuovi lettori, è necessario prevedere una maggiore quantità di dati e un tempo di download maggiore; questo si riflette nelle ipotesi precedenti. Una rete 4G con *buono* copertura e *illimitato* I dati devono corrispondere alle installazioni più comuni in questa configurazione di rete.
+>Per il caricamento iniziale dei file multimediali durante l’integrazione di nuovi lettori, è necessario prevedere una maggiore quantità di dati e un tempo di download maggiore; questo si riflette nelle ipotesi precedenti. Una rete 4G con *copertura buona* e *dati illimitati* deve corrispondere alle installazioni più comuni in questa installazione di rete.
 
 >[!NOTE]
->Un piano 3G minimo con una buona copertura di rete dovrebbe portare a prestazioni di download accettabili per un lettore AEM Screens. Se in una posizione specifica è disponibile solo la copertura equa, è consigliabile passare alla configurazione di rete globale [Rete mobile con router dati mobile e componenti di rete attivi](/help/using/mobile-network-router.md).
+>Un piano 3G minimo con una buona copertura di rete dovrebbe portare a prestazioni di download accettabili per un lettore AEM Screens. Se in una posizione specifica è disponibile solo la copertura equa, è consigliabile passare dall&#39;impostazione di rete globale a [Mobile Network with Mobile Data Router and Active Network Components](/help/using/mobile-network-router.md).
 
 
 ### Local Area Network {#lan-connection}
@@ -80,7 +80,7 @@ Oltre alla raggiungibilità della rete, i problemi di prestazioni della rete LAN
 
 Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti i componenti corrispondano ai requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalle specifiche di accesso a Internet o router. In caso contrario, la larghezza di banda totale è limitata dall&#39;anello più debole della catena di rete.
 
-## Download di contenuti multimediali e risorse {#download}
+## Download di contenuti multimediali e Assets {#download}
 
 AEM Screens offre un vantaggio significativo agli utenti di digital signage. Scarica e salva localmente tutti i file multimediali necessari, ad esempio immagini e video. Il traffico di rete principale si verifica quando è presente un nuovo contenuto da visualizzare su una visualizzazione specifica.
 

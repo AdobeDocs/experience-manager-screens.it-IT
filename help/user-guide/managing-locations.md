@@ -25,23 +25,23 @@ Questa pagina mostra come creare e gestire le posizioni per Screens.
 **Prerequisiti**:
 
 * [Configurazione e distribuzione di Screens](configuring-screens-introduction.md)
-* [Creazione e gestione del progetto Screens](creating-a-screens-project.md)
+* [Creazione e gestione di un progetto Screens](creating-a-screens-project.md)
 * [Creazione e gestione dei canali](managing-channels.md)
 
 ## Creazione di una nuova posizione {#creating-a-new-location}
 
-Dopo aver creato il progetto per Screens, segui i passaggi seguenti per creare una Posizione per un progetto Screens:
+Dopo aver creato il progetto per Screens, effettua le seguenti operazioni per creare una posizione per un progetto Screens:
 
-1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra), quindi su Screens. In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
-1. Passa al progetto Schermi e fai clic su **Posizioni**.
-1. Clic **Crea** accanto all’icona più nella barra delle azioni.
-1. Fai clic sul modello **Posizione** dalla procedura guidata e fai clic su **Successivo**.
-1. Immetti le proprietà per **Titolo e tag**, **Altri titoli e descrizioni**, **Ora di attivazione/disattivazione**, e **URL personalizzato**.
-1. Clic **Crea** e il percorso viene creato e aggiunto alla cartella dei percorsi.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e quindi su Screens. In alternativa, è possibile passare direttamente a: `http://localhost:4502/screens.html/content/screens`.
+1. Passa al progetto Screens e fai clic su **Percorsi**.
+1. Fai clic su **Crea** accanto all&#39;icona più nella barra delle azioni.
+1. Fare clic sul modello **Posizione** della procedura guidata e fare clic su **Avanti**.
+1. Immetti le proprietà per **Titolo e tag**, **Altri titoli e descrizioni**, **Ora di attivazione/disattivazione** e **URL personalizzato**.
+1. Fai clic su **Crea** e il percorso viene creato e aggiunto alla cartella dei percorsi.
 
 Per informazioni sulla creazione di una posizione per un progetto AEM Screens, consulta i passaggi seguenti. A scopo dimostrativo, la nuova posizione (SanJose) viene creata in *DemoProject*.
 
-![player2](assets/player2.gif)
+![lettore2](assets/player2.gif)
 
 Dopo aver creato una posizione, creane una per la tua.
 
@@ -50,12 +50,12 @@ Dopo aver creato una posizione, creane una per la tua.
 Per modificare o accedere alle proprietà di una posizione:
 
 1. Fai clic sulla posizione.
-1. Clic **Proprietà** dalla barra delle azioni.
+1. Fare clic su **Proprietà** nella barra delle azioni.
 
-![player3](assets/player3.gif)
+![lettore3](assets/player3.gif)
 
 #### Passaggi successivi {#the-next-steps}
 
 Dopo aver creato una posizione, creane una per la tua.
 
-Consulta [Creazione e gestione delle visualizzazioni](managing-displays.md).
+Vedere [Creazione e gestione di visualizzazioni](managing-displays.md).

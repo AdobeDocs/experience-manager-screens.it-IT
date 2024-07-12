@@ -22,7 +22,7 @@ Puoi gestire il contenuto del canale e altre impostazioni in AEM Screens Player.
 
 >[!NOTE]
 >
->Premi ***Ctrl+Comando+F*** in modo da poter uscire dalla modalità a schermo intero per OS X AEM Screens Player.
+>Premere ***Ctrl+Cmd+F*** per uscire dalla modalità a schermo intero per OS X AEM Screens Player.
 
 Dopo aver assegnato un canale a una visualizzazione, AEM Screens Player visualizza il contenuto. Puoi configurare le impostazioni per il lettore utilizzando le preferenze per l’interfaccia utente amministratore (dalla dashboard) oppure dal lettore stesso.
 
@@ -30,9 +30,9 @@ Dopo aver assegnato un canale a una visualizzazione, AEM Screens Player visualiz
 
 Puoi configurare le preferenze per il dispositivo dal dashboard Dispositivo, accessibile tramite l’istanza di authoring AEM.
 
-1. Dal progetto, accedi al dashboard dei dispositivi, ad esempio ***Progetto di prova*** > ***Dispositivi***.
+1. Passa al dashboard dei dispositivi dal progetto, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
-   Clic **Dispositivi** e **Gestione dispositivi** dalla barra delle azioni.
+   Fare clic su **Dispositivi** e **Gestione dispositivi** nella barra delle azioni.
 
    ![chlimage_1-66](assets/chlimage_1-66.png)
 
@@ -40,15 +40,15 @@ Puoi configurare le preferenze per il dispositivo dal dashboard Dispositivo, acc
 
    ![chlimage_1-67](assets/chlimage_1-67.png)
 
-1. Controlla la **PREFERENZE** pannello. È possibile abilitare o disabilitare **Interfaccia utente amministratore** e **Commutatore canale** per il lettore da queste due opzioni.
+1. Controlla il pannello **PREFERENCES**. Puoi abilitare o disabilitare **l&#39;interfaccia utente amministratore** e **il cambio canale** per il lettore da queste due opzioni.
 
    ![chlimage_1-68](assets/chlimage_1-68.png)
 
 ### Interfaccia utente amministratore {#the-admin-ui}
 
-Abilitazione di **Interfaccia utente amministratore** dal pannello delle preferenze, consente all’utente di aprire le impostazioni di amministrazione da Screens Player. Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente non può aprire l’interfaccia utente di amministrazione dal lettore.
+L&#39;attivazione della **interfaccia utente amministratore** dal pannello delle preferenze consente all&#39;utente di aprire le impostazioni di amministrazione da Screens Player. Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente non può aprire l’interfaccia utente di amministrazione dal lettore.
 
-Per visualizzare l’interfaccia utente di amministrazione da Screens Player, premi a lungo l’angolo in alto a sinistra per aprire il menu Admin, sul lettore AEM Screens touch o utilizzando un mouse. Le informazioni vengono visualizzate al termine della registrazione e dopo il caricamento dei canali.
+Per visualizzare l’interfaccia utente di amministrazione da Screens Player, premi a lungo l’angolo in alto a sinistra per aprire il menu Amministratore, sul lettore AEM Screens touch o utilizzando un mouse. Le informazioni vengono visualizzate al termine della registrazione e dopo il caricamento dei canali.
 
 >[!NOTE]
 >
@@ -58,41 +58,41 @@ Per visualizzare l’interfaccia utente di amministrazione da Screens Player, pr
 
 #### Accesso alle opzioni del menu di configurazione {#configuration-options}
 
-Puoi aggiornare le configurazioni facendo clic sul pulsante **Configurazione** dal menu laterale, come illustrato nella figura seguente:
+Puoi aggiornare le configurazioni facendo clic sull&#39;opzione **Configurazione** nel menu laterale, come illustrato nella figura seguente:
 
-![screen_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
+![schermata_shot_2018-10-15at101257am](assets/screen_shot_2018-10-15at101257am.png)
 
 Il menu Configurazione consente di modificare le seguenti impostazioni:
 
-* Reimposta **Firmware**, **Preferenze**, o **In fabbrica** da questa finestra di dialogo.
+* Reimpostare **Firmware**, **Preferenze** o **Alla factory** da questa finestra di dialogo.
 
-* Specifica il numero massimo di file di registro che desideri mantenere per un lettore AEM Screens in **N. max. di file di registro da mantenere**.
+* Specificare il numero massimo di file di registro che si desidera mantenere per un lettore AEM Screens in **Numero massimo. di file di registro da mantenere**.
 
-* Attiva o disattiva la **Menu Amministrazione**, **Commutatore canale**, e **Interfaccia attività** per Screens Player.
+* Attiva o disattiva **Menu amministratore**, **Cambia canale** e **Interfaccia attività** per Screens Player.
 
-  Se il **Interfaccia attività** è abilitato da **Configurazione** AEM Screens Player visualizza il menu *notifiche di attività del lettore* nell’angolo in alto a destra del lettore, come illustrato nella figura seguente.
+  Se l&#39;**interfaccia utente attività** è abilitata dal menu **Configurazione**, AEM Screens Player visualizza le *notifiche attività lettore* nell&#39;angolo superiore destro del lettore, come illustrato nella figura seguente.
 
   ![immagine](/help/user-guide/assets/activity_ui.png)
 
 >[!NOTE]
 >
->Il **Aggiorna firmware** opzione funziona solo sui lettori Cordova, come Android™.
+>L&#39;opzione **Aggiorna firmware** funziona solo su Cordova, ad esempio i lettori Android™.
 
 >[!NOTE]
 >
->Si consiglia di **Interfaccia utente amministratore** essere disattivato nelle distribuzioni di produzione.
+>Si consiglia di disabilitare l&#39;**interfaccia utente amministratore** nelle distribuzioni di produzione.
 
 #### Accesso alle opzioni del menu Content Cache {#content-cache-options}
 
 Puoi cancellare la cache per i canali e le applicazioni dall’interfaccia utente di amministrazione in AEM Screens Player.
 
-Fai clic su **Cache contenuto** dalla barra laterale, in modo da poter aggiornare la cache.
+Fai clic su **Cache contenuto** dalla barra laterale per aggiornare la cache.
 
-![screen_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
+![schermata_shot_2018-10-15at105717am](assets/screen_shot_2018-10-15at105717am.png)
 
 ### Commutatore canale {#the-channel-switcher}
 
-Abilitazione di **Commutatore canale** dal pannello delle preferenze consente all’utente di aprire le impostazioni di selezione del canale da Screens Player.
+L&#39;attivazione di **Channel Switcher** dal pannello delle preferenze consente all&#39;utente di aprire le impostazioni di selezione del canale da Screens Player.
 
 Inoltre, se disattivi questa opzione dal dashboard del dispositivo, l’utente non può controllare le preferenze del canale da Screens Player.
 
@@ -104,9 +104,9 @@ Per visualizzare il commutatore di canale dal lettore, premere a lungo l&#39;ang
 
 >[!NOTE]
 >
->È inoltre possibile abilitare o disabilitare il menu di amministrazione e il selettore di canale per il lettore da Screens Player.
+>È inoltre possibile attivare o disattivare il menu di amministrazione e il selettore di canale per il lettore dal lettore Screens.
 >
->(vedere *Modifica preferenze da Screens Player* come indicato nella sezione seguente).
+>(Vedi *Modifica preferenze da Screens Player* come indicato nella sezione seguente).
 
 ### Gestione delle preferenze da AEM Screens Player
 
@@ -115,10 +115,10 @@ Puoi anche modificare le impostazioni per l’interfaccia utente di amministrazi
 Per modificare le preferenze dal lettore:
 
 1. Premi a lungo sull’angolo in alto a sinistra del canale inattivo per aprire il pannello di amministrazione.
-1. Accedi a **Configurazione** dal menu Azioni sinistro.
-1. Attiva o disattiva la configurazione per **Interfaccia utente amministratore** o **Commutatore canale**.
+1. Passa a **Configurazione** dal menu Azioni a sinistra.
+1. Abilita o disabilita la configurazione per **Interfaccia utente amministratore** o **Cambio canale**.
 
-![screen_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
+![schermata_shot_2018-10-15at101257am-1](assets/screen_shot_2018-10-15at101257am-1.png)
 
 ## Risoluzione dei problemi di AEM Screens Player
 
@@ -137,16 +137,16 @@ Puoi risolvere vari problemi associati al lettore AEM Screens (hardware e softwa
 
 Esistono due tipi di aggiornamenti per AEM Screens Player:
 
-| **Metodo** | **Dettagli** | **tramite telecomando** | **Automatizzato** | **0 tempi di inattività** |
+| **Metodo** | **Dettagli** | **tramite telecomando** | **Automatizzato** | **0 downtime** |
 |---|---|---|---|---|
 | Aggiornamento firmware | Applicato ai lettori installati esistenti tramite comando remoto. Dopo l&#39;aggiornamento, il lettore viene ricaricato automaticamente con il contenuto esistente. | Sì | Personalizzato | Quasi - 1-3 secondi |
 | Aggiornamenti della shell del lettore | Un nuovo eseguibile distribuito sul lettore. Questa funzionalità richiede di copiare in remoto il nuovo binario sul lettore, arrestare l’esecuzione corrente e avviare la nuova versione. Potrebbe essere necessario scaricare nuovamente il precaricamento dei pacchetti. | Sì (tramite shell remota) | Personalizzato | No |
 
 ## Linee guida per la selezione dell&#39;hardware per il dispositivo del lettore {#hardware-selection-guidelines-for-player-device}
 
-La sezione seguente fornisce le linee guida per la selezione dell&#39;hardware per un progetto Screens:
+Nella sezione seguente vengono fornite le linee guida per la selezione dell&#39;hardware per un progetto Screens:
 
-* Sorgente sempre ***Commerciale*** o ***Industriale*** Componenti di livello sia per il lettore PC che per il display o il proiettore.
+* Crea sempre l&#39;origine dei componenti di livello ***Commercial*** o ***Industrial*** sia per il lettore PC che per il pannello o il proiettore.
 
 * Interagisci sempre con i fornitori che operano nel mercato del digital signage.
 * Considera sempre fattori ambientali quali la temperatura ambiente e l’umidità relativa.
@@ -174,7 +174,7 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/wireless<br /> 2x USB</td>
+   <td>DVI<br /> Ethernet / Wireless<br /> 2x USB</td>
    <td>
     <ul>
      <li>Ciclo a schermo intero standard<br /> </li>
@@ -188,10 +188,10 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/wireless,<br /> 2x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Contenuto dinamico a sorgente singola</li>
+     <li>Contenuto dinamico Source singolo</li>
      <li>Interattivo semplice</li>
      <li>1-3 Layout di zona</li>
     </ul> </td>
@@ -203,12 +203,12 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td>256 GB</td>
    <td>GPU grafica dedicata</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/wireless,<br /> 4x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 o più aree di contenuto, riproduzione video simultanea</li>
      <li>Interattivo a più pagine</li>
-     <li>Attivatori dati multi-sorgente</li>
+     <li>Attivatori di dati Source multipli</li>
     </ul> </td>
   </tr>
  </tbody>

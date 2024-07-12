@@ -19,18 +19,18 @@ AEM Screens consente di creare:
 * **consigli sui prodotti;**
 * **immagini lifestyle di sfondo.**
 
-Inoltre, Screens fornisce molte applicazioni univoche per clienti e dipendenti in base al dominio in cui vengono implementate, ad esempio:
+Inoltre, Screens fornisce molte applicazioni uniche per clienti e dipendenti in base al dominio in cui vengono distribuite, ad esempio:
 
 * **display interattivi;**
 * **segnaletica;**
 * **branding;**
 * **aggiunta di atmosfera all’ambiente.**
 
-La creazione e la gestione di una rete di digital signage con AEM Screens è semplice e intuitiva. Un’applicazione lettore ospita canali di contenuti creati per AEM Screens dai clienti o dai partner di implementazione. *Posizioni* gestisci una gerarchia di posizioni predefinita e contiene visualizzazioni. Ogni *display* ha un dashboard che mostra i diversi dispositivi e schermi collegati. I contenuti per AEM Screens vengono gestiti in *canali*. *AEM Screens Player* riproduce sui display i contenuti presenti nei canali.
+La creazione e la gestione di una rete di digital signage con AEM Screens è semplice e intuitiva. Un’applicazione lettore ospita canali di contenuti creati per AEM Screens dai clienti o dai partner di implementazione. *Le posizioni* gestiscono una gerarchia di posizioni predefinita e contengono visualizzazioni. Ogni *display* ha un dashboard che mostra i diversi dispositivi e schermi collegati. I contenuti per AEM Screens vengono gestiti in *canali*. *AEM Screens Player* riproduce sui display i contenuti presenti nei canali.
 
 >[!NOTE]
 >
->Per informazioni dettagliate sulle diverse funzioni di sviluppo e gestione di un progetto AEM Screens, consulta **[Guida utente di AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
+>Per informazioni dettagliate sulle diverse funzionalità di sviluppo e gestione di un progetto AEM Screens, consulta la **[Guida utente di AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/aem-screens-introduction)**.
 
 ## Confronto tra AEM Sites e AEM Screens {#aem-sites-screens}
 
@@ -40,15 +40,15 @@ La creazione e la gestione di una rete di digital signage con AEM Screens è sem
 
 AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per distribuire i contenuti ai dispositivi di digital signage negli spazi pubblici. Anche se è importante mantenere quanta più coerenza possibile tra i canali Web e quelli interni, è necessario tenere presente alcune differenze.
 
-* **Tempo di permanenza**: in genere, le pagine web sono progettate per fornire un’ampia gamma di informazioni che possono essere utilizzate per un periodo di tempo relativamente più lungo. Al contrario, le esperienze digitali interne dovrebbero anticipare le esigenze dell&#39;osservatore e fornire indicazioni chiare e concise utili a coinvolgere l’utente. Tale attenzione si traduce in esperienze più mirate, curate e contestuali.
+* **Tempo di permanenza**: in genere, le pagine Web sono progettate per fornire un&#39;ampia gamma di informazioni che possono essere utilizzate per un periodo di tempo relativamente più lungo. Al contrario, le esperienze digitali interne dovrebbero anticipare le esigenze dell&#39;osservatore e fornire indicazioni chiare e concise utili a coinvolgere l’utente. Tale attenzione si traduce in esperienze più mirate, curate e contestuali.
 
-* **Distanza di visualizzazione**: le distanze di visualizzazione sono più lunghe o più lontane rispetto alla distanza di visualizzazione tipica di un sito web. Di conseguenza, le dimensioni del testo dovrebbero essere maggiori e la spaziatura tra testo, immagini e altri contenuti complementari dovrebbe essere verificata in base alle dimensioni dello schermo e alla posizione prevista nello spazio fisico.
+* **Distanza di visualizzazione**: le distanze di visualizzazione sono più lunghe o più lontane rispetto alla distanza di visualizzazione tipica di un sito Web. Di conseguenza, le dimensioni del testo dovrebbero essere maggiori e la spaziatura tra testo, immagini e altri contenuti complementari dovrebbe essere verificata in base alle dimensioni dello schermo e alla posizione prevista nello spazio fisico.
 
-* **Persistenza**: le esperienze digitali devono sempre poter essere trasmesse all’utente in base allo stato di connessione del dispositivo di riproduzione. Il lettore deve essere progettato in modo che una o più esperienze persistano sempre e possano essere distribuite indipendentemente dallo stato di connessione del dispositivo di riproduzione.
+* **Persistenza**: le esperienze digitali devono sempre poter essere trasmesse all&#39;utente in base allo stato di connessione del dispositivo di riproduzione. Il lettore deve essere progettato in modo che una o più esperienze persistano sempre e possano essere distribuite indipendentemente dallo stato di connessione del dispositivo di riproduzione.
 
-* **Segmentazione del loop multimediale**: la configurazione di ciascun dispositivo di riproduzione con un proprio segmento di loop garantisce che i contenuti localizzati possano essere facilmente creati, pubblicati e riprodotti nell’esperienza digitale complessiva. Le risorse multimediali contenute all’interno dei canali di sequenza incorporati vengono aggiunte al segmento di loop precedente e offrono l’opportunità di impostare come destinazione un segmento di loop multimediale per ciascun raggruppamento di posizioni.
+* **Segmentazione loop multimediale**: la configurazione di ciascun dispositivo di riproduzione con un proprio segmento di loop garantisce che i contenuti localizzati possano essere facilmente creati, pubblicati e riprodotti nell&#39;esperienza digitale complessiva. Le risorse multimediali contenute all’interno dei canali di sequenza incorporati vengono aggiunte al segmento di loop precedente e offrono l’opportunità di impostare come destinazione un segmento di loop multimediale per ciascun raggruppamento di posizioni.
 
-* **Esperienze interattive**: un’applicazione chiosco touch può essere creata e distribuita in un canale Screens tramite l’AEM e l’editor SPA. È consigliabile applicare proprietà di progettazione omni-channel coerenti, un timer di inattività per ripristinare l’esperienza e un chiaro invito all’azione per le attività che l’applicazione può eseguire. La pagina di destinazione deve essere costituita da elementi digitali chiave progettati per trasmettere valore, richiamare l’attenzione dell’utente e richiedere all’utente di interagire.
+* **Esperienze interattive**: un&#39;applicazione chiosco touch può essere creata e distribuita in un canale Screens tramite AEM e l&#39;editor SPA. È consigliabile applicare proprietà di progettazione omni-channel coerenti, un timer di inattività per ripristinare l’esperienza e un chiaro invito all’azione per le attività che l’applicazione può eseguire. La pagina di destinazione deve essere costituita da elementi digitali chiave progettati per trasmettere valore, richiamare l’attenzione dell’utente e richiedere all’utente di interagire.
 
 AEM Screens fornisce un’infrastruttura per distribuire contenuti ai dispositivi fisici. I contenuti vengono assegnati ai canali in Screens, che possono avere contenuti multimediali o applicazioni touch screen. In questo framework, un’applicazione AEM Sites può essere distribuita come contenuto tramite un canale.
 

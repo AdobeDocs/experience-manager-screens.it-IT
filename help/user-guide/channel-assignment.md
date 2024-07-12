@@ -15,7 +15,7 @@ ht-degree: 2%
 # Assegnazione canale {#channel-assignment}
 
 >[!IMPORTANT]
->Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione di Screens di AEM 6.5.5.
+>Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione Screens 6.5.5 dell’AEM.
 
 Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione per visualizzarne il contenuto.
 
@@ -28,19 +28,19 @@ Questa pagina mostra come assegnare un canale alla visualizzazione.
 
 Per assegnare un canale a una visualizzazione, segui i passaggi seguenti:
 
-1. Passa alla visualizzazione desiderata, ad esempio: **DemoProject** > **Posizioni** > **SanJose** > **StoreDisplay**.
+1. Passa alla visualizzazione richiesta, ad esempio **Progetto demo** > **Posizioni** > **SanJose** > **Visualizzazione store**.
 
    ![immagine](assets/screen_shot_2018-08-23at25359pm.png)
 
-1. Clic **Assegna canale** nella barra delle azioni.
+1. Fare clic su **Assegna canale** nella barra delle azioni.
 
    oppure
 
-   Clic **Dashboard** e fai clic su **+Assegna canale** dal **CANALI ASSEGNATI** per aprire il **Assegnazione canale** .
+   Fai clic su **Dashboard** e su **+Assegna canale** dal pannello **CANALI ASSEGNATI** per aprire la finestra di dialogo **Assegnazione canale**.
 
    ![immagine](/help/user-guide/assets/channel-assign1.png)
 
-   Puoi configurare le proprietà da **Assegnazione canale** dalla sezione seguente. Consulta la [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà del canale.
+   Puoi configurare le proprietà dalla finestra di dialogo **Assegnazione canale** dalla sezione seguente. Consulta la sezione [Proprietà canale](#channel-properties) per ulteriori informazioni sulle proprietà del canale.
 
 ## Informazioni sulle proprietà del canale da Assegnazione canale {#channel-properties}
 
@@ -48,9 +48,9 @@ Per assegnare un canale a una visualizzazione, segui i passaggi seguenti:
 
 Un canale di riferimento consente di fornire un riferimento al canale desiderato, in base al nome del canale o al percorso del canale.
 
-* **per percorso** : fornisci un riferimento esplicito utilizzando il percorso assoluto del canale.
+* **per percorso** - Fornisci un riferimento esplicito utilizzando il percorso assoluto del canale.
 
-* **per nome** - Immetti il nome del canale che viene risolto in un canale effettivo per contesto. Questa funzione ti consente di creare una versione locale di un canale in modo da poter risolvere dinamicamente il contenuto specifico della posizione. Ad esempio, un canale con nome *offerte del giorno*, in cui il contenuto effettivo sarebbe diverso in due città, ma si dispone comunque del ruolo di canale sano su tutti gli schermi.
+* **per nome** - Immetti il nome del canale che viene risolto in un canale effettivo in base al contesto. Questa funzione ti consente di creare una versione locale di un canale in modo da poter risolvere dinamicamente il contenuto specifico della posizione. Ad esempio, un canale con il nome *offerte del giorno*, in cui il contenuto effettivo sarebbe diverso in due città, ma si dispone ancora del ruolo canale sano su tutte le visualizzazioni.
 
 ### Ruolo canale {#role-channel}
 
@@ -61,46 +61,46 @@ Il ruolo del canale definisce il contesto della visualizzazione. Il ruolo esegue
 La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più corrispondano ai criteri di riproduzione. Quello con il valore più alto ha sempre la precedenza sui valori più bassi. Ad esempio, se sono presenti due canali A e B. A ha una priorità di 1 e B ha una priorità di 2, quindi viene visualizzato il canale B, in quanto ha una priorità più alta di A.
 
 >[!NOTE]
->La priorità per un canale è impostata come numero (1 per il minimo) nel **Assegnazione canale** come indicato in precedenza. Inoltre, i canali assegnati vengono ordinati in base alla priorità decrescente.
+>La priorità per un canale è impostata come numero (minimo 1) nella finestra di dialogo **Assegnazione canale**, come indicato in precedenza. Inoltre, i canali assegnati vengono ordinati in base alla priorità decrescente.
 
 ### Eventi supportati {#supported-events-channel}
 
 * **Caricamento iniziale** - Carica il canale all&#39;avvio del lettore. Può essere assegnato a più canali con una pianificazione.
-* **Schermata di inattività** : viene caricato quando lo schermo è inattivo. Può essere assegnato a più canali con una pianificazione.
+* **Schermata di inattività** - Carica quando lo schermo è inattivo. Può essere assegnato a più canali con una pianificazione.
 * **Timer** - Deve essere impostato quando viene fornita una pianificazione.
-* **Interazione utente** - Il lettore passa al canale specificato in caso di interazione dell&#39;utente sullo schermo (contatto) in un canale inattivo e si carica quando lo schermo viene toccato.
+* **Interazione utente** - Il lettore passa al canale specificato se sullo schermo è presente un&#39;interazione dell&#39;utente (touch) in un canale inattivo e viene caricato quando lo schermo viene toccato.
 
 ### Metodo di interruzione {#interruption-method-channel}
 
 >[!IMPORTANT]
 >
-> Questa opzione è disponibile solo con <!--AEM 6.4 Feature Pack 8 or -->Feature Pack 4 per AEM 6.5.
+> Questa opzione è disponibile solo con <!--AEM 6.4 Feature Pack 8 or -->AEM 6.5 Feature Pack 4.
 
 In qualità di autore di contenuti, specifica quando un canale viene interrotto. In questo modo è possibile tagliare i contenuti non critici, se necessario, ma facoltativamente consentire la riproduzione di contenuti importanti prima di interromperne la riproduzione a causa della programmazione.
 
-Fare clic su una delle opzioni seguenti disponibili per impostare il metodo di interruzione dal **Assegnazione canale** finestra di dialogo:
+Fare clic su una delle opzioni seguenti disponibili per impostare il metodo di interruzione nella finestra di dialogo **Assegnazione canale**:
 
-* **Immediatamente** - Ogni volta che si attiva la programmazione o si riceve un aggiornamento, è possibile interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto.
-* **Alla fine dell&#39;elemento corrente** - Quando si attiva una nuova programmazione o si riceve un aggiornamento, è possibile attendere che l&#39;elemento corrente della sequenza finisca la riproduzione. Solo in seguito è possibile aggiornare o riprodurre il nuovo contenuto.
+* **Immediatamente** - Quando la pianificazione si attiva o viene ricevuto un aggiornamento, puoi interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto.
+* **Alla fine dell&#39;elemento corrente** - Quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l&#39;elemento corrente della sequenza finisca la riproduzione. Solo in seguito è possibile aggiornare o riprodurre il nuovo contenuto.
 
   >[!NOTE]
   >Questa opzione è selezionata per impostazione predefinita.
-* **Alla fine della sequenza** - Quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l’intera sequenza raggiunga la fine. Quindi, immediatamente prima della sequenza desiderata, puoi tornare al primo elemento, aggiornare o riprodurre il nuovo contenuto.
+* **Alla fine della sequenza** - Quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l&#39;intera sequenza raggiunga la fine. Quindi, immediatamente prima della sequenza desiderata, puoi tornare al primo elemento, aggiornare o riprodurre il nuovo contenuto.
 
   >[!NOTE]
   >Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell&#39;assegnazione potrebbero subire un leggero differimento. Il motivo è che il lettore attende la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di eseguire l’aggiornamento. Il ritardo dipende dalla durata di riproduzione dell’elemento.
 
 ### Pianificazione {#schedule-channel}
 
-Pianifica consente di fornire una descrizione testuale di quando deve apparire il canale. Consente inoltre di definire una data di inizio (**attivo da**) e una data di fine (**attivo fino a**) per il canale da visualizzare.
+Pianifica consente di fornire una descrizione testuale di quando deve apparire il canale. Ti consente inoltre di definire una data di inizio (**attiva da**) e una data di fine (**attiva fino a**) per il canale da visualizzare.
 
-**Mostra descrizione attrazione**
+**Descrizione comando attrazione**
 
-Mostra descrizione comando attrazione definisce se la descrizione comando attrazione (&quot;*Toccare ovunque per iniziare*&quot;) deve essere visualizzato o meno mentre il canale è in esecuzione.
+Mostra descrizione comando attrazione definisce se la descrizione comando attrazione (&quot;*Toccare un punto qualsiasi per iniziare*&quot;) deve essere visualizzata o meno mentre il canale è in esecuzione.
 
 ### DayParting {#dayparting}
 
-Schedules, quando combinati con **DayParting**, consente di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare tale configurazione per tutti gli schermi contemporaneamente.
+Le pianificazioni, se combinate con **DayParting**, ti consentono di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare tale configurazione per tutte le visualizzazioni contemporaneamente.
 
 DayParting si riferisce alla suddivisione di un giorno in intervalli di tempo e alla specifica del contenuto riprodotto all’ora desiderata. AEM Screens consente di pianificare i canali in termini di DayPparting entro un giorno, una settimana o un mese in base al requisito.
 
@@ -140,7 +140,7 @@ Questo esempio mostra il dayParting ottenuto in un casinò in cui si verifica un
    <td>Programmi specialiCena</td>
    <td>Fine settimana</td>
    <td> </td>
-   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 22:00 prima dell’1:00</td>
+   <td>21 ottobre 2017 - 22 ottobre 2017 <br /> dopo le 22:00 prima dell'1:00</td>
   </tr>
  </tbody>
 </table>
@@ -174,5 +174,5 @@ Questo esempio mostra il DayParting per un negozio che visualizza la raccolta in
 >
 > Per ulteriori informazioni su DayParting, vedere le sezioni seguenti:
 >
->* [Gestione della ricorrenza nelle risorse](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Gestione della ricorrenza per le risorse in un canale](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Gestione della ricorrenza in Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Gestione della ricorrenza per Assets in un canale](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

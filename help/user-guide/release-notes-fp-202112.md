@@ -15,13 +15,13 @@ ht-degree: 3%
 # Note sulla versione per Feature Pack 202112 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 ## Disponibilità {#availability}
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 10.
 
-Puoi scaricare il Feature Pack più recente per la versione 6.5.10 di AEM Screens dal sito [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP10**.
+È possibile scaricare il Feature Pack più recente per AEM Screens 6.5.10 Release dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP10**.
 
 ## Data di rilascio {#release-date}
 
@@ -29,7 +29,7 @@ La data di rilascio del Feature Pack 202112 per AEM Screens è il 12 gennaio 202
 
 ### Novità {#what-is-new}
 
-* Gli aggiornamenti dell&#39;applicazione Android™ ora interessano Android™ 11 (livello API 30). Attualmente il lettore Android™ è in API di destinazione livello 29.
+* Gli aggiornamenti dell&#39;applicazione Android™ ora interessano Android™ 11 (API livello 30). Attualmente il lettore Android™ è incluso nell’API di destinazione di livello 29.
 
 * L&#39;anteprima della visualizzazione è bloccata nella configurazione precedente del lettore
 
@@ -69,4 +69,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 10
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi **[Download del lettore AEM Screens](https://download.macromedia.com/screens/index.html)**.

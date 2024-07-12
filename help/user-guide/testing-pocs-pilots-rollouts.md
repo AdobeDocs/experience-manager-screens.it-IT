@@ -75,10 +75,10 @@ Considerare tutte queste fasi come parte del piano generale del progetto aiuta a
 
 >[!VIDEO](https://video.tv.adobe.com/v/28405)
 
-*Scopri i termini chiave coinvolti in un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test dell’hardware, la bozza di concetto, i progetti pilota e i rollout.*
+*Scopri i termini chiave di un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la verifica del concetto, i progetti pilota e i rollout.*
 
 ## Passaggio successivo {#the-next-step}
 
 Quando hai terminato con test, Proofs of Concept, programmi pilota e rollout, segui il tutorial successivo che approfondisce la gestione del progetto e i processi coinvolti.
 
-Accedi a **[Parte 4: Gestione e realizzazione del progetto](project-management-and-deployment.md)** per ulteriori dettagli.
+Passare a **[Parte 4: Project Management and Deployment](project-management-and-deployment.md)** per ulteriori dettagli.

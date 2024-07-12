@@ -26,36 +26,36 @@ ht-degree: 0%
 >
 >Se le rappresentazioni video di AEM Screens non vengono riprodotte in modo ottimale sul dispositivo, contatta il fornitore dell’hardware per le specifiche del video. In questo modo è possibile ottenere le migliori prestazioni sul dispositivo. Consente di creare un profilo video personalizzato con i parametri appropriati affinché FFMPEG possa generare la rappresentazione. Quindi, utilizza i passaggi seguenti per aggiungere il tuo profilo video personalizzato all’elenco dei profili.
 >
->Vedi anche [Video sulla risoluzione dei problemi](troubleshoot-videos.md) per eseguire il debug e risolvere i problemi relativi alla riproduzione di video nel canale.
+>Consulta anche [Risoluzione dei problemi relativi ai video](troubleshoot-videos.md) per eseguire il debug e risolvere i problemi relativi alla riproduzione di video nel tuo canale.
 
 Per generare automaticamente le rappresentazioni Full HD, effettua le seguenti operazioni:
 
-1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona del martello in modo da poter fare clic su **Flusso di lavoro**.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e sull&#39;icona del martello in modo da poter fare clic su **Flusso di lavoro**.
 
-   Clic **Modelli**.
+   Fare clic su **Modelli**.
 
-   ![screen_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
+   ![schermata_shot_2018-02-01at123407pm](assets/screen_shot_2018-02-01at123407pm.png)
 
-1. Nella gestione del modello di flusso di lavoro, fai clic su **Aggiorna risorsa DAM** e fai clic su **Modifica** dalla barra delle azioni.
+1. Nella gestione del modello del flusso di lavoro, fai clic sul modello **Risorsa di aggiornamento DAM** e fai clic su **Modifica** nella barra delle azioni.
 
    ![step5_-_edit_thedamupdateassetmodel](assets/step5_-_edit_thedamupdateassetmodel.png)
 
-1. In **Aggiorna risorsa DAM** fare doppio clic sulla **Transcodifica FFmpeg** passaggio.
+1. Nella finestra **Risorsa di aggiornamento DAM**, fai doppio clic sul passaggio **Trascodifica FFmpeg**.
 
-   ![screen_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
+   ![schermata_shot_2018-02-01at124454pm](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Fai clic su **Processo** scheda.
-1. Inserire i profili Full HD nell&#39;elenco in **Argomenti** come segue:
+1. Fare clic sulla scheda **Processo**.
+1. Immetti i profili Full HD nell&#39;elenco in **Argomenti** come segue:
    ***`,profile:fullhd-bp,profile:fullhd-hp`***
 1. Fai clic su **OK**.
 
-   ![screen_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
+   ![schermata_shot_2018-02-02at103340am](assets/screen_shot_2018-02-02at103340am.png)
 
-1. Clic **Salva** in alto a sinistra nella **Aggiorna risorsa DAM** schermo.
+1. Fai clic su **Salva** in alto a sinistra nella schermata **Aggiorna risorsa DAM**.
 
-   ![screen_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
+   ![schermata_shot_2018-02-02at101830am](assets/screen_shot_2018-02-02at101830am.png)
 
-1. Accedi a **Risorse** e carica un nuovo video. Fai clic sul video e apri la barra laterale Rappresentazioni. Osservate i due video Full HD.
+1. Passa a **Assets** e carica un nuovo video. Fai clic sul video e apri la barra laterale Rappresentazioni. Osservate i due video Full HD.
 
    ![step10_-_open_thevideoasset](assets/step10_-_open_thevideoasset.png)
 
@@ -71,24 +71,24 @@ Per generare automaticamente le rappresentazioni Full HD, effettua le seguenti o
 
 Per generare manualmente le rappresentazioni Full HD, effettua le seguenti operazioni:
 
-1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e fai clic sull’icona del martello in modo da poter fare clic su Strumenti e poi su **Flusso di lavoro**.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e sull&#39;icona del martello in modo da poter fare clic su Strumenti e poi su **Flusso di lavoro**.
 
-   Clic **Modelli**.
+   Fare clic su **Modelli**.
 
-   ![screen_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
+   ![schermata_shot_2018-02-01at123407pm-1](assets/screen_shot_2018-02-01at123407pm-1.png)
 
-1. Nella gestione dei modelli di flusso di lavoro, fai clic su **Risorsa per aggiornamento schermi** e fare clic sul pulsante **Avvia flusso di lavoro** per aprire **Esegui flusso di lavoro** .
+1. Nella gestione del modello di flusso di lavoro, fai clic sul modello **Risorsa di aggiornamento Screens** e poi sul **Avvia flusso di lavoro** per aprire la finestra di dialogo **Esegui flusso di lavoro**.
 
-   ![step5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
+   ![passaggio5_-_start_a_newscreensupdateassetworkflow](assets/step5_-_start_a_newscreensupdateassetworkflow.png)
 
-1. Fai clic sul video desiderato nella sezione **Payload** e fai clic su **Esegui**.
+1. Fai clic sul video desiderato nel **Payload** e fai clic su **Esegui**.
 
-   ![step6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
+   ![passaggio6_-_select_thedesiredvideo](assets/step6_-_select_thedesiredvideo.png)
 
-1. Accedi a **Risorse**, espandi la risorsa e fai clic su di essa.
+1. Passa a **Assets**, approfondisci la risorsa e fai clic su di essa.
 
-   ![step7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
+   ![passaggio7_-_open_thevideoasset](assets/step7_-_open_thevideoasset.png)
 
-1. Apri **Rappresentazioni** barra laterale. Osservate le nuove rappresentazioni Full HD.
+1. Apri la barra laterale **Rendering**. Osservate le nuove rappresentazioni Full HD.
 
-   ![step8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)
+   ![passaggio8_-_open_therenditionssiderail](assets/step8_-_open_therenditionssiderail.png)

@@ -18,7 +18,7 @@ ht-degree: 0%
 Questa sezione tratta i seguenti argomenti sull’aggiornamento del contenuto come servizio:
 
 * **Panoramica**
-* **Utilizzo dell’aggiornamento offline in blocco**
+* **Utilizzo dell&#39;aggiornamento offline in blocco**
 
 <!--
 >[!CAUTION]
@@ -46,9 +46,9 @@ Puoi utilizzare manualmente l’aggiornamento in blocco offline dall’interfacc
 Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, effettua le seguenti operazioni:
 
 1. Passa al progetto AEM Screens.
-1. Fai clic sul progetto e fai clic su **Aggiorna contenuto offline** dalla barra delle azioni per aggiornare manualmente il contenuto del canale.
+1. Fare clic sul progetto e fare clic su **Aggiorna contenuto offline** nella barra delle azioni per aggiornare manualmente il contenuto del canale.
 
-   ![screen_shot_2018-04-24at122256pm](assets/screen_shot_2018-04-24at122256pm.png)
+   ![schermata_shot_2018-04-24alle122256pm](assets/screen_shot_2018-04-24at122256pm.png)
 
 ### Configurazione console Web Adobe Experience Manager {#adobe-experience-manager-web-console-configuration}
 
@@ -57,7 +57,7 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
 1. Configurazione della console Web Adobe Experience Manager.
 1. Cercare i servizi di aggiornamento offline in blocco.
 
-   ![screen_shot_2018-04-24at121428pm](assets/screen_shot_2018-04-24at121428pm.png)
+   ![schermata_shot_2018-04-24alle121428pm](assets/screen_shot_2018-04-24at121428pm.png)
 
 1. Aggiungi le seguenti proprietà:
 
@@ -69,6 +69,6 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
    >
    >Specifica il percorso del progetto relativo al canale.
 
-   **Frequenza Schedule** Specifica un orario, ad esempio 17:00 o 17:00 in cui il servizio deve aggiornare il contenuto offline.
+   **Frequenza pianificazione** Specificare un&#39;ora, ad esempio le 17.00 o le 17.00, in cui il servizio deve aggiornare il contenuto offline.
 
-1. Clic **Salva** per salvare le impostazioni. Tutto il contenuto viene aggiornato all’ora specificata.
+1. Fai clic su **Salva** per salvare le impostazioni. Tutto il contenuto viene aggiornato all’ora specificata.

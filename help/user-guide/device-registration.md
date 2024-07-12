@@ -30,99 +30,99 @@ Il processo di registrazione del dispositivo viene eseguito su due computer dist
 
 >[!NOTE]
 >
->Dopo aver scaricato l&#39;ultimo Windows Player (*.exe*), dal [Download del lettore AEM 6.4](https://download.macromedia.com/screens/) , seguire i passaggi del lettore per completare l&#39;installazione ad hoc:
+>Dopo aver scaricato la versione più recente di Windows Player (*.exe*) dalla pagina [Download di AEM 6.4 Player](https://download.macromedia.com/screens/), seguire la procedura del lettore per completare l&#39;installazione ad hoc:
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Accedi a **Configurazione** dal menu Azioni sinistro e immettere l&#39;indirizzo di localizzazione dell&#39;istanza AEM in **Server** e fai clic su **Salva**.
->1. Fai clic su **Registrazione** dal menu di azione sinistro e i passaggi seguenti per completare il processo di registrazione del dispositivo.
+>1. Passa a **Configurazione** dal menu Azioni a sinistra e immetti l&#39;indirizzo della posizione dell&#39;istanza AEM in **Server**, quindi fai clic su **Salva**.
+>1. Fai clic sul collegamento **Registrazione** dal menu Azioni a sinistra e sui passaggi seguenti per completare il processo di registrazione del dispositivo.
 >
 
-![screen_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
+![schermata_shot_2018-11-26at12118pm](assets/screen_shot_2018-11-26at12118pm.png)
 
 1. Sul dispositivo, avvia AEM Screens Player. Viene visualizzata l’interfaccia utente di registrazione.
 
-   ![screen_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
+   ![schermata_shot_2018-11-26at104230am](assets/screen_shot_2018-11-26at104230am.png)
 
-1. In AEM, passare al **Dispositivi** del progetto.
+1. In AEM, passa alla cartella **Dispositivi** del progetto.
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di un progetto per Screens nel dashboard AEM, consulta [Creare e gestire un progetto Screens](creating-a-screens-project.md).
+   >Per ulteriori informazioni sulla creazione di un progetto per Screens nel dashboard AEM, vedere [Creare e gestire un progetto Screens](creating-a-screens-project.md).
 
-1. Fai clic su **Gestione dispositivi** nella barra delle azioni.
+1. Fare clic sul pulsante **Gestione periferiche** nella barra delle azioni.
 
-   ![screen_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
+   ![schermata_shot_2018-11-26at104702am](assets/screen_shot_2018-11-26at104702am.png)
 
-1. Fai clic su **Registrazione dispositivo** in alto a destra.
+1. Fai clic sul pulsante **Registrazione dispositivo** in alto a destra.
 
-   ![screen_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
+   ![schermata_shot_2018-11-26at104815am](assets/screen_shot_2018-11-26at104815am.png)
 
-1. Fare clic sul dispositivo richiesto (come al punto 1) e fare clic su **Registra dispositivo**.
+1. Fare clic sul dispositivo richiesto (come nel passaggio 1) e fare clic su **Registra dispositivo**.
 
-   ![screen_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
+   ![schermata_shot_2018-11-26at105112am](assets/screen_shot_2018-11-26at105112am.png)
 
 1. In AEM, attendi che il dispositivo invii il suo codice di registrazione.
 
-   ![screen_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
+   ![schermata_shot_2018-11-26at105150am](assets/screen_shot_2018-11-26at105150am.png)
 
-1. Nel dispositivo, seleziona **Codice di registrazione**.
+1. Nel tuo dispositivo, controlla il **codice di registrazione**.
 
-   ![screen_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
+   ![schermata_shot_2018-11-26at105227am](assets/screen_shot_2018-11-26at105227am.png)
 
-1. Se il **Codice di registrazione** è lo stesso in entrambi i computer, fare clic sul pulsante **Convalida** nell’AEM, come indicato al punto (6).
-1. Impostare il nome desiderato per il dispositivo e fare clic su **Registrati**.
+1. Se il **Codice di registrazione** è lo stesso in entrambi i computer, fare clic sul pulsante **Convalida** in AEM, come illustrato nel passaggio 6.
+1. Impostare il nome desiderato per il dispositivo e fare clic su **Registra**.
 
-   ![screen_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
+   ![schermata_shot_2018-11-26at105357am](assets/screen_shot_2018-11-26at105357am.png)
 
-1. Clic **Fine** per completare il processo di registrazione.
+1. Fai clic su **Fine** per completare il processo di registrazione.
 
-   ![screen_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
-
-   >[!NOTE]
-   >
-   >Il **Registra nuovo** consente di registrare un nuovo dispositivo.
-   >
-   >Il **Assegna visualizzazione** consente di aggiungere direttamente il dispositivo a uno schermo.
-
-   Se si fa clic su **Fine**, assegna il dispositivo a uno schermo.
-
-   ![screen_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
+   ![schermata_shot_2018-11-26at105456am](assets/screen_shot_2018-11-26at105456am.png)
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione e la gestione di una visualizzazione per il progetto Screens, consulta [Creazione e gestione delle visualizzazioni](managing-displays.md).
+   >**Registra nuovo** consente di registrare un nuovo dispositivo.
+   >
+   >L&#39;**Assegna visualizzazione** ti consente di aggiungere direttamente il dispositivo a una visualizzazione.
+
+   Se si fa clic su **Fine**, assegnare il dispositivo a una visualizzazione.
+
+   ![schermata_shot_2018-11-26at105740am](assets/screen_shot_2018-11-26at105740am.png)
+
+   >[!NOTE]
+   >
+   >Per ulteriori informazioni sulla creazione e la gestione di una visualizzazione per il progetto Screens, vedere [Creazione e gestione di visualizzazioni](managing-displays.md).
 
 ### Assegnazione del dispositivo a una visualizzazione {#assigning-device-to-a-display}
 
 Se non hai assegnato il dispositivo a una visualizzazione, segui i passaggi seguenti per assegnare il dispositivo a una visualizzazione nel progetto AEM Screens:
 
-1. Fare clic sul dispositivo e fare clic su **Assegna dispositivo** dalla barra delle azioni.
+1. Fare clic sul dispositivo e fare clic su **Assegna dispositivo** nella barra delle azioni.
 
-   ![screen_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
+   ![schermata_shot_2018-11-26at111026am](assets/screen_shot_2018-11-26at111026am.png)
 
-1. Fai clic sul percorso della visualizzazione in **Percorso configurazione dispositivo/display**.
+1. Fare clic sul percorso della visualizzazione nel **Percorso di configurazione schermo/dispositivo**.
 
-   ![screen_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
+   ![schermata_shot_2018-11-26at111252am](assets/screen_shot_2018-11-26at111252am.png)
 
-1. Clic **Assegna** quando si fa clic sul percorso.
+1. Fare clic su **Assegna** quando si fa clic sul percorso.
 
-   ![screen_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
+   ![schermata_shot_2018-11-26at111722am](assets/screen_shot_2018-11-26at111722am.png)
 
-1. Clic **Fine** una volta che il dispositivo è stato assegnato correttamente, come illustrato nella figura seguente.
+1. Fare clic su **Fine** dopo aver assegnato correttamente il dispositivo, come illustrato nella figura seguente.
 
-   ![screen_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
+   ![schermata_shot_2018-11-26at112041am](assets/screen_shot_2018-11-26at112041am.png)
 
    È inoltre possibile visualizzare il dashboard di visualizzazione selezionando **Fine**.
 
-   ![screen_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
+   ![schermata_shot_2018-11-26at112154am](assets/screen_shot_2018-11-26at112154am.png)
 
 ## Ricerca di un dispositivo da Gestione dispositivi {#search-device}
 
 Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’interfaccia utente di Gestione dispositivi.
 
-1. Dal progetto AEM Screens, accedi all’interfaccia utente di Gestione dispositivi, ad esempio, **DemoScreens** > **Dispositivi**.
+1. Passa all&#39;interfaccia utente di Gestione dispositivi dal progetto AEM Screens, ad esempio **Schermi dimostrativi** > **Dispositivi**.
 
-1. Fai clic su **Dispositivi** cartella e fai clic su **Gestione dispositivi** dalla barra delle azioni.
+1. Fare clic sulla cartella **Dispositivi** e fare clic su **Gestione dispositivi** nella barra delle azioni.
 
    ![immagine](/help/user-guide/assets/device-manager/device-manager-1.png)
 
@@ -134,29 +134,29 @@ Dopo aver registrato i dispositivi sul lettore, puoi visualizzarli tutti dall’
 
    Oppure
 
-   Seleziona `/` (barra) per richiamare la funzionalità di ricerca.
+   Selezionare `/` (barra) per richiamare la funzionalità di ricerca.
 
    ![immagine](/help/user-guide/assets/device-manager/device-manager-3.png)
 
 
 ### Limitazioni alla funzionalità di ricerca {#limitations}
 
-* L’utente è in grado di cercare qualsiasi parola esistente nel *ID dispositivo* o *Nome dispositivo*.
+* L&#39;utente è in grado di cercare qualsiasi parola esistente nel *ID dispositivo* o nel *Nome dispositivo*.
 
   >[!NOTE]
-  >Si consiglia di creare i nomi dei dispositivi in più parole, ad esempio *`Boston Store Lobby`* anziché un singolo *`BostonStoreLobby`*.
+  >È consigliabile creare i nomi dei dispositivi in più parole, ad esempio *`Boston Store Lobby`*, anziché in un singolo *`BostonStoreLobby`*.
 
-* Se sono stati creati nomi di dispositivi quali *`Boston Store Lobby`*, cerca qualsiasi parola *`boston`*, *`store`*, o *`lobby`*. Tuttavia, se il nome del dispositivo è *`BostonStoreLobby`*, quindi ricerca *`boston`* non mostra alcun risultato.
+* Se sono stati creati nomi di dispositivo come *`Boston Store Lobby`*, verrà eseguita la ricerca di qualsiasi parola *`boston`*, *`store`* o *`lobby`*. Tuttavia, se il nome del dispositivo è *`BostonStoreLobby`*, la ricerca di *`boston`* non mostrerà alcun risultato.
 
-* wild card, `*` è supportato per la ricerca. Nel caso in cui si desideri trovare tutti i dispositivi con nomi che iniziano con *`boston`*, puoi utilizzare *`boston`**.
+* Il carattere jolly `*` è supportato per la ricerca. Se si desidera trovare tutti i dispositivi con nomi che iniziano con *`boston`*, utilizzare *`boston`**.
 
-* Se il nome del dispositivo è *`BostonStoreLobby`* e ricerca *`boston`* non restituisce il risultato, quindi utilizza *`boston`** nei criteri di ricerca restituisce il risultato.
+* Se il nome del dispositivo è *`BostonStoreLobby`* e la ricerca di *`boston`* non restituisce il risultato, l&#39;utilizzo di *`boston`** nei criteri di ricerca restituisce il risultato.
 
 ## Limitazioni alla registrazione del dispositivo {#limitations-on-device-registration}
 
 Le restrizioni della password utente a livello di sistema potrebbero causare errori nella registrazione del dispositivo. La registrazione del dispositivo utilizza una password generata in modo casuale per creare l&#39;utente del dispositivo.
 
-Se il *AuthorizableActionProvider* La configurazione limita la password e la creazione dell&#39;utente del dispositivo potrebbe non riuscire.
+Se la configurazione di *AuthorizableActionProvider* limita la password, la creazione dell&#39;utente del dispositivo potrebbe non riuscire.
 
 >[!NOTE]
 >
@@ -172,4 +172,4 @@ javax.jcr.nodetype.ConstraintViolationException: Password violates password cons
 
 ### Altre risorse {#additional-resources}
 
-Per ulteriori informazioni su AEM Screens Player, consulta [Lettore AEM Screens](working-with-screens-player.md).
+Per ulteriori informazioni su AEM Screens Player, vedere [AEM Screens Player](working-with-screens-player.md).

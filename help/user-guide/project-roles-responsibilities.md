@@ -40,7 +40,7 @@ L’Adobe include risorse Adobe Managed Services come il CSE (Customer Success E
 
 #### Implementatori AEM {#aem-implementors}
 
-Un **Implementatore AEM** è responsabile dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per l’AEM.
+Un **implementatore AEM** è responsabile dell&#39;esecuzione di attività di sviluppo e integrazione per sviluppare l&#39;esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
@@ -48,7 +48,7 @@ In genere, gli implementatori di AEM implementano funzionalità personalizzate i
 
 #### Integratori Audio-Video {#av-integrators}
 
-Un **Integratore audio-video** è responsabile dell&#39;esecuzione del discovery con i clienti finali per definire i requisiti, determinare l&#39;ambito del progetto per progettare, creare e gestire in modo efficace le installazioni relative all&#39;hardware di digital signage.
+Un **Integratore audio-video** è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti, determinare l&#39;ambito del progetto per progettare, creare e gestire in modo efficace le distribuzioni relative all&#39;hardware di digital signage.
 
 ## Parte 1: Tutorial video su ruoli e responsabilità del progetto {#part-video-tutorial-on-project-roles-and-responsibilities}
 
@@ -58,10 +58,10 @@ Segui il tutorial seguente per capire esattamente in che modo ogni parte influis
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Scopri i ruoli e le responsabilità di Adobe, Integratori audio/visivi e Implementatori AEM.*
+*Scopri i ruoli e le responsabilità di Adobe, Integratori audio/video e Implementatori AEM.*
 
 ## Passaggio successivo {#the-next-step}
 
 Dopo aver compreso i ruoli e le responsabilità del progetto nell’implementazione di un progetto di digital signage, segui l’esercitazione successiva. Vengono approfonditi argomenti quali le considerazioni di test e pre-vendita, in quanto il progetto ha un ambito specifico durante lo sviluppo di opportunità AEM Screens.
 
-Accedi a **[Parte 2: Considerazioni relative all’ambito dei progetti](project-considerations.md)** per ulteriori dettagli.
+Passare a **[Parte 2: Considerazioni relative all&#39;ambito dei progetti](project-considerations.md)** per ulteriori dettagli.

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Utilizzo del telecomando Screens {#implementing-remote-control}
+# Uso del telecomando Screens {#implementing-remote-control}
 
 La funzione di controllo remoto semplifica l’accesso all’interfaccia utente di amministrazione, al commutatore di canale o a funzioni quali Cancella cache e ricarica. Inoltre, fornisce un metodo per visualizzare la versione locale del firmware e le informazioni di sistema sul lettore. Questa funzionalità è particolarmente utile in quanto può essere difficile collegare un mouse. Oppure, utilizzare dispositivi di produzione fuori dalla portata e ancora di più se il lettore ha perso la connessione con l&#39;AEM. È utile anche quando si utilizza Samsung RMS perché la differenza di risoluzione può rendere difficile individuare e aprire l’interfaccia utente di amministrazione utilizzando un mouse.
 

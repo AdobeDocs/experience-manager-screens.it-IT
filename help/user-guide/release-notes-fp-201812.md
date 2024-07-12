@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 L’AEM Screens ha rilasciato AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3 con i seguenti dettagli.
 
@@ -31,20 +31,20 @@ La data di rilascio del Feature Pack 201812 per AEM Screens è il 16 gennaio 201
 
 ### Novità {#what-s-new}
 
-* **Sovrapposizione testo su risorse nel canale**:
+* **Sovrapposizione testo su Assets nel canale**:
 
-  La sovrapposizione testo è una funzione disponibile in AEM Screens. Ti consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine. Consulta [**Sovrapposizione testo**](text-overlay.md).
+  La sovrapposizione testo è una funzione disponibile in AEM Screens. Ti consente di creare un’esperienza coinvolgente in un canale di sequenza fornendo un titolo o una descrizione sovrapposta su un’immagine. Vedi [**Sovrapposizione testo**](text-overlay.md).
 
-* **Programmazione di più risorse**:
+* **Pianificazione risorse multiple**:
 
-  La pianificazione di più risorse consente all’utente di fare clic su più risorse e applicare una pianificazione di riproduzione a tutte le risorse selezionate. Consulta **Programmazione di più risorse** sezione in **[Pianificazione risorse](asset-level-scheduling.md)**.
+  La pianificazione di più risorse consente all’utente di fare clic su più risorse e applicare una pianificazione di riproduzione a tutte le risorse selezionate. Consulta la **sezione** Pianificazione risorse multiple in **[Pianificazione risorse](asset-level-scheduling.md)**.
 
 * **Layout multizona**:
 
-  Il layout multizona consente di creare contenuti per più aree e utilizzare varie risorse, come video, immagini e testo, che possono essere combinati in un’unica schermata. Consulta **[Layout multizona](multi-zone-layout-aem-screens.md)**.
+  Il layout multizona consente di creare contenuti per più aree e utilizzare varie risorse, come video, immagini e testo, che possono essere combinati in un’unica schermata. Vedere **[Layout multisito](multi-zone-layout-aem-screens.md)**.
 
-* **Sincronizzazione intelligente delle risorse con i lettori**
-* **Distribuzione authoring/pubblicazione (protezione avanzata)**
+* **Sincronizzazione intelligente di Assets con i lettori**
+* **Distribuzione di Author/Publish (protezione avanzata)**
 
 ### Lettori AEM Screens rilasciati
 
@@ -57,4 +57,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.3 Feature Pack 5 
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi [**Download del lettore AEM Screens**](https://download.macromedia.com/screens/).

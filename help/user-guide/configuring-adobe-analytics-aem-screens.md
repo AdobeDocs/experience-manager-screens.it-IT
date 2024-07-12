@@ -28,8 +28,8 @@ ht-degree: 10%
 
 Questa sezione tratta i seguenti argomenti:
 
-* **Ordinamento in Adobe Analytics con AEM Screens**
-* **Invio Di Eventi Personalizzati Tramite Offline Adobe Analytics**
+* **Sequenza in Adobe Analytics con AEM Screens**
+* **Invio di eventi personalizzati tramite Adobe Analytics offline**
 
 ## Ordinamento in Adobe Analytics con AEM Screens {#sequencing-in-adobe-analytics-with-aem-screens}
 
@@ -39,7 +39,7 @@ Il ***processo di sequenziamento*** inizia con un servizio di archiviazione dati
 
 Il seguente diagramma di sequenziamento spiega l’integrazione di Adobe Analytics con AEM Screens:
 
-![analytics_chunking](assets/analytics_chunking.png)
+![analisi_chunking](assets/analytics_chunking.png)
 
 ## Invio Di Eventi Personalizzati Tramite Offline Adobe Analytics {#sending-custom-events-using-offline-adobe-analytics}
 
@@ -237,7 +237,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
    <td>Descrizione errore<br /> </td> 
   </tr>
   <tr>
-   <td><strong><em>Prodotto di origine</em></strong></td> 
+   <td><strong><em>Source/Prodotto originario</em></strong></td> 
    <td>Nome</td> 
    <td>source.name</td> 
    <td>obbligatorio</td> 

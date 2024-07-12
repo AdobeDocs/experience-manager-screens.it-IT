@@ -29,9 +29,9 @@ Il maglione rosso, verde o blu viene visualizzato in base al valore più alto de
 
 ## Precondizioni {#preconditions}
 
-Prima di iniziare a implementare l’attivazione del targeting dell’inventario di vendita al dettaglio, scopri come impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per i canali*** in un progetto AEM Screens.
+Prima di iniziare a implementare l&#39;attivazione del targeting dell&#39;inventario di vendita al dettaglio, scopri come impostare ***Archivio dati***, ***Segmentazione pubblico*** e ***Abilita targeting per canali*** in un progetto AEM Screens.
 
-Consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
+Per informazioni dettagliate, vedere [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
 
 ## Flusso di base {#basic-flow}
 
@@ -42,78 +42,78 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
    1. Passa al foglio Google ContextHubDemo.
    1. Aggiungi tre colonne (rosso, verde e blu) con i valori corrispondenti per tre diverse felpe.
 
-   ![screen_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
+   ![schermata_shot_2019-05-06at101755am](assets/screen_shot_2019-05-06at101755am.png)
 
-1. **Configurazione dei tipi di pubblico in base ai requisiti**
+1. **Configurazione del pubblico in base ai requisiti**
 
-   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[configurazione di ContextHub nella pagina AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
 
-   1. Aggiungi tre nuovi segmenti **For_Red**, **For_Green**, e **For_Blue**.
+   1. Aggiungi tre nuovi segmenti **For_Red**, **For_Green** e **For_Blue**.
 
-   1. Clic **For_Red** e fai clic su **Modifica** dalla barra delle azioni.
+   1. Fai clic su **For_Red** e fai clic su **Modifica** nella barra delle azioni.
 
-   1. Trascina la selezione **Comparison : Proprietà - Proprietà** all’editor.
-   1. Fai clic su **Configurazione** icona.
-   1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
-   1. Fai clic su **Operatore**, e come **maggiore di** dal menu a discesa.
-   1. Clic **Tipo di dati**, e come **numero**.
-   1. Clic **googlesheets/value/1/1** dall’elenco a discesa in **Nome seconda proprietà**.
-   1. Trascinamento della selezione **other Comparison : Proprietà - Proprietà** nell’editor e fai clic su **Configurazione** icona.
-   1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome prima proprietà**.
-   1. Fai clic su **Operatore**, e come **maggiore di** dal menu a discesa.
-   1. Clic **Tipo di dati**, e come **numero**.
-   1. Clic **googlesheets/value/1/0** dall’elenco a discesa in **Nome seconda proprietà**.
+   1. Trascinare e rilasciare **Comparison : Property - Property** nell&#39;editor.
+   1. Fai clic sull&#39;icona **Configurazione**.
+   1. Fare clic su **googlesheets/value/1/2** dall&#39;elenco a discesa in **First Property name**.
+   1. Fai clic su **Operatore** e come **maggiore di** dal menu a discesa.
+   1. Fai clic su **Tipo di dati** e come **numero**.
+   1. Fare clic su **googlesheets/value/1/1** dall&#39;elenco a discesa in **Second Property name**.
+   1. Trascina **un altro confronto: Property - Property** nell&#39;editor e fai clic sull&#39;icona **Configuration**.
+   1. Fare clic su **googlesheets/value/1/2** dall&#39;elenco a discesa in **First Property name**.
+   1. Fai clic su **Operatore** e come **maggiore di** dal menu a discesa.
+   1. Fai clic su **Tipo di dati** e come **numero**.
+   1. Fare clic su **googlesheets/value/1/0** dall&#39;elenco a discesa in **Second Property name**.
 
-   ![screen_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
+   ![schermata_shot_2019-05-06at102600am](assets/screen_shot_2019-05-06at102600am.png)
 
-   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto al **For_Blue** come illustrato nella figura seguente:
+   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto al segmento **For_Blue** come mostrato nella figura seguente:
 
-   ![screen_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
+   ![schermata_shot_2019-05-06at103728am](assets/screen_shot_2019-05-06at103728am.png)
 
-   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto al **For_Green** come illustrato nella figura seguente:
+   Allo stesso modo, modifica e aggiungi regole di proprietà di confronto al segmento **For_Green** come mostrato nella figura seguente:
 
-   ![screen_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
+   ![schermata_shot_2019-05-06at103418am](assets/screen_shot_2019-05-06at103418am.png)
 
    >[!NOTE]
    >
-   >Nota che per i segmenti **For_Green** e **For_Green**, i dati non possono essere risolti nell’editor in quanto ora è valido solo il primo confronto in base ai valori presenti nel foglio di Google.
+   >Tieni presente che per i segmenti **For_Green** e **For_Green**, i dati non possono essere risolti nell&#39;editor in quanto solo il primo confronto è ora valido in base ai valori nel foglio di Google.
 
-1. Naviga e fai clic su **DataDrivenRetail** channel (un canale di sequenza).
-1. Clic **Modifica** dalla barra delle azioni.
+1. Naviga e fai clic sul tuo canale **DataDrivenRetail** (un canale di sequenza).
+1. Fai clic su **Modifica** nella barra delle azioni.
 
-   ![screen_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
+   ![schermata_shot_2019-05-06at104257am](assets/screen_shot_2019-05-06at104257am.png)
 
    >[!CAUTION]
    >
-   >Dovresti aver già configurato il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** scheda.
+   >Dovresti aver già configurato le **Configurazioni** ContextHub **** utilizzando la scheda **Proprietà** > **Personalization** del canale.
 
-   ![screen_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
-
-   >[!NOTE]
-   >
-   >Fai clic su entrambi i pulsanti **Marchio** e **Superfici** affinché le attività vengano elencate correttamente quando avvii il processo di targeting.
-
-1. **Aggiunta di un&#39;immagine predefinita**
-
-   1. Aggiungi un’immagine predefinita al tuo canale e fai clic su **Targeting**.
-   1. Clic **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
-   1. Clic **Inizia impostazione destinazione**.
-
-   ![screen_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
+   ![schermata_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
    >[!NOTE]
    >
-   >Prima di iniziare il targeting, aggiungi i segmenti (**For_Green**, **For_Red**, e **For_Blue**) selezionando **+ Aggiungi targeting esperienza** dalla barra laterale, come illustrato nella figura seguente.
+   >Fare clic su **Marchio** e **Area** per elencare correttamente le attività all&#39;avvio del processo di targeting.
 
-   ![screen_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
+1. **Aggiunta immagine predefinita**
+
+   1. Aggiungi un&#39;immagine predefinita al tuo canale e fai clic su **Targeting**.
+   1. Fai clic su **Marchio** e **Attività** dal menu a discesa, quindi fai clic su **Inizia impostazione destinazione**.
+   1. Fare clic su **Inizia impostazione destinazione**.
+
+   ![schermata_shot_2019-05-06at121253pm](assets/screen_shot_2019-05-06at121253pm.png)
+
+   >[!NOTE]
+   >
+   >Prima di iniziare il targeting, aggiungi i segmenti (**For_Green**, **For_Red** e **For_Blue**) selezionando **+ Aggiungi targeting esperienza** dalla barra laterale, come illustrato nella figura seguente.
+
+   ![schermata_shot_2019-05-06at123554pm](assets/screen_shot_2019-05-06at123554pm.png)
 
 1. Aggiungi le immagini a tutti e tre i diversi scenari come mostrato di seguito.
 
-   ![retail_targeting](assets/retail_targeting.gif)
+   ![targeting_vendita](assets/retail_targeting.gif)
 
-1. **Controllo dell’anteprima**
+1. **Controllo dell&#39;anteprima**
 
-   1. Clic **Anteprima.** Inoltre, aprire Google Sheet e aggiornarne il valore.
+   1. Fare clic su **Anteprima.** Aprire inoltre Google Sheet e aggiornarne il valore.
    1. Modifica il valore per tutte e tre le colonne. Osserva gli aggiornamenti dell’immagine di visualizzazione in base al valore più alto nell’inventario.
 
-   ![retail_result](assets/retail_result.gif)
+   ![risultato_vendita](assets/retail_result.gif)

@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Una delle parti interessate per questa attività è un integratore audio-video.
 
-In base alle informazioni raccolte durante *Giorno zero*, conferma le seguenti informazioni prima di iniziare lo sviluppo:
+In base alle informazioni raccolte durante il *Giorno zero*, conferma le seguenti informazioni prima di iniziare lo sviluppo:
 
 * Quali sono l&#39;orientamento, le dimensioni e la risoluzione degli schermi utilizzati?
 

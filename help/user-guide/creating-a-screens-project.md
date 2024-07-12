@@ -20,7 +20,7 @@ ht-degree: 1%
 
 AEM Screens è disponibile facendo clic sul collegamento Adobe Experience Manager (in alto a sinistra) e quindi su Screens.
 
-In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html/content/screens`
+In alternativa, è possibile passare direttamente a: `http://localhost:4502/screens.html/content/screens`
 
 >[!NOTE]
 >**Suggerimento per la navigazione:**
@@ -28,50 +28,50 @@ In alternativa, puoi passare direttamente a: `http://localhost:4502/screens.html
 
 ## Creazione di un nuovo progetto Screens
 
-1. Clic **Schermi** dall’istanza AEM.
-1. Clic **Crea progetto Screens**.
-1. Inserisci il titolo come **TestScreens** e fai clic su **Salva**.
+1. Fai clic su **Screens** dalla tua istanza AEM.
+1. Fare clic su **Crea progetto Screens**.
+1. Immetti il titolo come **TestScreens** e fai clic su **Salva**.
 
-Il progetto viene creato e ti riporta alla console Progetto schermi. Ora puoi fare clic sul progetto.
+Il progetto viene creato e ti riporta alla console Progetto Screens. Ora puoi fare clic sul progetto.
 
 In un progetto sono disponibili cinque tipi di cartelle, come illustrato nella figura seguente:
 
-* **Schedules**
-* **Posizioni**
+* **Pianificazioni**
+* **Percorsi**
 * **Applicazioni**
 * **Dispositivi**
 * **Canali**
 
-![player1](assets/create-project.gif)
+![lettore1](assets/create-project.gif)
 
 >[!NOTE]
 >
->Per impostazione predefinita, la struttura iniziale contiene **Schedules**, **Posizioni**, **Applicazioni**, **Canali**, e **Dispositivi** pagine primarie, ma questa struttura può essere regolata manualmente se necessario. Puoi rimuovere le opzioni se quelle disponibili non sono pertinenti al progetto.
+>Per impostazione predefinita, la struttura iniziale contiene le **Schedules**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi** pagine primarie, ma questa struttura può essere regolata manualmente se necessario. Puoi rimuovere le opzioni se quelle disponibili non sono pertinenti al progetto.
 
 
 ## Visualizzazione delle proprietà {#viewing-properties}
 
-Dopo aver creato il progetto Schermi, fai clic sul progetto e quindi su **Proprietà** dalla barra delle azioni, in modo da poter modificare le proprietà del progetto.
+Dopo aver creato il progetto Screens, fai clic sul progetto e quindi su **Proprietà** nella barra delle azioni per modificare le proprietà del progetto.
 
-Le seguenti opzioni consentono di modificare/modificare le proprietà del **TestScreens**.
+Le opzioni seguenti consentono di modificare/modificare le proprietà di **TestScreens**.
 
 ![immagine](assets/create-project2.png)
 
 ## Creazione di una cartella personalizzata {#creating-a-custom-folder}
 
-Puoi anche creare una cartella personalizzata sotto il **Schedules**, **Posizioni**, **Applicazioni**, **Canali**, e **Dispositivi** pagine principali disponibili nel progetto.
+Puoi anche creare una cartella personalizzata nelle **Schedules**, **Posizioni**, **Applicazioni**, **Canali** e **Dispositivi** pagine principali disponibili nel progetto.
 
 Per creare una cartella personalizzata:
 
-1. Fai clic sul progetto e fai clic su **Crea** accanto all’icona più nella barra delle azioni.
-1. Il **Crea** viene visualizzata la procedura guidata e fai clic sull’opzione appropriata.
+1. Fai clic sul progetto e fai clic su **Crea** accanto all&#39;icona più nella barra delle azioni.
+1. Viene aperta la procedura guidata **Crea** e si fa clic sull&#39;opzione appropriata.
 1. Fai clic su **Avanti**.
 1. Immetti le proprietà e fai clic su **Crea**.
 
-I passaggi seguenti mostrano la creazione di una cartella di applicazioni nel **Applicazioni** pagina principale in **TestScreens**.
+I passaggi seguenti mostrano la creazione di una cartella applicazioni nella pagina principale **Applicazioni** in **TestScreens**.
 
-![player2-1](assets/create-project3.gif)
+![lettore2-1](assets/create-project3.gif)
 
 ### Passaggi successivi {#the-next-steps}
 
-Dopo aver creato un progetto personalizzato, vedi [Gestione dei canali](managing-channels.md) per creare e gestire i contenuti nel tuo canale.
+Dopo aver creato un progetto personalizzato, consulta [Gestione canali](managing-channels.md) per creare e gestire contenuti nel tuo canale.

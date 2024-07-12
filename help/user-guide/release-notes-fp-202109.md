@@ -15,13 +15,13 @@ ht-degree: 1%
 # Note sulla versione per Feature Pack 202109 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 ## Disponibilità {#availability}
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 9.
 
-Scarica il Feature Pack più recente per AEM Screens versione 6.5.9 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi FP9 di AEM 6.5**.
+Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.9 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP9**.
 
 ## Data di rilascio {#release-date}
 
@@ -32,52 +32,52 @@ La data di pubblicazione del Feature Pack 202109 per AEM Screens è il 23 settem
 * **Supporto miniature per video**
 
   Il supporto miniature per video è ora supportato in AEM Screens. Un autore di contenuti definisce una miniatura per video in modo che l’immagine venga utilizzata come segnaposto. Inoltre, sottopongono a test appropriati la riproduzione e il targeting dei contenuti, mentre il team appropriato finalizza il video effettivo. L’immagine può essere utilizzata anche in caso di interruzione della riproduzione del video.
-Consulta [Supporto miniature per video](/help/user-guide/thumbnail-support.md) per ulteriori dettagli.
+Per ulteriori dettagli, consulta [Supporto miniature per video](/help/user-guide/thumbnail-support.md).
 
 * **Monitoraggio della riproduzione di base**
 
   AEM Screens ora supporta il monitoraggio di base della riproduzione. Ora il lettore riporta diverse metriche di riproduzione per ciascun ping (30 secondi per impostazione predefinita). In base alle metriche, rileva vari casi limite (esperienza bloccata, schermata vuota, problemi di pianificazione e così via). Questa funzione consente al team di monitorare in remoto se un lettore riproduce correttamente i contenuti e migliora la reattività a schermate vuote o esperienze bloccate sul campo. Inoltre, riduce il rischio di mostrare all’utente finale un’esperienza non funzionante.
-Consulta [Monitoraggio della riproduzione di base](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring) per ulteriori dettagli.
+Per ulteriori dettagli, consulta [Monitoraggio della riproduzione di base](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/installing-screens-player#playback-monitoring).
 
-* **Aggiornamenti al rapporto Assegnazione contenuti**
+* **Aggiornamenti al report assegnazione contenuti**
 
   Il report sull’assegnazione dei contenuti ora è ottimizzato e migliorato con una migliore esperienza utente. Il rapporto scaricabile mostra entità migliorate relative al lettore. Tali entità includono posizioni, visualizzazioni e dispositivi in una scheda del foglio di calcolo. Include inoltre le informazioni sul provider di contenuti, come canali e risorse, in altre schede.
-Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-report.md) per ulteriori dettagli.
+Per ulteriori dettagli, vedere [Report assegnazione contenuto](/help/user-guide/content-assignment-report.md).
 
 * **Rappresentazioni adattive**
 
   Le rappresentazioni adattive consentono al dispositivo di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base a regole definite dal cliente.
 
-  In qualità di sviluppatore di AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto. Consulta [Rappresentazioni adattive: panoramica dell’architettura e configurazioni](/help/user-guide/adaptive-renditions.md) per ulteriori dettagli.
+  In qualità di sviluppatore di AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto. Per ulteriori dettagli, consulta [Rappresentazioni adattive: panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md).
 
-  Inoltre, in qualità di autore di contenuti AEM Screens, puoi configurare le risorse per l’utilizzo di rappresentazioni adattive. Puoi anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per utilizzare questa funzione nei canali di AEM Screens. Consulta [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md) per ulteriori dettagli.
+  Inoltre, in qualità di autore di contenuti AEM Screens, puoi configurare le risorse per l’utilizzo di rappresentazioni adattive. Puoi anche eseguire la migrazione dei dispositivi per reti di grandi dimensioni per utilizzare questa funzione nei canali di AEM Screens. Per ulteriori dettagli, vedere [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md).
 
-* **Supporto per manifesti V3**
+* **Supporto per i manifesti V3**
 
-  Ora puoi configurare Dispatcher per la versione v3 del manifesto. Per abilitare il manifesto v3, effettuare le seguenti operazioni:
+  Ora puoi configurare Dispatcher per la versione del manifesto v3. Per abilitare il manifesto v3, effettuare le seguenti operazioni:
 
    * Cancella tutti i processi di contenuto offline in sospeso sia in fase di creazione che in fase di pubblicazione.
 
-      * Passa a CRXDE Liti in Creazione e pubblicazione.
+      * Passa a CRXDE Liti in Author e Publish.
 
       * Selezionate Strumenti (Tools) > Query.
 
-      * Nella query, utilizza `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
+      * Nella query, utilizzare `/jcr:root/var/eventing/jobs/assgined//element(*,slingevent:Job)[\@event.job.topic='screens/offline_content_update']`.
 
       * Elenca tutti i processi di contenuto offline attualmente in esecuzione o in sospeso nella coda.
 
       * Attendi che non siano più presenti processi di contenuto offline restituiti dalla query.
 
-   * Disattiva ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+   * Disabilita ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-   * Abilita SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+   * Abilitare SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
-   * Aggiorna Dispatcher.
+   * Aggiornare Dispatcher.
 
    * Aggiorna il componente personalizzato.
 
 
-   * Consulta [Configurazione di Dispatcher per la versione v3 del manifesto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) per ulteriori dettagli.
+   * Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
    * Se utilizzi componenti personalizzati come parte dei manifesti v3, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 
@@ -97,13 +97,13 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * La mappatura è stata trasformata in un elenco di chiavi di rappresentazione.
 
-* Rimosso l’accesso a `cmd.exe` e `reg.exe` in Windows Player.
+* È stato rimosso l&#39;accesso a `cmd.exe` e `reg.exe` in Windows Player.
 
 * Un lettore deve segnalare il suo ultimo evento di riproduzione riuscito.
 
 * Un lettore deve segnalare il proprio stato di riproduzione.
 
-* Il lettore non scarica nuovamente le risorse quando `ALL` Cache cancellata.
+* Il lettore non scarica nuovamente Assets quando la cache `ALL` viene cancellata.
 
 * In qualità di amministratore del lettore, ora puoi scegliere un nome per il lettore.
 
@@ -128,7 +128,7 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * Aggiorna automaticamente il manifesto del canale se la pagina di riferimento è pubblicata.
 
-* I dispositivi eliminati ora non bloccano la coda di replica Screens.
+* I dispositivi eliminati ora non bloccano la coda di replica di Screens.
 
 * Il manifesto non conteneva contenuto di destinazione o pagine incorporate in Sites. Questo bug è ora corretto.
 
@@ -142,13 +142,13 @@ Consulta [Rapporto assegnazione contenuti](/help/user-guide/content-assignment-r
 
 * La strategia di riproduzione della sequenza incorporata è stata interrotta e questo bug è ora corretto.
 
-* Manifesto offline utilizzando il parametro di richiesta `wcmmode` per la voce html, rendendola non memorizzabile in cache.
+* Manifesto offline che utilizza il parametro di richiesta `wcmmode` per la voce html, rendendolo non memorizzabile in cache.
 
 * A volte, una sequenza dinamica incorporata vuota causava la visualizzazione di una schermata vuota.
 
 * Il lettore ora segnala il suo stato di riproduzione.
 
-* Riproduzione del video in corso `Tiny mode` e non viene riprodotto come video a schermo intero sul dispositivo e il problema è risolto ora.
+* Il video è stato riprodotto in `Tiny mode` e non è stato riprodotto come video a schermo intero sul dispositivo. Il problema è stato risolto.
 
 ### Lettori AEM Screens rilasciati
 
@@ -162,4 +162,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 9:
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi **[Download del lettore AEM Screens](https://download.macromedia.com/screens/index.html)**.

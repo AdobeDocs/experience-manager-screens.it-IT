@@ -39,7 +39,7 @@ Per supportare una corretta implementazione del digital signage, è consuetudine
 
 ### Attività Day Zero {#day-zero-activities}
 
-La prima fase si chiama ***Giorno zero***. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire l&#39;ambito di un progetto. La seconda fase, ***Primo giorno***, si riferisce a tutte le attività incluse nello sforzo di implementazione. Infine, ***Giorno due*** fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
+La prima fase si chiama ***Giorno zero***. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire l&#39;ambito di un progetto. La seconda fase, ***Giorno uno***, fa riferimento a tutte le attività incluse nell&#39;impegno di distribuzione. Infine, il ***giorno due*** fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
 Le attività &quot;Day Zero&quot; comportano attività di pre-vendita, individuazione dei client, analisi delle esigenze delle applicazioni e definizione dell&#39;ambito del progetto. In questa fase possono essere inclusi anche l&#39;impegno iniziale e la definizione dei requisiti del progetto per la gestione del progetto, in preparazione della distribuzione.
 
@@ -56,7 +56,7 @@ Il giorno zero è costituito da otto passaggi chiave che coprono tutti gli aspet
 
 ### Attività del primo giorno {#day-one-activities}
 
-La seconda fase, ***Primo giorno***, si riferisce a tutte le attività incluse nello sforzo di implementazione. Un altro documento tecnico importante per un progetto di successo è il Diagramma di Gantt di distribuzione.
+La seconda fase, ***Giorno uno***, fa riferimento a tutte le attività incluse nell&#39;impegno di distribuzione. Un altro documento tecnico importante per un progetto di successo è il Diagramma di Gantt di distribuzione.
 
 Quando un’opportunità di vendita passa a un progetto, viene pianificata una riunione di avvio per confermare:
 
@@ -82,8 +82,8 @@ Scopri la gestione del progetto e la preparazione dell’implementazione e defin
 
 >[!VIDEO](https://video.tv.adobe.com/v/28408)
 
-*Scopri come gestire e preparare l’implementazione del progetto (preproduzione, avvio e progressione del progetto).*
+*Informazioni sulla gestione del progetto e sulla preparazione della distribuzione (preproduzione del progetto, avvio del progetto, progressione del progetto).*
 
 ## Passaggio successivo {#the-next-step}
 
-Quando hai finito con le considerazioni chiave sulla gestione dei progetti per le distribuzioni AEM Screens, passa a **[Parte 5: Considerazioni di supporto](support-considerations.md)** in modo da comprendere il Supporto Day 2 e i relativi processi.
+Quando hai finito con le considerazioni chiave sulla gestione dei progetti per le distribuzioni di AEM Screens, passa alla **[Parte 5: Considerazioni sul supporto](support-considerations.md)** in modo da comprendere il supporto del giorno 2 e i processi coinvolti.

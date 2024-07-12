@@ -41,4 +41,4 @@ Questa guida fornisce informazioni approfondite e consigli pratici per immaginar
 > Termini utilizzati in questa guida (nel contesto di AEM Screens):
 >
 > * **UX:** esperienze di digital signage fornite ai clienti finali.
-> * **UI** si intende l’interfaccia utente che consente di creare e gestire i progetti in Screens.
+> * **UI** è considerata l&#39;interfaccia utente che consente di creare e gestire i progetti in Screens.

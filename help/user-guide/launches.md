@@ -1,5 +1,5 @@
 ---
-title: Aggiornamento dei contenuti tramite Screens Launch
+title: Aggiornamento dei contenuti con Screens Launch
 description: Scopri come creare una versione futura dei canali, nota come Launch, e come impostare una data di pubblicazione del lancio in modo che il contenuto venga reso live su dispositivi o lettori.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Aggiornamento dei contenuti tramite Screens Launch {#launches}
+# Aggiornamento dei contenuti con Screens Launch {#launches}
 
 Gli autori dei contenuti possono creare una versione futura dei canali e impostare ulteriormente la data di pubblicazione di questo lancio. Questa funzionalità consente di riprodurre il contenuto in tempo reale su dispositivi o lettori alla data di pubblicazione specificata.
 
-Con l&#39;aiuto di ***Lancio di Screens***, gli autori possono visualizzare in anteprima ogni canale nel lancio e dovrebbero essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve una notifica e può approvare o rifiutare la richiesta. Una volta raggiunta la data di attivazione, il contenuto viene riprodotto nei dispositivi.
+Con l&#39;aiuto di ***Screens Launch***, gli autori possono visualizzare in anteprima ogni canale nel lancio e dovrebbero essere in grado di avviare una richiesta di revisione. Il gruppo di approvatori riceve una notifica e può approvare o rifiutare la richiesta. Una volta raggiunta la data di attivazione, il contenuto viene riprodotto nei dispositivi.
 
 Ad esempio, se l’autore desidera creare versioni future di c1, c2 (canali), viene creato un lancio e viene impostata una data di attivazione (ad esempio, 10 novembre alle 8.00). Eventuali altri aggiornamenti nel contenuto vengono inviati per la revisione.
 
@@ -29,7 +29,7 @@ Dopo l’approvazione e nella data di attivazione (10 novembre, 8:00), questo la
 
 ## Requisiti {#requirements}
 
-Prima di iniziare a utilizzare *Lancio di Screens* in un progetto AEM Screens, accertati di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
+Prima di iniziare a utilizzare *Screens Launch* in un progetto AEM Screens, accertati di comprendere il concetto di periodo di tolleranza e la sua rilevanza.
 
 L&#39;esecuzione di un&#39;esperienza nella data di attivazione impostata sul lettore comporta:
 
@@ -47,7 +47,7 @@ L&#39;esecuzione di un&#39;esperienza nella data di attivazione impostata sul le
 
 Affinché il lettore possa iniziare a riprodurre il contenuto nella data di pubblicazione impostata, avvia le attività precedenti prima della data di pubblicazione.
 
-Se la data di attivazione è *24 novembre, 09:00* e *24 ore* è il periodo di tolleranza, quindi la sequenza di azioni precedente inizia da (data di attivazione: periodo di tolleranza), ovvero il 23 novembre alle 9:00 ora del server. Questa impostazione offre 24 ore per completare tutte le azioni sopra menzionate affinché il contenuto raggiunga i lettori. I giocatori capiscono che questo periodo è un contenuto di lancio. Di conseguenza, il contenuto non viene riprodotto immediatamente, ma i lettori possono memorizzarlo come versione futura e farne iniziare la riproduzione esattamente alla data di trasmissione impostata sul fuso orario del lettore.
+Se la data di attivazione è *24 novembre, 09:00* e *24 ore* è il periodo di tolleranza, la sequenza di azioni sopra indicata inizia in (data di attivazione - periodo di tolleranza), ovvero 23 novembre, 00:00 ora del server. Questa impostazione offre 24 ore per completare tutte le azioni sopra menzionate affinché il contenuto raggiunga i lettori. I giocatori capiscono che questo periodo è un contenuto di lancio. Di conseguenza, il contenuto non viene riprodotto immediatamente, ma i lettori possono memorizzarlo come versione futura e farne iniziare la riproduzione esattamente alla data di trasmissione impostata sul fuso orario del lettore.
 
 Ad esempio, il server è in PST e i dispositivi sono in EST. La differenza massima è di tre ore. Si presuppone che la promozione richieda 1 minuto e che la pubblicazione dall’autore alla pubblicazione richieda 10 minuti e che il lettore possa scaricare le risorse in genere in 10-15 minuti. Quindi il periodo di tolleranza = differenza di tempo (tre ore):
 
@@ -62,16 +62,16 @@ Pertanto, ogni volta che pianifichi un lancio in diretta, la promozione inizia p
 
 >[!NOTE]
 >
->Pronto all’uso, il periodo di tolleranza per Screens Launch è impostato su 24 ore. Ciò significa che quando imposti una data di attivazione per qualsiasi lancio per le risorse in */content/screens*, la promozione inizia con questo offset.
+>Il periodo di tolleranza predefinito per Screens Launch è impostato su 24 ore. Ciò significa che quando imposti una data di attivazione per qualsiasi lancio per le risorse in */content/screens*, la promozione inizia con questo offset.
 
 ### Aggiornamento del periodo di tolleranza predefinito {#updating-out-of-the-box-grace-period}
 
 Questa sezione spiega come aggiornare a 10 minuti un periodo di tolleranza predefinito.
 
-1. Passa a CRXDE Liti e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
+1. Passare a CRXDE Lite e quindi a `/libs/system/config.author/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config`.
 1. Fare clic con il pulsante destro del mouse e copiare il file.
-1. Accedi a `/apps/system/config` e fare clic con il pulsante destro del mouse e incollare.
-1. Doppio clic `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` in modo da poter aprire il file nell’editor in CRXDE Liti. Deve mostrare il periodo di tolleranza per il percorso */content/screens/* as **86400**. Cambia il valore in **600**.
+1. Passare a `/apps/system/config` e fare clic con il pulsante destro del mouse e incollare.
+1. Fare doppio clic su `/apps/system/config/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler.config` per aprire il file nell&#39;editor in CRXDE Lite. Deve mostrare il periodo di tolleranza per il percorso */content/screens/* come **86400**. Cambia il valore in **600**.
 
 Il contenuto del file di testo dovrebbe ora essere simile al seguente:
 
@@ -91,9 +91,9 @@ Questa sezione illustra come implementare Screens Launch nel progetto AEM Screen
 
 ### Creazione di un lancio Screens {#creating-a-launch}
 
-Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Screens, segui i passaggi seguenti:
+Per implementare la funzionalità Screens Launch nel progetto AEM Screens, segui i passaggi seguenti:
 
-1. Crea un canale di sequenza nel progetto AEM Screens, ad esempio **DemoLanci** > **Canali** > **FutureLaunch**, come illustrato di seguito.
+1. Crea un canale di sequenza nel progetto AEM Screens, ad esempio **LaunchesDemo** > **Canali** > **FutureLaunch**, come illustrato di seguito.
 
    >[!CAUTION]
    >
@@ -101,36 +101,36 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-11.png)
 
-1. Fai clic sul canale **FutureLaunch** e fai clic su **Crea lancio** dalla barra delle azioni.
+1. Fai clic sul canale **FutureLaunch** e fai clic su **Crea lancio** nella barra delle azioni.
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-12.png)
 
-1. Il **Crea lancio** viene aperta la procedura guidata. È possibile fare clic sul canale già visibile nella procedura guidata oppure fare clic su **+ Aggiungi canali** per aggiungere il canale per il quale desideri creare il lancio.
+1. Verrà aperta la procedura guidata **Crea lancio**. È possibile fare clic sul canale già visibile nella procedura guidata oppure fare clic su **+ Aggiungi canali** per aggiungere il canale per il quale si desidera creare il lancio.
 
-1. Clic **Successivo** dal **Crea lancio** procedura guidata. Il **Includi pagine secondarie** è selezionata per impostazione predefinita.
+1. Fare clic su **Avanti** dalla procedura guidata **Crea lancio**. L&#39;opzione **Includi pagine secondarie** è selezionata per impostazione predefinita.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-d.png)
 
    >[!NOTE]
-   >È possibile utilizzare **+ Aggiungi canali** per aggiungere un altro canale per il quale desideri creare il lancio.
+   >È possibile utilizzare l&#39;opzione **+ Aggiungi canali** per aggiungere un altro canale per il quale si desidera creare il lancio.
 
-   Per utilizzare **Aggiungi canali** , passa al canale per il quale vuoi creare il lancio e fai clic su **Seleziona**.
+   Per utilizzare l&#39;opzione **Aggiungi canali**, passa al canale per il quale vuoi creare il lancio e fai clic su **Seleziona**.
 
-   Il **Seleziona** l’opzione è disabilitata se tenti di fare clic su più canali o su una cartella per aggiungere il lancio.
+   L&#39;opzione **Seleziona** è disabilitata se si tenta di fare clic su più canali o su una cartella per l&#39;aggiunta del lancio.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-14.png)
 
-   Dopo aver fatto clic sul canale/canali, fai clic su **Successivo**.
+   Dopo aver fatto clic sul/sui canale/i, fare clic su **Avanti**.
 
 
-1. Inserisci il **Titolo lancio** as **SummerPromotions** e non è necessario impostare **Data lancio**, come illustrato nella figura seguente. Fai clic su **Crea**.
+1. Immetti il **Titolo lancio** come **Promozioni estive** e non devi impostare la **Data lancio**, come illustrato nella figura seguente. Fai clic su **Crea**.
 
    >[!NOTE]
    >
-   >*Abilitazione o controllo* l&#39;opzione **Eredita i dati live della pagina sorgente** consente di creare i canali come Live Copy nel lancio. Se vengono apportate modifiche al canale originale, queste vengono applicate automaticamente ai canali di avvio.
+   >*Abilitando o selezionando* l&#39;opzione **Eredita dati live della pagina di origine** consente di creare i canali come Live Copy nel lancio. Se vengono apportate modifiche al canale originale, queste vengono applicate automaticamente ai canali di avvio.
    >
    >
-   >*Disattivazione o deselezione* **Eredita i dati live della pagina sorgente** consente di copiare i canali senza alcuna relazione live nel lancio. Pertanto, se vengono apportate modifiche al canale originale, tali modifiche non vengono applicate ai canali di lancio.
+   >*Disabilitazione o deselezione* **Eredita i dati live della pagina di origine** consente di copiare i canali senza alcuna relazione live nel lancio. Pertanto, se vengono apportate modifiche al canale originale, tali modifiche non vengono applicate ai canali di lancio.
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-c.png)
 
@@ -138,73 +138,73 @@ Per implementare la funzionalità di avvio di Screens nel tuo progetto AEM Scree
    >
    >Puoi impostare la data di lancio live in questo passaggio o in un secondo momento durante la modifica delle proprietà del lancio, una volta creato.
 
-   **Informazioni sull’ambito della promozione di Launch**
+   **Informazioni sull&#39;ambito della promozione lancio**
 
-   * **Promuovi lancio completo** - Tutti i canali del lancio vengono promossi alla data impostata per la messa in onda.
-   * **Promuovi pagine modificate** - Vengono promosse solo le risorse di lancio modificate. Utilizza questa opzione quando non è richiesta la revisione del lancio.
-   * **Promuovi pagine approvate** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito sui canali del lancio. Solo le pagine approvate vengono promosse alla data di attivazione impostata.
+   * **Promuovi lancio completo** - Tutti i canali del lancio vengono promossi alla data impostata per la pubblicazione.
+   * **Promuovi pagine modificate** - Vengono promosse solo le risorse di avvio modificate. Utilizza questa opzione quando non è richiesta la revisione del lancio.
+   * **Promuovi pagine approvate** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito sui canali di lancio. Solo le pagine approvate vengono promosse alla data di attivazione impostata.
 
      >[!CAUTION]
      >
      >La data di lancio live rispetta il fuso orario del lettore/dispositivo anziché i server.
 
-1. Tieni presente che il lancio viene creato. Puoi fare clic su **Apri** per visualizzare le pagine nell’editor o fai clic su **Fine** per tornare al progetto.
+1. Tieni presente che il lancio viene creato. Puoi fare clic su **Apri** per visualizzare le pagine nell&#39;editor oppure fare clic su **Fine** per tornare al progetto.
 
-   ![screen_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
+   ![schermata_shot_2019-06-25at20355pm](assets/screen_shot_2019-06-25at20355pm.png)
 
-   Selezione **Fine** ti consente di tornare al **FutureLaunch** canale.
+   Selezionando **Fine** potrai tornare al tuo canale **FutureLaunch**.
 
    ![Immagine](/help/user-guide/assets/launches-images/launches-16.png)
 
 
 ### Modifica delle proprietà di Launch per impostare la data e l&#39;ambito di attivazione {#editing-the-launch-properties-to-set-the-live-date-and-scope}
 
-Dopo la creazione del lancio, puoi aggiornare proprietà quali data di attivazione, titolo del lancio e ambito della promozione utilizzando **Proprietà lancio**.
+Dopo la creazione del lancio, puoi aggiornare le proprietà quali data di attivazione, titolo del lancio e ambito della promozione utilizzando **Proprietà lancio**.
 
-* **Data lancio** - La data e l’ora di riproduzione del contenuto nel lettore Screens in base al fuso orario del lettore.
-* **Produzione pronta** - Dopo la promozione, consente la pubblicazione dei canali ed è attivata la modalità preconfigurata, quindi non è necessario modificarla.
+* **Data lancio** - La data di attivazione, ovvero la data o l&#39;ora in cui il contenuto viene riprodotto nel lettore Screens in base al fuso orario del lettore.
+* **Production Ready** - Dopo la promozione, consente la pubblicazione dei canali e l&#39;impostazione predefinita è abilitata, quindi non è necessario modificarla.
 * **Ambito** - Decide quali canali promuovere durante la promozione del lancio.
 
 Per modificare le proprietà del lancio, segui i passaggi seguenti:
 
-1. Passare al canale **FutureLaunch** *(il lancio in sospeso)* e fare clic sul canale come illustrato nella figura riportata di seguito.
+1. Passa al canale **FutureLaunch** *(il lancio in sospeso)*, quindi fai clic sul canale come mostrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-17.png)
 
-1. Clic **Dashboard** dalla barra delle azioni e viene visualizzata la **LANCI IN SOSPESO** dal dashboard dei canali.
+1. Fai clic su **Dashboard** nella barra delle azioni per visualizzare il pannello **LANCI IN SOSPESO** dal dashboard dei canali.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-18.png)
 
-1. Fai clic sul lancio e fai clic su **Proprietà lancio** dal **LANCI IN SOSPESO** pannello.
+1. Fai clic sul lancio e fai clic su **Proprietà lancio** dal pannello **LANCI IN SOSPESO**.
 
    ![immagine](/help/user-guide/assets/launches-images/launches-19.png)
 
 ### Modifica di Screens Launch per aggiungere o rimuovere canali {#editing-the-screens-launch-to-add-or-remove-channels}
 
-Dopo aver creato il lancio, puoi aggiungere o rimuovere canali dal lancio esistente utilizzando **Modifica lancio** opzione.
+Dopo aver creato il lancio, puoi aggiungere o rimuovere canali al lancio esistente utilizzando l&#39;opzione **Modifica lancio**.
 
-Al termine, fai clic su **Salva** per tornare al **FutureLaunch** canale.
+Al termine, fai clic su **Salva** per tornare al canale **FutureLaunch**.
 
-### Promozione manuale del lancio di Screens{#promote-the-screens-launch-manually}
+### Promozione manuale di Screens Launch{#promote-the-screens-launch-manually}
 
-Puoi promuovere il lancio manualmente utilizzando **`Promote Launch`** opzione dalla **LANCI IN SOSPESO** pannello.
+Puoi promuovere il lancio manualmente utilizzando l&#39;opzione **`Promote Launch`** dal pannello **LANCI IN SOSPESO**.
 
-Puoi scegliere le risorse da promuovere nell&#39;ambito di questa promozione manuale nel **Avvia promozione guidata**.
+È possibile scegliere le risorse che si desidera promuovere nell&#39;ambito della promozione manuale in **Avvia promozione guidata**.
 
 ![immagine](/help/user-guide/assets/launches-images/launches-e.png)
 
 1. Puoi abilitare o disabilitare l’opzione per eliminare il lancio dopo la produzione.
-1. È possibile impostare **Ambito** del lancio con le seguenti opzioni:
-   * **Promuovi lancio completo** - Tutti i canali del lancio vengono promossi alla data impostata per la messa in onda.
-   * **Promuovi pagine modificate** - Vengono promosse solo le risorse di lancio modificate. Utilizza questa opzione quando non è richiesta la revisione del lancio.
-   * **Promuovi pagine approvate** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito sui canali del lancio. Solo le pagine approvate vengono promosse alla data di attivazione impostata.
+1. Puoi impostare l&#39;**Ambito** del lancio con le seguenti opzioni:
+   * **Promuovi lancio completo** - Tutti i canali del lancio vengono promossi alla data impostata per la pubblicazione.
+   * **Promuovi pagine modificate** - Vengono promosse solo le risorse di avvio modificate. Utilizza questa opzione quando non è richiesta la revisione del lancio.
+   * **Promuovi pagine approvate** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito sui canali di lancio. Solo le pagine approvate vengono promosse alla data di attivazione impostata.
    * **Promuovi la pagina corrente** - Questa opzione richiede che il flusso di lavoro di approvazione del lancio venga eseguito solo per la pagina corrente.
-1. Clic **Successivo** nel **Promuovi lancio** procedura guidata.
-1. Clic **Promuovi** per promuovere il lancio.
+1. Fare clic su **Avanti** nella procedura guidata **Promuovi lancio**.
+1. Fai clic su **Promuovi** per promuovere il lancio.
 
-### Eliminazione del lancio Screens
+### Eliminazione di Screens Launch
 
-Puoi eliminare il lancio utilizzando **Elimina lancio** opzione dalla **LANCI IN SOSPESO** pannello.
+Puoi eliminare il lancio utilizzando l&#39;opzione **Elimina lancio** dal pannello **LANCI IN SOSPESO**.
 
 >[!CAUTION]
 >

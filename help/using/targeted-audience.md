@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Pubblico di destinazione {#target-audience}
 
-In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori*, e *Tecnici IT*.
+In qualità di implementatore AEM esperto, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori* e *Tecnici IT*.
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi ha uno scopo importante nel progetto.
 

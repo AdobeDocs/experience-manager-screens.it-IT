@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Un soggetto interessato tipico per questa attività è un implementatore AEM.
 
-**Dynamic Creative Optimization**, o DCO, viene utilizzato per creare esperienze di segnaletica digitale che riflettono le circostanze uniche di una determinata posizione in un dato momento e per un dato utente.
+**Dynamic Creative Optimization**, o DCO, viene utilizzato per creare esperienze di segnaletica digitale che riflettono le circostanze specifiche di una determinata posizione in un dato momento e per un determinato utente.
 
 Questo utilizzo viene anche definito &quot;appiattimento lato client&quot; dei contenuti.
 
@@ -36,5 +36,5 @@ Una strategia di merchandising visivo che includa DCO può aumentare notevolment
 
 Esistono due tipi principali di trigger di dati:
 
-* **Trigger dati locali**: questi trigger di dati sono locali sul dispositivo. Ad esempio, se hai toccato lo schermo, viene attivato un sensore che attiva una risorsa di dati locale o un interruttore di canale.
-* **Attivatori di dati remoti**: questo includeva l’attivazione di un cambio di canale da parte dei dati o di un cambio di risorsa basato sui valori restituiti da un’API di servizio web.
+* **Attivatori dati locali**: questi attivatori dati sono locali sul dispositivo. Ad esempio, se hai toccato lo schermo, viene attivato un sensore che attiva una risorsa di dati locale o un interruttore di canale.
+* **Trigger dati remoti**: questo problema riguardava un cambio di canale attivato dai dati o un cambio di risorsa basato sui valori restituiti da un&#39;API del servizio Web.

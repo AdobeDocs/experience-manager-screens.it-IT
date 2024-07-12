@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Ambienti {#environments}
 
-Determinare in anticipo quali ambienti AEM il client dispone e si aspetta che utilizzi, sia per *sviluppo* e *distribuzione*.
+Determinare in anticipo quali ambienti AEM il client dispone e prevede di utilizzare, sia per *sviluppo* che per *distribuzione*.
 
 >[!NOTE]
 >

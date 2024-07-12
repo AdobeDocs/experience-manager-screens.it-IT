@@ -23,15 +23,15 @@ Il seguente caso d’uso illustra l’utilizzo dell’attivazione della prenotaz
 
 ## Descrizione {#description}
 
-Per questo caso d’uso, il foglio Google viene compilato con la percentuale di prenotazioni su due ristoranti **`Restaurant1`** e **`Restaurant2`**. Viene applicata una formula in base ai valori di `Restaurant1` e `Restaurant2` e, in base alla formula, il valore 1 o 2 è assegnato al **AdTarget** Colonna.
+Per questo caso d&#39;uso, il foglio Google viene compilato con la percentuale di prenotazioni su due ristoranti **`Restaurant1`** e **`Restaurant2`**. Viene applicata una formula basata sui valori di `Restaurant1` e `Restaurant2` e, in base alla formula, il valore 1 o 2 viene assegnato alla colonna **AdTarget**.
 
-Se il valore di **`Restaurant1`** > **`Restaurant2`**, quindi **AdTarget** è un valore assegnato **1** altrimenti **AdTarget** è un valore assegnato **2**. Il valore 1 genera un *Bistecca* opzione e Valore due determina una visualizzazione di *Cibo thailandese* sullo schermo.
+Se il valore di **`Restaurant1`** > **`Restaurant2`**, a **AdTarget** viene assegnato il valore **1**, altrimenti a **AdTarget** viene assegnato il valore **2**. Il valore 1 genera un&#39;opzione *Bistecca da mangiare* e il valore 2 genera una visualizzazione dell&#39;opzione *Cibo thailandese* sullo schermo.
 
 ## Precondizioni {#preconditions}
 
-Prima di iniziare a implementare l’attivazione della prenotazione, scopri come impostare ***Archivio dati***, ***Segmentazione del pubblico*** e ***Abilita targeting per i canali*** in un progetto AEM Screens.
+Prima di iniziare a implementare l&#39;attivazione della prenotazione, scopri come impostare ***Archivio dati***, ***Segmentazione pubblico*** e ***Abilita targeting per canali*** in un progetto AEM Screens.
 
-Consulta [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md) per informazioni dettagliate.
+Per informazioni dettagliate, vedere [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
 
 ## Flusso di base {#basic-flow}
 
@@ -41,39 +41,39 @@ Segui i passaggi del caso d’uso seguenti per implementare l’attivazione dell
 
    Applicare ad esempio la formula alla terza colonna **AdTarget**, come illustrato nella figura seguente.
 
-   ![screen_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
+   ![schermata_shot_2019-04-29at94132am](assets/screen_shot_2019-04-29at94132am.png)
 
 1. **Configurazione dei segmenti in Audiences in base ai requisiti**
 
-   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
-   1. Fai clic su **Fogli A1 1** e fai clic su **Modifica**.
-   1. Fai clic sulla proprietà di confronto e fai clic su **Configurazione** icona.
-   1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**.
-   1. Fai clic su **Operatore** as **uguale** dal menu a discesa.
-   1. Inserisci il **Valore** as **1**.
-   1. Analogamente, fare clic su **Fogli A1 2** e fai clic su **Modifica**.
-   1. Fai clic sulla proprietà di confronto e fai clic su **Configurazione** icona.
-   1. Clic **googlesheets/value/1/2** dall’elenco a discesa in **Nome proprietà**.
-   1. Fai clic su **Operatore** as **2**.
+   1. Passa ai segmenti del pubblico (consulta ***Passaggio 2: impostazione della segmentazione del pubblico*** in **[configurazione di ContextHub nella pagina AEM Screens](configuring-context-hub.md)** per ulteriori dettagli).
+   1. Fare clic sui **fogli A1 1** e fare clic su **Modifica**.
+   1. Fare clic sulla proprietà di confronto e sull&#39;icona **Configurazione**.
+   1. Fare clic su **googlesheets/value/1/2** dal menu a discesa in **Nome proprietà**.
+   1. Fare clic su **Operatore** come **uguale** dal menu a discesa.
+   1. Immetti **Valore** come **1**.
+   1. Analogamente, fare clic su **Fogli A1 2** e fare clic su **Modifica**.
+   1. Fare clic sulla proprietà di confronto e sull&#39;icona **Configurazione**.
+   1. Fare clic su **googlesheets/value/1/2** dal menu a discesa in **Nome proprietà**.
+   1. Fare clic sull&#39;**operatore** come **2**.
 
-1. Naviga e fai clic sul canale () e fai clic su **Modifica** dalla barra delle azioni. Nell&#39;esempio seguente, **DataDrivenRestaurant**, per mostrare la funzionalità viene utilizzato un canale sequenziale.
+1. Passa al tuo canale () e fai clic su **Modifica** nella barra delle azioni. Nell&#39;esempio seguente, **DataDrivenRestaurant**, viene utilizzato un canale sequenziale per mostrare la funzionalità.
 
    >[!NOTE]
    >
-   >Il canale deve già avere un’immagine predefinita e il pubblico deve essere preconfigurato come descritto in [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
+   >Il tuo canale deve già avere un&#39;immagine predefinita e i tipi di pubblico devono essere preconfigurati come descritto in [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md).
 
-   ![screen_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
+   ![schermata_shot_2019-05-08at14652pm](assets/screen_shot_2019-05-08at14652pm.png)
 
    >[!CAUTION]
    >
-   >Il tuo **ContextHub** **Configurazioni** utilizzo del canale **Proprietà** > **Personalizzazione** A questo punto, la scheda dovrebbe essere già stata impostata.
+   >A questo punto, le **Configurazioni** di **ContextHub** che utilizzano la scheda **Proprietà** > **Personalization** del canale dovrebbero essere già state configurate.
 
-   ![screen_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
+   ![schermata_shot_2019-05-08at114106am](assets/screen_shot_2019-05-08at114106am.png)
 
-1. Clic **Targeting** dall’editor e fai clic su **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
-1. **Controllo dell’anteprima**
+1. Fai clic su **Targeting** dall&#39;editor, quindi fai clic su **Brand** e **Activity** dal menu a discesa, quindi fai clic su **Start Targeting**.
+1. **Controllo dell&#39;anteprima**
 
-   1. Clic **Anteprima.** Inoltre, apri i fogli Google e aggiornane il valore.
-   1. Aggiornare il valore in **`Restaurant1`** e **`Restaurant2`** colonne. Se **`Restaurant1`** > **`Restaurant2`,** dovrebbe essere possibile visualizzare un&#39;immagine di *Bistecca* altri prodotti alimentari, *Thailandese* l’immagine del cibo viene visualizzata sullo schermo.
+   1. Fare clic su **Anteprima.** Aprire inoltre i fogli Google e aggiornarne il valore.
+   1. Aggiornare il valore in **`Restaurant1`** e **`Restaurant2`** colonne. Se **`Restaurant1`** > **`Restaurant2`,** dovresti essere in grado di visualizzare un&#39;immagine di *Bistecca* cibo altrimenti, *Thai* immagine cibo viene visualizzata sullo schermo.
 
    ![risultato5](assets/result5.gif)

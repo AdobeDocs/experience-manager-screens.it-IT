@@ -20,10 +20,10 @@ La registrazione manuale in blocco di migliaia di giocatori può diventare compl
 
 Segui i passaggi seguenti per implementare la registrazione automatica dei lettori:
 
-1. Accedi all’istanza dell’AEM, fai clic sul progetto AEM Screens e quindi su **Proprietà** dalla barra delle azioni.
-1. Fai clic su **Avanzate** in modo da visualizzare **Registrazione dispositivo** sezione.
+1. Accedi all&#39;istanza AEM e fai clic sul progetto AEM Screens, quindi fai clic su **Proprietà** nella barra delle azioni.
+1. Fare clic sulla scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo**.
 
-1. Specifica un codice di registrazione automatica in **Codice di registrazione in blocco** campo. Quindi una visualizzazione predefinita opzionale in **Assegnazione visualizzazione predefinita** per assegnare al lettore la registrazione automatica.
+1. Specificare un codice di registrazione automatica nel campo **Codice di registrazione in blocco**. Quindi una visualizzazione predefinita facoltativa nell&#39;**Assegnazione visualizzazione predefinita** da assegnare al lettore con registrazione automatica.
 
    >[!NOTE]
    >Immetti un codice a tua scelta e fai clic su una visualizzazione predefinita, se necessario.
@@ -34,7 +34,7 @@ Segui i passaggi seguenti per implementare la registrazione automatica dei letto
    >[!NOTE]
    >Per ulteriori dettagli, consulta la pagina di implementazione per il lettore specifico per il sistema operativo in uso. Puoi anche utilizzare l’interfaccia utente di amministrazione per immettere il codice di registrazione.
 
-1. Se il `registrationKey` corrisponde a quello configurato in AEM, il lettore si registra automaticamente e, se è configurata una visualizzazione predefinita, il contenuto viene scaricato e riprodotto.
+1. Se l&#39;attributo `registrationKey` corrisponde a quello configurato in AEM, il lettore si registra automaticamente e, se è configurata una visualizzazione predefinita, tale contenuto viene scaricato e riprodotto.
 
    ![immagine](/help/user-guide/assets/auto-registration/auto-register2.png)
 
@@ -44,11 +44,11 @@ Segui la sezione seguente per prendere in considerazione alcune delle best pract
 
 * Assicurati che il codice di registrazione non sia compromesso: configura il codice in AEM immediatamente prima di avviare la registrazione in blocco e, una volta completato, cancella tale campo e salva in AEM.
 
-* Puoi configurare il percorso `/bin/screens/registration` in modo che sia accessibile solo da intervalli IP noti, se possibile.
+* È possibile configurare il percorso `/bin/screens/registration` in modo che sia accessibile solo da intervalli IP noti, se possibile.
 
 * Prendi in considerazione l’utilizzo di un MDM per eseguire il provisioning del lettore con la configurazione.
 
-* Usa sempre `HTTPS` e non `HTTP` per la comunicazione tra i giocatori e l’AEM.
+* Utilizza sempre `HTTPS` e non `HTTP` per la comunicazione del lettore con AEM.
 
   >[!NOTE]
   >L&#39;assegnazione di visualizzazione predefinita funziona attualmente solo per la registrazione in blocco. Non funziona per la registrazione manuale quando un codice di registrazione non è disponibile.

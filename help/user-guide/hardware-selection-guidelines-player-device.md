@@ -15,7 +15,7 @@ Nella sezione seguente vengono fornite le linee guida per la selezione dell&#39;
 
 ## Considerazioni importanti {#important-considerations}
 
-* Sorgente sempre ***Commerciale*** o ***Industriale*** Componenti di livello sia per il lettore PC che per il display o il proiettore.
+* Crea sempre l&#39;origine dei componenti di livello ***Commercial*** o ***Industrial*** sia per il lettore PC che per il pannello o il proiettore.
 
 * Interagisci sempre con i fornitori che operano nel mercato del digital signage.
 * Considera sempre fattori ambientali quali la temperatura ambiente e l’umidità relativa.
@@ -46,7 +46,7 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td><p>*ChromeOS 32 GB</p> <p>*Windows 128 GB</p> </td>
    <td>OnBoard</td>
    <td>1920 x 1080</td>
-   <td>DVI<br /> Ethernet/wireless,<br /> 2x USB</td>
+   <td>DVI<br /> Ethernet / Wireless,<br /> 2x USB</td>
    <td>
     <ul>
      <li>Ciclo a schermo intero standard<br /> </li>
@@ -60,10 +60,10 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td>128 GB</td>
    <td>OnBoard</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/wireless,<br /> 2x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 2xUSB</td>
    <td>
     <ul>
-     <li>Contenuto dinamico a sorgente singola</li>
+     <li>Contenuto dinamico Source singolo</li>
      <li>Interattivo semplice</li>
      <li>1-3 Layout di zona</li>
     </ul> </td>
@@ -75,12 +75,12 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
    <td>256 GB</td>
    <td>GPU grafica dedicata</td>
    <td>3840x2160 (<code>4K</code>)</td>
-   <td>DVI, HDMI<br /> Ethernet/wireless,<br /> 4x USB</td>
+   <td>DVI, HDMI<br /> Ethernet / Wireless,<br /> 4xUSB</td>
    <td>
     <ul>
      <li>4 o più aree di contenuto, riproduzione video simultanea</li>
      <li>Interattivo a più pagine</li>
-     <li>Attivatori dati multi-sorgente</li>
+     <li>Attivatori di dati Source multipli</li>
     </ul> </td>
   </tr>
  </tbody>

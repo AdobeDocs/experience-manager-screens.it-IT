@@ -24,15 +24,15 @@ Il seguente caso d’uso consente di implementare un progetto demo da cui il fra
 
 >[!NOTE]
 >**Prerequisiti
->Devi avere una conoscenza preventiva delle nozioni di base di un frammento di esperienza e di come utilizzarlo in un progetto AEM Screens. Consulta [Utilizzo di Frammenti esperienza](/help/user-guide/experience-fragments-in-screens.md)
+>Devi avere una conoscenza preventiva delle nozioni di base di un frammento di esperienza e di come utilizzarlo in un progetto AEM Screens. Vedi [Utilizzo di frammenti esperienza](/help/user-guide/experience-fragments-in-screens.md)
 
 ### Configurazione del progetto demo {#demo-project-setup}
 
-Crea un progetto con titolo **DemoProject** e un canale di sequenza denominato **TestChannel** nell’AEM Screens, come illustrato nella figura riportata di seguito.
+Crea un progetto con titolo **DemoProject** e un canale di sequenza con titolo **TestChannel** nell&#39;AEM Screens, come illustrato nella figura seguente.
 
 ### Implementazione del frammento di esperienza in un progetto AEM Screens {#experience-fragments-implementation}
 
-Dopo aver creato un frammento di esperienza e averlo applicato al progetto AEM Screens, **DemoProject**, puoi migliorare il frammento di esperienza in base alle tue esigenze.
+Dopo aver creato un frammento di esperienza e averlo applicato al progetto AEM Screens **DemoProject**, puoi migliorarlo in base alle tue esigenze.
 
 ### Aumento delle dimensioni del testo {#increasing-text-size}
 

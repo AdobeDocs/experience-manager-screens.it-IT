@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Applicazione delle transizioni {#applying-transitions}
 
-Questa sezione descrive come applicare **Transizione** componente intermedio tra risorse diverse (immagini e video) e sequenze incorporate in un canale.
+Questa sezione descrive come applicare il componente **Transizione** tra risorse diverse (immagini e video) e sequenze incorporate in un canale.
 
 >[!CAUTION]
 >
->Per informazioni dettagliate sulle proprietà di **Transizione** componente, vedi [Transizioni](adding-components-to-a-channel.md#transition).
+>Per informazioni dettagliate sulle proprietà del componente **Transizione**, vedere [Transizioni](adding-components-to-a-channel.md#transition).
 
-## Aggiunta di un componente di transizione alle risorse in un canale {#adding-transition}
+## Aggiunta di un componente di transizione ad Assets in un canale {#adding-transition}
 
 Per aggiungere un componente di transizione al progetto AEM Screens, segui i passaggi seguenti:
 
@@ -29,31 +29,31 @@ Per aggiungere un componente di transizione al progetto AEM Screens, segui i pas
 >
 >**Prerequisiti**
 >
->Creazione di un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, imposta una posizione e una visualizzazione per visualizzare l’output.
+>Crea un progetto AEM Screens **TestProject** con un canale **TestTransition**. Inoltre, imposta una posizione e una visualizzazione per visualizzare l’output.
 
-1. Passa al canale **TestTransition** e fai clic su **Modifica** dalla barra delle azioni.
+1. Passa al canale **TestTransition** e fai clic su **Modifica** nella barra delle azioni.
 
-   ![image1](assets/transitions1.png)
+   ![immagine1](assets/transitions1.png)
 
    >[!NOTE]
    >
-   >Il **TestTransition** il canale contiene già alcune risorse (immagini e video). Ad esempio, il **TestTransition** il canale include tre immagini e due video, come illustrato di seguito:
+   >Il canale **TestTransition** contiene già alcune risorse (immagini e video). Ad esempio, il canale **TestTransition** include tre immagini e due video, come illustrato di seguito:
 
-   ![image2](assets/transitions2.png)
+   ![immagine2](assets/transitions2.png)
 
 
-1. Trascina la **Transizione** all&#39;editor.
+1. Trascina e rilascia il componente **Transizione** nell&#39;editor.
 
    >[!CAUTION]
    >
    >Prima di aggiungere la transizione alle risorse nel canale, accertati di non aggiungere la transizione prima della prima risorsa nel canale sequenziale. Il primo elemento nel canale deve essere una risorsa e non una transizione.
 
-   ![image3](assets/transitions3.png)
+   ![immagine3](assets/transitions3.png)
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, le proprietà del componente Transizione come **Tipo** è impostato su **Dissolvenza** e **Durata** è impostato su *1600 millisecondi*. Inoltre, non è consigliabile impostare una durata di transizione più lunga della risorsa a cui viene applicata.
+   >Per impostazione predefinita, le proprietà del componente di transizione come **Tipo** sono impostate su **Dissolvenza** e la **Durata** su *1600 millisecondi*. Inoltre, non è consigliabile impostare una durata di transizione più lunga della risorsa a cui viene applicata.
 
-1. Inoltre, se aggiungi un’ **Sequenza incorporata** (che include un canale di sequenza) a questo editor di canali, puoi aggiungere un componente di transizione alla fine. In questo modo il contenuto viene riprodotto nell’ordine corretto, come illustrato nell’immagine seguente:
+1. Inoltre, se aggiungi un componente **Sequenza incorporata** (che include un canale di sequenza) a questo editor canali, puoi aggiungere un componente di transizione alla fine. In questo modo il contenuto viene riprodotto nell’ordine corretto, come illustrato nell’immagine seguente:
 
-   ![image3](assets/transitions5.png)
+   ![immagine3](assets/transitions5.png)

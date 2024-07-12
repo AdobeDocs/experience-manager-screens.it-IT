@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Il **Assegnazione tag** La funzione è disponibile solo se è abilitata per il tenant. Contatta il team tecnico di AEM Screens per abilitarlo.
+>La funzionalità **Assegnazione tag** è disponibile solo se è abilitata per il tenant. Contatta il team tecnico di AEM Screens per abilitarlo.
 
 ## Introduzione {#introduction}
 
@@ -34,7 +34,7 @@ Utilizza lo stesso menu di azione per rinominare o eliminare un tag.
 
 Utilizza i tag creati su Display e lettori.
 
-![gestire le assegnazioni di tag](assets/tagging/assign-tags-to-players.gif).
+![gestisci assegnazioni tag](assets/tagging/assign-tags-to-players.gif).
 
 >[!NOTE]
 > 

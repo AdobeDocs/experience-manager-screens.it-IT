@@ -21,29 +21,29 @@ Questa pagina mostra come creare e gestire i canali per AEM Screens.
 **Prerequisiti**:
 
 * [Configurazione e distribuzione di Screens](configuring-screens-introduction.md)
-* [Creare e gestire un progetto Screens](creating-a-screens-project.md)
+* [Creazione e gestione di un progetto Screens](creating-a-screens-project.md)
 
 ## Creazione di un nuovo canale {#creating-a-new-channel}
 
 Dopo aver creato il progetto per AEM Screens, segui i passaggi riportati di seguito per creare un canale per il progetto:
 
-1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra), quindi su Screens. In alternativa, puoi passare direttamente a `https://localhost:4502/screens.html/content/screens`.
+1. Fai clic sul collegamento Adobe Experience Manager (in alto a sinistra) e quindi su Screens. In alternativa, è possibile passare direttamente a `https://localhost:4502/screens.html/content/screens`.
 
-1. Passa al progetto Screens e fai clic su **Canali** cartella.
+1. Passa al progetto Screens e fai clic sulla cartella **Canali**.
 
-1. Clic **Crea** dalla barra delle azioni.
+1. Fai clic su **Crea** nella barra delle azioni.
 
    ![demochannel](assets/create-channel1.png)
 
-1. Fai clic su **Canale sequenza** modello da **Crea** e fai clic su **Successivo**.
+1. Fai clic sul modello **Canale sequenza** dalla procedura guidata **Crea** e fai clic su **Avanti**.
 
    ![demochannel](assets/create-channel2.png)
 
-1. Inserisci il titolo come **ScreensChannel** e fai clic su **Crea**.
+1. Immetti il titolo come **ScreensChannel** e fai clic su **Crea**.
 
    ![demochannel](assets/create-project4.png)
 
-1. Ora è stato aggiunto un canale Sequenza al tuo **Canali** cartella.
+1. Alla cartella **Channels** è stato aggiunto un canale di sequenza.
 
 ### Tipi di canale {#channel-types}
 
@@ -53,7 +53,7 @@ Durante l’utilizzo della procedura guidata sono disponibili le seguenti opzion
 |---|---|
 | Cartella canali | Crea una cartella in cui archiviare un insieme di canali. |
 | Canale per sequenza | Create un canale che riproduca i componenti in sequenza (uno per uno in una presentazione). |
-| Canale di applicazione | Mostra la tua applicazione web personalizzata in Screens player. |
+| Canale di applicazione | Mostra l’applicazione web personalizzata nel lettore Screens. |
 | Canale schermo diviso 1x1 | Visualizzare un componente in una singola zona. |
 | Canale schermo diviso 1x2 | Visualizza le risorse in due aree (suddivise orizzontalmente). |
 | Canale schermo diviso 2X1 | Visualizza le risorse in due aree (divise verticalmente). |
@@ -74,42 +74,42 @@ Durante l’utilizzo della procedura guidata sono disponibili le seguenti opzion
 Puoi modificare, visualizzare proprietà e dashboard, copiare, visualizzare in anteprima ed eliminare un canale.
 
 
-![screen_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
+![schermata_shot_2019-07-24at103723am](assets/screen_shot_2019-07-24at103723am.png)
 
 ### Aggiunta/modifica di contenuti a un canale {#adding-editing-content-to-a-channel}
 
 Per aggiungere o modificare il contenuto di un canale, effettua le seguenti operazioni:
 
 1. Fate clic sul canale da modificare (come illustrato nella figura precedente).
-1. Clic **Modifica** dall&#39;angolo in alto a sinistra della barra delle azioni, per modificare le proprietà del canale. Viene aperto l’editor che consente di aggiungere risorse/componenti al canale da pubblicare.
+1. Fai clic su **Modifica** dall&#39;angolo superiore sinistro della barra delle azioni per modificare le proprietà del canale. Viene aperto l’editor che consente di aggiungere risorse/componenti al canale da pubblicare.
 
 >[!NOTE]
->Puoi aggiungere componenti al tuo canale. Consulta **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)** per ulteriori dettagli.
+>Puoi aggiungere componenti al tuo canale. Per ulteriori dettagli, vedere **[Aggiunta di componenti a un canale](adding-components-to-a-channel.md)**.
 
 ![demochannel1](assets/demochannel1.gif)
 
-**Caricamento di video sul canale**
+**Caricamento video nel canale**
 
 Per caricare i video sul tuo canale, segui la procedura riportata di seguito:
 
 1. Fai clic sul canale in cui desideri caricare il video.
-1. Clic **Modifica** dalla barra delle azioni.
-1. Nell’editor, fai clic su **Video** in Risorse e trascina i video richiesti.
+1. Fai clic su **Modifica** nella barra delle azioni.
+1. Nell&#39;editor, fai clic su **Video** in Assets e trascina i video richiesti.
 
 >[!NOTE]
->In caso di problemi durante il caricamento di video nel canale, consulta [Video sulla risoluzione dei problemi](troubleshoot-videos.md).
+>Se riscontri problemi durante il caricamento di video nel tuo canale, consulta [Risoluzione dei problemi relativi ai video](troubleshoot-videos.md).
 
 ### Visualizzazione o modifica delle proprietà di un canale {#viewing-properties}
 
 1. Fai clic sul canale da modificare.
-1. Clic **Proprietà** dalla barra delle azioni per visualizzare/modificare le proprietà del canale. La scheda seguente consente di modificare le opzioni.
+1. Fai clic su **Proprietà** nella barra delle azioni per visualizzare/modificare le proprietà del canale. La scheda seguente consente di modificare le opzioni.
 
 ![proprietà](assets/properties.gif)
 
 ### Visualizzazione del dashboard {#viewing-dashboard}
 
 1. Fai clic sul canale da modificare.
-1. Clic **Dashboard** dalla barra delle azioni.
+1. Fai clic su **Dashboard** nella barra delle azioni.
 
 ![dashboard](assets/dashboard.gif)
 
@@ -117,9 +117,9 @@ Per caricare i video sul tuo canale, segui la procedura riportata di seguito:
 
 Il pannello Informazioni canale descrive le proprietà del canale, insieme all’anteprima sul canale. Inoltre, fornisce informazioni sul fatto che il canale sia offline o online.
 
-Fai clic su (**...**) dalla **INFORMAZIONI SUL CANALE** barra delle azioni per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto offline) per il canale.
+Fare clic su (**...**) nella barra delle azioni **INFORMAZIONI CANALE** per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto non in linea) per il canale.
 
-![screen_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
+![schermata_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
 #### Visualizzazione del manifesto {#view-manifest}
 
@@ -130,18 +130,18 @@ Puoi visualizzare il manifesto dal dashboard del canale.
 
 Segui questi passaggi per abilitare questa opzione dal dashboard dei canali:
 
-1. **Imposta il canale su Non in linea**
-   1. Fai clic sul canale e fai clic su **Proprietà** dalla barra delle azioni
-   1. Accedi a **Canale** e assicurati di deselezionare **Modalità sviluppatore (forza canale online)** opzione
-   1. Clic **Salva e chiudi**
+1. **Impostare il canale su Non in linea**
+   1. Fai clic sul canale e fai clic su **Proprietà** nella barra delle azioni
+   1. Passa alla scheda **Canale** e accertati di deselezionare l&#39;opzione **Modalità sviluppatore (forza canale online)**
+   1. Fai clic su **Salva e chiudi**
 1. **Aggiorna contenuto offline**
-   1. Fai clic sul canale e fai clic su **Dashboard** dalla barra delle azioni
-   1. Accedi a **INFORMAZIONI SUL CANALE** e fai clic su *...*
-   1. Clic **Aggiorna contenuto offline**
+   1. Fai clic sul canale e fai clic su **Dashboard** nella barra delle azioni
+   1. Passa al pannello **INFORMAZIONI CANALE** e fai clic su *...*
+   1. Fai clic su **Aggiorna contenuto offline**
 
-Dovresti visualizzare **Visualizza manifesto** opzione dalla **INFORMAZIONI SUL CANALE** nel dashboard Canale.
+Dovresti visualizzare l&#39;opzione **Visualizza manifesto** dal pannello **INFORMAZIONI SUL CANALE** nel dashboard Canale.
 
-![image1](assets/channel-one.png)
+![immagine1](assets/channel-one.png)
 
 
 ### Canali online e offline {#online-and-offline-channels}
@@ -151,36 +151,36 @@ Dovresti visualizzare **Visualizza manifesto** opzione dalla **INFORMAZIONI SUL 
 
 Quando crei un canale, questo può essere definito come canale online o offline.
 
-Un ***Canale online*** mostra il contenuto aggiornato nell’ambiente in tempo reale, mentre un’ ***Canale offline*** mostra il contenuto della cache.
+Un ***canale online*** mostra il contenuto aggiornato nell&#39;ambiente in tempo reale, mentre un ***canale offline*** mostra il contenuto nella cache.
 
 Segui i passaggi seguenti per rendere il canale online:
 
-1. Passa al canale come **TestProject** > **Canali** > **TestChannel**.
+1. Passa al canale come **ProgettoTest** > **Canali** > **CanaleTest**.
 
    Fai clic sul canale.
 
-   ![screen_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
+   ![schermata_shot_2019-08-01at31406pm](assets/screen_shot_2019-08-01at31406pm.png)
 
-   Clic **Dashboard** dalla barra delle azioni, in modo da poter visualizzare lo stato del lettore. Il **INFORMAZIONI SUL CANALE** Il pannello fornisce informazioni sul fatto che il canale sia online o offline.
+   Fai clic su **Dashboard** nella barra delle azioni per visualizzare lo stato del lettore. Il pannello **INFORMAZIONI CANALE** fornisce informazioni sul fatto che il canale sia online o offline.
 
-   ![screen_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
+   ![schermata_shot_2019-08-01at31458pm](assets/screen_shot_2019-08-01at31458pm.png)
 
-1. Clic **Proprietà** dalla barra delle azioni e passare alla **Canale** come mostrato di seguito:
+1. Fai clic su **Proprietà** nella barra delle azioni e passa alla scheda **Canale** come illustrato di seguito:
 
-   ![screen_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
+   ![schermata_shot_2019-08-01at31542pm](assets/screen_shot_2019-08-01at31542pm.png)
 
-1. Controlla la **Sviluppatore** **modalità (forza la connessione del canale)** per impostare il canale come online.
+1. Controlla la modalità **Sviluppatore** **(imposta la modalità online del canale)** per rendere il canale online.
 
-   Clic **Salva e chiudi** per salvare l’opzione.
+   Fai clic su **Salva e chiudi** per salvare l&#39;opzione.
 
-   ![screen_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
+   ![schermata_shot_2019-08-01at31658pm](assets/screen_shot_2019-08-01at31658pm.png)
 
-   Torna alla dashboard dei canali e ora fai clic su **INFORMAZIONI SUL CANALE** Il pannello mostra lo stato in linea del lettore.
+   Torna alla dashboard dei canali e ora il pannello **INFORMAZIONI SUL CANALE** mostra lo stato in linea del lettore.
 
-   ![screen_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
+   ![schermata_shot_2019-08-01at31821pm](assets/screen_shot_2019-08-01at31821pm.png)
 
 >[!NOTE]
->Per configurare nuovamente il canale come offline, deseleziona l’opzione Modalità sviluppatore da **Proprietà** (come illustrato al punto (3)). Quindi, dalla sezione **INFORMAZIONI SUL CANALE** clic del pannello **Aggiorna contenuto offline**, come illustrato nella figura seguente.
+>Per configurare nuovamente il canale in modalità non in linea, deselezionare l&#39;opzione Modalità sviluppatore nella scheda **Proprietà** (come illustrato nel passaggio 3). Quindi, dal pannello **INFORMAZIONI CANALE**, fai clic su **Aggiorna contenuto offline**, come illustrato nella figura seguente.
 
 ![dashboard2](assets/dashboard2.gif)
 
@@ -198,7 +198,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
   <tr>
    <td>Modifica nel canale online</td>
    <td>Il contenuto viene aggiornato automaticamente</td>
-   <td><p>Contenuto aggiornato in "Device: Push Config"</p> <p>Oppure</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Contenuto aggiornato in "Device: Push Config"</p> <p>Oppure</p> <p>Contenuto aggiornato nel <strong><i>Dispositivo: riavvio</i></strong></p> </td>
   </tr>
   <tr>
    <td>Modifica nel canale offline ma IL CANALE "Contenuto push" NON viene attivato (non verrà ricreato alcun pacchetto offline)</td>
@@ -208,7 +208,7 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
   <tr>
    <td>Modifica in "Contenuto push" per canale e canale offline attivata (nuovo pacchetto offline)</td>
    <td>Il contenuto viene aggiornato automaticamente</td>
-   <td><p>Contenuto aggiornato il <strong><i>Device: Push Config</i></strong></p> <p>Oppure</p> <p>Contenuto aggiornato il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Contenuto aggiornato sul <strong><i>dispositivo: configurazione push</i></strong></p> <p>Oppure</p> <p>Contenuto aggiornato nel <strong><i>Dispositivo: riavvio</i></strong></p> </td>
   </tr>
   <tr>
    <td><p>Modifica nella configurazione</p>
@@ -219,27 +219,27 @@ Nella tabella seguente sono riepilogati gli eventi associati agli aggiornamenti 
      <li>Assegnazione canale (ruolo, evento, pianificazione)</li>
     </ul> </td>
    <td>La configurazione viene aggiornata automaticamente</td>
-   <td><p>Configurazione aggiornata il <strong><i>Device: Push Config</i></strong></p> <p>Oppure</p> <p>Configurazione aggiornata il <strong><i>Dispositivo: Riavvia</i></strong></p> </td>
+   <td><p>Configurazione aggiornata su <strong><i>Dispositivo: configurazione push</i></strong></p> <p>Oppure</p> <p>Configurazione aggiornata sul <strong><i>dispositivo: riavvio</i></strong></p> </td>
   </tr>
  </tbody>
 </table>
 
 ### Visualizzazioni assegnate {#assigned-displays}
 
-Il **Visualizzazioni assegnate** mostra la visualizzazione associata al canale. Fornisce un&#39;istantanea della visualizzazione assegnata insieme alla risoluzione.
+Il pannello **Visualizzazioni assegnate** mostra la visualizzazione associata al canale. Fornisce un&#39;istantanea della visualizzazione assegnata insieme alla risoluzione.
 
-Le visualizzazioni associate sono elencate nella **Visualizzazioni assegnate** come mostrato di seguito:
+Le visualizzazioni associate sono elencate nel pannello **Visualizzazioni assegnate**, come illustrato di seguito:
 
 ![chlimage_1-27](assets/chlimage_1-27.png)
 
 >[!NOTE]
 >Per informazioni sulla creazione di una visualizzazione in una posizione, consulta:
 >
->* [Creare e gestire le posizioni](managing-locations.md)
->* [Creare e gestire le visualizzazioni](managing-displays.md)
+>* [Crea e gestisci posizioni](managing-locations.md)
+>* [Crea e gestisci visualizzazioni](managing-displays.md)
 >
 
-Inoltre, fai clic sulla visualizzazione in **VISUALIZZAZIONI ASSEGNATE** per visualizzare le informazioni sul display, come illustrato di seguito:
+Fare inoltre clic sulla visualizzazione nel pannello **VISUALIZZAZIONI ASSEGNATE** per visualizzare le informazioni di visualizzazione, come illustrato di seguito:
 
 ![chlimage_1-28](assets/chlimage_1-28.png)
 

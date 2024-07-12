@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Ruoli e responsabilità del progetto {#roles-responsibilities}
 
-In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori*, e *Tecnici IT*.
+In qualità di implementatore AEM esperto, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori* e *Tecnici IT*.
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi ha uno scopo importante nel progetto.
 
@@ -88,15 +88,15 @@ In genere, i project manager gestiscono l’intera implementazione di AEM Screen
 
 Per supportare una corretta implementazione del digital signage, è consuetudine segmentare il progetto in tre fasi. Queste fasi sono comunemente denominate **Giorni**. Non sono giorni letterali, ma designazioni per ogni fase principale del progetto.
 
-1. La prima fase è denominata *Giorno zero*. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire l&#39;ambito del progetto.
-1. La seconda fase, *Primo giorno*, si riferisce a tutte le attività incluse nello sforzo di implementazione.
+1. La prima fase è indicata come *Giorno zero*. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire l&#39;ambito del progetto.
+1. La seconda fase, *Giorno uno*, fa riferimento a tutte le attività incluse nell&#39;impegno di distribuzione.
 1. La terza e ultima fase è *Giorno due*. Fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
 >[!NOTE]
 >
->Mentre questa guida pone l’accento principalmente su *Primo giorno* e *Giorno due* Tuttavia, è necessario prestare attenzione a tutte e tre le fasi per realizzare un progetto di digital signage di successo.
+>Mentre questa guida pone l&#39;accento principalmente su *Primo giorno* e *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per eseguire un progetto di digital signage di successo.
 >
->Per informazioni sulla preproduzione, l’avvio e la progressione del progetto, guarda un video su **[Gestione e implementazione dei progetti](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Grafico RACI {#raci-chart}
 
@@ -108,19 +108,19 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 ### Definizioni RACI {#raci-definitions}
 
-* **Responsabile**: esegue il lavoro per completare l’attività.
+* **Responsabile**: esegue il lavoro per completare l&#39;attività.
 
-* **Responsabile**: i delegati lavorano e sono l’ultima parte a rivedere l’attività prima che sia completata.
+* **Responsabile**: i delegati lavorano e sono l&#39;ultima parte a rivedere l&#39;attività prima che venga completata.
 
-* **Consultato**: rivede l’attività o il risultato finale per fornire input.
+* **Consultato**: esamina l&#39;attività o il risultato finale per fornire input.
 
-* **Informato**: viene tenuto informato sui progressi dell’attività ma non viene coinvolto nei dettagli del risultato finale.
+* **Informato**: mantenuto informato sullo stato dell&#39;attività ma non coinvolto nei dettagli del risultato finale.
 
 Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni dei ruoli e fornisce un esempio di attività e considerazioni comuni in un progetto AEM Screens.
 
-La tabella seguente riassume **Giorno zero: considerazioni pre-vendita**:
+Nella tabella seguente viene riepilogato lo zero del **giorno: Considerazioni pre-vendita**:
 
-| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore Audio-Video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Formazione team e selezione fornitore | I | I | RA | RA |
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
@@ -130,9 +130,9 @@ La tabella seguente riassume **Giorno zero: considerazioni pre-vendita**:
 | Definizione del processo di supporto | C | I | RA | I |
 | Definisci ambito di lavoro e piano di progetto | RA | RA | C | C |
 
-La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Progettazione Dell’Applicazione)**:
+La tabella seguente riepiloga il **giorno uno: Implementazione del progetto (progettazione dell&#39;applicazione)**:
 
-| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore Audio-Video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento al piano e alla pianificazione del progetto | RA | RA | C | C |
@@ -150,19 +150,19 @@ La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Proge
 | Piano per la transizione da pilota a produzione | RA | RA | I | I |
 | Trasferimento delle conoscenze | RA | RA | I | I |
 
-La tabella seguente riassume **Primo Giorno: Implementazione Del Progetto (Preparazione Per La Vendita Al Dettaglio)**:
+Nella tabella seguente viene riepilogato il **giorno uno: Implementazione del progetto (predisposizione per la vendita al dettaglio)**:
 
-| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore Audio-Video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Ordinazione e archiviazione hardware | RA | I | I | I |
 | Pianificazione di onboarding per la vendita al dettaglio | I | I | C | RA |
 | Test di accettazione utente per staging | I | C | RA |   |
 | Configurazione hardware in blocco | RA | I | C | I |
-| Contratto per supporto post-lancio | RA | C | RA | C |
+| Accordo sul supporto per Post Launch | RA | C | RA | C |
 
-La tabella seguente riassume **Primo giorno: primo giorno: implementazione del progetto (hardware)**:
+La tabella seguente riepiloga il **giorno uno: giorno uno: implementazione del progetto (hardware)**:
 
-| **Fase** | **Integratore audio-video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
+| **Fase** | **Integratore Audio-Video** | **Implementatore AEM** | **Strategia aziendale** | **Gestione dei contenuti** |
 |---|---|---|---|---|
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | La progettazione per la vendita al dettaglio include le operazioni di cablaggio | - | - | - | - |
@@ -173,19 +173,19 @@ La tabella seguente riassume **Primo giorno: primo giorno: implementazione del p
 
 >[!NOTE]
 >
->I ruoli cambiano durante il secondo giorno (supporto post-lancio).
+>I ruoli cambiano durante il secondo giorno (supporto di Post Launch).
 
-* **Autore**: gestione dei contenuti e strategia
+* **Autore**: gestione dei contenuti + strategia
 
 * **Sviluppatore**: in genere è un membro del team di implementazione di AEM Screens o un membro di un team di sviluppo interno
 
-* **Tecnico**: è sotto contratto da Audio-Video Integrator o fa parte della stessa azienda.
+* **Tecnico**: contratto dell&#39;integratore audio-video o parte della stessa società.
 
-La tabella seguente riassume **Secondo giorno: grafico RACI per il supporto post-lancio**:
+La tabella seguente riepiloga il **secondo giorno: Grafico RACI supporto di Post Launch**:
 
 | **Fase** | **Autore** | **Sviluppatore** | **Tecnico** |
 |---|---|---|---|
-| *Secondo Giorno: Supporto Post-Lancio* |
+| *Secondo Giorno: Supporto Di Post-Launch* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
 | Supporto livello 1 | I | I | RA |
 | Supporto di livello 2 | I | C | RA |

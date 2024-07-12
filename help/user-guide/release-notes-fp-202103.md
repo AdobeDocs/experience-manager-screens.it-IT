@@ -15,13 +15,13 @@ ht-degree: 2%
 # Note sulla versione per Feature Pack 202103 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 ## Disponibilità {#availability}
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 7.
 
-Puoi scaricare l’ultimo Feature Pack per AEM Screens versione 6.5.7 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **AEM 6.5 Screens FP7**.
+Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.7 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP7**.
 
 ## Data di rilascio {#release-date}
 
@@ -33,27 +33,27 @@ La data di rilascio del Feature Pack 202103 per AEM Screens è il 5 marzo 2021.
 
   La registrazione manuale in blocco di migliaia di giocatori è complicata e aggiunge tempo e costi. Per semplificare questo processo, la funzione di Registrazione automatica dei lettori consente di specificare una chiave già condivisa in AEM. È possibile eseguire il provisioning di questa chiave in un lettore tramite un file di configurazione o una soluzione MDM (Mobile Device Management).
 
-  Consulta [Registrazione automatica dei lettori](/help/user-guide/auto-registration-players.md) per ulteriori dettagli.
+  Per ulteriori dettagli, vedere [Registrazione automatica dei lettori](/help/user-guide/auto-registration-players.md).
 
 
 * **Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management**
 
-  Quando si distribuisce il lettore Android™ in massa, diventa noioso registrare ogni lettore manualmente con l&#39;AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come `VMWare Airwatch`, `MobileIron`, o `Samsung Knox` per il provisioning e la gestione dell&#39;installazione in remoto. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
+  Quando si distribuisce il lettore Android™ in massa, diventa noioso registrare ogni lettore manualmente con l’AEM. Si consiglia vivamente di utilizzare una soluzione EMM (Enterprise Mobility Management) come `VMWare Airwatch`, `MobileIron` o `Samsung Knox` per eseguire il provisioning e gestire la distribuzione in remoto. AEM Screens Android™ Player supporta lo standard di settore EMM AppConfig per consentire il provisioning remoto.
 
-  Consulta [Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation) per ulteriori dettagli.
+  Per ulteriori informazioni, vedere [Provisioning in blocco di Android™ Player tramite Enterprise Mobility Management](/help/user-guide/implementing-android-player.md#implementation).
 
 
 ### Correzioni di bug {#bug-fixes}
 
-* Prestazioni migliorate per l&#39;elaborazione `clientlib` e `asset hashes`.
+* Prestazioni migliorate per il calcolo di `clientlib` e `asset hashes`.
 
 * La migrazione di SmartSync interromperebbe il lettore se la cache non venisse invalidata.
 
-* Le cache non in linea non sono state create se l&#39;assegnazione aveva *OfflineConfig*.
+* Le cache offline non sono state create se l&#39;assegnazione aveva *OfflineConfig*.
 
-* Aggiornamenti a `Tizen` lettore che si è rotto perché il criterio referente strict-origin-when-cross-origin non è supportato.
+* Aggiornamenti al lettore `Tizen` non riusciti perché il criterio del referente strict-origin-when-cross-origin non è supportato.
 
-* Modifica della pianificazione del canale assegnato *Si ripete* il campo stava interrompendo l’interfaccia utente.
+* La modifica del campo *Repeats* della pianificazione del canale assegnato interrompeva l&#39;interfaccia utente.
 
 * L’aggiornamento del contenuto offline non riusciva con eccezioni di query.
 
@@ -65,10 +65,10 @@ La data di rilascio del Feature Pack 202103 per AEM Screens è il 5 marzo 2021.
 
 Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 7:
 
-* Chrome OS
+* CHROME OS
 * Windows
 * Linux®
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi **[Download del lettore AEM Screens](https://download.macromedia.com/screens/index.html)**.

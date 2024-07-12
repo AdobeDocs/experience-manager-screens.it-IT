@@ -21,7 +21,7 @@ ht-degree: 4%
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 11.1.
 
-Puoi scaricare l’ultimo Feature Pack per AEM Screens versione 6.5.11.1 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP11.1**.
+Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.11.1 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP11.1**.
 
 ## Data di rilascio {#release-date}
 
@@ -35,7 +35,7 @@ Questa versione include solo correzioni di sicurezza.
 
 * Problema XSS nel campo &quot;Testo inattivo&quot; del dispositivo AEM Screens. (SCRNS-2614)
 
-* Problema XSS in `screens/dashboard/device.html` mediante il `Clear cache` finestra di dialogo azione. (SCRNS-2632)
+* Problema XSS in `screens/dashboard/device.html` tramite la finestra di dialogo dell&#39;azione `Clear cache`. (SCRNS-2632)
 
 * Problema XSS nella configurazione del lettore Screens in `libs/screens/player/browser/firmware.html`. (SCRNS-2652)
 
@@ -43,9 +43,9 @@ Questa versione include solo correzioni di sicurezza.
 
 * Problema XSS in `/libs/screens/core/components/device/info.json.html`. (SCRNS-2659)
 
-* XSS riflesso con il parametro `item` a `/screens/register-device-wizard.html`. (SCRNS-2670)
+* XSS riflesso con il parametro `item` in `/screens/register-device-wizard.html`. (SCRNS-2670)
 
-* XSS riflesso in `screens/dashboard/device.html` mediante il `returnPage` parametro. (SCRNS-3056)
+* XSS riflesso in `screens/dashboard/device.html` tramite il parametro `returnPage`. (SCRNS-3056)
 
 * Apri Reindirizza su assign-device-wizard.html. (SCRNS-3444)
 

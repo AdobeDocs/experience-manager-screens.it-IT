@@ -17,7 +17,7 @@ Questa guida presenta un&#39;introduzione ai server proxy, seguita dalle varie s
 
 >[!NOTE]
 >**Requisiti di rete di AEM Screens**
->AEM Screens comunica direttamente con l’AEM as a Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono obbligatori per l&#39;accesso commerciale a Internet. In qualità di cliente, scopri quali porte di comunicazione devono essere aperte in questi firewall e in altri componenti di rete relativi alla sicurezza IT.
+>AEM Screens comunica direttamente con AEM as a Cloud Service, pertanto è necessario stabilire una connessione stabile tra i due nodi. I firewall sono obbligatori per l&#39;accesso commerciale a Internet. In qualità di cliente, scopri quali porte di comunicazione devono essere aperte in questi firewall e in altri componenti di rete relativi alla sicurezza IT.
 
 ## Panoramica sui server proxy {#proxy-servers}
 
@@ -33,8 +33,8 @@ Per implementare un&#39;installazione di rete, vedere gli scenari seguenti con i
 
 In questa Guida vengono illustrati quattro diversi tipi di impostazioni di rete all&#39;interno di un&#39;organizzazione:
 
-* **[Rete Internet diretta (cablata/wireless)](/help/using/direct-internet-network.md)**
-* **[Direct Mobile Network](/help/using/mobile-network.md)**
+* **[Rete Internet Diretta (Cablata/Wireless)](/help/using/direct-internet-network.md)**
+* **[Rete mobile diretta](/help/using/mobile-network.md)**
 * **[Rete mobile con router dati mobile e componenti di rete attivi](/help/using/mobile-network-router.md)**
 * **[Rete aziendale chiusa (cablata/wireless)](/help/using/enclosed-corporate-network.md)**
 
@@ -42,7 +42,7 @@ Nella tabella seguente vengono illustrati i diversi tipi di configurazioni di re
 
 | Configurazione della rete | Vantaggi | Svantaggi |
 |--- |--- |--- |
-| **Rete Internet diretta (cablata/wireless)** | Configurazione semplice e diretta<br>Ideale per installazioni di medie o grandi dimensioni<br>È possibile incapsulare una rete dedicata<br>Pochi punti di errore<br>Relativamente poco costoso<br>Buona scalabilità | Piano dati Internet obbligatorio |
-| **Direct Mobile Network** | Facilità di configurazione<br>Buona scelta per installazioni di medie o grandi dimensioni<br>Buona scalabilità<br>Schermi incapsulati | Connessione Internet obbligatoria |
-| **Rete mobile con router dati mobile e componenti di rete attivi** | Facilità di configurazione<br>Buona scelta per installazioni di medie o grandi dimensioni<br>È possibile incapsulare una rete dedicata<br>Pochi punti di errore<br>Relativamente poco costoso<br>Buona scalabilità | Piano dati Internet obbligatorio |
-| **Rete aziendale chiusa (cablata/wireless)** | Elevata flessibilità e scalabilità<br>Altamente sicuro a causa di diverse linee di difesa<br>Reti incapsulate<br>Facilità di monitoraggio e manutenzione<br>Affidabile | Complicato e costoso<br>Consigliato per gli specialisti di rete o gli integratori di sistemi |
+| **Rete Internet Diretta (Cablata/Wireless)** | Configurazione semplice e immediata<br>Valida scelta per installazioni di medie o grandi dimensioni<br>La rete dedicata può essere incapsulata<br>Pochi punti di errore<br>Relativamente poco costosa<br>Buona scalabilità | Piano dati Internet obbligatorio |
+| **Rete mobile diretta** | Facile da configurare<br>Buona scelta per installazioni di medie o grandi dimensioni<br>Buona scalabilità<br>Screens incapsulato | Connessione Internet obbligatoria |
+| **Rete mobile con router dati mobile e componenti di rete attivi** | Facile da configurare<br>Buona scelta per installazioni di medie o grandi dimensioni<br>È possibile incapsulare una rete dedicata<br>Pochi punti di errore<br>Relativamente poco costosa<br>Buona scalabilità | Piano dati Internet obbligatorio |
+| **Rete aziendale chiusa (cablata/wireless)** | Elevata flessibilità e scalabilità<br>Elevata sicurezza grazie alle diverse linee di difesa<br>Reti incapsulate<br>Facile da monitorare e mantenere<br>Affidabile | Complicato e costoso<br>Consigliato agli specialisti di rete o agli integratori di sistemi |

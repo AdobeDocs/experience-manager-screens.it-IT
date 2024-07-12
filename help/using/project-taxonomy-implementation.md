@@ -19,13 +19,13 @@ Prima di creare un progetto AEM Screens, è necessario comprendere e strategizza
 
 Prima di implementare la soluzione di digital signage AEM Screens, considera i seguenti elementi:
 
-* **Posizioni**
+* **Percorsi**
 * **MediaZones**
-* **Display**
+* **Visualizzazioni**
 * **Pianificazione**
 * **Anteprima del contenuto**
 
-Per ulteriori informazioni su questi termini, consulta [Glossario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
+Per ulteriori informazioni su questi termini, consulta il [Glossario](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/overview/screens-glossary).
 
 >[!NOTE]
 >
@@ -47,12 +47,12 @@ In genere, un autore inizia un progetto AEM Screens:
 * [creazione di un progetto AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
 * [creazione di canali](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-channels)
 * [aggiunta di componenti e risorse al canale](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/adding-components-to-a-channel)
-* [creazione di pianificazioni](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
-* [creazione di posizioni](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
+* [creazione pianificazioni](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-schedules)
+* [creazione percorsi](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-locations)
 * [creazione di visualizzazioni](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [assegnazione di canali alle visualizzazioni](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/assigning-channels/channel-assignment)
 
 * [visualizzazione del contenuto in un lettore AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/working-with-screens-player)
 
 >[!NOTE]
->Puoi anche importare in blocco un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens. Consulta [Nuova importazione progetti da file](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).
+>Puoi anche importare in blocco un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens. Vedi [Nuova importazione progetti dal file](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/project-importer).

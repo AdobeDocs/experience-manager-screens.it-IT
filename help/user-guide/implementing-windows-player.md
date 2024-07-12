@@ -25,7 +25,7 @@ Questa sezione descrive la configurazione di Windows Player in AEM Screens. Forn
 
 Per implementare Windows Player per AEM Screens, installare Windows Player per AEM Screens.
 
-Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
+Visita la pagina [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >In Windows Player non è disponibile alcuna modalità finestra. È sempre in modalità a schermo intero.
@@ -35,34 +35,36 @@ Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/scr
 >[!NOTE]
 >Configurare un ambiente per Windows Player se si utilizza AEM Screens 6.5.5 Service Pack.
 
-Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno** da **Configurazione console Web Adobe Experience Manager** su tutte le istanze di authoring e pubblicazione AEM.
+Imposta l&#39;attributo **SameSite per i cookie token di accesso** da **Lax** a **None** da **Console Web Adobe Experience Manager
+Configurazione** su tutte le istanze di creazione e pubblicazione AEM.
 
 Effettua le seguenti operazioni:
 
-1. Accedi a **Configurazione console Web Adobe Experience Manager** utilizzo `http://localhost:4502/system/console/configMgr`.
+1. Passa a **Console Web Adobe Experience Manager
+Configurazione** tramite `http://localhost:4502/system/console/configMgr`.
 
-1. Cerca *Adobe Gestore autenticazione token Granite*.
+1. Cerca *Gestore autenticazione token Adobe Granite*.
 
-1. Imposta il **Attributo SameSite per i cookie del token di accesso** da **Lax** a **Nessuno**.
+1. Imposta l&#39;attributo **SameSite per i cookie token di accesso** da **Lax** a **None**.
    ![immagine](/help/user-guide/assets/granite-updates.png)
 
 1. Fai clic su **Salva**.
 
 ### Metodo ad hoc {#ad-hoc-method}
 
-Il metodo Ad Hoc consente di installare la versione più recente di Windows Player (*.exe*). Visita il [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/) pagina.
+Il metodo Ad Hoc consente di installare il Windows Player più recente (*.exe*). Visita la pagina [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/).
 
 Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completare l’installazione ad hoc:
 
 1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Accedi a **Configurazione** dal menu Azioni sinistro, inserisci la posizione (indirizzo) dell’istanza AEM a cui desideri connetterti e fai clic su **Salva**.
-1. Accedi a **Dispositivo** **Registrazione** dal menu Azioni sinistro, per controllare lo stato del processo di registrazione del dispositivo.
+1. Passa a **Configurazione** dal menu Azioni a sinistra, immetti la posizione (indirizzo) dell&#39;istanza AEM a cui desideri connetterti e fai clic su **Salva**.
+1. Passa al collegamento **Dispositivo** **Registrazione** dal menu Azioni sinistro per controllare lo stato del processo di registrazione del dispositivo.
 
 >[!NOTE]
 >
->Se il **Stato** è **REGISTRATO**, si noti che **ID dispositivo** è compilato.
+>Se lo **Stato** è **REGISTRATO**, il campo **ID dispositivo** è popolato.
 >
->Se il **Stato** è **NON REGISTRATO**, è possibile utilizzare **Token** per registrare il dispositivo.
+>Se lo stato **State** è **UNREGISTERED**, è possibile utilizzare il token **Token** per registrare il dispositivo.
 
 ## Denominazione di Windows Player {#name-windows}
 
@@ -73,8 +75,8 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 Per configurare il nome in Windows Player, eseguire la procedura seguente:
 
-1. Clic **inizio** > **eseguire**.
-1. Invio `system.cpl`.
+1. Fai clic su **start** > **run**.
+1. Immettere `system.cpl`.
 1. Utilizzare la scheda Nome computer per impostare il nome host del computer.
 
 ## Modifica delle opzioni predefinite in Windows Installer {#changing-default-options}
@@ -83,7 +85,7 @@ Seguire questa sezione per apprendere come modificare le opzioni predefinite di 
 
 ## Installazione tramite CLI (PowerShell) {#install-powershell}
 
-1. Creare una posizione personalizzata **dedicato** per Screens Player, ad esempio:
+1. Crea un percorso personalizzato **dedicato** per Screens Player, ad esempio:
    `C:\Users\User\screens-player`
 1. Installa
    `aem-screens-player-electron-xxx-signed.exe /S /D=C:\Users\User\screens-player`
@@ -109,7 +111,7 @@ La configurazione assicura che tutti i lettori eseguano il ping dello stesso ser
 Per configurare Windows 10 Player, attenersi alla procedura descritta di seguito.
 
 1. Installare Windows Player.
-1. Trova il file di configurazione in ***%appdata%\com.adobe.aem.screens.player\config.json***.
+1. Trovare il file di configurazione in ***%appdata%\com.adobe.aem.screens.player\config.json***.
 1. Aggiorna il JSON di configurazione utilizzando le informazioni riportate di seguito, quindi copia la stessa cartella in tutti i sistemi in cui risiede il lettore.
 
 ### Attributi dei criteri {#policy-attributes}
@@ -117,7 +119,7 @@ Per configurare Windows 10 Player, attenersi alla procedura descritta di seguito
 La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON per i criteri a scopo di riferimento:
 
 
-| **Nome criterio** | **Finalità** |
+| **Nome criterio** | **Scopo** |
 |---|---|
 | server | URL del server Adobe Experience Manager (AEM). |
 | registrationKey | Utilizzato per la registrazione in blocco di dispositivi utilizzando una chiave già condivisa. |
@@ -127,7 +129,7 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 | enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
 | cloudMode | Impostare su true se si desidera che Windows Player si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
-| cloudToken | Token di registrazione da registrare su Screens as a Cloud Service. |
+| cloudToken | Token di registrazione per la registrazione a Screens as a Cloud Service. |
 
 #### Esempio di file JSON del criterio {#example-policy-json-file}
 
@@ -158,11 +160,11 @@ Per attivare la modalità Kiosk (chiosco), procedere come segue:
 
 1. Attiva modulo di avvio shell.
 
-   Consulta ***Configura modulo di avvio shell*** in **[Modulo di avvio shell](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** pagina del supporto Microsoft® Windows per ulteriori informazioni.
+   Per ulteriori informazioni, vedere ***Configurare l&#39;utilità di avvio della shell*** nella pagina **[Utilità di avvio della shell](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** del supporto di Microsoft® Windows.
 
 1. Crea un utente non amministrativo (se non ne hai già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
-1. Installare Windows Player per l&#39;utente del chiosco dal [Download di AEM Screens Player](https://download.macromedia.com/screens/) pagina.
-1. Consulta [Utilizza Shell Launcher per creare un chiosco Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) per modificare lo script di PowerShell per ulteriori informazioni.
+1. Installa Windows Player per l&#39;utente Kiosk dalla pagina [Download del lettore AEM Screens](https://download.macromedia.com/screens/).
+1. Consulta [Utilizzare Shell Launcher per creare un chiosco di Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) per modificare lo script di PowerShell per ulteriori informazioni.
 
    Modificare lo script di PowerShell in modo da poter sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;eseguibile dell&#39;applicazione sia corretto. In questo modo la shell personalizzata verrà impostata come applicazione Windows Player per l&#39;utente del chiosco e il file predefinito verrà impostato come explorer.exe per gli altri utenti.
 
@@ -175,7 +177,7 @@ Se dopo aver effettuato l&#39;accesso come utente Kiosk viene visualizzata una s
 
 Il percorso di installazione predefinito per Windows Player è:
 
-***C:\Users\&lt;your user=&quot;&quot;>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
+***C:\Users\&lt;utente>\AppData\Local\Programs\@aem-screensscreens-player-electron\AEM Screens Player.exe***
 
 Lo script di esempio nei collegamenti abilita e disabilita la shell personalizzata. Pertanto, divide lo script in due e abilita/disabilita le righe applicabili seguenti:
 
@@ -185,7 +187,7 @@ Lo script di esempio nei collegamenti abilita e disabilita la shell personalizza
 >
 >*`set-executionpolicy unrestricted`* - per rimuovere temporaneamente le restrizioni.
 >
->*`set-executionpolicy restricted`* : per riabilitare la restrizione dopo l’esecuzione dello script.
+>*`set-executionpolicy restricted`* - per riattivare la restrizione dopo l&#39;esecuzione dello script.
 
 ```
 # Remove the new custom shells.
@@ -195,6 +197,6 @@ $ShellLauncherClass.RemoveCustomShell($Admins_SID)
 $ShellLauncherClass.RemoveCustomShell($Cashier_SID)
 ```
 
-### Utilizzo del telecomando Screens {#using-remote-control}
+### Uso del telecomando Screens {#using-remote-control}
 
-AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzione qui: [Controllo remoto Schermi](implementing-remote-control.md)
+AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzionalità: [Controllo remoto Screens](implementing-remote-control.md)

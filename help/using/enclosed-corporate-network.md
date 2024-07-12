@@ -37,7 +37,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
    >**Suggerimento per la risoluzione dei problemi**
    >Se AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato:
    >
-   >1. Se sono presenti restrizioni relative a, controlla nel firewall del router Internet `TCP/IP Port 80/443`.
+   >1. Se sono presenti restrizioni relative a `TCP/IP Port 80/443`, controlla nel firewall del router Internet.
    >1. Verificare che tutte le porte richieste siano consentite.
 
 ## Configurazione di reti aziendali chiuse {#requirements-enclosed-networks}
@@ -50,7 +50,7 @@ L&#39;installazione di Enclosed Corporate Network può essere separata logicamen
 ### Wide Area Network {#wan-connection}
 
 Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire un agevole aggiornamento dei contenuti AEM Screens.
-*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connesse. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
+*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -69,10 +69,10 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 M
 Le reti aziendali hanno diversi dispositivi connessi, sono separate in varie sottoreti e dispongono di connessioni Internet ridondanti o multiplexate per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
 Questo schema è semplificato e si adatta nella maggior parte dei casi agli ambienti disponibili per il client.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare standard Wi-Fi moderni come `IEEE 802.11g` come minimo. Questo standard supporta connessioni fino a 54 Mbps. Qualsiasi *più recente* Standard come `802.11h-n` sono di migliore qualità. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
 Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
 
-## Download di contenuti multimediali e risorse {#download}
+## Download di contenuti multimediali e Assets {#download}
 
 AEM Screens offre un vantaggio significativo agli utenti di digital signage. Scarica e salva localmente tutti i file multimediali necessari, ad esempio immagini e video. Il traffico di rete principale si verifica quando è presente un nuovo contenuto da visualizzare su una visualizzazione specifica.
 

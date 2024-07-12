@@ -24,8 +24,8 @@ Scopri come creare un flusso di lavoro per elaborare automaticamente le risorse 
 Per completare questa esercitazione, è necessario quanto segue:
 
 1. [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65)
-1. [AEM Service Pack 8 o superiore](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes)
-1. [AEM 6.5 Screens FP7 o superiore](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
+1. [AEM Service Pack 8 o versione successiva](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes)
+1. [AEM 6.5 Screens FP7 o versione successiva](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202103)
 
 ## Configurazione rapida {#quick-setup}
 
@@ -38,19 +38,19 @@ Il video seguente illustra come installare un pacchetto di codice di esempio che
 
 ## Modello flusso di lavoro {#workflow-model}
 
-È stato creato uno schema di metadati di cartelle personalizzato per acquisire il canale Screens di destinazione in cui aggiungere le immagini. Per automatizzare l’elaborazione delle risorse vengono utilizzati due modelli di flusso di lavoro. Il **Aggiorna risorsa DAM** Il flusso di lavoro viene modificato per richiamare un flusso di lavoro personalizzato, **Screens Demo Asset Processing) che controlla la cartella contenitore della risorsa per determinare il canale Schermi di destinazione. Il **Elaborazione risorse demo Screens** workflow è anche responsabile dell&#39;applicazione della filigrana all&#39;immagine.
+È stato creato uno schema di metadati di cartelle personalizzato per acquisire il canale Screens di destinazione in cui aggiungere le immagini. Per automatizzare l’elaborazione delle risorse vengono utilizzati due modelli di flusso di lavoro. Il flusso di lavoro **Risorsa di aggiornamento DAM** è stato modificato per richiamare un flusso di lavoro personalizzato, **Elaborazione risorsa demo Screens che controlla la cartella contenitore della risorsa per determinare il canale Screens di destinazione. Anche il flusso di lavoro **Elaborazione risorse demo Screens** è responsabile dell&#39;applicazione della filigrana all&#39;immagine.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333175/?quality=12&learn=on)
 
 ## Passaggi del processo di flusso di lavoro personalizzato {#workflow-process-step}
 
-Inspect: due passaggi del processo di flusso di lavoro personalizzati utilizzati come parte del **Elaborazione risorse demo Screens** flusso di lavoro.
+Inspect: due passaggi di processo del flusso di lavoro personalizzati utilizzati come parte del flusso di lavoro **Elaborazione risorse demo Screens**.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333179/?quality=12&learn=on)
 
-Il `AssetProcessingCheck.java` il flusso di lavoro personalizzato è un processo che esegue un controllo sul payload del flusso di lavoro. Determina se il payload è una risorsa e se la cartella contenitore è configurata per puntare a un canale AEM Screens. Se i requisiti sono soddisfatti, il passaggio del processo mantiene due proprietà: `screen-channel` e `asset-path`, ai metadati del flusso di lavoro.
+Il flusso di lavoro personalizzato `AssetProcessingCheck.java` è un processo che esegue un controllo sul payload del flusso di lavoro. Determina se il payload è una risorsa e se la cartella contenitore è configurata per puntare a un canale AEM Screens. Se i requisiti sono soddisfatti, il passaggio del processo mantiene due proprietà, `screen-channel` e `asset-path`, nei metadati del flusso di lavoro.
 
-Il `AddAssetToChannel.java` il flusso di lavoro personalizzato è una fase del processo che controlla i metadati del flusso di lavoro e aggiorna il canale AEM Screens in modo che faccia riferimento all’immagine.
+Il flusso di lavoro personalizzato `AddAssetToChannel.java` è un passaggio del processo che controlla i metadati del flusso di lavoro e aggiorna il canale AEM Screens in modo che faccia riferimento all&#39;immagine.
 
 1. Scarica il codice sorgente: **[screens-demo-main.zip](./assets/screens-demo-main.zip)**
 1. Decomprimi e visualizza il codice utilizzando l’IDE preferito.

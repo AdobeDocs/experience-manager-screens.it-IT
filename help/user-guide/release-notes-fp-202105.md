@@ -15,16 +15,16 @@ ht-degree: 3%
 # Note sulla versione per Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 ## Disponibilità {#availability}
 
 AEM Screens ha rilasciato AEM 6.5 Feature Pack 8.
 
-Puoi scaricare l’ultimo Feature Pack per AEM Screens versione 6.5.8 da [Portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) utilizzando il tuo Adobe ID. Accedi a **Adobe Experience Manager** e cerca **Schermi** per ottenere l’ultimo Feature Pack con titolo **Schermi AEM 6.5 FP8**.
+Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.8 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP8**.
 
 >[!IMPORTANT]
->Installa la versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS dopo l’installazione dei pacchetti `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16`e `screens core bundles`.
+>Installare la versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS dopo aver installato i pacchetti `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` e `screens core bundles`.
 
 ## Data di rilascio {#release-date}
 
@@ -34,9 +34,9 @@ La data di rilascio del Feature Pack 202105 per AEM Screens è il 4 giugno 2021.
 
 * **Blocco della pagina in un canale AEM Screens**
 
-  AEM Screens ora supporta *Blocco di una pagina*, come già implementato in AEM Sites. Adobe Experience Manager (AEM) consente di bloccare una pagina in modo che nessun altro possa modificarne il contenuto. Questa funzione è utile quando si apportano numerose modifiche a una pagina specifica o quando è necessario bloccare una pagina per un breve periodo.
+  AEM Screens ora supporta *Il blocco di una pagina*, come già implementato in AEM Sites. Adobe Experience Manager (AEM) consente di bloccare una pagina in modo che nessun altro possa modificarne il contenuto. Questa funzione è utile quando si apportano numerose modifiche a una pagina specifica o quando è necessario bloccare una pagina per un breve periodo.
 
-* **Denominazione del dispositivo AEM Screens Player**
+* **Denominazione dispositivo lettore AEM Screens**
 
   I lettori AEM Screens ora includono la funzionalità di invio di un nome di dispositivo a Adobe Experience Manager (AEM).
 Per impostazione predefinita, quando si utilizza la registrazione in blocco per registrare un dispositivo, nel campo del titolo viene inserito un nome utente generato dal sistema. In alternativa, un cliente può utilizzare un tag risorsa o un altro nome descrittivo che lo renda visibile nell’AEM e faciliti l’assegnazione di contenuti appropriati.
@@ -46,7 +46,7 @@ Per impostazione predefinita, quando si utilizza la registrazione in blocco per 
    * [Android](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [Chrome OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+   * [CHROME OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Generazione manifesto**
 
@@ -69,4 +69,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.5 Feature Pack 8:
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta **[Download di AEM Screens Player](https://download.macromedia.com/screens/index.html)**.
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi **[Download del lettore AEM Screens](https://download.macromedia.com/screens/index.html)**.

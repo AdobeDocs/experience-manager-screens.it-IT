@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 AEM Screens ha rilasciato AEM 6.4.6 Feature Pack 6 e AEM 6.5.2 Feature Pack 2 con i seguenti dettagli.
 
@@ -26,26 +26,26 @@ La data di rilascio del Feature Pack 201909 per AEM Screens è il 7 ottobre 2019
 
 ### Novità {#what-s-new}
 
-* **Sono stati migliorati gli aggiornamenti dell’interfaccia utente per creare un progetto Screens**
+* **Aggiornamenti migliorati dell&#39;interfaccia utente per la creazione di un progetto Screens**
 
-  È ora disponibile un’interfaccia utente aggiornata per la creazione di un progetto AEM Screens. Puoi creare un progetto Schermi con pochi semplici clic. Inoltre, la scheda delle proprietà di ciascun progetto ora dispone di un’interfaccia utente più intuitiva.
+  È ora disponibile un’interfaccia utente aggiornata per la creazione di un progetto AEM Screens. Puoi creare un progetto Screens con pochi semplici clic. Inoltre, la scheda delle proprietà di ciascun progetto ora dispone di un’interfaccia utente più intuitiva.
 
-  Consulta [Creazione di un nuovo progetto Screens](creating-a-screens-project.md) per ulteriori dettagli.
+  Per ulteriori dettagli, vedere [Creazione di un nuovo progetto Screens](creating-a-screens-project.md).
 
 * **Dashboard dispositivo avanzato**
 
   Il dashboard del dispositivo mostra le informazioni, lo stato, le schermate, i registri, le preferenze e i dettagli del dispositivo che consentono di monitorare le attività e le funzioni del dispositivo. I pannelli sono ora aggiornati.
 
-  Consulta [Risoluzione dei problemi di Device Control Center](monitoring-screens.md) per ulteriori dettagli.
+  Per ulteriori informazioni, vedere [Risoluzione dei problemi relativi a Centro controllo dispositivi](monitoring-screens.md).
 
-* **Attivazione del timeout per consentire l&#39;interazione con la tastiera**
+* **Timeout abilitato per consentire l&#39;interazione con la tastiera**
 
   Abilitare i dispositivi di controllo remoto come alternativa al touch panel. Il tocco per interagire e il timeout dell’attività gestiscono l’input della tastiera.
 
 * **Configurazioni offline in Frammenti esperienza**
 
   È ora possibile aggiungere configurazioni offline (librerie lato client e file statici) durante la configurazione di Frammento esperienza Screens.
-Consulta [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md) per ulteriori dettagli.
+Per ulteriori dettagli, vedi [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md).
 
 ### Lettori AEM Screens rilasciati
 
@@ -57,4 +57,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.4.6 Feature Pack 
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [**Download di AEM Screens Player**](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi [**Download del lettore AEM Screens**](https://download.macromedia.com/screens/).

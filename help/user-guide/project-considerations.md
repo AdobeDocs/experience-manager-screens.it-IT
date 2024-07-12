@@ -48,7 +48,7 @@ I/O favoriscono la riproduzione condizionale dei contenuti in base alla rilevazi
 
 ### Tipi di risorse di contenuto {#content-asset-types}
 
-Per comprendere meglio le intenzioni dei clienti finali in merito alle risorse di contenuto, considera i seguenti punti:
+Per comprendere meglio le intenzioni dei clienti finali in merito a Content Assets, considera i seguenti punti:
 
 * Indica se i contenuti vengono ridestinati dalle campagne di stampa, TV o Web.
 * Se il contenuto è costituito da immagini statiche o modelli che incorporano componenti con feed dinamico?
@@ -61,7 +61,7 @@ Per comprendere meglio le intenzioni dei clienti finali in merito alle risorse d
 
 ### Segmentazione del pubblico, componenti per giorno {#audience-segmentation-day-parts}
 
-L’inserimento di strategie basate su componenti Day-Part può consentire ai clienti finali di segmentare i propri contenuti. Può aiutare a indirizzare i messaggi al pubblico giusto al momento giusto. Questa funzionalità è particolarmente utile nelle reti pubblicitarie o retail, in cui molti autori di contenuti comprendono l&#39;intera playlist.
+L’inserimento di strategie basate su componenti Day-Part può consentire ai clienti finali di segmentare i propri contenuti. Può aiutare a indirizzare i messaggi al pubblico giusto al momento giusto. Questa funzionalità è particolarmente utile per le reti Advertising o Retail, in cui molti autori di contenuti includono l’intera playlist.
 
 ### Requisiti delle operazioni aziendali {#business-operations-requirements}
 
@@ -83,10 +83,10 @@ Segui l’esercitazione seguente per scoprire la strategia dei contenuti, i live
 
 >[!VIDEO](https://video.tv.adobe.com/v/28380)
 
-*Scopri la strategia dei contenuti, i livelli di I/O, i tipi di risorse e la segmentazione del pubblico. Leggi informazioni sulle parti giornaliere, sui requisiti delle operazioni aziendali e sulle considerazioni relative alla predisposizione del sito.*
+*Scopri la strategia dei contenuti, i livelli di I/O, i tipi di risorse e la segmentazione del pubblico. Leggi informazioni sulle parti giornaliere, sui requisiti delle operazioni aziendali e sulle considerazioni relative alla preparazione del sito.*
 
 ## Passaggio successivo {#the-next-step}
 
 Comprendi gli elementi identificati durante l’individuazione del progetto, insieme ai contributi delle parti interessate per valutare il progetto e preparare una progettazione appropriata. Scopri i termini chiave di un piano di progetto complessivo. Tali termini includono il ciclo del progetto, le azioni relative ai test hardware, Proof of Concept, i piloti e i rollout.
 
-Accedi a **[Test, POC, pilota e rollout](testing-pocs-pilots-rollouts.md)** per ulteriori dettagli.
+Per ulteriori dettagli, vai a **[Test, POC, Programmi pilota e rollout](testing-pocs-pilots-rollouts.md)**.

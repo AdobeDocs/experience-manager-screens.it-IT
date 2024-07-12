@@ -26,10 +26,10 @@ Questo argomento fornisce le risposte alle domande frequenti più frequenti rela
 * Verifica se l’anteprima del canale funziona.
 * Verifica se l’anteprima del display funziona
 * Prova a registrare il lettore come estensione del browser sul sistema per lo stesso schermo e verifica se funziona.
-* Con il lettore in esecuzione sul sistema, vai a `http://localhost:24502`. Verifica se tutto il contenuto è scaricato correttamente.
+* Con il lettore in esecuzione sul sistema, passa a `http://localhost:24502`. Verifica se tutto il contenuto è scaricato correttamente.
 * Controlla le risorse in modo da poter creare le rappresentazioni appropriate e riprodurre quella corretta.
 * Controlla la presenza di eventuali contenuti pianificati e se gli orari sono corretti. Verificare che l&#39;ora impostata nel lettore sia corretta.
-* Inspect registra la console del lettore e verifica la presenza di errori. Fai clic con il pulsante destro del mouse e controlla per visualizzare i registri della console. Se si utilizza Windows Player, premere `CTRL + ALT +I` per visualizzare dev console e i relativi registri.
+* Inspect registra la console del lettore e verifica la presenza di errori. Fai clic con il pulsante destro del mouse e controlla per visualizzare i registri della console. Se si utilizza Windows Player, premere `CTRL + ALT +I` per visualizzare la console di sviluppo e i registri.
 
 ### 2. Come risolvere il problema della schermata grigia in AEM Screens creando un canale o una pianificazione predefiniti?
 
@@ -41,11 +41,11 @@ Tutti gli altri contenuti, ad esempio i canali o le pianificazioni, hanno priori
 
 ### 1. Qual è la differenza tra un canale online e uno offline? {#what-is-the-difference-between-an-online-and-an-offline-channel}
 
-Un ***Canale online*** mostra il contenuto aggiornato nell’ambiente in tempo reale, mentre un’ ***Canale offline*** mostra il contenuto della cache.
+Un ***canale online*** mostra il contenuto aggiornato nell&#39;ambiente in tempo reale, mentre un ***canale offline*** mostra il contenuto nella cache.
 
 ### 2. Come si crea un canale online? {#how-do-i-make-a-channel-online}
 
-Fai clic sul canale e accedi alle proprietà del canale dalla barra delle azioni. Verifica **Modalità sviluppatore (forza canale online)** in **Canale** per rendere il canale online.
+Fai clic sul canale e accedi alle proprietà del canale dalla barra delle azioni. Seleziona **Modalità sviluppatore (forza canale online)** nella scheda **Canale** per rendere il canale online.
 
 ### 3. Qual è l’utilizzo del campo Ruolo canale? {#what-is-the-use-of-the-channel-role-field}
 
@@ -66,14 +66,14 @@ E così via, fino a raggiungere la cartella posizioni. Fermarsi qui al momento (
 
 ### 5. Come impostare la configurazione offline personalizzata clientlib nel canale AEM Screens?
 
-Quando si utilizza un codice lato client personalizzato generato `clientlib` in un canale AEM Screens, sono necessari i seguenti passaggi. I passaggi garantiscono che `clientlib` i file sono stati caricati correttamente nel canale (`manifest.json`) e contiene il percorso del `clientlib`.
+Quando si utilizza un codice personalizzato generato lato client `clientlib` in un canale AEM Screens, sono necessari i passaggi seguenti. I passaggi garantiscono che i file `clientlib` siano caricati correttamente nel canale (`manifest.json`) e contengano il percorso di `clientlib`.
 
 Segui i passaggi seguenti dall’editor canali:
 
-1. Fai clic su un canale, quindi fai clic su **Modifica** dalla barra delle azioni.
-1. Fai clic sul componente in cui desideri aggiungere il componente personalizzato `clientlib`.
+1. Fai clic su un canale, quindi fai clic su **Modifica** nella barra delle azioni.
+1. Fare clic sul componente in cui si desidera aggiungere `clientlib` personalizzato.
 1. Fai clic sul pulsante Configura (icona a forma di chiave inglese).
-1. Accedi a **Configurazione offline** e aggiungere il percorso alla libreria client personalizzata in **Librerie lato client**.
+1. Passa alla scheda **Configurazione offline** e aggiungi il percorso alla libreria client personalizzata in **Librerie lato client**.
 
 ## Registrazione dispositivo {#device-registration}
 
@@ -107,52 +107,52 @@ Cerca le seguenti possibilità per risolvere il problema della schermata vuota:
 
 Abilita il filtro Apache Sling Referrer Allow Empty. Necessario per il funzionamento ottimale del protocollo di controllo tra AEM Screens Player e il server AEM Screens.
 
-1. Accedi a **Configurazione console Web Adobe Experience Manager**
-1. Controlla la **allow.empty** opzione.
+1. Passa a **Configurazione console Web Adobe Experience Manager**
+1. Controlla l&#39;opzione **allow.empty**.
 1. Fai clic su **Salva**.
 
 ### 3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens, il dispositivo mostra FAILURE e i registri della console mostrano un errore ENAME_NOT_FOUND?
 
-Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l’IP del server, utilizza: *arp &lt;server_dns_name>*.
+Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l&#39;IP del server, utilizzare: *arp &lt;nome_server_dns>*.
 
 ### 4. AMS consiglia di implementare un watchdog Android™ su tutti i dispositivi? Il plug-in Watchdog (Cordova) è incluso nell’APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
-Un watchdog Android™ multipiattaforma che utilizza API Android™ pure fa già parte dell’apk. Non sono necessari software aggiuntivi. Tuttavia, a seconda del dispositivo utilizzato, è possibile rassegnare l&#39;apk per ottenere i privilegi di sistema per un ciclo di alimentazione completo (`Powermanager` api), se necessario. Se non viene rassegnato utilizzando i tasti del produttore, l&#39;applicazione viene chiusa e riavviata, ma non viene eseguita l&#39;accensione.
+Un watchdog multipiattaforma Android™ che utilizza API Android™ pure fa già parte dell’apk. Non sono necessari software aggiuntivi. Tuttavia, a seconda del dispositivo utilizzato, è possibile rassegnare l&#39;apk per ottenere i privilegi di sistema per un ciclo di alimentazione completo (`Powermanager` api), se necessario. Se non viene rassegnato utilizzando i tasti del produttore, l&#39;applicazione viene chiusa e riavviata, ma non viene eseguita l&#39;accensione.
 
-Per ulteriori informazioni su come implementare Android™ Player, consulta [**Implementazione di Android™ Player**](implementing-android-player.md).
+Per ulteriori informazioni su come implementare Android™ Player, vedere [**Implementazione di Android™ Player**](implementing-android-player.md).
 
 ### 5. Quali strumenti di monitoraggio e avviso remoti (software) di terze parti consiglia Adobe/AMS per il monitoraggio di ciascun dispositivo? {#what-third-party-remote-monitoring-and-alerting-tools-software-does-adobe-ams-recommend-for-monitoring-each-device}
 
 A seconda delle esigenze di monitoraggio e degli avvisi, una nuova funzione del servizio AEM Screens Notifications notifica all’utente se un dispositivo non effettua il ping da un po’. Gli strumenti di terze parti dipendono dal sistema operativo in uso, dalle sue funzionalità e dalle esigenze specifiche del cliente.
 
-Per ulteriori informazioni su dove è possibile monitorare l&#39;attività dei dispositivi, vedere [**Servizio di notifica di Scree NS per AEM**](screens-notifications-service.md).
+Per ulteriori informazioni su dove è possibile monitorare l&#39;attività del dispositivo, vedere [**Servizio notifiche di schermata AEM**](screens-notifications-service.md).
 
 ## Lettore AEM Screens
 
-### 1. Come installare il lettore ChromeOS come plugin del browser Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
+### 1. Come installare il lettore ChromeOS come plug-in del browser Chrome? {#how-to-install-chromeos-player-as-chrome-browser-plugin}
 
 Il lettore ChromeOS può essere installato come plug-in del browser Chrome in modalità sviluppatore senza richiedere un dispositivo Chrome Player effettivo. Per l&#39;installazione, procedere come segue:
 
-1. Clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
+1. Fai clic [qui](https://download.macromedia.com/screens/) per scaricare il lettore Chrome più recente.
 1. Decomprimi e salva su disco.
 1. Apri il browser Chrome e fai clic su **Estensioni** dal menu o passa direttamente a ***chrome://extensions***.
-1. Accendere il **Modalità sviluppatore** dall&#39;angolo in alto a destra.
-1. Clic **Carica decompresso** dall’angolo in alto a sinistra e carica Chrome Player decompresso.
-1. Se disponibile nell&#39;elenco delle estensioni, seleziona **AEM Screens Chrome Player** plugin.
-1. Apri una nuova scheda e fai clic su **App** dall&#39;angolo in alto a sinistra, oppure passare direttamente a ***chrome://apps***.
-1. Fai clic su **AEM Screens** Plugin. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premi **Esc** per uscire dalla modalità a tutto schermo.
+1. Attiva la **modalità sviluppatore** dall&#39;angolo superiore destro.
+1. Fai clic su **Carica decompresso** dall&#39;angolo in alto a sinistra e carica Chrome Player decompresso.
+1. Se disponibile nell&#39;elenco delle estensioni, controllare il plug-in **AEM Screens Chrome Player**.
+1. Apri una nuova scheda e fai clic sull&#39;icona **App** in alto a sinistra oppure passa direttamente a ***chrome://apps***.
+1. Fare clic sul plug-in **AEM Screens**. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **Esc** per uscire dalla modalità a schermo intero.
 
-### 2. Come risolvere il problema se Screens Player non è in grado di eseguire l’autenticazione tramite un’istanza di pubblicazione con un gestore degli errori personalizzato?
+### 2. Come risolvere i problemi se Screens Player non è in grado di eseguire l’autenticazione tramite un’istanza di pubblicazione con un gestore degli errori personalizzato?
 
-All’avvio di AEM Screens Player, viene inviata una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per eseguire l’autenticazione nell’istanza di pubblicazione. Se nell’istanza di pubblicazione è presente un gestore degli errori personalizzato, assicurati di restituire il codice di stato 404 per un utente anonimo su ***/content/screens/svc.ping.json***.
+All&#39;avvio, AEM Screens Player invia una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per eseguire l’autenticazione nell’istanza di pubblicazione. Se nell&#39;istanza di pubblicazione è presente un gestore degli errori personalizzato, assicurarsi di restituire il codice di stato 404 per un utente anonimo in ***/content/screens/svc.ping.json***.
 
-### 3. Come impostare lo schermo del dispositivo rimanere su in un lettore Android™? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
+### 3. Come si imposta la visualizzazione del dispositivo in un lettore Android™? {#how-to-set-the-device-screen-stay-on-in-an-android-player}
 
 Segui i passaggi seguenti per attivare Stay Awake in su qualsiasi lettore Android™:
 
-1. Passa a Impostazioni lettore Android™ > **Informazioni su**.
-1. Tocca sette volte il numero di build per abilitare **Opzioni sviluppatore** in **Impostazioni**.
-1. Accedi a **Opzioni sviluppatore**.
+1. Passa a Impostazioni lettore Android™ > **Informazioni**.
+1. Tocca sette volte il numero di build in modo da poter abilitare **Opzioni sviluppatore** in **Impostazioni**.
+1. Passa a **Opzioni sviluppatore**.
 1. Abilita **Rimani sveglio**.
 
 ### 4. Come attivare la modalità finestra per Windows Player?{#enable-player}
@@ -163,15 +163,15 @@ In Windows Player non è disponibile alcuna modalità finestra. È sempre in mod
 
 Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Screens che invia continuamente richieste a `/content/screens/svc.json` e `/libs/granite/core/content/login.validate/j_security_check`:
 
-1. All’avvio di AEM Screens Player, quest’ultimo richiede a `/content/screens/svc.json`. Quando il lettore ottiene un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` contro *pubblicare* dell&#39;istanza. Se è presente un gestore degli errori personalizzato in *pubblicare* , assicurati di restituire il codice di stato 404 per l’utente anonimo il `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
+1. All&#39;avvio, AEM Screens Player invia una richiesta a `/content/screens/svc.json`. Quando il lettore ottiene un codice di stato 404 nella risposta, avvia una richiesta di autenticazione utilizzando `/libs/granite/core/content/login.validate/j_security_check` rispetto all&#39;istanza *publish*. Se nell&#39;istanza *publish* è presente un gestore degli errori personalizzato, assicurarsi di restituire il codice di stato 404 per l&#39;utente anonimo in `/content/screens/svc.json` o `/content/screens/svc.ping.json`.
 
-1. Verifica se la configurazione del Dispatcher consente tali richieste nel `/filters`.
+1. Verificare che la configurazione del Dispatcher consenta queste richieste in `/filters`.
 
-   Consulta [Configurazione dei filtri di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters) per ulteriori dettagli.
+   Per ulteriori dettagli, vedere [Configurazione dei filtri di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
 
-1. Verifica se le regole di riscrittura del Dispatcher stanno riscrivendo uno qualsiasi dei percorsi dello schermo in un percorso diverso.
+1. Verifica se le regole di riscrittura di Dispatcher stanno riscrivendo uno qualsiasi dei percorsi dello schermo in un percorso diverso.
 
-1. Controlla se hai `/etc/map` le regole relative alla *autore* o *pubblicare* i percorsi dell’istanza e degli schermi corrispondono a `sling:match` e reindirizzato internamente a un percorso diverso. Risoluzione dell’URL esatto in `/system/console/jcrresolver` aiuta a identificare se *pubblicare* L’istanza sta riscrivendo questi URL in qualsiasi altro percorso.
+1. Controlla se ci sono `/etc/map` regole nell&#39;istanza *author* o *publish* e i percorsi delle schermate corrispondono a `sling:match` e vengono reindirizzati internamente a un percorso diverso. La risoluzione dell&#39;URL esatto in `/system/console/jcrresolver` consente di identificare se l&#39;istanza *publish* sta riscrivendo questi URL in qualsiasi altro percorso.
 
 1. Verifica se la configurazione di Apache Sling Resource Resolver Factory sta causando riscritture interne.
 
@@ -179,8 +179,8 @@ Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Scr
 
 È possibile ottenere i dettagli del display e del dispositivo tramite:
 
-* **un’API JS interna**
-* **un archivio ContextHub**: in sono definiti tre store ContextHub `/libs/screens/clientlibs/contexthub` per esporre canali, dispositivi e, visualizza informazioni.
+* **un&#39;API JS interna**
+* **un archivio ContextHub**: in `/libs/screens/clientlibs/contexthub` sono definiti tre archivi ContextHub per esporre canali, dispositivi e informazioni di visualizzazione.
 
   Per utilizzare questi valori dell’archivio ContentHub, segui i passaggi seguenti:
 
@@ -195,7 +195,7 @@ Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Scr
 
 ## Suggerimenti generali per la risoluzione dei problemi {#general-troubleshooting-tips}
 
-### 1. Come disabilitare Livefyre per evitare errori di schermate A/P?
+### 1. Come si disabilita Livefyre per evitare l’errore A/P Screens?
 
 Disattiva Livefyre per evitare errori di registro, effettuando le seguenti operazioni.
 
@@ -203,45 +203,45 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 
    * Accedi a `https://<host>:<port>/system/console/bundles`.
    * Cerca il bundle AEM Livefyre: `com.adobe.cq.social.cq-social-livefyre`.
-   * Clic **Interrompi**.
+   * Fare clic su **Interrompi**.
 
 1. ***Disabilita poller Livefyre:***
 
-   * In CRXDE Liti, passa a `/etc/importers/polling/livefyre-poller/jcr:content`.
-   * Aggiungi una proprietà *abilitato* tipo *Booleano*.
-   * Imposta **Enabled, proprietà** essere **false**.
+   * In CRXDE Lite, passa a `/etc/importers/polling/livefyre-poller/jcr:content`.
+   * Aggiungi una proprietà *enabled* di tipo *Boolean*.
+   * Impostare **Proprietà abilitata** su **false**.
 
-### 2. Come aggiungere le informazioni dell’indice Oak? {#add-oak-index-info}
+### 2. Come si aggiungono le informazioni dell’indice Oak? {#add-oak-index-info}
 
 AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.
-Se sono presenti *Avvisi di attraversamento query* nel `error.log`, crea un indice personalizzato per la query. Consulta [Configurazione degli indici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes) per ulteriori dettagli.
+Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
-È inoltre possibile visualizzare una risorsa aggiuntiva in [Documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
+È inoltre possibile visualizzare una risorsa aggiuntiva nella [documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
 
 ### 3. Cosa è necessario per configurare i manifesti v3? {#configure-v3}
 
 Per abilitare il manifesto v3, effettuare le seguenti operazioni:
 
-* Aggiorna Dispatcher.
-Consulta [Configurazione di Dispatcher per la versione v3 del manifesto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3) per ulteriori dettagli.
+* Aggiornare Dispatcher.
+Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
 * Aggiorna componente personalizzato.
-Consulta [Modello per gestori personalizzati](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers) per ulteriori dettagli.
+Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
-* Disattiva ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
+* Disabilita ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
-* Abilita SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
+* Abilitare SmartSync in `/system/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl`.
 
 * Modifica `channel/experience fragment/page components`.
 
-* Accedi a **Configurazione offline** scheda.
+* Passa alla scheda **Configurazione offline**.
 
-* Invio `clientlibs `cartelle e per i file statici che devono essere aggiunti al manifesto.
+* Immettere `clientlibs ` e le cartelle per i file statici che devono essere aggiunti al manifesto.
 
 ### 4. Cosa devi fare se, dopo il pacchetto screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e i bundle di base screens sono installati ma non attivi?
 
-Installa una versione minima del Feature Pack 8 di AEM 6.5 affinché il connettore AMS funzioni. Consulta [Disponibilità](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) in modo da ottenere la versione minima del Feature Pack di AEM Screens.
+Installa una versione minima del Feature Pack 8 di AEM 6.5 affinché il connettore AMS funzioni. Consulta [Disponibilità](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) per ottenere la versione minima del Feature Pack di AEM Screens.
 
 ### 5. Come configurare il servizio CQ Link Externalizer in Screens?
 
@@ -249,6 +249,6 @@ Il servizio viene utilizzato per definire il nome host pubblico per le istanze d
 
 Il servizio CQ Link Externalizer in Screens può essere configurato nel modo seguente:
 
-1. Accedi a `http://localhost:4502/system/console/configMgr`
+1. Passa a `http://localhost:4502/system/console/configMgr`
 1. Day CQ Link Externalizer
-1. Modifica il nome host per `author/publish` voci in base alle esigenze
+1. Modifica il nome host per le voci `author/publish` in base alle esigenze

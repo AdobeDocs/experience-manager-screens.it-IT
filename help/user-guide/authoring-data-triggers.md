@@ -22,7 +22,7 @@ Questa sezione illustra come abilitare il targeting nei canali.
 
 ## Prerequisiti {#prereqs}
 
-Prima di seguire i passaggi seguenti per abilitare il targeting nei canali, scopri [Termini chiave nella configurazione in AEM Screens](configuring-context-hub.md) necessario per comprendere ContextHub e Targeting in AEM Screens.
+Prima di seguire i passaggi seguenti per abilitare il targeting nei canali, scopri i [Termini chiave nella configurazione in AEM Screens](configuring-context-hub.md) necessari per comprendere ContextHub e il targeting in AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Prima di seguire i passaggi seguenti per abilitare il targeting nei canali, scop
 
 Per ulteriori informazioni, segui i collegamenti riportati di seguito:
 
-1. **[Configurazione dell’archivio dati](configuring-context-hub.md)**
+1. **[Configurazione dell&#39;archivio dati](configuring-context-hub.md)**
 1. **[Impostazione della segmentazione del pubblico](configuring-context-hub.md)**
 
 Una volta completati i passaggi precedenti, sei pronto per abilitare il targeting nei tuoi canali.
@@ -43,17 +43,17 @@ Una volta completati i passaggi precedenti, sei pronto per abilitare il targetin
 
 Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
 
-1. Passa a uno dei canali di AEM Screens. I passaggi seguenti mostrano come abilitare il targeting utilizzando **DataDrivenRetail** *(canale sequenza)* creato in un canale AEM Screens.
+1. Passa a uno dei canali di AEM Screens. Nei passaggi seguenti viene illustrato come abilitare il targeting utilizzando **DataDrivenRetail** *(canale sequenza)* creato in un canale AEM Screens.
 
-1. Fai clic sul canale **DataDrivenRetail** e fai clic su **Proprietà** dalla barra delle azioni.
+1. Fai clic sul canale **DataDrivenRetail** e fai clic su **Proprietà** nella barra delle azioni.
 
-   ![screen_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
+   ![schermata_shot_2019-05-01at43332pm](assets/screen_shot_2019-05-01at43332pm.png)
 
-1. Fai clic su **Personalizzazione** in modo da poter impostare le configurazioni ContextHub e fare clic sul percorso ContextHub e Segmenti.
+1. Fai clic sulla scheda **Personalization** per configurare le configurazioni ContextHub e fare clic sul percorso ContextHub e Segments.
 
-   1. Fai clic su **Percorso ContextHub** as **libs** > **impostazioni** > **impostazioni cloud** > **predefinito** > **Configurazioni ContextHub** e fai clic su **Clic**.
+   1. Fai clic sul percorso **ContextHub** come **libs** > **settings** > **cloudsettings** > **default** > **Configurazioni ContextHub** e fai clic su **Click**.
 
-   1. Fai clic su **Percorso segmenti** as **conf** > **`We.Retail`** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Clic**.
+   1. Fai clic su **Percorso segmenti** come **conf** > **`We.Retail`** > **impostazioni** > **wcm** > **segmenti** e fai clic su **Fai clic**.
 
    1. Fai clic su **Salva e chiudi**.
 
@@ -61,24 +61,24 @@ Segui i passaggi seguenti per abilitare il targeting nei tuoi canali.
    >
    >Utilizza ContextHub e il percorso Segmenti, dove hai inizialmente salvato le configurazioni e i segmenti dell’hub di contesto.
 
-   ![screen_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
+   ![schermata_shot_2019-05-01at44030pm](assets/screen_shot_2019-05-01at44030pm.png)
 
-1. Naviga e fai clic su **DataDrivenRetail** da **DataDrivenAssets** > **Canali** e fai clic su **Modifica** dalla barra delle azioni. Trascina e rilascia le risorse nell’editor canali.
+1. Passa a **DataDrivenRetail** da **DataDrivenAssets** > **Canali** e fai clic su **Modifica** nella barra delle azioni. Trascina e rilascia le risorse nell’editor canali.
 
    >[!NOTE]
    >
-   >Se tutto è stato configurato correttamente, viene visualizzata la **Targeting** nell’elenco a discesa dall’editor, come illustrato nella figura riportata di seguito.
+   >Se hai impostato tutto correttamente, puoi visualizzare l&#39;opzione **Targeting** nell&#39;elenco a discesa dall&#39;editor, come illustrato nella figura seguente.
 
-   ![screen_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
+   ![schermata_shot_2019-05-01at44231pm](assets/screen_shot_2019-05-01at44231pm.png)
 
-1. Clic **Targeting**.
+1. Fare clic su **Targeting**.
 
-1. Clic **Marchio** e **Attività** dal menu a discesa e fai clic su **Inizia impostazione destinazione**.
+1. Fai clic su **Marchio** e **Attività** dal menu a discesa, quindi fai clic su **Inizia impostazione destinazione**.
 
 ### Ulteriori informazioni: casi di utilizzo di esempio {#learn-more-example-use-cases}
 
 Dopo aver configurato ContextHub per il progetto AEM Screens, puoi seguire i diversi casi d’uso per comprendere in che modo le risorse attivate dai dati svolgono un ruolo fondamentale in diversi settori:
 
-1. **[Attivazione con targeting magazzino vendita al dettaglio](retail-inventory-activation.md)**
+1. **[Attivazione con targeting inventario vendita al dettaglio](retail-inventory-activation.md)**
 1. **[Attivazione temperatura centro di viaggio](local-temperature-activation.md)**
 1. **[Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)**

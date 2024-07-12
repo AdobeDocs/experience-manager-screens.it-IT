@@ -50,7 +50,7 @@ Si consiglia di tenere presenti le seguenti considerazioni sul software:
 
 AEM Screens include un modulo Device Control Center che consente la gestione degli endpoint dell’applicazione di riproduzione Screens.
 
-Si riferisce a qualsiasi *player* dispositivo hardware su cui è installata l’applicazione di riproduzione Screens e che è registrato in un’istanza di AEM.
+Si riferisce a qualsiasi dispositivo hardware *player* su cui è installata l&#39;applicazione del lettore Screens e che è registrato in un&#39;istanza dell&#39;AEM.
 Questo modulo consente di:
 
 1. Registri di errore dell’applicazione del lettore di monitor
@@ -58,7 +58,7 @@ Questo modulo consente di:
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Centro controllo dispositivi***, vedi [Risoluzione dei problemi di Device Control Center](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) in **Guida utente di AEM Screens**.
+Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
 
 >[!CAUTION]
 >
@@ -74,11 +74,11 @@ Per informazioni dettagliate su ***Centro controllo dispositivi***, vedi [Risolu
 >
 > L’Adobe consiglia di utilizzare piattaforme di gestione dei dispositivi di terze parti dedicate per tutte le distribuzioni.
 
-La piattaforma specifica scelta dipende da diversi fattori, tra cui ***sistema operativo di destinazione***, ***requisiti del progetto***, e ***numero di punti finali***.
+La piattaforma specifica scelta dipende da diversi fattori, tra cui ***sistema operativo di destinazione***, ***requisiti progetto*** e ***numero di endpoint***.
 
 Di seguito sono riportati alcuni esempi:
 
-* Gestione dei dispositivi Google Chrome
+* Gestione dispositivi Chrome Google
 * TeamViewer
 * AirWatch
 * `42Gears`

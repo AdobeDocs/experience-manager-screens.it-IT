@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Rapporto assegnazione contenuti {#content-assignment-report}
 
-La funzione Content Assignment Report (Report assegnazione contenuti) consente a un amministratore di AEM Screens o a un autore di esportare un *Rapporto assegnazione contenuti* in un foglio di calcolo.
+La funzionalità Report assegnazione contenuto consente a un amministratore AEM Screens o a un autore di esportare un *Report assegnazione contenuto* in un formato foglio di calcolo.
 
 ## Utilizzo del rapporto di assegnazione dei contenuti {#using-content-assignment-report}
 
 Il rapporto sull’assegnazione dei contenuti consente all’autore o all’amministratore di AEM Screens di scaricare un rapporto contenente tutte le risorse, come immagini e video, in tutti i canali creati in un progetto AEM Screens. Inoltre, include le informazioni sugli interi canali assegnati a tutti i display designati e, d&#39;ora in avanti, su tutti i dispositivi assegnati ai loro display designati.
 
-Il rapporto Assegnazione contenuto non solo consente di visualizzare in anteprima tutti i canali, le risorse, le visualizzazioni e i dispositivi nel progetto AEM Screens selezionato, ma fornisce anche una struttura di alto livello del progetto.
+Il rapporto sull’assegnazione dei contenuti non solo consente di visualizzare in anteprima tutti i canali, Assets, display e dispositivi nel progetto AEM Screens selezionato, ma fornisce anche una struttura di alto livello del progetto.
 
 
 ### Prerequisiti {#pre-reqs}
@@ -47,17 +47,17 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione 
 
 1. Passa al progetto AEM Screens e fai clic sul progetto **DemoScreens**.
 
-1. Clic **Rapporto assegnazione contenuti** dalla barra delle azioni.
+1. Fare clic su **Report assegnazione contenuto** nella barra delle azioni.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/can-download.png)
 
-1. Il foglio di calcolo scaricato è costituito da due schede, ad esempio **Posizioni** e **Contenuto**. Nella scheda Posizione vengono visualizzate quattro colonne, ad esempio **Posizioni**, **Display**, **Canali**, e **Dispositivi** che può essere utilizzato per esaminare queste quattro entità relative al progetto AEM Screens.
+1. Il foglio di calcolo scaricato è costituito da due schede, ad esempio **Percorsi** e **Contenuto**. Nella scheda Posizione vengono visualizzate quattro colonne, ad esempio **Percorsi**, **Visualizzazioni**, **Canali** e **Dispositivi**, che possono essere utilizzate per analizzare queste quattro entità relative al progetto AEM Screens.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet1.png)
 
    >[!NOTE]
    >I dati visualizzati nel foglio di calcolo sono ordinati alfabeticamente in un formato di facile lettura.
 
-1. Selezione di uno dei canali dalla **Canali** apre la colonna **Contenuto** scheda. A sua volta, naviga direttamente in quel canale e ti fornisce informazioni sulle risorse (immagini e video) associate a quel canale specifico.
+1. Selezionando uno dei canali dalla colonna **Canali** si apre la scheda **Contenuto**. A sua volta, naviga direttamente in quel canale e ti fornisce informazioni sulle risorse (immagini e video) associate a quel canale specifico.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet2.png)

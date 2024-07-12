@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
+>L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
 
 L’AEM Screens ha rilasciato AEM 6.4.2 Feature Pack 2 e AEM 6.3.3 Feature Pack 4 con i seguenti dettagli.
 
@@ -30,16 +30,16 @@ La data di rilascio del Feature Pack 201809 per AEM Screens è il 1° ottobre 20
 
 ### Novità {#what-s-new}
 
-* **Generazione di rapporti per bozza di riproduzione Adobe Analytics**: vedi [Integrazione di Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md) per ulteriori informazioni.
+* **Reporting Adobe Analytics Proof of Play**: per ulteriori informazioni, consulta [Integrazione di Adobe Analytics con AEM Screens](adobe-analytics-integration-aem-screens.md).
 
-* **Adobe Analytics - Abilita i lettori alla memorizzazione in cache e all&#39;invio `playback` eventi ad Adobe Analytics**: vedi [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md) per ulteriori informazioni.
+* **Adobe Analytics abilita i lettori a memorizzare nella cache e inviare `playback` eventi ad Adobe Analytics**: per ulteriori informazioni, consulta [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md).
 
-* **Aggiornamento in blocco del contenuto offline**: consente di aggiornare tutti i canali in blocco ed evita il fastidio di navigare su un canale particolare e di aggiornare il contenuto. Consulta [Aggiornamento offline in blocco](bulk-offline-update.md) per ulteriori informazioni.
+* **Aggiorna contenuto offline in blocco**: consente di aggiornare tutti i canali in blocco ed evita il problema di passare a un canale specifico e di aggiornare il contenuto. Per ulteriori informazioni, consulta [Aggiornamento offline in blocco](bulk-offline-update.md).
 
-* **Pubblicare i canali in blocco in tutte le istanze di pubblicazione**
-* **Meccanismo di registrazione avanzato del lettore**: puoi specificare il numero massimo di file di registro per un lettore AEM Screens. Consulta [Utilizzo di un lettore AEM Screens](working-with-screens-player.md) per ulteriori dettagli.
+* **Canali Publish in blocco per tutte le istanze di pubblicazione**
+* **Meccanismo avanzato di registrazione lettore**: è possibile specificare il numero massimo di file di registro per un lettore AEM Screens. Per ulteriori dettagli, vedi [Utilizzo di un lettore AEM Screens](working-with-screens-player.md).
 
-* **Distribuzione authoring/pubblicazione (protezione avanzata)**
+* **Distribuzione di Author/Publish (protezione avanzata)**
 
 ### Lettori AEM Screens rilasciati
 
@@ -52,4 +52,4 @@ Sono stati rilasciati i seguenti lettori AEM Screens per AEM 6.4.2 Feature Pack 
 
 #### Download di AEM Screens Player
 
-Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, consulta [Download di AEM Screens Player](https://download.macromedia.com/screens/).
+Per scaricare il lettore AEM Screens più recente e ulteriori informazioni sulle correzioni di bug, vedi [Download del lettore AEM Screens](https://download.macromedia.com/screens/).

@@ -21,12 +21,12 @@ Questa funzione consente di definire la durata di riproduzione dell’immagine a
 Prima di utilizzare questa funzione, imposta un progetto come prerequisito per iniziare a implementarla. Ad esempio:
 
 1. Crea un progetto AEM Screens (in questo esempio, **RiproduzioneLivelloProgetto**).
-1. Crea un canale di sequenza come **PlayBackChannel** sotto **Canali** cartella.
+1. Crea un canale di sequenza come **PlayBackChannel** nella cartella **Channels**.
 1. Aggiungi contenuto a **PlayBackChannel**.
 
    ![risorse](assets/image_playback1.png)
 
-   Ad esempio, l’immagine seguente mostra le immagini aggiunte al **PlayBackChannel** editor:
+   Ad esempio, nell&#39;immagine seguente sono illustrate le immagini aggiunte all&#39;editor **PlayBackChannel**:
 
    ![risorse](assets/image_playback2.png)
 
@@ -39,28 +39,28 @@ La sezione seguente spiega come modificare la durata di riproduzione del contenu
 
 >[!NOTE]
 >
->Se desideri aggiornare la durata di riproduzione di un’immagine o a livello di canale, consulta [Durata riproduzione immagine a livello di canale](channel-level-image-playback.md).
+>Se desideri aggiornare la durata di riproduzione di un&#39;immagine o a livello di canale, consulta [Durata di riproduzione immagine a livello di canale](channel-level-image-playback.md).
 
 Per informazioni su come aggiornare la durata di riproduzione delle immagini a livello di progetto, effettua le seguenti operazioni:
 
-1. Passare al progetto **RiproduzioneLivelloProgetto** e fai clic su **Proprietà** dalla barra delle azioni.
+1. Passa al progetto **RiproduzioneLivelloProgetto** e fai clic su **Proprietà** nella barra delle azioni.
    ![risorse](assets/image_playback3.png)
 
 1. Fare clic su tutte le immagini del canale e fare clic sull&#39;icona chiave inglese in alto a sinistra (come illustrato nella figura riportata di seguito) per aprire la finestra di dialogo Configurazione a livello di canale.
 
-   ![screen_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
+   ![schermata_shot_2019-06-25at95945am](assets/screen_shot_2019-06-25at95945am.png)
 
-1. Il **Pagina** viene visualizzata.
+1. Viene visualizzata la finestra di dialogo **Pagina**.
 
    >[!NOTE]
    >
    >Per impostazione predefinita, le immagini in un canale sono impostate su una durata di riproduzione di 8 secondi e i video vengono riprodotti alla durata predefinita.
 
-   ![screen_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
+   ![schermata_shot_2019-06-25at100343am](assets/screen_shot_2019-06-25at100343am.png)
 
-   Modifica il **Durata** da 8000 (millisecondi) a 3000 (millisecondi), ovvero 3 secondi. Seleziona il segno di spunta in alto a destra del **Pagina** in modo da salvare le modifiche.
+   Modifica la **Durata** da 8000 (millisecondi) a 3000 (millisecondi), ovvero 3 secondi. Seleziona il segno di spunta in alto a destra nella finestra di dialogo **Pagina** per salvare le modifiche.
 
-   ![screen_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
+   ![schermata_shot_2019-06-25at101527am](assets/screen_shot_2019-06-25at101527am.png)
 
 ### Visualizzazione del risultato {#viewing-the-result}
 
