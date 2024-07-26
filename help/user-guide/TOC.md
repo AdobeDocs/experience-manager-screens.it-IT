@@ -8,9 +8,9 @@ user-guide-description: Scopri come utilizzare una soluzione Digital Signage per
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 1bd79ed3a0a610efb12f9ff1030a33978ccccf1e
+source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 11%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 11%
    + [Guida di Kickstart](kickstart-for-aem-screens.md)
    + [Guida alle best practice per Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/using/about-guide)
    + [Termini chiave](screens-glossary.md)
+   + [Terminologia e concetti di Screens](screens-concepts-feature-video-understand.md)
 + Nozioni di base sulla rete di digital signage {#digital-signage-network}
    + [Parte 1: Ruoli e responsabilità del progetto](project-roles-responsibilities.md)
    + [Parte 2: Considerazioni relative all’ambito dei progetti](project-considerations.md)
