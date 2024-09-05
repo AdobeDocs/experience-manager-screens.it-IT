@@ -2,9 +2,9 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in
 L&#39;integratore audio-video è il fornitore hardware-partner. È la parte che si occupa della progettazione e della preparazione dei siti di vendita al dettaglio, inclusa l&#39;acquisizione, la configurazione e l&#39;installazione dell&#39;hardware. In genere si tratta di una terza parte con contratto che ha accesso a un centro operativo di rete (NOC, Network Operations Center). Spesso Audio-Video Integrator è il proprietario del progetto a causa del suo continuo coinvolgimento dopo il lancio.
 
 Un integratore audio-video è responsabile dell&#39;esecuzione dell&#39;individuazione con i clienti finali per definire i requisiti, determinare l&#39;ambito del progetto per la progettazione, la creazione e la gestione efficace delle installazioni relative all&#39;hardware di digital signage.
+
+>[!NOTE]
+>
+> È necessario disporre di un integratore audio video come parte della distribuzione di AEM Screens.
 
 #### Considerazione dei partner hardware {#selecting-hardware-partner}
 
@@ -158,7 +162,7 @@ Nella tabella seguente viene riepilogato il **giorno uno: Implementazione del pr
 | Pianificazione di onboarding per la vendita al dettaglio | I | I | C | RA |
 | Test di accettazione utente per staging | I | C | RA |   |
 | Configurazione hardware in blocco | RA | I | C | I |
-| Accordo sul supporto per Post Launch | RA | C | RA | C |
+| Contratto per supporto post-lancio | RA | C | RA | C |
 
 La tabella seguente riepiloga il **giorno uno: giorno uno: implementazione del progetto (hardware)**:
 
@@ -173,7 +177,7 @@ La tabella seguente riepiloga il **giorno uno: giorno uno: implementazione del p
 
 >[!NOTE]
 >
->I ruoli cambiano durante il secondo giorno (supporto di Post Launch).
+>I ruoli cambiano durante il secondo giorno (supporto post-lancio).
 
 * **Autore**: gestione dei contenuti + strategia
 
@@ -181,11 +185,11 @@ La tabella seguente riepiloga il **giorno uno: giorno uno: implementazione del p
 
 * **Tecnico**: contratto dell&#39;integratore audio-video o parte della stessa società.
 
-La tabella seguente riepiloga il **secondo giorno: Grafico RACI supporto di Post Launch**:
+La tabella seguente riepiloga il **secondo giorno: Grafico RACI supporto post-lancio**:
 
 | **Fase** | **Autore** | **Sviluppatore** | **Tecnico** |
 |---|---|---|---|
-| *Secondo Giorno: Supporto Di Post-Launch* |
+| *Secondo Giorno: Supporto Post-Lancio* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
 | Supporto livello 1 | I | I | RA |
 | Supporto di livello 2 | I | C | RA |
