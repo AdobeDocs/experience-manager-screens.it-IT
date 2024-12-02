@@ -1,6 +1,6 @@
 ---
-title: "Parte 5: Considerazioni di supporto"
-description: Scopri come risolvere i problemi di hardware, software e connettività. Esplora le stime dei costi e i framework per il supporto on-site. Inoltre, scopri come vengono gestiti i parametri SLA, i budget operativi e gli handoff NOC.
+title: 'Parte 5: Considerazioni di supporto'
+description: Scopri come risolvere i problemi di hardware, software e connettività. Esplora le stime dei costi e i framework per il supporto on-site. Inoltre, scopri come vengono gestiti i parametri di SLA, i budget operativi e gli handoff NOC.
 contentOwner: jsyal
 content-type: reference
 topic-tags: digital-signage-networks-basics
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Parte 5: Considerazioni di supporto {#part-support-considerations}
 
-In questa pagina viene illustrata la parte conclusiva di una serie in 5 parti progettata per aiutare i membri del team a comprendere come vengono risolti i problemi di hardware, software e connettività. Questa fase analizza le stime dei costi e i framework per il supporto in loco. Spiega inoltre come vengono gestiti i parametri SLA, i budget operativi e gli handoff NOC.
+In questa pagina viene illustrata la parte conclusiva di una serie in 5 parti progettata per aiutare i membri del team a comprendere come vengono risolti i problemi di hardware, software e connettività. Questa fase analizza le stime dei costi e i framework per il supporto in loco. Inoltre, spiega come vengono gestiti i parametri di SLA, i budget operativi e gli handoff NOC.
 
 ## Panoramica {#overview}
 

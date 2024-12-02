@@ -1,5 +1,5 @@
 ---
-title: "Parte 4: Gestione e realizzazione del progetto"
+title: 'Parte 4: Gestione e realizzazione del progetto'
 description: Scopri la gestione del progetto e la preparazione della distribuzione (preproduzione del progetto, avvio del progetto, progressione del progetto) per AEM Screens.
 contentOwner: jsyal
 content-type: reference
@@ -72,7 +72,7 @@ Quando un’opportunità di vendita passa a un progetto, viene pianificata una r
 
 L&#39;ultima parte di un&#39;iniziativa Day One è quella di completare un handoff NOC. Se un progetto completato include un servizio di assistenza e supporto del giorno due, il Project Manager organizza una riunione Handoff NOC con i supervisori di tali team.
 
-L&#39;incontro è composto principalmente da rappresentanti di Audio-Video Integrator provenienti da Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, dell&#39;implementatore AEM e del cliente finale sono coinvolti in tandem, con l&#39;integratore audio-video che definisce pianificazione, cadenza e tollgate. I project manager sono in genere i migliori per coordinare le discussioni al fine di garantire l&#39;allineamento delle parti appropriate e lo sviluppo della documentazione necessaria per la riunione Handoff NOC. La documentazione di supporto critica proviene probabilmente da tecnici IT e/o audio-video, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
+L&#39;incontro è composto principalmente da rappresentanti di Audio-Video Integrator provenienti da Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, dell&#39;implementazione AEM e del cliente finale sono coinvolti in tandem, con l&#39;integratore audio-video che definisce la pianificazione, la cadenza e i tollgate. I project manager sono in genere i migliori per coordinare le discussioni al fine di garantire l&#39;allineamento delle parti appropriate e lo sviluppo della documentazione necessaria per la riunione Handoff NOC. La documentazione di supporto critica proviene probabilmente da tecnici IT e/o audio-video, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
 
 ## Parte 4: tutorial video su gestione e distribuzione dei progetti {#part-video-tutorial-on-project-management-and-deployment}
 

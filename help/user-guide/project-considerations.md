@@ -1,5 +1,5 @@
 ---
-title: "Parte 2: Considerazioni relative all’ambito dei progetti"
+title: 'Parte 2: Considerazioni relative all’ambito dei progetti'
 description: Scopri la strategia dei contenuti, i livelli di I/O, i tipi di risorse e la segmentazione del pubblico in AEM Screens. Leggi informazioni sulle parti giornaliere, sui requisiti delle operazioni aziendali e sulle considerazioni relative alla predisposizione del sito.
 contentOwner: jsyal
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: "Parte 3: Prove, POC, Programmi pilota e rollout"
+title: 'Parte 3: Test, POC, Piloti e rollout'
 description: Scopri i termini chiave coinvolti in un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la bozza di concetto, i progetti pilota e i rollout.
 contentOwner: jsyal
 content-type: reference

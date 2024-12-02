@@ -1,5 +1,5 @@
 ---
-title: "Parte 1: Ruoli e responsabilità del progetto"
+title: 'Parte 1: Ruoli e responsabilità del progetto'
 description: In questo tutorial, scopri i ruoli, le responsabilità e le tempistiche necessari durante i cicli di vendita e di vita dei progetti di digital signage.
 feature: Overview
 role: User, Data Architect
@@ -18,7 +18,7 @@ Questa pagina evidenzia la parte 1 di una serie in 5 parti. È stato progettato 
 
 ## Panoramica {#overview}
 
-Il seguente tutorial illustra ruoli e responsabilità di progetto, ad Adobe Implementatori AEM e Integratori audio/visivi ad alto livello. Puoi passare agli episodi successivi per ottenere una panoramica completa su come sviluppare correttamente le opportunità AEM Screens e posizionare le distribuzioni per il successo a lungo termine.
+Il seguente tutorial illustra i ruoli e le responsabilità di progetto ad alto livello per Adobe, gli implementatori AEM e gli integratori audio/visivi. Puoi passare agli episodi successivi per ottenere una panoramica completa su come sviluppare correttamente le opportunità AEM Screens e posizionare le distribuzioni per il successo a lungo termine.
 
 Esistono tre gruppi principali coinvolti nel processo di consegna all’interno dei seguenti:
 
@@ -36,7 +36,7 @@ La definizione dei parametri dei casi d&#39;uso delle applicazioni in collaboraz
 
 ### Adobe {#adobe}
 
-L’Adobe include risorse Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
+Adobe include risorse di Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto di Adobe.
 
 #### Implementatori AEM {#aem-implementors}
 
@@ -58,7 +58,7 @@ Segui il tutorial seguente per capire esattamente in che modo ogni parte influis
 
 >[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Scopri i ruoli e le responsabilità di Adobe, Integratori audio/video e Implementatori AEM.*
+*Scopri i ruoli e le responsabilità di Adobe, degli integratori audio/visivi e degli implementatori AEM.*
 
 ## Passaggio successivo {#the-next-step}
 
