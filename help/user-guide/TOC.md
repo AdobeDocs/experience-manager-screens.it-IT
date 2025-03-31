@@ -8,9 +8,9 @@ user-guide-description: Scopri come utilizzare una soluzione Digital Signage per
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
+source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '550'
 ht-degree: 11%
 
 ---
@@ -119,6 +119,9 @@ ht-degree: 11%
    + [Risoluzione dei problemi di Device Control Center](monitoring-screens.md)
    + [Configurazione riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
+   + [Note sulla versione per Feature Pack 20250327](release-notes-fp-20250327.md)
+   + [Note sulla versione per Feature Pack 20250224](release-notes-fp-20250224.md)
+   + [Note sulla versione per Feature Pack 20240715](release-notes-fp-20240715.md)
    + [Note sulla versione per Feature Pack 202401](release-notes-fp-20250215.md)
    + [Note sulla versione per Feature Pack 202401](release-notes-fp-202401.md)
    + [Note sulla versione per Feature Pack 20240116](release-notes-fp-20240116.md)

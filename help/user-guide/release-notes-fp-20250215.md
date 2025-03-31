@@ -4,7 +4,7 @@ description: Ulteriori informazioni sull’20250327 AEM Screens Feature Pack ril
 feature: Feature Pack
 role: Developer
 level: Intermediate
-source-git-commit: 206140ca131ccf4149c91e793eae9447f748549d
+source-git-commit: 320925ccf25872be6b70b1249bebdd63ad062ec6
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%
@@ -42,4 +42,3 @@ La data di rilascio del Feature Pack 20250327 per AEM Screens è il 27 marzo 202
 * Conflitto di pacchetti con Service Pack 21 e Screens Feature Pack. (SCRNS-4638)
 
 * Screens Dashboard non funziona. (SCRNS-4749)
-
