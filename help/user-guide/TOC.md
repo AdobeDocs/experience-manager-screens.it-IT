@@ -8,9 +8,9 @@ user-guide-description: Scopri come utilizzare una soluzione Digital Signage per
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 25a89400d2def07026c79cfedcd6418750c1de7d
+source-git-commit: c040c88c70ad6519f05edc3fc35628b61894e391
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '532'
 ht-degree: 11%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 11%
    + [Elenco di controllo della sicurezza di AEM Screens](security-checklist.md)
    + [Transizione da ContentSync a SmartSync](smartsync.md)
    + [Nuova importazione progetti da file](project-importer.md)
-   + [Replica di Data Triggers su server Publish](replicating-data-triggers.md)
+   + [Replica di Data Triggers su server di pubblicazione](replicating-data-triggers.md)
    + [Configurazione degli agenti di replica in Screens](configure-screens-replication.md)
    + Considerazioni specifiche per il client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
@@ -51,8 +51,8 @@ ht-degree: 11%
       + [Lettore cloud](implementing-cloud-player.md)
       + [Registrazione automatica dei lettori](auto-registration-players.md)
       + [Uso del telecomando](implementing-remote-control.md)
-   + Autore Publish {#author-publish}
-      + [Panoramica dell’architettura di Author-Publish](author-publish-architecture-overview.md)
+   + Pubblicazione autore {#author-publish}
+      + [Panoramica dell’architettura Author-Publish](author-publish-architecture-overview.md)
       + [Configurazione di Author e Publish](author-and-publish.md)
    + Integrazione di Analytics con AEM Screens {#analytics-integration}
       + [Integrazione di Adobe Analytics](adobe-analytics-integration-aem-screens.md)
@@ -109,7 +109,7 @@ ht-degree: 11%
    + [Canali offline](offline-channels.md)
    + [Estensione di un componente AEM Screens](extending-component-tutorial-develop.md)
    + [Creazione di componenti](creating-components.md)
-   + [Incorporazione di un’applicazione REACT tramite l’Editor SPA dell’AEM e Integrazione con AEM Screens Analytics](embedding-react-app.md)
+   + [Incorporazione di un’applicazione REACT tramite AEM SPA Editor e Integrazione con AEM Screens Analytics](embedding-react-app.md)
    + [Configurazione di ContextHub in AEM Screens](configuring-context-hub.md)
    + [Creazione di modelli personalizzati per i layout multizona](creating-custom-templates-multizone-layouts.md)
    + [Applicazione di branding e stile personalizzati per le sovrapposizioni di testo](custom-branding-text-overlays.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Risoluzione dei problemi di Device Control Center](monitoring-screens.md)
    + [Configurazione riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
+   + [Note sulla versione per Feature Pack 202401](release-notes-fp-20250215.md)
    + [Note sulla versione per Feature Pack 202401](release-notes-fp-202401.md)
    + [Note sulla versione per Feature Pack 20240116](release-notes-fp-20240116.md)
    + [Note sulla versione per Feature Pack 20240215](release-notes-fp-20240215.md)
