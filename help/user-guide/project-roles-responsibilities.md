@@ -56,7 +56,7 @@ Segui il tutorial seguente per capire esattamente in che modo ogni parte influis
 
 ### Parte 1: Ruoli e responsabilità del progetto
 
->[!VIDEO](https://video.tv.adobe.com/v/28375)
+>[!VIDEO](https://video.tv.adobe.com/v/36985?captions=ita)
 
 *Scopri i ruoli e le responsabilità di Adobe, degli integratori audio/visivi e degli implementatori AEM.*
 
