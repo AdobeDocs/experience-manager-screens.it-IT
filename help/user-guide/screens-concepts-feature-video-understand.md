@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Per seguire insieme ai video, è necessario quanto segue:
 
-1. **AEM 6.4** o **AEM 6.3*+ **Screens Feature Pack 1**
+1. **AEM 6.4** o **AEM 6.3*+ &#x200B;** Screens Feature Pack 1**
 
 1. A Lettore Screens
 

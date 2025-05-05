@@ -17,7 +17,7 @@ Questa sezione fornisce consigli sui principali elementi chiave fondamentali per
 
 ## Elementi chiave nel digital signage {#key-elements}
 
-Gli elementi chiave *1} in un progetto di digital signage sono:*
+Gli elementi chiave *1&rbrace; in un progetto di digital signage sono:*
 
 ![](/help/assets/Elements-Revised.png)
 

@@ -175,6 +175,7 @@ Dopo aver impostato una posizione e uno schermo, attenersi alla procedura riport
 
    1. Se il titolo corrisponde al token del dispositivo, fare clic sul dispositivo e quindi su **Registra dispositivo** nella barra delle azioni.
    1. Se il codice di registrazione corrisponde al codice della scheda Registrazione dispositivo **del lettore Screens**, fare clic su **Convalida** nella barra delle azioni.
+
       ![immagine](/help/user-guide/assets/multi-zone/multizone-img6.png)
    1. Immetti **Titolo** come **`Chrome-Device1`** e fai clic su **Registra**.
    1. Fare clic su **Assegna visualizzazione** e quindi sul percorso della configurazione del dispositivo.

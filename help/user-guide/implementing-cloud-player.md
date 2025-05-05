@@ -44,14 +44,14 @@ L’installazione di Cloud Player può variare su piattaforme diverse. In genera
 >
 >### Opzione di installazione di Cloud Player {#cloud-player-install-option}
 >
-1. L’opzione di installazione per un PWA è nota anche come &quot;Aggiungi alla schermata iniziale&quot; o funzione A2HS. Il supporto per l’installazione di PWA dal web varia in base al browser e alla piattaforma.
-1. Ogni browser ha criteri diversi per verificare se l’app PWA è installabile o meno. In genere, il browser può verificare (ulteriori dettagli qui):
+>1. L’opzione di installazione per un PWA è nota anche come &quot;Aggiungi alla schermata iniziale&quot; o funzione A2HS. Il supporto per l’installazione di PWA dal web varia in base al browser e alla piattaforma.
+>1. Ogni browser ha criteri diversi per verificare se l’app PWA è installabile o meno. In genere, il browser può verificare (ulteriori dettagli qui):
 >
-* Se l’applicazione dispone di un file json manifesto con chiavi minime richieste per l’installazione dell’app sulla piattaforma, ovvero nome, icone, start_url, visualizzazione
-* Se l&#39;applicazione dispone di un file di service worker con un listener di eventi di recupero
-* L’app deve essere servita tramite https
+>* Se l’applicazione dispone di un file json manifesto con chiavi minime richieste per l’installazione dell’app sulla piattaforma, ovvero nome, icone, start_url, visualizzazione
+>* Se l&#39;applicazione dispone di un file di service worker con un listener di eventi di recupero
+>* L’app deve essere servita tramite https
 >
-1. L’opzione di installazione potrebbe essere visibile in posizioni diverse in browser e tipi di dispositivi diversi. Alcuni browser potrebbero nascondere l’icona Installa nella barra dei menu delle opzioni.
+>1. L’opzione di installazione potrebbe essere visibile in posizioni diverse in browser e tipi di dispositivi diversi. Alcuni browser potrebbero nascondere l’icona Installa nella barra dei menu delle opzioni.
 
 ## Provisioning di massa di Cloud Player {#bulk-provisioning}
 
@@ -80,15 +80,15 @@ In base al tipo di istanza dell’AEM, fai clic su una delle seguenti guide per 
 
 >[!NOTE]
 >
-## App Chrome obsolete da Google
+>## App Chrome obsolete da Google
 >
-1. App Chrome su hardware Chrome OS:
+>1. App Chrome su hardware Chrome OS:
 >
-Google ha attivamente dichiarato obsolete le app Chrome a favore delle app PWA, con una migrazione pianificata fino a gennaio 2025. Pertanto, l’app AEM Screens Player sul sistema operativo Chrome cessa di funzionare in base alla timeline condivisa. L’Adobe esorta gli utenti che attualmente utilizzano Chrome Player in produzione a pianificare la transizione a Screens Cloud Player.
+>Google ha attivamente dichiarato obsolete le app Chrome a favore delle app PWA, con una migrazione pianificata fino a gennaio 2025. Pertanto, l’app AEM Screens Player sul sistema operativo Chrome cessa di funzionare in base alla timeline condivisa. L’Adobe esorta gli utenti che attualmente utilizzano Chrome Player in produzione a pianificare la transizione a Screens Cloud Player.
 >
-1. Chrome Extension Player su Mac, Windows e Linux®:
+>1. Chrome Extension Player su Mac, Windows e Linux®:
 >
-A causa del processo di rimozione di Google, a partire dalla versione 114 di Google Chrome, Screens Chrome Extension Player non è più supportato. L’Adobe consiglia di passare al rispettivo Screens Cloud Player per tutti i requisiti di sviluppo e test.
+>A causa del processo di rimozione di Google, a partire dalla versione 114 di Google Chrome, Screens Chrome Extension Player non è più supportato. L’Adobe consiglia di passare al rispettivo Screens Cloud Player per tutti i requisiti di sviluppo e test.
 
 ## Supporto offline per il recupero di contenuti esterni {#offline-support}
 

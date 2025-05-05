@@ -173,6 +173,7 @@ La convalida seguente è quella visualizzata quando si controlla la connessione 
       ![immagine](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Fai clic sul segmento `**Higherthan50**` e fai clic su **Proprietà** nella barra delle azioni.
+
       ![immagine](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Fai clic sulla scheda **Personalization** dalle **Proprietà segmento**. Imposta **Percorso ContextHub** su `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Percorso segmenti** su `/conf/screens/settings/wcm/segments` e fai clic su **Salva**, come illustrato nella figura seguente.

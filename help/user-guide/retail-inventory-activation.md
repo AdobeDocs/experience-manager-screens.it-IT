@@ -85,7 +85,7 @@ Per implementare il caso d’uso di Retail Inventory Activation, effettua le seg
 
    >[!CAUTION]
    >
-   >Dovresti aver già configurato le **Configurazioni** ContextHub **** utilizzando la scheda **Proprietà** > **Personalization** del canale.
+   >Dovresti aver già configurato le **Configurazioni** ContextHub **&#x200B;**&#x200B;utilizzando la scheda **Proprietà** > **Personalization** del canale.
 
    ![schermata_shot_2019-05-06at105214am](assets/screen_shot_2019-05-06at105214am.png)
 
