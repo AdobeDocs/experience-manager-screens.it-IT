@@ -31,4 +31,4 @@ I principali risultati ottenuti in questa fase includono:
 >
 >Identifica quanto prima i dati necessari per l’applicazione e da dove provengono. Un’esplorazione più approfondita avviene durante l’implementazione. Tuttavia, assicurati di prendere tempo durante *Giorno zero* per scoprire quali dati il client intende utilizzare. Scopri dove sono attualmente memorizzati i dati e come l’applicazione in fase di generazione può accedervi. Notificare al team di sviluppo prima che si verifichino problemi consente di facilitare l’implementazione.
 
-Guarda il video [Considerazioni sull&#39;ambito dei progetti](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Guarda il video [Considerazioni sull&#39;ambito dei progetti](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

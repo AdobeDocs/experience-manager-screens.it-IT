@@ -94,7 +94,7 @@ La sezione seguente descrive l’utilizzo di valori provenienti da un archivio d
 
 Configura le configurazioni ContextHub per il progetto AEM Screens.
 
-Per informazioni su come impostare e gestire le modifiche delle risorse basate sui dati utilizzando un archivio dati, consulta [Configurazione di ContextHub in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Per informazioni su come impostare e gestire le modifiche delle risorse basate sui dati utilizzando un archivio dati, consulta [Configurazione di ContextHub in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Dopo aver impostato le configurazioni richieste per il progetto, segui i passaggi seguenti per utilizzare i valori dei fogli di Google:
 
