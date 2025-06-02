@@ -67,15 +67,15 @@ Per eseguire il provisioning in blocco del lettore cloud su più dispositivi:
 
 ## Provisioning in blocco su Chrome OS {#bulk-provisioning-chrome}
 
-Ulteriori informazioni sul provisioning in blocco nel sistema operativo Chrome. Consulta [Installare Cloud Player su Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_en` -->
+Ulteriori informazioni sul provisioning in blocco nel sistema operativo Chrome. Consulta [Installare Cloud Player su Chrome OS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/chromeos-install-cloud-player). <!-- `https://www.adobe.com/go/aem_screens_cloud_player_it` -->
 
 ## Configurazione richiesta per le istanze AEM {#bulk-provisioning-config-aem}
 
 In base al tipo di istanza di AEM, fai clic su una delle seguenti guide per abilitare CORS b/w AEM e Cloud Player:
 
-* [AEM locale/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_en` -->
+* [AEM locale/AMS](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-onpremandams) <!-- `https://www.adobe.com/go/aem_screens_cors_ams_it` -->
 
-* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_en` -->
+* [AEM Cloud Service](https://main--screens-franklin-documentation--hlxscreens.hlx.live/updates/cloud-player/guides/cors-settings-aem-cs) <!-- `https://www.adobe.com/go/aem_screens_cors_aemaacs_it` -->
 
 
 >[!NOTE]
