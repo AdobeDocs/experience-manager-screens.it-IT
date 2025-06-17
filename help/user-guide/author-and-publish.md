@@ -54,7 +54,7 @@ Per creare agenti di replica, scopri come creare un agente di replica standard.
 
 Per Screens sono necessari tre agenti di replica:
 
-1. **Agente di replica predefinito ***(specificato come*** Agente di replica standard**)
+1. **Agente di replica predefinito &#x200B;***(specificato come&#x200B;*** Agente di replica standard**)
 1. **Agente di replica di Screens**
 1. **Agente replica inversa**
 
@@ -159,14 +159,14 @@ Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi cr
 >[!NOTE]
 >
 >La password deve iniziare e terminare con parentesi graffe. Ad esempio:
->>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Passaggio 4: attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
 Su ogni istanza di pubblicazione:
 
 1. Passa a Gestione configurazione OSGi `https://<host>:<port>/system/console/configMgr`
-1. Fai clic sulla configurazione del provider JMS Apache ActiveMQ Artemis ****
+1. Fai clic sulla configurazione del provider JMS Apache ActiveMQ Artemis **&#x200B;**
 1. Aggiorna quanto segue:
 
    * ***Password cluster***: utilizza un valore crittografato del passaggio precedente per la rispettiva istanza

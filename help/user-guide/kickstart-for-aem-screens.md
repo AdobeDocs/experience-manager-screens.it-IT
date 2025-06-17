@@ -28,8 +28,8 @@ Segui i passaggi seguenti per creare un progetto di esempio per AEM Screens e pu
 
 >[!IMPORTANT]
 >**Impostazioni configurazione OSGi**
->>È necessario abilitare il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Referrer `Apache Sling` Consenti vuoto è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
->>Segui i passaggi seguenti per abilitare il filtro di riferimento Sling ***Apache Consenti vuoto***:
+>&#x200B;>È necessario abilitare il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Referrer `Apache Sling` Consenti vuoto è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
+>&#x200B;>Segui i passaggi seguenti per abilitare il filtro di riferimento Sling ***Apache Consenti vuoto***:
 
 
 ## Consenti richieste referrer vuote {#allow-empty-referrer-requests}

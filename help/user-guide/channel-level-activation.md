@@ -146,8 +146,8 @@ Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:5
 >[!NOTE]
 >
 >Per informazioni su AEM Screen Player, consulta le risorse seguenti:
->>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
->>[Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>&#x200B;>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
+>&#x200B;>[Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per Assets in un canale {#handling-recurrence-in-assets}

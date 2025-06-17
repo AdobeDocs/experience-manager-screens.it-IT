@@ -39,7 +39,7 @@ Utilizza i tag creati su Display e lettori.
 >[!NOTE]
 >
 > A uno schermo o a un lettore possono essere assegnati fino a un massimo di 30 tag.
-> > È possibile taggare un massimo di 30 elementi contemporaneamente.
+> &#x200B;> È possibile taggare un massimo di 30 elementi contemporaneamente.
 
 ## Filtra per tag {#filter-by-tags}
 

@@ -101,7 +101,7 @@ Per importare un file in una cartella di percorso contenente i campi obbligatori
 
    ![schermata_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Fare clic sul progetto,** DemoProjectImporter **>** Crea **>** posizioni di importazione** dalla barra laterale.
+1. Fare clic sul progetto,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Crea &#x200B;**>**&#x200B; posizioni di importazione** dalla barra laterale.
 
    ![schermata_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

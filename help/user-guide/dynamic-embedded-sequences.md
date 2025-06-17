@@ -53,7 +53,7 @@ L’esempio seguente fornisce una soluzione concentrandosi sui seguenti termini 
 
 * un ***canale sequenza principale*** per la sequenza globale.
 * ***componenti di sequenza incorporata dinamica*** per ogni parte della sequenza personalizzabile localmente.
-* ***singoli canali di sequenza*** nelle rispettive posizioni con un *ruolo* nella visualizzazione corrispondente al *ruolo*** del componente sequenza incorporato dinamico **.
+* ***singoli canali di sequenza*** nelle rispettive posizioni con un *ruolo* nella visualizzazione corrispondente al *ruolo&#x200B;*** del componente sequenza incorporato dinamico &#x200B;**.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Prima di iniziare a implementare questa funzionalità, accertati di disporre dei
 
 * Crea un progetto AEM Screens (in questo esempio, **Demo**).
 * Crea un canale **Global** nella cartella **Channels**.
-* Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**per le risorse rilevanti*).
+* Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**&#x200B;per le risorse rilevanti*).
 
 L&#39;immagine seguente mostra il progetto **Demo** con il canale **Global** nella cartella **Channels**.
 ![schermata_shot_2018-09-07alle21032pm](assets/screen_shot_2018-09-07at21032pm.png)
