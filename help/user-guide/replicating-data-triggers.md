@@ -1,20 +1,20 @@
 ---
-title: Replica dei trigger di dati sui server Publish
+title: Replica dei trigger di dati sui server di pubblicazione
 description: Scopri come replicare i trigger di dati sul server di pubblicazione per AEM Screens.
 feature: Administering Screens, Data Trigger
 role: Developer
 level: Intermediate
 exl-id: 6f90b864-eaa0-4b74-a47e-b0967a550552
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
 
-# Replica di Data Triggers su server Publish {#replicating-data-triggers}
+# Replica di Data Triggers su server di pubblicazione {#replicating-data-triggers}
 
-Quando si utilizzano ContextHub e il motore di targeting dell’AEM per personalizzare il contenuto in base ai trigger di dati in una configurazione di authoring/pubblicazione, tutte le configurazioni relative a ContextHub e Personalization non vengono replicate automaticamente con i canali quando vengono pubblicate.
+Quando si utilizzano ContextHub e il motore di targeting AEM per personalizzare il contenuto in base ai trigger di dati in una configurazione di authoring/pubblicazione, tutte le configurazioni relative a ContextHub e Personalization non vengono replicate automaticamente con i canali quando vengono pubblicate.
 
 Questa pagina ti aiuta a scoprire i passaggi manuali necessari per pubblicare separatamente queste configurazioni.
 
@@ -24,13 +24,13 @@ Questo processo si riduce essenzialmente alla pubblicazione manuale dei seguenti
 1. Pubblico Personalization
 1. Attività Personalization
 
-## Passaggi per la replica di Data Triggers su Publish Server {#replicating-data-triggers-publish}
+## Passaggi per replicare Data Triggers su Publish Server {#replicating-data-triggers-publish}
 
 Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblicazione.
 
 ### Passaggio 1: replica delle configurazioni ContextHub {#replicating-contexthub-configurations}
 
-1. Passa a **Strumenti** > **Distribuzione** > **Distribuzione** > **Publish Agent** e fai clic sull&#39;agente di pubblicazione per configurare le impostazioni.
+1. Passa a **Strumenti** > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione** e fai clic sull&#39;agente di pubblicazione per configurare le impostazioni.
 
    ![immagine1](/help/user-guide/assets/replicating-triggers/replicating-triggers1.png)
 
@@ -52,7 +52,7 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 ### Replica dei tipi di pubblico {#replicating-audiences}
 
-1. Passa alla tua istanza AEM > **Personalization** > **Tipi di pubblico** oppure utilizza `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
+1. Passa alla tua istanza di AEM > **Personalization** > **Tipi di pubblico** oppure utilizza `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html` per navigare direttamente.
 
 1. Espandere la cartella del progetto, ad esempio `/conf/screens/`.
 
@@ -62,11 +62,11 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 1. Fai clic su **Gestisci pubblicazione** nella barra delle azioni.
 
-1. Fai clic su **Avanti** e **Publish**.
+1. Fai clic su **Avanti** e **Pubblica**.
 
 ### Replica delle attività {#replicating-activities}
 
-1. Passa alla tua istanza AEM > **Personalization** > **Attività** oppure utilizza `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
+1. Passa alla tua istanza di AEM > **Personalization** > **Attività** oppure utilizza `http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities.html` per navigare direttamente.
 
 1. Espandere la cartella del progetto, ovvero `/content/campaigns/screens/…`.
 
@@ -74,7 +74,7 @@ Segui i passaggi seguenti per replicare i trigger di dati sul server di pubblica
 
 1. Fai clic su **Gestisci pubblicazione** nella barra delle azioni.
 
-1. Fai clic su **Avanti** e **Publish**.
+1. Fai clic su **Avanti** e **Pubblica**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ Se la replica ha esito positivo, è necessario visualizzare la seguente struttur
 
 Se la connessione di prova non riesce durante la replica delle configurazioni ContextHub, segui la sezione seguente per la risoluzione del problema:
 
-1. Passa a **Strumenti** > **Distribuzione** > **Distribuzione** > **Agente Publish**.
+1. Passa a **Strumenti** > **Distribuzione** > **Distribuzione** > **Agente di pubblicazione**.
 
 1. Fare clic su **Modifica** nella barra delle azioni e verificare che anche l&#39;URL dell&#39;endpoint nel campo **Endpoint importazione** punti punti punti rimandi all&#39;URL del server di pubblicazione nell&#39;agente di distribuzione.
    ![immagine1](/help/user-guide/assets/replicating-triggers/replicating-triggers9.png)
@@ -102,7 +102,7 @@ Se la connessione di prova non riesce durante la replica delle configurazioni Co
    Effettua le seguenti operazioni:
 
    1. Passa a Strumenti > **Operazioni** > **Console Web** `http://localhost:4502/system/console/configMgr`per aprire la **schermata Console Web Adobe Experience Manager**.
-   1. Cerca **Credenziali trasporto distribuzione Apache Sling - Credenziali utente basate su DistributionTransportSecretProvider**
+   1. Cerca **`Apache Sling Distribution Transport Credentials - User Credentials based DistributionTransportSecretProvider`**
 
       ![immagine1](/help/user-guide/assets/replicating-triggers/replicating-triggers6.png)
 

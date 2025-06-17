@@ -1,5 +1,5 @@
 ---
-title: Aggiornamento dei contenuti con Screens Launch
+title: Aggiornamenti dei contenuti con Screens Launch
 description: Scopri come creare una versione futura dei canali, nota come Launch, e come impostare una data di pubblicazione del lancio in modo che il contenuto venga reso live su dispositivi o lettori.
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -10,14 +10,14 @@ feature: Authoring Screens, Launches
 role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
 
-# Aggiornamento dei contenuti con Screens Launch {#launches}
+# Aggiornamenti dei contenuti con Screens Launch {#launches}
 
 Gli autori dei contenuti possono creare una versione futura dei canali e impostare ulteriormente la data di pubblicazione di questo lancio. Questa funzionalità consente di riprodurre il contenuto in tempo reale su dispositivi o lettori alla data di pubblicazione specificata.
 
@@ -58,7 +58,7 @@ Ad esempio, il server è in PST e i dispositivi sono in EST. La differenza massi
 
 Pertanto, 3 ore e 56 minuti (14160 secondi).
 
-Pertanto, ogni volta che pianifichi un lancio in diretta, la promozione inizia presto tenendo conto di questo offset. Nell&#39;equazione precedente, la maggior parte degli elementi non richiede molto tempo. È possibile utilizzare una stima ragionata per questo scostamento quando si conosce la differenza di tempo massima tra il server e qualsiasi lettore.
+Pertanto, ogni volta che pianifichi un lancio in diretta, la promozione inizia presto tenendo conto di questo offset. Nell&#39;equazione precedente, la maggior parte degli elementi non richiede molto tempo. È possibile utilizzare una stima corretta per questo offset quando si conosce la differenza di tempo massima tra il server e qualsiasi lettore.
 
 >[!NOTE]
 >

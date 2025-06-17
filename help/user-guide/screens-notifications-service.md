@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
 
 1. Definisci i campi seguenti per configurare le impostazioni per l’e-mail:
 
-   **Percorso dispositivi** Immettere il percorso dei progetti Screens che si desidera monitorare. Il percorso è in genere `/home/users/screens/<Name of your project>`.
+   **Percorso dispositivi** - Immettere il percorso dei progetti Screens che si desidera monitorare. Il percorso è in genere `/home/users/screens/<Name of your project>`.
 
    Ad esempio, se il progetto è **`We.Retail`**, utilizza il percorso del progetto come ***/home/users/screens/we-retail***.
 
@@ -71,7 +71,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
 
    **Usa TLS** - TLS (Transport Layer Security) consente di utilizzare una comunicazione protetta con il server SMTP.
 
-   L&#39;Adobe consiglia di utilizzare TLS per la connessione sicura ai server di posta aziendali. Rivolgersi all&#39;amministratore della posta per ottenere i valori appropriati.
+   Adobe consiglia di utilizzare TLS per la connessione sicura ai server di posta aziendali. Rivolgersi all&#39;amministratore della posta per ottenere i valori appropriati.
 
    **nomeutente** - Specificare il nome utente per l&#39;invio di e-mail.
 

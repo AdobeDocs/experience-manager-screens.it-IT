@@ -5,9 +5,9 @@ feature: Overview, Digital Signage
 role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -28,13 +28,13 @@ Segui i passaggi seguenti per creare un progetto di esempio per AEM Screens e pu
 
 >[!IMPORTANT]
 >**Impostazioni configurazione OSGi**
->È necessario abilitare il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot. Attualmente alcune di queste funzioni sono disponibili solo se nella configurazione OSGi è abilitato Apache Sling Referrer Filter Allow Empty. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
->Segui i passaggi seguenti per abilitare il filtro di riferimento Sling ***Apache Consenti vuoto***:
+>>È necessario abilitare il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Referrer `Apache Sling` Consenti vuoto è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
+>>Segui i passaggi seguenti per abilitare il filtro di riferimento Sling ***Apache Consenti vuoto***:
 
 
 ## Consenti richieste referrer vuote {#allow-empty-referrer-requests}
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite istanza AEM > icona martello > **Operazioni** > **Console Web**.
+1. Passa a **Configurazione console Web Adobe Experience Manager** tramite l&#39;istanza AEM > icona martello > **Operazioni** > **Console Web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
@@ -180,7 +180,7 @@ Al termine della configurazione del progetto, assegna il canale a una visualizza
 
 ### Registrazione di un dispositivo e assegnazione del dispositivo a una visualizzazione {#registering-device}
 
-Registra il dispositivo utilizzando il dashboard AEM.
+Registra il dispositivo utilizzando la dashboard di AEM.
 
 >[!IMPORTANT]
 >Chrome OS Player può essere installato come plug-in del browser Chrome in modalità sviluppatore senza richiedere un dispositivo Chrome Player effettivo. Per l&#39;installazione, procedere come segue:
@@ -196,7 +196,7 @@ Registra il dispositivo utilizzando il dashboard AEM.
 
 Dopo aver acceso il lettore Chrome OS, attenersi alla procedura seguente per registrare un dispositivo Chrome.
 
-1. Passa alla cartella **Dispositivi** del progetto dalla tua istanza AEM.
+1. Passa alla cartella **Dispositivi** del progetto dalla tua istanza di AEM.
 
 1. Fare clic su **Gestione dispositivi** nella barra delle azioni.
 

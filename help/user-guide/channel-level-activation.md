@@ -6,7 +6,7 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 0%
@@ -145,9 +145,9 @@ Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:5
 
 >[!NOTE]
 >
->Per informazioni sul lettore di schermo dell’AEM, consulta le seguenti risorse:
->[Download di AEM Screens Player](https://download.macromedia.com/screens/)
->[Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>Per informazioni su AEM Screen Player, consulta le risorse seguenti:
+>>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
+>>[Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per Assets in un canale {#handling-recurrence-in-assets}

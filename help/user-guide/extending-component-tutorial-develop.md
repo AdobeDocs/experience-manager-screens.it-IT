@@ -9,9 +9,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1698'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,11 @@ Per completare questa esercitazione, sono necessari i seguenti elementi:
 1. [Lettore AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente di sviluppo locale
 
-I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. Per completare l&#39;esercitazione è inoltre possibile utilizzare le IDE [Eclipse](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij). Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con AEM sono disponibili qui](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. Per completare l&#39;esercitazione è inoltre possibile utilizzare le IDE [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij). Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con AEM sono disponibili qui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configurazione del progetto {#project-setup}
 
-Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l&#39;esercitazione, è stato pregenerato un progetto utilizzando [AEM Project Archetype 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli sulla [creazione di un progetto con Archetipo progetto AEM Maven sono disponibili qui](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l&#39;esercitazione, è stato pregenerato un progetto utilizzando [Archetipo progetto AEM 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli sulla [creazione di un progetto con Archetipo progetto Maven AEM sono disponibili qui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Scarica e installa i seguenti pacchetti utilizzando **Gestione pacchetti CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -133,7 +133,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    Finestra di dialogo copiata da `/libs/wcm/foundation/components/image/cq:dialog` a `/apps/weretail-run/components/content/poster`
 
-   Il componente AEM Screens `image` è stato sovrascritto al componente WCM Foundation `image`. Pertanto, il componente `poster` eredita la funzionalità da entrambi. La finestra di dialogo per il componente poster è costituita da una combinazione delle finestre di dialogo Screens e Foundation. Le funzionalità di **Sling Resource Merger** vengono utilizzate per nascondere le schede e i campi di dialogo irrilevanti ereditati dai componenti sovrascritti.
+   Il componente AEM Screens `image` è stato sovrascritto al componente WCM Foundation `image`. Pertanto, il componente `poster` eredita la funzionalità da entrambi. La finestra di dialogo per il componente poster è costituita da una combinazione delle finestre di dialogo Screens e Foundation. Le funzionalità di **`Sling Resource Merger`** vengono utilizzate per nascondere le schede e i campi di dialogo irrilevanti ereditati dai componenti sovrascritti.
 
 1. Aggiorna `cq:dialog` sotto `/apps/weretail-run/components/content/poster` con le seguenti modifiche rappresentate in XML:
 
@@ -284,7 +284,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
    Un logo viene incluso anche come sovrapposizione nel componente. In questo esempio, il percorso del logo ` We.Retail` è hardcoded in DAM. A seconda del caso d’uso, potrebbe essere più logico creare un campo di dialogo per rendere il percorso del logo un valore popolato dinamicamente.
 
-   Si noti inoltre che con il componente viene utilizzata la notazione BEM (Block Element Modifier). BEM è una convenzione di codifica CSS che semplifica la creazione di componenti riutilizzabili. BEM è la notazione utilizzata da [Componenti core dell&#39;AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
+   Si noti inoltre che con il componente viene utilizzata la notazione BEM (Block Element Modifier). BEM è una convenzione di codifica CSS che semplifica la creazione di componenti riutilizzabili. BEM è la notazione utilizzata da [Componenti core di AEM](https://github.com/adobe/aem-core-wcm-components/wiki/CSS-coding-conventions). <!-- DEAD LINK More info can be found at: [https://getbem.com/](https://getbem.com/) -->
 
 1. Crea un file sotto `/apps/weretail-run/components/content/poster` denominato `edit.html.`
 
@@ -308,13 +308,13 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
    </div>
    ```
 
-   Il markup **edit** per il componente Poster è visualizzato direttamente sopra. Lo script HTL sostituisce `/libs/screens/core/components/content/image/edit.html`. Il markup è simile al markup `production.html` e visualizza il titolo e la descrizione sopra l&#39;immagine.
+   Il markup **modificato** per il componente Poster è visualizzato direttamente sopra. Lo script HTL sostituisce `/libs/screens/core/components/content/image/edit.html`. Il markup è simile al markup `production.html` e visualizza il titolo e la descrizione sopra l&#39;immagine.
 
    `aem-Screens-editWrapper` viene aggiunto in modo che il componente non venga renderizzato a schermo intero nell&#39;editor. L&#39;attributo `data-emptytext` garantisce che venga visualizzato un segnaposto quando non è stata compilata alcuna immagine o contenuto.
 
 ## Creare librerie lato client {#clientlibs}
 
-Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull&#39;utilizzo di [Librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull&#39;utilizzo di [Librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto alla modalità Anteprima/Produzione. Vengono creati due set di librerie client, uno per la modalità di modifica e l’altro per l’anteprima/produzione.
 
@@ -339,7 +339,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    La proprietà `categories` è una stringa che identifica la libreria client. La categoria `cq.screens.components` viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito nella libreria client `shared` viene caricato in tutte le modalità.
 
-   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. La proprietà `allowProxy` garantisce che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni sulla proprietà [allowProxy sono disponibili qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. La proprietà `allowProxy` garantisce che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni sulla proprietà [allowProxy sono disponibili qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crea il file denominato `css.txt` sotto la cartella condivisa.
 
@@ -355,7 +355,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    ![2018-05-03_at_1057pm](assets/2018-05-03_at_1057pm.png)
 
-   Invece di scrivere direttamente CSS, questa esercitazione utilizza MENO. [LESS](https://lesscss.org/) è un popolare precompilatore CSS che supporta variabili, mixin e funzioni CSS. Le librerie client AEM supportano in modo nativo la compilazione LESS. È possibile utilizzare gli Sass o altri precompilatori, ma questi devono essere compilati al di fuori dell’AEM.
+   Invece di scrivere direttamente CSS, questa esercitazione utilizza MENO. [LESS](https://lesscss.org/) è un popolare precompilatore CSS che supporta variabili, mixin e funzioni CSS. Le librerie client di AEM supportano in modo nativo la compilazione LESS. Puoi utilizzare Sass o altri precompilatori, ma devi compilarli al di fuori di AEM.
 
 1. Popolare `/apps/weretail-run/components/content/poster/clientlibs/shared/css/styles.less` con quanto segue:
 
@@ -412,7 +412,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    >[!NOTE]
    >
-   >I Web Fonts Google vengono utilizzati per le famiglie di caratteri. I Web Fonts richiedono connettività Internet e non tutte le implementazioni AEM Screens dispongono di una connessione affidabile. La pianificazione della modalità offline è un aspetto importante per le distribuzioni AEM Screens.
+   >Google Web Fonts viene utilizzato per le famiglie di caratteri. Web Fonts richiede connettività Internet e non tutte le implementazioni AEM Screens dispongono di una connessione affidabile. La pianificazione della modalità offline è un aspetto importante per le distribuzioni AEM Screens.
 
 1. Copia la cartella della libreria client `shared`. Incollalo come elemento di pari livello e rinominalo in `production`.
 
@@ -514,7 +514,7 @@ Il video seguente mostra il componente finito e come può essere aggiunto a un c
 
 ## Codice finito {#finished-code}
 
-Di seguito è riportato il codice finito dell&#39;esercitazione. **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip** sono i pacchetti AEM compilati. **SRC-screens-weretail-run-0.0.1.zip** è il codice sorgente non compilato che può essere distribuito utilizzando Maven.
+Di seguito è riportato il codice finito dell&#39;esercitazione. I pacchetti AEM compilati sono **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**. **SRC-screens-weretail-run-0.0.1.zip** è il codice sorgente non compilato che può essere distribuito utilizzando Maven.
 
 [Ottieni file](assets/final-poster-screens-weretail-runuiapps-001-snapshot.zip)
 

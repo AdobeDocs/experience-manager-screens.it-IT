@@ -10,9 +10,9 @@ feature: Administering Screens, Windows Player
 role: Admin
 level: Intermediate
 exl-id: 50b6d9ba-e672-4f4d-a9a8-fb8387685057
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Questa sezione descrive la configurazione di Windows Player in AEM Screens. Forn
 
 Per implementare Windows Player per AEM Screens, installare Windows Player per AEM Screens.
 
-Visita la pagina [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/).
+Visita la pagina [**Download di AEM 6.5 Player**](https://download.macromedia.com/screens/).
 
 >[!NOTE]
 >In Windows Player non è disponibile alcuna modalità finestra. È sempre in modalità a schermo intero.
@@ -36,7 +36,7 @@ Visita la pagina [**Download del lettore AEM 6.5**](https://download.macromedia.
 >Configurare un ambiente per Windows Player se si utilizza AEM Screens 6.5.5 Service Pack.
 
 Imposta l&#39;attributo **SameSite per i cookie token di accesso** da **Lax** a **None** da **Console Web Adobe Experience Manager
-Configurazione** su tutte le istanze di creazione e pubblicazione AEM.
+Configurazione** su tutte le istanze di authoring e pubblicazione di AEM.
 
 Effettua le seguenti operazioni:
 
@@ -52,12 +52,12 @@ Configurazione** tramite `http://localhost:4502/system/console/configMgr`.
 
 ### Metodo ad hoc {#ad-hoc-method}
 
-Il metodo Ad Hoc consente di installare il Windows Player più recente (*.exe*). Visita la pagina [**Download del lettore AEM 6.5**](https://download.macromedia.com/screens/).
+Il metodo Ad Hoc consente di installare il Windows Player più recente (*.exe*). Visita la pagina [**Download di AEM 6.5 Player**](https://download.macromedia.com/screens/).
 
 Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completare l’installazione ad hoc:
 
 1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
-1. Passa a **Configurazione** dal menu Azioni a sinistra, immetti la posizione (indirizzo) dell&#39;istanza AEM a cui desideri connetterti e fai clic su **Salva**.
+1. Passa a **Configurazione** dal menu Azioni a sinistra, immetti il percorso (indirizzo) dell&#39;istanza di AEM a cui desideri connetterti e fai clic su **Salva**.
 1. Passa al collegamento **Dispositivo** **Registrazione** dal menu Azioni sinistro per controllare lo stato del processo di registrazione del dispositivo.
 
 >[!NOTE]
@@ -68,7 +68,7 @@ Dopo aver scaricato l’applicazione, segui i passaggi sul lettore per completar
 
 ## Denominazione di Windows Player {#name-windows}
 
-È possibile assegnare un nome descrittivo al dispositivo Windows Player, inviando in tal modo il nome assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Windows, ma anche di assegnare facilmente il contenuto appropriato.
+È possibile assegnare un nome di dispositivo descrittivo a Windows Player, inviando in tal modo il nome di dispositivo assegnato a Adobe Experience Manager (AEM). Questa funzionalità consente non solo di denominare il lettore Windows, ma anche di assegnare facilmente il contenuto appropriato.
 
 >[!NOTE]
 >È possibile scegliere il nome del lettore solo prima della registrazione. Dopo la registrazione del lettore, il nome del lettore non può più essere modificato.
@@ -126,9 +126,9 @@ La tabella seguente riepiloga gli attributi dei criteri con un esempio di JSON p
 | risoluzione | Risoluzione del dispositivo. |
 | rebootSchedule | Pianificazione per il riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
-| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
+| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera di impostarlo su false una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
-| cloudMode | Impostare su true se si desidera che Windows Player si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudMode | Impostare su true se si desidera che Windows Player si connetta a Screens as a Cloud Service. Imposta su false per collegarti ad AMS o ad AEM on-premise. |
 | cloudToken | Token di registrazione per la registrazione a Screens as a Cloud Service. |
 
 #### Esempio di file JSON del criterio {#example-policy-json-file}
@@ -150,7 +150,7 @@ Durante la distribuzione di Windows Player, è importante attivare la modalità 
 
 >[!CAUTION]
 >
->L&#39;Adobe consiglia una soluzione di gestione dei dispositivi per abilitare Kiosk per Windows. Se non disponi di una soluzione di gestione dispositivi per attivare la modalità Kiosk, segui la procedura riportata di seguito. Questo metodo utilizza la funzionalità di avvio della shell disponibile in Windows 10 Enterprise ed Edu. Per attivare il chiosco può essere utilizzato anche qualsiasi altro strumento consigliato da Microsoft per le app non UWP, in particolare per altre edizioni di Windows.
+>Adobe consiglia una soluzione di gestione dei dispositivi per abilitare il chiosco per Windows. Se non disponi di una soluzione di gestione dispositivi per attivare la modalità Kiosk, segui la procedura riportata di seguito. Questo metodo utilizza la funzionalità di avvio della shell disponibile in Windows 10 Enterprise ed Edu. Per attivare il chiosco può essere utilizzato anche qualsiasi altro strumento consigliato da Microsoft per le app non UWP, in particolare per altre edizioni di Windows.
 
 Per attivare la modalità Kiosk (chiosco), procedere come segue:
 
@@ -160,11 +160,11 @@ Per attivare la modalità Kiosk (chiosco), procedere come segue:
 
 1. Attiva modulo di avvio shell.
 
-   Per ulteriori informazioni, vedere ***Configurare l&#39;utilità di avvio della shell*** nella pagina **[Utilità di avvio della shell](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/shell-launcher)** del supporto di Microsoft® Windows.
+   Per ulteriori informazioni, vedere ***Configurare l&#39;utilità di avvio della shell*** nella pagina **[Utilità di avvio della shell](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/)** del supporto di Microsoft® Windows.
 
 1. Crea un utente non amministrativo (se non ne hai già uno) da utilizzare per il chiosco. Può essere un utente locale o di dominio.
 1. Installa Windows Player per l&#39;utente Kiosk dalla pagina [Download del lettore AEM Screens](https://download.macromedia.com/screens/).
-1. Consulta [Utilizzare Shell Launcher per creare un chiosco di Windows 10](https://learn.microsoft.com/en-us/windows/configuration/assigned-access/shell-launcher/?tabs=intune) per modificare lo script di PowerShell per ulteriori informazioni.
+1. Consulta [Utilizzare Shell Launcher per creare un chiosco di Windows 10](https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/?tabs=intune) per modificare lo script di PowerShell per ulteriori informazioni.
 
    Modificare lo script di PowerShell in modo da poter sostituire il nome utente con quello creato. Verificare che il percorso dell&#39;eseguibile dell&#39;applicazione sia corretto. In questo modo la shell personalizzata verrà impostata come applicazione Windows Player per l&#39;utente del chiosco e il file predefinito verrà impostato come explorer.exe per gli altri utenti.
 
@@ -183,7 +183,7 @@ Lo script di esempio nei collegamenti abilita e disabilita la shell personalizza
 
 >[!NOTE]
 >
->In alcuni ambienti Windows, gli script di PowerShell possono essere limitati da criteri (in particolare gli script non firmati). Per eseguire lo script, disattivare temporaneamente e riattivare questa restrizione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
+>Alcuni ambienti Windows limitano gli script di PowerShell in base ai criteri, in particolare se gli script non sono firmati. Per eseguire lo script, disattivare temporaneamente e riattivare questa restrizione per eseguire lo script. Aprire una finestra di PowerShell e utilizzare questi comandi.
 >
 >*`set-executionpolicy unrestricted`* - per rimuovere temporaneamente le restrizioni.
 >

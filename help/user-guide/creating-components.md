@@ -1,6 +1,6 @@
 ---
-title: Creazione di componenti
-description: Scopri come i componenti AEM vengono utilizzati per contenere, formattare ed eseguire il rendering dei contenuti resi disponibili sulle tue pagine web.
+title: Creare componenti
+description: Scopri come i componenti AEM vengono utilizzati per contenere, formattare ed eseguire il rendering dei contenuti resi disponibili sulle pagine web.
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
@@ -9,26 +9,26 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 4d673039-4963-458a-89e9-023a993dd354
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 3%
+source-wordcount: '281'
+ht-degree: 1%
 
 ---
 
-# Creazione di componenti {#creating-components}
+# Creare componenti {#creating-components}
 
-I componenti AEM vengono utilizzati per memorizzare, formattare ed eseguire il rendering dei contenuti resi disponibili sulle pagine web.
+I componenti AEM vengono utilizzati per contenere, formattare ed eseguire il rendering del contenuto reso disponibile sulle pagine web.
 
 >[!NOTE]
 >
 >Per informazioni dettagliate sulla creazione di componenti AEM, consulta Sviluppo di componenti AEM.
 
-## Authoring dei canali {#authoring-channels}
+## Canali autore {#authoring-channels}
 
 Il canale è l&#39;oggetto principale dei contenuti inviati a un insieme di display. Pertanto, un autore di contenuti in genere apre un canale nell’editor per aggiungere o modificare contenuti. Poiché il canale è un ***`cq:Page`***, segue lo stesso pattern UX tradizionale per aggiungere e modificare componenti sul canale.
 
-Tuttavia, poiché in genere i componenti di un canale vengono riprodotti a schermo intero, l’esperienza di authoring ne risente quando si tenta di modificare singoli componenti o di comporre nuovi ordini. Pertanto, il canale si basa sui selettori per eseguire il rendering di diverse viste dei componenti. L’ambiente di authoring utilizza il selettore di modifica per attivare il rendering del canale personalizzato.
+Tuttavia, poiché in genere i componenti di un canale vengono riprodotti a schermo intero, l’esperienza di authoring ne risente quando si tenta di modificare singoli componenti o di comporre nuovi ordini. Pertanto, il canale si basa sui selettori per eseguire il rendering di diverse viste dei componenti. L&#39;ambiente di authoring utilizza il selettore `edit` per attivare il rendering del canale personalizzato.
 
 Ad esempio `http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html](http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html`
 

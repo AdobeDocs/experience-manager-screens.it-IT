@@ -10,9 +10,9 @@ feature: Digital Signage, Content, Players
 role: Developer
 level: Intermediate
 exl-id: 57105d6d-51ff-44ca-bbf2-ae9cce8addd0
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,7 @@ Fai clic anche su **Impostazioni** dall&#39;angolo superiore destro per aggiorna
 
 >[!NOTE]
 >È possibile fare clic su uno dei livelli di registro seguenti:
+>
 >* **Disattiva**
 >* **Debug**
 >* **Informazioni**
@@ -126,7 +127,7 @@ Fai clic anche su **Impostazioni** dall&#39;angolo superiore destro per aggiorna
 
 Abilita il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot.
 
-Attualmente alcune di queste funzionalità sono disponibili solo se il filtro di riferimento Sling *Apache Consenti vuoto* è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
+Attualmente alcune di queste funzionalità sono disponibili solo se *`Apache Sling Referrer Filter Allow Empty`* è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.
 
 Segui i passaggi seguenti per abilitare il filtro Apache Sling Referrer Allow Empty
 
@@ -140,16 +141,16 @@ Segui i passaggi seguenti per abilitare il filtro Apache Sling Referrer Allow Em
 
 La sezione seguente consiglia di monitorare i collegamenti di rete, i server e i lettori per comprenderne lo stato e reagire ai problemi.
 
-L&#39;AEM fornisce un monitoraggio integrato per:
+AEM fornisce monitoraggio integrato per:
 
 * *Heartbeat* ogni 5 secondi per indicare che AEM Screens Player è in funzione.
 * *Schermata* dal lettore che mostra ciò che viene visualizzato sul lettore.
 * La versione del firmware *AEM Screens Player* è installata nel lettore.
 * *Spazio di archiviazione libero* sul lettore.
 
-Recommendations per il monitoraggio remoto con software di terze parti:
+Consigli per il monitoraggio remoto con software di terze parti:
 
-* Utilizzo della CPU nei lettori.
+* Utilizzo di CPU nei lettori.
 * Verifica se il processo di AEM Screens Player è in esecuzione.
 * Riavvio/riavvio remoto del lettore.
 * Notifiche in tempo reale.

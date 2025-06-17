@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4faac090-ad8a-4d7e-a502-6fb63f6b2761
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Dopo aver assegnato un canale a una visualizzazione, AEM Screens Player visualiz
 
 ## Utilizzo del dashboard dei dispositivi {#using-the-device-dashboard}
 
-Puoi configurare le preferenze per il dispositivo dal dashboard Dispositivo, accessibile tramite l’istanza di authoring AEM.
+Puoi configurare le preferenze per il dispositivo dal dashboard Dispositivo, accessibile tramite l’istanza di authoring di AEM.
 
 1. Passa al dashboard dei dispositivi dal progetto, ad esempio ***Progetto di prova*** > ***Dispositivi***.
 
@@ -124,12 +124,12 @@ Per modificare le preferenze dal lettore:
 
 Puoi risolvere vari problemi associati al lettore AEM Screens (hardware e software):
 
-| **Problemi** | **Recommendations** |
+| **Problemi** | **Consigli** |
 |---|---|
 | Spazio di archiviazione del lettore pieno | Eliminazione dei file non necessari |
 | Rete persa dal lettore | Utilizzare il cavo CAT-5 o CAT-6. Per il wifi, ridurre la distanza tra il router e il dispositivo di riproduzione |
 | Arresto anomalo del lettore AEM Screens | Si consiglia di disporre di un’app watchdog che garantisca l’esecuzione continua di AEM Screens Player |
-| Impostazioni perse del lettore AEM Screens | Controllare la connessione al server AEM |
+| Impostazioni perse del lettore AEM Screens | Verifica la connessione al server AEM |
 | AEM Screens Player non si avvia automaticamente dopo il riavvio o il riavvio del lettore | Controllare la cartella di avvio del sistema operativo o la procedura di inizializzazione |
 | AEM Screens Player mostra contenuti errati o obsoleti | Verifica connessione di rete |
 
@@ -149,7 +149,7 @@ Nella sezione seguente vengono fornite le linee guida per la selezione dell&#39;
 * Crea sempre l&#39;origine dei componenti di livello ***Commercial*** o ***Industrial*** sia per il lettore PC che per il pannello o il proiettore.
 
 * Interagisci sempre con i fornitori che operano nel mercato del digital signage.
-* Considera sempre fattori ambientali quali la temperatura ambiente e l’umidità relativa.
+* Considera sempre i fattori ambientali, come la temperatura ambiente e l’umidità relativa.
 * Controllare sempre i requisiti di alimentazione e il condizionamento dell&#39;alimentazione.
 * Esaminare attentamente le prestazioni richieste e le porte di I/O necessarie per l&#39;applicazione.
 
@@ -197,7 +197,7 @@ La tabella seguente riepiloga le configurazioni hardware con casi d’uso tipici
     </ul> </td>
   </tr>
   <tr>
-   <td>Avanzate </td>
+   <td>Avanzato</td>
    <td>Quad-core con hyperthreading, processore Intel® Core™ i7</td>
    <td><p>16 GB di memoria</p> <p>8 MB di cache</p> </td>
    <td>256 GB</td>

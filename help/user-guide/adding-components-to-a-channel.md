@@ -10,16 +10,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
 
 # Aggiunta di componenti a un canale{#adding-components-to-a-channel}
 
-I componenti sono gli elementi fondamentali dell’esperienza dell’AEM (Adobe Experience Manager). Puoi utilizzare diversi componenti e aggiungerli al tuo canale in un progetto AEM Screens.
+I componenti sono gli elementi fondamentali dell’esperienza AEM (Adobe Experience Manager). Puoi utilizzare diversi componenti e aggiungerli al tuo canale in un progetto AEM Screens.
 
 ## Componenti in AEM Screens {#components-in-aem-screens}
 
@@ -34,14 +34,14 @@ Per visualizzare i componenti predefiniti del progetto Screens, effettua le segu
 1. Fai clic sul canale. Ad esempio, **`We.Retail In Store`** > **Canali** > **Canale inattivo**.
 
 1. Fai clic su **Modifica** nella barra delle azioni.
-1. Nell&#39;editor AEM fare clic sull&#39;icona **+** nella barra laterale.
+1. Nell&#39;editor di AEM, fai clic sull&#39;icona **+** dalla barra laterale.
 1. Vengono visualizzati tutti i componenti inclusi per impostazione predefinita in un progetto AEM Screens, come illustrato nella figura seguente.
 
 ![schermata_shot_2017-12-18alle21350pm](assets/screen_shot_2017-12-18at21350pm.png)
 
 ### Aggiunta di un nuovo componente {#adding-a-new-component}
 
-L’AEM fornisce diverse altre componenti. Puoi sempre aggiungere al progetto altri componenti (non inclusi per impostazione predefinita), dato che sono compatibili con AEM Screens.
+AEM fornisce diversi altri componenti. Puoi sempre aggiungere al progetto altri componenti (non inclusi per impostazione predefinita), dato che sono compatibili con AEM Screens.
 
 L’esempio seguente mostra l’aggiunta di un componente Livefyre a un progetto AEM Screens:
 
@@ -58,7 +58,7 @@ L’esempio seguente mostra l’aggiunta di un componente Livefyre a un progetto
 >
 >Allo stesso modo, puoi aggiungere al progetto un numero qualsiasi di altri nuovi componenti compatibili con AEM Screens.
 
-## Informazioni sui componenti dello schermo dell’AEM {#understanding-aem-screen-components}
+## Informazioni sui componenti schermo di AEM {#understanding-aem-screen-components}
 
 Nella sezione seguente sono illustrati i componenti di AEM Screens che è possibile utilizzare nel progetto.
 
@@ -193,7 +193,7 @@ La sequenza incorporata dinamica ha le seguenti proprietà:
 
 ### Frammento di esperienza {#experience-fragment}
 
-Un frammento di esperienza consente di aggiungere al canale AEM Screens un frammento di esperienza (un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina e rilascia il componente all’editor AEM e fai clic sul frammento di esperienza.
+Un frammento di esperienza consente di aggiungere al canale AEM Screens un frammento di esperienza (un gruppo di uno o più componenti, inclusi il contenuto e il layout, a cui è possibile fare riferimento all’interno delle pagine). Trascina e rilascia il componente in AEM Editor e fai clic sul frammento di esperienza.
 
 Per ulteriori informazioni su come creare un frammento esperienza e applicarlo a un progetto AEM Screens, consulta [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md).
 
@@ -289,7 +289,7 @@ Il componente Transizione ha le seguenti proprietà:
   </tr>
   <tr>
    <td><strong><em>Attivo da</em></strong></td>
-   <td>Timestamp che descrive da quando la transizione può essere attiva.<br /> </td>
+   <td>Timestamp che descrive quando la transizione può essere attiva.<br /> </td>
   </tr>
   <tr>
    <td><strong><em>Attivo fino a</em></strong></td>

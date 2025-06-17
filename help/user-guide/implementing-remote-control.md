@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 6cb2705e-83e6-46f3-bd71-6688d7edc11f
-source-git-commit: e82cfee5ecc6b639b7b2b65553d1635943b356ea
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Uso del telecomando Screens {#implementing-remote-control}
 
-La funzione di controllo remoto semplifica l’accesso all’interfaccia utente di amministrazione, al commutatore di canale o a funzioni quali Cancella cache e ricarica. Inoltre, fornisce un metodo per visualizzare la versione locale del firmware e le informazioni di sistema sul lettore. Questa funzionalità è particolarmente utile in quanto può essere difficile collegare un mouse. Oppure, utilizzare dispositivi di produzione fuori dalla portata e ancora di più se il lettore ha perso la connessione con l&#39;AEM. È utile anche quando si utilizza Samsung RMS perché la differenza di risoluzione può rendere difficile individuare e aprire l’interfaccia utente di amministrazione utilizzando un mouse.
+La funzione di controllo remoto semplifica l’accesso all’interfaccia utente di amministrazione, al commutatore di canale o a funzioni quali Cancella cache e ricarica. Inoltre, fornisce un metodo per visualizzare la versione locale del firmware e le informazioni di sistema sul lettore. Questa funzionalità è particolarmente utile in quanto può essere difficile collegare un mouse. Oppure, utilizza dispositivi di produzione fuori dalla portata e ancor di più se il lettore ha perso la connessione con AEM. È utile anche quando si utilizza Samsung RMS perché la differenza di risoluzione può rendere difficile individuare e aprire l’interfaccia utente di amministrazione utilizzando un mouse.
 
 ## Combinazioni di tasti comuni del telecomando {#using-common-remote-control}
 

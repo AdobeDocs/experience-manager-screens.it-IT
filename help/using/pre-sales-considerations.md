@@ -2,9 +2,9 @@
 title: Considerazioni relative all’ambito dei progetti
 description: Ulteriori informazioni sulle considerazioni mano a mano che un progetto AEM Screens ha un proprio ambito.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!NOTE]
 >Una delle parti interessate per questa attività è un Marketing/Business Strategist.
 
-Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito del progetto. Il lavoro svolto durante il Giorno zero imposta il tono per il resto del progetto e influenza il successo complessivo dell&#39;applicazione in fase di creazione.
+Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire completamente l&#39;ambito del progetto. Il lavoro completato il `Day Zero` stabilisce le basi del progetto e influisce direttamente sul successo complessivo dell&#39;applicazione.
 In questa fase, i principali fornitori vengono identificati e riuniti per aiutare a formulare il piano del progetto. In questa fase è importante che l&#39;acquisizione sia anche stabilita con le principali parti interessate del progetto all&#39;interno dell&#39;azienda cliente. Tra le parti interessate figurano responsabili delle vendite, responsabili del marketing e team IT. Tutte queste persone hanno un ruolo importante nello sviluppo dell&#39;applicazione e nella sua manutenzione continua.
 
 ## Risultati principali {#key-deliverables}
@@ -31,4 +31,4 @@ I principali risultati ottenuti in questa fase includono:
 >
 >Identifica quanto prima i dati necessari per l’applicazione e da dove provengono. Un’esplorazione più approfondita avviene durante l’implementazione. Tuttavia, assicurati di prendere tempo durante *Giorno zero* per scoprire quali dati il client intende utilizzare. Scopri dove sono attualmente memorizzati i dati e come l’applicazione in fase di generazione può accedervi. Notificare al team di sviluppo prima che si verifichino problemi consente di facilitare l’implementazione.
 
-Guarda il video [Considerazioni sull&#39;ambito dei progetti](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Guarda il video [Considerazioni sull&#39;ambito dei progetti](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

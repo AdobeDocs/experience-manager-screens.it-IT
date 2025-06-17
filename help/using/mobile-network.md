@@ -2,9 +2,9 @@
 title: Direct Mobile Network
 description: Scopri Direct Mobile Network Setup in AEM Screens.
 exl-id: 6775bd10-7625-422f-a7af-4f7b8793fa42
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ All’interno di AEM Screens, il contenuto richiesto viene fisicamente scaricato
 
 Il vantaggio di collegare i lettori AEM Screens al proprio provider di dati Mobile Services rispetto alla rete cellulare 3/4/5G è che il router mobile può essere posizionato in un punto ottimizzato. In questo modo si garantisce la migliore copertura di rete disponibile. Questa posizione è solitamente in posizione elevata e aperta con il minor numero possibile di strutture circostanti in calcestruzzo o metallo.
 
-Questa configurazione offre agli utenti di Schermo AEM una grande flessibilità perché non è necessaria alcuna connessione fissa per connettersi ad AEM Screens. Questa disposizione è interessante per le configurazioni temporanee o mobili.
+Questa configurazione offre agli utenti di AEM Screen una grande flessibilità perché non è necessaria alcuna connessione fissa per connettersi ad AEM Screens. Questa disposizione è interessante per le configurazioni temporanee o mobili.
 
 Il diagramma seguente mostra la configurazione di Direct Mobile Network. È costituito da un singolo segmento di connessione di rete e dalla connessione di ciascun lettore alla rete dati mobile o cellulare.
 
@@ -27,7 +27,7 @@ Il diagramma seguente mostra la configurazione di Direct Mobile Network. È cost
 
 Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM Screen in questa configurazione:
 
-1. Verificare che ogni lettore di schermo AEM sia collegato alla rete del router.
+1. Verificare che ogni lettore AEM Screen sia collegato alla rete del router.
 
 1. Verificare la connessione Internet chiamando un URL nel browser.
 
@@ -78,7 +78,7 @@ Come follow-up, il pacchetto dati necessario deve essere almeno:
 
 Oltre alla raggiungibilità della rete, i problemi di prestazioni della rete LAN sono quelli di fornire una larghezza di banda sufficiente per il corretto funzionamento di AEM Screens. Si consiglia di utilizzare velocità di rete LAN pari almeno a 100 Mbps, in modo da disporre di una larghezza di banda sufficiente per collegare al sistema molti dispositivi con buone prestazioni.
 
-Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti i componenti corrispondano ai requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalle specifiche di accesso a Internet o router. In caso contrario, la larghezza di banda totale è limitata dall&#39;anello più debole della catena di rete.
+Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti corrispondano ai requisiti di larghezza di banda della rete. Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalle specifiche di accesso a Internet o router. In caso contrario, la larghezza di banda totale è limitata dall&#39;anello più debole della catena di rete.
 
 ## Download di contenuti multimediali e Assets {#download}
 

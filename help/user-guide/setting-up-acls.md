@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b40bcc9f-307c-422c-8abb-5c15965772d4
-source-git-commit: 71b4f55c860d559dceaac9d5bf7ea71ce52210fa
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 2%
@@ -20,13 +20,13 @@ ht-degree: 2%
 
 Nella sezione seguente viene illustrato come separare i progetti utilizzando gli elenchi di controllo di accesso (ACL, Access Control List) in modo che ogni singolo utente o team gestisca il proprio progetto.
 
-In qualità di amministratore AEM, vuoi essere certo che i membri del team di un progetto non interferiscano con altri progetti. A ogni utente vengono assegnati ruoli specifici in base ai requisiti del progetto.
+In qualità di amministratore di AEM, desideri garantire che i membri del team di un progetto non interferiscano con altri progetti. A ogni utente vengono assegnati ruoli specifici in base ai requisiti del progetto.
 
 ## Impostazione delle autorizzazioni {#setting-up-permissions}
 
 I passaggi seguenti riepilogano la procedura per la configurazione di ACL per un progetto:
 
-1. Accedi a AEM e passa a **Strumenti** > **Sicurezza**.
+1. Accedi ad AEM e passa a **Strumenti** > **Sicurezza**.
 
    ![schermata_shot_2018-02-16at10156pm](assets/screen_shot_2018-02-16at10156pm.png)
 
@@ -75,7 +75,7 @@ Nella tabella seguente viene riepilogato il percorso con le autorizzazioni a liv
 
 >[!NOTE]
 >
->A volte è possibile separare le funzioni di authoring (come la gestione delle risorse e la creazione di canali) dalle funzioni di amministrazione (come la registrazione dei lettori). In questo scenario, crea due gruppi e aggiungi il gruppo Author ai collaboratori e il gruppo Admin sia ai collaboratori che agli amministratori degli utenti.
+>A volte è possibile separare le funzioni di authoring (come la gestione delle risorse e la creazione di canali) dalle funzioni di amministrazione (come la registrazione dei lettori). In questo scenario, crea due gruppi e aggiungi il gruppo dell’autore ai collaboratori e il gruppo dell’amministratore sia ai collaboratori che agli amministratori degli utenti.
 
 ### Creazione di gruppi {#creating-groups}
 

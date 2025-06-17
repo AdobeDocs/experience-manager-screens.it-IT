@@ -2,9 +2,9 @@
 title: Nozioni di base sul digital signage per [!UICONTROL AEM Screens]
 description: Scopri le basi di un progetto di digital signage.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Questa sezione fornisce consigli sui principali elementi chiave fondamentali per
 
 ## Elementi chiave nel digital signage {#key-elements}
 
-Gli elementi chiave *1&rbrace; in un progetto di digital signage sono:*
+Gli elementi chiave *1} in un progetto di digital signage sono:*
 
 ![](/help/assets/Elements-Revised.png)
 

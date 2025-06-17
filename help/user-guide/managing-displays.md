@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: c55dc128-208d-4379-95a8-60a39d495dc0
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ Fai clic su **Proprietà** per visualizzare o modificare le proprietà della vis
 
 Inoltre, puoi regolare il valore del timer dell&#39;evento per il tuo canale interattivo nella scheda **Visualizzazione**. Il valore predefinito è *300 secondi*.
 
-Utilizza **CRXDE Liti** per accedere alla proprietà **idleTimeout**, ovvero `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
+Utilizza **CRXDE Lite** per accedere alla proprietà **idleTimeout**, ovvero `http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels`.
 
 
 ### Pannello Canali assegnati {#assigned-channels-panel}

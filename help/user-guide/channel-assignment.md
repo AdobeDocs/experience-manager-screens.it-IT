@@ -5,9 +5,9 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 # Assegnazione canale {#channel-assignment}
 
 >[!IMPORTANT]
->Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione Screens 6.5.5 dell’AEM.
+>Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione Screens di AEM 6.5.5.
 
 Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione per visualizzarne il contenuto.
 
@@ -102,7 +102,7 @@ Mostra descrizione comando attrazione definisce se la descrizione comando attraz
 
 Le pianificazioni, se combinate con **DayParting**, ti consentono di impostare una pianificazione globale con più canali in esecuzione in orari specifici del giorno e di riutilizzare tale configurazione per tutte le visualizzazioni contemporaneamente.
 
-DayParting si riferisce alla suddivisione di un giorno in intervalli di tempo e alla specifica del contenuto riprodotto all’ora desiderata. AEM Screens consente di pianificare i canali in termini di DayPparting entro un giorno, una settimana o un mese in base al requisito.
+DayParting viene definito come suddivisione di un giorno in intervalli di tempo e specifica quale contenuto viene riprodotto all’ora desiderata. AEM Screens consente di pianificare i canali in termini di DayPparting entro un giorno, una settimana o un mese in base al requisito.
 
 Gli esempi seguenti illustrano la suddivisione giornaliera nei canali in tre diversi scenari:
 
@@ -174,5 +174,5 @@ Questo esempio mostra il DayParting per un negozio che visualizza la raccolta in
 >
 > Per ulteriori informazioni su DayParting, vedere le sezioni seguenti:
 >
->* [Gestione della ricorrenza in Assets](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Gestione della ricorrenza per Assets in un canale](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Gestione della ricorrenza in Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Gestione della ricorrenza per Assets in un canale](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

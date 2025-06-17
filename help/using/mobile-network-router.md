@@ -2,21 +2,21 @@
 title: Rete mobile con router dati mobile e componenti di rete attivi
 description: La pagina descrive la rete mobile con router dati mobile e componenti di rete attivi
 exl-id: a6b44a04-438d-49d4-ac98-32629c11dcdb
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
 
 # Rete mobile con router dati mobile e componenti di rete attivi {#mobile-network-setup}
 
-Adobe I lettori AEM Screens possono anche essere collegati utilizzando reti mobili o cellulari che eseguono almeno una rete 3G.
+Adobe AEM Screens Players può anche essere connesso utilizzando reti mobili o cellulari che eseguono almeno una rete 3G.
 
 All’interno di AEM Screens, il contenuto richiesto viene fisicamente scaricato sul controller o sul computer del lettore e memorizzato correttamente all’interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali e sugli aggiornamenti dei contenuti, e non influenza le prestazioni della riproduzione regolare dei display.
 
 Il vantaggio di questa configurazione è che il router mobile può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo punto è solitamente in posizione elevata e aperta, con il minor numero possibile di strutture circostanti in calcestruzzo o metallo.
-Questa configurazione offre agli utenti di Schermo AEM flessibilità perché non è richiesta alcuna linea fissa per connettersi ad AEM Screens. È anche interessante per le configurazioni effimere o mobili.
+Questa configurazione offre agli utenti di AEM Screen flessibilità perché non è richiesta alcuna rete fissa per connettersi ad AEM Screens. È anche interessante per le configurazioni effimere o mobili.
 
 Il diagramma seguente mostra la configurazione di Mobile Network with Mobile Data Router and Active Network Components (Rete mobile con router dati mobile e componenti di rete attivi). Contiene l’accesso a Internet di qualsiasi controller AEM Screens tramite accesso diretto a Internet tramite un proprio collegamento dati 3/4/5G.
 
@@ -28,7 +28,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
 
 La configurazione alloca un accesso a Internet per ogni controller AEM Screens mediante accesso diretto a Internet tramite un collegamento dati dedicato 3/4/5G.
 
-1. Verificare che il router dati mobile sia collegato correttamente alla rete dati cellulare come indicato nel sistema operativo. Verificare inoltre che ogni lettore di schermo AEM sia collegato alla rete dei router.
+1. Verificare che il router dati mobile sia collegato correttamente alla rete dati cellulare come indicato nel sistema operativo. Assicurati inoltre che ogni lettore AEM Screen sia collegato alla rete dei router.
 1. Verificare la connessione Internet chiamando un URL nel browser del sistema.
 
    >[!NOTE]
@@ -69,7 +69,7 @@ Nella tabella seguente vengono evidenziate le reti di dati con la larghezza di b
 | 4G | 150 Mbps |
 | 5G | 1000 - 10000 Mbps |
 
-Quando consideri quale rete dati utilizzare, l’Adobe consiglia di rispondere alle seguenti domande:
+Quando consideri quale Data Network utilizzare, Adobe consiglia di rispondere alle seguenti domande:
 
 * Quanti client sono connessi al router?
 * Quante modifiche al contenuto sono previste e quali sono le dimensioni medie dei file?
@@ -87,11 +87,11 @@ Quando consideri quale rete dati utilizzare, l’Adobe consiglia di rispondere a
 
 ### Local Area Network {#lan-connection}
 
-Le prestazioni della LAN, oltre alla già descritta raggiungibilità di rete, devono fornire una larghezza di banda sufficiente per consentire il corretto download dei contenuti AEM Screens. In questi giorni, la rete LAN di solito corrisponde almeno a una rete a 100 Mbps, quindi dovrebbe essere disponibile una larghezza di banda sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Quando si utilizzano altri componenti di rete attivi, è necessario che tutti questi componenti soddisfino i requisiti di larghezza di banda della rete.
+Le prestazioni della LAN, oltre alla già descritta raggiungibilità di rete, devono fornire una larghezza di banda sufficiente per consentire il corretto download dei contenuti AEM Screens. In questi giorni, la rete LAN di solito corrisponde almeno a una rete a 100 Mbps, quindi dovrebbe essere disponibile una larghezza di banda sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti i componenti corrispondano ai requisiti di larghezza di banda della rete.
 
 Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalle specifiche di accesso a Internet/router.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare lo schermo al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come IEEE `802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, l&#39;Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare lo schermo al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come IEEE `802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
 
 ## Download di contenuti multimediali e Assets {#download}
 

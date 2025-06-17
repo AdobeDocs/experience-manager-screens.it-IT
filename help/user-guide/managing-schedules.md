@@ -1,5 +1,5 @@
 ---
-title: Creazione e gestione delle pianificazioni
+title: Creare e gestire gli Schedules
 description: Scopri le pianificazioni che ti consentono di organizzare i canali in gruppi riutilizzabili in modo da non dover ripetere singolarmente la loro assegnazione.
 contentOwner: Jyotika Syal
 content-type: reference
@@ -9,14 +9,14 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: dc9c5413-3b03-4f1f-bac5-aa599443254a
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Creazione e gestione delle pianificazioni {#creating-and-managing-schedules}
+# Creare e gestire le pianificazioni {#creating-and-managing-schedules}
 
 Le **Schedules** in AEM Screens consentono di organizzare i canali in gruppi riutilizzabili. In questo modo, non è necessario ripetere le singole assegnazioni per ogni visualizzazione in cui si desidera visualizzare il contenuto.
 
@@ -26,7 +26,7 @@ Le pianificazioni, se combinate con ***DayParting***, ti consentono di impostare
 >
 >Questa funzionalità di AEM Screens è disponibile solo se è stato installato AEM 6.3 Sites Feature Pack 1. Per accedere a questo Feature Pack, contatta il supporto Adobe e richiedi l’accesso. Dopo aver ottenuto le autorizzazioni necessarie, puoi scaricarlo da Condivisione pacchetti.
 
-## Creazione di una pianificazione {#creating-a-schedule}
+## Creare una pianificazione {#creating-a-schedule}
 
 Puoi creare una pianificazione per il progetto Screens in grado di gestire tutte le attività per il tuo caso d’uso.
 
@@ -42,7 +42,7 @@ Per creare una pianificazione per il tuo canale, segui la procedura riportata di
 Puoi visualizzare una cartella di pianificazione con il nome e il titolo indicati nel progetto.
 
 
-## Visualizzazione del dashboard {#viewing-dashboard}
+## Visualizza dashboard {#viewing-dashboard}
 
 Dopo aver creato una cartella delle pianificazioni nel progetto, è possibile visualizzarne i dettagli dal dashboard delle pianificazioni.
 
@@ -58,8 +58,8 @@ Per visualizzare il dashboard della pianificazione, segui la procedura riportata
 
    ![chlimage_1-1](assets/chlimage_1-1.png)
 
-   **Riquadro informazioni pianificazione** Fare clic su Proprietà nell&#39;angolo superiore destro del riquadro INFORMAZIONI PIANIFICAZIONE per visualizzare o modificare le proprietà della pianificazione.
+   **Riquadro informazioni pianificazione** - Fare clic su Proprietà nell&#39;angolo superiore destro del riquadro INFORMAZIONI PIANIFICAZIONE per visualizzare/modificare le proprietà della pianificazione.
 
-   **Pannello canali assegnati** Fare clic su +Assegna canale dall&#39;angolo superiore destro del pannello CANALI ASSEGNATI per aprire la finestra di dialogo Assegnazione canale.
+   **Pannello canali assegnati** - Fare clic su +Assegna canale dall&#39;angolo superiore destro del pannello CANALI ASSEGNATI per aprire la finestra di dialogo Assegnazione canale.
 
-   **Pannello visualizzazioni assegnate** Fare clic su una delle visualizzazioni nel pannello VISUALIZZAZIONI ASSEGNATE per aprire il dashboard di visualizzazione.
+   **Pannello visualizzazioni assegnate** - Fare clic su una delle visualizzazioni nel pannello VISUALIZZAZIONI ASSEGNATE per aprire il dashboard di visualizzazione.

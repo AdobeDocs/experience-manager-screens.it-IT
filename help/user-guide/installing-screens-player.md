@@ -6,9 +6,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: bb979a71-7235-429f-b520-6d85b8b666fa
-source-git-commit: 33c469477fc38e79e0364411378c9a3a30a1eda3
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Per scaricare **AEM Screens Player**, visita la pagina [Download di AEM 6.5 Play
 >Dopo aver scaricato l&#39;ultimo lettore (*.exe*), eseguire la procedura sul lettore per completare l&#39;installazione ad hoc:
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Passa a **Configurazione** dal menu Azioni a sinistra e immetti l&#39;indirizzo della posizione dell&#39;istanza AEM in **Server**, quindi fai clic su **Salva**.
+>1. Passa a **Configurazione** dal menu Azioni a sinistra e immetti l&#39;indirizzo del percorso dell&#39;istanza di AEM in **Server**, quindi fai clic su **Salva**.
 >1. Fai clic sul collegamento **Registrazione** dal menu Azioni a sinistra e sui passaggi seguenti per completare il processo di registrazione del dispositivo.
 
 ## Monitoraggio della riproduzione di base {#playback-monitoring}
@@ -70,7 +70,7 @@ Di seguito sono elencate alcune limitazioni al monitoraggio di base della riprod
 
 * Il lettore segnala il proprio stato di riproduzione al server, pertanto richiede una connessione attiva.
 
-* La proprietà `isContentRendering` che controlla la GPU richiede molte più risorse per essere abilitata per impostazione predefinita e richiede il consenso esplicito dalle preferenze del lettore. L’Adobe consiglia di non utilizzarlo con i video in produzione.
+* La proprietà `isContentRendering` che controlla la GPU richiede molte più risorse per essere abilitata per impostazione predefinita e richiede il consenso esplicito dalle preferenze del lettore. Adobe consiglia di non utilizzarlo con i video in produzione.
 
 * Questa funzione è supportata solo per i canali di sequenza e non copre ancora il caso di utilizzo dei canali interattivi (SPA).
 

@@ -10,9 +10,9 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Questa pagina descrive la preproduzione, l’avvio e la progressione del progett
 
 >[!NOTE]
 >
->Identificare un integratore audio-video con esperienza nella gestione dei progetti di installazioni di digital signage su larga scala è importante per il successo a lungo termine. Si suggerisce di confrontare i piani di progetto tra Audio-Video Integrator e AEM Implementor. In questo modo si garantisce l’allineamento man mano che i piani vengono sviluppati e finalizzati.
+>Identificare un integratore audio-video con esperienza nella gestione dei progetti di installazioni di digital signage su larga scala è importante per il successo a lungo termine. Si consiglia di confrontare i piani di progetto tra Audio-Video Integrator e AEM Implementor. In questo modo si garantisce l’allineamento man mano che i piani vengono sviluppati e finalizzati.
 >
 >I partner che adottano un approccio olistico nella gestione delle fasi di &quot;pre-produzione&quot;, avvio e progressione del progetto garantiscono che i clienti finali siano posizionati in modo da trarre il massimo valore dal loro investimento
 
@@ -41,9 +41,9 @@ Per supportare una corretta implementazione del digital signage, è consuetudine
 
 La prima fase si chiama ***Giorno zero***. Questa fase include tutte le attività di pre-vendita e discovery necessarie per definire l&#39;ambito di un progetto. La seconda fase, ***Giorno uno***, fa riferimento a tutte le attività incluse nell&#39;impegno di distribuzione. Infine, il ***giorno due*** fa riferimento a tutte le operazioni in corso e agli elementi di supporto come parte della soluzione totale.
 
-Le attività &quot;Day Zero&quot; comportano attività di pre-vendita, individuazione dei client, analisi delle esigenze delle applicazioni e definizione dell&#39;ambito del progetto. In questa fase possono essere inclusi anche l&#39;impegno iniziale e la definizione dei requisiti del progetto per la gestione del progetto, in preparazione della distribuzione.
+Le attività di ***Giorno zero*** comportano attività di pre-vendita, individuazione client, analisi delle esigenze dell&#39;applicazione e definizione dell&#39;ambito del progetto. In questa fase possono essere inclusi anche l&#39;impegno iniziale e la definizione dei requisiti del progetto per la gestione del progetto, in preparazione della distribuzione.
 
-Il giorno zero è costituito da otto passaggi chiave che coprono tutti gli aspetti dell’incremento della gestione del progetto:
+Tutto il ***Giorno zero*** è costituito da otto passaggi chiave che coprono tutti gli aspetti dell&#39;espansione della gestione del progetto:
 
 * Definizione dell’ambito di lavoro
 * Definizione della pianificazione del progetto
@@ -72,7 +72,7 @@ Quando un’opportunità di vendita passa a un progetto, viene pianificata una r
 
 L&#39;ultima parte di un&#39;iniziativa Day One è quella di completare un handoff NOC. Se un progetto completato include un servizio di assistenza e supporto del giorno due, il Project Manager organizza una riunione Handoff NOC con i supervisori di tali team.
 
-L&#39;incontro è composto principalmente da rappresentanti di Audio-Video Integrator provenienti da Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Project Management di Adobe, dell&#39;implementazione AEM e del cliente finale sono coinvolti in tandem, con l&#39;integratore audio-video che definisce la pianificazione, la cadenza e i tollgate. I project manager sono in genere i migliori per coordinare le discussioni al fine di garantire l&#39;allineamento delle parti appropriate e lo sviluppo della documentazione necessaria per la riunione Handoff NOC. La documentazione di supporto critica proviene probabilmente da tecnici IT e/o audio-video, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
+L&#39;incontro è composto principalmente da rappresentanti di Audio-Video Integrator provenienti da Account Management, Network Operations, Field Logistics, Content Services e Accounting. I rappresentanti di Adobe per la gestione dei progetti, AEM Implementor e End-Customer sono coinvolti in tandem, con Audio-Video Integrator che definisce la pianificazione, la cadenza e i gate. I project manager sono in genere i migliori per coordinare le discussioni al fine di garantire l&#39;allineamento delle parti appropriate e lo sviluppo della documentazione necessaria per la riunione Handoff NOC. La documentazione di supporto critica proviene probabilmente da tecnici IT e/o audio-video, oltre alle risorse di gestione delle vendite e degli account di tutte le parti coinvolte. Per i clienti che richiedono il supporto dell’helpdesk da un NOC, è necessario fornire la documentazione ai supervisori del NOC per il caricamento su una piattaforma della Knowledge Base.
 
 ## Parte 4: tutorial video su gestione e distribuzione dei progetti {#part-video-tutorial-on-project-management-and-deployment}
 
@@ -80,7 +80,7 @@ Scopri la gestione del progetto e la preparazione dell’implementazione e defin
 
 ### Gestione e implementazione dei progetti
 
->[!VIDEO](https://video.tv.adobe.com/v/36980?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Informazioni sulla gestione del progetto e sulla preparazione della distribuzione (preproduzione del progetto, avvio del progetto, progressione del progetto).*
 

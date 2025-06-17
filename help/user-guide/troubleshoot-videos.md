@@ -9,9 +9,9 @@ feature: Channels, Interactive
 role: Developer
 level: Intermediate
 exl-id: dfdd58b6-689b-47ca-9459-9c205f1841eb
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Le sezioni seguenti descrivono come eseguire il debug e risolvere i problemi rel
 
 ## Rappresentazioni DAM {#dam-renditions}
 
-Dopo aver caricato il video sul canale, AEM dovrebbe iniziare a creare alcune rappresentazioni per esso. Puoi visualizzare i tuoi video in Assets.
+Dopo aver caricato il video nel canale, AEM dovrebbe iniziare a creare alcune rappresentazioni per esso. Puoi visualizzare i tuoi video in Assets.
 
 Per visualizzare il video:
 
@@ -33,11 +33,11 @@ Per visualizzare il video:
 
 Devono esistere diverse rappresentazioni (un MP4 o M4V).
 
-Se non è disponibile alcun rendering, verificare che FFMPEG sia installato sul sistema operativo in cui è in esecuzione AEM.
+Se non è presente alcuna rappresentazione, accertatevi di avere FFMPEG installato sul sistema operativo in cui AEM è in esecuzione.
 
 >[!CAUTION]
 >
->Se non è disponibile alcun rendering, verificare che FFMPEG sia installato sul sistema operativo in cui è in esecuzione AEM.
+>Se non è presente alcuna rappresentazione, accertatevi di avere FFMPEG installato sul sistema operativo in cui AEM è in esecuzione.
 >
 >Fai clic [qui](https://www.ffmpeg.org/download.html) per installare FFMPEG.
 
@@ -148,7 +148,7 @@ Per impostare una strategia assoluta, procedere come segue:
 
 1. Apri le preferenze di **Data e ora** in ogni casella del sistema operativo X
 1. Seleziona **Imposta data e ora automaticamente**
-1. Incolla il valore 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com nel menu a discesa o esegui semplicemente *sudo ntpdate -u -v 0.pool.ntp.org*
+1. Incolla il valore 0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org, time.apple.com nel menu a discesa o esegui semplicemente *`sudo ntpdate -u -v 0.pool.ntp.org`*
 1. Avvia i 2+ lettori
 
 Potrebbero essere necessari alcuni minuti prima che i lettori avviino una nuova sequenza allineata.

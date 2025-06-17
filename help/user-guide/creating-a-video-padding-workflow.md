@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 16180f96-2855-4250-9d55-24ed77a908b7
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Il video viene visualizzato come un oggetto da pixel 1 a pixel 1280 in e da pixe
 
 Prima di creare un flusso di lavoro per i video, completa i seguenti prerequisiti:
 
-1. Carica un video nella cartella **Assets** nella tua istanza AEM
+1. Carica un video nella cartella **Assets** nella tua istanza di AEM
 1. Crea un progetto AEM Screens (ad esempio, **TestVideoRendition**) e un canale denominato (**VideoRendering**), come illustrato nella figura seguente:
 
 ![schermata_shot_2018-10-17alle85307pm](assets/screen_shot_2018-10-17at85307pm.png)
@@ -57,7 +57,7 @@ Per creare e utilizzare il flusso di lavoro, segui i passaggi seguenti:
 
 Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
 
-1. Passa all’istanza AEM.
+1. Passa all’istanza di AEM.
 1. Fate clic sugli strumenti nella barra laterale.
 1. Fai clic su **Flusso di lavoro** > **Modelli** per creare un modello.
 
@@ -80,7 +80,7 @@ Per creare un flusso di lavoro per il video, effettua le seguenti operazioni:
    ![schermata_shot_2018-10-17alle95752pm](assets/screen_shot_2018-10-17at95752pm.png)
 
 1. Fare clic sulla scheda **Argomenti**.
-1. Nella finestra di dialogo **Riga di comando - Proprietà passaggio**, immettere il formato in **Tipi Mime** (come ***video/mp4***) e il comando come (***/usr/local/Cellar/ffmpeg -i ${filename} -vf &quot;pad=1920:height=1080:x=0:y=0:color=black&quot; cq5dam.video.fullhd-hp.mp4***). Questo comando avvia il flusso di lavoro nel campo **Comandi**.
+1. Nella finestra di dialogo **Riga di comando - Proprietà passaggio**, immettere il formato in **Tipi Mime** (come ***video/mp4***) e il comando come (***`/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4`***). Questo comando avvia il flusso di lavoro nel campo **Comandi**.
 
    Vedi i dettagli su **Tipi Mime** e **Comandi** nella nota seguente.
 
@@ -116,6 +116,6 @@ Per utilizzare il flusso di lavoro nel progetto AEM Screens, segui i passaggi se
 Per convalidare l’output:
 
 * Controlla un&#39;anteprima del video nel canale
-* Passa a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Liti, come illustrato nella figura seguente:
+* Passa a ***/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4*** in CRXDE Lite, come illustrato nella figura seguente:
 
 ![schermata_shot_2018-10-22at14326pm](assets/screen_shot_2018-10-22at14326pm.png)

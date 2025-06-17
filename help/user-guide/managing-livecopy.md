@@ -9,10 +9,10 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 4a4b3a83-2b02-42a0-86a7-fce6bbf47c7d
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +61,7 @@ Per visualizzare il contenuto della Live Copy, consulta i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Quando visualizzi il contenuto di un canale Live Copy, visualizzi un elemento aggiuntivo nel menu come **Stato Live Copy**. Per ulteriori informazioni, consulta la sezione seguente.
+   >Quando visualizzi il contenuto di un canale Live Copy, visualizzi un elemento aggiuntivo nel menu come **Stato Live Copy**. Per ulteriori dettagli, consulta la sezione di seguito.
 
 ### Visualizzazione delle proprietà di una Live Copy {#viewing-properties-of-a-live-copy}
 
@@ -93,7 +93,7 @@ La modalità **Stato Live Copy**, come illustrato nella figura seguente, ti cons
 
 Puoi anche annullare l’ereditarietà dalla Live Copy, in modo che il contenuto diventi indipendente dal ramo originale.
 
-L’esempio seguente mostra che fai clic sull’immagine in modalità di modifica e fai clic sul simbolo Annulla ereditarietà in alto a destra.
+L&#39;esempio seguente mostra che si fa clic sull&#39;immagine in modalità di modifica e si fa clic sull&#39;icona **Annulla ereditarietà** in alto a destra.
 
 ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -117,7 +117,7 @@ Segui i passaggi seguenti per assicurarti che le modifiche vengano propagate dal
 
    ![chlimage_1-27](assets/chlimage_1-27.png)
 
-1. Per propagare le modifiche al canale Live Copy, passa al dashboard AEM e fai clic sul canale Live Copy, quindi fai clic su **Proprietà** nella barra delle azioni.
+1. Per propagare le modifiche al canale Live Copy, passa al dashboard di AEM e fai clic sul canale Live Copy, quindi fai clic su **Proprietà** nella barra delle azioni.
 
    ![chlimage_1-28](assets/chlimage_1-28.png)
 
@@ -125,7 +125,7 @@ Segui i passaggi seguenti per assicurarti che le modifiche vengano propagate dal
 
    ![chlimage_1-29](assets/chlimage_1-29.png)
 
-1. Fai clic su **Sincronizza**, quindi fai clic su **Salva e chiudi** per tornare al dashboard AEM.
+1. Fai clic su **Sincronizza**, quindi fai clic su **Salva e chiudi** per tornare al dashboard di AEM.
 
    ![chlimage_1-30](assets/chlimage_1-30.png)
 

@@ -9,9 +9,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 4f16605b-aec1-45fa-a110-0af6925b74b0
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Questa sezione descrive come implementare Chrome OS Player utilizzando Chrome Ma
 
 Segui i passaggi seguenti per configurare la console di gestione Chrome:
 
-1. Registrarsi a Chrome Management Console. È necessario ottenere una licenza per Chrome Management Console. Per ulteriori informazioni, contattare il [supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&amp;ref_topic=2935995) per gestire le impostazioni dei dispositivi Chrome.
+1. Registrarsi a Chrome Management Console. È necessario ottenere una licenza per Chrome Management Console. Per ulteriori informazioni, contattare il [supporto Google](https://support.google.com/chrome/a/answer/1375678?hl=en&ref_topic=2935995) per gestire le impostazioni dei dispositivi Chrome.
 1. Registra il dispositivo del sistema operativo Chrome nel dominio e attendi 15 minuti per la sincronizzazione del dispositivo con Chrome Management Console. Per ulteriori informazioni sulla registrazione del dispositivo Chrome, fare clic [qui](https://support.google.com/chrome/a/answer/1360534?hl=en).
 1. Chrome Player è disponibile nel Chrome Web Store.
 
@@ -54,7 +54,7 @@ Per configurare il nome in Chrome Player, attenersi alla procedura descritta di 
    ![immagine](/help/user-guide/assets/chrome-device/chrome3.png)
 
    >[!NOTE]
-   >Chrome Player deve essere iscritto all’iscrizione Enterprise e Chrome Player deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce un valore vuoto (ad esempio, Chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono prese in considerazione da Adobe Experience Manager (AEM).
+   >Chrome Player deve essere iscritto all’iscrizione Enterprise e Chrome Player deve essere distribuito tramite Chrome Management Console; in caso contrario, l’ID risorsa restituisce un valore vuoto (ad esempio, Chrome come estensione). Il nome del dispositivo viene registrato solo al momento della registrazione. Le modifiche future non vengono selezionate da Adobe Experience Manager (AEM).
 
 ### Abilitazione della modalità Kiosk (chiosco) {#enabling-kiosk-mode}
 
@@ -143,9 +143,9 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 | risoluzione | Risoluzione del dispositivo. |
 | rebootSchedule | Pianificazione per il riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
-| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
+| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera di impostarlo su false una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
-| cloudMode | Impostare su true se si desidera che Chrome Player si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudMode | Impostare su true se si desidera che Chrome Player si connetta a Screens as a Cloud Service. Imposta su false per collegarti ad AMS o ad AEM on-premise. |
 | cloudToken | Token di registrazione per la registrazione a Screens as a Cloud Service. |
 
 >[!NOTE]

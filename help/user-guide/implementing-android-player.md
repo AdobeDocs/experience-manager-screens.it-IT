@@ -10,9 +10,9 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: 7410e2d8fd7fe1e8b795a35f3a76df4ea882117e
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---

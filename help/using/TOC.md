@@ -1,24 +1,24 @@
 ---
 cloud: Experience Cloud
-user-guide-title: Guida alle best practice per i progetti AEM Screens
+user-guide-title: Best practice per i progetti AEM Screens
 breadcrumb-title: Guida alle best practice per AEM Screens
 solution-title: AEM Screens
 getting-started-title: AEM Screens Best Practices Guide
-getting-started-description: AEM Screens Best Practices Guide provides guidance on how to successfully plan and execute an AEM Screens project.
+getting-started-description: AEM Screens best practices provides guidance on how to successfully plan and execute an AEM Screens project.
 feature-set: Experience Manager Screens
 product: experience manager
 audience: end-user
 feature: Content
 role: User
-source-git-commit: 5e04d2a5a024f60ce1d3868f6303244de1eeee6f
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 24%
+source-wordcount: '131'
+ht-degree: 7%
 
 ---
 
 
-# Guida alle best practice per i progetti AEM Screens {#using}
+# Best practice per i progetti AEM Screens {#using}
 
 + [Informazioni su questa guida](about-guide.md)
 + Panoramica {#overview}
@@ -32,7 +32,7 @@ ht-degree: 24%
    + [Contenuto aziendale nelle strategie UX](business-content-strategy.md)
    + [Dipendenze UX](ux-dependencies.md)
    + [Integrazione con Analytics](analytics.md)
-+ Informazioni progettuali {#design-brief}
++ Design Briefing {#design-brief}
    + [Mappa Percorso UX](journey-map.md)
    + [Prototipazione UX](prototypes.md)
    + [Wireframe UX](wireframes.md)
@@ -48,7 +48,7 @@ ht-degree: 24%
       + [Rete mobile con router dati mobile e componenti di rete attivi](/help/using/mobile-network-router.md)
       + [Rete aziendale chiusa (cablata/wireless)](/help/using/enclosed-corporate-network.md)
    + [Configurazioni dispositivo](device-configurations.md)
-   + [Test e garanzia della qualità](testing-quality-assurance.md)
+   + [Test e qualità Assurance](testing-quality-assurance.md)
    + [Strategia di coinvolgimento del fornitore](vendor-engagement.md)
 + Supporto e manutenzione {#ongoing-support}
    + [Supporto e monitoraggio](support-monitoring.md)

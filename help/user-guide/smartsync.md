@@ -9,7 +9,7 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: b8d0c089-af79-403e-870f-fb46b66fecd3
-source-git-commit: 6b4fc934c31640168528fa3e72cf634773f4f8e6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -45,7 +45,7 @@ La funzione SmartSync offre diversi vantaggi al progetto AEM Screens, ad esempio
 
 >[!NOTE]
 >
->L’Adobe consiglia vivamente di utilizzare SmartSync per i progetti AEM Screens.
+>Adobe consiglia di utilizzare SmartSync per i progetti AEM Screens.
 
 ## Migrazione da ContentSync a SmartSync {#migrating-from-contentsync-to-smartsync}
 
@@ -75,7 +75,7 @@ Per passare da ContentSync a SmartSync, effettua le seguenti operazioni:
    >
    >Prima di utilizzare SmartSync per la prima volta, è necessario cancellare tutta la cache del contenuto.
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite istanza AEM > icona martello > **Operazioni** > **Console Web**.
+1. Passa a **Configurazione console Web Adobe Experience Manager** tramite l&#39;istanza AEM > icona martello > **Operazioni** > **Console Web**.
 
    ![schermata_shot_2019-02-11alle15339pm](assets/screen_shot_2019-02-11at15339pm.png)
 

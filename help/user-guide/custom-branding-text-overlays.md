@@ -6,7 +6,7 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 059e1b19-e9b5-48f0-8f2f-141f0c2f7842
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Per creare un marchio e uno stile personalizzati per le sovrapposizioni di testo
    >[!NOTE]
    >Per informazioni su come aggiungere una sovrapposizione di testo alla risorsa in un editor di canali, consulta [Sovrapposizione di testo](/help/user-guide/text-overlay.md).
 
-1. Passa a CRXDE Lite dalla tua istanza AEM > Strumenti > **CRXDE Liti**.
+1. Passa a CRXDE Lite dalla tua istanza di AEM > Strumenti > **CRXDE Lite**.
 
 1. Creare una progettazione personalizzata in `/apps/settings/wcm/designs/<your-project>/`. In questo caso, ad esempio, passare a `/apps/settings/wcm/designs/customstyle/`
 
@@ -104,7 +104,7 @@ Aggiorna gli ACL per queste progettazioni in modo che il lettore possa scaricarl
 
 ## Visualizzazione del risultato {#viewing-the-result}
 
-Dopo aver completato i passaggi precedenti, puoi aggiornare il file *statis.css* da **CRXDE Liti** e quindi visualizzare l&#39;aggiornamento alla sovrimpressione di testo già aggiunto alla risorsa.
+Dopo aver completato i passaggi precedenti, puoi aggiornare il file *statis.css* da **CRXDE Lite** e quindi visualizzare l&#39;aggiornamento alla sovrimpressione di testo già aggiunto alla risorsa.
 
 Per visualizzare la progettazione aggiornata in sovrapposizione testo, attenersi alla procedura descritta di seguito.
 

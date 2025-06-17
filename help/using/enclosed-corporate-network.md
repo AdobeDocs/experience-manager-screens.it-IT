@@ -2,9 +2,9 @@
 title: Rete aziendale chiusa
 description: Rete aziendale chiusa
 exl-id: b8c52e72-86da-4089-ba02-0c643862419f
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ L&#39;Enclosed Corporate Network SetUp è applicabile alle aziende di piccole, g
 
 Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM Screen in questa configurazione:
 
-1. Assicurarsi che ogni lettore AEM Screen sia collegato alla rete dei router.
+1. Assicurati che ciascuno dei lettori AEM Screen sia connesso alla rete dei router.
 1. Verificare la connessione Internet chiamando un URL nel browser del sistema.
 
    >[!NOTE]
@@ -60,7 +60,7 @@ Le prestazioni della connessione Internet, oltre alla raggiungibilità della ret
 
 Le prestazioni della rete LAN (Local Area Network), oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per gestire senza problemi gli aggiornamenti dei contenuti AEM Screens.
 
-La rete LAN all&#39;interno delle organizzazioni aziendali è in genere di almeno 1000 MBit/sec, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti i componenti corrispondano ai requisiti di larghezza di banda della rete.
+La rete LAN all&#39;interno delle organizzazioni aziendali è in genere di almeno 1000 MBit/sec, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema. Quando si utilizzano altri componenti di rete attivi, è obbligatorio che tutti corrispondano ai requisiti di larghezza di banda della rete.
 
 Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 Mbps e alla larghezza di banda fornita dalle specifiche di accesso a Internet e router.
 

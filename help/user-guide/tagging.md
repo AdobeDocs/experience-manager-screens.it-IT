@@ -3,9 +3,9 @@ title: Assegnazione di tag in Screens Cloud
 description: Questa pagina descrive come creare, gestire e utilizzare i tag in Screens Cloud.
 index: true
 exl-id: 7b15d7cc-f089-4008-9039-5f48343a0f20
-source-git-commit: 2fb092c530ec335d754802a0a8af2b63ec8549d2
+source-git-commit: 4828cf78d1ca81f0dd6f2cb1b82fd34afd93a672
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->La funzionalità **Assegnazione tag** è disponibile solo se è abilitata per il tenant. Contatta il team tecnico di AEM Screens per abilitarlo.
+>La funzionalità **Assegnazione tag** è disponibile solo se è abilitata per il tenant. Contatta il team ingegneristico di AEM Screens per abilitarlo.
 
 ## Introduzione {#introduction}
 
@@ -39,7 +39,7 @@ Utilizza i tag creati su Display e lettori.
 >[!NOTE]
 >
 > A uno schermo o a un lettore possono essere assegnati fino a un massimo di 30 tag.
-> È possibile taggare un massimo di 30 elementi contemporaneamente.
+> > È possibile taggare un massimo di 30 elementi contemporaneamente.
 
 ## Filtra per tag {#filter-by-tags}
 

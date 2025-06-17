@@ -2,16 +2,16 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: 7eae5038cb836219447d900bacf8af2faab51a43
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1254'
 ht-degree: 0%
 
 ---
 
 # Ruoli e responsabilità del progetto {#roles-responsibilities}
 
-In qualità di implementatore AEM esperto, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori* e *Tecnici IT*.
+In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori* e *Tecnici IT*.
 
 In un tipico progetto AEM Screens, i ruoli vengono ulteriormente perfezionati in quanto ciascuno di essi ha uno scopo importante nel progetto.
 
@@ -29,15 +29,15 @@ La sezione seguente fornisce una panoramica del pubblico target:
 
 ### Adobe {#adobe-audience}
 
-L’Adobe include risorse Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
+Adobe include risorse Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
 
 ### Implementatori AEM {#aem-implementors}
 
-Gli implementatori AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per l’AEM.
+Gli implementatori di AEM sono responsabili dell’esecuzione di attività di sviluppo e integrazione per sviluppare l’esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati. Altre fasi includono il supporto per gli elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
+In genere, gli implementatori di AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include il supporto della riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati. Altre fasi includono il supporto per gli elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
 
 ### Integratori Audio-Video {#av-integrators}
 
@@ -53,7 +53,7 @@ Un integratore audio-video è responsabile dell&#39;esecuzione dell&#39;individu
 
 È fondamentale fare clic sul partner hardware appropriato. Devono essere prese in considerazione le seguenti domande:
 
-1. Quali sono i termini dell&#39;accordo sui livelli di servizio?
+1. Quali sono i termini di Service level agreement?
 
 1. Che cos &#39;è la copertura globale?
 
@@ -76,7 +76,7 @@ Il team Creative e Content Management lavora a stretto contatto con il team Stra
 
 La gestione di contenuti e creatività potrebbe essere la seguente:
 
-* Agenzia creativa o,
+* Creative Agency o
 * Brand Manager
 
 ### Project manager {#project-managers}
@@ -85,7 +85,7 @@ In genere, i project manager gestiscono l’intera implementazione di AEM Screen
 
 >[!NOTE]
 >
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fasi del progetto {#project-stages}
@@ -100,7 +100,7 @@ Per supportare una corretta implementazione del digital signage, è consuetudine
 >
 >Mentre questa guida pone l&#39;accento principalmente su *Primo giorno* e *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per eseguire un progetto di digital signage di successo.
 >
->Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Grafico RACI {#raci-chart}
 
@@ -114,7 +114,7 @@ Di seguito è riportato un grafico RACI di esempio che utilizza le definizioni d
 
 * **Responsabile**: esegue il lavoro per completare l&#39;attività.
 
-* **Responsabile**: i delegati lavorano e sono l&#39;ultima parte a rivedere l&#39;attività prima che venga completata.
+* **Responsabile**: i delegati lavorano e sono l&#39;ultima parte a rivedere l&#39;attività prima che sia completata.
 
 * **Consultato**: esamina l&#39;attività o il risultato finale per fornire input.
 
@@ -130,7 +130,7 @@ Nella tabella seguente viene riepilogato lo zero del **giorno: Considerazioni pr
 | Accordo su ruoli e responsabilità | RA | RA | RA | RA |
 | Allineamento su obiettivi strategici | CI | I | RA | RA |
 | Esigenze di reporting e identificazione del ROI | I | C | RA | C |
-| Visita del sito e requisiti hardware | RA | I | C | C |
+| Visite al sito e requisiti hardware | RA | I | C | C |
 | Definizione del processo di supporto | C | I | RA | I |
 | Definisci ambito di lavoro e piano di progetto | RA | RA | C | C |
 
@@ -187,7 +187,7 @@ La tabella seguente riepiloga il **giorno uno: giorno uno: implementazione del p
 
 La tabella seguente riepiloga il **secondo giorno: Grafico RACI supporto post-lancio**:
 
-| **Fase** | **Autore** | **Sviluppatore** | **Tecnico** |
+| **Fase** | **Authoring** | **Sviluppatore** | **Tecnico** |
 |---|---|---|---|
 | *Secondo Giorno: Supporto Post-Lancio* |
 | Accordo su ruoli e responsabilità | RA | RA | RA |

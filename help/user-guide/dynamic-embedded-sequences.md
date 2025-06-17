@@ -9,7 +9,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
-source-git-commit: 8a914d4b0237c327b7954c936c84a2c1aa719603
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
 source-wordcount: '2451'
 ht-degree: 1%
@@ -53,7 +53,7 @@ L’esempio seguente fornisce una soluzione concentrandosi sui seguenti termini 
 
 * un ***canale sequenza principale*** per la sequenza globale.
 * ***componenti di sequenza incorporata dinamica*** per ogni parte della sequenza personalizzabile localmente.
-* ***singoli canali di sequenza*** nelle rispettive posizioni con un *ruolo* nella visualizzazione corrispondente al *ruolo&#x200B;*** del componente sequenza incorporato dinamico &#x200B;**.
+* ***singoli canali di sequenza*** nelle rispettive posizioni con un *ruolo* nella visualizzazione corrispondente al *ruolo*** del componente sequenza incorporato dinamico **.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Prima di iniziare a implementare questa funzionalità, accertati di disporre dei
 
 * Crea un progetto AEM Screens (in questo esempio, **Demo**).
 * Crea un canale **Global** nella cartella **Channels**.
-* Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**&#x200B;per le risorse rilevanti*).
+* Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**per le risorse rilevanti*).
 
 L&#39;immagine seguente mostra il progetto **Demo** con il canale **Global** nella cartella **Channels**.
 ![schermata_shot_2018-09-07alle21032pm](assets/screen_shot_2018-09-07at21032pm.png)
@@ -310,7 +310,7 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
    1. Fai clic su **Crea gruppo** e immetti **Autore globale** in **ID**.
    1. Fai clic su **Salva e chiudi**.
 
-   Allo stesso modo, crea altri due gruppi come **Autore-Regione** e **Autore-Archivio**.
+   Analogamente, creare altri due gruppi, ad esempio **Autore-Regione** e **Autore-Archivio**.
 
    ![schermata_shot_2018-09-17alle34008pm](assets/screen_shot_2018-09-17at34008pm.png)
 
@@ -318,12 +318,12 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 
    1. Passa a **Adobe Experience Manager**.
    1. Fai clic su **Strumenti** > **Protezione** > **Utenti**.
-   1. Fai clic su **Crea utente** e immetti **Utente globale** in **ID**.
+   1. Fai clic su **Crea utente**, quindi in **ID** immetti **Utente globale**.
    1. Immetti **Password** e conferma la password per questo utente.
    1. Fai clic sulla scheda **Gruppi** e immetti il nome del gruppo in **Fai clic su Gruppo**. Ad esempio, immetti **Global-Author** per aggiungere **Global-User** a quel gruppo specifico.
    1. Fai clic su **Salva e chiudi**.
 
-   Allo stesso modo, crea altri due utenti come **Utente-Regione** e **Utente-Archivio** e aggiungili rispettivamente a **Autore-Regione** e **Autore-Archivio**.
+   Allo stesso modo, crea altri due utenti, ad esempio **Utente-Regione** e **Utente-Store**, e aggiungili rispettivamente a **Autore-Regione** e **Autore-Store**.
 
    >[!NOTE]
    >È consigliabile aggiungere utenti in un gruppo e quindi assegnare le autorizzazioni a ciascun gruppo di utenti specifico.

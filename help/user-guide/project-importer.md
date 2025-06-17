@@ -10,9 +10,9 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ L’obiettivo di questa funzione è ridurre il tempo necessario per configurare 
 Consentendo all&#39;autore di fornire un foglio di calcolo come file di input e consentendo al sistema di creare automaticamente la struttura di posizioni nel back-end, questa funzione:
 
 * *ottiene prestazioni notevolmente migliori rispetto alla selezione manuale tramite l&#39;interfaccia utente*
-* *consente al cliente di esportare le posizioni di cui dispone dal proprio sistema e di importarle facilmente direttamente in AEM*
+* *consente al cliente di esportare i percorsi di cui dispone dal proprio sistema e di importarli facilmente direttamente in AEM*
 
 Questo processo consente di risparmiare tempo e denaro durante la configurazione iniziale del progetto o quando si estende l’AEM Screens esistente a nuove posizioni.
 
@@ -57,9 +57,9 @@ Il modello dati per Importazione progetti è descritto di seguito:
 
 Il file del foglio di calcolo (CSV/XLS) richiede quindi le seguenti colonne:
 
-* **percorso {string}** - Percorso per il percorso da importare, dove la radice del percorso è la cartella dei percorsi per il progetto (ovvero *`/foo`* è importato in *`/content/screens/<project>/locations/foo`*)
-* **modello {string}** - Modello da utilizzare per la nuova posizione. Per il momento l&#39;unico valore consentito è &quot;posizione&quot;, ma questo valore viene esteso in futuro a tutti i modelli di Screens (`display`, `sequencechannel` e così via)
-* **[./*] {string}** - Qualsiasi proprietà facoltativa da impostare nel percorso (ovvero `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versione corrente non consente alcun filtro.
+* **percorso{string}** - Percorso per il percorso da importare, dove la radice del percorso è la cartella dei percorsi per il progetto (ovvero *`/foo`* è importato in *`/content/screens/<project>/locations/foo`*)
+* **modello{string}** - Modello da utilizzare per la nuova posizione. Per il momento l&#39;unico valore consentito è &quot;posizione&quot;, ma questo valore viene esteso a tutti i modelli `Screens` in futuro (`display`, `sequencechannel` e così via)
+* **[./*] {string}** - Qualsiasi proprietà facoltativa da impostare sul percorso (ovvero `./jcr:title`, `./jcr:description`, `./foo, ./bar`). La versione corrente non consente alcun filtro.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Per importare un file in una cartella di percorso contenente i campi obbligatori
 
    ![schermata_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Fare clic sul progetto,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Crea &#x200B;**>**&#x200B; posizioni di importazione** dalla barra laterale.
+1. Fare clic sul progetto,** DemoProjectImporter **>** Crea **>** posizioni di importazione** dalla barra laterale.
 
    ![schermata_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

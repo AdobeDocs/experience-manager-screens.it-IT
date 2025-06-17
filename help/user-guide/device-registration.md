@@ -10,9 +10,9 @@ feature: Administering Screens, Device Registration
 role: Admin
 level: Intermediate
 exl-id: b2d3a2cd-263f-4142-80da-29ce54cbf391
-source-git-commit: ce8340f24d116b4268a6ed15dd4e9f626bad1ef6
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer dist
 >Dopo aver scaricato la versione più recente di Windows Player (*.exe*) dalla pagina [Download di AEM 6.4 Player](https://download.macromedia.com/screens/), seguire la procedura del lettore per completare l&#39;installazione ad hoc:
 >
 >1. Premi a lungo nell’angolo in alto a sinistra per aprire il pannello di amministrazione.
->1. Passa a **Configurazione** dal menu Azioni a sinistra e immetti l&#39;indirizzo della posizione dell&#39;istanza AEM in **Server**, quindi fai clic su **Salva**.
+>1. Passa a **Configurazione** dal menu Azioni a sinistra e immetti l&#39;indirizzo del percorso dell&#39;istanza di AEM in **Server**, quindi fai clic su **Salva**.
 >1. Fai clic sul collegamento **Registrazione** dal menu Azioni a sinistra e sui passaggi seguenti per completare il processo di registrazione del dispositivo.
 >
 
@@ -47,7 +47,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer dist
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sulla creazione di un progetto per Screens nel dashboard AEM, vedere [Creare e gestire un progetto Screens](creating-a-screens-project.md).
+   >Per ulteriori informazioni sulla creazione di un progetto per Screens nel dashboard di AEM, vedere [Crea e gestisci progetto Screens](creating-a-screens-project.md).
 
 1. Fare clic sul pulsante **Gestione periferiche** nella barra delle azioni.
 
@@ -82,7 +82,7 @@ Il processo di registrazione del dispositivo viene eseguito su due computer dist
    >
    >**Registra nuovo** consente di registrare un nuovo dispositivo.
    >
-   >L&#39;**Assegna visualizzazione** ti consente di aggiungere direttamente il dispositivo a una visualizzazione.
+   >**Assegna visualizzazione** consente di aggiungere direttamente il dispositivo a una visualizzazione.
 
    Se si fa clic su **Fine**, assegnare il dispositivo a una visualizzazione.
 

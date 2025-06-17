@@ -5,9 +5,9 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1218'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Segui i passaggi seguenti sul dispositivo Samsung in modo da poter completare l�
 ## Esenzione degli agenti utente con il problema relativo ai cookie SameSite {#exempting-user-agents}
 
 >[!IMPORTANT]
->**Questa sezione si applica a Adobe Experience Manager (AEM) da 6.5.5 a AEM 6.5.7**
+>**Questa sezione si applica a Adobe Experience Manager (AEM) 6.5.5 in AEM 6.5.7**
 >
 >Alcuni motori del browser non sono compatibili con l&#39;attributo *`SameSite=None`* utilizzato nel token di accesso rilasciato da AEM 6.5.5 a AEM 6.5.7. Di solito, il problema può essere risolto aggiornando il browser all’ultima versione disponibile. Talvolta tali aggiornamenti potrebbero non essere possibili, ad esempio con display avanzati, set-top box o altri dispositivi con motori di navigazione incorporati.
 
@@ -81,7 +81,7 @@ Segui i passaggi seguenti per esentare questi client incompatibili quando utiliz
 
 1. Aggiornamento a Adobe Experience Manager (AEM) Service Pack 6.5.7.
 
-1. Dopo il riavvio dell&#39;AEM, passare a `/system/console/configMgr` e cercare **Adobe Granite Token Authentication Handler**. Impostare il valore per **SameSite** su **None**.
+1. Dopo il riavvio di AEM, vai a `/system/console/configMgr` e cerca **Gestore autenticazione token Adobe Granite**. Impostare il valore per **SameSite** su **None**.
 
 1. Dovrebbe essere visualizzata una nuova opzione *`User agents to be exempted from samesite attribute`*. Compilare questa opzione con un regex corrispondente all&#39;agente utente incompatibile con l&#39;attributo *SameSite=None*.
 
@@ -89,7 +89,7 @@ Segui i passaggi seguenti per esentare questi client incompatibili quando utiliz
    >
    >Per ulteriori dettagli, vedere [SameSite=None: Known Incompatible Clients](https://www.chromium.org/updates/same-site/incompatible-clients). Per il lettore Tizen, utilizzare il codice regex: `(.*)Tizen(.*)`.
 
-1. Registra il lettore Tizen rispetto all’istanza AEM 6.5.5 e versioni successive e deve registrarsi e mostrare il contenuto normalmente.
+1. Registra il lettore Tizen in base all’istanza AEM 6.5.5 o superiore e deve registrarsi e mostrare il contenuto normalmente.
 
 ## Provisioning remoto del lettore Tizen {#remote-provisioning}
 
@@ -119,7 +119,7 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
 >[!NOTE]
 >Le configurazioni dei criteri dell’interfaccia utente di amministrazione del lettore vengono rigorosamente applicate e non vengono ignorate manualmente. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio.
->Se ad esempio si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
+>>Se ad esempio si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
 
 | **Nome criterio** | **Scopo** |
 |---|---|
@@ -128,9 +128,9 @@ Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 | risoluzione | Risoluzione del dispositivo. |
 | rebootSchedule | Pianificazione per il riavvio del lettore. |
 | enableAdminUI | Abilita l’interfaccia utente di amministrazione per configurare il dispositivo sul sito. Impostato su false una volta che è completamente configurato e in produzione. |
-| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera l’impostazione su false, una volta che è completamente configurato e in produzione. |
+| enableOSD | Abilita l’interfaccia utente per cambiare canale affinché gli utenti possano cambiare canale sul dispositivo. Considera di impostarlo su false una volta che è completamente configurato e in produzione. |
 | enableActivityUI | Abilita questa opzione affinché tu possa visualizzare l’avanzamento di attività quali download e sincronizzazione. Abilita per la risoluzione dei problemi e disabilita una volta che è completamente configurato e in produzione. |
-| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Impostare su false per connettersi a AMS o a un AEM locale. |
+| cloudMode | Imposta su true se desideri che il lettore Tizen si connetta a Screens as a Cloud Service. Imposta su false per collegarti ad AMS o ad AEM on-premise. |
 | cloudToken | Token di registrazione per la registrazione a Screens as a Cloud Service. |
 
 
