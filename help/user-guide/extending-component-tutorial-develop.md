@@ -40,11 +40,11 @@ Per completare questa esercitazione, sono necessari i seguenti elementi:
 1. [Lettore AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente di sviluppo locale
 
-I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. Per completare l&#39;esercitazione è inoltre possibile utilizzare le IDE [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij). Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con AEM sono disponibili qui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. Per completare l&#39;esercitazione è inoltre possibile utilizzare le IDE [Eclipse](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij). Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con AEM sono disponibili qui](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configurazione del progetto {#project-setup}
 
-Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l&#39;esercitazione, è stato pregenerato un progetto utilizzando [Archetipo progetto AEM 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli sulla [creazione di un progetto con Archetipo progetto Maven AEM sono disponibili qui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l&#39;esercitazione, è stato pregenerato un progetto utilizzando [Archetipo progetto AEM 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli sulla [creazione di un progetto con Archetipo progetto Maven AEM sono disponibili qui](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Scarica e installa i seguenti pacchetti utilizzando **Gestione pacchetti CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
@@ -314,7 +314,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
 ## Creare librerie lato client {#clientlibs}
 
-Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull&#39;utilizzo di [Librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull&#39;utilizzo di [Librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto alla modalità Anteprima/Produzione. Vengono creati due set di librerie client, uno per la modalità di modifica e l’altro per l’anteprima/produzione.
 
@@ -339,7 +339,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    La proprietà `categories` è una stringa che identifica la libreria client. La categoria `cq.screens.components` viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito nella libreria client `shared` viene caricato in tutte le modalità.
 
-   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. La proprietà `allowProxy` garantisce che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni sulla proprietà [allowProxy sono disponibili qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. La proprietà `allowProxy` garantisce che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni sulla proprietà [allowProxy sono disponibili qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crea il file denominato `css.txt` sotto la cartella condivisa.
 

@@ -19,21 +19,21 @@ Inizia a usare AEM Screens seguendo le sezioni seguenti per configurare le confi
 
 ## Configurazioni server {#server-configurations}
 
-Per configurare le configurazioni del server, vedere [Configurazioni del server](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
+Per configurare le configurazioni del server, vedere [Configurazioni del server](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Author-Publish {#author-publish}
 
-Consulta [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Consulta [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Se esiste un solo Autore e una sola Pubblicazione, è possibile seguire solo i passaggi descritti in **Impostazione degli agenti di replica sull&#39;Autore** nella pagina [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+>Se esiste un solo Autore e una sola Pubblicazione, è possibile seguire solo i passaggi descritti in **Impostazione degli agenti di replica sull&#39;Autore** nella pagina [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Configurazioni di Dispatcher {#dispatcher-configurations}
 
 Dispatcher è lo strumento di caching e bilanciamento del carico di Adobe Experience Manager. L’utilizzo di AEM Dispatcher consente inoltre di proteggere il server AEM da eventuali attacchi. Pertanto, puoi aumentare la sicurezza della tua istanza di AEM utilizzando Dispatcher con un server web di classe enterprise.
 
-Consulta **[Configurazioni Dispatcher per AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** che evidenzia le linee guida per la configurazione di Dispatcher per un progetto AEM Screens.
+Consulta **[Configurazioni Dispatcher per AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** che evidenzia le linee guida per la configurazione di Dispatcher per un progetto AEM Screens.
 
 ## Installazione di rappresentazioni FFMpeg e video {#installing-ffmpeg}
 
@@ -44,13 +44,13 @@ Installare FFMpeg seguendo la procedura per il sistema operativo appropriato (in
 
    >[!NOTE]
    >
-   >`-strict -2` deve essere l&#39;ultimo parametro nell&#39;elenco dei parametri. Inoltre, in AEM 6.4, copia i nodi in */libs/settings/dam/video* in */conf/global/settings/dam/video* come indicato in [Rappresentazioni video](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >`-strict -2` deve essere l&#39;ultimo parametro nell&#39;elenco dei parametri. Inoltre, in AEM 6.4, copia i nodi in */libs/settings/dam/video* in */conf/global/settings/dam/video* come indicato in [Rappresentazioni video](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Verifica che le conversioni video siano in corso e che vengano create le rappresentazioni.
 
 ## Limitazioni password {#password-restrictions}
 
 I criteri password di AEM devono essere disabilitati nell&#39;istanza AMS. Può anche essere configurato in alternativa nella console Web utilizzando il servizio dispositivo di Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Consulta la sezione **Password Restrictions** in[Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Consulta la sezione **Password Restrictions** in[Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configurazione degli ambienti {#setting-up-environments}
 
@@ -72,4 +72,4 @@ Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale. I
 
 La sezione Configurazione di ACL spiega come separare i progetti in modo che ogni singolo utente o team gestisca il proprio progetto.
 
-Per ulteriori dettagli, vedere [Configurazione di ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
+Per ulteriori dettagli, vedere [Configurazione di ACL](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
