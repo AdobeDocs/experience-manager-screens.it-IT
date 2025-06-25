@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager 6.5 (AEM 6.5). Puoi ottenere le informazioni sulla versione più recente da [qui](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
->>Adobe consiglia di utilizzare FP11.6 con SP (servicepack) >= 21.
+>&#x200B;>Adobe consiglia di utilizzare FP11.6 con SP (servicepack) >= 21.
 
 ## Disponibilità {#availability}
 
