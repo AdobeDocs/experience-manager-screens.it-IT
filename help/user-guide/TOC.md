@@ -8,9 +8,9 @@ user-guide-description: Scopri come utilizzare una soluzione Digital Signage per
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: d8392b015c65e6bba35ba4c923d4f663e1121e0c
+source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '556'
 ht-degree: 11%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 11%
    + Integrazione di Analytics con AEM Screens {#analytics-integration}
       + [Integrazione di Adobe Analytics](adobe-analytics-integration-aem-screens.md)
       + [Configurazione di Adobe Analytics con AEM Screens](configuring-adobe-analytics-aem-screens.md)
-+ Esempi di authoring e casi d&#39;uso {#authoring}
++ Esempi di authoring e casi d’uso {#authoring}
    + Configurazione di un progetto Screens {#setting-up-projects}
       + [Creazione e gestione di progetti](creating-a-screens-project.md)
       + [Creazione e gestione dei canali](managing-channels.md)
@@ -65,14 +65,14 @@ ht-degree: 11%
       + [Creazione e gestione delle posizioni](managing-locations.md)
       + [Creazione e gestione delle pianificazioni](managing-schedules.md)
       + [Gestione dei dispositivi](managing-devices.md)
-      + Assegnazione canali {#assigning-channels}
+      + Assegnazione dei canali {#assigning-channels}
          + [Assegnazione canale](channel-assignment-latest-fp.md)
          + [Assegnazione canale: Feature Pack precedenti di AEM Screens](channel-assignment.md)
-   + Utilizzo delle funzionalità core del prodotto {#product-features}
+   + Utilizzo delle funzioni core del prodotto {#product-features}
       + [Sovrapposizione testo](text-overlay.md)
       + [Aggiornamento offline in blocco](bulk-offline-update.md)
       + [Servizio notifiche AEM Screens](screens-notifications-service.md)
-      + [Utilizzo di Frammenti esperienza](experience-fragments-in-screens.md)
+      + [Utilizzo di frammenti esperienza](experience-fragments-in-screens.md)
       + [Attivazione a livello di risorsa](asset-level-scheduling.md)
       + [Attivazione a livello di canale](channel-level-activation.md)
       + [Creazione e gestione di una Live Copy](managing-livecopy.md)
@@ -94,7 +94,7 @@ ht-degree: 11%
       + [Aggiornamento dei contenuti on-demand](on-demand-content.md)
       + [Aggiornamento contenuto as a service](content-update-as-a-service.md)
       + [Aggiornamento dei contenuti con Screens Launch](launches.md)
-   + Esempi di casi d&#39;uso {#use-case-examples}
+   + Esempi di casi d’uso {#use-case-examples}
       + [Canali di emergenza](emergency-channel.md)
       + [Attivazione temperatura centro di viaggio](local-temperature-activation.md)
       + [Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Risoluzione dei problemi di Device Control Center](monitoring-screens.md)
    + [Configurazione riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
+   + [Note sulla versione per Feature Pack 20251007](release-notes-fp-20251007.md)
    + [Note sulla versione per Feature Pack 20250327](release-notes-fp-20250327.md)
    + [Note sulla versione per Feature Pack 20250224](release-notes-fp-20250224.md)
    + [Note sulla versione per Feature Pack 20240715](release-notes-fp-20240715.md)
