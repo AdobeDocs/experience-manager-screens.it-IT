@@ -2,16 +2,19 @@
 title: Panoramica e configurazioni dell’architettura di rappresentazioni adattive
 description: Scopri la panoramica dell’architettura e le configurazioni in CRXDE Lite per rappresentazioni adattive in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+source-git-commit: 053df80bfd6fe39be93c0fe4c800fe775740dc7e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 2%
+source-wordcount: '639'
+ht-degree: 3%
 
 ---
 
 # Rappresentazioni adattive: panoramica dell’architettura e configurazioni {#adaptive-renditions}
 
 ## Introduzione {#introduction}
+
+>[!CAUTION]
+>Questa funzione è supportata solo su AEM on-premise (AEM 6.5). Non è supportato in AEM as a Cloud Service.
 
 Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base a regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente il rendering più appropriato di una risorsa in base a queste regole, consentendo ai clienti di concentrarsi solo sulla progettazione dell&#39;esperienza *principale*.
 
@@ -36,7 +39,7 @@ Per abilitare la funzione Rendering adattivi, è necessario che siano presenti l
 
 Per configurare la configurazione, segui i passaggi seguenti:
 
-1. Passa a **CRXDE Liti**. Verifica se la configurazione **rendition-mapping** esiste in `/conf/screens/sling:configs/rendition-mapping`, come illustrato nella figura seguente.
+1. Passa a **CRXDE Lite**. Verifica se la configurazione **rendition-mapping** esiste in `/conf/screens/sling:configs/rendition-mapping`, come illustrato nella figura seguente.
 
    >![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
@@ -46,7 +49,7 @@ Per configurare la configurazione, segui i passaggi seguenti:
 
 ### Aggiunta di una proprietà di mappatura rappresentazione a un progetto esistente {#rendition-mapping-existing}
 
-1. Passa a **CRXDE Liti**.
+1. Passa a **CRXDE Lite**.
 
 1. Definisci in modo esplicito l&#39;associazione di mappatura della rappresentazione aggiungendo la proprietà `sling:configRef` che punta a `/conf/screens` al nodo del contenuto del progetto, come illustrato nella figura seguente.
 
@@ -57,7 +60,7 @@ Per configurare la configurazione, segui i passaggi seguenti:
 
 Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti operazioni:
 
-1. Passa a questo percorso `/conf/screens/sling:configs/rendition-mapping` da **CRXDE Liti**.
+1. Passare a questo percorso `/conf/screens/sling:configs/rendition-mapping` da **CRXDE Lite**.
 1. Crea un nodo in **rendition-mapping**. Fare clic con il pulsante destro del mouse su **rendition-mapping** e scegliere **Crea** > **Crea nodo**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node1.png)
@@ -72,7 +75,7 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
    >[!NOTE]
    >Per ulteriori informazioni, consulta [Utilizzo della sintassi per query multimediali](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
-   Fai clic su **regola1** creata e immetti la **espressione** in **Nome** e **(orientamento:orizzontale)** in **Valore**, come illustrato di seguito. Fare clic su **Aggiungi**.
+   Fare clic su **regola1** creata e immettere la **espressione** in **Nome** e **(orientamento:landscape)** in **Valore**, come illustrato di seguito. Fai clic su **Aggiungi**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node3.png)
 
@@ -81,7 +84,7 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
    >[!NOTE]
    >Il valore definito nella proprietà pattern viene abbinato alla nuova rappresentazione della risorsa e, se l’espressione viene valutata come true, viene selezionato.
 
-   Per aggiungere la proprietà pattern, fare clic su **regola1** creata e immettere il **pattern** in **Nome** e **paesaggio** in **Valore**, come illustrato di seguito. Fare clic su **Aggiungi**.
+   Per aggiungere la proprietà pattern, fare clic su **regola1** creata e immettere il **pattern** in **Nome** e **paesaggio** in **Valore**, come illustrato di seguito. Fai clic su **Aggiungi**.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/add-node4.png)
 
