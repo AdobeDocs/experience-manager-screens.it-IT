@@ -2,10 +2,10 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Scopri come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 1%
 
 ---
 
@@ -13,15 +13,18 @@ ht-degree: 0%
 
 ## Introduzione {#introduction}
 
+>[!CAUTION]
+>Questa funzione è supportata solo su AEM on-premise (AEM 6.x). Non è supportato in AEM as a Cloud Service.
+
 Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticamente sulla rappresentazione migliore per un dispositivo in base a regole definite dal cliente. I dispositivi scaricano e riproducono automaticamente il rendering più appropriato di una risorsa in base a queste regole. Consente ai clienti di concentrarsi sulla progettazione dell&#39;esperienza *main*.
 
 ## Obiettivo {#objective}
 
-In qualità di autore di contenuti AEM Screens, ora puoi configurare le rappresentazioni di risorse specifiche per il dispositivo in modo che vengano scaricate e riprodotte automaticamente senza dover creare manualmente tutte le varianti di contenuto.
+In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.
 Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e quindi includerle in un canale AEM Screens.
 
 >[!IMPORTANT]
->Prima di iniziare a utilizzare le rappresentazioni adattive in un canale AEM Screens, l’Adobe consiglia di conoscere la panoramica e la configurazione dell’architettura di questa funzione. Consulta [Rappresentazioni adattive: panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md).
+>Prima di iniziare a utilizzare le rappresentazioni adattive in un canale AEM Screens, Adobe consiglia di conoscere la panoramica e la configurazione dell’architettura di questa funzione. Consulta [Rappresentazioni adattive: panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md).
 
 ## Utilizzo di rappresentazioni adattive nei canali {#using-adaptive-renditions}
 
@@ -34,7 +37,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
 
 1. Passa alla cartella **Assets** nell&#39;istanza AEM.
 1. Creare una versione della risorsa più adatta alla visualizzazione della segnaletica, ad esempio `seahorse.jpg`.
-1. Scegli il pattern di denominazione della rappresentazione, ad esempio `landscape`, simile a quello definito nella proprietà **pattern** in **CRXDE Liti**. Per ulteriori dettagli, vedere [Aggiunta delle regole di mapping delle rappresentazioni](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
+1. Scegliere il criterio di denominazione della rappresentazione, ad esempio `landscape`, simile a quello definito nella proprietà **pattern** in **CRXDE Lite**. Per ulteriori dettagli, vedere [Aggiunta delle regole di mapping delle rappresentazioni](/help/user-guide/adaptive-renditions.md#add-rendition-mapping-rules).
 1. Fai clic su **Aggiungi rappresentazione** per caricare la rappresentazione, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset2.png)
@@ -45,12 +48,12 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Per ulteriori informazioni sulla gestione della pubblicazione e sulla distribuzione degli aggiornamenti del contenuto da Author a Publish al dispositivo, consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content).
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
 
 ## Strategia di migrazione {#migration-strategy}
 
 >[!IMPORTANT]
->Per le reti di grandi dimensioni, l&#39;Adobe raccomanda che la migrazione sia effettuata gradualmente per mitigare i rischi. Il motivo è che la funzione può introdurre modifiche nel formato di archiviazione del manifesto e dei file. L&#39;aggiunta di `sling:configRef` all&#39;intero progetto comporta l&#39;aggiornamento di tutti i lettori a Feature Pack 6.5.9. Se hai aggiornato alcuni lettori, aggiungi `sling:configRef` solo alle visualizzazioni, alle posizioni o alle cartelle di canale in cui tutti i lettori sono stati aggiornati a Feature Pack 6.5.9.
+>Per le reti di grandi dimensioni, Adobe consiglia di eseguire gradualmente la migrazione per mitigare i rischi. Il motivo è che la funzione può introdurre modifiche nel formato di archiviazione del manifesto e dei file. L&#39;aggiunta di `sling:configRef` all&#39;intero progetto comporta l&#39;aggiornamento di tutti i lettori a Feature Pack 6.5.9. Se hai aggiornato alcuni lettori, aggiungi `sling:configRef` solo alle visualizzazioni, alle posizioni o alle cartelle di canale in cui tutti i lettori sono stati aggiornati a Feature Pack 6.5.9.
 
 Il diagramma seguente illustra la strategia di migrazione per le reti di grandi dimensioni:
 
