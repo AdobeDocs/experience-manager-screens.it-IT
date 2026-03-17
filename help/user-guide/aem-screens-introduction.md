@@ -57,7 +57,7 @@ La figura seguente definisce gli utenti tipo e i loro ruoli per Experience Manag
 
 * **Nozioni di base sull&#39;implementazione guidata**
 
-  Segui il percorso di apprendimento guidato **[Nozioni di base sull&#39;implementazione di Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a)** che riguarda le funzionalità fondamentali e avanzate supportate in Experience Manager Screens.
+  Segui il percorso di apprendimento guidato **[Nozioni di base sull&#39;implementazione di Experience Manager Screens](https://experienceleague.adobe.com/it?launch=AEM-7a)** che riguarda le funzionalità fondamentali e avanzate supportate in Experience Manager Screens.
 
 * **Guida alle best practice per i progetti Experience Manager Screens**
 
