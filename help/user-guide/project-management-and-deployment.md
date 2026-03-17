@@ -80,7 +80,7 @@ Scopri la gestione del progetto e la preparazione dell’implementazione e defin
 
 ### Gestione e implementazione dei progetti
 
->[!VIDEO](https://video.tv.adobe.com/v/28408)
+>[!VIDEO](https://video.tv.adobe.com/v/36980?captions=ita)
 
 *Informazioni sulla gestione del progetto e sulla preparazione della distribuzione (preproduzione del progetto, avvio del progetto, progressione del progetto).*
 

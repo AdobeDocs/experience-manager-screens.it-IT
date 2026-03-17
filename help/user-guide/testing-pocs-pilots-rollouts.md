@@ -73,7 +73,7 @@ Considerare tutte queste fasi come parte del piano generale del progetto aiuta a
 
 ### Test, POC, pilota e rollout
 
->[!VIDEO](https://video.tv.adobe.com/v/28405)
+>[!VIDEO](https://video.tv.adobe.com/v/36982?captions=ita)
 
 *Scopri i termini chiave di un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la verifica del concetto, i progetti pilota e i rollout.*
 
