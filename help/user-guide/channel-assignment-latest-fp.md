@@ -5,10 +5,10 @@ feature: Authoring Screens, Channel Assignment
 role: Admin, Developer
 level: Intermediate
 exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
-source-git-commit: f7653d8b386c02f510eb7a770cf3cdc22c41a5fb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 2%
+source-wordcount: '1448'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->In questa sezione vengono illustrate l’assegnazione dei canali e la pianificazione dei canali per Screens Feature Pack di AEM 6.5.5 e versioni successive.
+>Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per AEM 6.5.5 Screens Feature Pack e versioni successive.
 
 Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione per visualizzarne il contenuto.
 
@@ -210,18 +210,18 @@ In questo caso, ogni giorno è diviso in diversi intervalli di tempo, in modo ch
 
 | **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
 |---|---|---|---|
-| Colazione | Giornaliero | 06:00 | 11:00 |
-| Pranzo | Giornaliero | 11:00 | 15:00 |
-| Cena | Giornaliero | 15:00 | 20:00 |
+| Colazione | Giornaliero | 06:00:00 | 11:00 |
+| Pranzo | Giornaliero | 11:00 | 15:00:00 |
+| Cena | Giornaliero | 15:00:00 | 20:00:00 |
 
 #### Riproduzione di contenuti in un giorno specifico della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il DayParting implementato in un casinò in cui si verifica un evento in diretta ogni fine settimana dalle 20:00 alle 22:00 e sono disponibili speciali per il menu di cena dopo le 22:00 fino all’1:00.
+Questo esempio mostra il DayParting implementato in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:10:00 e sono disponibili offerte speciali per il menu cena dopo le 22:00 alle 13:00.:00:00:00:00
 
 | **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
 |---|---|---|---|
-| Fine settimana | Settimanale: sabato e domenica | 20:00 | 22:00 |
-| Programmi speciali | Giornaliero: dal lunedì al venerdì | 22:00 | 01:00 |
+| Fine settimana | Settimanale: sabato e domenica | 20:00:00 | 22:00:00 |
+| Programmi speciali | Giornaliero: dal lunedì al venerdì | 22:00:00 | 01:00:00 |
 
 >[!NOTE]
 >

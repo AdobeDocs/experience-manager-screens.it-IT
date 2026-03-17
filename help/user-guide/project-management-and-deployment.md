@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: d4c84d4b-3229-4fbe-a533-66daa382ed10
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Scopri la gestione del progetto e la preparazione dell’implementazione e defin
 
 ### Gestione e implementazione dei progetti
 
->[!VIDEO](https://video.tv.adobe.com/v/36980?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28408)
 
 *Informazioni sulla gestione del progetto e sulla preparazione della distribuzione (preproduzione del progetto, avvio del progetto, progressione del progetto).*
 

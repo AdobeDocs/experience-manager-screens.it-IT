@@ -2,9 +2,9 @@
 title: Ruoli e responsabilità del progetto AEM Screens
 description: Scopri i ruoli e le responsabilità dei progetti AEM Screens.
 exl-id: 9377625b-529a-4b46-89d9-f526de398639
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 2bab8e3ff6eb722b710f6e565be06d3061439d82
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ In genere, i project manager gestiscono l’intera implementazione di AEM Screen
 
 >[!NOTE]
 >
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fasi del progetto {#project-stages}
@@ -100,7 +100,7 @@ Per supportare una corretta implementazione del digital signage, è consuetudine
 >
 >Mentre questa guida pone l&#39;accento principalmente su *Primo giorno* e *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per eseguire un progetto di digital signage di successo.
 >
->Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Grafico RACI {#raci-chart}
 
@@ -189,7 +189,7 @@ La tabella seguente riepiloga il **secondo giorno: Grafico RACI supporto post-la
 
 | **Fase** | **Authoring** | **Sviluppatore** | **Tecnico** |
 |---|---|---|---|
-| *Secondo Giorno: Supporto Post-Lancio* |
+| *Secondo Giorno: Supporto Post-Lancio* | | | |
 | Accordo su ruoli e responsabilità | RA | RA | RA |
 | Supporto livello 1 | I | I | RA |
 | Supporto di livello 2 | I | C | RA |

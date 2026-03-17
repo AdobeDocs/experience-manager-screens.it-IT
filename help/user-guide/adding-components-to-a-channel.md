@@ -10,9 +10,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 56dbe098-05db-4fc3-977f-e50a0a312d64
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 5%
 
 ---
@@ -201,10 +201,10 @@ Per ulteriori informazioni su come creare un frammento esperienza e applicarlo a
 
 | **Proprietà** | **Descrizione** |
 |---|---|
-| **Frammento esperienza** |
-| ***Frammento esperienza*** | Seleziona il frammento di esperienza. |
+| **Frammento di esperienza** | |
+| ***Frammento di esperienza*** | Seleziona il frammento di esperienza. |
 | ***Durata*** | Seleziona l’intera durata del frammento di esperienza che viene riprodotto nel canale. |
-| **Configurazione offline** |
+| **Configurazione offline** |  |
 | ***Librerie lato client*** | file JavaScript e CSS. |
 | ***File statici*** | File statici che puoi aggiungere come configurazioni offline al frammento di esperienza. |
 
@@ -220,15 +220,15 @@ La risorsa immagine dispone di tre schede: **Immagine**, **Accessibilità** e **
 
 | **Proprietà** | **Descrizione** |
 |---|---|
-| **Immagine** |
+| **Immagine** |  |
 | ***Risorsa immagine*** | Fai clic sulla risorsa immagine. |
 | ***Titolo*** | Titolo dell&#39;immagine. |
 | ***Collegamento A*** | Aggiungi un collegamento all’immagine. |
 | ***Descrizione*** | Breve descrizione dell&#39;immagine. |
 | ***Dimensione*** | Dimensione dell&#39;immagine. |
-| **Accessibilità** |
+| **Accessibilità** |  |
 | ***Testo alternativo*** | Testo alternativo all’immagine. |
-| **Sequenza** |
+| **Sequenza** |  |
 | ***Durata*** | Per impostazione predefinita, la durata è impostata su *8000 millisecondi*. Se desideri modificare la durata di riproduzione dell&#39;immagine, aggiorna il campo **Durata**. |
 
 ### Transizione {#transition}

@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 7814ee96-9220-45b6-b56e-b48a9da9a319
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Per comprendere meglio le intenzioni dei clienti finali in merito a Content Asse
 * Le animazioni vengono riprodotte come programmi Video o HTML?
 * Esistono integrazioni di terze parti da servizi di abbonamento a contenuti, social media o servizi di aggregazione RSS o chiamate API?
 * Quali sono i requisiti di risoluzione delle immagini?
-* Gli schermi sono formati standard 16:9 o personalizzati? Verticale o orizzontale?
+* Gli schermi sono proporzioni standard 16:9 o personalizzati? Verticale o orizzontale?
 * Sono necessarie pareti video multischermo? In caso affermativo, quali sono le configurazioni?
 * I contenuti sono legati ai ricavi operativi o pubblicitari che richiedono strategie di failover per evitare tempi di inattività?
 

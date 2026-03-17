@@ -2,12 +2,12 @@
 title: 'Parte 1: Ruoli e responsabilità del progetto'
 description: In questo tutorial, scopri i ruoli, le responsabilità e le tempistiche necessari durante i cicli di vendita e di vita dei progetti di digital signage.
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 313cc26f-c509-4b28-a185-4e530e826b83
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Questa pagina evidenzia la parte 1 di una serie in 5 parti. È stato progettato 
 
 ## Panoramica {#overview}
 
-Il seguente tutorial illustra i ruoli e le responsabilità di progetto ad alto livello per Adobe, gli implementatori AEM e gli integratori audio/visivi. Puoi passare agli episodi successivi per ottenere una panoramica completa su come sviluppare correttamente le opportunità AEM Screens e posizionare le distribuzioni per il successo a lungo termine.
+Il seguente tutorial illustra i ruoli e le responsabilità di progetto ad alto livello per Adobe, gli implementatori di AEM e gli integratori audio/visivi. Puoi passare agli episodi successivi per ottenere una panoramica completa su come sviluppare correttamente le opportunità AEM Screens e posizionare le distribuzioni per il successo a lungo termine.
 
 Esistono tre gruppi principali coinvolti nel processo di consegna all’interno dei seguenti:
 
 * Adobe
 * Integratore audio-video
-* Team di implementazione AEM
+* Team di implementazione di AEM
 
 >[!NOTE]
 >
@@ -36,15 +36,15 @@ La definizione dei parametri dei casi d&#39;uso delle applicazioni in collaboraz
 
 ### Adobe {#adobe}
 
-Adobe include risorse di Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto di Adobe.
+Adobe include risorse Adobe Managed Services come il CSE (Customer Success Engineer) e il supporto Adobe.
 
 #### Implementatori AEM {#aem-implementors}
 
-Un **implementatore AEM** è responsabile dell&#39;esecuzione di attività di sviluppo e integrazione per sviluppare l&#39;esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
+Un **implementatore di AEM** è responsabile dell&#39;esecuzione di attività di sviluppo e integrazione per sviluppare l&#39;esperienza utente, i modelli personalizzati e le integrazioni back-end per AEM.
 
 Questo processo acquisisce e distribuisce anche le funzioni personalizzate necessarie per soddisfare i parametri UX (User Experience) del cliente finale.
 
-In genere, gli implementatori di AEM implementano funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include l’abilitazione del supporto di riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati. Include altre fasi che incorporano il supporto per gli elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
+In genere, gli implementatori di AEM distribuiscono funzionalità personalizzate in più fasi nel tempo sulle posizioni. Ad esempio, potrebbero prima stabilire il supporto per la riproduzione di video con loop di base o di contenuti grafici statici. La fase successiva include l’abilitazione del supporto di riproduzione di contenuti localizzati tramite modelli dinamici e tag di metadati. Include altre fasi che incorporano il supporto per gli elementi interattivi tramite touch screen, sensori, attivatori dinamici e così via.
 
 #### Integratori Audio-Video {#av-integrators}
 
@@ -56,9 +56,9 @@ Segui il tutorial seguente per capire esattamente in che modo ogni parte influis
 
 ### Parte 1: Ruoli e responsabilità del progetto
 
->[!VIDEO](https://video.tv.adobe.com/v/36985?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28375)
 
-*Scopri i ruoli e le responsabilità di Adobe, degli integratori audio/visivi e degli implementatori AEM.*
+*Scopri i ruoli e le responsabilità di Adobe, degli integratori audio/video e degli implementatori di AEM.*
 
 ## Passaggio successivo {#the-next-step}
 

@@ -9,9 +9,9 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 205235d7-e621-4134-975c-257ae60939bc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ Questa sezione tratta i seguenti argomenti:
 * **Notifica e-mail**
 * **Caso d&#39;uso di esempio**
 
-<!-- OBSOLETE NOTE>
+<!-- 
+OBSOLETE NOTE>
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. After you have permissions you can download it from Package Share. 
+-->
 
 ## Panoramica {#overview}
 
@@ -61,7 +63,7 @@ Segui i passaggi seguenti per configurare le impostazioni delle notifiche e-mail
    >
    >Specifica il percorso del progetto, dove si trovano gli utenti del dispositivo.
 
-   **Frequenza pianificazione** - Specificare un orario (ad esempio, 17:00 o 17:00) o una frequenza in ore (ad esempio, 1) in cui il monitoraggio deve inviare le e-mail.
+   **Frequenza pianificazione** - Specificare un orario (ad esempio, 5:00 P.M. o 17:00) o una frequenza in ore (ad esempio, 1) in cui il monitoraggio deve inviare le e-mail.
 
    **Timeout ping** - Questo campo specifica l&#39;intervallo in minuti dopo il quale un dispositivo deve essere considerato non raggiungibile.
 
@@ -102,7 +104,7 @@ Nell&#39;esempio seguente vengono descritti alcuni scenari di riferimento per co
 
 **Scenario 1**
 
-Puoi impostare la frequenza di pianificazione su 1:00 e il timeout del ping su 60. Quindi, se il dispositivo AEM Screens non esegue il ping tra le 12:00 e le 13:00, ricevi una notifica e-mail che conferma l’inattività del dispositivo.
+Puoi impostare la frequenza di pianificazione su 1:00 A.M. e il timeout del ping su 60. Quindi, se il dispositivo AEM Screens non esegue il ping tra le 12:00 e le 1:00, riceverai una notifica e-mail che conferma l’inattività del dispositivo.
 
 **Scenario 2**
 

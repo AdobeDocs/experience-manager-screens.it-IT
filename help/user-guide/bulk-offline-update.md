@@ -10,7 +10,7 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: d0a0b065-798e-4108-86ac-0a1f4e211cfc
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -24,12 +24,14 @@ Questa sezione tratta i seguenti argomenti relativi all’aggiornamento offline 
 * **Panoramica**
 * **Utilizzo dell&#39;aggiornamento offline in blocco**
 
-<!-- OBSOLETE VERSIONS
+<!--
+OBSOLETE VERSIONS
 >[!CAUTION]
 >
 >This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.
 >
->To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share. -->
+>To get access to this Feature Pack, contact Adobe Support and request access. When you have permissions you can download it from Package Share.
+-->
 
 ## Panoramica {#overview}
 
@@ -73,6 +75,6 @@ Per utilizzare l’aggiornamento offline in blocco per un progetto AEM Screens, 
    >
    >Specifica il percorso del progetto relativo al canale.
 
-   **Frequenza pianificazione** - Specifica un&#39;ora, ad esempio le 17.00 o le 17.00, in cui il servizio deve aggiornare il contenuto offline.
+   **Frequenza pianificazione** - Specifica un&#39;ora, ad esempio 5:00 P.M. o 17:00, in cui il servizio deve aggiornare il contenuto offline.
 
 1. Fai clic su **Salva** per salvare le impostazioni. Il contenuto viene aggiornato all&#39;ora specificata.

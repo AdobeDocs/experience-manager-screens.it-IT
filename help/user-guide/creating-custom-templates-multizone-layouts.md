@@ -6,9 +6,9 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,9 @@ Prima di creare un modello personalizzato in un layout multizona è necessario t
 
    | **Nome layout** | **Descrizione** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Layout orizzontale a tre zone che consente di creare tre zone:<br>* Zona 1 come 20% dello schermo orizzontale e verticale da sinistra<br>* Zona 2 come 80% dello schermo orizzontale e 20% dello schermo verticale giustificato a destra<br>* Zona 3 come 100% dello schermo orizzontale e 80% dello schermo verticale. Il rapporto di formato è 16:9 |
-   | `Upper20-PortraitHD2Zone` | Modello di ritratto in due zone che copre il 20% dello schermo dalla parte superiore, con proporzioni di 16:9 |
-   | `Right20-LandscapeSD3Zone` | Modello a tre aree che copre il 20% dello schermo da destra, con proporzioni di 4:3 |
+   | `Left20-LandscapeHD3Zone` | Layout orizzontale a tre zone che consente di creare tre zone:<br>* Zona 1 come 20% dello schermo orizzontale e verticale da sinistra<br>* Zona 2 come 80% dello schermo orizzontale e 20% dello schermo verticale giustificato a destra<br>* Zona 3 come 100% dello schermo orizzontale e 80% dello schermo verticale. Proporzioni: 16:9 |
+   | `Upper20-PortraitHD2Zone` | Modello di ritratto a due zone che copre il 20% dello schermo dall&#39;alto, con proporzioni di 16:9 |
+   | `Right20-LandscapeSD3Zone` | Un modello in tre aree che copre il 20% dello schermo da destra, con proporzioni di 4:3 |
 
    >[!IMPORTANT]
    >Le aree definite nel layout personalizzato potrebbero non corrispondere alle proporzioni complessive dell&#39;intero layout. La convenzione di denominazione utilizzata in questo documento specifica le proporzioni del layout personalizzato nel suo complesso.
@@ -64,7 +64,7 @@ Per creare un layout `Left20-LandscapeHD3Zone` per un progetto AEM Screens, eseg
 
    ![immagine](/help/user-guide/assets/custom-multizone/custom-template2.png)
 
-1. Passa a **CRXDE Liti** dalla tua istanza AEM > Strumenti > **CRXDE Liti**.
+1. Passa a **CRXDE Lite** dalla tua istanza AEM > Strumenti > **CRXDE Lite**.
 
 1. Crea una cartella in **app** con titolo **`customtemplate`**. Analogamente, creare un&#39;altra cartella con titolo **modello** in **`customtemplate`**, come illustrato nella figura seguente.
 

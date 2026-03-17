@@ -7,12 +7,12 @@ topic-tags: digital-signage-networks-basics
 products: SG_EXPERIENCEMANAGER/6.5/SCREENS
 docset: aem65
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 0e29f095-7f9d-49ea-8dda-9141402a4159
-source-git-commit: cdff56f0807f6d5fea4a4b1d545aecb1e80245bb
+source-git-commit: ad8509deaff9f90df5f6b50947f587a74e420661
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ I test di integrazione dei sistemi e del software iniziano con il team di proget
 
 Una volta completato il test QC, il team di progettazione IT crea documentazione, flussi di lavoro e corsi di formazione come riferimento durante il supporto Day-2. Gli aspetti dei sistemi da testare includono:
 
-* Integrazioni con implementatori AEM.
+* Integrazioni con AEM implementor.
 * Integrazioni di sistemi di terze parti.
 * Software.
 * Hardware.
@@ -73,7 +73,7 @@ Considerare tutte queste fasi come parte del piano generale del progetto aiuta a
 
 ### Test, POC, pilota e rollout
 
->[!VIDEO](https://video.tv.adobe.com/v/36982?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Scopri i termini chiave di un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la verifica del concetto, i progetti pilota e i rollout.*
 
