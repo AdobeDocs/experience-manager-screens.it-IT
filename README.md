@@ -1,16 +1,10 @@
 ---
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+source-git-commit: 10ec516edaf59ade3b59ebaa47bae171221363d9
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 80%
+source-wordcount: '7'
+ht-degree: 0%
 
 ---
-# Documentazione di Adobe Experience Manager Screens
+# ARCHIVIATO
 
-Questo archivio è per la documentazione di Adobe Experience Manager Screens.
-
-Saremo lieti di accogliere anche il contributo alla documentazione. Consulta le risorse seguenti:
-
-* [contributing.md](contributing.md): panoramica su come contribuire alla documentazione.
-* [guidelines.md](guidelines.md): panoramica su cosa includere nei contributi e come comporre i contributi alla documentazione.
-* [code-of-conduct.md](code-of-conduct.md): per una panoramica degli standard di comportamento a cui dovrà attenersi chi partecipa al progetto di documentazione.
+Questo repository è stato migrato a <https://github.com/Adobe-Enterprise-Docs/experience-manager-screens.en>
