@@ -5,10 +5,10 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+source-git-commit: 5cd1dcf62fa97e3183fb0c7f3395dcb1b91a3945
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 0%
+source-wordcount: '2241'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Questo argomento fornisce le risposte alle domande frequenti più frequenti rela
 >[!NOTE]
 >L’elenco dei controlli obbligatori che il supporto principale o il supporto lato cliente devono provare prima di segnalare un problema.
 
-### &#x200B;1. Quali dovrebbero essere i passaggi per la risoluzione dei problemi di primo soccorso per qualsiasi cliente che si trova di fronte a una schermata nera o contenuti non riprodotti? {#troubleshooting-blank-screen}
+### &#x200B;1. Quali dovrebbero essere i passaggi di risoluzione dei problemi di primo soccorso per qualsiasi cliente che si trova di fronte a una schermata nera o contenuti non riprodotti? {#troubleshooting-blank-screen}
 
 * Verifica se l’anteprima del canale funziona.
 * Verifica se l’anteprima del display funziona
@@ -29,9 +29,9 @@ Questo argomento fornisce le risposte alle domande frequenti più frequenti rela
 * Con il lettore in esecuzione sul sistema, passa a `http://localhost:24502`. Verifica se tutto il contenuto è scaricato correttamente.
 * Controlla le risorse in modo da poter creare le rappresentazioni appropriate e riprodurre quella corretta.
 * Controlla la presenza di eventuali contenuti pianificati e se gli orari sono corretti. Verificare che l&#39;ora impostata nel lettore sia corretta.
-* Ispeziona i registri della console del lettore e verifica la presenza di eventuali errori. Fai clic con il pulsante destro del mouse e controlla per visualizzare i registri della console. Se si utilizza Windows Player, premere `CTRL + ALT +I` per visualizzare la console di sviluppo e i registri.
+* Ispeziona i registri della console del lettore e verifica la presenza di eventuali errori. Fai clic con il pulsante destro del mouse e controlla per visualizzare i registri della console. Se si utilizza Windows Player, premere `CTRL + ALT +I` per visualizzare la console di sviluppo e i file di registro.
 
-### &#x200B;2. Come risolvere il problema della schermata grigia in AEM Screens creando un canale o una pianificazione predefiniti?
+### &#x200B;2. Come si risolve il problema della schermata grigia in AEM Screens creando un canale o una pianificazione predefiniti?
 
 Per evitare le schermate vuote o grigie nel campo, crea un canale o una pianificazione globale predefinita, assegnata a ogni visualizzazione con la priorità minima di 1. Nel caso in cui si verifichi un errore con gli aggiornamenti del contenuto, perché il contenuto è già memorizzato nella cache del disco dei lettori. Dovrebbe funzionare correttamente ed evitare le schermate grigie.
 
@@ -47,7 +47,7 @@ Un ***canale online*** mostra il contenuto aggiornato nell&#39;ambiente in tempo
 
 Fai clic sul canale e accedi alle proprietà del canale dalla barra delle azioni. Seleziona **Modalità sviluppatore (forza canale online)** nella scheda **Canale** per rendere il canale online.
 
-### &#x200B;3. Qual è l’utilizzo del campo Ruolo canale? {#what-is-the-use-of-the-channel-role-field}
+### &#x200B;3. Utilizzo del campo Ruolo canale {#what-is-the-use-of-the-channel-role-field}
 
 Il Ruolo canale è l’astrazione del canale effettivo eseguito in modo che l’autore possa concentrarsi direttamente sull’esperienza generica. Puoi considerarlo come una sorta di tag che identifica in modo univoco il canale nel suo contesto (visualizzazione o pianificazione).
 
@@ -64,7 +64,7 @@ Per *riferimenti dinamici*, la risoluzione si verifica una volta che il canale �
 
 E così via, fino a raggiungere la cartella posizioni. Fermarsi qui al momento (quindi non è possibile fare riferimento a un canale che si troverebbe nella cartella dei canali, ad esempio, solo i canali nella sottostruttura della posizione).
 
-### &#x200B;5. Come impostare la configurazione offline personalizzata clientlib nel canale AEM Screens?
+### &#x200B;5. Come si imposta la configurazione offline personalizzata della libreria client nel canale AEM Screens?
 
 Quando si utilizza un codice personalizzato generato lato client `clientlib` in un canale AEM Screens, sono necessari i passaggi seguenti. I passaggi garantiscono che i file `clientlib` siano caricati correttamente nel canale (`manifest.json`) e contengano il percorso di `clientlib`.
 
@@ -77,7 +77,7 @@ Segui i passaggi seguenti dall’editor canali:
 
 ## Registrazione dispositivo {#device-registration}
 
-### &#x200B;1. Se rilevo endpoint quali richieste di onboarding e registrazione dei dispositivi, posso inserire nello script molti dispositivi e registrarli. Oltre a bloccarlo su una filiale Wi-Fi, è possibile proteggere queste richieste? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
+### &#x200B;1. Se rilevo endpoint come le richieste di onboarding e registrazione dei dispositivi, posso inserire nello script molti dispositivi e registrarli. Oltre a bloccarlo su una filiale Wi-Fi, è possibile proteggere queste richieste? {#if-i-discover-endpoints-such-as-requests-for-device-onboarding-and-registration-i-can-script-a-large-number-of-devices-and-register-these-devices-besides-locking-this-to-a-branch-wi-fi-is-it-possible-to-secure-these-requests}
 
 Attualmente la registrazione è possibile solo sull’istanza di authoring. Sebbene il servizio di registrazione non sia autenticato, crea solo un dispositivo in sospeso in AEM e non registra effettivamente il dispositivo né assegna alcuna visualizzazione.
 
@@ -113,7 +113,7 @@ Abilita il filtro Apache Sling Referrer Allow Empty. Necessario per il funzionam
 
 ### &#x200B;3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens, il dispositivo mostra FAILURE e i registri della console mostrano un errore ENAME_NOT_FOUND?
 
-Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l&#39;IP del server, utilizzare: *arp &lt;nome_server_dns>*.
+Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l&#39;IP del server, utilizzare: *arp &lt;nome_server_dns>&lt;id=&#39;60&#39;/>.*
 
 ### &#x200B;4. AMS consiglia di implementare un watchdog Android™ su tutti i dispositivi? Il plug-in Watchdog (Cordova) è incluso nell’APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 
@@ -142,7 +142,7 @@ Il lettore ChromeOS può essere installato come plug-in del browser Chrome in mo
 1. Apri una nuova scheda e fai clic sull&#39;icona **App** in alto a sinistra oppure passa direttamente a ***chrome://apps***.
 1. Fare clic sul plug-in **AEM Screens**. Per impostazione predefinita, il lettore viene avviato in modalità a schermo intero. Premere **Esc** per uscire dalla modalità a schermo intero.
 
-### &#x200B;2. Come risolvere i problemi se Screens Player non è in grado di eseguire l’autenticazione tramite un’istanza di pubblicazione con un gestore degli errori personalizzato?
+### &#x200B;2. Come risolvere i problemi se il lettore Screens non è in grado di eseguire l’autenticazione tramite un’istanza di pubblicazione con un gestore degli errori personalizzato?
 
 All&#39;avvio, AEM Screens Player invia una richiesta a ***/content/screens/svc.ping.json***, quando il lettore riceve un errore 404. Il lettore avvia una richiesta di autenticazione per eseguire l’autenticazione nell’istanza di pubblicazione. Se nell&#39;istanza di pubblicazione è presente un gestore degli errori personalizzato, assicurarsi di restituire il codice di stato 404 per un utente anonimo in ***/content/screens/svc.ping.json***.
 
@@ -167,7 +167,7 @@ Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Scr
 
 1. Verificare che la configurazione del Dispatcher consenta queste richieste in `/filters`.
 
-   Per ulteriori dettagli, vedere [Configurazione dei filtri di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
+   Per ulteriori dettagli, vedere [Configurazione dei filtri di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
 
 1. Verifica se le regole di riscrittura di Dispatcher stanno riscrivendo uno qualsiasi dei percorsi dello schermo in un percorso diverso.
 
@@ -214,7 +214,7 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 ### &#x200B;2. Come si aggiungono le informazioni dell’indice Oak? {#add-oak-index-info}
 
 AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.
-Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 È inoltre possibile visualizzare una risorsa aggiuntiva nella [documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -224,10 +224,10 @@ Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un ind
 Per abilitare il manifesto v3, effettuare le seguenti operazioni:
 
 * Aggiornare Dispatcher.
-Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
 * Aggiorna componente personalizzato.
-Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 * Disabilita ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -241,9 +241,9 @@ Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experi
 
 ### &#x200B;4. Cosa devi fare se, dopo il pacchetto screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e i bundle di base screens sono installati ma non attivi?
 
-Installa una versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS. Consulta [Disponibilità](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) per ottenere la versione minima del Feature Pack di AEM Screens.
+Installa una versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS. Consulta [Disponibilità](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) per ottenere la versione minima del Feature Pack di AEM Screens.
 
-### &#x200B;5. Come configurare il servizio CQ Link Externalizer in Screens?
+### &#x200B;5. Come si configura il servizio CQ Link Externalizer in Screens?
 
 Il servizio viene utilizzato per definire il nome host pubblico per le istanze di authoring e pubblicazione e i valori vengono quindi utilizzati per aggiornare gli URL del server dispositivo e anche per il targeting ContextHub.
 
