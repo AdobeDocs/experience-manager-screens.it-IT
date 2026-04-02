@@ -1,0 +1,39 @@
+---
+title: Note sulla versione per Screens Feature Pack 20260318
+description: Ulteriori informazioni sull’20260318 AEM Screens Feature Pack rilasciato il 18 marzo 2026.
+feature: Feature Pack
+role: Developer
+level: Intermediate
+exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
+source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 13%
+
+---
+
+# Note sulla versione per Feature Pack 20260318 {#release-notes-for-screens-feature-pack}
+
+>[!CAUTION]
+>Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM 6.5). Puoi ottenere le informazioni sulla versione più recente da [qui](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
+>Utilizzare FP11.8 con SP(servicepack) versione 22 o successiva.
+
+## Disponibilità {#availability}
+
+AEM Screens ha rilasciato AEM 6.5 Feature Pack 11.8.
+
+È possibile scaricare il Feature Pack più recente per la versione di AEM Screens 6.5.11.8 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP11.8**.
+
+## Data di pubblicazione {#release-date}
+
+La data di rilascio del Feature Pack 20260318 per AEM Screens è il 18 marzo 2026.
+
+### Novità {#what-is-new}
+
+* Questa versione include solo correzioni di sicurezza.
+
+### Correzioni di bug {#bug-fixes}
+
+* Problema XSS su /libs/screens/dcc/components/clientlibs/deviceregistration/scripts.js (SCRNS-4856)
+* Problema XSS in /libs/screens/dcc/components/clientlibs/actions/cq.screens.dcc.assignChannel.js (SCRNS-5068)
+* Problema XSS su /libs/screens/dcc/components/importreview/clientlibs/js/script.js (SCRNS-5100)
