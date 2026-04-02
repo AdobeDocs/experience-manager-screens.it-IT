@@ -5,7 +5,7 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 11e7ecb3-e853-452a-9f69-2249ad0b40b7
-source-git-commit: 8d86b0ac2038cec2da89d66920728de8636b33aa
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 13%
@@ -15,6 +15,7 @@ ht-degree: 13%
 # Note sulla versione per Feature Pack 20260318 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM 6.5). Puoi ottenere le informazioni sulla versione più recente da [qui](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
 >Utilizzare FP11.8 con SP(servicepack) versione 22 o successiva.
 
