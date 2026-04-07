@@ -8,10 +8,10 @@ user-guide-description: Scopri come utilizzare una soluzione Digital Signage per
 feature-set: Experience Manager Screens
 feature: Content
 role: User
-source-git-commit: 6a1ecea5d54da483c3033d0be0555b2d0dc71c83
+source-git-commit: dce7f8bdd8c1c8d66b84d7d112e6e59f40a903dc
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 11%
+source-wordcount: '581'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 + [Introduzione a Screens](aem-screens-introduction.md)
 + Panoramica e guida Kick-Start {#overview}
    + [Guida di Kickstart](kickstart-for-aem-screens.md)
-   + [Guida alle best practice per Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/using/about-guide)
+   + [Guida alle best practice di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/using/about-guide)
    + [Termini chiave](screens-glossary.md)
    + [Terminologia e concetti di Screens](screens-concepts-feature-video-understand.md)
 + Nozioni di base sulla rete di digital signage {#digital-signage-network}
@@ -45,7 +45,7 @@ ht-degree: 11%
    + Considerazioni specifiche per il client {#installing-client}
       + [Chrome OS Player](implementing-chrome-os-player.md)
       + [Utilizzo di Chrome Player come estensione per la risoluzione dei problemi](using-chrome-player-as-an-extension.md)
-      + [Android](implementing-android-player.md)
+      + [Lettore Android™](implementing-android-player.md)
       + [Windows Player](implementing-windows-player.md)
       + [Giocatore Tizen](tizen-player.md)
       + [Lettore cloud](implementing-cloud-player.md)
@@ -119,6 +119,7 @@ ht-degree: 11%
    + [Risoluzione dei problemi di Device Control Center](monitoring-screens.md)
    + [Configurazione riproduzione video](troubleshoot-videos.md)
 + Note sulla versione {#release-notes}
+   + [Note sulla versione per Feature Pack 20260318](release-notes-fp-20260318.md)
    + [Note sulla versione per Feature Pack 20251007](release-notes-fp-20251007.md)
    + [Note sulla versione per Feature Pack 20250327](release-notes-fp-20250327.md)
    + [Note sulla versione per Feature Pack 20250224](release-notes-fp-20250224.md)
@@ -142,3 +143,4 @@ ht-degree: 11%
    + [Note sulla versione per Feature Pack 201905](screens-release-notes-fp-201905.md)
    + [Note sulla versione per Feature Pack 201812](release-notes-fp-201812.md)
    + [Note sulla versione per Feature Pack 201809](screens-release-notes.md)
+

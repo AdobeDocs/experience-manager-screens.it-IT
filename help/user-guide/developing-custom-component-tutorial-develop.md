@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d14f8c55-dc09-4ac9-8d75-bafffa82ccc0
 source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 1%
+source-wordcount: '2364'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
 
 1. Scarica e installa i seguenti pacchetti utilizzando [Gestione pacchetti CRX](http://localhost:4502/crx/packmgr/index.jsp):
 
-[Ottieni file](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
+   [Ottieni il file](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
    [Ottieni file](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
    **Facoltativamente** Se lavori con Eclipse o un altro IDE, scarica il pacchetto di origine seguente. Distribuisci il progetto in un’istanza AEM locale utilizzando il comando Maven:
@@ -53,7 +53,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
 
    Avviare HelloWorld SRC Screens `We.Retail` Esegui progetto.
 
-[Ottieni file](assets/src-screens-weretail-run.zip)
+   [Ottieni il file](assets/src-screens-weretail-run.zip)
 
 1. In [Gestione pacchetti CRX](http://localhost:4502/crx/packmgr/index.jsp), verificare che siano installati i due pacchetti seguenti:
 
@@ -84,7 +84,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
    * `/content/dam/we-retail-run`
    * `/content/screens/we-retail-run`
 
-   Questo pacchetto contiene il contenuto iniziale e la struttura di configurazione necessaria per il progetto. **`/conf/we-retail-run`** contiene tutte le configurazioni per il progetto di esecuzione `We.Retail`. **`/content/dam/we-retail-run`** include l&#39;avvio delle risorse digitali per il progetto. **`/content/screens/we-retail-run`** contiene la struttura del contenuto di Screens. Il contenuto di tutti questi percorsi viene aggiornato principalmente in AEM. Per promuovere la coerenza tra gli ambienti (locale, di sviluppo, di staging, di produzione) spesso nel controllo del codice sorgente viene salvata una struttura di contenuto di base.
+   Questo pacchetto contiene il contenuto iniziale e la struttura di configurazione necessaria per il progetto. **`/conf/we-retail-run`** contiene tutte le configurazioni per il progetto di esecuzione `We.Retail`. **`/content/dam/we-retail-run`** include l’avvio delle risorse digitali per il progetto. **`/content/screens/we-retail-run`** contiene la struttura del contenuto di Screens. Il contenuto di tutti questi percorsi viene aggiornato principalmente in AEM. Per promuovere la coerenza tra gli ambienti (locale, di sviluppo, di staging, di produzione) spesso nel controllo del codice sorgente viene salvata una struttura di contenuto di base.
 
 1. **Passa a AEM Screens > `We.Retail` Esegui progetto:**
 
@@ -124,14 +124,14 @@ AEM Screens presenta alcuni vincoli interessanti che non sono necessariamente va
 
    ```xml
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/helloworld.html
-   
+
    */-->
-   
+
    <!--/* production: preview authoring mode + unspecified mode (i.e. on publish) */-->
    <sly data-sly-test.production="${wcmmode.preview || wcmmode.disabled}" data-sly-include="production.html" />
-   
+
    <!--/* edit: any other authoring mode, i.e. edit, design, scaffolding, etc. */-->
    <sly data-sly-test="${!production}" data-sly-include="edit.html" />
    ```
@@ -150,9 +150,9 @@ AEM Screens presenta alcuni vincoli interessanti che non sono necessariamente va
    ```xml
    <!--/*
     /apps/weretail-run/components/content/helloworld/production.html
-   
+
    */-->
-   
+
    <div data-duration="${properties.duration}" class="cmp-hello-world">
     <h1 class="cmp-hello-world__message">${properties.message}</h1>
    </div>
@@ -169,19 +169,20 @@ AEM Screens presenta alcuni vincoli interessanti che non sono necessariamente va
    Compila il file con quanto segue:
 
    ```xml
+
    <!--/*
-   
+
     /apps/weretail-run/components/content/helloworld/edit.html
-   
+
    */-->
-   
+
    <!--/* if message populated */-->
    <div
     data-sly-test.message="${properties.message}"
     class="aem-Screens-editWrapper cmp-hello-world">
     <p class="cmp-hello-world__message">${message}</p>
    </div>
-   
+
    <!--/* empty place holder */-->
    <div data-sly-test="${!message}"
         class="aem-Screens-editWrapper cq-placeholder cmp-hello-world"
@@ -580,8 +581,8 @@ L’utilizzo di questi due componenti core di Screens offre anche il vantaggio a
 
 Di seguito è riportato il codice finito dell&#39;esercitazione. I pacchetti AEM compilati sono **screens-weretail-run.ui.apps-0.0.1-SNAPSHOT.zip** e **screens-weretail-run.ui.content-0.0.1-SNAPSHOT.zip**. **SRC-screens-weretail-run-0.0.1.zip &#x200B;** è il codice sorgente non compilato che può essere distribuito utilizzando Maven.
 
-[Ottieni file](assets/screens-weretail-runuiapps-001-snapshot.zip)
+[Ottieni il file](assets/screens-weretail-runuiapps-001-snapshot.zip)
 
-[Ottieni file](assets/screens-weretail-runuicontent-001-snapshot.zip)
+[Ottieni il file](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
-[Ottieni file](assets/screens-weretail-run.zip)
+[Ottieni il file](assets/screens-weretail-run.zip)
