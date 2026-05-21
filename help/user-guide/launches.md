@@ -11,11 +11,20 @@ role: Admin, Developer
 level: Intermediate
 exl-id: b610e5dd-e0c6-45e6-bf9b-27be2054bc8f
 TQID: https://experienceleague.adobe.com/Gi6VgfG8ClNwQLFG2rrxIPFCZdK6n7FpLhc4xc1eIss
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: d2e10d71-5715-46fe-bd3d-cbd7df1343d6id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: d2e10d71-5715-46fe-bd3d-cbd7df1343d6
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
 source-wordcount: 1584
@@ -31,7 +40,7 @@ Con l&#39;aiuto di ***Screens Launch***, gli autori possono visualizzare in ante
 
 Ad esempio, se l’autore desidera creare versioni future di c1, c2 (canali), viene creato un lancio e viene impostata una data di attivazione (ad esempio, 10 novembre 8:00 A.M.). Eventuali altri aggiornamenti nel contenuto vengono inviati per la revisione.
 
-Dopo l’approvazione e nella data di attivazione (10 novembre alle 8.0}), questo lancio riproduce il contenuto sui dispositivi o sui lettori.:00
+Dopo l’approvazione e nella data di attivazione (10 novembre alle 8.0&rbrace;), questo lancio riproduce il contenuto sui dispositivi o sui lettori.:00
 
 ## Requisiti {#requirements}
 
@@ -89,7 +98,7 @@ launches.eventhandler.launch.promotion.graceperiod=[ \
 
 Nell’esempio precedente, il periodo di tolleranza viene impostato su 10 minuti. Pertanto, quando imposti una data di attivazione per qualsiasi lancio per le risorse in */content/screens*, la promozione inizia con questo offset.
 
-Ad esempio, se la data di attivazione è impostata sul 24 novembre alle 9.00 e il periodo di tolleranza è di 600 secondi, il processo di promozione inizia il 24 novembre alle 8.1}.:00:50
+Ad esempio, se la data di attivazione è impostata sul 24 novembre alle 9.00 e il periodo di tolleranza è di 600 secondi, il processo di promozione inizia il 24 novembre alle 8.1&rbrace;.:00:50
 
 ## Utilizzo di Screens Launch {#using-launches}
 
