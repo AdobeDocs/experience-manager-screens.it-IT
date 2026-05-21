@@ -10,9 +10,13 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 3b127311-32d1-402c-97a1-e799e9f3f95e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/q9YVg4tWFAjPgKDfObgzgVItzxybnW66fKVjLYnnqig
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 257
 ht-degree: 2%
 
 ---
@@ -21,11 +25,11 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
+>Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 L’AEM Screens ha rilasciato AEM 6.3 Feature Pack 5 e AEM 6.4 Feature Pack 3 con i seguenti dettagli.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
 La data di rilascio del Feature Pack 201812 per AEM Screens è il 16 gennaio 2019.
 
@@ -44,7 +48,7 @@ La data di rilascio del Feature Pack 201812 per AEM Screens è il 16 gennaio 201
   Il layout multizona consente di creare contenuti per più aree e utilizzare varie risorse, come video, immagini e testo, che possono essere combinati in un’unica schermata. Vedere **[Layout multisito](multi-zone-layout-aem-screens.md)**.
 
 * **Sincronizzazione intelligente di Assets con i lettori**
-* **Distribuzione di Author/Publish (protezione avanzata)**
+* **Distribuzione creazione/pubblicazione (protezione avanzata)**
 
 ### Lettori AEM Screens rilasciati
 

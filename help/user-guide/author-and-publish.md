@@ -2,13 +2,16 @@
 title: Configurare le istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: 1974
 ht-degree: 0%
 
 ---
-
 
 # Configurare le istanze Author e Publish in AEM Screens {#configuring-author-and-publish-in-aem-screens}
 
@@ -54,7 +57,7 @@ Per creare agenti di replica, scopri come creare un agente di replica standard.
 
 Per Screens sono necessari tre agenti di replica:
 
-1. **Agente di replica predefinito &#x200B;***(specificato come&#x200B;*** Agente di replica standard**)
+1. **Agente di replica predefinito ***(specificato come*** Agente di replica standard**)
 1. **Agente di replica di Screens**
 1. **Agente replica inversa**
 
@@ -104,7 +107,7 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
 #### Creare agenti di replica standard {#creating-standard-replication-agents}
 
 1. Crea un agente di replica standard per pub1 (è già necessario configurare un agente predefinito). Ad esempio *`https://<hostname>:4503/bin/receive?sling:authRequestLogin=1`*
-1. Crea un agente di replica standard per pub2. È possibile copiare come agente di replica per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. Esempio: *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
+1. Crea un agente di replica standard per pub2. È possibile copiare come agente di replica per pub1 e aggiornare il trasporto da utilizzare per pub2 modificando la porta nella configurazione di trasporto. Ad esempio, *`https://<hostname>:4504/bin/receive?sling:authRequestLogin=1`*.
 
 #### Creare agenti di replica di Screens {#creating-screens-replication-agents}
 
@@ -112,7 +115,7 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
 1. Creazione di un agente di replica AEM Screens per pub2. Copiare l&#39;agente di replica Screens per pub1 e modificare la porta in modo che punti a 4504 per pub2.
 
    >[!NOTE]
-   >Per informazioni su come configurare gli agenti di replica di Screens, vedere [Configurazione dell&#39;agente di replica di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Per informazioni su come configurare gli agenti di replica di Screens, vedere [Configurazione dell&#39;agente di replica di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Creare agenti di replica inversa di Screens {#creating-screens-reverse-replication-agents}
 
@@ -159,14 +162,14 @@ Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi cr
 >[!NOTE]
 >
 >La password deve iniziare e terminare con parentesi graffe. Ad esempio:
->&#x200B;>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
+>`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Passaggio 4: attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
 Su ogni istanza di pubblicazione:
 
 1. Passa a Gestione configurazione OSGi `https://<host>:<port>/system/console/configMgr`
-1. Fai clic sulla configurazione del provider JMS Apache ActiveMQ Artemis **&#x200B;**
+1. Fai clic sulla configurazione del provider JMS Apache ActiveMQ Artemis ****
 1. Aggiorna quanto segue:
 
    * ***Password cluster***: utilizza un valore crittografato del passaggio precedente per la rispettiva istanza
@@ -246,7 +249,7 @@ Controlla il lettore e nota il contenuto aggiunto nel canale.
 
 Per replicare l’utente del dispositivo, segui la procedura riportata di seguito:
 
-1. Passa alla pagina dell’amministratore utenti. Esempio: `https://localhost:4502/useradmin`.
+1. Passa alla pagina dell’amministratore utenti. Ad esempio, `https://localhost:4502/useradmin`.
 1. Cerca il gruppo **`screens-devices-master`**.
 1. Fare clic con il pulsante destro del mouse sul gruppo e scegliere **Attiva**.
 

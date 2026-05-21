@@ -5,10 +5,14 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 0440cb1a-4436-4479-9d88-ea8884905801
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/YLrwBzcHSxB1YdY2h8O3gCGIHsQaZs74ib8Hp624Tio
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
+>Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
@@ -24,7 +28,7 @@ AEM Screens ha rilasciato AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4.
 
 Puoi scaricare il Feature Pack più recente per AEM Screens 6.4.8 o AEM Screens 6.5.4 dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite il tuo Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
 La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020.
 
@@ -67,7 +71,7 @@ La data di rilascio del Feature Pack 202004 per AEM Screens è il 20 aprile 2020
 
 ### Lettori AEM Screens rilasciati
 
-Per AEM Screens sono stati rilasciati i seguenti lettori AEM Screens: AEM 6.4 Feature Pack 8 e AEM 6.5 Feature Pack 4:
+Sono stati rilasciati i seguenti lettori AEM Screens per AEM Screens con Feature Pack 8 di AEM 6.4 e Feature Pack 4 di AEM 6.5:
 
 * ChromeOS
 * Windows

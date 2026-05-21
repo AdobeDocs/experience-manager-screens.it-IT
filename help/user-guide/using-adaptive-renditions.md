@@ -2,9 +2,12 @@
 title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Scopri come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
-source-git-commit: f1ddcf5e5ee9691e436e139ce0084f2c39f9c9dd
+TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: 584
 ht-degree: 1%
 
 ---
@@ -48,12 +51,12 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
 
 ## Strategia di migrazione {#migration-strategy}
 
 >[!IMPORTANT]
->Per le reti di grandi dimensioni, Adobe consiglia di eseguire gradualmente la migrazione per mitigare i rischi. Il motivo è che la funzione può introdurre modifiche nel formato di archiviazione del manifesto e dei file. L&#39;aggiunta di `sling:configRef` all&#39;intero progetto comporta l&#39;aggiornamento di tutti i lettori a Feature Pack 6.5.9. Se hai aggiornato alcuni lettori, aggiungi `sling:configRef` solo alle visualizzazioni, alle posizioni o alle cartelle di canale in cui tutti i lettori sono stati aggiornati a Feature Pack 6.5.9.
+>Per le reti di grandi dimensioni, Adobe consiglia di eseguire gradualmente la migrazione per mitigare i rischi. Il motivo è che la funzione può introdurre modifiche nel formato di archiviazione del manifesto e dei file. L&#39;aggiunta di `sling:configRef` all&#39;intero progetto comporta l&#39;aggiornamento di tutti i lettori a Feature Pack 6.5.9. Se hai aggiornato alcuni lettori, aggiungi `sling:configRef` solo alle visualizzazioni, alle posizioni o alle cartelle dei canali in cui tutti i lettori sono stati aggiornati a Feature Pack 6.5.9.
 
 Il diagramma seguente illustra la strategia di migrazione per le reti di grandi dimensioni:
 

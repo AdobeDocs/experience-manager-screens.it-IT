@@ -6,10 +6,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 3317f07a-784f-4c4a-93ea-c84f4e42e9f2
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/iK5EH0E-vKteNer-Dr0mDRaJke4OTmJr9JQfwTaqAt4
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 0%
+source-wordcount: 626
+ht-degree: 1%
 
 ---
 
@@ -21,7 +27,7 @@ Nella pagina seguente viene illustrato un caso d’uso che pone l’accento sull
 
 In questo caso d&#39;uso viene illustrato come creare un canale che *rileva* dal normale canale di riproduzione per una visualizzazione o un gruppo di visualizzazioni. L&#39;acquisizione avviene una sola volta e per un periodo di tempo specifico.
 
-Ad esempio, esiste un canale Single TakeOver che viene riprodotto da venerdì 9:00 a mezzanotte. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. Prima e dopo questo periodo di tempo, il canale Single Use Takeover non viene riprodotto. L’esempio seguente illustra la creazione di un singolo canale di acquisizione che consente la riproduzione del contenuto per 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01.
+Ad esempio, esiste un singolo canale TakeOver che viene riprodotto da venerdì 9:00 a lunedì 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. Prima e dopo questo periodo di tempo, il canale Single Use Takeover non viene riprodotto. L’esempio seguente illustra la creazione di un singolo canale di acquisizione che consente la riproduzione del contenuto per 2 minuti prima delle 12:00 del 31 dicembre fino alle 12:01.
 
 ### Precondizioni {#preconditions}
 
@@ -93,8 +99,8 @@ Per impostare un progetto, segui i passaggi seguenti:
      >[!NOTE]
      >Priorità può essere qualsiasi valore superiore al valore di priorità del canale di riproduzione normale.
    * **Eventi supportati**: fare clic sulla **schermata di inattività** e **Timer**.
-   * **Pianificazione**: immettere il testo per la pianificazione che si desidera venga eseguita sul display da questo canale. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 00:00 del 31 dicembre fino alle 00:01
-Il testo nella **Pianificazione** menzionata in questo esempio è *del 31 dicembre dopo le 23:58 e anche del 1° gennaio prima delle 00.01*.
+   * **Pianificazione**: immettere il testo per la pianificazione che si desidera venga eseguita sul display da questo canale. Ad esempio, il testo qui consente la riproduzione del contenuto 2 minuti prima delle 12:00 del 31 dicembre fino alle 12:01 del mattino.
+Il testo nella **Pianificazione** menzionata in questo esempio è *del 31 dicembre dopo il 23:58 e anche del 1° gennaio prima del 00.01*.
 
      ![risorsa](assets/single-takeover8.png)
 

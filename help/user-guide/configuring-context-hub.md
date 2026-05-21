@@ -10,10 +10,16 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 1%
+source-wordcount: 1476
+ht-degree: 2%
 
 ---
 
@@ -45,7 +51,7 @@ Prima di iniziare a configurare le configurazioni ContextHub per un progetto AEM
 
 >[!IMPORTANT]
 >
->Nell’esempio seguente, i fogli di Google vengono utilizzati come database di esempio dal quale vengono recuperati i valori, a scopo puramente didattico. L’Adobe non prevede l’utilizzo di Google Sheets per ambienti di produzione.
+>Nell’esempio seguente, i fogli di Google vengono utilizzati come database di esempio dal quale vengono recuperati i valori, a scopo puramente didattico. Adobe non consiglia l’utilizzo di Google Sheets per ambienti di produzione.
 >
 >Per ulteriori informazioni, consulta [Ottenere la chiave API](https://developers.google.com/maps/documentation/javascript/get-api-key) nella documentazione di Google.
 
@@ -73,7 +79,7 @@ La convalida seguente è quella visualizzata quando si controlla la connessione 
 
 1. **Accesso a ContextHub**
 
-   Passa all’istanza AEM e fai clic sull’icona Strumenti nella barra laterale a sinistra. Fai clic su **Sites** > **ContextHub**, come illustrato nella figura seguente.
+   Passa all’istanza di AEM e fai clic sull’icona Strumenti nella barra laterale a sinistra. Fai clic su **Sites** > **ContextHub**, come illustrato nella figura seguente.
 
    ![immagine](/help/user-guide/assets/context-hub/context-hub3.png)
 
@@ -96,7 +102,7 @@ La convalida seguente è quella visualizzata quando si controlla la connessione 
 
    >[!CAUTION]
    >
-   >Come parte del Feature Pack 4 per AEM 6.5 o del Feature Pack 8 per AEM 6.4, i clienti devono aggiornare `/conf/screens/settings/cloudsettings` a `sling:Folder`.
+   >Come parte di AEM 6.5 Feature Pack 4 o AEM 6.4 Feature Pack 8, i clienti devono aggiornare `/conf/screens/settings/cloudsettings` a `sling:Folder`.
    >
    >Effettua le seguenti operazioni:
    >
@@ -108,7 +114,7 @@ La convalida seguente è quella visualizzata quando si controlla la connessione 
    >1. Rinomina `cloudsettings1` in `cloudsettings` e salva.
    >1. Osservare che `/conf/screens/settings/cloudsettings` ha `jcr:primaryType` come `sling:Folder`.
    >
-   >Segui questi passaggi in Author e Publish prima o dopo l’aggiornamento.
+   >Segui questi passaggi in Creazione e pubblicazione prima o dopo l’aggiornamento.
 
    1. Immetti il **Titolo** come **Fogli Google**, **Nome archivio** come **`googlesheets`** e **Tipo archivio** come **c`ontexthub.generic-jsonp`** e fai clic su **Avanti**.
 
@@ -164,7 +170,7 @@ La convalida seguente è quella visualizzata quando si controlla la connessione 
 
 1. **Creazione di segmenti in tipi di pubblico**
 
-   1. Passa dall&#39;istanza AEM a **Personalization** > **Tipi di pubblico** > **Schermi**.
+   1. Passa dall&#39;istanza di AEM a **Personalization** > **Tipi di pubblico** > **Schermi**.
 
    1. Fai clic su **Crea** > **Crea segmento ContextHub.** Viene visualizzata la finestra di dialogo **Nuovo segmento ContextHub**.
 
@@ -173,7 +179,6 @@ La convalida seguente è quella visualizzata quando si controlla la connessione 
       ![immagine](/help/user-guide/assets/context-hub/context-hub11.png)
 
    1. Fai clic sul segmento `**Higherthan50**` e fai clic su **Proprietà** nella barra delle azioni.
-
       ![immagine](/help/user-guide/assets/context-hub/context-hub12.png)
 
    1. Fai clic sulla scheda **Personalization** dalle **Proprietà segmento**. Imposta **Percorso ContextHub** su `/conf/screens/settings/cloudsettings/ContextHubDemo/contexthub configurations` e **Percorso segmenti** su `/conf/screens/settings/wcm/segments` e fai clic su **Salva**, come illustrato nella figura seguente.
@@ -188,7 +193,7 @@ Segui i passaggi seguenti per creare un marchio nelle attività e nelle aree sot
 
 1. **Creazione di un marchio nelle attività**
 
-   1. Passa dall&#39;istanza AEM a **Personalization** > **Attività**.
+   1. Passa dall&#39;istanza di AEM a **Personalization** > **Attività**.
 
    1. Fai clic su **Crea** > **Crea marchio**.
 
@@ -224,9 +229,9 @@ Dopo aver configurato un archivio dati e definito l’attività (marchio e area)
 
 1. **Creazione di segmenti nelle attività**
 
-   1. Passa dall&#39;istanza AEM a **Personalization** > **Attività** > **ScreensBrand** >**ScreensValue**.
+   1. Passa dall&#39;istanza di AEM a **Personalization** > **Attività** > **ScreensBrand** >**ScreensValue**.
 
-   1. Fai clic su **Crea** > **Crea attività.** Viene aperta la **Configurazione guidata attività**.
+   1. Fai clic su **Crea** > **Crea attività.** Verrà aperta la **Configurazione guidata attività**.
 
    1. Immetti il **Titolo** come **ValueCheck50** e **Nome** come **valuecheck50**. Fai clic sul **motore di targeting** come **ContextHub (AEM)** dal menu a discesa e fai clic su **Avanti**.
 
@@ -248,7 +253,7 @@ Dopo aver configurato un archivio dati e definito l’attività (marchio e area)
 
 1. **Modifica dei segmenti**
 
-   1. Passa dall&#39;istanza AEM a **Personalization** > **Tipi di pubblico** > **Schermi**.
+   1. Passa dall&#39;istanza di AEM a **Personalization** > **Tipi di pubblico** > **Schermi**.
 
    1. Fai clic sul segmento `**Higherthan50**` e fai clic su **Modifica** nella barra delle azioni.
 
@@ -269,7 +274,7 @@ Dopo aver configurato un archivio dati e definito l’attività (marchio e area)
 
       >[!NOTE]
       >
-      >L’AEM convalida i dati dal foglio Google mostrando il segmento in verde.
+      >AEM convalida i dati dal foglio Google mostrando il segmento in verde.
 
       ![immagine](/help/user-guide/assets/context-hub/context-hub18.png)
 

@@ -1,15 +1,19 @@
 ---
-title: Test e garanzia della qualità
+title: Test e qualità Assurance
 description: Scopri i test e il controllo della qualità per AEM Screens nella Guida alle best practice.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
-source-git-commit: 2a51258ffe7b969962378dcd0558bd001b616ba1
+TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 346
 ht-degree: 0%
 
 ---
 
-# Test e garanzia della qualità {#testing-quality}
+# Test e qualità Assurance {#testing-quality}
 
 >[!NOTE]
 >Una delle parti interessate per questa attività è un integratore audio-video.
@@ -25,7 +29,7 @@ Durante la fase, si dovrebbero costruire e collaudare completamente interi siste
 
 Devono essere presi in considerazione i seguenti elementi:
 
-## 1. Considerazioni meccaniche {#mechanical-considerations}
+## &#x200B;1. Considerazioni meccaniche {#mechanical-considerations}
 
 Si raccomandano le seguenti considerazioni meccaniche:
 
@@ -36,7 +40,7 @@ Si raccomandano le seguenti considerazioni meccaniche:
 * gestione dei cavi
 * rete di dispositivi
 
-## 2. Considerazioni sul software {#software-considerations}
+## &#x200B;2. Considerazioni sul software {#software-considerations}
 
 Si consiglia di tenere presenti le seguenti considerazioni sul software:
 
@@ -46,11 +50,11 @@ Si consiglia di tenere presenti le seguenti considerazioni sul software:
 * dipendenze del database (definite in precedenza)
 
 
-## 3. Considerazioni sulla gestione dei dispositivi {#device-management-considerations}
+## &#x200B;3. Considerazioni sulla gestione dei dispositivi {#device-management-considerations}
 
 AEM Screens include un modulo Device Control Center che consente la gestione degli endpoint dell’applicazione di riproduzione Screens.
 
-Si riferisce a qualsiasi dispositivo hardware *player* su cui è installata l&#39;applicazione del lettore Screens e che è registrato in un&#39;istanza dell&#39;AEM.
+Si riferisce a qualsiasi dispositivo hardware *player* su cui è installata l&#39;applicazione del lettore Screens e che è registrato in un&#39;istanza di AEM.
 Questo modulo consente di:
 
 1. Registri di errore dell’applicazione del lettore di monitor
@@ -58,7 +62,7 @@ Questo modulo consente di:
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
+Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
 
 >[!CAUTION]
 >
@@ -72,7 +76,7 @@ Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Riso
 
 >[!NOTE]
 >
-> L’Adobe consiglia di utilizzare piattaforme di gestione dei dispositivi di terze parti dedicate per tutte le distribuzioni.
+> Adobe consiglia di utilizzare piattaforme di gestione dei dispositivi di terze parti dedicate per tutte le distribuzioni.
 
 La piattaforma specifica scelta dipende da diversi fattori, tra cui ***sistema operativo di destinazione***, ***requisiti progetto*** e ***numero di endpoint***.
 

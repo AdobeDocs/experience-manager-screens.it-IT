@@ -5,9 +5,16 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
-source-git-commit: 6720e20f5254e869bde814bd167730e426d0f8fe
+TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1101
 ht-degree: 2%
 
 ---
@@ -18,7 +25,7 @@ ht-degree: 2%
 >
 >**Informazioni importanti sulla privacy**
 >
->Quando utilizzi la funzione di riconoscimento vocale, segui tutte le linee guida legali ed etiche applicabili per la tua regione. Queste linee guida includono, tra l’altro, un avviso visibile agli utenti finali che il lettore sta utilizzando il riconoscimento vocale. Adobe non riceve, archivia o elabora le informazioni relative alla voce. I lettori AEM Screens utilizzano l’API di riconoscimento vocale web standard incorporata nel motore di navigazione. Dietro le quinte, questa API invia una forma ondulata del discorso ai server di Google per la conversione da discorso a testo. Il lettore confronta il testo con le parole chiave configurate.
+>Quando utilizzi la funzione di riconoscimento vocale, segui tutte le linee guida legali ed etiche applicabili per la tua regione. Queste linee guida includono, tra l’altro, un avviso visibile agli utenti finali che il lettore sta utilizzando il riconoscimento vocale. Adobe non riceve, archivia o elabora informazioni relative alla voce. I lettori AEM Screens utilizzano l’API di riconoscimento vocale web standard incorporata nel motore di navigazione. Dietro le quinte, questa API invia una forma ondulata del discorso ai server di Google per la conversione da discorso a testo. Il lettore confronta il testo con le parole chiave configurate.
 >
 >Per ulteriori dettagli, vedere il [White paper sulla privacy di Google sull&#39;API di riconoscimento vocale Web](https://www.google.com/chrome/privacy/whitepaper.html#speech).
 
@@ -114,7 +121,7 @@ Per aggiungere tag al canale, segui la procedura riportata di seguito:
 
 Per creare i tag, segui i passaggi seguenti:
 
-1. Passa all’istanza AEM.
+1. Passa all’istanza di AEM.
 
 1. Fai clic sull&#39;icona Strumenti > **Assegnazione tag**.
    ![immagine](assets/voice-recognition/vr-7.png)
