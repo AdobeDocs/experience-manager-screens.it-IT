@@ -54,7 +54,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
 
 ## Strategia di migrazione {#migration-strategy}
 

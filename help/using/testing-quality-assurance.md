@@ -66,7 +66,7 @@ Questo modulo consente di:
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
+Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
 
 >[!CAUTION]
 >
