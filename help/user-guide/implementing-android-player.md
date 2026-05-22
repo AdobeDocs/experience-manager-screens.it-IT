@@ -10,9 +10,22 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: 1550
 ht-degree: 0%
 
 ---
@@ -35,7 +48,7 @@ Visita la pagina [**Download di AEM 6.5 Player**](https://download.macromedia.co
 ### Configurazione dell’ambiente per AEM Screens 6.5.5 Service Pack {#fp-environment-setup}
 
 >[!NOTE]
->Se utilizzi AndroidAEM Screens ™ 6.5.5 Service Pack, imposta un ambiente per il lettore.
+>Se utilizzi Android™ 6.5.5 Service Pack, imposta un ambiente per il lettore.
 
 Imposta l&#39;attributo **SameSite per i cookie token di accesso** da **Lax** a **None** da **Configurazione console Web Adobe Experience Manager** in tutte le istanze di authoring e pubblicazione di AEM.
 

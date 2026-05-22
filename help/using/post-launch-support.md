@@ -1,13 +1,19 @@
 ---
 title: Supporto post-lancio
 description: Scopri il supporto post-lancio per AEM Screens nella Guida alle best practice.
-source-git-commit: dd91043434892817e1aa900e222fae85b8665da8
+exl-id: cd7442ed-52a4-43d2-adc7-f643f4f16581
+TQID: https://experienceleague.adobe.com/PrdfsEIOJySNyu7GvWpOptg-AkyP-HFkxrbnMbJKaho
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: 390
+ht-degree: 3%
 
 ---
-
 
 # Supporto post-lancio {#post-launch-support}
 
@@ -21,7 +27,7 @@ Durante il supporto post-lancio, considera i seguenti requisiti:
 * assistenza tecnica on-site
 * gestione dei dispositivi (supporto in garanzia e storage dei dispositivi di riserva)
 
-Inoltre, per prepararsi al successo a lungo termine, è fondamentale stipulare un accordo sul livello di servizio (Service Level Agreement, SLA) Day 2 in collaborazione con l&#39;integratore audio-video. SLA deve descrivere in dettaglio tutti i servizi di supporto post-distribuzione per aiutare a impostare con precisione le aspettative dei clienti.
+Inoltre, per prepararsi al successo a lungo termine, è fondamentale stabilire una Service level agreement Day 2 (SLA) in collaborazione con Audio-Video Integrator. SLA deve descrivere in dettaglio tutti i servizi di supporto post-distribuzione per aiutare a impostare con precisione le aspettative dei clienti.
 
 >[!NOTE]
 >

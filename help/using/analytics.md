@@ -2,9 +2,17 @@
 title: Analytics con AEM Screens
 description: Scopri Adobe Analytics con Adobe Experience Manager Screens.
 exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/i7B7E5Kyno2U-ZTxEOPfhrr9W7fqYTWTV5vvcteRicY
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 288
 ht-degree: 0%
 
 ---
@@ -21,7 +29,7 @@ Esistono due motivi fondamentali per acquisire questi dati.
 
 Il primo prevede **cicli di feedback e apprendimento automatico**, mentre il secondo **prevede la creazione di grafici, dashboard e report** destinati al consumo umano.
 
-Nel caso di utilizzo del ciclo di feedback, non è necessario preoccuparsi dei rapporti visivi o delle dashboard, ma desideri definire regole su cui l’AEM può eseguire per la modifica del contenuto. Utilizzando ed elaborando tutti i dati evento del lettore Screens da un determinato periodo di tempo, puoi definire una regola che valuta l’efficacia di image1 rispetto a image2. Combinando i dati di vendita con i dati di riproduzione, l&#39;AEM può determinare che image1 ha un impatto maggiore sulle vendite e istruisce automaticamente tutti i giocatori ad utilizzare image1.
+Nel caso di utilizzo del ciclo di feedback, non è necessario preoccuparsi dei rapporti visivi o delle dashboard, ma desideri definire regole su cui AEM può eseguire la modifica del contenuto. Utilizzando ed elaborando tutti i dati evento del lettore Screens da un determinato periodo di tempo, puoi definire una regola che valuta l’efficacia di image1 rispetto a image2. Combinando i dati di vendita con i dati di riproduzione, AEM può determinare che image1 ha un impatto maggiore sulle vendite e indica automaticamente a tutti i lettori di utilizzare image1.
 
 Il secondo caso di utilizzo con Analytics consiste nell’elaborare eventi di riproduzione e dati di utilizzo per il consumo umano tramite rapporti e dashboard.
 Puoi utilizzare questi dati per creare una mappa di calore di un’esperienza interattiva per determinare la mappa di percorso preferita tramite l’applicazione. Puoi anche scegliere di creare una dashboard che fornisca un’interpretazione grafica del numero di volte in cui i consumatori interagiscono con l’applicazione.

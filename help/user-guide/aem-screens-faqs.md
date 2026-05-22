@@ -5,9 +5,24 @@ feature: Digital Signage, Content
 role: Developer
 level: Intermediate
 exl-id: 67204f04-5535-407c-bd4d-fabfbf850411
-source-git-commit: 5cd1dcf62fa97e3183fb0c7f3395dcb1b91a3945
+TQID: https://experienceleague.adobe.com/7M-3FuDthc-4z4OSHp49eL7QHWvt1acjKfA7C1BGWy0
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: 2241
 ht-degree: 1%
 
 ---
@@ -83,7 +98,7 @@ Attualmente la registrazione è possibile solo sull’istanza di authoring. Sebb
 
 Per registrare un dispositivo (creando un utente per il dispositivo in AEM), effettua l’autenticazione in AEM e segui manualmente la procedura guidata di registrazione per completare la registrazione. In teoria, un utente malintenzionato può creare diversi dispositivi in sospeso, ma non può registrarne nessuno se non ha un accesso AEM.
 
-### &#x200B;2. Esiste un modo per trasformare le richieste HTTP GET in HTTP POST con una qualche forma di autenticazione? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
+### &#x200B;2. Esiste un modo per trasformare le richieste HTTP GET in HTTP POST con una forma di autenticazione? {#is-there-a-way-to-transform-http-get-requests-into-http-post-with-some-form-of-authentication}
 
 La richiesta di registrazione è una richiesta POST.
 
@@ -113,7 +128,7 @@ Abilita il filtro Apache Sling Referrer Allow Empty. Necessario per il funzionam
 
 ### &#x200B;3. Come risolvere il problema se durante la registrazione di un lettore AEM Screens, il dispositivo mostra FAILURE e i registri della console mostrano un errore ENAME_NOT_FOUND?
 
-Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l&#39;IP del server, utilizzare: *arp &lt;nome_server_dns>&lt;id=&#39;60&#39;/>.*
+Questo problema può verificarsi se il lettore non è in grado di trovare il DNS di AEM Screens Server. Prova a utilizzare l’indirizzo IP per la connessione. Per ottenere l&#39;IP del server, utilizzare: *arp &lt;nome_server_dns>*.
 
 ### &#x200B;4. AMS consiglia di implementare un watchdog Android™ su tutti i dispositivi? Il plug-in Watchdog (Cordova) è incluso nell’APK? {#does-ams-recommend-implementing-an-android-watchdog-on-all-devices-is-the-watchdog-cordova-plugin-included-as-part-of-the-apk}
 

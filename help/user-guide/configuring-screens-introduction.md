@@ -9,9 +9,17 @@ docset: aem65
 role: Admin
 level: Intermediate
 exl-id: 8cf4240c-1d6c-441d-b8a0-f01516455543
-source-git-commit: ef74265eadf5972eae7451b7725946d8b014c198
+TQID: https://experienceleague.adobe.com/Vtg1Wvu3G7YZN4vLHCC79s28SxABDyIzFwIDG-rTvII
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -37,7 +45,7 @@ Consente all’utente di verificare i due controlli di configurazione seguenti p
 
 Segui i passaggi seguenti per verificare se queste due configurazioni vitali sono abilitate per AEM Screens:
 
-1. Passare a [Verifica stato Sling Console Web Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&amp;overrideGlobalTimeout=).
+1. Passare a [Verifica stato Sling Console Web Adobe Experience Manager](http://localhost:4502/system/console/healthcheck?tags=screensconfigs&overrideGlobalTimeout=).
 
    ![risorse](assets/health-check1.png)
 
@@ -60,11 +68,11 @@ Segui i passaggi seguenti per verificare se queste due configurazioni vitali son
 
 ### Prerequisiti {#prerequisites}
 
-I seguenti punti chiave aiutano a configurare e a rendere il server AEM pronto all’uso per AEM Screens.
+I seguenti punti chiave aiutano a configurare e AEM server pronti per l’uso per AEM Screens.
 
 #### Consenti richieste referrer vuote {#allow-empty-referrer-requests}
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite istanza AEM > icona martello > **Operazioni** > **Console Web**.
+1. Passa a **Configurazione console Web Adobe Experience Manager** tramite l&#39;istanza AEM > icona martello > **Operazioni** > **Console Web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
@@ -81,7 +89,7 @@ I seguenti punti chiave aiutano a configurare e a rendere il server AEM pronto a
 
 #### Servizio HTTP basato su Apache Felix Jetty {#allow-apache-felix-service}
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite istanza AEM > icona martello > **Operazioni** > **Console Web**.
+1. Passa a **Configurazione console Web Adobe Experience Manager** tramite l&#39;istanza AEM > icona martello > **Operazioni** > **Console Web**.
 
    ![immagine](assets/config/empty-ref1.png)
 
@@ -97,7 +105,7 @@ I seguenti punti chiave aiutano a configurare e a rendere il server AEM pronto a
 
 #### Abilitare l’interfaccia utente touch per AEM Screens {#enable-touch-ui-for-aem-screens}
 
-AEM Screens richiede l’interfaccia utente TOUCH e non funziona con l’interfaccia classica di Adobe Experience Manager (AEM).
+AEM Screens richiede l’interfaccia TOUCH e non funziona con l’interfaccia classica di Adobe Experience Manager (AEM).
 
 1. Passa a `*<yourAuthorInstance>/system/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl*`
 1. Assicurati che la **modalità predefinita dell&#39;interfaccia utente di authoring** sia impostata su **TOUCH**, come illustrato nella figura seguente
@@ -128,7 +136,7 @@ Puoi configurare ***DeviceServiceImpl*** dal collegamento seguente per abilitare
 
 Segui i passaggi seguenti per configurare ***DeviceServiceImpl***:
 
-1. Passa a **Configurazione console Web Adobe Experience Manager** tramite l&#39;istanza AEM > icona martello > **Operazioni** > **Console Web**.
+1. Passa a **Configurazione console Web Adobe Experience Manager** tramite l&#39;istanza AEM > icona a forma di martello > **Operazioni** > **Console Web**.
 
 1. **Configurazione console Web Adobe Experience Manager** aperta. Cerca `*deviceservice*`. Per cercare la proprietà, premere **Comando+F** per macOS e **Controllo+F** per Microsoft® Windows.
 

@@ -10,9 +10,17 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/DbykjHEvhVlmBgM--hV4p707sv2FpTl1dZoUgJu2I0s
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 430
 ht-degree: 2%
 
 ---
@@ -90,7 +98,7 @@ Per verificare la configurazione di ContentSync, segui i passaggi seguenti:
 
 Per abilitare la configurazione offline per un canale, effettua le seguenti operazioni:
 
-1. Inspect il contenuto del canale e verifica se è richiesto da un’istanza AEM (online).
+1. Esamina il contenuto del canale e verifica se è richiesto da un’istanza di AEM (online).
 
    ![chlimage_1-24](assets/chlimage_1-24.png)
 
@@ -112,7 +120,7 @@ Per abilitare la configurazione offline per un canale, effettua le seguenti oper
 
    ![schermata_shot_2017-12-19at124735pm](assets/screen_shot_2017-12-19at124735pm.png)
 
-1. Inspect il contenuto del canale e verifica se è richiesto da Player-Cache locale.
+1. Controllare il contenuto del canale e verificare se è richiesto da Player-Cache locale.
 
    ![chlimage_1-26](assets/chlimage_1-26.png)
 

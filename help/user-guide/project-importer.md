@@ -10,9 +10,17 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -74,7 +82,7 @@ La sezione seguente descrive come viene utilizzata l’Importazione progetti in 
 >Limiti:
 >
 >* I file diversi dalle estensioni CSV/XLS/XLSX non sono supportati nella versione corrente.
->* Non esiste alcun filtro delle proprietà per i file importati e nulla che inizi con &quot;./&quot; viene importato.
+>* Non esiste alcun filtro delle proprietà per i file importati e viene importato nulla che inizi con &quot;./&quot;.
 >
 
 ### Prerequisiti {#prerequisites}
@@ -85,7 +93,7 @@ La sezione seguente descrive come viene utilizzata l’Importazione progetti in 
 
 A scopo dimostrativo, puoi scaricare un file excel dalla sezione seguente.
 
-[Ottieni file](assets/minimal-file.xls)
+[Ottieni il file](assets/minimal-file.xls)
 
 ### Importazione del file con i campi obbligatori minimi {#importing-the-file-with-minimum-required-fields}
 
@@ -101,7 +109,7 @@ Per importare un file in una cartella di percorso contenente i campi obbligatori
 
    ![schermata_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Fare clic sul progetto,**&#x200B; DemoProjectImporter &#x200B;**>**&#x200B; Crea &#x200B;**>**&#x200B; posizioni di importazione** dalla barra laterale.
+1. Fare clic sul progetto,**DemoProjectImporter**>**Crea**>**&#x200B; posizioni di importazione** dalla barra laterale.
 
    ![schermata_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 

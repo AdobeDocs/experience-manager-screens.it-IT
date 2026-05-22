@@ -5,9 +5,25 @@ feature: Authoring Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 7bbd211a-f54f-42b9-a1b3-516efe6fb579
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/tMZVrwGVdqEg0NbOKvBMO5-dKLG1k1kiNT8E8xU9msc
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: 1256
 ht-degree: 3%
 
 ---
@@ -117,7 +133,7 @@ Per caricare i video sul tuo canale, segui la procedura riportata di seguito:
 
 Il pannello Informazioni canale descrive le proprietà del canale, insieme all’anteprima sul canale. Inoltre, fornisce informazioni sul fatto che il canale sia offline o online.
 
-Fare clic su (**...**) nella barra delle azioni **INFORMAZIONI CANALE** per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto non in linea) per il canale.
+Fare clic su (**...**) dalla barra delle azioni **INFORMAZIONI CANALE** per visualizzare le proprietà, modificare il contenuto o aggiornare la cache (contenuto offline) per il canale.
 
 ![schermata_shot_2017-12-20at82048am](assets/screen_shot_2017-12-20at82048am.png)
 
@@ -126,7 +142,7 @@ Fare clic su (**...**) nella barra delle azioni **INFORMAZIONI CANALE** per visu
 Puoi visualizzare il manifesto dal dashboard del canale.
 
 >[!IMPORTANT]
->Questa opzione è disponibile solo con il Feature Pack 8 di AEM 6.4 o il Feature Pack 4 di AEM 6.5.
+>Questa opzione è disponibile solo con AEM 6.4 Feature Pack 8 o AEM 6.5 Feature Pack 4.
 
 Segui questi passaggi per abilitare questa opzione dal dashboard dei canali:
 

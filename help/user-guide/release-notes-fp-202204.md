@@ -5,17 +5,29 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: 5fd41f3a-212d-4179-8e59-22c0a32a1e19
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/5b76yP63aj9DmEQIZ8PS8v9psr14vlz-ey3HYXC41Gg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 3%
+source-wordcount: 319
+ht-degree: 5%
 
 ---
 
 # Note sulla versione per Feature Pack 202204 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
+>Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
@@ -23,7 +35,7 @@ AEM Screens ha rilasciato AEM 6.5 Feature Pack 11.
 
 È possibile scaricare il Feature Pack più recente per AEM Screens 6.5.11 Release dal [portale di distribuzione software](https://experience.adobe.com/#/downloads/content/software-distribution/it/aem.html) tramite Adobe ID. Passa alla scheda **Adobe Experience Manager** e cerca **Screens** per ottenere il Feature Pack più recente con titolo **AEM 6.5 Screens FP11**.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
 La data di pubblicazione del Feature Pack 202204 per AEM Screens è il 26 aprile 2022.
 

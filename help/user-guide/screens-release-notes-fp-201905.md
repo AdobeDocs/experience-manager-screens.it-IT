@@ -10,9 +10,17 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: e4562547-2829-4a53-8e37-2cd637cef7c8
-source-git-commit: 8dde26d36847fb496aed6d4bf9732233116b5ea6
+TQID: https://experienceleague.adobe.com/UXD1j2ysIuqkRz9RXQ-TwC4qJPDXdnQhawiXtRo8tRw
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 314
 ht-degree: 1%
 
 ---
@@ -21,11 +29,11 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Si consiglia di eseguire l&#39;aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
+>È consigliabile eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
-L’AEM Screens ha rilasciato AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4 con i seguenti dettagli.
+AEM Screens ha rilasciato AEM 6.3.3.3 Feature Pack 6 e AEM 6.4.4.0 Feature Pack 4 con i seguenti dettagli.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
 La data di rilascio del Feature Pack 201905 per AEM Screens è il 16 maggio 2019.
 
@@ -49,11 +57,11 @@ In questo esempio di caso d’uso viene posto l’accento sulla creazione e la g
 
 Per ulteriori dettagli, vedi **[Caso di utilizzo del canale di emergenza](emergency-channel.md)**.
 
-* **Incorporazione di un&#39;applicazione REACT tramite l&#39;editor SPA dell&#39;AEM e integrazione con AEM Screens Analytics**
+* **Incorporazione di un&#39;applicazione REACT tramite l&#39;editor di applicazioni a pagina singola di AEM e integrazione con AEM Screens Analytics**
 
-Questa sezione descrive come incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o un Angular) utilizzando l’editor SPA dell’AEM. I professionisti dell’AEM possono configurare l’editor. Descrive inoltre come integrare l’applicazione interattiva con Adobe Analytics offline.
+Questa sezione descrive come incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o Angular) utilizzando l’editor SPA di AEM. I professionisti aziendali di AEM possono configurare l’editor. Descrive inoltre come integrare l’applicazione interattiva con Adobe Analytics offline.
 
-Per ulteriori informazioni, vedere **[Incorporazione di un&#39;applicazione REACT tramite l&#39;editor SPA dell&#39;AEM e Integrazione con AEM Screens Analytics](embedding-react-app.md)**.
+Per ulteriori informazioni, vedere **[Incorporazione di un&#39;applicazione REACT tramite l&#39;editor di applicazioni a pagina singola di AEM e Integrazione con AEM Screens Analytics](embedding-react-app.md)**.
 
 ### Lettori AEM Screens rilasciati
 

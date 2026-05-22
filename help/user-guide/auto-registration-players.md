@@ -5,9 +5,20 @@ feature: Administering Screens, Players
 role: Admin
 level: Intermediate
 exl-id: 28449523-a44d-4260-9771-f1987686cbb6
-source-git-commit: 873e6ff8b506416bce8660f5eb2cbea75227a9c8
+TQID: https://experienceleague.adobe.com/uvCRS49L6CQbah4AKFwRdhGN-pvKnTWtNMN8CnFojIQ
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
@@ -20,7 +31,7 @@ La registrazione manuale in blocco di migliaia di giocatori può diventare compl
 
 Segui i passaggi seguenti per implementare la registrazione automatica dei lettori:
 
-1. Accedi all&#39;istanza AEM e fai clic sul progetto AEM Screens, quindi fai clic su **Proprietà** nella barra delle azioni.
+1. Accedi all&#39;istanza di AEM e fai clic sul progetto AEM Screens, quindi fai clic su **Proprietà** nella barra delle azioni.
 1. Fare clic sulla scheda **Avanzate** per visualizzare la sezione **Registrazione dispositivo**.
 
 1. Specificare un codice di registrazione automatica nel campo **Codice di registrazione in blocco**. Quindi una visualizzazione predefinita facoltativa nell&#39;**Assegnazione visualizzazione predefinita** da assegnare al lettore con registrazione automatica.
@@ -42,7 +53,7 @@ Segui i passaggi seguenti per implementare la registrazione automatica dei letto
 
 Segui la sezione seguente per prendere in considerazione alcune delle best practice per la sicurezza:
 
-* Assicurati che il codice di registrazione non sia compromesso: configura il codice in AEM immediatamente prima di avviare la registrazione in blocco e, una volta completato, cancella tale campo e salva in AEM.
+* Assicurati che il codice di registrazione non sia compromesso: configura il codice in AEM subito prima di avviare la registrazione in blocco, al termine cancella tale campo e salva in AEM.
 
 * È possibile configurare il percorso `/bin/screens/registration` in modo che sia accessibile solo da intervalli IP noti, se possibile.
 

@@ -5,17 +5,25 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: 415
+ht-degree: 5%
 
 ---
 
 # Note sulla versione per Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
->L’Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma Screens AEM 6.3.
+>Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager (AEM). AEM Screens fornisce supporto per la manutenzione della piattaforma AEM 6.3 Screens.
 
 ## Disponibilità {#availability}
 
@@ -26,7 +34,7 @@ Puoi scaricare il Feature Pack più recente per AEM Screens versione 6.5.8 dal [
 >[!IMPORTANT]
 >Installare la versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS dopo aver installato i pacchetti `screens-cloud-ams-pkg-0.0.20`, `screens-cloud-ams-pkg-0.0.16` e `screens core bundles`.
 
-## Data di rilascio {#release-date}
+## Data di pubblicazione {#release-date}
 
 La data di rilascio del Feature Pack 202105 per AEM Screens è il 4 giugno 2021.
 
@@ -39,11 +47,11 @@ La data di rilascio del Feature Pack 202105 per AEM Screens è il 4 giugno 2021.
 * **Denominazione dispositivo lettore AEM Screens**
 
   I lettori AEM Screens ora includono la funzionalità di invio di un nome di dispositivo a Adobe Experience Manager (AEM).
-Per impostazione predefinita, quando si utilizza la registrazione in blocco per registrare un dispositivo, nel campo del titolo viene inserito un nome utente generato dal sistema. In alternativa, un cliente può utilizzare un tag risorsa o un altro nome descrittivo che lo renda visibile nell’AEM e faciliti l’assegnazione di contenuti appropriati.
+Per impostazione predefinita, quando si utilizza la registrazione in blocco per registrare un dispositivo, nel campo del titolo viene inserito un nome utente generato dal sistema. In alternativa, è possibile utilizzare un tag risorsa o un altro nome descrittivo che risulti visibile in AEM e risulti più semplice assegnare il contenuto appropriato.
 
   Per informazioni su come configurare il nome in ciascun sistema operativo supportato, consultare la seguente documentazione:
 
-   * [Android](/help/user-guide/implementing-android-player.md#name-android)
+   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
    * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
    * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
    * [CHROME OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)

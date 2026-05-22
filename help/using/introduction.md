@@ -2,10 +2,18 @@
 title: Introduzione ad AEM Screens
 description: Scopri AEM Screens e cosa può fare per te.
 exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
-source-git-commit: 1cf90de7892d051b2b94b4dd57de7135269b1ee8
+TQID: https://experienceleague.adobe.com/UticeR0hdyxXrG1P5qrwzrJLhZ3h5BRCfjamUzzu-XE
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 52%
+source-wordcount: 690
+ht-degree: 53%
 
 ---
 
@@ -48,11 +56,11 @@ AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per dis
 
 * **Segmentazione loop multimediale**: la configurazione di ciascun dispositivo di riproduzione con un proprio segmento di loop garantisce che i contenuti localizzati possano essere facilmente creati, pubblicati e riprodotti nell&#39;esperienza digitale complessiva. Le risorse multimediali contenute all’interno dei canali di sequenza incorporati vengono aggiunte al segmento di loop precedente e offrono l’opportunità di impostare come destinazione un segmento di loop multimediale per ciascun raggruppamento di posizioni.
 
-* **Esperienze interattive**: un&#39;applicazione chiosco touch può essere creata e distribuita in un canale Screens tramite AEM e l&#39;editor SPA. È consigliabile applicare proprietà di progettazione omni-channel coerenti, un timer di inattività per ripristinare l’esperienza e un chiaro invito all’azione per le attività che l’applicazione può eseguire. La pagina di destinazione deve essere costituita da elementi digitali chiave progettati per trasmettere valore, richiamare l’attenzione dell’utente e richiedere all’utente di interagire.
+* **Esperienze interattive**: un&#39;applicazione chiosco touch può essere creata e distribuita in un canale Screens utilizzando AEM e l&#39;editor SPA. È consigliabile applicare proprietà di progettazione omni-channel coerenti, un timer di inattività per ripristinare l’esperienza e un call to action chiaro per le attività che l’applicazione può eseguire. La pagina di destinazione deve essere costituita da elementi digitali chiave progettati per trasmettere valore, richiamare l’attenzione dell’utente e richiedere all’utente di interagire.
 
 AEM Screens fornisce un’infrastruttura per distribuire contenuti ai dispositivi fisici. I contenuti vengono assegnati ai canali in Screens, che possono avere contenuti multimediali o applicazioni touch screen. In questo framework, un’applicazione AEM Sites può essere distribuita come contenuto tramite un canale.
 
 Un sito AEM deve essere formattato per l’utilizzo con le dimensioni del dispositivo di visualizzazione a cui è destinato. Dovrebbe essere eseguito prima di essere rilasciato in un canale in Screens.
 
 >[!NOTE]
->Molti componenti di AEM Sites non sono compatibili con AEM Screens. AEM Screens viene fornito con molti dei propri componenti che consentono di creare esperienze digitali senza dover essere personalizzati. Se i requisiti del progetto lo consentono, utilizza la funzionalità integrata di AEM Screens laddove possibile.
+>Molti componenti di AEM Sites non sono compatibili con AEM Screens. AEM Screens viene fornito con molti dei propri componenti che consentono di creare esperienze digitali senza dover essere personalizzati. Se i requisiti del progetto lo consentono, utilizza la funzionalità incorporata di AEM Screens laddove possibile.

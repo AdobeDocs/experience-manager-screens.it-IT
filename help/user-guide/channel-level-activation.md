@@ -6,9 +6,26 @@ feature: Authoring Screens, Channels
 role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
-source-git-commit: dcaaa1c7ab0a55cecce70f593ed4fded8468130b
+TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: 1808
 ht-degree: 0%
 
 ---
@@ -122,7 +139,7 @@ Per implementare la funzionalità, segui i passaggi seguenti:
    1. Il **Ruolo canale** è popolato come **targetedsingleplay**.
    1. Imposta **Priorità** su **2**.
    1. Fai clic su **Eventi supportati** e imposta **Carico iniziale**, **Schermata di inattività** e **Timer**, come illustrato nella figura seguente.
-   1. In **attivo da**, impostato come 27 novembre 2018, 23:59 e in **attivo fino a**, impostato come 28 novembre 2018, 05:05
+   1. In **attivo da**, impostato come 27 novembre 2018, 23:00 e in **attivo fino a**, impostato come 28 novembre 2018, 00:00:00:00, 00:00:00 - 00:00:00:00:59:05
    1. Fai clic su **Salva**.
 
    >[!CAUTION]
@@ -141,20 +158,19 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 Una volta completata la configurazione dei canali e della visualizzazione, avvia AEM Screens Player per visualizzare il contenuto.
 
-Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:59 (come impostato nella pianificazione), il canale **TargetedSinglePlay** visualizza il contenuto fino alle 00:05, quindi **MainAdChannel** riprende la riproduzione.
+Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:2&rbrace; (come impostato nella pianificazione), il canale **TargetedSinglePlay** visualizza il contenuto fino alle 12:5&rbrace; e quindi **MainAdChannel** riprende la riproduzione.:59:05
 
 >[!NOTE]
 >
->Per informazioni su AEM Screen Player, consulta le risorse seguenti:
->&#x200B;>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
->&#x200B;>[Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>Per informazioni su AEM Screen Player, consulta le risorse seguenti:>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
+>[Utilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per Assets in un canale {#handling-recurrence-in-assets}
 
 Puoi pianificare le risorse in un canale in modo che ricorrano a determinati intervalli su base giornaliera, settimanale o mensile in base alle tue esigenze.
 
-Si supponga di voler visualizzare il contenuto di un canale solo il venerdì dalle 13.00 alle 22.00. È possibile utilizzare la scheda **Activation** per impostare l&#39;intervallo ricorrente desiderato per la risorsa.
+Supponiamo di voler visualizzare il contenuto di un canale solo il venerdì dalle 1:00 alle 22:1&rbrace;. Puoi utilizzare la scheda **Activation** per impostare l&#39;intervallo ricorrente desiderato per la risorsa.:00
 
 ### Ripartizione giornaliera {#day-parting}
 
@@ -174,17 +190,17 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| prima delle 08:00 | la risorsa nel canale viene riprodotta prima delle 8.00 di ogni giorno |
-| dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
+| prima delle 08:00:00 | la risorsa nel canale viene riprodotta prima delle 08:00 del giorno:00 |
+| dopo le 14:00:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno:00 |
+| dopo 12:15 e prima di 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di pomeriggio ogni giorno per 30 minuti |
+| prima del 12:15 anche dopo il 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
 | Lun, Mar, Mer o Mon-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
-| il primo giorno di gennaio dopo le 14:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle 03:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
-| nei 1-2 giorni di gennaio dopo le 2:00 anche nei 2-3 giorni di gennaio prima delle 3:00. | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
+| il primo giorno di gennaio dopo le ore 2:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle ore 3:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 di sera del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 di mattina del 3 gennaio |
+| nei 1-2 giorni di gennaio dopo le 2:00 P.M. anche nei 2-3 giorni di gennaio prima del 3:00 A.M. | la risorsa nel canale avvia il lettore dopo le 2:00 di pomeriggio del 1° gennaio, continua a essere riprodotta fino alle 3:00 di mattina del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 di sera e continua a essere riprodotta fino alle 3:00 di mattina del 3 gennaio |
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (14:00).
+>È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
 
 ### WeekParting {#week-parting}
 
@@ -205,14 +221,14 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | **Espressione** | **Interpretazione** |
 |---|---|
 | Lun, Mar, Mer o Mon-Wed | la risorsa viene riprodotta nel canale da lunedì a mercoledì |
-| prima delle 08:00 | la risorsa nel canale viene riprodotta prima delle 8.00 di ogni giorno |
-| dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
-| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
-| prima delle 12:15 anche dopo le 12:45 | il canale viene riprodotto ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
+| prima delle 08:00:00 | la risorsa nel canale viene riprodotta prima delle 08:00 del giorno:00 |
+| dopo le 14:00:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno:00 |
+| dopo 12:15 e prima di 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di pomeriggio ogni giorno per 30 minuti |
+| prima del 12:15 anche dopo il 12:45 | il canale viene riprodotto ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (14:00).
+>È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
 
 
 ### MonthParting {#month-parting}
@@ -241,7 +257,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (14:00).
+>È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
 
 ### Combinazione di partizioni {#combined-parting}
 
@@ -261,10 +277,10 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| dopo le 6:00 e prima delle 18:00 di lunedì, mercoledì di gennaio-marzo | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio alla fine di marzo |
-| il primo giorno di gennaio dopo le 14:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle 03:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
-| nei 1-2 giorni di gennaio dopo le 2:00 anche nei 2-3 giorni di gennaio prima delle 3:00. | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
+| dopo 6:00 e prima del 18:00 di lunedì, mercoledì di gennaio-marzo | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio alla fine di marzo |
+| il primo giorno di gennaio dopo le ore 2:00, anche il secondo giorno di gennaio e anche il terzo giorno di gennaio prima delle ore 3:00. | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 di sera del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 di mattina del 3 gennaio |
+| nei 1-2 giorni di gennaio dopo le 2:00 P.M. anche nei 2-3 giorni di gennaio prima del 3:00 A.M. | la risorsa nel canale avvia il lettore dopo le 2:00 di pomeriggio del 1° gennaio, continua a essere riprodotta fino alle 3:00 di mattina del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 di sera e continua a essere riprodotta fino alle 3:00 di mattina del 3 gennaio |
 
 >[!NOTE]
 >
->Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (14:00).
+>Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).

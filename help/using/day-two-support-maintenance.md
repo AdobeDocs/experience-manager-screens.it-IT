@@ -2,9 +2,15 @@
 title: Supporto e manutenzione per il giorno 2
 description: Scopri il supporto e la manutenzione per il giorno due di AEM Screens.
 exl-id: 2b5511ff-c8f4-4ea3-8a65-f17f3a1ec39b
-source-git-commit: a89aec16bb36ecbde8e417069e9ed852363acd82
+TQID: https://experienceleague.adobe.com/IMuRCxE7v8DyK-T4Q3lehhclfgGtu0VIHyIsODOpEzA
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 140
 ht-degree: 0%
 
 ---
@@ -17,7 +23,7 @@ Seguire le linee guida per il supporto e la manutenzione per il secondo giorno d
 
 1. Esegui le versioni più recenti dei seguenti pacchetti per la tua versione di Adobe Experience Manager:
 
-   * **Service Pack AEM**
+   * **AEM Service Pack**
    * **Feature Pack di Screens**
    * **AEM Cumulative Fix Pack**
 

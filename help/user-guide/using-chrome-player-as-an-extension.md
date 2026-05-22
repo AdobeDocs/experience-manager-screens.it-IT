@@ -5,9 +5,19 @@ feature: Administering Screens
 role: Admin
 level: Intermediate
 exl-id: 53d5bd81-0853-47b0-9798-01d8fd5612e6
-source-git-commit: df41a8794683e241b6f12b58d39c01e069187435
+TQID: https://experienceleague.adobe.com/ehBNwOmhu7ygOMHsEiD8DeGBEDFB0Asv7p8HVDteb8I
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -52,7 +62,7 @@ Segui questa pagina per informazioni sull’installazione del lettore Chrome com
    > Se l’URL indicato sopra non funziona, significa che al lettore non è assegnata una visualizzazione o che il contenuto non è stato scaricato correttamente. Controlla la scheda di rete per il JSON di configurazione del lettore per vedere se il lettore ottiene i dettagli corretti e per eventuali problemi di rete nel download.
 
 1. Fare clic con il pulsante destro del mouse e controllare tre livelli del lettore Chrome.
-   **Debug del contenuto**: fare clic con il pulsante destro del mouse e controllare il contenuto per eseguire il debug del contenuto in esecuzione (nel menu di scelta rapida dovrebbe essere presente un singolo elemento denominato &quot;Inspect&quot;)
+   **Debug del contenuto**: fare clic con il pulsante destro del mouse e controllare il contenuto per eseguire il debug del contenuto in esecuzione (nel menu di scelta rapida dovrebbe essere presente un singolo elemento denominato &quot;Ispeziona&quot;)
 
    **Debug del firmware**: visualizza l&#39;interfaccia utente di amministrazione, quindi fai clic con il pulsante destro del mouse e controlla per eseguire il debug del codice del firmware(player). Dovrebbe essere disponibile un’opzione per esaminare la pagina di sfondo e simulare un riavvio del browser.
 

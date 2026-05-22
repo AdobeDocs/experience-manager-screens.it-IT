@@ -10,10 +10,22 @@ feature: Administering Screens
 role: Admin, Developer
 level: Intermediate
 exl-id: 92c8c42b-7c1e-4d4a-8662-18c99666e9c6
-source-git-commit: 6643f4162c8f0ee7bcdb0fd3305d3978234f5cfd
+TQID: https://experienceleague.adobe.com/4Qdx25kNW3IszlXshNPGYGMJNE9E2QQlndLjJICDrI4
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: 693
+ht-degree: 1%
 
 ---
 
@@ -21,7 +33,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Questa funzionalità di AEM Screens è disponibile solo se è stata installata la versione minima del Feature Pack 2 AEM 6.4.2 o del Feature Pack 4 AEM 6.3.3. Per i clienti del servizio AEM Screens Cloud, contatta il tuo Adobe Relationship Manager per abilitare Adobe Analytics in Screens Cloud.
+>Questa funzionalità di AEM Screens è disponibile solo se è stata installata la versione minima di AEM 6.4.2 Feature Pack 2 o AEM 6.3.3 Feature Pack 4. Per i clienti del servizio AEM Screens Cloud, contatta il tuo Adobe Relationship Manager per abilitare Adobe Analytics in Screens Cloud.
 
 >[!NOTE]
 >
@@ -73,13 +85,13 @@ Passa a **Configurazione console Web Adobe Experience Manager** per configurare 
 
 >[!CAUTION]
 >
->Prima di configurare le proprietà, contatta l&#39;Adobe Relationship Manager per creare un ticket per ottenere una **chiave API di Analytics** e un **progetto Analytics** da utilizzare con AEM Screens.
+>Prima di configurare le proprietà, contatta il tuo Adobe Relationship Manager per creare un ticket per ottenere una **chiave API di Analytics** e un **progetto Analytics** da utilizzare con AEM Screens.
 
 ### Configurazione delle proprietà {#configuring-the-properties}
 
 >[!CAUTION]
 >
->Prima di configurare le proprietà, contatta l&#39;Adobe Relationship Manager per creare un ticket per ottenere una **chiave API di Analytics** e un **progetto Analytics** da utilizzare con AEM Screens.
+>Prima di configurare le proprietà, contatta il tuo Adobe Relationship Manager per creare un ticket per ottenere una **chiave API di Analytics** e un **progetto Analytics** da utilizzare con AEM Screens.
 
 La tabella seguente evidenzia le proprietà con la relativa descrizione per la configurazione di Adobe Analytics per AEM Screens:
 
@@ -119,7 +131,7 @@ La tabella seguente evidenzia le proprietà con la relativa descrizione per la c
 
 #### Utilizzo del servizio Adobe Analytics in AEM Screens {#using-adobe-analytics-service-in-aem-screens}
 
-Questo scenario richiama l’API di Analytics tramite chiamate REST da un servizio di analisi nel firmware. Inoltre, strumenti i componenti core Screens dell’AEM per creare e inviare eventi specifici per un caso d’uso particolare. Tutte queste funzionalità consentono l’estensibilità di inviare messaggi personalizzati ad Analytics da un canale personalizzato.
+Questo scenario richiama l’API di Analytics tramite chiamate REST da un servizio di analisi nel firmware. Inoltre, strumenti i componenti core Screens di AEM per creare e inviare eventi specifici per un caso d’uso specifico. Tutte queste funzionalità consentono l’estensibilità di inviare messaggi personalizzati ad Analytics da un canale personalizzato.
 
 Gli eventi di Analytics vengono archiviati offline in indexedDB e successivamente bloccati e inviati al cloud.
 
