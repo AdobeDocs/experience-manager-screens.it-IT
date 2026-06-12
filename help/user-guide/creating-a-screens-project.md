@@ -24,8 +24,8 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 324
-ht-degree: 1%
+source-wordcount: 290
+ht-degree: 2%
 
 ---
 

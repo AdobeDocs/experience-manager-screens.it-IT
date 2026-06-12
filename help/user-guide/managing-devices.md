@@ -26,8 +26,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 7%
+source-wordcount: 205
+ht-degree: 8%
 
 ---
 
@@ -77,7 +77,7 @@ Per assegnare un dispositivo a uno schermo, attenersi alla procedura descritta d
 >[!NOTE]
 >
 >Ogni volta che il primo dispositivo viene aggiunto a un nuovo progetto Screens, viene creato un gruppo di utenti.
->Ad esempio, se il nome del nodo del progetto è *we-retail*, il nome del gruppo di utenti è *screens-we-retail-devices*.
+>Ad esempio, se il nome del nodo del progetto è *we-retail*, il nome del gruppo utenti sarà *screens-we-retail-devices*.
 >Questo gruppo viene aggiunto come membro del gruppo **Collaboratori**, come illustrato nella figura seguente:
 
 ![chlimage_1-39](assets/chlimage_1-39.png)
