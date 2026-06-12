@@ -321,7 +321,7 @@ Nella tabella seguente viene riepilogato il modello dati standard per gli eventi
   </tr>
   <tr>
    <td> </td> 
-   <td>Descrizione del prodotto</td> 
+   <td>Descrizione prodotto</td> 
    <td>trn.product</td> 
    <td>obbligatorio</td> 
    <td>stringa</td> 
