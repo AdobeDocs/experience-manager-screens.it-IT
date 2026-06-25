@@ -28,7 +28,7 @@ ht-degree: 0%
 # Incorporare un’applicazione REACT utilizzando l’Editor SPA di AEM e Integrare con AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Puoi incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o Angular). A tale scopo, utilizza l’editor SPA di AEM configurato dai professionisti del settore in AEM. Scopri anche come integrare l’applicazione interattiva con Adobe Analytics offline.
 

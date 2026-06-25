@@ -35,7 +35,7 @@ ht-degree: 0%
 # Layout multizona {#multi-zone-layout}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La pagina seguente descrive l&#39;utilizzo del layout multizona e tratta i seguenti argomenti:
 
@@ -58,8 +58,8 @@ In base alle esigenze del progetto, a volte è necessario disporre di più zone 
 
 Prima di iniziare a implementare questa funzionalità, assicurati di disporre delle conoscenze concettuali su:
 
-* [Creazione di un progetto AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
-* [Creazione di una visualizzazione](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
+* [Creazione di un progetto AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/creating-a-screens-project)
+* [Creazione di una visualizzazione](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/setting-up-projects/managing-displays)
 * [Assegnazione di un canale a una visualizzazione](/help/user-guide/channel-assignment.md)
 
 ## Creazione di un layout multizona {#creating-multi-zone-layout}

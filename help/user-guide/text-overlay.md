@@ -36,7 +36,7 @@ ht-degree: 1%
 # Sovrapposizione testo {#text-overlay}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa sezione tratta i seguenti argomenti:
 
@@ -113,7 +113,7 @@ La sezione seguente descrive l’utilizzo di valori provenienti da un archivio d
 
 Configura le configurazioni ContextHub per il progetto AEM Screens.
 
-Per informazioni su come impostare e gestire le modifiche delle risorse basate sui dati utilizzando un archivio dati, consulta [Configurazione di ContextHub in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
+Per informazioni su come impostare e gestire le modifiche delle risorse basate sui dati utilizzando un archivio dati, consulta [Configurazione di ContextHub in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/developing/configuring-context-hub).
 
 Dopo aver impostato le configurazioni richieste per il progetto, segui i passaggi seguenti per utilizzare i valori dei fogli di Google:
 

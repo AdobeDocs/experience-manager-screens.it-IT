@@ -21,7 +21,7 @@ ht-degree: 0%
 # Gestione del traffico di rete {#managing-network-traffic}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Un&#39;installazione di rete può avere diverse strutture. Questa sezione descrive le impostazioni di rete e gli approcci generalizzati più comuni seguiti all’interno di un’organizzazione.
 

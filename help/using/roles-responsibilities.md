@@ -26,7 +26,7 @@ ht-degree: 0%
 # Ruoli e responsabilità del progetto {#roles-responsibilities}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 In qualità di implementatore di AEM con esperienza, è probabile che tu abbia visto i ruoli denominati *Autori*, *Sviluppatori* e *Tecnici IT*.
 
@@ -102,7 +102,7 @@ In genere, i project manager gestiscono l’intera implementazione di AEM Screen
 
 >[!NOTE]
 >
->Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
+>Per informazioni dettagliate sui diversi ruoli e responsabilità e sul pubblico di destinazione di un progetto di digital signage, visita **[Ruoli e responsabilità del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-roles-responsibilities)**.
 
 
 ## Fasi del progetto {#project-stages}
@@ -117,7 +117,7 @@ Per supportare una corretta implementazione del digital signage, è consuetudine
 >
 >Mentre questa guida pone l&#39;accento principalmente su *Primo giorno* e *Secondo giorno*, è necessario prestare attenzione a tutte e tre le fasi per eseguire un progetto di digital signage di successo.
 >
->Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
+>Per informazioni sulla preproduzione del progetto, sull&#39;avvio del progetto e sulla progressione del progetto, guarda un video su **[Gestione e distribuzione del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)**.
 
 ## Grafico RACI {#raci-chart}
 

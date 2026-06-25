@@ -33,7 +33,7 @@ ht-degree: 1%
 # Creazione e gestione delle visualizzazioni {#creating-and-managing-displays}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Un display è un raggruppamento virtuale di schermi posizionati uno accanto all’altro. Il display è fisso rispetto a un&#39;installazione. Si tratta degli autori di contenuti oggetto che lavorano con e a cui fanno sempre riferimento come visualizzazione logica piuttosto che come parti contatore fisiche.
 

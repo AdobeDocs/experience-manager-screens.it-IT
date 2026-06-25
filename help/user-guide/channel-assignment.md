@@ -36,7 +36,7 @@ Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione
 
 Questa pagina mostra come assegnare un canale alla visualizzazione.
 
-Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >È possibile assegnare più canali a una visualizzazione.
@@ -191,5 +191,5 @@ Questo esempio mostra il DayParting per un negozio che visualizza la raccolta in
 >
 > Per ulteriori informazioni su DayParting, vedere le sezioni seguenti:
 >
->* [Gestione della ricorrenza in Assets](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
->* [Gestione della ricorrenza per Assets in un canale](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)
+>* [Gestione della ricorrenza in Assets](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/product-features/asset-level-scheduling)
+>* [Gestione della ricorrenza per Assets in un canale](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/product-features/channel-level-activation)

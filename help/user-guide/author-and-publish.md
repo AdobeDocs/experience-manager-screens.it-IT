@@ -23,7 +23,7 @@ ht-degree: 0%
 In questa pagina sono evidenziati i seguenti argomenti:
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Configurazione delle istanze Author e Publish**
 * **Impostazione della topologia di pubblicazione**
@@ -123,7 +123,7 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
 1. Creazione di un agente di replica AEM Screens per pub2. Copiare l&#39;agente di replica Screens per pub1 e modificare la porta in modo che punti a 4504 per pub2.
 
    >[!NOTE]
-   >Per informazioni su come configurare gli agenti di replica di Screens, vedere [Configurazione dell&#39;agente di replica di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Per informazioni su come configurare gli agenti di replica di Screens, vedere [Configurazione dell&#39;agente di replica di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Creare agenti di replica inversa di Screens {#creating-screens-reverse-replication-agents}
 

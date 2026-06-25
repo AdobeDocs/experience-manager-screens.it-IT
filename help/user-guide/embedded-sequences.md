@@ -36,7 +36,7 @@ ht-degree: 0%
 # Sequenze incorporate {#embedded-sequences}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Utilizzando ***Sequenze incorporate***, per i canali, consente a un utente di aggiungere componenti nel canale principale e anche di riutilizzare il contenuto da un canale diverso e di incorporarlo nel canale principale.
 
