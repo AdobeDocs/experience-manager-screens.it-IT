@@ -24,14 +24,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 593
 ht-degree: 0%
 
 ---
 
 # Parte 3: Test, POC, Piloti e rollout {#part-testing-pocs-pilots-rollouts}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa pagina evidenzia la parte 3 di una serie in 5 parti progettata per aiutare i membri del gruppo a comprendere meglio i termini chiave fondamentali per garantire che una soluzione di successo possa essere sviluppata prima di un rollout.
 

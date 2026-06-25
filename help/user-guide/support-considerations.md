@@ -21,14 +21,17 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 631
+source-wordcount: 677
 ht-degree: 0%
 
 ---
 
 # Parte 5: Considerazioni di supporto {#part-support-considerations}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 In questa pagina viene illustrata la parte conclusiva di una serie in 5 parti progettata per aiutare i membri del team a comprendere come vengono risolti i problemi di hardware, software e connettività. Questa fase analizza le stime dei costi e i framework per il supporto in loco. Inoltre, spiega come vengono gestiti i parametri di SLA, i budget operativi e gli handoff NOC.
 

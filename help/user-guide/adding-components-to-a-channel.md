@@ -28,14 +28,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 1420
+source-wordcount: 1466
 ht-degree: 5%
 
 ---
 
 # Aggiunta di componenti a un canale{#adding-components-to-a-channel}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 I componenti sono gli elementi fondamentali dell’esperienza AEM (Adobe Experience Manager). Puoi utilizzare diversi componenti e aggiungerli al tuo canale in un progetto AEM Screens.
 

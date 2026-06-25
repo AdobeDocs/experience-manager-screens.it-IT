@@ -19,21 +19,24 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 857
 ht-degree: 1%
 
 ---
 
 # Canale TakeOver permanente {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 La pagina seguente presenta un caso d’uso con particolare attenzione alla configurazione di un progetto e spiega come creare un canale di acquisizione permanente che viene riprodotto continuamente per un giorno e un’ora specifici.
 
 ## Descrizione del caso d’uso {#use-case-description}
 
 In questo caso d&#39;uso viene illustrato come creare un canale che *rileva* dal normale canale di riproduzione per una visualizzazione o un gruppo di visualizzazioni. L&#39;acquisizione avviene perennemente per un giorno e un&#39;ora specifici.
-Ad esempio, esiste un canale di acquisizione permanente che viene riprodotto ogni venerdì dalle 9 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. :00:00L’esempio seguente illustra la creazione di un canale di acquisizione permanente che consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.:00:00
+Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L’esempio seguente illustra la creazione di un canale di acquisizione perpetuo che consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.:00:00
 
 ### Precondizioni {#preconditions}
 

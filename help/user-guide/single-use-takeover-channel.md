@@ -19,14 +19,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: 672
 ht-degree: 1%
 
 ---
 
 # Canale TakeOver per singolo utilizzo {#single-use-takeover-channel}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Nella pagina seguente viene illustrato un caso d’uso che pone l’accento sulla configurazione di un progetto per la creazione di un singolo canale TakeOver che viene riprodotto una volta per un periodo di tempo specifico.
 

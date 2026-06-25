@@ -21,14 +21,17 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: 536
 ht-degree: 0%
 
 ---
 
 # Parte 1: Ruoli e responsabilità del progetto {#part-project-roles-and-responsibilities}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa pagina evidenzia la parte 1 di una serie in 5 parti. È stato progettato per aiutare i membri del team a comprendere meglio i ruoli, le responsabilità e le tempistiche necessari durante il ciclo di vendita e il ciclo di vita del progetto di digital signage.
 

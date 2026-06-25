@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 669
 ht-degree: 1%
 
 ---
@@ -30,6 +30,9 @@ ht-degree: 1%
 Questa sezione descrive una funzionalità per importare in blocco un set di posizioni da un foglio di calcolo CSV/XLS al progetto AEM Screens.
 
 ## Introduzione {#introduction}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Quando imposti un progetto AEM Screens per la prima volta nell’organizzazione, crea anche tutte le posizioni. Se il progetto coinvolge molte posizioni, si ottiene una noiosa attività che richiede molta selezione e attesa nell’interfaccia utente.
 

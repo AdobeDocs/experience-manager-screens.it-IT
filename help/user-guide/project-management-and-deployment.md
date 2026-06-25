@@ -19,14 +19,17 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 721
 ht-degree: 0%
 
 ---
 
 # Parte 4: Gestione e realizzazione del progetto {#part-project-management-and-deployment}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 In questa pagina viene evidenziata la parte 4 di una serie in 5 parti progettata per coprire la gestione del progetto e la preparazione dell&#39;implementazione e per definire i fattori chiave di cui l&#39;integratore audio-video è responsabile per la gestione del progetto e la preparazione dell&#39;implementazione.
 

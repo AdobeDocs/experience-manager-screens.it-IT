@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: 601
 ht-degree: 1%
 
 ---
@@ -18,6 +18,9 @@ ht-degree: 1%
 # Utilizzo di rappresentazioni adattive in AEM Screens {#adaptive-renditions}
 
 ## Introduzione {#introduction}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Questa funzione è supportata solo su AEM on-premise (AEM 6.x). Non è supportato in AEM as a Cloud Service.

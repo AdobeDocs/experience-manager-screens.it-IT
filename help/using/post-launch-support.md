@@ -8,18 +8,21 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 390
-ht-degree: 3%
+source-wordcount: 396
+ht-degree: 0%
 
 ---
 
 # Supporto post-lancio {#post-launch-support}
 
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 Non trascurare il supporto post-lancio nella fase iniziale.
 
-Garantire che i siti ricevano il supporto adeguato dal fornitore di hardware è fondamentale per le loro operazioni aziendali. **Integratore audio-video** deve collaborare a stretto contatto con le parti interessate e identificare i requisiti necessari da diversi aspetti.
+Garantire che i siti ricevano un supporto adeguato dal fornitore di hardware è fondamentale per le operazioni aziendali. **Integratore audio-video** deve collaborare a stretto contatto con le parti interessate e identificare i requisiti necessari da diversi aspetti.
 Durante il supporto post-lancio, considera i seguenti requisiti:
 
 * gestione remota dei dispositivi
