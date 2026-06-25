@@ -3,23 +3,20 @@ title: Considerazioni relative all’ambito dei progetti
 description: Ulteriori informazioni sulle considerazioni mano a mano che un progetto AEM Screens ha un proprio ambito.
 exl-id: 6e27b0f1-3c31-4d9b-8fa2-b4ec2e9bf7b0
 TQID: https://experienceleague.adobe.com/7klqpBq6hYXV2Uq9CTumo1k3MupO4h-Ewptnd3wyO8Y
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: 252
 ht-degree: 0%
 
 ---
 
 # Considerazioni relative all’ambito dei progetti {#pre-sales-considerations}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Una delle parti interessate per questa attività è un Marketing/Business Strategist.
@@ -41,4 +38,4 @@ I principali risultati ottenuti in questa fase includono:
 >
 >Identifica quanto prima i dati necessari per l’applicazione e da dove provengono. Un’esplorazione più approfondita avviene durante l’implementazione. Tuttavia, assicurati di prendere tempo durante *Giorno zero* per scoprire quali dati il client intende utilizzare. Scopri dove sono attualmente memorizzati i dati e come l’applicazione in fase di generazione può accedervi. Notificare al team di sviluppo prima che si verifichino problemi consente di facilitare l’implementazione.
 
-Guarda il video [Considerazioni sull&#39;ambito dei progetti](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).
+Guarda il video [Considerazioni sull&#39;ambito dei progetti](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/digital-signage-network/project-considerations).

@@ -3,22 +3,20 @@ title: Informazioni su questa guida
 description: Scopri le best practice per i progetti AEM Screens per pianificare ed eseguire progetti, da informazioni strategiche e di progettazione, fino alla distribuzione e al supporto successivo.
 exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 32%
+source-wordcount: 304
+ht-degree: 27%
 
 ---
 
 # Informazioni su questa guida {#about-guide}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La Guida alle best practice di AEM Screens offre indicazioni su come pianificare e completare con successo un progetto AEM Screens.
 

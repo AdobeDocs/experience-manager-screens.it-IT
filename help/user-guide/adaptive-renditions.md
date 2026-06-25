@@ -3,19 +3,19 @@ title: Panoramica e configurazioni dell’architettura di rappresentazioni adatt
 description: Scopri la panoramica dell’architettura e le configurazioni in CRXDE Lite per rappresentazioni adattive in AEM Screens.
 exl-id: 0419b9c6-3c27-4a61-84ff-a6fe697e773f
 TQID: https://experienceleague.adobe.com/6kL7RJWr-AJQsQdBqE-GI8lI-6QQXTNiRXP4maEdmzA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: 703
 ht-degree: 4%
 
 ---
 
 # Rappresentazioni adattive: panoramica dell’architettura e configurazioni {#adaptive-renditions}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Introduzione {#introduction}
 
@@ -50,7 +50,7 @@ Per configurare la configurazione, segui i passaggi seguenti:
    >![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se hai installato l&#39;ultimo Feature Pack 202109, visualizzerai la struttura del nodo **rendition-mapping** precompilata in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Per informazioni dettagliate sull&#39;ultimo Feature Pack, consulta le [note sulla versione del Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md).
+   >Se hai installato l&#39;ultimo Feature Pack 202109, visualizzerai la struttura del nodo **rendition-mapping** precompilata in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Consulta [Note sulla versione per Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) per informazioni dettagliate sull&#39;ultimo Feature Pack.
    >Per i progetti esistenti, assicurati che al progetto Screens sia associata la configurazione **rendition-mapping**. Per ulteriori informazioni, vedere [Aggiunta del mapping di rappresentazione a un progetto esistente](#rendition-mapping-existing).
 
 ### Aggiunta di una proprietà di mappatura rappresentazione a un progetto esistente {#rendition-mapping-existing}

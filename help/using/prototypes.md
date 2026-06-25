@@ -3,19 +3,19 @@ title: Prototipi
 description: Questa pagina descrive i prototipi per un progetto AEM Screens
 exl-id: 164bf664-15ce-4032-9ee8-5d52903b3ac9
 TQID: https://experienceleague.adobe.com/lamHvFwIJ-zSu5h0OejB84AaBOP4iSNJNS48RkvZ6MQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: 196
 ht-degree: 0%
 
 ---
 
 # Prototipazione esperienza utente {#prototypes}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -35,4 +35,4 @@ Sono stati creati diversi casi d’uso di esempio da utilizzare come riferimento
 
 >[!NOTE]
 > Durante la fase di progettazione dell’interfaccia utente, verifica che i dati estratti dalla progettazione dell’interfaccia utente siano adeguatamente supportati.
-> Ad esempio, è probabile che non tutti i responsabili decisionali abbiano familiarità con la struttura dati del proprio database di prodotti. Possono scegliere nella soluzione UX i descrittori che non sono campi primari nel livello dati. Identificare in anticipo i casi in cui potrebbe essere necessaria la manipolazione dei dati e comunicarli al cliente evita malintesi in un secondo momento. Se il client decide di espandere o modificare l’etichettatura dell’interfaccia utente dopo l’inizio dello sviluppo, è necessario più lavoro per adattarsi alle modifiche.
+> È probabile, ad esempio, che non tutti i responsabili delle decisioni abbiano familiarità con la struttura dati del database di prodotti. Possono scegliere nella soluzione UX i descrittori che non sono campi primari nel livello dati. Identificare in anticipo i casi in cui potrebbe essere necessaria la manipolazione dei dati e comunicarli al cliente evita malintesi in un secondo momento. Se il client decide di espandere o modificare l’etichettatura dell’interfaccia utente dopo l’inizio dello sviluppo, è necessario più lavoro per adattarsi alle modifiche.

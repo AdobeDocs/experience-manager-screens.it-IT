@@ -3,22 +3,20 @@ title: Nozioni di base sul digital signage per [!UICONTROL AEM Screens]
 description: Scopri le basi di un progetto di digital signage.
 exl-id: e3913be2-9028-4773-a034-e16924a71e04
 TQID: https://experienceleague.adobe.com/w0fVaYNPs2emLyL377rLTXLZRcXd05B56FtIn3Yjoqg
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 464
 ht-degree: 0%
 
 ---
 
 # Nozioni di base di un progetto di digital signage {#basics-digital-signage}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Prima di immergerti nelle best practice per l’implementazione di AEM Screens, è importante considerare il progetto come un progetto di digital signage, invece di uno sviluppo software tradizionale.
 
@@ -26,7 +24,7 @@ Questa sezione fornisce consigli sui principali elementi chiave fondamentali per
 
 ## Elementi chiave nel digital signage {#key-elements}
 
-Gli elementi chiave *1&rbrace; in un progetto di digital signage sono:*
+Gli elementi chiave *1} in un progetto di digital signage sono:*
 
 ![](/help/assets/Elements-Revised.png)
 

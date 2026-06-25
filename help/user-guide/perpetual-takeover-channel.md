@@ -7,33 +7,29 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 857
 ht-degree: 1%
 
 ---
 
 # Canale TakeOver permanente {#perpetual-takeover-channel}
 
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+
 La pagina seguente presenta un caso d’uso con particolare attenzione alla configurazione di un progetto e spiega come creare un canale di acquisizione permanente che viene riprodotto continuamente per un giorno e un’ora specifici.
 
 ## Descrizione del caso d’uso {#use-case-description}
 
 In questo caso d&#39;uso viene illustrato come creare un canale che *rileva* dal normale canale di riproduzione per una visualizzazione o un gruppo di visualizzazioni. L&#39;acquisizione avviene perennemente per un giorno e un&#39;ora specifici.
-Ad esempio, esiste un canale di acquisizione permanente che viene riprodotto ogni venerdì dalle 9 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. :00:00L’esempio seguente illustra la creazione di un canale di acquisizione permanente che consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.:00:00
+Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L’esempio seguente illustra la creazione di un canale di acquisizione perpetuo che consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.:00:00
 
 ### Precondizioni {#preconditions}
 
@@ -109,7 +105,7 @@ Per impostare un progetto, segui i passaggi seguenti:
    * **attivo da**: data e ora di inizio.
    * **attivo fino a**: data e ora di fine.
 
-     Ad esempio, il testo in **Pianificazione** e **Attivo da** e **Attivo fino a** data e ora qui consentono la riproduzione del contenuto ogni mercoledì dalle 14:6 alle 16:7&rbrace;.:00:00
+     Ad esempio, il testo in **Pianificazione** e **Attivo da** e **Attivo fino a** data e ora qui consentono la riproduzione del contenuto ogni mercoledì dalle 14:6 alle 16:7}.:00:00
 
 
      ![risorsa](assets/p_usecase7.png)
@@ -119,7 +115,7 @@ Per impostare un progetto, segui i passaggi seguenti:
      >[!NOTE]
      >È obbligatorio impostare come massima la priorità del canale di acquisizione.
 
-     ![&#x200B; risorsa](assets/p_usecase8.png)
+     ![ risorsa](assets/p_usecase8.png)
 Ora, il canale **TakeOver** rileva il canale **MainAdChannel** alle 2:00 P.M. per due ore fino alle 16:00 ogni mercoledì e riproduce il suo contenuto dal 9 gennaio 2020 al 31 gennaio 2020.
 
 ## Espressioni di esempio {#example-expressions}

@@ -3,14 +3,11 @@ title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Scopri come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: 601
 ht-degree: 1%
 
 ---
@@ -18,6 +15,9 @@ ht-degree: 1%
 # Utilizzo di rappresentazioni adattive in AEM Screens {#adaptive-renditions}
 
 ## Introduzione {#introduction}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Questa funzione è supportata solo su AEM on-premise (AEM 6.x). Non è supportato in AEM as a Cloud Service.
@@ -54,7 +54,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
 
 ## Strategia di migrazione {#migration-strategy}
 

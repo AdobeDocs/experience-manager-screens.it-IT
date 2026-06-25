@@ -3,21 +3,20 @@ title: Configurazioni della piattaforma AEM
 description: La pagina descrive le configurazioni della piattaforma AEM
 exl-id: cfe1769b-4da2-430d-a7b1-10dbcaf9f51b
 TQID: https://experienceleague.adobe.com/qsJ-vj45WoTXXdBU5zsNQYoB7g4HnNTLwwfFSBL-wwI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 543
 ht-degree: 4%
 
 ---
 
 # Configurazioni della piattaforma AEM {#platform-configurations}
+
+>[!IMPORTANT]
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -27,21 +26,21 @@ Inizia a usare AEM Screens seguendo le sezioni seguenti per configurare le confi
 
 ## Configurazioni server {#server-configurations}
 
-Per configurare le configurazioni del server, vedere [Configurazioni del server](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
+Per configurare le configurazioni del server, vedere [Configurazioni del server](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configuring-screens-introduction#ServerConfiguration).
 
 ## Author-Publish {#author-publish}
 
-Consulta [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+Consulta [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 >[!NOTE]
 >
->Se esiste un solo Autore e una sola Pubblicazione, è possibile seguire solo i passaggi descritti in **Impostazione degli agenti di replica sull&#39;Autore** nella pagina [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
+>Se esiste un solo Autore e una sola Pubblicazione, è possibile seguire solo i passaggi descritti in **Impostazione degli agenti di replica sull&#39;Autore** nella pagina [Configurazione di Author e Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish).
 
 ## Configurazioni di Dispatcher {#dispatcher-configurations}
 
 Dispatcher è lo strumento di caching e bilanciamento del carico di Adobe Experience Manager. L’utilizzo di AEM Dispatcher consente inoltre di proteggere il server AEM da eventuali attacchi. Pertanto, puoi aumentare la sicurezza della tua istanza di AEM utilizzando Dispatcher con un server web di classe enterprise.
 
-Consulta **[Configurazioni Dispatcher per AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** che evidenzia le linee guida per la configurazione di Dispatcher per un progetto AEM Screens.
+Consulta **[Configurazioni Dispatcher per AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens)** che evidenzia le linee guida per la configurazione di Dispatcher per un progetto AEM Screens.
 
 ## Installazione di rappresentazioni FFMpeg e video {#installing-ffmpeg}
 
@@ -52,13 +51,13 @@ Installare FFMpeg seguendo la procedura per il sistema operativo appropriato (in
 
    >[!NOTE]
    >
-   >`-strict -2` deve essere l&#39;ultimo parametro nell&#39;elenco dei parametri. Inoltre, in AEM 6.4, copia i nodi in */libs/settings/dam/video* in */conf/global/settings/dam/video* come indicato in [Rappresentazioni video](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
+   >`-strict -2` deve essere l&#39;ultimo parametro nell&#39;elenco dei parametri. Inoltre, in AEM 6.4, copia i nodi in */libs/settings/dam/video* in */conf/global/settings/dam/video* come indicato in [Rappresentazioni video](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/product-features/generating-renditions).
 1. Verifica che le conversioni video siano in corso e che vengano create le rappresentazioni.
 
 ## Limitazioni password {#password-restrictions}
 
 I criteri password di AEM devono essere disabilitati nell&#39;istanza AMS. Può anche essere configurato in alternativa nella console Web utilizzando il servizio dispositivo Screens *com.adobe.cq.screens.device.impl.DeviceService*
-Consulta la sezione **Password Restrictions** in[Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
+Consulta la sezione **Password Restrictions** in[Configuring Author and Publish in AEM Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-and-publish)
 
 ## Configurazione degli ambienti {#setting-up-environments}
 
@@ -80,4 +79,4 @@ Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale. I
 
 La sezione Configurazione di ACL spiega come separare i progetti in modo che ogni singolo utente o team gestisca il proprio progetto.
 
-Per ulteriori dettagli, vedere [Configurazione di ACL](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
+Per ulteriori dettagli, vedere [Configurazione di ACL](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
