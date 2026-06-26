@@ -10,12 +10,22 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3208d058-0812-44e1-83e3-b727b384876a
 TQID: https://experienceleague.adobe.com/A7x3G1fogotd69IsY1bgOMLJ7107v0aHpS7C90evJOU
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 2539
@@ -63,7 +73,7 @@ L’esempio seguente fornisce una soluzione concentrandosi sui seguenti termini 
 
 * un ***canale sequenza principale*** per la sequenza globale.
 * ***componenti di sequenza incorporata dinamica*** per ogni parte della sequenza personalizzabile localmente.
-* ***singoli canali di sequenza*** nelle rispettive posizioni con un *ruolo* nella visualizzazione corrispondente al *ruolo*** del componente sequenza incorporato dinamico **.
+* ***singoli canali di sequenza*** nelle rispettive posizioni con un *ruolo* nella visualizzazione corrispondente al *ruolo&#x200B;*** del componente sequenza incorporato dinamico &#x200B;**.
 
 >[!NOTE]
 >
@@ -79,7 +89,7 @@ Prima di iniziare a implementare questa funzionalità, accertati di disporre dei
 
 * Crea un progetto AEM Screens (in questo esempio, **Demo**).
 * Crea un canale **Global** nella cartella **Channels**.
-* Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**per le risorse rilevanti*).
+* Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**&#x200B;per le risorse rilevanti*).
 
 L&#39;immagine seguente mostra il progetto **Demo** con il canale **Global** nella cartella **Channels**.![schermata_shot_2018-09-07alle21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 

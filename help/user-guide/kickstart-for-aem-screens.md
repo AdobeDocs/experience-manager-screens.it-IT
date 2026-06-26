@@ -6,10 +6,15 @@ role: User
 level: Beginner
 exl-id: 9b7c7f50-2846-4727-a0ec-0220b4cd52c4
 TQID: https://experienceleague.adobe.com/ZrifVE5hQIzwTt75cQ-5Q-BNqpB0doqh2IMLuUaa82g
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1343
@@ -35,7 +40,7 @@ Segui i passaggi seguenti per creare un progetto di esempio per AEM Screens e pu
 >Il seguente tutorial mostra come riprodurre il contenuto del canale in un lettore Chrome OS.
 
 >[!IMPORTANT]
->**Impostazioni configurazione OSGiÈ necessario abilitare il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Referrer `Apache Sling` Consenti vuoto è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.Segui i passaggi seguenti per abilitare il filtro di riferimento Sling ***Apache Consenti vuoto***:
+>**Impostazioni configurazione OSGiÈ necessario abilitare il referente vuoto per consentire al dispositivo di pubblicare dati sul server. Ad esempio, se la proprietà del referente vuoto è disabilitata, il dispositivo non può pubblicare uno screenshot. Attualmente alcune di queste funzioni sono disponibili solo se il filtro Referrer `Apache Sling` Consenti vuoto è abilitato nella configurazione OSGi. È possibile che nel dashboard venga visualizzato un avviso che segnala che le impostazioni di protezione potrebbero impedire il funzionamento di alcune di queste funzionalità.Segui i passaggi seguenti per abilitare il filtro di riferimento Sling &#x200B;***Apache Consenti vuoto***:
 
 
 ## Consenti richieste referrer vuote {#allow-empty-referrer-requests}

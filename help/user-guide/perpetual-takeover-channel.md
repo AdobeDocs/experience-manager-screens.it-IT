@@ -7,11 +7,18 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 5d112f33-a7cf-415e-9ea7-dc18a0356a8d
 TQID: https://experienceleague.adobe.com/AyMWJhLtyup9EIMpvM-xl4jg9CRYqN-jwEbH4CtJzvw
-product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2:
+  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 921
@@ -104,7 +111,7 @@ Per impostare un progetto, segui i passaggi seguenti:
    * **attivo da**: data e ora di inizio.
    * **attivo fino a**: data e ora di fine.
 
-     Ad esempio, il testo in **Pianificazione** e **Attivo da** e **Attivo fino a** data e ora qui consentono la riproduzione del contenuto ogni mercoledì dalle 14:6 alle 16:7}.:00:00
+     Ad esempio, il testo in **Pianificazione** e **Attivo da** e **Attivo fino a** data e ora qui consentono la riproduzione del contenuto ogni mercoledì dalle 14:6 alle 16:7&rbrace;.:00:00
 
 
      ![risorsa](assets/p_usecase7.png)
@@ -114,7 +121,7 @@ Per impostare un progetto, segui i passaggi seguenti:
      >[!NOTE]
      >È obbligatorio impostare come massima la priorità del canale di acquisizione.
 
-     ![ risorsa](assets/p_usecase8.png)
+     ![&#x200B; risorsa](assets/p_usecase8.png)
 Ora, il canale **TakeOver** rileva il canale **MainAdChannel** alle 2:00 P.M. per due ore fino alle 16:00 ogni mercoledì e riproduce il suo contenuto dal 9 gennaio 2020 al 31 gennaio 2020.
 
 ## Espressioni di esempio {#example-expressions}
