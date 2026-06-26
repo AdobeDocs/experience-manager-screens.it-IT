@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 335
 ht-degree: 0%
 
 ---
@@ -34,5 +34,5 @@ Il primo prevede **cicli di feedback e apprendimento automatico**, mentre il sec
 
 Nel caso di utilizzo del ciclo di feedback, non è necessario preoccuparsi dei rapporti visivi o delle dashboard, ma desideri definire regole su cui AEM può eseguire la modifica del contenuto. Utilizzando ed elaborando tutti i dati evento del lettore Screens da un determinato periodo di tempo, puoi definire una regola che valuta l’efficacia di image1 rispetto a image2. Combinando i dati di vendita con i dati di riproduzione, AEM può determinare che image1 ha un impatto maggiore sulle vendite e indica automaticamente a tutti i lettori di utilizzare image1.
 
-Il secondo caso di utilizzo con Analytics consiste nell’elaborare eventi di riproduzione e dati di utilizzo per il consumo umano tramite rapporti e dashboard.
-Puoi utilizzare questi dati per creare una mappa di calore di un’esperienza interattiva per determinare la mappa di percorso preferita tramite l’applicazione. Puoi anche scegliere di creare una dashboard che fornisca un’interpretazione grafica del numero di volte in cui i consumatori interagiscono con l’applicazione.
+Il secondo caso di utilizzo con Analytics consiste nell’elaborare eventi di riproduzione e dati di utilizzo per il consumo umano tramite rapporti e dashboard.Puoi utilizzare questi dati per creare una mappa di calore di un’esperienza interattiva per determinare la mappa di percorso preferita tramite l’applicazione. Puoi anche scegliere di creare una dashboard che fornisca un’interpretazione grafica del numero di volte in cui i consumatori interagiscono con l’applicazione.
+

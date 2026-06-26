@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 464
 ht-degree: 0%
@@ -108,3 +108,4 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
    * È necessario acquisire ogni numero di serie a scopo di tracciamento?
    * Sono previsti requisiti di alimentazione di riserva (alimentazione senza interruzioni)?
    * Come vengono distribuiti gli aggiornamenti di sistema? E come vengono monitorati i dispositivi in remoto? È necessaria una soluzione MDM?
+

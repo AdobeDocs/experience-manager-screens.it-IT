@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 703
 ht-degree: 0%
@@ -108,3 +108,4 @@ Segui l’esercitazione seguente per scoprire la strategia dei contenuti, i live
 Comprendi gli elementi identificati durante l’individuazione del progetto, insieme ai contributi delle parti interessate per valutare il progetto e preparare una progettazione appropriata. Scopri i termini chiave di un piano di progetto complessivo. Tali termini includono il ciclo del progetto, le azioni relative ai test hardware, Proof of Concept, i piloti e i rollout.
 
 Per ulteriori dettagli, vai a **[Test, POC, Programmi pilota e rollout](testing-pocs-pilots-rollouts.md)**.
+

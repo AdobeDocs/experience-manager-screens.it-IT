@@ -14,7 +14,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 939
 ht-degree: 1%
@@ -170,7 +170,7 @@ Potete inserire un&#39;immagine come livello di sfondo nel layout:
 È possibile regolare la regola CSS per utilizzare &quot;data-uri&quot; e allineare direttamente l&#39;immagine (`Base64` codificata) nel file CSS creato in (passaggio 13), *static.css*.
 
 Questa disposizione viene eseguita come segue:
-`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
+
 
 Oppure, puoi seguire i passaggi seguenti:
 
@@ -183,3 +183,4 @@ Oppure, puoi seguire i passaggi seguenti:
 Per modificare il colore di sfondo, aggiungere il codice seguente al file xml (passaggio 13), *static.css*.
 
 `.cq-Screens-channel--multizone.my-CustomLayout { background-color: …; }`
+

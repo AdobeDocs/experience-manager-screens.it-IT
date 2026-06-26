@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: 751
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
 1. Se la chiamata URL ha esito positivo, puoi continuare a installare AEM Screens e registrarti. Avvia AEM Screens.
 
    >[!NOTE]
-   >**Suggerimento per la risoluzione dei problemi**
+   >**Suggerimento per la risoluzione dei problemi
    >Se AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato:
    >
    >1. Se sono presenti restrizioni relative a `TCP/IP Port 80/443`, controlla nel firewall del router Internet.
@@ -61,8 +61,7 @@ L&#39;installazione di Enclosed Corporate Network può essere separata logicamen
 
 ### Wide Area Network {#wan-connection}
 
-Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire un agevole aggiornamento dei contenuti AEM Screens.
-*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
+Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire un agevole aggiornamento dei contenuti AEM Screens.*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -78,11 +77,9 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 M
 
 ### Altre reti aziendali specifiche {#other-networks}
 
-Le reti aziendali hanno diversi dispositivi connessi, sono separate in varie sottoreti e dispongono di connessioni Internet ridondanti o multiplexate per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
-Questo schema è semplificato e si adatta nella maggior parte dei casi agli ambienti disponibili per il client.
+Le reti aziendali hanno diversi dispositivi connessi, sono separate in varie sottoreti e dispongono di connessioni Internet ridondanti o multiplexate per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.Questo schema è semplificato e si adatta nella maggior parte dei casi agli ambienti disponibili per il client.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
-Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
 
 ## Download di contenuti multimediali e Assets {#download}
 
@@ -98,3 +95,4 @@ Nella tabella seguente viene fornita una panoramica sui dati chiave della connet
 >Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete richiedendo e scaricando un&#39;origine Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
 
 ![](/help/using/assets/enclosed-network-download.png)
+

@@ -13,7 +13,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 488
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 **Canale sequenza** - Un canale sequenza è una pagina che puoi creare e che contiene componenti che mostrano uno alla volta in una presentazione.
 
 **Zone** - Le zone sono segmentazioni di visualizzazioni utilizzate come entità indirizzabili primarie per i canali. Nei casi in cui le visualizzazioni si estendono su più schermate, è vantaggioso definire le zone in modo che corrispondano alle dimensioni dello schermo, soprattutto se le schermate mostrano un bordo fisico prominente.
+

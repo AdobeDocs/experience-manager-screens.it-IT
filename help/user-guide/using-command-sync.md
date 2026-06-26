@@ -18,9 +18,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: 807
 ht-degree: 0%
 
 ---
@@ -71,8 +71,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 1. Creare una posizione **Lobby** e quindi una visualizzazione con titolo **LobbyDisplay** nella cartella **Locations**, come illustrato nella figura seguente.
    ![immagine1](assets/command-sync/command-sync3-1.png)
 
-1. Assegna il canale **ChannelLobby** al tuo **LobbyDisplay**. Ora puoi visualizzare il canale assegnato alla visualizzazione dal dashboard di visualizzazione.
-   ![immagine1](assets/command-sync/command-sync4-1.png)
+1. Assegna il canale **ChannelLobby** al tuo **LobbyDisplay**. Ora puoi visualizzare il canale assegnato alla visualizzazione dal dashboard di visualizzazione.   ![immagine1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -87,8 +86,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
    >
    >Per informazioni su come registrare un dispositivo, vedere [Registrazione dispositivo](/help/user-guide/device-registration.md)
 
-1. A scopo dimostrativo, in questo esempio vengono illustrati un dispositivo Chrome e un lettore Windows come due dispositivi separati. Entrambi i dispositivi puntano allo stesso schermo.
-   ![immagine1](assets/command-sync6.png)
+1. A scopo dimostrativo, in questo esempio vengono illustrati un dispositivo Chrome e un lettore Windows come due dispositivi separati. Entrambi i dispositivi puntano allo stesso schermo.   ![immagine1](assets/command-sync6.png)
 
 ### Aggiornamento impostazioni canale
 
@@ -106,9 +104,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
 ### Configurazione di un primario {#setting-up-primary}
 
-1. Passa alla dashboard di visualizzazione da **CommandSyncDemo** > **Percorsi** > **Lobby** > **LobbyDisplay**. Quindi fai clic su **Dashboard** nella barra delle azioni.
-Osserva i due dispositivi (Chrome e Windows Player) nel pannello **DISPOSITIVI**, come illustrato di seguito:
-   ![immagine1](assets/command-sync/command-sync10-1.png)
+1. Passa alla dashboard di visualizzazione da **CommandSyncDemo** > **Percorsi** > **Lobby** > **LobbyDisplay**. Quindi fai clic su **Dashboard** nella barra delle azioni.Osserva i due dispositivi (Chrome e Windows Player) nel pannello **DISPOSITIVI**, come illustrato di seguito:   ![immagine1](assets/command-sync/command-sync10-1.png)
 
 1. Nel pannello **DISPOSITIVI**, fare clic sul dispositivo che si desidera impostare come primario. Nell&#39;esempio seguente viene illustrata la configurazione del dispositivo Chrome come dispositivo principale. Fare clic su **Imposta come dispositivo principale**.
 
@@ -124,8 +120,7 @@ Osserva i due dispositivi (Chrome e Windows Player) nel pannello **DISPOSITIVI**
 
 ### Sincronizzazione con primario {#sync-up-primary}
 
-1. Dopo aver impostato il dispositivo Chrome come principale, sincronizzare l&#39;altro dispositivo (in questo caso Windows Player) con quello principale.
-Fare clic sull&#39;altro dispositivo (in questo caso Windows Player) dal pannello **DISPOSITIVI** e fare clic su **Sincronizza con dispositivo principale**.
+1. Dopo aver impostato il dispositivo Chrome come principale, sincronizzare l&#39;altro dispositivo (in questo caso Windows Player) con quello principale.Fare clic sull&#39;altro dispositivo (in questo caso Windows Player) dal pannello **DISPOSITIVI** e fare clic su **Sincronizza con dispositivo principale**.
 
    ![immagine1](assets/command-sync/command-sync13-1.png)
 
@@ -160,3 +155,4 @@ Per rimuovere la sincronizzazione dal dispositivo principale, effettua le seguen
    >[!NOTE]
    >
    > Se si fa clic sul dispositivo principale e si utilizza l&#39;opzione di desincronizzazione, tutti i dispositivi connessi al dispositivo principale vengono desincronizzati in un unico passaggio.
+

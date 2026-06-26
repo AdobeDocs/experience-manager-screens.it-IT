@@ -26,9 +26,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2532
+source-wordcount: 2539
 ht-degree: 1%
 
 ---
@@ -91,8 +91,7 @@ Prima di iniziare a implementare questa funzionalità, accertati di disporre dei
 * Crea un canale **Global** nella cartella **Channels**.
 * Aggiungi contenuto al tuo canale **Global** (*Controlla **Resources.zip**&#x200B;per le risorse rilevanti*).
 
-L&#39;immagine seguente mostra il progetto **Demo** con il canale **Global** nella cartella **Channels**.
-![schermata_shot_2018-09-07alle21032pm](assets/screen_shot_2018-09-07at21032pm.png)
+L&#39;immagine seguente mostra il progetto **Demo** con il canale **Global** nella cartella **Channels**.![schermata_shot_2018-09-07alle21032pm](assets/screen_shot_2018-09-07at21032pm.png)
 
 ### Risorse {#resources}
 
@@ -418,3 +417,4 @@ Segui i passaggi seguenti per creare gruppi, utenti e modificare gli ACL in base
 >[!NOTE]
 >
 >Per informazioni dettagliate sulla configurazione delle autorizzazioni, vedere [Configurazione di ACL](setting-up-acls.md).
+

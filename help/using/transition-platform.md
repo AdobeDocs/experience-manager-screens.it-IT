@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 0%
@@ -43,3 +43,4 @@ Alcuni esempi includono come e quando utilizzare quanto segue:
 In questa fase, rivedi tutte le attività e le attività richieste che richiedono attenzione e documentale correttamente in modo che le attività assegnate possano essere tracciate correttamente nella fase di distribuzione.
 
 Inoltre, esamina tutte le attività predefinite come possibili candidati per l’automazione in questa fase.
+

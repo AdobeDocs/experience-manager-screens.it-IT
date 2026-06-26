@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 499
 ht-degree: 0%
@@ -97,3 +97,4 @@ Segui i passaggi del caso d’uso seguenti per implementare l’attivazione dell
    1. Aggiornare il valore in **`Restaurant1`** e **`Restaurant2`** colonne. Se **`Restaurant1`** > **`Restaurant2`,** dovresti essere in grado di visualizzare un&#39;immagine di *Bistecca* cibo altrimenti, *Thai* immagine cibo viene visualizzata sullo schermo.
 
    ![risultato5](assets/result5.gif)
+

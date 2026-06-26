@@ -8,10 +8,10 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 0%
+source-wordcount: 436
+ht-degree: 3%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 Non trascurare il supporto post-lancio nella fase iniziale.
 
-Garantire che i siti ricevano un supporto adeguato dal fornitore di hardware è fondamentale per le operazioni aziendali. **Integratore audio-video** deve collaborare a stretto contatto con le parti interessate e identificare i requisiti necessari da diversi aspetti.
-Durante il supporto post-lancio, considera i seguenti requisiti:
+Garantire che i siti ricevano il supporto adeguato dal fornitore di hardware è fondamentale per le loro operazioni aziendali. **Integratore audio-video** deve collaborare a stretto contatto con le parti interessate e identificare i requisiti necessari da diversi aspetti.Durante il supporto post-lancio, considera i seguenti requisiti:
 
 * gestione remota dei dispositivi
 * disponibilità del centro di assistenza
@@ -45,7 +44,6 @@ Inoltre, per prepararsi al successo a lungo termine, è fondamentale stabilire u
 Alcune considerazioni e domande utili per definire il supporto post-lancio:
 
 1. L’implementazione è una rete Advertising con molte parti interessate collegate a una rete monetizzata? Questa situazione può determinare tempi di risoluzione più brevi rispetto a una rete di comunicazione aziendale.
- 
    >[!NOTE]
    >
    >Determina tempi di risoluzione più brevi rispetto a una rete di comunicazione aziendale.
@@ -69,3 +67,4 @@ Alcune considerazioni e domande utili per definire il supporto post-lancio:
 1. Quali aree di vendita richiedono il monitoraggio continuo 24 ore su 24, 7 giorni su 7?
 
 1. Gli schermi fanno parte della tua attività? (configurazione dell’auto, avvisi di vendita)
+

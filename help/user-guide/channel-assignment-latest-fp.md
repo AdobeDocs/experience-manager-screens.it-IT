@@ -20,9 +20,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: 1494
 ht-degree: 3%
 
 ---
@@ -201,8 +201,7 @@ La finestra di attivazione consente di selezionare una **data di inizio** e una 
 La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il contenuto. Fai clic su **+ Aggiungi pianificazione** per aggiungere una pianificazione di ricorrenza al tuo canale.
 
 >[!NOTE]
->Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
->Gli Schedules di Ricorrenza introducono *DayParting*. Puoi impostare una pianificazione globale con più canali in esecuzione in orari specifici della giornata e riutilizzare quella impostata per tutte le visualizzazioni contemporaneamente.
+>Puoi aggiungere più pianificazioni ricorrenti al tuo canale.Gli Schedules ricorrenti introducono *DayParting*. Puoi impostare una pianificazione globale con più canali in esecuzione in orari specifici della giornata e riutilizzare quella impostata per tutte le visualizzazioni contemporaneamente.
 
 È possibile impostare le seguenti opzioni:
 
@@ -243,3 +242,4 @@ Questo esempio mostra il DayParting implementato in un casinò in cui si verific
 >[!NOTE]
 >
 >Inoltre, puoi definire ***Priorità*** per ciascuno dei canali. Ad esempio, se due canali sono impostati per lo stesso giorno e ora o per lo stesso mese, viene riprodotto prima il canale con priorità più elevata. Il valore minimo di priorità può essere impostato su 0.
+

@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
 1. Se la chiamata URL ha esito positivo, puoi continuare a installare AEM Screens e registrarti. Avvia AEM Screens.
 
    >[!NOTE]
-   >**Suggerimento per la risoluzione dei problemi**
+   >**Suggerimento per la risoluzione dei problemi
    >Se AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato:
    >
    >1. Se sono presenti restrizioni relative a `TCP/IP Port 80/443`, controllare il firewall del router Internet.
@@ -84,8 +84,7 @@ Le prestazioni della connessione Internet, oltre alla raggiungibilità della ret
 
 Oltre alla raggiungibilità della rete, la rete LAN assicura una larghezza di banda sufficiente per il funzionamento di AEM Screens.
 
-La rete LAN di solito corrisponde almeno a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore.
+La rete LAN di solito corrisponde almeno a una rete a 100 Mbps, in modo che la larghezza di banda sia sufficiente per collegare molti dispositivi con buone prestazioni al sistema.Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore.
 
 >[!NOTE]
 >
@@ -106,3 +105,4 @@ Nella tabella seguente viene fornita una panoramica sui dati chiave della connet
 >Le informazioni consentono di visualizzare il consumo di ogni dispositivo nella rete richiedendo e scaricando un&#39;origine Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
 
 ![](/help/assets/download-times-direct.png)
+

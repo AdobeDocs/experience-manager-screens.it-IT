@@ -8,7 +8,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 0%
@@ -35,3 +35,4 @@ Seguire le linee guida per il supporto e la manutenzione per il secondo giorno d
 1. Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale.
 
 1. Istruisci il client ad adottare la stessa configurazione su tutti i server di controllo qualità, stage e produzione. Configurazioni server non corrispondenti causano problemi durante la distribuzione e il test.
+

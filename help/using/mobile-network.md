@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Nella tabella seguente vengono evidenziate le reti di dati con la larghezza di b
 
 Quando consideri quale rete dati utilizzare, considera quanto segue:
 
-La velocità di rete disponibile dipende dal piano specifico del provider di dati mobili e dalla copertura disponibile raggiunta nella posizione del controller di AEM Screens.
-Al momento di seguire questa configurazione, tieni presente che oltre alla larghezza di banda disponibile, alcuni piani del provider di dati mobili limitano la quantità di dati disponibili che attraversano la connessione entro un periodo di tempo specifico. È necessario assicurarsi che vi sia una capacità sufficiente nei dati e nella larghezza di banda.
-Come follow-up, il pacchetto dati necessario deve essere almeno:
+La velocità di rete disponibile dipende dal piano specifico del provider di dati mobili e dalla copertura disponibile raggiunta nella posizione del controller di AEM Screens.Al momento di seguire questa configurazione, tieni presente che oltre alla larghezza di banda disponibile, alcuni piani del provider di dati mobili limitano la quantità di dati disponibili che attraversano la connessione entro un periodo di tempo specifico. È necessario assicurarsi che vi sia una capacità sufficiente nei dati e nella larghezza di banda.Come follow-up, il pacchetto dati necessario deve essere almeno:
 
 `Data Package Capacity = # of Clients * (# of Content Files * Average File Size)`
 
@@ -106,3 +104,4 @@ Nella tabella seguente viene fornita una panoramica sui dati chiave della connet
 >Tutte le informazioni si riferiscono al consumo di ogni dispositivo nella rete che richiede e scarica una sorgente Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
 
 ![](/help/using/assets/download-times-mobile.png)
+

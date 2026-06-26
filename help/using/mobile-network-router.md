@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 824
+source-wordcount: 1114
 ht-degree: 0%
 
 ---
@@ -26,8 +26,7 @@ Adobe AEM Screens Players può anche essere connesso utilizzando reti mobili o c
 
 All’interno di AEM Screens, il contenuto richiesto viene fisicamente scaricato sul controller o sul computer del lettore e memorizzato correttamente all’interno del sistema operativo sottostante. Pertanto, la larghezza di banda specificata influisce solo sui tempi di download iniziali e sugli aggiornamenti dei contenuti, e non influenza le prestazioni della riproduzione regolare dei display.
 
-Il vantaggio di questa configurazione è che il router mobile può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo punto è solitamente in posizione elevata e aperta, con il minor numero possibile di strutture circostanti in calcestruzzo o metallo.
-Questa configurazione offre agli utenti di AEM Screen flessibilità perché non è richiesta alcuna rete fissa per connettersi ad AEM Screens. È anche interessante per le configurazioni effimere o mobili.
+Il vantaggio di questa configurazione è che il router mobile può essere posizionato in un punto ottimizzato per garantire la migliore copertura di rete disponibile. Questo punto è solitamente in posizione elevata e aperta, con il minor numero possibile di strutture circostanti in calcestruzzo o metallo.Questa configurazione offre agli utenti di AEM Screen flessibilità perché non è richiesta alcuna rete fissa per connettersi ad AEM Screens. È anche interessante per le configurazioni effimere o mobili.
 
 Il diagramma seguente mostra la configurazione di Mobile Network with Mobile Data Router and Active Network Components (Rete mobile con router dati mobile e componenti di rete attivi). Contiene l’accesso a Internet di qualsiasi controller AEM Screens tramite accesso diretto a Internet tramite un proprio collegamento dati 3/4/5G.
 
@@ -68,9 +67,7 @@ L&#39;installazione di rete può essere separata logicamente in due blocchi:
 
 Le prestazioni della connessione Internet, oltre alla già descritta raggiungibilità di rete, devono fornire una larghezza di banda sufficiente per eseguire i download dei contenuti AEM Screens in modo fluido.
 
-*Sufficiente* dipende dal numero di dispositivi AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come Smartphone, Tablet, Cassieri, Computer o reti Wi-Fi guest.
-Tenere presente che tutti i dispositivi hanno un accesso simultaneo alla connessione Internet e che la larghezza di banda diminuisce in modo lineare, aggiungendo più consumatori/computer alla rete.
-Oltre alla specifica connessione di rete teorica, è necessario assicurarsi che la copertura del router mobile sia almeno *buona*. Inoltre, il piano mensile sottostante deve coprire una capacità di dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN connessa.
+*Sufficiente* dipende dal numero di dispositivi AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come Smartphone, Tablet, Cassieri, Computer o reti Wi-Fi guest.Tenere presente che tutti i dispositivi hanno un accesso simultaneo alla connessione Internet e che la larghezza di banda diminuisce in modo lineare, aggiungendo più consumatori/computer alla rete.Oltre alla specifica connessione di rete teorica, è necessario assicurarsi che la copertura del router mobile sia almeno *buona*. Inoltre, il piano mensile sottostante deve coprire una capacità di dati sufficiente e una larghezza di banda sufficiente per servire tutti i client connessi all&#39;interno della LAN connessa.
 
 Nella tabella seguente vengono evidenziate le reti di dati con la larghezza di banda standard:
 
@@ -106,13 +103,11 @@ Nel caso in cui sia prevista una soluzione Wi-Fi per collegare lo schermo al col
 
 ## Download di contenuti multimediali e Assets {#download}
 
-AEM Screens offre un vantaggio significativo agli utenti di digital signage. Scarica e salva localmente tutti i file multimediali necessari, ad esempio immagini e video. A causa di questo concetto, il traffico di rete principale si verifica nel caso in cui vi siano nuovi contenuti da visualizzare su uno schermo specifico.
-Per il normale funzionamento, una playlist definita che non viene aggiornata frequentemente offre un funzionamento quasi indipendente dalla rete quando tutti i file vengono salvati sul lettore.
-Per i casi d’uso in cui sono presenti più interazioni con Sensor o altri Triggers e il contenuto è dinamico, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo. Garantisce la migliore esperienza del cliente possibile.
-Le tabelle seguenti offrono una panoramica completa del significato dei dati chiave della connettività di rete per le prestazioni previste e i potenziali tempi di attesa.
+AEM Screens offre un vantaggio significativo agli utenti di digital signage. Scarica e salva localmente tutti i file multimediali necessari, ad esempio immagini e video. A causa di questo concetto, il traffico di rete principale si verifica nel caso in cui vi siano nuovi contenuti da visualizzare su uno schermo specifico.Per il normale funzionamento, una playlist definita che non viene aggiornata frequentemente offre un funzionamento quasi indipendente dalla rete quando tutti i file vengono salvati sul lettore.Per i casi d’uso in cui sono presenti più interazioni con Sensor o altri Triggers e il contenuto è dinamico, una connessione di rete veloce e affidabile è essenziale per una reazione immediata dello schermo. Garantisce la migliore esperienza del cliente possibile.Le tabelle seguenti offrono una panoramica completa del significato dei dati chiave della connettività di rete per le prestazioni previste e i potenziali tempi di attesa.
 
 >[!NOTE]
 >
 >Tutte le informazioni si riferiscono al consumo di ogni dispositivo nella rete che richiede e scarica una sorgente Internet. Ognuna di queste richieste aggiunge ed estende il Tempo di download.
 
 ![](/help/using/assets/mobile-router-download.png)
+

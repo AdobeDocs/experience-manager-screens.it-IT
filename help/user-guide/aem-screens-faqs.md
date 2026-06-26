@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2246
+source-wordcount: 2299
 ht-degree: 1%
 
 ---
@@ -231,8 +231,7 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 
 ### &#x200B;2. Come si aggiungono le informazioni dell’indice Oak? {#add-oak-index-info}
 
-AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.
-Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 È inoltre possibile visualizzare una risorsa aggiuntiva nella [documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -241,11 +240,9 @@ Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un ind
 
 Per abilitare il manifesto v3, effettuare le seguenti operazioni:
 
-* Aggiornare Dispatcher.
-Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+* Aggiornare Dispatcher.Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
-* Aggiorna componente personalizzato.
-Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+* Aggiorna componente personalizzato.Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 * Disabilita ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 

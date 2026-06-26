@@ -17,9 +17,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -40,8 +40,7 @@ Il rapporto sull’assegnazione dei contenuti non solo consente di visualizzare 
 
 ### Prerequisiti {#pre-reqs}
 
-Prima di scaricare il report sull’assegnazione dei contenuti, accertati di aver impostato un progetto AEM Screens con canali, posizioni e dispositivi.
-Per ulteriori informazioni, consulta le seguenti risorse:
+Prima di scaricare il report sull’assegnazione dei contenuti, accertati di aver impostato un progetto AEM Screens con canali, posizioni e dispositivi.Per ulteriori informazioni, consulta le seguenti risorse:
 
 1. [Creazione e gestione di progetti](/help/user-guide/creating-a-screens-project.md)
 1. [Creazione e gestione dei canali](/help/user-guide/managing-channels.md)
@@ -76,3 +75,4 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione 
 1. Selezionando uno dei canali dalla colonna **Canali** si apre la scheda **Contenuto**. A sua volta, naviga direttamente in quel canale e ti fornisce informazioni sulle risorse (immagini e video) associate a quel canale specifico.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

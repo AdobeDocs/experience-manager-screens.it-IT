@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ Prima di utilizzare una funzione di riconoscimento vocale, accertati di disporre
 
    ![immagine](assets/voice-recognition/vr-2.png)
 
-   Se hai aggiunto il canale Split Screens al progetto, passa a **SplitScreen** e trascina due sequenze incorporate. Aggiungi percorsi al canale **ColdDrinks** e **HotDrinks** come illustrato nella figura seguente.
-   ![immagine](assets/voice-recognition/vr-emb-6.png)
+   Se hai aggiunto il canale Split Screens al progetto, passa a **SplitScreen** e trascina due sequenze incorporate. Aggiungi percorsi al canale **ColdDrinks** e **HotDrinks** come illustrato nella figura seguente.   ![immagine](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Impostazione dei tag per i canali {#setting-tags}
@@ -204,3 +203,4 @@ Analogamente, se utilizzi una parola con una parola chiave **cold** come *Vorrei
 **Output desiderato per il canale Screens diviso**
 
 Il canale **Principale** sta riproducendo il relativo contenuto. Tuttavia, quando si utilizzano parole con la parola chiave **hot** e **cold** insieme, ad esempio *Desidero visualizzare il menu per le bevande calde e fredde*, il canale riproduce il contenuto del canale **SplitScreen**. Se *torna al menu principale*, verrà ripristinato il canale **Principale**.
+

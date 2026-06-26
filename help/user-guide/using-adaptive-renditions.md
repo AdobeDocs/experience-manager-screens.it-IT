@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 1%
 
 ---
@@ -29,8 +29,7 @@ Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticame
 
 ## Obiettivo {#objective}
 
-In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.
-Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e quindi includerle in un canale AEM Screens.
+In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e quindi includerle in un canale AEM Screens.
 
 >[!IMPORTANT]
 >Prima di iniziare a utilizzare le rappresentazioni adattive in un canale AEM Screens, Adobe consiglia di conoscere la panoramica e la configurazione dell’architettura di questa funzione. Consulta [Rappresentazioni adattive: panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md).
@@ -79,3 +78,4 @@ Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati 
 
    >[!NOTE]
    >Dopo aver completato la migrazione, assicurati di rimuovere tutti i riferimenti di configurazione da canali, visualizzazioni e posizioni e di aggiungerne uno singolo al nodo del contenuto del progetto.
+

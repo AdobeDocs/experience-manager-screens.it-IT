@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: 718
 ht-degree: 4%
 
 ---
@@ -53,8 +53,7 @@ Per configurare la configurazione, segui i passaggi seguenti:
    >![immagine](/help/user-guide/assets/adaptive-renditions/mapping-rules1.png)
 
    >[!IMPORTANT]
-   >Se hai installato l&#39;ultimo Feature Pack 202109, visualizzerai la struttura del nodo **rendition-mapping** precompilata in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Consulta [Note sulla versione per Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md) per informazioni dettagliate sull&#39;ultimo Feature Pack.
-   >Per i progetti esistenti, assicurati che al progetto Screens sia associata la configurazione **rendition-mapping**. Per ulteriori informazioni, vedere [Aggiunta del mapping di rappresentazione a un progetto esistente](#rendition-mapping-existing).
+   >Se hai installato l&#39;ultimo Feature Pack 202109, visualizzerai la struttura del nodo **rendition-mapping** precompilata in `/conf/screens/sling:configs/rendition-mapping` in CRXDE Lite. Per informazioni dettagliate sull&#39;ultimo Feature Pack, consulta le [note sulla versione del Feature Pack 202109](/help/user-guide/release-notes-fp-202109.md).   >Per i progetti esistenti, assicurati che al progetto Screens sia associata la configurazione **rendition-mapping**. Per ulteriori informazioni, vedere [Aggiunta del mapping di rappresentazione a un progetto esistente](#rendition-mapping-existing).
 
 ### Aggiunta di una proprietà di mappatura rappresentazione a un progetto esistente {#rendition-mapping-existing}
 
@@ -104,3 +103,4 @@ Per aggiungere un nodo in Mappatura rappresentazione, effettua le seguenti opera
 ## Passaggi successivi {#next-steps}
 
 Dopo aver aggiunto le proprietà e le regole per la mappatura delle rappresentazioni, in qualità di Autore di contenuti puoi configurare le risorse. Puoi utilizzare le rappresentazioni adattive ed eseguire la migrazione dei dispositivi per reti di grandi dimensioni per utilizzare questa funzione nei canali di AEM Screens. Per ulteriori informazioni, vedere [Utilizzo di rappresentazioni adattive in AEM Screens](/help/user-guide/using-adaptive-renditions.md).
+

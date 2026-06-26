@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 2410
+source-wordcount: 2414
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Il codice sorgente di un progetto Screens viene in genere gestito come progetto 
 
    [Ottieni il file](assets/base-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Ottieni file](assets/base-screens-weretail-runuicontent-001-snapshot.zip)
+   &lbrack;Ottieni file
    **Facoltativamente** Se lavori con Eclipse o un altro IDE, scarica il pacchetto di origine seguente. Distribuisci il progetto in un’istanza AEM locale utilizzando il comando Maven:
 
    **`mvn -PautoInstallPackage clean install`**
@@ -599,3 +599,4 @@ Di seguito è riportato il codice finito dell&#39;esercitazione. I pacchetti AEM
 [Ottieni il file](assets/screens-weretail-runuicontent-001-snapshot.zip)
 
 [Ottieni il file](assets/screens-weretail-run.zip)
+

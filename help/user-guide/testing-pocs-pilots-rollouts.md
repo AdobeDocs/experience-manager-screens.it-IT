@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 0%
@@ -99,3 +99,4 @@ Considerare tutte queste fasi come parte del piano generale del progetto aiuta a
 Quando hai terminato con test, Proofs of Concept, programmi pilota e rollout, segui il tutorial successivo che approfondisce la gestione del progetto e i processi coinvolti.
 
 Passare a **[Parte 4: Project Management and Deployment](project-management-and-deployment.md)** per ulteriori dettagli.
+

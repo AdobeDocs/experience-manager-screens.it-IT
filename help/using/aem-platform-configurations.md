@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -72,8 +72,7 @@ Installa ed esegui le versioni più recenti dei seguenti pacchetti per la tua ve
 * AEM Cumulative Fix Pack
 
 Oltre a quanto sopra, identifica eventuali pacchetti di sviluppo (ad esempio, WCM Core
-componenti) o toolkit di terze parti (ad esempio SAP Hybris) necessari.
-Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale. Istruisci il client ad adottare la stessa configurazione su tutti i server di controllo qualità, stage e produzione. Configurazioni server non corrispondenti causano problemi durante la distribuzione e il test.
+componenti) o toolkit di terze parti (ad esempio SAP Hybris) necessari.Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale. Istruisci il client ad adottare la stessa configurazione su tutti i server di controllo qualità, stage e produzione. Configurazioni server non corrispondenti causano problemi durante la distribuzione e il test.
 
 >[!NOTE]
 >
@@ -84,3 +83,4 @@ Installare gli stessi pacchetti software nell&#39;ambiente di sviluppo locale. I
 La sezione Configurazione di ACL spiega come separare i progetti in modo che ogni singolo utente o team gestisca il proprio progetto.
 
 Per ulteriori dettagli, vedere [Configurazione di ACL](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/setting-up-acls).
+

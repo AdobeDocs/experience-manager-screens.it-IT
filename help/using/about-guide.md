@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 27%
@@ -54,3 +54,4 @@ Questa guida fornisce un insight completo e consigli pratici per immaginare, pro
 >
 > * **UX:** esperienze di digital signage fornite ai clienti finali.
 > * **UI** è considerata l&#39;interfaccia utente che consente di creare e gestire i progetti in Screens.
+

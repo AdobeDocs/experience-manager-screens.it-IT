@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -69,3 +69,4 @@ Se il cliente desidera un prodotto ricco di funzionalità, fornisci una porzione
 
 * **Informazioni sull&#39;ambito delle integrazioni personalizzate**:
 I componenti interattivi con interazione touch screen, sensore di movimento o RFID richiedono uno sviluppo personalizzato significativo nel metodo di implementazione. Una presentazione, un annuncio video o un menu statico possono essere distribuiti come contenuto grafico o HTML su un canale Screens.
+

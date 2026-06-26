@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1579
+source-wordcount: 1600
 ht-degree: 0%
 
 ---
@@ -136,8 +136,7 @@ Quando si esegue il rollout in massa del lettore Android™, è necessario esegu
 
 Segui i passaggi seguenti per consentire il provisioning in blocco nel lettore Android™:
 
-1. Creare un file JSON di configurazione denominato `player-config.default.json`.
-Vedere un [Esempio di criteri JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [attributi dei criteri](#policy-attributes).
+1. Creare un file JSON di configurazione denominato `player-config.default.json`.Vedere un [Esempio di criteri JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [attributi dei criteri](#policy-attributes).
 
 1. Utilizza uno strumento di esplorazione file MDM, ADB o Android™ Studio per rilasciare questo file JSON per i criteri nella cartella *sdcard* sul dispositivo Android™.
 
@@ -224,3 +223,4 @@ Inoltre, devi verificare con il fornitore EMM il supporto di AppConfig. I più p
 ### Uso del telecomando Screens {#using-remote-control}
 
 AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzionalità: [Controllo remoto Screens](implementing-remote-control.md)
+

@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 758
 ht-degree: 6%
@@ -52,3 +52,4 @@ Per informazioni di base su un progetto AEM Screens, consulta le risorse seguent
    * *[Parte 3: Test, POC, Programmi pilota e rollout](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/testing-pocs-pilots-rollouts)*: evidenzia la parte 3 di una serie in 5 parti progettata per aiutare i membri del team a comprendere meglio i termini chiave. Questi termini sono fondamentali per garantire che venga sviluppata una soluzione di successo prima di un rollout. Include azioni relative a test di laboratorio hardware e convalida delle prestazioni, prove di concetto (dette anche POC) e programmi pilota.
    * *[Parte 4: gestione e distribuzione del progetto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/project-management-and-deployment)*: evidenzia la parte 4 di una serie in 5 parti progettata per coprire la gestione del progetto e la preparazione della distribuzione. Definisce inoltre i fattori chiave di cui l&#39;integratore audio e video è responsabile in relazione alla gestione del progetto e alla preparazione dell&#39;implementazione. Include la preproduzione del progetto, l’avvio del progetto e la progressione del progetto.
    * *[Parte 5: considerazioni sul supporto](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/digital-signage-network/support-considerations)*: evidenzia la parte conclusiva di una serie in 5 parti progettata per aiutare i membri del team a comprendere come vengono risolti i problemi di hardware, software e connettività. Questa fase analizza le stime dei costi e i framework per il supporto in loco. Spiega inoltre come vengono gestiti i parametri SLA, i budget operativi e gli handoff NOC.
+

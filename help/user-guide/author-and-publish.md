@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -155,8 +155,7 @@ Per qualsiasi istanza di pubblicazione, passare a `https://:/system/console/topo
 
 #### Passaggio 3: configurare il cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
-Questo passaggio consente di creare una password crittografata per il cluster ActiveMQ Artemis.
-L&#39;utente cluster e la password di tutte le istanze Publish nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza dispone di una propria chiave di crittografia, è necessario utilizzare il Supporto crittografia per creare una stringa di password crittografata. Quindi, la password crittografata può essere utilizzata nella configurazione OSGi per ActiveMQ.
+Questo passaggio consente di creare una password crittografata per il cluster ActiveMQ Artemis.L&#39;utente cluster e la password di tutte le istanze Publish nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza dispone di una propria chiave di crittografia, è necessario utilizzare il Supporto crittografia per creare una stringa di password crittografata. Quindi, la password crittografata può essere utilizzata nella configurazione OSGi per ActiveMQ.
 
 Per ogni istanza di pubblicazione:
 
@@ -170,7 +169,6 @@ Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi cr
 >[!NOTE]
 >
 >La password deve iniziare e terminare con parentesi graffe. Ad esempio:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Passaggio 4: attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 

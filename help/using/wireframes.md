@@ -8,9 +8,9 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Questo processo viene applicato a:
 
 Questo consente di avvicinare il progetto dalla fase di prototipazione alla fase di implementazione effettiva.
 
-Da una **visualizzazione a livello di risorsa**, è necessario creare wireframe che definiscano varie opzioni di layout del contenuto e raggruppamenti di contenuti. Questo lavoro consente di definire l’aspetto che possono avere più parti di contenuto quando vengono assemblate come gruppo.
-In genere, in questa attività vengono utilizzati elementi grafici, immagini e video pronti per la produzione.
+Da una **visualizzazione a livello di risorsa**, è necessario creare wireframe che definiscano varie opzioni di layout del contenuto e raggruppamenti di contenuti. Questo lavoro consente di definire l’aspetto che possono avere più parti di contenuto quando vengono assemblate come gruppo.In genere, in questa attività vengono utilizzati elementi grafici, immagini e video pronti per la produzione.
 
 Da una **Visualizzazione a livello di canale**, è necessario creare wireframe che mostrino come i canali di contenuto sono collegati nell&#39;esperienza complessiva, incluse le strategie di riproduzione per i canali incorporati. È inoltre possibile rivedere le transizioni di canale che possono verificarsi quando vengono attivati i trigger di dati.
 
 In un **livello progetto**, puoi iniziare a modellare il modo in cui più schermate o esperienze possono lavorare insieme in uno spazio fisico per fornire un percorso di utenti multi-punto di contatto completo.
 
 Queste strategie devono essere allineate alla mappa del Percorso UX creata in precedenza.
+

@@ -16,7 +16,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 552
 ht-degree: 1%
@@ -98,3 +98,4 @@ Per informazioni dettagliate, consulta i seguenti argomenti:
 * Per implementare Chrome OS Player, vedere [Chrome Management Console](implementing-chrome-os-player.md) per ulteriori informazioni.
 
 * Per configurare AEM Screens Windows Player, vedere [Implementazione di Windows Player](implementing-windows-player.md).
+

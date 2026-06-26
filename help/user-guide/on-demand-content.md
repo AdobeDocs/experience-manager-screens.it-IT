@@ -18,9 +18,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: 872
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ Per distribuire gli aggiornamenti dei contenuti dall’ambiente di authoring a q
 
    **Finestra di dialogo Includi elementi figlio**
 
-   I passaggi indicati sopra mostrano come pubblicare l’intero contenuto. Se desideri utilizzare le altre tre alternative disponibili, seleziona quella particolare opzione.
-Ad esempio, l’immagine seguente mostra come gestire e aggiornare solo le pagine modificate nel progetto:
-   ![immagine](assets/author-publish-manage.png)
+   I passaggi indicati sopra mostrano come pubblicare l’intero contenuto. Se desideri utilizzare le altre tre alternative disponibili, seleziona quella particolare opzione.Ad esempio, l’immagine seguente mostra come gestire e aggiornare solo le pagine modificate nel progetto:   ![immagine](assets/author-publish-manage.png)
 
    Segui le spiegazioni riportate di seguito per comprendere le opzioni disponibili:
 
@@ -143,3 +141,4 @@ Segui i passaggi seguenti per fornire aggiornamenti dei contenuti da Autore > Pu
 Se hai riassegnato un dispositivo, pubblica sia la visualizzazione iniziale che quella nuova, una volta che il dispositivo è stato riassegnato alla nuova visualizzazione.
 
 Allo stesso modo, se avete riassegnato un canale, pubblicate sia la visualizzazione iniziale che quella nuova, una volta che il canale è stato riassegnato alla nuova visualizzazione.
+

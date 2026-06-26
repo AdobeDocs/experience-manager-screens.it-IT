@@ -19,7 +19,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 0%
@@ -99,3 +99,4 @@ Scopri la gestione del progetto e la preparazione dell’implementazione e defin
 ## Passaggio successivo {#the-next-step}
 
 Quando hai finito con le considerazioni chiave sulla gestione dei progetti per le distribuzioni di AEM Screens, passa alla **[Parte 5: Considerazioni sul supporto](support-considerations.md)** in modo da comprendere il supporto del giorno 2 e i processi coinvolti.
+

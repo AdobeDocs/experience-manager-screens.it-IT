@@ -18,7 +18,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 476
 ht-degree: 2%
@@ -130,3 +130,4 @@ Per abilitare la configurazione offline per un canale, effettua le seguenti oper
 >[!NOTE]
 >
 >Scopri il modello per i gestori di risorse offline personalizzati. Ulteriori informazioni sui requisiti minimi in `pom.xml` per il progetto. Vedi [Modello per gestori personalizzati](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Sviluppo di un componente personalizzato per AEM Screens**.
+

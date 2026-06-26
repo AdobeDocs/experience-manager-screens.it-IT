@@ -26,9 +26,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 825
 ht-degree: 0%
 
 ---
@@ -56,8 +56,7 @@ Utilizzando ***Sequenze incorporate***, per i canali, consente a un utente di ag
 Puoi aggiungere una sequenza incorporata al tuo canale. Una sequenza incorporata è un altro canale che include risorse come immagini o video. L&#39;aggiunta di una sequenza incorporata consente all&#39;utente di aggiungere la sequenza a un canale da ***Percorso canale***.
 
 >[!NOTE]
->***Percorso canale*** definisce un riferimento esplicito al canale.
->Per ulteriori informazioni su *Percorso canale*, consulta [Assegnazione canale](channel-assignment.md) in Authoring di Screens.
+>***Percorso canale*** definisce un riferimento esplicito al canale.Per ulteriori informazioni su *Percorso canale*, consulta [Assegnazione canale](channel-assignment.md) in Authoring Screens.
 
 Per aggiungere una sequenza incorporata al canale, effettua le seguenti operazioni:
 
@@ -119,3 +118,4 @@ Per aggiungere una sequenza incorporata al canale, effettua le seguenti operazio
 1. Fai clic su **Durata (millisecondi)** nella scheda **Sequenza** per il canale incorporato nella sequenza.
 
 ![più recente](assets/latest.gif)
+

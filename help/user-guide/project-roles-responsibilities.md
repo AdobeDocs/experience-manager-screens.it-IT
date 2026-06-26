@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 536
 ht-degree: 0%
@@ -84,3 +84,4 @@ Segui il tutorial seguente per capire esattamente in che modo ogni parte influis
 Dopo aver compreso i ruoli e le responsabilità del progetto nell’implementazione di un progetto di digital signage, segui l’esercitazione successiva. Vengono approfonditi argomenti quali le considerazioni di test e pre-vendita, in quanto il progetto ha un ambito specifico durante lo sviluppo di opportunità AEM Screens.
 
 Passare a **[Parte 2: Considerazioni relative all&#39;ambito dei progetti](project-considerations.md)** per ulteriori dettagli.
+

@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -165,8 +165,7 @@ Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:2
 
 >[!NOTE]
 >
->Per informazioni su AEM Screen Player, consulta le risorse seguenti:>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
->[Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>Per informazioni su AEM Screen Player, consulta le risorse seguenti:Download di AEM Screens PlayerUtilizzo di AEM Screens Player&rbrack;(working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per Assets in un canale {#handling-recurrence-in-assets}
@@ -287,3 +286,4 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >[!NOTE]
 >
 >Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
+

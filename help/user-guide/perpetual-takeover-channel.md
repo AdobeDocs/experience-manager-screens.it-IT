@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 857
-ht-degree: 1%
+source-wordcount: 921
+ht-degree: 0%
 
 ---
 
@@ -35,8 +35,7 @@ La pagina seguente presenta un caso d’uso con particolare attenzione alla conf
 
 ## Descrizione del caso d’uso {#use-case-description}
 
-In questo caso d&#39;uso viene illustrato come creare un canale che *rileva* dal normale canale di riproduzione per una visualizzazione o un gruppo di visualizzazioni. L&#39;acquisizione avviene perennemente per un giorno e un&#39;ora specifici.
-Ad esempio, esiste un canale TakeOver permanente che viene riprodotto ogni venerdì dalle 9:00 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. L’esempio seguente illustra la creazione di un canale di acquisizione perpetuo che consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.:00:00
+In questo caso d&#39;uso viene illustrato come creare un canale che *rileva* dal normale canale di riproduzione per una visualizzazione o un gruppo di visualizzazioni. L&#39;acquisizione avviene perennemente per un giorno e un&#39;ora specifici.Ad esempio, esiste un canale di acquisizione permanente che viene riprodotto ogni venerdì dalle 9 alle 10:00. Durante questo periodo, nessun altro canale dovrebbe essere riprodotto. :00:00L’esempio seguente illustra la creazione di un canale di acquisizione permanente che consente la riproduzione del contenuto ogni mercoledì per due ore, dalle 14:00 alle 16:00.:00:00
 
 ### Precondizioni {#preconditions}
 
@@ -141,3 +140,4 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >[!NOTE]
 >
 >È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
+

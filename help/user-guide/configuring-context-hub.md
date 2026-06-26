@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1515
-ht-degree: 2%
+source-wordcount: 1537
+ht-degree: 3%
 
 ---
 
@@ -230,8 +230,7 @@ Segui i passaggi seguenti per creare un marchio nelle attività e nelle aree sot
 
    1. Fare clic su **Area** dalla procedura guidata **Crea pagina** e fare clic su **Avanti**.
 
-   1. Immetti **Titolo** come **ValoreSchermi** e fai clic su **Crea**.
-Nel tuo marchio viene creata un’area.
+   1. Immetti **Titolo** come **ValoreSchermi** e fai clic su **Crea**.Nel tuo marchio viene creata un’area.
 
 ## Passaggio 5: Creazione dei segmenti in un’attività {#step-setting-up-audience-segmentation}
 
@@ -339,3 +338,4 @@ Dopo aver configurato ContextHub per il progetto AEM Screens, puoi seguire i div
 1. **[Attivazione con targeting inventario vendita al dettaglio](retail-inventory-activation.md)**
 1. **[Attivazione temperatura centro di viaggio](local-temperature-activation.md)**
 1. **[Attivazione prenotazione ospitalità](hospitality-reservation-activation.md)**
+
