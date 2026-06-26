@@ -6,25 +6,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 6cf0aa9f-7bac-403f-a113-51727c1f5374
 TQID: https://experienceleague.adobe.com/3luzMMyp-cngfhPg7rJlCh6UUOxYGxwUB9YOtjjwNsM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1132
+source-wordcount: 1147
 ht-degree: 2%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 2%
 # Riconoscimento vocale in AEM Screens {#voice-recognition}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!IMPORTANT]
 >
@@ -93,8 +83,7 @@ Prima di utilizzare una funzione di riconoscimento vocale, accertati di disporre
 
    ![immagine](assets/voice-recognition/vr-2.png)
 
-   Se hai aggiunto il canale Split Screens al progetto, passa a **SplitScreen** e trascina due sequenze incorporate. Aggiungi percorsi al canale **ColdDrinks** e **HotDrinks** come illustrato nella figura seguente.
-   ![immagine](assets/voice-recognition/vr-emb-6.png)
+   Se hai aggiunto il canale Split Screens al progetto, passa a **SplitScreen** e trascina due sequenze incorporate. Aggiungi percorsi al canale **ColdDrinks** e **HotDrinks** come illustrato nella figura seguente.   ![immagine](assets/voice-recognition/vr-emb-6.png)
 
 
 ### Impostazione dei tag per i canali {#setting-tags}
@@ -204,3 +193,4 @@ Analogamente, se utilizzi una parola con una parola chiave **cold** come *Vorrei
 **Output desiderato per il canale Screens diviso**
 
 Il canale **Principale** sta riproducendo il relativo contenuto. Tuttavia, quando si utilizzano parole con la parola chiave **hot** e **cold** insieme, ad esempio *Desidero visualizzare il menu per le bevande calde e fredde*, il canale riproduce il contenuto del canale **SplitScreen**. Se *torna al menu principale*, verrà ripristinato il canale **Principale**.
+

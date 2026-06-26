@@ -3,17 +3,11 @@ title: Attivatori dati
 description: Scopri i trigger di dati in AEM Screens.
 exl-id: 23c4268e-48be-4c84-b5eb-c96152b166f7
 TQID: https://experienceleague.adobe.com/oeJ7C6Rt8-Z9sFnEP1S1tn0VW4PuiKkXkeDYaz8Vd4s
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 307
 ht-degree: 0%
@@ -23,7 +17,7 @@ ht-degree: 0%
 # Ottimizzazioni Dynamic Creative {#dynamic-creative}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -52,3 +46,4 @@ Esistono due tipi principali di trigger di dati:
 
 * **Attivatori dati locali**: questi attivatori dati sono locali sul dispositivo. Ad esempio, se hai toccato lo schermo, viene attivato un sensore che attiva una risorsa di dati locale o un interruttore di canale.
 * **Trigger dati remoti**: questo problema riguardava un cambio di canale attivato dai dati o un cambio di risorsa basato sui valori restituiti da un&#39;API del servizio Web.
+

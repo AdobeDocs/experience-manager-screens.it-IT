@@ -5,16 +5,11 @@ role: Developer
 level: Intermediate
 exl-id: 40877547-5027-41eb-8d66-d4a2d7b9af70
 TQID: https://experienceleague.adobe.com/ms01oXXn6BqzkscgjG0o0g1pq-wEawpMy1eel6Uz1uM
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 531
 ht-degree: 4%
@@ -24,7 +19,7 @@ ht-degree: 4%
 # Configurazione degli agenti di replica di Screens {#configuring-screens-replication-agent}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa pagina descrive come configurare gli agenti di replica di Screens.
 
@@ -33,7 +28,7 @@ Questa pagina descrive come configurare gli agenti di replica di Screens.
 L&#39;agente di replica di Screens è responsabile della trasmissione dei dati dei comandi, ad esempio *user*, *password*, *rebootSchedule*, *maxNumberOfLogFilesToKeep* e molti altri valori di questo tipo da Publish a Author. È essenziale configurare questo agente in modo che l’autore possa mostrare il ping del dispositivo.
 
 >[!NOTE]
->Per ulteriori informazioni sugli agenti di replica di Screens, vedere [Agenti e comandi di replica di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
+>Per ulteriori informazioni sugli agenti di replica di Screens, vedere [Agenti e comandi di replica di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview#screens-replication-agents-and-commands).
 
 Completare entrambe le sezioni se si desidera completare la configurazione dell&#39;agente di replica di Screens:
 
@@ -143,3 +138,4 @@ Segui la sezione seguente per aggiornare le impostazioni nell’agente di replic
    ![immagine](/help/user-guide/assets/screens-replication/screens-replication1g.png)
 
    Se la verifica della connessione ha esito positivo, è stata completata la configurazione dell&#39;agente di replica di Screens.
+

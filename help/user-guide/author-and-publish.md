@@ -3,17 +3,12 @@ title: Configurare le istanze di authoring e pubblicazione in AEM Screens
 description: Scopri come configurare un’istanza Author e un’istanza Publish per AEM Screens.
 exl-id: 5aef5f35-d946-4bf8-a2a8-c3ed532b7eef
 TQID: https://experienceleague.adobe.com/U6Z-Mk467J0VAHiM7n6JnsWrMChwRM7B0FrWpm1-ZyA
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2022
 ht-degree: 0%
 
 ---
@@ -23,7 +18,7 @@ ht-degree: 0%
 In questa pagina sono evidenziati i seguenti argomenti:
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 * **Configurazione delle istanze Author e Publish**
 * **Impostazione della topologia di pubblicazione**
@@ -65,7 +60,7 @@ Per creare agenti di replica, scopri come creare un agente di replica standard.
 
 Per Screens sono necessari tre agenti di replica:
 
-1. **Agente di replica predefinito &#x200B;***(specificato come&#x200B;*** Agente di replica standard**)
+1. **Agente di replica predefinito ***(specificato come*** Agente di replica standard**)
 1. **Agente di replica di Screens**
 1. **Agente replica inversa**
 
@@ -123,7 +118,7 @@ Per creare un agente di replica predefinito, effettua le seguenti operazioni:
 1. Creazione di un agente di replica AEM Screens per pub2. Copiare l&#39;agente di replica Screens per pub1 e modificare la porta in modo che punti a 4504 per pub2.
 
    >[!NOTE]
-   >Per informazioni su come configurare gli agenti di replica di Screens, vedere [Configurazione dell&#39;agente di replica di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
+   >Per informazioni su come configurare gli agenti di replica di Screens, vedere [Configurazione dell&#39;agente di replica di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/configure-screens-replication).
 
 #### Creare agenti di replica inversa di Screens {#creating-screens-reverse-replication-agents}
 
@@ -155,8 +150,7 @@ Per qualsiasi istanza di pubblicazione, passare a `https://:/system/console/topo
 
 #### Passaggio 3: configurare il cluster ActiveMQ Artemis {#step-setup-activemq-artemis-cluster}
 
-Questo passaggio consente di creare una password crittografata per il cluster ActiveMQ Artemis.
-L&#39;utente cluster e la password di tutte le istanze Publish nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza dispone di una propria chiave di crittografia, è necessario utilizzare il Supporto crittografia per creare una stringa di password crittografata. Quindi, la password crittografata può essere utilizzata nella configurazione OSGi per ActiveMQ.
+Questo passaggio consente di creare una password crittografata per il cluster ActiveMQ Artemis.L&#39;utente cluster e la password di tutte le istanze Publish nella topologia devono essere identici. La password della configurazione di ActiveMQ Artemis deve essere crittografata. Poiché ogni istanza dispone di una propria chiave di crittografia, è necessario utilizzare il Supporto crittografia per creare una stringa di password crittografata. Quindi, la password crittografata può essere utilizzata nella configurazione OSGi per ActiveMQ.
 
 Per ogni istanza di pubblicazione:
 
@@ -170,14 +164,13 @@ Poiché ogni istanza Publish, per impostazione predefinita, dispone di chiavi cr
 >[!NOTE]
 >
 >La password deve iniziare e terminare con parentesi graffe. Ad esempio:
->`{1ec346330f1c26b5c48255084c3b7272a5e85260322edd59119828d1fa0a610e}`
 
 #### Passaggio 4: attivare il cluster ActiveMQ Artemis {#step-activate-activemq-artemis-cluster}
 
 Su ogni istanza di pubblicazione:
 
 1. Passa a Gestione configurazione OSGi `https://<host>:<port>/system/console/configMgr`
-1. Fai clic sulla configurazione del provider JMS Apache ActiveMQ Artemis **&#x200B;**
+1. Fai clic sulla configurazione del provider JMS Apache ActiveMQ Artemis ****
 1. Aggiorna quanto segue:
 
    * ***Password cluster***: utilizza un valore crittografato del passaggio precedente per la rispettiva istanza

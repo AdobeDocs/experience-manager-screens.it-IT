@@ -7,25 +7,15 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 51a63429-2488-45be-b8f5-cb755ca69c7f
 TQID: https://experienceleague.adobe.com/2AALuBZHZkc0HhlqvmSKvBTVEr-MRlwqNs15ETiA8Lk
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: ba4275ba-c29a-4197-90dc-5a633402ca3cid: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1845
+source-wordcount: 1853
 ht-degree: 0%
 
 ---
@@ -33,7 +23,7 @@ ht-degree: 0%
 # Attivazione a livello di canale {#channel-level-activation-single-event-playback}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa pagina descrive l’attivazione a livello di canale per le risorse utilizzate nei canali.
 
@@ -161,19 +151,18 @@ Per implementare la funzionalità, segui i passaggi seguenti:
 
 Una volta completata la configurazione dei canali e della visualizzazione, avvia AEM Screens Player per visualizzare il contenuto.
 
-Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:2&rbrace; (come impostato nella pianificazione), il canale **TargetedSinglePlay** visualizza il contenuto fino alle 12:5&rbrace; e quindi **MainAdChannel** riprende la riproduzione.:59:05
+Il lettore visualizza il contenuto di **MainAdChannel** ed esattamente alle 23:2} (come impostato nella pianificazione), il canale **TargetedSinglePlay** visualizza il contenuto fino alle 12:5} e quindi **MainAdChannel** riprende la riproduzione.:59:05
 
 >[!NOTE]
 >
->Per informazioni su AEM Screen Player, consulta le risorse seguenti:>[Download di AEM Screens Player](https://download.macromedia.com/screens/)
->[Utilizzo di AEM Screens Player](working-with-screens-player.md)
+>Per informazioni su AEM Screen Player, consulta le risorse seguenti:Download di AEM Screens PlayerUtilizzo di AEM Screens Player](working-with-screens-player.md)
 
 
 ## Gestione della ricorrenza per Assets in un canale {#handling-recurrence-in-assets}
 
 Puoi pianificare le risorse in un canale in modo che ricorrano a determinati intervalli su base giornaliera, settimanale o mensile in base alle tue esigenze.
 
-Supponiamo di voler visualizzare il contenuto di un canale solo il venerdì dalle 1:00 alle 22:1&rbrace;. Puoi utilizzare la scheda **Activation** per impostare l&#39;intervallo ricorrente desiderato per la risorsa.:00
+Supponiamo di voler visualizzare il contenuto di un canale solo il venerdì dalle 1:00 alle 22:1}. Puoi utilizzare la scheda **Activation** per impostare l&#39;intervallo ricorrente desiderato per la risorsa.:00
 
 ### Ripartizione giornaliera {#day-parting}
 
@@ -287,3 +276,4 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 >[!NOTE]
 >
 >Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
+

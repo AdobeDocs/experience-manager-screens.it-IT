@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: 5ad1046f-8b64-490b-9966-ce9008180d54
 TQID: https://experienceleague.adobe.com/DbykjHEvhVlmBgM--hV4p707sv2FpTl1dZoUgJu2I0s
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 476
 ht-degree: 2%
@@ -28,7 +24,7 @@ ht-degree: 2%
 # Canali offline {#offline-channels}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Il lettore Screens fornisce supporto offline per i canali utilizzando la tecnologia ***ContentSync***.
 
@@ -130,3 +126,4 @@ Per abilitare la configurazione offline per un canale, effettua le seguenti oper
 >[!NOTE]
 >
 >Scopri il modello per i gestori di risorse offline personalizzati. Ulteriori informazioni sui requisiti minimi in `pom.xml` per il progetto. Vedi [Modello per gestori personalizzati](/help/user-guide/developing-custom-component-tutorial-develop.md#custom-handlers) in **Sviluppo di un componente personalizzato per AEM Screens**.
+

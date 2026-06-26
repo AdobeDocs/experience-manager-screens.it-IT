@@ -3,12 +3,9 @@ title: Supporto di miniature per video in AEM Screens
 description: Scopri come aggiungere il supporto per miniature per video in AEM Screens.
 exl-id: d2d87807-1699-47e3-b241-07c5b7e56f15
 TQID: https://experienceleague.adobe.com/VlgvGuLabotRAwprPRl4UFIAycPi7M1oqz47nQZIpVU
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 442
 ht-degree: 2%
@@ -18,7 +15,7 @@ ht-degree: 2%
 # Supporto delle miniature per video {#thumbnail-support-videos}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Introduzione {#introduction}
 
@@ -76,3 +73,4 @@ La miniatura nei video supporta i seguenti casi d’uso:
 * Un componente video con il video (se il video ha una rappresentazione corretta) e il set di miniature riproduce il video.
 
 * Un componente video con il set di video riproduce la miniatura, se si verifica un errore di riproduzione, o passa all’elemento successivo nel caso in cui la miniatura non sia configurata.
+

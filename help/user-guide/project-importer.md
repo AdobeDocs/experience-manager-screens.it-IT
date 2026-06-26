@@ -11,14 +11,10 @@ role: Admin
 level: Intermediate
 exl-id: 3bff9ef3-0d6f-41d8-a8ef-bcc5a795990e
 TQID: https://experienceleague.adobe.com/XwcKgrrDLuCYSLfTk4VyliKQdTn5O2HH8CUvwCJr9Pc
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 1%
@@ -32,7 +28,7 @@ Questa sezione descrive una funzionalità per importare in blocco un set di posi
 ## Introduzione {#introduction}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Quando imposti un progetto AEM Screens per la prima volta nell’organizzazione, crea anche tutte le posizioni. Se il progetto coinvolge molte posizioni, si ottiene una noiosa attività che richiede molta selezione e attesa nell’interfaccia utente.
 
@@ -112,7 +108,7 @@ Per importare un file in una cartella di percorso contenente i campi obbligatori
 
    ![schermata_shot_2019-05-12at52651am](assets/screen_shot_2019-05-12at52651am.png)
 
-1. Fare clic sul progetto,**DemoProjectImporter**>**Crea**>**&#x200B; posizioni di importazione** dalla barra laterale.
+1. Fare clic sul progetto,**DemoProjectImporter**>**Crea**>** posizioni di importazione** dalla barra laterale.
 
    ![schermata_shot_2019-05-12at52433am](assets/screen_shot_2019-05-12at52433am.png)
 
@@ -129,3 +125,4 @@ Per importare un file in una cartella di percorso contenente i campi obbligatori
 1. Di conseguenza, ora puoi visualizzare tutte le posizioni importate nel progetto.
 
    ![schermata_shot_2019-05-12at53450am](assets/screen_shot_2019-05-12at53450am.png)
+

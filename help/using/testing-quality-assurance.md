@@ -3,16 +3,12 @@ title: Test e qualità Assurance
 description: Scopri i test e il controllo della qualità per AEM Screens nella Guida alle best practice.
 exl-id: cc3bfb88-1341-43f8-b247-6a41f1d1a963
 TQID: https://experienceleague.adobe.com/So83gHv7n21zhdoCdWHVf0yswyQuSr1hLWmCA7uHSiE
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 392
 ht-degree: 0%
 
 ---
@@ -20,13 +16,12 @@ ht-degree: 0%
 # Test e qualità Assurance {#testing-quality}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Una delle parti interessate per questa attività è un integratore audio-video.
 
-Man mano che ti avvicini all&#39;implementazione della rete di digital signage, crea un piano di test e controllo qualità che affronti ogni elemento della rete, inclusi tutti i componenti hardware, software e di rete.
-Durante la fase, si dovrebbero costruire e collaudare completamente interi sistemi di test.
+Man mano che ti avvicini all&#39;implementazione della rete di digital signage, crea un piano di test e controllo qualità che affronti ogni elemento della rete, inclusi tutti i componenti hardware, software e di rete.Durante la fase, si dovrebbero costruire e collaudare completamente interi sistemi di test.
 
 È necessario creare un elenco di controllo che identifichi tutti i KPI definiti in precedenza e ne misuri i risultati finali.
 
@@ -61,15 +56,14 @@ Si consiglia di tenere presenti le seguenti considerazioni sul software:
 
 AEM Screens include un modulo Device Control Center che consente la gestione degli endpoint dell’applicazione di riproduzione Screens.
 
-Si riferisce a qualsiasi dispositivo hardware *player* su cui è installata l&#39;applicazione del lettore Screens e che è registrato in un&#39;istanza di AEM.
-Questo modulo consente di:
+Si riferisce a qualsiasi dispositivo hardware *player* su cui è installata l&#39;applicazione del lettore Screens e che è registrato in un&#39;istanza di AEM.Questo modulo consente di:
 
 1. Registri di errore dell’applicazione del lettore di monitor
 1. Gestione schermate remote
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
+Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
 
 >[!CAUTION]
 >
@@ -94,3 +88,4 @@ Di seguito sono riportati alcuni esempi:
 * AirWatch
 * `42Gears`
 * Middleware con integrazione audio-video proprietaria
+

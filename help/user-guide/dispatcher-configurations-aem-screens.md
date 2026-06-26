@@ -6,20 +6,13 @@ role: Developer, User
 level: Intermediate
 exl-id: 8b281488-f54d-4f8a-acef-ca60fa2315ed
 TQID: https://experienceleague.adobe.com/qKfWLBvyu49vxRvNfsV1oliOGVgxyEum5wmjbIdSEeI
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: 709
 ht-degree: 2%
 
 ---
@@ -27,7 +20,7 @@ ht-degree: 2%
 # Configurazioni Dispatcher per AEM Screens{#dispatcher-configurations-for-aem-screens}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Dispatcher è lo strumento di caching o di bilanciamento del carico di Adobe Experience Manager o entrambi.
 
@@ -39,8 +32,7 @@ La pagina seguente fornisce le linee guida per la configurazione di un Dispatche
 >
 >Se non è presente alcun Dispatcher, disattiva il servlet di registrazione nell’elenco dei componenti OSGi.
 
-Prima di configurare Dispatcher per un progetto AEM Screens, è necessario avere una conoscenza di Dispatcher.
-Per ulteriori dettagli, vedere [Configurazione di Dispatcher](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
+Prima di configurare Dispatcher per un progetto AEM Screens, è necessario avere una conoscenza di Dispatcher.Per ulteriori dettagli, vedere [Configurazione di Dispatcher](https://experienceleague.adobe.com/it/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration).
 
 ## Configurazione di Dispatcher per la versione del manifesto v2 {#configuring-dispatcher}
 
@@ -262,3 +254,4 @@ Se utilizzi campagne mirate con AEM Screens, le `segments.js file` servite da Di
 ```
 
 * Questa regola assicura che il file `segments.js` sia invalidato e che venga recuperato il più recente dopo la modifica.
+

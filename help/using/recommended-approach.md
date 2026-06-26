@@ -3,18 +3,11 @@ title: Approccio consigliato
 description: Scopri l’approccio consigliato in un progetto AEM Screens.
 exl-id: 28aacffa-e9c9-4ccb-8038-720bb3e02a3f
 TQID: https://experienceleague.adobe.com/r0WE0DQZx3dtGGlNaX9DUX3ckvu2ZdseJLy8-sDJZXQ
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: ae478996-b206-4712-9b0c-dc78a2644453
-  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: f18e6c98-d21a-4444-b84b-f327ce464de4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 482
 ht-degree: 0%
@@ -24,7 +17,7 @@ ht-degree: 0%
 # Approccio consigliato {#recommended-approach}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 È consigliabile considerare qualsiasi progetto AEM Screens a livello aziendale come un’impresa a lungo termine. È probabile che il progetto abbia una durata di uno o più anni, in particolare se la soluzione consente complesse interazioni dell’utente o viene implementata su vari dispositivi e posizioni.
 
@@ -69,3 +62,4 @@ Se il cliente desidera un prodotto ricco di funzionalità, fornisci una porzione
 
 * **Informazioni sull&#39;ambito delle integrazioni personalizzate**:
 I componenti interattivi con interazione touch screen, sensore di movimento o RFID richiedono uno sviluppo personalizzato significativo nel metodo di implementazione. Una presentazione, un annuncio video o un menu statico possono essere distribuiti come contenuto grafico o HTML su un canale Screens.
+

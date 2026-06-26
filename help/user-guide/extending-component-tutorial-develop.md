@@ -10,29 +10,22 @@ role: Developer
 level: Intermediate
 exl-id: e316614f-2d40-4b62-a1e5-f30817def742
 TQID: https://experienceleague.adobe.com/9n3Ft3gu3r1fN0FutW-6E3oiX6L2R1kK7D3oyVrn1M4
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 1892
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # Estensione di un componente AEM Screens
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Il seguente tutorial illustra i passaggi e le best practice per l’estensione dei componenti AEM Screens forniti con il prodotto. Il componente Immagine viene esteso per aggiungere una sovrapposizione di testo modificabile.
 
@@ -56,17 +49,17 @@ Per completare questa esercitazione, sono necessari i seguenti elementi:
 1. [Lettore AEM Screens](/help/user-guide/aem-screens-introduction.md)
 1. Ambiente di sviluppo locale
 
-I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. Per completare l&#39;esercitazione è inoltre possibile utilizzare le IDE [Eclipse](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij). Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con AEM sono disponibili qui](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+I passaggi del tutorial e le schermate vengono eseguiti utilizzando CRXDE-Lite. Per completare l&#39;esercitazione è inoltre possibile utilizzare le IDE [Eclipse](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/aem-eclipse) o [IntelliJ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/devtools/ht-intellij). Ulteriori informazioni sull&#39;utilizzo di un IDE per [sviluppare con AEM sono disponibili qui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 ## Configurazione del progetto {#project-setup}
 
-Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l&#39;esercitazione, è stato pregenerato un progetto utilizzando [Archetipo progetto AEM 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli sulla [creazione di un progetto con Archetipo progetto Maven AEM sono disponibili qui](https://experienceleague.adobe.com/it/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
+Il codice sorgente di un progetto Screens viene in genere gestito come progetto Maven con più moduli. Per accelerare l&#39;esercitazione, è stato pregenerato un progetto utilizzando [Archetipo progetto AEM 13](https://github.com/adobe/aem-project-archetype). Ulteriori dettagli sulla [creazione di un progetto con Archetipo progetto Maven AEM sono disponibili qui](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/project-setup).
 
 1. Scarica e installa i seguenti pacchetti utilizzando **Gestione pacchetti CRX** `http://localhost:4502/crx/packmgr/index.jsp)r:`
 
    [Ottieni il file](assets/start-poster-screens-weretail-runuiapps-001-snapshot.zip)
 
-   [Ottieni file](assets/start-poster-screens-weretail-runuicontent-001-snapshot.zip)
+   [Ottieni file
    **Facoltativamente,** se si lavora con Eclipse o un altro IDE, scaricare il pacchetto di origine seguente. Distribuisci il progetto in un’istanza AEM locale utilizzando il comando Maven:
 
    **`mvn -PautoInstallPackage clean install`**
@@ -330,7 +323,7 @@ Il componente Poster viene riprodotto a schermo intero in modalità anteprima/pr
 
 ## Creare librerie lato client {#clientlibs}
 
-Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull’utilizzo di [Librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+Le librerie lato client forniscono un meccanismo per organizzare e gestire i file CSS e JavaScript necessari per un’implementazione AEM. Ulteriori informazioni sull’utilizzo di [Librerie lato client sono disponibili qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto alla modalità Anteprima/Produzione. Vengono creati due set di librerie client, uno per la modalità di modifica e l’altro per l’anteprima/produzione.
 
@@ -355,7 +348,7 @@ Il rendering dei componenti di AEM Screens varia in modalità Modifica rispetto 
 
    La proprietà `categories` è una stringa che identifica la libreria client. La categoria `cq.screens.components` viene utilizzata sia in modalità Modifica che Anteprima/Produzione. Pertanto, qualsiasi CSS/JS definito nella libreria client `shared` viene caricato in tutte le modalità.
 
-   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. La proprietà `allowProxy` garantisce che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni sulla proprietà [allowProxy sono disponibili qui.](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
+   Come best practice, non esporre mai percorsi direttamente a `/apps` in un ambiente di produzione. La proprietà `allowProxy` garantisce che venga fatto riferimento alla libreria client CSS e JS tramite il prefisso `/etc.clientlibs`. Ulteriori informazioni sulla proprietà [allowProxy sono disponibili qui.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/clientlibs)
 
 1. Crea il file denominato `css.txt` sotto la cartella condivisa.
 
@@ -539,3 +532,4 @@ Di seguito è riportato il codice finito dell&#39;esercitazione. I pacchetti AEM
 SRC Final AEM Screens `We.Retail` Esegui progetto
 
 [Ottieni il file](assets/src-screens-weretail-run-001.zip)
+

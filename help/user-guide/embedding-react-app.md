@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: 7dc7d07e-cd94-4ce1-a106-98669be62046
 TQID: https://experienceleague.adobe.com/xFqHw12qllxCLTJv6MSzaZ8E2D3Rf-Xtt2bH26hB0tw
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
 source-wordcount: 734
 ht-degree: 0%
@@ -28,7 +24,7 @@ ht-degree: 0%
 # Incorporare un’applicazione REACT utilizzando l’Editor SPA di AEM e Integrare con AEM Screens Analytics {#embedding-a-react-application-using-the-aem-spa-editor-and-integrating-with-aem-screens-analytics}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Puoi incorporare un’applicazione interattiva a pagina singola utilizzando REACT (o Angular). A tale scopo, utilizza l’editor SPA di AEM configurato dai professionisti del settore in AEM. Scopri anche come integrare l’applicazione interattiva con Adobe Analytics offline.
 
@@ -147,3 +143,4 @@ Segui i passaggi seguenti per integrare l’applicazione a pagina singola con Ad
    >[!NOTE]
    >
    >Il firmware del lettore aggiunge automaticamente ulteriori dettagli sul lettore e sul relativo ambiente di runtime ai dati di analisi personalizzati inviati. Di conseguenza, potrebbe essere necessario acquisire i dettagli relativi al sistema operativo/dispositivo di basso livello, se non necessario. Concentrati sui dati di analisi aziendale.
+

@@ -6,21 +6,14 @@ role: Admin, Developer
 level: Intermediate
 exl-id: 3314e0b5-0001-4bce-8ec6-5a6ffbb20f7b
 TQID: https://experienceleague.adobe.com/61R-NNkhkgGx2S0KOeteDn674PiOpX5k4YOVKBmQZIs
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: 807
 ht-degree: 0%
 
 ---
@@ -28,7 +21,7 @@ ht-degree: 0%
 # Sincronizzazione comandi {#command-sync}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Nella pagina seguente viene descritto come utilizzare Sincronizzazione comandi. Command Sync consente la riproduzione sincronizzata tra diversi lettori. I lettori possono riprodurre contenuti diversi, ma ogni risorsa deve avere la stessa durata.
 
@@ -71,8 +64,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 1. Creare una posizione **Lobby** e quindi una visualizzazione con titolo **LobbyDisplay** nella cartella **Locations**, come illustrato nella figura seguente.
    ![immagine1](assets/command-sync/command-sync3-1.png)
 
-1. Assegna il canale **ChannelLobby** al tuo **LobbyDisplay**. Ora puoi visualizzare il canale assegnato alla visualizzazione dal dashboard di visualizzazione.
-   ![immagine1](assets/command-sync/command-sync4-1.png)
+1. Assegna il canale **ChannelLobby** al tuo **LobbyDisplay**. Ora puoi visualizzare il canale assegnato alla visualizzazione dal dashboard di visualizzazione.   ![immagine1](assets/command-sync/command-sync4-1.png)
 
    >[!NOTE]
    >
@@ -87,8 +79,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
    >
    >Per informazioni su come registrare un dispositivo, vedere [Registrazione dispositivo](/help/user-guide/device-registration.md)
 
-1. A scopo dimostrativo, in questo esempio vengono illustrati un dispositivo Chrome e un lettore Windows come due dispositivi separati. Entrambi i dispositivi puntano allo stesso schermo.
-   ![immagine1](assets/command-sync6.png)
+1. A scopo dimostrativo, in questo esempio vengono illustrati un dispositivo Chrome e un lettore Windows come due dispositivi separati. Entrambi i dispositivi puntano allo stesso schermo.   ![immagine1](assets/command-sync6.png)
 
 ### Aggiornamento impostazioni canale
 
@@ -106,9 +97,7 @@ Prima di utilizzare la funzione di sincronizzazione dei comandi, accertati di di
 
 ### Configurazione di un primario {#setting-up-primary}
 
-1. Passa alla dashboard di visualizzazione da **CommandSyncDemo** > **Percorsi** > **Lobby** > **LobbyDisplay**. Quindi fai clic su **Dashboard** nella barra delle azioni.
-Osserva i due dispositivi (Chrome e Windows Player) nel pannello **DISPOSITIVI**, come illustrato di seguito:
-   ![immagine1](assets/command-sync/command-sync10-1.png)
+1. Passa alla dashboard di visualizzazione da **CommandSyncDemo** > **Percorsi** > **Lobby** > **LobbyDisplay**. Quindi fai clic su **Dashboard** nella barra delle azioni.Osserva i due dispositivi (Chrome e Windows Player) nel pannello **DISPOSITIVI**, come illustrato di seguito:   ![immagine1](assets/command-sync/command-sync10-1.png)
 
 1. Nel pannello **DISPOSITIVI**, fare clic sul dispositivo che si desidera impostare come primario. Nell&#39;esempio seguente viene illustrata la configurazione del dispositivo Chrome come dispositivo principale. Fare clic su **Imposta come dispositivo principale**.
 
@@ -124,8 +113,7 @@ Osserva i due dispositivi (Chrome e Windows Player) nel pannello **DISPOSITIVI**
 
 ### Sincronizzazione con primario {#sync-up-primary}
 
-1. Dopo aver impostato il dispositivo Chrome come principale, sincronizzare l&#39;altro dispositivo (in questo caso Windows Player) con quello principale.
-Fare clic sull&#39;altro dispositivo (in questo caso Windows Player) dal pannello **DISPOSITIVI** e fare clic su **Sincronizza con dispositivo principale**.
+1. Dopo aver impostato il dispositivo Chrome come principale, sincronizzare l&#39;altro dispositivo (in questo caso Windows Player) con quello principale.Fare clic sull&#39;altro dispositivo (in questo caso Windows Player) dal pannello **DISPOSITIVI** e fare clic su **Sincronizza con dispositivo principale**.
 
    ![immagine1](assets/command-sync/command-sync13-1.png)
 
@@ -160,3 +148,4 @@ Per rimuovere la sincronizzazione dal dispositivo principale, effettua le seguen
    >[!NOTE]
    >
    > Se si fa clic sul dispositivo principale e si utilizza l&#39;opzione di desincronizzazione, tutti i dispositivi connessi al dispositivo principale vengono desincronizzati in un unico passaggio.
+

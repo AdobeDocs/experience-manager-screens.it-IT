@@ -6,26 +6,21 @@ role: Admin
 level: Intermediate
 exl-id: 45147959-b0ca-4d87-b89d-293e4b9af171
 TQID: https://experienceleague.adobe.com/IpBm16TbDD5MoD6p3BU4vPcmatz5dCpkc-dStlr6hI8
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 1%
+source-wordcount: 1274
+ht-degree: 2%
 
 ---
 
 # Implementazione di Tizen player {#tizen-player}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 ## Installazione di Tizen Player {#installing-tizen-player}
 
@@ -110,9 +105,7 @@ Provisioning remoto del lettore Tizen consente di distribuire centinaia e miglia
 
 Questa funzione consente di configurare in remoto il lettore Tizen e, se necessario, di aggiornare centralmente le configurazioni. Sono necessari solo il server `HTTP` utilizzato per ospitare l&#39;applicazione Tizen `(wgt and xml file)` e un editor di testo per salvare `config.json` con i parametri appropriati.
 
-Verifica di aver configurato l’indirizzo URL Launcher sul dispositivo Tizen. Fai clic sul pulsante Home > Impostazioni modulo di avvio URL.
-Nel server `HTTP` che ospita l&#39;applicazione Tizen, inserire il file `config.json` nella stessa posizione del file `wgt`. Il nome file deve essere `config.json`.
-Il lettore Tizen installa e all&#39;avvio (e ad ogni riavvio), verifica e applica le impostazioni nel file `config.json`.
+Verifica di aver configurato l’indirizzo URL Launcher sul dispositivo Tizen. Fai clic sul pulsante Home > Impostazioni modulo di avvio URL.Nel server `HTTP` che ospita l&#39;applicazione Tizen, inserire il file `config.json` nella stessa posizione del file `wgt`. Il nome file deve essere `config.json`.Il lettore Tizen esegue l&#39;installazione e all&#39;avvio (e ad ogni riavvio), verifica e applica le impostazioni nel file `config.json`.
 
 ### Esempio di criterio JSON {#example-json}
 
@@ -131,8 +124,7 @@ Il lettore Tizen installa e all&#39;avvio (e ad ogni riavvio), verifica e applic
 Nella tabella seguente vengono riepilogati i criteri e le relative funzioni.
 
 >[!NOTE]
->Le configurazioni dei criteri dell’interfaccia utente di amministrazione del lettore vengono rigorosamente applicate e non vengono ignorate manualmente. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio.
->Ad esempio, se si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
+>Le configurazioni dei criteri dell’interfaccia utente di amministrazione del lettore vengono rigorosamente applicate e non vengono ignorate manualmente. Per consentire la configurazione manuale del lettore per un determinato criterio, non specificare il criterio nella configurazione del criterio.Se ad esempio si desidera consentire la configurazione manuale per la pianificazione del riavvio, non specificare la chiave `rebootSchedule` nella configurazione dei criteri. Le configurazioni dei criteri vengono lette ogni volta che il lettore viene ricaricato.
 
 | **Nome criterio** | **Scopo** |
 |---|---|
@@ -185,3 +177,4 @@ Segui i passaggi seguenti per registrare il dispositivo Tizen su Samsung Remote 
 ### Uso del telecomando Screens {#using-remote-control}
 
 AEM Screens fornisce funzionalità di controllo remoto. Ulteriori informazioni su questa funzionalità: [Controllo remoto Screens](implementing-remote-control.md)
+

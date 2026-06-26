@@ -6,20 +6,14 @@ role: Developer
 level: Intermediate
 exl-id: 7397aa99-97fc-45c2-a157-c1bd7b1700b5
 TQID: https://experienceleague.adobe.com/Pwq3ebRrbCufXFMk7R-FJj90xq4b7gLOcLvslch2L5o
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
-subfeature_v2:
-  - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+subfeature_v2: id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -27,7 +21,7 @@ ht-degree: 2%
 # Rapporto assegnazione contenuti {#content-assignment-report}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 La funzionalità Report assegnazione contenuto consente a un amministratore AEM Screens o a un autore di esportare un *Report assegnazione contenuto* in un formato foglio di calcolo.
 
@@ -40,8 +34,7 @@ Il rapporto sull’assegnazione dei contenuti non solo consente di visualizzare 
 
 ### Prerequisiti {#pre-reqs}
 
-Prima di scaricare il report sull’assegnazione dei contenuti, accertati di aver impostato un progetto AEM Screens con canali, posizioni e dispositivi.
-Per ulteriori informazioni, consulta le seguenti risorse:
+Prima di scaricare il report sull’assegnazione dei contenuti, accertati di aver impostato un progetto AEM Screens con canali, posizioni e dispositivi.Per ulteriori informazioni, consulta le seguenti risorse:
 
 1. [Creazione e gestione di progetti](/help/user-guide/creating-a-screens-project.md)
 1. [Creazione e gestione dei canali](/help/user-guide/managing-channels.md)
@@ -76,3 +69,4 @@ Segui le istruzioni riportate di seguito per scaricare il rapporto Assegnazione 
 1. Selezionando uno dei canali dalla colonna **Canali** si apre la scheda **Contenuto**. A sua volta, naviga direttamente in quel canale e ti fornisce informazioni sulle risorse (immagini e video) associate a quel canale specifico.
 
    ![immagine](/help/user-guide/assets/content-assignment-report/report-sheet2.png)
+

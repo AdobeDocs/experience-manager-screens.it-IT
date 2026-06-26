@@ -3,14 +3,11 @@ title: Utilizzo di rappresentazioni adattive in AEM Screens
 description: Scopri come utilizzare le rappresentazioni adattive in AEM Screens.
 exl-id: e7f68ed4-73c3-492a-b33a-dd915ef1f8be
 TQID: https://experienceleague.adobe.com/HZzzIXVu8Px3-aXDrbfU9xQxg-F-ZJK-Sy-BVQSH-uo
-product_v2:
-  - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4664dd5678eaccabe656398c437dca264d4675e
+product_v2: id: a27b4747-2f72-4fb7-9936-be5d11dd2c4aid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: 630
 ht-degree: 1%
 
 ---
@@ -20,7 +17,7 @@ ht-degree: 1%
 ## Introduzione {#introduction}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Questa funzione è supportata solo su AEM on-premise (AEM 6.x). Non è supportato in AEM as a Cloud Service.
@@ -29,8 +26,7 @@ Le rappresentazioni adattive consentono ai dispositivi di fare clic automaticame
 
 ## Obiettivo {#objective}
 
-In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.
-Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e quindi includerle in un canale AEM Screens.
+In qualità di autore di contenuti AEM Screens, ora puoi configurare i rendering di risorse specifiche per il dispositivo in modo che vengano scaricati e riprodotti automaticamente senza dover creare manualmente tutte le varianti di contenuto.Dopo che uno sviluppatore ha aggiunto le proprietà e le regole di mappatura della rappresentazione, puoi applicare la mappatura alle risorse e quindi includerle in un canale AEM Screens.
 
 >[!IMPORTANT]
 >Prima di iniziare a utilizzare le rappresentazioni adattive in un canale AEM Screens, Adobe consiglia di conoscere la panoramica e la configurazione dell’architettura di questa funzione. Consulta [Rappresentazioni adattive: panoramica dell&#39;architettura e configurazioni](/help/user-guide/adaptive-renditions.md).
@@ -57,7 +53,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
 
 ## Strategia di migrazione {#migration-strategy}
 
@@ -79,3 +75,4 @@ Per abilitare la funzione, aggiungi almeno una regola di mappatura e assicurati 
 
    >[!NOTE]
    >Dopo aver completato la migrazione, assicurati di rimuovere tutti i riferimenti di configurazione da canali, visualizzazioni e posizioni e di aggiungerne uno singolo al nodo del contenuto del progetto.
+
