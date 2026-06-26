@@ -35,7 +35,7 @@ ht-degree: 0%
 # Parte 2: Considerazioni relative all’ambito dei progetti {#part-considerations-as-projects-are-scoped}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 In questa pagina viene evidenziata la parte 2 di una serie in 5 parti progettata per aiutare i membri del team a comprendere meglio gli aspetti pre-vendita per lo sviluppo di implementazioni AEM Screens di successo.
 

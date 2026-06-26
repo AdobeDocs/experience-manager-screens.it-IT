@@ -30,7 +30,7 @@ ht-degree: 1%
 # Domande frequenti su AEM Screens {#aem-screens-faqs}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questo argomento fornisce le risposte alle domande frequenti più frequenti relative a un progetto AEM Screens.
 
@@ -185,7 +185,7 @@ Segui i passaggi seguenti per risolvere i problemi relativi a un lettore AEM Scr
 
 1. Verificare che la configurazione del Dispatcher consenta queste richieste in `/filters`.
 
-   Per ulteriori dettagli, vedere [Configurazione dei filtri di Screens](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
+   Per ulteriori dettagli, vedere [Configurazione dei filtri di Screens](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#step-configure-screens-filters).
 
 1. Verifica se le regole di riscrittura di Dispatcher stanno riscrivendo uno qualsiasi dei percorsi dello schermo in un percorso diverso.
 
@@ -231,7 +231,7 @@ Disattiva Livefyre per evitare errori di registro, effettuando le seguenti opera
 
 ### &#x200B;2. Come si aggiungono le informazioni dell’indice Oak? {#add-oak-index-info}
 
-AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
+AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.Se in `error.log` sono presenti *avvisi di attraversamento query*, creare un indice personalizzato per la query. Per ulteriori dettagli, vedere [Configurazione degli indici](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#configuring-the-indexes).
 
 È inoltre possibile visualizzare una risorsa aggiuntiva nella [documentazione di Oak](https://jackrabbit.apache.org/oak/docs/query/lucene.html).
 
@@ -240,9 +240,9 @@ AEM Screens crea definizioni di indice per le query utilizzate dal prodotto.Se i
 
 Per abilitare il manifesto v3, effettuare le seguenti operazioni:
 
-* Aggiornare Dispatcher.Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
+* Aggiornare Dispatcher.Per ulteriori dettagli, vedere [Configurazione di Dispatcher per la versione del manifesto v3](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/administering/dispatcher-configurations-aem-screens#configuring-dispatcherv3).
 
-* Aggiorna componente personalizzato.Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
+* Aggiorna componente personalizzato.Per ulteriori dettagli, vedi [Modello per gestori personalizzati](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/developing/developing-custom-component-tutorial-develop#custom-handlers).
 
 * Disabilita ContentSync in `/system/console/configMgr/configMgr/com.adobe.cq.screens.offlinecontent.impl.ContentSyncCacheFeatureFlag`.
 
@@ -256,7 +256,7 @@ Per abilitare il manifesto v3, effettuare le seguenti operazioni:
 
 ### &#x200B;4. Cosa devi fare se, dopo il pacchetto screens-cloud-ams-pkg-0.0.20, screens-cloud-ams-pkg-0.0.16 e i bundle di base screens sono installati ma non attivi?
 
-Installa una versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS. Consulta [Disponibilità](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) per ottenere la versione minima del Feature Pack di AEM Screens.
+Installa una versione minima di AEM 6.5 Feature Pack 8 per il funzionamento del connettore AMS. Consulta [Disponibilità](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/release-notes/release-notes-fp-202105#availability) per ottenere la versione minima del Feature Pack di AEM Screens.
 
 ### &#x200B;5. Come si configura il servizio CQ Link Externalizer in Screens?
 

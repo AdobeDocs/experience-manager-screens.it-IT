@@ -20,7 +20,7 @@ ht-degree: 0%
 # Test e qualità Assurance {#testing-quality}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >Una delle parti interessate per questa attività è un integratore audio-video.
@@ -67,7 +67,7 @@ Si riferisce a qualsiasi dispositivo hardware *player* su cui è installata l&#3
 1. Gestire i download dei contenuti
 1. Gestire i problemi di riavvio dell’applicazione
 
-Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
+Per informazioni dettagliate su ***Centro controllo dispositivi***, vedere [Risoluzione dei problemi di Centro controllo dispositivi](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/troubleshooting/monitoring-screens) nella **Guida utente di AEM Screens**.
 
 >[!CAUTION]
 >

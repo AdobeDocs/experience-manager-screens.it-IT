@@ -29,7 +29,7 @@ ht-degree: 1%
 # Configurazione della riproduzione video e risoluzione dei problemi {#video-playback-configuration-and-troubleshooting}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Quando carichi un video in DAM e lo aggiungi al canale, potrebbero verificarsi dei problemi in cui il video potrebbe non essere riprodotto in AEM Screens Player.
 

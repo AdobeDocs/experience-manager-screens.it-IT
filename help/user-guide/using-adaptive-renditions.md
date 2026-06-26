@@ -20,7 +20,7 @@ ht-degree: 1%
 ## Introduzione {#introduction}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >Questa funzione è supportata solo su AEM on-premise (AEM 6.x). Non è supportato in AEM as a Cloud Service.
@@ -56,7 +56,7 @@ Per applicare le rappresentazioni alle risorse da utilizzare nel canale Screens 
    ![immagine](/help/user-guide/assets/adaptive-renditions/manage-pub-asset1.png)
 
    >[!NOTE]
-   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/en/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
+   >Consulta [Aggiornamento dei contenuti on-demand](https://experienceleague.adobe.com/it/docs/experience-manager-screens/user-guide/authoring/content-updates/on-demand-content) per ulteriori informazioni su come gestire la pubblicazione e distribuire gli aggiornamenti dei contenuti dall&#39;ambiente di authoring a quello di pubblicazione sul dispositivo.
 
 ## Strategia di migrazione {#migration-strategy}
 

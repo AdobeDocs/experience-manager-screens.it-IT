@@ -25,7 +25,7 @@ ht-degree: 2%
 # Cos’è Adobe Experience Manager Screens?{#what-is-aem-screens}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 **Experience Manager Screens**: una soluzione di digital signage che consente di pubblicare esperienze e interazioni digitali dinamiche e interattive che coinvolgono diversi tipi di schermi, il tutto su una piattaforma di marketing digitale completa.
 
@@ -70,7 +70,7 @@ La figura seguente definisce gli utenti tipo e i loro ruoli per Experience Manag
 
 * **Nozioni di base sull&#39;implementazione guidata**
 
-  Segui il percorso di apprendimento guidato **[Nozioni di base sull&#39;implementazione di Experience Manager Screens](https://experienceleague.adobe.com/?launch=AEM-7a)** che riguarda le funzionalità fondamentali e avanzate supportate in Experience Manager Screens.
+  Segui il percorso di apprendimento guidato **[Nozioni di base sull&#39;implementazione di Experience Manager Screens](https://experienceleague.adobe.com/it?launch=AEM-7a)** che riguarda le funzionalità fondamentali e avanzate supportate in Experience Manager Screens.
 
 * **Guida alle best practice per i progetti Experience Manager Screens**
 
