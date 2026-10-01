@@ -8,25 +8,32 @@ exl-id: 346eec9a-e291-4b0d-9686-fee1d5a0e7dd
 TQID: https://experienceleague.adobe.com/-hIHgs66ksW-qvVaUp4euiJlPfbn0OGk88ASNIc4QZI
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1494
+source-wordcount: '1508'
 ht-degree: 3%
-
 ---
-
 # Assegnazione canale {#channel-assignment}
 
 >[!IMPORTANT]
@@ -37,7 +44,7 @@ Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione
 
 Questa pagina mostra come assegnare un canale alla visualizzazione, comprendere le proprietà del canale e DayParting.
 
-Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!NOTE]
 >
@@ -171,7 +178,8 @@ La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più 
 ### Metodo di interruzione {#interruption-method-channel}
 
 >[!IMPORTANT]
-> Questa opzione è disponibile solo con <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
+>
+>Questa opzione è disponibile solo con <!--AEM 6.4 Feature Pack 8 or-->AEM 6.5 Feature Pack 4.
 
 In qualità di autore di contenuti, puoi specificare quando un canale viene interrotto. In questo modo è possibile scegliere di eliminare i contenuti non critici. ma offre anche la possibilità di riprodurre completamente i contenuti importanti prima di interromperli a causa della programmazione.
 
@@ -180,13 +188,15 @@ Selezionare una delle opzioni seguenti disponibili per impostare il metodo di in
 * **Immediatamente** - Quando la pianificazione si attiva o viene ricevuto un aggiornamento, puoi interrompere la riproduzione e aggiornare immediatamente o riprodurre il nuovo contenuto
 * **Fine dell&#39;elemento corrente** - Quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere il termine della riproduzione dell&#39;elemento corrente nella sequenza. Successivamente, sarà possibile aggiornare o riprodurre il nuovo contenuto.
 
-  >[!NOTE]
-  >Questa opzione è selezionata per impostazione predefinita.
+>[!NOTE]
+>
+>Questa opzione è selezionata per impostazione predefinita.
 
 * **Alla fine della sequenza** - Quando si attiva una nuova pianificazione o viene ricevuto un aggiornamento, è possibile attendere che l&#39;intera sequenza raggiunga la fine. Quindi, immediatamente prima della sequenza desiderata, puoi tornare al primo elemento, aggiornare o riprodurre il nuovo contenuto.
 
-  >[!NOTE]
-  >Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell&#39;assegnazione potrebbero subire un leggero differimento. Il motivo è che il lettore attende la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di eseguire l’aggiornamento. Il ritardo dipende dalla durata di riproduzione dell’elemento.
+>[!NOTE]
+>
+>Se si utilizza la seconda o la terza opzione, gli orari di programmazione definiti nell&#39;assegnazione potrebbero subire un leggero differimento. Il motivo è che il lettore attende la fine dell’elemento o della sequenza (dopo l’ora specificata) prima di eseguire l’aggiornamento. Il ritardo dipende dalla durata di riproduzione dell’elemento.
 
 Le seguenti proprietà sono impostate dall&#39;opzione **Pianifica** nella finestra di dialogo **Assegnazione canale**.
 
@@ -201,7 +211,8 @@ La finestra di attivazione consente di selezionare una **data di inizio** e una 
 La pianificazione di ricorrenza consente di impostare una pianificazione ricorrente per il contenuto. Fai clic su **+ Aggiungi pianificazione** per aggiungere una pianificazione di ricorrenza al tuo canale.
 
 >[!NOTE]
->Puoi aggiungere più pianificazioni ricorrenti al tuo canale.Gli Schedules ricorrenti introducono *DayParting*. Puoi impostare una pianificazione globale con più canali in esecuzione in orari specifici della giornata e riutilizzare quella impostata per tutte le visualizzazioni contemporaneamente.
+>Puoi aggiungere più pianificazioni ricorrenti al tuo canale.
+>Gli Schedules ricorrenti introducono *DayParting*. Puoi impostare una pianificazione globale con più canali in esecuzione in orari specifici della giornata e riutilizzare quella impostata per tutte le visualizzazioni contemporaneamente.
 
 È possibile impostare le seguenti opzioni:
 
@@ -209,8 +220,8 @@ La pianificazione di ricorrenza consente di impostare una pianificazione ricorre
 * **Ripeti** - Scegliere se la pianificazione esegue **Giornaliero**, **Settimanale**, **Mensile** o **Annuale**.
 * **Inizio** - Ora di inizio della pianificazione.
 * **Fine** - Ora di fine della pianificazione. Puoi impostarla in base all’ora o alla durata.
-   * **Ora** - La pianificazione termina all&#39;ora specificata.
-   * **Durata** - La pianificazione viene eseguita per un periodo di tempo specifico in ore o minuti.
+  * **Ora** - La pianificazione termina all&#39;ora specificata.
+  * **Durata** - La pianificazione viene eseguita per un periodo di tempo specifico in ore o minuti.
 
 ### DayParting {#dayparting}
 
@@ -226,18 +237,18 @@ In questo caso, ogni giorno è diviso in diversi intervalli di tempo, in modo ch
 
 | **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
 |---|---|---|---|
-| Colazione | Giornaliero | 06:00:00 | 11:00 |
-| Pranzo | Giornaliero | 11:00 | 15:00:00 |
-| Cena | Giornaliero | 15:00:00 | 20:00:00 |
+| Colazione | Giornaliero | 06:00 | 11:00 |
+| Pranzo | Giornaliero | 11:00 | 15:00 |
+| Cena | Giornaliero | 15:00 | 20:00 |
 
 #### Riproduzione di contenuti in un giorno specifico della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il DayParting implementato in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:10:00 e sono disponibili offerte speciali per il menu cena dopo le 22:00 alle 13:00.:00:00:00:00
+Questo esempio mostra il DayParting implementato in un casinò in cui si verifica un evento in diretta ogni fine settimana dalle 20:00 alle 22:00 e sono disponibili speciali per il menu di cena dopo le 22:00 fino all’1:00.
 
 | **Nome** | **Ripetizioni** | **Avvia** | **Fine** |
 |---|---|---|---|
-| Fine settimana | Settimanale: sabato e domenica | 20:00:00 | 22:00:00 |
-| Programmi speciali | Giornaliero: dal lunedì al venerdì | 22:00:00 | 01:00:00 |
+| Fine settimana | Settimanale: sabato e domenica | 20:00 | 22:00 |
+| Programmi speciali | Giornaliero: dal lunedì al venerdì | 22:00 | 01:00 |
 
 >[!NOTE]
 >

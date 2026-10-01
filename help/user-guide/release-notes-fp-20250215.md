@@ -8,22 +8,26 @@ exl-id: cadd83cd-fe64-436d-b3fd-6d72b9565885
 TQID: https://experienceleague.adobe.com/q6KAClMHbAULOEumQlx5-FdaaVmAcMOCL8m6KWIB458
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 10%
-
 ---
-
 # Note sulla versione per Feature Pack 20250327 {#release-notes-for-screens-feature-pack}
 
 >[!CAUTION]
+>
 >Adobe consiglia di eseguire l’aggiornamento alla versione più recente di Adobe Experience Manager 6.5 (AEM 6.5). Puoi ottenere le informazioni sulla versione più recente da [qui](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/release-notes/release-notes).
+> 
 >Adobe consiglia di utilizzare FP11.6 con SP (servicepack) >= 21.
 
 ## Disponibilità {#availability}
@@ -43,8 +47,8 @@ La data di rilascio del Feature Pack 20250327 per AEM Screens è il 27 marzo 202
 * Questa versione risolve il problema della vista a schede con SP22 e versioni successive.
 
 * **Aggiornamento su lettori AEM Screens**
-   * AEM Screens Player basato su Linux è ufficialmente dichiarato obsoleto. Si consiglia agli utenti di effettuare la migrazione a un altro sistema operativo supportato da AEM Screens.
-   * AEM Screens Player basato su Android non viene aggiornato né migliorato. Gli utenti sono invitati a migrare a un sistema operativo alternativo supportato da AEM Screens.
+  * AEM Screens Player basato su Linux è ufficialmente dichiarato obsoleto. Si consiglia agli utenti di effettuare la migrazione a un altro sistema operativo supportato da AEM Screens.
+  * AEM Screens Player basato su Android non viene aggiornato né migliorato. Gli utenti sono invitati a migrare a un sistema operativo alternativo supportato da AEM Screens.
 
 ### Correzioni di bug {#bug-fixes}
 

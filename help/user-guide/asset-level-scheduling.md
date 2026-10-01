@@ -8,29 +8,35 @@ exl-id: a2f5b2cc-6797-4397-b49c-72175a2d2ef7
 TQID: https://experienceleague.adobe.com/6ZaAh-q6ZXjHFhdPDqnJi4n08TXLSd8ZNggljGoIPzA
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Implementation
+source-git-commit: 6ecc9375c5ddbc8c0aea5f267fdd4596dcfdec6f
 workflow-type: tm+mt
-source-wordcount: 1536
+source-wordcount: '1559'
 ht-degree: 0%
-
 ---
-
 # Attivazione a livello di risorsa {#asset-level-scheduling}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa pagina descrive l’attivazione a livello di risorsa per le risorse utilizzate nei canali.
 
@@ -40,10 +46,10 @@ In questa sezione vengono trattati i seguenti argomenti:
 * Finestra di attivazione
 * Riproduzione di un singolo evento
 * Gestione della ricorrenza in Assets
-   * DayParting
-   * WeekParting
-   * MonthParting
-   * Combinazione di partizioni
+  * DayParting
+  * WeekParting
+  * MonthParting
+  * Combinazione di partizioni
 * Attivazione di più risorse
 * Sostituzione Globale Per Ora Di Inizio Universale
 
@@ -101,7 +107,7 @@ Per eseguire la programmazione a livello di risorsa, attenersi alla procedura de
 
 Puoi pianificare la ricorrenza delle risorse a determinati intervalli su base giornaliera, settimanale o mensile in base alle tue esigenze.
 
-Supponiamo di voler visualizzare un&#39;immagine solo il venerdì dalle 13:00 alle 10:01. Puoi utilizzare la scheda **Activation** per impostare l&#39;intervallo ricorrente desiderato per la risorsa.:00:00
+Si supponga di voler visualizzare un&#39;immagine solo il venerdì dalle 13.00 alle 22.00. È possibile utilizzare la scheda **Activation** per impostare l&#39;intervallo ricorrente desiderato per la risorsa.
 
 ### Ripartizione giornaliera {#day-parting}
 
@@ -120,14 +126,14 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 | **Espressione** | **Interpretazione** |
 |---|---|
-| prima delle 08:00:00 | la risorsa nel canale viene riprodotta prima delle 08:00 del giorno:00 |
-| dopo le 14:00:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno:00 |
-| dopo 12:15 e prima di 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di pomeriggio ogni giorno per 30 minuti |
-| prima del 12:15 anche dopo il 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
+| prima delle 08:00 | la risorsa nel canale viene riprodotta prima delle 8.00 di ogni giorno |
+| dopo le 14:00 | la risorsa nel canale viene riprodotta dopo le 14:00 di ogni giorno |
+| dopo le 12:15 e prima delle 12:45 | la risorsa nel canale viene riprodotta dopo le 12:15 di ogni giorno per 30 minuti |
+| prima delle 12:15 anche dopo le 12:45 | la risorsa nel canale viene riprodotta ogni giorno prima delle 12:15 e poi anche dopo le 12:45. |
 
 >[!NOTE]
 >
->È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (2:00 P.M.).
+>È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.* (14:00).
 
 ### WeekParting {#week-parting}
 
@@ -175,6 +181,7 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | `on February-July` | la risorsa viene riprodotta nel canale da febbraio a fine luglio |
 
 >[!NOTE]
+>
 >Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio.
 
 ### Combinazione di partizioni {#combined-parting}
@@ -183,8 +190,9 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 
 1. Dopo aver inserito la data/ora di inizio e l’ora di fine/data, puoi utilizzare un’espressione o una versione di testo naturale per specificare la pianificazione della ricorrenza.
 
-   >[!NOTE]
-   >Puoi saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Schedules, in base alle tue esigenze.
+>[!NOTE]
+>
+>>Puoi saltare o includere i campi **Attivo da** e **Attivo fino a** e aggiungere l&#39;espressione al campo Schedules, in base alle tue esigenze.
 
 1. Immetti l&#39;espressione nella **Pianificazione** e la risorsa viene visualizzata per l&#39;intervallo di giorno e ora specificato.
 
@@ -195,11 +203,12 @@ Nella tabella seguente sono riepilogate alcune espressioni di esempio che è pos
 | **Espressione** | **Interpretazione** |
 |---|---|
 | `after 6:00 and before 18:00 on Mon,Wed of Jan-Mar` | la risorsa viene riprodotta nel canale tra le 6 e le 18 il lunedì e il mercoledì da gennaio alla fine di marzo |
-| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 di sera del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 di mattina del 3 gennaio |
-| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la risorsa nel canale avvia il lettore dopo le 2:00 di pomeriggio del 1° gennaio, continua a essere riprodotta fino alle 3:00 di mattina del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 di sera e continua a essere riprodotta fino alle 3:00 di mattina del 3 gennaio |
+| `on the 1st day of January after 2:00 P.M. also on the 2nd day of January also on the 3rd day of January before 3:00 A.M.` | la risorsa nel canale inizia a essere riprodotta dopo le 2:00 del 1° gennaio e continua a essere riprodotta per l’intera giornata del 2 gennaio fino alle 3:00 del 3 gennaio |
+| `on the 1-2 days of January after 2:00 P.M. also on the 2-3 days of January before 3:00 A.M.` | la risorsa nel canale avvia il lettore dopo le 2:00 del 1° gennaio, continua a essere riprodotta fino alle 3:00 del 2 gennaio, quindi riparte il 2 gennaio alle 2:00 e continua a essere riprodotta fino alle 3:00 del 3 gennaio |
 
 >[!NOTE]
->Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.*(2:00 P.M.).
+>
+>Quando definisci i giorni della settimana e i mesi, puoi utilizzare sia le notazioni a breve termine che quelle con nome completo, come lunedì/lunedì e gennaio/gennaio. È inoltre possibile utilizzare la notazione _ora militare_ (14:00) invece di *A.M./P.M.*(2:00).
 
 
 ## Attivazione di più risorse {#multi-asset-scheduling}
@@ -263,6 +272,3 @@ Di conseguenza, l’autore del contenuto può designare la riproduzione di una r
    ![schermata_shot_2018-12-21at70550am](/help/user-guide/assets/asset-activation/Asset-level4.png)
 
 1. Per una sostituzione globale, immetti il tempo di attivazione nella sezione **Sostituzione fuso orario** per la risorsa. Se non immetti nulla in quest’area, il fuso orario applicato è quello del lettore.
-
-
-
