@@ -8,28 +8,36 @@ exl-id: 6ed86bfc-38c7-4ced-b472-db2a362585c5
 TQID: https://experienceleague.adobe.com/3KiJEdVpZNlcvEo9PBzkyYJqIsQfBgXQY7-HlZZVxVE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a5fd0e22-1a77-4f49-a6af-7a57fff19aed
+    internal-label: Authoring Screens
 subfeature_v2:
   - id: ba4275ba-c29a-4197-90dc-5a633402ca3c
+    internal-label: Channels
   - id: d4878390-3838-4e80-8cb3-33bc1a01ea16
+    internal-label: Channel assignment
   - id: f5973e90-a5a3-4b84-8602-ee120d4ce9b1
+    internal-label: Content
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 08f666494c3dd0648c6379dabeb5d60bb16d950a
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1295'
 ht-degree: 2%
-
 ---
-
 # Assegnazione canale {#channel-assignment}
 
 >[!IMPORTANT]
+>
 >Questa sezione illustra l’assegnazione dei canali e la pianificazione dei canali per Feature Pack precedenti alla versione Screens di AEM 6.5.5.
 
 Dopo aver impostato una visualizzazione, assegna un canale a una visualizzazione per visualizzarne il contenuto.
@@ -78,6 +86,7 @@ Il ruolo del canale definisce il contesto della visualizzazione. Il ruolo esegue
 La priorità viene utilizzata per ordinare le assegnazioni nel caso in cui più corrispondano ai criteri di riproduzione. Quello con il valore più alto ha sempre la precedenza sui valori più bassi. Ad esempio, se sono presenti due canali A e B. A ha una priorità di 1 e B ha una priorità di 2, quindi viene visualizzato il canale B, in quanto ha una priorità più alta di A.
 
 >[!NOTE]
+>
 >La priorità per un canale è impostata come numero (minimo 1) nella finestra di dialogo **Assegnazione canale**, come indicato in precedenza. Inoltre, i canali assegnati vengono ordinati in base alla priorità decrescente.
 
 ### Eventi supportati {#supported-events-channel}
@@ -131,13 +140,13 @@ In questo caso, puoi dividere ogni giorno in tre diversi intervalli di tempo in 
 
 | **Canale** | **Ruolo** | **Priorità** | **Pianificazione** |
 |---|---|---|---|
-| Menu_A | Colazione |  | Dopo 6:00 e prima di 11:00 |
-| Menu_B | Pranzo |  | Dopo 11:00 e prima di 15:00 |
-| Menu_C | Cena |  | Dopo 15:00 e prima di 20:00 |
+| Menu_A | Colazione |  | Dopo le 6:00 e prima delle 11:00 |
+| Menu_B | Pranzo |  | Dopo le 11:00 e prima delle 15:00 |
+| Menu_C | Cena |  | Dopo le 15:00 e prima delle 20:00 |
 
 #### Riproduzione di contenuti in un giorno specifico della settimana {#playing-content-on-a-particular-day-of-the-week}
 
-Questo esempio mostra il dayParting ottenuto in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:10:00 e i piatti speciali sono disponibili per il menu di cena dopo le 22:00 alle 13:00.:00:00:00:00
+Questo esempio mostra il dayParting ottenuto in un casinò in cui si verifica un evento live ogni fine settimana dalle 20:00 alle 22:00 e i menu per la cena sono disponibili dopo le 22:00 fino all’1:00.
 
 <table>
  <tbody>
