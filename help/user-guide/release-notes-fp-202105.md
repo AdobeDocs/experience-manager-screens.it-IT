@@ -5,21 +5,26 @@ feature: Feature Pack
 role: Developer
 level: Intermediate
 exl-id: fc210d9d-5fac-4147-849d-182ffbaf0a5e
-TQID: https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg
+TQID: 'https://experienceleague.adobe.com/lm2FhBZ2X-GzGoCRrsUuAKmC7vPfyaPXwYXSTxxOBJg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ad636d67-61fa-5d69-a17e-20f06cb716b9
+    internal-label: Feature Pack
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0b0bfcd803c3da9298122200a0a1715fc2d5e49c
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '410'
 ht-degree: 5%
-
 ---
-
 # Note sulla versione per Feature Pack 202105 {#release-notes-for-feature-pack}
 
 >[!CAUTION]
@@ -47,14 +52,14 @@ La data di rilascio del Feature Pack 202105 per AEM Screens è il 4 giugno 2021.
 * **Denominazione dispositivo lettore AEM Screens**
 
   I lettori AEM Screens ora includono la funzionalità di invio di un nome di dispositivo a Adobe Experience Manager (AEM).
-Per impostazione predefinita, quando si utilizza la registrazione in blocco per registrare un dispositivo, nel campo del titolo viene inserito un nome utente generato dal sistema. In alternativa, è possibile utilizzare un tag risorsa o un altro nome descrittivo che risulti visibile in AEM e risulti più semplice assegnare il contenuto appropriato.
+  Per impostazione predefinita, quando si utilizza la registrazione in blocco per registrare un dispositivo, nel campo del titolo viene inserito un nome utente generato dal sistema. In alternativa, è possibile utilizzare un tag risorsa o un altro nome descrittivo che risulti visibile in AEM e risulti più semplice assegnare il contenuto appropriato.
 
   Per informazioni su come configurare il nome in ciascun sistema operativo supportato, consultare la seguente documentazione:
 
-   * [Android™](/help/user-guide/implementing-android-player.md#name-android)
-   * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
-   * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
-   * [CHROME OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
+  * [Android™](/help/user-guide/implementing-android-player.md#name-android)
+  * [Windows](/help/user-guide/implementing-windows-player.md#name-windows)
+  * [Tizen](/help/user-guide/tizen-player.md#name-tizen)
+  * [CHROME OS](/help/user-guide/implementing-chrome-os-player.md#name-chrome)
 
 * **Generazione manifesto**
 

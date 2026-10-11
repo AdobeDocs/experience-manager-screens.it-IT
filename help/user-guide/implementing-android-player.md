@@ -10,30 +10,42 @@ feature: Administering Screens, Android Player
 role: Admin
 level: Intermediate
 exl-id: d1331cb8-8bf6-4742-9525-acf18707b4d8
-TQID: https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo
+TQID: 'https://experienceleague.adobe.com/1vHr2YOQgczQlho8xJd9uV7k8Xh3qIu99C7IfRi6bzo'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: d51a71e3-4c5a-568a-bfd8-34f29ea843db
+    internal-label: Administering Screens
+  - id: f18e6c98-d21a-4444-b84b-f327ce464de4
+    internal-label: Integrations
+subfeature_v2:
+  - id: d7b36a26-f22a-49eb-b5be-019feb42d381
+    internal-label: Android Player
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Troubleshooting
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 0%
-
 ---
-
 # Implementazione di Android™ Player {#implementing-android-player}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 >[!CAUTION]
 >AEM Screens Player basato su Android è ufficialmente dichiarato obsoleto. Si consiglia agli utenti di effettuare la migrazione a un altro sistema operativo supportato da AEM Screens.
@@ -136,7 +148,8 @@ Quando si esegue il rollout in massa del lettore Android™, è necessario esegu
 
 Segui i passaggi seguenti per consentire il provisioning in blocco nel lettore Android™:
 
-1. Creare un file JSON di configurazione denominato `player-config.default.json`.Vedere un [Esempio di criteri JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [attributi dei criteri](#policy-attributes).
+1. Creare un file JSON di configurazione denominato `player-config.default.json`.
+Vedere un [Esempio di criteri JSON](#example-json) e una tabella che descrive l&#39;utilizzo dei vari [attributi dei criteri](#policy-attributes).
 
 1. Utilizza uno strumento di esplorazione file MDM, ADB o Android™ Studio per rilasciare questo file JSON per i criteri nella cartella *sdcard* sul dispositivo Android™.
 
