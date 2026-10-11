@@ -6,21 +6,26 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 3f4813f8-0438-4ce0-9046-84025de0ddd1
-TQID: https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE
+TQID: 'https://experienceleague.adobe.com/f26UFATHoXD7n8eEH9Dp-1KpC843nb21Mg4nTbRAWSE'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Intermediate
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '943'
 ht-degree: 1%
-
 ---
-
 # Creazione di modelli personalizzati per i layout multizona {#creating-custom-templates-multizone}
 
 >[!IMPORTANT]
@@ -45,9 +50,9 @@ Prima di creare un modello personalizzato in un layout multizona è necessario t
 
    | **Nome layout** | **Descrizione** |
    |---|---|
-   | `Left20-LandscapeHD3Zone` | Layout orizzontale a tre zone che consente di creare tre zone:<br>* Zona 1 come 20% dello schermo orizzontale e verticale da sinistra<br>* Zona 2 come 80% dello schermo orizzontale e 20% dello schermo verticale giustificato a destra<br>* Zona 3 come 100% dello schermo orizzontale e 80% dello schermo verticale. Proporzioni: 16:9 |
-   | `Upper20-PortraitHD2Zone` | Modello di ritratto a due zone che copre il 20% dello schermo dall&#39;alto, con proporzioni di 16:9 |
-   | `Right20-LandscapeSD3Zone` | Un modello in tre aree che copre il 20% dello schermo da destra, con proporzioni di 4:3 |
+   | `Left20-LandscapeHD3Zone` | Layout orizzontale a tre zone che consente di creare tre zone:<br>* Zona 1 come 20% dello schermo orizzontale e verticale da sinistra<br>* Zona 2 come 80% dello schermo orizzontale e 20% dello schermo verticale giustificato a destra<br>* Zona 3 come 100% dello schermo orizzontale e 80% dello schermo verticale. Il rapporto di formato è 16:9 |
+   | `Upper20-PortraitHD2Zone` | Modello di ritratto in due zone che copre il 20% dello schermo dalla parte superiore, con proporzioni di 16:9 |
+   | `Right20-LandscapeSD3Zone` | Modello a tre aree che copre il 20% dello schermo da destra, con proporzioni di 4:3 |
 
    >[!IMPORTANT]
    >Le aree definite nel layout personalizzato potrebbero non corrispondere alle proporzioni complessive dell&#39;intero layout. La convenzione di denominazione utilizzata in questo documento specifica le proporzioni del layout personalizzato nel suo complesso.
@@ -170,7 +175,7 @@ Potete inserire un&#39;immagine come livello di sfondo nel layout:
 È possibile regolare la regola CSS per utilizzare &quot;data-uri&quot; e allineare direttamente l&#39;immagine (`Base64` codificata) nel file CSS creato in (passaggio 13), *static.css*.
 
 Questa disposizione viene eseguita come segue:
-
+`.cq-Screens-channel--multizone.my-CustomLayout { background: url('data:image/…;base64,…') no-repeat center center; }`
 
 Oppure, puoi seguire i passaggi seguenti:
 

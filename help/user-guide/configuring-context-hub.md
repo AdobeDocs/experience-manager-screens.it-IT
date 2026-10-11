@@ -10,26 +10,33 @@ feature: Developing Screens
 role: Developer
 level: Intermediate
 exl-id: 04072107-d6be-4030-bb79-1f1a7609f37e
-TQID: https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg
+TQID: 'https://experienceleague.adobe.com/aLtguYZ6JwUbzmMP1S3UvOJ2b0RoFimlPvSE7AJ5Csg'
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+  - id: 7ddc0e74-2124-5f1a-82c8-6cf1b0764d99
+    internal-label: Developing Screens
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
+    internal-label: Personalization
+source-git-commit: 6da8abce615318ac06ac4f2cf1c8c4576a3818dc
 workflow-type: tm+mt
-source-wordcount: 1537
+source-wordcount: '1537'
 ht-degree: 3%
-
 ---
-
 # Configurazione di ContextHub in AEM Screens {#configuring-contexthub-in-aem-screens}
 
 >[!IMPORTANT]
@@ -230,7 +237,8 @@ Segui i passaggi seguenti per creare un marchio nelle attività e nelle aree sot
 
    1. Fare clic su **Area** dalla procedura guidata **Crea pagina** e fare clic su **Avanti**.
 
-   1. Immetti **Titolo** come **ValoreSchermi** e fai clic su **Crea**.Nel tuo marchio viene creata un’area.
+   1. Immetti **Titolo** come **ValoreSchermi** e fai clic su **Crea**.
+      Nel tuo marchio viene creata un’area.
 
 ## Passaggio 5: Creazione dei segmenti in un’attività {#step-setting-up-audience-segmentation}
 
