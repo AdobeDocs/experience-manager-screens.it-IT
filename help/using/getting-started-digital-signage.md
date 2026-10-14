@@ -5,23 +5,26 @@ exl-id: e3913be2-9028-4773-a034-e16924a71e04
 TQID: https://experienceleague.adobe.com/w0fVaYNPs2emLyL377rLTXLZRcXd05B56FtIn3Yjoqg
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 464
+source-wordcount: '464'
 ht-degree: 0%
-
 ---
-
 # Nozioni di base di un progetto di digital signage {#basics-digital-signage}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Prima di immergerti nelle best practice per l’implementazione di AEM Screens, è importante considerare il progetto come un progetto di digital signage, invece di uno sviluppo software tradizionale.
 
@@ -29,7 +32,7 @@ Questa sezione fornisce consigli sui principali elementi chiave fondamentali per
 
 ## Elementi chiave nel digital signage {#key-elements}
 
-Gli elementi chiave *1&rbrace; in un progetto di digital signage sono:*
+Gli elementi chiave *1} in un progetto di digital signage sono:*
 
 ![](/help/assets/Elements-Revised.png)
 
@@ -43,25 +46,25 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
    * Uso del filo di rame fisico
    * Dimensioni degli schermi
    * Numero di schermate
-      * orientation
-      * proporzioni
-      * preferenza di risoluzione
+     * orientation
+     * proporzioni
+     * preferenza di risoluzione
 
 1. **Connettività**
 
    Connectivity pone l’accento sulle seguenti domande:
    * Rete (cellulare o wi-fi) o standalone?
-      * È necessario consentire gli aggiornamenti dei contenuti USB?
-      * Devi consentire l’utilizzo della raccolta dati?
+     * È necessario consentire gli aggiornamenti dei contenuti USB?
+     * Devi consentire l’utilizzo della raccolta dati?
 
 1. **Installazione**
 
    L&#39;installazione include:
    * Display: orizzontale o verticale
    * Come viene montato lo schermo?
-      * Orientamento verticale e orientamento orizzontale
-      * Alloggiamento completo
-      * Piastra di copertura
+     * Orientamento verticale e orientamento orizzontale
+     * Alloggiamento completo
+     * Piastra di copertura
    * Supporto di dispositivi fissi
    * Personale: responsabile dell&#39;installazione dell&#39;apparecchiatura e del suo collegamento alla rete
    * Quanto dista la fonte di alimentazione dall&#39;impianto?
@@ -71,30 +74,30 @@ Definire gli elementi chiave è essenziale prima di implementare un progetto di 
 
    Il contenuto include:
    * Zona singola o zona multipla?
-      * Quante risorse multimediali sono visualizzate sullo schermo contemporaneamente?
-      * Quante pagine per le applicazioni interattive?
-      * Definire il ciclo dell’interfaccia utente
-      * Contenuto basato su dati?
+     * Quante risorse multimediali sono visualizzate sullo schermo contemporaneamente?
+     * Quante pagine per le applicazioni interattive?
+     * Definire il ciclo dell’interfaccia utente
+     * Contenuto basato su dati?
    * Controllo della versione
 
 1. **Interattivo**
 
    Il servizio interattivo include:
    * Tipo di touchscreen preferito? (resistivo, capacitivo, multi-touch)?
-      * Pressione pulsante
-      * Gesto
+     * Pressione pulsante
+     * Gesto
    * Attivazione dati (I/O)?
-      * Invio/ricezione di comandi seriali (chiusura contatto, PLC e così via)
-      * I dati in arrivo vengono visualizzati sullo schermo (RSS) o attivano il contenuto
-      * RFID/NFC/Bluetooth/iBeacon
-      * Servizi esterni (meteo, traffico)
+     * Invio/ricezione di comandi seriali (chiusura contatto, PLC e così via)
+     * I dati in arrivo vengono visualizzati sullo schermo (RSS) o attivano il contenuto
+     * RFID/NFC/Bluetooth/iBeacon
+     * Servizi esterni (meteo, traffico)
 
 1. **Ambiente**
 
    L&#39;ambiente pone l&#39;accento su:
    * Mostrare la posizione?
-      * Interno ed esterno
-      * Fuori dalla portata o direttamente esposto
+     * Interno ed esterno
+     * Fuori dalla portata o direttamente esposto
    * Requisito particolare di temperatura?
    * Prova di atti vandalici?
    * Luce ambiente elevata? Contrasti forti?

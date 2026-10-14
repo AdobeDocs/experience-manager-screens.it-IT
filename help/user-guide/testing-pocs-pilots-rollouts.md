@@ -45,7 +45,7 @@ ht-degree: 0%
 # Parte 3: Test, POC, Piloti e rollout {#part-testing-pocs-pilots-rollouts}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 Questa pagina evidenzia la parte 3 di una serie in 5 parti progettata per aiutare i membri del gruppo a comprendere meglio i termini chiave fondamentali per garantire che una soluzione di successo possa essere sviluppata prima di un rollout.
 
@@ -101,7 +101,7 @@ Considerare tutte queste fasi come parte del piano generale del progetto aiuta a
 
 ### Test, POC, pilota e rollout
 
->[!VIDEO](https://video.tv.adobe.com/v/36982?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28405)
 
 *Scopri i termini chiave di un piano di progetto complessivo, ad esempio il ciclo del progetto, le azioni relative ai test hardware, la verifica del concetto, i progetti pilota e i rollout.*
 

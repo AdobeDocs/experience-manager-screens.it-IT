@@ -5,22 +5,24 @@ exl-id: 11781e0b-0aca-4d08-aaad-87a7aaf28c24
 TQID: https://experienceleague.adobe.com/UticeR0hdyxXrG1P5qrwzrJLhZ3h5BRCfjamUzzu-XE
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 736
+source-wordcount: '736'
 ht-degree: 49%
-
 ---
-
 # Introduzione ad AEM Screens {#introduction}
 
 >[!IMPORTANT]
->Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
+>Questo contenuto è valido per AEM on-premise/AMS (AEM 6.5LTS e AEM 6.5). Per i contenuti di AEM as a Cloud Service Screens, consulta la [guida di AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/overview/introduction).
 
 **AEM Screens** è una soluzione di digital signage che consente di creare, pubblicare e riprodurre esperienze digitali dinamiche e interattive. La presentazione coinvolge diversi tipi di schermi in un evento e adotta una strategia di marketing digitale omni-channel completa.
 
@@ -37,7 +39,7 @@ Inoltre, Screens fornisce molte applicazioni uniche per clienti e dipendenti in 
 * **branding;**
 * **aggiunta di atmosfera all’ambiente.**
 
-La creazione e la gestione di una rete di digital signage con AEM Screens è semplice e intuitiva. Un’applicazione lettore ospita canali di contenuti creati per AEM Screens dai clienti o dai partner di implementazione. *Le posizioni* gestiscono una gerarchia di posizioni predefinita e contengono visualizzazioni. Ogni *display* ha un dashboard che mostra i diversi dispositivi e schermi collegati. I contenuti per AEM Screens vengono gestiti in *canali*. *AEM Screens Player* riproduce sui display i contenuti presenti nei canali.
+La creazione e la gestione di una rete di insegne digitali con AEM Screens è semplice e intuitiva. Un’applicazione lettore ospita canali di contenuti creati per AEM Screens dai clienti o dai partner di implementazione. *Le posizioni* gestiscono una gerarchia di posizioni predefinita e contengono visualizzazioni. Ogni *display* ha un dashboard che mostra i diversi dispositivi e schermi collegati. I contenuti per AEM Screens vengono gestiti in *canali*. *AEM Screens Player* riproduce sui display i contenuti presenti nei canali.
 
 >[!NOTE]
 >
@@ -49,7 +51,7 @@ La creazione e la gestione di una rete di digital signage con AEM Screens è sem
 >
 >Se il team di implementazione ha esperienza nell’utilizzo delle applicazioni AEM Sites, è importante comprendere la differenza tra AEM Sites e AEM Screens.
 
-AEM Screens fornisce una piattaforma unificata di authoring/riproduzione per distribuire i contenuti ai dispositivi di digital signage negli spazi pubblici. Anche se è importante mantenere quanta più coerenza possibile tra i canali Web e quelli interni, è necessario tenere presente alcune differenze.
+AEM Screens fornisce una piattaforma unificata di authoring e riproduzione per distribuire i contenuti ai dispositivi per insegne digitali negli spazi pubblici. Anche se è importante mantenere quanta più coerenza possibile tra i canali Web e quelli interni, è necessario tenere presente alcune differenze.
 
 * **Tempo di permanenza**: in genere, le pagine Web sono progettate per fornire un&#39;ampia gamma di informazioni che possono essere utilizzate per un periodo di tempo relativamente più lungo. Al contrario, le esperienze digitali interne dovrebbero anticipare le esigenze dell&#39;osservatore e fornire indicazioni chiare e concise utili a coinvolgere l’utente. Tale attenzione si traduce in esperienze più mirate, curate e contestuali.
 
