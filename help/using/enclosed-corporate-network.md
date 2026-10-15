@@ -5,19 +5,22 @@ exl-id: b8c52e72-86da-4089-ba02-0c643862419f
 TQID: https://experienceleague.adobe.com/3lU7N2840DVcH38SAQ-mthEwBcbUeQPl9Xea5Ms0L9k
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: '751'
 ht-degree: 0%
-
 ---
-
 # Rete aziendale chiusa (cablata/wireless) {#enclosed-corporate-networks}
 
 >[!IMPORTANT]
@@ -46,7 +49,7 @@ Segui i passaggi seguenti per garantire la corretta connessione dei lettori AEM 
 1. Se la chiamata URL ha esito positivo, puoi continuare a installare AEM Screens e registrarti. Avvia AEM Screens.
 
    >[!NOTE]
-   >**Suggerimento per la risoluzione dei problemi
+   >**Suggerimento per la risoluzione dei problemi**
    >Se AEM Screens non si connette correttamente e il contenuto previsto non viene visualizzato:
    >
    >1. Se sono presenti restrizioni relative a `TCP/IP Port 80/443`, controlla nel firewall del router Internet.
@@ -61,7 +64,8 @@ L&#39;installazione di Enclosed Corporate Network può essere separata logicamen
 
 ### Wide Area Network {#wan-connection}
 
-Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire un agevole aggiornamento dei contenuti AEM Screens.*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
+Le prestazioni della connessione Internet, oltre alla raggiungibilità della rete, devono fornire una larghezza di banda sufficiente per consentire un agevole aggiornamento dei contenuti AEM Screens.
+*Larghezza di banda sufficiente* dipende dal numero di AEM Screens connessi. Dipende anche dall&#39;uso di altri consumatori all&#39;interno della rete, come smartphone, tablet, cassieri, computer o reti Wi-Fi guest.
 
 >[!NOTE]
 >
@@ -77,9 +81,11 @@ Ad esempio, i componenti di rete devono corrispondere almeno allo standard 100 M
 
 ### Altre reti aziendali specifiche {#other-networks}
 
-Le reti aziendali hanno diversi dispositivi connessi, sono separate in varie sottoreti e dispongono di connessioni Internet ridondanti o multiplexate per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.Questo schema è semplificato e si adatta nella maggior parte dei casi agli ambienti disponibili per il client.
+Le reti aziendali hanno diversi dispositivi connessi, sono separate in varie sottoreti e dispongono di connessioni Internet ridondanti o multiplexate per fornire prestazioni sufficienti per molte migliaia di accessi simultanei.
+Questo schema è semplificato e si adatta nella maggior parte dei casi agli ambienti disponibili per il client.
 
-Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
+Nel caso in cui sia prevista una soluzione Wi-Fi per collegare AEM Screens al collegamento Internet, si consiglia di utilizzare come minimo standard Wi-Fi moderni come `IEEE 802.11g`. Questo standard supporta connessioni fino a 54 Mbps. Tutti gli standard *più recenti* come `802.11h-n` sono di qualità migliore. Se è necessario un ripetitore Wi-Fi, Adobe consiglia tecnologie per punti di accesso Wi-Fi Mesh come Google Nest Mesh Wi-Fi o simili.
+Altre tecnologie di ripetizione Wi-Fi finiscono in una massiccia perdita di larghezza di banda nella rete globale.
 
 ## Download di contenuti multimediali e Assets {#download}
 

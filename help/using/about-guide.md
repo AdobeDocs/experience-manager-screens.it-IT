@@ -5,19 +5,22 @@ exl-id: b6db6df1-9fe4-40a6-88a9-9baed41a7492
 TQID: https://experienceleague.adobe.com/s4vaziHfQV-xOuOjfAr3c7anH52J43Qh4CJnVPcB4mQ
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 27%
-
 ---
-
 # Informazioni su questa guida {#about-guide}
 
 >[!IMPORTANT]
@@ -37,7 +40,7 @@ Tuttavia, è opportuno sottolineare che anche molti altri ruoli possono trarre v
 
 AEM Screens è una nuova estensione di Adobe Experience Manager (AEM). Poiché gli strumenti sono nuovi e le loro potenziali applicazioni variano, è fondamentale identificare importanti considerazioni e fattori di rischio comuni coinvolti nello sviluppo e nella distribuzione di AEM Screens.
 
-Questa guida fornisce un insight completo e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione per insegne digitali. Inoltre, illustra come creare un impatto positivo sull’azienda utilizzando alcune delle best practice adottate durante l’implementazione di un progetto di segnaletica digitale in AEM Screens.
+Questa guida fornisce un insight completo e consigli pratici per immaginare, progettare e introdurre esperienze cliente intenzionali nell’implementazione per insegne digitali. Inoltre, illustra come creare un impatto positivo sull’azienda utilizzando alcune delle best practice adottate durante l’implementazione di un progetto di insegne digitali in AEM Screens.
 
 >[!IMPORTANT]
 >
@@ -52,6 +55,6 @@ Questa guida fornisce un insight completo e consigli pratici per immaginare, pro
 >
 > Termini utilizzati in questa guida (nel contesto di AEM Screens):
 >
-> * **UX:** esperienze di digital signage fornite ai clienti finali.
+> * **UX:** esperienze per insegne digitali fornite ai clienti finali.
 > * **UI** è considerata l&#39;interfaccia utente che consente di creare e gestire i progetti in Screens.
 
