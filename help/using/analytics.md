@@ -5,18 +5,20 @@ exl-id: cfb47e94-9f65-43f3-b197-07222f3f6424
 TQID: https://experienceleague.adobe.com/i7B7E5Kyno2U-ZTxEOPfhrr9W7fqYTWTV5vvcteRicY
 product_v2:
   - id: a27b4747-2f72-4fb7-9936-be5d11dd2c4a
+    internal-label: Experience Manager Screens
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 source-git-commit: 6ffdfa02d948d50b544f6fa5164dc6dca8bff638
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 # Analytics con AEM Screens {#analytics-screens}
 
 >[!IMPORTANT]
@@ -34,5 +36,6 @@ Il primo prevede **cicli di feedback e apprendimento automatico**, mentre il sec
 
 Nel caso di utilizzo del ciclo di feedback, non è necessario preoccuparsi dei rapporti visivi o delle dashboard, ma desideri definire regole su cui AEM può eseguire la modifica del contenuto. Utilizzando ed elaborando tutti i dati evento del lettore Screens da un determinato periodo di tempo, puoi definire una regola che valuta l’efficacia di image1 rispetto a image2. Combinando i dati di vendita con i dati di riproduzione, AEM può determinare che image1 ha un impatto maggiore sulle vendite e indica automaticamente a tutti i lettori di utilizzare image1.
 
-Il secondo caso di utilizzo con Analytics consiste nell’elaborare eventi di riproduzione e dati di utilizzo per il consumo umano tramite rapporti e dashboard.Puoi utilizzare questi dati per creare una mappa di calore di un’esperienza interattiva per determinare la mappa di percorso preferita tramite l’applicazione. Puoi anche scegliere di creare una dashboard che fornisca un’interpretazione grafica del numero di volte in cui i consumatori interagiscono con l’applicazione.
+Il secondo caso di utilizzo con Analytics consiste nell’elaborare eventi di riproduzione e dati di utilizzo per il consumo umano tramite rapporti e dashboard.
+Puoi utilizzare questi dati per creare una mappa di calore di un’esperienza interattiva per determinare la mappa di percorso preferita tramite l’applicazione. Puoi anche scegliere di creare una dashboard che fornisca un’interpretazione grafica del numero di volte in cui i consumatori interagiscono con l’applicazione.
 
