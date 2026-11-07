@@ -82,7 +82,7 @@ Segui questo tutorial conclusivo e segui un tutorial in serie in 5 parti, in cui
 
 ### Considerazioni sul progetto
 
->[!VIDEO](https://video.tv.adobe.com/v/28383)
+>[!VIDEO](https://video.tv.adobe.com/v/3507264?captions=ita)
 
 *Scopri come risolvere i problemi di hardware, software e connettività. Esplora le stime dei costi e i framework per il supporto onsite.*
 
