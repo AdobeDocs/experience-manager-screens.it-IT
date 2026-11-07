@@ -111,7 +111,7 @@ Segui l’esercitazione seguente per scoprire la strategia dei contenuti, i live
 
 ### Considerazioni relative all’ambito dei progetti
 
->[!VIDEO](https://video.tv.adobe.com/v/28380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507221?captions=ita)
 
 *Scopri la strategia dei contenuti, i livelli di I/O, i tipi di risorse e la segmentazione del pubblico. Leggi informazioni sulle parti giornaliere, sui requisiti delle operazioni aziendali e sulle considerazioni relative alla preparazione del sito.*
 

@@ -586,7 +586,7 @@ Il codice seguente fornisce i requisiti minimi in `pom.xml` per quel progetto sp
 
 Il video seguente mostra il componente finito e come può essere aggiunto a un canale Sequenza. Il canale viene quindi aggiunto a una visualizzazione Posizione e infine assegnato a un lettore Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22385?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507028?captions=ita&quaity=9)
 
 ## Altre considerazioni sui componenti personalizzati che incorporano altre pagine o frammenti {#additional-considerations}
 

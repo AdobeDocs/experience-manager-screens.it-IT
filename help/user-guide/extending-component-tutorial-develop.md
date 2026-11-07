@@ -533,7 +533,7 @@ Il componente Poster viene utilizzato su un canale Sequenza. Il pacchetto inizia
 
 Il video seguente mostra il componente finito e come può essere aggiunto a un canale Sequenza. Il canale viene quindi aggiunto a una visualizzazione Posizione e infine assegnato a un lettore Screens.
 
->[!VIDEO](https://video.tv.adobe.com/v/22414?quaity=9)
+>[!VIDEO](https://video.tv.adobe.com/v/3507019?captions=ita&quaity=9)
 
 ## Codice finito {#finished-code}
 
